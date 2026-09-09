@@ -6,7 +6,7 @@
   --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
   --hair:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
   --no:#2a78d6; --shv:#1baf7a; --br:#eda100; --laf:#e87ba4; --mon:#eb6834; --lkc:#008300; --alx:#4a3aa7;
-  --accent:#2a78d6; --accent-ink:#1c5cab;
+  --accent:#2a78d6; --accent-ink:#1c5cab; --quiet:#c3c2b7;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -14,7 +14,7 @@
     --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
     --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
     --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
-    --accent:#3987e5; --accent-ink:#6da7ec;
+    --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46;
   }
 }
 :root[data-theme="dark"]{
@@ -22,33 +22,30 @@
   --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
   --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
   --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
-  --accent:#3987e5; --accent-ink:#6da7ec;
+  --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46;
 }
 *{box-sizing:border-box}
 body{background:var(--page); color:var(--ink); font:16px/1.55 "Source Serif 4",Georgia,serif; margin:0;}
 .wrap{max-width:1080px; margin:0 auto; padding:0 20px 72px;}
 a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px;}
 h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance; margin:0;}
-.sans{font-family:Archivo,"Segoe UI",system-ui,sans-serif;}
 .mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;}
 .eyebrow{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink2);}
 .eyebrow a{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
 .eyebrow a:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
 
-/* masthead */
 header{padding:44px 0 0;}
 header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
 .dek{max-width:62ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
 .dek b{color:var(--ink); font-weight:600;}
-/* frequency strip: seven markets, segment width = TV households */
 .freq{display:flex; gap:2px; margin:26px 0 0; height:14px; border-radius:3px; overflow:hidden;}
 .freq span{display:block; height:100%; min-width:6px;}
-.freqcap{display:flex; justify-content:space-between; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-weight:600; margin-top:6px;}
+.freqcap{display:flex; justify-content:space-between; gap:12px; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-weight:600; margin-top:6px;}
 
-/* stat strip */
 .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--hair); border:1px solid var(--hair); margin:34px 0 0;}
 .stat{background:var(--surface); padding:14px 16px 12px;}
 .stat .v{font-family:Archivo,system-ui,sans-serif; font-weight:900; font-size:30px; line-height:1.1; letter-spacing:-.01em;}
+.stat .v small{font-size:19px; font-weight:700; color:var(--muted);}
 .stat .l{font-size:12.5px; color:var(--ink2); font-family:Archivo,system-ui,sans-serif; margin-top:3px; line-height:1.35;}
 @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr);}}
 
@@ -57,369 +54,487 @@ section{margin-top:64px;}
 section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.01em; margin:6px 0 0;}
 .intro{max-width:62ch; color:var(--ink2); margin:12px 0 0; font-size:16.5px;}
 .intro b{color:var(--ink); font-weight:600;}
+.cap{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin-top:12px; max-width:72ch;}
+
+/* pulse chart */
+.pulse{margin-top:26px; border:1px solid var(--hair); background:var(--surface); padding:20px 20px 12px;}
+#pulse{width:100%; height:auto; display:block; overflow:visible;}
+.pbar{transition:opacity .15s;}
+.pbar:hover{opacity:.75;}
+.ptick{font-family:"IBM Plex Mono",monospace; font-size:10px; fill:var(--muted);}
+.pgov{font-family:Archivo,system-ui,sans-serif; font-size:10px; font-weight:700; fill:var(--ink2); letter-spacing:.04em;}
+.pgrid{stroke:var(--hair); stroke-width:1;}
+.pbase{stroke:var(--baseline); stroke-width:1;}
+.pval{font-family:"IBM Plex Mono",monospace; font-size:10.5px; font-weight:600; fill:var(--ink);}
 
 /* map + panel */
 .mappanel{display:grid; grid-template-columns:minmax(0,1.35fr) minmax(300px,1fr); gap:28px; margin-top:26px; align-items:start;}
 @media(max-width:860px){.mappanel{grid-template-columns:1fr;}}
 #map{width:100%; height:auto; display:block;}
-.parish{stroke:var(--page); stroke-width:1; cursor:pointer; transition:opacity .18s ease, fill-opacity .18s ease;}
-@media(prefers-reduced-motion:reduce){.parish{transition:none;} }
+.parish{stroke:var(--page); stroke-width:1; cursor:pointer; transition:fill-opacity .18s ease;}
+@media(prefers-reduced-motion:reduce){.parish,.pbar{transition:none;}}
 .dmalabel{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:15px; letter-spacing:.06em; fill:var(--ink); paint-order:stroke; stroke:var(--page); stroke-width:4px; stroke-linejoin:round; cursor:pointer; text-transform:uppercase;}
 .dmarank{font-family:"IBM Plex Mono",monospace; font-weight:500; font-size:11.5px; fill:var(--ink2); paint-order:stroke; stroke:var(--page); stroke-width:3.5px; stroke-linejoin:round; cursor:pointer;}
 .citydot{fill:var(--ink); stroke:var(--page); stroke-width:1.4;}
-.cityname{font-family:Archivo,system-ui,sans-serif; font-size:9.5px; fill:var(--ink2); paint-order:stroke; stroke:var(--page); stroke-width:3px; letter-spacing:.02em;}
-.mapcap{font-size:12.5px; color:var(--muted); margin-top:10px; font-family:Archivo,system-ui,sans-serif; max-width:60ch;}
+.cityname{font-family:Archivo,system-ui,sans-serif; font-size:9.5px; fill:var(--ink2); paint-order:stroke; stroke:var(--page); stroke-width:3px;}
 
 .panel{border:1px solid var(--hair); background:var(--surface);}
-.tabs{display:flex; flex-wrap:wrap; gap:0; border-bottom:1px solid var(--hair);}
+.tabs{display:flex; flex-wrap:wrap; border-bottom:1px solid var(--hair);}
 .tab{font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:500; padding:8px 0 7px; flex:1 1 auto; text-align:center; background:none; border:none; border-bottom:3px solid transparent; color:var(--muted); cursor:pointer;}
 .tab:hover{color:var(--ink);}
 .tab:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
 .tab[aria-selected="true"]{color:var(--ink); font-weight:600;}
-.panelhead{padding:16px 18px 6px;}
+.panelhead{padding:16px 18px 10px;}
 .panelhead h3{font-size:20px; font-weight:700;}
-.panelmeta{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink2); margin-top:4px;}
+.panelbig{font-family:Archivo,system-ui,sans-serif; font-weight:900; font-size:26px; letter-spacing:-.01em; margin-top:8px; line-height:1;}
+.panelmeta{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink2); margin-top:5px; line-height:1.5;}
 .panelmeta b{color:var(--ink); font-weight:600;}
-.stlist{list-style:none; margin:8px 0 0; padding:0 0 6px;}
+.stlist{list-style:none; margin:0; padding:0 0 6px;}
 .stlist li{padding:11px 18px 12px; border-top:1px solid var(--hair);}
 .strow{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;}
 .call{font-family:"IBM Plex Mono",monospace; font-weight:600; font-size:15px;}
 .net{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink2); border:1px solid var(--baseline); padding:1px 6px; border-radius:2px;}
 .chno{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted);}
 .ownerline{font-size:13px; color:var(--ink2); font-family:Archivo,system-ui,sans-serif; margin-top:3px;}
-.ownerline .nb{color:var(--muted); font-style:normal;}
-.buybar{display:flex; align-items:center; gap:8px; margin-top:7px;}
-.buybar .track{flex:1; height:6px; background:var(--hair); border-radius:3px; position:relative; overflow:hidden;}
-.buybar .fill{position:absolute; inset:0 auto 0 0; border-radius:3px;}
-.buybar .n{font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:600; min-width:8.2em; color:var(--ink2);}
-.buybar .n b{color:var(--ink);}
+.ownerline .nb{color:var(--muted);}
+.buybar{display:flex; align-items:center; gap:10px; margin-top:7px;}
+.buybar .track{flex:1; height:6px; background:var(--hair); border-radius:3px; position:relative;}
+.buybar .fill{position:absolute; inset:0 auto 0 0; border-radius:3px; min-width:2px;}
+.buybar .n{font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:600; color:var(--ink); min-width:5.2em; text-align:right;}
 
-/* ownership matrix */
-.matrixwrap{overflow-x:auto; margin-top:26px; border:1px solid var(--hair); background:var(--surface);}
+/* index chart */
+.idx{margin-top:26px; border:1px solid var(--hair); background:var(--surface); padding:18px 20px 16px; --lblw:180px;}
+@media(max-width:640px){.idx{--lblw:110px;}}
+.idxrow{display:grid; grid-template-columns:var(--lblw) 1fr; align-items:center; min-height:34px;}
+.idxlbl{display:flex; flex-direction:column; padding-right:12px;}
+.idxlbl .nm{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:12.5px; letter-spacing:.04em; text-transform:uppercase;}
+.idxlbl .sub{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted);}
+.idxzone{position:relative; height:22px;}
+.idxbar{position:absolute; top:3px; bottom:3px; left:0; border-radius:0 3px 3px 0; min-width:2px;}
+.idxval{position:absolute; top:50%; transform:translateY(-50%); font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:600; color:var(--ink); white-space:nowrap;}
+.parity{position:absolute; top:0; bottom:0; width:2px; background:var(--ink2);}
+.paritylbl{font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:600; color:var(--ink2); margin-left:var(--lblw); padding-left:4px;}
+
+/* ownership */
+.split{display:flex; gap:2px; margin-top:26px; height:34px; border-radius:3px; overflow:hidden;}
+.split div{display:flex; align-items:center; justify-content:center; font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:600; color:var(--page); min-width:0; overflow:hidden; white-space:nowrap;}
+.splitcap{display:flex; gap:18px; flex-wrap:wrap; margin-top:8px; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2);}
+.splitcap span{display:flex; align-items:center; gap:6px;}
+.splitcap i{width:10px; height:10px; border-radius:2px; display:inline-block;}
+.matrixwrap{overflow-x:auto; margin-top:22px; border:1px solid var(--hair); background:var(--surface);}
 table.matrix{border-collapse:collapse; width:100%; min-width:760px;}
-.matrix th,.matrix td{border-top:1px solid var(--hair); padding:10px 10px; vertical-align:top; text-align:left;}
-.matrix thead th{border-top:none; font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--ink2); padding-top:12px; padding-bottom:8px;}
+.matrix th,.matrix td{border-top:1px solid var(--hair); padding:10px; vertical-align:top; text-align:left;}
+.matrix thead th{border-top:none; font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--ink2); padding-bottom:8px;}
 .matrix thead th small{display:block; font-family:"IBM Plex Mono",monospace; font-weight:400; letter-spacing:0; text-transform:none; color:var(--muted); margin-top:2px;}
 .matrix tbody th{font-family:Archivo,system-ui,sans-serif; font-size:13.5px; font-weight:600; white-space:nowrap; padding-right:14px;}
-.matrix tbody th small{display:block; font-weight:400; font-size:11.5px; color:var(--muted);}
-.chip{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:500; padding:2px 6px 2px 5px; border-left:3px solid var(--baseline); background:var(--page); margin:1px 2px 1px 0; white-space:nowrap;}
+.matrix tbody th small{display:block; font-weight:400; font-size:11.5px; color:var(--muted); font-family:"IBM Plex Mono",monospace;}
+.chip{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:11.5px; padding:2px 6px 2px 5px; border-left:3px solid var(--baseline); background:var(--page); margin:1px 2px 1px 0; white-space:nowrap;}
 .chip sup{color:var(--muted);}
 .emptycell{color:var(--hair);}
 .dealnotes{max-width:66ch; margin-top:16px; font-size:14px; color:var(--ink2);}
 .dealnotes p{margin:8px 0;}
 .dealnotes .d{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted); margin-right:6px;}
 
-/* bar chart */
-.chart{margin-top:26px; border:1px solid var(--hair); background:var(--surface); padding:18px 20px 14px;}
-.axis{display:flex; margin-left:var(--lblw); font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted); position:relative; height:16px;}
+/* ledger + buyers */
+.chart{margin-top:26px; border:1px solid var(--hair); background:var(--surface); padding:18px 20px 14px; --lblw:210px;}
+@media(max-width:640px){.chart{--lblw:118px;}}
+.axis{position:relative; margin-left:var(--lblw); height:16px; font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted);}
 .axis span{position:absolute; transform:translateX(-50%);}
 .grid{position:relative;}
 .gridlines{position:absolute; inset:0 0 0 var(--lblw); pointer-events:none;}
 .gridlines i{position:absolute; top:0; bottom:0; width:1px; background:var(--hair);}
-.mkt{margin:0 0 4px;}
-.mkthead{display:flex; align-items:baseline; gap:8px; padding:12px 0 6px;}
+.mkthead{display:flex; align-items:baseline; gap:8px; padding:14px 0 6px;}
 .mkthead .nm{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:13px; letter-spacing:.05em; text-transform:uppercase;}
 .mkthead .rk{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted);}
-.brow{display:grid; grid-template-columns:var(--lblw) 1fr; align-items:center; min-height:26px; position:relative;}
+.brow{display:grid; grid-template-columns:var(--lblw) 1fr; align-items:center; min-height:26px;}
 .brow .lbl{display:flex; align-items:baseline; gap:8px; padding-right:12px; min-width:0;}
 .brow .lbl .call{font-size:13px; white-space:nowrap;}
 .brow .lbl .sub{font-family:Archivo,system-ui,sans-serif; font-size:11px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .brow .barzone{position:relative; height:16px;}
-.brow .bar{position:absolute; inset:0 auto 0 0; border-radius:0 4px 4px 0;}
-.brow .val{position:absolute; top:50%; transform:translateY(-50%); font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:600; color:var(--ink2);}
-.chart{--lblw:210px;}
-@media(max-width:640px){.chart{--lblw:120px;} .brow .lbl .sub{display:none;}}
-.chartcap{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin-top:12px;}
-
-/* committees */
-.buyers{margin-top:26px; border:1px solid var(--hair); background:var(--surface); padding:18px 20px 16px; --lblw:250px;}
-@media(max-width:640px){.buyers{--lblw:150px;}}
+.brow .bar{position:absolute; inset:0 auto 0 0; border-radius:0 4px 4px 0; min-width:2px;}
+.brow .val{position:absolute; top:50%; transform:translateY(-50%); font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:600; color:var(--ink2); white-space:nowrap;}
+.buyers{--lblw:250px;}
+@media(max-width:640px){.buyers{--lblw:140px;}}
 .buyers .brow{min-height:30px;}
-.buyers .lbl .nm{font-family:Archivo,system-ui,sans-serif; font-size:13.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.buyers .nm{font-family:Archivo,system-ui,sans-serif; font-size:13.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .ptag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; color:var(--muted); border:1px solid var(--hair); padding:0 4px; border-radius:2px;}
-.buyers .bar{background:var(--baseline);}
 
-/* methodology */
 .method{max-width:68ch; font-size:14.5px; color:var(--ink2);}
 .method p{margin:10px 0;}
-.method h3{font-size:15px; font-weight:700; margin-top:22px;}
+.method h3{font-size:15px; font-weight:700; margin-top:22px; color:var(--ink);}
 .srcs{list-style:none; padding:0; margin:10px 0 0; font-size:13px;}
 .srcs li{margin:4px 0; padding-left:14px; text-indent:-14px;}
 footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
-
-/* tooltip */
-#tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--page); font-family:Archivo,system-ui,sans-serif; font-size:12px; line-height:1.4; padding:6px 9px; border-radius:3px; max-width:240px; z-index:10; opacity:0; transition:opacity .12s;}
+#tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--page); font-family:Archivo,system-ui,sans-serif; font-size:12px; line-height:1.45; padding:7px 10px; border-radius:3px; max-width:250px; z-index:10; opacity:0; transition:opacity .12s;}
 #tip b{font-weight:700;}
-#tip .mono{font-size:11px;}
 </style>
 
 <div class="wrap">
 <header>
   <p class="eyebrow">A spin-off of <a href="https://factions.charliestephens.xyz/vendor-factions.html">Louisiana's vendor factions</a></p>
   <h1>Louisiana Airwaves</h1>
-  <p class="dek">When a Louisiana campaign goes on television, the check lands in one of <b>seven Nielsen markets</b>. The vendor-factions graph found those checks in the expenditure filings — <b>WDSU alone is paid by 97</b> of the state's 500 biggest-spending committees. This page is the geography underneath the buys: every station the committees pay, the market it broadcasts to, and — after a year of consolidation — who owns it.</p>
+  <p class="dek">Louisiana political committees have paid the state's television stations <b id="hero">$121 million</b> since 2000. This is where that money went: which of the <b>seven Nielsen markets</b> it bought, which stations banked it, and — after a year of consolidation — which companies now collect it. The surprise is that the biggest station group by <em>count</em> is not the biggest by <em>revenue</em>.</p>
   <div class="freq" id="freq" aria-hidden="true"></div>
   <div class="freqcap"><span>Seven markets, to scale by TV households</span><span class="mono" id="freqtotal"></span></div>
-
-  <div class="stats">
-    <div class="stat"><div class="v">7</div><div class="l">rated markets (DMAs) covering all 64 parishes</div></div>
-    <div class="stat"><div class="v">30</div><div class="l">TV stations named in committee expenditure filings</div></div>
-    <div class="stat"><div class="v">23<span style="color:var(--muted);font-size:20px"> / 30</span></div><div class="l">owned or operated by just two companies — Gray and Nexstar</div></div>
-    <div class="stat"><div class="v">97</div><div class="l">committees have paid WDSU, the most-bought station in the state</div></div>
-  </div>
+  <div class="stats" id="stats"></div>
 </header>
+
+<section id="pulse-sec">
+  <p class="seclabel">The pulse</p>
+  <h2>Louisiana buys television every four years</h2>
+  <p class="intro">Plotted by year, the money has a heartbeat: the state's <b>governor's races</b> — 2003, 2007, 2011, 2015, 2019, 2023 — account for <b id="govshare">most</b> of every dollar ever paid to these stations. The 2019 Edwards–Rispone runoff alone moved <b>$26.4M</b>, more than the eleven quietest years combined.</p>
+  <div class="pulse"><svg id="pulse" role="img" aria-label="Annual television spending by Louisiana political committees, 2000 to 2026, with governor-race years marked"></svg></div>
+  <p class="cap" id="pulsecap"></p>
+</section>
 
 <section id="markets">
   <p class="seclabel">The map</p>
   <h2>Seven markets, one air war</h2>
-  <p class="intro">Nielsen slices the country into Designated Market Areas — the unit a TV ad buy actually purchases. Louisiana's parishes fall into seven, from <b>New Orleans (№&thinsp;50</b> in the country<b>)</b> down to <b>Alexandria (№&thinsp;183)</b>. A statewide race has to buy all seven; the two committees that fought the 2023 governor's race did exactly that. Click a market for its stations.</p>
+  <p class="intro">Nielsen slices the country into Designated Market Areas — the unit a TV ad buy actually purchases. Louisiana's 64 parishes fall into seven, from <b>New Orleans (№&thinsp;50</b> nationally<b>)</b> down to <b>Alexandria (№&thinsp;183)</b>. Click a market for its stations and what each has been paid.</p>
   <div class="mappanel">
     <div>
       <svg id="map" role="img" aria-label="Map of Louisiana parishes colored by television market"></svg>
-      <p class="mapcap">Louisiana's 64 parishes, colored by DMA. The Shreveport, Monroe–El&thinsp;Dorado, Alexandria and New&thinsp;Orleans markets continue into Texas, Arkansas and Mississippi; only the Louisiana side is drawn. Market rank is national, 2024–25 season.</p>
+      <p class="cap">Louisiana's 64 parishes, colored by DMA. The Shreveport, Monroe–El&thinsp;Dorado, Alexandria and New&thinsp;Orleans markets continue into Texas, Arkansas and Mississippi; only the Louisiana side is drawn. Rank and household counts are the 2024–25 Nielsen season.</p>
     </div>
-    <div class="panel" id="panel">
-      <div class="tabs" role="tablist" id="tabs"></div>
-      <div id="paneldetail"></div>
-    </div>
+    <div class="panel"><div class="tabs" role="tablist" id="tabs"></div><div id="paneldetail"></div></div>
   </div>
+</section>
+
+<section id="index">
+  <p class="seclabel">Where the money over-weights</p>
+  <h2>North Louisiana is bought at a discount</h2>
+  <p class="intro">Divide each market's spending by its TV households and the map stops being about size. <b>Alexandria and Lafayette</b> draw close to <b>$77 per household</b> — well above the statewide <b>$60.41</b> — while <b>Shreveport</b>, the state's second-largest market, draws just <b>$42.80</b>. Campaigns pay a premium for the contested middle of the state and quietly skip the Republican northwest. New Orleans, for all its size, lands exactly at par.</p>
+  <div class="idx" id="idxchart"></div>
+  <p class="cap">Bars show dollars per TV household, 2000–2026. The vertical rule is the statewide average; a bar past it means committees spent more on that market than its size alone would predict.</p>
 </section>
 
 <section id="owners">
   <p class="seclabel">Ownership</p>
-  <h2>Two companies own the air war</h2>
-  <p class="intro">Twelve months of deals redrew this column of the ledger. <b>Gray Media</b> — already owner of the CBS or NBC leader in five markets — picked up KATC from Scripps and KADN/KLAF from Allen Media in 2026, and now has a station in <b>all seven Louisiana markets</b>. <b>Nexstar</b> owns or operates thirteen, counting the Tegna stations a federal injunction currently holds in limbo. What's left over: one Hearst station, three family-owned holdouts, and three independents.</p>
+  <h2>More stations, less money</h2>
+  <p class="intro">Twelve months of deals redrew this ledger. <b>Nexstar</b> owns or operates <b>thirteen</b> of the thirty stations — the most of any group — but collects <b>30.5%</b> of the money. <b>Gray Media</b> holds ten and collects <b>47.6%</b>, because its ten include the news-leading CBS or NBC affiliate in six of seven markets. Station count measures reach; revenue measures which newscast the ads actually run inside.</p>
+  <div class="split" id="split"></div>
+  <div class="splitcap" id="splitcap"></div>
   <div class="matrixwrap"><table class="matrix" id="matrix"></table></div>
   <div class="dealnotes">
     <p><span class="d">MAR 19 2026</span>Nexstar closed its $6.2B purchase of Tegna — WWL-TV and WUPL in New Orleans — then a preliminary injunction won by DirecTV and eight state attorneys general froze integration in April. WUPL's divestiture was reported pending. Marked&nbsp;<b>*</b>.</p>
     <p><span class="d">MAY 15 2026</span>Gray and Scripps completed a five-market station swap; KATC Lafayette joined Gray.</p>
-    <p><span class="d">MAY 2026</span>Gray closed its $171M purchase of ten Allen Media stations, including KADN and KLAF-LD — giving Gray both Lafayette ABC and Fox.</p>
-    <p><span class="d">NOTE</span>Stations marked <b>·op</b> are owned by a nominal licensee (Mission, White Knight, American Spirit) but operated by the named group under sharing agreements.</p>
+    <p><span class="d">MAY 2026</span>Gray closed its $171M purchase of ten Allen Media stations, including KADN and KLAF-LD — giving Gray both Lafayette's ABC and Fox.</p>
+    <p><span class="d">NOTE</span>Stations marked <b>·op</b> are owned by a nominal licensee (Mission, White Knight, American Spirit) but operated by the named group under sharing agreements. Dollars are attributed to the operator, since deals under those agreements are sold by the operator's sales staff.</p>
   </div>
 </section>
 
 <section id="buys">
   <p class="seclabel">The ledger</p>
-  <h2>Every station, every buy</h2>
-  <p class="intro">For each station: how many of Louisiana's 500 biggest-spending committees name it in an expenditure filing, 2000–2026. The pattern is the market pecking order made visible — committees buy the <b>news-leading network affiliates</b> first (WDSU, WWL, WBRZ, WAFB, KTBS), and the CW and low-power stations last.</p>
+  <h2>Every station, every dollar</h2>
+  <p class="intro">Total paid to each station by Louisiana political committees, 2000–2026. Within every market the order is the same as the newsroom pecking order: the CBS or NBC leader takes the top line, and the CW and low-power outlets divide what is left. <b>WWL-TV</b> leads the state at <b>$15.3M</b>; <b>WBRL-CD</b>, at the other end, has taken <b>$27K</b> in twenty-six years.</p>
   <div class="chart" id="chart"></div>
-  <p class="chartcap">Counts come from the vendor-factions build (top 500 committees by service spend; call-sign spelling variants merged). Where filings use a bare call sign shared with a radio sister — WWL, KTAL — a small share of the count may be radio buys.</p>
+  <p class="cap">Hover a station for its network, owner, and biggest buyers. Amounts are nominal dollars, not inflation-adjusted.</p>
 </section>
 
-<section id="buyers">
+<section id="buyers-sec">
   <p class="seclabel">The buyers</p>
-  <h2>Who buys the whole state</h2>
-  <p class="intro">Inside the vendor-factions graph, the committees sharing the most stations are the air-war heavyweights of the 2023 governor's race: <b>Gumbo PAC</b> (the anti-Landry super PAC) and the <b>RGA's Right Direction PAC</b> each bought at least 25 of the 30 stations — the same air war, flown from opposite directions.</p>
-  <div class="buyers" id="buyerlist"></div>
-  <p class="chartcap">Station counts are a floor, not a total — they count only buys visible on shared-vendor edges that survived the graph's thresholds.</p>
+  <h2>Who paid for the air war</h2>
+  <p class="intro">Two governors dominate the whole century of filings. <b>John Bel Edwards</b> spent <b>$11.3M</b> on television across 29 of the 30 stations; <b>Bobby Jindal</b> spent <b>$8.6M</b>. Behind them sit the outside groups that fought the 2019 and 2023 races — the <b>RGA's Right Direction PAC</b>, <b>Gumbo PAC</b>, and <b>The Fund for Louisiana's Future</b> — each buying nearly every station in the state.</p>
+  <div class="chart buyers" id="buyerlist"></div>
+  <p class="cap">Committee spending across all 30 stations. Party is the filing's own label; <span class="mono">OTH</span> is the code Louisiana uses for PACs and unaffiliated filers.</p>
 </section>
 
 <section id="method">
   <p class="seclabel">Method &amp; sources</p>
   <h2>Where this comes from</h2>
   <div class="method">
-    <p>Spending data is the Louisiana Ethics Administration's campaign expenditure filings, as processed by the <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor-factions build</a> (July 2026 run: top 500 committees by service spend, 2000–2026, with commodity vendors and political recipients filtered out). Station-level committee counts are that build's vendor document frequencies, with call-sign variants (<span class="mono">KADN</span>, <span class="mono">KADN-TV</span>, <span class="mono">KADN&nbsp;-&nbsp;TV</span>…) merged.</p>
-    <p>Parish boundaries are U.S. Census cartographic files; parish-to-DMA assignment was computed against Nielsen DMA boundary data and cross-checked against published market lists. Market ranks and TV-household counts are the 2024–25 Nielsen season. Ownership is as reported through mid-2026, including the Nexstar–Tegna close (and injunction), the Gray–Scripps swap, and the Gray–Allen Media deal.</p>
+    <p>Dollar figures are computed by <span class="mono">build_station_spend.py</span> in this repo, which reads <b id="rowcount">1.48 million</b> expenditure rows from the Louisiana Ethics Administration filings (via the campaign-finance project's <span class="mono">.la_cache</span>) and sums what every committee paid each station. Three corrections matter:</p>
+    <p><b>Spelling variants.</b> One station is filed 15–30 ways — <span class="mono">KADN</span>, <span class="mono">KADN-TV</span>, <span class="mono">KADN - TV</span>, <span class="mono">KADN-FOX</span>, <span class="mono">KADN-TV CHANNEL 15</span>. All fold to one call sign.</p>
+    <p><b>Radio sisters.</b> WWL and KTAL share their call signs with radio stations. Rows explicitly marked radio (<span class="mono">WWL-AM</span>, <span class="mono">WWL RADIO</span>, <span class="mono">KTAL-FM</span>) are excluded — <b id="radioexcl"></b> in total. Rows carrying only the bare call sign cannot be resolved either way; they are counted as television, and that amount — <b id="ambig"></b>, nearly all of it WWL — is disclosed here rather than buried. Treat WWL-TV's and KTAL's totals as ceilings.</p>
+    <p><b>Combined buys.</b> <b id="combined"></b> sits in rows naming two co-owned stations at once (<span class="mono">KARD-TV KTVE-TV</span>, <span class="mono">WGMB WVLA-TV</span>); those amounts are split evenly rather than assigned to whichever sorts first.</p>
+    <p><b>One gap:</b> the <b>2008</b> expenditure file is absent from the upstream data release, so 2008 is missing from every figure on this page. It was an off-cycle year — the surrounding off-years run well under $1M — so the effect on the totals is small, but it is not zero.</p>
+    <p>Parish boundaries are U.S. Census cartographic files; parish-to-DMA assignment was computed by point-in-polygon against Nielsen DMA boundaries and cross-checked against published market lists. Ownership is as reported through September 2026.</p>
     <h3>Sources</h3>
     <ul class="srcs">
+      <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, 2000–2026</li>
       <li>› <a href="https://www.cnbc.com/2026/03/20/nexstar-tegna-merger-closes-after-winning-regulatory-approval-.html">CNBC — Nexstar–Tegna merger closes (Mar 2026)</a>; <a href="https://deadline.com/2026/04/nexstar-tegna-merger-blocked-2-1236784770/">Deadline — preliminary injunction (Apr 2026)</a></li>
       <li>› <a href="https://scripps.com/press-releases/scripps-completes-station-swap-with-gray-media/">Scripps — station swap with Gray completed</a>; <a href="https://www.katc.com/lafayette-parish/katc-is-now-a-gray-station">KATC — “KATC is now a Gray station” (May 2026)</a></li>
-      <li>› <a href="https://thedesk.net/2026/05/gray-media-acquires-allen-media-tv-stations/">The Desk — Gray closes Allen Media purchase (May 2026)</a>; <a href="https://kpel965.com/fcc-approves-gray-katc-kadn-lafayette/">KPEL — FCC approves Gray owning KATC + KADN</a></li>
-      <li>› Station ownership &amp; affiliations: Wikipedia station articles (WVLA, KMSS, KTVE, KTBS, KPXJ, KLAX, KVHP, KSWL-LD, WLAE, WBRL-CD), checked Sept 2026</li>
-      <li>› Market ranks &amp; TV households: <a href="https://ustvdb.com/seasons/2024-25/markets/">USTVDB, 2024–25 Nielsen season</a></li>
-      <li>› Boundaries: U.S. Census counties GeoJSON; Nielsen DMA polygons via <a href="https://github.com/simzou/nielsen-dma">simzou/nielsen-dma</a></li>
+      <li>› <a href="https://thedesk.net/2026/05/gray-media-acquires-allen-media-tv-stations/">The Desk — Gray closes Allen Media purchase (May 2026)</a></li>
+      <li>› Market ranks &amp; TV households: <a href="https://ustvdb.com/seasons/2024-25/markets/">USTVDB, 2024–25 Nielsen season</a>; DMA polygons via <a href="https://github.com/simzou/nielsen-dma">simzou/nielsen-dma</a></li>
     </ul>
   </div>
 </section>
 
 <footer>
-  Companion to <a href="https://factions.charliestephens.xyz/">Louisiana's donor factions</a> and <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor factions</a>. Radio buys — KEEL-AM, WWL radio, and two dozen FM stations in the same filings — are a page for another day.
+  Companion to <a href="https://factions.charliestephens.xyz/">Louisiana's donor factions</a> and <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor factions</a>. Radio buys — WWL-AM, KEEL, and two dozen FM stations in the same filings — are a page for another day.
 </footer>
 </div>
 <div id="tip" role="presentation"></div>
 
 <script>
-const DATA = {"w":940.0,"h":858.9,"parishes":[{"n":"Acadia","k":"LAF","d":"M316 602 291 623 271 611 255 614 261 595 255 585 254 532 323 533 336 542 342 571Z"},{"n":"Bienville","k":"SHV","d":"M111 164 121 128 145 128 161 118 155 91 209 91 209 119 228 119 228 164 221 183 154 183 149 164Z"},{"n":"East Baton Rouge","k":"BR","d":"M544 566 522 566 504 558 512 527 500 527 494 497 502 485 575 482 563 497 551 510 549 537 567 561Z"},{"n":"Jefferson Davis","k":"LAF","d":"M164 545 176 541 228 542 238 531 254 531 255 585 261 595 255 614 235 626 188 625 208 616 207 601 188 600 182 554 164 549Z"},{"n":"Ouachita","k":"MON","d":"M356 62 384 75 383 108 367 134 361 156 311 156 311 147 293 128 293 92 319 92Z"},{"n":"Pointe Coupee","k":"BR","d":"M473 521 460 529 411 529 415 486 401 455 402 429 412 420 428 430 428 454 455 453 448 480 479 474 484 482 488 495Z"},{"n":"St. Charles","k":"NO","d":"M696 670 686 698 665 698 660 684 642 673 630 656 630 630 646 626 677 585 677 640 684 662Z"},{"n":"Tangipahoa","k":"NO","d":"M661 424 665 424 681 484 684 586 677 585 674 572 655 573 629 543 625 497 625 424Z"},{"n":"Vernon","k":"ALX","d":"M88 449 92 439 90 422 93 408 92 386 88 385 91 366 108 366 117 347 145 347 191 351 209 357 218 371 219 447 192 449Z"},{"n":"West Baton Rouge","k":"BR","d":"M473 521 488 495 494 497 500 527 512 527 504 558 522 566 491 566 460 529Z"},{"n":"Winn","k":"MON","d":"M302 257 256 256 256 275 192 275 194 260 211 225 199 183 311 183 311 229Z"},{"n":"Lafourche","k":"NO","d":"M722 753 721 775 722 779 725 781 724 784 717 784 715 788 709 789 710 793 714 795 715 799 720 799 735 787 736 788 735 790 723 798 696 821 687 825 683 825 664 831 669 827 682 823 682 820 685 820 685 816 677 813 677 812 673 806 673 802 678 803 678 800 676 796 671 793 671 789 667 785 661 786 660 789 657 790 658 794 654 802 659 780 658 766 624 726 589 697 582 680 569 693 546 693 568 653 586 650 609 657 630 656 642 673 660 684 665 698 686 698 699 701 694 725 702 743Z"},{"n":"Lincoln","k":"MON","d":"M293 92 293 110 256 110 256 119 209 119 209 91 218 55 265 57 274 73 293 73Z"},{"n":"Livingston","k":"BR","d":"M588 581 567 561 549 537 551 510 563 497 625 497 629 543 655 573 638 580 627 593 613 587 603 596Z"},{"n":"Natchitoches","k":"SHV","d":"M108 246 108 232 124 228 145 234 145 220 166 220 154 183 199 183 211 225 194 260 192 275 204 292 222 298 238 315 203 346 191 351 145 347 145 311 127 311 127 274 108 274Z"},{"n":"Plaquemines","k":"NO","d":"M743 661 751 676 777 684 794 700 814 707 820 713 811 707 795 705 793 702 790 702 792 707 791 712 784 712 783 714 787 721 784 725 785 731 781 734 782 736 787 740 793 741 800 747 801 751 803 752 808 745 812 748 811 754 816 762 819 761 821 757 825 761 839 761 846 763 844 770 849 771 852 768 856 768 864 778 867 777 871 770 873 771 877 780 882 782 884 787 889 791 889 800 891 801 903 797 907 805 906 809 903 807 899 810 903 815 898 821 896 828 885 829 877 841 874 839 873 836 871 837 869 835 866 827 861 826 860 831 855 832 850 835 849 840 846 840 838 854 833 859 832 858 834 850 840 846 847 835 843 828 840 826 834 825 833 816 822 800 811 794 798 790 782 781 766 778 754 778 754 772 760 763 759 756 755 755 757 744 752 743 745 747 739 753 734 752 731 716 714 681 726 655Z"},{"n":"Rapides","k":"ALX","d":"M260 445 219 447 218 371 209 357 191 351 203 346 238 315 243 338 254 342 332 323 352 353 326 356 325 396 330 431 317 431 299 423 281 434 276 445Z"},{"n":"Red River","k":"SHV","d":"M77 164 149 164 166 220 145 220 145 234 124 228 108 216 90 192 91 173Z"},{"n":"Sabine","k":"SHV","d":"M40 307 37 301 41 274 37 256 30 247 108 246 108 274 127 274 127 311 145 311 145 347 117 347 108 366 91 366 88 385 82 389 79 385 76 367 72 365 67 361 72 345 62 338 56 321Z"},{"n":"Ascension","k":"BR","d":"M528 620 544 566 567 561 603 596 613 587 612 598 563 610 554 619Z"},{"n":"St. Helena","k":"BR","d":"M579 424 625 424 625 497 563 497 575 482 572 436Z"},{"n":"St. James","k":"NO","d":"M554 619 563 610 612 598 603 626 609 657 586 650 568 653 555 638Z"},{"n":"St. Landry","k":"LAF","d":"M279 533 292 520 320 520 329 514 336 484 329 455 401 455 415 486 411 529 425 551 391 546 370 556 357 554 342 571 336 542 323 533Z"},{"n":"St. Martin","k":"LAF","d":"M462 643 501 639 514 666 531 675 529 696 509 686 478 679 480 668Z M421 529 432 541 436 568 446 583 462 585 464 612 481 621 439 626 429 611 410 611 400 624 376 618 384 601 371 595 378 584 370 556 391 546 425 551 411 529Z"},{"n":"St. Tammany","k":"NO","d":"M783 537 794 562 791 573 798 588 804 595 813 595 806 598 801 602 772 596 764 602 749 592 728 602 708 593 684 586 681 484 728 494 756 494 762 513 770 525Z"},{"n":"Vermilion","k":"LAF","d":"M360 721 339 721 322 730 312 731 256 722 257 625 235 626 255 614 271 611 291 623 316 602 344 609 374 626 369 640 373 674 348 687 342 693 341 697 347 713 363 712 367 715 363 720Z"},{"n":"Washington","k":"NO","d":"M665 424 776 423 773 441 771 445 768 445 756 494 728 494 681 484Z"},{"n":"Beauregard","k":"LKC","d":"M54 549 61 543 62 540 60 527 55 520 57 513 86 462 88 449 192 449 191 508 164 508 164 549 118 549 118 531 100 530 100 549Z"},{"n":"Bossier","k":"SHV","d":"M111 164 103 164 69 129 64 131 69 124 62 109 50 101 55 90 47 64 40 59 47 49 39 48 46 34 36 15 41 0 94 0 92 9 107 32 108 128 121 128Z"},{"n":"Caddo","k":"SHV","d":"M0 68 0 0 41 0 36 15 46 34 39 48 47 49 40 59 47 64 55 90 50 101 62 109 69 124 64 131 69 129 103 164 77 164 68 147 45 142 17 173 0 173Z"},{"n":"Cameron","k":"LKC","d":"M36 651 46 636 58 623 165 622 188 625 257 625 256 722 234 714 192 693 172 686 147 680 134 681 125 684 102 682 65 686 50 690 37 698 26 681 27 666Z"},{"n":"De Soto","k":"SHV","d":"M5 218 0 214 0 173 17 173 45 142 68 147 77 164 91 173 90 192 108 216 124 228 108 232 108 246 30 247 22 237 12 230Z"},{"n":"East Carroll","k":"MON","d":"M531 96 523 101 465 101 470 96 467 92 485 55 492 18 500 3 517 3 511 12 509 19 512 24 516 25 521 24 524 20 523 8 528 6 532 9 536 20 535 27 528 34 521 37 518 49 518 57 538 62 536 66 526 72 520 79 522 89 524 91 529 91Z"},{"n":"Franklin","k":"MON","d":"M444 238 440 220 431 220 416 238 403 236 387 220 386 182 408 163 410 145 433 129 462 129 453 151 459 171 459 194Z"},{"n":"Grant","k":"ALX","d":"M192 275 256 275 256 256 302 257 305 277 298 293 312 300 320 320 332 323 254 342 243 338 238 315 222 298 204 292Z"},{"n":"Jackson","k":"MON","d":"M311 156 311 183 221 183 228 164 228 119 256 119 256 110 293 110 293 128 311 147Z"},{"n":"Jefferson","k":"NO","d":"M686 698 696 670 684 662 677 640 677 585 708 593 705 638 702 644 717 645 726 655 714 681 731 716 734 752 729 746 725 746 722 753 702 743 694 725 699 701Z"},{"n":"Lafayette","k":"LAF","d":"M316 602 357 554 370 556 378 584 371 595 384 601 374 626 344 609Z"},{"n":"St. John the Baptist","k":"NO","d":"M612 598 613 587 627 593 638 580 655 573 674 572 677 585 646 626 630 630 630 656 609 657 603 626Z"},{"n":"Union","k":"MON","d":"M356 62 319 92 293 92 293 73 274 73 265 57 237 55 237 1 355 2Z"},{"n":"Webster","k":"SHV","d":"M121 128 108 128 107 32 92 9 94 0 145 0 145 64 154 63 155 91 161 118 145 128Z"},{"n":"West Feliciana","k":"BR","d":"M488 495 484 482 479 474 448 480 455 453 428 454 428 430 433 424 516 424 505 467 490 487 492 496Z"},{"n":"Assumption","k":"BR","d":"M507 628 528 620 554 619 555 638 568 653 546 693 532 712 528 708 531 675 514 666 501 639 501 633 505 633Z"},{"n":"Caldwell","k":"MON","d":"M311 229 311 156 361 156 371 179 386 182 387 220 385 229Z"},{"n":"Catahoula","k":"MON","d":"M366 355 367 229 385 229 387 220 403 236 416 238 431 220 440 220 449 266 439 264 422 269 420 289 408 288 399 298 415 333 402 332 393 320 393 335 408 343 395 345 392 360 397 368 381 362 368 375Z"},{"n":"Iberville","k":"BR","d":"M462 585 446 583 436 568 432 541 421 529 460 529 491 566 544 566 528 620 507 628 481 621 464 612Z"},{"n":"La Salle","k":"MON","d":"M332 323 320 320 312 300 298 293 305 277 302 257 311 229 367 229 366 355 352 353Z"},{"n":"Morehouse","k":"MON","d":"M383 108 384 75 356 62 355 2 469 3 455 29 445 34 433 74 414 97 403 94Z"},{"n":"Richland","k":"MON","d":"M462 129 433 129 410 145 408 163 386 182 371 179 361 156 367 134 383 108 403 94 414 97 433 74 440 92 467 92 470 96 465 101Z"},{"n":"Madison","k":"MON","d":"M531 96 526 109 528 115 535 120 542 123 548 129 547 139 565 143 566 145 547 169 543 164 540 163 525 168 523 162 490 171 459 171 453 151 462 129 465 101 523 101Z"},{"n":"Orleans","k":"NO","d":"M705 638 708 593 728 602 749 592 764 602 772 596 795 601 785 611 784 617 776 620 776 623 778 627 777 629 770 625 760 624 753 632 729 636 725 645 741 651 743 661 726 655 717 645 702 644Z"},{"n":"St. Bernard","k":"NO","d":"M743 661 741 651 725 645 729 636 753 632 755 643 758 646 762 648 768 647 776 642 779 645 773 647 774 653 783 661 792 662 800 658 801 655 801 651 804 642 803 634 817 626 818 618 820 617 832 623 840 622 840 626 831 630 829 632 829 635 829 638 839 641 839 650 841 652 850 650 858 635 862 633 863 634 862 639 868 639 866 649 857 649 849 657 855 658 864 657 865 659 859 663 838 667 840 670 845 671 845 676 847 677 850 678 857 674 856 682 858 685 852 684 846 680 841 681 838 678 830 688 831 697 812 687 806 689 804 687 790 686 791 694 796 696 800 696 800 700 804 702 811 703 820 713 814 707 794 700 777 684 751 676Z M931 685 918 705 917 704 930 684 931 677 935 670 937 664 935 662 937 659 938 650 936 634 928 622 936 631 940 647 938 665Z"},{"n":"Evangeline","k":"LAF","d":"M254 531 260 511 260 445 276 445 281 434 299 423 317 431 329 455 336 484 329 514 320 520 292 520 279 533 254 533Z"},{"n":"West Carroll","k":"MON","d":"M500 3 492 18 485 55 467 92 440 92 433 74 445 34 455 29 469 3Z"},{"n":"Calcasieu","k":"LKC","d":"M58 623 63 602 60 593 58 571 55 571 50 563 51 551 54 549 100 549 100 530 118 531 118 549 164 549 182 554 188 600 207 601 208 616 188 625 165 622Z"},{"n":"Claiborne","k":"SHV","d":"M209 91 155 91 154 63 145 64 145 0 237 1 237 55 218 55Z"},{"n":"Concordia","k":"MON","d":"M479 270 476 275 475 290 464 292 461 295 463 301 471 302 472 306 466 310 461 312 455 312 453 315 455 329 457 336 455 342 450 349 450 353 456 362 453 366 444 369 440 381 439 391 444 407 446 411 446 415 442 419 433 424 428 430 412 420 426 384 397 368 392 360 395 345 408 343 393 335 393 320 402 332 415 333 399 298 408 288 420 289 422 269 439 264Z"},{"n":"East Feliciana","k":"BR","d":"M579 424 572 436 575 482 502 485 494 497 492 497 490 487 505 467 516 424Z"},{"n":"Allen","k":"LKC","d":"M260 511 254 531 238 531 228 542 176 541 164 545 164 508 191 508 192 449 260 445Z"},{"n":"Avoyelles","k":"ALX","d":"M401 455 329 455 317 431 330 431 325 396 326 356 352 353 366 355 368 375 381 362 397 368 426 384 412 420 402 429Z"},{"n":"St. Mary","k":"BR","d":"M532 712 515 715 500 729 500 744 497 742 494 743 487 741 483 735 472 735 467 729 452 732 453 727 451 724 448 710 445 709 435 712 431 710 435 704 436 694 436 689 434 687 419 688 412 686 393 696 389 694 419 666 435 645 462 643 480 668 478 679 509 686 529 696 528 708Z"},{"n":"Tensas","k":"MON","d":"M542 190 524 217 503 241 486 245 483 256 482 266 479 270 449 266 444 238 459 194 459 171 490 171 523 162 525 168 518 173 516 181 518 186 524 187 539 185 542 187Z"},{"n":"Terrebonne","k":"NO","d":"M546 693 569 693 582 680 589 697 624 726 658 766 659 780 654 802 649 804 647 802 642 803 643 801 638 798 643 795 646 787 635 782 633 785 626 783 622 785 621 791 626 792 629 796 627 797 626 800 613 799 611 806 613 809 611 816 605 818 596 817 590 819 583 826 584 832 587 833 592 832 597 829 603 831 612 828 613 829 596 834 581 835 576 835 575 829 572 823 554 805 547 808 542 805 530 804 524 798 508 796 497 791 493 787 487 780 488 779 495 778 499 768 503 766 510 768 512 766 511 761 508 758 508 752 501 749 500 744 500 729 515 715 532 712Z"},{"n":"Iberia","k":"LAF","d":"M367 715 378 715 381 710 392 710 396 711 397 714 400 716 406 718 408 722 420 725 410 734 409 741 405 742 403 741 400 744 395 742 392 738 373 731 363 724 360 721 363 720Z M481 621 507 628 505 633 501 633 501 639 435 645 419 666 390 692 389 686 394 674 391 669 387 668 384 669 383 672 378 672 373 674 369 640 376 618 400 624 410 611 429 611 439 626Z"}],"dmas":[{"k":"NO","name":"New Orleans","rank":50,"hh":672790},{"k":"SHV","name":"Shreveport","rank":91,"hh":375030},{"k":"BR","name":"Baton Rouge","rank":95,"hh":355760},{"k":"LAF","name":"Lafayette","rank":124,"hh":245210},{"k":"MON","name":"Monroe–El Dorado","rank":142,"hh":171300},{"k":"LKC","name":"Lake Charles","rank":177,"hh":97170},{"k":"ALX","name":"Alexandria","rank":183,"hh":85710}],"stations":[{"call":"WDSU","k":"NO","ch":"6","net":"NBC","owner":"Hearst Television","grp":"hearst","df":97,"note":""},{"call":"WVUE","k":"NO","ch":"8","net":"Fox","owner":"Gray Media","grp":"gray","df":81,"note":""},{"call":"WWL-TV","k":"NO","ch":"4","net":"CBS","owner":"Tegna · Nexstar","grp":"nexstar","df":78,"note":"Tegna sale to Nexstar closed Mar 2026; integration frozen by a court injunction"},{"call":"WGNO","k":"NO","ch":"26","net":"ABC","owner":"Nexstar Media","grp":"nexstar","df":75,"note":""},{"call":"WUPL","k":"NO","ch":"54","net":"MyNetworkTV","owner":"Tegna · Nexstar","grp":"nexstar","df":37,"note":"divestiture reported pending"},{"call":"WNOL","k":"NO","ch":"38","net":"The CW","owner":"Nexstar Media","grp":"nexstar","df":16,"note":""},{"call":"WLAE","k":"NO","ch":"32","net":"EDU","owner":"Educational Broadcasting Foundation","grp":"other","df":7,"note":"Willwoods Community + Louisiana Educational Television Authority"},{"call":"WAFB","k":"BR","ch":"9","net":"CBS","owner":"Gray Media","grp":"gray","df":85,"note":""},{"call":"WBRZ","k":"BR","ch":"2","net":"ABC","owner":"Louisiana Television Broadcasting","grp":"local","df":84,"note":"Manship family — the state’s last family-owned major affiliate"},{"call":"WVLA","k":"BR","ch":"33","net":"NBC","owner":"White Knight Bcstg · op. Nexstar","grp":"nexstar","df":34,"note":""},{"call":"WGMB","k":"BR","ch":"44","net":"Fox","owner":"Nexstar Media","grp":"nexstar","df":25,"note":""},{"call":"WBRL-CD","k":"BR","ch":"21","net":"The CW","owner":"Nexstar Media","grp":"nexstar","df":2,"note":""},{"call":"KTBS","k":"SHV","ch":"3","net":"ABC","owner":"KTBS, LLC","grp":"local","df":82,"note":"Wray family, locally owned since 1955"},{"call":"KSLA","k":"SHV","ch":"12","net":"CBS","owner":"Gray Media","grp":"gray","df":58,"note":""},{"call":"KTAL","k":"SHV","ch":"6","net":"NBC","owner":"Nexstar Media","grp":"nexstar","df":25,"note":"licensed to Texarkana, TX"},{"call":"KMSS","k":"SHV","ch":"33","net":"Fox","owner":"Mission Bcstg · op. Nexstar","grp":"nexstar","df":21,"note":""},{"call":"KPXJ","k":"SHV","ch":"21","net":"The CW","owner":"KTBS, LLC","grp":"local","df":7,"note":"Wray family"},{"call":"KATC","k":"LAF","ch":"3","net":"ABC","owner":"Gray Media","grp":"gray","df":80,"note":"from Scripps in a station swap closed May 2026"},{"call":"KLFY","k":"LAF","ch":"10","net":"CBS","owner":"Nexstar Media","grp":"nexstar","df":74,"note":""},{"call":"KADN","k":"LAF","ch":"15","net":"Fox","owner":"Gray Media","grp":"gray","df":35,"note":"from Allen Media in a 10-station deal closed 2026"},{"call":"KLAF-LD","k":"LAF","ch":"46","net":"NBC","owner":"Gray Media","grp":"gray","df":19,"note":"from Allen Media"},{"call":"KNOE","k":"MON","ch":"8","net":"CBS","owner":"Gray Media","grp":"gray","df":43,"note":"ABC on DT2"},{"call":"KTVE","k":"MON","ch":"10","net":"NBC","owner":"Mission Bcstg · op. Nexstar","grp":"nexstar","df":22,"note":"licensed to El Dorado, AR"},{"call":"KARD","k":"MON","ch":"14","net":"Fox","owner":"Nexstar Media","grp":"nexstar","df":20,"note":""},{"call":"KPLC","k":"LKC","ch":"7","net":"NBC","owner":"Gray Media","grp":"gray","df":59,"note":""},{"call":"KVHP","k":"LKC","ch":"29","net":"Fox","owner":"American Spirit Media · op. Gray","grp":"gray","df":29,"note":""},{"call":"KSWL-LD","k":"LKC","ch":"","net":"CBS","owner":"SagamoreHill Broadcasting","grp":"other","df":6,"note":""},{"call":"KALB","k":"ALX","ch":"5","net":"NBC","owner":"Gray Media","grp":"gray","df":30,"note":"CBS on DT2"},{"call":"KLAX","k":"ALX","ch":"31","net":"ABC","owner":"Deltavision Media","grp":"other","df":21,"note":""},{"call":"WNTZ","k":"ALX","ch":"48","net":"Fox","owner":"Nexstar Media","grp":"nexstar","df":12,"note":"licensed to Natchez, MS"}],"committees":[{"name":"Gumbo PAC","party":"PAC","n":25},{"name":"RGA Right Direction PAC","party":"PAC","n":25},{"name":"Wayne Carter","party":"","n":21},{"name":"Empower Louisiana (L. Lane Grigsby)","party":"PAC","n":17},{"name":"The Fund for Louisiana’s Future","party":"PAC","n":17},{"name":"Make Louisiana Great Again","party":"PAC","n":15},{"name":"Elizabeth Murrill","party":"REP","n":14},{"name":"Blair Edwards","party":"DEM","n":10},{"name":"Keep the Lights On","party":"PAC","n":10},{"name":"John Stefanski","party":"REP","n":9},{"name":"Scott McKnight","party":"REP","n":9}]};
+const DATA = {"w":940.0,"h":858.9,"parishes":[{"n":"Acadia","k":"LAF","d":"M316 602 291 623 271 611 255 614 261 595 255 585 254 532 323 533 336 542 342 571Z"},{"n":"Bienville","k":"SHV","d":"M111 164 121 128 145 128 161 118 155 91 209 91 209 119 228 119 228 164 221 183 154 183 149 164Z"},{"n":"East Baton Rouge","k":"BR","d":"M544 566 522 566 504 558 512 527 500 527 494 497 502 485 575 482 563 497 551 510 549 537 567 561Z"},{"n":"Jefferson Davis","k":"LAF","d":"M164 545 176 541 228 542 238 531 254 531 255 585 261 595 255 614 235 626 188 625 208 616 207 601 188 600 182 554 164 549Z"},{"n":"Ouachita","k":"MON","d":"M356 62 384 75 383 108 367 134 361 156 311 156 311 147 293 128 293 92 319 92Z"},{"n":"Pointe Coupee","k":"BR","d":"M473 521 460 529 411 529 415 486 401 455 402 429 412 420 428 430 428 454 455 453 448 480 479 474 484 482 488 495Z"},{"n":"St. Charles","k":"NO","d":"M696 670 686 698 665 698 660 684 642 673 630 656 630 630 646 626 677 585 677 640 684 662Z"},{"n":"Tangipahoa","k":"NO","d":"M661 424 665 424 681 484 684 586 677 585 674 572 655 573 629 543 625 497 625 424Z"},{"n":"Vernon","k":"ALX","d":"M88 449 92 439 90 422 93 408 92 386 88 385 91 366 108 366 117 347 145 347 191 351 209 357 218 371 219 447 192 449Z"},{"n":"West Baton Rouge","k":"BR","d":"M473 521 488 495 494 497 500 527 512 527 504 558 522 566 491 566 460 529Z"},{"n":"Winn","k":"MON","d":"M302 257 256 256 256 275 192 275 194 260 211 225 199 183 311 183 311 229Z"},{"n":"Lafourche","k":"NO","d":"M722 753 721 775 722 779 725 781 724 784 717 784 715 788 709 789 710 793 714 795 715 799 720 799 735 787 736 788 735 790 723 798 696 821 687 825 683 825 664 831 669 827 682 823 682 820 685 820 685 816 677 813 677 812 673 806 673 802 678 803 678 800 676 796 671 793 671 789 667 785 661 786 660 789 657 790 658 794 654 802 659 780 658 766 624 726 589 697 582 680 569 693 546 693 568 653 586 650 609 657 630 656 642 673 660 684 665 698 686 698 699 701 694 725 702 743Z"},{"n":"Lincoln","k":"MON","d":"M293 92 293 110 256 110 256 119 209 119 209 91 218 55 265 57 274 73 293 73Z"},{"n":"Livingston","k":"BR","d":"M588 581 567 561 549 537 551 510 563 497 625 497 629 543 655 573 638 580 627 593 613 587 603 596Z"},{"n":"Natchitoches","k":"SHV","d":"M108 246 108 232 124 228 145 234 145 220 166 220 154 183 199 183 211 225 194 260 192 275 204 292 222 298 238 315 203 346 191 351 145 347 145 311 127 311 127 274 108 274Z"},{"n":"Plaquemines","k":"NO","d":"M743 661 751 676 777 684 794 700 814 707 820 713 811 707 795 705 793 702 790 702 792 707 791 712 784 712 783 714 787 721 784 725 785 731 781 734 782 736 787 740 793 741 800 747 801 751 803 752 808 745 812 748 811 754 816 762 819 761 821 757 825 761 839 761 846 763 844 770 849 771 852 768 856 768 864 778 867 777 871 770 873 771 877 780 882 782 884 787 889 791 889 800 891 801 903 797 907 805 906 809 903 807 899 810 903 815 898 821 896 828 885 829 877 841 874 839 873 836 871 837 869 835 866 827 861 826 860 831 855 832 850 835 849 840 846 840 838 854 833 859 832 858 834 850 840 846 847 835 843 828 840 826 834 825 833 816 822 800 811 794 798 790 782 781 766 778 754 778 754 772 760 763 759 756 755 755 757 744 752 743 745 747 739 753 734 752 731 716 714 681 726 655Z"},{"n":"Rapides","k":"ALX","d":"M260 445 219 447 218 371 209 357 191 351 203 346 238 315 243 338 254 342 332 323 352 353 326 356 325 396 330 431 317 431 299 423 281 434 276 445Z"},{"n":"Red River","k":"SHV","d":"M77 164 149 164 166 220 145 220 145 234 124 228 108 216 90 192 91 173Z"},{"n":"Sabine","k":"SHV","d":"M40 307 37 301 41 274 37 256 30 247 108 246 108 274 127 274 127 311 145 311 145 347 117 347 108 366 91 366 88 385 82 389 79 385 76 367 72 365 67 361 72 345 62 338 56 321Z"},{"n":"Ascension","k":"BR","d":"M528 620 544 566 567 561 603 596 613 587 612 598 563 610 554 619Z"},{"n":"St. Helena","k":"BR","d":"M579 424 625 424 625 497 563 497 575 482 572 436Z"},{"n":"St. James","k":"NO","d":"M554 619 563 610 612 598 603 626 609 657 586 650 568 653 555 638Z"},{"n":"St. Landry","k":"LAF","d":"M279 533 292 520 320 520 329 514 336 484 329 455 401 455 415 486 411 529 425 551 391 546 370 556 357 554 342 571 336 542 323 533Z"},{"n":"St. Martin","k":"LAF","d":"M462 643 501 639 514 666 531 675 529 696 509 686 478 679 480 668Z M421 529 432 541 436 568 446 583 462 585 464 612 481 621 439 626 429 611 410 611 400 624 376 618 384 601 371 595 378 584 370 556 391 546 425 551 411 529Z"},{"n":"St. Tammany","k":"NO","d":"M783 537 794 562 791 573 798 588 804 595 813 595 806 598 801 602 772 596 764 602 749 592 728 602 708 593 684 586 681 484 728 494 756 494 762 513 770 525Z"},{"n":"Vermilion","k":"LAF","d":"M360 721 339 721 322 730 312 731 256 722 257 625 235 626 255 614 271 611 291 623 316 602 344 609 374 626 369 640 373 674 348 687 342 693 341 697 347 713 363 712 367 715 363 720Z"},{"n":"Washington","k":"NO","d":"M665 424 776 423 773 441 771 445 768 445 756 494 728 494 681 484Z"},{"n":"Beauregard","k":"LKC","d":"M54 549 61 543 62 540 60 527 55 520 57 513 86 462 88 449 192 449 191 508 164 508 164 549 118 549 118 531 100 530 100 549Z"},{"n":"Bossier","k":"SHV","d":"M111 164 103 164 69 129 64 131 69 124 62 109 50 101 55 90 47 64 40 59 47 49 39 48 46 34 36 15 41 0 94 0 92 9 107 32 108 128 121 128Z"},{"n":"Caddo","k":"SHV","d":"M0 68 0 0 41 0 36 15 46 34 39 48 47 49 40 59 47 64 55 90 50 101 62 109 69 124 64 131 69 129 103 164 77 164 68 147 45 142 17 173 0 173Z"},{"n":"Cameron","k":"LKC","d":"M36 651 46 636 58 623 165 622 188 625 257 625 256 722 234 714 192 693 172 686 147 680 134 681 125 684 102 682 65 686 50 690 37 698 26 681 27 666Z"},{"n":"De Soto","k":"SHV","d":"M5 218 0 214 0 173 17 173 45 142 68 147 77 164 91 173 90 192 108 216 124 228 108 232 108 246 30 247 22 237 12 230Z"},{"n":"East Carroll","k":"MON","d":"M531 96 523 101 465 101 470 96 467 92 485 55 492 18 500 3 517 3 511 12 509 19 512 24 516 25 521 24 524 20 523 8 528 6 532 9 536 20 535 27 528 34 521 37 518 49 518 57 538 62 536 66 526 72 520 79 522 89 524 91 529 91Z"},{"n":"Franklin","k":"MON","d":"M444 238 440 220 431 220 416 238 403 236 387 220 386 182 408 163 410 145 433 129 462 129 453 151 459 171 459 194Z"},{"n":"Grant","k":"ALX","d":"M192 275 256 275 256 256 302 257 305 277 298 293 312 300 320 320 332 323 254 342 243 338 238 315 222 298 204 292Z"},{"n":"Jackson","k":"MON","d":"M311 156 311 183 221 183 228 164 228 119 256 119 256 110 293 110 293 128 311 147Z"},{"n":"Jefferson","k":"NO","d":"M686 698 696 670 684 662 677 640 677 585 708 593 705 638 702 644 717 645 726 655 714 681 731 716 734 752 729 746 725 746 722 753 702 743 694 725 699 701Z"},{"n":"Lafayette","k":"LAF","d":"M316 602 357 554 370 556 378 584 371 595 384 601 374 626 344 609Z"},{"n":"St. John the Baptist","k":"NO","d":"M612 598 613 587 627 593 638 580 655 573 674 572 677 585 646 626 630 630 630 656 609 657 603 626Z"},{"n":"Union","k":"MON","d":"M356 62 319 92 293 92 293 73 274 73 265 57 237 55 237 1 355 2Z"},{"n":"Webster","k":"SHV","d":"M121 128 108 128 107 32 92 9 94 0 145 0 145 64 154 63 155 91 161 118 145 128Z"},{"n":"West Feliciana","k":"BR","d":"M488 495 484 482 479 474 448 480 455 453 428 454 428 430 433 424 516 424 505 467 490 487 492 496Z"},{"n":"Assumption","k":"BR","d":"M507 628 528 620 554 619 555 638 568 653 546 693 532 712 528 708 531 675 514 666 501 639 501 633 505 633Z"},{"n":"Caldwell","k":"MON","d":"M311 229 311 156 361 156 371 179 386 182 387 220 385 229Z"},{"n":"Catahoula","k":"MON","d":"M366 355 367 229 385 229 387 220 403 236 416 238 431 220 440 220 449 266 439 264 422 269 420 289 408 288 399 298 415 333 402 332 393 320 393 335 408 343 395 345 392 360 397 368 381 362 368 375Z"},{"n":"Iberville","k":"BR","d":"M462 585 446 583 436 568 432 541 421 529 460 529 491 566 544 566 528 620 507 628 481 621 464 612Z"},{"n":"La Salle","k":"MON","d":"M332 323 320 320 312 300 298 293 305 277 302 257 311 229 367 229 366 355 352 353Z"},{"n":"Morehouse","k":"MON","d":"M383 108 384 75 356 62 355 2 469 3 455 29 445 34 433 74 414 97 403 94Z"},{"n":"Richland","k":"MON","d":"M462 129 433 129 410 145 408 163 386 182 371 179 361 156 367 134 383 108 403 94 414 97 433 74 440 92 467 92 470 96 465 101Z"},{"n":"Madison","k":"MON","d":"M531 96 526 109 528 115 535 120 542 123 548 129 547 139 565 143 566 145 547 169 543 164 540 163 525 168 523 162 490 171 459 171 453 151 462 129 465 101 523 101Z"},{"n":"Orleans","k":"NO","d":"M705 638 708 593 728 602 749 592 764 602 772 596 795 601 785 611 784 617 776 620 776 623 778 627 777 629 770 625 760 624 753 632 729 636 725 645 741 651 743 661 726 655 717 645 702 644Z"},{"n":"St. Bernard","k":"NO","d":"M743 661 741 651 725 645 729 636 753 632 755 643 758 646 762 648 768 647 776 642 779 645 773 647 774 653 783 661 792 662 800 658 801 655 801 651 804 642 803 634 817 626 818 618 820 617 832 623 840 622 840 626 831 630 829 632 829 635 829 638 839 641 839 650 841 652 850 650 858 635 862 633 863 634 862 639 868 639 866 649 857 649 849 657 855 658 864 657 865 659 859 663 838 667 840 670 845 671 845 676 847 677 850 678 857 674 856 682 858 685 852 684 846 680 841 681 838 678 830 688 831 697 812 687 806 689 804 687 790 686 791 694 796 696 800 696 800 700 804 702 811 703 820 713 814 707 794 700 777 684 751 676Z M931 685 918 705 917 704 930 684 931 677 935 670 937 664 935 662 937 659 938 650 936 634 928 622 936 631 940 647 938 665Z"},{"n":"Evangeline","k":"LAF","d":"M254 531 260 511 260 445 276 445 281 434 299 423 317 431 329 455 336 484 329 514 320 520 292 520 279 533 254 533Z"},{"n":"West Carroll","k":"MON","d":"M500 3 492 18 485 55 467 92 440 92 433 74 445 34 455 29 469 3Z"},{"n":"Calcasieu","k":"LKC","d":"M58 623 63 602 60 593 58 571 55 571 50 563 51 551 54 549 100 549 100 530 118 531 118 549 164 549 182 554 188 600 207 601 208 616 188 625 165 622Z"},{"n":"Claiborne","k":"SHV","d":"M209 91 155 91 154 63 145 64 145 0 237 1 237 55 218 55Z"},{"n":"Concordia","k":"MON","d":"M479 270 476 275 475 290 464 292 461 295 463 301 471 302 472 306 466 310 461 312 455 312 453 315 455 329 457 336 455 342 450 349 450 353 456 362 453 366 444 369 440 381 439 391 444 407 446 411 446 415 442 419 433 424 428 430 412 420 426 384 397 368 392 360 395 345 408 343 393 335 393 320 402 332 415 333 399 298 408 288 420 289 422 269 439 264Z"},{"n":"East Feliciana","k":"BR","d":"M579 424 572 436 575 482 502 485 494 497 492 497 490 487 505 467 516 424Z"},{"n":"Allen","k":"LKC","d":"M260 511 254 531 238 531 228 542 176 541 164 545 164 508 191 508 192 449 260 445Z"},{"n":"Avoyelles","k":"ALX","d":"M401 455 329 455 317 431 330 431 325 396 326 356 352 353 366 355 368 375 381 362 397 368 426 384 412 420 402 429Z"},{"n":"St. Mary","k":"BR","d":"M532 712 515 715 500 729 500 744 497 742 494 743 487 741 483 735 472 735 467 729 452 732 453 727 451 724 448 710 445 709 435 712 431 710 435 704 436 694 436 689 434 687 419 688 412 686 393 696 389 694 419 666 435 645 462 643 480 668 478 679 509 686 529 696 528 708Z"},{"n":"Tensas","k":"MON","d":"M542 190 524 217 503 241 486 245 483 256 482 266 479 270 449 266 444 238 459 194 459 171 490 171 523 162 525 168 518 173 516 181 518 186 524 187 539 185 542 187Z"},{"n":"Terrebonne","k":"NO","d":"M546 693 569 693 582 680 589 697 624 726 658 766 659 780 654 802 649 804 647 802 642 803 643 801 638 798 643 795 646 787 635 782 633 785 626 783 622 785 621 791 626 792 629 796 627 797 626 800 613 799 611 806 613 809 611 816 605 818 596 817 590 819 583 826 584 832 587 833 592 832 597 829 603 831 612 828 613 829 596 834 581 835 576 835 575 829 572 823 554 805 547 808 542 805 530 804 524 798 508 796 497 791 493 787 487 780 488 779 495 778 499 768 503 766 510 768 512 766 511 761 508 758 508 752 501 749 500 744 500 729 515 715 532 712Z"},{"n":"Iberia","k":"LAF","d":"M367 715 378 715 381 710 392 710 396 711 397 714 400 716 406 718 408 722 420 725 410 734 409 741 405 742 403 741 400 744 395 742 392 738 373 731 363 724 360 721 363 720Z M481 621 507 628 505 633 501 633 501 639 435 645 419 666 390 692 389 686 394 674 391 669 387 668 384 669 383 672 378 672 373 674 369 640 376 618 400 624 410 611 429 611 439 626Z"}],"dmas":[{"k":"NO","name":"New Orleans","rank":50,"hh":672790,"spend":40576535,"pph":60.31,"index":0.998},{"k":"BR","name":"Baton Rouge","rank":95,"hh":355760,"spend":24591201,"pph":69.12,"index":1.144},{"k":"LAF","name":"Lafayette","rank":124,"hh":245210,"spend":18850567,"pph":76.88,"index":1.273},{"k":"SHV","name":"Shreveport","rank":91,"hh":375030,"spend":16052308,"pph":42.8,"index":0.709},{"k":"MON","name":"Monroe–El Dorado","rank":142,"hh":171300,"spend":7530033,"pph":43.96,"index":0.728},{"k":"LKC","name":"Lake Charles","rank":177,"hh":97170,"spend":6763786,"pph":69.61,"index":1.152},{"k":"ALX","name":"Alexandria","rank":183,"hh":85710,"spend":6628958,"pph":77.34,"index":1.28}],"stations":[{"call":"WWL-TV","k":"NO","ch":"4","net":"CBS","owner":"Tegna · Nexstar","grp":"nexstar","note":"Tegna sale to Nexstar closed Mar 2026; integration frozen by a court injunction","spend":15346097,"df":78,"cm":282,"top":[{"n":"Bobby Jindal","a":1259392},{"n":"John Bel Edwards","a":1017602},{"n":"Walter J. Boasso","a":537179},{"n":"David Vitter","a":434809},{"n":"The Northshore Wins, Inc.","a":415410}]},{"call":"WAFB","k":"BR","ch":"9","net":"CBS","owner":"Gray Media","grp":"gray","note":null,"spend":13023717,"df":85,"cm":164,"top":[{"n":"John Bel Edwards","a":1410381},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":932420},{"n":"Bobby Jindal","a":920644},{"n":"Edward L. Rispone","a":508492},{"n":"Walter J. Boasso","a":484368}]},{"call":"WVUE","k":"NO","ch":"8","net":"Fox","owner":"Gray Media","grp":"gray","note":null,"spend":11741214,"df":81,"cm":239,"top":[{"n":"John Bel Edwards","a":871134},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":640552},{"n":"John Schroder","a":532852},{"n":"Bobby Jindal","a":467190},{"n":"The Northshore Wins, Inc.","a":396180}]},{"call":"WDSU","k":"NO","ch":"6","net":"NBC","owner":"Hearst Television","grp":"hearst","note":null,"spend":10155498,"df":97,"cm":273,"top":[{"n":"Bobby Jindal","a":591772},{"n":"John Bel Edwards","a":562739},{"n":"PROTECT LOUISIANA'S CHILDREN PAC","a":367141},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":319434},{"n":"John Schroder","a":316619}]},{"call":"KLFY","k":"LAF","ch":"10","net":"CBS","owner":"Nexstar Media","grp":"nexstar","note":null,"spend":9596615,"df":74,"cm":135,"top":[{"n":"John Bel Edwards","a":1120713},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":725194},{"n":"Gumbo PAC","a":521146},{"n":"Edward L. Rispone","a":479138},{"n":"Bobby Jindal","a":463555}]},{"call":"WBRZ","k":"BR","ch":"2","net":"ABC","owner":"Louisiana Television Broadcasting","grp":"local","note":"Manship family — the state’s last family-owned major affiliate","spend":8784443,"df":84,"cm":166,"top":[{"n":"John Bel Edwards","a":775920},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":564829},{"n":"The Fund for Louisiana's Future","a":445127},{"n":"Bobby Jindal","a":405476},{"n":"Gumbo PAC","a":404961}]},{"call":"KATC","k":"LAF","ch":"3","net":"ABC","owner":"Gray Media","grp":"gray","note":"from Scripps in a station swap closed May 2026","spend":8172004,"df":80,"cm":149,"top":[{"n":"John Bel Edwards","a":763299},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":577532},{"n":"Bobby Jindal","a":382346},{"n":"The Fund for Louisiana's Future","a":364171},{"n":"Gumbo PAC","a":347315}]},{"call":"KTBS","k":"SHV","ch":"3","net":"ABC","owner":"KTBS, LLC","grp":"local","note":"Wray family, locally owned since 1955","spend":6526179,"df":82,"cm":135,"top":[{"n":"John Bel Edwards","a":741802},{"n":"Bobby Jindal","a":543154},{"n":"John D. Georges","a":462566},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":386799},{"n":"Kathleen Babineaux Blanco","a":281975}]},{"call":"KSLA","k":"SHV","ch":"12","net":"CBS","owner":"Gray Media","grp":"gray","note":null,"spend":6036355,"df":58,"cm":111,"top":[{"n":"John Bel Edwards","a":741864},{"n":"Bobby Jindal","a":736587},{"n":"Walter J. Boasso","a":355381},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":307755},{"n":"Kathleen Babineaux Blanco","a":275460}]},{"call":"KALB","k":"ALX","ch":"5","net":"NBC","owner":"Gray Media","grp":"gray","note":"CBS on DT2","spend":5723496,"df":30,"cm":110,"top":[{"n":"John Bel Edwards","a":630790},{"n":"Bobby Jindal","a":500958},{"n":"Gumbo PAC","a":307790},{"n":"Edward L. Rispone","a":270273},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":269374}]},{"call":"KPLC","k":"LKC","ch":"7","net":"NBC","owner":"Gray Media","grp":"gray","note":null,"spend":5556579,"df":59,"cm":141,"top":[{"n":"John Bel Edwards","a":592032},{"n":"Bobby Jindal","a":469824},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":317458},{"n":"Gumbo PAC","a":253687},{"n":"Walter J. Boasso","a":229755}]},{"call":"KNOE","k":"MON","ch":"8","net":"CBS","owner":"Gray Media","grp":"gray","note":"ABC on DT2","spend":5248682,"df":43,"cm":95,"top":[{"n":"John Bel Edwards","a":575358},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":418659},{"n":"Bobby Jindal","a":418556},{"n":"Gumbo PAC","a":302683},{"n":"The Fund for Louisiana's Future","a":269214}]},{"call":"WGNO","k":"NO","ch":"26","net":"ABC","owner":"Nexstar Media","grp":"nexstar","note":null,"spend":2641880,"df":75,"cm":201,"top":[{"n":"Bobby Jindal","a":182694},{"n":"John Bel Edwards","a":117766},{"n":"John D. Georges","a":111336},{"n":"David Vitter","a":105778},{"n":"Walter J. Boasso","a":77295}]},{"call":"KTAL","k":"SHV","ch":"6","net":"NBC","owner":"Nexstar Media","grp":"nexstar","note":"licensed to Texarkana, TX","spend":2585529,"df":25,"cm":62,"top":[{"n":"Bobby Jindal","a":299837},{"n":"John Bel Edwards","a":261362},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":190179},{"n":"Kathleen Babineaux Blanco","a":180300},{"n":"David Vitter","a":146417}]},{"call":"KTVE","k":"MON","ch":"10","net":"NBC","owner":"Mission Bcstg · op. Nexstar","grp":"nexstar","note":"licensed to El Dorado, AR","spend":1682208,"df":22,"cm":70,"top":[{"n":"John Bel Edwards","a":217014},{"n":"Bobby Jindal","a":178775},{"n":"David Vitter","a":123348},{"n":"John L. (Jay) Dardenne","a":93828},{"n":"The Fund for Louisiana's Future","a":92797}]},{"call":"WVLA","k":"BR","ch":"33","net":"NBC","owner":"White Knight Bcstg · op. Nexstar","grp":"nexstar","note":null,"spend":1597547,"df":34,"cm":75,"top":[{"n":"John Bel Edwards","a":196852},{"n":"Bobby Jindal","a":117865},{"n":"David Vitter","a":102510},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":91575},{"n":"The Fund for Louisiana's Future","a":75221}]},{"call":"WGMB","k":"BR","ch":"44","net":"Fox","owner":"Nexstar Media","grp":"nexstar","note":null,"spend":1158961,"df":25,"cm":62,"top":[{"n":"RGA (Republican Governors Association) Right Direction PAC","a":149277},{"n":"Louisiana Wins","a":116000},{"n":"Bobby Jindal","a":111856},{"n":"John Bel Edwards","a":88644},{"n":"Edward L. Rispone","a":63868}]},{"call":"KVHP","k":"LKC","ch":"29","net":"Fox","owner":"American Spirit Media · op. Gray","grp":"gray","note":null,"spend":987441,"df":29,"cm":68,"top":[{"n":"Bobby Jindal","a":177888},{"n":"John Bel Edwards","a":114286},{"n":"David Vitter","a":85497},{"n":"Edward L. Rispone","a":43245},{"n":"Republican Party of Louisiana","a":41922}]},{"call":"KADN","k":"LAF","ch":"15","net":"Fox","owner":"Gray Media","grp":"gray","note":"from Allen Media in a 10-station deal closed 2026","spend":766721,"df":35,"cm":81,"top":[{"n":"John Bel Edwards","a":87663},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":82097},{"n":"The Fund for Louisiana's Future","a":77194},{"n":"John L. (Jay) Dardenne","a":50804},{"n":"Bobby Jindal","a":47896}]},{"call":"KMSS","k":"SHV","ch":"33","net":"Fox","owner":"Mission Bcstg · op. Nexstar","grp":"nexstar","note":null,"spend":743366,"df":21,"cm":46,"top":[{"n":"Bobby Jindal","a":118307},{"n":"David Vitter","a":112922},{"n":"John Bel Edwards","a":72990},{"n":"Kathleen Babineaux Blanco","a":52690},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":51999}]},{"call":"KARD","k":"MON","ch":"14","net":"Fox","owner":"Nexstar Media","grp":"nexstar","note":null,"spend":599144,"df":20,"cm":51,"top":[{"n":"John Bel Edwards","a":77660},{"n":"David Vitter","a":55870},{"n":"John L. (Jay) Dardenne","a":55355},{"n":"Bobby Jindal","a":49193},{"n":"John Schroder","a":35475}]},{"call":"KLAX","k":"ALX","ch":"31","net":"ABC","owner":"Deltavision Media","grp":"other","note":null,"spend":576324,"df":21,"cm":69,"top":[{"n":"Bobby Jindal","a":57297},{"n":"John Bel Edwards","a":52908},{"n":"Walter J. Boasso","a":41522},{"n":"David Vitter","a":29808},{"n":"Claude (Buddy) Leach, Jr.","a":29750}]},{"call":"WNTZ","k":"ALX","ch":"48","net":"Fox","owner":"Nexstar Media","grp":"nexstar","note":"licensed to Natchez, MS","spend":329137,"df":12,"cm":40,"top":[{"n":"John Bel Edwards","a":51763},{"n":"Bobby Jindal","a":38330},{"n":"David Vitter","a":26265},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":24918},{"n":"John L. (Jay) Dardenne","a":18828}]},{"call":"KLAF-LD","k":"LAF","ch":"46","net":"NBC","owner":"Gray Media","grp":"gray","note":"from Allen Media","spend":315227,"df":19,"cm":47,"top":[{"n":"John Bel Edwards","a":49992},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":46622},{"n":"David Vitter","a":31884},{"n":"Edward L. Rispone","a":29363},{"n":"Louisiana Wins","a":22891}]},{"call":"WNOL","k":"NO","ch":"38","net":"The CW","owner":"Nexstar Media","grp":"nexstar","note":null,"spend":307017,"df":16,"cm":35,"top":[{"n":"Dr. Ralph Abraham","a":64719},{"n":"John D. Georges","a":36067},{"n":"David Vitter","a":22929},{"n":"Bobby Jindal","a":21830},{"n":"Walter J. Boasso","a":16830}]},{"call":"WUPL","k":"NO","ch":"54","net":"MyNetworkTV","owner":"Tegna · Nexstar","grp":"nexstar","note":"divestiture reported pending","spend":258364,"df":37,"cm":78,"top":[{"n":"LaToya Cantrell","a":31490},{"n":"Claude (Buddy) Leach, Jr.","a":27500},{"n":"John Bel Edwards","a":27396},{"n":"PROTECT LOUISIANA'S CHILDREN PAC","a":25500},{"n":"John D. Georges","a":15990}]},{"call":"KSWL-LD","k":"LKC","ch":"","net":"CBS","owner":"SagamoreHill Broadcasting","grp":"other","note":null,"spend":219766,"df":6,"cm":19,"top":[{"n":"RGA (Republican Governors Association) Right Direction PAC","a":52101},{"n":"John Bel Edwards","a":47361},{"n":"Edward L. Rispone","a":23905},{"n":"Clayton Davis","a":17008},{"n":"Gary \"Stitch\" Guillory","a":14424}]},{"call":"KPXJ","k":"SHV","ch":"21","net":"The CW","owner":"KTBS, LLC","grp":"local","note":"Wray family","spend":160879,"df":7,"cm":22,"top":[{"n":"John Bel Edwards","a":66385},{"n":"Gumbo PAC","a":27648},{"n":"RGA (Republican Governors Association) Right Direction PAC","a":11534},{"n":"Robert Mills","a":9512},{"n":"Foster L. Campbell, Jr.","a":6256}]},{"call":"WLAE","k":"NO","ch":"32","net":"EDU","owner":"Educational Broadcasting Foundation","grp":"other","note":"Willwoods Community + Louisiana Educational Television Authority","spend":126465,"df":7,"cm":24,"top":[{"n":"The Voice of the People LLC","a":53688},{"n":"Michael S. Yenni","a":23081},{"n":"Ricky Templet","a":14750},{"n":"Greg Guidry","a":10661},{"n":"Eric Skrmetta","a":7688}]},{"call":"WBRL-CD","k":"BR","ch":"21","net":"The CW","owner":"Nexstar Media","grp":"nexstar","note":null,"spend":26534,"df":2,"cm":6,"top":[{"n":"Mary Olive Pierson","a":19440},{"n":"Blair Edwards","a":4292},{"n":"Louisiana for Personal Freedoms, Inc.","a":1490},{"n":"John Bel Edwards","a":897},{"n":"Keep the Lights On","a":314}]}],"owners":[{"grp":"gray","spend":57571437,"n":10,"share":47.6},{"grp":"nexstar","spend":36872397,"n":13,"share":30.5},{"grp":"local","spend":15471501,"n":3,"share":12.8},{"grp":"hearst","spend":10155498,"n":1,"share":8.4},{"grp":"other","spend":922555,"n":3,"share":0.8}],"years":[{"y":2000,"v":620018,"gov":false},{"y":2001,"v":144713,"gov":false},{"y":2002,"v":400155,"gov":false},{"y":2003,"v":8553693,"gov":true},{"y":2004,"v":541301,"gov":false},{"y":2005,"v":31261,"gov":false},{"y":2006,"v":992463,"gov":false},{"y":2007,"v":13686422,"gov":true},{"y":2009,"v":527981,"gov":false},{"y":2010,"v":2156936,"gov":false},{"y":2011,"v":5866690,"gov":true},{"y":2012,"v":1871806,"gov":false},{"y":2013,"v":522721,"gov":false},{"y":2014,"v":2391944,"gov":false},{"y":2015,"v":23944350,"gov":true},{"y":2016,"v":1526159,"gov":false},{"y":2017,"v":2590045,"gov":false},{"y":2018,"v":1421618,"gov":false},{"y":2019,"v":26394092,"gov":true},{"y":2020,"v":3494420,"gov":false},{"y":2021,"v":1968261,"gov":false},{"y":2022,"v":1759824,"gov":false},{"y":2023,"v":15678880,"gov":true},{"y":2024,"v":1428685,"gov":false},{"y":2025,"v":1423369,"gov":false},{"y":2026,"v":1055581,"gov":false}],"buyers":[{"name":"John Bel Edwards","party":"DEM","amt":11348197,"st":29},{"name":"Bobby Jindal","party":"REP","amt":8565439,"st":26},{"name":"RGA (Republican Governors Association) Right Direction PAC","party":"OTH","amt":6735585,"st":27},{"name":"Edward L. Rispone","party":"REP","amt":4006724,"st":28},{"name":"David Vitter","party":"REP","amt":3997403,"st":28},{"name":"Gumbo PAC","party":"OTH","amt":3858513,"st":27},{"name":"The Fund for Louisiana's Future","party":"OTH","amt":3637250,"st":23},{"name":"Walter J. Boasso","party":"OTH","amt":3601618,"st":21},{"name":"John L. (Jay) Dardenne","party":"OTH","amt":2851589,"st":28},{"name":"Kathleen Babineaux Blanco","party":"DEM","amt":2730613,"st":21},{"name":"PROTECT LOUISIANA'S CHILDREN PAC","party":"OTH","amt":2241630,"st":16},{"name":"Claude (Buddy) Leach, Jr.","party":"OTH","amt":2064981,"st":23}],"total":120993388,"totHH":2002970,"avgPPH":60.41,"yearsCovered":[2000,2027],"yearsMissing":[2008],"rowsScanned":1484108,"radioExcl":1600531,"ambig":5270736,"combined":318380};
 
 const HUE = {NO:'--no', SHV:'--shv', BR:'--br', LAF:'--laf', MON:'--mon', LKC:'--lkc', ALX:'--alx'};
 const cv = k => `var(${HUE[k]})`;
 const DMA = Object.fromEntries(DATA.dmas.map(d=>[d.k,d]));
-const MAXDF = Math.max(...DATA.stations.map(s=>s.df));
+const NS = 'http://www.w3.org/2000/svg';
 const fmt = n => n.toLocaleString('en-US');
+const money = n => n>=1e6 ? '$'+(n/1e6).toFixed(n>=1e7?1:2)+'M'
+               : n>=1e3 ? '$'+Math.round(n/1e3)+'K' : '$'+n;
+const moneyFull = n => '$'+Math.round(n).toLocaleString('en-US');
 
-/* ---------- frequency strip ---------- */
+/* header numbers */
+document.getElementById('hero').textContent = '$'+(DATA.total/1e6).toFixed(0)+' million';
+document.getElementById('rowcount').textContent = (DATA.rowsScanned/1e6).toFixed(2)+' million';
+document.getElementById('radioexcl').textContent = moneyFull(DATA.radioExcl);
+document.getElementById('ambig').textContent = moneyFull(DATA.ambig);
+document.getElementById('combined').textContent = moneyFull(DATA.combined);
 {
-  const total = DATA.dmas.reduce((a,d)=>a+d.hh,0);
+  const gov = DATA.years.filter(y=>y.gov).reduce((a,y)=>a+y.v,0);
+  document.getElementById('govshare').textContent = Math.round(gov/DATA.total*100)+'%';
+}
+
+/* frequency strip */
+{
   const strip = document.getElementById('freq');
-  for(const d of DATA.dmas){
+  const byHH = [...DATA.dmas].sort((a,b)=>b.hh-a.hh);
+  for(const d of byHH){
     const s = document.createElement('span');
-    s.style.background = cv(d.k);
-    s.style.flex = String(d.hh);
+    s.style.background = cv(d.k); s.style.flex = String(d.hh);
+    s.title = `${d.name}: ${fmt(d.hh)} TV households`;
     strip.appendChild(s);
   }
-  document.getElementById('freqtotal').textContent = fmt(total)+' TV households';
+  document.getElementById('freqtotal').textContent = fmt(DATA.totHH)+' TV households';
+}
+
+/* stat tiles */
+{
+  const gray = DATA.owners.find(o=>o.grp==='gray'), nex = DATA.owners.find(o=>o.grp==='nexstar');
+  const shv = DMA.SHV;
+  const tiles = [
+    ['$'+(DATA.total/1e6).toFixed(0)+'M', 'paid to Louisiana TV stations by political committees, 2000–2026'],
+    ['30', 'stations carrying that money, across 7 Nielsen markets'],
+    [gray.share+'<small>%</small>', `of the money goes to Gray Media — with ${gray.n} stations to Nexstar's ${nex.n}`],
+    ['$'+shv.pph.toFixed(0), `per TV household in Shreveport, against $${DATA.avgPPH} statewide`],
+  ];
+  document.getElementById('stats').innerHTML = tiles.map(([v,l])=>
+    `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+}
+
+/* ---------- pulse: annual spend ---------- */
+{
+  const W=940, H=290, L=52, R=14, T=26, B=34;
+  const svg = document.getElementById('pulse');
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const ys = DATA.years, max = Math.max(...ys.map(y=>y.v));
+  const yTop = 28e6;
+  const x0=L, x1=W-R, y0=H-B, y1=T;
+  const span = ys[ys.length-1].y - ys[0].y + 1;
+  const bw = (x1-x0)/span*0.62;
+  const xOf = y => x0 + (y-ys[0].y+0.5)*((x1-x0)/span);
+  const yOf = v => y0 - v/yTop*(y0-y1);
+  const add=(t,a,cls)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(cls)e.setAttribute('class',cls); svg.appendChild(e); return e;};
+  for(let v=0; v<=yTop; v+=7e6){
+    add('line',{x1:x0,x2:x1,y1:yOf(v),y2:yOf(v)}, v===0?'pbase':'pgrid');
+    const t=add('text',{x:x0-8,y:yOf(v)+3.5,'text-anchor':'end'},'ptick');
+    t.textContent = v===0?'$0':'$'+(v/1e6)+'M';
+  }
+  for(const y of ys){
+    const h = Math.max(1.5, y0-yOf(y.v));
+    const r = add('rect',{x:xOf(y.y)-bw/2, y:y0-h, width:bw, height:h, rx:1.5,
+      fill: y.gov ? 'var(--accent)' : 'var(--quiet)'}, 'pbar');
+    r.addEventListener('mousemove', e=>tip(e, `<b>${y.y}</b>${y.gov?' · governor\'s race':''}<br>${moneyFull(y.v)} on TV`));
+    r.addEventListener('mouseleave', hideTip);
+    if(y.gov){
+      const t=add('text',{x:xOf(y.y), y:y0-h-7,'text-anchor':'middle'},'pval');
+      t.textContent = '$'+(y.v/1e6).toFixed(1)+'M';
+    }
+    if(y.y%4===0 || y.gov){
+      const t=add('text',{x:xOf(y.y), y:y0+15,'text-anchor':'middle'},'ptick');
+      t.textContent = "'"+String(y.y).slice(2);
+    }
+  }
+  const g=add('text',{x:xOf(2015), y:T-10,'text-anchor':'middle'},'pgov');
+  g.textContent='GOVERNOR’S RACE YEARS IN BLUE';
+  document.getElementById('pulsecap').textContent =
+    `Annual totals, ${DATA.yearsCovered[0]}–2026. 2008 is missing from the upstream data release (see method). `+
+    `Off-year spending is real but small: legislative, sheriff and school-board races buy far less television.`;
 }
 
 /* ---------- map ---------- */
 const svg = document.getElementById('map');
 svg.setAttribute('viewBox', `0 0 ${DATA.w} ${DATA.h}`);
-const NS = 'http://www.w3.org/2000/svg';
-let selected = 'NO';
-const parishEls = [];
+let selected='NO';
+const parishEls=[];
 for(const p of DATA.parishes){
   const el = document.createElementNS(NS,'path');
-  el.setAttribute('d', p.d);
-  el.setAttribute('class','parish');
-  el.dataset.k = p.k; el.dataset.n = p.n;
-  el.addEventListener('click', ()=>select(p.k));
-  el.addEventListener('mousemove', e=>tip(e, `<b>${p.n}</b> Parish<br>${DMA[p.k].name} market · <span class="mono">#${DMA[p.k].rank}</span>`));
-  el.addEventListener('mouseleave', hideTip);
-  svg.appendChild(el);
-  parishEls.push(el);
+  el.setAttribute('d',p.d); el.setAttribute('class','parish');
+  el.dataset.k=p.k;
+  el.addEventListener('click',()=>select(p.k));
+  el.addEventListener('mousemove',e=>tip(e,`<b>${p.n}</b> Parish<br>${DMA[p.k].name} market · <span class="mono">#${DMA[p.k].rank}</span>`));
+  el.addEventListener('mouseleave',hideTip);
+  svg.appendChild(el); parishEls.push(el);
 }
-const LABELS = {NO:[742,588], BR:[506,514], SHV:[86,138], LAF:[352,622], LKC:[130,548], MON:[352,152], ALX:[254,328]};
-const CITIES = {'New Orleans':[714.4,643.6],'Baton Rouge':[522.1,538.7],'Shreveport':[52.7,103.7],'Lafayette':[363.9,586.4],'Lake Charles':[148.5,585.9],'Monroe':[346,107],'Alexandria':[287.4,358.3]};
+const LABELS={NO:[742,588],BR:[506,514],SHV:[86,138],LAF:[352,622],LKC:[130,548],MON:[352,152],ALX:[254,328]};
+const CITIES={'New Orleans':[714.4,643.6],'Baton Rouge':[522.1,538.7],'Shreveport':[52.7,103.7],'Lafayette':[363.9,586.4],'Lake Charles':[148.5,585.9],'Monroe':[346,107],'Alexandria':[287.4,358.3]};
 for(const [name,[x,y]] of Object.entries(CITIES)){
-  const dot = document.createElementNS(NS,'circle');
-  dot.setAttribute('cx',x); dot.setAttribute('cy',y); dot.setAttribute('r',3);
-  dot.setAttribute('class','citydot'); svg.appendChild(dot);
-  const t = document.createElementNS(NS,'text');
-  t.setAttribute('x',x+6); t.setAttribute('y',y-5); t.setAttribute('class','cityname');
-  t.textContent = name; svg.appendChild(t);
+  const d=document.createElementNS(NS,'circle');
+  d.setAttribute('cx',x);d.setAttribute('cy',y);d.setAttribute('r',3);d.setAttribute('class','citydot');svg.appendChild(d);
+  const t=document.createElementNS(NS,'text');
+  t.setAttribute('x',x+6);t.setAttribute('y',y-5);t.setAttribute('class','cityname');t.textContent=name;svg.appendChild(t);
 }
 for(const d of DATA.dmas){
-  const [x,y] = LABELS[d.k];
-  const g = document.createElementNS(NS,'g');
-  const t = document.createElementNS(NS,'text');
-  t.setAttribute('x',x); t.setAttribute('y',y); t.setAttribute('class','dmalabel'); t.setAttribute('text-anchor','middle');
-  t.textContent = d.name;
-  const r = document.createElementNS(NS,'text');
-  r.setAttribute('x',x); r.setAttribute('y',y+15); r.setAttribute('class','dmarank'); r.setAttribute('text-anchor','middle');
-  r.textContent = '#'+d.rank;
-  g.appendChild(t); g.appendChild(r);
-  g.addEventListener('click', ()=>select(d.k));
+  const [x,y]=LABELS[d.k];
+  const g=document.createElementNS(NS,'g');
+  const t=document.createElementNS(NS,'text');
+  t.setAttribute('x',x);t.setAttribute('y',y);t.setAttribute('class','dmalabel');t.setAttribute('text-anchor','middle');
+  t.textContent=d.name;
+  const r=document.createElementNS(NS,'text');
+  r.setAttribute('x',x);r.setAttribute('y',y+15);r.setAttribute('class','dmarank');r.setAttribute('text-anchor','middle');
+  r.textContent=money(d.spend);
+  g.appendChild(t);g.appendChild(r);
+  g.addEventListener('click',()=>select(d.k));
   svg.appendChild(g);
 }
 function paint(){
   for(const el of parishEls){
     el.style.fill = cv(el.dataset.k);
-    el.style.fillOpacity = (el.dataset.k===selected) ? '1' : '0.42';
+    el.style.fillOpacity = el.dataset.k===selected ? '1' : '0.42';
   }
 }
 
-/* ---------- market panel ---------- */
-const tabs = document.getElementById('tabs');
+/* market panel */
+const tabs=document.getElementById('tabs');
 for(const d of DATA.dmas){
-  const b = document.createElement('button');
-  b.className = 'tab'; b.setAttribute('role','tab'); b.dataset.k = d.k;
-  b.textContent = d.k;
-  b.title = d.name;
-  b.addEventListener('click', ()=>select(d.k));
+  const b=document.createElement('button');
+  b.className='tab'; b.setAttribute('role','tab'); b.dataset.k=d.k; b.textContent=d.k; b.title=d.name;
+  b.addEventListener('click',()=>select(d.k));
   tabs.appendChild(b);
 }
 function select(k){
-  selected = k;
-  paint();
+  selected=k; paint();
   for(const b of tabs.children){
-    b.setAttribute('aria-selected', b.dataset.k===k ? 'true':'false');
+    b.setAttribute('aria-selected', b.dataset.k===k?'true':'false');
     b.style.borderBottomColor = b.dataset.k===k ? cv(k) : 'transparent';
   }
-  const d = DMA[k];
-  const sts = DATA.stations.filter(s=>s.k===k);
-  let h = `<div class="panelhead"><h3>${d.name}</h3>
-    <div class="panelmeta">DMA <b>#${d.rank}</b> of 210 · <b>${fmt(d.hh)}</b> TV households · <b>${sts.length}</b> stations bought</div></div>
-    <ul class="stlist">`;
+  const d=DMA[k];
+  const sts=DATA.stations.filter(s=>s.k===k).sort((a,b)=>b.spend-a.spend);
+  const mx=Math.max(...sts.map(s=>s.spend));
+  let h=`<div class="panelhead"><h3>${d.name}</h3>
+    <div class="panelbig">${moneyFull(d.spend)}</div>
+    <div class="panelmeta">DMA <b>#${d.rank}</b> · <b>${fmt(d.hh)}</b> TV households<br>
+    <b>$${d.pph.toFixed(2)}</b> per household — <b>${d.index.toFixed(2)}×</b> its share of the state</div></div><ul class="stlist">`;
   for(const s of sts){
-    h += `<li><div class="strow"><span class="call">${s.call}</span><span class="net">${s.net}</span>${s.ch?`<span class="chno">ch ${s.ch}</span>`:''}</div>
+    h+=`<li><div class="strow"><span class="call">${s.call}</span><span class="net">${s.net}</span>${s.ch?`<span class="chno">ch ${s.ch}</span>`:''}</div>
       <div class="ownerline">${s.owner}${s.note?` <span class="nb">— ${s.note}</span>`:''}</div>
-      <div class="buybar"><div class="track"><div class="fill" style="width:${(s.df/MAXDF*100).toFixed(1)}%;background:${cv(k)}"></div></div>
-      <span class="n"><b>${s.df}</b> committees</span></div></li>`;
+      <div class="buybar"><div class="track"><div class="fill" style="width:${(s.spend/mx*100).toFixed(1)}%;background:${cv(k)}"></div></div>
+      <span class="n">${money(s.spend)}</span></div></li>`;
   }
-  h += '</ul>';
-  document.getElementById('paneldetail').innerHTML = h;
+  document.getElementById('paneldetail').innerHTML = h+'</ul>';
 }
 
-/* ---------- ownership matrix ---------- */
+/* ---------- index chart ---------- */
 {
-  const rows = [
-    {label:'Gray Media', sub:'incl. operated KVHP', grp:'gray'},
-    {label:'Nexstar Media', sub:'incl. Tegna* and operated', grp:'nexstar'},
-    {label:'Hearst Television', sub:'', grp:'hearst'},
-    {label:'Family-owned', sub:'Manship · Wray', grp:'local'},
-    {label:'Independent', sub:'', grp:'other'},
-  ];
-  const tegna = new Set(['WWL-TV','WUPL']);
-  const oper = new Set(['WVLA','KMSS','KTVE','KVHP']);
-  let h = '<thead><tr><th></th>';
-  for(const d of DATA.dmas) h += `<th>${d.name}<small>#${d.rank}</small></th>`;
-  h += '</tr></thead><tbody>';
+  const rows=[...DATA.dmas].sort((a,b)=>b.pph-a.pph);
+  const mx=Math.max(...rows.map(r=>r.pph))*1.18;
+  const par=DATA.avgPPH/mx*100;
+  let h=`<div class="paritylbl">state average $${DATA.avgPPH} per household ↓</div><div class="grid" style="margin-top:2px">
+    <div class="gridlines"><div class="parity" style="left:${par}%"></div></div>`;
   for(const r of rows){
-    const mine = DATA.stations.filter(s=>s.grp===r.grp);
-    h += `<tr><th>${r.label}<small>${mine.length} of 30${r.sub?' · '+r.sub:''}</small></th>`;
-    for(const d of DATA.dmas){
-      const cell = mine.filter(s=>s.k===d.k);
-      h += '<td>' + (cell.length
-        ? cell.map(s=>`<span class="chip" style="border-left-color:${cv(s.k)}">${s.call}${tegna.has(s.call)?'<sup>*</sup>':''}${oper.has(s.call)?'<sup>·op</sup>':''}</span>`).join(' ')
-        : '<span class="emptycell">—</span>') + '</td>';
-    }
-    h += '</tr>';
+    const w=r.pph/mx*100;
+    h+=`<div class="idxrow"><div class="idxlbl"><span class="nm">${r.name}</span>
+      <span class="sub">${moneyFull(r.spend)} · ${r.index.toFixed(2)}× share</span></div>
+      <div class="idxzone"><div class="idxbar" style="width:${w}%;background:${cv(r.k)}"></div>
+      <span class="idxval" style="left:calc(${w}% + 8px)">$${r.pph.toFixed(2)}</span></div></div>`;
   }
-  h += '</tbody>';
-  document.getElementById('matrix').innerHTML = h;
+  document.getElementById('idxchart').innerHTML=h+'</div>';
 }
 
-/* ---------- bar chart ---------- */
+/* ---------- ownership ---------- */
 {
-  const chart = document.getElementById('chart');
-  const ticks = [0,25,50,75,100];
-  const SCALE = 100;
-  let h = `<div class="axis">${ticks.map(t=>`<span style="left:${t}%${t===100?';transform:translateX(-90%)':''}">${t}</span>`).join('')}</div><div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${t}%"></i>`).join('')}</div>`;
-  for(const d of DATA.dmas){
-    const sts = DATA.stations.filter(s=>s.k===d.k).sort((a,b)=>b.df-a.df);
-    h += `<div class="mkt"><div class="mkthead"><span class="nm">${d.name}</span><span class="rk">#${d.rank} · ${fmt(d.hh)} TVHH</span></div>`;
-    for(const s of sts){
-      const w = s.df/SCALE*100;
-      h += `<div class="brow" data-call="${s.call}"><div class="lbl"><span class="call">${s.call}</span><span class="sub">${s.net} · ${s.owner}</span></div>
-        <div class="barzone"><div class="bar" style="width:${w}%;background:${cv(d.k)}"></div>
-        <span class="val" style="left:calc(${w}% + 7px)">${s.df}</span></div></div>`;
+  const LBL={gray:'Gray Media',nexstar:'Nexstar',local:'Family-owned',hearst:'Hearst',other:'Independent'};
+  const COL={gray:'var(--no)',nexstar:'var(--mon)',local:'var(--shv)',hearst:'var(--alx)',other:'var(--baseline)'};
+  document.getElementById('split').innerHTML = DATA.owners.map(o=>
+    `<div style="flex:${o.spend};background:${COL[o.grp]}" title="${LBL[o.grp]}: ${moneyFull(o.spend)}">${o.share>=6?o.share+'%':''}</div>`).join('');
+  document.getElementById('splitcap').innerHTML = DATA.owners.map(o=>
+    `<span><i style="background:${COL[o.grp]}"></i>${LBL[o.grp]} — <b>${moneyFull(o.spend)}</b> · ${o.n} station${o.n>1?'s':''}</span>`).join('');
+
+  const rows=[
+    {grp:'gray',   label:'Gray Media',        sub:'incl. operated KVHP'},
+    {grp:'nexstar',label:'Nexstar Media',     sub:'incl. Tegna* and operated'},
+    {grp:'hearst', label:'Hearst Television', sub:''},
+    {grp:'local',  label:'Family-owned',      sub:'Manship · Wray'},
+    {grp:'other',  label:'Independent',       sub:''},
+  ];
+  const tegna=new Set(['WWL-TV','WUPL']), oper=new Set(['WVLA','KMSS','KTVE','KVHP']);
+  const byMkt=[...DATA.dmas].sort((a,b)=>b.spend-a.spend);
+  let h='<thead><tr><th></th>';
+  for(const d of byMkt) h+=`<th>${d.name}<small>${money(d.spend)}</small></th>`;
+  h+='</tr></thead><tbody>';
+  for(const r of rows){
+    const mine=DATA.stations.filter(s=>s.grp===r.grp);
+    const o=DATA.owners.find(x=>x.grp===r.grp);
+    h+=`<tr><th>${r.label}<small>${moneyFull(o.spend)} · ${o.share}%${r.sub?' · '+r.sub:''}</small></th>`;
+    for(const d of byMkt){
+      const cell=mine.filter(s=>s.k===d.k).sort((a,b)=>b.spend-a.spend);
+      h+='<td>'+(cell.length ? cell.map(s=>
+        `<span class="chip" style="border-left-color:${cv(s.k)}" title="${s.call}: ${moneyFull(s.spend)}">${s.call}${tegna.has(s.call)?'<sup>*</sup>':''}${oper.has(s.call)?'<sup>·op</sup>':''} <b>${money(s.spend)}</b></span>`
+        ).join(' ') : '<span class="emptycell">—</span>')+'</td>';
     }
-    h += '</div>';
+    h+='</tr>';
   }
-  h += '</div>';
-  chart.innerHTML = h;
+  document.getElementById('matrix').innerHTML=h+'</tbody>';
+}
+
+/* ---------- ledger ---------- */
+{
+  const chart=document.getElementById('chart');
+  const SCALE=16e6, ticks=[0,4e6,8e6,12e6,16e6];
+  let h=`<div class="axis">${ticks.map(t=>`<span style="left:${t/SCALE*100}%${t===SCALE?';transform:translateX(-88%)':''}">${t?'$'+t/1e6+'M':'$0'}</span>`).join('')}</div>
+    <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${t/SCALE*100}%"></i>`).join('')}</div>`;
+  for(const d of [...DATA.dmas].sort((a,b)=>b.spend-a.spend)){
+    const sts=DATA.stations.filter(s=>s.k===d.k).sort((a,b)=>b.spend-a.spend);
+    h+=`<div><div class="mkthead"><span class="nm">${d.name}</span><span class="rk">#${d.rank} · ${moneyFull(d.spend)}</span></div>`;
+    for(const s of sts){
+      const w=s.spend/SCALE*100;
+      h+=`<div class="brow" data-call="${s.call}"><div class="lbl"><span class="call">${s.call}</span><span class="sub">${s.net} · ${s.owner}</span></div>
+        <div class="barzone"><div class="bar" style="width:${w}%;background:${cv(d.k)}"></div>
+        <span class="val" style="left:calc(${w}% + 7px)">${money(s.spend)}</span></div></div>`;
+    }
+    h+='</div>';
+  }
+  chart.innerHTML=h+'</div>';
   for(const row of chart.querySelectorAll('.brow')){
-    const s = DATA.stations.find(x=>x.call===row.dataset.call);
-    row.addEventListener('mousemove', e=>tip(e, `<b>${s.call}</b> · ${s.net}${s.ch?` ch ${s.ch}`:''}<br>${s.owner}<br><span class="mono">${s.df} of 500 committees</span>${s.note?`<br>${s.note}`:''}`));
-    row.addEventListener('mouseleave', hideTip);
+    const s=DATA.stations.find(x=>x.call===row.dataset.call);
+    const tops=s.top.map(t=>`${t.n} ${money(t.a)}`).join('<br>');
+    row.addEventListener('mousemove',e=>tip(e,
+      `<b>${s.call}</b> · ${s.net}${s.ch?` ch ${s.ch}`:''}<br>${s.owner}<br>
+       <b>${moneyFull(s.spend)}</b> from ${s.cm} committees<br>
+       <span style="color:var(--baseline)">Top buyers</span><br>${tops}`));
+    row.addEventListener('mouseleave',hideTip);
   }
 }
 
 /* ---------- buyers ---------- */
 {
-  const max = 30;
-  let h = '';
-  for(const c of DATA.committees){
-    const w = c.n/max*100;
-    h += `<div class="brow"><div class="lbl"><span class="nm">${c.name}</span>${c.party?`<span class="ptag">${c.party}</span>`:''}</div>
-      <div class="barzone"><div class="bar" style="width:${w}%"></div>
-      <span class="val" style="left:calc(${w}% + 7px)">${c.n}${c.n>=25?'+':''}</span></div></div>`;
+  const mx=12e6, ticks=[0,3e6,6e6,9e6,12e6];
+  let h=`<div class="axis">${ticks.map(t=>`<span style="left:${t/mx*100}%${t===mx?';transform:translateX(-88%)':''}">${t?'$'+t/1e6+'M':'$0'}</span>`).join('')}</div>
+    <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${t/mx*100}%"></i>`).join('')}</div>`;
+  for(const b of DATA.buyers){
+    const w=b.amt/mx*100;
+    h+=`<div class="brow"><div class="lbl"><span class="nm">${b.name}</span>${b.party?`<span class="ptag">${b.party}</span>`:''}</div>
+      <div class="barzone"><div class="bar" style="width:${w}%;background:var(--accent)"></div>
+      <span class="val" style="left:calc(${w}% + 7px)">${money(b.amt)} · ${b.st} stations</span></div></div>`;
   }
-  document.getElementById('buyerlist').innerHTML = `<div class="axis"><span style="left:0">0</span><span style="left:50%">15</span><span style="left:100%;transform:translateX(-100%)">30 stations</span></div><div class="grid"><div class="gridlines"><i style="left:0"></i><i style="left:50%"></i><i style="left:100%"></i></div>${h}</div>`;
+  document.getElementById('buyerlist').innerHTML=h+'</div>';
 }
 
-/* ---------- tooltip ---------- */
-const tipEl = document.getElementById('tip');
-function tip(e, html){
-  tipEl.innerHTML = html;
-  tipEl.style.opacity = '1';
-  const pad = 14;
-  let x = e.clientX + pad, y = e.clientY + pad;
-  const r = tipEl.getBoundingClientRect();
-  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - pad;
-  if (y + r.height > innerHeight - 8) y = e.clientY - r.height - pad;
-  tipEl.style.left = x+'px'; tipEl.style.top = y+'px';
+/* tooltip */
+const tipEl=document.getElementById('tip');
+function tip(e,html){
+  tipEl.innerHTML=html; tipEl.style.opacity='1';
+  const pad=14; let x=e.clientX+pad, y=e.clientY+pad;
+  const r=tipEl.getBoundingClientRect();
+  if(x+r.width>innerWidth-8) x=e.clientX-r.width-pad;
+  if(y+r.height>innerHeight-8) y=e.clientY-r.height-pad;
+  tipEl.style.left=x+'px'; tipEl.style.top=y+'px';
 }
-function hideTip(){ tipEl.style.opacity = '0'; }
+function hideTip(){ tipEl.style.opacity='0'; }
 
 select('NO');
 </script>

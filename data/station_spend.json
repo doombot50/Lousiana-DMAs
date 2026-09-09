@@ -1,0 +1,3107 @@
+{
+ "generated": "2026-09-09",
+ "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
+ "rows_scanned": 1484108,
+ "years_covered": [
+  2000,
+  2027
+ ],
+ "years_missing": [
+  2008
+ ],
+ "total_spend": 120993388.36,
+ "stations": [
+  {
+   "call": "WWL-TV",
+   "network": "CBS",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Tegna · Nexstar",
+   "owner_group": "nexstar",
+   "spend": 15346096.54,
+   "rows": 1269,
+   "committees": 282,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 51190.0,
+    "2001": 94103.5,
+    "2002": 141990.75,
+    "2003": 1404710.9,
+    "2004": 102237.5,
+    "2005": 16711.0,
+    "2006": 351680.45,
+    "2007": 2036435.38,
+    "2009": 211811.41,
+    "2010": 557896.5,
+    "2011": 697674.72,
+    "2012": 104421.5,
+    "2013": 121692.4,
+    "2014": 444316.3,
+    "2015": 2500295.06,
+    "2016": 41826.5,
+    "2017": 457734.97,
+    "2018": 292366.0,
+    "2019": 2283476.36,
+    "2020": 417085.7,
+    "2021": 622143.85,
+    "2022": 203049.33,
+    "2023": 1477098.58,
+    "2024": 118992.85,
+    "2025": 378989.52,
+    "2026": 216165.5
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 1259392.5
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 1017602.0
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 537178.75
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 434809.0
+    },
+    {
+     "name": "The Northshore Wins, Inc.",
+     "party": "OTH",
+     "amount": 415410.0
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 411066.6
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 368857.5
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 351150.0
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 343546.5
+    },
+    {
+     "name": "Helena Moreno",
+     "party": "DEM",
+     "amount": 326297.5
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 325516.93
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 276060.0
+    }
+   ]
+  },
+  {
+   "call": "WAFB",
+   "network": "CBS",
+   "dma": "Baton Rouge",
+   "dma_rank_2024_25": 95,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 13023717.15,
+   "rows": 657,
+   "committees": 164,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 128882.75,
+    "2002": 26378.05,
+    "2003": 896682.04,
+    "2004": 128093.73,
+    "2005": 1699.65,
+    "2006": 84800.0,
+    "2007": 1642798.6,
+    "2010": 161434.55,
+    "2011": 572098.06,
+    "2012": 733471.19,
+    "2014": 29705.25,
+    "2015": 2799908.61,
+    "2016": 29130.75,
+    "2017": 215851.75,
+    "2018": 83500.0,
+    "2019": 2754748.32,
+    "2020": 338457.99,
+    "2021": 15203.0,
+    "2022": 258015.42,
+    "2023": 1638820.93,
+    "2024": 330848.26,
+    "2025": 91904.0,
+    "2026": 61284.25
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 1410380.8
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 932420.25
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 920643.7
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 508491.53
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 484368.25
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 456318.25
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 451053.9
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 421416.6
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 387481.0
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "amount": 277706.95
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 277690.0
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 269510.0
+    }
+   ]
+  },
+  {
+   "call": "WVUE",
+   "network": "Fox",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 11741214.31,
+   "rows": 985,
+   "committees": 239,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 7650.0,
+    "2001": 6608.75,
+    "2002": 19635.0,
+    "2003": 185034.0,
+    "2004": 6450.0,
+    "2006": 95173.75,
+    "2007": 597655.25,
+    "2009": 112663.42,
+    "2010": 283574.0,
+    "2011": 464350.79,
+    "2012": 53072.85,
+    "2013": 67928.0,
+    "2014": 254589.08,
+    "2015": 1442318.44,
+    "2016": 40115.75,
+    "2017": 553442.71,
+    "2018": 244592.0,
+    "2019": 2853690.06,
+    "2020": 490161.03,
+    "2021": 608630.0,
+    "2022": 321464.25,
+    "2023": 2179550.41,
+    "2024": 176370.59,
+    "2025": 316818.43,
+    "2026": 359675.75
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 871133.5
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 640551.5
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "amount": 532852.09
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 467190.25
+    },
+    {
+     "name": "The Northshore Wins, Inc.",
+     "party": "OTH",
+     "amount": 396180.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 370802.51
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 309900.0
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 290260.22
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 275475.65
+    },
+    {
+     "name": "Helena Moreno",
+     "party": "DEM",
+     "amount": 267876.75
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 217831.75
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 200891.25
+    }
+   ]
+  },
+  {
+   "call": "WDSU",
+   "network": "NBC",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Hearst Television",
+   "owner_group": "hearst",
+   "spend": 10155497.7,
+   "rows": 1097,
+   "committees": 273,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 28050.0,
+    "2001": 30502.25,
+    "2002": 60910.5,
+    "2003": 773635.78,
+    "2004": 34678.75,
+    "2006": 254136.0,
+    "2007": 894185.44,
+    "2009": 80013.85,
+    "2010": 207994.66,
+    "2011": 330051.4,
+    "2012": 28824.75,
+    "2013": 62596.75,
+    "2014": 219715.39,
+    "2015": 1193085.88,
+    "2016": 15465.75,
+    "2017": 415536.36,
+    "2018": 203064.98,
+    "2019": 1914772.76,
+    "2020": 317229.0,
+    "2021": 502382.5,
+    "2022": 209461.69,
+    "2023": 1652153.79,
+    "2024": 149480.25,
+    "2025": 313772.47,
+    "2026": 263796.75
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 591771.5
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 562738.75
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 367141.25
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 319434.25
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "amount": 316619.33
+    },
+    {
+     "name": "The Northshore Wins, Inc.",
+     "party": "OTH",
+     "amount": 309510.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 270062.28
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 258797.5
+    },
+    {
+     "name": "Helena Moreno",
+     "party": "DEM",
+     "amount": 256681.75
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 211091.65
+    },
+    {
+     "name": "Citizens Fighting Crime PAC",
+     "party": "OTH",
+     "amount": 206423.25
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 204021.25
+    }
+   ]
+  },
+  {
+   "call": "KLFY",
+   "network": "CBS",
+   "dma": "Lafayette",
+   "dma_rank_2024_25": 124,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 9596615.43,
+   "rows": 662,
+   "committees": 135,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 20425.5,
+    "2002": 20371.0,
+    "2003": 513257.22,
+    "2004": 51480.5,
+    "2006": 72.25,
+    "2007": 746869.1,
+    "2009": 3500.0,
+    "2010": 139660.19,
+    "2011": 330727.83,
+    "2012": 51941.25,
+    "2013": 13335.0,
+    "2014": 183860.82,
+    "2015": 2455709.89,
+    "2016": 366546.9,
+    "2017": 139920.21,
+    "2018": 46324.0,
+    "2019": 2676182.72,
+    "2020": 307584.0,
+    "2022": 101203.0,
+    "2023": 1274819.05,
+    "2024": 82700.0,
+    "2025": 70125.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 1120712.65
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 725194.5
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 521146.39
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 479137.57
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 463554.75
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 436587.5
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 305651.5
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 248807.75
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 220693.0
+    },
+    {
+     "name": "Dr. Ralph Abraham",
+     "party": "REP",
+     "amount": 214955.64
+    },
+    {
+     "name": "Joshua Slavone Guillory",
+     "party": "OTH",
+     "amount": 198107.5
+    },
+    {
+     "name": "Monique Blanco Boulet",
+     "party": "REP",
+     "amount": 179514.05
+    }
+   ]
+  },
+  {
+   "call": "WBRZ",
+   "network": "ABC",
+   "dma": "Baton Rouge",
+   "dma_rank_2024_25": 95,
+   "owner": "Louisiana Television Broadcasting",
+   "owner_group": "local",
+   "spend": 8784442.82,
+   "rows": 678,
+   "committees": 166,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 155937.25,
+    "2002": 14450.0,
+    "2003": 380943.84,
+    "2004": 93292.83,
+    "2006": 64056.0,
+    "2007": 869310.25,
+    "2009": 15379.33,
+    "2010": 124323.75,
+    "2011": 475407.75,
+    "2012": 491417.11,
+    "2013": 7412.15,
+    "2014": 35934.21,
+    "2015": 2078499.59,
+    "2016": 31188.0,
+    "2017": 167296.65,
+    "2018": 62407.0,
+    "2019": 1664098.66,
+    "2020": 181772.85,
+    "2021": 11575.0,
+    "2022": 189179.0,
+    "2023": 1250550.55,
+    "2024": 262906.05,
+    "2025": 88678.75,
+    "2026": 68426.25
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 775919.5
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 564829.25
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 445127.33
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 405475.64
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 404961.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 299803.5
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 260144.0
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 244596.0
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 234606.5
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 233463.67
+    },
+    {
+     "name": "Scott A. Angelle",
+     "party": "REP",
+     "amount": 216875.64
+    },
+    {
+     "name": "Bobby Simpson",
+     "party": "OTH",
+     "amount": 197905.95
+    }
+   ]
+  },
+  {
+   "call": "KATC",
+   "network": "ABC",
+   "dma": "Lafayette",
+   "dma_rank_2024_25": 124,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 8172004.41,
+   "rows": 676,
+   "committees": 149,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 13600.0,
+    "2002": 19296.25,
+    "2003": 369309.0,
+    "2004": 43875.75,
+    "2006": 3000.0,
+    "2007": 570828.32,
+    "2009": 1400.0,
+    "2010": 149853.75,
+    "2011": 334460.66,
+    "2012": 63697.5,
+    "2013": 28860.0,
+    "2014": 176183.38,
+    "2015": 1935691.77,
+    "2016": 379790.5,
+    "2017": 185978.88,
+    "2018": 20145.0,
+    "2019": 1923839.4,
+    "2020": 298776.3,
+    "2022": 119959.5,
+    "2023": 1452021.77,
+    "2024": 41208.0,
+    "2025": 40228.68
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 763299.25
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 577532.5
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 382346.25
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 364170.81
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 347314.76
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 263582.45
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 260129.64
+    },
+    {
+     "name": "Joshua Slavone Guillory",
+     "party": "OTH",
+     "amount": 233835.5
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 183706.25
+    },
+    {
+     "name": "Monique Blanco Boulet",
+     "party": "REP",
+     "amount": 173419.55
+    },
+    {
+     "name": "Dr. Ralph Abraham",
+     "party": "REP",
+     "amount": 168047.59
+    },
+    {
+     "name": "Scott A. Angelle",
+     "party": "REP",
+     "amount": 162565.25
+    }
+   ]
+  },
+  {
+   "call": "KTBS",
+   "network": "ABC",
+   "dma": "Shreveport",
+   "dma_rank_2024_25": 91,
+   "owner": "KTBS, LLC",
+   "owner_group": "local",
+   "spend": 6526179.15,
+   "rows": 578,
+   "committees": 135,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 27200.0,
+    "2002": 20986.75,
+    "2003": 738053.53,
+    "2006": 134.0,
+    "2007": 1156616.74,
+    "2010": 77966.38,
+    "2011": 283728.66,
+    "2012": 71876.25,
+    "2013": 26900.5,
+    "2014": 121904.04,
+    "2015": 1268910.98,
+    "2016": 13350.2,
+    "2017": 17866.0,
+    "2018": 67323.25,
+    "2019": 1486470.7,
+    "2020": 160446.75,
+    "2021": 13209.0,
+    "2022": 62523.81,
+    "2023": 895446.51,
+    "2024": 9578.0,
+    "2025": 5687.1
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 741801.65
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 543154.25
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 462565.75
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 386798.81
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 281975.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 221470.89
+    },
+    {
+     "name": "L. Lane Grigsby, Chairman Empower Louisiana, INC",
+     "party": "OTH",
+     "amount": 208013.7
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 181805.0
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 161606.25
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 152850.0
+    },
+    {
+     "name": "Randy Ewing",
+     "party": "OTH",
+     "amount": 145460.0
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 144177.0
+    }
+   ]
+  },
+  {
+   "call": "KSLA",
+   "network": "CBS",
+   "dma": "Shreveport",
+   "dma_rank_2024_25": 91,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 6036354.82,
+   "rows": 449,
+   "committees": 111,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 30838.0,
+    "2002": 18848.75,
+    "2003": 775634.88,
+    "2006": 9000.0,
+    "2007": 1200716.0,
+    "2010": 90966.25,
+    "2011": 451696.5,
+    "2012": 53221.75,
+    "2013": 35388.0,
+    "2014": 74907.98,
+    "2015": 1363513.55,
+    "2016": 10785.0,
+    "2017": 39420.0,
+    "2018": 20472.5,
+    "2019": 1147581.51,
+    "2020": 127310.0,
+    "2021": 13472.5,
+    "2022": 36750.89,
+    "2023": 520070.76,
+    "2024": 2760.0,
+    "2025": 13000.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 741864.3
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 736587.25
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 355380.75
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 307755.25
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 275460.0
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 205025.0
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 203819.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 193069.0
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "amount": 187680.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 181694.42
+    },
+    {
+     "name": "L. Lane Grigsby, Chairman Empower Louisiana, INC",
+     "party": "OTH",
+     "amount": 173104.2
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 153712.5
+    }
+   ]
+  },
+  {
+   "call": "KALB",
+   "network": "NBC",
+   "dma": "Alexandria",
+   "dma_rank_2024_25": 183,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 5723496.41,
+   "rows": 497,
+   "committees": 110,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 24650.0,
+    "2002": 18963.25,
+    "2003": 571904.1,
+    "2005": 9925.0,
+    "2006": 23648.75,
+    "2007": 721975.5,
+    "2009": 3000.0,
+    "2010": 20469.0,
+    "2011": 457967.61,
+    "2012": 13580.0,
+    "2013": 14684.35,
+    "2014": 305831.75,
+    "2015": 1209676.67,
+    "2016": 130822.75,
+    "2017": 10000.0,
+    "2018": 69646.5,
+    "2019": 1563786.62,
+    "2020": 99922.5,
+    "2022": 66225.25,
+    "2023": 323698.56,
+    "2024": 41518.25,
+    "2025": 21600.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 630789.73
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 500958.35
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 307790.24
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 270272.9
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 269373.5
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 247422.25
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 217840.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 194668.18
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 174029.0
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 134419.25
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 125000.0
+    },
+    {
+     "name": "Charles F. (Chuck) Wagner, Jr.",
+     "party": "DEM",
+     "amount": 116446.0
+    }
+   ]
+  },
+  {
+   "call": "KPLC",
+   "network": "NBC",
+   "dma": "Lake Charles",
+   "dma_rank_2024_25": 177,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 5556579.01,
+   "rows": 542,
+   "committees": 141,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 20544.5,
+    "2002": 8700.0,
+    "2003": 327359.27,
+    "2004": 988.4,
+    "2005": 55.0,
+    "2006": 8050.0,
+    "2007": 800111.62,
+    "2010": 43004.0,
+    "2011": 328556.6,
+    "2012": 31580.0,
+    "2013": 30190.5,
+    "2014": 271057.49,
+    "2015": 1105466.18,
+    "2016": 364630.5,
+    "2017": 76773.25,
+    "2018": 52415.75,
+    "2019": 1230540.57,
+    "2020": 93171.93,
+    "2021": 61491.5,
+    "2022": 79322.0,
+    "2023": 552549.95,
+    "2024": 43447.75,
+    "2025": 26572.25
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 592031.75
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 469824.0
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 317458.0
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 253686.82
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 229755.0
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 181492.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 179179.36
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 178395.08
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 157743.25
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 131804.5
+    },
+    {
+     "name": "Restore Our Coast PAC",
+     "party": "OTH",
+     "amount": 123200.0
+    },
+    {
+     "name": "Clayton Davis",
+     "party": "REP",
+     "amount": 122769.75
+    }
+   ]
+  },
+  {
+   "call": "KNOE",
+   "network": "CBS",
+   "dma": "Monroe–El Dorado",
+   "dma_rank_2024_25": 142,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 5248681.65,
+   "rows": 502,
+   "committees": 95,
+   "first_year": 2000,
+   "last_year": 2024,
+   "by_year": {
+    "2000": 29779.75,
+    "2002": 983.45,
+    "2003": 384052.3,
+    "2006": 6317.0,
+    "2007": 700249.8,
+    "2009": 2500.0,
+    "2010": 48223.86,
+    "2011": 269399.77,
+    "2012": 9800.0,
+    "2013": 27329.9,
+    "2014": 30207.5,
+    "2015": 1306173.15,
+    "2016": 12925.0,
+    "2017": 67000.0,
+    "2018": 22705.0,
+    "2019": 1333568.92,
+    "2020": 110406.0,
+    "2021": 5882.0,
+    "2023": 874548.25,
+    "2024": 6630.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 575357.5
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 418659.0
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 418555.65
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 302682.65
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 269214.25
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 221798.18
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 184308.05
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 178075.0
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 172430.0
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "amount": 161720.0
+    },
+    {
+     "name": "Scott A. Angelle",
+     "party": "REP",
+     "amount": 122825.0
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 107111.0
+    }
+   ]
+  },
+  {
+   "call": "WGNO",
+   "network": "ABC",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 2641880.02,
+   "rows": 847,
+   "committees": 201,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 15300.0,
+    "2001": 11398.5,
+    "2002": 8682.75,
+    "2003": 201062.25,
+    "2004": 3825.0,
+    "2006": 61566.06,
+    "2007": 292335.0,
+    "2009": 58216.5,
+    "2010": 103928.25,
+    "2011": 143256.74,
+    "2012": 7461.5,
+    "2013": 11831.63,
+    "2014": 89990.35,
+    "2015": 434070.14,
+    "2016": 9645.0,
+    "2017": 113526.45,
+    "2018": 70186.25,
+    "2019": 402706.5,
+    "2020": 95793.83,
+    "2021": 53135.75,
+    "2022": 35587.45,
+    "2023": 301683.13,
+    "2024": 55282.49,
+    "2025": 14878.0,
+    "2026": 46530.5
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 182694.25
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 117766.5
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 111336.5
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 105778.25
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 77294.75
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 60965.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 59755.5
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 56289.0
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 54572.0
+    },
+    {
+     "name": "Dominick Impastato",
+     "party": "REP",
+     "amount": 54324.5
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 52571.08
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "amount": 51739.5
+    }
+   ]
+  },
+  {
+   "call": "KTAL",
+   "network": "NBC",
+   "dma": "Shreveport",
+   "dma_rank_2024_25": 91,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 2585528.81,
+   "rows": 328,
+   "committees": 62,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 3400.0,
+    "2003": 368841.0,
+    "2006": 55.25,
+    "2007": 463163.5,
+    "2010": 26933.75,
+    "2011": 119926.13,
+    "2013": 12575.0,
+    "2014": 15927.5,
+    "2015": 529922.67,
+    "2016": 2815.0,
+    "2017": 3536.5,
+    "2018": 27895.1,
+    "2019": 667349.45,
+    "2020": 47600.0,
+    "2022": 777.75,
+    "2023": 291110.5,
+    "2024": 1999.71,
+    "2025": 1700.0
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 299837.0
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 261362.3
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 190179.0
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 180300.0
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 146416.75
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 132246.76
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 98657.75
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 97431.25
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "amount": 92386.5
+    },
+    {
+     "name": "Randy Ewing",
+     "party": "OTH",
+     "amount": 88561.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 86080.15
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 81790.0
+    }
+   ]
+  },
+  {
+   "call": "KTVE",
+   "network": "NBC",
+   "dma": "Monroe–El Dorado",
+   "dma_rank_2024_25": 142,
+   "owner": "Mission Bcstg · op. Nexstar",
+   "owner_group": "nexstar",
+   "spend": 1682207.93,
+   "rows": 372,
+   "committees": 70,
+   "first_year": 2000,
+   "last_year": 2023,
+   "by_year": {
+    "2000": 8500.0,
+    "2002": 1039.12,
+    "2003": 166085.15,
+    "2006": 17.0,
+    "2007": 214354.9,
+    "2010": 17286.25,
+    "2011": 124724.15,
+    "2012": 10310.0,
+    "2013": 8750.0,
+    "2014": 18872.5,
+    "2015": 519050.04,
+    "2016": 3495.0,
+    "2017": 13885.0,
+    "2018": 30404.5,
+    "2019": 353717.86,
+    "2020": 34334.25,
+    "2023": 157382.21
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 217013.5
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 178775.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 123347.75
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 93827.75
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 92796.91
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 81107.0
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 63857.88
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 63316.5
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 49175.0
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 40956.12
+    },
+    {
+     "name": "James R. (Jim) Fannin",
+     "party": "REP",
+     "amount": 38865.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 35271.99
+    }
+   ]
+  },
+  {
+   "call": "WVLA",
+   "network": "NBC",
+   "dma": "Baton Rouge",
+   "dma_rank_2024_25": 95,
+   "owner": "White Knight Bcstg · op. Nexstar",
+   "owner_group": "nexstar",
+   "spend": 1597547.07,
+   "rows": 355,
+   "committees": 75,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 40690.0,
+    "2002": 2550.0,
+    "2003": 117469.5,
+    "2004": 47982.4,
+    "2006": 3929.0,
+    "2007": 165154.7,
+    "2010": 1949.25,
+    "2011": 55049.39,
+    "2012": 96937.3,
+    "2014": 1540.0,
+    "2015": 371456.78,
+    "2017": 6017.75,
+    "2018": 23625.0,
+    "2019": 369328.95,
+    "2020": 40737.5,
+    "2022": 13961.25,
+    "2023": 169300.0,
+    "2024": 49357.3,
+    "2025": 7125.0,
+    "2026": 13386.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 196852.39
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 117865.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 102510.0
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 91574.75
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 75220.78
+    },
+    {
+     "name": "Bobby Simpson",
+     "party": "OTH",
+     "amount": 70822.4
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 63867.67
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 55000.0
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 46350.0
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 42682.75
+    },
+    {
+     "name": "Louisiana Charter Schools in Action (LCSA PAC)",
+     "party": "OTH",
+     "amount": 42021.89
+    },
+    {
+     "name": "L. Lane Grigsby, Chairman Empower Louisiana, INC",
+     "party": "OTH",
+     "amount": 40409.25
+    }
+   ]
+  },
+  {
+   "call": "WGMB",
+   "network": "Fox",
+   "dma": "Baton Rouge",
+   "dma_rank_2024_25": 95,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 1158960.65,
+   "rows": 294,
+   "committees": 62,
+   "first_year": 2000,
+   "last_year": 2026,
+   "by_year": {
+    "2000": 6715.0,
+    "2003": 37450.0,
+    "2004": 25712.5,
+    "2006": 5200.0,
+    "2007": 84563.75,
+    "2010": 5440.0,
+    "2011": 71817.07,
+    "2012": 21062.15,
+    "2015": 174205.7,
+    "2017": 2482.5,
+    "2018": 21910.0,
+    "2019": 338419.73,
+    "2020": 122271.25,
+    "2022": 11313.5,
+    "2023": 173200.0,
+    "2024": 30300.5,
+    "2025": 8075.0,
+    "2026": 18822.0
+   },
+   "top_committees": [
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 149277.0
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 116000.0
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 111856.0
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 88644.4
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 63867.67
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 52175.0
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 47260.0
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 42670.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 40011.45
+    },
+    {
+     "name": "Louisiana Charter Schools in Action (LCSA PAC)",
+     "party": "OTH",
+     "amount": 35362.67
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "amount": 33742.5
+    },
+    {
+     "name": "Bobby Simpson",
+     "party": "OTH",
+     "amount": 25712.5
+    }
+   ]
+  },
+  {
+   "call": "KVHP",
+   "network": "Fox",
+   "dma": "Lake Charles",
+   "dma_rank_2024_25": 177,
+   "owner": "American Spirit Media · op. Gray",
+   "owner_group": "gray",
+   "spend": 987441.14,
+   "rows": 291,
+   "committees": 68,
+   "first_year": 2002,
+   "last_year": 2024,
+   "by_year": {
+    "2002": 40.0,
+    "2003": 62117.25,
+    "2006": 297.5,
+    "2007": 194556.9,
+    "2009": 1000.0,
+    "2010": 2580.0,
+    "2011": 86688.25,
+    "2012": 4850.0,
+    "2013": 4525.0,
+    "2014": 11980.72,
+    "2015": 216121.13,
+    "2016": 24375.4,
+    "2017": 16655.7,
+    "2018": 11080.0,
+    "2019": 193840.29,
+    "2020": 48144.0,
+    "2021": 11062.75,
+    "2022": 13404.5,
+    "2023": 77496.0,
+    "2024": 6625.75
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 177888.0
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 114286.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 85497.25
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 43244.98
+    },
+    {
+     "name": "Republican Party of Louisiana",
+     "party": "REP",
+     "amount": 41922.5
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 38607.0
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 34448.0
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 31564.75
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 28628.0
+    },
+    {
+     "name": "Satrica Williams - Bensadat",
+     "party": "OTH",
+     "amount": 26425.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 24281.88
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 20740.0
+    }
+   ]
+  },
+  {
+   "call": "KADN",
+   "network": "Fox",
+   "dma": "Lafayette",
+   "dma_rank_2024_25": 124,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 766720.8,
+   "rows": 314,
+   "committees": 81,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 50.0,
+    "2002": 4947.0,
+    "2003": 49890.0,
+    "2004": 2383.77,
+    "2006": 382.5,
+    "2007": 35097.0,
+    "2009": 450.0,
+    "2010": 25549.75,
+    "2011": 42873.53,
+    "2012": 51.0,
+    "2013": 7675.0,
+    "2014": 13560.0,
+    "2015": 234327.2,
+    "2016": 15426.62,
+    "2017": 905.25,
+    "2018": 1145.0,
+    "2019": 214408.97,
+    "2020": 36296.25,
+    "2022": 3340.5,
+    "2023": 59009.7,
+    "2024": 7680.75,
+    "2025": 11271.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 87662.75
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 82097.25
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 77194.47
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 50804.5
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 47896.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 45122.25
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 28187.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 26125.47
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 24746.73
+    },
+    {
+     "name": "John F. Young, Jr.",
+     "party": "REP",
+     "amount": 21488.0
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 21000.0
+    },
+    {
+     "name": "Republican Party of Louisiana",
+     "party": "REP",
+     "amount": 13923.0
+    }
+   ]
+  },
+  {
+   "call": "KMSS",
+   "network": "Fox",
+   "dma": "Shreveport",
+   "dma_rank_2024_25": 91,
+   "owner": "Mission Bcstg · op. Nexstar",
+   "owner_group": "nexstar",
+   "spend": 743365.64,
+   "rows": 204,
+   "committees": 46,
+   "first_year": 2003,
+   "last_year": 2023,
+   "by_year": {
+    "2003": 73887.08,
+    "2006": 850.0,
+    "2007": 82283.75,
+    "2010": 10348.0,
+    "2011": 54871.83,
+    "2013": 21500.0,
+    "2014": 200.0,
+    "2015": 238111.59,
+    "2016": 1050.0,
+    "2018": 16850.0,
+    "2019": 163962.39,
+    "2020": 17087.5,
+    "2023": 62363.5
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 118307.0
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 112922.5
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 72989.5
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "amount": 52690.0
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 51998.75
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 34604.5
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 29592.04
+    },
+    {
+     "name": "L. Lane Grigsby, Chairman Empower Louisiana, INC",
+     "party": "OTH",
+     "amount": 27943.75
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 18636.25
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 17940.0
+    },
+    {
+     "name": "John Nickelson",
+     "party": "REP",
+     "amount": 17680.0
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "amount": 16473.0
+    }
+   ]
+  },
+  {
+   "call": "KARD",
+   "network": "Fox",
+   "dma": "Monroe–El Dorado",
+   "dma_rank_2024_25": 142,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 599143.66,
+   "rows": 269,
+   "committees": 51,
+   "first_year": 2002,
+   "last_year": 2025,
+   "by_year": {
+    "2002": 1039.12,
+    "2003": 7524.55,
+    "2006": 425.0,
+    "2007": 41995.5,
+    "2010": 3199.25,
+    "2011": 26964.59,
+    "2012": 2170.0,
+    "2013": 6000.0,
+    "2014": 6250.0,
+    "2015": 202858.02,
+    "2016": 2230.0,
+    "2017": 10060.0,
+    "2018": 4235.0,
+    "2019": 152991.87,
+    "2020": 32160.0,
+    "2023": 98540.75,
+    "2025": 500.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 77660.25
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 55870.5
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 55355.0
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 49193.0
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "amount": 35475.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 35271.99
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 32366.47
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 28037.25
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 27700.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 21084.3
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 20595.0
+    },
+    {
+     "name": "James R. (Jim) Fannin",
+     "party": "REP",
+     "amount": 13480.0
+    }
+   ]
+  },
+  {
+   "call": "KLAX",
+   "network": "ABC",
+   "dma": "Alexandria",
+   "dma_rank_2024_25": 183,
+   "owner": "Deltavision Media",
+   "owner_group": "other",
+   "spend": 576324.49,
+   "rows": 307,
+   "committees": 69,
+   "first_year": 2000,
+   "last_year": 2024,
+   "by_year": {
+    "2000": 6375.0,
+    "2002": 1973.25,
+    "2003": 59591.7,
+    "2005": 2620.0,
+    "2007": 106406.25,
+    "2009": 2000.0,
+    "2010": 616.5,
+    "2011": 84232.73,
+    "2012": 200.0,
+    "2013": 4125.0,
+    "2014": 46825.1,
+    "2015": 131181.19,
+    "2016": 22340.0,
+    "2018": 8934.25,
+    "2019": 88154.52,
+    "2020": 500.0,
+    "2023": 9671.0,
+    "2024": 578.0
+   },
+   "top_committees": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 57297.0
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 52908.5
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 41522.5
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 29807.8
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 29750.0
+    },
+    {
+     "name": "Charles F. (Chuck) Wagner, Jr.",
+     "party": "DEM",
+     "amount": 23732.5
+    },
+    {
+     "name": "William Earl Hilton",
+     "party": "DEM",
+     "amount": 23622.4
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 23358.0
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "amount": 22695.0
+    },
+    {
+     "name": "Restore Our Coast PAC",
+     "party": "OTH",
+     "amount": 20800.0
+    },
+    {
+     "name": "John Raymond Smith",
+     "party": "REP",
+     "amount": 15300.0
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 13335.25
+    }
+   ]
+  },
+  {
+   "call": "WNTZ",
+   "network": "Fox",
+   "dma": "Alexandria",
+   "dma_rank_2024_25": 183,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 329136.94,
+   "rows": 191,
+   "committees": 40,
+   "first_year": 2002,
+   "last_year": 2024,
+   "by_year": {
+    "2002": 1611.6,
+    "2003": 22097.0,
+    "2007": 16967.0,
+    "2010": 17.0,
+    "2011": 28191.38,
+    "2013": 6450.0,
+    "2014": 15217.25,
+    "2015": 76039.29,
+    "2018": 11160.0,
+    "2019": 105670.67,
+    "2020": 17934.0,
+    "2022": 1428.0,
+    "2023": 24186.25,
+    "2024": 2167.5
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 51763.16
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 38330.0
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 26265.0
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 24917.75
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "OTH",
+     "amount": 18827.5
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 17934.0
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 15697.67
+    },
+    {
+     "name": "Jeff Hall",
+     "party": "DEM",
+     "amount": 12588.0
+    },
+    {
+     "name": "Republican Party of Louisiana",
+     "party": "REP",
+     "amount": 12150.75
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 12100.0
+    },
+    {
+     "name": "Hunter W. Lundy",
+     "party": "DEM",
+     "amount": 10965.0
+    },
+    {
+     "name": "The Fund for Louisiana's Future",
+     "party": "OTH",
+     "amount": 9792.13
+    }
+   ]
+  },
+  {
+   "call": "KLAF-LD",
+   "network": "NBC",
+   "dma": "Lafayette",
+   "dma_rank_2024_25": 124,
+   "owner": "Gray Media",
+   "owner_group": "gray",
+   "spend": 315226.84,
+   "rows": 205,
+   "committees": 47,
+   "first_year": 2000,
+   "last_year": 2025,
+   "by_year": {
+    "2000": 100.0,
+    "2003": 470.0,
+    "2004": 300.0,
+    "2007": 1950.0,
+    "2015": 59892.12,
+    "2016": 8204.62,
+    "2017": 6542.57,
+    "2018": 1160.0,
+    "2019": 149458.32,
+    "2020": 27371.5,
+    "2022": 4449.75,
+    "2023": 43980.45,
+    "2024": 1402.5,
+    "2025": 9945.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 49992.0
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 46622.5
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 31883.5
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 29363.32
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 22891.0
+    },
+    {
+     "name": "Joshua Slavone Guillory",
+     "party": "OTH",
+     "amount": 16686.25
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 14337.12
+    },
+    {
+     "name": "Dr. Ralph Abraham",
+     "party": "REP",
+     "amount": 8912.25
+    },
+    {
+     "name": "Louisiana Health & Prosperity Initiative PAC",
+     "party": "OTH",
+     "amount": 7956.0
+    },
+    {
+     "name": "Jeff Landry",
+     "party": "REP",
+     "amount": 6307.0
+    },
+    {
+     "name": "Republican Party of Louisiana",
+     "party": "REP",
+     "amount": 5499.5
+    },
+    {
+     "name": "Elizabeth Murrill",
+     "party": "REP",
+     "amount": 4909.6
+    }
+   ]
+  },
+  {
+   "call": "WNOL",
+   "network": "The CW",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 307017.17,
+   "rows": 162,
+   "committees": 35,
+   "first_year": 2002,
+   "last_year": 2026,
+   "by_year": {
+    "2002": 4658.0,
+    "2003": 19145.63,
+    "2006": 8977.5,
+    "2007": 38117.25,
+    "2009": 17264.37,
+    "2010": 31924.25,
+    "2011": 16145.17,
+    "2014": 3789.5,
+    "2015": 52475.75,
+    "2019": 89298.75,
+    "2020": 1066.75,
+    "2021": 10715.0,
+    "2022": 7947.5,
+    "2023": 4649.0,
+    "2026": 842.75
+   },
+   "top_committees": [
+    {
+     "name": "Dr. Ralph Abraham",
+     "party": "REP",
+     "amount": 64719.0
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 36066.75
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 22928.75
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 21830.0
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "OTH",
+     "amount": 16830.0
+    },
+    {
+     "name": "Randy Ewing",
+     "party": "OTH",
+     "amount": 16280.63
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 13625.5
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 13400.25
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 11107.25
+    },
+    {
+     "name": "LaToya Cantrell",
+     "party": "DEM",
+     "amount": 9950.0
+    },
+    {
+     "name": "Irvin F. Hingle",
+     "party": "OTH",
+     "amount": 8330.87
+    },
+    {
+     "name": "Keep the Lights On",
+     "party": "OTH",
+     "amount": 7947.5
+    }
+   ]
+  },
+  {
+   "call": "WUPL",
+   "network": "MyNetworkTV",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Tegna · Nexstar",
+   "owner_group": "nexstar",
+   "spend": 258363.93,
+   "rows": 208,
+   "committees": 78,
+   "first_year": 2003,
+   "last_year": 2026,
+   "by_year": {
+    "2003": 47484.75,
+    "2006": 8095.25,
+    "2007": 10663.0,
+    "2009": 8121.25,
+    "2010": 20467.25,
+    "2011": 1428.09,
+    "2012": 770.0,
+    "2013": 711.75,
+    "2014": 7844.14,
+    "2015": 6342.21,
+    "2017": 15925.0,
+    "2018": 5571.0,
+    "2019": 29734.75,
+    "2020": 6154.5,
+    "2021": 34460.0,
+    "2022": 3987.75,
+    "2023": 45745.0,
+    "2025": 2499.0,
+    "2026": 2359.25
+   },
+   "top_committees": [
+    {
+     "name": "LaToya Cantrell",
+     "party": "DEM",
+     "amount": 31490.0
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "OTH",
+     "amount": 27500.0
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 27395.5
+    },
+    {
+     "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+     "party": "OTH",
+     "amount": 25500.0
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "amount": 15990.5
+    },
+    {
+     "name": "The Northshore Wins, Inc.",
+     "party": "OTH",
+     "amount": 13650.0
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "amount": 8160.0
+    },
+    {
+     "name": "Hunt Downer",
+     "party": "REP",
+     "amount": 7425.0
+    },
+    {
+     "name": "House Democratic Campaign Committee of LA",
+     "party": "OTH",
+     "amount": 7160.0
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 6465.0
+    },
+    {
+     "name": "Glenn E. Diaz",
+     "party": "OTH",
+     "amount": 6296.38
+    },
+    {
+     "name": "Marlin Gusman",
+     "party": "DEM",
+     "amount": 5224.76
+    }
+   ]
+  },
+  {
+   "call": "KSWL-LD",
+   "network": "CBS",
+   "dma": "Lake Charles",
+   "dma_rank_2024_25": 177,
+   "owner": "SagamoreHill Broadcasting",
+   "owner_group": "other",
+   "spend": 219765.94,
+   "rows": 95,
+   "committees": 19,
+   "first_year": 2015,
+   "last_year": 2024,
+   "by_year": {
+    "2015": 3080.4,
+    "2018": 2250.0,
+    "2019": 132891.61,
+    "2020": 15134.03,
+    "2021": 4897.75,
+    "2022": 10157.5,
+    "2023": 44504.5,
+    "2024": 6850.15
+   },
+   "top_committees": [
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 52100.75
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 47361.15
+    },
+    {
+     "name": "Edward L. Rispone",
+     "party": "REP",
+     "amount": 23904.61
+    },
+    {
+     "name": "Clayton Davis",
+     "party": "REP",
+     "amount": 17007.65
+    },
+    {
+     "name": "Gary \"Stitch\" Guillory",
+     "party": "REP",
+     "amount": 14424.5
+    },
+    {
+     "name": "Louisiana Wins",
+     "party": "OTH",
+     "amount": 14109.0
+    },
+    {
+     "name": "Make Louisiana Great Again",
+     "party": "OTH",
+     "amount": 13558.0
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 6923.25
+    },
+    {
+     "name": "Republican Party of Louisiana",
+     "party": "REP",
+     "amount": 6515.25
+    },
+    {
+     "name": "Jeremy Stine",
+     "party": "REP",
+     "amount": 4897.75
+    },
+    {
+     "name": "Elizabeth Murrill",
+     "party": "REP",
+     "amount": 4445.5
+    },
+    {
+     "name": "Hunter W. Lundy",
+     "party": "DEM",
+     "amount": 2965.0
+    }
+   ]
+  },
+  {
+   "call": "KPXJ",
+   "network": "The CW",
+   "dma": "Shreveport",
+   "dma_rank_2024_25": 91,
+   "owner": "KTBS, LLC",
+   "owner_group": "local",
+   "spend": 160879.42,
+   "rows": 84,
+   "committees": 22,
+   "first_year": 2006,
+   "last_year": 2023,
+   "by_year": {
+    "2006": 2600.0,
+    "2007": 1041.25,
+    "2011": 7050.8,
+    "2012": 1650.0,
+    "2013": 697.5,
+    "2015": 16335.5,
+    "2019": 108504.38,
+    "2020": 7021.0,
+    "2022": 6000.0,
+    "2023": 9979.0
+   },
+   "top_committees": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 66385.0
+    },
+    {
+     "name": "Gumbo PAC",
+     "party": "OTH",
+     "amount": 27648.38
+    },
+    {
+     "name": "RGA (Republican Governors Association) Right Direction PAC",
+     "party": "OTH",
+     "amount": 11534.5
+    },
+    {
+     "name": "Robert Mills",
+     "party": "REP",
+     "amount": 9512.0
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "amount": 6256.0
+    },
+    {
+     "name": "People Over Politics PAC",
+     "party": "OTH",
+     "amount": 6000.0
+    },
+    {
+     "name": "Elizabeth Murrill",
+     "party": "REP",
+     "amount": 5397.5
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "amount": 4284.0
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "amount": 2711.25
+    },
+    {
+     "name": "Mike Francis",
+     "party": "REP",
+     "amount": 2600.0
+    },
+    {
+     "name": "Allen Lynn Austin",
+     "party": "OTH",
+     "amount": 2500.0
+    },
+    {
+     "name": "James J (Jim) Donelon",
+     "party": "REP",
+     "amount": 2401.25
+    }
+   ]
+  },
+  {
+   "call": "WLAE",
+   "network": "EDU",
+   "dma": "New Orleans",
+   "dma_rank_2024_25": 50,
+   "owner": "Educational Broadcasting Foundation",
+   "owner_group": "other",
+   "spend": 126464.91,
+   "rows": 61,
+   "committees": 24,
+   "first_year": 2000,
+   "last_year": 2023,
+   "by_year": {
+    "2000": 140.0,
+    "2001": 2100.0,
+    "2002": 2100.0,
+    "2005": 250.0,
+    "2007": 20.0,
+    "2009": 10660.92,
+    "2010": 1330.0,
+    "2011": 7350.0,
+    "2013": 1562.5,
+    "2014": 11733.5,
+    "2015": 19530.49,
+    "2017": 53687.5,
+    "2018": 250.0,
+    "2020": 1000.0,
+    "2023": 14750.0
+   },
+   "top_committees": [
+    {
+     "name": "The Voice of the People LLC",
+     "party": "OTH",
+     "amount": 53687.5
+    },
+    {
+     "name": "Michael S. Yenni",
+     "party": "REP",
+     "amount": 23081.0
+    },
+    {
+     "name": "Ricky Templet",
+     "party": "REP",
+     "amount": 14750.0
+    },
+    {
+     "name": "Greg Guidry",
+     "party": "DEM",
+     "amount": 10660.92
+    },
+    {
+     "name": "Eric Skrmetta",
+     "party": "REP",
+     "amount": 7687.5
+    },
+    {
+     "name": "John Hainkel",
+     "party": "OTH",
+     "amount": 4200.0
+    },
+    {
+     "name": "Mike Tregre",
+     "party": "DEM",
+     "amount": 2875.0
+    },
+    {
+     "name": "Patricia Brister",
+     "party": "REP",
+     "amount": 1800.0
+    },
+    {
+     "name": "Mitch Landrieu",
+     "party": "DEM",
+     "amount": 1300.0
+    },
+    {
+     "name": "Christopher Trahan",
+     "party": "REP",
+     "amount": 1175.0
+    },
+    {
+     "name": "Hilary Landry",
+     "party": "REP",
+     "amount": 1062.5
+    },
+    {
+     "name": "Keith Conley",
+     "party": "REP",
+     "amount": 755.49
+    }
+   ]
+  },
+  {
+   "call": "WBRL-CD",
+   "network": "The CW",
+   "dma": "Baton Rouge",
+   "dma_rank_2024_25": 95,
+   "owner": "Nexstar Media",
+   "owner_group": "nexstar",
+   "spend": 26533.6,
+   "rows": 19,
+   "committees": 6,
+   "first_year": 2012,
+   "last_year": 2026,
+   "by_year": {
+    "2012": 19440.35,
+    "2015": 100.0,
+    "2019": 896.75,
+    "2020": 1490.0,
+    "2022": 314.5,
+    "2026": 4292.0
+   },
+   "top_committees": [
+    {
+     "name": "Mary Olive Pierson",
+     "party": "DEM",
+     "amount": 19440.35
+    },
+    {
+     "name": "Blair Edwards",
+     "party": "DEM",
+     "amount": 4292.0
+    },
+    {
+     "name": "Louisiana for Personal Freedoms, Inc.",
+     "party": "OTH",
+     "amount": 1490.0
+    },
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "amount": 896.75
+    },
+    {
+     "name": "Keep the Lights On",
+     "party": "OTH",
+     "amount": 314.5
+    },
+    {
+     "name": "Jason Ard",
+     "party": "REP",
+     "amount": 100.0
+    }
+   ]
+  }
+ ],
+ "markets": [
+  {
+   "name": "New Orleans",
+   "rank": 50,
+   "spend": 40576534.58,
+   "stations": 7,
+   "share": 0.3354
+  },
+  {
+   "name": "Baton Rouge",
+   "rank": 95,
+   "spend": 24591201.29,
+   "stations": 5,
+   "share": 0.2032
+  },
+  {
+   "name": "Lafayette",
+   "rank": 124,
+   "spend": 18850567.48,
+   "stations": 4,
+   "share": 0.1558
+  },
+  {
+   "name": "Shreveport",
+   "rank": 91,
+   "spend": 16052307.84,
+   "stations": 5,
+   "share": 0.1327
+  },
+  {
+   "name": "Monroe–El Dorado",
+   "rank": 142,
+   "spend": 7530033.24,
+   "stations": 3,
+   "share": 0.0622
+  },
+  {
+   "name": "Lake Charles",
+   "rank": 177,
+   "spend": 6763786.09,
+   "stations": 3,
+   "share": 0.0559
+  },
+  {
+   "name": "Alexandria",
+   "rank": 183,
+   "spend": 6628957.84,
+   "stations": 3,
+   "share": 0.0548
+  }
+ ],
+ "owners": [
+  {
+   "group": "gray",
+   "spend": 57571436.54,
+   "stations": 10,
+   "share": 0.4758
+  },
+  {
+   "group": "nexstar",
+   "spend": 36872397.39,
+   "stations": 13,
+   "share": 0.3047
+  },
+  {
+   "group": "local",
+   "spend": 15471501.39,
+   "stations": 3,
+   "share": 0.1279
+  },
+  {
+   "group": "hearst",
+   "spend": 10155497.7,
+   "stations": 1,
+   "share": 0.0839
+  },
+  {
+   "group": "other",
+   "spend": 922555.34,
+   "stations": 3,
+   "share": 0.0076
+  }
+ ],
+ "top_buyers": [
+  {
+   "name": "John Bel Edwards",
+   "party": "DEM",
+   "amount": 11348196.78,
+   "stations": 29
+  },
+  {
+   "name": "Bobby Jindal",
+   "party": "REP",
+   "amount": 8565439.34,
+   "stations": 26
+  },
+  {
+   "name": "RGA (Republican Governors Association) Right Direction PAC",
+   "party": "OTH",
+   "amount": 6735584.81,
+   "stations": 27
+  },
+  {
+   "name": "Edward L. Rispone",
+   "party": "REP",
+   "amount": 4006723.63,
+   "stations": 28
+  },
+  {
+   "name": "David Vitter",
+   "party": "REP",
+   "amount": 3997403.4,
+   "stations": 28
+  },
+  {
+   "name": "Gumbo PAC",
+   "party": "OTH",
+   "amount": 3858513.26,
+   "stations": 27
+  },
+  {
+   "name": "The Fund for Louisiana's Future",
+   "party": "OTH",
+   "amount": 3637250.08,
+   "stations": 23
+  },
+  {
+   "name": "Walter J. Boasso",
+   "party": "OTH",
+   "amount": 3601618.3,
+   "stations": 21
+  },
+  {
+   "name": "John L. (Jay) Dardenne",
+   "party": "OTH",
+   "amount": 2851589.45,
+   "stations": 28
+  },
+  {
+   "name": "Kathleen Babineaux Blanco",
+   "party": "DEM",
+   "amount": 2730612.85,
+   "stations": 21
+  },
+  {
+   "name": "PROTECT LOUISIANA'S CHILDREN PAC",
+   "party": "OTH",
+   "amount": 2241630.25,
+   "stations": 16
+  },
+  {
+   "name": "Claude (Buddy) Leach, Jr.",
+   "party": "OTH",
+   "amount": 2064981.25,
+   "stations": 23
+  },
+  {
+   "name": "James Caldwell",
+   "party": "OTH",
+   "amount": 2057011.3,
+   "stations": 25
+  },
+  {
+   "name": "John Schroder",
+   "party": "REP",
+   "amount": 1976864.6,
+   "stations": 19
+  },
+  {
+   "name": "Scott A. Angelle",
+   "party": "REP",
+   "amount": 1661251.14,
+   "stations": 18
+  },
+  {
+   "name": "Jeff Landry",
+   "party": "REP",
+   "amount": 1511853.35,
+   "stations": 25
+  },
+  {
+   "name": "John D. Georges",
+   "party": "DEM",
+   "amount": 1460200.55,
+   "stations": 10
+  },
+  {
+   "name": "L. Lane Grigsby, Chairman Empower Louisiana, INC",
+   "party": "OTH",
+   "amount": 1430369.51,
+   "stations": 17
+  },
+  {
+   "name": "John F. Young, Jr.",
+   "party": "REP",
+   "amount": 1406590.85,
+   "stations": 22
+  },
+  {
+   "name": "Dr. Ralph Abraham",
+   "party": "REP",
+   "amount": 1255923.78,
+   "stations": 18
+  },
+  {
+   "name": "Foster L. Campbell, Jr.",
+   "party": "DEM",
+   "amount": 1250337.75,
+   "stations": 26
+  },
+  {
+   "name": "Republican Party of Louisiana",
+   "party": "REP",
+   "amount": 1223492.2,
+   "stations": 26
+  },
+  {
+   "name": "The Northshore Wins, Inc.",
+   "party": "OTH",
+   "amount": 1144140.0,
+   "stations": 5
+  },
+  {
+   "name": "Elizabeth Murrill",
+   "party": "REP",
+   "amount": 1110381.82,
+   "stations": 27
+  }
+ ],
+ "caveats": {
+  "radio_excluded": {
+   "KLFY": 260.0,
+   "KMSS": 5984.0,
+   "KNOE": 22991.19,
+   "KTAL": 22765.6,
+   "WBRZ": 500.0,
+   "WGNO": 2000.0,
+   "WWL-TV": 1546029.74
+  },
+  "ambiguous_bare_call": {
+   "KTAL": 863675.93,
+   "WWL-TV": 4407060.06
+  },
+  "combined_buys": {
+   "amount": 318379.57,
+   "rows": 72,
+   "note": "rows naming two stations; split evenly"
+  }
+ }
+}
