@@ -1,5 +1,7 @@
 # Louisiana Airwaves
 
+**Live at [airwaves.charliestephens.xyz](https://airwaves.charliestephens.xyz/)**
+
 **$121 million** of Louisiana political money has gone to the state's
 television stations since 2000. This maps where it landed: every station named
 in campaign expenditure filings, placed in the seven Nielsen Designated Market
@@ -36,14 +38,34 @@ geography and the money underneath those edges.
 
 ## Run it
 
-`index.html` is fully self-contained (data inlined, no build step):
+`index.html` is fully self-contained — all data is inlined, no network calls
+except the webfonts:
 
 ```bash
 python3 -m http.server 8793
 # → http://localhost:8793
 ```
 
-Ready for GitHub Pages: serve the repo root.
+GitHub Pages serves the repo root; `CNAME` pins the custom domain.
+
+## Rebuild the page
+
+`build_page.py` assembles the page from `page.template.html` + `data/`, and
+writes **two** outputs, because the page ships to two places that need
+different things:
+
+```bash
+python3 build_page.py
+```
+
+| output | for | shape |
+|---|---|---|
+| `index.html` | GitHub Pages | complete document — doctype, charset, viewport, canonical + Open Graph tags |
+| `artifact.html` | Claude Artifact | body fragment; the artifact publisher supplies its own `<head>` |
+
+Edit `page.template.html` (never the generated files) and re-run. The doctype
+and viewport meta in the standalone build are load-bearing: without them a
+raw-served page falls into quirks mode and renders at desktop width on phones.
 
 ## Rebuild the spending data
 
@@ -72,6 +94,9 @@ which pulls nightly snapshots from that repo's `data-cache` release.
 - `data/stations.json` — the 30 stations: call sign, virtual channel, network,
   DMA (with 2024–25 Nielsen rank and TV households), owner and ownership notes,
   and the vendor-factions committee counts.
+- `data/map_paths.json` — the 64 parish outlines as projected, simplified SVG
+  paths (equirectangular, Douglas–Peucker at ~1.1 units), each tagged with its
+  DMA. This is what the map draws.
 - `data/parish_dma.json` — all 64 parishes → Nielsen DMA. Computed by
   point-in-polygon of parish centroids (U.S. Census cartographic boundaries)
   against Nielsen DMA polygons ([simzou/nielsen-dma](https://github.com/simzou/nielsen-dma)),
