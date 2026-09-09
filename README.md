@@ -94,6 +94,17 @@ Dollars come from 1.48M Louisiana Ethics Administration expenditure rows,
   once (`KARD-TV KTVE-TV`, `WGMB WVLA-TV`); those are split evenly rather than
   assigned to whichever sorts first.
 
+One editorial correction is applied on top of the filings:
+
+- **Party labels.** Louisiana files most PACs and some candidates as `OTH`,
+  which says nothing about which side of a race bought the airtime. For filers
+  whose alignment is a matter of public record, the label is corrected in
+  `PARTY_OVERRIDE` in `build_station_spend.py` — currently the RGA's Right
+  Direction PAC (REP); Gumbo PAC, Walter J. Boasso and Claude "Buddy" Leach Jr.
+  (DEM); and John L. "Jay" Dardenne (REP). **A filing that states REP or DEM is
+  never overridden**, only `OTH` is, and every correction is listed in the
+  source and echoed into the output's `caveats.party_overrides`.
+
 Two further limits worth knowing:
 
 - **2008 is missing.** That year's expenditure file is absent from the upstream

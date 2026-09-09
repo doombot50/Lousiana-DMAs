@@ -82,6 +82,35 @@ def stations_in(name, callset):
     return {t for t in toks if t in callset}
 
 
+# ── party labels ─────────────────────────────────────────────────────────────
+# Party normally comes from the filing itself. But Louisiana files PACs and
+# many candidates as "OTH", which tells a reader nothing about which side of a
+# race bought the airtime — so for filers whose alignment is a matter of public
+# record, the label is corrected here. Only filers filed as OTH are overridden;
+# a filing that states REP or DEM is left alone. Each entry is an editorial
+# call, listed explicitly so it can be audited or reverted.
+PARTY_OVERRIDE = {
+    # Republican Governors Association's Louisiana IE vehicle.
+    'RGA (Republican Governors Association) Right Direction PAC': 'REP',
+    # Democratic-aligned super PAC; ran the anti-Landry air war in 2023.
+    'Gumbo PAC': 'DEM',
+    # Elected to the state Senate as a Republican, switched to the Democratic
+    # Party to run for governor in 2007 — the cycle this spending is from.
+    'Walter J. Boasso': 'DEM',
+    # Republican; former Secretary of State and Lieutenant Governor.
+    'John L. (Jay) Dardenne': 'REP',
+    # Democrat; former congressman and chairman of the Louisiana Democratic Party.
+    'Claude (Buddy) Leach, Jr.': 'DEM',
+}
+
+
+def party_of(name, filed):
+    """Filed party, corrected only where the filing says OTH (or nothing)."""
+    if filed in (None, '', 'OTH'):
+        return PARTY_OVERRIDE.get(name, filed)
+    return filed
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -180,7 +209,8 @@ def main():
         return max(buyer_name[fn].items(), key=lambda x: x[1])[0] if buyer_name[fn] else f'filer {fn}'
 
     def bparty(fn):
-        return max(buyer_party[fn].items(), key=lambda x: x[1])[0] if buyer_party[fn] else None
+        filed = max(buyer_party[fn].items(), key=lambda x: x[1])[0] if buyer_party[fn] else None
+        return party_of(bname(fn), filed)
 
     out_stations = []
     for s in stations:
@@ -247,6 +277,9 @@ def main():
             'ambiguous_bare_call': {k: round(v, 2) for k, v in sorted(ambiguous.items())},
             'combined_buys': {'amount': round(combined_total, 2), 'rows': combined_rows,
                               'note': 'rows naming two stations; split evenly'},
+            'party_overrides': {'applied': PARTY_OVERRIDE,
+                                'note': 'filers Louisiana files as OTH whose alignment is '
+                                        'public record; a filed REP/DEM is never overridden'},
         },
     }
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
