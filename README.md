@@ -67,6 +67,59 @@ Edit `page.template.html` (never the generated files) and re-run. The doctype
 and viewport meta in the standalone build are load-bearing: without them a
 raw-served page falls into quirks mode and renders at desktop width on phones.
 
+## Louisiana Dial — the radio sibling
+
+`radio.html` is a second, standalone page covering **radio** rather than
+television: **$11.7M** across ~320 stations since 2000, a tenth of the TV total.
+Placement on the site is still open; nothing links to it yet.
+
+Radio is not the TV page with new call signs, because the analysis inverts:
+
+- **Format, not geography, is the spine.** Radio doesn't use DMAs — Nielsen
+  Audio rates only a handful of Louisiana metros and much of this money goes to
+  unrated territory (Mamou, Crowley, Berwick, Ville Platte). So the page opens
+  on format, and the parish map is deliberately absent.
+- **A third of it buys Black radio.** Urban, gospel and Black-talk formats take
+  **33%** of all radio spending, nearly double news/talk. Nothing comparable
+  exists on TV, where a station sells one undifferentiated audience.
+- **Each buy is a targeting statement.** Edwards put 61% of his radio money into
+  Black-audience stations, Blanco 74%, Boasso 99%; Landry put 48% into
+  news/talk and the conservative PACs split ~40/40 talk and country. Jindal is
+  the exception — he bought everything.
+- **Retail politics shows up.** The median station's buy is **$1,351** against
+  $4,221 on TV, and KVPI in Ville Platte (classic country + Cajun French) has
+  taken money from **61 committees at $244 a spot** — sheriffs and school-board
+  races, a layer invisible on television.
+- **Different owners entirely.** iHeartMedia, Townsquare, Cumulus and Audacy,
+  plus a large locally-owned share. Gray and Nexstar do not appear.
+
+```bash
+python3 build_radio_spend.py     # data/radio_spend.json, from .la_cache
+python3 build_radio_page.py      # radio.html + radio.artifact.html
+```
+
+`data/radio_stations.json` is the hand-verified reference (call sign → format,
+city, owner, market) for the 66 stations carrying 83% of the dollars; edit
+`radio.template.html`, never the generated pages.
+
+### Two things the radio build has to handle that the TV build didn't
+
+- **Call signs collide with English.** A plain `[KW][A-Z]{3}` match over these
+  filings returns `WINE` (Total Wine), `KING` (Smoothie King Center), `WORD`
+  (Last Word Strategies), `WEST` (Ryan West) and `KYLE` (Kyle Ardoin) as radio
+  stations — about **$9.0M** of phantom spend. Nothing is matched on shape
+  alone: a row counts only if the call sign is in the verified reference or
+  carries an explicit `-AM`/`-FM` marker, and the rejected total is reported in
+  the output's `caveats`.
+- **The unclassified tail is disclosed, not dropped.** ~$2.0M sits on ~254
+  small stations identifiable as radio but not individually verified (largest
+  about $55K). It is counted in the total and shown as its own bucket, so
+  format shares are diluted honestly rather than quoted against a flattering
+  denominator.
+- **No double-counting with the TV page.** WWL and KTAL share call signs across
+  television and radio. Airwaves counts their bare-call rows as TV; Dial counts
+  only rows explicitly marked radio.
+
 ## Rebuild the spending data
 
 `build_station_spend.py` recomputes every dollar figure from the raw filings.

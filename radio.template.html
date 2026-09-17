@@ -1,0 +1,410 @@
+<title>Louisiana Dial</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --hair:#e1e0d9; --baseline:#c3c2b7; --accent-ink:#1c5cab; --accent:#2a78d6;
+  --f-black:#4a3aa7; --f-talk:#eb6834; --f-country:#1baf7a; --f-cajun:#eda100;
+  --f-christian:#e87ba4; --f-spanish:#008300; --f-gen:#898781; --f-tail:#c3c2b7;
+  --dem:#2a78d6; --rep:#e34948; --oth:#898781;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --hair:#2c2c2a; --baseline:#383835; --accent-ink:#6da7ec; --accent:#3987e5;
+    --f-black:#9085e9; --f-talk:#d95926; --f-country:#199e70; --f-cajun:#c98500;
+    --f-christian:#d55181; --f-spanish:#008300; --f-gen:#898781; --f-tail:#4a4a46;
+    --dem:#3987e5; --rep:#e66767; --oth:#898781;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+  --hair:#2c2c2a; --baseline:#383835; --accent-ink:#6da7ec; --accent:#3987e5;
+  --f-black:#9085e9; --f-talk:#d95926; --f-country:#199e70; --f-cajun:#c98500;
+  --f-christian:#d55181; --f-spanish:#008300; --f-gen:#898781; --f-tail:#4a4a46;
+  --dem:#3987e5; --rep:#e66767; --oth:#898781;
+}
+*{box-sizing:border-box}
+body{background:var(--page); color:var(--ink); font:16px/1.55 "Source Serif 4",Georgia,serif; margin:0;}
+.wrap{max-width:1080px; margin:0 auto; padding:0 20px 72px;}
+a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px;}
+h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance; margin:0;}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;}
+.eyebrow{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink2);}
+.eyebrow a{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
+.eyebrow a:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
+
+header{padding:44px 0 0;}
+header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
+.dek{max-width:62ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
+.dek b{color:var(--ink); font-weight:600;}
+/* dial strip: formats to scale by spend */
+.dial{display:flex; gap:2px; margin:28px 0 0; height:16px; border-radius:3px; overflow:hidden;}
+.dial span{display:block; height:100%; min-width:4px;}
+.dialcap{display:flex; justify-content:space-between; gap:12px; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-weight:600; margin-top:6px;}
+
+.stats{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--hair); border:1px solid var(--hair); margin:34px 0 0;}
+.stat{background:var(--surface); padding:14px 16px 12px;}
+.stat .v{font-family:Archivo,system-ui,sans-serif; font-weight:900; font-size:30px; line-height:1.1; letter-spacing:-.01em;}
+.stat .v small{font-size:19px; font-weight:700; color:var(--muted);}
+.stat .l{font-size:12.5px; color:var(--ink2); font-family:Archivo,system-ui,sans-serif; margin-top:3px; line-height:1.35;}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr);}}
+
+section{margin-top:64px;}
+.seclabel{font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.01em; margin:6px 0 0;}
+.intro{max-width:62ch; color:var(--ink2); margin:12px 0 0; font-size:16.5px;}
+.intro b{color:var(--ink); font-weight:600;}
+.cap{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin-top:12px; max-width:74ch;}
+.panel{margin-top:26px; border:1px solid var(--hair); background:var(--surface); padding:18px 20px 16px;}
+
+/* generic horizontal bar rows */
+.axis{position:relative; margin-left:var(--lblw); height:16px; font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted);}
+.axis span{position:absolute; transform:translateX(-50%);}
+.grid{position:relative;}
+.gridlines{position:absolute; inset:0 0 0 var(--lblw); pointer-events:none;}
+.gridlines i{position:absolute; top:0; bottom:0; width:1px; background:var(--hair);}
+.row{display:grid; grid-template-columns:var(--lblw) 1fr; align-items:center; min-height:30px;}
+.row .lbl{display:flex; flex-direction:column; padding-right:12px; min-width:0;}
+.row .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.row .sub{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.zone{position:relative; height:17px;}
+.bar{position:absolute; top:0; bottom:0; border-radius:0 3px 3px 0; min-width:2px;}
+.val{position:absolute; top:50%; transform:translateY(-50%); font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:600; color:var(--ink2); white-space:nowrap;}
+
+/* format section */
+.fmt{--lblw:210px;}
+@media(max-width:640px){.fmt{--lblw:132px;}}
+.fmt .nm{font-size:13.5px; letter-spacing:.01em;}
+
+/* stacked mix section */
+.mix{--lblw:240px;}
+@media(max-width:640px){.mix{--lblw:146px;}}
+.mixbar{display:flex; height:18px; border-radius:2px; overflow:hidden; gap:1px;}
+.mixbar span{display:block; height:100%; min-width:2px;}
+.mixrow{display:grid; grid-template-columns:var(--lblw) 1fr auto; align-items:center; gap:10px; min-height:36px;}
+.mixrow .lbl{display:flex; flex-direction:column; min-width:0;}
+.mixrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.mixrow .sub{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted);}
+.mixrow .amt{font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:600; color:var(--ink); white-space:nowrap;}
+.ptag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; border:1px solid; flex:none;}
+.ptag.DEM{color:var(--dem); border-color:var(--dem);} .ptag.REP{color:var(--rep); border-color:var(--rep);}
+.ptag.OTH{color:var(--muted); border-color:var(--hair);}
+.nmrow{display:flex; align-items:center; gap:6px; max-width:100%;}
+.legend{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:14px; font-family:Archivo,system-ui,sans-serif; font-size:11.5px; color:var(--ink2);}
+.legend span{display:flex; align-items:center; gap:5px;}
+.legend i{width:10px; height:10px; border-radius:2px; flex:none;}
+
+/* retail scatter-ish list */
+.retail{--lblw:180px;}
+@media(max-width:640px){.retail{--lblw:120px;}}
+.retail .zone{height:15px;}
+
+/* ledger */
+.ledger{margin-top:26px; border:1px solid var(--hair); background:var(--surface);}
+.fgroup{border-top:1px solid var(--hair);}
+.fgroup:first-child{border-top:none;}
+.fhead{display:flex; align-items:baseline; gap:10px; padding:13px 18px 9px; flex-wrap:wrap;}
+.fhead .fn{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:13.5px;}
+.fhead .fs{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted);}
+.fswatch{width:10px; height:10px; border-radius:2px; flex:none;}
+table.st{border-collapse:collapse; width:100%;}
+.st td{border-top:1px solid var(--hair); padding:8px 10px; font-size:13px; vertical-align:top;}
+.st td:first-child{padding-left:18px;}
+.st td:last-child{padding-right:18px;}
+.st .c{font-family:"IBM Plex Mono",monospace; font-weight:600; white-space:nowrap;}
+.st .f{color:var(--ink2); font-family:Archivo,system-ui,sans-serif; font-size:12.5px;}
+.st .o{color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-size:12px; white-space:nowrap;}
+.st .n{font-family:"IBM Plex Mono",monospace; text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums;}
+.tblwrap{overflow-x:auto;}
+
+.method{max-width:68ch; font-size:14.5px; color:var(--ink2);}
+.method p{margin:10px 0;}
+.method h3{font-size:15px; font-weight:700; margin-top:22px; color:var(--ink);}
+.srcs{list-style:none; padding:0; margin:10px 0 0; font-size:13px;}
+.srcs li{margin:4px 0; padding-left:14px; text-indent:-14px;}
+footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+#tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--page); font-family:Archivo,system-ui,sans-serif; font-size:12px; line-height:1.45; padding:7px 10px; border-radius:3px; max-width:260px; z-index:10; opacity:0; transition:opacity .12s;}
+@media(prefers-reduced-motion:reduce){#tip{transition:none;}}
+</style>
+
+<div class="wrap">
+<header>
+  <p class="eyebrow">A companion to <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a></p>
+  <h1>Louisiana Dial</h1>
+  <p class="dek">Television money follows population. <b>Radio money follows audience</b> — and that makes a radio ledger the closest thing in the public record to a campaign admitting who it was talking to. Louisiana committees have put <b id="hero">$11.7M</b> into the state's radio stations since 2000, a tenth of what they spent on TV. Where it went says more.</p>
+  <div class="dial" id="dial" aria-hidden="true"></div>
+  <div class="dialcap"><span>Every radio dollar, by station format</span><span class="mono" id="dialtot"></span></div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section id="formats">
+  <p class="seclabel">The dial</p>
+  <h2>A third of it buys Black radio</h2>
+  <p class="intro">Group the stations by what they broadcast and one bucket dominates: <b>urban, gospel and Black talk formats take <span id="bshare">33%</span> of all radio spending</b> — nearly double news/talk, the next largest. On television no comparable split exists, because a TV station sells one undifferentiated audience to everybody. Radio sells specific audiences, and Louisiana campaigns have spent a quarter-century buying one in particular.</p>
+  <div class="panel fmt" id="fmtchart"></div>
+  <p class="cap">“Black-audience” groups the formats the radio industry itself markets as reaching Black listeners — urban contemporary, urban adult contemporary, gospel, and brokered Black talk. It is a description of programming and of how airtime is sold, not of any station's or listener's politics.</p>
+</section>
+
+<section id="mix">
+  <p class="seclabel">The fingerprint</p>
+  <h2>Every campaign's radio buy is a targeting statement</h2>
+  <p class="intro">Break each committee's spending down by format and the strategy is legible without a single poll. <b>John Bel Edwards</b> put <b>61%</b> of his radio money into Black-audience stations; <b>Kathleen Blanco 74%</b>; <b>Walter Boasso 99%</b>. <b>Jeff Landry</b> put <b>48%</b> into news/talk, and the conservative PACs split roughly <b>40/40 between talk and country</b>. The exception proves the rule: <b>Bobby Jindal</b> bought all of it — 26% country, 25% Black-audience, 20% talk — the radio signature of a candidate assembling a landslide rather than a base.</p>
+  <div class="panel mix" id="mixchart"></div>
+  <p class="cap">Each bar is one committee's radio spending, divided by format. Party comes from the filing, corrected where Louisiana files a PAC as <span class="mono">OTH</span> — the same five corrections as the TV page. Hover a segment for the dollar figure.</p>
+</section>
+
+<section id="retail">
+  <p class="seclabel">Retail politics</p>
+  <h2>The cheapest airtime in Louisiana</h2>
+  <p class="intro">For the median station here, a buy runs <b id="medbuy"></b> — against <b>$4,221</b> on television. At the bottom of the scale sits something television has no equivalent of: <b>KVPI in Ville Platte</b>, a classic-country-and-Cajun-French AM station, has taken money from <b>61 different committees</b> at an average of <b>$244</b> a spot. Sheriffs, assessors, school-board candidates and constables buy this radio. It is the layer of Louisiana campaigning that never shows up in a television ledger at all.</p>
+  <div class="panel retail" id="retailchart"></div>
+  <p class="cap">Average dollars per filed buy, for stations with at least twenty filings. The Cajun and Christian stations at the cheap end are also the ones reaching the most separate committees — many small buyers, not a few big ones.</p>
+</section>
+
+<section id="ledger">
+  <p class="seclabel">The ledger</p>
+  <h2>Every station, by format</h2>
+  <p class="intro">Sixty-six stations, grouped by what they play. <b>WYLD</b> in New Orleans — iHeart's urban AC on FM and its gospel sister “Hallelujah 940” on AM — leads the state at <b id="topstn">$948K</b>, more than the next two combined.</p>
+  <div class="ledger" id="ledgertbl"></div>
+  <p class="cap">AM and FM sisters sharing a call sign are one line; the filings rarely distinguish them and campaigns buy the cluster. Amounts are nominal dollars.</p>
+</section>
+
+<section id="owners">
+  <p class="seclabel">Ownership</p>
+  <h2>Different companies than television entirely</h2>
+  <p class="intro">The Gray-and-Nexstar duopoly that collects 78% of Louisiana's political TV money has no presence here. Radio's money goes to <b>iHeartMedia</b>, <b>Townsquare</b>, <b>Cumulus</b> and <b>Audacy</b> — and, unlike television, a substantial share stays with <b>locally owned stations</b> that answer to nobody's national programming department.</p>
+  <div class="panel fmt" id="ownchart"></div>
+  <p class="cap">Owner as of September 2026. Stations operated under local marketing or brokerage agreements are credited to the operator.</p>
+</section>
+
+<section id="method">
+  <p class="seclabel">Method &amp; sources</p>
+  <h2>Where this comes from</h2>
+  <div class="method">
+    <p>Built by <span class="mono">build_radio_spend.py</span> from <b id="rowcount"></b> Louisiana Ethics Administration expenditure rows, 2000–2026 — the same filings behind <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a>. Radio needs a stricter matcher than television did, for one reason:</p>
+    <h3>Four-letter call signs collide with English</h3>
+    <p>Radio has ten times as many call signs as television, and a plain pattern match over these filings returns <span class="mono">WINE</span> (Total Wine), <span class="mono">KING</span> (Smoothie King Center), <span class="mono">WORD</span> (Last Word Strategies), <span class="mono">WEST</span> (Ryan West) and <span class="mono">KYLE</span> (Kyle Ardoin) as radio stations — <b id="collisions"></b> of phantom spending. So nothing is matched on shape alone: a row counts only if its call sign is in a hand-verified station reference, or carries an explicit <span class="mono">-AM</span>/<span class="mono">-FM</span> marker. Rows failing that test are excluded and the amount is reported in the output.</p>
+    <h3>What is and isn't classified</h3>
+    <p><b id="clshare"></b> of the dollars here sit on the <b>66 stations whose format, city and owner were verified individually</b> against published sources. The remainder — <b id="tailamt"></b> across roughly <b id="tailn"></b> smaller call signs — is identifiable as radio but not yet classified, so it appears as its own bucket rather than being dropped or guessed into a category. The largest single station in that tail is about $55K. Format shares are quoted against the full total, so the unclassified tail dilutes them rather than disappearing from the denominator.</p>
+    <h3>Two overlaps with the TV page</h3>
+    <p><b>WWL and KTAL</b> share call signs between a television and a radio station. The Airwaves page counts their bare-call rows as television; this page counts only rows explicitly marked radio (<span class="mono">WWL-AM</span>, <span class="mono">KTAL-FM</span>), so no dollar is claimed twice. That radio-marked total is <b id="sisters"></b>.</p>
+    <p><b>2008 is missing</b> from the upstream data release, as on the TV page, so it is absent from every figure here.</p>
+    <h3>Geography, deliberately not the spine</h3>
+    <p>Radio does not use the DMAs the TV page is built on. Nielsen Audio rates only a handful of Louisiana metros, and much of this money goes to stations in unrated territory — Mamou, Crowley, Berwick, Ville Platte, Moreauville. A parish map would leave a large share of the spending homeless, which is why format, not place, organizes this page. City of licence is in the ledger for anyone who wants it.</p>
+    <h3>Sources</h3>
+    <ul class="srcs">
+      <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, 2000–2026</li>
+      <li>› Formats and ownership verified per station, September 2026. New Orleans: <a href="https://en.wikipedia.org/wiki/WYLD-FM">WYLD-FM</a>, <a href="https://en.wikipedia.org/wiki/WYLD_(AM)">WYLD (AM)</a>, <a href="https://en.wikipedia.org/wiki/WQUE-FM">WQUE-FM</a>, <a href="https://en.wikipedia.org/wiki/WBOK">WBOK</a>, <a href="https://en.wikipedia.org/wiki/KMEZ_(FM)">KMEZ</a>, <a href="https://en.wikipedia.org/wiki/WRNO-FM">WRNO-FM</a></li>
+      <li>› Baton Rouge: <a href="https://en.wikipedia.org/wiki/KQXL-FM">KQXL</a>, <a href="https://en.wikipedia.org/wiki/WEMX">WEMX</a>, <a href="https://en.wikipedia.org/wiki/WXOK">WXOK</a>, <a href="https://en.wikipedia.org/wiki/WJBO">WJBO</a>, and <a href="https://www.cumulusmedia.com/2024/08/16/cumulus-media-bolsters-programming-organization-with-multiple-promotions-in-key-louisiana-markets/">Cumulus Media's own Baton Rouge cluster listing</a></li>
+      <li>› Acadiana &amp; elsewhere: <a href="https://kpel965.com/">KPEL</a>, <a href="https://710keel.com/">KEEL</a>, <a href="https://en.wikipedia.org/wiki/KBON">KBON</a>, <a href="https://en.wikipedia.org/wiki/KAJN-FM">KAJN</a>, <a href="https://www.npr.org/2022/07/09/1110667150/1050-kvpi-is-keeping-the-french-cajun-language-and-culture-alive-in-louisiana">KVPI (NPR on its Cajun French programming)</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  Companion to <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a> (television), <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor factions</a> and <a href="https://factions.charliestephens.xyz/">donor factions</a>.
+</footer>
+</div>
+<div id="tip" role="presentation"></div>
+
+<script>
+/*__DATA__*/
+
+const money=n=> n>=1e6 ? '$'+(n/1e6).toFixed(n>=1e7?1:2)+'M' : n>=1e3 ? '$'+Math.round(n/1e3)+'K' : '$'+Math.round(n);
+const full=n=>'$'+Math.round(n).toLocaleString('en-US');
+const pct=n=>(n*100).toFixed(n<0.01?1:0)+'%';
+/* Axis ticks at exact round values. Naive fractional ticks produced a "$3M"
+   label sitting on $2.5M, which names a value the scale never reaches. */
+function niceTicks(max,target=5){
+  const raw=max/target, mag=Math.pow(10,Math.floor(Math.log10(raw)));
+  const step=[1,2,2.5,5,10].map(m=>m*mag).find(x=>x>=raw)||10*mag;
+  const top=Math.ceil(max/step)*step, out=[];
+  for(let v=0;v<=top+1e-9;v+=step) out.push(v);
+  return {ticks:out,top};
+}
+const tickLabel=v=> v>=1e6 ? '$'+(v/1e6)+'M' : v>=1e3 ? '$'+(v/1e3)+'K' : '$'+v;
+
+/* display buckets: the granular categories in the data, grouped for reading.
+   Pop/AC, classic and sports are merged — none targets a specific electorate. */
+const BUCKETS=[
+  {k:'Black-audience',     label:'Black-audience',      css:'--f-black',     from:['Black-audience']},
+  {k:'News/Talk',          label:'News / talk',         css:'--f-talk',      from:['News/Talk']},
+  {k:'Unclassified',       label:'Unclassified tail',   css:'--f-tail',      from:['Unclassified (long tail)']},
+  {k:'Country',            label:'Country',             css:'--f-country',   from:['Country']},
+  {k:'General',            label:'General audience',    css:'--f-gen',       from:['Pop / AC','Classic rock & hits','Sports']},
+  {k:'Cajun / Americana',  label:'Cajun / Americana',   css:'--f-cajun',     from:['Cajun / Americana']},
+  {k:'Christian',          label:'Christian',           css:'--f-christian', from:['Christian']},
+  {k:'Spanish',            label:'Spanish',             css:'--f-spanish',   from:['Spanish']},
+];
+const BUCKET_OF={}; for(const b of BUCKETS) for(const f of b.from) BUCKET_OF[f]=b.k;
+const BK=Object.fromEntries(BUCKETS.map(b=>[b.k,b]));
+const cv=k=>`var(${BK[k].css})`;
+
+/* roll the data's categories into display buckets */
+const bucket={};
+for(const b of BUCKETS) bucket[b.k]={spend:0,stations:0,rows:0};
+for(const c of DATA.categories){
+  const k=BUCKET_OF[c.category]; if(!k) continue;
+  bucket[k].spend+=c.spend; bucket[k].stations+=c.stations; bucket[k].rows+=c.rows;
+}
+const TOTAL=DATA.total;
+const ordered=BUCKETS.map(b=>({...b,...bucket[b.k]})).filter(b=>b.spend>0);
+
+/* ---------- header ---------- */
+document.getElementById('hero').textContent='$'+(TOTAL/1e6).toFixed(1)+'M';
+document.getElementById('dialtot').textContent=full(TOTAL)+' since 2000';
+document.getElementById('bshare').textContent=pct(bucket['Black-audience'].spend/TOTAL);
+document.getElementById('rowcount').textContent=(DATA.rowsScanned/1e6).toFixed(2)+' million';
+document.getElementById('collisions').textContent=full(DATA.collisions);
+document.getElementById('clshare').textContent=pct(DATA.classifiedShare);
+document.getElementById('tailamt').textContent=full(bucket['Unclassified'].spend);
+document.getElementById('tailn').textContent=String(bucket['Unclassified'].stations);
+document.getElementById('sisters').textContent=full(DATA.sisters);
+document.getElementById('topstn').textContent=money(DATA.stations[0].spend);
+document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toLocaleString('en-US');
+{
+  const strip=document.getElementById('dial');
+  for(const b of [...ordered].sort((x,y)=>y.spend-x.spend)){
+    const s=document.createElement('span');
+    s.style.background=cv(b.k); s.style.flex=String(b.spend);
+    s.title=`${b.label}: ${full(b.spend)}`;
+    strip.appendChild(s);
+  }
+}
+{
+  const kvpi=DATA.stations.find(s=>s.call==='KVPI');
+  const tiles=[
+    ['$'+(TOTAL/1e6).toFixed(1)+'M','of political radio spending, 2000–2026 — a tenth of the TV total'],
+    [pct(bucket['Black-audience'].spend/TOTAL),'of it goes to urban, gospel and Black talk formats'],
+[ '$'+Math.round(DATA.medianBuy).toLocaleString('en-US'),
+      'median station\u2019s average buy, against $4,221 on television'],
+    ['$'+Math.round(kvpi.avg_buy),`average spot on KVPI Ville Platte, across ${kvpi.committees} committees`],
+  ];
+  document.getElementById('stats').innerHTML=tiles.map(([v,l])=>
+    `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+}
+
+/* ---------- format chart ---------- */
+{
+  const rows=[...ordered].sort((a,b)=>b.spend-a.spend);
+  const {ticks,top}=niceTicks(rows[0].spend*1.14);
+  const sc=v=>v/top*100;
+  let h=`<div class="axis">${ticks.map(t=>`<span style="left:${sc(t)}%">${t?tickLabel(t):'$0'}</span>`).join('')}</div>
+    <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${sc(t)}%"></i>`).join('')}</div>`;
+  for(const r of rows){
+    const w=sc(r.spend);
+    const sub=r.k==='Unclassified' ? `${r.stations} small stations` : `${r.stations} stations · ${pct(r.spend/TOTAL)} of all radio`;
+    h+=`<div class="row" data-b="${r.k}"><div class="lbl"><span class="nm">${r.label}</span><span class="sub">${sub}</span></div>
+      <div class="zone"><div class="bar" style="width:${w}%;background:${cv(r.k)}"></div>
+      <span class="val" style="left:calc(${w}% + 8px)">${money(r.spend)}</span></div></div>`;
+  }
+  const el=document.getElementById('fmtchart'); el.innerHTML=h+'</div>';
+  for(const row of el.querySelectorAll('.row')){
+    const r=rows.find(x=>x.k===row.dataset.b);
+    row.addEventListener('mousemove',e=>tip(e,`<b>${r.label}</b><br>${full(r.spend)} · ${pct(r.spend/TOTAL)} of all radio spending<br>${r.stations} station${r.stations>1?'s':''}`));
+    row.addEventListener('mouseleave',hideTip);
+  }
+}
+
+/* ---------- buyer mix ---------- */
+{
+  const legend=ordered.filter(b=>b.k!=='Unclassified')
+    .map(b=>`<span><i style="background:${cv(b.k)}"></i>${b.label}</span>`).join('');
+  let h=`<div class="legend">${legend}</div>`;
+  for(const b of DATA.buyers){
+    const roll={};
+    for(const m of b.mix){ const k=BUCKET_OF[m.category]; if(!k) continue; roll[k]=(roll[k]||0)+m.amount; }
+    const segs=BUCKETS.filter(x=>roll[x.k]>0);
+    const p=b.party||'OTH';
+    h+=`<div class="mixrow"><div class="lbl">
+        <span class="nmrow"><span class="nm">${b.name}</span><span class="ptag ${p}">${p}</span></span>
+        <span class="sub">${b.stations} stations</span></div>
+      <div class="mixbar">${segs.map(x=>
+        `<span data-t="${b.name.replace(/"/g,'&quot;')} — ${x.label}: ${full(roll[x.k])} (${pct(roll[x.k]/b.amount)})" style="background:${cv(x.k)};flex:${roll[x.k]}"></span>`).join('')}</div>
+      <span class="amt">${money(b.amount)}</span></div>`;
+  }
+  const el=document.getElementById('mixchart'); el.innerHTML=h;
+  for(const s of el.querySelectorAll('.mixbar span')){
+    s.addEventListener('mousemove',e=>tip(e,s.dataset.t));
+    s.addEventListener('mouseleave',hideTip);
+  }
+}
+
+/* ---------- retail ---------- */
+{
+  const rows=DATA.stations.filter(s=>s.rows>=20).sort((a,b)=>a.avg_buy-b.avg_buy);
+  const pick=[...rows.slice(0,9),...rows.slice(-4)];
+  const {ticks,top}=niceTicks(Math.max(...pick.map(s=>s.avg_buy))*1.16);
+  const sc=v=>v/top*100;
+  let h=`<div class="axis">${ticks.map(t=>`<span style="left:${sc(t)}%">${t?tickLabel(t):'$0'}</span>`).join('')}</div>
+    <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${sc(t)}%"></i>`).join('')}</div>`;
+  for(const s of pick){
+    const k=BUCKET_OF[s.category]||'Unclassified', w=sc(s.avg_buy);
+    h+=`<div class="row" data-c="${s.call}"><div class="lbl">
+        <span class="nm">${s.call} <span style="color:var(--muted);font-weight:400">${s.city||''}</span></span>
+        <span class="sub">${s.committees} committees</span></div>
+      <div class="zone"><div class="bar" style="width:${w}%;background:${cv(k)}"></div>
+      <span class="val" style="left:calc(${w}% + 8px)">$${Math.round(s.avg_buy).toLocaleString('en-US')}</span></div></div>`;
+  }
+  const el=document.getElementById('retailchart'); el.innerHTML=h+'</div>';
+  for(const row of el.querySelectorAll('.row')){
+    const s=pick.find(x=>x.call===row.dataset.c);
+    row.addEventListener('mousemove',e=>tip(e,`<b>${s.call}</b> · ${s.city}<br>${s.format}<br>avg ${full(s.avg_buy)} per buy · ${s.rows} buys from ${s.committees} committees<br>${full(s.spend)} total`));
+    row.addEventListener('mouseleave',hideTip);
+  }
+}
+
+/* ---------- ledger ---------- */
+{
+  let h='';
+  for(const b of ordered.filter(x=>x.k!=='Unclassified')){
+    const sts=DATA.stations.filter(s=>(BUCKET_OF[s.category]||'')===b.k).sort((x,y)=>y.spend-x.spend);
+    if(!sts.length) continue;
+    h+=`<div class="fgroup"><div class="fhead"><span class="fswatch" style="background:${cv(b.k)}"></span>
+      <span class="fn">${b.label}</span><span class="fs">${sts.length} stations · ${full(b.spend)}</span></div>
+      <div class="tblwrap"><table class="st"><tbody>`;
+    for(const s of sts){
+      h+=`<tr><td class="c">${s.call}${s.bands.length?`<span style="color:var(--muted);font-weight:400"> ${s.bands.join('/')}</span>`:''}</td>
+        <td class="f">${s.format}<br><span class="o">${s.city}</span></td>
+        <td class="o">${s.owner}</td>
+        <td class="n">${money(s.spend)}</td>
+        <td class="n" style="color:var(--muted)">${s.committees} cmtes</td></tr>`;
+    }
+    h+='</tbody></table></div></div>';
+  }
+  document.getElementById('ledgertbl').innerHTML=h;
+}
+
+/* ---------- owners ---------- */
+{
+  const rows=DATA.owners.slice(0,10);
+  const {ticks,top}=niceTicks(rows[0].spend*1.14);
+  const sc=v=>v/top*100;
+  let h=`<div class="axis">${ticks.map(t=>`<span style="left:${sc(t)}%">${t?tickLabel(t):'$0'}</span>`).join('')}</div>
+    <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${sc(t)}%"></i>`).join('')}</div>`;
+  for(const o of rows){
+    const w=sc(o.spend), local=/Local|brokered|Unknown/.test(o.owner);
+    h+=`<div class="row"><div class="lbl"><span class="nm">${o.owner}</span>
+        <span class="sub">${o.stations} station${o.stations>1?'s':''} · ${pct(o.share)}</span></div>
+      <div class="zone"><div class="bar" style="width:${w}%;background:${local?'var(--f-tail)':'var(--accent)'}"></div>
+      <span class="val" style="left:calc(${w}% + 8px)">${money(o.spend)}</span></div></div>`;
+  }
+  document.getElementById('ownchart').innerHTML=h+'</div>';
+}
+
+/* ---------- tooltip ---------- */
+const tipEl=document.getElementById('tip');
+function tip(e,html){
+  tipEl.innerHTML=html; tipEl.style.opacity='1';
+  const pad=14; let x=e.clientX+pad, y=e.clientY+pad;
+  const r=tipEl.getBoundingClientRect();
+  if(x+r.width>innerWidth-8) x=e.clientX-r.width-pad;
+  if(y+r.height>innerHeight-8) y=e.clientY-r.height-pad;
+  tipEl.style.left=x+'px'; tipEl.style.top=y+'px';
+}
+function hideTip(){ tipEl.style.opacity='0'; }
+</script>
