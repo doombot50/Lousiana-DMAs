@@ -39,6 +39,7 @@ h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance;
 
 header{padding:44px 0 0;}
 header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
+.asof{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin:10px 0 0; letter-spacing:.02em;}
 .dek{max-width:62ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
 .dek b{color:var(--ink); font-weight:600;}
 .freq{display:flex; gap:2px; margin:26px 0 0; height:14px; border-radius:3px; overflow:hidden;}
@@ -186,6 +187,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <p class="eyebrow">A spin-off of <a href="https://factions.charliestephens.xyz/vendor-factions.html">Louisiana's vendor factions</a></p>
   <h1>Louisiana Airwaves</h1>
   <p class="dek">Louisiana political committees have paid the state's television stations <b id="hero">$121 million</b> since 2000. This is where that money went: which of the <b>seven Nielsen markets</b> it bought, which stations banked it, and — after a year of consolidation — which companies now collect it. The surprise is that the biggest station group by <em>count</em> is not the biggest by <em>revenue</em>.</p>
+  <p class="asof">Filings through __THROUGH__ · rebuilt nightly from the state's disclosure data</p>
   <div class="freq" id="freq" aria-hidden="true"></div>
   <div class="freqcap"><span>Seven markets, to scale by TV households</span><span class="mono" id="freqtotal"></span></div>
   <div class="stats" id="stats"></div>
@@ -195,7 +197,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <p class="seclabel">The pulse</p>
   <h2>Louisiana buys television every four years</h2>
   <p class="intro">Plotted by year, the money has a heartbeat: the state's <b>governor's races</b> — 2003, 2007, 2011, 2015, 2019, 2023 — account for <b id="govshare">most</b> of every dollar ever paid to these stations. The 2019 Edwards–Rispone runoff alone moved <b>$26.4M</b>, more than the eleven quietest years combined.</p>
-  <div class="pulse"><svg id="pulse" role="img" aria-label="Annual television spending by Louisiana political committees, 2000 to 2026, with governor-race years marked"></svg></div>
+  <div class="pulse"><svg id="pulse" role="img" aria-label="Annual television spending by Louisiana political committees, __SPAN_WORDS__, with governor-race years marked"></svg></div>
   <p class="cap" id="pulsecap"></p>
 </section>
 
@@ -217,7 +219,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <h2>North Louisiana is bought at a discount</h2>
   <p class="intro">Divide each market's spending by its TV households and the map stops being about size. <b>Alexandria and Lafayette</b> draw close to <b>$77 per household</b> — well above the statewide <b>$60.41</b> — while <b>Shreveport</b>, the state's second-largest market, draws just <b>$42.80</b>. Campaigns pay a premium for the contested middle of the state and quietly skip the Republican northwest. New Orleans, for all its size, lands exactly at par.</p>
   <div class="idx" id="idxchart"></div>
-  <p class="cap">Bars show dollars per TV household, 2000–2026. The vertical rule is the statewide average; a bar past it means committees spent more on that market than its size alone would predict.</p>
+  <p class="cap">Bars show dollars per TV household, __SPAN__. The vertical rule is the statewide average; a bar past it means committees spent more on that market than its size alone would predict.</p>
 </section>
 
 <section id="owners">
@@ -238,7 +240,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 <section id="buys">
   <p class="seclabel">The ledger</p>
   <h2>Every station, every dollar</h2>
-  <p class="intro">Total paid to each station by Louisiana political committees, 2000–2026. Within every market the order is the same as the newsroom pecking order: the CBS or NBC leader takes the top line, and the CW and low-power outlets divide what is left. <b>WWL-TV</b> leads the state at <b>$15.3M</b>; <b>WBRL-CD</b>, at the other end, has taken <b>$27K</b> in twenty-six years.</p>
+  <p class="intro">Total paid to each station by Louisiana political committees, __SPAN__. Within every market the order is the same as the newsroom pecking order: the CBS or NBC leader takes the top line, and the CW and low-power outlets divide what is left. <b>WWL-TV</b> leads the state at <b>$15.3M</b>; <b>WBRL-CD</b>, at the other end, has taken <b>$27K</b> since 2000.</p>
   <div class="chart" id="chart"></div>
   <p class="cap">Hover a station for its network, owner, and biggest buyers. Amounts are nominal dollars, not inflation-adjusted.</p>
 </section>
@@ -263,7 +265,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
     <p>Parish boundaries are U.S. Census cartographic files; parish-to-DMA assignment was computed by point-in-polygon against Nielsen DMA boundaries and cross-checked against published market lists. Ownership is as reported through September 2026.</p>
     <h3>Sources</h3>
     <ul class="srcs">
-      <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, 2000–2026</li>
+      <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, __SPAN__</li>
       <li>› <a href="https://www.cnbc.com/2026/03/20/nexstar-tegna-merger-closes-after-winning-regulatory-approval-.html">CNBC — Nexstar–Tegna merger closes (Mar 2026)</a>; <a href="https://deadline.com/2026/04/nexstar-tegna-merger-blocked-2-1236784770/">Deadline — preliminary injunction (Apr 2026)</a></li>
       <li>› <a href="https://scripps.com/press-releases/scripps-completes-station-swap-with-gray-media/">Scripps — station swap with Gray completed</a>; <a href="https://www.katc.com/lafayette-parish/katc-is-now-a-gray-station">KATC — “KATC is now a Gray station” (May 2026)</a></li>
       <li>› <a href="https://thedesk.net/2026/05/gray-media-acquires-allen-media-tv-stations/">The Desk — Gray closes Allen Media purchase (May 2026)</a></li>
@@ -319,7 +321,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   const gray = DATA.owners.find(o=>o.grp==='gray'), nex = DATA.owners.find(o=>o.grp==='nexstar');
   const shv = DMA.SHV;
   const tiles = [
-    ['$'+(DATA.total/1e6).toFixed(0)+'M', 'paid to Louisiana TV stations by political committees, 2000–2026'],
+    ['$'+(DATA.total/1e6).toFixed(0)+'M', 'paid to Louisiana TV stations by political committees, __SPAN__'],
     ['30', 'stations carrying that money, across 7 Nielsen markets'],
     [gray.share+'<small>%</small>', `of the money goes to Gray Media — with ${gray.n} stations to Nexstar's ${nex.n}`],
     ['$'+shv.pph.toFixed(0), `per TV household in Shreveport, against $${DATA.avgPPH} statewide`],
@@ -364,7 +366,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   const g=add('text',{x:xOf(2015), y:T-10,'text-anchor':'middle'},'pgov');
   g.textContent='GOVERNOR’S RACE YEARS IN BLUE';
   document.getElementById('pulsecap').textContent =
-    `Annual totals, ${DATA.yearsCovered[0]}–2026. 2008 is missing from the upstream data release (see method). `+
+    `Annual totals, __SPAN__. 2008 is missing from the upstream data release (see method). `+
     `Off-year spending is real but small: legislative, sheriff and school-board races buy far less television.`;
 }
 

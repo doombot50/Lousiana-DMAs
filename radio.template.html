@@ -39,6 +39,7 @@ h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance;
 
 header{padding:44px 0 0;}
 header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
+.asof{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin:10px 0 0; letter-spacing:.02em;}
 .dek{max-width:62ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
 .dek b{color:var(--ink); font-weight:600;}
 /* dial strip: formats to scale by spend */
@@ -136,6 +137,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <p class="eyebrow">A companion to <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a></p>
   <h1>Louisiana Dial</h1>
   <p class="dek">Television money follows population. <b>Radio money follows audience</b> — and that makes a radio ledger the closest thing in the public record to a campaign admitting who it was talking to. Louisiana committees have put <b id="hero">$11.7M</b> into the state's radio stations since 2000, a tenth of what they spent on TV. Where it went says more.</p>
+  <p class="asof">Filings through __THROUGH__ · rebuilt nightly from the state's disclosure data</p>
   <div class="dial" id="dial" aria-hidden="true"></div>
   <div class="dialcap"><span>Every radio dollar, by station format</span><span class="mono" id="dialtot"></span></div>
   <div class="stats" id="stats"></div>
@@ -185,7 +187,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <p class="seclabel">Method &amp; sources</p>
   <h2>Where this comes from</h2>
   <div class="method">
-    <p>Built by <span class="mono">build_radio_spend.py</span> from <b id="rowcount"></b> Louisiana Ethics Administration expenditure rows, 2000–2026 — the same filings behind <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a>. Radio needs a stricter matcher than television did, for one reason:</p>
+    <p>Built by <span class="mono">build_radio_spend.py</span> from <b id="rowcount"></b> Louisiana Ethics Administration expenditure rows, __SPAN__ — the same filings behind <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a>. Radio needs a stricter matcher than television did, for one reason:</p>
     <h3>Four-letter call signs collide with English</h3>
     <p>Radio has ten times as many call signs as television, and a plain pattern match over these filings returns <span class="mono">WINE</span> (Total Wine), <span class="mono">KING</span> (Smoothie King Center), <span class="mono">WORD</span> (Last Word Strategies), <span class="mono">WEST</span> (Ryan West) and <span class="mono">KYLE</span> (Kyle Ardoin) as radio stations — <b id="collisions"></b> of phantom spending. So nothing is matched on shape alone: a row counts only if its call sign is in a hand-verified station reference, or carries an explicit <span class="mono">-AM</span>/<span class="mono">-FM</span> marker. Rows failing that test are excluded and the amount is reported in the output.</p>
     <h3>What is and isn't classified</h3>
@@ -197,7 +199,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
     <p>Radio does not use the DMAs the TV page is built on. Nielsen Audio rates only a handful of Louisiana metros, and much of this money goes to stations in unrated territory — Mamou, Crowley, Berwick, Ville Platte, Moreauville. A parish map would leave a large share of the spending homeless, which is why format, not place, organizes this page. City of licence is in the ledger for anyone who wants it.</p>
     <h3>Sources</h3>
     <ul class="srcs">
-      <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, 2000–2026</li>
+      <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, __SPAN__</li>
       <li>› Formats and ownership verified per station, September 2026. New Orleans: <a href="https://en.wikipedia.org/wiki/WYLD-FM">WYLD-FM</a>, <a href="https://en.wikipedia.org/wiki/WYLD_(AM)">WYLD (AM)</a>, <a href="https://en.wikipedia.org/wiki/WQUE-FM">WQUE-FM</a>, <a href="https://en.wikipedia.org/wiki/WBOK">WBOK</a>, <a href="https://en.wikipedia.org/wiki/KMEZ_(FM)">KMEZ</a>, <a href="https://en.wikipedia.org/wiki/WRNO-FM">WRNO-FM</a></li>
       <li>› Baton Rouge: <a href="https://en.wikipedia.org/wiki/KQXL-FM">KQXL</a>, <a href="https://en.wikipedia.org/wiki/WEMX">WEMX</a>, <a href="https://en.wikipedia.org/wiki/WXOK">WXOK</a>, <a href="https://en.wikipedia.org/wiki/WJBO">WJBO</a>, and <a href="https://www.cumulusmedia.com/2024/08/16/cumulus-media-bolsters-programming-organization-with-multiple-promotions-in-key-louisiana-markets/">Cumulus Media's own Baton Rouge cluster listing</a></li>
       <li>› Acadiana &amp; elsewhere: <a href="https://kpel965.com/">KPEL</a>, <a href="https://710keel.com/">KEEL</a>, <a href="https://en.wikipedia.org/wiki/KBON">KBON</a>, <a href="https://en.wikipedia.org/wiki/KAJN-FM">KAJN</a>, <a href="https://www.npr.org/2022/07/09/1110667150/1050-kvpi-is-keeping-the-french-cajun-language-and-culture-alive-in-louisiana">KVPI (NPR on its Cajun French programming)</a></li>
@@ -278,7 +280,7 @@ document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toL
 {
   const kvpi=DATA.stations.find(s=>s.call==='KVPI');
   const tiles=[
-    ['$'+(TOTAL/1e6).toFixed(1)+'M','of political radio spending, 2000–2026 — a tenth of the TV total'],
+    ['$'+(TOTAL/1e6).toFixed(1)+'M','of political radio spending, __SPAN__ — a tenth of the TV total'],
     [pct(bucket['Black-audience'].spend/TOTAL),'of it goes to urban, gospel and Black talk formats'],
 [ '$'+Math.round(DATA.medianBuy).toLocaleString('en-US'),
       'median station\u2019s average buy, against $4,221 on television'],

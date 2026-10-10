@@ -14,7 +14,9 @@ Edit radio.template.html, never the generated files. Stdlib only.
 """
 import json
 import os
+import re
 import statistics
+import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
@@ -72,6 +74,20 @@ HEAD = '''<!doctype html>
 '''
 
 
+def fill_tokens(tpl, spend):
+    """Fill the template's date tokens from the spend file, so the year span and
+    "filings through" stamp move with the data instead of being hand-edited."""
+    lo, hi = spend['years_covered']
+    through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
+    for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
+                     ('__THROUGH__', through)):
+        tpl = tpl.replace(tok, val)
+    left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
+    if left:
+        raise SystemExit(f'unfilled template tokens: {left}')
+    return tpl
+
+
 def main():
     tpl = open(D('radio.template.html'), encoding='utf-8').read()
     if '/*__DATA__*/' not in tpl:
@@ -79,6 +95,7 @@ def main():
     blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'),
                                         ensure_ascii=False) + ';'
     frag = tpl.replace('/*__DATA__*/', blob)
+    frag = fill_tokens(frag, json.load(open(D('data', 'radio_spend.json'), encoding='utf-8')))
 
     with open(D('radio.artifact.html'), 'w', encoding='utf-8') as f:
         f.write(frag)

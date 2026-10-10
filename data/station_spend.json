@@ -1,15 +1,16 @@
 {
- "generated": "2026-09-09",
+ "generated": "2026-10-10",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1484108,
+ "rows_scanned": 1501341,
+ "data_through": "2026-10-05",
  "years_covered": [
   2000,
-  2027
+  2026
  ],
  "years_missing": [
   2008
  ],
- "total_spend": 120993388.36,
+ "total_spend": 121118935.61,
  "stations": [
   {
    "call": "WWL-TV",
@@ -18,7 +19,7 @@
    "dma_rank_2024_25": 50,
    "owner": "Tegna · Nexstar",
    "owner_group": "nexstar",
-   "spend": 15346096.54,
+   "spend": 15346151.54,
    "rows": 1269,
    "committees": 282,
    "first_year": 2000,
@@ -47,7 +48,7 @@
     "2021": 622143.85,
     "2022": 203049.33,
     "2023": 1477098.58,
-    "2024": 118992.85,
+    "2024": 119047.85,
     "2025": 378989.52,
     "2026": 216165.5
    },
@@ -121,8 +122,8 @@
    "dma_rank_2024_25": 95,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 13023717.15,
-   "rows": 657,
+   "spend": 13040517.15,
+   "rows": 658,
    "committees": 164,
    "first_year": 2000,
    "last_year": 2026,
@@ -149,7 +150,7 @@
     "2023": 1638820.93,
     "2024": 330848.26,
     "2025": 91904.0,
-    "2026": 61284.25
+    "2026": 78084.25
    },
    "top_committees": [
     {
@@ -221,8 +222,8 @@
    "dma_rank_2024_25": 50,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 11741214.31,
-   "rows": 985,
+   "spend": 11734194.31,
+   "rows": 984,
    "committees": 239,
    "first_year": 2000,
    "last_year": 2026,
@@ -249,7 +250,7 @@
     "2021": 608630.0,
     "2022": 321464.25,
     "2023": 2179550.41,
-    "2024": 176370.59,
+    "2024": 169350.59,
     "2025": 316818.43,
     "2026": 359675.75
    },
@@ -323,8 +324,8 @@
    "dma_rank_2024_25": 50,
    "owner": "Hearst Television",
    "owner_group": "hearst",
-   "spend": 10155497.7,
-   "rows": 1097,
+   "spend": 10150497.7,
+   "rows": 1096,
    "committees": 273,
    "first_year": 2000,
    "last_year": 2026,
@@ -351,7 +352,7 @@
     "2021": 502382.5,
     "2022": 209461.69,
     "2023": 1652153.79,
-    "2024": 149480.25,
+    "2024": 144480.25,
     "2025": 313772.47,
     "2026": 263796.75
    },
@@ -524,8 +525,8 @@
    "dma_rank_2024_25": 95,
    "owner": "Louisiana Television Broadcasting",
    "owner_group": "local",
-   "spend": 8784442.82,
-   "rows": 678,
+   "spend": 8792642.82,
+   "rows": 679,
    "committees": 166,
    "first_year": 2000,
    "last_year": 2026,
@@ -553,7 +554,7 @@
     "2023": 1250550.55,
     "2024": 262906.05,
     "2025": 88678.75,
-    "2026": 68426.25
+    "2026": 76626.25
    },
    "top_committees": [
     {
@@ -724,11 +725,11 @@
    "dma_rank_2024_25": 91,
    "owner": "KTBS, LLC",
    "owner_group": "local",
-   "spend": 6526179.15,
-   "rows": 578,
-   "committees": 135,
+   "spend": 6590419.15,
+   "rows": 582,
+   "committees": 136,
    "first_year": 2000,
-   "last_year": 2025,
+   "last_year": 2026,
    "by_year": {
     "2000": 27200.0,
     "2002": 20986.75,
@@ -750,7 +751,8 @@
     "2022": 62523.81,
     "2023": 895446.51,
     "2024": 9578.0,
-    "2025": 5687.1
+    "2025": 5687.1,
+    "2026": 64240.0
    },
    "top_committees": [
     {
@@ -822,11 +824,11 @@
    "dma_rank_2024_25": 91,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 6036354.82,
-   "rows": 449,
+   "spend": 6049354.82,
+   "rows": 450,
    "committees": 111,
    "first_year": 2000,
-   "last_year": 2025,
+   "last_year": 2026,
    "by_year": {
     "2000": 30838.0,
     "2002": 18848.75,
@@ -848,7 +850,8 @@
     "2022": 36750.89,
     "2023": 520070.76,
     "2024": 2760.0,
-    "2025": 13000.0
+    "2025": 13000.0,
+    "2026": 13000.0
    },
    "top_committees": [
     {
@@ -1119,11 +1122,11 @@
    "dma_rank_2024_25": 142,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 5248681.65,
-   "rows": 502,
-   "committees": 95,
+   "spend": 5253815.65,
+   "rows": 503,
+   "committees": 96,
    "first_year": 2000,
-   "last_year": 2024,
+   "last_year": 2026,
    "by_year": {
     "2000": 29779.75,
     "2002": 983.45,
@@ -1144,7 +1147,8 @@
     "2020": 110406.0,
     "2021": 5882.0,
     "2023": 874548.25,
-    "2024": 6630.0
+    "2024": 6630.0,
+    "2026": 5134.0
    },
    "top_committees": [
     {
@@ -1318,11 +1322,11 @@
    "dma_rank_2024_25": 91,
    "owner": "Nexstar Media",
    "owner_group": "nexstar",
-   "spend": 2585528.81,
-   "rows": 328,
+   "spend": 2610431.06,
+   "rows": 330,
    "committees": 62,
    "first_year": 2000,
-   "last_year": 2025,
+   "last_year": 2026,
    "by_year": {
     "2000": 3400.0,
     "2003": 368841.0,
@@ -1341,7 +1345,8 @@
     "2022": 777.75,
     "2023": 291110.5,
     "2024": 1999.71,
-    "2025": 1700.0
+    "2025": 1700.0,
+    "2026": 24902.25
    },
    "top_committees": [
     {
@@ -1413,11 +1418,11 @@
    "dma_rank_2024_25": 142,
    "owner": "Mission Bcstg · op. Nexstar",
    "owner_group": "nexstar",
-   "spend": 1682207.93,
-   "rows": 372,
-   "committees": 70,
+   "spend": 1685157.43,
+   "rows": 374,
+   "committees": 71,
    "first_year": 2000,
-   "last_year": 2023,
+   "last_year": 2026,
    "by_year": {
     "2000": 8500.0,
     "2002": 1039.12,
@@ -1435,7 +1440,8 @@
     "2018": 30404.5,
     "2019": 353717.86,
     "2020": 34334.25,
-    "2023": 157382.21
+    "2023": 157382.21,
+    "2026": 2949.5
    },
    "top_committees": [
     {
@@ -1895,11 +1901,11 @@
    "dma_rank_2024_25": 91,
    "owner": "Mission Bcstg · op. Nexstar",
    "owner_group": "nexstar",
-   "spend": 743365.64,
-   "rows": 204,
-   "committees": 46,
+   "spend": 745652.14,
+   "rows": 205,
+   "committees": 47,
    "first_year": 2003,
-   "last_year": 2023,
+   "last_year": 2026,
    "by_year": {
     "2003": 73887.08,
     "2006": 850.0,
@@ -1913,7 +1919,8 @@
     "2018": 16850.0,
     "2019": 163962.39,
     "2020": 17087.5,
-    "2023": 62363.5
+    "2023": 62363.5,
+    "2026": 2286.5
    },
    "top_committees": [
     {
@@ -2859,14 +2866,14 @@
   {
    "name": "New Orleans",
    "rank": 50,
-   "spend": 40576534.58,
+   "spend": 40564569.58,
    "stations": 7,
-   "share": 0.3354
+   "share": 0.3349
   },
   {
    "name": "Baton Rouge",
    "rank": 95,
-   "spend": 24591201.29,
+   "spend": 24616201.29,
    "stations": 5,
    "share": 0.2032
   },
@@ -2875,19 +2882,19 @@
    "rank": 124,
    "spend": 18850567.48,
    "stations": 4,
-   "share": 0.1558
+   "share": 0.1556
   },
   {
    "name": "Shreveport",
    "rank": 91,
-   "spend": 16052307.84,
+   "spend": 16156736.59,
    "stations": 5,
-   "share": 0.1327
+   "share": 0.1334
   },
   {
    "name": "Monroe–El Dorado",
    "rank": 142,
-   "spend": 7530033.24,
+   "spend": 7538116.74,
    "stations": 3,
    "share": 0.0622
   },
@@ -2896,40 +2903,40 @@
    "rank": 177,
    "spend": 6763786.09,
    "stations": 3,
-   "share": 0.0559
+   "share": 0.0558
   },
   {
    "name": "Alexandria",
    "rank": 183,
    "spend": 6628957.84,
    "stations": 3,
-   "share": 0.0548
+   "share": 0.0547
   }
  ],
  "owners": [
   {
    "group": "gray",
-   "spend": 57571436.54,
+   "spend": 57599350.54,
    "stations": 10,
-   "share": 0.4758
+   "share": 0.4756
   },
   {
    "group": "nexstar",
-   "spend": 36872397.39,
+   "spend": 36902590.64,
    "stations": 13,
    "share": 0.3047
   },
   {
    "group": "local",
-   "spend": 15471501.39,
+   "spend": 15543941.39,
    "stations": 3,
-   "share": 0.1279
+   "share": 0.1283
   },
   {
    "group": "hearst",
-   "spend": 10155497.7,
+   "spend": 10150497.7,
    "stations": 1,
-   "share": 0.0839
+   "share": 0.0838
   },
   {
    "group": "other",
