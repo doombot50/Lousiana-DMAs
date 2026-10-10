@@ -151,6 +151,10 @@ ALIASES = {
     # Public Service Commission, District 5: KNOE files him with his middle
     # initial, KTAL and KSLA without.
     'john e atkins': 'john atkins',
+    # Spelling slips in Lake Charles file names (KPLC, KVHP).
+    'accountablility project': 'accountability project',
+    'loisiana freedom fund': 'louisiana freedom fund',
+    'john flemming': 'john fleming',
 }
 
 
@@ -172,6 +176,32 @@ OFFICE_TAIL = re.compile(
 # "Texans for Greg Abbott", "Citizens for…": the supporters, not the buyer's name.
 SUPPORTERS = re.compile(r'^(texans|arkansans|louisianans|louisianians|citizens|people|friends)\s+for\s+', re.I)
 CHANNEL = re.compile(r'\s*-\s*(cw|my\w*|ion)\s*$', re.I)
+
+
+# Some stations (KPLC and KVHP in Lake Charles) make no buyer folders: the
+# documents sit in the office folder and only the file name says who bought
+# ("Mike Johnson 10.12.26 thru 10.18.26", "BILL CASSIDY FOR US SENATE KVHP
+# 4378339 INVOICE"). For those, the buyer is read from the name.
+DOC_LEAD = re.compile(r'^(?:(?:nab|update|revised|contract|order|invoice|new creative|political)'
+                      r'\b[\s\-\u2013:.]*)+', re.I)
+DOC_TAIL = re.compile(r"\b(?:nab|invoice|order|contract|revised|network buy|est|spot|rec'?v?d|update|"
+                      r"new creative|creative|fpm|pb\s*-?\d+|flight|notice|no charge|\d+\s*sec)\b.*$", re.I)
+FIRST_DATE = re.compile(r'\s\d|\d{1,2}[./-]\d|#')
+
+
+def buyer_from_filename(name, calls=()):
+    """A buyer's name read from a document name, or None if nothing sensible
+    is left once the dates, order numbers and document words are removed.
+    `calls` are station call signs to strip ("KVHP", its sister "MVHP")."""
+    t = re.sub(r'_+', ' ', name).strip()
+    t = re.sub(r'^pol(?:itical)?\s*-\s*', '', t, flags=re.I)       # KLFY: "Pol-Louisiana Freedom Fund_…"
+    t = DOC_LEAD.sub('', t)
+    t = FIRST_DATE.split(t, 1)[0]
+    for c in calls:
+        t = re.sub(r'\b' + re.escape(c) + r'\b', ' ', t, flags=re.I)
+    t = DOC_TAIL.sub('', t)
+    t = re.sub(r'[\s\-\u2013,.:]+$', '', re.sub(r'\s+', ' ', t)).strip()
+    return t if len(re.sub(r'[^A-Za-z]', '', t)) >= 3 else None
 
 
 def buyer_key(buyer):

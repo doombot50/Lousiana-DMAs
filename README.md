@@ -234,6 +234,13 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   (`folders`) for this. Until a station's next refresh records them, a
   buyer whose documents sit in Orders/Invoices subfolders links to the
   station's political file for the year instead.
+- **No buyer folders.** KPLC and KVHP (Lake Charles) file every document
+  straight into the office folder and name the buyer only in the file name
+  ("Mike Johnson 10.12.26 thru 10.18.26", "BILL CASSIDY FOR US SENATE KVHP
+  4378339 INVOICE"). There `buyer_from_filename()` reads the buyer from the
+  name, cutting it at the first date or order number and dropping document
+  words and call signs; the result then merges with the same buyer at other
+  stations by the usual rules, and the page says which stations it applies to.
 - **Low-power stations** (KLAF-LD, KSWL-LD) are exempt from the online
   public file; they are listed as such and never requested.
 

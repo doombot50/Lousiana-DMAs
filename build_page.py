@@ -32,8 +32,8 @@ from datetime import date, timedelta
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
-from normalize import (aliases, bucket, buyer_folder, buyer_key, classify, fcc_url,  # noqa: E402
-                       out_of_state, parse_path)
+from normalize import (aliases, bucket, buyer_folder, buyer_from_filename, buyer_key,  # noqa: E402
+                       classify, fcc_url, out_of_state, parse_path)
 from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
@@ -71,17 +71,24 @@ def fcc_summary(markets_by_call):
         return None
     scraped = fcc['scraped'][:10]
     since = (date.fromisoformat(scraped) - timedelta(days=FCC_RECENT_DAYS - 1)).isoformat()
+    # Call signs to strip when a buyer is read from a file name; KVHP's
+    # sister station MVHP appears in its file names too.
+    calls = {s['call'].split('-')[0] for s in json.load(open(D('data', 'stations.json'), encoding='utf-8'))}
+    calls |= {'MVHP'}
     rows = []
     for st in fcc['stations']:
         for f in st['files']:
             level, office, buyer = parse_path(f['path'])
             if not level:
                 continue
-            name = buyer or office or 'Filed without a buyer folder'
+            # No buyer folder (the Lake Charles stations file straight into
+            # the office folder): read the buyer from the document's name.
+            from_name = None if buyer else buyer_from_filename(f['name'] or '', calls)
+            name = buyer or from_name or office or 'Filed without a buyer folder'
             # Another state's race carried on a Louisiana station (East Texas
             # on Shreveport's, network issue buys on sub-channels) is kept
             # apart, so it doesn't count as Louisiana spending.
-            state = out_of_state(f['path'])
+            state = out_of_state(f['path']) or (from_name and out_of_state('x/x/x/' + from_name))
             b = 'Out of state' if state else bucket(level)
             year = f['path'].split('/')[1]
             # Link to the buyer's own folder at this station: its id comes from
@@ -94,7 +101,7 @@ def fcc_summary(markets_by_call):
             yf = st.get('year_folders', {}).get(year)
             link = (fcc_url(slug, bpath, fid) if fid else
                     f"https://publicfiles.fcc.gov/tv-profile/{slug}/political-files/{year}/{yf}" if yf else None)
-            rows.append({'link': link, 'deep': bool(fid),'b': b, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
+            rows.append({'link': link, 'deep': bool(fid), 'from_name': bool(from_name),'b': b, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
                          'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
                          'kind': classify(f['name'] or '', f['path']), 'year': year,
                          'year_folder': st.get('year_folders', {}).get(year),
@@ -147,6 +154,11 @@ def fcc_summary(markets_by_call):
         'stale': [s['call'] for s in fcc['stations'] if s.get('stale')],
         'oldest': min((s.get('scraped_at') or scraped)[:10] for s in fcc['stations']) if fcc['stations'] else scraped,
         'noFile': fcc.get('no_online_file', []),
+        # Stations where most buyers were read from document names.
+        'byName': sorted({r['call'] for r in rows if r['from_name']}
+                         - {c for c in {r['call'] for r in rows}
+                            if sum(r['from_name'] for r in rows if r['call'] == c) * 2
+                            < sum(1 for r in rows if r['call'] == c)}),
         # Headline counts are Louisiana's own races; out-of-state ones are
         # counted separately and listed under their own filter.
         'docs': sum(x['docs'] for x in home),
