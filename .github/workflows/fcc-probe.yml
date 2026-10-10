@@ -14,7 +14,6 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
-      - run: python3 fcc/scrape_political_files.py --years 2026 2027
       - run: python3 fcc/probe.py
         if: always()
       - uses: actions/upload-artifact@v4
