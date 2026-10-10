@@ -575,6 +575,7 @@ if(DATA.fcc){
   const BL = {'Federal':'Federal','State & local':'State & local','Issue':'Issue ads'};
   document.getElementById('pfintro').innerHTML =
     `Every station has to post the political ad orders it takes to its public file at the FCC, usually within days, which makes the file the earliest public sign of a TV buy — weeks ahead of the committee's own finance report. `+
+    (F.markets.length<7 ? `So far this covers ${F.stations} stations in ${F.markets.join(' and ').replace(/ and (?=.* and )/g,', ')}; the rest of the state's stations join over the next few nights. ` : '')+
     `In the ${F.days} days to ${dshort(F.scraped)}, these stations posted <b>${fmt(F.recentDocs)} documents</b> for <b>${F.recentBuyers} buyers</b>. `+
     `<b>${fmt(F.byBucket['Federal'])}</b> of them were for federal races, which Louisiana's own disclosure filings never show.`;
   let level='all', showAll=false;
