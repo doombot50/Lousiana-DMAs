@@ -44,6 +44,7 @@ import re
 import sys
 import time
 from collections import defaultdict
+from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -105,6 +106,20 @@ PARTY_OVERRIDE = {
 }
 
 
+# ── governor's-race primaries ────────────────────────────────────────────────
+# The first-round (open primary) date of each governor's race, the anchor the
+# pace chart measures "weeks before the election" from. Past dates are the
+# Secretary of State's own results data; 2027 is from the SoS 2027 elections
+# calendar, which notes dates are subject to change by the legislature.
+PRIMARIES = {
+    2003: '2003-10-04', 2007: '2007-10-20', 2011: '2011-10-22',
+    2015: '2015-10-24', 2019: '2019-10-12', 2023: '2023-10-14',
+    2027: '2027-10-09',
+}
+PACE_FROM, PACE_TO = -104, 7      # weeks: two years out through the runoff
+RECENT_DAYS = 365                 # the "buying now" window
+
+
 def party_of(name, filed):
     """Filed party, corrected only where the filing says OTH (or nothing)."""
     if filed in (None, '', 'OTH'):
@@ -147,6 +162,8 @@ def main():
     filers = defaultdict(set)
     by_year = defaultdict(lambda: defaultdict(float))   # call -> year -> $
     by_buyer = defaultdict(lambda: defaultdict(float))  # call -> filer -> $
+    by_day = defaultdict(float)                         # date -> $, statewide
+    buyer_days = defaultdict(lambda: defaultdict(float))  # filer -> date -> $
     buyer_name = defaultdict(lambda: defaultdict(int))  # filer -> spelling -> n
     buyer_party = defaultdict(lambda: defaultdict(int))
     radio_excl = defaultdict(float)
@@ -202,6 +219,11 @@ def main():
                 if len(hits) > 1:
                     combined_total += amt
                     combined_rows += 1
+                d = r.get('date') or ''
+                if len(d) == 10 and d <= today:
+                    by_day[d] += amt
+                    if fn:
+                        buyer_days[fn][d] += amt
                 share = amt / len(hits)
                 for b in hits:
                     call = base[b]
@@ -262,6 +284,39 @@ def main():
     top_buyers = sorted(all_buyers.items(), key=lambda x: -x[1])[:args.top_committees * 2]
 
     total = sum(spend.values())
+
+    # Pace: cumulative statewide TV dollars, week by week, from two years
+    # before each governor's primary through its runoff. The running cycle
+    # stops at the newest filing, so its line ends where the data does.
+    through = date.fromisoformat(latest) if latest else date.today()
+    cycles = []
+    for cyc, pd in sorted(PRIMARIES.items()):
+        primary = date.fromisoformat(pd)
+        weeks = [0.0] * (PACE_TO - PACE_FROM + 1)
+        for d, a in by_day.items():
+            w = (date.fromisoformat(d) - primary).days // 7
+            if PACE_FROM <= w <= PACE_TO:
+                weeks[w - PACE_FROM] += a
+        last = min(PACE_TO, (through - primary).days // 7)
+        if last < PACE_FROM:
+            continue
+        cum, run = [], 0.0
+        for v in weeks[:last - PACE_FROM + 1]:
+            run += v
+            cum.append(round(run, 2))
+        cycles.append({'year': cyc, 'primary': pd, 'complete': last == PACE_TO,
+                       'cumulative': cum})
+
+    # Buying now: committees' TV dollars over the trailing year of filings.
+    since = (through - timedelta(days=RECENT_DAYS - 1)).isoformat()
+    recent = []
+    for fn, days in buyer_days.items():
+        a = sum(v for d, v in days.items() if d >= since)
+        if a > 0:
+            recent.append({'name': bname(fn), 'party': bparty(fn), 'amount': round(a, 2),
+                           'last_buy': max(d for d in days if d >= since)})
+    recent.sort(key=lambda x: -x['amount'])
+
     doc = {
         'generated': time.strftime('%Y-%m-%d'),
         'source': 'Louisiana Ethics Administration expenditure filings via .la_cache',
@@ -270,6 +325,13 @@ def main():
         'years_covered': [min(years), max(years)],
         'years_missing': gaps,
         'total_spend': round(total, 2),
+        'pace': {'weeks': [PACE_FROM, PACE_TO], 'cycles': cycles,
+                 'note': 'cumulative TV dollars from every state committee, by week '
+                         'relative to the governor\'s-race primary; includes the '
+                         'legislative and local races on the same ballots'},
+        'recent_buyers': {'since': since, 'through': latest or None,
+                          'total': round(sum(b['amount'] for b in recent), 2),
+                          'committees': len(recent), 'top': recent[:12]},
         'stations': out_stations,
         'markets': [{'name': k, 'rank': v['rank'], 'spend': round(v['spend'], 2),
                      'stations': v['stations'],

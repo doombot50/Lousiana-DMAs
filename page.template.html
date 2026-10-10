@@ -69,6 +69,12 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pgov{font-family:Archivo,system-ui,sans-serif; font-size:10px; font-weight:700; fill:var(--ink2); letter-spacing:.04em;}
 .pgrid{stroke:var(--hair); stroke-width:1;}
 .pbase{stroke:var(--baseline); stroke-width:1;}
+.pline{fill:none; stroke-linejoin:round; stroke-linecap:round;}
+.pend{font-family:"IBM Plex Mono",monospace; font-size:10px; fill:var(--muted);}
+.pend.now{font-size:11px; font-weight:600; fill:var(--accent-ink); paint-order:stroke; stroke:var(--surface); stroke-width:5px; stroke-linejoin:round;}
+.pnow{stroke:var(--accent); stroke-width:1; stroke-dasharray:3 3;}
+.pace-hit{fill:transparent; cursor:crosshair;}
+.subhead{font-size:15px; font-weight:700; margin:34px 0 0; letter-spacing:.01em;}
 .pval{font-family:"IBM Plex Mono",monospace; font-size:10.5px; font-weight:600; fill:var(--ink);}
 
 /* map + panel */
@@ -199,6 +205,18 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <p class="intro">Plotted by year, the money has a heartbeat: the state's <b>governor's races</b> — 2003, 2007, 2011, 2015, 2019, 2023 — account for <b id="govshare">most</b> of every dollar ever paid to these stations. The 2019 Edwards–Rispone runoff alone moved <b>$26.4M</b>, more than the eleven quietest years combined.</p>
   <div class="pulse"><svg id="pulse" role="img" aria-label="Annual television spending by Louisiana political committees, __SPAN_WORDS__, with governor-race years marked"></svg></div>
   <p class="cap" id="pulsecap"></p>
+</section>
+
+<section id="pace-sec">
+  <p class="seclabel">The 2027 pace</p>
+  <h2>A year out, the money hasn't arrived</h2>
+  <p class="intro" id="paceintro"></p>
+  <div class="pulse"><svg id="pace" role="img" aria-label="Cumulative television spending by week before each governor's primary since 2003, with the 2027 cycle to date highlighted"></svg></div>
+  <p class="cap" id="pacecap"></p>
+  <h3 class="subhead">Who is buying television now</h3>
+  <p class="intro" id="recentintro"></p>
+  <div class="chart buyers" id="recentlist"></div>
+  <p class="cap">State-filed committees only. Federal races (U.S. House and Senate) report to the FEC and are not in these filings. A buy shows up here only once the committee files the report that covers it, which can lag the airtime by weeks.</p>
 </section>
 
 <section id="markets">
@@ -368,6 +386,94 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   document.getElementById('pulsecap').textContent =
     `Annual totals, __SPAN__. 2008 is missing from the upstream data release (see method). `+
     `Off-year spending is real but small: legislative, sheriff and school-board races buy far less television.`;
+}
+
+/* ---------- pace: cumulative spend by week before the primary ---------- */
+{
+  const P = DATA.pace, F = P.from, cur = P.cycles[P.cycles.length-1];
+  const past = P.cycles.filter(c=>c.done);
+  const nowI = cur.c.length-1, nowW = F+nowI, weeksOut = -nowW;
+  const at = c => c.c[Math.min(nowI, c.c.length-1)];
+  const fin = c => c.c[c.c.length-1];
+  const dfmt = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  const by = y => past.find(c=>c.y===y);
+  const shares = past.map(c=>at(c)/fin(c)*100).sort((a,b)=>a-b);
+  const median = shares[Math.floor(shares.length/2)];
+  const cmp = (a,b) => a > b*1.15 ? 'ahead of' : a < b/1.15 ? 'behind' : 'level with';
+  const c19=by(2019), c23=by(2023), now=at(cur);
+  document.getElementById('paceintro').innerHTML =
+    `Louisiana's next governor's primary is <b>${dfmt(cur.primary)}</b>; the newest filing is from ${weeksOut} weeks before it. `+
+    `Over the two years before that point, committees have put <b>${money(now)}</b> into television. That is ${cmp(now,at(c19))} 2019 at the same distance from its primary (${money(at(c19))}) and ${cmp(now,at(c23))} 2023 (${money(at(c23))}). `+
+    `None of that predicts the total: in the last ${past.length} races a median of just <b>${Math.round(median)}%</b> of the money had been spent this far out. The surge comes in the final thirteen weeks.`;
+
+  // On a phone, lay the chart out narrower rather than shrinking 940px of it.
+  const svg=document.getElementById('pace');
+  const narrow = svg.parentElement.clientWidth < 600;
+  const W=narrow?460:940, H=narrow?340:320, L=narrow?40:52, R=78, T=22, B=34;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const add=(t,a,cls)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(cls)e.setAttribute('class',cls); svg.appendChild(e); return e;};
+  const top = Math.ceil(Math.max(...P.cycles.map(fin))/10e6)*10e6;
+  const x0=L, x1=W-R, y0=H-B, y1=T, last=P.to;
+  const xOf = w => x0 + (w-F)/(last-F)*(x1-x0);
+  const yOf = v => y0 - v/top*(y0-y1);
+  for(let v=0; v<=top; v+=10e6){
+    add('line',{x1:x0,x2:x1,y1:yOf(v),y2:yOf(v)}, v===0?'pbase':'pgrid');
+    add('text',{x:x0-8,y:yOf(v)+3.5,'text-anchor':'end'},'ptick').textContent = v?'$'+v/1e6+'M':'$0';
+  }
+  for(const w of narrow ? [-104,-52,0] : [-104,-78,-52,-26,-13,0]){
+    if(w) add('line',{x1:xOf(w),x2:xOf(w),y1:y1,y2:y0},'pgrid');
+    add('text',{x:xOf(w),y:y0+15,'text-anchor':w===-104?'start':'middle'},'ptick').textContent = w ? (-w)+(narrow?' wks':' wks out') : 'PRIMARY';
+  }
+  add('line',{x1:xOf(0),x2:xOf(0),y1:y1,y2:y0},'pbase');
+  const path = c => c.c.map((v,i)=>(i?'L':'M')+xOf(F+i).toFixed(1)+' '+yOf(v).toFixed(1)).join('');
+  const recent = new Set([2019,2023]);
+  const labels=[];
+  for(const c of past){
+    const hi=recent.has(c.y);
+    add('path',{d:path(c), stroke:hi?'var(--ink2)':'var(--quiet)', 'stroke-width':hi?1.75:1.25},'pline');
+    labels.push({y:yOf(fin(c)), t:`'${String(c.y).slice(2)} ${money(fin(c))}`});
+  }
+  // end labels, nudged apart so close finishes don't overprint
+  labels.sort((a,b)=>a.y-b.y);
+  for(let i=1;i<labels.length;i++) labels[i].y=Math.max(labels[i].y, labels[i-1].y+11);
+  for(const l of labels) add('text',{x:x1+6,y:l.y+3.5},'pend').textContent=l.t;
+  add('line',{x1:xOf(nowW),x2:xOf(nowW),y1:y1,y2:y0},'pnow');
+  add('path',{d:path(cur), stroke:'var(--accent)', 'stroke-width':3},'pline');
+  add('circle',{cx:xOf(nowW), cy:yOf(now), r:4, fill:'var(--accent)'});
+  const lt=add('text',{x:xOf(nowW)+8, y:Math.min(yOf(now)-14, y0-40)},'pend now');
+  lt.textContent=`${cur.y} so far · ${money(now)}`;
+  const hit=add('rect',{x:x0,y:y1,width:x1-x0,height:y0-y1},'pace-hit');
+  hit.addEventListener('mousemove', e=>{
+    const r=svg.getBoundingClientRect(), sx=(e.clientX-r.left)/r.width*W;
+    const i=Math.max(0, Math.min(last-F, Math.round((sx-x0)/(x1-x0)*(last-F)))), w=F+i;
+    const rows=[...P.cycles].reverse().filter(c=>i<c.c.length)
+      .map(c=>`${c.y}${c.done?'':' (so far)'} — ${money(c.c[i])}`).join('<br>');
+    tip(e, `<b>${w<0 ? (-w)+' weeks before' : w===0 ? 'Primary week' : w+' weeks after'} the primary</b><br>${rows}`);
+  });
+  hit.addEventListener('mouseleave', hideTip);
+  document.getElementById('pacecap').textContent =
+    `Cumulative dollars paid to the 30 stations by every state committee, by week relative to each governor's primary, from two years out through the runoff. `+
+    `The same ballots carry legislative and local races, so their buys are in these lines too. Nominal dollars. `+
+    `The ${cur.y} date is from the Secretary of State's ${cur.y} elections calendar, which the legislature can still change.`;
+}
+
+/* ---------- buying now ---------- */
+{
+  const R = DATA.recent, PC={DEM:'var(--dem)',REP:'var(--rep)',OTH:'var(--oth)'};
+  const dshort = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  document.getElementById('recentintro').innerHTML =
+    `In the twelve months of filings to ${dshort(R.through)}, <b>${R.committees} committees</b> paid Louisiana TV stations <b>${money(R.total)}</b>. The biggest buyers:`;
+  const mx = Math.max(...R.top.map(b=>b.amt))*1.18;
+  let h='<div class="grid">';
+  for(const b of R.top){
+    const w=b.amt/mx*100, p=b.party||'OTH';
+    h+=`<div class="brow"><div class="lbl">
+      <span class="nmrow"><span class="nm">${b.name}</span><span class="ptag ${p}">${p}</span></span>
+      <span class="sub">latest buy ${dshort(b.last)}</span></div>
+      <div class="barzone"><div class="bar" style="width:${w}%;background:${PC[p]}"></div>
+      <span class="val" style="left:calc(${w}% + 7px)">${money(b.amt)}</span></div></div>`;
+  }
+  document.getElementById('recentlist').innerHTML=h+'</div>';
 }
 
 /* ---------- map ---------- */
