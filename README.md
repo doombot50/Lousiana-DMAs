@@ -18,6 +18,13 @@ geography and the money underneath those edges.
 - **The pulse** — annual totals. **78% of every dollar** lands in a
   governor's-race year (2003, 2007, 2011, 2015, 2019, 2023). The 2019
   Edwards–Rispone runoff alone moved $26.4M.
+- **The 2027 pace** — cumulative TV dollars week by week before each
+  governor's primary since 2003, with the 2027 cycle to date drawn over them
+  (primary October 9, 2027, per the Secretary of State's calendar). A year
+  out, 2027 sits level with 2019 and behind 2023; in past races a median of
+  just 7% of the money had been spent this far out. Below it, **who is buying
+  television now**: the top committees over the trailing twelve months of
+  filings, with each one's latest buy.
 - **The map** — the 64 parishes colored by DMA (New Orleans №50 nationally,
   down to Alexandria №183). Click a market for its stations and totals.
 - **Where the money over-weights** — spending per TV household. Alexandria
@@ -159,7 +166,10 @@ the nightly data; the charts, ledgers and stat tiles do.
 - `data/station_spend.json` — the money. Per station: total spend, filing-row
   count, distinct committees, a year-by-year series, and the top buyers by
   dollars; plus rollups by market and owner group, statewide top buyers, and
-  an explicit `caveats` block (see below).
+  an explicit `caveats` block (see below). `pace` holds each governor's
+  cycle as cumulative dollars per week from 104 weeks before the primary to 7
+  after (the anchor dates are `PRIMARIES` in `build_station_spend.py`), and
+  `recent_buyers` the trailing-year buyers.
 - `data/stations.json` — the 30 stations: call sign, virtual channel, network,
   DMA (with 2024–25 Nielsen rank and TV households), owner and ownership notes,
   and the vendor-factions committee counts.
