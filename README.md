@@ -227,6 +227,13 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   name in the group ends in it, so "John Young" and "John-Paul Young" stay
   two candidates. State and Local are grouped, because stations disagree on
   which one a race belongs to.
+- **Links.** On the page each station's call sign under a buyer opens that
+  buyer's folder at that station, using the FCC site's own URL form
+  (`/tv-profile/<call>/political-files/<path>/<folder id>`); the folder id
+  alone decides the page. The scraper records every folder's id by path
+  (`folders`) for this. Until a station's next refresh records them, a
+  buyer whose documents sit in Orders/Invoices subfolders links to the
+  station's political file for the year instead.
 - **Low-power stations** (KLAF-LD, KSWL-LD) are exempt from the online
   public file; they are listed as such and never requested.
 

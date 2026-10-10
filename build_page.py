@@ -32,7 +32,8 @@ from datetime import date, timedelta
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
-from normalize import aliases, bucket, buyer_key, classify, out_of_state, parse_path  # noqa: E402
+from normalize import (aliases, bucket, buyer_folder, buyer_key, classify, fcc_url,  # noqa: E402
+                       out_of_state, parse_path)
 from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
@@ -83,7 +84,17 @@ def fcc_summary(markets_by_call):
             state = out_of_state(f['path'])
             b = 'Out of state' if state else bucket(level)
             year = f['path'].split('/')[1]
-            rows.append({'b': b, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
+            # Link to the buyer's own folder at this station: its id comes from
+            # the scraper's folder map, or from the file itself when it sits
+            # directly in that folder. Older scrapes have neither for files
+            # filed under Orders/Invoices; those fall back to the year folder.
+            bpath = buyer_folder(f['path'])
+            fid = (st.get('folders') or {}).get(bpath) or (f['folder_id'] if f['path'] == bpath else None)
+            slug = (st.get('fcc_call') or st['call']).lower()
+            yf = st.get('year_folders', {}).get(year)
+            link = (fcc_url(slug, bpath, fid) if fid else
+                    f"https://publicfiles.fcc.gov/tv-profile/{slug}/political-files/{year}/{yf}" if yf else None)
+            rows.append({'link': link, 'deep': bool(fid),'b': b, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
                          'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
                          'kind': classify(f['name'] or '', f['path']), 'year': year,
                          'year_folder': st.get('year_folders', {}).get(year),
@@ -108,19 +119,20 @@ def fcc_summary(markets_by_call):
         name = min(names, key=lambda n: (buyer_key(n) != target,
                                          len(n) - len(target), -names[n], n))
         offices = Counter(r['office'] for r in rs if r['office'])
+        # One link per station: the buyer's folder there, from that station's
+        # most recent document for the buyer.
+        links = {}
+        for r in sorted(rs, key=lambda r: r['up']):
+            if r['link'] and (r['deep'] or not links.get(r['call'], (None, False))[1]):
+                links[r['call']] = (r['link'], r['deep'])
         buyers.append({
             'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': offices.most_common(1)[0][0] if offices else None,
             'state': Counter(r['state'] for r in rs if r['state']).most_common(1)[0][0]
                      if b == 'Out of state' else None,
             'docs': len(rs), 'recent': len(recent), 'latest': latest['up'],
-            'st': [{'c': c, 'k': markets_by_call.get(c)} for c in sorted({r['call'] for r in rs})],
+            'st': [{'c': c, 'k': markets_by_call.get(c), 'u': links.get(c, (None,))[0],
+                    'd': links.get(c, (None, False))[1]} for c in sorted({r['call'] for r in rs})],
             'stRecent': sorted({r['call'] for r in recent}),
-            # The station's political-file folder for that year: the FCC site
-            # has no stable deep link to a buyer's subfolder.
-            'link': (f"https://publicfiles.fcc.gov/tv-profile/{latest['slug']}/"
-                     f"political-files/{latest['year']}/{latest['year_folder']}"
-                     if latest['year_folder'] else None),
-            'linkCall': latest['call'],
         })
     # Busiest this fortnight first, then the most recently active.
     buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
