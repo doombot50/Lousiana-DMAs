@@ -84,12 +84,21 @@ def get(url, want_json=True):
 
 
 def facility_id(call, cache):
-    """FCC facility id for a call sign, from the cache or the facility search."""
+    """(facility id, the FCC's spelling of the call sign) for a call sign, from
+    the cache or the facility search; (None, None) when it can't be matched."""
     if call in cache:
-        return cache[call]
+        hit = cache[call]
+        # Older cache entries are a bare id, written when the spellings agreed.
+        return (hit, call) if isinstance(hit, str) else (hit['id'], hit['call'])
     res = get(f'{B}/api/service/facility/search/{call}')
     tv = ((res or {}).get('results') or {}).get('globalSearchResults', {}).get('tvFacilityList') or []
     hits = [f for f in tv if f.get('callSign', '').upper() == call.upper()]
+    # The FCC often licenses the bare call with a suffix our filings drop:
+    # WBRZ is "WBRZ-TV" there, WVUE "WVUE-DT". Fall back to a match on the
+    # base call sign; the uniqueness check below still guards it.
+    if not hits:
+        base = call.upper().split('-')[0]
+        hits = [f for f in tv if f.get('callSign', '').upper().split('-')[0] == base]
     # Prefer a Louisiana licence, but keep a lone exact match elsewhere: KTVE,
     # in the Monroe market, is licensed to El Dorado, Arkansas.
     if len(hits) > 1:
@@ -100,9 +109,11 @@ def facility_id(call, cache):
         print(f'  {call}: search returned ' + (', '.join(
             f"{f.get('callSign')} ({f.get('communityCity')}, {f.get('communityState')}; id {f.get('id')})"
             for f in tv[:6]) or 'no TV facilities'))
-        return None
-    cache[call] = hits[0]['id']
-    return cache[call]
+        return None, None
+    fcc_call = hits[0]['callSign']
+    cache[call] = hits[0]['id'] if fcc_call.upper() == call.upper() else \
+        {'id': hits[0]['id'], 'call': fcc_call}
+    return hits[0]['id'], fcc_call
 
 
 def political_root(call):
@@ -205,7 +216,7 @@ def main():
             continue
         attempted[call] = now
         try:
-            ent = facility_id(call, cache)
+            ent, fcc_call = facility_id(call, cache)
             if not ent:
                 # A listing mismatch, not an outage: it is reported, and the
                 # station waits its turn again, but it doesn't count toward the
@@ -213,7 +224,7 @@ def main():
                 unmatched.append(call)
                 print(f'  {call}: no facility match')
                 continue
-            root = political_root(call)
+            root = political_root(fcc_call)
             if not root:
                 print(f'  {call}: no political-files folder found')
                 failed.append(call)
@@ -224,7 +235,7 @@ def main():
                 if yf.get('folder_name', '').isdigit() and int(yf['folder_name']) in years:
                     walk(yf['entity_folder_id'], ent, files, prev.get('files', []), stats)
             files.sort(key=lambda x: x['uploaded'] or '', reverse=True)
-            stations.append({'call': call, 'facility_id': ent, 'root_folder': root,
+            stations.append({'call': call, 'fcc_call': fcc_call, 'facility_id': ent, 'root_folder': root,
                              'scraped_at': now,
                              'year_folders': {yf['folder_name']: yf['entity_folder_id']
                                               for yf in rf.get('subfolders') or []
