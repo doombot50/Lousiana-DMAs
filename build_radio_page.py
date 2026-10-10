@@ -48,7 +48,7 @@ def build_data():
                                         'owner', 'bands', 'spend', 'rows', 'committees', 'avg_buy')}
                      for s in d['stations']],
         'buyers': [{'name': b['name'], 'party': b['party'], 'amount': b['amount'],
-                    'stations': b['stations'], 'mix': b['mix']} for b in d['top_buyers']],
+                    'stations': b['stations'], 'mix': b['mix'], 'f': b['filer']} for b in d['top_buyers']],
     }
 
 

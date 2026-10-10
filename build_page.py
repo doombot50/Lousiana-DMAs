@@ -175,7 +175,7 @@ def build_data():
         'years': [{'y': y, 'v': round(per_year[y]), 'gov': y in GOV_YEARS}
                   for y in sorted(per_year)],
         'buyers': [{'name': b['name'], 'party': b['party'], 'amt': round(b['amount']),
-                    'st': b['stations']} for b in spend['top_buyers'][:12]],
+                    'st': b['stations'], 'f': b['filer']} for b in spend['top_buyers'][:12]],
         'total': round(total), 'totHH': tot_hh, 'avgPPH': round(total / tot_hh, 2),
         'yearsCovered': spend['years_covered'], 'yearsMissing': spend['years_missing'],
         'rowsScanned': spend['rows_scanned'],
@@ -188,7 +188,7 @@ def build_data():
                    'total': round(spend['recent_buyers']['total']),
                    'committees': spend['recent_buyers']['committees'],
                    'top': [{'name': b['name'], 'party': b['party'], 'amt': round(b['amount']),
-                            'last': b['last_buy']} for b in spend['recent_buyers']['top'][:8]]},
+                            'last': b['last_buy'], 'f': b['filer']} for b in spend['recent_buyers']['top'][:8]]},
         'radioExcl': round(sum(spend['caveats']['radio_excluded'].values())),
         'ambig': round(sum(spend['caveats']['ambiguous_bare_call'].values())),
         'combined': round(spend['caveats']['combined_buys']['amount']),

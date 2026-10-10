@@ -186,6 +186,8 @@ table.matrix{border-collapse:collapse; width:100%; min-width:760px;}
 .buyers .nmrow{display:flex; align-items:center; gap:6px; max-width:100%;}
 .buyers .nm{font-family:Archivo,system-ui,sans-serif; font-size:13.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .buyers .sub{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--muted);}
+a.nm{color:inherit; text-decoration:none;}
+a.nm:hover{color:var(--accent-ink); text-decoration:underline; text-underline-offset:2px;}
 .ptag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; border:1px solid; flex:none;}
 .ptag.DEM{color:var(--dem); border-color:var(--dem);}
 .ptag.REP{color:var(--rep); border-color:var(--rep);}
@@ -335,6 +337,7 @@ const fmt = n => n.toLocaleString('en-US');
 const money = n => n>=1e6 ? '$'+(n/1e6).toFixed(n>=1e7?1:2)+'M'
                : n>=1e3 ? '$'+Math.round(n/1e3)+'K' : '$'+n;
 const moneyFull = n => '$'+Math.round(n).toLocaleString('en-US');
+const prof = f => 'https://airwaves.charliestephens.xyz/committees.html#f='+encodeURIComponent(f);
 
 /* header numbers */
 document.getElementById('hero').textContent = '$'+(DATA.total/1e6).toFixed(0)+' million';
@@ -494,7 +497,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   for(const b of R.top){
     const w=b.amt/mx*100, p=b.party||'OTH';
     h+=`<div class="brow"><div class="lbl">
-      <span class="nmrow"><span class="nm">${b.name}</span><span class="ptag ${p}">${p}</span></span>
+      <span class="nmrow"><a class="nm" href="${prof(b.f)}">${b.name}</a><span class="ptag ${p}">${p}</span></span>
       <span class="sub">latest buy ${dshort(b.last)}</span></div>
       <div class="barzone"><div class="bar" style="width:${w}%;background:${PC[p]}"></div>
       <span class="val" style="left:calc(${w}% + 7px)">${money(b.amt)}</span></div></div>`;
@@ -712,7 +715,7 @@ function select(k){
   for(const b of DATA.buyers){
     const w=b.amt/mx*100, p=b.party||'OTH';
     h+=`<div class="brow"><div class="lbl">
-      <span class="nmrow"><span class="nm">${b.name}</span><span class="ptag ${p}">${p}</span></span>
+      <span class="nmrow"><a class="nm" href="${prof(b.f)}">${b.name}</a><span class="ptag ${p}">${p}</span></span>
       <span class="sub">${b.st} of 30 stations</span></div>
       <div class="barzone"><div class="bar" style="width:${w}%;background:${PC[p]}"></div>
       <span class="val" style="left:calc(${w}% + 7px)">${money(b.amt)}</span></div></div>`;
