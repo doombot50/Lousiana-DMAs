@@ -234,7 +234,7 @@ def main():
             'spend': round(amt, 2), 'rows': rows_n[c], 'committees': len(filers[c]),
             'avg_buy': round(amt / rows_n[c], 2) if rows_n[c] else 0,
             'by_year': {str(y): round(v, 2) for y, v in sorted(by_year[c].items()) if v},
-            'top_committees': [{'name': bname(f), 'party': bparty(f), 'amount': round(a, 2)}
+            'top_committees': [{'name': bname(f), 'party': bparty(f), 'filer': f, 'amount': round(a, 2)}
                                for f, a in tops],
         })
     stations.sort(key=lambda s: -s['spend'])
@@ -262,7 +262,7 @@ def main():
     top_buyers = []
     for fn, a in sorted(all_b.items(), key=lambda x: -x[1])[:args.top]:
         mix = sorted(buyer_cat[fn].items(), key=lambda x: -x[1])
-        top_buyers.append({'name': bname(fn), 'party': bparty(fn), 'amount': round(a, 2),
+        top_buyers.append({'name': bname(fn), 'party': bparty(fn), 'filer': fn, 'amount': round(a, 2),
                            'stations': sum(1 for c in by_buyer if fn in by_buyer[c]),
                            'mix': [{'category': k, 'amount': round(v, 2)} for k, v in mix]})
 

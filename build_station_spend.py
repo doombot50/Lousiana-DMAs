@@ -278,7 +278,7 @@ def main():
             'first_year': min((int(y) for y in yrs), default=None),
             'last_year': max((int(y) for y in yrs), default=None),
             'by_year': yrs,
-            'top_committees': [{'name': bname(fn), 'party': bparty(fn),
+            'top_committees': [{'name': bname(fn), 'party': bparty(fn), 'filer': fn,
                                 'amount': round(a, 2)} for fn, a in tops],
         })
     out_stations.sort(key=lambda x: -x['spend'])
@@ -332,7 +332,7 @@ def main():
     for fn, days in buyer_days.items():
         a = sum(v for d, v in days.items() if d >= since)
         if a > 0:
-            recent.append({'name': bname(fn), 'party': bparty(fn), 'amount': round(a, 2),
+            recent.append({'name': bname(fn), 'party': bparty(fn), 'filer': fn, 'amount': round(a, 2),
                            'last_buy': max(d for d in days if d >= since)})
     recent.sort(key=lambda x: -x['amount'])
 
@@ -359,7 +359,7 @@ def main():
         'owners': [{'group': k, 'spend': round(v['spend'], 2), 'stations': v['stations'],
                     'share': round(v['spend'] / total, 4) if total else 0}
                    for k, v in sorted(owners.items(), key=lambda x: -x[1]['spend'])],
-        'top_buyers': [{'name': bname(fn), 'party': bparty(fn), 'amount': round(a, 2),
+        'top_buyers': [{'name': bname(fn), 'party': bparty(fn), 'filer': fn, 'amount': round(a, 2),
                         'stations': len(buyer_stations[fn])} for fn, a in top_buyers],
         'caveats': {
             'radio_excluded': {k: round(v, 2) for k, v in sorted(radio_excl.items())},

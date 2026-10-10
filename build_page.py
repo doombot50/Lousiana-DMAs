@@ -132,6 +132,29 @@ def fcc_summary(markets_by_call):
     }
 
 
+
+def benchmarks(spend):
+    """TV dollars by market in each governor's-race year, nominal, with the
+    CPI-U factor that restates each year in base-year dollars. The page
+    derives share, real dollars and per-household figures from these."""
+    cpi = json.load(open(D('data', 'cpi.json'), encoding='utf-8'))
+    base = cpi['annual'][str(cpi['base_year'])]
+    # Only governor years already over and with a CPI figure: a race still
+    # under way (2027) is the pace chart's job, not a benchmark's.
+    this_year = int(spend['data_through'][:4])
+    years = [y for y in sorted(GOV_YEARS) if y < this_year and str(y) in cpi['annual']]
+    by = defaultdict(lambda: defaultdict(float))
+    for s in spend['stations']:
+        for y in years:
+            by[BY_NAME[s['dma']]][y] += s['by_year'].get(str(y), 0)
+    return {
+        'years': years, 'base': cpi['base_year'], 'source': cpi['source'],
+        'factor': [round(base / cpi['annual'][str(y)], 4) for y in years],
+        'rows': [{'k': k, 'name': n, 'hh': hh, 'v': [round(by[k][y]) for y in years]}
+                 for k, (n, _, hh) in MARKETS.items()],
+    }
+
+
 def build_data():
     spend = json.load(open(D('data', 'station_spend.json'), encoding='utf-8'))
     ref = {s['call']: s for s in json.load(open(D('data', 'stations.json'), encoding='utf-8'))}
@@ -175,10 +198,11 @@ def build_data():
         'years': [{'y': y, 'v': round(per_year[y]), 'gov': y in GOV_YEARS}
                   for y in sorted(per_year)],
         'buyers': [{'name': b['name'], 'party': b['party'], 'amt': round(b['amount']),
-                    'st': b['stations']} for b in spend['top_buyers'][:12]],
+                    'st': b['stations'], 'f': b['filer']} for b in spend['top_buyers'][:12]],
         'total': round(total), 'totHH': tot_hh, 'avgPPH': round(total / tot_hh, 2),
         'yearsCovered': spend['years_covered'], 'yearsMissing': spend['years_missing'],
         'rowsScanned': spend['rows_scanned'],
+        'bench': benchmarks(spend),
         'fcc': fcc_summary({s['call']: BY_NAME[s['dma']] for s in spend['stations']}),
         'pace': {'from': spend['pace']['weeks'][0], 'to': spend['pace']['weeks'][1],
                  'cycles': [{'y': c['year'], 'primary': c['primary'], 'done': c['complete'],
@@ -188,7 +212,7 @@ def build_data():
                    'total': round(spend['recent_buyers']['total']),
                    'committees': spend['recent_buyers']['committees'],
                    'top': [{'name': b['name'], 'party': b['party'], 'amt': round(b['amount']),
-                            'last': b['last_buy']} for b in spend['recent_buyers']['top'][:8]]},
+                            'last': b['last_buy'], 'f': b['filer']} for b in spend['recent_buyers']['top'][:8]]},
         'radioExcl': round(sum(spend['caveats']['radio_excluded'].values())),
         'ambig': round(sum(spend['caveats']['ambiguous_bare_call'].values())),
         'combined': round(spend['caveats']['combined_buys']['amount']),
