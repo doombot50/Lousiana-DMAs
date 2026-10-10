@@ -147,6 +147,13 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .splitcap{display:flex; gap:18px; flex-wrap:wrap; margin-top:8px; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2);}
 .splitcap span{display:flex; align-items:center; gap:6px;}
 .splitcap i{width:10px; height:10px; border-radius:2px; display:inline-block;}
+.bench td{font-family:"IBM Plex Mono",monospace; font-size:12.5px; text-align:right; white-space:nowrap; position:relative;}
+.bench thead th{text-align:right;} .bench thead th:first-child{text-align:left;}
+.bench tbody th .sw{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:7px;}
+.bench tr.total th, .bench tr.total td{font-weight:600; border-top:2px solid var(--baseline);}
+.bench td.hi{color:var(--ink); font-weight:600;}
+.bench td .tint{position:absolute; inset:3px 3px; border-radius:2px; background:var(--accent); z-index:0;}
+.bench td span{position:relative; z-index:1;}
 .matrixwrap{overflow-x:auto; margin-top:22px; border:1px solid var(--hair); background:var(--surface);}
 table.matrix{border-collapse:collapse; width:100%; min-width:760px;}
 .matrix th,.matrix td{border-top:1px solid var(--hair); padding:10px; vertical-align:top; text-align:left;}
@@ -266,6 +273,15 @@ __NAV__
   <p class="intro">Divide each market's spending by its TV households and the map stops being about size. <b>Alexandria and Lafayette</b> draw close to <b>$77 per household</b> — well above the statewide <b>$60.41</b> — while <b>Shreveport</b>, the state's second-largest market, draws just <b>$42.80</b>. Campaigns pay a premium for the contested middle of the state and quietly skip the Republican northwest. New Orleans, for all its size, lands exactly at par.</p>
   <div class="idx" id="idxchart"></div>
   <p class="cap">Bars show dollars per TV household, __SPAN__. The vertical rule is the statewide average; a bar past it means committees spent more on that market than its size alone would predict.</p>
+</section>
+
+<section id="bench-sec">
+  <p class="seclabel">Cycle benchmarks</p>
+  <h2>What a governor's race has spent, market by market</h2>
+  <p class="intro" id="benchintro"></p>
+  <div class="chips" id="benchmode" role="group" aria-label="Show as"></div>
+  <div class="matrixwrap"><table class="matrix bench" id="bench"></table></div>
+  <p class="cap" id="benchcap"></p>
 </section>
 
 <section id="owners">
@@ -503,6 +519,52 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
       <span class="val" style="left:calc(${w}% + 7px)">${money(b.amt)}</span></div></div>`;
   }
   document.getElementById('recentlist').innerHTML=h+'</div>';
+}
+
+/* ---------- cycle benchmarks ---------- */
+{
+  const B = DATA.bench, Y = B.years, n = Y.length;
+  const tot = Y.map((_,i)=>B.rows.reduce((a,r)=>a+r.v[i],0));
+  const real = (v,i)=>v*B.factor[i];
+  const shv = B.rows.find(r=>r.k==='SHV'), laf = B.rows.find(r=>r.k==='LAF');
+  const sh = (r,i)=>r.v[i]/tot[i]*100;
+  const peak = tot.map((t,i)=>real(t,i)).reduce((a,v,i,arr)=>v>arr[a]?i:a,0);
+  document.getElementById('benchintro').innerHTML =
+    `The same seven markets, governor's race by governor's race, in ${B.base} dollars. Two shifts run through every cycle. `+
+    `<b>Shreveport's share has fallen from ${sh(shv,0).toFixed(0)}% to ${sh(shv,n-1).toFixed(0)}%</b> of the money since ${Y[0]}, `+
+    `while <b>Lafayette's has gone from ${sh(laf,0).toFixed(0)}% to ${sh(laf,n-1).toFixed(0)}%</b>. `+
+    `In real terms the biggest air war was ${Y[peak]}, at ${money(real(tot[peak],peak))}; ${Y[n-1]} spent ${money(real(tot[n-1],n-1))}.`;
+  const MODES=[['share','Share of state'],['real',B.base+' dollars'],['hh','Per TV household']];
+  let mode='share';
+  const chips=document.getElementById('benchmode');
+  for(const [k,l] of MODES){
+    const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
+    b.addEventListener('click',()=>{mode=k; draw();}); chips.appendChild(b);
+  }
+  const val=(r,i)=> mode==='share' ? r.v[i]/tot[i]*100 : mode==='real' ? real(r.v[i],i) : real(r.v[i],i)/r.hh;
+  const fmtv=v=> mode==='share' ? v.toFixed(1)+'%' : mode==='real' ? money(Math.round(v)) : '$'+v.toFixed(2);
+  function draw(){
+    for(const b of chips.children) b.setAttribute('aria-pressed',String(b.dataset.k===mode));
+    const all=B.rows.flatMap(r=>Y.map((_,i)=>val(r,i))), mx=Math.max(...all);
+    let h=`<thead><tr><th>Market</th>${Y.map(y=>`<th>${y}</th>`).join('')}</tr></thead><tbody>`;
+    for(const r of B.rows){
+      h+=`<tr><th><span class="sw" style="background:${cv(r.k)}"></span>${r.name}</th>`+Y.map((_,i)=>{
+        const v=val(r,i);
+        return `<td><i class="tint" style="opacity:${(v/mx*0.32).toFixed(3)}"></i><span>${fmtv(v)}</span></td>`;
+      }).join('')+'</tr>';
+    }
+    const totRow = mode==='share' ? Y.map(()=> '100%')
+      : mode==='real' ? Y.map((_,i)=>money(Math.round(real(tot[i],i))))
+      : Y.map((_,i)=>'$'+(real(tot[i],i)/DATA.totHH).toFixed(2));
+    h+=`<tr class="total"><th>Statewide</th>${totRow.map(t=>`<td><span>${t}</span></td>`).join('')}</tr></tbody>`;
+    document.getElementById('bench').innerHTML=h;
+  }
+  draw();
+  document.getElementById('benchcap').textContent =
+    `TV dollars paid in each governor's-race calendar year by every state committee, legislative and local races on the same ballot included. `+
+    `Restated in ${B.base} dollars with the BLS consumer price index (CPI-U annual averages). `+
+    `Per-household figures divide by today's (2024–25) Nielsen TV households, since earlier counts aren't in this data, so they compare markets within a cycle better than one cycle against another. `+
+    `These are payments to stations, not ad rates: the filings don't say how many spots a payment bought.`;
 }
 
 /* ---------- political file (FCC) ---------- */

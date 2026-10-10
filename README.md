@@ -39,6 +39,13 @@ geography and the money underneath those edges.
   while **Shreveport, the second-largest market, draws just $42.80** —
   campaigns pay a premium for the contested middle of the state and skip the
   Republican northwest. New Orleans lands exactly at par.
+- **Cycle benchmarks** — each market's TV money in every governor's-race
+  year since 2003, as a share of the state, in 2024 dollars (BLS CPI-U, from
+  `data/cpi.json`), or per TV household. Shreveport's share has halved, from
+  23% in 2003 to 11% in 2023, while Lafayette's went from 11% to 18%; in real
+  terms 2015 and 2019 were the biggest air wars (~$32M each) and 2023 spent
+  half that. These are payments to stations, not ad rates: the filings don't
+  say how many spots a payment bought.
 - **Ownership** — the count/revenue inversion: **Nexstar owns or operates 13
   of the 30 stations but collects 30.5% of the money, while Gray's 10 collect
   47.6%**, because Gray's ten include the news-leading CBS or NBC affiliate in
