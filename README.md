@@ -123,20 +123,36 @@ city, owner, market) for the 66 stations carrying 83% of the dollars; edit
 ## Rebuild the spending data
 
 `build_station_spend.py` recomputes every dollar figure from the raw filings.
-It needs the campaign-finance project's `.la_cache` expenditure files, which it
-auto-finds as a sibling checkout:
+It reads the campaign-finance project's `.la_cache` expenditure files, which
+`fetch_cache.py` downloads into `./.la_cache` (git-ignored) from the nightly
+`data-cache` release of
+[doombot50/la-campaign-finance](https://github.com/doombot50/la-campaign-finance):
 
 ```bash
-python3 build_station_spend.py                      # auto-find the cache
-python3 build_station_spend.py --cache ../la-campaign-finance/.la_cache
-LA_CACHE=/path/to/.la_cache python3 build_station_spend.py
+python3 fetch_cache.py                              # ~47MB, 2000 → this year
+python3 build_station_spend.py                      # auto-finds ./.la_cache
+python3 build_radio_spend.py
+python3 build_page.py && python3 build_radio_page.py
 ```
 
-Stdlib only. Writes `data/station_spend.json` and prints per-station,
-per-market and per-owner totals. To get the cache itself, run
-`fetch_cache_assets.py` in
-[doombot50/la-campaign-finance](https://github.com/doombot50/la-campaign-finance),
-which pulls nightly snapshots from that repo's `data-cache` release.
+A sibling checkout's cache (`../la-campaign-finance/.la_cache`), `--cache
+<path>` or `$LA_CACHE` work too. Stdlib only. Each spend file records
+`data_through`, the newest filing date in the cache, and the pages print it
+under the headline ("Filings through October 5, 2026"). The year span in the
+copy (`2000–2026`) is filled from `years_covered` at build time, so neither
+needs hand-editing when the calendar turns.
+
+### Nightly rebuild
+
+`.github/workflows/nightly-rebuild.yml` runs those five commands every morning
+at 11:00 UTC, two hours after the upstream cache refreshes, and commits the
+result; GitHub Pages serves the commit. A night with no new filings commits
+nothing — the only diff would be the `generated` date, which the workflow
+ignores. It can also be run by hand from the Actions tab.
+
+The narrative prose (the $15.3M WWL-TV figure, the per-household comparisons,
+the buyer rankings in the copy) is still hand-written and does not move with
+the nightly data; the charts, ledgers and stat tiles do.
 
 ## Data files
 

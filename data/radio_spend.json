@@ -1,7 +1,8 @@
 {
- "generated": "2026-09-17",
+ "generated": "2026-10-10",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1484108,
+ "rows_scanned": 1501341,
+ "data_through": "2026-10-05",
  "years_covered": [
   2000,
   2026
@@ -9,8 +10,8 @@
  "years_missing": [
   2008
  ],
- "total_spend": 11657439.24,
- "gov_year_share": 0.5627,
+ "total_spend": 11684596.99,
+ "gov_year_share": 0.5614,
  "by_year": {
   "2000": 27912.25,
   "2001": 14308.0,
@@ -37,7 +38,7 @@
   "2023": 728985.89,
   "2024": 137030.73,
   "2025": 154308.15,
-  "2026": 18638.91
+  "2026": 31188.41
  },
  "stations": [
   {
@@ -680,10 +681,10 @@
     "AM",
     "FM"
    ],
-   "spend": 271697.36,
-   "rows": 402,
+   "spend": 271850.36,
+   "rows": 403,
    "committees": 159,
-   "avg_buy": 675.86,
+   "avg_buy": 674.57,
    "by_year": {
     "2002": 813.5,
     "2003": 16212.83,
@@ -707,7 +708,7 @@
     "2023": 48771.51,
     "2024": 1175.0,
     "2025": 555.0,
-    "2026": 1445.36
+    "2026": 1598.36
    },
    "top_committees": [
     {
@@ -1172,10 +1173,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 153689.55,
-   "rows": 207,
+   "spend": 154064.55,
+   "rows": 209,
    "committees": 55,
-   "avg_buy": 742.46,
+   "avg_buy": 737.15,
    "by_year": {
     "2002": 752.5,
     "2003": 2694.5,
@@ -1193,7 +1194,8 @@
     "2022": 2700.0,
     "2023": 27962.14,
     "2024": 2215.0,
-    "2025": 2780.0
+    "2025": 2780.0,
+    "2026": 375.0
    },
    "top_committees": [
     {
@@ -1233,10 +1235,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 147552.46,
-   "rows": 172,
-   "committees": 53,
-   "avg_buy": 857.86,
+   "spend": 152843.46,
+   "rows": 177,
+   "committees": 55,
+   "avg_buy": 863.52,
    "by_year": {
     "2000": 2370.0,
     "2002": 1848.2,
@@ -1258,7 +1260,8 @@
     "2020": 9411.5,
     "2021": 397.0,
     "2022": 1734.2,
-    "2023": 9435.6
+    "2023": 9435.6,
+    "2026": 5291.0
    },
    "top_committees": [
     {
@@ -1644,10 +1647,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 102458.17,
-   "rows": 188,
-   "committees": 39,
-   "avg_buy": 544.99,
+   "spend": 104258.17,
+   "rows": 190,
+   "committees": 40,
+   "avg_buy": 548.73,
    "by_year": {
     "2003": 1925.0,
     "2007": 13003.8,
@@ -1667,7 +1670,7 @@
     "2023": 8301.0,
     "2024": 8825.0,
     "2025": 4625.0,
-    "2026": 525.0
+    "2026": 2325.0
    },
    "top_committees": [
     {
@@ -1815,10 +1818,10 @@
     "AM",
     "FM"
    ],
-   "spend": 97395.29,
-   "rows": 399,
-   "committees": 61,
-   "avg_buy": 244.1,
+   "spend": 98463.29,
+   "rows": 401,
+   "committees": 62,
+   "avg_buy": 245.54,
    "by_year": {
     "2003": 2558.15,
     "2004": 432.5,
@@ -1841,7 +1844,7 @@
     "2023": 4672.7,
     "2024": 1642.25,
     "2025": 1510.0,
-    "2026": 1110.0
+    "2026": 2178.0
    },
    "top_committees": [
     {
@@ -2558,10 +2561,10 @@
     "AM",
     "FM"
    ],
-   "spend": 68230.72,
-   "rows": 196,
-   "committees": 38,
-   "avg_buy": 348.12,
+   "spend": 70878.22,
+   "rows": 203,
+   "committees": 39,
+   "avg_buy": 349.15,
    "by_year": {
     "2003": 2290.82,
     "2007": 6129.03,
@@ -2580,13 +2583,14 @@
     "2022": 605.0,
     "2023": 2844.25,
     "2024": 870.0,
-    "2025": 1040.0
+    "2025": 1040.0,
+    "2026": 2647.5
    },
    "top_committees": [
     {
      "name": "Barry Laiche",
      "party": "REP",
-     "amount": 13673.75
+     "amount": 15368.75
     },
     {
      "name": "Douglas Andrew Anderson",
@@ -2738,10 +2742,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 62707.67,
-   "rows": 42,
-   "committees": 17,
-   "avg_buy": 1493.04,
+   "spend": 63022.67,
+   "rows": 43,
+   "committees": 18,
+   "avg_buy": 1465.64,
    "by_year": {
     "2002": 1133.4,
     "2003": 16888.5,
@@ -2752,7 +2756,8 @@
     "2016": 590.0,
     "2019": 19755.75,
     "2020": 5174.8,
-    "2023": 561.0
+    "2023": 561.0,
+    "2026": 315.0
    },
    "top_committees": [
     {
@@ -2903,16 +2908,17 @@
    "bands": [
     "FM"
    ],
-   "spend": 52013.73,
-   "rows": 41,
-   "committees": 11,
-   "avg_buy": 1268.63,
+   "spend": 52913.73,
+   "rows": 44,
+   "committees": 12,
+   "avg_buy": 1202.58,
    "by_year": {
     "2014": 4918.23,
     "2015": 7323.2,
     "2019": 21714.3,
     "2020": 13113.0,
-    "2022": 4945.0
+    "2022": 4945.0,
+    "2026": 900.0
    },
    "top_committees": [
     {
@@ -2923,7 +2929,7 @@
     {
      "name": "Calvin Cooks",
      "party": "IND",
-     "amount": 10893.0
+     "amount": 11193.0
     },
     {
      "name": "Jeff Landry",
@@ -3854,21 +3860,21 @@
    ]
   }
  ],
- "classified_spend": 9631483.09,
+ "classified_spend": 9644032.59,
  "unclassified_tail": {
-  "amount": 2025956.15,
+  "amount": 2040564.4,
   "stations": 254,
   "note": "identifiable as radio by an explicit band marker, but not in the verified station reference — a long tail of small stations, the largest about $55K"
  },
  "categories": [
   {
    "category": "Black-audience",
-   "spend": 3806943.53,
+   "spend": 3812549.53,
    "stations": 19,
-   "rows": 2224,
-   "committees": 387,
-   "avg_buy": 1711.76,
-   "share": 0.3266
+   "rows": 2230,
+   "committees": 390,
+   "avg_buy": 1709.66,
+   "share": 0.3263
   },
   {
    "category": "News/Talk",
@@ -3877,16 +3883,16 @@
    "rows": 1078,
    "committees": 257,
    "avg_buy": 1916.4,
-   "share": 0.1772
+   "share": 0.1768
   },
   {
    "category": "Country",
-   "spend": 1640093.85,
+   "spend": 1643168.85,
    "stations": 12,
-   "rows": 1301,
-   "committees": 263,
-   "avg_buy": 1260.64,
-   "share": 0.1407
+   "rows": 1308,
+   "committees": 265,
+   "avg_buy": 1256.25,
+   "share": 0.1406
   },
   {
    "category": "Pop / AC",
@@ -3895,33 +3901,33 @@
    "rows": 387,
    "committees": 122,
    "avg_buy": 1981.14,
-   "share": 0.0658
+   "share": 0.0656
   },
   {
    "category": "Classic rock & hits",
-   "spend": 494813.46,
+   "spend": 497460.96,
    "stations": 8,
-   "rows": 439,
-   "committees": 137,
-   "avg_buy": 1127.14,
-   "share": 0.0424
+   "rows": 446,
+   "committees": 138,
+   "avg_buy": 1115.38,
+   "share": 0.0426
   },
   {
    "category": "Cajun / Americana",
-   "spend": 371533.18,
+   "spend": 372601.18,
    "stations": 3,
-   "rows": 761,
-   "committees": 143,
-   "avg_buy": 488.22,
+   "rows": 763,
+   "committees": 144,
+   "avg_buy": 488.34,
    "share": 0.0319
   },
   {
    "category": "Christian",
-   "spend": 271697.36,
+   "spend": 271850.36,
    "stations": 1,
-   "rows": 402,
+   "rows": 403,
    "committees": 159,
-   "avg_buy": 675.86,
+   "avg_buy": 674.57,
    "share": 0.0233
   },
   {
@@ -3944,12 +3950,12 @@
   },
   {
    "category": "Unclassified (long tail)",
-   "spend": 2025956.15,
+   "spend": 2040564.4,
    "stations": 254,
    "rows": 0,
    "committees": 0,
    "avg_buy": 0,
-   "share": 0.1738
+   "share": 0.1746
   }
  ],
  "owners": [
@@ -3957,35 +3963,35 @@
    "owner": "iHeartMedia",
    "spend": 3140439.71,
    "stations": 11,
-   "share": 0.2694
+   "share": 0.2688
   },
   {
    "owner": "Local",
-   "spend": 2226186.76,
+   "spend": 2238268.26,
    "stations": 23,
-   "share": 0.191
+   "share": 0.1916
   },
   {
    "owner": "Townsquare Media",
    "spend": 1941637.69,
    "stations": 13,
-   "share": 0.1666
+   "share": 0.1662
   },
   {
    "owner": "Cumulus Media",
    "spend": 1038468.99,
    "stations": 6,
-   "share": 0.0891
+   "share": 0.0889
   },
   {
    "owner": "Audacy",
    "spend": 421749.1,
    "stations": 3,
-   "share": 0.0362
+   "share": 0.0361
   },
   {
    "owner": "Agape Broadcasters",
-   "spend": 271697.36,
+   "spend": 271850.36,
    "stations": 1,
    "share": 0.0233
   },
@@ -3997,15 +4003,15 @@
   },
   {
    "owner": "Holladay / The Radio People",
-   "spend": 218651.79,
+   "spend": 218966.79,
    "stations": 4,
-   "share": 0.0188
+   "share": 0.0187
   },
   {
    "owner": "Guaranty Broadcasting",
    "spend": 107868.65,
    "stations": 2,
-   "share": 0.0093
+   "share": 0.0092
   },
   {
    "owner": "Crocodile Broadcasting",
@@ -4457,14 +4463,14 @@
   }
  ],
  "caveats": {
-  "classified_share": 0.8262,
+  "classified_share": 0.8254,
   "unclassified_station_shaped": {
-   "amount": 2025956.15,
+   "amount": 2040564.4,
    "calls": 254,
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
   "name_collisions_rejected": {
-   "amount": 9013438.43,
+   "amount": 9101531.22,
    "examples": [
     "WORD",
     "WEST",

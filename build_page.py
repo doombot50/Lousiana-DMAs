@@ -23,6 +23,7 @@ data/map_paths.json (projected parish geometry). Stdlib only.
 """
 import json
 import os
+import time
 import re
 from collections import defaultdict
 
@@ -49,7 +50,7 @@ BY_NAME = {v[0]: k for k, v in MARKETS.items()}
 BY_TOPO = {'New Orleans, LA': 'NO', 'Baton Rouge, LA': 'BR', 'Shreveport, LA': 'SHV',
            'Lafayette, LA': 'LAF', 'Lake Charles, LA': 'LKC',
            'Monroe, LA-El Dorado, AR': 'MON', 'Alexandria, LA': 'ALX'}
-GOV_YEARS = {2003, 2007, 2011, 2015, 2019, 2023}
+GOV_YEARS = {2003, 2007, 2011, 2015, 2019, 2023, 2027}
 
 
 def build_data():
@@ -131,6 +132,20 @@ HEAD = '''<!doctype html>
 FOOT = '\n</body>\n</html>\n'
 
 
+def fill_tokens(tpl, spend):
+    """Fill the template's date tokens from the spend file, so the year span and
+    "filings through" stamp move with the data instead of being hand-edited."""
+    lo, hi = spend['years_covered']
+    through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
+    for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
+                     ('__THROUGH__', through)):
+        tpl = tpl.replace(tok, val)
+    left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
+    if left:
+        raise SystemExit(f'unfilled template tokens: {left}')
+    return tpl
+
+
 def main():
     tpl = open(D('page.template.html'), encoding='utf-8').read()
     if '/*__DATA__*/' not in tpl:
@@ -138,6 +153,7 @@ def main():
     blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'),
                                         ensure_ascii=False) + ';'
     fragment = tpl.replace('/*__DATA__*/', blob)
+    fragment = fill_tokens(fragment, json.load(open(D('data', 'station_spend.json'), encoding='utf-8')))
 
     # The artifact publisher supplies its own <head>; ship the fragment as-is.
     with open(D('artifact.html'), 'w', encoding='utf-8') as f:

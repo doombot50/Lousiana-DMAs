@@ -54,7 +54,8 @@ def find_cache(explicit=None):
         return explicit
     if os.environ.get('LA_CACHE'):
         return os.environ['LA_CACHE']
-    for c in (os.path.join(HERE, '..', 'la-campaign-finance', '.la_cache'),
+    for c in (os.path.join(HERE, '.la_cache'),   # fetch_cache.py's default
+              os.path.join(HERE, '..', 'la-campaign-finance', '.la_cache'),
               os.path.join(HERE, '..', 'doombot50', 'la-campaign-finance', '.la_cache'),
               os.path.join(HERE, '..', '.la_cache')):
         if os.path.isdir(c):
@@ -153,6 +154,9 @@ def main():
     combined_total = 0.0
     combined_rows = 0
     scanned = 0
+    # Newest filed date, for the page's "filings through" stamp. A handful of
+    # rows carry typo'd future dates, so anything after today is ignored.
+    latest, today = '', time.strftime('%Y-%m-%d')
 
     t0 = time.time()
     for path in files:
@@ -164,6 +168,9 @@ def main():
                 except Exception:
                     continue
                 scanned += 1
+                d = r.get('date') or ''
+                if latest < d <= today:
+                    latest = d
                 raw = (r.get('contributor') or '').strip()
                 if not raw:
                     continue
@@ -259,6 +266,7 @@ def main():
         'generated': time.strftime('%Y-%m-%d'),
         'source': 'Louisiana Ethics Administration expenditure filings via .la_cache',
         'rows_scanned': scanned,
+        'data_through': latest or None,
         'years_covered': [min(years), max(years)],
         'years_missing': gaps,
         'total_spend': round(total, 2),
