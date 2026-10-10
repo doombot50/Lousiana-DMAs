@@ -85,7 +85,7 @@ raw-served page falls into quirks mode and renders at desktop width on phones.
 
 `radio.html` is a second, standalone page covering **radio** rather than
 television: **$11.7M** across ~320 stations since 2000, a tenth of the TV total.
-Placement on the site is still open; nothing links to it yet.
+Both pages carry the same tab bar (Television · Radio), from `site_nav.py`, which every page builder fills in so the pages can't drift apart.
 
 Radio is not the TV page with new call signs, because the analysis inverts:
 

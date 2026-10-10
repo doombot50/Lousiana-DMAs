@@ -33,6 +33,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
 from normalize import aliases, bucket, buyer_key, classify, parse_path  # noqa: E402
+from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
 DESCRIPTION = ('Louisiana political committees have paid the state’s TV stations '
@@ -225,7 +226,7 @@ def fill_tokens(tpl, spend):
     lo, hi = spend['years_covered']
     through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
     for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
-                     ('__THROUGH__', through)):
+                     ('__THROUGH__', through), ('__NAV__', nav('tv')), ('__NAV_CSS__', NAV_CSS)):
         tpl = tpl.replace(tok, val)
     left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
     if left:
