@@ -133,13 +133,16 @@ def under(prev, path):
     return [x for x in prev if x['path'] == path or x['path'].startswith(path + '/')]
 
 
-def walk(fid, ent, out, prev, stats):
+def walk(fid, ent, out, prev, stats, folders, prev_folders):
     """Depth-first: append every file under folder `fid` to `out`, reusing the
-    previous run's documents for any subfolder whose file count is unchanged."""
+    previous run's documents for any subfolder whose file count is unchanged.
+    Records every folder's id by path in `folders`, so the page can link to a
+    buyer's own folder rather than the document subfolder a file sits in."""
     f = folder(fid, ent)
     stats['fetched'] += 1
     if not f:
         return
+    folders[f['folder_path']] = f['entity_folder_id']
     for x in f.get('files') or []:
         out.append({
             'path': f['folder_path'],
@@ -154,12 +157,15 @@ def walk(fid, ent, out, prev, stats):
         n = int(s.get('file_count') or 0)
         if not n:
             continue
-        old = under(prev, s.get('folder_path', '\0'))
+        path = s.get('folder_path', '\0')
+        folders[path] = s['entity_folder_id']
+        old = under(prev, path)
         if len(old) == n:
             out.extend(old)
+            folders.update({p: i for p, i in prev_folders.items() if p.startswith(path + '/')})
             stats['reused'] += 1
         else:
-            walk(s['entity_folder_id'], ent, out, prev, stats)
+            walk(s['entity_folder_id'], ent, out, prev, stats, folders, prev_folders)
 
 
 def main():
@@ -230,16 +236,18 @@ def main():
                 failed.append(call)
                 continue
             rf = folder(root, ent) or {}
-            files = []
+            files, folders = [], {}
             for yf in rf.get('subfolders') or []:
                 if yf.get('folder_name', '').isdigit() and int(yf['folder_name']) in years:
-                    walk(yf['entity_folder_id'], ent, files, prev.get('files', []), stats)
+                    walk(yf['entity_folder_id'], ent, files, prev.get('files', []), stats,
+                         folders, prev.get('folders', {}))
             files.sort(key=lambda x: x['uploaded'] or '', reverse=True)
             stations.append({'call': call, 'fcc_call': fcc_call, 'facility_id': ent, 'root_folder': root,
                              'scraped_at': now,
                              'year_folders': {yf['folder_name']: yf['entity_folder_id']
                                               for yf in rf.get('subfolders') or []
                                               if yf.get('folder_name', '').isdigit()},
+                             'folders': dict(sorted(folders.items())),
                              'files': files})
             print(f'  {call:<8} facility {ent:<7} {len(files):>4} documents '
                   f'(newest {files[0]["uploaded"] if files else "—"})')
