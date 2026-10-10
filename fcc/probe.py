@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Throwaway: map the FCC public-file API from inside GitHub Actions."""
-import json, re, urllib.request, urllib.error, html as H_
+import json, re, urllib.request, urllib.error
 
 B = 'https://publicfiles.fcc.gov'
-H = {'User-Agent': 'louisiana-airwaves/1.0 (research)', 'Accept': 'application/json, text/html, */*'}
+H = {'User-Agent': 'louisiana-airwaves/1.0 (research)', 'Accept': 'application/json'}
+ENT, Y2026 = '71357', 'aacced6c-0648-e0ff-e515-407aec48edf7'
 
 def get(u):
     try:
@@ -11,27 +12,35 @@ def get(u):
             return r.status, r.read().decode('utf-8', 'replace')
     except urllib.error.HTTPError as e:
         return e.code, e.read().decode('utf-8', 'replace')
-    except Exception as e:
-        return 'ERR', str(e)
 
-st, page = get(f'{B}/tv-profile/wdsu/political-files')
-# every element carrying a folder id, with the text right after it
-for m in re.finditer(r'<([a-z]+)[^>]*id="folder([0-9a-f-]{36})"[^>]*>(.{0,400}?)</\1>', page, re.S):
-    txt = re.sub(r'\s+', ' ', H_.unescape(re.sub(r'<[^>]+>', ' ', m.group(3)))).strip()
-    print('FOLDER', m.group(2), '|', txt[:120])
-# any links
-for href, txt in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', page, re.S):
-    if 'political' in href or 'folder' in href or 'manager' in href:
-        print('LINK', href, '|', re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', txt)).strip()[:80])
-i = page.find('folder07baaddf')
-print('CONTEXT:', re.sub(r'\s+', ' ', page[max(0, i-1500):i+1500]))
+st, body = get(f'{B}/api/manager/folder/id/{Y2026}.json?entityId={ENT}')
+print('=== folder 2026', st, len(body))
+d = json.loads(body)
+def shape(o, depth=0):
+    if isinstance(o, dict):
+        return {k: shape(v, depth+1) if depth < 3 else type(v).__name__ for k, v in o.items()}
+    if isinstance(o, list):
+        return [f'{len(o)} items', shape(o[0], depth+1)] if o else []
+    return o if not isinstance(o, str) or len(o) < 60 else o[:60]
+print(json.dumps(shape(d), indent=1)[:3500])
 
-ids = re.findall(r'id="folder([0-9a-f-]{36})"', page)
-fid = ids[0] if ids else '07baaddf-105d-460a-9c33-c79d790cb790'
-for u in [f'{B}/api/manager/folder/id/{fid}.json',
-          f'{B}/api/manager/folder/id/{fid}',
-          f'{B}/api/service/tv/facility/id/71357.json',
-          f'{B}/api/manager/folder/parentFolders/71357.json',
-          f'{B}/api/manager/search/key/political.json?entityId=71357']:
-    st, body = get(u)
-    print(f'=== {st} {u}\n{body[:1800]}')
+# walk two levels down: 2026 -> Federal/State/Local/... -> race/candidate
+def kids(fid):
+    st, b = get(f'{B}/api/manager/folder/id/{fid}.json?entityId={ENT}')
+    j = json.loads(b)
+    return j
+lvl1 = d
+txt = json.dumps(lvl1)
+sub = re.findall(r'"folder_id":\s*"([0-9a-f-]{36})"', txt)
+print('subfolder ids found at 2026:', len(sub))
+for fid in sub[:6]:
+    j = kids(fid)
+    s = json.dumps(j)
+    names = re.findall(r'"folder_name":\s*"([^"]+)"', s)[:15]
+    files = re.findall(r'"file_name":\s*"([^"]+)"', s)[:5]
+    print('  ', fid, 'folders:', names, 'files:', files)
+
+# search: how many results, is it paged?
+st, b = get(f'{B}/api/manager/search/key/2026.json?entityId={ENT}')
+j = json.loads(b)
+print('=== search 2026', st, {k: (len(v) if isinstance(v, list) else v) for k, v in j.get('searchResult', {}).items()})
