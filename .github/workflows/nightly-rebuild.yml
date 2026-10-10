@@ -6,9 +6,14 @@
 # their artifact fragments, and commits them. GitHub Pages serves the repo
 # root, so the commit is the deploy.
 #
-# Every build stamps today's date into data/*.json as `generated`; a run whose
-# only difference is that stamp commits nothing, so history shows a commit
-# only on nights the filings actually moved.
+# It also refreshes the 30 stations' FCC political files (fcc/), which only
+# GitHub's runners can reach. That step may fail on its own, an FCC outage or
+# CDN block, without holding back the state-filings rebuild: the page then
+# keeps the previous night's political-file data, marked stale.
+#
+# Every build stamps today's date into data/*.json as `generated` (and the FCC
+# file its `scraped` time); a run whose only difference is those stamps
+# commits nothing.
 
 name: Nightly rebuild
 
@@ -27,7 +32,7 @@ permissions:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -43,6 +48,11 @@ jobs:
           python3 build_station_spend.py
           python3 build_radio_spend.py
 
+      - name: Refresh FCC political files
+        continue-on-error: true
+        timeout-minutes: 60
+        run: python3 fcc/scrape_political_files.py
+
       - name: Rebuild pages
         run: |
           python3 build_page.py
@@ -50,7 +60,7 @@ jobs:
 
       - name: Commit if the filings changed
         run: |
-          if git diff --quiet -I'"generated":' -- data/ '*.html'; then
+          if git diff --quiet -I'"generated":' -I'"scraped":' -- data/ '*.html'; then
             echo "No new filings since the last build; nothing to commit."
             exit 0
           fi

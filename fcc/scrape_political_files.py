@@ -205,6 +205,14 @@ def main():
             if prev:
                 stations.append({**prev, 'stale': True})
 
+    # A night where most stations fail is an outage, not news: leave the
+    # previous night's file in place rather than publish it.
+    if blocked and not any(not s.get('stale') for s in stations):
+        sys.exit(f'Blocked before any station refreshed; keeping the previous {os.path.basename(args.out)}.')
+    if len(failed) > len(calls) // 2:
+        sys.exit(f'{len(failed)} of {len(calls)} stations failed ({failed}); '
+                 f'keeping the previous {os.path.basename(args.out)}.')
+
     json.dump(cache, open(D('fcc_facilities.json'), 'w', encoding='utf-8'), indent=1, sort_keys=True)
     doc = {
         'source': 'FCC public inspection files, political file folders (publicfiles.fcc.gov)',
@@ -214,7 +222,6 @@ def main():
         'failed': failed,
         'no_online_file': no_file,
         'blocked': blocked,
-        'requests': stats,
     }
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
@@ -223,9 +230,6 @@ def main():
     print(f'{n:,} documents, {fresh} stations refreshed in {time.time()-t0:.0f}s '
           f'({stats["fetched"]} folders fetched, {stats["reused"]} reused unchanged)'
           + (f'; failed: {failed}' if failed else '') + f'\nWrote {args.out}')
-    # A night where most stations fail is an outage, not news; refuse to publish it.
-    if len(failed) > len(calls) // 2:
-        sys.exit('More than half the stations failed; not trusting this run.')
 
 
 if __name__ == '__main__':
