@@ -1,6 +1,6 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
- "scraped": "2026-10-10T21:02:26Z",
+ "scraped": "2026-10-10T22:42:29Z",
  "years": [
   2026,
   2027
@@ -10830,16 +10830,474 @@
     }
    ],
    "stale": false
+  },
+  {
+   "call": "WBRL-CD",
+   "facility_id": "24976",
+   "root_folder": "a146d1bc-3544-e8b6-814b-ecd38c265a62",
+   "scraped_at": "2026-10-10T22:41:38Z",
+   "year_folders": {
+    "2018": "14a0bf1e-d465-870b-7247-1ab28226555b",
+    "2019": "789bf9f1-7cbc-d252-b4ac-25a24543e1f4",
+    "2020": "16657f12-e9a0-f2fa-5ed4-50c4150a2978",
+    "2021": "0fd13fb4-1590-d0e9-7448-4be889db24fa",
+    "2022": "4f9dc3ef-d305-ba5b-e26f-7d8638f2997e",
+    "2023": "5512cd8a-73c5-cdc4-8434-31c878263965",
+    "2024": "0fc16339-f3da-6ef0-7b16-2a8e255c6d40",
+    "2025": "e638077d-0e9e-e6ef-a5f4-c7046dc199d5",
+    "2026": "13f1105e-34ba-20b9-b9a5-a5853316bf71"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/State/Hillar Moore- District Attorney",
+     "name": "Hillar Moore NAB WBRL #5431679",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T10:04:56-04:00",
+     "folder_id": "d2e520ae-141d-cfda-5985-396fc4dc3a7a",
+     "file_id": "c9b3f9c7-8208-b57b-4a74-ad9bbe0c4829",
+     "file_manager_id": "b6a63b7d-13da-4697-843d-b0c8078d08ba"
+    },
+    {
+     "path": "Political Files/2026/State/Hillar Moore- District Attorney",
+     "name": "Hillar Moore WBRL #5431679",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T10:04:56-04:00",
+     "folder_id": "d2e520ae-141d-cfda-5985-396fc4dc3a7a",
+     "file_id": "907f67f6-30ed-07f0-cb5b-f7d040bbc64a",
+     "file_manager_id": "10b6716e-0faa-4a38-85d8-e8bcf50972b3"
+    },
+    {
+     "path": "Political Files/2026/State/Hillar Moore- District Attorney",
+     "name": "Hillar Moore NAB WBRL revised 10.5.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T15:26:28-04:00",
+     "folder_id": "d2e520ae-141d-cfda-5985-396fc4dc3a7a",
+     "file_id": "483a6e58-7af9-ede8-8f03-0f9ac885fe72",
+     "file_manager_id": "c2c44a58-df60-4365-83d4-a9eef655e63f"
+    },
+    {
+     "path": "Political Files/2026/State/Hillar Moore- District Attorney",
+     "name": "Hillar Moore NAB WBRL #5425256",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T17:08:53-04:00",
+     "folder_id": "d2e520ae-141d-cfda-5985-396fc4dc3a7a",
+     "file_id": "f3a7add8-48a6-58fb-2a5f-7de5eda5980f",
+     "file_manager_id": "2d0214d7-58dd-441c-86e0-af0c71359de3"
+    },
+    {
+     "path": "Political Files/2026/State/Hillar Moore- District Attorney",
+     "name": "Hillar Moore WBRL #5425256",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T17:08:53-04:00",
+     "folder_id": "d2e520ae-141d-cfda-5985-396fc4dc3a7a",
+     "file_id": "ed22c522-4504-2c99-b95b-c3c0a47d8a35",
+     "file_manager_id": "0c1c4aaf-f628-43d5-b99c-a5f43526e53e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Stephen Wagley",
+     "name": "Stephen Wagley NAB WBRL #5395748 revised 9.15.26",
+     "ext": "pdf",
+     "uploaded": "2026-09-17T12:01:47-04:00",
+     "folder_id": "7e17796d-b178-b01b-c1b2-c7bbeef97326",
+     "file_id": "58f36214-7f23-7c03-8862-941afa26ccef",
+     "file_manager_id": "f3709868-7ba7-4838-9432-634a99350421"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Stephen Wagley",
+     "name": "Stephen Wagley NAB WBRL #5395748",
+     "ext": "pdf",
+     "uploaded": "2026-09-14T17:35:37-04:00",
+     "folder_id": "7e17796d-b178-b01b-c1b2-c7bbeef97326",
+     "file_id": "93319b93-eb74-de4d-2fb5-26d475291305",
+     "file_manager_id": "3618697d-18e3-4fcf-bf5a-9320bcc42c20"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Stephen Wagley",
+     "name": "Stephen Wagley WBRL #5395748",
+     "ext": "pdf",
+     "uploaded": "2026-09-14T17:35:37-04:00",
+     "folder_id": "7e17796d-b178-b01b-c1b2-c7bbeef97326",
+     "file_id": "ded67cd0-e6db-c5ca-3784-a7f8c8589162",
+     "file_manager_id": "a6cfff16-58e1-43e8-b0f8-111463df2bc1"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Stephen Wagley",
+     "name": "Stephen Wagley WBRL #5390796",
+     "ext": "pdf",
+     "uploaded": "2026-09-08T15:40:56-04:00",
+     "folder_id": "7e17796d-b178-b01b-c1b2-c7bbeef97326",
+     "file_id": "a061712f-fb3a-9389-5d78-ae03baef99ad",
+     "file_manager_id": "4ca1c3ba-49a8-4591-9990-dd98d677600c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Stephen Wagley",
+     "name": "Stephen Wagley NAB WBRL #5390796",
+     "ext": "pdf",
+     "uploaded": "2026-09-08T15:40:35-04:00",
+     "folder_id": "7e17796d-b178-b01b-c1b2-c7bbeef97326",
+     "file_id": "9d39a3fd-f535-a43c-ce1c-c5c814759d68",
+     "file_manager_id": "0c5fb9d3-5ff4-4b24-994b-8d949fed612d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for a Better Tomorrow",
+     "name": "Conservatives for a Better Tomorrow NAB WBRL #5309184",
+     "ext": "pdf",
+     "uploaded": "2026-06-19T14:09:01-04:00",
+     "folder_id": "704694f7-4a79-2135-2cc5-5a5ef67dfe3d",
+     "file_id": "2dcee3e5-08ff-ccb9-a8eb-7c37e3b4bb1c",
+     "file_manager_id": "7afbdf3a-d375-4b52-9ac0-94584513671d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for a Better Tomorrow",
+     "name": "Conservatives for a Better Tomorrow WBRL #5309184",
+     "ext": "pdf",
+     "uploaded": "2026-06-19T14:09:01-04:00",
+     "folder_id": "704694f7-4a79-2135-2cc5-5a5ef67dfe3d",
+     "file_id": "60719dec-5dda-0dea-6a8b-5adc25c207c1",
+     "file_manager_id": "14aa25df-0ad4-4b28-995a-b65943192173"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL #5304591",
+     "ext": "pdf",
+     "uploaded": "2026-06-18T17:43:30-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "0c3b0609-2609-d565-3e4a-659adb2c4ca9",
+     "file_manager_id": "643abc6c-2158-4b99-9687-4cdfebbf4289"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5304591",
+     "ext": "pdf",
+     "uploaded": "2026-06-18T17:43:30-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "f7d8978a-28c6-2f25-38c5-51788f73f2c2",
+     "file_manager_id": "de3d915b-5f3b-4771-a785-3c2a404ecb33"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL 5299082 Revised 6152026",
+     "ext": "pdf",
+     "uploaded": "2026-06-16T12:12:41-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "9aad6bd2-1f72-3aee-152e-2acebc661495",
+     "file_manager_id": "5c1fb438-6051-4502-918c-9262ce18e724"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL #5299082",
+     "ext": "pdf",
+     "uploaded": "2026-06-12T13:58:11-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "3eea1daf-3e27-b5c1-e385-5bd6fad93de1",
+     "file_manager_id": "58ff5c6d-8b18-4aef-81e7-25f717ae1b72"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5299082",
+     "ext": "pdf",
+     "uploaded": "2026-06-12T13:58:11-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "28d171fd-0dff-854a-bc63-dc0a57e09502",
+     "file_manager_id": "27d6eaf5-c54e-4275-975b-04c410c067f1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5293547 revised 6.9.26",
+     "ext": "pdf",
+     "uploaded": "2026-06-10T09:26:21-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "c8726109-ac5f-e2e1-dd57-cf4a7a04999b",
+     "file_manager_id": "638e9406-a449-4130-a94b-1df3dca37829"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL #5293547",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T14:53:52-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "e38f29ec-eb15-8762-8075-0b8a56d8f809",
+     "file_manager_id": "d205e606-aba6-483e-9348-8b4053b10e20"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5293547",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T14:53:52-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "8ddd79d4-76e7-62a2-dc45-0a65b8ad417a",
+     "file_manager_id": "002c9e8f-0168-40ab-9272-d46d2a2067aa"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards NAB WBRL #5276029",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T17:50:22-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "fc40996b-2b58-a321-bf6f-cb8444a1d4a0",
+     "file_manager_id": "24b0c18a-daa8-43bd-a982-a6c30b00a99a"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards WBRL #5276029",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T17:50:22-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "395fcd1f-327a-fb35-fa1f-c01b3abb30fd",
+     "file_manager_id": "c7e7e7d2-4d76-4683-a576-499b8842ec2e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL #5273491",
+     "ext": "pdf",
+     "uploaded": "2026-05-12T12:23:53-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "e71db653-e245-6e4b-5716-bfbf8bf5a9ab",
+     "file_manager_id": "3796a9ba-71dd-4917-820f-986e43511c59"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5273491",
+     "ext": "pdf",
+     "uploaded": "2026-05-12T12:23:53-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "8d42a347-9260-aaa0-cf28-b6744efcfd21",
+     "file_manager_id": "f5179ae4-6e76-4eb7-a862-322c8f35b050"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards NAB WBRL #5271816",
+     "ext": "pdf",
+     "uploaded": "2026-05-08T15:31:08-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "9ce52d97-12ad-0937-2cc4-68811b6cb53d",
+     "file_manager_id": "b6ce09dc-77da-4778-a7ed-434940c06b9e"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards WBRL #5271816",
+     "ext": "pdf",
+     "uploaded": "2026-05-08T15:31:07-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "1ed4cd0b-8cbb-901a-1bf3-c88561e2097e",
+     "file_manager_id": "f2e5e9bc-0938-4554-8ea2-ab6ae675217b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL 5270448 revised 5826",
+     "ext": "pdf",
+     "uploaded": "2026-05-08T14:53:05-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "3dab9726-d14d-c6df-89d4-1a3372ce5b37",
+     "file_manager_id": "deb83d1e-4c90-4d88-b3f3-8d67cf2a13cf"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL #5270448",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T17:31:11-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "0970eba9-0613-7d6b-4eee-2ed24f32d6d6",
+     "file_manager_id": "84b020e9-88e5-44fa-8052-3e7c8cc20035"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5270448",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T17:31:10-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "ec1ad65c-8abd-1dff-ffa3-edc0587ed9c1",
+     "file_manager_id": "c36fa181-3928-4fc8-98e7-df0ca790d8e9"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards NAB WBRL #5265592 - revised 5.6.26",
+     "ext": "pdf",
+     "uploaded": "2026-05-06T16:51:32-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "fd96b38f-ae8c-88c2-dd7c-7aa2e0f612c3",
+     "file_manager_id": "25ba872b-e87f-4138-92d6-9aca1308139d"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards WBRL #5265592 - revised 5.6.26",
+     "ext": "pdf",
+     "uploaded": "2026-05-06T16:51:16-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "7df23d06-10c2-8046-f974-f738e22ab1ab",
+     "file_manager_id": "facb8b87-c522-4759-89b9-d0803a79ee2a"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards NAB WBRL #5265592",
+     "ext": "pdf",
+     "uploaded": "2026-05-01T17:14:21-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "e06d1657-0065-f419-d74f-bc25b432b83b",
+     "file_manager_id": "386852fc-b825-4d84-b218-bc9df4f14c1d"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards WBRL #5265592",
+     "ext": "pdf",
+     "uploaded": "2026-05-01T17:14:20-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "286c88b5-d1d6-2a02-3bd1-bfe3256cc265",
+     "file_manager_id": "f45e4f58-274d-4502-bef4-7e29b45b4609"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL 5265575",
+     "ext": "pdf",
+     "uploaded": "2026-05-01T17:09:53-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "6c69a015-f0cd-b546-e5c8-5ab2473cc82b",
+     "file_manager_id": "ff3703c6-19ca-4091-b9c1-ba1a0af1bd94"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL 5265575",
+     "ext": "pdf",
+     "uploaded": "2026-05-01T17:09:53-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "d1905841-beae-99e0-735a-cfd605c62541",
+     "file_manager_id": "ab7b408a-b416-427f-9e38-57da3a6c2db4"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC NAB WBRL #5259483",
+     "ext": "pdf",
+     "uploaded": "2026-04-24T15:00:06-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "7863647b-5536-48d7-9e7e-e2b962988073",
+     "file_manager_id": "a2650df1-3906-47cb-b9b7-140f9e7231d5"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC",
+     "name": "Accountability Project Inc PAC WBRL #5259483",
+     "ext": "pdf",
+     "uploaded": "2026-04-24T15:00:06-04:00",
+     "folder_id": "4ec0ff92-0bfb-5598-e440-7e00c22b6d77",
+     "file_id": "18c8d4d6-22b4-5863-e2c9-84f76769452e",
+     "file_manager_id": "794d4032-5cec-4a50-b7c2-30458be5b0c0"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards NAB WBRL #5259084",
+     "ext": "pdf",
+     "uploaded": "2026-04-24T14:20:54-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "ca0c2f2d-f847-d445-8394-b6484b71b09f",
+     "file_manager_id": "48e49509-9367-41d5-89cb-97328fdd09bc"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards WBRL #5259084",
+     "ext": "pdf",
+     "uploaded": "2026-04-24T14:20:54-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "dd806af8-177b-8bea-3dd5-b964b0f4d808",
+     "file_manager_id": "45d0f401-fbc3-41a3-b9c2-4a1e3a16c19b"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards NAB WBRL #5253432",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T15:18:45-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "74498971-ecf4-7354-db57-17e7159fd8fa",
+     "file_manager_id": "526369e6-c09c-41e9-a29e-0235c54ae7b1"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana State Supreme Court District 1/Blair Downing Edwards",
+     "name": "Blair Downing Edwards WBRL #5253432",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T15:18:45-04:00",
+     "folder_id": "87d35fab-0072-bb82-37d5-1eb749da78f3",
+     "file_id": "7aab3b8d-1de9-504c-37c8-d9ab8245f2ec",
+     "file_manager_id": "b22be784-c8a8-4c09-a2d0-36f64f09ca8c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Echols",
+     "name": "Mike Echols NAB WBRL #5241573 REVISED 4.10.26",
+     "ext": "pdf",
+     "uploaded": "2026-04-10T12:17:28-04:00",
+     "folder_id": "0aa0714c-1c16-e829-c414-e89d037854f4",
+     "file_id": "3c81ff1b-dfc0-2f42-a20c-97999c50a013",
+     "file_manager_id": "2a924e69-2390-4c8a-b064-57aecb139237"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Echols",
+     "name": "Mike Echols NAB WBRL #5241573",
+     "ext": "pdf",
+     "uploaded": "2026-04-02T16:10:46-04:00",
+     "folder_id": "0aa0714c-1c16-e829-c414-e89d037854f4",
+     "file_id": "c1fe1c19-e3ed-dbb2-e1cb-bd073df9006b",
+     "file_manager_id": "dd62c922-902f-423f-a11a-98cc0f8cede6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Echols",
+     "name": "Mike Echols WBRL #5241573",
+     "ext": "pdf",
+     "uploaded": "2026-04-02T16:10:46-04:00",
+     "folder_id": "0aa0714c-1c16-e829-c414-e89d037854f4",
+     "file_id": "e73b96c0-ed75-5d69-8625-e78007c01dca",
+     "file_manager_id": "164c7ea3-dadc-48fc-8021-44628ebfb880"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Echols",
+     "name": "Mike Echols WBRL NAB 3.19.26",
+     "ext": "pdf",
+     "uploaded": "2026-03-19T17:23:09-04:00",
+     "folder_id": "0aa0714c-1c16-e829-c414-e89d037854f4",
+     "file_id": "5a46031a-965c-f985-c153-73eafd987665",
+     "file_manager_id": "ee921160-c52a-4750-b855-d8454105c5b4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Echols",
+     "name": "Mike Echols WBRL #5215106",
+     "ext": "pdf",
+     "uploaded": "2026-03-19T17:22:57-04:00",
+     "folder_id": "0aa0714c-1c16-e829-c414-e89d037854f4",
+     "file_id": "4a576907-0a80-ea81-3d14-5f2b4a58abd9",
+     "file_manager_id": "ad27f498-7122-43de-8c4f-d7384f213541"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Echols",
+     "name": "Mike Echols WBRL #5215313",
+     "ext": "pdf",
+     "uploaded": "2026-03-19T17:22:56-04:00",
+     "folder_id": "0aa0714c-1c16-e829-c414-e89d037854f4",
+     "file_id": "5c3f264a-7e18-4502-b315-ed238796b5f7",
+     "file_manager_id": "34cac03c-caaa-4366-a5b0-9453a855eba6"
+    }
+   ],
+   "stale": false
   }
  ],
- "failed": [
+ "failed": [],
+ "unmatched": [
   "WVUE",
   "WNOL",
-  "WLAE"
+  "WLAE",
+  "WBRZ",
+  "WVLA",
+  "WGMB",
+  "KTBS"
  ],
  "no_online_file": [
   "KLAF-LD",
   "KSWL-LD"
  ],
- "blocked": null
+ "blocked": null,
+ "attempted": {
+  "KTBS": "2026-10-10T22:41:38Z",
+  "WBRL-CD": "2026-10-10T22:41:38Z",
+  "WBRZ": "2026-10-10T22:41:38Z",
+  "WGMB": "2026-10-10T22:41:38Z",
+  "WLAE": "2026-10-10T22:41:38Z",
+  "WNOL": "2026-10-10T22:41:38Z",
+  "WVLA": "2026-10-10T22:41:38Z",
+  "WVUE": "2026-10-10T22:41:38Z"
+ }
 }
