@@ -37,7 +37,7 @@ h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance;
 .eyebrow a{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
 .eyebrow a:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
 
-header{padding:44px 0 0;}
+__NAV_CSS__header{padding:26px 0 0;}
 header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
 .asof{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin:10px 0 0; letter-spacing:.02em;}
 .dek{max-width:62ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
@@ -74,6 +74,22 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pend.now{font-size:11px; font-weight:600; fill:var(--accent-ink); paint-order:stroke; stroke:var(--surface); stroke-width:5px; stroke-linejoin:round;}
 .pnow{stroke:var(--accent); stroke-width:1; stroke-dasharray:3 3;}
 .pace-hit{fill:transparent; cursor:crosshair;}
+.chips{display:flex; gap:6px; flex-wrap:wrap; margin:22px 0 0;}
+.chips button{font:600 12px/1 Archivo,system-ui,sans-serif; padding:7px 11px; border:1px solid var(--hair); background:var(--surface); color:var(--ink2); border-radius:999px; cursor:pointer;}
+.chips button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--page);}
+.chips button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.pf{margin-top:14px; border:1px solid var(--hair); background:var(--surface);}
+.pfrow{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 16px; padding:11px 16px; border-top:1px solid var(--hair);}
+.pfrow:first-child{border-top:0;}
+.pfrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:14px;}
+.pfrow .of{font-family:Archivo,system-ui,sans-serif; font-size:11.5px; color:var(--muted); margin-left:6px;}
+.pfrow .when{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink2); text-align:right; white-space:nowrap;}
+.pfrow .when b{color:var(--ink);}
+.pfrow .calls{grid-column:1/-1; display:flex; flex-wrap:wrap; gap:4px;}
+.callchip{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2);}
+.callchip.quiet{opacity:.45;}
+.btag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; border:1px solid var(--hair); color:var(--muted); margin-left:6px; vertical-align:1px;}
+.pfmore{display:block; width:100%; padding:11px; border:0; border-top:1px solid var(--hair); background:none; font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); cursor:pointer;}
 .subhead{font-size:15px; font-weight:700; margin:34px 0 0; letter-spacing:.01em;}
 .pval{font-family:"IBM Plex Mono",monospace; font-size:10.5px; font-weight:600; fill:var(--ink);}
 
@@ -189,6 +205,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 </style>
 
 <div class="wrap">
+__NAV__
 <header>
   <p class="eyebrow">A spin-off of <a href="https://factions.charliestephens.xyz/vendor-factions.html">Louisiana's vendor factions</a></p>
   <h1>Louisiana Airwaves</h1>
@@ -217,6 +234,15 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <p class="intro" id="recentintro"></p>
   <div class="chart buyers" id="recentlist"></div>
   <p class="cap">State-filed committees only. Federal races (U.S. House and Senate) report to the FEC and are not in these filings. A buy shows up here only once the committee files the report that covers it, which can lag the airtime by weeks.</p>
+</section>
+
+<section id="pf-sec" hidden>
+  <p class="seclabel">The political file</p>
+  <h2>What the stations say is being bought</h2>
+  <p class="intro" id="pfintro"></p>
+  <div class="chips" id="pfchips" role="group" aria-label="Filter by level"></div>
+  <div class="pf" id="pflist"></div>
+  <p class="cap" id="pfcap"></p>
 </section>
 
 <section id="markets">
@@ -293,7 +319,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 </section>
 
 <footer>
-  Companion to <a href="https://factions.charliestephens.xyz/">Louisiana's donor factions</a> and <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor factions</a>. Radio buys — WWL-AM, KEEL, and two dozen FM stations in the same filings — are a page for another day.
+  Companion to <a href="https://factions.charliestephens.xyz/">Louisiana's donor factions</a> and <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor factions</a>. Radio buys in the same filings are on <a href="https://airwaves.charliestephens.xyz/radio.html">Louisiana Dial</a>, the radio companion.
 </footer>
 </div>
 <div id="tip" role="presentation"></div>
@@ -474,6 +500,50 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
       <span class="val" style="left:calc(${w}% + 7px)">${money(b.amt)}</span></div></div>`;
   }
   document.getElementById('recentlist').innerHTML=h+'</div>';
+}
+
+/* ---------- political file (FCC) ---------- */
+if(DATA.fcc){
+  const F = DATA.fcc;
+  document.getElementById('pf-sec').hidden = false;
+  const dshort = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  const BL = {'Federal':'Federal','State & local':'State & local','Issue':'Issue ads'};
+  document.getElementById('pfintro').innerHTML =
+    `Every station has to post the political ad orders it takes to its public file at the FCC, usually within days, which makes the file the earliest public sign of a TV buy — weeks ahead of the committee's own finance report. `+
+    `In the ${F.days} days to ${dshort(F.scraped)}, these stations posted <b>${fmt(F.recentDocs)} documents</b> for <b>${F.recentBuyers} buyers</b>. `+
+    `<b>${fmt(F.byBucket['Federal'])}</b> of them were for federal races, which Louisiana's own disclosure filings never show.`;
+  let level='all', showAll=false;
+  const chips=document.getElementById('pfchips');
+  for(const [k,l] of [['all','All'],['Federal','Federal'],['State & local','State & local'],['Issue','Issue ads']]){
+    const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
+    b.setAttribute('aria-pressed', String(k===level));
+    b.addEventListener('click',()=>{level=k; showAll=false; render();});
+    chips.appendChild(b);
+  }
+  const esc = t => t.replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function render(){
+    for(const b of chips.children) b.setAttribute('aria-pressed', String(b.dataset.k===level));
+    const rows = F.buyers.filter(x=>level==='all'||x.b===level);
+    const shown = showAll ? rows : rows.slice(0,12);
+    let h = shown.map(x=>{
+      const live = new Set(x.stRecent);
+      const calls = x.st.map(s=>`<span class="callchip${live.has(s.c)?'':' quiet'}" style="border-left-color:${s.k?cv(s.k):'var(--quiet)'}" title="${live.has(s.c)?'documents posted in the last '+F.days+' days':'earlier this cycle'}">${s.c}</span>`).join('');
+      const name = x.link ? `<a href="${x.link}" rel="noopener">${esc(x.name)}</a>` : esc(x.name);
+      return `<div class="pfrow"><div><span class="nm">${name}</span><span class="btag">${BL[x.b]}</span>${x.office?`<span class="of">${esc(x.office)}</span>`:''}</div>
+        <div class="when">${x.recent?`<b>${x.recent}</b> new · `:''}latest ${dshort(x.latest)}</div>
+        <div class="calls">${calls}</div></div>`;
+    }).join('');
+    if(rows.length>shown.length) h+=`<button type="button" class="pfmore" id="pfmore">Show all ${rows.length}</button>`;
+    document.getElementById('pflist').innerHTML = h || '<div class="pfrow">Nothing filed at this level.</div>';
+    const m=document.getElementById('pfmore'); if(m) m.addEventListener('click',()=>{showAll=true; render();});
+  }
+  render();
+  document.getElementById('pfcap').textContent =
+    `From the FCC public inspection files of ${F.stations} stations. To keep the load on the FCC's site light, a few stations are re-read each night`+(F.oldest<F.scraped?`, so the oldest here is as of ${dshort(F.oldest)}`:'')+`. Counts are documents — requests, orders, invoices — not dollars: amounts sit inside PDFs whose layout varies by station. `+
+    `Stations name buyers their own way ("Cassidy-R for US Senate", "Bill Cassidy"); names are merged across stations only where the match is unambiguous. Faded call signs have documents earlier in the cycle but none in the last ${F.days} days. `+
+    (F.noFile.length ? `${F.noFile.join(', ')} ${F.noFile.length>1?'are':'is a'} low-power station${F.noFile.length>1?'s':''} exempt from the online file. ` : '')+
+    (F.stale.length ? `${F.stale.join(', ')} ${F.stale.length>1?'have':'has'} not been refreshed in over a week. ` : '')+
+    `Each name links to the station's political file for the year.`;
 }
 
 /* ---------- map ---------- */

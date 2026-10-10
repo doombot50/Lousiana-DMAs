@@ -127,6 +127,23 @@ def party_of(name, filed):
     return filed
 
 
+def write_committees(path, by_buyer, buyer_year, bname, bparty, extra=None):
+    """Per-committee detail for the committee pages: total, by year, by
+    station (and anything else `extra(fn)` adds), keyed by filer number."""
+    out = {}
+    for fn, years in buyer_year.items():
+        st = {c: round(m[fn], 2) for c, m in by_buyer.items() if fn in m}
+        out[fn] = {'name': bname(fn), 'party': bparty(fn),
+                   'total': round(sum(st.values()), 2),
+                   'years': {str(y): round(v, 2) for y, v in sorted(years.items())},
+                   'stations': dict(sorted(st.items(), key=lambda x: -x[1]))}
+        if extra:
+            out[fn].update(extra(fn))
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(out, f, indent=0, ensure_ascii=False, sort_keys=True)
+    return len(out)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -163,6 +180,7 @@ def main():
     by_year = defaultdict(lambda: defaultdict(float))   # call -> year -> $
     by_buyer = defaultdict(lambda: defaultdict(float))  # call -> filer -> $
     by_day = defaultdict(float)                         # date -> $, statewide
+    buyer_year = defaultdict(lambda: defaultdict(float))  # filer -> year -> $
     buyer_days = defaultdict(lambda: defaultdict(float))  # filer -> date -> $
     buyer_name = defaultdict(lambda: defaultdict(int))  # filer -> spelling -> n
     buyer_party = defaultdict(lambda: defaultdict(int))
@@ -233,6 +251,7 @@ def main():
                     if fn:
                         filers[call].add(fn)
                         by_buyer[call][fn] += share
+                        buyer_year[fn][yr] += share
 
     def bname(fn):
         return max(buyer_name[fn].items(), key=lambda x: x[1])[0] if buyer_name[fn] else f'filer {fn}'
@@ -353,6 +372,8 @@ def main():
         },
     }
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    n_cm = write_committees(os.path.join(os.path.dirname(args.out), 'committees_tv.json'),
+                            by_buyer, buyer_year, bname, bparty)
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
 
@@ -372,7 +393,7 @@ def main():
               f'({o["stations"]} stations)')
     print(f'\nExcluded as radio: ${sum(radio_excl.values()):,.0f}; '
           f'ambiguous bare call signs counted as TV: ${sum(ambiguous.values()):,.0f}')
-    print(f'Wrote {args.out}')
+    print(f'Wrote {args.out} and committees_tv.json ({n_cm:,} committees)')
 
 
 if __name__ == '__main__':

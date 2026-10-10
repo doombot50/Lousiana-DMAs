@@ -16,9 +16,12 @@ import json
 import os
 import re
 import statistics
+import sys
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+from site_nav import NAV_CSS, nav  # noqa: E402
 D = lambda *p: os.path.join(HERE, *p)
 
 SITE_TITLE = 'Louisiana Dial'
@@ -80,7 +83,7 @@ def fill_tokens(tpl, spend):
     lo, hi = spend['years_covered']
     through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
     for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
-                     ('__THROUGH__', through)):
+                     ('__THROUGH__', through), ('__NAV__', nav('radio')), ('__NAV_CSS__', NAV_CSS)):
         tpl = tpl.replace(tok, val)
     left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
     if left:

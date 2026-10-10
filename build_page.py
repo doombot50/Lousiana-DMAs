@@ -23,12 +23,17 @@ data/map_paths.json (projected parish geometry). Stdlib only.
 """
 import json
 import os
-import time
 import re
-from collections import defaultdict
+import sys
+import time
+from collections import Counter, defaultdict
+from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
+sys.path.insert(0, D('fcc'))
+from normalize import aliases, bucket, buyer_key, classify, parse_path  # noqa: E402
+from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
 DESCRIPTION = ('Louisiana political committees have paid the state’s TV stations '
@@ -51,6 +56,80 @@ BY_TOPO = {'New Orleans, LA': 'NO', 'Baton Rouge, LA': 'BR', 'Shreveport, LA': '
            'Lafayette, LA': 'LAF', 'Lake Charles, LA': 'LKC',
            'Monroe, LA-El Dorado, AR': 'MON', 'Alexandria, LA': 'ALX'}
 GOV_YEARS = {2003, 2007, 2011, 2015, 2019, 2023, 2027}
+
+FCC_RECENT_DAYS = 14   # "this fortnight" in the political-file section
+FCC_ROWS = 40          # buyers shipped to the page
+
+
+def fcc_summary(markets_by_call):
+    """Roll the FCC political-file listing up to buyers across stations.
+    Returns None when the scrape hasn't run, so the page builds without it."""
+    try:
+        fcc = json.load(open(D('data', 'fcc_political.json'), encoding='utf-8'))
+    except FileNotFoundError:
+        return None
+    scraped = fcc['scraped'][:10]
+    since = (date.fromisoformat(scraped) - timedelta(days=FCC_RECENT_DAYS - 1)).isoformat()
+    rows = []
+    for st in fcc['stations']:
+        for f in st['files']:
+            level, office, buyer = parse_path(f['path'])
+            if not level:
+                continue
+            name = buyer or office or 'Filed without a buyer folder'
+            b = bucket(level)
+            year = f['path'].split('/')[1]
+            rows.append({'b': b, 'key': buyer_key(name) or name.lower(), 'name': name,
+                         'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
+                         'kind': classify(f['name'] or '', f['path']), 'year': year,
+                         'year_folder': st.get('year_folders', {}).get(year)})
+    keys = defaultdict(set)
+    for r in rows:
+        keys[r['b']].add(r['key'])
+    alias = aliases(keys)
+    groups = defaultdict(list)
+    for r in rows:
+        groups[(r['b'], alias[(r['b'], r['key'])])].append(r)
+
+    buyers = []
+    for (b, _), rs in groups.items():
+        recent = [r for r in rs if r['up'] >= since]
+        latest = max(rs, key=lambda r: r['up'])
+        # For a candidate the fullest spelling reads best ("Bill Cassidy" over
+        # "Cassidy-R for US Senate"); for an issue group the shortest does
+        # ("Accountability Project", not "… Inc Del Cielo Media", its buyer).
+        names = Counter(r['name'] for r in rs)
+        words = lambda n: len(buyer_key(n).split())
+        name = (min(names, key=lambda n: (words(n), -names[n], len(n))) if b == 'Issue' else
+                max(names, key=lambda n: (words(n), names[n], -len(n))))
+        offices = Counter(r['office'] for r in rs if r['office'])
+        buyers.append({
+            'name': name, 'b': b, 'office': offices.most_common(1)[0][0] if offices else None,
+            'docs': len(rs), 'recent': len(recent), 'latest': latest['up'],
+            'st': [{'c': c, 'k': markets_by_call.get(c)} for c in sorted({r['call'] for r in rs})],
+            'stRecent': sorted({r['call'] for r in recent}),
+            # The station's political-file folder for that year: the FCC site
+            # has no stable deep link to a buyer's subfolder.
+            'link': (f"https://publicfiles.fcc.gov/tv-profile/{latest['call'].lower()}/"
+                     f"political-files/{latest['year']}/{latest['year_folder']}"
+                     if latest['year_folder'] else None),
+            'linkCall': latest['call'],
+        })
+    # Busiest this fortnight first, then the most recently active.
+    buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
+    return {
+        'scraped': scraped, 'since': since, 'days': FCC_RECENT_DAYS,
+        'stations': sum(1 for s in fcc['stations'] if not s.get('stale')),
+        'stale': [s['call'] for s in fcc['stations'] if s.get('stale')],
+        'oldest': min((s.get('scraped_at') or scraped)[:10] for s in fcc['stations']) if fcc['stations'] else scraped,
+        'noFile': fcc.get('no_online_file', []),
+        'docs': sum(x['docs'] for x in buyers),
+        'recentDocs': sum(x['recent'] for x in buyers),
+        'recentBuyers': sum(1 for x in buyers if x['recent']),
+        'byBucket': {k: sum(x['recent'] for x in buyers if x['b'] == k)
+                     for k in ('Federal', 'State & local', 'Issue')},
+        'buyers': buyers[:FCC_ROWS],
+    }
 
 
 def build_data():
@@ -100,6 +179,7 @@ def build_data():
         'total': round(total), 'totHH': tot_hh, 'avgPPH': round(total / tot_hh, 2),
         'yearsCovered': spend['years_covered'], 'yearsMissing': spend['years_missing'],
         'rowsScanned': spend['rows_scanned'],
+        'fcc': fcc_summary({s['call']: BY_NAME[s['dma']] for s in spend['stations']}),
         'pace': {'from': spend['pace']['weeks'][0], 'to': spend['pace']['weeks'][1],
                  'cycles': [{'y': c['year'], 'primary': c['primary'], 'done': c['complete'],
                              'c': [round(v) for v in c['cumulative']]}
@@ -147,7 +227,7 @@ def fill_tokens(tpl, spend):
     lo, hi = spend['years_covered']
     through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
     for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
-                     ('__THROUGH__', through)):
+                     ('__THROUGH__', through), ('__NAV__', nav('tv')), ('__NAV_CSS__', NAV_CSS)):
         tpl = tpl.replace(tok, val)
     left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
     if left:

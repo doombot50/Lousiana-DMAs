@@ -25,6 +25,13 @@ geography and the money underneath those edges.
   just 7% of the money had been spent this far out. Below it, **who is buying
   television now**: the top committees over the trailing twelve months of
   filings, with each one's latest buy.
+- **The political file** — what the stations themselves say is being
+  bought, from their FCC public inspection files: every buyer with documents
+  in the current cycle, which stations carry them, and how many were posted
+  in the last two weeks, filterable to federal, state & local, or issue ads.
+  Stations must post orders within days, so this runs weeks ahead of the
+  state finance reports, and it is the only public record here of federal
+  races. Counts are documents, not dollars.
 - **The map** — the 64 parishes colored by DMA (New Orleans №50 nationally,
   down to Alexandria №183). Click a market for its stations and totals.
 - **Where the money over-weights** — spending per TV household. Alexandria
@@ -78,7 +85,7 @@ raw-served page falls into quirks mode and renders at desktop width on phones.
 
 `radio.html` is a second, standalone page covering **radio** rather than
 television: **$11.7M** across ~320 stations since 2000, a tenth of the TV total.
-Placement on the site is still open; nothing links to it yet.
+Both pages carry the same tab bar (Television · Radio), from `site_nav.py`, which every page builder fills in so the pages can't drift apart.
 
 Radio is not the TV page with new call signs, because the analysis inverts:
 
@@ -127,6 +134,18 @@ city, owner, market) for the 66 stations carrying 83% of the dollars; edit
   television and radio. Airwaves counts their bare-call rows as TV; Dial counts
   only rows explicitly marked radio.
 
+## The committees page
+
+`committees.html` profiles every committee that has paid a TV or radio
+station since 2000 (about 1,300): totals on each medium, spending by year,
+TV by market and station, radio by format and station. It is a searchable
+list; `committees.html#f=<filer number>` opens one profile, so profiles can
+be linked to directly. The two spend builders write the per-committee detail
+(`data/committees_tv.json`, `data/committees_radio.json`), using exactly the
+station matching their own pages use, and `build_committees_page.py`
+assembles the page. Committees are keyed by state filer number, so a
+candidate who filed under two committees appears twice.
+
 ## Rebuild the spending data
 
 `build_station_spend.py` recomputes every dollar figure from the raw filings.
@@ -139,7 +158,7 @@ It reads the campaign-finance project's `.la_cache` expenditure files, which
 python3 fetch_cache.py                              # ~47MB, 2000 → this year
 python3 build_station_spend.py                      # auto-finds ./.la_cache
 python3 build_radio_spend.py
-python3 build_page.py && python3 build_radio_page.py
+python3 build_page.py && python3 build_radio_page.py && python3 build_committees_page.py
 ```
 
 A sibling checkout's cache (`../la-campaign-finance/.la_cache`), `--cache
@@ -160,6 +179,49 @@ ignores. It can also be run by hand from the Actions tab.
 The narrative prose (the $15.3M WWL-TV figure, the per-household comparisons,
 the buyer rankings in the copy) is still hand-written and does not move with
 the nightly data; the charts, ledgers and stat tiles do.
+
+## FCC political files
+
+`fcc/scrape_political_files.py` reads the political-file folders of the 30
+stations at publicfiles.fcc.gov and writes `data/fcc_political.json`: every
+document in this year's and next year's folders, with its folder path, name
+and upload time. The nightly workflow runs it; publicfiles.fcc.gov is not
+reachable from every network, and GitHub's runners are where it is known to
+work.
+
+```bash
+python3 fcc/scrape_political_files.py                      # all stations
+python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
+```
+
+- **The API.** Facility ids come from `/api/service/facility/search/<CALL>`
+  (cached in `data/fcc_facilities.json`); the "Political Files" folder from
+  the station's profile page; folder contents from
+  `/api/manager/folder/id/<folder>.json?entityId=<facility>`.
+- **Light on the FCC.** The FCC's CDN blocks scripted traffic it judges
+  heavy: a first full run of ~700 requests drew 403s that then held for every
+  request, even from a fresh runner. So each night refreshes at most eight
+  stations (`--max-stations`), least recently scraped first, which rotates
+  all 28 stations with online files through every four nights; requests are
+  two seconds apart; and a subfolder whose recursive file count is unchanged
+  reuses the previous run's documents instead of being re-walked. On a 403
+  the scraper waits once, then stops for the night and keeps everything it
+  didn't reach as it was. Each station records `scraped_at`; one not
+  refreshed in a week is flagged `stale` and named on the page.
+- **Listed, not read.** Amounts sit inside PDFs whose layout varies by
+  station and sales system (and the document download URL refuses
+  scripted requests), so the record is the folder and file names.
+- **Normalizing who bought.** Below the FCC's level folder (Federal, State,
+  Local, Non-Candidate Issue Ads) each station improvises —
+  `US Senate/Bill Cassidy` at WDSU, `US Senate/Cassidy-R for US Senate/Orders`
+  at WWL-TV. `fcc/normalize.py` drops document-type folders, splits office
+  from buyer, and merges spellings across stations only where the match is
+  unambiguous: a bare surname joins a full name only when exactly one full
+  name in the group ends in it, so "John Young" and "John-Paul Young" stay
+  two candidates. State and Local are grouped, because stations disagree on
+  which one a race belongs to.
+- **Low-power stations** (KLAF-LD, KSWL-LD) are exempt from the online
+  public file; they are listed as such and never requested.
 
 ## Data files
 
