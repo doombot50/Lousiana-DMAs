@@ -35,7 +35,7 @@ def build_data():
     market = {s['call']: BY_NAME[s['dma']] for s in json.load(open(D('data', 'stations.json'), encoding='utf-8'))}
 
     rows = []
-    for fn in set(tv) | set(ra):
+    for fn in sorted(set(tv) | set(ra)):
         t, r = tv.get(fn, {}), ra.get(fn, {})
         years = sorted(set(t.get('years', {})) | set(r.get('years', {})))
         # The committee files are written with sorted keys, so rank here.
@@ -60,7 +60,7 @@ def build_data():
             'nrs': len(rst),
             'fm': [[k, round(v)] for k, v in sorted(r.get('formats', {}).items(), key=lambda x: -x[1])],
         })
-    rows.sort(key=lambda x: -(x['tv'] + x['ra']))
+    rows.sort(key=lambda x: (-(x['tv'] + x['ra']), x['f']))   # filer number breaks ties stably
     return rows
 
 
