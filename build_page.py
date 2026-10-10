@@ -32,7 +32,7 @@ from datetime import date, timedelta
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
-from normalize import aliases, bucket, buyer_key, classify, parse_path  # noqa: E402
+from normalize import aliases, bucket, buyer_key, classify, out_of_state, parse_path  # noqa: E402
 from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
@@ -77,9 +77,13 @@ def fcc_summary(markets_by_call):
             if not level:
                 continue
             name = buyer or office or 'Filed without a buyer folder'
-            b = bucket(level)
+            # Another state's race carried on a Louisiana station (East Texas
+            # on Shreveport's, network issue buys on sub-channels) is kept
+            # apart, so it doesn't count as Louisiana spending.
+            state = out_of_state(f['path'])
+            b = 'Out of state' if state else bucket(level)
             year = f['path'].split('/')[1]
-            rows.append({'b': b, 'key': buyer_key(name) or name.lower(), 'name': name,
+            rows.append({'b': b, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
                          'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
                          'kind': classify(f['name'] or '', f['path']), 'year': year,
                          'year_folder': st.get('year_folders', {}).get(year),
@@ -93,19 +97,21 @@ def fcc_summary(markets_by_call):
         groups[(r['b'], alias[(r['b'], r['key'])])].append(r)
 
     buyers = []
-    for (b, _), rs in groups.items():
+    for (b, target), rs in groups.items():
         recent = [r for r in rs if r['up'] >= since]
         latest = max(rs, key=lambda r: r['up'])
-        # For a candidate the fullest spelling reads best ("Bill Cassidy" over
-        # "Cassidy-R for US Senate"); for an issue group the shortest does
-        # ("Accountability Project", not "… Inc Del Cielo Media", its buyer).
+        # Show the cleanest spelling: one whose cleaned form is the group's own
+        # key (so "Bill Cassidy", not the surname-only "Cassidy-R for US
+        # Senate"), with the least left over around it ("Hillar Moore", not
+        # "Hillar Moore- District Attorney"); then the most common.
         names = Counter(r['name'] for r in rs)
-        words = lambda n: len(buyer_key(n).split())
-        name = (min(names, key=lambda n: (words(n), -names[n], len(n))) if b == 'Issue' else
-                max(names, key=lambda n: (words(n), names[n], -len(n))))
+        name = min(names, key=lambda n: (buyer_key(n) != target,
+                                         len(n) - len(target), -names[n], n))
         offices = Counter(r['office'] for r in rs if r['office'])
         buyers.append({
-            'name': name, 'b': b, 'office': offices.most_common(1)[0][0] if offices else None,
+            'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': offices.most_common(1)[0][0] if offices else None,
+            'state': Counter(r['state'] for r in rs if r['state']).most_common(1)[0][0]
+                     if b == 'Out of state' else None,
             'docs': len(rs), 'recent': len(recent), 'latest': latest['up'],
             'st': [{'c': c, 'k': markets_by_call.get(c)} for c in sorted({r['call'] for r in rs})],
             'stRecent': sorted({r['call'] for r in recent}),
@@ -118,6 +124,8 @@ def fcc_summary(markets_by_call):
         })
     # Busiest this fortnight first, then the most recently active.
     buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
+    home = [x for x in buyers if x['b'] != 'Out of state']
+    away = [x for x in buyers if x['b'] == 'Out of state']
     return {
         'scraped': scraped, 'since': since, 'days': FCC_RECENT_DAYS,
         'stations': sum(1 for s in fcc['stations'] if not s.get('stale')),
@@ -127,12 +135,19 @@ def fcc_summary(markets_by_call):
         'stale': [s['call'] for s in fcc['stations'] if s.get('stale')],
         'oldest': min((s.get('scraped_at') or scraped)[:10] for s in fcc['stations']) if fcc['stations'] else scraped,
         'noFile': fcc.get('no_online_file', []),
-        'docs': sum(x['docs'] for x in buyers),
-        'recentDocs': sum(x['recent'] for x in buyers),
-        'recentBuyers': sum(1 for x in buyers if x['recent']),
-        'byBucket': {k: sum(x['recent'] for x in buyers if x['b'] == k)
+        # Headline counts are Louisiana's own races; out-of-state ones are
+        # counted separately and listed under their own filter.
+        'docs': sum(x['docs'] for x in home),
+        'recentDocs': sum(x['recent'] for x in home),
+        'recentBuyers': sum(1 for x in home if x['recent']),
+        'byBucket': {k: sum(x['recent'] for x in home if x['b'] == k)
                      for k in ('Federal', 'State & local', 'Issue')},
-        'buyers': buyers[:FCC_ROWS],
+        'away': {'docs': sum(x['docs'] for x in away), 'recent': sum(x['recent'] for x in away),
+                 'buyers': len(away),
+                 'states': [[s, n] for s, n in Counter(
+                     {x['state']: 0 for x in away} | Counter(
+                         s for x in away for s in [x['state']] * x['docs'])).most_common()]},
+        'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
     }
 
 

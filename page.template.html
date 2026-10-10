@@ -572,15 +572,16 @@ if(DATA.fcc){
   const F = DATA.fcc;
   document.getElementById('pf-sec').hidden = false;
   const dshort = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
-  const BL = {'Federal':'Federal','State & local':'State & local','Issue':'Issue ads'};
+  const BL = {'Federal':'Federal','State & local':'State & local','Issue':'Issue ads','Out of state':'Out of state'};
   document.getElementById('pfintro').innerHTML =
     `Every station has to post the political ad orders it takes to its public file at the FCC, usually within days, which makes the file the earliest public sign of a TV buy — weeks ahead of the committee's own finance report. `+
     (F.markets.length<7 ? `So far this covers ${F.stations} stations in ${F.markets.join(' and ').replace(/ and (?=.* and )/g,', ')}; the rest of the state's stations join over the next few nights. ` : '')+
     `In the ${F.days} days to ${dshort(F.scraped)}, these stations posted <b>${fmt(F.recentDocs)} documents</b> for <b>${F.recentBuyers} buyers</b>. `+
-    `<b>${fmt(F.byBucket['Federal'])}</b> of them were for federal races, which Louisiana's own disclosure filings never show.`;
+    `<b>${fmt(F.byBucket['Federal'])}</b> of them were for federal races, which Louisiana's own disclosure filings never show.`+
+    (F.away.buyers ? ` Not counted here: ${fmt(F.away.recent)} more for ${F.away.buyers} buyers in other states' races. ${Math.round(F.away.states[0][1]/F.away.docs*100)}% of those documents are ${F.away.states[0][0]} campaigns, carried on stations whose markets cross the state line; the rest are national issue buys on network sub-channels. They're under <i>Out of state</i>.` : '');
   let level='all', showAll=false;
   const chips=document.getElementById('pfchips');
-  for(const [k,l] of [['all','All'],['Federal','Federal'],['State & local','State & local'],['Issue','Issue ads']]){
+  for(const [k,l] of [['all','All Louisiana'],['Federal','Federal'],['State & local','State & local'],['Issue','Issue ads'],['Out of state','Out of state']]){
     const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
     b.setAttribute('aria-pressed', String(k===level));
     b.addEventListener('click',()=>{level=k; showAll=false; render();});
@@ -589,13 +590,13 @@ if(DATA.fcc){
   const esc = t => t.replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   function render(){
     for(const b of chips.children) b.setAttribute('aria-pressed', String(b.dataset.k===level));
-    const rows = F.buyers.filter(x=>level==='all'||x.b===level);
+    const rows = F.buyers.filter(x=> level==='all' ? x.b!=='Out of state' : x.b===level);
     const shown = showAll ? rows : rows.slice(0,12);
     let h = shown.map(x=>{
       const live = new Set(x.stRecent);
       const calls = x.st.map(s=>`<span class="callchip${live.has(s.c)?'':' quiet'}" style="border-left-color:${s.k?cv(s.k):'var(--quiet)'}" title="${live.has(s.c)?'documents posted in the last '+F.days+' days':'earlier this cycle'}">${s.c}</span>`).join('');
       const name = x.link ? `<a href="${x.link}" rel="noopener">${esc(x.name)}</a>` : esc(x.name);
-      return `<div class="pfrow"><div><span class="nm">${name}</span><span class="btag">${BL[x.b]}</span>${x.office?`<span class="of">${esc(x.office)}</span>`:''}</div>
+      return `<div class="pfrow"><div><span class="nm">${name}</span><span class="btag">${x.state || BL[x.b]}</span>${x.office?`<span class="of">${esc(x.office)}</span>`:''}</div>
         <div class="when">${x.recent?`<b>${x.recent}</b> new · `:''}latest ${dshort(x.latest)}</div>
         <div class="calls">${calls}</div></div>`;
     }).join('');
