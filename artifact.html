@@ -544,10 +544,10 @@ if(DATA.fcc){
   }
   render();
   document.getElementById('pfcap').textContent =
-    `From the FCC public inspection files of ${F.stations} stations, refreshed nightly. Counts are documents — requests, orders, invoices — not dollars: amounts sit inside PDFs whose layout varies by station. `+
+    `From the FCC public inspection files of ${F.stations} stations. To keep the load on the FCC's site light, a few stations are re-read each night`+(F.oldest<F.scraped?`, so the oldest here is as of ${dshort(F.oldest)}`:'')+`. Counts are documents — requests, orders, invoices — not dollars: amounts sit inside PDFs whose layout varies by station. `+
     `Stations name buyers their own way ("Cassidy-R for US Senate", "Bill Cassidy"); names are merged across stations only where the match is unambiguous. Faded call signs have documents earlier in the cycle but none in the last ${F.days} days. `+
     (F.noFile.length ? `${F.noFile.join(', ')} ${F.noFile.length>1?'are':'is a'} low-power station${F.noFile.length>1?'s':''} exempt from the online file. ` : '')+
-    (F.stale.length ? `${F.stale.join(', ')} could not be refreshed on the latest run and show earlier data. ` : '')+
+    (F.stale.length ? `${F.stale.join(', ')} ${F.stale.length>1?'have':'has'} not been refreshed in over a week. ` : '')+
     `Each name links to the station's political file for the year.`;
 }
 

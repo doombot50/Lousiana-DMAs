@@ -18,13 +18,18 @@ office / buyer, as the station filed it), name, and upload time. Writes
 data/fcc_political.json. Facility ids are cached in data/fcc_facilities.json
 so a night's run doesn't re-resolve them.
 
-The FCC's CDN throttles bursts (a 403 after a few hundred quick requests), so
-the walk is incremental and slow. Each subfolder listing carries a recursive
+The FCC's CDN blocks scripted traffic it judges heavy: a burst of a few
+hundred requests drew 403s that then held for every request, even from a
+fresh runner. So a night asks for little. It refreshes at most
+--max-stations stations (default 8), least recently scraped first, so the 28
+stations with online files rotate through every few nights, and the walk is
+incremental and slow. Each subfolder listing carries a recursive
 file count; when it matches the documents the previous run recorded under
 that path, the previous documents are reused instead of re-walked. A steady
 night costs about three requests a station plus whatever changed. On a 403
 the scraper waits and retries once, then stops, carrying the previous data
-forward for every station it didn't reach (marked `stale`).
+forward for every station it didn't reach. Each station records when it
+was last scraped (`scraped_at`); one not refreshed in a week is `stale`.
 
 Documents are listed, not read: amounts live inside PDFs whose layout varies
 by station and sales system, so the file names and folders are the record.
@@ -45,7 +50,8 @@ D = lambda *p: os.path.join(ROOT, 'data', *p)
 B = 'https://publicfiles.fcc.gov'
 UA = {'User-Agent': 'louisiana-airwaves/1.0 (+https://airwaves.charliestephens.xyz/)',
       'Accept': 'application/json, text/html'}
-PAUSE = 0.5           # seconds between requests
+PAUSE = 2.0           # seconds between requests
+STALE_DAYS = 7
 RETRIES = 4
 BLOCK_WAIT = 90       # seconds to wait out a CDN 403 before the one retry
 
@@ -83,8 +89,11 @@ def facility_id(call, cache):
         return cache[call]
     res = get(f'{B}/api/service/facility/search/{call}')
     tv = ((res or {}).get('results') or {}).get('globalSearchResults', {}).get('tvFacilityList') or []
-    hits = [f for f in tv if f.get('callSign', '').upper() == call.upper()
-            and f.get('communityState') == 'LA']
+    hits = [f for f in tv if f.get('callSign', '').upper() == call.upper()]
+    # Prefer a Louisiana licence, but keep a lone exact match elsewhere: KTVE,
+    # in the Monroe market, is licensed to El Dorado, Arkansas.
+    if len(hits) > 1:
+        hits = [f for f in hits if f.get('communityState') == 'LA']
     if len(hits) != 1:
         return None
     cache[call] = hits[0]['id']
@@ -143,6 +152,8 @@ def main():
     ap.add_argument('--stations', nargs='*', help='call signs (default: all in stations.json)')
     ap.add_argument('--years', nargs='*', type=int,
                     help='political-file years to walk (default: this year and next)')
+    ap.add_argument('--max-stations', type=int, default=8,
+                    help='stations to refresh this run, least recently scraped first')
     ap.add_argument('--out', default=D('fcc_political.json'))
     args = ap.parse_args()
 
@@ -158,23 +169,33 @@ def main():
     except (FileNotFoundError, KeyError, json.JSONDecodeError):
         previous = {}
 
+    # Rotation: never-scraped stations first, then the longest-unrefreshed.
+    # An explicit --stations list is taken as asked.
+    # Low-power (-LD) stations are exempt from the online public file, so they
+    # are listed as such without spending a request on them.
+    no_file = [c for c in calls if c.endswith('-LD')]
+    calls = [c for c in calls if not c.endswith('-LD')]
+    if not args.stations:
+        order = sorted(calls, key=lambda c: previous.get(c, {}).get('scraped_at', ''))
+        due = set(order[:args.max_stations])
+    else:
+        due = set(calls)
+    now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     t0 = time.time()
-    stations, failed, no_file = [], [], []
+    stations, failed = [], []
     stats = {'fetched': 0, 'reused': 0}
     blocked = None
     for call in calls:
         prev = previous.get(call, {})
-        if blocked:
+        if blocked or call not in due:
             if prev:
-                stations.append({**prev, 'stale': True})
+                stations.append(prev)
             continue
         try:
             ent = facility_id(call, cache)
             if not ent:
-                # Low-power (-LD) stations are exempt from the online public
-                # file, so a miss there is expected rather than a failure.
-                (no_file if call.endswith('-LD') else failed).append(call)
-                print(f'  {call}: no LA facility match' + (' (low-power; no online file)' if call.endswith('-LD') else ''))
+                failed.append(call)
+                print(f'  {call}: no LA facility match')
                 continue
             root = political_root(call)
             if not root:
@@ -188,6 +209,7 @@ def main():
                     walk(yf['entity_folder_id'], ent, files, prev.get('files', []), stats)
             files.sort(key=lambda x: x['uploaded'] or '', reverse=True)
             stations.append({'call': call, 'facility_id': ent, 'root_folder': root,
+                             'scraped_at': now,
                              'year_folders': {yf['folder_name']: yf['entity_folder_id']
                                               for yf in rf.get('subfolders') or []
                                               if yf.get('folder_name', '').isdigit()},
@@ -198,22 +220,26 @@ def main():
             blocked = str(e)
             print(f'  {call}: still blocked after waiting ({e}); stopping, carrying the rest forward')
             if prev:
-                stations.append({**prev, 'stale': True})
+                stations.append(prev)
         except RuntimeError as e:
             print(f'  {call}: {e}')
             failed.append(call)
             if prev:
-                stations.append({**prev, 'stale': True})
+                stations.append(prev)
 
     # A night where most stations fail is an outage, not news: leave the
     # previous night's file in place rather than publish it.
-    if blocked and not any(not s.get('stale') for s in stations):
+    refreshed = [s for s in stations if s.get('scraped_at') == now]
+    if blocked and not refreshed:
         sys.exit(f'Blocked before any station refreshed; keeping the previous {os.path.basename(args.out)}.')
-    if len(failed) > len(calls) // 2:
-        sys.exit(f'{len(failed)} of {len(calls)} stations failed ({failed}); '
+    if len(failed) > len(due) // 2:
+        sys.exit(f'{len(failed)} of {len(due)} stations due failed ({failed}); '
                  f'keeping the previous {os.path.basename(args.out)}.')
 
     json.dump(cache, open(D('fcc_facilities.json'), 'w', encoding='utf-8'), indent=1, sort_keys=True)
+    cutoff = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time() - STALE_DAYS * 86400))
+    for st in stations:
+        st['stale'] = st.get('scraped_at', '') < cutoff
     doc = {
         'source': 'FCC public inspection files, political file folders (publicfiles.fcc.gov)',
         'scraped': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
@@ -226,8 +252,7 @@ def main():
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
     n = sum(len(s['files']) for s in stations)
-    fresh = sum(1 for s in stations if not s.get('stale'))
-    print(f'{n:,} documents, {fresh} stations refreshed in {time.time()-t0:.0f}s '
+    print(f'{n:,} documents across {len(stations)} stations; {len(refreshed)} refreshed in {time.time()-t0:.0f}s '
           f'({stats["fetched"]} folders fetched, {stats["reused"]} reused unchanged)'
           + (f'; failed: {failed}' if failed else '') + f'\nWrote {args.out}')
 

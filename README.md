@@ -198,12 +198,16 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   (cached in `data/fcc_facilities.json`); the "Political Files" folder from
   the station's profile page; folder contents from
   `/api/manager/folder/id/<folder>.json?entityId=<facility>`.
-- **Gentle and incremental.** The FCC's CDN answers a burst of requests with
-  a 403, so requests are spaced half a second apart, and a subfolder whose
-  recursive file count is unchanged since the last run reuses that run's
-  documents instead of being re-walked. On a 403 the scraper waits once,
-  then stops and carries every unreached station's previous data forward,
-  marked `stale`; if most stations fail it leaves the previous file alone.
+- **Light on the FCC.** The FCC's CDN blocks scripted traffic it judges
+  heavy: a first full run of ~700 requests drew 403s that then held for every
+  request, even from a fresh runner. So each night refreshes at most eight
+  stations (`--max-stations`), least recently scraped first, which rotates
+  all 28 stations with online files through every four nights; requests are
+  two seconds apart; and a subfolder whose recursive file count is unchanged
+  reuses the previous run's documents instead of being re-walked. On a 403
+  the scraper waits once, then stops for the night and keeps everything it
+  didn't reach as it was. Each station records `scraped_at`; one not
+  refreshed in a week is flagged `stale` and named on the page.
 - **Listed, not read.** Amounts sit inside PDFs whose layout varies by
   station and sales system (and the document download URL refuses
   scripted requests), so the record is the folder and file names.
@@ -216,8 +220,8 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   name in the group ends in it, so "John Young" and "John-Paul Young" stay
   two candidates. State and Local are grouped, because stations disagree on
   which one a race belongs to.
-- **Low-power stations** (KLAF-LD) are exempt from the online public file
-  and are reported as such rather than as failures.
+- **Low-power stations** (KLAF-LD, KSWL-LD) are exempt from the online
+  public file; they are listed as such and never requested.
 
 ## Data files
 

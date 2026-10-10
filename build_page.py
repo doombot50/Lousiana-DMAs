@@ -121,6 +121,7 @@ def fcc_summary(markets_by_call):
         'scraped': scraped, 'since': since, 'days': FCC_RECENT_DAYS,
         'stations': sum(1 for s in fcc['stations'] if not s.get('stale')),
         'stale': [s['call'] for s in fcc['stations'] if s.get('stale')],
+        'oldest': min((s.get('scraped_at') or scraped)[:10] for s in fcc['stations']) if fcc['stations'] else scraped,
         'noFile': fcc.get('no_online_file', []),
         'docs': sum(x['docs'] for x in buyers),
         'recentDocs': sum(x['recent'] for x in buyers),
