@@ -18,6 +18,14 @@ office / buyer, as the station filed it), name, and upload time. Writes
 data/fcc_political.json. Facility ids are cached in data/fcc_facilities.json
 so a night's run doesn't re-resolve them.
 
+The FCC's CDN throttles bursts (a 403 after a few hundred quick requests), so
+the walk is incremental and slow. Each subfolder listing carries a recursive
+file count; when it matches the documents the previous run recorded under
+that path, the previous documents are reused instead of re-walked. A steady
+night costs about three requests a station plus whatever changed. On a 403
+the scraper waits and retries once, then stops, carrying the previous data
+forward for every station it didn't reach (marked `stale`).
+
 Documents are listed, not read: amounts live inside PDFs whose layout varies
 by station and sales system, so the file names and folders are the record.
 Stdlib only. Must run where publicfiles.fcc.gov is reachable (GitHub Actions).
@@ -37,11 +45,17 @@ D = lambda *p: os.path.join(ROOT, 'data', *p)
 B = 'https://publicfiles.fcc.gov'
 UA = {'User-Agent': 'louisiana-airwaves/1.0 (+https://airwaves.charliestephens.xyz/)',
       'Accept': 'application/json, text/html'}
-PAUSE = 0.15          # seconds between requests: a few thousand a night, gently
+PAUSE = 0.5           # seconds between requests
 RETRIES = 4
+BLOCK_WAIT = 90       # seconds to wait out a CDN 403 before the one retry
+
+
+class Blocked(Exception):
+    """The CDN is refusing us; stop for the night rather than push harder."""
 
 
 def get(url, want_json=True):
+    blocked_once = False
     for attempt in range(1, RETRIES + 1):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=45) as r:
@@ -51,6 +65,13 @@ def get(url, want_json=True):
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
             if isinstance(e, urllib.error.HTTPError) and e.code == 404:
                 return None
+            if isinstance(e, urllib.error.HTTPError) and e.code == 403:
+                if blocked_once:
+                    raise Blocked(url) from e
+                blocked_once = True
+                print(f'  403 from the CDN; waiting {BLOCK_WAIT}s before one retry')
+                time.sleep(BLOCK_WAIT)
+                continue
             if attempt == RETRIES:
                 raise RuntimeError(f'{url}: {e}') from e
             time.sleep(2 ** attempt)
@@ -65,7 +86,6 @@ def facility_id(call, cache):
     hits = [f for f in tv if f.get('callSign', '').upper() == call.upper()
             and f.get('communityState') == 'LA']
     if len(hits) != 1:
-        print(f'  {call}: {len(hits)} exact LA matches in facility search; skipped')
         return None
     cache[call] = hits[0]['id']
     return cache[call]
@@ -83,9 +103,16 @@ def folder(fid, ent):
     return (j or {}).get('folder')
 
 
-def walk(fid, ent, out):
-    """Depth-first: append every file under folder `fid` to `out`."""
+def under(prev, path):
+    """Previous run's documents filed at or below `path`."""
+    return [x for x in prev if x['path'] == path or x['path'].startswith(path + '/')]
+
+
+def walk(fid, ent, out, prev, stats):
+    """Depth-first: append every file under folder `fid` to `out`, reusing the
+    previous run's documents for any subfolder whose file count is unchanged."""
     f = folder(fid, ent)
+    stats['fetched'] += 1
     if not f:
         return
     for x in f.get('files') or []:
@@ -99,8 +126,15 @@ def walk(fid, ent, out):
             'file_manager_id': x.get('file_manager_id'),
         })
     for s in f.get('subfolders') or []:
-        if int(s.get('file_count') or 0) > 0:
-            walk(s['entity_folder_id'], ent, out)
+        n = int(s.get('file_count') or 0)
+        if not n:
+            continue
+        old = under(prev, s.get('folder_path', '\0'))
+        if len(old) == n:
+            out.extend(old)
+            stats['reused'] += 1
+        else:
+            walk(s['entity_folder_id'], ent, out, prev, stats)
 
 
 def main():
@@ -119,14 +153,28 @@ def main():
         cache = json.load(open(D('fcc_facilities.json'), encoding='utf-8'))
     except FileNotFoundError:
         cache = {}
+    try:
+        previous = {s['call']: s for s in json.load(open(args.out, encoding='utf-8'))['stations']}
+    except (FileNotFoundError, KeyError, json.JSONDecodeError):
+        previous = {}
 
     t0 = time.time()
-    stations, failed = [], []
+    stations, failed, no_file = [], [], []
+    stats = {'fetched': 0, 'reused': 0}
+    blocked = None
     for call in calls:
+        prev = previous.get(call, {})
+        if blocked:
+            if prev:
+                stations.append({**prev, 'stale': True})
+            continue
         try:
             ent = facility_id(call, cache)
             if not ent:
-                failed.append(call)
+                # Low-power (-LD) stations are exempt from the online public
+                # file, so a miss there is expected rather than a failure.
+                (no_file if call.endswith('-LD') else failed).append(call)
+                print(f'  {call}: no LA facility match' + (' (low-power; no online file)' if call.endswith('-LD') else ''))
                 continue
             root = political_root(call)
             if not root:
@@ -137,14 +185,25 @@ def main():
             files = []
             for yf in rf.get('subfolders') or []:
                 if yf.get('folder_name', '').isdigit() and int(yf['folder_name']) in years:
-                    walk(yf['entity_folder_id'], ent, files)
+                    walk(yf['entity_folder_id'], ent, files, prev.get('files', []), stats)
             files.sort(key=lambda x: x['uploaded'] or '', reverse=True)
-            stations.append({'call': call, 'facility_id': ent, 'root_folder': root, 'files': files})
+            stations.append({'call': call, 'facility_id': ent, 'root_folder': root,
+                             'year_folders': {yf['folder_name']: yf['entity_folder_id']
+                                              for yf in rf.get('subfolders') or []
+                                              if yf.get('folder_name', '').isdigit()},
+                             'files': files})
             print(f'  {call:<8} facility {ent:<7} {len(files):>4} documents '
                   f'(newest {files[0]["uploaded"] if files else "—"})')
+        except Blocked as e:
+            blocked = str(e)
+            print(f'  {call}: still blocked after waiting ({e}); stopping, carrying the rest forward')
+            if prev:
+                stations.append({**prev, 'stale': True})
         except RuntimeError as e:
             print(f'  {call}: {e}')
             failed.append(call)
+            if prev:
+                stations.append({**prev, 'stale': True})
 
     json.dump(cache, open(D('fcc_facilities.json'), 'w', encoding='utf-8'), indent=1, sort_keys=True)
     doc = {
@@ -153,11 +212,16 @@ def main():
         'years': years,
         'stations': stations,
         'failed': failed,
+        'no_online_file': no_file,
+        'blocked': blocked,
+        'requests': stats,
     }
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
     n = sum(len(s['files']) for s in stations)
-    print(f'{n:,} documents from {len(stations)} stations in {time.time()-t0:.0f}s'
+    fresh = sum(1 for s in stations if not s.get('stale'))
+    print(f'{n:,} documents, {fresh} stations refreshed in {time.time()-t0:.0f}s '
+          f'({stats["fetched"]} folders fetched, {stats["reused"]} reused unchanged)'
           + (f'; failed: {failed}' if failed else '') + f'\nWrote {args.out}')
     # A night where most stations fail is an outage, not news; refuse to publish it.
     if len(failed) > len(calls) // 2:
