@@ -1,0 +1,17 @@
+# Temporary: runs fcc/probe.py where publicfiles.fcc.gov is reachable, so the
+# political-file scraper can be developed against the real API. Removed before
+# the scraper PR is marked ready.
+name: FCC probe
+on:
+  push:
+    branches: [claude/louisiana-election-utility-grqh6d]
+    paths: ['fcc/**', '.github/workflows/fcc-probe.yml']
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 fcc/probe.py
