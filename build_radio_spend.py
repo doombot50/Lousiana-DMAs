@@ -91,6 +91,23 @@ def party_of(name, filed):
     return filed
 
 
+def write_committees(path, by_buyer, buyer_year, bname, bparty, extra=None):
+    """Per-committee detail for the committee pages: total, by year, by
+    station (and anything else `extra(fn)` adds), keyed by filer number."""
+    out = {}
+    for fn, years in buyer_year.items():
+        st = {c: round(m[fn], 2) for c, m in by_buyer.items() if fn in m}
+        out[fn] = {'name': bname(fn), 'party': bparty(fn),
+                   'total': round(sum(st.values()), 2),
+                   'years': {str(y): round(v, 2) for y, v in sorted(years.items())},
+                   'stations': dict(sorted(st.items(), key=lambda x: -x[1]))}
+        if extra:
+            out[fn].update(extra(fn))
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(out, f, indent=0, ensure_ascii=False, sort_keys=True)
+    return len(out)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -115,6 +132,7 @@ def main():
     by_year = defaultdict(lambda: defaultdict(float))
     by_buyer = defaultdict(lambda: defaultdict(float))
     buyer_cat = defaultdict(lambda: defaultdict(float))   # filer -> category -> $
+    buyer_year = defaultdict(lambda: defaultdict(float))  # filer -> year -> $
     buyer_name = defaultdict(lambda: defaultdict(int))
     buyer_party = defaultdict(lambda: defaultdict(int))
     unclassified = defaultdict(float)                      # station-shaped, not in ref
@@ -188,6 +206,7 @@ def main():
                         by_buyer[c][fn] += share
                         cat = ref[c]['category'] if c in ref else 'Unclassified'
                         buyer_cat[fn][cat] += share
+                        buyer_year[fn][yr] += share
 
     def bname(fn):
         return max(buyer_name[fn].items(), key=lambda x: x[1])[0] if buyer_name[fn] else f'filer {fn}'
@@ -293,6 +312,11 @@ def main():
     }
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     json.dump(doc, open(args.out, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+    n_cm = write_committees(
+        os.path.join(os.path.dirname(args.out), 'committees_radio.json'),
+        by_buyer, buyer_year, bname, bparty,
+        extra=lambda fn: {'formats': {k: round(v, 2) for k, v in
+                                      sorted(buyer_cat[fn].items(), key=lambda x: -x[1])}})
 
     print(f'Scanned {scanned:,} rows in {time.time()-t0:.0f}s')
     print(f'Radio total: ${total:,.0f} across {len(stations)} stations '
@@ -304,7 +328,7 @@ def main():
               f'{c["stations"]:>5} ${c["avg_buy"]:>8,.0f}')
     print(f'\nExcluded — name collisions: ${sum(rejected_collisions.values()):,.0f}; '
           f'unclassified station-shaped: ${sum(unclassified.values()):,.0f}')
-    print(f'Wrote {args.out}')
+    print(f'Wrote {args.out} and committees_radio.json ({n_cm:,} committees)')
 
 
 if __name__ == '__main__':

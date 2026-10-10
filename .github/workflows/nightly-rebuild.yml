@@ -2,8 +2,8 @@
 #
 # la-campaign-finance refreshes its `data-cache` release from the Louisiana
 # Ethics Administration at 09:00 UTC; this runs two hours later, re-derives
-# every dollar figure from that cache, rebuilds index.html / radio.html and
-# their artifact fragments, and commits them. GitHub Pages serves the repo
+# every dollar figure from that cache, rebuilds index.html / radio.html /
+# committees.html and their artifact fragments, and commits them. GitHub Pages serves the repo
 # root, so the commit is the deploy.
 #
 # It also refreshes the 30 stations' FCC political files (fcc/), which only
@@ -57,6 +57,7 @@ jobs:
         run: |
           python3 build_page.py
           python3 build_radio_page.py
+          python3 build_committees_page.py
 
       - name: Commit if the filings changed
         run: |

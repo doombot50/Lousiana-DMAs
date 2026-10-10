@@ -10,6 +10,7 @@ SITE = 'https://airwaves.charliestephens.xyz/'
 PAGES = [
     ('tv', 'Television', SITE),
     ('radio', 'Radio', SITE + 'radio.html'),
+    ('committees', 'Committees', SITE + 'committees.html'),
 ]
 
 NAV_CSS = (

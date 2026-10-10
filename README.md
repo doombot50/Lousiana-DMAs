@@ -134,6 +134,18 @@ city, owner, market) for the 66 stations carrying 83% of the dollars; edit
   television and radio. Airwaves counts their bare-call rows as TV; Dial counts
   only rows explicitly marked radio.
 
+## The committees page
+
+`committees.html` profiles every committee that has paid a TV or radio
+station since 2000 (about 1,300): totals on each medium, spending by year,
+TV by market and station, radio by format and station. It is a searchable
+list; `committees.html#f=<filer number>` opens one profile, so profiles can
+be linked to directly. The two spend builders write the per-committee detail
+(`data/committees_tv.json`, `data/committees_radio.json`), using exactly the
+station matching their own pages use, and `build_committees_page.py`
+assembles the page. Committees are keyed by state filer number, so a
+candidate who filed under two committees appears twice.
+
 ## Rebuild the spending data
 
 `build_station_spend.py` recomputes every dollar figure from the raw filings.
@@ -146,7 +158,7 @@ It reads the campaign-finance project's `.la_cache` expenditure files, which
 python3 fetch_cache.py                              # ~47MB, 2000 → this year
 python3 build_station_spend.py                      # auto-finds ./.la_cache
 python3 build_radio_spend.py
-python3 build_page.py && python3 build_radio_page.py
+python3 build_page.py && python3 build_radio_page.py && python3 build_committees_page.py
 ```
 
 A sibling checkout's cache (`../la-campaign-finance/.la_cache`), `--cache
