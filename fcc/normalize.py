@@ -24,7 +24,7 @@ LEVELS = {
 }
 # Folders that sort documents by kind rather than naming who bought.
 DOC_FOLDERS = re.compile(
-    r'^(orders?|invoices?|contracts?|nab( forms?)?|pb-?18|agreements?|requests?|'
+    r'^(orders?|invoices?|contracts?|nab( forms?)?|pb-?\d{1,2}|agreements?|requests?|'
     r'disclosures?|logs?|as ?run|affidavits?|makegoods?|make goods|revisions?|'
     r'cancell?ations?|political (orders?|invoices?)|\d{4})$', re.I)
 # Offices are named by the race, not the buyer, so a leaf that reads like one
@@ -56,7 +56,11 @@ def parse_path(path):
     # Political Files / <year> / <level> / ...
     if len(parts) < 3:
         return None, None, None
-    level = LEVELS.get(parts[2].lower(), parts[2])
+    # Only the FCC's four levels hold buys; stations also keep housekeeping
+    # folders here ("Terms and Disclosures") that name no race or buyer.
+    level = LEVELS.get(parts[2].lower())
+    if not level:
+        return None, None, None
     rest = parts[3:]
     while rest and DOC_FOLDERS.match(rest[-1]):
         rest.pop()
@@ -73,14 +77,32 @@ FILLER = re.compile(r'\b(inc|llc|pac|the|committee to elect|campaign|for|of|to|e
                     r'friends of|people for)\b')
 
 
+# Station misspellings of a buyer, folded by hand: a spelling slip like this
+# makes a bare surname ambiguous ("letlow" -> julia or julie?), so the
+# conservative merge rule below would otherwise keep them apart. Each entry is
+# an editorial call, listed so it can be audited.
+ALIASES = {
+    'julie letlow': 'julia letlow',
+}
+
+
+OFFICE_SUFFIX = re.compile(
+    r'\s*-\s*[^-]*\b(court|judge|justice|senate|house|congress|council|board|attorney|'
+    r'sheriff|mayor|assessor|clerk|commission\w*|district|governor|parish)\b[^-]*$', re.I)
+
+
 def buyer_key(buyer):
     """Lower-case, punctuation-free, filler-free form of a buyer's name.
     Station shorthand like "Cassidy-R for US Senate" also loses its party
     suffix and office ("-R for US Senate" -> "cassidy")."""
     k = re.sub(r'-\s*[RDI]\b.*$', '', buyer, flags=re.I) if re.search(r'-\s*[RDI]\b', buyer) else buyer
+    # ...and an office written onto the name after a hyphen
+    # ("…Blair Downing Edwards-LA Supreme Court", "Hillar Moore- District Attorney").
+    k = OFFICE_SUFFIX.sub('', k)
     k = FILLER.sub(' ', k.lower())
     k = re.sub(r'[^a-z0-9 ]', ' ', k)
-    return re.sub(r'\s+', ' ', k).strip()
+    k = re.sub(r'\s+', ' ', k).strip()
+    return ALIASES.get(k, k)
 
 
 def bucket(level):

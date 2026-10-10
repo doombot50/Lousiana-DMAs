@@ -95,6 +95,11 @@ def facility_id(call, cache):
     if len(hits) > 1:
         hits = [f for f in hits if f.get('communityState') == 'LA']
     if len(hits) != 1:
+        # Say what the search did return; it costs no extra request, and it's
+        # the only way to see why a station doesn't match.
+        print(f'  {call}: search returned ' + (', '.join(
+            f"{f.get('callSign')} ({f.get('communityCity')}, {f.get('communityState')}; id {f.get('id')})"
+            for f in tv[:6]) or 'no TV facilities'))
         return None
     cache[call] = hits[0]['id']
     return cache[call]
@@ -168,6 +173,10 @@ def main():
         previous = {s['call']: s for s in json.load(open(args.out, encoding='utf-8'))['stations']}
     except (FileNotFoundError, KeyError, json.JSONDecodeError):
         previous = {}
+    try:
+        attempted = json.load(open(args.out, encoding='utf-8')).get('attempted', {})
+    except (FileNotFoundError, json.JSONDecodeError):
+        attempted = {}
 
     # Rotation: never-scraped stations first, then the longest-unrefreshed.
     # An explicit --stations list is taken as asked.
@@ -176,13 +185,16 @@ def main():
     no_file = [c for c in calls if c.endswith('-LD')]
     calls = [c for c in calls if not c.endswith('-LD')]
     if not args.stations:
-        order = sorted(calls, key=lambda c: previous.get(c, {}).get('scraped_at', ''))
+        # A station that failed counts as attempted, so it goes to the back of
+        # the queue instead of taking a slot every night.
+        order = sorted(calls, key=lambda c: max(previous.get(c, {}).get('scraped_at', ''),
+                                                 attempted.get(c, '')))
         due = set(order[:args.max_stations])
     else:
         due = set(calls)
     now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     t0 = time.time()
-    stations, failed = [], []
+    stations, failed, unmatched = [], [], []
     stats = {'fetched': 0, 'reused': 0}
     blocked = None
     for call in calls:
@@ -191,11 +203,15 @@ def main():
             if prev:
                 stations.append(prev)
             continue
+        attempted[call] = now
         try:
             ent = facility_id(call, cache)
             if not ent:
-                failed.append(call)
-                print(f'  {call}: no LA facility match')
+                # A listing mismatch, not an outage: it is reported, and the
+                # station waits its turn again, but it doesn't count toward the
+                # "most of the night failed" check below.
+                unmatched.append(call)
+                print(f'  {call}: no facility match')
                 continue
             root = political_root(call)
             if not root:
@@ -246,15 +262,18 @@ def main():
         'years': years,
         'stations': stations,
         'failed': failed,
+        'unmatched': unmatched,
         'no_online_file': no_file,
         'blocked': blocked,
+        'attempted': dict(sorted(attempted.items())),
     }
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
     n = sum(len(s['files']) for s in stations)
     print(f'{n:,} documents across {len(stations)} stations; {len(refreshed)} refreshed in {time.time()-t0:.0f}s '
           f'({stats["fetched"]} folders fetched, {stats["reused"]} reused unchanged)'
-          + (f'; failed: {failed}' if failed else '') + f'\nWrote {args.out}')
+          + (f'; failed: {failed}' if failed else '')
+          + (f'; no facility match: {unmatched}' if unmatched else '') + f'\nWrote {args.out}')
 
 
 if __name__ == '__main__':
