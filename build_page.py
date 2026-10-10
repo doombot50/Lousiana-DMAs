@@ -82,7 +82,8 @@ def fcc_summary(markets_by_call):
             rows.append({'b': b, 'key': buyer_key(name) or name.lower(), 'name': name,
                          'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
                          'kind': classify(f['name'] or '', f['path']), 'year': year,
-                         'year_folder': st.get('year_folders', {}).get(year)})
+                         'year_folder': st.get('year_folders', {}).get(year),
+                         'slug': (st.get('fcc_call') or st['call']).lower()})
     keys = defaultdict(set)
     for r in rows:
         keys[r['b']].add(r['key'])
@@ -110,7 +111,7 @@ def fcc_summary(markets_by_call):
             'stRecent': sorted({r['call'] for r in recent}),
             # The station's political-file folder for that year: the FCC site
             # has no stable deep link to a buyer's subfolder.
-            'link': (f"https://publicfiles.fcc.gov/tv-profile/{latest['call'].lower()}/"
+            'link': (f"https://publicfiles.fcc.gov/tv-profile/{latest['slug']}/"
                      f"political-files/{latest['year']}/{latest['year_folder']}"
                      if latest['year_folder'] else None),
             'linkCall': latest['call'],
