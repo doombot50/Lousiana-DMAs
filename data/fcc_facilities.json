@@ -3,7 +3,16 @@
   "call": "KADN-TV",
   "id": "33261"
  },
+ "KALB": {
+  "call": "KALB-TV",
+  "id": "51598"
+ },
+ "KARD": "3658",
  "KATC": "33471",
+ "KLAX": {
+  "call": "KLAX-TV",
+  "id": "52907"
+ },
  "KLFY": {
   "call": "KLFY-TV",
   "id": "35059"
@@ -16,16 +25,23 @@
   "call": "KNOE-TV",
   "id": "48975"
  },
+ "KPLC": "13994",
  "KPXJ": "81507",
  "KSLA": "70482",
  "KTAL": {
   "call": "KTAL-TV",
   "id": "35648"
  },
+ "KTVE": "35692",
+ "KVHP": "35852",
  "WAFB": "589",
  "WBRL-CD": "24976",
  "WDSU": "71357",
  "WGNO": "72119",
+ "WNTZ": {
+  "call": "WNTZ-TV",
+  "id": "16539"
+ },
  "WUPL": "13938",
  "WWL-TV": "74192"
 }
