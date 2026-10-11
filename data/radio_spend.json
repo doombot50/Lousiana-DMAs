@@ -4921,15 +4921,16 @@
    "KTAL": 22235.6,
    "WWL": 1520591.39
   },
-  "party_overrides": {
-   "RGA (Republican Governors Association) Right Direction PAC": "REP",
-   "Gumbo PAC": "DEM",
-   "Walter J. Boasso": "DEM",
-   "John L. (Jay) Dardenne": "REP",
-   "Claude (Buddy) Leach, Jr.": "DEM"
-  },
   "party_corrections": {
-   "1314": "REP"
+   "applied": {
+    "1314": "REP",
+    "160": "REP",
+    "3354": "DEM",
+    "6034": "REP",
+    "621": "DEM",
+    "632": "DEM"
+   },
+   "source": "la-campaign-finance la_party_corrections.json (data/party_corrections.json); each entry carries its public source"
   }
  }
 }

@@ -15,9 +15,15 @@ API limit never applies. A year with no asset (2008, absent upstream) is
 skipped and reported; any other failure exits non-zero so a nightly rebuild
 never publishes from a partial cache.
 
+It also syncs `la_party_corrections.json`, the filer-keyed party corrections
+both sites apply, into data/party_corrections.json (committed with the
+nightly rebuild). If the release doesn't carry it, or it doesn't parse, the
+committed copy stays.
+
 Stdlib only.
 """
 import argparse
+import json
 import os
 import sys
 import time
@@ -56,6 +62,24 @@ def fetch(url, dest):
     sys.exit(f'FAILED {os.path.basename(dest)}: {err}')
 
 
+def sync_party_corrections(dest=os.path.join(HERE, 'data', 'party_corrections.json')):
+    """Replace data/party_corrections.json with the release's copy, keeping
+    the committed one when the asset is missing or malformed."""
+    tmp = dest + '.new'
+    if not fetch(f'{BASE}/la_party_corrections.json', tmp):
+        print('  la_party_corrections.json not in release; keeping the committed copy')
+        return
+    try:
+        with open(tmp, encoding='utf-8') as f:
+            n = len(json.load(f)['filers'])
+    except (ValueError, KeyError, TypeError) as e:
+        os.remove(tmp)
+        print(f'  la_party_corrections.json unreadable ({e}); keeping the committed copy')
+        return
+    os.replace(tmp, dest)
+    print(f'  party_corrections.json  {n} filer(s)')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -73,6 +97,7 @@ def main():
         else:
             missing.append(yr)
     print(f'Fetched into {args.dest}' + (f'; not in release: {missing}' if missing else ''))
+    sync_party_corrections()
 
 
 if __name__ == '__main__':
