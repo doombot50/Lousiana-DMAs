@@ -103,6 +103,10 @@ a.callchip:hover{color:var(--ink); background:var(--hair);}
 @media(prefers-reduced-motion:reduce){.parish,.pbar{transition:none;}}
 .dmalabel{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:15px; letter-spacing:.06em; fill:var(--ink); paint-order:stroke; stroke:var(--page); stroke-width:4px; stroke-linejoin:round; cursor:pointer; text-transform:uppercase;}
 .dmarank{font-family:"IBM Plex Mono",monospace; font-weight:500; font-size:11.5px; fill:var(--ink2); paint-order:stroke; stroke:var(--page); stroke-width:3.5px; stroke-linejoin:round; cursor:pointer;}
+.parish.away{stroke-width:.8;}
+.idxwhole{position:absolute; top:50%; width:0; height:14px; margin-top:-7px; border-left:2px solid var(--ink2); opacity:.7;}
+.stlabel{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:11px; letter-spacing:.22em; text-transform:uppercase; fill:var(--muted); pointer-events:none;}
+.towndot{fill:var(--ink2); stroke:var(--page); stroke-width:1.2;}
 .citydot{fill:var(--ink); stroke:var(--page); stroke-width:1.4;}
 .cityname{font-family:Archivo,system-ui,sans-serif; font-size:9.5px; fill:var(--ink2); paint-order:stroke; stroke:var(--page); stroke-width:3px;}
 
@@ -263,8 +267,8 @@ __NAV__
   <p class="intro">Nielsen slices the country into Designated Market Areas — the unit a TV ad buy actually purchases. Louisiana's 64 parishes fall into seven, from <b>New Orleans (№&thinsp;50</b> nationally<b>)</b> down to <b>Alexandria (№&thinsp;183)</b>. Click a market for its stations and what each has been paid.</p>
   <div class="mappanel">
     <div>
-      <svg id="map" role="img" aria-label="Map of Louisiana parishes colored by television market"></svg>
-      <p class="cap">Louisiana's 64 parishes, colored by DMA. The Shreveport, Monroe–El&thinsp;Dorado, Alexandria and New&thinsp;Orleans markets continue into Texas, Arkansas and Mississippi; only the Louisiana side is drawn. Rank and household counts are the 2024–25 Nielsen season.</p>
+      <svg id="map" role="img" aria-label="Map of Louisiana's seven television markets, parishes in full color and the markets' Texas, Arkansas and Mississippi counties in a lighter shade"></svg>
+      <p class="cap" id="mapcap"></p>
     </div>
     <div class="panel"><div class="tabs" role="tablist" id="tabs"></div><div id="paneldetail"></div></div>
   </div>
@@ -272,10 +276,10 @@ __NAV__
 
 <section id="index">
   <p class="seclabel">Where the money over-weights</p>
-  <h2>North Louisiana is bought at a discount</h2>
-  <p class="intro">Divide each market's spending by its TV households and the map stops being about size. <b>Alexandria and Lafayette</b> draw close to <b>$77 per household</b> — well above the statewide <b>$60.41</b> — while <b>Shreveport</b>, the state's second-largest market, draws just <b>$42.80</b>. Campaigns pay a premium for the contested middle of the state and quietly skip the Republican northwest. New Orleans, for all its size, lands exactly at par.</p>
+  <h2 id="idxhead">Shreveport's audience reaches across the state line</h2>
+  <p class="intro" id="idxintro"></p>
   <div class="idx" id="idxchart"></div>
-  <p class="cap">Bars show dollars per TV household, __SPAN__. The vertical rule is the statewide average; a bar past it means committees spent more on that market than its size alone would predict.</p>
+  <p class="cap" id="idxcap"></p>
 </section>
 
 <section id="bench-sec">
@@ -375,11 +379,15 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   const byHH = [...DATA.dmas].sort((a,b)=>b.hh-a.hh);
   for(const d of byHH){
     const s = document.createElement('span');
-    s.style.background = cv(d.k); s.style.flex = String(d.hh);
-    s.title = `${d.name}: ${fmt(d.hh)} TV households`;
+    // The Louisiana side solid, the out-of-state side in a lighter shade.
+    const pct = (d.laShare*100).toFixed(1);
+    s.style.background = d.laShare<1
+      ? `linear-gradient(90deg, ${cv(d.k)} ${pct}%, color-mix(in srgb, ${cv(d.k)} 32%, var(--page)) ${pct}%)` : cv(d.k);
+    s.style.flex = String(d.hh);
+    s.title = `${d.name}: ${fmt(d.hh)} TV households`+(d.laShare<1?`, ${fmt(d.laHH)} of them in Louisiana`:'');
     strip.appendChild(s);
   }
-  document.getElementById('freqtotal').textContent = fmt(DATA.totHH)+' TV households';
+  document.getElementById('freqtotal').textContent = fmt(DATA.totHH)+' TV households · '+fmt(DATA.totLA)+' in Louisiana';
 }
 
 /* stat tiles */
@@ -390,7 +398,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
     ['$'+(DATA.total/1e6).toFixed(0)+'M', 'paid to Louisiana TV stations by political committees, __SPAN__'],
     ['30', 'stations carrying that money, across 7 Nielsen markets'],
     [gray.share+'<small>%</small>', `of the money goes to Gray Media — with ${gray.n} stations to Nexstar's ${nex.n}`],
-    ['$'+shv.pph.toFixed(0), `per TV household in Shreveport, against $${DATA.avgPPH} statewide`],
+    ['$'+shv.pphLA.toFixed(0), `per Louisiana TV household in Shreveport, against $${DATA.avgPPHLA.toFixed(2)} statewide — ${Math.round((1-shv.laShare)*100)}% of its audience is in Texas and Arkansas`],
   ];
   document.getElementById('stats').innerHTML = tiles.map(([v,l])=>
     `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
@@ -537,7 +545,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
     `<b>Shreveport's share has fallen from ${sh(shv,0).toFixed(0)}% to ${sh(shv,n-1).toFixed(0)}%</b> of the money since ${Y[0]}, `+
     `while <b>Lafayette's has gone from ${sh(laf,0).toFixed(0)}% to ${sh(laf,n-1).toFixed(0)}%</b>. `+
     `In real terms the biggest air war was ${Y[peak]}, at ${money(real(tot[peak],peak))}; ${Y[n-1]} spent ${money(real(tot[n-1],n-1))}.`;
-  const MODES=[['share','Share of state'],['real',B.base+' dollars'],['hh','Per TV household']];
+  const MODES=[['share','Share of state'],['real',B.base+' dollars'],['hh','Per Louisiana TV household']];
   let mode='share';
   const chips=document.getElementById('benchmode');
   for(const [k,l] of MODES){
@@ -558,7 +566,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
     }
     const totRow = mode==='share' ? Y.map(()=> '100%')
       : mode==='real' ? Y.map((_,i)=>money(Math.round(real(tot[i],i))))
-      : Y.map((_,i)=>'$'+(real(tot[i],i)/DATA.totHH).toFixed(2));
+      : Y.map((_,i)=>'$'+(real(tot[i],i)/DATA.totLA).toFixed(2));
     h+=`<tr class="total"><th>Statewide</th>${totRow.map(t=>`<td><span>${t}</span></td>`).join('')}</tr></tbody>`;
     document.getElementById('bench').innerHTML=h;
   }
@@ -566,7 +574,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   document.getElementById('benchcap').textContent =
     `TV dollars paid in each governor's-race calendar year by every state committee, legislative and local races on the same ballot included. `+
     `Restated in ${B.base} dollars with the BLS consumer price index (CPI-U annual averages). `+
-    `Per-household figures divide by today's (2024–25) Nielsen TV households, since earlier counts aren't in this data, so they compare markets within a cycle better than one cycle against another. `+
+    `Per-household figures divide by today's Louisiana TV households (2024–25 Nielsen, Louisiana side only; see the market map), since earlier counts aren't in this data, so they compare markets within a cycle better than one cycle against another. `+
     `These are payments to stations, not ad rates: the filings don't say how many spots a payment bought.`;
 }
 
@@ -628,20 +636,28 @@ const svg = document.getElementById('map');
 svg.setAttribute('viewBox', `0 0 ${DATA.w} ${DATA.h}`);
 let selected='NO';
 const parishEls=[];
-for(const p of DATA.parishes){
+const STN={LA:'Louisiana',TX:'Texas',AR:'Arkansas',MS:'Mississippi'};
+for(const p of DATA.counties){
   const el = document.createElementNS(NS,'path');
-  el.setAttribute('d',p.d); el.setAttribute('class','parish');
-  el.dataset.k=p.k;
+  const away = p.st!=='LA';
+  el.setAttribute('d',p.d); el.setAttribute('class', away?'parish away':'parish');
+  el.dataset.k=p.k; el.dataset.away=away?'1':'';
   el.addEventListener('click',()=>select(p.k));
-  el.addEventListener('mousemove',e=>tip(e,`<b>${p.n}</b> Parish<br>${DMA[p.k].name} market · <span class="mono">#${DMA[p.k].rank}</span>`));
+  el.addEventListener('mousemove',e=>tip(e, away
+    ? `<b>${p.n} County</b>, ${STN[p.st]}<br>${DMA[p.k].name} market · <span class="mono">#${DMA[p.k].rank}</span><br>Counted in the market's TV households; not Louisiana voters`
+    : `<b>${p.n}</b> Parish<br>${DMA[p.k].name} market · <span class="mono">#${DMA[p.k].rank}</span>`));
   el.addEventListener('mouseleave',hideTip);
   svg.appendChild(el); parishEls.push(el);
 }
-const LABELS={NO:[742,588],BR:[506,514],SHV:[86,138],LAF:[352,622],LKC:[130,548],MON:[352,152],ALX:[254,328]};
-const CITIES={'New Orleans':[714.4,643.6],'Baton Rouge':[522.1,538.7],'Shreveport':[52.7,103.7],'Lafayette':[363.9,586.4],'Lake Charles':[148.5,585.9],'Monroe':[346,107],'Alexandria':[287.4,358.3]};
-for(const [name,[x,y]] of Object.entries(CITIES)){
+for(const [name,x,y] of DATA.states){
+  const t=document.createElementNS(NS,'text');
+  t.setAttribute('x',x);t.setAttribute('y',y);t.setAttribute('class','stlabel');t.setAttribute('text-anchor','middle');
+  t.textContent=name; svg.appendChild(t);
+}
+const LABELS=DATA.mapLabels;
+for(const [name,x,y,town] of [...DATA.cities, ...DATA.towns.map(t=>[...t,true])]){
   const d=document.createElementNS(NS,'circle');
-  d.setAttribute('cx',x);d.setAttribute('cy',y);d.setAttribute('r',3);d.setAttribute('class','citydot');svg.appendChild(d);
+  d.setAttribute('cx',x);d.setAttribute('cy',y);d.setAttribute('r',town?2.4:3);d.setAttribute('class',town?'towndot':'citydot');svg.appendChild(d);
   const t=document.createElementNS(NS,'text');
   t.setAttribute('x',x+6);t.setAttribute('y',y-5);t.setAttribute('class','cityname');t.textContent=name;svg.appendChild(t);
 }
@@ -661,7 +677,9 @@ for(const d of DATA.dmas){
 function paint(){
   for(const el of parishEls){
     el.style.fill = cv(el.dataset.k);
-    el.style.fillOpacity = el.dataset.k===selected ? '1' : '0.42';
+    // Out-of-state counties in a muted shade of their market's colour.
+    const on = el.dataset.k===selected;
+    el.style.fillOpacity = el.dataset.away ? (on ? '0.36' : '0.14') : (on ? '1' : '0.42');
   }
 }
 
@@ -684,8 +702,8 @@ function select(k){
   const mx=Math.max(...sts.map(s=>s.spend));
   let h=`<div class="panelhead"><h3>${d.name}</h3>
     <div class="panelbig">${moneyFull(d.spend)}</div>
-    <div class="panelmeta">DMA <b>#${d.rank}</b> · <b>${fmt(d.hh)}</b> TV households<br>
-    <b>$${d.pph.toFixed(2)}</b> per household — <b>${d.index.toFixed(2)}×</b> its share of the state</div></div><ul class="stlist">`;
+    <div class="panelmeta">DMA <b>#${d.rank}</b> · <b>${fmt(d.hh)}</b> TV households${d.laShare<1?`, <b>${fmt(d.laHH)}</b> in Louisiana (${Math.round(d.laShare*100)}%)`:''}<br>
+    <b>$${d.pphLA.toFixed(2)}</b> per Louisiana household — <b>${d.indexLA.toFixed(2)}×</b> its share of the state${d.laShare<1?` · $${d.pph.toFixed(2)} over the whole market`:''}</div></div><ul class="stlist">`;
   for(const s of sts){
     h+=`<li><div class="strow"><span class="call">${s.call}</span><span class="net">${s.net}</span>${s.ch?`<span class="chno">ch ${s.ch}</span>`:''}</div>
       <div class="ownerline">${s.owner}${s.note?` <span class="nb">— ${s.note}</span>`:''}</div>
@@ -697,19 +715,54 @@ function select(k){
 
 /* ---------- index chart ---------- */
 {
-  const rows=[...DATA.dmas].sort((a,b)=>b.pph-a.pph);
-  const mx=Math.max(...rows.map(r=>r.pph))*1.18;
-  const par=DATA.avgPPH/mx*100;
-  let h=`<div class="paritylbl">state average $${DATA.avgPPH} per household ↓</div><div class="grid" style="margin-top:2px">
+  // Which neighbouring states each market reaches, from the map's counties.
+  const STATE={TX:'Texas',AR:'Arkansas',MS:'Mississippi'};
+  const reach={};
+  for(const c of DATA.counties) if(c.st!=='LA') (reach[c.k]=reach[c.k]||new Set()).add(STATE[c.st]);
+  const ORDER=['Texas','Arkansas','Mississippi'];
+  const where=k=>ORDER.filter(n=>(reach[k]||new Set()).has(n)).join(' and ');
+  const rows=[...DATA.dmas].sort((a,b)=>b.pphLA-a.pphLA);
+  const mx=Math.max(...rows.map(r=>Math.max(r.pphLA,r.pph)))*1.18;
+  const par=DATA.avgPPHLA/mx*100;
+  let h=`<div class="paritylbl">state average $${DATA.avgPPHLA.toFixed(2)} per Louisiana household ↓</div><div class="grid" style="margin-top:2px">
     <div class="gridlines"><div class="parity" style="left:${par}%"></div></div>`;
   for(const r of rows){
-    const w=r.pph/mx*100;
+    const w=r.pphLA/mx*100, split=r.laShare<0.98;
     h+=`<div class="idxrow"><div class="idxlbl"><span class="nm">${r.name}</span>
-      <span class="sub">${moneyFull(r.spend)} · ${r.index.toFixed(2)}× share</span></div>
+      <span class="sub">${moneyFull(r.spend)} · ${r.indexLA.toFixed(2)}× share${split?` · $${r.pph.toFixed(2)} whole market`:''}</span></div>
       <div class="idxzone"><div class="idxbar" style="width:${w}%;background:${cv(r.k)}"></div>
-      <span class="idxval" style="left:calc(${w}% + 8px)">$${r.pph.toFixed(2)}</span></div></div>`;
+      ${split?`<div class="idxwhole" style="left:${(r.pph/mx*100).toFixed(1)}%" title="$${r.pph.toFixed(2)} per household over the whole market"></div>`:''}
+      <span class="idxval" style="left:calc(${w}% + 8px)">$${r.pphLA.toFixed(2)}</span></div></div>`;
   }
   document.getElementById('idxchart').innerHTML=h+'</div>';
+
+  // The prose, from the same numbers, so it can't drift from the chart.
+  const shv=DMA.SHV, top=rows[0], low=rows[rows.length-1];
+  const pctOut=d=>Math.round((1-d.laShare)*100);
+  const rankOf=k=>rows.findIndex(r=>r.k===k);
+  const fullRank=[...DATA.dmas].sort((a,b)=>a.pph-b.pph).findIndex(r=>r.k==='SHV');
+  document.getElementById('idxintro').innerHTML =
+    `Divide each market's spending by Nielsen's TV households and Shreveport looks like ${fullRank===0?'the state\'s bargain':'a bargain'}: `+
+    `<b>$${shv.pph.toFixed(2)}</b> per household, against <b>$${DATA.avgPPH.toFixed(2)}</b> statewide. But Nielsen counts the whole market, and `+
+    `<b>${pctOut(shv)}% of Shreveport's households are in ${where('SHV')}</b>, where no one votes in a Louisiana race. `+
+    `Count only the Louisiana side and Shreveport ${top.k==='SHV'
+      ? `is the most heavily bought market in the state, at <b>$${shv.pphLA.toFixed(2)} per Louisiana household</b>`
+      : `draws <b>$${shv.pphLA.toFixed(2)} per Louisiana household</b>, ${shv.pphLA>DATA.avgPPHLA?'above':'below'} the $${DATA.avgPPHLA.toFixed(2)} average`}: `+
+    `every buy there also reaches ${fmt(shv.hh-shv.laHH)} homes across the state line, the price of reaching Caddo and Bossier. `+
+    (low.k!=='SHV' ? `<b>${low.name}</b>${low.laShare<1?`, ${pctOut(low)}% ${where(low.k)},`:''} is the market campaigns lean on least, at $${low.pphLA.toFixed(2)} per Louisiana household`+
+      (low.pph<DATA.avgPPH ? `, and below the average however its households are counted.` : '.') : '');
+  document.getElementById('idxhead').textContent = pctOut(shv)>=40 && pctOut(shv)<50
+    ? `Nearly half of Shreveport's audience can't vote in Louisiana`
+    : `${pctOut(shv)}% of Shreveport's audience can't vote in Louisiana`;
+  document.getElementById('idxcap').innerHTML =
+    `Bars show dollars per <b>Louisiana</b> TV household, __SPAN__: Nielsen's 2024–25 TV households for each market, scaled to the share of its Census households (${DATA.hhSource.replace(/^U\.S\. Census Bureau, /,'').replace(/, table.*$/,'')}) that are in Louisiana. `+
+    `The thin tick inside a bar marks the figure over the whole market, out-of-state counties included. The vertical rule is the statewide average; a bar past it means committees spent more on that market than its Louisiana audience alone would predict.`;
+
+  const away=DATA.dmas.filter(d=>d.laShare<1).sort((a,b)=>a.laShare-b.laShare);
+  document.getElementById('mapcap').innerHTML =
+    `Louisiana's 64 parishes in full color, by DMA; the lighter counties are the same markets in ${ORDER.filter(n=>DATA.counties.some(c=>c.st!=='LA'&&STATE[c.st]===n)).join(', ').replace(/, ([^,]*)$/,' and $1')}. `+
+    `Out of state: `+away.map(d=>`${pctOut(d)}% of ${d.name}'s households`).join(', ')+`. `+
+    `Rank and TV-household counts are the 2024–25 Nielsen season; the Louisiana share is from Census household counts.`;
 }
 
 /* ---------- ownership ---------- */
