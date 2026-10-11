@@ -187,6 +187,15 @@ its FCC political file. The TV page keeps the selected market and the
 political-file filter in the URL (`#m=LAF&pf=local`; filters `fed`, `local`,
 `issue`, `away`), so any view can be shared.
 
+**Linked to the campaign-finance dashboard.** Each profile links to the same
+filer on [finance.charliestephens.xyz](https://finance.charliestephens.xyz/)
+(`#/campaign/<name>?filer=<n>`: who funds it, cash on hand, its races), and
+the dashboard links back. Going the other way, `build_committees_page.py`
+writes `data/filer_media.json`, every profile in brief (TV and radio dollars,
+years, top stations, and the political-file counts), which the dashboard's
+nightly refresh pulls from this site to show each campaign's airtime on its
+own profile. Both sides key on the state filer number.
+
 ## Rebuild the spending data
 
 `build_spend.py` recomputes every dollar figure from the raw filings, running
@@ -368,6 +377,12 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   point-in-polygon of parish centroids (U.S. Census cartographic boundaries)
   against Nielsen DMA polygons ([simzou/nielsen-dma](https://github.com/simzou/nielsen-dma)),
   cross-checked against published market lists.
+
+- `data/filer_media.json` — filer number → TV and radio dollars, station
+  counts, first and last year, top stations, and the FCC political-file
+  counts (`pf`: documents this cycle, in the last two weeks, latest upload,
+  stations, stations active now). One line per filer. Read by the
+  campaign-finance dashboard; see *The committees page*.
 
 ## Method notes
 

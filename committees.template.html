@@ -154,6 +154,10 @@ for(const c of DATA){ c.k=fold(c.n); const ys=Object.keys(c.y); c.y0=ys[0]; c.y1
 const yspan=c=>!c.y0?'':c.y0===c.y1?c.y0:c.y0+'–'+c.y1;
 const TV='https://airwaves.charliestephens.xyz/';
 const mapLink=k=>TV+'#m='+k;
+// The same committee on the campaign-finance dashboard: who funds it, what it
+// has on hand, its races. Keyed by filer number, so namesakes don't merge.
+const FIN='https://finance.charliestephens.xyz/';
+const finLink=c=>FIN+'#/campaign/'+encodeURIComponent(c.n)+'?filer='+encodeURIComponent(c.f);
 const dshort=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
 {
   const paid=DATA.filter(c=>c.tv+c.ra).length, only=DATA.length-paid;
@@ -216,7 +220,7 @@ function renderProfile(c){
   const el=document.getElementById('profile');
   el.innerHTML=`<button type="button" class="back" id="back">← All committees</button>
     <h2>${esc(c.n)}</h2>
-    <p class="meta"><span class="ptag ${c.p}">${c.p}</span> ${PN[c.p]} · state filer ${esc(c.f)} · ${c.y0?'paid for airtime '+(c.y0===c.y1?'in '+c.y0:yspan(c)):'no TV or radio payments reported yet'}</p>
+    <p class="meta"><span class="ptag ${c.p}">${c.p}</span> ${PN[c.p]} · state filer ${esc(c.f)} · ${c.y0?'paid for airtime '+(c.y0===c.y1?'in '+c.y0:yspan(c)):'no TV or radio payments reported yet'} · <a href="${finLink(c)}" title="Contributions, spending and cash on hand for this filer on the Louisiana campaign-finance dashboard">full campaign finance ↗</a></p>
     ${bk}
     ${tot?`<div class="stats">
       <div class="stat"><div class="v">${money(tot)}</div><div class="l">on television and radio</div></div>

@@ -12,7 +12,10 @@ committees.html#f=<filer number>, so a profile can be linked to directly.
 Reads data/committees_tv.json and data/committees_radio.json (written by the
 two spend builders), data/stations.json (TV call sign -> market) and
 data/station_spend.json (date stamps). Writes committees.html (standalone, for
-GitHub Pages) and committees.artifact.html (body fragment). Stdlib only.
+GitHub Pages) and committees.artifact.html (body fragment), and
+data/filer_media.json, the per-filer summary the campaign-finance dashboard
+(finance.charliestephens.xyz) pulls nightly to show each campaign's airtime on
+its own profile. Stdlib only.
 """
 import json
 import os
@@ -93,6 +96,35 @@ def build_data():
     return rows, pf_meta
 
 
+def media_export(rows, pf_meta, spend):
+    """filer -> its airtime in brief, for the campaign-finance dashboard.
+
+    One line per filer, so a night whose only change is the `generated` stamp
+    leaves a diff the nightly commit step ignores. `top` is the biggest TV
+    stations, or radio when the committee bought no TV.
+    """
+    out = {}
+    for c in rows:
+        ys = sorted(c['y'])
+        e = {'n': c['n'], 'tv': c['tv'], 'ra': c['ra'], 'nts': c['nts'], 'nrs': c['nrs']}
+        if ys:
+            e['y0'], e['y1'] = ys[0], ys[-1]
+        top = [s for s, _, _ in c['ts'][:3]] or [s for s, _ in c['rs'][:3]]
+        if top:
+            e['top'] = top
+        if 'pf' in c:
+            p = c['pf']
+            e['pf'] = {'docs': p['docs'], 'recent': p['recent'], 'latest': p['latest'],
+                       'st': len(p['st']), 'live': sum(1 for s in p['st'] if s['r'])}
+        out[c['f']] = e
+    head = {'generated': spend['generated'], 'data_through': spend['data_through'],
+            'site': URL, 'fcc': pf_meta}
+    lines = [f'{json.dumps(k)}: {json.dumps(v, separators=(",", ":"), ensure_ascii=False)}'
+             for k, v in sorted(out.items())]
+    return ('{\n' + ''.join(f'{json.dumps(k)}: {json.dumps(v)},\n' for k, v in head.items())
+            + '"filers": {\n' + ',\n'.join(lines) + '\n}}\n')
+
+
 def main():
     spend = json.load(open(D('data', 'station_spend.json'), encoding='utf-8'))
     rows, pf_meta = build_data()
@@ -102,6 +134,9 @@ def main():
                         D('committees.artifact.html'), DESCRIPTION, URL,
                         title='Louisiana Airwaves — Committees'):
         print(f'  {os.path.basename(name)}  {os.path.getsize(name):,} bytes')
+    with open(D('data', 'filer_media.json'), 'w', encoding='utf-8') as f:
+        f.write(media_export(rows, pf_meta, spend))
+    print(f'  filer_media.json  {os.path.getsize(D("data", "filer_media.json")):,} bytes')
 
 
 if __name__ == '__main__':
