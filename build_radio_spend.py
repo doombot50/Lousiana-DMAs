@@ -83,9 +83,19 @@ PARTY_OVERRIDE = {
     'John L. (Jay) Dardenne': 'REP',
     'Claude (Buddy) Leach, Jr.': 'DEM',
 }
+# Filed parties that are wrong, by filer number; see the TV build.
+PARTY_CORRECTION = {
+    # Blair Downing Edwards, First Circuit Court of Appeal judge, ran as a
+    # Republican for the open 1st District Supreme Court seat in the May 2026
+    # closed GOP primary (WAFB, WBRZ, Louisiana Illuminator), but her
+    # committee's reports are filed as DEM.
+    '1314': 'REP',
+}
 
 
-def party_of(name, filed):
+def party_of(name, filed, filer=None):
+    if filer in PARTY_CORRECTION:
+        return PARTY_CORRECTION[filer]
     if filed in (None, '', 'OTH'):
         return PARTY_OVERRIDE.get(name, filed)
     return filed
@@ -213,7 +223,7 @@ def main():
 
     def bparty(fn):
         filed = max(buyer_party[fn].items(), key=lambda x: x[1])[0] if buyer_party[fn] else None
-        return party_of(bname(fn), filed)
+        return party_of(bname(fn), filed, fn)
 
     stations = []
     tail_extra = 0.0
@@ -308,6 +318,7 @@ def main():
                                                  '(Total WINE, Smoothie KING) — correctly excluded'},
             'tv_sister_radio_rows': {k: round(v, 2) for k, v in sorted(tv_sister_radio.items())},
             'party_overrides': PARTY_OVERRIDE,
+            'party_corrections': PARTY_CORRECTION,
         },
     }
     os.makedirs(os.path.dirname(args.out), exist_ok=True)

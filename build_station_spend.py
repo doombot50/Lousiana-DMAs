@@ -104,6 +104,16 @@ PARTY_OVERRIDE = {
     # Democrat; former congressman and chairman of the Louisiana Democratic Party.
     'Claude (Buddy) Leach, Jr.': 'DEM',
 }
+# A filing that states the wrong party, corrected by filer number. Unlike
+# the OTH overrides above, these replace what the committee itself filed, so
+# each needs a public source.
+PARTY_CORRECTION = {
+    # Blair Downing Edwards, First Circuit Court of Appeal judge, ran as a
+    # Republican for the open 1st District Supreme Court seat in the May 2026
+    # closed GOP primary (WAFB, WBRZ, Louisiana Illuminator), but her
+    # committee's reports are filed as DEM.
+    '1314': 'REP',
+}
 
 
 # ── governor's-race primaries ────────────────────────────────────────────────
@@ -120,8 +130,11 @@ PACE_FROM, PACE_TO = -104, 7      # weeks: two years out through the runoff
 RECENT_DAYS = 365                 # the "buying now" window
 
 
-def party_of(name, filed):
-    """Filed party, corrected only where the filing says OTH (or nothing)."""
+def party_of(name, filed, filer=None):
+    """Filed party: corrected outright for a filer in PARTY_CORRECTION, and
+    otherwise only where the filing says OTH (or nothing)."""
+    if filer in PARTY_CORRECTION:
+        return PARTY_CORRECTION[filer]
     if filed in (None, '', 'OTH'):
         return PARTY_OVERRIDE.get(name, filed)
     return filed
@@ -258,7 +271,7 @@ def main():
 
     def bparty(fn):
         filed = max(buyer_party[fn].items(), key=lambda x: x[1])[0] if buyer_party[fn] else None
-        return party_of(bname(fn), filed)
+        return party_of(bname(fn), filed, fn)
 
     out_stations = []
     for s in stations:
@@ -368,7 +381,10 @@ def main():
                               'note': 'rows naming two stations; split evenly'},
             'party_overrides': {'applied': PARTY_OVERRIDE,
                                 'note': 'filers Louisiana files as OTH whose alignment is '
-                                        'public record; a filed REP/DEM is never overridden'},
+                                        'public record'},
+            'party_corrections': {'applied': PARTY_CORRECTION,
+                                  'note': 'filer numbers whose filed party is wrong, '
+                                          'corrected from public reporting'},
         },
     }
     os.makedirs(os.path.dirname(args.out), exist_ok=True)

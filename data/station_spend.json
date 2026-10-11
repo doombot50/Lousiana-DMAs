@@ -808,7 +808,7 @@
    },
    {
     "name": "Blair Edwards",
-    "party": "DEM",
+    "party": "REP",
     "filer": "1314",
     "amount": 332281.75,
     "last_buy": "2026-05-15"
@@ -4059,7 +4059,7 @@
     },
     {
      "name": "Blair Edwards",
-     "party": "DEM",
+     "party": "REP",
      "filer": "1314",
      "amount": 4292.0
     },
@@ -4370,7 +4370,13 @@
     "John L. (Jay) Dardenne": "REP",
     "Claude (Buddy) Leach, Jr.": "DEM"
    },
-   "note": "filers Louisiana files as OTH whose alignment is public record; a filed REP/DEM is never overridden"
+   "note": "filers Louisiana files as OTH whose alignment is public record"
+  },
+  "party_corrections": {
+   "applied": {
+    "1314": "REP"
+   },
+   "note": "filer numbers whose filed party is wrong, corrected from public reporting"
   }
  }
 }

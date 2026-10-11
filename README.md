@@ -331,9 +331,13 @@ One editorial correction is applied on top of the filings:
   whose alignment is a matter of public record, the label is corrected in
   `PARTY_OVERRIDE` in `build_station_spend.py` — currently the RGA's Right
   Direction PAC (REP); Gumbo PAC, Walter J. Boasso and Claude "Buddy" Leach Jr.
-  (DEM); and John L. "Jay" Dardenne (REP). **A filing that states REP or DEM is
-  never overridden**, only `OTH` is, and every correction is listed in the
-  source and echoed into the output's `caveats.party_overrides`.
+  (DEM); and John L. "Jay" Dardenne (REP). A filing that states REP or DEM is
+  left alone unless it is plainly wrong: `PARTY_CORRECTION` replaces the
+  filed party for a filer number, with a public source for each — currently
+  Blair Downing Edwards (filer 1314), a Republican Supreme Court candidate
+  in 2026 whose committee files as DEM. Every correction is listed in the
+  source and echoed into the output's `caveats.party_overrides` and
+  `caveats.party_corrections`.
 
 Two further limits worth knowing:
 
