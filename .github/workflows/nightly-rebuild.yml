@@ -44,13 +44,17 @@ jobs:
         with:
           python-version: '3.12'
 
+      # The name rules and matching have regression tests built from real
+      # filings they once misread; a failure stops the run before anything
+      # is rebuilt or published.
+      - name: Test
+        run: python3 -m unittest discover -s tests
+
       - name: Fetch expenditure filings
         run: python3 fetch_cache.py
 
       - name: Rebuild data
-        run: |
-          python3 build_station_spend.py
-          python3 build_radio_spend.py
+        run: python3 build_spend.py
 
       - name: Refresh FCC political files
         continue-on-error: true

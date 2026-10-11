@@ -13,20 +13,76 @@ Writes radio.html (standalone) and radio.artifact.html (fragment).
 Edit radio.template.html, never the generated files. Stdlib only.
 """
 import json
-import os
 import re
+import os
 import statistics
 import sys
-import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from site_nav import NAV_CSS, nav  # noqa: E402
+from page_shell import RADIO_ICON, publish  # noqa: E402
+from prose import ahead_of, dollars, money, pct, series, share_words, words  # noqa: E402
 D = lambda *p: os.path.join(HERE, *p)
 
 SITE_TITLE = 'Louisiana Dial'
-DESCRIPTION = ('Louisiana campaigns have put $11.7M into radio since 2000, and a third of it '
-               'buys Black-audience stations. Political radio spending by format, station and buyer.')
+# How the copy names a format category: as the leader ("urban, gospel and
+# Black talk formats take 29%"), in a headline ("…buys Black radio") and as
+# the runner-up ("just ahead of news/talk").
+CAT_LONG = {'Black-audience': 'urban, gospel and Black talk formats', 'News/Talk': 'news and talk formats'}
+CAT_SHORT = {'Black-audience': 'Black radio', 'News/Talk': 'talk radio', 'Country': 'country radio'}
+CAT_NEXT = {'Black-audience': 'Black-audience radio', 'News/Talk': 'news/talk'}
+# The committees the copy reads a strategy from, by filer number.
+EDWARDS, BLANCO, BOASSO, LANDRY, JINDAL, CFC_PAC = '1144', '31', '632', '1625', '631', '4632'
+ORDINAL = {2: 'half', 3: 'a third', 4: 'a quarter', 5: 'a fifth', 6: 'a sixth', 7: 'a seventh',
+           8: 'an eighth', 9: 'a ninth', 10: 'a tenth', 11: 'an eleventh', 12: 'a twelfth'}
+
+
+def facts():
+    """The figures the page's written copy quotes, from the data (see prose.py)."""
+    d = json.load(open(D('data', 'radio_spend.json'), encoding='utf-8'))
+    tv = json.load(open(D('data', 'station_spend.json'), encoding='utf-8'))
+    cm = json.load(open(D('data', 'committees_radio.json'), encoding='utf-8'))
+    total = d['total_spend']
+    cats = [c for c in d['categories'] if not c['category'].startswith('Unclassified')]
+    top, nxt = cats[0], cats[1]
+    k = top['category']
+    mix = lambda f, cat: cm[f]['formats'].get(cat, 0) / cm[f]['total'] if f in cm else 0
+    jindal = sorted(cm[JINDAL]['formats'].items(), key=lambda x: -x[1])[:3]
+    name = {'News/Talk': 'talk', 'Black-audience': 'Black-audience', 'Country': 'country'}
+    tv_med = statistics.median(s['spend'] / s['rows'] for s in tv['stations'] if s['rows'] >= 5)
+    kvpi = next(s for s in d['stations'] if s['call'] == 'KVPI')
+    st = d['stations']
+    lead, s2, s3 = st[0], st[1], st[2]
+    fmt = re.sub(r'"([^"]+)"', '\u201c\\1\u201d', lead['format'])
+    fmt = fmt[0].lower() + fmt[1:] if not fmt.split()[0].isupper() else fmt
+    duo = sum(o['share'] for o in tv['owners'] if o['group'] in ('gray', 'nexstar'))
+    corp = [o['owner'] for o in d['owners'] if o['owner'] not in ('Local', 'Unknown')][:4]
+    local = next((o['share'] for o in d['owners'] if o['owner'] == 'Local'), 0)
+    n = round(tv['total_spend'] / total)
+    return {
+        'tv_fraction': ORDINAL.get(n, f'1/{n}'),
+        'top_share_words': share_words(top['share']).capitalize(),
+        'top_short': CAT_SHORT.get(k, k.lower() + ' radio'),
+        'top_verb': 'dominates' if top['share'] >= 1.25 * nxt['share'] else 'leads',
+        'top_long': CAT_LONG.get(k, k.lower() + ' formats'),
+        'top_share': pct(top['share']),
+        'top_vs_next': f"{ahead_of(top['share'], nxt['share'])} {CAT_NEXT.get(nxt['category'], nxt['category'].lower())}"
+                       f" ({pct(nxt['share'])})",
+        'edwards_b': pct(mix(EDWARDS, 'Black-audience')), 'blanco_b': pct(mix(BLANCO, 'Black-audience')),
+        'boasso_b': pct(mix(BOASSO, 'Black-audience')), 'landry_t': pct(mix(LANDRY, 'News/Talk')),
+        'cfc_t': round(mix(CFC_PAC, 'News/Talk') * 100), 'cfc_c': round(mix(CFC_PAC, 'Country') * 100),
+        'jindal_mix': series(f"{pct(v / cm[JINDAL]['total'])} {name.get(c, c.lower())}" for c, v in jindal),
+        'tv_median_buy': dollars(tv_med),
+        'kvpi_n': kvpi['committees'], 'kvpi_avg': dollars(kvpi['avg_buy']),
+        'n_stations_words': words(len(st)).capitalize(), 'n_stations': len(st),
+        'lead_call': lead['call'], 'lead_city': lead['city'], 'lead_desc': f"{lead['owner']}'s {fmt}",
+        'lead_amount': money(lead['spend']),
+        'lead_vs': (', more than the next two combined' if lead['spend'] > s2['spend'] + s3['spend']
+                    else f", ahead of {s2['call']} ({money(s2['spend'])})"),
+        'duopoly_share': pct(duo), 'radio_owners': series(f'<b>{o}</b>' for o in corp),
+        'local_share': pct(local),
+        'radio_total': money(total), 'radio_since': d['years_covered'][0],
+    }
 CANONICAL = 'https://airwaves.charliestephens.xyz/radio.html'
 
 
@@ -52,65 +108,19 @@ def build_data():
     }
 
 
-HEAD = '''<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{desc}">
-<meta name="color-scheme" content="light dark">
-<link rel="canonical" href="{url}">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="{title}">
-<meta property="og:title" content="{title}">
-<meta property="og:description" content="{desc}">
-<meta property="og:url" content="{url}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{title}">
-<meta name="twitter:description" content="{desc}">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>&#128251;</text></svg>">
-<style>
-  html,body{{margin:0}}
-  img{{max-width:100%}}
-  [hidden]{{display:none!important}}
-</style>
-'''
-
-
-def fill_tokens(tpl, spend):
-    """Fill the template's date tokens from the spend file, so the year span and
-    "filings through" stamp move with the data instead of being hand-edited."""
-    lo, hi = spend['years_covered']
-    through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
-    for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
-                     ('__THROUGH__', through), ('__NAV__', nav('radio')), ('__NAV_CSS__', NAV_CSS)):
-        tpl = tpl.replace(tok, val)
-    left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
-    if left:
-        raise SystemExit(f'unfilled template tokens: {left}')
-    return tpl
-
-
 def main():
-    tpl = open(D('radio.template.html'), encoding='utf-8').read()
-    if '/*__DATA__*/' not in tpl:
-        raise SystemExit('radio.template.html is missing the /*__DATA__*/ placeholder')
-    blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'),
-                                        ensure_ascii=False) + ';'
-    frag = tpl.replace('/*__DATA__*/', blob)
-    frag = fill_tokens(frag, json.load(open(D('data', 'radio_spend.json'), encoding='utf-8')))
-
-    with open(D('radio.artifact.html'), 'w', encoding='utf-8') as f:
-        f.write(frag)
-
-    split = frag.index('<div class="wrap">')
-    standalone = (HEAD.format(desc=DESCRIPTION, url=CANONICAL, title=SITE_TITLE)
-                  + frag[:split] + '</head>\n<body>\n' + frag[split:] + '\n</body>\n</html>\n')
-    with open(D('radio.html'), 'w', encoding='utf-8') as f:
-        f.write(standalone)
-
-    for n in ('radio.html', 'radio.artifact.html'):
-        print(f'  {n}  {os.path.getsize(D(n)):,} bytes')
+    blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'), ensure_ascii=False) + ';'
+    spend = json.load(open(D('data', 'radio_spend.json'), encoding='utf-8'))
+    f = facts()
+    desc = (f"Louisiana campaigns have put {f['radio_total']} into radio since {spend['years_covered'][0]}, "
+            f"and {f['top_share_words'].lower()} of it buys {f['top_short'].replace(' radio', '')}-audience "
+            f"stations." if f['top_short'] == 'Black radio' else
+            f"Louisiana campaigns have put {f['radio_total']} into radio since {spend['years_covered'][0]}.")
+    desc += ' Political radio spending by format, station and buyer.'
+    for name in publish(D('radio.template.html'), blob, spend, 'radio', D('radio.html'),
+                        D('radio.artifact.html'), desc, CANONICAL,
+                        title=SITE_TITLE, site_name=SITE_TITLE, icon=RADIO_ICON, facts=f):
+        print(f'  {os.path.basename(name)}  {os.path.getsize(name):,} bytes')
 
 
 if __name__ == '__main__':

@@ -21,8 +21,10 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, HERE)
-from build_page import BY_NAME, HEAD, fcc_summary, fill_tokens  # noqa: E402
-from site_nav import NAV_CSS, SITE, nav  # noqa: E402
+sys.path.insert(0, D('fcc'))
+from markets import BY_NAME  # noqa: E402
+from summary import fcc_summary  # noqa: E402
+from page_shell import SITE, publish  # noqa: E402
 
 URL = SITE + 'committees.html'
 DESCRIPTION = ('Every Louisiana political committee that has bought television or radio '
@@ -93,24 +95,13 @@ def build_data():
 
 def main():
     spend = json.load(open(D('data', 'station_spend.json'), encoding='utf-8'))
-    tpl = open(D('committees.template.html'), encoding='utf-8').read()
     rows, pf_meta = build_data()
     blob = ('const DATA = ' + json.dumps(rows, separators=(',', ':'), ensure_ascii=False) + ';\n'
             'const PF = ' + json.dumps(pf_meta, separators=(',', ':')) + ';')
-    frag = tpl.replace('/*__DATA__*/', blob)
-    frag = frag.replace('__NAV__', nav('committees')).replace('__NAV_CSS__', NAV_CSS)
-    frag = fill_tokens(frag, spend)
-    with open(D('committees.artifact.html'), 'w', encoding='utf-8') as f:
-        f.write(frag)
-    split = frag.index('<div class="wrap">')
-    head = HEAD.format(desc=DESCRIPTION, url=URL)
-    for tag in ('property="og:title"', 'name="twitter:title"'):
-        head = head.replace(f'<meta {tag} content="Louisiana Airwaves">',
-                            f'<meta {tag} content="Louisiana Airwaves — Committees">')
-    with open(D('committees.html'), 'w', encoding='utf-8') as f:
-        f.write(head + frag[:split] + '</head>\n<body>\n' + frag[split:] + '\n</body>\n</html>\n')
-    for n in ('committees.html', 'committees.artifact.html'):
-        print(f'  {n}  {os.path.getsize(D(n)):,} bytes')
+    for name in publish(D('committees.template.html'), blob, spend, 'committees', D('committees.html'),
+                        D('committees.artifact.html'), DESCRIPTION, URL,
+                        title='Louisiana Airwaves — Committees'):
+        print(f'  {os.path.basename(name)}  {os.path.getsize(name):,} bytes')
 
 
 if __name__ == '__main__':

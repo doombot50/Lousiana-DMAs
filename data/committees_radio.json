@@ -44,17 +44,20 @@
 "1032": {
 "formats": {
 "Christian": 208.0,
-"Classic rock & hits": 1000.0
+"Classic rock & hits": 1000.0,
+"News/Talk": 4752.22
 },
 "name": "Allen Leone",
 "party": "REP",
 "stations": {
 "KAJN": 208.0,
-"WTIX": 1000.0
+"WTIX": 1000.0,
+"WWL": 4752.22
 },
-"total": 1208.0,
+"total": 5960.22,
 "years": {
-"2006": 208.0,
+"2006": 2360.22,
+"2007": 2600.0,
 "2011": 1000.0
 }
 },
@@ -114,6 +117,20 @@
 "2007": 2142.0
 }
 },
+"1059": {
+"formats": {
+"News/Talk": 3843.7
+},
+"name": "Suzette Peychaud Bagneris",
+"party": "OTH",
+"stations": {
+"WWL": 3843.7
+},
+"total": 3843.7,
+"years": {
+"2007": 3843.7
+}
+},
 "1062": {
 "formats": {
 "Classic rock & hits": 600.0,
@@ -169,7 +186,7 @@
 "Black-audience": 12359.32,
 "Classic rock & hits": 688.5,
 "Country": 1121.42,
-"News/Talk": 74.0,
+"News/Talk": 6595.64,
 "Pop / AC": 2531.3,
 "Spanish": 1097.14
 },
@@ -197,12 +214,13 @@
 "WEMX": 952.0,
 "WLMG": 2363.0,
 "WTGE": 595.0,
-"WTIX": 688.5
+"WTIX": 688.5,
+"WWL": 6521.64
 },
-"total": 17871.68,
+"total": 24393.32,
 "years": {
 "2007": 6756.54,
-"2010": 11115.14
+"2010": 17636.78
 }
 },
 "1074": {
@@ -258,16 +276,17 @@
 },
 "1086": {
 "formats": {
-"News/Talk": 408.0
+"News/Talk": 2371.5
 },
 "name": "Steve Scalise",
 "party": "REP",
 "stations": {
-"WRNO": 408.0
+"WRNO": 408.0,
+"WWL": 1963.5
 },
-"total": 408.0,
+"total": 2371.5,
 "years": {
-"2007": 408.0
+"2007": 2371.5
 }
 },
 "1088": {
@@ -309,6 +328,7 @@
 "1093": {
 "formats": {
 "Black-audience": 24876.0,
+"News/Talk": 4610.0,
 "Pop / AC": 3470.0
 },
 "name": "Tiffany Gautier Chase",
@@ -318,11 +338,12 @@
 "WBOK": 5300.0,
 "WEZB": 1415.0,
 "WLMG": 2055.0,
+"WWL": 4610.0,
 "WYLD": 15355.0
 },
-"total": 28346.0,
+"total": 32956.0,
 "years": {
-"2017": 28346.0
+"2017": 32956.0
 }
 },
 "1094": {
@@ -342,7 +363,7 @@
 "1099": {
 "formats": {
 "Cajun / Americana": 75.0,
-"News/Talk": 17926.5,
+"News/Talk": 30676.5,
 "Sports": 1780.75
 },
 "name": "Robert Kyle Ardoin",
@@ -354,12 +375,13 @@
 "KPEL": 2486.25,
 "KVPI": 75.0,
 "WJBO": 5801.25,
-"WRNO": 7140.0
+"WRNO": 7140.0,
+"WWL": 12750.0
 },
-"total": 19782.25,
+"total": 32532.25,
 "years": {
 "2018": 75.0,
-"2019": 19707.25
+"2019": 32457.25
 }
 },
 "1100": {
@@ -396,7 +418,7 @@
 },
 "1105": {
 "formats": {
-"News/Talk": 10813.35
+"News/Talk": 22411.35
 },
 "name": "Wayne Carter",
 "party": "OTH",
@@ -406,18 +428,19 @@
 "KMLB": 540.0,
 "KPEL": 1588.35,
 "KSYL": 975.0,
-"WJBO": 5700.0
+"WJBO": 5700.0,
+"WWL": 11598.0
 },
-"total": 10813.35,
+"total": 22411.35,
 "years": {
-"2007": 10813.35
+"2007": 22411.35
 }
 },
 "1111": {
 "formats": {
 "Classic rock & hits": 5411.85,
 "Country": 1496.0,
-"News/Talk": 2571.25,
+"News/Talk": 18041.25,
 "Pop / AC": 5093.2,
 "Spanish": 600.0
 },
@@ -428,11 +451,12 @@
 "WLMG": 5093.2,
 "WNOE": 1496.0,
 "WRNO": 2571.25,
-"WTIX": 5411.85
+"WTIX": 5411.85,
+"WWL": 15470.0
 },
-"total": 15172.3,
+"total": 30642.3,
 "years": {
-"2019": 15172.3
+"2019": 30642.3
 }
 },
 "1113": {
@@ -453,7 +477,7 @@
 "formats": {
 "Black-audience": 76257.52,
 "Country": 5180.24,
-"News/Talk": 19300.1,
+"News/Talk": 39005.27,
 "Pop / AC": 1089.09,
 "Sports": 5000.0
 },
@@ -476,12 +500,13 @@
 "WBOK": 1054.0,
 "WJBO": 16728.0,
 "WQUE": 28166.88,
+"WWL": 19705.17,
 "WXOK": 3216.75,
 "WYLD": 28166.88
 },
-"total": 106826.96,
+"total": 126532.13,
 "years": {
-"2007": 100868.95,
+"2007": 120574.12,
 "2015": 5958.0
 }
 },
@@ -551,7 +576,7 @@
 "Christian": 15024.89,
 "Classic rock & hits": 68963.92,
 "Country": 181759.08,
-"News/Talk": 44192.35,
+"News/Talk": 96862.6,
 "Pop / AC": 140959.81,
 "Sports": 28508.0
 },
@@ -615,14 +640,15 @@
 "WRNO": 13940.0,
 "WRQQ": 5142.5,
 "WTGE": 20459.65,
+"WWL": 52670.25,
 "WXOK": 45410.0,
 "WYLD": 135740.0,
 "WYNK": 34581.4
 },
-"total": 1295575.14,
+"total": 1348245.39,
 "years": {
 "2015": 368593.52,
-"2019": 926981.62
+"2019": 979651.87
 }
 },
 "1147": {
@@ -753,16 +779,18 @@
 },
 "1169": {
 "formats": {
-"Black-audience": 1219.75
+"Black-audience": 1219.75,
+"News/Talk": 911.2
 },
 "name": "Walter J. Leger, III",
 "party": "DEM",
 "stations": {
-"KMEZ": 1219.75
+"KMEZ": 1219.75,
+"WWL": 911.2
 },
-"total": 1219.75,
+"total": 2130.95,
 "years": {
-"2007": 1219.75
+"2007": 2130.95
 }
 },
 "1176": {
@@ -878,16 +906,17 @@
 },
 "1195": {
 "formats": {
-"News/Talk": 204.0
+"News/Talk": 4369.0
 },
 "name": "Patrick Connick",
 "party": "REP",
 "stations": {
-"WGSO": 204.0
+"WGSO": 204.0,
+"WWL": 4165.0
 },
-"total": 204.0,
+"total": 4369.0,
 "years": {
-"2023": 204.0
+"2023": 4369.0
 }
 },
 "1209": {
@@ -1001,7 +1030,7 @@
 "Christian": 495.0,
 "Classic rock & hits": 60.0,
 "Country": 570.0,
-"News/Talk": 425.0
+"News/Talk": 1191.0
 },
 "name": "A. G. Crowe",
 "party": "REP",
@@ -1009,11 +1038,12 @@
 "KAJN": 495.0,
 "WGSO": 425.0,
 "WKBU": 60.0,
-"WNOE": 570.0
+"WNOE": 570.0,
+"WWL": 766.0
 },
-"total": 1550.0,
+"total": 2316.0,
 "years": {
-"2007": 630.0,
+"2007": 1396.0,
 "2011": 425.0,
 "2018": 495.0
 }
@@ -1023,7 +1053,7 @@
 "Black-audience": 3444.0,
 "Classic rock & hits": 3290.0,
 "Country": 22269.94,
-"News/Talk": 26250.0,
+"News/Talk": 60850.0,
 "Pop / AC": 7163.0
 },
 "name": "John Kennedy",
@@ -1040,11 +1070,12 @@
 "KSYL": 1260.0,
 "KTDY": 7163.0,
 "KYKZ": 6264.0,
-"WJBO": 15960.0
+"WJBO": 15960.0,
+"WWL": 34600.0
 },
-"total": 62416.94,
+"total": 97016.94,
 "years": {
-"2007": 62416.94
+"2007": 97016.94
 }
 },
 "1249": {
@@ -1182,7 +1213,7 @@
 "1313": {
 "formats": {
 "Classic rock & hits": 3480.0,
-"News/Talk": 3225.0,
+"News/Talk": 19207.5,
 "Pop / AC": 7275.0
 },
 "name": "Conrad Appel",
@@ -1190,11 +1221,13 @@
 "stations": {
 "WKBU": 3480.0,
 "WLMG": 7275.0,
-"WRNO": 3225.0
+"WRNO": 3225.0,
+"WWL": 15982.5
 },
-"total": 13980.0,
+"total": 29962.5,
 "years": {
-"2015": 13980.0
+"2015": 27855.0,
+"2017": 2107.5
 }
 },
 "1322": {
@@ -1258,7 +1291,7 @@
 "Black-audience": 39655.2,
 "Classic rock & hits": 12503.5,
 "Country": 16861.95,
-"News/Talk": 25796.05,
+"News/Talk": 55523.95,
 "Pop / AC": 18222.3,
 "Spanish": 1490.0,
 "Sports": 1360.0
@@ -1294,27 +1327,29 @@
 "WRNO": 11513.5,
 "WTGE": 1253.75,
 "WTIX": 7276.0,
+"WWL": 29727.9,
 "WYLD": 23847.0
 },
-"total": 115889.0,
+"total": 145616.9,
 "years": {
-"2015": 79200.45,
-"2019": 32232.0,
-"2026": 4456.55
+"2015": 88303.95,
+"2019": 40562.0,
+"2026": 16750.95
 }
 },
 "1374": {
 "formats": {
-"News/Talk": 204.0
+"News/Talk": 4369.0
 },
 "name": "Hans J. Liljeberg",
 "party": "REP",
 "stations": {
-"WGSO": 204.0
+"WGSO": 204.0,
+"WWL": 4165.0
 },
-"total": 204.0,
+"total": 4369.0,
 "years": {
-"2023": 204.0
+"2023": 4369.0
 }
 },
 "1377": {
@@ -1366,17 +1401,19 @@
 },
 "1382": {
 "formats": {
-"News/Talk": 1643.5
+"News/Talk": 10276.0
 },
 "name": "J. Cameron Henry",
 "party": "REP",
 "stations": {
-"WRNO": 1643.5
+"WRNO": 1643.5,
+"WWL": 8632.5
 },
-"total": 1643.5,
+"total": 10276.0,
 "years": {
-"2013": 1210.0,
-"2015": 433.5
+"2013": 7735.0,
+"2015": 433.5,
+"2017": 2107.5
 }
 },
 "1383": {
@@ -1419,19 +1456,20 @@
 "formats": {
 "Black-audience": 2358.2,
 "Classic rock & hits": 1015.75,
-"News/Talk": 475.0
+"News/Talk": 4417.7
 },
 "name": "Arnie Fielkow",
 "party": "DEM",
 "stations": {
 "WBOK": 2358.2,
 "WGSO": 475.0,
-"WKBU": 1015.75
+"WKBU": 1015.75,
+"WWL": 3942.7
 },
-"total": 3848.95,
+"total": 7791.65,
 "years": {
-"2009": 493.0,
-"2010": 3355.95
+"2009": 3435.7,
+"2010": 4355.95
 }
 },
 "1390": {
@@ -1439,7 +1477,7 @@
 "Black-audience": 18685.0,
 "Classic rock & hits": 3375.0,
 "Country": 6600.0,
-"News/Talk": 5425.0,
+"News/Talk": 11925.0,
 "Pop / AC": 6880.0
 },
 "name": "Cynthia Lee-Sheng",
@@ -1451,11 +1489,12 @@
 "WNOE": 6600.0,
 "WRNO": 5425.0,
 "WTIX": 3375.0,
+"WWL": 6500.0,
 "WYLD": 14940.0
 },
-"total": 40965.0,
+"total": 47465.0,
 "years": {
-"2019": 40965.0
+"2019": 47465.0
 }
 },
 "1393": {
@@ -1503,18 +1542,19 @@
 },
 "1411": {
 "formats": {
-"News/Talk": 3355.0,
+"News/Talk": 11007.0,
 "Pop / AC": 3200.0
 },
 "name": "Janis W. Lemle",
 "party": "DEM",
 "stations": {
 "WLMG": 3200.0,
-"WRNO": 3355.0
+"WRNO": 3355.0,
+"WWL": 7652.0
 },
-"total": 6555.0,
+"total": 14207.0,
 "years": {
-"2010": 6555.0
+"2010": 14207.0
 }
 },
 "1421": {
@@ -1688,16 +1728,18 @@
 },
 "1448": {
 "formats": {
-"Black-audience": 4611.25
+"Black-audience": 4611.25,
+"News/Talk": 7480.0
 },
 "name": "Jon D. Johnson",
 "party": "DEM",
 "stations": {
-"WBOK": 4611.25
+"WBOK": 4611.25,
+"WWL": 7480.0
 },
-"total": 4611.25,
+"total": 12091.25,
 "years": {
-"2010": 4611.25
+"2010": 12091.25
 }
 },
 "1449": {
@@ -1749,15 +1791,18 @@
 },
 "1456": {
 "formats": {
-"Black-audience": 500.0
+"Black-audience": 500.0,
+"News/Talk": 1234.0
 },
 "name": "Erroll G. Williams",
 "party": "DEM",
 "stations": {
-"WBOK": 500.0
+"WBOK": 500.0,
+"WWL": 1234.0
 },
-"total": 500.0,
+"total": 1734.0,
 "years": {
+"2010": 1234.0,
 "2021": 500.0
 }
 },
@@ -1782,32 +1827,35 @@
 },
 "1463": {
 "formats": {
-"Black-audience": 5235.0
+"Black-audience": 5235.0,
+"News/Talk": 179.0
 },
 "name": "Keva Landrum",
 "party": "DEM",
 "stations": {
 "WBOK": 140.0,
+"WWL": 179.0,
 "WYLD": 5095.0
 },
-"total": 5235.0,
+"total": 5414.0,
 "years": {
-"2020": 5235.0
+"2020": 5414.0
 }
 },
 "1465": {
 "formats": {
-"News/Talk": 2435.25
+"News/Talk": 5138.25
 },
 "name": "Lawrence E. Chehardy",
 "party": "OTH",
 "stations": {
 "WGSO": 204.0,
-"WRNO": 2231.25
+"WRNO": 2231.25,
+"WWL": 2703.0
 },
-"total": 2435.25,
+"total": 5138.25,
 "years": {
-"2009": 2435.25
+"2009": 5138.25
 }
 },
 "1468": {
@@ -1878,7 +1926,7 @@
 "formats": {
 "Black-audience": 1500.0,
 "Country": 25591.55,
-"News/Talk": 91097.5,
+"News/Talk": 112692.5,
 "Pop / AC": 856.0
 },
 "name": "John Schroder",
@@ -1895,13 +1943,14 @@
 "WJBO": 21150.0,
 "WRNO": 46709.0,
 "WTGE": 6195.0,
+"WWL": 21595.0,
 "WYNK": 15540.0
 },
-"total": 119045.05,
+"total": 140640.05,
 "years": {
 "2017": 4386.0,
 "2019": 2422.5,
-"2023": 112236.55
+"2023": 133831.55
 }
 },
 "1495": {
@@ -1925,18 +1974,19 @@
 },
 "1498": {
 "formats": {
-"News/Talk": 204.0,
+"News/Talk": 4369.0,
 "Spanish": 600.0
 },
 "name": "Ricky Templet",
 "party": "REP",
 "stations": {
 "KGLA": 600.0,
-"WGSO": 204.0
+"WGSO": 204.0,
+"WWL": 4165.0
 },
-"total": 804.0,
+"total": 4969.0,
 "years": {
-"2023": 804.0
+"2023": 4969.0
 }
 },
 "1503": {
@@ -2268,18 +2318,20 @@
 "1591": {
 "formats": {
 "Classic rock & hits": 1000.0,
+"News/Talk": 1680.0,
 "Spanish": 2400.0
 },
 "name": "Ben Zahn",
 "party": "REP",
 "stations": {
 "KGLA": 2400.0,
-"WTIX": 1000.0
+"WTIX": 1000.0,
+"WWL": 1680.0
 },
-"total": 3400.0,
+"total": 5080.0,
 "years": {
 "2016": 1500.0,
-"2018": 1000.0,
+"2018": 2680.0,
 "2019": 900.0
 }
 },
@@ -2303,7 +2355,7 @@
 "Christian": 1534.0,
 "Classic rock & hits": 6982.75,
 "Country": 3788.7,
-"News/Talk": 55240.3,
+"News/Talk": 128914.44,
 "Pop / AC": 4380.0
 },
 "name": "John L. (Jay) Dardenne",
@@ -2323,14 +2375,15 @@
 "WJBO": 19940.55,
 "WLMG": 4380.0,
 "WRNO": 5848.0,
+"WWL": 73674.14,
 "WYNK": 994.75
 },
-"total": 73234.75,
+"total": 146908.89,
 "years": {
 "2003": 2950.0,
-"2006": 164.44,
-"2007": 21899.37,
-"2010": 47720.94,
+"2006": 6889.08,
+"2007": 31091.37,
+"2010": 105478.44,
 "2011": 500.0
 }
 },
@@ -2545,7 +2598,7 @@
 },
 "1641": {
 "formats": {
-"News/Talk": 3712.0,
+"News/Talk": 5412.0,
 "Spanish": 9224.0
 },
 "name": "Michael S. Yenni",
@@ -2553,34 +2606,38 @@
 "stations": {
 "KGLA": 9224.0,
 "WGSO": 952.0,
-"WRNO": 2760.0
+"WRNO": 2760.0,
+"WWL": 1700.0
 },
-"total": 12936.0,
+"total": 14636.0,
 "years": {
 "2010": 4760.0,
-"2014": 3724.0,
+"2014": 5424.0,
 "2015": 4452.0
 }
 },
 "1653": {
 "formats": {
-"Black-audience": 62719.04
+"Black-audience": 62719.04,
+"News/Talk": 18282.29
 },
 "name": "Christopher Bruno",
 "party": "DEM",
 "stations": {
 "KMEZ": 7883.7,
 "WBOK": 2822.75,
+"WWL": 18282.29,
 "WYLD": 52012.59
 },
-"total": 62719.04,
+"total": 81001.33,
 "years": {
-"2014": 62719.04
+"2014": 81001.33
 }
 },
 "1654": {
 "formats": {
 "Black-audience": 4925.0,
+"News/Talk": 5700.0,
 "Pop / AC": 759.0
 },
 "name": "Karen Herman",
@@ -2589,11 +2646,12 @@
 "KMEZ": 840.0,
 "WBOK": 855.0,
 "WLMG": 759.0,
+"WWL": 5700.0,
 "WYLD": 3230.0
 },
-"total": 5684.0,
+"total": 11384.0,
 "years": {
-"2022": 5684.0
+"2022": 11384.0
 }
 },
 "1656": {
@@ -2613,37 +2671,40 @@
 },
 "1659": {
 "formats": {
-"News/Talk": 7713.11
+"News/Talk": 55750.38
 },
 "name": "Warren L. Montgomery",
 "party": "REP",
 "stations": {
 "WGSO": 7418.11,
-"WRNO": 295.0
+"WRNO": 295.0,
+"WWL": 48037.27
 },
-"total": 7713.11,
+"total": 55750.38,
 "years": {
-"2014": 7503.99,
-"2015": 209.12
+"2014": 21028.76,
+"2015": 209.12,
+"2020": 34512.5
 }
 },
 "1660": {
 "formats": {
 "Classic rock & hits": 1772.76,
 "Country": 1188.89,
-"News/Talk": 1094.1
+"News/Talk": 4359.55
 },
 "name": "Irvin F. Hingle",
 "party": "OTH",
 "stations": {
 "WNOE": 1188.89,
 "WRNO": 1094.1,
-"WTIX": 1772.76
+"WTIX": 1772.76,
+"WWL": 3265.45
 },
-"total": 4055.75,
+"total": 7321.2,
 "years": {
-"2009": 1950.73,
-"2010": 2105.02
+"2009": 3561.18,
+"2010": 3760.02
 }
 },
 "1661": {
@@ -2658,6 +2719,20 @@
 "total": 650.0,
 "years": {
 "2019": 650.0
+}
+},
+"1666": {
+"formats": {
+"News/Talk": 11000.0
+},
+"name": "Jefferson Chamber PAC",
+"party": "OTH",
+"stations": {
+"WWL": 11000.0
+},
+"total": 11000.0,
+"years": {
+"2013": 11000.0
 }
 },
 "1680": {
@@ -2725,16 +2800,17 @@
 },
 "1712": {
 "formats": {
-"News/Talk": 2499.0
+"News/Talk": 7658.5
 },
 "name": "Perry Nicosia",
 "party": "DEM",
 "stations": {
-"WRNO": 2499.0
+"WRNO": 2499.0,
+"WWL": 5159.5
 },
-"total": 2499.0,
+"total": 7658.5,
 "years": {
-"2014": 2499.0
+"2014": 7658.5
 }
 },
 "1717": {
@@ -2753,18 +2829,20 @@
 },
 "1718": {
 "formats": {
-"Black-audience": 3077.5
+"Black-audience": 3077.5,
+"News/Talk": 400.0
 },
 "name": "Frank Marullo Jr",
 "party": "DEM",
 "stations": {
 "KMEZ": 700.0,
 "WBOK": 1487.5,
+"WWL": 400.0,
 "WYLD": 890.0
 },
-"total": 3077.5,
+"total": 3477.5,
 "years": {
-"2014": 3077.5
+"2014": 3477.5
 }
 },
 "1731": {
@@ -2917,17 +2995,18 @@
 },
 "1759": {
 "formats": {
-"News/Talk": 3090.0
+"News/Talk": 8450.0
 },
 "name": "Joseph P. Lopinto, III",
 "party": "REP",
 "stations": {
 "WGSO": 680.0,
-"WRNO": 2410.0
+"WRNO": 2410.0,
+"WWL": 5360.0
 },
-"total": 3090.0,
+"total": 8450.0,
 "years": {
-"2018": 3090.0
+"2018": 8450.0
 }
 },
 "176": {
@@ -2967,7 +3046,7 @@
 "Black-audience": 5801.25,
 "Classic rock & hits": 1400.0,
 "Country": 2847.5,
-"News/Talk": 1487.5,
+"News/Talk": 19549.5,
 "Pop / AC": 1976.25
 },
 "name": "William (Billy) Nungesser",
@@ -2979,13 +3058,14 @@
 "WQUE": 2656.25,
 "WRNO": 1487.5,
 "WTIX": 1400.0,
+"WWL": 18062.0,
 "WYLD": 3145.0,
 "WYNK": 1253.75
 },
-"total": 13512.5,
+"total": 31574.5,
 "years": {
 "2015": 1400.0,
-"2023": 12112.5
+"2023": 30174.5
 }
 },
 "1777": {
@@ -3045,18 +3125,19 @@
 "1783": {
 "formats": {
 "Black-audience": 770.0,
-"News/Talk": 4284.0
+"News/Talk": 9724.0
 },
 "name": "Michael Bagneris",
 "party": "DEM",
 "stations": {
 "WBOK": 770.0,
 "WGSO": 544.0,
-"WRNO": 3740.0
+"WRNO": 3740.0,
+"WWL": 5440.0
 },
-"total": 5054.0,
+"total": 10494.0,
 "years": {
-"2017": 5054.0
+"2017": 10494.0
 }
 },
 "1788": {
@@ -3078,7 +3159,7 @@
 "Black-audience": 82803.69,
 "Classic rock & hits": 4172.31,
 "Country": 20514.95,
-"News/Talk": 26784.1,
+"News/Talk": 34134.1,
 "Pop / AC": 14425.75
 },
 "name": "Foster L. Campbell, Jr.",
@@ -3108,14 +3189,15 @@
 "KZWA": 804.0,
 "WBOK": 1190.0,
 "WJBO": 3225.0,
+"WWL": 7350.0,
 "WXOK": 2647.75,
 "WYLD": 31456.25
 },
-"total": 148700.8,
+"total": 156050.8,
 "years": {
 "2001": 3517.0,
 "2002": 14214.71,
-"2007": 71779.24,
+"2007": 79129.24,
 "2014": 36404.32,
 "2018": 2700.0,
 "2020": 20085.53
@@ -3157,25 +3239,26 @@
 },
 "1803": {
 "formats": {
-"News/Talk": 1190.0,
+"News/Talk": 8652.07,
 "Pop / AC": 3151.8
 },
 "name": "Patricia Brister",
 "party": "REP",
 "stations": {
 "WGSO": 1190.0,
-"WLMG": 3151.8
+"WLMG": 3151.8,
+"WWL": 7462.07
 },
-"total": 4341.8,
+"total": 11803.87,
 "years": {
-"2011": 1190.0,
-"2019": 3151.8
+"2011": 2702.07,
+"2019": 9101.8
 }
 },
 "1808": {
 "formats": {
 "Classic rock & hits": 200.0,
-"News/Talk": 200.0,
+"News/Talk": 2369.8,
 "Spanish": 500.0
 },
 "name": "Philip L. Capitano",
@@ -3183,11 +3266,12 @@
 "stations": {
 "KGLA": 500.0,
 "WGSO": 200.0,
-"WTIX": 200.0
+"WTIX": 200.0,
+"WWL": 2169.8
 },
-"total": 900.0,
+"total": 3069.8,
 "years": {
-"2010": 900.0
+"2010": 3069.8
 }
 },
 "1812": {
@@ -3515,6 +3599,7 @@
 "formats": {
 "Black-audience": 4711.0,
 "Classic rock & hits": 3875.0,
+"News/Talk": 31625.0,
 "Pop / AC": 8125.0,
 "Sports": 688.0
 },
@@ -3527,26 +3612,28 @@
 "WEZB": 3375.0,
 "WKBU": 3875.0,
 "WLMG": 4750.0,
+"WWL": 31625.0,
 "WYLD": 3255.0
 },
-"total": 17399.0,
+"total": 49024.0,
 "years": {
 "2017": 5399.0,
-"2025": 12000.0
+"2025": 43625.0
 }
 },
 "1927": {
 "formats": {
-"News/Talk": 875.0
+"News/Talk": 5009.4
 },
 "name": "Juanita (Nita) Rusich Hutter",
 "party": "OTH",
 "stations": {
-"WGSO": 875.0
+"WGSO": 875.0,
+"WWL": 4134.4
 },
-"total": 875.0,
+"total": 5009.4,
 "years": {
-"2011": 875.0
+"2011": 5009.4
 }
 },
 "1932": {
@@ -3613,6 +3700,7 @@
 "1951": {
 "formats": {
 "Black-audience": 8028.0,
+"News/Talk": 3400.0,
 "Pop / AC": 2479.0
 },
 "name": "Candice Bates-Anderson",
@@ -3621,17 +3709,18 @@
 "KMEZ": 3026.0,
 "WBOK": 1102.0,
 "WLMG": 2479.0,
+"WWL": 3400.0,
 "WYLD": 3900.0
 },
-"total": 10507.0,
+"total": 13907.0,
 "years": {
-"2010": 10507.0
+"2010": 13907.0
 }
 },
 "1967": {
 "formats": {
 "Black-audience": 28240.0,
-"News/Talk": 1941.18,
+"News/Talk": 2941.18,
 "Pop / AC": 1000.0,
 "Sports": 1000.0
 },
@@ -3645,11 +3734,12 @@
 "WLMG": 1000.0,
 "WQUE": 8500.0,
 "WRNO": 1000.0,
+"WWL": 1000.0,
 "WYLD": 10150.0
 },
-"total": 32181.18,
+"total": 33181.18,
 "years": {
-"2010": 32181.18
+"2010": 33181.18
 }
 },
 "1969": {
@@ -3746,7 +3836,7 @@
 "formats": {
 "Black-audience": 1110.8,
 "Classic rock & hits": 346.5,
-"News/Talk": 496.4,
+"News/Talk": 601.5,
 "Pop / AC": 302.01
 },
 "name": "Caroline Fayard",
@@ -3764,12 +3854,13 @@
 "WEZB": 90.57,
 "WLMG": 151.44,
 "WRNO": 121.4,
+"WWL": 105.1,
 "WXOK": 34.29,
 "WYLD": 365.3
 },
-"total": 2255.71,
+"total": 2360.81,
 "years": {
-"2010": 2255.71
+"2010": 2360.81
 }
 },
 "1999": {
@@ -3795,7 +3886,7 @@
 "formats": {
 "Classic rock & hits": 2850.0,
 "Country": 2142.0,
-"News/Talk": 1683.0,
+"News/Talk": 6371.0,
 "Pop / AC": 6570.0
 },
 "name": "Gary L. Smith, Jr.",
@@ -3805,11 +3896,12 @@
 "WKBU": 2850.0,
 "WLMG": 4410.0,
 "WNOE": 2142.0,
-"WRNO": 1683.0
+"WRNO": 1683.0,
+"WWL": 4688.0
 },
-"total": 13245.0,
+"total": 17933.0,
 "years": {
-"2011": 13245.0
+"2011": 17933.0
 }
 },
 "2000": {
@@ -3863,6 +3955,7 @@
 "2014": {
 "formats": {
 "Black-audience": 14990.0,
+"News/Talk": 3570.0,
 "Pop / AC": 4600.0
 },
 "name": "Wesley T. Bishop",
@@ -3871,11 +3964,12 @@
 "WBOK": 1650.0,
 "WLMG": 4600.0,
 "WQUE": 6020.0,
+"WWL": 3570.0,
 "WYLD": 7320.0
 },
-"total": 19590.0,
+"total": 23160.0,
 "years": {
-"2015": 19590.0
+"2015": 23160.0
 }
 },
 "2017": {
@@ -4183,6 +4277,7 @@
 "2109": {
 "formats": {
 "Black-audience": 20854.0,
+"News/Talk": 12172.0,
 "Pop / AC": 7196.0
 },
 "name": "Nakisha Ervin-Knott",
@@ -4191,11 +4286,12 @@
 "KMEZ": 4580.0,
 "WBOK": 3360.0,
 "WLMG": 7196.0,
+"WWL": 12172.0,
 "WYLD": 12914.0
 },
-"total": 28050.0,
+"total": 40222.0,
 "years": {
-"2014": 28050.0
+"2014": 40222.0
 }
 },
 "2115": {
@@ -4380,17 +4476,19 @@
 },
 "2152": {
 "formats": {
-"Black-audience": 1783.0
+"Black-audience": 1783.0,
+"News/Talk": 725.0
 },
 "name": "Glen A. Woods",
 "party": "DEM",
 "stations": {
-"WBOK": 1783.0
+"WBOK": 1783.0,
+"WWL": 725.0
 },
-"total": 1783.0,
+"total": 2508.0,
 "years": {
 "2011": 1363.0,
-"2012": 420.0
+"2012": 1145.0
 }
 },
 "2153": {
@@ -4694,6 +4792,20 @@
 "2019": 3459.5
 }
 },
+"2233": {
+"formats": {
+"News/Talk": 220.46
+},
+"name": "Harold Asevedo",
+"party": "REP",
+"stations": {
+"WWL": 220.46
+},
+"total": 220.46,
+"years": {
+"2011": 220.46
+}
+},
 "2237": {
 "formats": {
 "News/Talk": 2028.0
@@ -4919,7 +5031,7 @@
 },
 "2282": {
 "formats": {
-"News/Talk": 13328.9,
+"News/Talk": 23015.9,
 "Pop / AC": 2385.0
 },
 "name": "John Fenn French",
@@ -4927,11 +5039,12 @@
 "stations": {
 "WGSO": 500.0,
 "WLMG": 2385.0,
-"WRNO": 12828.9
+"WRNO": 12828.9,
+"WWL": 9687.0
 },
-"total": 15713.9,
+"total": 25400.9,
 "years": {
-"2011": 15713.9
+"2011": 25400.9
 }
 },
 "2284": {
@@ -4997,7 +5110,7 @@
 "formats": {
 "Classic rock & hits": 380.0,
 "Country": 1646.0,
-"News/Talk": 300.0,
+"News/Talk": 4474.68,
 "Pop / AC": 540.0
 },
 "name": "Louis Fitzmorris",
@@ -5006,12 +5119,13 @@
 "WEZB": 540.0,
 "WGSO": 300.0,
 "WKBU": 380.0,
-"WNOE": 1646.0
+"WNOE": 1646.0,
+"WWL": 4174.68
 },
-"total": 2866.0,
+"total": 7040.68,
 "years": {
-"2011": 1266.0,
-"2015": 1600.0
+"2011": 4154.96,
+"2015": 2885.72
 }
 },
 "2326": {
@@ -5069,7 +5183,7 @@
 "formats": {
 "Black-audience": 1190.0,
 "Country": 2486.0,
-"News/Talk": 3944.0
+"News/Talk": 8228.0
 },
 "name": "Keep New Orleans Moving Forward",
 "party": "OTH",
@@ -5078,11 +5192,12 @@
 "WGSO": 714.0,
 "WNOE": 2486.0,
 "WRNO": 3230.0,
+"WWL": 4284.0,
 "WYLD": 714.0
 },
-"total": 7620.0,
+"total": 11904.0,
 "years": {
-"2013": 7620.0
+"2013": 11904.0
 }
 },
 "2356": {
@@ -5381,7 +5496,7 @@
 "2536": {
 "formats": {
 "Black-audience": 100165.75,
-"News/Talk": 10384.75,
+"News/Talk": 20593.25,
 "Pop / AC": 12125.25,
 "Spanish": 6655.88
 },
@@ -5395,12 +5510,13 @@
 "WLMG": 7318.5,
 "WQUE": 21336.25,
 "WRNO": 10384.75,
+"WWL": 10208.5,
 "WYLD": 45114.25
 },
-"total": 129331.63,
+"total": 139540.13,
 "years": {
 "2012": 2810.0,
-"2017": 98944.63,
+"2017": 109153.13,
 "2021": 27577.0
 }
 },
@@ -5440,7 +5556,7 @@
 "2555": {
 "formats": {
 "Black-audience": 10385.0,
-"News/Talk": 1506.0
+"News/Talk": 7586.0
 },
 "name": "Sarah Newell Usdin",
 "party": "DEM",
@@ -5448,11 +5564,12 @@
 "KMEZ": 2080.0,
 "WBOK": 2039.0,
 "WRNO": 1506.0,
+"WWL": 6080.0,
 "WYLD": 6266.0
 },
-"total": 11891.0,
+"total": 17971.0,
 "years": {
-"2012": 11891.0
+"2012": 17971.0
 }
 },
 "2563": {
@@ -5826,6 +5943,20 @@
 "2013": 525.0
 }
 },
+"2732": {
+"formats": {
+"News/Talk": 1160.0
+},
+"name": "Mark Vicknair",
+"party": "DEM",
+"stations": {
+"WWL": 1160.0
+},
+"total": 1160.0,
+"years": {
+"2013": 1160.0
+}
+},
 "2740": {
 "formats": {
 "News/Talk": 3825.0
@@ -5981,7 +6112,7 @@
 },
 "2781": {
 "formats": {
-"News/Talk": 9055.0,
+"News/Talk": 29773.75,
 "Spanish": 1450.0
 },
 "name": "Dominick Impastato",
@@ -5989,13 +6120,14 @@
 "stations": {
 "KGLA": 1450.0,
 "WGSO": 1870.0,
-"WRNO": 7185.0
+"WRNO": 7185.0,
+"WWL": 20718.75
 },
-"total": 10505.0,
+"total": 31223.75,
 "years": {
 "2014": 150.0,
 "2017": 8775.0,
-"2023": 1580.0
+"2023": 22298.75
 }
 },
 "2785": {
@@ -6040,6 +6172,20 @@
 "total": 4918.23,
 "years": {
 "2014": 4918.23
+}
+},
+"2797": {
+"formats": {
+"News/Talk": 1605.65
+},
+"name": "Michael Glaser",
+"party": "REP",
+"stations": {
+"WWL": 1605.65
+},
+"total": 1605.65,
+"years": {
+"2022": 1605.65
 }
 },
 "2798": {
@@ -6222,7 +6368,7 @@
 "2820": {
 "formats": {
 "Country": 198.05,
-"News/Talk": 174.25,
+"News/Talk": 301.75,
 "Pop / AC": 204.0
 },
 "name": "The Fund for Louisiana's Future",
@@ -6239,11 +6385,12 @@
 "WBRP": 42.5,
 "WNOE": 59.5,
 "WRNO": 64.6,
-"WTGE": 42.5
+"WTGE": 42.5,
+"WWL": 127.5
 },
-"total": 576.3,
+"total": 703.8,
 "years": {
-"2015": 576.3
+"2015": 703.8
 }
 },
 "2823": {
@@ -6366,16 +6513,18 @@
 },
 "2858": {
 "formats": {
-"News/Talk": 885.0
+"News/Talk": 3935.65
 },
 "name": "Keith Conley",
 "party": "REP",
 "stations": {
-"WGSO": 885.0
+"WGSO": 885.0,
+"WWL": 3050.65
 },
-"total": 885.0,
+"total": 3935.65,
 "years": {
-"2014": 885.0
+"2014": 2330.0,
+"2022": 1605.65
 }
 },
 "2860": {
@@ -6505,6 +6654,7 @@
 "Black-audience": 2320.0,
 "Classic rock & hits": 908.0,
 "Country": 1131.0,
+"News/Talk": 3580.0,
 "Pop / AC": 1814.0
 },
 "name": "Audubon Nature Institute",
@@ -6514,11 +6664,12 @@
 "WKBU": 908.0,
 "WLMG": 1814.0,
 "WNOE": 1131.0,
+"WWL": 3580.0,
 "WYLD": 1528.0
 },
-"total": 6173.0,
+"total": 9753.0,
 "years": {
-"2014": 6173.0
+"2014": 9753.0
 }
 },
 "2878": {
@@ -6634,18 +6785,19 @@
 "2904": {
 "formats": {
 "Country": 1175.0,
-"News/Talk": 1050.0
+"News/Talk": 3050.0
 },
 "name": "Alan Black",
 "party": "REP",
 "stations": {
 "WGSO": 200.0,
 "WNOE": 1175.0,
-"WRNO": 850.0
+"WRNO": 850.0,
+"WWL": 2000.0
 },
-"total": 2225.0,
+"total": 4225.0,
 "years": {
-"2014": 2225.0
+"2014": 4225.0
 }
 },
 "2905": {
@@ -6727,16 +6879,18 @@
 },
 "2923": {
 "formats": {
+"News/Talk": 3060.0,
 "Pop / AC": 2370.0
 },
 "name": "Brian Trainor",
 "party": "REP",
 "stations": {
-"WLMG": 2370.0
+"WLMG": 2370.0,
+"WWL": 3060.0
 },
-"total": 2370.0,
+"total": 5430.0,
 "years": {
-"2014": 2370.0
+"2014": 5430.0
 }
 },
 "2928": {
@@ -7244,7 +7398,7 @@
 "Christian": 5026.0,
 "Classic rock & hits": 3938.0,
 "Country": 41076.4,
-"News/Talk": 13255.12,
+"News/Talk": 35864.22,
 "Pop / AC": 35046.5
 },
 "name": "Kathleen Babineaux Blanco",
@@ -7287,14 +7441,15 @@
 "WLMG": 15505.5,
 "WNOE": 9284.0,
 "WQUE": 40700.0,
+"WWL": 22609.1,
 "WXOK": 12420.0,
 "WYLD": 47385.0,
 "WYNK": 8426.0
 },
-"total": 398096.5,
+"total": 420705.6,
 "years": {
-"2003": 352326.5,
-"2006": 45770.0
+"2003": 358710.6,
+"2006": 61995.0
 }
 },
 "3111": {
@@ -7509,7 +7664,7 @@
 "323": {
 "formats": {
 "Black-audience": 47570.0,
-"News/Talk": 18945.0,
+"News/Talk": 97896.72,
 "Pop / AC": 2240.0
 },
 "name": "Marlin Gusman",
@@ -7519,17 +7674,18 @@
 "WBOK": 9910.0,
 "WLMG": 2240.0,
 "WRNO": 18945.0,
+"WWL": 78951.72,
 "WYLD": 31510.0
 },
-"total": 68755.0,
+"total": 147706.72,
 "years": {
-"2009": 6160.0,
-"2010": 17145.0,
+"2009": 12324.52,
+"2010": 25280.0,
 "2012": 500.0,
 "2013": 500.0,
-"2014": 12275.0,
-"2021": 17910.0,
-"2022": 14265.0
+"2014": 32557.7,
+"2021": 58683.5,
+"2022": 17861.0
 }
 },
 "3238": {
@@ -7932,7 +8088,7 @@
 "3395": {
 "formats": {
 "Classic rock & hits": 3395.0,
-"News/Talk": 9775.0,
+"News/Talk": 21365.0,
 "Pop / AC": 2225.0,
 "Spanish": 600.0
 },
@@ -7942,12 +8098,13 @@
 "KGLA": 600.0,
 "WLMG": 2225.0,
 "WRNO": 9775.0,
-"WTIX": 3395.0
+"WTIX": 3395.0,
+"WWL": 11590.0
 },
-"total": 15995.0,
+"total": 27585.0,
 "years": {
-"2015": 5650.0,
-"2019": 9745.0,
+"2015": 9990.0,
+"2019": 16995.0,
 "2023": 600.0
 }
 },
@@ -8089,18 +8246,19 @@
 },
 "3445": {
 "formats": {
-"News/Talk": 5750.0,
+"News/Talk": 14630.0,
 "Pop / AC": 5360.0
 },
 "name": "Mike Thomas",
 "party": "REP",
 "stations": {
 "WLMG": 5360.0,
-"WRNO": 5750.0
+"WRNO": 5750.0,
+"WWL": 8880.0
 },
-"total": 11110.0,
+"total": 19990.0,
 "years": {
-"2015": 11110.0
+"2015": 19990.0
 }
 },
 "3446": {
@@ -8149,7 +8307,7 @@
 "Christian": 1484.95,
 "Classic rock & hits": 8613.05,
 "Country": 25103.05,
-"News/Talk": 32538.0,
+"News/Talk": 38615.5,
 "Pop / AC": 29852.0
 },
 "name": "David Mancuso LA Water Coalition PAC",
@@ -8176,11 +8334,12 @@
 "WNOE": 9571.0,
 "WRNO": 6438.75,
 "WRQQ": 2168.35,
-"WTGE": 4420.0
+"WTGE": 4420.0,
+"WWL": 6077.5
 },
-"total": 97591.05,
+"total": 103668.55,
 "years": {
-"2015": 97591.05
+"2015": 103668.55
 }
 },
 "3467": {
@@ -8461,6 +8620,7 @@
 "3646": {
 "formats": {
 "Black-audience": 20005.0,
+"News/Talk": 4395.0,
 "Pop / AC": 1660.0
 },
 "name": "R. Erich Caulfield",
@@ -8469,28 +8629,30 @@
 "KMEZ": 3315.0,
 "WBOK": 2065.0,
 "WLMG": 1660.0,
+"WWL": 4395.0,
 "WYLD": 14625.0
 },
-"total": 21665.0,
+"total": 26060.0,
 "years": {
-"2015": 21665.0
+"2015": 26060.0
 }
 },
 "365": {
 "formats": {
-"News/Talk": 21741.25
+"News/Talk": 37631.25
 },
 "name": "Daniel R. Martiny",
 "party": "REP",
 "stations": {
 "WGSO": 200.0,
-"WRNO": 21541.25
+"WRNO": 21541.25,
+"WWL": 15890.0
 },
-"total": 21741.25,
+"total": 37631.25,
 "years": {
 "2003": 200.0,
 "2007": 2231.25,
-"2017": 19310.0
+"2017": 35200.0
 }
 },
 "3651": {
@@ -8665,6 +8827,20 @@
 "2015": 1080.0
 }
 },
+"372": {
+"formats": {
+"News/Talk": 363.6
+},
+"name": "Kernan Hand",
+"party": "REP",
+"stations": {
+"WWL": 363.6
+},
+"total": 363.6,
+"years": {
+"2011": 363.6
+}
+},
 "3727": {
 "formats": {
 "Country": 1345.0,
@@ -8775,17 +8951,18 @@
 },
 "381": {
 "formats": {
-"News/Talk": 1320.0
+"News/Talk": 2802.6
 },
 "name": "Patricia Core",
 "party": "REP",
 "stations": {
 "WGSO": 300.0,
-"WRNO": 1020.0
+"WRNO": 1020.0,
+"WWL": 1482.6
 },
-"total": 1320.0,
+"total": 2802.6,
 "years": {
-"2011": 1320.0
+"2011": 2802.6
 }
 },
 "3837": {
@@ -8804,19 +8981,22 @@
 },
 "3847": {
 "formats": {
-"Black-audience": 31963.0
+"Black-audience": 31963.0,
+"News/Talk": 93984.0
 },
 "name": "New Horizon's USA",
 "party": "OTH",
 "stations": {
 "KMEZ": 6550.0,
 "WBOK": 6313.0,
+"WWL": 93984.0,
 "WYLD": 19100.0
 },
-"total": 31963.0,
+"total": 125947.0,
 "years": {
 "2019": 30000.0,
-"2023": 1963.0
+"2023": 18027.0,
+"2026": 77920.0
 }
 },
 "392": {
@@ -8908,7 +9088,7 @@
 "formats": {
 "Classic rock & hits": 6550.0,
 "Country": 13182.0,
-"News/Talk": 39310.0,
+"News/Talk": 63610.0,
 "Pop / AC": 11565.0
 },
 "name": "Louisiana Federation for Children Action Fund",
@@ -8923,11 +9103,12 @@
 "WKBU": 6550.0,
 "WLMG": 9690.0,
 "WNOE": 6249.0,
-"WRNO": 11727.0
+"WRNO": 11727.0,
+"WWL": 24300.0
 },
-"total": 70607.0,
+"total": 94907.0,
 "years": {
-"2019": 58147.0,
+"2019": 82447.0,
 "2021": 12460.0
 }
 },
@@ -9049,7 +9230,7 @@
 "4043": {
 "formats": {
 "Country": 12900.0,
-"News/Talk": 13983.6,
+"News/Talk": 25773.6,
 "Pop / AC": 10200.0,
 "Sports": 2700.0
 },
@@ -9064,11 +9245,12 @@
 "WBRP": 3000.0,
 "WJBO": 8160.0,
 "WNXX": 2700.0,
+"WWL": 11790.0,
 "WYNK": 4500.0
 },
-"total": 39783.6,
+"total": 51573.6,
 "years": {
-"2017": 39783.6
+"2017": 51573.6
 }
 },
 "4054": {
@@ -9091,7 +9273,7 @@
 "Cajun / Americana": 1370.63,
 "Christian": 3647.98,
 "Country": 10271.44,
-"News/Talk": 2541.54
+"News/Talk": 13341.54
 },
 "name": "John Stefanski",
 "party": "REP",
@@ -9103,9 +9285,10 @@
 "KMDL": 4933.44,
 "KMLB": 405.0,
 "KPEL": 2136.54,
-"KSIG": 4100.0
+"KSIG": 4100.0,
+"WWL": 10800.0
 },
-"total": 34878.65,
+"total": 45678.65,
 "years": {
 "2017": 11688.59,
 "2018": 1200.0,
@@ -9113,7 +9296,7 @@
 "2020": 1050.0,
 "2021": 350.0,
 "2022": 150.0,
-"2023": 18690.06
+"2023": 29490.06
 }
 },
 "4056": {
@@ -9342,7 +9525,7 @@
 "Black-audience": 20921.6,
 "Classic rock & hits": 27361.95,
 "Country": 44432.49,
-"News/Talk": 7665.16,
+"News/Talk": 18538.02,
 "Pop / AC": 36869.99,
 "Unclassified": 1697.37
 },
@@ -9368,11 +9551,12 @@
 "WLMG": 17345.83,
 "WNOE": 14050.3,
 "WRQQ": 6916.96,
+"WWL": 10872.86,
 "WYNK": 7169.81
 },
-"total": 138948.56,
+"total": 149821.42,
 "years": {
-"2017": 138948.56
+"2017": 149821.42
 }
 },
 "4131": {
@@ -9415,7 +9599,7 @@
 "Black-audience": 6285.75,
 "Classic rock & hits": 1925.25,
 "Country": 2494.75,
-"News/Talk": 4845.0
+"News/Talk": 10319.0
 },
 "name": "NOTFORSALENOLA.COM PAC",
 "party": "OTH",
@@ -9424,11 +9608,12 @@
 "WKBU": 1925.25,
 "WNOE": 2494.75,
 "WRNO": 4845.0,
+"WWL": 5474.0,
 "WYLD": 5435.75
 },
-"total": 15550.75,
+"total": 21024.75,
 "years": {
-"2017": 15550.75
+"2017": 21024.75
 }
 },
 "4144": {
@@ -9661,17 +9846,18 @@
 "4214": {
 "formats": {
 "Classic rock & hits": 1445.0,
-"News/Talk": 714.0
+"News/Talk": 3213.0
 },
 "name": "Kristi K McKinney",
 "party": "REP",
 "stations": {
 "WGSO": 714.0,
-"WTIX": 1445.0
+"WTIX": 1445.0,
+"WWL": 2499.0
 },
-"total": 2159.0,
+"total": 4658.0,
 "years": {
-"2018": 2159.0
+"2018": 4658.0
 }
 },
 "4218": {
@@ -10094,6 +10280,7 @@
 "formats": {
 "Black-audience": 74838.6,
 "Country": 3590.4,
+"News/Talk": 8544.5,
 "Pop / AC": 3485.0
 },
 "name": "Ray Nagin",
@@ -10104,14 +10291,16 @@
 "WLMG": 3485.0,
 "WNOE": 3590.4,
 "WQUE": 10489.0,
+"WWL": 8544.5,
 "WYLD": 34793.6
 },
-"total": 81914.0,
+"total": 90458.5,
 "years": {
 "2001": 5916.0,
-"2002": 67573.0,
+"2002": 74117.5,
 "2006": 3325.0,
-"2007": 5100.0
+"2007": 5100.0,
+"2010": 2000.0
 }
 },
 "4363": {
@@ -10147,24 +10336,26 @@
 },
 "438": {
 "formats": {
-"Black-audience": 3318.85
+"Black-audience": 3318.85,
+"News/Talk": 1198.5
 },
 "name": "Tommie A. Vassel",
 "party": "DEM",
 "stations": {
 "KMEZ": 1411.0,
-"WBOK": 1907.85
+"WBOK": 1907.85,
+"WWL": 1198.5
 },
-"total": 3318.85,
+"total": 4517.35,
 "years": {
-"2002": 1411.0,
+"2002": 2609.5,
 "2017": 1907.85
 }
 },
 "4383": {
 "formats": {
 "Country": 734.41,
-"News/Talk": 13585.7
+"News/Talk": 21341.55
 },
 "name": "Edward L. Rispone",
 "party": "REP",
@@ -10175,11 +10366,12 @@
 "KMLB": 1183.9,
 "KPEL": 6482.01,
 "KRMD": 181.91,
-"KSYL": 1967.04
+"KSYL": 1967.04,
+"WWL": 7755.85
 },
-"total": 14320.11,
+"total": 22075.96,
 "years": {
-"2019": 14320.11
+"2019": 22075.96
 }
 },
 "4387": {
@@ -10250,7 +10442,7 @@
 "Christian": 2267.87,
 "Classic rock & hits": 614.25,
 "Country": 21218.55,
-"News/Talk": 68347.65
+"News/Talk": 81705.4
 },
 "name": "Dr. Ralph Abraham",
 "party": "REP",
@@ -10267,11 +10459,12 @@
 "WJBO": 13770.0,
 "WRNO": 27195.75,
 "WTGE": 10085.25,
+"WWL": 13357.75,
 "WYNK": 11133.3
 },
-"total": 92448.32,
+"total": 105806.07,
 "years": {
-"2019": 92448.32
+"2019": 105806.07
 }
 },
 "4427": {
@@ -10428,17 +10621,18 @@
 },
 "4472": {
 "formats": {
-"News/Talk": 3920.0
+"News/Talk": 12420.0
 },
 "name": "Timothy Temple",
 "party": "REP",
 "stations": {
 "WBRP": 1700.0,
-"WGSO": 2220.0
+"WGSO": 2220.0,
+"WWL": 8500.0
 },
-"total": 3920.0,
+"total": 12420.0,
 "years": {
-"2023": 3920.0
+"2023": 12420.0
 }
 },
 "4495": {
@@ -10650,18 +10844,19 @@
 },
 "4576": {
 "formats": {
-"News/Talk": 7616.0
+"News/Talk": 13616.0
 },
 "name": "PROTECT LOUISIANA PAC",
 "party": "OTH",
 "stations": {
 "KEEL": 380.0,
 "WJBO": 3450.0,
-"WRNO": 3786.0
+"WRNO": 3786.0,
+"WWL": 6000.0
 },
-"total": 7616.0,
+"total": 13616.0,
 "years": {
-"2019": 7616.0
+"2019": 13616.0
 }
 },
 "4578": {
@@ -11070,7 +11265,7 @@
 "formats": {
 "Black-audience": 5995.0,
 "Country": 2483.0,
-"News/Talk": 4063.5
+"News/Talk": 8897.5
 },
 "name": "Jacquelyn Clarkson",
 "party": "DEM",
@@ -11080,12 +11275,13 @@
 "WNOE": 2483.0,
 "WQUE": 1973.0,
 "WRNO": 3043.5,
+"WWL": 4834.0,
 "WYLD": 2772.0
 },
-"total": 12541.5,
+"total": 17375.5,
 "years": {
 "2013": 2.45,
-"2014": 12539.05
+"2014": 17373.05
 }
 },
 "4791": {
@@ -11453,7 +11649,7 @@
 "Christian": 3017.59,
 "Classic rock & hits": 10086.44,
 "Country": 40274.53,
-"News/Talk": 60473.25,
+"News/Talk": 79853.25,
 "Pop / AC": 18661.75,
 "Sports": 7055.0,
 "Unclassified": 346.8
@@ -11498,27 +11694,30 @@
 "WRNO": 11334.75,
 "WRQQ": 1861.5,
 "WTGE": 6672.5,
+"WWL": 19380.0,
 "WYNK": 7475.75
 },
-"total": 144513.56,
+"total": 163893.56,
 "years": {
-"2015": 144513.56
+"2015": 163893.56
 }
 },
 "4919": {
 "formats": {
 "Country": 9612.0,
+"News/Talk": 15000.0,
 "Pop / AC": 13660.0
 },
 "name": "Jambalaya PAC",
 "party": "OTH",
 "stations": {
 "WLMG": 13660.0,
-"WNOE": 9612.0
+"WNOE": 9612.0,
+"WWL": 15000.0
 },
-"total": 23272.0,
+"total": 38272.0,
 "years": {
-"2019": 23272.0
+"2019": 38272.0
 }
 },
 "4940": {
@@ -11584,18 +11783,20 @@
 },
 "499": {
 "formats": {
-"Black-audience": 31358.0
+"Black-audience": 31358.0,
+"News/Talk": 13311.5
 },
 "name": "Lloyd J. Medley, Jr.",
 "party": "DEM",
 "stations": {
 "KMEZ": 6226.0,
 "WBOK": 5922.0,
+"WWL": 13311.5,
 "WYLD": 19210.0
 },
-"total": 31358.0,
+"total": 44669.5,
 "years": {
-"2014": 31358.0
+"2014": 44669.5
 }
 },
 "4992": {
@@ -11928,6 +12129,20 @@
 "2020": 400.0
 }
 },
+"5137": {
+"formats": {
+"News/Talk": 2845.8
+},
+"name": "Jerry Smith",
+"party": "REP",
+"stations": {
+"WWL": 2845.8
+},
+"total": 2845.8,
+"years": {
+"2024": 2845.8
+}
+},
 "5138": {
 "formats": {
 "Cajun / Americana": 600.0
@@ -12011,18 +12226,19 @@
 },
 "5162": {
 "formats": {
-"News/Talk": 714.0,
+"News/Talk": 5734.95,
 "Spanish": 555.0
 },
 "name": "Jason Ural",
 "party": "REP",
 "stations": {
 "KGLA": 555.0,
-"WGSO": 714.0
+"WGSO": 714.0,
+"WWL": 5020.95
 },
-"total": 1269.0,
+"total": 6289.95,
 "years": {
-"2020": 1269.0
+"2020": 6289.95
 }
 },
 "5169": {
@@ -12056,17 +12272,18 @@
 "5194": {
 "formats": {
 "Black-audience": 655.0,
-"News/Talk": 520.0
+"News/Talk": 2185.0
 },
 "name": "Richard Sanderson II",
 "party": "REP",
 "stations": {
 "WBOK": 655.0,
-"WGSO": 520.0
+"WGSO": 520.0,
+"WWL": 1665.0
 },
-"total": 1175.0,
+"total": 2840.0,
 "years": {
-"2020": 1175.0
+"2020": 2840.0
 }
 },
 "5196": {
@@ -12343,16 +12560,18 @@
 },
 "5395": {
 "formats": {
+"News/Talk": 20900.0,
 "Pop / AC": 15030.0
 },
 "name": "Voters Organized to Educate",
 "party": "OTH",
 "stations": {
-"WFMF": 15030.0
+"WFMF": 15030.0,
+"WWL": 20900.0
 },
-"total": 15030.0,
+"total": 35930.0,
 "years": {
-"2022": 15030.0
+"2022": 35930.0
 }
 },
 "54": {
@@ -12403,17 +12622,19 @@
 "5420": {
 "formats": {
 "Classic rock & hits": 1105.0,
+"News/Talk": 3910.0,
 "Pop / AC": 1275.0
 },
 "name": "Edwin T. Connick",
 "party": "REP",
 "stations": {
 "WKBU": 1105.0,
-"WLMG": 1275.0
+"WLMG": 1275.0,
+"WWL": 3910.0
 },
-"total": 2380.0,
+"total": 6290.0,
 "years": {
-"2021": 2380.0
+"2021": 6290.0
 }
 },
 "5427": {
@@ -12447,17 +12668,18 @@
 },
 "5441": {
 "formats": {
-"News/Talk": 6885.0
+"News/Talk": 12211.67
 },
 "name": "Republican Legislative Delegation Campaign Committee, Inc.",
 "party": "OTH",
 "stations": {
 "KEEL": 2677.5,
-"WJBO": 4207.5
+"WJBO": 4207.5,
+"WWL": 5326.67
 },
-"total": 6885.0,
+"total": 12211.67,
 "years": {
-"2025": 6885.0
+"2025": 12211.67
 }
 },
 "5456": {
@@ -12477,6 +12699,7 @@
 "546": {
 "formats": {
 "Black-audience": 27522.21,
+"News/Talk": 3459.98,
 "Pop / AC": 2486.0
 },
 "name": "Herbert A. Cade",
@@ -12485,12 +12708,13 @@
 "KMEZ": 9396.75,
 "WBOK": 3522.46,
 "WLMG": 2486.0,
+"WWL": 3459.98,
 "WYLD": 14603.0
 },
-"total": 30008.21,
+"total": 33468.19,
 "years": {
 "2002": 17029.45,
-"2011": 12978.76
+"2011": 16438.74
 }
 },
 "5473": {
@@ -12539,18 +12763,20 @@
 "55": {
 "formats": {
 "Classic rock & hits": 2103.75,
+"News/Talk": 9017.13,
 "Pop / AC": 6931.75
 },
 "name": "Nick Congemi",
 "party": "OTH",
 "stations": {
 "WKBU": 2103.75,
-"WLMG": 6931.75
+"WLMG": 6931.75,
+"WWL": 9017.13
 },
-"total": 9035.5,
+"total": 18052.63,
 "years": {
-"2004": 2839.0,
-"2006": 6196.5
+"2004": 4839.05,
+"2006": 13213.58
 }
 },
 "5507": {
@@ -12570,6 +12796,7 @@
 "5511": {
 "formats": {
 "Black-audience": 19084.0,
+"News/Talk": 4820.0,
 "Sports": 756.0
 },
 "name": "Oliver Thomas",
@@ -12579,11 +12806,12 @@
 "KMEZ": 5264.0,
 "WBOK": 2490.0,
 "WQUE": 4900.0,
+"WWL": 4820.0,
 "WYLD": 6430.0
 },
-"total": 19840.0,
+"total": 24660.0,
 "years": {
-"2025": 19840.0
+"2025": 24660.0
 }
 },
 "5512": {
@@ -12604,7 +12832,7 @@
 "formats": {
 "Classic rock & hits": 3576.0,
 "Country": 27255.0,
-"News/Talk": 37085.0,
+"News/Talk": 185715.0,
 "Pop / AC": 14641.0
 },
 "name": "The Northshore Wins, Inc.",
@@ -12613,11 +12841,12 @@
 "WLMG": 14641.0,
 "WNOE": 27255.0,
 "WRNO": 37085.0,
-"WTIX": 3576.0
+"WTIX": 3576.0,
+"WWL": 148630.0
 },
-"total": 82557.0,
+"total": 231187.0,
 "years": {
-"2021": 82557.0
+"2021": 231187.0
 }
 },
 "5523": {
@@ -12632,6 +12861,20 @@
 "total": 420.0,
 "years": {
 "2021": 420.0
+}
+},
+"5546": {
+"formats": {
+"News/Talk": 6400.0
+},
+"name": "Yes for NOLA Library",
+"party": "OTH",
+"stations": {
+"WWL": 6400.0
+},
+"total": 6400.0,
+"years": {
+"2021": 6400.0
 }
 },
 "5550": {
@@ -12714,7 +12957,7 @@
 },
 "5579": {
 "formats": {
-"News/Talk": 54031.1
+"News/Talk": 78256.1
 },
 "name": "Elizabeth Murrill",
 "party": "REP",
@@ -12727,11 +12970,12 @@
 "KSYL": 1326.0,
 "WBRP": 5814.0,
 "WJBO": 5547.1,
-"WRNO": 22185.0
+"WRNO": 22185.0,
+"WWL": 24225.0
 },
-"total": 54031.1,
+"total": 78256.1,
 "years": {
-"2023": 54031.1
+"2023": 78256.1
 }
 },
 "5596": {
@@ -12751,7 +12995,8 @@
 "5603": {
 "formats": {
 "Black-audience": 43426.64,
-"Christian": 12772.83
+"Christian": 12772.83,
+"News/Talk": 49993.9
 },
 "name": "Hunter W. Lundy",
 "party": "DEM",
@@ -12768,11 +13013,12 @@
 "WBOK": 1873.54,
 "WEMX": 1530.0,
 "WQUE": 19656.25,
+"WWL": 49993.9,
 "WYLD": 3931.25
 },
-"total": 56199.47,
+"total": 106193.37,
 "years": {
-"2023": 56199.47
+"2023": 106193.37
 }
 },
 "5606": {
@@ -13504,6 +13750,7 @@
 "Black-audience": 6620.0,
 "Classic rock & hits": 2300.0,
 "Country": 4236.0,
+"News/Talk": 11352.0,
 "Pop / AC": 5070.0
 },
 "name": "Randy Ewing",
@@ -13514,12 +13761,13 @@
 "WNOE": 3636.0,
 "WQUE": 2800.0,
 "WTIX": 2300.0,
+"WWL": 11352.0,
 "WYLD": 3820.0
 },
-"total": 18226.0,
+"total": 29578.0,
 "years": {
 "2002": 600.0,
-"2003": 17626.0
+"2003": 28978.0
 }
 },
 "6066": {
@@ -13758,7 +14006,7 @@
 "Christian": 5065.61,
 "Classic rock & hits": 30506.2,
 "Country": 85961.2,
-"News/Talk": 66418.74,
+"News/Talk": 92971.58,
 "Pop / AC": 46024.51,
 "Sports": 1581.0,
 "Unclassified": 5565.16
@@ -13814,14 +14062,15 @@
 "WRNO": 11793.75,
 "WTGE": 3241.05,
 "WTIX": 7008.75,
+"WWL": 26552.84,
 "WXOK": 6410.07,
 "WYLD": 25820.07,
 "WYNK": 16500.15
 },
-"total": 329311.42,
+"total": 355864.26,
 "years": {
-"2003": 70071.07,
-"2007": 259240.35
+"2003": 90305.07,
+"2007": 265559.19
 }
 },
 "632": {
@@ -13909,6 +14158,20 @@
 "2024": 1050.0
 }
 },
+"6352": {
+"formats": {
+"News/Talk": 8849.35
+},
+"name": "Lindsey Valenti",
+"party": "REP",
+"stations": {
+"WWL": 8849.35
+},
+"total": 8849.35,
+"years": {
+"2024": 8849.35
+}
+},
 "6355": {
 "formats": {
 "Black-audience": 2000.0,
@@ -13973,17 +14236,18 @@
 },
 "6399": {
 "formats": {
-"News/Talk": 6885.0
+"News/Talk": 12211.67
 },
 "name": "Foundation PAC",
 "party": "OTH",
 "stations": {
 "KEEL": 2677.5,
-"WJBO": 4207.5
+"WJBO": 4207.5,
+"WWL": 5326.67
 },
-"total": 6885.0,
+"total": 12211.67,
 "years": {
-"2025": 6885.0
+"2025": 12211.67
 }
 },
 "6409": {
@@ -14113,17 +14377,18 @@
 "658": {
 "formats": {
 "Cajun / Americana": 2000.0,
-"News/Talk": 360.0
+"News/Talk": 1017.9
 },
 "name": "Melinda Schwegmann",
 "party": "OTH",
 "stations": {
 "KBON": 2000.0,
-"KSYL": 360.0
+"KSYL": 360.0,
+"WWL": 657.9
 },
-"total": 2360.0,
+"total": 3017.9,
 "years": {
-"2003": 2360.0
+"2003": 3017.9
 }
 },
 "6596": {
@@ -14171,18 +14436,20 @@
 },
 "6600": {
 "formats": {
-"Black-audience": 39504.0
+"Black-audience": 39504.0,
+"News/Talk": 17583.0
 },
 "name": "Michelle M. Woodfork",
 "party": "DEM",
 "stations": {
 "KMEZ": 6352.0,
 "WBOK": 7262.0,
+"WWL": 17583.0,
 "WYLD": 25890.0
 },
-"total": 39504.0,
+"total": 57087.0,
 "years": {
-"2025": 39504.0
+"2025": 57087.0
 }
 },
 "6620": {
@@ -14405,6 +14672,20 @@
 "2026": 952.5
 }
 },
+"7125": {
+"formats": {
+"News/Talk": 17560.0
+},
+"name": "FIRST PRINCIPLES PAC",
+"party": "OTH",
+"stations": {
+"WWL": 17560.0
+},
+"total": 17560.0,
+"years": {
+"2026": 17560.0
+}
+},
 "7180": {
 "formats": {
 "Black-audience": 315.0
@@ -14526,7 +14807,7 @@
 "781": {
 "formats": {
 "Country": 5384.75,
-"News/Talk": 17608.75,
+"News/Talk": 24478.75,
 "Spanish": 300.0
 },
 "name": "Eric Skrmetta",
@@ -14535,12 +14816,13 @@
 "KGLA": 300.0,
 "WGSO": 1650.0,
 "WNOE": 5384.75,
-"WRNO": 15958.75
+"WRNO": 15958.75,
+"WWL": 6870.0
 },
-"total": 23293.5,
+"total": 30163.5,
 "years": {
 "2014": 22159.5,
-"2020": 1134.0
+"2020": 8004.0
 }
 },
 "789": {
@@ -14762,7 +15044,7 @@
 "87": {
 "formats": {
 "Black-audience": 9222.0,
-"News/Talk": 3900.0
+"News/Talk": 12024.0
 },
 "name": "Robin M. Giarrusso",
 "party": "DEM",
@@ -14770,11 +15052,12 @@
 "KMEZ": 1005.0,
 "WBOK": 1170.0,
 "WRNO": 3900.0,
+"WWL": 8124.0,
 "WYLD": 7047.0
 },
-"total": 13122.0,
+"total": 21246.0,
 "years": {
-"2020": 13122.0
+"2020": 21246.0
 }
 },
 "872": {
@@ -14944,7 +15227,7 @@
 "formats": {
 "Black-audience": 34222.0,
 "Classic rock & hits": 860.0,
-"News/Talk": 870.0,
+"News/Talk": 13970.0,
 "Sports": 1320.0
 },
 "name": "House Democratic Campaign Committee of LA",
@@ -14955,27 +15238,30 @@
 "WKBU": 860.0,
 "WQUE": 11640.0,
 "WRNO": 870.0,
+"WWL": 13100.0,
 "WYLD": 20992.0
 },
-"total": 37272.0,
+"total": 50372.0,
 "years": {
-"2023": 37272.0
+"2023": 50372.0
 }
 },
 "942": {
 "formats": {
 "Black-audience": 178.5,
-"Country": 459.0
+"Country": 459.0,
+"News/Talk": 2929.95
 },
 "name": "Steve Caraway",
 "party": "OTH",
 "stations": {
 "WNOE": 459.0,
+"WWL": 2929.95,
 "WYLD": 178.5
 },
-"total": 637.5,
+"total": 3567.45,
 "years": {
-"2006": 637.5
+"2006": 3567.45
 }
 },
 "948": {
@@ -15027,25 +15313,69 @@
 "2023": 549.12
 }
 },
+"959": {
+"formats": {
+"News/Talk": 12179.2
+},
+"name": "Virginia Boulet",
+"party": "OTH",
+"stations": {
+"WWL": 12179.2
+},
+"total": 12179.2,
+"years": {
+"2007": 12179.2
+}
+},
+"969": {
+"formats": {
+"News/Talk": 307.78
+},
+"name": "Rick Aromy",
+"party": "OTH",
+"stations": {
+"WWL": 307.78
+},
+"total": 307.78,
+"years": {
+"2006": 307.78
+}
+},
 "973": {
 "formats": {
-"Classic rock & hits": 8200.0
+"Classic rock & hits": 8200.0,
+"News/Talk": 19342.0
 },
 "name": "Peggy Wilson",
 "party": "DEM",
 "stations": {
-"WKBU": 8200.0
+"WKBU": 8200.0,
+"WWL": 19342.0
 },
-"total": 8200.0,
+"total": 27542.0,
 "years": {
-"2006": 8200.0
+"2006": 27542.0
+}
+},
+"976": {
+"formats": {
+"News/Talk": 12031.5
+},
+"name": "Anybody But Batt PAC",
+"party": "OTH",
+"stations": {
+"WWL": 12031.5
+},
+"total": 12031.5,
+"years": {
+"2006": 12031.5
 }
 },
 "984": {
 "formats": {
 "Black-audience": 6004.2,
 "Country": 3424.0,
-"News/Talk": 6697.4,
+"News/Talk": 9832.2,
 "Pop / AC": 646.0
 },
 "name": "Stacy Head",
@@ -15057,12 +15387,13 @@
 "WLMG": 646.0,
 "WNOE": 3424.0,
 "WRNO": 4075.4,
+"WWL": 3134.8,
 "WYLD": 941.25
 },
-"total": 16771.6,
+"total": 19906.4,
 "years": {
 "2012": 11794.0,
-"2014": 4977.6
+"2014": 8112.4
 }
 },
 "989": {
@@ -15105,7 +15436,7 @@
 "Christian": 3503.2,
 "Classic rock & hits": 12636.5,
 "Country": 76069.17,
-"News/Talk": 91535.8,
+"News/Talk": 104865.8,
 "Pop / AC": 11432.0
 },
 "name": "LA Conservative Majority PAC (formerly LA Committee for a Republican Majority)",
@@ -15135,12 +15466,13 @@
 "KZMZ": 7974.0,
 "KZRZ": 1392.0,
 "WNOE": 12265.0,
-"WRNO": 11865.0
+"WRNO": 11865.0,
+"WWL": 13330.0
 },
-"total": 200394.47,
+"total": 213724.47,
 "years": {
 "2007": 61336.81,
-"2011": 79215.4,
+"2011": 92545.4,
 "2019": 45226.0,
 "2021": 3816.26,
 "2023": 10800.0
@@ -15152,7 +15484,7 @@
 "Christian": 364.07,
 "Classic rock & hits": 6458.54,
 "Country": 10097.81,
-"News/Talk": 22323.6,
+"News/Talk": 35223.6,
 "Sports": 2636.67,
 "Unclassified": 432.07
 },
@@ -15184,13 +15516,14 @@
 "WRQQ": 476.0,
 "WTGE": 3005.41,
 "WTIX": 459.0,
+"WWL": 12900.0,
 "WYNK": 1897.2
 },
-"total": 42618.76,
+"total": 55518.76,
 "years": {
-"2007": 1636.25,
-"2011": 1596.0,
-"2019": 26386.51,
+"2007": 4186.25,
+"2011": 3786.0,
+"2019": 34546.51,
 "2022": 3000.0,
 "2024": 10000.0
 }

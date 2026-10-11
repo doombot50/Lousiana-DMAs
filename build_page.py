@@ -25,39 +25,66 @@ import json
 import os
 import re
 import sys
-import time
-from collections import Counter, defaultdict
-from datetime import date, timedelta
+from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
-from normalize import (aliases, bucket, buyer_folder, buyer_from_filename, buyer_key,  # noqa: E402
-                       classify, clean_name, fcc_url, filer_index, match_filer, out_of_state,
-                       parse_path, tidy_caps)
-from site_nav import NAV_CSS, nav  # noqa: E402
+from filings import GOV_YEARS  # noqa: E402
+from markets import BY_NAME, BY_TOPO, MARKETS  # noqa: E402
+from page_shell import publish  # noqa: E402
+from prose import money, money_words, series, words  # noqa: E402
+from summary import fcc_summary  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
-DESCRIPTION = ('Louisiana political committees have paid the state’s TV stations '
-               '$121 million since 2000. Where it went, by Nielsen market, station, '
-               'owner and party.')
+# Each governor's race, for the copy's "the 2019 Edwards–Rispone runoff".
+RACES = {2003: 'Blanco–Jindal runoff', 2007: 'Jindal first-round win', 2011: 'Jindal re-election',
+         2015: 'Edwards–Vitter runoff', 2019: 'Edwards–Rispone runoff', 2023: 'Landry first-round win'}
+# The outside groups the copy names as the 2019 and 2023 air war, by filer.
+OUTSIDE = {'6034': "RGA's Right Direction PAC", '3354': 'Gumbo PAC', '2820': "The Fund for Louisiana's Future"}
 
-# Market keys, ranks and 2024-25 Nielsen TV households.
-MARKETS = {
-    'NO':  ('New Orleans',       50, 672790),
-    'SHV': ('Shreveport',        91, 375030),
-    'BR':  ('Baton Rouge',       95, 355760),
-    'LAF': ('Lafayette',        124, 245210),
-    'MON': ('Monroe–El Dorado', 142, 171300),
-    'LKC': ('Lake Charles',     177,  97170),
-    'ALX': ('Alexandria',       183,  85710),
-}
-# station_spend.json spells markets out; map_paths.json carries Nielsen's own names.
-BY_NAME = {v[0]: k for k, v in MARKETS.items()}
-BY_TOPO = {'New Orleans, LA': 'NO', 'Baton Rouge, LA': 'BR', 'Shreveport, LA': 'SHV',
-           'Lafayette, LA': 'LAF', 'Lake Charles, LA': 'LKC',
-           'Monroe, LA-El Dorado, AR': 'MON', 'Alexandria, LA': 'ALX'}
-GOV_YEARS = {2003, 2007, 2011, 2015, 2019, 2023, 2027}
+
+def facts(spend):
+    """The figures the page's written copy quotes, from the data (see prose.py)."""
+    total, (lo, _) = spend['total_spend'], spend['years_covered']
+    per_year = defaultdict(float)
+    for st in spend['stations']:
+        for y, v in st['by_year'].items():
+            per_year[int(y)] += v
+    this_year = int(spend['data_through'][:4])
+    gov_done = [y for y in sorted(GOV_YEARS) if y < this_year and y in per_year]
+    peak = max(per_year, key=per_year.get)
+    # How many of the quietest years it takes to add up to the peak year.
+    quiet, acc = 0, 0.0
+    for v in sorted(v for y, v in per_year.items() if y != peak):
+        if acc + v >= per_year[peak]:
+            break
+        acc, quiet = acc + v, quiet + 1
+    n_st = len(spend['stations'])
+    own = {o['group']: o for o in spend['owners']}
+    nex, gray = own['nexstar'], own['gray']
+    b1, b2 = spend['top_buyers'][:2]
+    outside = {b['filer']: b for b in spend['top_buyers'] if b['filer'] in OUTSIDE}
+    reach = sorted(outside[f]['stations'] for f in OUTSIDE if f in outside)
+    gap = spend['years_missing'][0] if spend['years_missing'] else None
+    near = [y for y in (gap - 2, gap - 1, gap + 1, gap + 2) if y in per_year and y not in GOV_YEARS][:2] if gap else []
+    return {
+        'tv_total': money_words(total), 'tv_since': lo,
+        'gov_years': ', '.join(map(str, gov_done)),
+        'peak_race': f"{peak} {RACES[peak]}" if peak in RACES else str(peak),
+        'peak_amount': money(per_year[peak]), 'quiet_years': words(quiet),
+        'nex_n': words(nex['stations']), 'gray_n': words(gray['stations']), 'stations_n': words(n_st),
+        'nex_most': ' — the most of any group —' if nex['stations'] == max(o['stations'] for o in own.values()) else '',
+        'nex_share': f"{nex['share'] * 100:.1f}%", 'gray_share': f"{gray['share'] * 100:.1f}%",
+        'b1_name': b1['name'], 'b1_amount': money(b1['amount']), 'b1_stations': b1['stations'],
+        'b2_name': b2['name'], 'b2_amount': money(b2['amount']), 'n_stations': n_st,
+        'outside_reach': (f'each buying between {reach[0]} and {reach[-1]} of the {n_st} stations'
+                          if reach and reach[0] != reach[-1] else f'each buying {reach[0]} of the {n_st} stations'),
+        'rows_m': f"{spend['rows_scanned'] / 1e6:.2f} million",
+        'gap_year': gap,
+        'gap_near': series(f'{money(per_year[y])} in {y}' for y in near) if near else 'little',
+    }
+
 # Map labels and city dots, by longitude/latitude; build_map.py's projection
 # places them. Market labels sit inside each market's Louisiana side.
 MAP_LABELS = {'NO': (-89.918, 30.216), 'BR': (-91.23, 30.569), 'SHV': (-93.565, 32.362),
@@ -92,161 +119,6 @@ def louisiana_households():
             la[k] += hh['counties'][fips]
     return {k: {'share': la[k] / allc[k], 'censusLA': la[k], 'censusAll': allc[k]}
             for k in MARKETS}, hh['source']
-
-FCC_RECENT_DAYS = 14   # "this fortnight" in the political-file section
-FCC_ROWS = 40          # buyers shipped to the page
-
-
-def fcc_summary(markets_by_call, full=False):
-    """Roll the FCC political-file listing up to buyers across stations.
-    Returns None when the scrape hasn't run, so the page builds without it.
-    With `full`, the result also carries every buyer (`all`), not just the
-    rows the TV page shows, for the committee profiles."""
-    try:
-        fcc = json.load(open(D('data', 'fcc_political.json'), encoding='utf-8'))
-    except FileNotFoundError:
-        return None
-    scraped = fcc['scraped'][:10]
-    since = (date.fromisoformat(scraped) - timedelta(days=FCC_RECENT_DAYS - 1)).isoformat()
-    # Call signs to strip when a buyer is read from a file name; KVHP's
-    # sister station MVHP appears in its file names too.
-    calls = {s['call'].split('-')[0] for s in json.load(open(D('data', 'stations.json'), encoding='utf-8'))}
-    calls |= {'MVHP'}
-    rows = []
-    for st in fcc['stations']:
-        for f in st['files']:
-            level, office, buyer = parse_path(f['path'])
-            if not level:
-                continue
-            # No buyer folder (the Lake Charles stations file straight into
-            # the office folder): read the buyer from the document's name.
-            from_name = None if buyer else buyer_from_filename(f['name'] or '', calls)
-            name = buyer or from_name or office or 'Filed without a buyer folder'
-            # Another state's race carried on a Louisiana station (East Texas
-            # on Shreveport's, network issue buys on sub-channels) is kept
-            # apart, so it doesn't count as Louisiana spending.
-            state = out_of_state(f['path']) or (from_name and out_of_state('x/x/x/' + from_name))
-            b = 'Out of state' if state else bucket(level)
-            year = f['path'].split('/')[1]
-            # Link to the buyer's own folder at this station: its id comes from
-            # the scraper's folder map, or from the file itself when it sits
-            # directly in that folder. Older scrapes have neither for files
-            # filed under Orders/Invoices; those fall back to the year folder.
-            bpath = buyer_folder(f['path'])
-            fid = (st.get('folders') or {}).get(bpath) or (f['folder_id'] if f['path'] == bpath else None)
-            slug = (st.get('fcc_call') or st['call']).lower()
-            yf = st.get('year_folders', {}).get(year)
-            link = (fcc_url(slug, bpath, fid) if fid else
-                    f"https://publicfiles.fcc.gov/tv-profile/{slug}/political-files/{year}/{yf}" if yf else None)
-            rows.append({'link': link, 'deep': bool(fid), 'from_name': bool(from_name), 'b': b, 'level': level, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
-                         'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
-                         'kind': classify(f['name'] or '', f['path']), 'year': year,
-                         'year_folder': st.get('year_folders', {}).get(year),
-                         'slug': (st.get('fcc_call') or st['call']).lower()})
-    # A race one station marks as another state's is that state's at every
-    # station: KTBS files Texas's Senate race (Ken Paxton, James Talarico)
-    # under plain "Federal/US Senate", KSLA under "US Senate/Texas". Matched on
-    # full names only, never a bare surname.
-    away_state = defaultdict(Counter)
-    for r in rows:
-        if r['b'] == 'Out of state':
-            away_state[r['key']][r['state']] += 1
-    for r in rows:
-        if r['b'] != 'Out of state' and len(r['key'].split()) > 1 and r['key'] in away_state:
-            r['b'], r['state'] = 'Out of state', away_state[r['key']].most_common(1)[0][0]
-    # A candidate runs for one office: a full name some stations file under
-    # Federal and others under State (KTVE and KARD put Julia Letlow's and
-    # Misti Cordell's congressional races there) is one federal candidate.
-    federal = {r['key'] for r in rows if r['b'] == 'Federal' and len(r['key'].split()) > 1}
-    for r in rows:
-        if r['b'] == 'State & local' and r['key'] in federal:
-            r['b'] = 'Federal'
-    keys = defaultdict(set)
-    for r in rows:
-        keys[r['b']].add(r['key'])
-    alias = aliases(keys)
-    groups = defaultdict(list)
-    for r in rows:
-        groups[(r['b'], alias[(r['b'], r['key'])])].append(r)
-
-    # The state filer behind a buyer, so the page can link to its committee
-    # profile. Federal candidates report to the FEC, not the state, and
-    # other states' races aren't in the filings, so neither is matched.
-    try:
-        fidx = filer_index(json.load(open(D('data', 'filers.json'), encoding='utf-8')))
-    except FileNotFoundError:
-        fidx = {}
-
-    buyers = []
-    for (b, target), rs in groups.items():
-        recent = [r for r in rs if r['up'] >= since]
-        latest = max(rs, key=lambda r: r['up'])
-        # Show the cleanest spelling: one whose cleaned form is the group's own
-        # key (so "Bill Cassidy", not the surname-only "Cassidy-R for US
-        # Senate"), with the least left over around it ("Hillar Moore", not
-        # "Hillar Moore- District Attorney"); then the most common.
-        # Candidates lose the office written onto their name ("Don Landry -
-        # District Attorney"); issue groups keep theirs whole ("Citizens for
-        # Louisiana" is a name, not a race).
-        issue = all(r['level'] == 'Issue' for r in rs)
-        names = Counter(tidy_caps(clean_name(r['name'], issue)) for r in rs)
-        # The spelling the key comes from before ALIASES, so a station's
-        # typo ("Mike Johson") never names the group.
-        name = min(names, key=lambda n: (buyer_key(n, alias=False) != target, buyer_key(n) != target,
-                                         len(n) - len(target), -names[n], n))
-        offices = Counter(r['office'] for r in rs if r['office'])
-        # One link per station: the buyer's folder there, from that station's
-        # most recent document for the buyer.
-        links = {}
-        for r in sorted(rs, key=lambda r: r['up']):
-            if r['link'] and (r['deep'] or not links.get(r['call'], (None, False))[1]):
-                links[r['call']] = (r['link'], r['deep'])
-        buyers.append({
-            'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': tidy_caps(offices.most_common(1)[0][0]) if offices else None,
-            'state': Counter(r['state'] for r in rs if r['state']).most_common(1)[0][0]
-                     if b == 'Out of state' else None,
-            'docs': len(rs), 'recent': len(recent), 'latest': latest['up'],
-            'st': [{'c': c, 'k': markets_by_call.get(c), 'u': links.get(c, (None,))[0],
-                    'd': links.get(c, (None, False))[1]} for c in sorted({r['call'] for r in rs})],
-            'stRecent': sorted({r['call'] for r in recent}),
-            'f': match_filer(sorted({clean_name(r['name']) for r in rs}), fidx, person=b != 'Issue')
-                 if b in ('State & local', 'Issue') else None,
-        })
-    # Busiest this fortnight first, then the most recently active.
-    buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
-    home = [x for x in buyers if x['b'] != 'Out of state']
-    away = [x for x in buyers if x['b'] == 'Out of state']
-    return {
-        'scraped': scraped, 'since': since, 'days': FCC_RECENT_DAYS,
-        'stations': sum(1 for s in fcc['stations'] if not s.get('stale')),
-        'markets': sorted({MARKETS[markets_by_call[s['call']]][0] for s in fcc['stations']
-                           if markets_by_call.get(s['call'])},
-                          key=lambda n: [m[0] for m in MARKETS.values()].index(n)),
-        'stale': [s['call'] for s in fcc['stations'] if s.get('stale')],
-        'oldest': min((s.get('scraped_at') or scraped)[:10] for s in fcc['stations']) if fcc['stations'] else scraped,
-        'noFile': fcc.get('no_online_file', []),
-        # Stations where most buyers were read from document names.
-        'byName': sorted({r['call'] for r in rows if r['from_name']}
-                         - {c for c in {r['call'] for r in rows}
-                            if sum(r['from_name'] for r in rows if r['call'] == c) * 2
-                            < sum(1 for r in rows if r['call'] == c)}),
-        # Headline counts are Louisiana's own races; out-of-state ones are
-        # counted separately and listed under their own filter.
-        'docs': sum(x['docs'] for x in home),
-        'recentDocs': sum(x['recent'] for x in home),
-        'recentBuyers': sum(1 for x in home if x['recent']),
-        'byBucket': {k: sum(x['recent'] for x in home if x['b'] == k)
-                     for k in ('Federal', 'State & local', 'Issue')},
-        'away': {'docs': sum(x['docs'] for x in away), 'recent': sum(x['recent'] for x in away),
-                 'buyers': len(away),
-                 'states': [[s, n] for s, n in Counter(
-                     {x['state']: 0 for x in away} | Counter(
-                         s for x in away for s in [x['state']] * x['docs'])).most_common()]},
-        'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
-        **({'all': [x for x in home if x['f']]} if full else {}),
-    }
-
-
 
 def benchmarks(spend, la_hh):
     """TV dollars by market in each governor's-race year, nominal, with the
@@ -377,71 +249,15 @@ def build_data():
     }
 
 
-HEAD = '''<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{desc}">
-<meta name="color-scheme" content="light dark">
-<link rel="canonical" href="{url}">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Louisiana Airwaves">
-<meta property="og:title" content="Louisiana Airwaves">
-<meta property="og:description" content="{desc}">
-<meta property="og:url" content="{url}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Louisiana Airwaves">
-<meta name="twitter:description" content="{desc}">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>&#128250;</text></svg>">
-<style>
-  html,body{{margin:0}}
-  img{{max-width:100%}}
-  [hidden]{{display:none!important}}
-</style>
-'''
-FOOT = '\n</body>\n</html>\n'
-
-
-def fill_tokens(tpl, spend):
-    """Fill the template's date tokens from the spend file, so the year span and
-    "filings through" stamp move with the data instead of being hand-edited."""
-    lo, hi = spend['years_covered']
-    through = time.strftime('%B %-d, %Y', time.strptime(spend['data_through'], '%Y-%m-%d'))
-    for tok, val in (('__SPAN__', f'{lo}–{hi}'), ('__SPAN_WORDS__', f'{lo} to {hi}'),
-                     ('__THROUGH__', through), ('__NAV__', nav('tv')), ('__NAV_CSS__', NAV_CSS)):
-        tpl = tpl.replace(tok, val)
-    left = sorted(set(re.findall(r'__[A-Z_]+__', tpl)))
-    if left:
-        raise SystemExit(f'unfilled template tokens: {left}')
-    return tpl
-
-
 def main():
-    tpl = open(D('page.template.html'), encoding='utf-8').read()
-    if '/*__DATA__*/' not in tpl:
-        raise SystemExit('page.template.html is missing the /*__DATA__*/ placeholder')
-    blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'),
-                                        ensure_ascii=False) + ';'
-    fragment = tpl.replace('/*__DATA__*/', blob)
-    fragment = fill_tokens(fragment, json.load(open(D('data', 'station_spend.json'), encoding='utf-8')))
-
-    # The artifact publisher supplies its own <head>; ship the fragment as-is.
-    with open(D('artifact.html'), 'w', encoding='utf-8') as f:
-        f.write(fragment)
-
-    # GitHub Pages serves a raw file, so it needs the full document. The
-    # template opens with <title>/<link>/<style>, which belong in <head>; the
-    # markup after them is body content.
-    split = fragment.index('<div class="wrap">')
-    head_part, body_part = fragment[:split], fragment[split:]
-    standalone = (HEAD.format(desc=DESCRIPTION, url=SITE_URL)
-                  + head_part + '</head>\n<body>\n' + body_part + FOOT)
-    with open(D('index.html'), 'w', encoding='utf-8') as f:
-        f.write(standalone)
-
-    for name in ('index.html', 'artifact.html'):
-        print(f'  {name}  {os.path.getsize(D(name)):,} bytes')
+    blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'), ensure_ascii=False) + ';'
+    spend = json.load(open(D('data', 'station_spend.json'), encoding='utf-8'))
+    f = facts(spend)
+    desc = (f"Louisiana political committees have paid the state’s TV stations {f['tv_total']} "
+            f"since {f['tv_since']}. Where it went, by Nielsen market, station, owner and party.")
+    for name in publish(D('page.template.html'), blob, spend, 'tv', D('index.html'), D('artifact.html'),
+                        desc, SITE_URL, facts=f):
+        print(f'  {os.path.basename(name)}  {os.path.getsize(name):,} bytes')
     print('Built from page.template.html + data/')
 
 
