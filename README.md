@@ -226,7 +226,14 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   unambiguous: a bare surname joins a full name only when exactly one full
   name in the group ends in it, so "John Young" and "John-Paul Young" stay
   two candidates. State and Local are grouped, because stations disagree on
-  which one a race belongs to.
+  which one a race belongs to; a full name some stations file under Federal
+  and others under State is the federal candidate it is (KTVE and KARD file
+  the Senate and House races under State). A race any station marks as
+  another state's ("US Senate/Texas/Ken Paxton Victory Fund") is that
+  state's everywhere, so KTBS's plain `Federal/US Senate/Ken Paxton` stays
+  out of the Louisiana totals. Spelling slips ("Mike Johson") are folded by
+  a short, hand-audited `ALIASES` list, and names are shown without the
+  office a station wrote onto them ("Don Landry - District Attorney").
 - **Links.** On the page each station's call sign under a buyer opens that
   buyer's folder at that station, using the FCC site's own URL form
   (`/tv-profile/<call>/political-files/<path>/<folder id>`); the folder id
