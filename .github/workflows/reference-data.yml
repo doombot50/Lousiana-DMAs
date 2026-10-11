@@ -1,0 +1,45 @@
+# Reference data — Census household counts for the map's counties.
+#
+# api.census.gov isn't reachable from every network, so fetch_households.py
+# runs here and the result is committed to the branch that ran it. It runs
+# when the script or this file changes, or by hand from the Actions tab
+# (the ACS 5-year estimates are released each December).
+
+name: Reference data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fetch_households.py
+      - data/county_dma.json
+      - .github/workflows/reference-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  households:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch Census household counts
+        run: python3 fetch_households.py
+
+      - name: Commit if changed
+        run: |
+          git add data/households.json
+          if git diff --cached --quiet; then
+            echo "Household counts unchanged."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Reference data: Census household counts by county"
+          git push
