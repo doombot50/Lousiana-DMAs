@@ -244,7 +244,7 @@ marker left unfilled stops the build.
 ### Nightly rebuild
 
 `.github/workflows/nightly-rebuild.yml` runs the tests and then those commands every morning
-at 11:00 UTC, two hours after the upstream cache refreshes, and commits the
+at 11:17 UTC (off the hour: GitHub drops scheduled runs at :00 under load), after the upstream cache refreshes, and commits the
 result; GitHub Pages serves the commit. A night with no new filings commits
 nothing — the only diff would be the `generated` date, which the workflow
 ignores. It can also be run by hand from the Actions tab.

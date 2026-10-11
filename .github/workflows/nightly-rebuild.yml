@@ -23,7 +23,10 @@ name: Nightly rebuild
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 11 * * *'   # 5-6am Central, after the upstream refresh
+    # 11:17 UTC (5-6am Central), after the upstream refresh. Off the hour on
+    # purpose: GitHub delays or drops scheduled runs at :00 when its queue is
+    # busy, and the 11:00 schedule this replaced never fired once.
+    - cron: '17 11 * * *'
 
 concurrency:
   group: nightly-rebuild
