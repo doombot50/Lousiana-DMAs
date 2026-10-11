@@ -20,6 +20,7 @@ Stdlib only.
 """
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -33,21 +34,51 @@ class Unavailable(Exception):
     """No such release (yet)."""
 
 
-def summary_file(year, want):
-    """Households for the `want` counties from the ACS table-based summary
-    file: one pipe-delimited file per table, every geography, no API key.
-    The API (api.census.gov) now refuses keyless requests."""
-    url = (f'https://www2.census.gov/programs-surveys/acs/summary_file/{year}/'
-           f'table-based-SF/data/5YRData/acs5y{year}_b11001.dat')
+BASE = 'https://www2.census.gov/programs-surveys/acs/summary_file/'
+
+
+def listing(url):
+    """The links in a www2.census.gov directory page."""
     req = urllib.request.Request(url, headers={'User-Agent': 'louisiana-airwaves/1.0'})
     try:
-        r = urllib.request.urlopen(req, timeout=300)
+        with urllib.request.urlopen(req, timeout=60) as r:
+            page = r.read().decode('utf-8', 'replace')
     except urllib.error.HTTPError as e:
         if e.code in (403, 404):
             raise Unavailable(f'HTTP {e.code} for {url}')
         raise
+    return re.findall(r'href="([^"?/][^"]*)"', page)
+
+
+def find_table(year):
+    """URL of the 5-year table-based summary file for B11001, found by
+    walking the release's directory pages rather than assuming a layout:
+    summary_file/<year>/ ... down to a file named like acs5y<year>_b11001.dat."""
+    url = f'{BASE}{year}/'
+    target = re.compile(rf'acs5y{year}_b11001\.(dat|txt)$', re.I)
+    # At most four levels: <year>/table-based-SF/data/5YRData/<file>.
+    for _ in range(4):
+        links = listing(url)
+        hit = [l for l in links if target.search(l)]
+        if hit:
+            return url + hit[0]
+        sub = ([l for l in links if re.match(r'(table-based-sf|data|5yrdata|5-?year)/?$', l, re.I)]
+               or [l for l in links if l.endswith('/') and '5' in l and 'y' in l.lower()])
+        if not sub:
+            raise Unavailable(f'no table-based 5-year folder under {url} (saw {links[:20]})')
+        url += sub[0] if sub[0].endswith('/') else sub[0] + '/'
+    raise Unavailable(f'B11001 file not found under {url}')
+
+
+def summary_file(year, want):
+    """Households for the `want` counties from the ACS table-based summary
+    file: one pipe-delimited file per table, every geography, no API key.
+    The API (api.census.gov) now refuses keyless requests."""
+    url = find_table(year)
+    print(f'  reading {url}')
+    req = urllib.request.Request(url, headers={'User-Agent': 'louisiana-airwaves/1.0'})
     hh = {}
-    with r:
+    with urllib.request.urlopen(req, timeout=300) as r:
         head = None
         for raw in r:
             line = raw.decode('utf-8', 'replace').rstrip('\r\n')
