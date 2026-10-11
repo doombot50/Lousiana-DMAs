@@ -4362,21 +4362,16 @@
    "rows": 72,
    "note": "rows naming two stations; split evenly"
   },
-  "party_overrides": {
-   "applied": {
-    "RGA (Republican Governors Association) Right Direction PAC": "REP",
-    "Gumbo PAC": "DEM",
-    "Walter J. Boasso": "DEM",
-    "John L. (Jay) Dardenne": "REP",
-    "Claude (Buddy) Leach, Jr.": "DEM"
-   },
-   "note": "filers Louisiana files as OTH whose alignment is public record"
-  },
   "party_corrections": {
    "applied": {
-    "1314": "REP"
+    "1314": "REP",
+    "160": "REP",
+    "3354": "DEM",
+    "6034": "REP",
+    "621": "DEM",
+    "632": "DEM"
    },
-   "note": "filer numbers whose filed party is wrong, corrected from public reporting"
+   "source": "la-campaign-finance la_party_corrections.json (data/party_corrections.json); each entry carries its public source"
   }
  }
 }

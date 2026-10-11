@@ -128,7 +128,7 @@ class SpendMatching(unittest.TestCase):
         self.assertEqual(out['caveats']['ambiguous_bare_call'], {'WWL-TV': 30})
         self.assertEqual(out['caveats']['combined_buys']['amount'], 200)
         cm = load(os.path.join(self.tmp.name, 'committees_tv.json'))
-        self.assertEqual(cm['1314']['party'], 'REP')               # PARTY_CORRECTION
+        self.assertEqual(cm['1314']['party'], 'REP')               # data/party_corrections.json
 
     def test_radio(self):
         out = self.run_builder(build_radio_spend, [
@@ -146,11 +146,44 @@ class SpendMatching(unittest.TestCase):
 
 
 class PartyRules(unittest.TestCase):
+    """The filer-keyed corrections shared with la-campaign-finance."""
+
+    FIXES = {'3354': {'party': 'DEM', 'when': 'oth'}, '1314': {'party': 'REP', 'when': 'always'}}
+
     def test_rules(self):
-        self.assertEqual(party_of('Gumbo PAC', 'OTH'), 'DEM')            # OTH, public alignment
-        self.assertEqual(party_of('Gumbo PAC', 'REP'), 'REP')            # a stated party stands...
-        self.assertEqual(party_of('Blair Edwards', 'DEM', '1314'), 'REP')  # ...unless corrected
-        self.assertEqual(party_of('Someone', None), None)
+        self.assertEqual(party_of('OTH', '3354', self.FIXES), 'DEM')     # OTH, public alignment
+        self.assertEqual(party_of(None, '3354', self.FIXES), 'DEM')
+        self.assertEqual(party_of('REP', '3354', self.FIXES), 'REP')     # a stated party stands...
+        self.assertEqual(party_of('DEM', ' 1314', self.FIXES), 'REP')    # ...unless corrected outright
+        self.assertEqual(party_of('DEM', '99', self.FIXES), 'DEM')
+        self.assertEqual(party_of(None, None, self.FIXES), None)
+
+    def test_shared_file_loads(self):
+        # The synced copy carries the corrections this repo used to list itself.
+        from filings import PARTY_CORRECTIONS
+        for fn, p in {'1314': 'REP', '3354': 'DEM', '6034': 'REP', '632': 'DEM', '621': 'DEM', '160': 'REP'}.items():
+            self.assertEqual(PARTY_CORRECTIONS[fn]['party'], p)
+
+    def test_sync_keeps_the_copy_when_the_release_lacks_it(self):
+        import fetch_cache
+        dest = os.path.join(tempfile.mkdtemp(), 'party_corrections.json')
+        dump({'filers': {'1': {'party': 'REP', 'when': 'oth'}}}, dest)
+        real = fetch_cache.fetch
+        try:
+            fetch_cache.fetch = lambda url, path: False                 # 404
+            fetch_cache.sync_party_corrections(dest)
+            self.assertEqual(load(dest)['filers']['1']['party'], 'REP')
+
+            def bad(url, path):
+                with open(path, 'w') as f:
+                    f.write('not json')
+                return True
+            fetch_cache.fetch = bad
+            fetch_cache.sync_party_corrections(dest)
+            self.assertEqual(load(dest)['filers']['1']['party'], 'REP')
+            self.assertFalse(os.path.exists(dest + '.new'))
+        finally:
+            fetch_cache.fetch = real
 
 
 class ScraperYears(unittest.TestCase):

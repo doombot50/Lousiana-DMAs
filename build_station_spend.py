@@ -46,7 +46,7 @@ from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from filings import (PARTY_CORRECTION, PARTY_OVERRIDE, PRIMARIES, cache_files,  # noqa: E402
+from filings import (PRIMARIES, cache_files, corrections_applied,  # noqa: E402
                       find_cache, norm, party_of, scan, write_committees)
 
 
@@ -178,7 +178,7 @@ def builder(args, files):
 
         def bparty(fn):
             filed = max(buyer_party[fn].items(), key=lambda x: x[1])[0] if buyer_party[fn] else None
-            return party_of(bname(fn), filed, fn)
+            return party_of(filed, fn)
 
         out_stations = []
         for s in stations:
@@ -286,12 +286,7 @@ def builder(args, files):
                 'ambiguous_bare_call': {k: round(v, 2) for k, v in sorted(ambiguous.items())},
                 'combined_buys': {'amount': round(combined_total, 2), 'rows': combined_rows,
                                   'note': 'rows naming two stations; split evenly'},
-                'party_overrides': {'applied': PARTY_OVERRIDE,
-                                    'note': 'filers Louisiana files as OTH whose alignment is '
-                                            'public record'},
-                'party_corrections': {'applied': PARTY_CORRECTION,
-                                      'note': 'filer numbers whose filed party is wrong, '
-                                              'corrected from public reporting'},
+                'party_corrections': corrections_applied(),
             },
         }
         os.makedirs(os.path.dirname(args.out), exist_ok=True)
@@ -304,7 +299,7 @@ def builder(args, files):
             # file doesn't churn between runs.
             top = lambda c: min(c, key=lambda k: (-c[k], k))
             json.dump({fn: {'n': top(filer_name[fn]),
-                            'p': party_of(top(filer_name[fn]), top(filer_party[fn]) if filer_party[fn] else None, fn)}
+                            'p': party_of(top(filer_party[fn]) if filer_party[fn] else None, fn)}
                        for fn in sorted(filer_name)},
                       f, indent=0, ensure_ascii=False, sort_keys=True)
 

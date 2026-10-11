@@ -225,7 +225,8 @@ needs hand-editing when the calendar turns.
 
 - `filings.py` — what the TV and radio builds share: finding and reading the
   cache (one pass, every row handed to each build), vendor-name
-  normalization, the party rules (`PARTY_OVERRIDE`, `PARTY_CORRECTION`), the
+  normalization, the party corrections (`party_of`, read from
+  `data/party_corrections.json`), the
   committee-detail writer and the governor's-race calendar (`PRIMARIES`).
 - `build_station_spend.py`, `build_radio_spend.py`, `build_spend.py` — the
   spend data (above).
@@ -384,6 +385,10 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   stations, stations active now). One line per filer. Read by the
   campaign-finance dashboard; see *The committees page*.
 
+- `data/party_corrections.json` — the filer-keyed party corrections, a
+  synced copy of la-campaign-finance's `la_party_corrections.json` (see
+  *Method notes*). Don't edit it here; the nightly fetch overwrites it.
+
 ## Method notes
 
 Dollars come from 1.5M Louisiana Ethics Administration expenditure rows,
@@ -403,18 +408,22 @@ Dollars come from 1.5M Louisiana Ethics Administration expenditure rows,
 
 One editorial correction is applied on top of the filings:
 
-- **Party labels.** Louisiana files most PACs and some candidates as `OTH`,
-  which says nothing about which side of a race bought the airtime. For filers
-  whose alignment is a matter of public record, the label is corrected in
-  `PARTY_OVERRIDE` in `filings.py` — currently the RGA's Right
-  Direction PAC (REP); Gumbo PAC, Walter J. Boasso and Claude "Buddy" Leach Jr.
-  (DEM); and John L. "Jay" Dardenne (REP). A filing that states REP or DEM is
-  left alone unless it is plainly wrong: `PARTY_CORRECTION` replaces the
-  filed party for a filer number, with a public source for each — currently
-  Blair Downing Edwards (filer 1314), a Republican Supreme Court candidate
-  in 2026 whose committee files as DEM. Every correction is listed in the
-  source and echoed into the output's `caveats.party_overrides` and
-  `caveats.party_corrections`.
+- **Party labels.** The filings' party is matched from the filer's name
+  upstream, which leaves most PACs and some candidates as `OTH` (saying
+  nothing about which side bought the airtime) and can hand a filer a
+  namesake's label. For filers whose alignment is a matter of public record,
+  the label is corrected **by filer number** in
+  [la-campaign-finance](https://github.com/doombot50/la-campaign-finance)'s
+  `la_party_corrections.json`, the one list both sites apply: currently the
+  RGA's Right Direction PAC and John L. "Jay" Dardenne (REP); Gumbo PAC,
+  Walter J. Boasso and Claude "Buddy" Leach Jr. (DEM), all where the label
+  would otherwise be `OTH`; and Blair Downing Edwards (filer 1314), a
+  Republican Supreme Court candidate in 2026 whom the name match put on a
+  Democratic namesake, corrected outright. Each entry carries its reason and
+  public source. `fetch_cache.py` syncs the file into
+  `data/party_corrections.json` nightly, `party_of()` in `filings.py`
+  applies it, and the applied list is echoed into each output's
+  `caveats.party_corrections`. Add or change corrections upstream, not here.
 
 Two further limits worth knowing:
 

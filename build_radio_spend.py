@@ -44,7 +44,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from filings import (GOV_YEARS, PARTY_CORRECTION, PARTY_OVERRIDE, cache_files,  # noqa: E402
+from filings import (GOV_YEARS, cache_files, corrections_applied,  # noqa: E402
                       find_cache, norm, party_of, scan, write_committees)
 
 # Call signs that are also television stations — see rule 3 above.
@@ -151,7 +151,7 @@ def builder(args, files):
 
         def bparty(fn):
             filed = max(buyer_party[fn].items(), key=lambda x: x[1])[0] if buyer_party[fn] else None
-            return party_of(bname(fn), filed, fn)
+            return party_of(filed, fn)
 
         stations = []
         tail_extra = 0.0
@@ -245,8 +245,7 @@ def builder(args, files):
                                              'note': 'four-letter words that look like call signs '
                                                      '(Total WINE, Smoothie KING) — correctly excluded'},
                 'tv_sister_radio_rows': {k: round(v, 2) for k, v in sorted(tv_sister_radio.items())},
-                'party_overrides': PARTY_OVERRIDE,
-                'party_corrections': PARTY_CORRECTION,
+                'party_corrections': corrections_applied(),
             },
         }
         os.makedirs(os.path.dirname(args.out), exist_ok=True)
