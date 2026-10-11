@@ -11,6 +11,9 @@
 # CDN block, without holding back the state-filings rebuild: the page then
 # keeps the previous night's political-file data, marked stale.
 #
+# Last, a freshness check opens a GitHub issue if any source has gone more
+# than three days without updating, and closes it once all are fresh.
+#
 # Every build stamps today's date into data/*.json as `generated` (and the FCC
 # file its `scraped` time); a run whose only difference is those stamps
 # commits nothing.
@@ -28,6 +31,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write     # the freshness check opens and closes its own issue
 
 jobs:
   rebuild:
@@ -71,3 +75,28 @@ jobs:
           through=$(python3 -c "import json; print(json.load(open('data/station_spend.json'))['data_through'])")
           git commit -m "Nightly rebuild: filings through $through"
           git push
+
+      # Each step above keeps the site up when a source falters, which also
+      # means nobody hears about it. This opens an issue (GitHub emails the
+      # repo's watchers) when a source is more than three days old, edits it
+      # while the problem lasts, and closes it once everything is fresh.
+      # It runs even when an earlier step failed.
+      - name: Check data freshness
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          upstream=$(gh api repos/doombot50/la-campaign-finance/releases/tags/data-cache \
+                       --jq '[.assets[].updated_at] | max' 2>/dev/null || true)
+          title='Nightly rebuild: site data has stopped updating'
+          open=$(gh issue list --state open --json number,title \
+                   --jq ".[] | select(.title == \"$title\") | .number" | head -n1)
+          if python3 check_freshness.py --upstream "$upstream" --report freshness.md; then
+            if [ -n "$open" ]; then
+              gh issue close "$open" --comment "$(cat freshness.md)"
+            fi
+          elif [ -n "$open" ]; then
+            gh issue edit "$open" --body-file freshness.md
+          else
+            gh issue create --title "$title" --body-file freshness.md
+          fi
