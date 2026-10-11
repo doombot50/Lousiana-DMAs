@@ -43,7 +43,7 @@ import os
 import re
 import sys
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -205,6 +205,12 @@ def main():
     # Newest filed date, for the page's "filings through" stamp. A handful of
     # rows carry typo'd future dates, so anything after today is ignored.
     latest, today = '', time.strftime('%Y-%m-%d')
+    # Every filer active in the last three years, TV buyer or not, so the
+    # page can match the FCC political file's buyers to their state filer
+    # (a campaign books time weeks before it reports paying for it).
+    recent_from = int(today[:4]) - 2
+    filer_name = defaultdict(Counter)
+    filer_party = defaultdict(Counter)
 
     t0 = time.time()
     for path in files:
@@ -219,6 +225,10 @@ def main():
                 d = r.get('date') or ''
                 if latest < d <= today:
                     latest = d
+                if yr >= recent_from and r.get('filerNumber') and r.get('candidate'):
+                    filer_name[r['filerNumber']][r['candidate']] += 1
+                    if r.get('party'):
+                        filer_party[r['filerNumber']][r['party']] += 1
                 raw = (r.get('contributor') or '').strip()
                 if not raw:
                     continue
@@ -392,6 +402,14 @@ def main():
                             by_buyer, buyer_year, bname, bparty)
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
+    with open(os.path.join(os.path.dirname(args.out), 'filers.json'), 'w', encoding='utf-8') as f:
+        # Most frequent spelling, ties to the alphabetically first, so the
+        # file doesn't churn between runs.
+        top = lambda c: min(c, key=lambda k: (-c[k], k))
+        json.dump({fn: {'n': top(filer_name[fn]),
+                        'p': party_of(top(filer_name[fn]), top(filer_party[fn]) if filer_party[fn] else None, fn)}
+                   for fn in sorted(filer_name)},
+                  f, indent=0, ensure_ascii=False, sort_keys=True)
 
     print(f'Scanned {scanned:,} expenditure rows from {len(files)} files '
           f'({min(years)}–{max(years)}{", missing " + str(gaps) if gaps else ""}) '

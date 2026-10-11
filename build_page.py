@@ -33,7 +33,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
 from normalize import (aliases, bucket, buyer_folder, buyer_from_filename, buyer_key,  # noqa: E402
-                       classify, clean_name, fcc_url, out_of_state, parse_path, tidy_caps)
+                       classify, clean_name, fcc_url, filer_index, match_filer, out_of_state,
+                       parse_path, tidy_caps)
 from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
@@ -96,9 +97,11 @@ FCC_RECENT_DAYS = 14   # "this fortnight" in the political-file section
 FCC_ROWS = 40          # buyers shipped to the page
 
 
-def fcc_summary(markets_by_call):
+def fcc_summary(markets_by_call, full=False):
     """Roll the FCC political-file listing up to buyers across stations.
-    Returns None when the scrape hasn't run, so the page builds without it."""
+    Returns None when the scrape hasn't run, so the page builds without it.
+    With `full`, the result also carries every buyer (`all`), not just the
+    rows the TV page shows, for the committee profiles."""
     try:
         fcc = json.load(open(D('data', 'fcc_political.json'), encoding='utf-8'))
     except FileNotFoundError:
@@ -166,6 +169,14 @@ def fcc_summary(markets_by_call):
     for r in rows:
         groups[(r['b'], alias[(r['b'], r['key'])])].append(r)
 
+    # The state filer behind a buyer, so the page can link to its committee
+    # profile. Federal candidates report to the FEC, not the state, and
+    # other states' races aren't in the filings, so neither is matched.
+    try:
+        fidx = filer_index(json.load(open(D('data', 'filers.json'), encoding='utf-8')))
+    except FileNotFoundError:
+        fidx = {}
+
     buyers = []
     for (b, target), rs in groups.items():
         recent = [r for r in rs if r['up'] >= since]
@@ -198,6 +209,8 @@ def fcc_summary(markets_by_call):
             'st': [{'c': c, 'k': markets_by_call.get(c), 'u': links.get(c, (None,))[0],
                     'd': links.get(c, (None, False))[1]} for c in sorted({r['call'] for r in rs})],
             'stRecent': sorted({r['call'] for r in recent}),
+            'f': match_filer(sorted({clean_name(r['name']) for r in rs}), fidx, person=b != 'Issue')
+                 if b in ('State & local', 'Issue') else None,
         })
     # Busiest this fortnight first, then the most recently active.
     buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
@@ -230,6 +243,7 @@ def fcc_summary(markets_by_call):
                      {x['state']: 0 for x in away} | Counter(
                          s for x in away for s in [x['state']] * x['docs'])).most_common()]},
         'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
+        **({'all': [x for x in home if x['f']]} if full else {}),
     }
 
 
@@ -302,11 +316,17 @@ def build_data():
             for k, (n, r, hh) in MARKETS.items()]
     dmas.sort(key=lambda d: -d['spend'])
 
+    # Each station's political file at the FCC, for the map panel.
+    try:
+        pf = {st['call']: f"https://publicfiles.fcc.gov/tv-profile/{(st.get('fcc_call') or st['call']).lower()}/political-files"
+              for st in json.load(open(D('data', 'fcc_political.json'), encoding='utf-8'))['stations']}
+    except FileNotFoundError:
+        pf = {}
     stations = []
     for s in spend['stations']:
         r = ref[s['call']]
         stations.append({
-            'call': s['call'], 'k': BY_NAME[s['dma']],
+            'call': s['call'], 'k': BY_NAME[s['dma']], 'pf': pf.get(s['call']),
             'ch': r.get('virtual_channel') or '', 'net': s['network'],
             'owner': s['owner'], 'grp': s['owner_group'],
             'note': r.get('ownership_note'), 'spend': round(s['spend']),

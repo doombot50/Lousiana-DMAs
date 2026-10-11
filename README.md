@@ -157,6 +157,26 @@ station matching their own pages use, and `build_committees_page.py`
 assembles the page. Committees are keyed by state filer number, so a
 candidate who filed under two committees appears twice.
 
+**Linked to the political file.** A state or local candidate, or a PAC, in
+the FCC political-file list is matched to its state filer, and the two link
+both ways: its name on the TV page opens its profile, and the profile shows
+a *Booking now* box (documents posted in the last two weeks, at which
+stations, each linking to that station's FCC folder for the buyer). A filer
+that is booking airtime but hasn't yet reported paying a station gets a
+profile too, so the list carries a few dozen more than the ~1,300 that have
+paid; a *Booking now* filter narrows it to them. `build_station_spend.py`
+writes every filer active in the last three years to `data/filers.json`
+for this, and `fcc/normalize.py` matches on first name (spelled out:
+"Don" → Donald) and surname, or a PAC's whole name, linking only when
+exactly one filer fits. Federal candidates report to the FEC, not the
+state, so they are never matched.
+
+**Linking around the site.** A profile's TV markets and stations open the
+TV page's map on that market (`/#m=SHV`); each station in the map panel opens
+its FCC political file. The TV page keeps the selected market and the
+political-file filter in the URL (`#m=LAF&pf=local`; filters `fed`, `local`,
+`issue`, `away`), so any view can be shared.
+
 ## Rebuild the spending data
 
 `build_station_spend.py` recomputes every dollar figure from the raw filings.

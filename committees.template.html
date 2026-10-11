@@ -100,6 +100,16 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 .bl .z{position:relative; height:14px;}
 .bl .b{position:absolute; inset:0 auto 0 0; border-radius:0 3px 3px 0; min-width:2px;}
 .bl .v{position:absolute; top:50%; transform:translateY(-50%); font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink2); white-space:nowrap;}
+.bk{border-left:3px solid var(--accent);}
+.bk .lead{font-size:15px; margin:0 0 10px; color:var(--ink2);}
+.bk .lead b{color:var(--ink);}
+.calls{display:flex; flex-wrap:wrap; gap:4px;}
+.callchip{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2); text-decoration:none;}
+a.callchip:hover{color:var(--ink); background:var(--hair);}
+.callchip.quiet{opacity:.45;}
+.bl a.k{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
+.bl a.k:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
+.btag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; color:var(--accent-ink); border:1px solid var(--accent-ink); flex:none;}
 .note{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin-top:8px;}
 </style>
 
@@ -108,7 +118,7 @@ __NAV__
 <header>
   <p class="eyebrow">Louisiana Airwaves</p>
   <h1>The committees</h1>
-  <p class="dek">Every Louisiana political committee that has paid a television or radio station since 2000 — <b id="ncm"></b> of them — with what each spent, when, and where. Search by candidate or committee name, then open one for its profile.</p>
+  <p class="dek">Every Louisiana political committee that has paid a television or radio station since 2000 — <b id="ncm"></b> of them<span id="ncmplus"></span> — with what each spent, when, and where. Search by candidate or committee name, then open one for its profile.</p>
   <p class="asof">Filings through __THROUGH__ · rebuilt nightly from the state's disclosure data</p>
 </header>
 
@@ -141,26 +151,40 @@ const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const fold=t=>t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9 ]/g,' ');
 const BY=Object.fromEntries(DATA.map(c=>[c.f,c]));
 for(const c of DATA){ c.k=fold(c.n); const ys=Object.keys(c.y); c.y0=ys[0]; c.y1=ys[ys.length-1]; }
-document.getElementById('ncm').textContent=DATA.length.toLocaleString('en-US');
+const yspan=c=>!c.y0?'':c.y0===c.y1?c.y0:c.y0+'–'+c.y1;
+const TV='https://airwaves.charliestephens.xyz/';
+const mapLink=k=>TV+'#m='+k;
+const dshort=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+{
+  const paid=DATA.filter(c=>c.tv+c.ra).length, only=DATA.length-paid;
+  document.getElementById('ncm').textContent=paid.toLocaleString('en-US');
+  if(only) document.getElementById('ncmplus').innerHTML =
+    `, plus <b>${only}</b> more the stations' FCC political files show booking airtime they haven't yet reported paying for`;
+}
 
 /* ---------- list ---------- */
-let party='all', limit=50;
+let party='all', limit=50, booking=false;
 const chips=document.getElementById('party');
 for(const [k,l] of [['all','All'],['DEM','Democratic'],['REP','Republican'],['OTH','No party']]){
   const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
   b.addEventListener('click',()=>{party=k; limit=50; renderList();}); chips.appendChild(b);
 }
+if(PF){
+  const b=document.createElement('button'); b.type='button'; b.id='bkchip'; b.textContent='Booking now';
+  b.title=`Booked TV time in the last ${PF.days} days, per the stations' FCC political files`;
+  b.addEventListener('click',()=>{booking=!booking; limit=50; renderList();}); chips.appendChild(b);
+}
 const q=document.getElementById('q');
 q.addEventListener('input',()=>{limit=50; renderList();});
 function renderList(){
-  for(const b of chips.children) b.setAttribute('aria-pressed',String(b.dataset.k===party));
+  for(const b of chips.children) b.setAttribute('aria-pressed',String(b.id==='bkchip'?booking:b.dataset.k===party));
   const words=fold(q.value).split(/\s+/).filter(Boolean);
-  const rows=DATA.filter(c=>(party==='all'||c.p===party)&&words.every(w=>c.k.includes(w)));
+  const rows=DATA.filter(c=>(party==='all'||c.p===party)&&(!booking||(c.pf&&c.pf.recent))&&words.every(w=>c.k.includes(w)));
   document.getElementById('count').textContent=
     `${rows.length.toLocaleString('en-US')} committee${rows.length===1?'':'s'}`+(rows.length>limit?` · showing the top ${limit} by spending`:'');
   let h='<div class="row head"><span>Committee</span><span class="m">TV</span><span class="m">Radio</span></div>';
   h+=rows.slice(0,limit).map(c=>`<a class="row" href="#f=${encodeURIComponent(c.f)}">
-    <span class="nm"><span>${esc(c.n)}</span><span class="ptag ${c.p}">${c.p}</span><span class="yr">${c.y0===c.y1?c.y0:c.y0+'–'+c.y1}</span></span>
+    <span class="nm"><span>${esc(c.n)}</span><span class="ptag ${c.p}">${c.p}</span>${c.pf&&c.pf.recent?'<span class="btag" title="Booking TV time now, per the FCC political files">BOOKING</span>':''}<span class="yr">${yspan(c)}</span></span>
     <span class="m${c.tv?'':' z'}">${c.tv?money(c.tv):'—'}</span><span class="m${c.ra?'':' z'}">${c.ra?money(c.ra):'—'}</span></a>`).join('');
   if(rows.length>limit) h+=`<button type="button" class="more" id="more">Show ${Math.min(100,rows.length-limit)} more</button>`;
   document.getElementById('list').innerHTML=h;
@@ -171,32 +195,45 @@ function renderList(){
 function bars(items, color, total){
   // headroom for the value label: phones need more of the row for it
   const mx=Math.max(...items.map(i=>i[1]))*(innerWidth<600?1.8:1.25)||1;
-  return items.map(([k,v,c])=>`<div class="bl"><span class="k" title="${esc(k)}">${esc(k)}</span><span class="z">
+  return items.map(([k,v,c,href])=>`<div class="bl">${href?`<a class="k" href="${href}" title="${esc(k)} on the TV map">${esc(k)}</a>`:`<span class="k" title="${esc(k)}">${esc(k)}</span>`}<span class="z">
     <span class="b" style="width:${v/mx*100}%;background:${c||color}"></span>
     <span class="v" style="left:calc(${v/mx*100}% + 6px)">${money(v)}${total?' · '+Math.round(v/total*100)+'%':''}</span></span></div>`).join('');
 }
 function renderProfile(c){
   const tot=c.tv+c.ra, ys=Object.entries(c.y);
-  const best=ys.reduce((a,b)=>(b[1][0]+b[1][1])>(a[1][0]+a[1][1])?b:a);
-  const mkts=c.mk.map(([k,v])=>[MKT[k],v,`var(${HUE[k]})`]);
+  const best=ys.length?ys.reduce((a,b)=>(b[1][0]+b[1][1])>(a[1][0]+a[1][1])?b:a):null;
+  const P=c.pf, live=P&&P.st.filter(s=>s.r).length;
+  // What the stations' FCC political files show this committee booking:
+  // usually weeks ahead of its own finance report.
+  const bk = P ? `<div class="panel bk"><h3>Booking now · FCC political files</h3>
+      <p class="lead">${P.recent
+        ? `<b>${P.recent} document${P.recent===1?'':'s'}</b> posted in the ${PF.days} days to ${dshort(PF.scraped)}, at ${live} station${live===1?'':'s'}`
+        : `<b>${P.docs} document${P.docs===1?'':'s'}</b> this cycle, none in the last ${PF.days} days`}${P.recent&&P.docs>P.recent?` (${P.docs} this cycle)`:''}; latest ${dshort(P.latest)}.${P.o?` Filed as ${esc(P.o)}.`:''}</p>
+      <div class="calls">${P.st.map(s=>{const st=`border-left-color:${s.k?`var(${HUE[s.k]})`:'var(--quiet)'}`, cls='callchip'+(s.r?'':' quiet');
+        return s.u?`<a class="${cls}" style="${st}" href="${s.u}" rel="noopener" title="Open ${s.c}'s political file for this buyer">${s.c}</a>`:`<span class="${cls}" style="${st}">${s.c}</span>`;}).join('')}</div>
+      <p class="note">Orders, requests and invoices stations post to the FCC within days of a buy; counts are documents, not dollars. Faded call signs have nothing in the last ${PF.days} days. Matched to this filer by name; <a href="${TV}#pf=local">all political-file buyers</a>.</p></div>` : '';
+  const mkts=c.mk.map(([k,v])=>[MKT[k],v,`var(${HUE[k]})`,mapLink(k)]);
   const el=document.getElementById('profile');
   el.innerHTML=`<button type="button" class="back" id="back">← All committees</button>
     <h2>${esc(c.n)}</h2>
-    <p class="meta"><span class="ptag ${c.p}">${c.p}</span> ${PN[c.p]} · state filer ${esc(c.f)} · bought airtime ${c.y0===c.y1?'in '+c.y0:c.y0+'–'+c.y1}</p>
-    <div class="stats">
+    <p class="meta"><span class="ptag ${c.p}">${c.p}</span> ${PN[c.p]} · state filer ${esc(c.f)} · ${c.y0?'paid for airtime '+(c.y0===c.y1?'in '+c.y0:yspan(c)):'no TV or radio payments reported yet'}</p>
+    ${bk}
+    ${tot?`<div class="stats">
       <div class="stat"><div class="v">${money(tot)}</div><div class="l">on television and radio</div></div>
       <div class="stat"><div class="v">${c.tv?money(c.tv):'—'}</div><div class="l">television, ${c.nts} station${c.nts===1?'':'s'}</div></div>
       <div class="stat"><div class="v">${c.ra?money(c.ra):'—'}</div><div class="l">radio, ${c.nrs} station${c.nrs===1?'':'s'}</div></div>
       <div class="stat"><div class="v">${best[0]}</div><div class="l">biggest year: ${money(best[1][0]+best[1][1])}</div></div>
     </div>
-    <div class="panel"><h3>By year</h3><div class="legend"><span><i style="background:var(--accent)"></i>Television</span><span><i style="background:var(--laf)"></i>Radio</span></div><svg id="yrs" role="img" aria-label="Spending by year"></svg></div>
+    <div class="panel"><h3>By year</h3><div class="legend"><span><i style="background:var(--accent)"></i>Television</span><span><i style="background:var(--laf)"></i>Radio</span></div><svg id="yrs" role="img" aria-label="Spending by year"></svg></div>`
+    :`<p class="note">This committee's state finance reports don't yet show a payment to a TV or radio station; the political files above are the only public record of its buys so far.</p>`}
     <div class="cols" style="margin-top:16px">
       ${c.tv?`<div class="panel"><h3>Television by market</h3>${bars(mkts,null,c.tv)}</div>
-              <div class="panel"><h3>Top TV stations</h3>${bars(c.ts.map(([s,v,k])=>[s,v,k?`var(${HUE[k]})`:'var(--quiet)']))}${c.nts>c.ts.length?`<p class="note">and ${c.nts-c.ts.length} more</p>`:''}</div>`:''}
+              <div class="panel"><h3>Top TV stations</h3>${bars(c.ts.map(([s,v,k])=>[s,v,k?`var(${HUE[k]})`:'var(--quiet)',k?mapLink(k):null]))}${c.nts>c.ts.length?`<p class="note">and ${c.nts-c.ts.length} more</p>`:''}</div>`:''}
       ${c.ra?`<div class="panel"><h3>Radio by format</h3>${bars(c.fm,'var(--laf)',c.ra)}</div>
               <div class="panel"><h3>Top radio stations</h3>${bars(c.rs,'var(--laf)')}${c.nrs>c.rs.length?`<p class="note">and ${c.nrs-c.rs.length} more</p>`:''}</div>`:''}
     </div>`;
   document.getElementById('back').addEventListener('click',()=>{location.hash='';});
+  if(!tot) return;
   // year bars, stacked TV + radio, over the committee's own span
   const svg=document.getElementById('yrs'), narrow=svg.parentElement.clientWidth<600;
   const W=narrow?420:900, H=narrow?240:200, L=48, R=8, T=14, B=26;
