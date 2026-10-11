@@ -53,9 +53,9 @@ def listing(url):
 def find_table(year):
     """URL of the 5-year table-based summary file for B11001, found by
     walking the release's directory pages rather than assuming a layout:
-    summary_file/<year>/ ... down to a file named like acs5y<year>_b11001.dat."""
+    summary_file/<year>/ ... down to a file named like acsdt5y<year>-b11001.dat."""
     url = f'{BASE}{year}/'
-    target = re.compile(rf'acs5y{year}_b11001\.(dat|txt)$', re.I)
+    target = re.compile(rf'acs(dt)?5y{year}[-_]b11001\.(dat|txt)$', re.I)
     # At most four levels: <year>/table-based-SF/data/5YRData/<file>.
     for _ in range(4):
         links = listing(url)
@@ -84,7 +84,8 @@ def summary_file(year, want):
             line = raw.decode('utf-8', 'replace').rstrip('\r\n')
             if head is None:
                 head = line.split('|')
-                gi, vi = head.index('GEO_ID'), head.index('B11001_E001')
+                gi = next(i for i, h in enumerate(head) if h.upper() == 'GEO_ID')
+                vi = next(i for i, h in enumerate(head) if re.fullmatch(r'B11001_E0*01', h, re.I))
                 continue
             if not line.startswith('0500000US'):
                 continue
