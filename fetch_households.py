@@ -30,10 +30,24 @@ STATES = {'LA': '22', 'TX': '48', 'AR': '05', 'MS': '28'}
 TABLE = 'B11001_001E'      # households, total
 
 
+class Unavailable(Exception):
+    """The API has no such release (it answers some of those with an empty
+    or HTML body rather than an error status)."""
+
+
 def get(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'louisiana-airwaves/1.0'})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            body = r.read().decode('utf-8', 'replace')
+    except urllib.error.HTTPError as e:
+        if e.code in (204, 400, 404):
+            raise Unavailable(f'HTTP {e.code}')
+        raise
+    try:
+        return json.loads(body)
+    except json.JSONDecodeError:
+        raise Unavailable(f'not JSON: {body[:160]!r}')
 
 
 def main():
@@ -51,10 +65,8 @@ def main():
                     rec = dict(zip(head, r))
                     hh[rec['state'] + rec['county']] = int(rec[TABLE])
             break
-        except urllib.error.HTTPError as e:
-            if e.code not in (400, 404):
-                raise
-            print(f'  ACS {year} 5-year not available ({e.code}); trying {year - 1}')
+        except Unavailable as e:
+            print(f'  ACS {year} 5-year not available ({e}); trying {year - 1}')
     else:
         sys.exit('No ACS 5-year release found.')
 
