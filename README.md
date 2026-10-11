@@ -183,6 +183,17 @@ result; GitHub Pages serves the commit. A night with no new filings commits
 nothing — the only diff would be the `generated` date, which the workflow
 ignores. It can also be run by hand from the Actions tab.
 
+Each step is built to keep the site up when a source falters, so the last
+step, `check_freshness.py`, makes sure someone hears about it. It checks the
+age of the la-campaign-finance `data-cache` release (from the GitHub API),
+of this site's own build, and of the FCC political files, plus any station
+not refreshed in a week. When any is more than three days behind, it opens
+an issue titled "Nightly rebuild: site data has stopped updating" (GitHub
+emails the repo's watchers), rewrites it each night while the problem lasts,
+and closes it once every source is fresh. It cannot notice the workflow
+not running at all: GitHub pauses scheduled workflows in a repository with
+no activity for 60 days.
+
 The narrative prose (the $15.3M WWL-TV figure, the per-household comparisons,
 the buyer rankings in the copy) is still hand-written and does not move with
 the nightly data; the charts, ledgers and stat tiles do.
@@ -192,7 +203,10 @@ the nightly data; the charts, ledgers and stat tiles do.
 `fcc/scrape_political_files.py` reads the political-file folders of the 30
 stations at publicfiles.fcc.gov and writes `data/fcc_political.json`: every
 document in this year's and next year's folders, with its folder path, name
-and upload time. The nightly workflow runs it; publicfiles.fcc.gov is not
+and upload time. In an odd year it also reads the year before: Louisiana's
+cycle pairs a federal even year with a state odd year (2026 then the 2027
+governor's race), and stations file early buys for the odd-year race in the
+even year's folder, so those stay in view after 1 January. The nightly workflow runs it; publicfiles.fcc.gov is not
 reachable from every network, and GitHub's runners are where it is known to
 work.
 

@@ -168,19 +168,29 @@ def walk(fid, ent, out, prev, stats, folders, prev_folders):
             walk(s['entity_folder_id'], ent, out, prev, stats, folders, prev_folders)
 
 
+def default_years(this):
+    """The political-file years a night walks: this year and next, and in an
+    odd year the even year before it too. Louisiana's cycle pairs them, the
+    federal midterm (2026) then the governor's race (2027), and stations
+    file early buys for an odd-year race in the even year's folder, so on
+    1 January 2027 the 2026 folders must stay in view rather than drop out.
+    In an even year the previous (odd) year's races are over."""
+    return ([this - 1] if this % 2 else []) + [this, this + 1]
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--stations', nargs='*', help='call signs (default: all in stations.json)')
     ap.add_argument('--years', nargs='*', type=int,
-                    help='political-file years to walk (default: this year and next)')
+                    help='political-file years to walk (default: this year and next, plus last '
+                         'year in an odd year; see default_years)')
     ap.add_argument('--max-stations', type=int, default=8,
                     help='stations to refresh this run, least recently scraped first')
     ap.add_argument('--out', default=D('fcc_political.json'))
     args = ap.parse_args()
 
-    this = time.gmtime().tm_year
-    years = args.years or [this, this + 1]
+    years = args.years or default_years(time.gmtime().tm_year)
     calls = args.stations or [s['call'] for s in json.load(open(D('stations.json'), encoding='utf-8'))]
     try:
         cache = json.load(open(D('fcc_facilities.json'), encoding='utf-8'))
