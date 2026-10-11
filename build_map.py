@@ -180,7 +180,10 @@ def main():
             out.append({'fips': f['fips'], 'n': f['n'], 'st': f['st'], 'dma': f['dma'], 'd': d})
 
     with open(D('data', 'map_paths.json'), 'w', encoding='utf-8') as fh:
-        json.dump({'w': WIDTH, 'h': height, 'counties': out}, fh, separators=(',', ':'))
+        # The projection itself, so labels can be placed by longitude/latitude.
+        json.dump({'w': WIDTH, 'h': height,
+                   'proj': {'lon0': min(xs), 'lat1': max(ys), 'kx': k * s, 's': s},
+                   'counties': out}, fh, separators=(',', ':'))
     with open(D('data', 'county_dma.json'), 'w', encoding='utf-8') as fh:
         json.dump({f['fips']: {'n': f['n'], 'st': f['st'], 'dma': f['dma']}
                    for f in sorted(feats, key=lambda f: f['fips'])}, fh, indent=1)

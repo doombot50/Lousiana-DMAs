@@ -11,10 +11,11 @@ into its Louisiana and out-of-state shares.
 
     python3 fetch_households.py
 
-Tries the newest ACS 5-year release first and falls back a year at a time.
-api.census.gov needs no key at this volume (four requests). It is not
-reachable from every network; the "Reference data" workflow runs this on
-GitHub's runners and commits the result. Writes data/households.json.
+Reads the ACS table-based summary file for B11001 (one file, every
+geography; the Census API now requires a key, the bulk file doesn't),
+newest 5-year release first, falling back a year at a time. www2.census.gov
+is not reachable from every network; the "Reference data" workflow runs
+this on GitHub's runners and commits the result. Writes data/households.json.
 Stdlib only.
 """
 import json
@@ -26,44 +27,49 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
-STATES = {'LA': '22', 'TX': '48', 'AR': '05', 'MS': '28'}
-TABLE = 'B11001_001E'      # households, total
 
 
 class Unavailable(Exception):
-    """The API has no such release (it answers some of those with an empty
-    or HTML body rather than an error status)."""
+    """No such release (yet)."""
 
 
-def get(url):
+def summary_file(year, want):
+    """Households for the `want` counties from the ACS table-based summary
+    file: one pipe-delimited file per table, every geography, no API key.
+    The API (api.census.gov) now refuses keyless requests."""
+    url = (f'https://www2.census.gov/programs-surveys/acs/summary_file/{year}/'
+           f'table-based-SF/data/5YRData/acs5y{year}_b11001.dat')
     req = urllib.request.Request(url, headers={'User-Agent': 'louisiana-airwaves/1.0'})
     try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            body = r.read().decode('utf-8', 'replace')
+        r = urllib.request.urlopen(req, timeout=300)
     except urllib.error.HTTPError as e:
-        if e.code in (204, 400, 404):
-            raise Unavailable(f'HTTP {e.code}')
+        if e.code in (403, 404):
+            raise Unavailable(f'HTTP {e.code} for {url}')
         raise
-    try:
-        return json.loads(body)
-    except json.JSONDecodeError:
-        raise Unavailable(f'not JSON: {body[:160]!r}')
+    hh = {}
+    with r:
+        head = None
+        for raw in r:
+            line = raw.decode('utf-8', 'replace').rstrip('\r\n')
+            if head is None:
+                head = line.split('|')
+                gi, vi = head.index('GEO_ID'), head.index('B11001_E001')
+                continue
+            if not line.startswith('0500000US'):
+                continue
+            cols = line.split('|')
+            fips = cols[gi][len('0500000US'):]
+            if fips in want:
+                hh[fips] = int(float(cols[vi]))
+    return hh
 
 
 def main():
     counties = json.load(open(D('data', 'county_dma.json'), encoding='utf-8'))
-    need = {STATES[c['st']] for c in counties.values()}
     this = time.gmtime().tm_year
     for year in range(this - 1, this - 5, -1):
         try:
-            hh = {}
-            for st in sorted(need):
-                rows = get(f'https://api.census.gov/data/{year}/acs/acs5'
-                           f'?get=NAME,{TABLE}&for=county:*&in=state:{st}')
-                head = rows[0]
-                for r in rows[1:]:
-                    rec = dict(zip(head, r))
-                    hh[rec['state'] + rec['county']] = int(rec[TABLE])
+            hh = summary_file(year, set(counties))
             break
         except Unavailable as e:
             print(f'  ACS {year} 5-year not available ({e}); trying {year - 1}')
