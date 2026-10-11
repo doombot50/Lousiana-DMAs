@@ -33,7 +33,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
 sys.path.insert(0, D('fcc'))
 from normalize import (aliases, bucket, buyer_folder, buyer_from_filename, buyer_key,  # noqa: E402
-                       classify, fcc_url, out_of_state, parse_path)
+                       classify, clean_name, fcc_url, out_of_state, parse_path, tidy_caps)
 from site_nav import NAV_CSS, nav  # noqa: E402
 
 SITE_URL = 'https://airwaves.charliestephens.xyz/'
@@ -101,11 +101,29 @@ def fcc_summary(markets_by_call):
             yf = st.get('year_folders', {}).get(year)
             link = (fcc_url(slug, bpath, fid) if fid else
                     f"https://publicfiles.fcc.gov/tv-profile/{slug}/political-files/{year}/{yf}" if yf else None)
-            rows.append({'link': link, 'deep': bool(fid), 'from_name': bool(from_name),'b': b, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
+            rows.append({'link': link, 'deep': bool(fid), 'from_name': bool(from_name), 'b': b, 'level': level, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
                          'office': office, 'call': st['call'], 'up': (f['uploaded'] or '')[:10],
                          'kind': classify(f['name'] or '', f['path']), 'year': year,
                          'year_folder': st.get('year_folders', {}).get(year),
                          'slug': (st.get('fcc_call') or st['call']).lower()})
+    # A race one station marks as another state's is that state's at every
+    # station: KTBS files Texas's Senate race (Ken Paxton, James Talarico)
+    # under plain "Federal/US Senate", KSLA under "US Senate/Texas". Matched on
+    # full names only, never a bare surname.
+    away_state = defaultdict(Counter)
+    for r in rows:
+        if r['b'] == 'Out of state':
+            away_state[r['key']][r['state']] += 1
+    for r in rows:
+        if r['b'] != 'Out of state' and len(r['key'].split()) > 1 and r['key'] in away_state:
+            r['b'], r['state'] = 'Out of state', away_state[r['key']].most_common(1)[0][0]
+    # A candidate runs for one office: a full name some stations file under
+    # Federal and others under State (KTVE and KARD put Julia Letlow's and
+    # Misti Cordell's congressional races there) is one federal candidate.
+    federal = {r['key'] for r in rows if r['b'] == 'Federal' and len(r['key'].split()) > 1}
+    for r in rows:
+        if r['b'] == 'State & local' and r['key'] in federal:
+            r['b'] = 'Federal'
     keys = defaultdict(set)
     for r in rows:
         keys[r['b']].add(r['key'])
@@ -122,8 +140,14 @@ def fcc_summary(markets_by_call):
         # key (so "Bill Cassidy", not the surname-only "Cassidy-R for US
         # Senate"), with the least left over around it ("Hillar Moore", not
         # "Hillar Moore- District Attorney"); then the most common.
-        names = Counter(r['name'] for r in rs)
-        name = min(names, key=lambda n: (buyer_key(n) != target,
+        # Candidates lose the office written onto their name ("Don Landry -
+        # District Attorney"); issue groups keep theirs whole ("Citizens for
+        # Louisiana" is a name, not a race).
+        issue = all(r['level'] == 'Issue' for r in rs)
+        names = Counter(tidy_caps(clean_name(r['name'], issue)) for r in rs)
+        # The spelling the key comes from before ALIASES, so a station's
+        # typo ("Mike Johson") never names the group.
+        name = min(names, key=lambda n: (buyer_key(n, alias=False) != target, buyer_key(n) != target,
                                          len(n) - len(target), -names[n], n))
         offices = Counter(r['office'] for r in rs if r['office'])
         # One link per station: the buyer's folder there, from that station's
@@ -133,7 +157,7 @@ def fcc_summary(markets_by_call):
             if r['link'] and (r['deep'] or not links.get(r['call'], (None, False))[1]):
                 links[r['call']] = (r['link'], r['deep'])
         buyers.append({
-            'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': offices.most_common(1)[0][0] if offices else None,
+            'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': tidy_caps(offices.most_common(1)[0][0]) if offices else None,
             'state': Counter(r['state'] for r in rs if r['state']).most_common(1)[0][0]
                      if b == 'Out of state' else None,
             'docs': len(rs), 'recent': len(recent), 'latest': latest['up'],

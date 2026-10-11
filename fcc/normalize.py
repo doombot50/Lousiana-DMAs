@@ -28,9 +28,10 @@ DOC_FOLDERS = re.compile(
     r'disclosures?|logs?|as ?run|affidavits?|makegoods?|make goods|revisions?|'
     r'cancell?ations?|political (orders?|invoices?)|\d{4}|notices?|'
     # one folder per document, as KPXJ files them: "Order - 20228 REV 1", "PB - 19990"
-    r'(orders?|pb|nab|invoices?|contracts?)\s*[-#]?\s*\d+\b.*|'
-    # a sub-channel folder under a buyer: "NLFY - CW"
-    r'[kw][a-z]{2,3}\s*-\s*(cw|my\w*|ion|me\w*|antenna|bounce)'
+    # (KPXJ's sub-channel ones carry a version: "PB - 63687v1")
+    r'(orders?|pb|nab|invoices?|contracts?)\s*[-#]?\s*\d+.*|'
+    # a sub-channel folder under a buyer: "NLFY - CW", "KPXJ - ION"
+    r'[a-z]{3,4}\s*-\s*(cw|my\w*|ion|me\w*|antenna|bounce)'
     r')$', re.I)
 
 # Shreveport's market reaches East Texas and Monroe-El Dorado's southern
@@ -139,7 +140,7 @@ def parse_path(path):
 
 
 FILLER = re.compile(r'\b(inc|llc|pac|the|committee to elect|campaign|for|of|to|elect|'
-                    r'friends of|people for)\b')
+                    r'friends of|people for|victory fund)\b')
 
 
 # Station misspellings of a buyer, folded by hand: a spelling slip like this
@@ -155,11 +156,20 @@ ALIASES = {
     'accountablility project': 'accountability project',
     'loisiana freedom fund': 'louisiana freedom fund',
     'john flemming': 'john fleming',
+    # The new stations of October 2026 (KTBS, WVLA, WAFB, WNTZ, KADN).
+    'mike johson': 'mike johnson',
+    'blake miquez': 'blake miguez',
+    'rick edmunds': 'rick edmonds',
+    'kristain earles': 'kristian earles',
+    # The same congressional candidates under their short and full names.
+    'mike echols': 'michael echols',
+    'michael gabriel firment': 'gabe firment',
+    'mike marsiglia': 'michael marsiglia',
 }
 
 
 OFFICE_WORDS = (r'court|judge|justice|senate|senator|house|congress|council|board|attorney|da|'
-                r'sheriff|mayor|assessor|clerk|commission\w*|commissioner|district|dist|'
+                r'sheriff|mayor|assessor|clerk|commission\w*|commissioner|district|dist|sentate|'
                 r'governor|parish|representative|rep|comptroller|judicial')
 PLACE_WORDS = r'louisiana|la|united states|us|u\.s\.|texas|tx|arkansas|mississippi'
 # An office (or the state) written onto the name after a hyphen, repeated:
@@ -170,9 +180,11 @@ OFFICE_SUFFIX = re.compile(
 # "Committee to elect David Way for District Judge".
 FOR_OFFICE = re.compile(
     r'\s+for\s+(?:.*\b(?:' + OFFICE_WORDS + r')\b.*|(?:' + PLACE_WORDS + r'))$', re.I)
-# ...or just appended, after a full name: "Don Landry DA 15 Judicial District of LA".
+# ...or just appended, after a full name: "Don Landry DA 15 Judicial District of LA",
+# "Emilia Pardo LA City Court Judge D".
 OFFICE_TAIL = re.compile(
-    r'^(\S+\s+\S+(?:\s+\S+)??)\s+(?:district judge|district attorney|judge|da|sheriff|mayor)\b.*$', re.I)
+    r'^(\S+\s+\S+(?:\s+\S+)??)\s+(?:(?:la|louisiana|us|tx)\s+)?'
+    r'(?:district judge|district attorney|city court|judge|da|ag|sheriff|mayor|congress)\b.*$', re.I)
 # "Texans for Greg Abbott", "Citizens for…": the supporters, not the buyer's name.
 SUPPORTERS = re.compile(r'^(texans|arkansans|louisianans|louisianians|citizens|people|friends)\s+for\s+', re.I)
 CHANNEL = re.compile(r'\s*-\s*(cw|my\w*|ion)\s*$', re.I)
@@ -204,24 +216,50 @@ def buyer_from_filename(name, calls=()):
     return t if len(re.sub(r'[^A-Za-z]', '', t)) >= 3 else None
 
 
-def buyer_key(buyer):
-    """Lower-case, punctuation-free, filler-free form of a buyer's name.
-    Station shorthand like "Cassidy-R for US Senate" also loses its party
-    suffix and office ("-R for US Senate" -> "cassidy")."""
+def clean_name(buyer, issue=False):
+    """A buyer's name without the office, party or channel a station wrote
+    onto it, case kept: "Don Landry - District Attorney" -> "Don Landry",
+    "Cassidy-R for US Senate" -> "Cassidy", "Gabe Firment for Congress" ->
+    "Gabe Firment". An issue group keeps its name whole ("Citizens for
+    Louisiana" names the group, not a race) but loses a sub-channel tag."""
+    if issue:
+        return re.sub(r'\s+campaign$', '', CHANNEL.sub('', buyer), flags=re.I).strip() or buyer
     k = re.sub(r'-\s*[RDI]\b.*$', '', buyer, flags=re.I) if re.search(r'-\s*[RDI]\b', buyer) else buyer
-    # ...and an office written onto the name after a hyphen
-    # ("…Blair Downing Edwards-LA Supreme Court", "Hillar Moore- District Attorney").
     k = CHANNEL.sub('', k)
-    k = SUPPORTERS.sub('', k)
+    k = re.sub(r'^pol(?:itical)?\s*-\s*', '', k, flags=re.I)     # KLFY: "Pol- James Klock"
     prev = None
     while prev != k:
         prev, k = k, OFFICE_SUFFIX.sub('', k)
     k = FOR_OFFICE.sub('', k)
     k = OFFICE_TAIL.sub(r'\1', k)
+    k = re.sub(r'\s+campaign$', '', re.sub(r'^the\s+', '', k.strip(), flags=re.I), flags=re.I)
+    return k.strip() or buyer
+
+
+def buyer_key(buyer, alias=True):
+    """Lower-case, punctuation-free, filler-free form of a buyer's name, so
+    the same buyer filed differently at two stations groups together. A
+    middle initial is dropped ("Sherman Q Mack" -> "sherman mack");
+    `alias=False` skips the hand-made ALIASES."""
+    k = SUPPORTERS.sub('', clean_name(buyer))
     k = FILLER.sub(' ', k.lower())
     k = re.sub(r'[^a-z0-9 ]', ' ', k)
     k = re.sub(r'\s+', ' ', k).strip()
-    return ALIASES.get(k, k)
+    w = k.split()
+    if len(w) == 3 and len(w[1]) == 1:
+        k = f'{w[0]} {w[2]}'
+    return ALIASES.get(k, k) if alias else k
+
+
+KEEP_CAPS = {'US', 'LA', 'PAC', 'DA', 'JP', 'II', 'III', 'TX', 'AR', 'MS', 'LLC'}
+
+
+def tidy_caps(name):
+    """Title-case a name a station typed in capitals ("CAMILLE BURAS")."""
+    if not name or not name.isupper():
+        return name
+    return re.sub(r"[A-Z][A-Z'.]*", lambda m: m.group(0) if m.group(0) in KEEP_CAPS
+                  else m.group(0).capitalize(), name)
 
 
 def bucket(level):
