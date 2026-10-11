@@ -82,6 +82,7 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pfrow{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 16px; padding:11px 16px; border-top:1px solid var(--hair);}
 .pfrow:first-child{border-top:0;}
 .pfrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:14px;}
+.pfrow a.nm{text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
 .pfrow .of{font-family:Archivo,system-ui,sans-serif; font-size:11.5px; color:var(--muted); margin-left:6px;}
 .pfrow .when{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink2); text-align:right; white-space:nowrap;}
 .pfrow .when b{color:var(--ink);}
@@ -125,6 +126,8 @@ a.callchip:hover{color:var(--ink); background:var(--hair);}
 .stlist li{padding:11px 18px 12px; border-top:1px solid var(--hair);}
 .strow{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;}
 .call{font-family:"IBM Plex Mono",monospace; font-weight:600; font-size:15px;}
+a.call{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
+a.call:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
 .net{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink2); border:1px solid var(--baseline); padding:1px 6px; border-radius:2px;}
 .chno{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted);}
 .ownerline{font-size:13px; color:var(--ink2); font-family:Archivo,system-ui,sans-serif; margin-top:3px;}
@@ -256,7 +259,7 @@ __NAV__
   <h2>What the stations say is being bought</h2>
   <p class="intro" id="pfintro"></p>
   <div class="chips" id="pfchips" role="group" aria-label="Filter by level"></div>
-  <p class="cap" style="margin-top:10px">Click a call sign to open that station's political file for the buyer.</p>
+  <p class="cap" style="margin-top:10px">Click a name for the candidate's state committee profile, a call sign for that station's political file for the buyer.</p>
   <div class="pf" id="pflist" style="margin-top:8px"></div>
   <p class="cap" id="pfcap"></p>
 </section>
@@ -355,6 +358,14 @@ __NAV__
 const HUE = {NO:'--no', SHV:'--shv', BR:'--br', LAF:'--laf', MON:'--mon', LKC:'--lkc', ALX:'--alx'};
 const cv = k => `var(${HUE[k]})`;
 const DMA = Object.fromEntries(DATA.dmas.map(d=>[d.k,d]));
+const hashParams=()=>new URLSearchParams(location.hash.slice(1));
+const hashGet=k=>hashParams().get(k);
+function hashSet(k,v){
+  const p=hashParams(); if(v==null) p.delete(k); else p.set(k,v);
+  const h=p.toString(); history.replaceState(null,'',h?'#'+h:location.pathname+location.search);
+}
+const PFCODE={'Federal':'fed','State & local':'local','Issue':'issue','Out of state':'away'};
+const PFKEY=Object.fromEntries(Object.entries(PFCODE).map(([k,v])=>[v,k]));
 const NS = 'http://www.w3.org/2000/svg';
 const fmt = n => n.toLocaleString('en-US');
 const money = n => n>=1e6 ? '$'+(n/1e6).toFixed(n>=1e7?1:2)+'M'
@@ -590,12 +601,12 @@ if(DATA.fcc){
     `In the ${F.days} days to ${dshort(F.scraped)}, these stations posted <b>${fmt(F.recentDocs)} documents</b> for <b>${F.recentBuyers} buyers</b>. `+
     `<b>${fmt(F.byBucket['Federal'])}</b> of them were for federal races, which Louisiana's own disclosure filings never show.`+
     (F.away.buyers ? ` Not counted here: ${fmt(F.away.recent)} more for ${F.away.buyers} buyers in other states' races. ${Math.round(F.away.states[0][1]/F.away.docs*100)}% of those documents are ${F.away.states[0][0]} campaigns, carried on stations whose markets cross the state line; the rest are national issue buys on network sub-channels. They're under <i>Out of state</i>.` : '');
-  let level='all', showAll=false;
+  let level=PFKEY[hashGet('pf')]||'all', showAll=false;
   const chips=document.getElementById('pfchips');
   for(const [k,l] of [['all','All Louisiana'],['Federal','Federal'],['State & local','State & local'],['Issue','Issue ads'],['Out of state','Out of state']]){
     const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
     b.setAttribute('aria-pressed', String(k===level));
-    b.addEventListener('click',()=>{level=k; showAll=false; render();});
+    b.addEventListener('click',()=>{level=k; showAll=false; render(); hashSet('pf', k==='all'?null:PFCODE[k]);});
     chips.appendChild(b);
   }
   const esc = t => t.replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -612,7 +623,9 @@ if(DATA.fcc){
         return s.u ? `<a class="${cls}" style="${st}" href="${s.u}" rel="noopener" title="${t}">${s.c}</a>`
                    : `<span class="${cls}" style="${st}" title="${t}">${s.c}</span>`;
       }).join('');
-      const name = esc(x.name);
+      // A state candidate or PAC links to its committee profile: what it has
+      // reported paying stations, next to what it is booking now.
+      const name = x.f ? `<a class="nm" href="${prof(x.f)}" title="${esc(x.name)}'s state committee profile">${esc(x.name)}</a>` : esc(x.name);
       return `<div class="pfrow"><div><span class="nm">${name}</span><span class="btag">${x.state || BL[x.b]}</span>${x.office?`<span class="of">${esc(x.office)}</span>`:''}</div>
         <div class="when">${x.recent?`<b>${x.recent}</b> new · `:''}latest ${dshort(x.latest)}</div>
         <div class="calls">${calls}</div></div>`;
@@ -628,7 +641,7 @@ if(DATA.fcc){
     `Stations name buyers their own way ("Cassidy-R for US Senate", "Bill Cassidy"); names are merged across stations only where the match is unambiguous. Faded call signs have documents earlier in the cycle but none in the last ${F.days} days. `+
     (F.noFile.length ? `${F.noFile.join(', ')} ${F.noFile.length>1?'are':'is a'} low-power station${F.noFile.length>1?'s':''} exempt from the online file. ` : '')+
     (F.stale.length ? `${F.stale.join(', ')} ${F.stale.length>1?'have':'has'} not been refreshed in over a week. ` : '')+
-    `Each call sign opens that station's political file for the buyer.`;
+    `Each call sign opens that station's political file for the buyer; a state candidate's or PAC's name opens its committee profile, matched to its state filer by name. Federal candidates report to the FEC, not the state, so they have none.`;
 }
 
 /* ---------- map ---------- */
@@ -691,8 +704,9 @@ for(const d of DATA.dmas){
   b.addEventListener('click',()=>select(d.k));
   tabs.appendChild(b);
 }
-function select(k){
+function select(k, quiet){
   selected=k; paint();
+  if(!quiet) hashSet('m', k);
   for(const b of tabs.children){
     b.setAttribute('aria-selected', b.dataset.k===k?'true':'false');
     b.style.borderBottomColor = b.dataset.k===k ? cv(k) : 'transparent';
@@ -705,7 +719,7 @@ function select(k){
     <div class="panelmeta">DMA <b>#${d.rank}</b> · <b>${fmt(d.hh)}</b> TV households${d.laShare<1?`, <b>${fmt(d.laHH)}</b> in Louisiana (${Math.round(d.laShare*100)}%)`:''}<br>
     <b>$${d.pphLA.toFixed(2)}</b> per Louisiana household — <b>${d.indexLA.toFixed(2)}×</b> its share of the state${d.laShare<1?` · $${d.pph.toFixed(2)} over the whole market`:''}</div></div><ul class="stlist">`;
   for(const s of sts){
-    h+=`<li><div class="strow"><span class="call">${s.call}</span><span class="net">${s.net}</span>${s.ch?`<span class="chno">ch ${s.ch}</span>`:''}</div>
+    h+=`<li><div class="strow">${s.pf?`<a class="call" href="${s.pf}" rel="noopener" title="${s.call}'s political file at the FCC">${s.call}</a>`:`<span class="call">${s.call}</span>`}<span class="net">${s.net}</span>${s.ch?`<span class="chno">ch ${s.ch}</span>`:''}</div>
       <div class="ownerline">${s.owner}${s.note?` <span class="nb">— ${s.note}</span>`:''}</div>
       <div class="buybar"><div class="track"><div class="fill" style="width:${(s.spend/mx*100).toFixed(1)}%;background:${cv(k)}"></div></div>
       <span class="n">${money(s.spend)}</span></div></li>`;
@@ -862,5 +876,13 @@ function tip(e,html){
 }
 function hideTip(){ tipEl.style.opacity='0'; }
 
-select('NO');
+/* ---------- shareable state: #m=<market>&pf=<filter> ---------- */
+// index.html#m=SHV opens the map on Shreveport; #pf=away the political file
+// on its out-of-state buyers. The committee profiles link here this way.
+{
+  const m=hashGet('m');
+  select(DMA[m]?m:'NO', true);
+  const target = hashGet('pf') ? 'pf-sec' : DMA[m] ? 'markets' : null;
+  if(target) requestAnimationFrame(()=>document.getElementById(target).scrollIntoView());
+}
 </script>

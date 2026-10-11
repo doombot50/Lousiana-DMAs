@@ -233,6 +233,7 @@ def clean_name(buyer, issue=False):
     k = FOR_OFFICE.sub('', k)
     k = OFFICE_TAIL.sub(r'\1', k)
     k = re.sub(r'\s+campaign$', '', re.sub(r'^the\s+', '', k.strip(), flags=re.I), flags=re.I)
+    k = re.sub(r'\b(\w+)\s+\1\b', r'\1', k, flags=re.I)     # KPLC: "Ron Richard Richard"
     return k.strip() or buyer
 
 
@@ -296,3 +297,76 @@ def aliases(keys_by_bucket):
                     target = full[0]
             out[(b, k)] = target
     return out
+
+
+# ── matching a political-file buyer to its state filer ───────────────────────
+# Stations write the name a campaign goes by ("Don Landry", "Tom Arceneaux");
+# the Ethics filings carry the legal one ("Donald D. Landry",
+# 'M. Thomas ("Tom") Arceneaux'). Both reduce to a first name, spelled out,
+# and a surname.
+NICKNAMES = {
+    'al': 'albert', 'andy': 'andrew', 'ben': 'benjamin', 'bill': 'william',
+    'billy': 'william', 'bob': 'robert', 'bobby': 'robert', 'chris': 'christopher',
+    'dan': 'daniel', 'danny': 'daniel', 'dave': 'david', 'don': 'donald',
+    'ed': 'edward', 'greg': 'gregory', 'jeff': 'jeffrey', 'jim': 'james',
+    'jimmy': 'james', 'joe': 'joseph', 'ken': 'kenneth', 'larry': 'lawrence',
+    'matt': 'matthew', 'mike': 'michael', 'pat': 'patrick', 'rick': 'richard',
+    'rob': 'robert', 'ron': 'ronald', 'sal': 'salvatore', 'sam': 'samuel',
+    'steve': 'stephen', 'tim': 'timothy', 'tom': 'thomas', 'tony': 'anthony',
+    'will': 'william',
+}
+SUFFIX = re.compile(r',?\s+(jr|sr|ii|iii|iv)\.?$', re.I)
+
+
+def person_keys(name):
+    """Keys a person's name can be matched on: the full buyer key, and
+    first + last name with the first name spelled out. A parenthesized
+    nickname ('M. Thomas ("Tom") Arceneaux') yields keys for both."""
+    forms = {name}
+    m = re.match(r'^(.*?)\s*\(\s*["“]?([^)"”]+)["”]?\s*\)\s*(.*)$', name)
+    if m:
+        before, nick, after = m.groups()
+        forms |= {f'{before} {after}', f'{nick} {after}'}
+    keys = set()
+    for f in forms:
+        k = buyer_key(SUFFIX.sub('', f.strip()))
+        if not k:
+            continue
+        keys.add(k)
+        w = [x for x in k.split() if len(x) > 1]       # initials out
+        if len(w) >= 2:
+            keys.add(f'{NICKNAMES.get(w[0], w[0])} {w[-1]}')
+    return keys
+
+
+def group_key(name):
+    """A PAC's or issue group's name for matching: the whole name, losing only
+    corporate words, so "Louisiana First Victory Fund" never matches
+    "Louisiana First PAC"."""
+    k = re.sub(r'[^a-z0-9 ]', ' ', CHANNEL.sub('', name).lower())
+    return 'org:' + ' '.join(w for w in k.split() if w not in ('inc', 'llc', 'the', 'pac'))
+
+
+def filer_index(filers):
+    """key -> set of filer numbers, over {filer: {'n': name, ...}}."""
+    idx = {}
+    for fn, rec in filers.items():
+        for k in person_keys(rec['n']) | {group_key(rec['n'])}:
+            idx.setdefault(k, set()).add(fn)
+    return idx
+
+
+def match_filer(names, idx, person=True):
+    """The one filer every spelling in `names` that matches at all points
+    to, or None. A key shared by two filers (two Mike Echolses) is no match.
+    Issue groups (`person=False`) match on their full name only."""
+    found = set()
+    for n in names:
+        keys = person_keys(n) if person else {group_key(n)}
+        for k in keys:
+            hit = idx.get(k, set())
+            if len(hit) == 1:
+                found |= hit
+            elif len(hit) > 1:
+                return None
+    return found.pop() if len(found) == 1 else None
