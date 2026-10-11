@@ -207,3 +207,30 @@ class Prose(unittest.TestCase):
         self.assertIn('2000–2026', fill_tokens('__SPAN__ {{a}}', spend, 'tv', {'a': 1}))
         with self.assertRaises(SystemExit):
             fill_tokens('{{missing}}', spend, 'tv', {})
+
+
+class FilerMediaExport(unittest.TestCase):
+    """data/filer_media.json, the handoff to the campaign-finance dashboard."""
+
+    def test_shape_and_one_line_per_filer(self):
+        from build_committees_page import media_export
+        rows = [
+            {'f': '1314', 'n': 'Blair Edwards', 'tv': 300, 'ra': 0, 'nts': 2, 'nrs': 0,
+             'y': {'2026': [300, 0]}, 'ts': [['WVUE', 200, 'nola'], ['WAFB', 100, 'br']], 'rs': [],
+             'pf': {'docs': 9, 'recent': 2, 'latest': '2026-10-07',
+                    'st': [{'c': 'WVUE', 'r': True}, {'c': 'WAFB', 'r': False}]}},
+            {'f': '10', 'n': 'Paul Bonin', 'tv': 0, 'ra': 40, 'nts': 0, 'nrs': 1,
+             'y': {'2008': [0, 40]}, 'ts': [], 'rs': [['WWL', 40]]},
+        ]
+        text = media_export(rows, {'scraped': '2026-10-11', 'since': '2026-09-28', 'days': 14},
+                            {'generated': '2026-10-11', 'data_through': '2026-10-05'})
+        d = json.loads(text)
+        self.assertEqual(d['data_through'], '2026-10-05')
+        self.assertEqual(d['filers']['1314']['pf'],
+                         {'docs': 9, 'recent': 2, 'latest': '2026-10-07', 'st': 2, 'live': 1})
+        self.assertEqual(d['filers']['1314']['top'], ['WVUE', 'WAFB'])
+        self.assertEqual(d['filers']['10']['top'], ['WWL'])          # radio when no TV
+        self.assertNotIn('pf', d['filers']['10'])
+        # The date stamp sits on a line of its own, so the nightly commit
+        # step's -I'"generated":' can ignore a stamp-only change.
+        self.assertIn('\n"generated": "2026-10-11",\n', text)
