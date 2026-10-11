@@ -32,16 +32,20 @@ geography and the money underneath those edges.
   Stations must post orders within days, so this runs weeks ahead of the
   state finance reports, and it is the only public record here of federal
   races. Counts are documents, not dollars.
-- **The map** — the 64 parishes colored by DMA (New Orleans №50 nationally,
-  down to Alexandria №183). Click a market for its stations and totals.
-- **Where the money over-weights** — spending per TV household. Alexandria
-  ($77.34) and Lafayette ($76.88) run well above the $60.41 state average
-  while **Shreveport, the second-largest market, draws just $42.80** —
-  campaigns pay a premium for the contested middle of the state and skip the
-  Republican northwest. New Orleans lands exactly at par.
+- **The map** — the seven markets drawn whole: the 64 parishes in full color
+  by DMA (New Orleans №50 nationally, down to Alexandria №183), and the
+  markets' 25 Texas, Arkansas and Mississippi counties in a lighter shade.
+  Click a market for its stations and totals.
+- **Where the money over-weights** — spending per *Louisiana* TV household.
+  Nielsen counts a market's households whole, and 46% of Shreveport's are in
+  Texas and Arkansas, so over the whole market Shreveport looks like the
+  state's bargain ($43 a household against $60). Counted on its Louisiana
+  side it is the most heavily bought market in the state (~$80 against ~$69);
+  Monroe–El Dorado (13% Arkansas) is the one market below average either
+  way. The section's prose is written from the data, so it moves with it.
 - **Cycle benchmarks** — each market's TV money in every governor's-race
   year since 2003, as a share of the state, in 2024 dollars (BLS CPI-U, from
-  `data/cpi.json`), or per TV household. Shreveport's share has halved, from
+  `data/cpi.json`), or per Louisiana TV household. Shreveport's share has halved, from
   23% in 2003 to 11% in 2023, while Lafayette's went from 11% to 18%; in real
   terms 2015 and 2019 were the biggest air wars (~$32M each) and 2023 spent
   half that. These are payments to stations, not ad rates: the filings don't
@@ -277,9 +281,27 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
 - `data/stations.json` — the 30 stations: call sign, virtual channel, network,
   DMA (with 2024–25 Nielsen rank and TV households), owner and ownership notes,
   and the vendor-factions committee counts.
-- `data/map_paths.json` — the 64 parish outlines as projected, simplified SVG
-  paths (equirectangular, Douglas–Peucker at ~1.1 units), each tagged with its
-  DMA. This is what the map draws.
+- `data/map_paths.json` — the outlines of every county in the seven markets
+  (the 64 parishes and 25 counties in Texas, Arkansas and Mississippi) as
+  projected, simplified SVG paths (equirectangular, Douglas–Peucker at ~1.1
+  units), each tagged with its DMA and state, plus the projection so labels
+  can be placed by longitude and latitude. Built by `build_map.py` from
+  Census county outlines ([plotly/datasets](https://github.com/plotly/datasets))
+  and the Nielsen DMA polygons below; this is what the map draws.
+- `data/county_dma.json` — those 89 counties → DMA, by the same
+  point-in-polygon method; `build_map.py` stops if it disagrees with
+  `parish_dma.json` on any parish. The DMA polygons date from the early
+  2010s; Nielsen rarely moves a county, but a reassignment since then would
+  not show.
+- `data/households.json` — Census households (ACS 5-year, table B11001) for
+  each of those counties, from `fetch_households.py`. The Census API now
+  requires a key, so it reads the ACS table-based summary file instead, and
+  www2.census.gov isn't reachable from every network: the **Reference data**
+  workflow runs it on GitHub's runners and commits the result (it re-runs
+  when the script or county list changes, or by hand each December when a
+  new 5-year release comes out). A market's *Louisiana TV households* are its
+  Nielsen count scaled by the Louisiana share of these Census households:
+  Nielsen publishes TV households only for a market as a whole.
 - `data/parish_dma.json` — all 64 parishes → Nielsen DMA. Computed by
   point-in-polygon of parish centroids (U.S. Census cartographic boundaries)
   against Nielsen DMA polygons ([simzou/nielsen-dma](https://github.com/simzou/nielsen-dma)),

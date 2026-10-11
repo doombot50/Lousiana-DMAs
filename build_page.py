@@ -57,6 +57,40 @@ BY_TOPO = {'New Orleans, LA': 'NO', 'Baton Rouge, LA': 'BR', 'Shreveport, LA': '
            'Lafayette, LA': 'LAF', 'Lake Charles, LA': 'LKC',
            'Monroe, LA-El Dorado, AR': 'MON', 'Alexandria, LA': 'ALX'}
 GOV_YEARS = {2003, 2007, 2011, 2015, 2019, 2023, 2027}
+# Map labels and city dots, by longitude/latitude; build_map.py's projection
+# places them. Market labels sit inside each market's Louisiana side.
+MAP_LABELS = {'NO': (-89.918, 30.216), 'BR': (-91.23, 30.569), 'SHV': (-93.565, 32.362),
+              'LAF': (-92.086, 30.054), 'LKC': (-93.32, 30.407), 'MON': (-92.086, 32.295),
+              'ALX': (-92.631, 31.456)}
+MAP_CITIES = {'New Orleans': (-90.071, 29.951), 'Baton Rouge': (-91.14, 30.451),
+              'Shreveport': (-93.75, 32.525), 'Lafayette': (-92.02, 30.224),
+              'Lake Charles': (-93.218, 30.226), 'Monroe': (-92.119, 32.509),
+              'Alexandria': (-92.445, 31.311)}
+# Out-of-state cities in the markets, drawn smaller.
+MAP_TOWNS = {'Texarkana': (-94.047, 33.425), 'El Dorado': (-92.666, 33.208),
+             'Marshall': (-94.367, 32.545), 'Picayune': (-89.679, 30.526)}
+# Mississippi's counties sit at both ends of the state line (Baton Rouge's
+# Amite and Wilkinson, New Orleans's Pearl River and Hancock), so the middle
+# of its outlines falls on Louisiana; its label goes between them, above it.
+STATE_LABEL_AT = {'MS': (-90.2, 31.22)}
+STATE_NAMES = {'TX': 'Texas', 'AR': 'Arkansas', 'MS': 'Mississippi', 'LA': 'Louisiana'}
+
+
+def louisiana_households():
+    """Per market: the Louisiana share of its Census households (ACS), and
+    Nielsen's TV households scaled by that share. Nielsen publishes TV
+    households for a market only as a whole; the Census counts say how much
+    of that whole is in Louisiana."""
+    hh = json.load(open(D('data', 'households.json'), encoding='utf-8'))
+    cd = json.load(open(D('data', 'county_dma.json'), encoding='utf-8'))
+    la, allc = defaultdict(int), defaultdict(int)
+    for fips, c in cd.items():
+        k = BY_TOPO[c['dma']]
+        allc[k] += hh['counties'][fips]
+        if c['st'] == 'LA':
+            la[k] += hh['counties'][fips]
+    return {k: {'share': la[k] / allc[k], 'censusLA': la[k], 'censusAll': allc[k]}
+            for k in MARKETS}, hh['source']
 
 FCC_RECENT_DAYS = 14   # "this fortnight" in the political-file section
 FCC_ROWS = 40          # buyers shipped to the page
@@ -200,10 +234,11 @@ def fcc_summary(markets_by_call):
 
 
 
-def benchmarks(spend):
+def benchmarks(spend, la_hh):
     """TV dollars by market in each governor's-race year, nominal, with the
     CPI-U factor that restates each year in base-year dollars. The page
-    derives share, real dollars and per-household figures from these."""
+    derives share, real dollars and per-household figures from these;
+    `hh` is each market's Louisiana TV households."""
     cpi = json.load(open(D('data', 'cpi.json'), encoding='utf-8'))
     base = cpi['annual'][str(cpi['base_year'])]
     # Only governor years already over and with a CPI figure: a race still
@@ -217,9 +252,31 @@ def benchmarks(spend):
     return {
         'years': years, 'base': cpi['base_year'], 'source': cpi['source'],
         'factor': [round(base / cpi['annual'][str(y)], 4) for y in years],
-        'rows': [{'k': k, 'name': n, 'hh': hh, 'v': [round(by[k][y]) for y in years]}
+        'rows': [{'k': k, 'name': n, 'hh': la_hh[k], 'v': [round(by[k][y]) for y in years]}
                  for k, (n, _, hh) in MARKETS.items()],
     }
+
+
+def project(geo, lon, lat):
+    p = geo['proj']
+    return [round((lon - p['lon0']) * p['kx'], 1), round((p['lat1'] - lat) * p['s'], 1)]
+
+
+def state_labels(geo):
+    """A name for each neighbouring state, at the middle of its counties' outlines."""
+    pts = defaultdict(list)
+    for c in geo['counties']:
+        if c['st'] != 'LA':
+            nums = [float(v) for v in re.findall(r'-?\d+(?:\.\d+)?', c['d'])]
+            pts[c['st']] += list(zip(nums[::2], nums[1::2]))
+    out = []
+    for st, ps in sorted(pts.items()):
+        if st in STATE_LABEL_AT:
+            out.append([STATE_NAMES[st], *project(geo, *STATE_LABEL_AT[st])])
+            continue
+        xs, ys = [p[0] for p in ps], [p[1] for p in ps]
+        out.append([STATE_NAMES[st], round(sum(xs) / len(xs)), round(sum(ys) / len(ys))])
+    return out
 
 
 def build_data():
@@ -231,10 +288,17 @@ def build_data():
     tot_hh = sum(m[2] for m in MARKETS.values())
     mspend = {BY_NAME[m['name']]: m['spend'] for m in spend['markets']}
 
+    lah, hh_source = louisiana_households()
+    la_hh = {k: round(hh * lah[k]['share']) for k, (_, _, hh) in MARKETS.items()}
+    tot_la = sum(la_hh.values())
     dmas = [{'k': k, 'name': n, 'rank': r, 'hh': hh,
              'spend': round(mspend[k]),
              'pph': round(mspend[k] / hh, 2),
-             'index': round((mspend[k] / total) / (hh / tot_hh), 3)}
+             'index': round((mspend[k] / total) / (hh / tot_hh), 3),
+             # The Louisiana side: Nielsen's count scaled by the Census share.
+             'laHH': la_hh[k], 'laShare': round(lah[k]['share'], 4),
+             'pphLA': round(mspend[k] / la_hh[k], 2),
+             'indexLA': round((mspend[k] / total) / (la_hh[k] / tot_la), 3)}
             for k, (n, r, hh) in MARKETS.items()]
     dmas.sort(key=lambda d: -d['spend'])
 
@@ -257,7 +321,13 @@ def build_data():
 
     return {
         'w': geo['w'], 'h': geo['h'],
-        'parishes': [{'n': p['n'], 'k': BY_TOPO[p['dma']], 'd': p['d']} for p in geo['parishes']],
+        'counties': [{'n': c['n'], 'k': BY_TOPO[c['dma']], 'st': c['st'], 'd': c['d']}
+                     for c in geo['counties']],
+        'mapLabels': {k: project(geo, *ll) for k, ll in MAP_LABELS.items()},
+        'cities': [[n, *project(geo, *ll)] for n, ll in MAP_CITIES.items()],
+        'towns': [[n, *project(geo, *ll)] for n, ll in MAP_TOWNS.items()],
+        'states': state_labels(geo),
+        'hhSource': hh_source,
         'dmas': dmas,
         'stations': stations,
         'owners': [{'grp': o['group'], 'spend': round(o['spend']), 'n': o['stations'],
@@ -267,9 +337,10 @@ def build_data():
         'buyers': [{'name': b['name'], 'party': b['party'], 'amt': round(b['amount']),
                     'st': b['stations'], 'f': b['filer']} for b in spend['top_buyers'][:12]],
         'total': round(total), 'totHH': tot_hh, 'avgPPH': round(total / tot_hh, 2),
+        'totLA': tot_la, 'avgPPHLA': round(total / tot_la, 2),
         'yearsCovered': spend['years_covered'], 'yearsMissing': spend['years_missing'],
         'rowsScanned': spend['rows_scanned'],
-        'bench': benchmarks(spend),
+        'bench': benchmarks(spend, la_hh),
         'fcc': fcc_summary({s['call']: BY_NAME[s['dma']] for s in spend['stations']}),
         'pace': {'from': spend['pace']['weeks'][0], 'to': spend['pace']['weeks'][1],
                  'cycles': [{'y': c['year'], 'primary': c['primary'], 'done': c['complete'],
