@@ -266,7 +266,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 <section id="pulse-sec">
   <p class="seclabel">The pulse</p>
   <h2>Louisiana buys television every four years</h2>
-  <p class="intro">Plotted by year, the money has a heartbeat: the state's <b>governor's races</b> — 2003, 2007, 2011, 2015, 2019, 2023 — account for <b id="govshare">most</b> of every dollar ever paid to these stations. The 2019 Edwards–Rispone runoff alone moved <b>$26.4M</b>, more than the eleven quietest years combined.</p>
+  <p class="intro">Plotted by year, the money has a heartbeat: the state's <b>governor's races</b> — 2003, 2007, 2011, 2015, 2019, 2023 — account for <b id="govshare">most</b> of every dollar ever paid to these stations. The 2019 Edwards–Rispone runoff alone moved <b>$26.4M</b>, more than the nineteen quietest years combined.</p>
   <div class="pulse"><svg id="pulse" role="img" aria-label="Annual television spending by Louisiana political committees, 2000 to 2026, with governor-race years marked"></svg></div>
   <p class="cap" id="pulsecap"></p>
 </section>
@@ -349,20 +349,20 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 <section id="buyers-sec">
   <p class="seclabel">The buyers</p>
   <h2>Who paid for the air war</h2>
-  <p class="intro">Two governors dominate the whole century of filings. <b>John Bel Edwards</b> spent <b>$11.3M</b> on television across 29 of the 30 stations; <b>Bobby Jindal</b> spent <b>$8.6M</b>. Behind them sit the outside groups that fought the 2019 and 2023 races — the <b>RGA's Right Direction PAC</b>, <b>Gumbo PAC</b>, and <b>The Fund for Louisiana's Future</b> — each buying nearly every station in the state.</p>
+  <p class="intro">Two governors dominate the whole century of filings. <b>John Bel Edwards</b> spent <b>$11.3M</b> on television across 29 of the 30 stations; <b>Bobby Jindal</b> spent <b>$8.57M</b>. Behind them sit the outside groups that fought the 2019 and 2023 races — the <b>RGA's Right Direction PAC</b>, <b>Gumbo PAC</b>, and <b>The Fund for Louisiana's Future</b> — each buying between 23 and 27 of the 30 stations.</p>
   <div class="chart buyers" id="buyerlist"></div>
-  <p class="cap">Committee spending across all 30 stations. Party is the filing's own label, except that Louisiana files most PACs and some candidates as <span class="mono">OTH</span>, which says nothing about which side bought the airtime. Where a filer's alignment is public record the label is corrected — the RGA's PAC to Republican; Gumbo PAC, Walter Boasso and Buddy Leach to Democratic; Jay Dardenne to Republican. A filing that states a party is left alone unless public reporting shows it is wrong: Blair Downing Edwards, a Republican 2026 Supreme Court candidate whose committee files as Democratic, is shown as Republican. Every correction is listed in <span class="mono">build_station_spend.py</span>.</p>
+  <p class="cap">Committee spending across all 30 stations. Party is the filing's own label, except that Louisiana files most PACs and some candidates as <span class="mono">OTH</span>, which says nothing about which side bought the airtime. Where a filer's alignment is public record the label is corrected — the RGA's PAC to Republican; Gumbo PAC, Walter Boasso and Buddy Leach to Democratic; Jay Dardenne to Republican. A filing that states a party is left alone unless public reporting shows it is wrong: Blair Downing Edwards, a Republican 2026 Supreme Court candidate whose committee files as Democratic, is shown as Republican. Every correction is listed in <span class="mono">filings.py</span>.</p>
 </section>
 
 <section id="method">
   <p class="seclabel">Method &amp; sources</p>
   <h2>Where this comes from</h2>
   <div class="method">
-    <p>Dollar figures are computed by <span class="mono">build_station_spend.py</span> in this repo, which reads <b id="rowcount">1.48 million</b> expenditure rows from the Louisiana Ethics Administration filings (via the campaign-finance project's <span class="mono">.la_cache</span>) and sums what every committee paid each station. Three corrections matter:</p>
+    <p>Dollar figures are computed by <span class="mono">build_station_spend.py</span> in this repo, which reads <b id="rowcount">1.50 million</b> expenditure rows from the Louisiana Ethics Administration filings (via the campaign-finance project's <span class="mono">.la_cache</span>) and sums what every committee paid each station. Three corrections matter:</p>
     <p><b>Spelling variants.</b> One station is filed 15–30 ways — <span class="mono">KADN</span>, <span class="mono">KADN-TV</span>, <span class="mono">KADN - TV</span>, <span class="mono">KADN-FOX</span>, <span class="mono">KADN-TV CHANNEL 15</span>. All fold to one call sign.</p>
     <p><b>Radio sisters.</b> WWL and KTAL share their call signs with radio stations. Rows explicitly marked radio (<span class="mono">WWL-AM</span>, <span class="mono">WWL RADIO</span>, <span class="mono">KTAL-FM</span>) are excluded — <b id="radioexcl"></b> in total. Rows carrying only the bare call sign cannot be resolved either way; they are counted as television, and that amount — <b id="ambig"></b>, nearly all of it WWL — is disclosed here rather than buried. Treat WWL-TV's and KTAL's totals as ceilings.</p>
     <p><b>Combined buys.</b> <b id="combined"></b> sits in rows naming two co-owned stations at once (<span class="mono">KARD-TV KTVE-TV</span>, <span class="mono">WGMB WVLA-TV</span>); those amounts are split evenly rather than assigned to whichever sorts first.</p>
-    <p><b>One gap:</b> the <b>2008</b> expenditure file is absent from the upstream data release, so 2008 is missing from every figure on this page. It was an off-cycle year — the surrounding off-years run well under $1M — so the effect on the totals is small, but it is not zero.</p>
+    <p><b>One gap:</b> the <b>2008</b> expenditure file is absent from the upstream data release, so 2008 is missing from every figure on this page. It was an off-cycle year — the off-years either side drew $992K in 2006 and $528K in 2009 — so the effect on the totals is small, but it is not zero.</p>
     <p>Parish boundaries are U.S. Census cartographic files; parish-to-DMA assignment was computed by point-in-polygon against Nielsen DMA boundaries and cross-checked against published market lists. Ownership is as reported through September 2026.</p>
     <h3>Sources</h3>
     <ul class="srcs">

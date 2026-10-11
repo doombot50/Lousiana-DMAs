@@ -139,7 +139,7 @@ __NAV__
 <header>
   <p class="eyebrow">A companion to <a href="https://airwaves.charliestephens.xyz/">Louisiana Airwaves</a></p>
   <h1>Louisiana Dial</h1>
-  <p class="dek">Television money follows population. <b>Radio money follows audience</b> — and that makes a radio ledger the closest thing in the public record to a campaign admitting who it was talking to. Louisiana committees have put <b id="hero">$11.7M</b> into the state's radio stations since 2000, a tenth of what they spent on TV. Where it went says more.</p>
+  <p class="dek">Television money follows population. <b>Radio money follows audience</b> — and that makes a radio ledger the closest thing in the public record to a campaign admitting who it was talking to. Louisiana committees have put <b id="hero">{{radio_total}}</b> into the state's radio stations since {{radio_since}}, about {{tv_fraction}} of what they spent on TV. Where it went says more.</p>
   <p class="asof">Filings through __THROUGH__ · rebuilt nightly from the state's disclosure data</p>
   <div class="dial" id="dial" aria-hidden="true"></div>
   <div class="dialcap"><span>Every radio dollar, by station format</span><span class="mono" id="dialtot"></span></div>
@@ -148,8 +148,8 @@ __NAV__
 
 <section id="formats">
   <p class="seclabel">The dial</p>
-  <h2>A third of it buys Black radio</h2>
-  <p class="intro">Group the stations by what they broadcast and one bucket dominates: <b>urban, gospel and Black talk formats take <span id="bshare">33%</span> of all radio spending</b> — nearly double news/talk, the next largest. On television no comparable split exists, because a TV station sells one undifferentiated audience to everybody. Radio sells specific audiences, and Louisiana campaigns have spent a quarter-century buying one in particular.</p>
+  <h2>{{top_share_words}} of it buys {{top_short}}</h2>
+  <p class="intro">Group the stations by what they broadcast and one bucket {{top_verb}}: <b>{{top_long}} take <span id="bshare">{{top_share}}</span> of all radio spending</b> — {{top_vs_next}}, the next largest. On television no comparable split exists, because a TV station sells one undifferentiated audience to everybody. Radio sells specific audiences, and Louisiana campaigns have spent a quarter-century buying one in particular.</p>
   <div class="panel fmt" id="fmtchart"></div>
   <p class="cap">“Black-audience” groups the formats the radio industry itself markets as reaching Black listeners — urban contemporary, urban adult contemporary, gospel, and brokered Black talk. It is a description of programming and of how airtime is sold, not of any station's or listener's politics.</p>
 </section>
@@ -157,7 +157,7 @@ __NAV__
 <section id="mix">
   <p class="seclabel">The fingerprint</p>
   <h2>Every campaign's radio buy is a targeting statement</h2>
-  <p class="intro">Break each committee's spending down by format and the strategy is legible without a single poll. <b>John Bel Edwards</b> put <b>61%</b> of his radio money into Black-audience stations; <b>Kathleen Blanco 74%</b>; <b>Walter Boasso 99%</b>. <b>Jeff Landry</b> put <b>48%</b> into news/talk, and the conservative PACs split roughly <b>40/40 between talk and country</b>. The exception proves the rule: <b>Bobby Jindal</b> bought all of it — 26% country, 25% Black-audience, 20% talk — the radio signature of a candidate assembling a landslide rather than a base.</p>
+  <p class="intro">Break each committee's spending down by format and the strategy is legible without a single poll. <b>John Bel Edwards</b> put <b>{{edwards_b}}</b> of his radio money into Black-audience stations; <b>Kathleen Blanco {{blanco_b}}</b>; <b>Walter Boasso {{boasso_b}}</b>. <b>Jeff Landry</b> put <b>{{landry_t}}</b> into news/talk, and the conservative Citizens Fighting Crime PAC split its money <b>{{cfc_t}}/{{cfc_c}} between talk and country</b>. The exception proves the rule: <b>Bobby Jindal</b> bought all of it — {{jindal_mix}} — the radio signature of a candidate assembling a landslide rather than a base.</p>
   <div class="panel mix" id="mixchart"></div>
   <p class="cap">Each bar is one committee's radio spending, divided by format. Party comes from the filing, corrected where Louisiana files a PAC as <span class="mono">OTH</span> or a filing states the wrong party — the same corrections as the TV page. Hover a segment for the dollar figure.</p>
 </section>
@@ -165,7 +165,7 @@ __NAV__
 <section id="retail">
   <p class="seclabel">Retail politics</p>
   <h2>The cheapest airtime in Louisiana</h2>
-  <p class="intro">For the median station here, a buy runs <b id="medbuy"></b> — against <b>$4,221</b> on television. At the bottom of the scale sits something television has no equivalent of: <b>KVPI in Ville Platte</b>, a classic-country-and-Cajun-French AM station, has taken money from <b>61 different committees</b> at an average of <b>$244</b> a spot. Sheriffs, assessors, school-board candidates and constables buy this radio. It is the layer of Louisiana campaigning that never shows up in a television ledger at all.</p>
+  <p class="intro">For the median station here, a buy runs <b id="medbuy"></b> — against <b>{{tv_median_buy}}</b> on television. At the bottom of the scale sits something television has no equivalent of: <b>KVPI in Ville Platte</b>, a classic-country-and-Cajun-French AM station, has taken money from <b>{{kvpi_n}} different committees</b> at an average of <b>{{kvpi_avg}}</b> a spot. Sheriffs, assessors, school-board candidates and constables buy this radio. It is the layer of Louisiana campaigning that never shows up in a television ledger at all.</p>
   <div class="panel retail" id="retailchart"></div>
   <p class="cap">Average dollars per filed buy, for stations with at least twenty filings. The Cajun and Christian stations at the cheap end are also the ones reaching the most separate committees — many small buyers, not a few big ones.</p>
 </section>
@@ -173,7 +173,7 @@ __NAV__
 <section id="ledger">
   <p class="seclabel">The ledger</p>
   <h2>Every station, by format</h2>
-  <p class="intro">Sixty-six stations, grouped by what they play. <b>WYLD</b> in New Orleans — iHeart's urban AC on FM and its gospel sister “Hallelujah 940” on AM — leads the state at <b id="topstn">$948K</b>, more than the next two combined.</p>
+  <p class="intro">{{n_stations_words}} stations, grouped by what they play. <b>{{lead_call}}</b> in {{lead_city}} — {{lead_desc}} — leads the state at <b id="topstn">{{lead_amount}}</b>{{lead_vs}}.</p>
   <div class="ledger" id="ledgertbl"></div>
   <p class="cap">AM and FM sisters sharing a call sign are one line; the filings rarely distinguish them and campaigns buy the cluster. Amounts are nominal dollars.</p>
 </section>
@@ -181,7 +181,7 @@ __NAV__
 <section id="owners">
   <p class="seclabel">Ownership</p>
   <h2>Different companies than television entirely</h2>
-  <p class="intro">The Gray-and-Nexstar duopoly that collects 78% of Louisiana's political TV money has no presence here. Radio's money goes to <b>iHeartMedia</b>, <b>Townsquare</b>, <b>Cumulus</b> and <b>Audacy</b> — and, unlike television, a substantial share stays with <b>locally owned stations</b> that answer to nobody's national programming department.</p>
+  <p class="intro">The Gray-and-Nexstar duopoly that collects {{duopoly_share}} of Louisiana's political TV money has no presence here. Radio's money goes to {{radio_owners}} — and, unlike television, {{local_share}} stays with <b>locally owned stations</b> that answer to nobody's national programming department.</p>
   <div class="panel fmt" id="ownchart"></div>
   <p class="cap">Owner as of September 2026. Stations operated under local marketing or brokerage agreements are credited to the operator.</p>
 </section>
@@ -194,7 +194,7 @@ __NAV__
     <h3>Four-letter call signs collide with English</h3>
     <p>Radio has ten times as many call signs as television, and a plain pattern match over these filings returns <span class="mono">WINE</span> (Total Wine), <span class="mono">KING</span> (Smoothie King Center), <span class="mono">WORD</span> (Last Word Strategies), <span class="mono">WEST</span> (Ryan West) and <span class="mono">KYLE</span> (Kyle Ardoin) as radio stations — <b id="collisions"></b> of phantom spending. So nothing is matched on shape alone: a row counts only if its call sign is in a hand-verified station reference, or carries an explicit <span class="mono">-AM</span>/<span class="mono">-FM</span> marker. Rows failing that test are excluded and the amount is reported in the output.</p>
     <h3>What is and isn't classified</h3>
-    <p><b id="clshare"></b> of the dollars here sit on the <b>66 stations whose format, city and owner were verified individually</b> against published sources. The remainder — <b id="tailamt"></b> across roughly <b id="tailn"></b> smaller call signs — is identifiable as radio but not yet classified, so it appears as its own bucket rather than being dropped or guessed into a category. The largest single station in that tail is about $55K. Format shares are quoted against the full total, so the unclassified tail dilutes them rather than disappearing from the denominator.</p>
+    <p><b id="clshare"></b> of the dollars here sit on the <b>{{n_stations}} stations whose format, city and owner were verified individually</b> against published sources. The remainder — <b id="tailamt"></b> across roughly <b id="tailn"></b> smaller call signs — is identifiable as radio but not yet classified, so it appears as its own bucket rather than being dropped or guessed into a category. The largest single station in that tail is about $55K. Format shares are quoted against the full total, so the unclassified tail dilutes them rather than disappearing from the denominator.</p>
     <h3>Two overlaps with the TV page</h3>
     <p><b>WWL and KTAL</b> share call signs between a television and a radio station. The Airwaves page counts their bare-call rows as television; this page counts only rows explicitly marked radio (<span class="mono">WWL-AM</span>, <span class="mono">KTAL-FM</span>), so no dollar is claimed twice. That radio-marked total is <b id="sisters"></b>.</p>
     <p><b>2008 is missing</b> from the upstream data release, as on the TV page, so it is absent from every figure here.</p>

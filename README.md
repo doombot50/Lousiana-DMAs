@@ -13,6 +13,10 @@ which found the buys in the first place: committees that pay the same TV
 stations show up as shared-vendor edges in that graph. This page is the
 geography and the money underneath those edges.
 
+Figures quoted in this README are a snapshot (October 2026). The pages' own
+copy is computed from the data on every build, so the live site is the
+current word.
+
 ## What it shows
 
 - **The pulse** — annual totals. **78% of every dollar** lands in a
@@ -95,8 +99,9 @@ raw-served page falls into quirks mode and renders at desktop width on phones.
 ## Louisiana Dial — the radio sibling
 
 `radio.html` is a second, standalone page covering **radio** rather than
-television: **$11.7M** across ~320 stations since 2000, a tenth of the TV total.
-Both pages carry the same tab bar (Television · Radio), from `site_nav.py`, which every page builder fills in so the pages can't drift apart.
+television: **$13.2M** across ~320 stations since 2000, about a ninth of the TV
+total. Every page carries the same tab bar and document head, from
+`page_shell.py`, which every page builder uses so the pages can't drift apart.
 
 Radio is not the TV page with new call signs, because the analysis inverts:
 
@@ -104,27 +109,29 @@ Radio is not the TV page with new call signs, because the analysis inverts:
   Audio rates only a handful of Louisiana metros and much of this money goes to
   unrated territory (Mamou, Crowley, Berwick, Ville Platte). So the page opens
   on format, and the parish map is deliberately absent.
-- **A third of it buys Black radio.** Urban, gospel and Black-talk formats take
-  **33%** of all radio spending, nearly double news/talk. Nothing comparable
-  exists on TV, where a station sells one undifferentiated audience.
-- **Each buy is a targeting statement.** Edwards put 61% of his radio money into
-  Black-audience stations, Blanco 74%, Boasso 99%; Landry put 48% into
-  news/talk and the conservative PACs split ~40/40 talk and country. Jindal is
-  the exception — he bought everything.
-- **Retail politics shows up.** The median station's buy is **$1,351** against
+- **More than a quarter of it buys Black radio.** Urban, gospel and Black-talk
+  formats take **29%** of all radio spending, just ahead of news/talk (27%).
+  Nothing comparable exists on TV, where a station sells one undifferentiated
+  audience. WWL (870 AM / 105.3 FM, news/talk) is the single biggest radio
+  earner, at $1.52M.
+- **Each buy is a targeting statement.** Edwards put 59% of his radio money into
+  Black-audience stations, Blanco 70%, Boasso 99%; Landry put 48% into
+  news/talk and Citizens Fighting Crime PAC split 40/40 talk and country.
+  Jindal is the exception — he bought everything.
+- **Retail politics shows up.** The median station's buy is **$1,372** against
   $4,221 on TV, and KVPI in Ville Platte (classic country + Cajun French) has
-  taken money from **61 committees at $244 a spot** — sheriffs and school-board
+  taken money from **62 committees at $246 a spot** — sheriffs and school-board
   races, a layer invisible on television.
-- **Different owners entirely.** iHeartMedia, Townsquare, Cumulus and Audacy,
-  plus a large locally-owned share. Gray and Nexstar do not appear.
+- **Different owners entirely.** iHeartMedia, Audacy, Townsquare and Cumulus,
+  plus 17% locally owned. Gray and Nexstar do not appear.
 
 ```bash
-python3 build_radio_spend.py     # data/radio_spend.json, from .la_cache
+python3 build_radio_spend.py     # data/radio_spend.json, from .la_cache (or build_spend.py for both)
 python3 build_radio_page.py      # radio.html + radio.artifact.html
 ```
 
 `data/radio_stations.json` is the hand-verified reference (call sign → format,
-city, owner, market) for the 66 stations carrying 83% of the dollars; edit
+city, owner, market) for the 67 stations carrying 85% of the dollars; edit
 `radio.template.html`, never the generated pages.
 
 ### Two things the radio build has to handle that the TV build didn't
@@ -143,7 +150,10 @@ city, owner, market) for the 66 stations carrying 83% of the dollars; edit
   denominator.
 - **No double-counting with the TV page.** WWL and KTAL share call signs across
   television and radio. Airwaves counts their bare-call rows as TV; Dial counts
-  only rows explicitly marked radio.
+  only rows explicitly marked radio. (WWL has three letters, so until October
+  2026 the four-letter pattern never matched it, and ~$1.5M of `WWL-AM` /
+  `WWL RADIO` rows, excluded from TV as radio, appeared on neither page. The
+  test suite caught it.)
 
 ## The committees page
 
@@ -179,7 +189,10 @@ political-file filter in the URL (`#m=LAF&pf=local`; filters `fed`, `local`,
 
 ## Rebuild the spending data
 
-`build_station_spend.py` recomputes every dollar figure from the raw filings.
+`build_spend.py` recomputes every dollar figure from the raw filings, running
+the TV build (`build_station_spend.py`) and the radio build
+(`build_radio_spend.py`) off one pass over the 1.5M rows; either also runs
+on its own.
 It reads the campaign-finance project's `.la_cache` expenditure files, which
 `fetch_cache.py` downloads into `./.la_cache` (git-ignored) from the nightly
 `data-cache` release of
@@ -187,9 +200,9 @@ It reads the campaign-finance project's `.la_cache` expenditure files, which
 
 ```bash
 python3 fetch_cache.py                              # ~47MB, 2000 → this year
-python3 build_station_spend.py                      # auto-finds ./.la_cache
-python3 build_radio_spend.py
+python3 build_spend.py                              # TV + radio data; auto-finds ./.la_cache
 python3 build_page.py && python3 build_radio_page.py && python3 build_committees_page.py
+python3 -m unittest discover -s tests               # the regression tests
 ```
 
 A sibling checkout's cache (`../la-campaign-finance/.la_cache`), `--cache
@@ -199,10 +212,39 @@ under the headline ("Filings through October 5, 2026"). The year span in the
 copy (`2000–2026`) is filled from `years_covered` at build time, so neither
 needs hand-editing when the calendar turns.
 
+### How the code is laid out
+
+- `filings.py` — what the TV and radio builds share: finding and reading the
+  cache (one pass, every row handed to each build), vendor-name
+  normalization, the party rules (`PARTY_OVERRIDE`, `PARTY_CORRECTION`), the
+  committee-detail writer and the governor's-race calendar (`PRIMARIES`).
+- `build_station_spend.py`, `build_radio_spend.py`, `build_spend.py` — the
+  spend data (above).
+- `markets.py` — the seven Nielsen markets: keys, names, ranks, households.
+- `fcc/` — the political files: `scrape_political_files.py` (the nightly
+  scrape), `normalize.py` (folder path → level, office, buyer; name keys;
+  filer matching), `summary.py` (buyers rolled up across stations).
+- `page_shell.py` — the tab bar, document head, template tokens and the
+  two-output publish step every page uses; `prose.py` — the phrases the copy
+  is built from.
+- `build_page.py`, `build_radio_page.py`, `build_committees_page.py` — one
+  per page, each from its `*.template.html`.
+- `build_map.py`, `fetch_households.py` — reference geography and Census
+  households, run only when those change.
+- `tests/` — regression tests, many of them real filings that were once
+  misread. The nightly run starts with them and stops on a failure.
+
+**Copy written from the data.** The templates' paragraphs carry `{{name}}`
+markers that each page builder fills from the data (`facts()` in
+`build_page.py` and `build_radio_page.py`), and comparisons like "nearly
+double" or "more than the next two combined" are decided by `prose.py` on
+every build, so a sentence can't outlive the numbers it was written about. A
+marker left unfilled stops the build.
+
 ### Nightly rebuild
 
-`.github/workflows/nightly-rebuild.yml` runs those five commands every morning
-at 11:00 UTC, two hours after the upstream cache refreshes, and commits the
+`.github/workflows/nightly-rebuild.yml` runs the tests and then those commands every morning
+at 11:17 UTC (off the hour: GitHub drops scheduled runs at :00 under load), after the upstream cache refreshes, and commits the
 result; GitHub Pages serves the commit. A night with no new filings commits
 nothing — the only diff would be the `generated` date, which the workflow
 ignores. It can also be run by hand from the Actions tab.
@@ -296,7 +338,7 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   dollars; plus rollups by market and owner group, statewide top buyers, and
   an explicit `caveats` block (see below). `pace` holds each governor's
   cycle as cumulative dollars per week from 104 weeks before the primary to 7
-  after (the anchor dates are `PRIMARIES` in `build_station_spend.py`), and
+  after (the anchor dates are `PRIMARIES` in `filings.py`), and
   `recent_buyers` the trailing-year buyers.
 - `data/stations.json` — the 30 stations: call sign, virtual channel, network,
   DMA (with 2024–25 Nielsen rank and TV households), owner and ownership notes,
@@ -329,7 +371,7 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
 
 ## Method notes
 
-Dollars come from 1.48M Louisiana Ethics Administration expenditure rows,
+Dollars come from 1.5M Louisiana Ethics Administration expenditure rows,
 2000–2026. Three corrections are applied, and each is reported in the output's
 `caveats` block rather than hidden:
 
@@ -349,7 +391,7 @@ One editorial correction is applied on top of the filings:
 - **Party labels.** Louisiana files most PACs and some candidates as `OTH`,
   which says nothing about which side of a race bought the airtime. For filers
   whose alignment is a matter of public record, the label is corrected in
-  `PARTY_OVERRIDE` in `build_station_spend.py` — currently the RGA's Right
+  `PARTY_OVERRIDE` in `filings.py` — currently the RGA's Right
   Direction PAC (REP); Gumbo PAC, Walter J. Boasso and Claude "Buddy" Leach Jr.
   (DEM); and John L. "Jay" Dardenne (REP). A filing that states REP or DEM is
   left alone unless it is plainly wrong: `PARTY_CORRECTION` replaces the

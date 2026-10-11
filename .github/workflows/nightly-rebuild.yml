@@ -23,7 +23,10 @@ name: Nightly rebuild
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 11 * * *'   # 5-6am Central, after the upstream refresh
+    # 11:17 UTC (5-6am Central), after the upstream refresh. Off the hour on
+    # purpose: GitHub delays or drops scheduled runs at :00 when its queue is
+    # busy, and the 11:00 schedule this replaced never fired once.
+    - cron: '17 11 * * *'
 
 concurrency:
   group: nightly-rebuild
@@ -44,13 +47,17 @@ jobs:
         with:
           python-version: '3.12'
 
+      # The name rules and matching have regression tests built from real
+      # filings they once misread; a failure stops the run before anything
+      # is rebuilt or published.
+      - name: Test
+        run: python3 -m unittest discover -s tests
+
       - name: Fetch expenditure filings
         run: python3 fetch_cache.py
 
       - name: Rebuild data
-        run: |
-          python3 build_station_spend.py
-          python3 build_radio_spend.py
+        run: python3 build_spend.py
 
       - name: Refresh FCC political files
         continue-on-error: true
