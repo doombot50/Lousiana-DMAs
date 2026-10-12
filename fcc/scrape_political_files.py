@@ -175,17 +175,26 @@ DBS = {'DIRECTV': 'directv', 'DISH': 'dish'}
 
 
 def entities(media):
-    """The call signs (TV, radio) or PSIDs (cable) a medium covers."""
+    """The call signs (TV, radio) or PSIDs (cable) a medium covers. Cable
+    systems come biggest first and radio stations by political spending, so
+    the rotation's first nights, when nothing has been scraped, reach the
+    ones that matter (Cox, WWL) before the long tail."""
     if media == 'tv':
         return [s['call'] for s in json.load(open(D('stations.json'), encoding='utf-8'))]
     if media == 'dbs':
         return list(DBS)
     if media == 'cable':
         try:
-            return sorted(json.load(open(D('cable_systems.json'), encoding='utf-8')))
+            systems = json.load(open(D('cable_systems.json'), encoding='utf-8'))
         except FileNotFoundError:
             return []
-    return [s['call'] for s in json.load(open(D('radio_stations.json'), encoding='utf-8'))]
+        return sorted(systems, key=lambda p: (-systems[p].get('units', 0), p))
+    try:
+        spent = {s['call']: s['spend'] for s in json.load(open(D('radio_spend.json'), encoding='utf-8'))['stations']}
+    except (FileNotFoundError, KeyError):
+        spent = {}
+    calls = [s['call'] for s in json.load(open(D('radio_stations.json'), encoding='utf-8'))]
+    return sorted(calls, key=lambda c: -spent.get(c, 0))
 
 
 def resolve(media, call, cache):
