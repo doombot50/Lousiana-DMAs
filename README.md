@@ -391,10 +391,25 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   The **FCC media check** workflow runs the scraper live against two TV
   stations, one cable system and one radio station whenever it changes.
 - **Read from the names.** Some stations write a flight into a document's
-  name ("Camille Buras 10-5 to 10-18"): `normalize.flight` reads it, and the
-  races page says a buyer is "booked through" the latest flight end still
-  ahead. Documents marked "REV" or "revised" count as revisions, and each
-  buyer carries its documents a week for the last ten weeks.
+  name ("Camille Buras 10-5 to 10-18"; DirecTV "2026-09-23 2026-11-03"):
+  `normalize.flight` reads it, and the races page says a buyer is "booked
+  through" the latest flight end still ahead. Documents marked "REV" or
+  "revised" count as revisions. Cable systems' affidavits ("…_AFF1293848_…")
+  and DirecTV's confirmations certify spots that already ran, so they count
+  as *aired* rather than as orders for time to come. Each buyer carries its
+  documents a week for the last ten weeks.
+- **One file, counted once.** Spectrum lists the same order once per ad zone
+  and in every system of a sales market: John Fleming's 3,048 Senate
+  listings on one system are 68 files, and the first cable night's 11,782
+  listings were 1,812. Cable and satellite count a file name once per buyer;
+  the station chips still show every system that listed it.
+- **Outside groups, placed in their race.** Issue ads are filed under the
+  group, not the race. The races page ties a group to a race when its
+  document names write the district in ("LA CD6", DirecTV's habit) or carry
+  the surname of a candidate in the race who is buying airtime too
+  ("Creep Scalise", "Liberal Letlow": stations name the creative). A surname
+  counts only when one such candidate has it, so a word like "page" can't.
+  Which side the ad takes isn't recorded.
 - **Listed, not read.** Amounts sit inside PDFs whose layout varies by
   station and sales system (and the document download URL refuses
   scripted requests), so the record is the folder and file names.
