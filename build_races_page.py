@@ -350,7 +350,7 @@ def build(today=None):
     spend = load(D('data', 'station_spend.json'))
     ballot = load(D('data', 'ballot.json'), {'elections': []})
     market = {s['call']: BY_NAME[s['dma']] for s in load(D('data', 'stations.json'))}
-    F = fcc_summary(market, full=True, media=('tv', 'cable', 'radio'))
+    F = fcc_summary(market, full=True, media=('tv', 'cable', 'radio', 'dbs'))
     fin = Finance(find_cache())
     tv, ra = load(D('data', 'committees_tv.json')), load(D('data', 'committees_radio.json'))
     pf = fcc_index(F)

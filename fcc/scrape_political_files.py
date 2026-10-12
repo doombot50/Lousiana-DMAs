@@ -12,6 +12,7 @@ record at all of federal-race buys, which Louisiana's Ethics filings never see.
     python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
     python3 fcc/scrape_political_files.py --media cable      # cable systems
     python3 fcc/scrape_political_files.py --media radio      # radio stations
+    python3 fcc/scrape_political_files.py --media dbs        # DirecTV, Dish (Louisiana's folders)
 
 Cable systems (data/cable_systems.json, from fcc/find_cable.py) and radio
 stations (data/radio_stations.json) file the same way, under their own
@@ -166,13 +167,19 @@ MEDIA = {
     'tv':    {'out': 'fcc_political.json', 'pace': (8, 14, 28)},
     'cable': {'out': 'fcc_cable.json', 'pace': (6, 13, 25)},
     'radio': {'out': 'fcc_radio.json', 'pace': (10, 20, 34)},
+    # DirecTV and Dish file nationally, sorted by state; only Louisiana's
+    # folders are walked.
+    'dbs':   {'out': 'fcc_dbs.json', 'pace': (2, 2, 2)},
 }
+DBS = {'DIRECTV': 'directv', 'DISH': 'dish'}
 
 
 def entities(media):
     """The call signs (TV, radio) or PSIDs (cable) a medium covers."""
     if media == 'tv':
         return [s['call'] for s in json.load(open(D('stations.json'), encoding='utf-8'))]
+    if media == 'dbs':
+        return list(DBS)
     if media == 'cable':
         try:
             return sorted(json.load(open(D('cable_systems.json'), encoding='utf-8')))
@@ -185,6 +192,8 @@ def resolve(media, call, cache):
     """(entity id, profile path, the FCC's name for it) or (None, None, None)."""
     if media == 'cable':
         return call, f'cable-profile/{call}', call
+    if media == 'dbs':
+        return call, f'dbs-profile/{DBS[call]}', call
     if media == 'radio':
         ent, profile = radio_facility(call, cache)
         return ent, profile, profile and profile.split('/')[1].upper()
@@ -202,11 +211,27 @@ def under(prev, path):
     return [x for x in prev if x['path'] == path or x['path'].startswith(path + '/')]
 
 
-def walk(fid, ent, out, prev, stats, folders, prev_folders):
+STATES = set("""Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia
+Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Maine Maryland Massachusetts Michigan Minnesota
+Mississippi Missouri Montana Nebraska Nevada Ohio Oklahoma Oregon Pennsylvania Tennessee Texas Utah
+Vermont Virginia Washington Wisconsin Wyoming""".split()) | {
+    'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+    'Rhode Island', 'South Carolina', 'South Dakota', 'West Virginia', 'District of Columbia',
+    'Puerto Rico', 'Guam'}
+
+
+def other_state(name):
+    """A folder for another state's races, in a national file (DirecTV
+    sorts each level by state)."""
+    return name.strip() in STATES
+
+
+def walk(fid, ent, out, prev, stats, folders, prev_folders, skip=None):
     """Depth-first: append every file under folder `fid` to `out`, reusing the
     previous run's documents for any subfolder whose file count is unchanged.
     Records every folder's id by path in `folders`, so the page can link to a
-    buyer's own folder rather than the document subfolder a file sits in."""
+    buyer's own folder rather than the document subfolder a file sits in.
+    Subfolders whose name `skip` accepts aren't walked."""
     f = folder(fid, ent)
     stats['fetched'] += 1
     if not f:
@@ -224,7 +249,7 @@ def walk(fid, ent, out, prev, stats, folders, prev_folders):
         })
     for s in f.get('subfolders') or []:
         n = int(s.get('file_count') or 0)
-        if not n:
+        if not n or (skip and skip(s.get('folder_name') or '')):
             continue
         path = s.get('folder_path', '\0')
         folders[path] = s['entity_folder_id']
@@ -234,7 +259,7 @@ def walk(fid, ent, out, prev, stats, folders, prev_folders):
             folders.update({p: i for p, i in prev_folders.items() if p.startswith(path + '/')})
             stats['reused'] += 1
         else:
-            walk(s['entity_folder_id'], ent, out, prev, stats, folders, prev_folders)
+            walk(s['entity_folder_id'], ent, out, prev, stats, folders, prev_folders, skip)
 
 
 def default_years(this):
@@ -355,7 +380,7 @@ def main():
             for yf in rf.get('subfolders') or []:
                 if yf.get('folder_name', '').isdigit() and int(yf['folder_name']) in years:
                     walk(yf['entity_folder_id'], ent, files, prev.get('files', []), stats,
-                         folders, prev.get('folders', {}))
+                         folders, prev.get('folders', {}), other_state if args.media == 'dbs' else None)
             files.sort(key=lambda x: x['uploaded'] or '', reverse=True)
             stations.append({'call': call, 'fcc_call': fcc_call, 'facility_id': ent, 'root_folder': root,
                              'profile': profile,

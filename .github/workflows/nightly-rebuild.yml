@@ -125,6 +125,11 @@ jobs:
         timeout-minutes: 40
         run: python3 fcc/scrape_political_files.py --media radio
 
+      - name: Refresh satellite political files
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python3 fcc/scrape_political_files.py --media dbs
+
       - name: Rebuild pages
         run: |
           python3 build_page.py

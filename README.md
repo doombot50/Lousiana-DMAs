@@ -376,8 +376,10 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   stations on the radio page) then read their files into
   `data/fcc_cable.json` and `data/fcc_radio.json`, each with its own
   rotation (6 cable systems and 10 radio stations a night, more near an
-  election). DirecTV files nationally (about 30,000 documents in 2026) and
-  Dish's 2026 folder is empty, so satellite isn't read yet. Each run has a
+  election). DirecTV files nationally (about 30,000 documents in 2026) but
+  sorts each level by state, so `--media dbs` walks only Louisiana's
+  folders (about 120 documents, most of them issue ads) into
+  `data/fcc_dbs.json`; Dish's 2026 folder is empty so far. Each run has a
   request budget (`--budget`, 250): a station's first walk can cost
   hundreds of requests, so once the budget is spent the rest wait a night.
   The **FCC media check** workflow runs the scraper live against two TV

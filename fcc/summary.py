@@ -35,7 +35,12 @@ FCC_RECENT_DAYS = 14   # "this fortnight" in the political-file section
 FCC_ROWS = 40          # buyers shipped to the page
 FRESH_DAYS = 3         # "new" on the races page
 WEEKS = 10             # weekly document counts, for the races page's sparklines
-FILES = {'tv': 'fcc_political.json', 'cable': 'fcc_cable.json', 'radio': 'fcc_radio.json'}
+FILES = {'tv': 'fcc_political.json', 'cable': 'fcc_cable.json', 'radio': 'fcc_radio.json',
+         'dbs': 'fcc_dbs.json'}
+DBS_LABEL = {'DIRECTV': 'DirecTV', 'DISH': 'Dish'}
+# DirecTV files each level by state ("State/Louisiana/<buyer>"; once as
+# "Louisana"): the state folder is dropped before the path is read.
+LA_FOLDER = re.compile(r'/(?:Louisiana|Louisana)(?=/|$)', re.I)
 RADIO_MARKET = {'Monroe': 'MON'}
 
 
@@ -51,6 +56,8 @@ def media_labels():
     by_name = {v[0]: k for k, v in MARKETS.items()} | RADIO_MARKET
     for r in load('data', 'radio_stations.json'):
         out[('radio', r['call'])] = (r['call'], by_name.get(r.get('market')))
+    for k, v in DBS_LABEL.items():
+        out[('dbs', k)] = (v, None)
     return out
 
 
@@ -87,7 +94,8 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
     rows = []
     for medium, st in entries:
         for f in st['files']:
-            level, office, buyer = parse_path(f['path'])
+            fpath = LA_FOLDER.sub('', f['path']) if medium == 'dbs' else f['path']
+            level, office, buyer = parse_path(fpath)
             if not level:
                 continue
             # No buyer folder (the Lake Charles stations file straight into
