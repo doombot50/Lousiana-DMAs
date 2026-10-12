@@ -1,26 +1,36 @@
 {
  "002247": {
-  "operator": "Cablesouth Media Iii",
+  "operator": "CableSouth",
   "legal": "CABLESOUTH MEDIA III, LLC",
   "market": "LKC",
+  "units": 1,
   "parishes": {
    "Allen": 1
   },
-  "name": "Cablesouth Media Iii Lake Charles"
+  "name": "CableSouth Lake Charles"
  },
  "002460": {
   "operator": "Cox",
   "legal": "COX COMMUNICATIONS LOUISIANA LLC",
   "market": "BR",
+  "units": 37,
   "parishes": {
-   "West Baton Rouge": 1
+   "Iberville": 9,
+   "West Baton Rouge": 6,
+   "Ascension": 6,
+   "East Baton Rouge": 6,
+   "Livingston": 4,
+   "St. James": 3,
+   "West Feliciana": 2,
+   "East Feliciana": 1
   },
-  "name": "Cox West Baton Rouge"
+  "name": "Cox Baton Rouge"
  },
  "003002": {
   "operator": "Sparklight",
   "legal": "CABLE ONE, INC.",
   "market": "MON",
+  "units": 2,
   "parishes": {
    "Concordia": 2
   },
@@ -30,26 +40,29 @@
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "LAF",
+  "units": 3,
   "parishes": {
    "Evangeline": 3
   },
   "name": "Classic Cable Evangeline"
  },
  "003376": {
-  "operator": "Cebridge Acquisition",
+  "operator": "Optimum",
   "legal": "CEBRIDGE ACQUISITION, L.P.",
   "market": "LKC",
+  "units": 1,
   "parishes": {
    "Calcasieu": 1
   },
-  "name": "Cebridge Acquisition Lake Charles"
+  "name": "Optimum Calcasieu"
  },
  "003478": {
   "operator": "Comcast",
   "legal": "COMCAST OF ARKANSAS/FLORIDA/LOUISIANA/MINNESOTA/MISSISSIPPI/TENNESSEE",
   "market": "MON",
+  "units": 5,
   "parishes": {
-   "Ouachita": 2
+   "Ouachita": 5
   },
   "name": "Comcast Monroe"
  },
@@ -57,16 +70,18 @@
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "ALX",
+  "units": 9,
   "parishes": {
    "Vernon": 7,
    "Sabine": 2
   },
-  "name": "Classic Cable Vernon"
+  "name": "Classic Cable Alexandria"
  },
  "004289": {
   "operator": "Comcast",
   "legal": "COMCAST OF LOUISIANA/MISSISSIPPI/TEXAS, LLC",
   "market": "NO",
+  "units": 5,
   "parishes": {
    "Terrebonne": 2,
    "St. John the Baptist": 2,
@@ -78,6 +93,7 @@
   "operator": "Cox",
   "legal": "COX COMMUNICATIONS LOUISIANA LLC",
   "market": "LAF",
+  "units": 28,
   "parishes": {
    "Lafayette": 9,
    "Vermilion": 7,
@@ -88,18 +104,20 @@
   "name": "Cox Lafayette"
  },
  "004383": {
-  "operator": "Cebridge Acquisition",
+  "operator": "Optimum",
   "legal": "CEBRIDGE ACQUISITION, L.P.",
   "market": "ALX",
+  "units": 1,
   "parishes": {
    "Rapides": 1
   },
-  "name": "Cebridge Acquisition Alexandria"
+  "name": "Optimum Alexandria"
  },
  "005142": {
   "operator": "Spectrum",
   "legal": "SPECTRUM GULF COAST, LLC",
   "market": "LAF",
+  "units": 21,
   "parishes": {
    "St. Landry": 9,
    "Evangeline": 4,
@@ -114,6 +132,7 @@
   "operator": "Spectrum",
   "legal": "SPECTRUM GULF COAST, LLC",
   "market": "NO",
+  "units": 7,
   "parishes": {
    "Assumption": 2,
    "Lafourche": 2,
@@ -127,6 +146,7 @@
   "operator": "Cox",
   "legal": "COX COMMUNICATIONS LOUISIANA LLC",
   "market": "NO",
+  "units": 17,
   "parishes": {
    "Jefferson Davis": 6,
    "St. Bernard": 5,
@@ -138,39 +158,45 @@
   "name": "Cox New Orleans"
  },
  "006379": {
-  "operator": "Allens Tv Cable Service Inc",
+  "operator": "Allen's TV Cable",
   "legal": "ALLENS TV CABLE SERVICE INC",
   "market": "LAF",
+  "units": 9,
   "parishes": {
    "St. Landry": 8,
    "St. Martin": 1
   },
-  "name": "Allens Tv Cable Service Inc St. Landry"
+  "name": "Allen's TV Cable Lafayette"
  },
  "007033": {
-  "operator": "Allens Tv Cable Service Inc",
+  "operator": "Allen's TV Cable",
   "legal": "ALLENS TV CABLE SERVICE INC",
   "market": "BR",
+  "units": 8,
   "parishes": {
    "Assumption": 3,
    "St. Mary": 3,
    "St. Martin": 2
   },
-  "name": "Allens Tv Cable Service Inc Baton Rouge"
+  "name": "Allen's TV Cable Baton Rouge"
  },
  "007036": {
   "operator": "Comcast",
   "legal": "COMCAST OF LOUISIANA/MISSISSIPPI/TEXAS, LLC",
   "market": "SHV",
+  "units": 6,
   "parishes": {
-   "Caddo": 1
+   "Caddo": 3,
+   "De Soto": 2,
+   "Bossier": 1
   },
-  "name": "Comcast Caddo"
+  "name": "Comcast Shreveport"
  },
  "007052": {
   "operator": "Cox",
   "legal": "COX COMMUNICATIONS LOUISIANA LLC",
   "market": "BR",
+  "units": 10,
   "parishes": {
    "St. Mary": 10
   },
@@ -180,6 +206,7 @@
   "operator": "Spectrum",
   "legal": "SPECTRUM GULF COAST, LLC",
   "market": "NO",
+  "units": 32,
   "parishes": {
    "St. Tammany": 9,
    "Tangipahoa": 9,
@@ -187,12 +214,13 @@
    "Washington": 5,
    "St. Helena": 2
   },
-  "name": "Spectrum St. Tammany"
+  "name": "Spectrum New Orleans"
  },
  "008273": {
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "MON",
+  "units": 4,
   "parishes": {
    "Tensas": 4
   },
@@ -202,6 +230,7 @@
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "SHV",
+  "units": 7,
   "parishes": {
    "Webster": 5,
    "Bossier": 1,
@@ -213,15 +242,28 @@
   "operator": "Sparklight",
   "legal": "CABLE ONE, INC.",
   "market": "MON",
+  "units": 28,
   "parishes": {
-   "Ouachita": 1
+   "Caldwell": 5,
+   "Caddo": 4,
+   "Webster": 3,
+   "Madison": 3,
+   "Richland": 2,
+   "Claiborne": 2,
+   "De Soto": 2,
+   "Ouachita": 2,
+   "Franklin": 2,
+   "Union": 1,
+   "East Carroll": 1,
+   "West Carroll": 1
   },
-  "name": "Sparklight Ouachita"
+  "name": "Sparklight Monroe"
  },
  "008567": {
   "operator": "Sparklight",
   "legal": "CABLE ONE, INC.",
   "market": "MON",
+  "units": 1,
   "parishes": {
    "Ouachita": 1
   },
@@ -231,6 +273,7 @@
   "operator": "Optimum",
   "legal": "CEQUEL III COMMUNICATIONS I, LLC",
   "market": "LKC",
+  "units": 3,
   "parishes": {
    "Calcasieu": 2,
    "Jefferson Davis": 1
@@ -241,15 +284,17 @@
   "operator": "Vyve",
   "legal": "VYVE BROADBAND J, LLC",
   "market": "LKC",
+  "units": 5,
   "parishes": {
    "Calcasieu": 5
   },
-  "name": "Vyve Calcasieu"
+  "name": "Vyve Lake Charles"
  },
  "008859": {
   "operator": "Vyve",
   "legal": "VYVE BROADBAND J, LLC",
   "market": "LAF",
+  "units": 3,
   "parishes": {
    "Jefferson Davis": 2,
    "Vermilion": 1
@@ -260,6 +305,7 @@
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "ALX",
+  "units": 8,
   "parishes": {
    "Rapides": 8
   },
@@ -269,6 +315,7 @@
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "ALX",
+  "units": 7,
   "parishes": {
    "Avoyelles": 6,
    "Rapides": 1
@@ -279,6 +326,7 @@
   "operator": "Sparklight",
   "legal": "CABLE ONE, INC.",
   "market": "NO",
+  "units": 3,
   "parishes": {
    "Plaquemines": 3
   },
@@ -288,6 +336,7 @@
   "operator": "Comcast",
   "legal": "COMCAST OF LOUISIANA/MISSISSIPPI/TEXAS, LLC",
   "market": "SHV",
+  "units": 2,
   "parishes": {
    "Caddo": 2
   },
@@ -297,6 +346,7 @@
   "operator": "EATEL",
   "legal": "EATEL WESTSIDE, L.L.C.",
   "market": "BR",
+  "units": 2,
   "parishes": {
    "Iberville": 2
   },
@@ -306,27 +356,30 @@
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "LAF",
+  "units": 4,
   "parishes": {
    "Iberia": 2,
    "St. Martin": 1,
    "Vermilion": 1
   },
-  "name": "Classic Cable Iberia"
+  "name": "Classic Cable Lafayette"
  },
  "016728": {
   "operator": "Classic Cable",
   "legal": "CLASSIC CABLE OF LOUISIANA LLC",
   "market": "SHV",
+  "units": 9,
   "parishes": {
    "Sabine": 8,
    "Vernon": 1
   },
-  "name": "Classic Cable Sabine"
+  "name": "Classic Cable Shreveport"
  },
  "020573": {
   "operator": "EATEL",
   "legal": "EATEL VIDEO, LLC",
   "market": "BR",
+  "units": 29,
   "parishes": {
    "Livingston": 7,
    "Ascension": 4,
@@ -340,12 +393,13 @@
    "St. James": 1,
    "St. John the Baptist": 1
   },
-  "name": "EATEL Livingston"
+  "name": "EATEL Baton Rouge"
  },
  "021784": {
   "operator": "Cameron Communications",
   "legal": "CAMERON COMMUNICATIONS, LLC",
   "market": "LKC",
+  "units": 3,
   "parishes": {
    "Allen": 3
   },
@@ -355,24 +409,28 @@
   "operator": "Vyve",
   "legal": "VYVE BROADBAND J, LLC",
   "market": "LKC",
+  "units": 5,
   "parishes": {
-   "Allen": 3
+   "Allen": 3,
+   "Jefferson Davis": 2
   },
   "name": "Vyve Allen"
  },
  "022352": {
-  "operator": "Allens Tv Cable Service Inc",
+  "operator": "Allen's TV Cable",
   "legal": "ALLENS TV CABLE SERVICE INC",
   "market": "LAF",
+  "units": 1,
   "parishes": {
    "St. Landry": 1
   },
-  "name": "Allens Tv Cable Service Inc St. Landry"
+  "name": "Allen's TV Cable St. Landry"
  },
  "022377": {
   "operator": "Sparklight",
   "legal": "CABLE ONE, INC.",
   "market": "MON",
+  "units": 2,
   "parishes": {
    "Franklin": 2
   },
