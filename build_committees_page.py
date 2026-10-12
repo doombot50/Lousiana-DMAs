@@ -11,7 +11,8 @@ committees.html#f=<filer number>, so a profile can be linked to directly.
 
 Reads data/committees_tv.json and data/committees_radio.json (written by the
 two spend builders), data/stations.json (TV call sign -> market) and
-data/station_spend.json (date stamps). Writes committees.html (standalone, for
+data/station_spend.json (date stamps), and data/filer_races.json (the coming
+race each filer is on a ballot for, from build_races_page.py). Writes committees.html (standalone, for
 GitHub Pages) and committees.artifact.html (body fragment), and
 data/filer_media.json, the per-filer summary the campaign-finance dashboard
 (finance.charliestephens.xyz) pulls nightly to show each campaign's airtime on
@@ -42,6 +43,8 @@ def booking(market):
         return {}, None
     by = {}
     for x in F['all']:
+        if not x['f']:
+            continue
         g = by.setdefault(x['f'], {'n': x['name'], 'o': x['office'], 'docs': 0, 'recent': 0,
                                    'latest': '', 'st': {}, 'live': set()})
         g['docs'] += x['docs']
@@ -62,6 +65,11 @@ def build_data():
     market = {s['call']: BY_NAME[s['dma']] for s in json.load(open(D('data', 'stations.json'), encoding='utf-8'))}
     pf, pf_meta = booking(market)
     filers = json.load(open(D('data', 'filers.json'), encoding='utf-8'))
+    # The coming race each filer is on the ballot for (build_races_page.py).
+    try:
+        races = json.load(open(D('data', 'filer_races.json'), encoding='utf-8'))
+    except FileNotFoundError:
+        races = {}
 
     rows = []
     # A filer booking airtime it hasn't reported paying for yet gets a
@@ -91,6 +99,7 @@ def build_data():
             'nrs': len(rst),
             'fm': [[k, round(v)] for k, v in sorted(r.get('formats', {}).items(), key=lambda x: -x[1])],
             **({'pf': pf[fn]} if fn in pf else {}),
+            **({'race': races[fn]} if fn in races else {}),
         })
     rows.sort(key=lambda x: (-(x['tv'] + x['ra']), x['f']))   # filer number breaks ties stably
     return rows, pf_meta

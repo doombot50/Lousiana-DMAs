@@ -32,19 +32,22 @@ def load(*p):
 
 FCC_RECENT_DAYS = 14   # "this fortnight" in the political-file section
 FCC_ROWS = 40          # buyers shipped to the page
+FRESH_DAYS = 3         # "new" on the races page
 
 
 def fcc_summary(markets_by_call, full=False):
     """Roll the FCC political-file listing up to buyers across stations.
     Returns None when the scrape hasn't run, so the page builds without it.
     With `full`, the result also carries every buyer (`all`), not just the
-    rows the TV page shows, for the committee profiles."""
+    rows the TV page shows, for the committee profiles and the races page,
+    and `fresh`: the documents uploaded in the last FRESH_DAYS days."""
     try:
         fcc = load('data', 'fcc_political.json')
     except FileNotFoundError:
         return None
     scraped = fcc['scraped'][:10]
     since = (date.fromisoformat(scraped) - timedelta(days=FCC_RECENT_DAYS - 1)).isoformat()
+    fresh_since = (date.fromisoformat(scraped) - timedelta(days=FRESH_DAYS - 1)).isoformat()
     # Call signs to strip when a buyer is read from a file name; KVHP's
     # sister station MVHP appears in its file names too.
     calls = {s['call'].split('-')[0] for s in load('data', 'stations.json')}
@@ -117,6 +120,7 @@ def fcc_summary(markets_by_call, full=False):
     buyers = []
     for (b, target), rs in groups.items():
         recent = [r for r in rs if r['up'] >= since]
+        fresh = sorted({(r['up'], r['call'], r['kind']) for r in rs if r['up'] >= fresh_since}, reverse=True)
         latest = max(rs, key=lambda r: r['up'])
         # Show the cleanest spelling: one whose cleaned form is the group's own
         # key (so "Bill Cassidy", not the surname-only "Cassidy-R for US
@@ -146,6 +150,7 @@ def fcc_summary(markets_by_call, full=False):
             'st': [{'c': c, 'k': markets_by_call.get(c), 'u': links.get(c, (None,))[0],
                     'd': links.get(c, (None, False))[1]} for c in sorted({r['call'] for r in rs})],
             'stRecent': sorted({r['call'] for r in recent}),
+            'fresh': [list(x) for x in fresh],
             'f': match_filer(sorted({clean_name(r['name']) for r in rs}), fidx, person=b != 'Issue')
                  if b in ('State & local', 'Issue') else None,
         })
@@ -180,5 +185,5 @@ def fcc_summary(markets_by_call, full=False):
                      {x['state']: 0 for x in away} | Counter(
                          s for x in away for s in [x['state']] * x['docs'])).most_common()]},
         'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
-        **({'all': [x for x in home if x['f']]} if full else {}),
+        **({'all': home, 'freshSince': fresh_since} if full else {}),
     }

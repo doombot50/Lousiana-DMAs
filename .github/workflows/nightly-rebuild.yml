@@ -3,13 +3,17 @@
 # la-campaign-finance refreshes its `data-cache` release from the Louisiana
 # Ethics Administration at 09:00 UTC; this runs two hours later, re-derives
 # every dollar figure from that cache, rebuilds index.html / radio.html /
-# committees.html and their artifact fragments, and commits them. GitHub Pages serves the repo
+# committees.html / races.html and their artifact fragments, and commits them. GitHub Pages serves the repo
 # root, so the commit is the deploy.
 #
 # It also refreshes the 30 stations' FCC political files (fcc/), which only
 # GitHub's runners can reach. That step may fail on its own, an FCC outage or
 # CDN block, without holding back the state-filings rebuild: the page then
 # keeps the previous night's political-file data, marked stale.
+#
+# It also refreshes the Secretary of State's ballot (fetch_ballot.py) for the
+# races page, which joins it to the finance totals fetch_cache.py pulls from
+# la-campaign-finance.
 #
 # Last, a freshness check opens a GitHub issue if any source has gone more
 # than three days without updating, and closes it once all are fresh.
@@ -59,6 +63,15 @@ jobs:
       - name: Rebuild data
         run: python3 build_spend.py
 
+      # The Secretary of State's ballot for the races page: races, candidates,
+      # and on election nights the votes. Like the FCC step, a failure keeps
+      # the previous night's copy rather than failing the run. It runs first
+      # because the FCC step reads the election dates to set its pace.
+      - name: Refresh the ballot
+        continue-on-error: true
+        timeout-minutes: 20
+        run: python3 fetch_ballot.py
+
       - name: Refresh FCC political files
         continue-on-error: true
         timeout-minutes: 60
@@ -68,11 +81,12 @@ jobs:
         run: |
           python3 build_page.py
           python3 build_radio_page.py
+          python3 build_races_page.py
           python3 build_committees_page.py
 
       - name: Commit if the filings changed
         run: |
-          if git diff --quiet -I'"generated":' -I'"scraped":' -- data/ '*.html'; then
+          if git diff --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -- data/ '*.html'; then
             echo "No new filings since the last build; nothing to commit."
             exit 0
           fi

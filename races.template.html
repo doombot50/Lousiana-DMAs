@@ -1,0 +1,356 @@
+<title>Races · Louisiana Airwaves</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --hair:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --no:#2a78d6; --shv:#1baf7a; --br:#eda100; --laf:#e87ba4; --mon:#eb6834; --lkc:#008300; --alx:#4a3aa7;
+  --accent:#2a78d6; --accent-ink:#1c5cab; --quiet:#c3c2b7; --new:#d6421f;
+  --dem:#2a78d6; --rep:#e34948; --oth:#c3c2b7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
+    --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46; --new:#f0714f;
+    --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+  --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+  --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
+  --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46; --new:#f0714f;
+  --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+}
+*{box-sizing:border-box}
+body{background:var(--page); color:var(--ink); font:16px/1.55 "Source Serif 4",Georgia,serif; margin:0;}
+.wrap{max-width:1080px; margin:0 auto; padding:0 20px 72px;}
+@media(max-width:560px){.wrap{padding:0 16px 60px;}}
+a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px;}
+h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance; margin:0;}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;}
+.eyebrow{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink2);}
+
+__NAV_CSS__header{padding:26px 0 0;}
+header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
+.dek{max-width:64ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
+.dek b{color:var(--ink); font-weight:600;}
+.asof{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin:10px 0 0; letter-spacing:.02em;}
+.ptag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; border:1px solid; flex:none;}
+.ptag.DEM{color:var(--dem); border-color:var(--dem);}
+.ptag.REP{color:var(--rep); border-color:var(--rep);}
+.ptag.OTH,.ptag.IND,.ptag.LBT,.ptag.GRN{color:var(--muted); border-color:var(--hair);}
+.btag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; color:var(--ink2); border:1px solid var(--baseline); flex:none;}
+.btag.new{color:var(--new); border-color:var(--new);}
+footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+footer p{margin:0 0 10px; max-width:80ch;}
+
+/* elections */
+.elex{display:flex; gap:8px; flex-wrap:wrap; margin-top:28px;}
+.elex button{font:inherit; text-align:left; padding:10px 14px; border:1px solid var(--hair); background:var(--surface); color:var(--ink); border-radius:4px; cursor:pointer; min-width:150px;}
+.elex button b{display:block; font:700 15px Archivo,system-ui,sans-serif;}
+.elex button span{display:block; font:12px Archivo,system-ui,sans-serif; color:var(--muted); margin-top:2px;}
+@media(max-width:560px){.elex{display:grid; grid-template-columns:1fr 1fr;} .elex button{min-width:0; padding:9px 11px;} .elex button b{font-size:14px;}}
+.elex button[aria-pressed="true"]{border-color:var(--ink); box-shadow:inset 0 0 0 1px var(--ink);}
+.elex button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+
+/* controls */
+.ctl{display:flex; gap:8px; flex-wrap:wrap; margin-top:18px; align-items:center;}
+.ctl input,.ctl select{font:15px "Source Serif 4",Georgia,serif; padding:9px 11px; border:1px solid var(--baseline); border-radius:3px; background:var(--surface); color:var(--ink);}
+.ctl input{flex:1 1 240px; min-width:0;}
+.ctl select{flex:0 1 auto; max-width:100%;}
+.ctl input:focus-visible,.ctl select:focus-visible{outline:2px solid var(--accent); outline-offset:1px;}
+.chips{display:flex; gap:6px; flex-wrap:wrap; margin-top:10px;}
+.chips button{font:600 12px/1 Archivo,system-ui,sans-serif; padding:8px 11px; border:1px solid var(--hair); background:var(--surface); color:var(--ink2); border-radius:999px; cursor:pointer;}
+.chips button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--page);}
+.chips button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.count{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted); margin:16px 0 8px;}
+
+/* feed */
+.feed{border:1px solid var(--hair); border-left:3px solid var(--new); background:var(--surface); padding:14px 18px 12px; margin-top:26px;}
+.feed h2{font-size:13px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--ink2);}
+.feed .sub{font:12.5px Archivo,system-ui,sans-serif; color:var(--muted); margin:4px 0 10px;}
+.feed ul{list-style:none; margin:0; padding:0;}
+.feed li{display:grid; grid-template-columns:52px minmax(0,1fr); gap:10px; padding:6px 0; border-top:1px solid var(--hair); font:13.5px/1.4 Archivo,system-ui,sans-serif;}
+.feed li:first-child{border-top:0;}
+.feed .d{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted); padding-top:2px;}
+.feed .who{font-weight:600;}
+.feed .what{color:var(--ink2);}
+.feed button.lnk{font:inherit; color:var(--accent-ink); background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px;}
+.feed .more{font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); background:none; border:0; padding:6px 0 0; cursor:pointer;}
+
+/* races */
+.race{border:1px solid var(--hair); background:var(--surface); margin-top:12px;}
+.race.open{box-shadow:0 0 0 2px var(--accent);}
+.rh{padding:12px 16px 8px; display:flex; flex-wrap:wrap; gap:6px 12px; align-items:baseline;}
+.rh h3{font-size:16px; font-weight:700; flex:1 1 320px; min-width:0;}
+.rh h3 a{color:inherit; text-decoration:none;}
+.rh h3 a:hover{color:var(--accent-ink);}
+.rh .tags{display:flex; gap:6px; flex-wrap:wrap; font:11.5px Archivo,system-ui,sans-serif; color:var(--muted);}
+.mk{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2); text-decoration:none;}
+a.mk:hover{color:var(--ink); background:var(--hair);}
+.cands{border-top:1px solid var(--hair);}
+.cr{display:grid; grid-template-columns:minmax(0,1.7fr) repeat(4,minmax(0,.75fr)) minmax(0,1.3fr); gap:10px; padding:8px 16px; border-top:1px solid var(--hair); align-items:start;}
+.cr:first-child{border-top:0;}
+.cr.head{font:700 10px Archivo,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); padding-top:7px; padding-bottom:7px; align-items:end;}
+.cr .nm{font:600 14px/1.35 Archivo,system-ui,sans-serif; display:flex; gap:6px; align-items:center; flex-wrap:wrap; min-width:0;}
+.cr .nm a{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
+.cr .nm a:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
+.cr .sub{font:11.5px Archivo,system-ui,sans-serif; color:var(--muted); margin-top:2px; grid-column:1/-1;}
+.cr .m{font-family:"IBM Plex Mono",monospace; font-size:12px; text-align:right; color:var(--ink2);}
+.cr .m.z{color:var(--baseline);}
+.cr .m small{display:block; font-size:10px; color:var(--muted);}
+.cr .pf{font:12px Archivo,system-ui,sans-serif; color:var(--ink2);}
+.cr .lbl{display:none;}
+.calls{display:flex; flex-wrap:wrap; gap:3px; margin-top:3px;}
+.callchip{font-family:"IBM Plex Mono",monospace; font-size:10px; padding:0 4px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2); text-decoration:none;}
+a.callchip:hover{color:var(--ink); background:var(--hair);}
+.callchip.quiet{opacity:.45;}
+.cr.win .nm::after{content:"✓ " attr(data-w); font:600 11px Archivo,system-ui,sans-serif; color:var(--accent-ink);}
+.votes{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink2);}
+.rf{padding:8px 16px 11px; border-top:1px solid var(--hair); font:12.5px/1.45 Archivo,system-ui,sans-serif; color:var(--ink2);}
+.rf b{color:var(--ink);}
+.rf a{white-space:nowrap;}
+.empty{padding:30px 16px; border:1px dashed var(--baseline); color:var(--ink2); font-size:15px; margin-top:12px;}
+.morebtn{display:block; width:100%; padding:12px; margin-top:12px; border:1px solid var(--hair); background:var(--surface); font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); cursor:pointer;}
+.field{margin-top:34px;}
+.field h2{font-size:clamp(22px,3vw,28px);}
+.field p{max-width:64ch; color:var(--ink2); margin:8px 0 0;}
+@media(max-width:720px){
+  .cr{grid-template-columns:repeat(2,minmax(0,1fr)); gap:4px 12px; padding:10px 14px;}
+  .cr.head{display:none;}
+  .cr .nm{grid-column:1/-1;}
+  .cr .m{text-align:left; display:flex; gap:6px; align-items:baseline;}
+  .cr .m small{display:inline;}
+  .cr .lbl{display:inline; font:10px Archivo,system-ui,sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--muted);}
+  .cr .pf{grid-column:1/-1;}
+  .rh{padding:12px 14px 8px;} .rf{padding:8px 14px 11px;}
+}
+</style>
+
+<div class="wrap">
+__NAV__
+<header>
+  <p class="eyebrow">Louisiana Airwaves</p>
+  <h1>The races</h1>
+  <p class="dek">{{lede}} Each race shows what its candidates have raised and spent, their cash on hand, the TV and radio they've paid for, and what stations' FCC political files show them booking now.</p>
+  <p class="asof" id="asof">Finance reports through __THROUGH__</p>
+</header>
+
+<main>
+  <div class="elex" id="elex" role="group" aria-label="Election"></div>
+  <section class="feed" id="feed" hidden></section>
+  <div class="ctl">
+    <input id="q" type="search" placeholder="Search a candidate, office or parish" aria-label="Search races" autocomplete="off">
+    <select id="parish" aria-label="Parish"></select>
+    <select id="mkt" aria-label="TV market"></select>
+    <select id="sort" aria-label="Sort races">
+      <option value="money">Most money first</option>
+      <option value="air">Most ad activity first</option>
+      <option value="az">A to Z</option>
+    </select>
+  </div>
+  <div class="chips" id="tiers" role="group" aria-label="Kind of race"></div>
+  <p class="count" id="count" aria-live="polite"></p>
+  <div id="races"></div>
+  <div id="field" class="field" hidden></div>
+</main>
+
+<footer>
+  <p><b>Ballot:</b> the Louisiana Secretary of State's election portal, refreshed nightly. It lists contested races once qualifying closes; candidates elected unopposed at qualifying aren't on it. Votes appear here the morning after an election. A parish race is placed in its parish's TV market; a multi-parish race (Congress, judicial districts, PSC, BESE) is placed in the markets of the stations its candidates are booking, so the market filter finds it only once it's on the air.</p>
+  <p><b>Money:</b> raised and spent are each candidate's totals for the {{cycle}} election cycle from their state finance reports, via the <a href="https://finance.charliestephens.xyz/">Louisiana campaign-finance dashboard</a>; cash on hand is the certified figure from the latest annual report. TV and radio are what the candidate's committee reported paying stations this cycle, matched as on the <a href="https://airwaves.charliestephens.xyz/">television</a> and <a href="https://airwaves.charliestephens.xyz/radio.html">radio</a> pages. Candidates are matched to their committee by name, and only when exactly one committee matches; a candidate with no match may simply not have filed a report yet, or may spend below the reporting threshold. Federal candidates report to the FEC, not the state, so they show political-file activity only.</p>
+  <p><b>Political files:</b> orders, invoices and requests that broadcast stations post to the FCC within days of a political ad buy, counted as documents, not dollars. Faded call signs have nothing in the last two weeks.</p>
+  <p><b>Does money win:</b> how often the candidate who spent the most won, across every contested Louisiana race since 2000, from the <a href="https://finance.charliestephens.xyz/does-money-win.html">campaign-finance dashboard's study</a>.</p>
+</footer>
+</div>
+
+<script>
+/*__DATA__*/
+const HUE={NO:'--no',SHV:'--shv',BR:'--br',LAF:'--laf',MON:'--mon',LKC:'--lkc',ALX:'--alx'};
+const MKT={NO:'New Orleans',SHV:'Shreveport',BR:'Baton Rouge',LAF:'Lafayette',MON:'Monroe–El Dorado',LKC:'Lake Charles',ALX:'Alexandria'};
+const TIERS=['Federal','Statewide','Legislative','Judicial','Local'];
+const TV='https://airwaves.charliestephens.xyz/', CM=TV+'committees.html';
+const FIN='https://finance.charliestephens.xyz/';
+const finLink=c=>FIN+'#/campaign/'+encodeURIComponent(c.n)+'?filer='+encodeURIComponent(c.f);
+const money=n=>n>=1e6?'$'+(n/1e6).toFixed(n>=1e7?1:2)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+Math.round(n);
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fold=t=>t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9 ]/g,' ');
+const dshort=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+const dlong=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+const pct=r=>Math.round(r*100)+'%';
+const EDGE={'<2x':'less than 2×','2-5x':'2–5×','5-10x':'5–10×','>10x':'more than 10×'};
+const E=DATA.elections, FCC=DATA.fcc, W=DATA.wins;
+
+// Per race: search text and sort keys.
+for(const e of E) for(const r of e.races){
+  r.q=fold(r.o+' '+(r.pa||'')+' '+r.c.map(c=>c.n).join(' '));
+  r.money=r.c.reduce((a,c)=>a+(c.r||0)+(c.s||0),0);
+  r.air=r.c.reduce((a,c)=>a+(c.tv||0)+(c.ra||0)+(c.pf?c.pf.docs*1000+c.pf.recent*5000+c.pf.fresh*20000:0),0);
+}
+
+/* ---------- state, kept in the URL hash ---------- */
+const S={e:null, q:'', pa:'', m:'', t:'', sort:'money', r:'', n:30};
+function readHash(){
+  const h=new URLSearchParams(location.hash.slice(1));
+  S.e=h.get('e')||S.e; S.q=h.get('q')||''; S.pa=h.get('pa')||''; S.m=h.get('m')||''; S.t=h.get('t')||''; S.sort=h.get('sort')||'money'; S.r=h.get('r')||'';
+  if(!E.some(e=>e.d===S.e)) S.e=(E.find(e=>e.d>=DATA.today&&(e.posted||e.scaffold))||E.find(e=>e.posted)||E[0]||{}).d;
+}
+function writeHash(){
+  const h=new URLSearchParams();
+  const first=(E.find(e=>e.d>=DATA.today&&(e.posted||e.scaffold))||{}).d;
+  if(S.e&&S.e!==first) h.set('e',S.e);
+  for(const k of ['q','pa','m','t','r']) if(S[k]) h.set(k,S[k]);
+  if(S.sort!=='money') h.set('sort',S.sort);
+  const s=h.toString(); history.replaceState(null,'',s?'#'+s:location.pathname+location.search);
+}
+
+/* ---------- controls ---------- */
+const elex=document.getElementById('elex');
+for(const e of E){
+  const b=document.createElement('button'); b.type='button'; b.dataset.d=e.d;
+  const sub=e.posted?`${e.races.length.toLocaleString('en-US')} races${e.d<DATA.today?' · results':''}`
+           :e.scaffold?`${e.races.length} offices up · ballot after qualifying`:'ballot not set yet';
+  b.innerHTML=`<b>${dlong(e.d)}</b><span>${sub}</span>`;
+  b.addEventListener('click',()=>{S.e=e.d; S.r=''; S.n=30; render();});
+  elex.appendChild(b);
+}
+const parishSel=document.getElementById('parish'), mktSel=document.getElementById('mkt'), sortSel=document.getElementById('sort');
+mktSel.innerHTML='<option value="">All TV markets</option>'+Object.entries(MKT).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')+'<option value="multi">Multi-parish races</option>';
+const q=document.getElementById('q');
+q.addEventListener('input',()=>{S.q=q.value; S.r=''; S.n=30; render();});
+parishSel.addEventListener('change',()=>{S.pa=parishSel.value; S.r=''; S.n=30; render();});
+mktSel.addEventListener('change',()=>{S.m=mktSel.value; S.r=''; S.n=30; render();});
+sortSel.addEventListener('change',()=>{S.sort=sortSel.value; render();});
+const tiers=document.getElementById('tiers');
+for(const t of ['',...TIERS]){
+  const b=document.createElement('button'); b.type='button'; b.dataset.t=t; b.textContent=t||'All races';
+  b.addEventListener('click',()=>{S.t=t; S.r=''; S.n=30; render();}); tiers.appendChild(b);
+}
+
+/* ---------- pieces ---------- */
+function chip(s){ // [call, url, live, market]
+  const st=`border-left-color:${s[3]?`var(${HUE[s[3]]})`:'var(--quiet)'}`, cls='callchip'+(s[2]?'':' quiet');
+  return s[1]?`<a class="${cls}" style="${st}" href="${s[1]}" rel="noopener" title="${s[0]}'s FCC political file for this buyer">${s[0]}</a>`:`<span class="${cls}" style="${st}">${s[0]}</span>`;
+}
+function m(v,label,sub){
+  return `<span class="m${v?'':' z'}"><span class="lbl">${label}</span>${v?money(v):'—'}${sub?`<small>${sub}</small>`:''}</span>`;
+}
+function cand(c, e){
+  const prof=c.f&&(c.tv||c.ra||c.pf);
+  const name=c.f?`<a href="${finLink(c)}" title="${esc(c.n)} on the campaign-finance dashboard: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
+  const air=(c.tv||0)+(c.ra||0);
+  const p=c.pf;
+  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}<span class="calls">${p.st.map(chip).join('')}</span></span>`
+          :`<span class="pf"><span class="lbl">Political files</span> <span style="color:var(--baseline)">—</span></span>`;
+  const won=c.w&&/elect/i.test(c.w);
+  const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes</span>`:'', c.w&&!won?esc(c.w):'',
+             c.inc?'won this seat in '+(+e.d.slice(0,4)-4):'', c.last?`last ran for ${esc(c.last[0])}, ${c.last[1]}${c.last[2]?' ('+esc(c.last[2].toLowerCase())+')':''}`:'', c.b>=1000?`includes loans of ${money(c.b)}`:'',
+             prof?`<a href="${CM}#f=${encodeURIComponent(c.f)}">airtime profile</a>`:'',
+             !c.f&&!c.fed?'no state finance report matched':''].filter(Boolean).join(' · ');
+  return `<div class="cr${won?' win':''}"${won?` data-w="${esc(c.w)}"`:''}>
+    <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}</span>
+    ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?'end of '+c.coh[1]:'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
+    ${pf}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
+}
+function footnote(r){
+  if(!W||r.t==='Federal') return '';
+  const t=W.tier[r.t], bits=[];
+  const spenders=r.c.filter(c=>c.s>0).sort((a,b)=>b.s-a.s);
+  if(r.adv&&spenders.length>1){
+    const a=r.adv;
+    bits.push(`<b>${esc(spenders[0].n)}</b> has spent ${a.x>=10?Math.round(a.x):a.x}× what ${esc(spenders[1].n)} has.`+(a.rate!=null?` Since ${W.span.slice(0,4)}, a spending leader with an edge of ${EDGE[a.b]} won <b>${pct(a.rate)}</b> of ${a.n} contested races.`:''));
+  }else if(spenders.length===1&&r.c.length>1) bits.push(`Only <b>${esc(spenders[0].n)}</b> has reported spending.`);
+  if(t) bits.push(`In ${r.t.toLowerCase()} races the biggest spender won ${pct(t[0])} of the time (${t[1]} races).`);
+  return bits.length?`<div class="rf">${bits.join(' ')} <a href="${FIN}does-money-win.html">Does money win?</a></div>`:'';
+}
+function card(r, e){
+  const fed=r.t==='Federal'; for(const c of r.c) c.fed=fed;
+  const head=`<div class="cr head"><span>Candidate</span><span class="m">Raised</span><span class="m">Spent</span><span class="m">Cash on hand</span><span class="m">TV + radio</span><span>Political files</span></div>`;
+  const mk=r.k.map(k=>`<a class="mk" style="border-left-color:var(${HUE[k]})" href="${TV}#m=${k}" title="${MKT[k]} on the TV map">${MKT[k]}</a>`).join('');
+  const link='#'+new URLSearchParams({...(S.e?{e:S.e}:{}),r:r.id}).toString();
+  const sorted=[...r.c].sort((a,b)=>(b.v||0)-(a.v||0)||((b.s||0)+(b.r||0))-((a.s||0)+(a.r||0))||a.n.localeCompare(b.n));
+  return `<article class="race${S.r===r.id?' open':''}" id="race-${esc(r.id)}">
+    <div class="rh"><h3><a href="${link}">${esc(r.o)}</a></h3><span class="tags">${r.t}${r.el>1&&!e.scaffold?` · elect ${r.el}`:''}${r.pa?' · '+esc(r.pa)+' Parish':r.k.length||r.t==='Statewide'?'':' · multi-parish'} ${mk}</span></div>
+    <div class="cands">${head}${sorted.map(c=>cand(c,e)).join('')}</div>${footnote(r)}</article>`;
+}
+
+/* ---------- feed: the political files' last few days ---------- */
+function renderFeed(e){
+  const el=document.getElementById('feed');
+  const items=DATA.feed.filter(x=>x.b!=='Out of state');
+  if(!FCC||!items.length||e.d<DATA.today){ el.hidden=true; return; }
+  // One line per buyer: stations and the newest date.
+  const by=new Map();
+  for(const x of items){
+    const k=x.n+'|'+x.b; const g=by.get(k)||{n:x.n,b:x.b,r:x.r,d:x.d,st:new Set(),docs:0};
+    g.st.add(x.c); g.docs++; if(x.d>g.d) g.d=x.d; by.set(k,g);
+  }
+  const rows=[...by.values()].sort((a,b)=>b.d.localeCompare(a.d)||b.docs-a.docs);
+  const race=id=>{for(const ee of E) for(const r of ee.races) if(r.id===id) return r; return null;};
+  const li=g=>{
+    const r=g.r&&race(g.r[1]);
+    const what=r?`<button type="button" class="lnk" data-e="${g.r[0]}" data-r="${esc(r.id)}">${esc(r.o)}</button>`
+      :g.b==='Issue'?'issue ad':g.b==='Federal'?'federal race':'not matched to a race';
+    return `<li><span class="d">${dshort(g.d)}</span><span><span class="who">${esc(g.n)}</span> · <span class="what">${what}</span><br><span class="what">${g.docs} document${g.docs===1?'':'s'} at ${[...g.st].sort().join(', ')}</span></span></li>`;
+  };
+  const show=el.dataset.all?rows:rows.slice(0,innerWidth<600?4:8);
+  el.innerHTML=`<h2>New in the political files</h2><p class="sub">Posted ${dshort(FCC.freshSince)}–${dshort(FCC.scraped)} by the stations checked so far: ${rows.length} buyer${rows.length===1?'':'s'}, ${items.length} documents.</p>
+    <ul>${show.map(li).join('')}</ul>${rows.length>show.length?`<button type="button" class="more" id="feedmore">Show all ${rows.length}</button>`:''}`;
+  el.hidden=false;
+  el.querySelectorAll('button.lnk').forEach(b=>b.addEventListener('click',()=>{S.e=b.dataset.e; S.r=b.dataset.r; S.q=''; S.pa=''; S.m=''; S.t=''; render(true);}));
+  const mo=document.getElementById('feedmore'); if(mo) mo.addEventListener('click',()=>{el.dataset.all='1'; renderFeed(e);});
+}
+
+/* ---------- render ---------- */
+function render(jump){
+  writeHash();
+  const e=E.find(x=>x.d===S.e);
+  for(const b of elex.children) b.setAttribute('aria-pressed',String(b.dataset.d===S.e));
+  for(const b of tiers.children) b.setAttribute('aria-pressed',String(b.dataset.t===S.t));
+  q.value=S.q; sortSel.value=S.sort;
+  const parishes=[...new Set((e?e.races:[]).map(r=>r.pa).filter(Boolean))].sort();
+  parishSel.innerHTML='<option value="">All parishes</option>'+parishes.map(p=>`<option${p===S.pa?' selected':''}>${esc(p)}</option>`).join('');
+  mktSel.value=S.m;
+  const out=document.getElementById('races'), cnt=document.getElementById('count'), field=document.getElementById('field');
+  if(!e){ out.innerHTML=''; cnt.textContent=''; field.hidden=true; return; }
+  renderFeed(e);
+  if(!e.races.length){
+    cnt.textContent='';
+    out.innerHTML=`<p class="empty">The Secretary of State hasn't posted the ${dlong(e.d)} ballot yet. ${new Date(e.d).getMonth()===11?'Runoffs are set by the results of the election before it.':'It appears once qualifying closes.'}</p>`;
+    field.hidden=true; return;
+  }
+  const words=fold(S.q).split(/\s+/).filter(Boolean);
+  let rs=e.races.filter(r=>(!S.t||r.t===S.t)&&(!S.pa||r.pa===S.pa)&&(!S.m||(S.m==='multi'?!r.pa:r.k.includes(S.m)))&&words.every(w=>r.q.includes(w)));
+  if(S.r){ const one=e.races.find(r=>r.id===S.r); if(one&&!rs.includes(one)) rs=[one,...rs]; }
+  const key={money:r=>-r.money, air:r=>-r.air, az:()=>0}[S.sort];
+  rs=[...rs].sort((a,b)=>key(a)-key(b)||a.o.localeCompare(b.o));
+  if(S.r){ const i=rs.findIndex(r=>r.id===S.r); if(i>0){ rs.unshift(rs.splice(i,1)[0]); } }
+  const nc=rs.reduce((a,r)=>a+r.c.length,0);
+  cnt.textContent=`${rs.length.toLocaleString('en-US')} ${e.scaffold?'office':'race'}${rs.length===1?'':'s'} · ${nc.toLocaleString('en-US')} ${e.scaffold?'incumbent':'candidate'}${nc===1?'':'s'}`+(rs.length>S.n?` · showing ${S.n}`:'');
+  out.innerHTML=(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices contested four years earlier, each with the candidate who won it and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.</p>`:'')
+    +(rs.length?rs.slice(0,S.n).map(r=>card(r,e)).join(''):'<p class="empty">No races match.</p>')
+    +(rs.length>S.n?`<button type="button" class="morebtn" id="more">Show ${Math.min(60,rs.length-S.n)} more</button>`:'');
+  const mo=document.getElementById('more'); if(mo) mo.addEventListener('click',()=>{S.n+=60; render();});
+  // Not in a race yet: raising money this cycle with no seat on the list.
+  if(e.field&&e.field.length&&!S.q&&!S.pa&&!S.m&&!S.t){
+    field.hidden=false;
+    field.innerHTML=`<p class="eyebrow">Not on a ballot yet</p><h2>Raising money, no race yet</h2><p>Candidate committees raising the most this cycle that aren't tied to any race above: people to watch at qualifying.</p>
+      <div class="race"><div class="cands"><div class="cr head"><span>Committee</span><span class="m">Raised</span><span class="m">Spent</span><span class="m">Cash on hand</span><span class="m">TV + radio</span><span>Political files</span></div>${e.field.map(c=>cand(c,e)).join('')}</div></div>`;
+  } else field.hidden=true;
+  if(jump&&S.r){ const el=document.getElementById('race-'+S.r); if(el) el.scrollIntoView({block:'start'}); }
+}
+{
+  const a=document.getElementById('asof'), bits=[];
+  if(DATA.fetched) bits.push('Ballot checked '+dshort(DATA.fetched.slice(0,10)));
+  if(FCC) bits.push('political files through '+dshort(FCC.scraped));
+  if(bits.length) a.textContent+=' · '+bits.join(' · ');
+}
+readHash();
+addEventListener('hashchange',()=>{readHash(); render(true);});
+render(!!S.r);
+</script>

@@ -22,6 +22,7 @@ from prose import fill
 SITE = 'https://airwaves.charliestephens.xyz/'
 PAGES = [
     ('tv', 'Television', SITE),
+    ('races', 'Races', SITE + 'races.html'),
     ('radio', 'Radio', SITE + 'radio.html'),
     ('committees', 'Committees', SITE + 'committees.html'),
 ]

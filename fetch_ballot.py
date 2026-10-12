@@ -58,7 +58,12 @@ PARTY = {'DEM': 'DEM', 'REP': 'REP', 'D': 'DEM', 'R': 'REP', 'LBT': 'LBT', 'GRN'
          'IND': 'IND', 'NOPTY': 'IND', 'OTHER': 'OTH'}
 
 
+FAILED = []   # blobs that errored (not 404), this run
+
+
 def fetch(blob, timeout=30):
+    """The portal's JSON for `blob`; None when it doesn't exist (404) or
+    after three failed tries, which also lands the blob in FAILED."""
     req = urllib.request.Request(SOS + blob, headers={'User-Agent': 'louisiana-airwaves/1.0'})
     for attempt in range(3):
         try:
@@ -73,6 +78,7 @@ def fetch(blob, timeout=30):
             err = e
         time.sleep(1 + attempt * 2)
     print(f'  giving up on {blob}: {err}')
+    FAILED.append(blob)
     return None
 
 
@@ -181,7 +187,13 @@ def main(argv=None):
         old = {}
     out = []
     for day in want:
+        before = len(FAILED)
         found = election(day)
+        if len(FAILED) > before and day.isoformat() in old:
+            # A file that errored would drop its races; keep last night's.
+            print(f'  {day}: {len(FAILED) - before} files failed; keeping the previous copy')
+            out.append(old[day.isoformat()])
+            continue
         if found is None:
             print(f'  {day}: no ballot posted yet')
             if day.isoformat() in old:          # keep what we had rather than drop it

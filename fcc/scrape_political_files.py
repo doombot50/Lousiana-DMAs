@@ -22,7 +22,8 @@ The FCC's CDN blocks scripted traffic it judges heavy: a burst of a few
 hundred requests drew 403s that then held for every request, even from a
 fresh runner. So a night asks for little. It refreshes at most
 --max-stations stations (default 8), least recently scraped first, so the 28
-stations with online files rotate through every few nights, and the walk is
+stations with online files rotate through every few nights (faster as an
+election nears; see stations_tonight), and the walk is
 incremental and slow. Each subfolder listing carries a recursive
 file count; when it matches the documents the previous run recorded under
 that path, the previous documents are reused instead of re-walked. A steady
@@ -178,6 +179,29 @@ def default_years(this):
     return ([this - 1] if this % 2 else []) + [this, this + 1]
 
 
+# Stations a night by days to the next election on data/ballot.json: the
+# political files move fastest in the last weeks, so the rotation tightens to
+# every other night, then every night. A steady station costs about three
+# requests, so even 28 stays well under the bursts that drew the CDN's 403s.
+CADENCE = [(10, 28), (30, 14)]
+
+
+def stations_tonight(default, today, ballot=D('ballot.json')):
+    """How many stations to refresh tonight: `default`, or more when an
+    election on the ballot file is close."""
+    try:
+        with open(ballot, encoding='utf-8') as f:
+            days = sorted(e['date'] for e in json.load(f).get('elections', []))
+    except (OSError, ValueError, KeyError):
+        return default
+    ahead = [(time.mktime(time.strptime(d, '%Y-%m-%d')) - time.mktime(time.strptime(today, '%Y-%m-%d'))) / 86400
+             for d in days]
+    ahead = [a for a in ahead if a >= 0]
+    if not ahead:
+        return default
+    return max([default] + [n for within, n in CADENCE if min(ahead) <= within])
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -185,12 +209,16 @@ def main():
     ap.add_argument('--years', nargs='*', type=int,
                     help='political-file years to walk (default: this year and next, plus last '
                          'year in an odd year; see default_years)')
-    ap.add_argument('--max-stations', type=int, default=8,
-                    help='stations to refresh this run, least recently scraped first')
+    ap.add_argument('--max-stations', type=int,
+                    help='stations to refresh this run, least recently scraped first '
+                         '(default 8, more in the last 30 days before an election)')
     ap.add_argument('--out', default=D('fcc_political.json'))
     args = ap.parse_args()
 
     years = args.years or default_years(time.gmtime().tm_year)
+    if args.max_stations is None:
+        args.max_stations = stations_tonight(8, time.strftime('%Y-%m-%d', time.gmtime()))
+        print(f'Refreshing up to {args.max_stations} stations tonight')
     calls = args.stations or [s['call'] for s in json.load(open(D('stations.json'), encoding='utf-8'))]
     try:
         cache = json.load(open(D('fcc_facilities.json'), encoding='utf-8'))

@@ -20,6 +20,13 @@ both sites apply, into data/party_corrections.json (committed with the
 nightly rebuild). If the release doesn't carry it, or it doesn't parse, the
 committed copy stays.
 
+For the races page it also fetches, into the same cache, the finance site's
+per-filer totals (`la_filer_index.json.gz`, from the release) and four files
+that repo commits: the Secretary of State candidacy history, the name-to-filer
+lookup, certified cash on hand from the annual reports, and the "does money
+win" rates. These are optional: one that can't be fetched is reported and
+the races page goes without it.
+
 Stdlib only.
 """
 import argparse
@@ -34,10 +41,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BASE = 'https://github.com/doombot50/la-campaign-finance/releases/download/data-cache'
 FIRST_YEAR = 2000
 RETRIES = 4   # per file, backoff 2s, 4s, 8s
+RAW = 'https://raw.githubusercontent.com/doombot50/la-campaign-finance/main'
+# Inputs to build_races_page.py: (url, file name in the cache).
+FINANCE = [(f'{BASE}/la_filer_index.json.gz', 'la_filer_index.json.gz'),
+           (f'{RAW}/la_candidacies_raw.json.gz', 'la_candidacies_raw.json.gz'),
+           (f'{RAW}/la_filer_lookup.json', 'la_filer_lookup.json'),
+           (f'{RAW}/ethics_coh_cache.json', 'ethics_coh_cache.json'),
+           (f'{RAW}/la_money_wins.json', 'la_money_wins.json')]
 
 
-def fetch(url, dest):
-    """Download atomically: write .part, rename on success. Returns False on 404."""
+def fetch(url, dest, required=True):
+    """Download atomically: write .part, rename on success. Returns False on
+    404, and on any failure when not `required`."""
     part = dest + '.part'
     for attempt in range(1, RETRIES + 1):
         try:
@@ -59,6 +74,9 @@ def fetch(url, dest):
             print(f'    {os.path.basename(dest)}: attempt {attempt} failed ({err}); '
                   f'retrying in {2 ** attempt}s')
             time.sleep(2 ** attempt)
+    if not required:
+        print(f'  {os.path.basename(dest)}: FAILED ({err}); going without it')
+        return False
     sys.exit(f'FAILED {os.path.basename(dest)}: {err}')
 
 
@@ -98,6 +116,11 @@ def main():
             missing.append(yr)
     print(f'Fetched into {args.dest}' + (f'; not in release: {missing}' if missing else ''))
     sync_party_corrections()
+    for url, name in FINANCE:
+        if fetch(url, os.path.join(args.dest, name), required=False):
+            print(f'  {name}  {os.path.getsize(os.path.join(args.dest, name)):,} bytes')
+        else:
+            print(f'  {name}: not available')
 
 
 if __name__ == '__main__':

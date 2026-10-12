@@ -196,6 +196,61 @@ years, top stations, and the political-file counts), which the dashboard's
 nightly refresh pulls from this site to show each campaign's airtime on its
 own profile. Both sides key on the state filer number.
 
+## The races page
+
+`races.html` puts every race on Louisiana's coming ballots on one page, with
+each candidate's money and airtime side by side, so it's useful during a
+campaign and not just after one. Pick an election (the November 3, 2026
+ballot has 835 contested races, from Congress down to every East Baton Rouge
+school board seat), then filter by parish, TV market, kind of race, or a
+search. Each race card shows, per candidate:
+
+- **raised and spent** this four-year cycle and **certified cash on hand**
+  from the latest annual report, from the campaign-finance dashboard's
+  per-filer totals;
+- **TV and radio** the candidate's committee has paid stations this cycle,
+  from the same matching as the TV and radio pages;
+- **the political files**: documents stations posted for the candidate, in
+  the last two weeks, at which stations (each linking to its FCC folder), and
+  a NEW tag for the last three days;
+- **does money win?**: the spending leader's edge over the runner-up, and
+  how often a leader with that edge has won a contested Louisiana race since
+  2000, from the dashboard's [study](https://finance.charliestephens.xyz/does-money-win.html).
+
+A *New in the political files* panel lists every buyer with documents posted
+in the last three days, each linked to its race. Every view has a URL
+(`races.html#e=2026-11-03&pa=East%20Baton%20Rouge&t=Local`, or `#r=<race>`
+for one race), and committee profiles link to their candidate's race.
+
+**Where it comes from.** `fetch_ballot.py` reads the Secretary of State's
+election-results portal (voterportal.sos.la.gov), which posts each ballot's
+races and candidates once qualifying closes and fills in the votes on
+election night, and writes `data/ballot.json`; the nightly run refreshes it,
+so the morning after an election the cards carry the results. The portal
+isn't reachable from every network, so it runs on GitHub's runners (the
+**Ballot** workflow runs it on its own when the script changes). The finance
+side is five files from
+[la-campaign-finance](https://github.com/doombot50/la-campaign-finance) that
+`fetch_cache.py` downloads into the cache: per-filer cycle totals, the
+name-to-filer lookup, certified cash on hand, the Secretary of State
+candidacy history, and the money-wins rates.
+
+**Matching.** A candidate is matched to their state filer by name, only when
+exactly one filer fits (`fcc/normalize.py`'s first-name-and-surname keys),
+and the candidacy history vetoes a match between two names that have each
+run for office, never for the same one: *Edward James*, a Maringouin
+alderman candidate, is not *Edward "Ted" James*, the former state
+representative. A candidate with no match usually hasn't filed a report or
+spends below the itemization threshold. Federal candidates report to the
+FEC, so their rows carry political-file activity only.
+
+**Before qualifying.** The October 2027 ballot won't exist until qualifying
+in summer 2027. Until then its tab lists the offices contested in fall 2023,
+each with the candidate who won it and their money so far this cycle, plus
+the candidate committees raising the most this cycle that aren't tied to any
+race (people to watch at qualifying). When the Secretary of State posts the
+2027 ballot, the tab switches to it with no code change.
+
 ## Rebuild the spending data
 
 `build_spend.py` recomputes every dollar figure from the raw filings, running
@@ -210,7 +265,8 @@ It reads the campaign-finance project's `.la_cache` expenditure files, which
 ```bash
 python3 fetch_cache.py                              # ~47MB, 2000 → this year
 python3 build_spend.py                              # TV + radio data; auto-finds ./.la_cache
-python3 build_page.py && python3 build_radio_page.py && python3 build_committees_page.py
+python3 build_page.py && python3 build_radio_page.py
+python3 build_races_page.py && python3 build_committees_page.py   # races first: profiles link to it
 python3 -m unittest discover -s tests               # the regression tests
 ```
 
@@ -237,8 +293,10 @@ needs hand-editing when the calendar turns.
 - `page_shell.py` — the tab bar, document head, template tokens and the
   two-output publish step every page uses; `prose.py` — the phrases the copy
   is built from.
-- `build_page.py`, `build_radio_page.py`, `build_committees_page.py` — one
-  per page, each from its `*.template.html`.
+- `build_page.py`, `build_radio_page.py`, `build_committees_page.py`,
+  `build_races_page.py` — one per page, each from its `*.template.html`.
+- `fetch_ballot.py` — the Secretary of State's coming ballots (the races
+  page), run nightly.
 - `build_map.py`, `fetch_households.py` — reference geography and Census
   households, run only when those change.
 - `tests/` — regression tests, many of them real filings that were once
@@ -262,17 +320,13 @@ ignores. It can also be run by hand from the Actions tab.
 Each step is built to keep the site up when a source falters, so the last
 step, `check_freshness.py`, makes sure someone hears about it. It checks the
 age of the la-campaign-finance `data-cache` release (from the GitHub API),
-of this site's own build, and of the FCC political files, plus any station
-not refreshed in a week. When any is more than three days behind, it opens
+of this site's own build, of the FCC political files and of the ballot, plus
+any station not refreshed in a week. When any is more than three days behind, it opens
 an issue titled "Nightly rebuild: site data has stopped updating" (GitHub
 emails the repo's watchers), rewrites it each night while the problem lasts,
 and closes it once every source is fresh. It cannot notice the workflow
 not running at all: GitHub pauses scheduled workflows in a repository with
 no activity for 60 days.
-
-The narrative prose (the $15.3M WWL-TV figure, the per-household comparisons,
-the buyer rankings in the copy) is still hand-written and does not move with
-the nightly data; the charts, ledgers and stat tiles do.
 
 ## FCC political files
 
@@ -299,8 +353,12 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   heavy: a first full run of ~700 requests drew 403s that then held for every
   request, even from a fresh runner. So each night refreshes at most eight
   stations (`--max-stations`), least recently scraped first, which rotates
-  all 28 stations with online files through every four nights; requests are
-  two seconds apart; and a subfolder whose recursive file count is unchanged
+  all 28 stations with online files through every four nights. Close to an
+  election on `data/ballot.json` the rotation tightens, when buys move
+  fastest: 14 a night in the last 30 days, all 28 in the last 10 (a steady
+  station costs about three requests, so even 28 stays far under the bursts
+  that drew the block). Requests are two seconds apart, and a subfolder
+  whose recursive file count is unchanged
   reuses the previous run's documents instead of being re-walked. On a 403
   the scraper waits once, then stops for the night and keeps everything it
   didn't reach as it was. Each station records `scraped_at`; one not
@@ -384,6 +442,15 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   counts (`pf`: documents this cycle, in the last two weeks, latest upload,
   stations, stations active now). One line per filer. Read by the
   campaign-finance dashboard; see *The committees page*.
+
+- `data/ballot.json` — the coming elections' races and candidates (and,
+  after election night, votes and outcomes) from the Secretary of State, via
+  `fetch_ballot.py`. A single-parish race whose title omits its parish gets
+  it written in ("East Baton Rouge Parish Member of School Board -- District
+  7"), as la-campaign-finance does. An election not posted yet is listed
+  with `posted: false`.
+- `data/filer_races.json` — filer number → the coming race it's on a ballot
+  for, written by `build_races_page.py` for the committee profiles' links.
 
 - `data/party_corrections.json` — the filer-keyed party corrections, a
   synced copy of la-campaign-finance's `la_party_corrections.json` (see
