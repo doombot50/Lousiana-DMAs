@@ -8,8 +8,15 @@ days. That makes the political file the earliest public signal of a TV buy:
 weeks ahead of the committee's own state finance report, and the only public
 record at all of federal-race buys, which Louisiana's Ethics filings never see.
 
-    python3 fcc/scrape_political_files.py                    # all stations
+    python3 fcc/scrape_political_files.py                    # TV stations
     python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
+    python3 fcc/scrape_political_files.py --media cable      # cable systems
+    python3 fcc/scrape_political_files.py --media radio      # radio stations
+
+Cable systems (data/cable_systems.json, from fcc/find_cable.py) and radio
+stations (data/radio_stations.json) file the same way, under their own
+profile pages; `--media` picks which, each written to its own file
+(fcc_political.json, fcc_cable.json, fcc_radio.json) with its own rotation.
 
 For each station in data/stations.json it resolves the FCC facility id,
 finds the station's "Political Files" folder, and walks the chosen years'
@@ -117,11 +124,68 @@ def facility_id(call, cache):
     return hits[0]['id'], fcc_call
 
 
-def political_root(call):
-    """Folder id of the station's "Political Files" root, from its profile page."""
-    page = get(f'{B}/tv-profile/{call.lower()}/political-files', want_json=False) or ''
-    m = re.search(r'href="/tv-profile/[^/"]+/political-files/([0-9a-f-]{36})"', page)
+def political_root(profile):
+    """Folder id of the "Political Files" root, from the profile page
+    (`profile` like "tv-profile/wdsu", "cable-profile/002460")."""
+    page = get(f'{B}/{profile}/political-files', want_json=False) or ''
+    m = re.search(r'href="/[a-z]+-profile/[^/"]+/political-files/([0-9a-f-]{36})"', page)
     return m.group(1) if m else None
+
+
+def radio_facility(call, cache):
+    """(facility id, profile path) for a radio call sign: the Louisiana AM
+    or FM licence whose call sign is this one, with or without -FM."""
+    key = 'radio:' + call
+    if key in cache:
+        return cache[key]['id'], cache[key]['profile']
+    res = get(f'{B}/api/service/facility/search/{call}')
+    g = ((res or {}).get('results') or {}).get('globalSearchResults', {})
+    hits = [(f, band) for band, lst in (('fm', g.get('fmFacilityList')), ('am', g.get('amFacilityList')))
+            for f in lst or [] if f.get('communityState') == 'LA'
+            and f.get('callSign', '').upper().split('-')[0] == call.upper().split('-')[0]]
+    if len(hits) > 1:   # an AM and its FM sister: the call as written decides
+        exact = [h for h in hits if h[0]['callSign'].upper() == call.upper()]
+        hits = exact or [h for h in hits if h[1] == 'fm']
+    if len(hits) != 1:
+        print(f'  {call}: radio search returned ' + (', '.join(
+            f"{f.get('callSign')} ({f.get('communityCity')}, {f.get('communityState')})" for f, _ in hits[:6])
+            or 'no Louisiana match'))
+        return None, None
+    f, band = hits[0]
+    cache[key] = {'id': f['id'], 'profile': f"{band}-profile/{f['callSign'].lower()}"}
+    return cache[key]['id'], cache[key]['profile']
+
+
+# Per medium: where the list comes from, the output file, and how many to
+# refresh a night (normally, within 30 days of an election, within 10).
+MEDIA = {
+    'tv':    {'out': 'fcc_political.json', 'pace': (8, 14, 28)},
+    'cable': {'out': 'fcc_cable.json', 'pace': (6, 13, 25)},
+    'radio': {'out': 'fcc_radio.json', 'pace': (10, 20, 34)},
+}
+
+
+def entities(media):
+    """The call signs (TV, radio) or PSIDs (cable) a medium covers."""
+    if media == 'tv':
+        return [s['call'] for s in json.load(open(D('stations.json'), encoding='utf-8'))]
+    if media == 'cable':
+        try:
+            return sorted(json.load(open(D('cable_systems.json'), encoding='utf-8')))
+        except FileNotFoundError:
+            return []
+    return [s['call'] for s in json.load(open(D('radio_stations.json'), encoding='utf-8'))]
+
+
+def resolve(media, call, cache):
+    """(entity id, profile path, the FCC's name for it) or (None, None, None)."""
+    if media == 'cable':
+        return call, f'cable-profile/{call}', call
+    if media == 'radio':
+        ent, profile = radio_facility(call, cache)
+        return ent, profile, profile and profile.split('/')[1].upper()
+    ent, fcc_call = facility_id(call, cache)
+    return ent, ent and f'tv-profile/{fcc_call.lower()}', fcc_call
 
 
 def folder(fid, ent):
@@ -180,15 +244,13 @@ def default_years(this):
 
 
 # Stations a night by days to the next election on data/ballot.json: the
-# political files move fastest in the last weeks, so the rotation tightens to
-# every other night, then every night. A steady station costs about three
-# requests, so even 28 stays well under the bursts that drew the CDN's 403s.
-CADENCE = [(10, 28), (30, 14)]
-
-
-def stations_tonight(default, today, ballot=D('ballot.json')):
-    """How many stations to refresh tonight: `default`, or more when an
-    election on the ballot file is close."""
+# political files move fastest in the last weeks, so each medium's rotation
+# tightens (TV to every other night, then every night). A steady station
+# costs about three requests, so even TV, cable and radio together stay well
+# under the bursts that drew the CDN's 403s.
+def stations_tonight(default, today, ballot=D('ballot.json'), close=(14, 28)):
+    """How many stations to refresh tonight: `default`, or `close` (within
+    30 days, within 10) when an election on the ballot file is near."""
     try:
         with open(ballot, encoding='utf-8') as f:
             days = sorted(e['date'] for e in json.load(f).get('elections', []))
@@ -199,7 +261,7 @@ def stations_tonight(default, today, ballot=D('ballot.json')):
     ahead = [a for a in ahead if a >= 0]
     if not ahead:
         return default
-    return max([default] + [n for within, n in CADENCE if min(ahead) <= within])
+    return max([default] + [n for within, n in ((30, close[0]), (10, close[1])) if min(ahead) <= within])
 
 
 def main():
@@ -212,14 +274,18 @@ def main():
     ap.add_argument('--max-stations', type=int,
                     help='stations to refresh this run, least recently scraped first '
                          '(default 8, more in the last 30 days before an election)')
-    ap.add_argument('--out', default=D('fcc_political.json'))
+    ap.add_argument('--media', choices=sorted(MEDIA), default='tv')
+    ap.add_argument('--out', help='default: data/fcc_political.json, fcc_cable.json or fcc_radio.json')
     args = ap.parse_args()
+    m = MEDIA[args.media]
+    args.out = args.out or D(m['out'])
 
     years = args.years or default_years(time.gmtime().tm_year)
     if args.max_stations is None:
-        args.max_stations = stations_tonight(8, time.strftime('%Y-%m-%d', time.gmtime()))
-        print(f'Refreshing up to {args.max_stations} stations tonight')
-    calls = args.stations or [s['call'] for s in json.load(open(D('stations.json'), encoding='utf-8'))]
+        args.max_stations = stations_tonight(m['pace'][0], time.strftime('%Y-%m-%d', time.gmtime()),
+                                             close=m['pace'][1:])
+        print(f'Refreshing up to {args.max_stations} {args.media} political files tonight')
+    calls = args.stations or entities(args.media)
     try:
         cache = json.load(open(D('fcc_facilities.json'), encoding='utf-8'))
     except FileNotFoundError:
@@ -260,7 +326,7 @@ def main():
             continue
         attempted[call] = now
         try:
-            ent, fcc_call = facility_id(call, cache)
+            ent, profile, fcc_call = resolve(args.media, call, cache)
             if not ent:
                 # A listing mismatch, not an outage: it is reported, and the
                 # station waits its turn again, but it doesn't count toward the
@@ -268,7 +334,7 @@ def main():
                 unmatched.append(call)
                 print(f'  {call}: no facility match')
                 continue
-            root = political_root(fcc_call)
+            root = political_root(profile)
             if not root:
                 print(f'  {call}: no political-files folder found')
                 failed.append(call)
@@ -281,6 +347,7 @@ def main():
                          folders, prev.get('folders', {}))
             files.sort(key=lambda x: x['uploaded'] or '', reverse=True)
             stations.append({'call': call, 'fcc_call': fcc_call, 'facility_id': ent, 'root_folder': root,
+                             'profile': profile,
                              'scraped_at': now,
                              'year_folders': {yf['folder_name']: yf['entity_folder_id']
                                               for yf in rf.get('subfolders') or []
@@ -315,6 +382,7 @@ def main():
         st['stale'] = st.get('scraped_at', '') < cutoff
     doc = {
         'source': 'FCC public inspection files, political file folders (publicfiles.fcc.gov)',
+        'media': args.media,
         'scraped': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'years': years,
         'stations': stations,

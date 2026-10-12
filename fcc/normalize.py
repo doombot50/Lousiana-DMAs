@@ -140,14 +140,15 @@ def buyer_folder(path):
     return '/'.join(parts)
 
 
-def fcc_url(slug, path, folder_id):
-    """The FCC site's own link to a folder: the path below "Political Files",
-    each folder name slugged, then the folder's id, e.g.
+def fcc_url(profile, path, folder_id):
+    """The FCC site's own link to a folder: the profile ("tv-profile/wdsu",
+    "cable-profile/002460"), the path below "Political Files", each folder
+    name slugged, then the folder's id, e.g.
     /tv-profile/wdsu/political-files/2026/federal/us-senate/bill-cassidy/<id>.
     The id alone decides the page (a wrong slug still resolves, checked
     against the live site), so the slug is cosmetic and never breaks a link."""
     segs = [re.sub(r'[^a-z0-9]+', '-', p.lower()).strip('-') for p in path.split('/')[1:]]
-    return f"https://publicfiles.fcc.gov/tv-profile/{slug}/political-files/{'/'.join(segs)}/{folder_id}"
+    return f"https://publicfiles.fcc.gov/{profile}/political-files/{'/'.join(segs)}/{folder_id}"
 
 
 def parse_path(path):
