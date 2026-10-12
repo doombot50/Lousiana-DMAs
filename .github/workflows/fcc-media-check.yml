@@ -1,0 +1,48 @@
+# FCC media check — a small live run of the political-file scraper for each
+# medium (three TV stations, cable systems and radio stations) when the
+# scraper changes, so a change that breaks against the real FCC site shows
+# here rather than in the nightly rebuild. Writes to a scratch file and
+# commits nothing.
+
+name: FCC media check
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fcc/scrape_political_files.py
+      - fcc/summary.py
+      - .github/workflows/fcc-media-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: TV
+        run: python3 fcc/scrape_political_files.py --max-stations 2 --out /tmp/tv.json
+      - name: Cable
+        run: python3 fcc/scrape_political_files.py --media cable --max-stations 3 --out /tmp/cable.json
+      - name: Radio
+        run: python3 fcc/scrape_political_files.py --media radio --max-stations 3 --out /tmp/radio.json
+      - name: What came back
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          for m in ('tv', 'cable', 'radio'):
+              d = json.load(open(f'/tmp/{m}.json'))
+              fresh = [s for s in d['stations'] if s.get('scraped_at')]
+              print(m, len(fresh), 'refreshed;', 'unmatched', d.get('unmatched'), 'failed', d.get('failed'))
+              for s in fresh:
+                  levels = collections.Counter(f['path'].split('/')[2] if f['path'].count('/') > 1 else '-' for f in s['files'])
+                  print('  ', s['call'], s.get('profile'), len(s['files']), 'docs', dict(levels))
+                  for f in s['files'][:4]:
+                      print('     ', f['uploaded'], f['path'][-70:], '|', (f['name'] or '')[:60])
+          PY

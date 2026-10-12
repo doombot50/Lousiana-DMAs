@@ -6,7 +6,9 @@
 # committees.html / races.html and their artifact fragments, and commits them. GitHub Pages serves the repo
 # root, so the commit is the deploy.
 #
-# It also refreshes the 30 stations' FCC political files (fcc/), which only
+# It also refreshes the FCC political files (fcc/) of the 30 TV stations, the
+# cable systems serving Louisiana and the radio stations the radio page
+# covers, which only
 # GitHub's runners can reach. That step may fail on its own, an FCC outage or
 # CDN block, without holding back the state-filings rebuild: the page then
 # keeps the previous night's political-file data, marked stale.
@@ -76,6 +78,19 @@ jobs:
         continue-on-error: true
         timeout-minutes: 60
         run: python3 fcc/scrape_political_files.py
+
+      # Cable systems and radio stations file political ads the same way;
+      # each has its own rotation and file, after TV so a CDN block costs
+      # TV nothing.
+      - name: Refresh cable political files
+        continue-on-error: true
+        timeout-minutes: 30
+        run: python3 fcc/scrape_political_files.py --media cable
+
+      - name: Refresh radio political files
+        continue-on-error: true
+        timeout-minutes: 40
+        run: python3 fcc/scrape_political_files.py --media radio
 
       - name: Rebuild pages
         run: |
