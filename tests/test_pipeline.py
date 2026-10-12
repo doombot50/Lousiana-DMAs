@@ -89,7 +89,7 @@ class Summary(unittest.TestCase):
     def test_state_candidate_links_to_the_filer(self):
         b = self.by['Don Landry']
         self.assertEqual((b['f'], b['office']), ('4525', 'District Attorney'))
-        self.assertEqual([x['name'] for x in self.F['all']], ['Don Landry'])
+        self.assertEqual([x['name'] for x in self.F['all'] if x['f']], ['Don Landry'])
 
     def test_headline_counts_exclude_other_states(self):
         self.assertEqual(self.F['docs'], 6)
@@ -203,8 +203,9 @@ class Freshness(unittest.TestCase):
     def test_stale_and_unreadable(self):
         found = check_freshness.problems(
             '', {'generated': '2026-10-10'},
-            {'scraped': '2026-10-11T00:00:00Z', 'stations': [{'call': 'KTBS', 'stale': True}]}, self.now)
-        self.assertEqual(len(found), 4)
+            {'scraped': '2026-10-11T00:00:00Z', 'stations': [{'call': 'KTBS', 'stale': True}]}, self.now,
+            {'fetched': '2026-10-01T11:00:00Z'})
+        self.assertEqual(len(found), 5)
 
 
 if __name__ == '__main__':
@@ -267,3 +268,61 @@ class FilerMediaExport(unittest.TestCase):
         # The date stamp sits on a line of its own, so the nightly commit
         # step's -I'"generated":' can ignore a stamp-only change.
         self.assertIn('\n"generated": "2026-10-11",\n', text)
+
+
+class Ballot(unittest.TestCase):
+    """fetch_ballot.races on the portal's shapes."""
+
+    def test_parish_races_get_their_parish_and_measures_are_dropped(self):
+        import fetch_ballot
+        cands = {'Races': {'Race': [
+            {'ID': '1', 'SpecificTitle': 'Member of School Board -- District 7', 'NumberToElect': '1',
+             'Choice': [{'ID': 'a', 'Desc': 'Hannah Amoroso (IND)'}, {'ID': 'b', 'Desc': 'Chris "CJ" Spalatin (DEM)'}]},
+            {'ID': '2', 'SpecificTitle': 'Mayor -- City of Baton Rouge', 'Choice': {'ID': 'c', 'Desc': 'Someone (REP)'}},
+            {'ID': '3', 'SpecificTitle': 'Proposition -- Parishwide', 'Choice': [{'ID': 'y', 'Desc': 'Yes'}, {'ID': 'n', 'Desc': 'No'}]},
+            {'ID': '4', 'SpecificTitle': 'DPEC Member -- District 1', 'Choice': {'ID': 'd', 'Desc': 'X Y (DEM)'}},
+        ]}}
+        votes = {'Races': {'Race': {'ID': '1', 'Choice': [{'ID': 'a', 'VoteTotal': '120', 'Outcome': 'Elected'}]}}}
+        rs = fetch_ballot.races(cands, votes, 'East Baton Rouge')
+        self.assertEqual([r['office'] for r in rs], ['East Baton Rouge Parish Member of School Board -- District 7',
+                                                     'Mayor -- City of Baton Rouge'])
+        self.assertEqual(rs[0]['candidates'][0], {'name': 'Hannah Amoroso', 'party': 'IND', 'votes': 120, 'outcome': 'Elected'})
+        self.assertEqual(rs[0]['candidates'][1]['name'], 'Chris CJ Spalatin')
+
+    def test_parishes_are_numbered_alphabetically(self):
+        import fetch_ballot
+        self.assertEqual((len(fetch_ballot.PARISHES), fetch_ballot.PARISHES[16]), (64, 'East Baton Rouge'))
+
+
+class Races(unittest.TestCase):
+    def test_tiers_follow_the_money_wins_page(self):
+        from build_races_page import tier
+        for office, t in [('U. S. Representative -- 6th Congressional District', 'Federal'),
+                          ('Governor', 'Statewide'), ('State Senator -- 9th Senatorial District', 'Legislative'),
+                          ('District Judge -- 19th Judicial District Court, Div. A', 'Judicial'),
+                          ('Justice -- Supreme Court, 1st Supreme Court District', 'Judicial'),
+                          ('District Attorney -- 19th Judicial District Court', 'Local'),
+                          ('East Baton Rouge Parish Member of School Board -- District 7', 'Local'),
+                          ('Justice of the Peace -- Justice of the Peace Ward 1', 'Local')]:
+            self.assertEqual(tier(office), t, office)
+
+    def test_namesakes_the_history_keeps_apart(self):
+        from build_races_page import Finance
+        fin = Finance(None)
+        fin.history = {'EDWARD JAMES': [{'office': 'Alderman -- Town of Maringouin', 'date': '11/02/2010'}],
+                       'EDWARD TED JAMES': [{'office': 'State Representative -- 101st Representative District',
+                                             'date': '11/19/2011'}],
+                       'KIMBERLY BAINGUEL': [{'office': 'School Board', 'date': '11/08/2022'}],
+                       'KIMBERLY MARIE BAINGUEL': [{'office': 'School Board', 'date': '11/03/2026'}]}
+        self.assertTrue(fin.different_people('Edward James, Jr.', 'Edward (Ted) James'))
+        self.assertFalse(fin.different_people('Kimberly Marie Bainguel', 'Kimberly Bainguel'))
+        self.assertFalse(fin.different_people('Megan Garretson', 'Megan Garretson'))
+
+    def test_fcc_rotation_tightens_before_an_election(self):
+        from scrape_political_files import stations_tonight
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, 'ballot.json')
+            dump({'elections': [{'date': '2026-11-03'}, {'date': '2026-12-12'}]}, path)
+            got = [stations_tonight(8, d, path) for d in ('2026-09-01', '2026-10-12', '2026-10-28', '2026-11-04')]
+            self.assertEqual(got, [8, 14, 28, 8])
+            self.assertEqual(stations_tonight(8, '2026-10-28', os.path.join(tmp, 'none.json')), 8)

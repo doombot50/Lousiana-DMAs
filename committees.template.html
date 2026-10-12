@@ -159,6 +159,7 @@ const mapLink=k=>TV+'#m='+k;
 const FIN='https://finance.charliestephens.xyz/';
 const finLink=c=>FIN+'#/campaign/'+encodeURIComponent(c.n)+'?filer='+encodeURIComponent(c.f);
 const dshort=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+const dlong=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
 {
   const paid=DATA.filter(c=>c.tv+c.ra).length, only=DATA.length-paid;
   document.getElementById('ncm').textContent=paid.toLocaleString('en-US');
@@ -221,6 +222,7 @@ function renderProfile(c){
   el.innerHTML=`<button type="button" class="back" id="back">← All committees</button>
     <h2>${esc(c.n)}</h2>
     <p class="meta"><span class="ptag ${c.p}">${c.p}</span> ${PN[c.p]} · state filer ${esc(c.f)} · ${c.y0?'paid for airtime '+(c.y0===c.y1?'in '+c.y0:yspan(c)):'no TV or radio payments reported yet'} · <a href="${finLink(c)}" title="Contributions, spending and cash on hand for this filer on the Louisiana campaign-finance dashboard">full campaign finance ↗</a></p>
+    ${c.race?`<div class="panel bk"><h3>On the ballot</h3><p class="lead"><b>${esc(c.race[2])}</b>, ${dlong(c.race[0])}. <a href="${TV}races.html#${new URLSearchParams({e:c.race[0],r:c.race[1]})}">The race and its candidates' money →</a></p></div>`:''}
     ${bk}
     ${tot?`<div class="stats">
       <div class="stat"><div class="v">${money(tot)}</div><div class="l">on television and radio</div></div>

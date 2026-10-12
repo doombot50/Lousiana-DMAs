@@ -16,7 +16,9 @@ and quietly stale. This checks each source's age and reports what is behind:
   * this repo's own build (`generated` in data/station_spend.json), in case
     the rebuild itself stopped;
   * the FCC political files (`scraped` in data/fcc_political.json), and any
-    station not refreshed in a week.
+    station not refreshed in a week;
+  * the Secretary of State ballot (`fetched` in data/ballot.json), when
+    there is one.
 
 Exits 1 when something is stale, writing the Markdown report the workflow
 puts in a GitHub issue; exits 0 when all is fresh. Stdlib only.
@@ -46,7 +48,7 @@ def parse(ts):
     return t if t.tzinfo else t.replace(tzinfo=timezone.utc)
 
 
-def problems(upstream, spend, fcc, now):
+def problems(upstream, spend, fcc, now, ballot=None):
     """What is stale, as Markdown bullet lines; empty when everything is fresh."""
     out = []
 
@@ -76,6 +78,10 @@ def problems(upstream, spend, fcc, now):
         if stale:
             out.append(f'- **FCC stations not refreshed in a week**: {", ".join(stale)}. '
                        'The nightly rotation is not reaching them; the page marks them stale.')
+    if ballot is not None:
+        age('Ballot (`data/ballot.json`)', ballot.get('fetched'),
+            'The "Refresh the ballot" step has been failing (it never fails the run), so the '
+            "races page isn't picking up new results or races from the Secretary of State.")
     return out
 
 
@@ -92,8 +98,12 @@ def main():
         fcc = json.load(open(D('data', 'fcc_political.json'), encoding='utf-8'))
     except FileNotFoundError:
         fcc = None
+    try:
+        ballot = json.load(open(D('data', 'ballot.json'), encoding='utf-8'))
+    except FileNotFoundError:
+        ballot = None
     now = datetime.now(timezone.utc)
-    found = problems(args.upstream, spend, fcc, now)
+    found = problems(args.upstream, spend, fcc, now, ballot)
 
     if found:
         text = ('The nightly rebuild found data that has stopped updating, so '

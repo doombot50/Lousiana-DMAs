@@ -313,7 +313,9 @@ NICKNAMES = {
     'matt': 'matthew', 'mike': 'michael', 'pat': 'patrick', 'rick': 'richard',
     'rob': 'robert', 'ron': 'ronald', 'sal': 'salvatore', 'sam': 'samuel',
     'steve': 'stephen', 'tim': 'timothy', 'tom': 'thomas', 'tony': 'anthony',
-    'will': 'william',
+    'will': 'william', 'liz': 'elizabeth', 'beth': 'elizabeth', 'betty': 'elizabeth',
+    'kathy': 'katherine', 'jen': 'jennifer', 'nick': 'nicholas', 'charlie': 'charles',
+    'chuck': 'charles', 'johnny': 'john', 'tommy': 'thomas',
 }
 SUFFIX = re.compile(r',?\s+(jr|sr|ii|iii|iv)\.?$', re.I)
 
