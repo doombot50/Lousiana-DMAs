@@ -68,7 +68,11 @@ class Blocked(Exception):
     """The CDN is refusing us; stop for the night rather than push harder."""
 
 
+SENT = [0]            # requests made this run, for --budget
+
+
 def get(url, want_json=True):
+    SENT[0] += 1
     blocked_once = False
     for attempt in range(1, RETRIES + 1):
         try:
@@ -275,6 +279,9 @@ def main():
                     help='stations to refresh this run, least recently scraped first '
                          '(default 8, more in the last 30 days before an election)')
     ap.add_argument('--media', choices=sorted(MEDIA), default='tv')
+    ap.add_argument('--budget', type=int, default=250,
+                    help='requests this run may make; once spent, the stations still due wait '
+                         'for the next run (a first walk of a station can cost hundreds)')
     ap.add_argument('--out', help='default: data/fcc_political.json, fcc_cable.json or fcc_radio.json')
     args = ap.parse_args()
     m = MEDIA[args.media]
@@ -318,8 +325,12 @@ def main():
     stations, failed, unmatched = [], [], []
     stats = {'fetched': 0, 'reused': 0}
     blocked = None
+    deferred = []
     for call in calls:
         prev = previous.get(call, {})
+        if call in due and not blocked and SENT[0] >= args.budget:
+            deferred.append(call)
+            due.discard(call)
         if blocked or call not in due:
             if prev:
                 stations.append(prev)
@@ -398,7 +409,9 @@ def main():
     print(f'{n:,} documents across {len(stations)} stations; {len(refreshed)} refreshed in {time.time()-t0:.0f}s '
           f'({stats["fetched"]} folders fetched, {stats["reused"]} reused unchanged)'
           + (f'; failed: {failed}' if failed else '')
-          + (f'; no facility match: {unmatched}' if unmatched else '') + f'\nWrote {args.out}')
+          + (f'; no facility match: {unmatched}' if unmatched else '')
+          + (f'; {len(deferred)} left for the next run, request budget spent: {deferred}' if deferred else '')
+          + f'\n{SENT[0]} requests\nWrote {args.out}')
 
 
 if __name__ == '__main__':
