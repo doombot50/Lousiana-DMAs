@@ -38,7 +38,8 @@ TERMS = ['Louisiana', 'Cox Communications Louisiana', 'Comcast of Louisiana', 'S
          'Cequel', 'Vyve', 'EATEL', 'Classic Cable', 'Cable One', 'Reserve Telephone', 'Allen',
          'Shreveport', 'Monroe', 'Lake Charles', 'Alexandria']
 OPERATORS = [(r'\bCOX\b', 'Cox'), (r'COMCAST', 'Comcast'), (r'SPECTRUM|CHARTER', 'Spectrum'),
-             (r'CEQUEL|SUDDENLINK|ALTICE|OPTIMUM', 'Optimum'), (r'VYVE', 'Vyve'), (r'EATEL|REV\b', 'EATEL'),
+             (r'CEQUEL|CEBRIDGE|SUDDENLINK|ALTICE|OPTIMUM', 'Optimum'), (r'ALLENS? TV', "Allen's TV Cable"),
+             (r'CABLESOUTH', 'CableSouth'), (r'CAMERON COMM', 'Cameron Communications'), (r'VYVE', 'Vyve'), (r'EATEL|REV\b', 'EATEL'),
              (r'CLASSIC CABLE', 'Classic Cable'), (r'CABLE ONE|SPARKLIGHT', 'Sparklight')]
 CITY = {'NO': 'New Orleans', 'BR': 'Baton Rouge', 'SHV': 'Shreveport', 'LAF': 'Lafayette',
         'MON': 'Monroe', 'LKC': 'Lake Charles', 'ALX': 'Alexandria'}
@@ -47,6 +48,24 @@ CITY = {'NO': 'New Orleans', 'BR': 'Baton Rouge', 'SHV': 'Shreveport', 'LAF': 'L
 def operator(legal):
     return next((short for pat, short in OPERATORS if re.search(pat, legal, re.I)),
                 legal.title().split(',')[0])
+
+
+def name_systems(out):
+    """Name each system "Cox Baton Rouge": the operator and its market's
+    city for the operator's biggest system there, its biggest parish for any
+    other ("Cox St. Mary"), and the PSID if that still collides."""
+    groups = {}
+    for psid, s in out.items():
+        groups.setdefault((s['operator'], s['market']), []).append(psid)
+    for (op, market), psids in groups.items():
+        psids.sort(key=lambda p: (-out[p]['units'], p))
+        for i, p in enumerate(psids):
+            place = CITY.get(market, 'Louisiana') if i == 0 else next(iter(out[p]['parishes']), p)
+            out[p]['name'] = f'{op} {place}'
+    seen = Counter(s['name'] for s in out.values())
+    for p, s in out.items():
+        if seen[s['name']] > 1:
+            s['name'] += f' ({p})'
 
 
 def main():
@@ -59,11 +78,14 @@ def main():
         for it in g.get('cableSystemsList') or []:
             units = [c for c in it.get('cableCommunities') or []
                      if (c.get('communityUnitId') or '').startswith('LA')]
-            if units:
+            # Searches return a system's communities that match the term, so
+            # the same system can come back with a partial list: keep the
+            # longest.
+            if units and len(units) > len(systems.get(it['psid'], (None, []))[1]):
                 systems[it['psid']] = (it, units)
         print(f'  {term}: {len(g.get("cableSystemsList") or [])} systems; {len(systems)} Louisiana so far')
 
-    out, labels = {}, Counter()
+    out = {}
     for psid, (it, units) in sorted(systems.items()):
         parishes = Counter(canon.get((c.get('countyName') or '').lower().replace('saint ', 'st. '),
                                      (c.get('countyName') or '').title()) for c in units)
@@ -71,15 +93,8 @@ def main():
         market = mk.most_common(1)[0][0] if mk else None
         op = operator(it.get('legalName') or '')
         out[psid] = {'operator': op, 'legal': it.get('legalName'), 'market': market,
-                     'parishes': dict(parishes.most_common())}
-        labels[(op, market)] += 1
-    # "Cox Baton Rouge"; where one operator has two systems in a market, the
-    # system's biggest parish tells them apart.
-    for psid, s in out.items():
-        place = CITY.get(s['market'], 'Louisiana')
-        if labels[(s['operator'], s['market'])] > 1:
-            place = next(iter(s['parishes']))
-        s['name'] = f"{s['operator']} {place}"
+                     'units': len(units), 'parishes': dict(parishes.most_common())}
+    name_systems(out)
     with open(D('cable_systems.json'), 'w', encoding='utf-8') as f:
         json.dump(dict(sorted(out.items())), f, indent=1, ensure_ascii=False)
     for psid, s in out.items():
