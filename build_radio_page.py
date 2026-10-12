@@ -20,7 +20,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.join(HERE, 'fcc'))
 from page_shell import RADIO_ICON, publish  # noqa: E402
+from summary import fcc_summary  # noqa: E402
 from prose import ahead_of, dollars, money, pct, series, share_words, words  # noqa: E402
 D = lambda *p: os.path.join(HERE, *p)
 
@@ -108,8 +110,26 @@ def build_data():
     }
 
 
+def booking():
+    """Who the radio stations' FCC political files show booking now: the
+    buyers with documents in the last two weeks, busiest first. None until
+    the radio scrape has run."""
+    F = fcc_summary({}, full=True, media=('radio',))
+    if not F:
+        return None
+    rows = [{'n': x['name'], 'b': x['b'], 'o': x['office'], 'recent': x['recent'], 'docs': x['docs'],
+             'latest': x['latest'], 'f': x['f'], 'fresh': len(x['fresh']),
+             'st': [[s['c'], s['u'], s['c'] in x['stRecent']] for s in x['st']],
+             **({'onAir': x['onAir']} if 'onAir' in x else {})}
+            for x in F['all'] if x['recent']]
+    return {'scraped': F['scraped'], 'days': F['days'], 'stations': F['media'].get('radio', 0),
+            'buyers': rows[:20], 'more': max(0, len(rows) - 20)}
+
+
 def main():
-    blob = 'const DATA = ' + json.dumps(build_data(), separators=(',', ':'), ensure_ascii=False) + ';'
+    data = build_data()
+    data['pf'] = booking()
+    blob = 'const DATA = ' + json.dumps(data, separators=(',', ':'), ensure_ascii=False) + ';'
     spend = json.load(open(D('data', 'radio_spend.json'), encoding='utf-8'))
     f = facts()
     desc = (f"Louisiana campaigns have put {f['radio_total']} into radio since {spend['years_covered'][0]}, "

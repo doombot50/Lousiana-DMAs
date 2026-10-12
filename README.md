@@ -134,6 +134,12 @@ python3 build_radio_page.py      # radio.html + radio.artifact.html
 city, owner, market) for the 67 stations carrying 85% of the dollars; edit
 `radio.template.html`, never the generated pages.
 
+**On the air now.** The radio stations' FCC political files (see *FCC
+political files*) add a live layer the filings can't: the page lists every
+buyer with documents posted in the last two weeks, at which stations, with
+"booked through" where a document's name gives a flight. It stays hidden
+until the nightly radio scrape has run.
+
 ### Two things the radio build has to handle that the TV build didn't
 
 - **Call signs collide with English.** A plain `[KW][A-Z]{3}` match over these

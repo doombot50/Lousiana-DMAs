@@ -38,6 +38,7 @@ WEEKS = 10             # weekly document counts, for the races page's sparklines
 FILES = {'tv': 'fcc_political.json', 'cable': 'fcc_cable.json', 'radio': 'fcc_radio.json',
          'dbs': 'fcc_dbs.json'}
 DBS_LABEL = {'DIRECTV': 'DirecTV', 'DISH': 'Dish'}
+ORDER = ['tv', 'cable', 'dbs', 'radio']   # how a buyer's stations are listed
 # DirecTV files each level by state ("State/Louisiana/<buyer>"; once as
 # "Louisana"): the state folder is dropped before the path is read.
 LA_FOLDER = re.compile(r'/(?:Louisiana|Louisana)(?=/|$)', re.I)
@@ -67,20 +68,21 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
     With `full`, the result also carries every buyer (`all`), not just the
     rows the TV page shows, for the committee profiles and the races page,
     and `fresh`: the documents uploaded in the last FRESH_DAYS days.
-    `media` adds cable systems' and radio stations' files to TV's; each
-    buyer's stations then carry their medium (`m`)."""
-    try:
-        fcc = load('data', 'fcc_political.json')
-    except FileNotFoundError:
+    `media` picks the files: TV's alone by default, or with (or without)
+    cable systems', satellite's and radio stations'; each buyer's stations
+    then carry their medium (`m`)."""
+    docs = {}
+    for md in media:
+        try:
+            docs[md] = load('data', FILES[md])
+        except FileNotFoundError:
+            pass
+    if not docs:
         return None
+    # The first medium's file dates the rollup (TV's, unless TV isn't asked).
+    fcc = docs[next(md for md in media if md in docs)]
     labels = media_labels() if set(media) - {'tv'} else {}
-    entries = [('tv', st) for st in fcc['stations']]
-    for m in media:
-        if m != 'tv':
-            try:
-                entries += [(m, st) for st in load('data', FILES[m])['stations']]
-            except FileNotFoundError:
-                pass
+    entries = [(md, st) for md, d in docs.items() for st in d['stations']]
     label = {(m, st['call']): labels.get((m, st['call']), (st['call'], None))[0] if m != 'tv' else st['call']
              for m, st in entries}
     mkt = lambda m, c: markets_by_call.get(c) if m == 'tv' else labels.get((m, c), (None, None))[1]
@@ -203,7 +205,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
             'st': [{'c': c, 'k': mk, 'm': m, 'u': links.get(c, (None,))[0],
                     'd': links.get(c, (None, False))[1]}
                    for c, mk, m in sorted({(r['call'], r['k'], r['m']) for r in rs},
-                                          key=lambda x: (['tv', 'cable', 'radio'].index(x[2]), x[0]))],
+                                          key=lambda x: (ORDER.index(x[2]), x[0]))],
             'wk': wk,
             'revs': sum(1 for r in recent if r['rev']),
             **({'onAir': [min(f[0] for f, _ in ahead), max(f[1] for f, _ in ahead),
