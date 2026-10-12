@@ -121,6 +121,10 @@ class Classify(unittest.TestCase):
         self.assertEqual(classify('Order 10-12 to 10-18', ''), 'order')
         self.assertEqual(classify('WWL McMahon 3348118', ''), 'order')
         self.assertEqual(classify('Political Disclosure Notice', ''), 'other')
+        # Cable affidavits and DirecTV confirmations: spots that ran.
+        self.assertEqual(classify('SHERMAN MACK FOR DA_SEP_AFF1293848_SYS 3174', ''), 'aired')
+        self.assertEqual(classify('MIKE MARSIGLIA_confirm1319185_sys0222_20261009_150005', ''), 'aired')
+        self.assertEqual(classify('Staffing PAC order', ''), 'order')
 
 
 class MatchFiler(unittest.TestCase):
@@ -150,12 +154,14 @@ class FromTheName(unittest.TestCase):
                            ('REVISED Fleming  Order Contract 4-27 thru 5-1-26', ('2026-04-27', '2026-05-01')),
                            ('KSLA Texans for Chip Roy 5.22-5.26 Contract#4416049', ('2026-05-22', '2026-05-26')),
                            ('Mike Johnson 10.12.26 thru 10.18.26', ('2026-10-12', '2026-10-18')),
-                           ('12-28 to 1-3', ('2025-12-28', '2026-01-03'))]:
+                           ('12-28 to 1-3', ('2025-12-28', '2026-01-03')),
+                           ('37408 Club for Growth Action 2026-09-23 2026-11-03 Order D2', ('2026-09-23', '2026-11-03'))]:
             self.assertEqual(flight(name, '2026'), want, name)
 
     def test_not_flights(self):
         # Order numbers, a single date, and KPXJ's timestamp names.
-        for name in ['PB - 20357', 'NAB 10-7', '20261009152635051', 'Order - 20349 REV 3']:
+        for name in ['PB - 20357', 'NAB 10-7', '20261009152635051', 'Order - 20349 REV 3',
+                     '1185359_Order_Contract_20260612034311543', 'SCALISE FOR CONGRESS_confirm1314092_sys6979_20261006_150006']:
             self.assertIsNone(flight(name, '2026'), name)
 
     def test_directv_names(self):

@@ -136,6 +136,29 @@ class SummaryMedia(unittest.TestCase):
         self.assertEqual(tv_only['all'][0]['docs'], 1)
 
 
+class OutsideGroups(unittest.TestCase):
+    """Issue groups tied to a race by what their documents say."""
+
+    def test_cues(self):
+        from build_races_page import outside_groups
+        row = lambda n, b, docnames: {'name': n, 'b': b, 'docnames': docnames, 'docs': 2, 'recent': 1,
+                                      'latest': '2026-10-09', 'st': [], 'stRecent': [], 'fresh': [],
+                                      'wk': [0] * 10, 'revs': 0, 'aired': 0}
+        F = {'all': [row('Club for Growth Action', 'Issue', ['N LA CFGA-LA CD6 NAB CBTS092226']),
+                     row('Accountability Project', 'Issue', ['ACCOUNTABILITY PROJECT AD ID CREEP SCALISE 30']),
+                     row('Friends of Justice', 'Issue', ['Friends of Justice NAB page 1'])]}
+        e = {'posted': True, 'races': [
+            {'id': 'cd1', 'o': 'U. S. Representative -- 1st Congressional District',
+             'c': [{'n': 'Steve Scalise', 'pf': {'docs': 8}}]},
+            {'id': 'cd6', 'o': 'U. S. Representative -- 6th Congressional District', 'c': [{'n': 'Blake Miguez'}]},
+            {'id': 'sb', 'o': 'Natchitoches Parish Member of School Board -- District 3', 'c': [{'n': 'Kim Page'}]}]}
+        outside_groups(F, e)
+        got = {r['id']: [(g['n'], g['cue']) for g in r.get('out', [])] for r in e['races']}
+        self.assertEqual(got, {'cd1': [('Accountability Project', 'names Scalise in its ad titles')],
+                               'cd6': [('Club for Growth Action', 'filed for LA CD6')],
+                               'sb': []})   # "page 1" is a word; Kim Page isn't buying airtime
+
+
 class SpendMatching(unittest.TestCase):
     """The TV and radio builders on synthetic filing rows."""
 

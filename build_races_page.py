@@ -217,7 +217,7 @@ def fcc_index(F):
 def fcc_row(x):
     return {'bn': x['name'], 'docs': x['docs'], 'recent': x['recent'], 'latest': x['latest'],
             'st': [[s['c'], s['u'], s['c'] in x['stRecent'], s['k'], s['m']] for s in x['st']],
-            'fresh': len(x['fresh']), 'wk': x['wk'], 'revs': x['revs'],
+            'fresh': len(x['fresh']), 'wk': x['wk'], 'revs': x['revs'], 'aired': x['aired'],
             **({'onAir': x['onAir']} if 'onAir' in x else {})}
 
 
@@ -331,6 +331,55 @@ def scaffold(day, fin, tv, ra, pf, used, taken):
     return races, field
 
 
+ORDINAL = {1: '1st', 2: '2nd', 3: '3rd'}
+EXPLICIT = [(re.compile(r'\bLA[\s_-]*CD[\s_-]*0?(\d)\b', re.I),
+             lambda m: f"U. S. Representative -- {ORDINAL.get(int(m.group(1)), m.group(1) + 'th')} Congressional District"),
+            (re.compile(r'\b(?:LA[\s_-]*)?U\.?\s?S\.?\s*Sen(?:ate)?\b', re.I), lambda m: 'U. S. Senator')]
+
+
+def outside_groups(F, election):
+    """Issue groups' airtime tied to the races it's about, read from their
+    document names: a district written in ("LA CD6", DirecTV's habit), or the
+    surname of a candidate in the race who is buying airtime too ("Creep
+    Scalise", "Liberal Letlow": stations name the creative). A surname counts
+    only when one such candidate on the ballot has it, so a plain word
+    ("Page") or a namesake can't tie a group to the wrong race."""
+    if not F or not election.get('posted'):
+        return
+    by_office = {}
+    for r in election['races']:
+        by_office.setdefault(r['o'], r)
+    sur = defaultdict(set)
+    for r in election['races']:
+        for c in r['c']:
+            if c.get('pf') or c.get('tv') or c.get('ra'):
+                w = [x for x in re.sub(r"[^A-Za-z' ]", ' ', c['n']).split()
+                     if x.lower() not in ('jr', 'sr', 'ii', 'iii', 'iv')]
+                if w and len(w[-1]) > 3:
+                    sur[w[-1].lower()].add((r['id'], c['n']))
+    sur = {s: next(iter(v)) for s, v in sur.items() if len(v) == 1}
+    races = {r['id']: r for r in election['races']}
+    for x in F.get('all', []):
+        if x['b'] != 'Issue' or not x.get('docnames'):
+            continue
+        cues = {}
+        for name in x['docnames']:
+            for pat, office in EXPLICIT:
+                m = pat.search(name)
+                if m and office(m) in by_office:
+                    cues.setdefault(by_office[office(m)]['id'], f'filed for {m.group(0).strip()}')
+            for w in set(re.findall(r"[a-z']+", name.lower())):
+                if w in sur:
+                    rid, cand = sur[w]
+                    cues.setdefault(rid, f'names {cand.split()[-1]} in its ad titles')
+        for rid, cue in cues.items():
+            name = x['name'].title() if x['name'].islower() else x['name']
+            races[rid].setdefault('out', []).append(dict(fcc_row(x), n=name, cue=cue))
+    for r in election['races']:
+        if 'out' in r:
+            r['out'].sort(key=lambda g: (-g['recent'], -g['docs'], g['n']))
+
+
 def feed(F, elections):
     """Political-file documents posted in the last few days, newest first,
     each tied to the race its buyer is running in, where there is one."""
@@ -383,6 +432,8 @@ def build(today=None):
             for c in r['c'] + e.get('field', []):
                 if c.get('p') == 'OTH' and c.get('f') and party.get(c['f']):
                     c['p'] = party[c['f']]
+    for e in elections:
+        outside_groups(F, e)
     wins = fin.wins
     data = {
         'elections': elections,

@@ -87,7 +87,12 @@ def classify(name, path):
     t = f'{path} {name}'.lower()
     if re.search(r'\bnab\b|pb-?18|agreement form', t):
         return 'request'          # NAB PB-18: the buyer's request for time
-    if re.search(r'invoice|\binv\b|billing|affidavit', t):
+    # Cable systems' affidavits ("SHERMAN MACK FOR DA_SEP_AFF1293848_SYS 3174")
+    # and confirmations ("..._confirm1319185_sys0222_...") certify spots that
+    # ran; they come after the airing, where an order comes before it.
+    if re.search(r'affidavit|(?:^|[\s_-])aff\d|(?:^|[\s_-])confirm\d', t):
+        return 'aired'
+    if re.search(r'invoice|\binv\b|billing', t):
         return 'invoice'          # time that aired, billed
     # Flight dates ("10-12 to 10-18") or a sales-system order number
     # ("WWL McMahon 3348118") both mark an order for time.
@@ -100,6 +105,8 @@ def classify(name, path):
 # Flight dates written into a document's name: "10-5 to 10-18",
 # "4-27 thru 5-1-26", "5.22-5.26", "10.12.26 thru 10.18.26".
 _D = r'(\d{1,2})[./-](\d{1,2})(?:[./-](\d{2}|\d{4}))?'
+# DirecTV writes ISO dates: "37408 Club for Growth Action 2026-09-23 2026-11-03 Order".
+ISO_FLIGHT = re.compile(r'(?<!\d)(\d{4}-\d{2}-\d{2})\s*(?:-|–|to|thru|through)?\s*(\d{4}-\d{2}-\d{2})(?!\d)', re.I)
 FLIGHT = re.compile(r'(?<![\d#])' + _D + r'\s*(?:-|–|thru|through|to)\s*' + _D + r'(?!\d)', re.I)
 REVISED = re.compile(r'\brev(?:ised|ision)?\b|\brev\s*\d|\br\d{1,2}[./]\d{1,2}', re.I)
 
@@ -110,6 +117,14 @@ def flight(name, year):
     when it gives none, or gives one that can't be a flight (backwards, or
     longer than ~four months)."""
     from datetime import date
+    iso = ISO_FLIGHT.search(name or '')
+    if iso:
+        a, b = iso.groups()
+        try:
+            ok = 0 <= (date.fromisoformat(b) - date.fromisoformat(a)).days <= 120
+        except ValueError:
+            return None
+        return (a, b) if ok else None
     m = FLIGHT.search(name or '')
     if not m:
         return None

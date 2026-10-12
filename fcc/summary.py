@@ -123,10 +123,17 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
             link = (fcc_url(profile, bpath, fid) if fid else
                     f"https://publicfiles.fcc.gov/{profile}/political-files/{year}/{yf}" if yf else None)
             rows.append({'link': link, 'deep': bool(fid), 'from_name': bool(from_name), 'b': b, 'level': level, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
+                         # One document, however many times it is listed: Spectrum
+                         # files the same order once per ad zone and in every
+                         # system of a sales market (John Fleming's 3,048
+                         # listings are 68 files), so cable and satellite count
+                         # a file name once per buyer.
+                         'dk': (medium, f['name']) if medium in ('cable', 'dbs') and f['name']
+                               else (st['call'], f['path'], f['name'], f['uploaded']),
                          'office': office, 'call': label[(medium, st['call'])], 'm': medium,
                          'k': mkt(medium, st['call']), 'up': (f['uploaded'] or '')[:10],
                          'flight': flight(f['name'], year), 'rev': revised(f['name']),
-                         'kind': classify(f['name'] or '', f['path']), 'year': year,
+                         'kind': classify(f['name'] or '', f['path']), 'year': year, 'fname': f['name'] or '',
                          'year_folder': st.get('year_folders', {}).get(year),
                          })
     # A race one station marks as another state's is that state's at every
@@ -165,13 +172,15 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
 
     buyers = []
     for (b, target), rs in groups.items():
-        recent = [r for r in rs if r['up'] >= since]
+        # Each document once, dated by its first listing.
+        uniq = list({r['dk']: r for r in sorted(rs, key=lambda r: r['up'], reverse=True)}.values())
+        recent = [r for r in uniq if r['up'] >= since]
         fresh = sorted({(r['up'], r['call'], r['kind']) for r in rs if r['up'] >= fresh_since}, reverse=True)
         # Flights the document names give that haven't ended: when the
         # buyer is booked to be on the air, and where.
         ahead = [(r['flight'], r['call']) for r in rs if r['flight'] and r['flight'][1] >= scraped]
         wk = [0] * WEEKS
-        for r in rs:
+        for r in uniq:
             if r['up']:
                 i = (date.fromisoformat(scraped) - date.fromisoformat(r['up'])).days // 7
                 if 0 <= i < WEEKS:
@@ -201,16 +210,23 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
             'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': tidy_caps(offices.most_common(1)[0][0]) if offices else None,
             'state': Counter(r['state'] for r in rs if r['state']).most_common(1)[0][0]
                      if b == 'Out of state' else None,
-            'docs': len(rs), 'recent': len(recent), 'latest': latest['up'],
+            'docs': len(uniq), 'recent': len(recent), 'latest': latest['up'],
             'st': [{'c': c, 'k': mk, 'm': m, 'u': links.get(c, (None,))[0],
                     'd': links.get(c, (None, False))[1]}
                    for c, mk, m in sorted({(r['call'], r['k'], r['m']) for r in rs},
                                           key=lambda x: (ORDER.index(x[2]), x[0]))],
             'wk': wk,
             'revs': sum(1 for r in recent if r['rev']),
+            # Recent documents certifying spots that ran (cable affidavits),
+            # as against orders and requests for time still to come.
+            'aired': sum(1 for r in recent if r['kind'] == 'aired'),
+            # An issue group's document names, for the races page to read
+            # which race it is in ("LA CD6", "Liberal Letlow").
+            **({'docnames': sorted({r['fname'] for r in uniq if r['fname']})}
+               if full and b == 'Issue' else {}),
             **({'onAir': [min(f[0] for f, _ in ahead), max(f[1] for f, _ in ahead),
                           sorted({c for _, c in ahead})]} if ahead else {}),
-            'stRecent': sorted({r['call'] for r in recent}),
+            'stRecent': sorted({r['call'] for r in rs if r['up'] >= since}),
             'fresh': [list(x) for x in fresh],
             'f': match_filer(sorted({clean_name(r['name']) for r in rs}), fidx, person=b != 'Issue')
                  if b in ('State & local', 'Issue') else None,
