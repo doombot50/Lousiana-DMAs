@@ -176,7 +176,7 @@ for(const [k,l] of [['all','All'],['DEM','Democratic'],['REP','Republican'],['OT
 }
 if(PF){
   const b=document.createElement('button'); b.type='button'; b.id='bkchip'; b.textContent='Booking now';
-  b.title=`Booked TV time in the last ${PF.days} days, per the stations' FCC political files`;
+  b.title=`Booked TV, cable or radio time in the last ${PF.days} days, per the FCC political files`;
   b.addEventListener('click',()=>{booking=!booking; limit=50; renderList();}); chips.appendChild(b);
 }
 const q=document.getElementById('q');

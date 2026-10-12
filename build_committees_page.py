@@ -38,7 +38,7 @@ DESCRIPTION = ('Every Louisiana political committee that has bought television o
 def booking(market):
     """filer -> what the FCC political files show it booking, for buyers
     the TV page matched to a state filer; and the file's date stamps."""
-    F = fcc_summary(market, full=True)
+    F = fcc_summary(market, full=True, media=('tv', 'cable', 'radio', 'dbs'))
     if not F:
         return {}, None
     by = {}

@@ -1,0 +1,60 @@
+# FCC media check — a small live run of the political-file scraper for each
+# medium (two TV stations, one cable system, one radio station, DirecTV and Dish) when the
+# scraper changes, so a change that breaks against the real FCC site shows
+# here rather than in the nightly rebuild. Writes to a scratch file and
+# commits nothing.
+
+name: FCC media check
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fcc/scrape_political_files.py
+      - fcc/summary.py
+      - .github/workflows/fcc-media-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Each starts from the committed data where there is some, so a
+      # station that hasn't changed costs a few requests, not a full walk.
+      - name: TV
+        run: |
+          cp data/fcc_political.json /tmp/tv.json
+          python3 fcc/scrape_political_files.py --max-stations 2 --budget 60 --out /tmp/tv.json
+      - name: Cable
+        run: |
+          [ -f data/fcc_cable.json ] && cp data/fcc_cable.json /tmp/cable.json || true
+          python3 fcc/scrape_political_files.py --media cable --max-stations 1 --budget 120 --out /tmp/cable.json
+      - name: Radio
+        run: |
+          [ -f data/fcc_radio.json ] && cp data/fcc_radio.json /tmp/radio.json || true
+          python3 fcc/scrape_political_files.py --media radio --max-stations 1 --budget 120 --out /tmp/radio.json
+      - name: Satellite
+        run: |
+          [ -f data/fcc_dbs.json ] && cp data/fcc_dbs.json /tmp/dbs.json || true
+          python3 fcc/scrape_political_files.py --media dbs --budget 150 --out /tmp/dbs.json
+      - name: What came back
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          for m in ('tv', 'cable', 'radio', 'dbs'):
+              d = json.load(open(f'/tmp/{m}.json'))
+              fresh = [s for s in d['stations'] if s.get('scraped_at')]
+              print(m, len(fresh), 'refreshed;', 'unmatched', d.get('unmatched'), 'failed', d.get('failed'))
+              for s in fresh:
+                  levels = collections.Counter(f['path'].split('/')[2] if f['path'].count('/') > 1 else '-' for f in s['files'])
+                  print('  ', s['call'], s.get('profile'), len(s['files']), 'docs', dict(levels))
+                  for f in s['files'][:4]:
+                      print('     ', f['uploaded'], f['path'][-70:], '|', (f['name'] or '')[:60])
+          PY

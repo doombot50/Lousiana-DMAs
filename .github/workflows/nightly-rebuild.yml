@@ -6,7 +6,9 @@
 # committees.html / races.html and their artifact fragments, and commits them. GitHub Pages serves the repo
 # root, so the commit is the deploy.
 #
-# It also refreshes the 30 stations' FCC political files (fcc/), which only
+# It also refreshes the FCC political files (fcc/) of the 30 TV stations, the
+# cable systems serving Louisiana and the radio stations the radio page
+# covers, which only
 # GitHub's runners can reach. That step may fail on its own, an FCC outage or
 # CDN block, without holding back the state-filings rebuild: the page then
 # keeps the previous night's political-file data, marked stale.
@@ -31,6 +33,10 @@ on:
     # purpose: GitHub delays or drops scheduled runs at :00 when its queue is
     # busy, and the 11:00 schedule this replaced never fired once.
     - cron: '17 11 * * *'
+    # 23:17 UTC: a second pass in the last 30 days before an election on
+    # data/ballot.json, when the political files move fastest. The gate job
+    # skips it the rest of the year.
+    - cron: '17 23 * * *'
 
 concurrency:
   group: nightly-rebuild
@@ -41,7 +47,36 @@ permissions:
   issues: write     # the freshness check opens and closes its own issue
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      go: ${{ steps.close.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: data/ballot.json
+      - id: close
+        env:
+          EVENING: ${{ github.event.schedule == '17 23 * * *' }}
+        run: |
+          go=true
+          if [ "$EVENING" = true ]; then
+            go=$(python3 -c "
+          import json, datetime
+          today = datetime.date.today()
+          try:
+              days = [datetime.date.fromisoformat(e['date']) for e in json.load(open('data/ballot.json'))['elections']]
+          except (OSError, ValueError, KeyError):
+              days = []
+          print(str(any(0 <= (d - today).days <= 30 for d in days)).lower())")
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+          echo "Run the rebuild: $go"
+
   rebuild:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -76,6 +111,24 @@ jobs:
         continue-on-error: true
         timeout-minutes: 60
         run: python3 fcc/scrape_political_files.py
+
+      # Cable systems and radio stations file political ads the same way;
+      # each has its own rotation and file, after TV so a CDN block costs
+      # TV nothing.
+      - name: Refresh cable political files
+        continue-on-error: true
+        timeout-minutes: 30
+        run: python3 fcc/scrape_political_files.py --media cable
+
+      - name: Refresh radio political files
+        continue-on-error: true
+        timeout-minutes: 40
+        run: python3 fcc/scrape_political_files.py --media radio
+
+      - name: Refresh satellite political files
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python3 fcc/scrape_political_files.py --media dbs
 
       - name: Rebuild pages
         run: |

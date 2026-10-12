@@ -97,6 +97,56 @@ def classify(name, path):
     return 'other'
 
 
+# Flight dates written into a document's name: "10-5 to 10-18",
+# "4-27 thru 5-1-26", "5.22-5.26", "10.12.26 thru 10.18.26".
+_D = r'(\d{1,2})[./-](\d{1,2})(?:[./-](\d{2}|\d{4}))?'
+FLIGHT = re.compile(r'(?<![\d#])' + _D + r'\s*(?:-|–|thru|through|to)\s*' + _D + r'(?!\d)', re.I)
+REVISED = re.compile(r'\brev(?:ised|ision)?\b|\brev\s*\d|\br\d{1,2}[./]\d{1,2}', re.I)
+
+
+def flight(name, year):
+    """(start, end) ISO dates of the flight a document's name gives, in the
+    political-file folder's `year` unless the name says otherwise; None
+    when it gives none, or gives one that can't be a flight (backwards, or
+    longer than ~four months)."""
+    from datetime import date
+    m = FLIGHT.search(name or '')
+    if not m:
+        return None
+    m1, d1, y1, m2, d2, y2 = m.groups()
+    yr = lambda y: int(y) + 2000 if y and len(y) == 2 else int(y) if y else None
+    y2 = yr(y2) or yr(y1) or int(year)
+    y1 = yr(y1) or (y2 - 1 if int(m1) > int(m2) else y2)
+    try:
+        a, b = date(y1, int(m1), int(d1)), date(y2, int(m2), int(d2))
+    except ValueError:
+        return None
+    if not 0 <= (b - a).days <= 120:
+        return None
+    return a.isoformat(), b.isoformat()
+
+
+# DirecTV names a buyer folder "<name> LA CD1", "<name> LA US Senate", and
+# now and then glues the office on: "Hillar Moore IIIEast Baton Rouge Parish
+# District Attorney".
+DBS_STATE_TAIL = re.compile(r'\s+LA\s+(?:CD\s*\d+|US\s+(?:Senate|House)|Senate|House|Gov\w*|State\b|District\b).*$', re.I)
+DBS_PARISH_TAIL = re.compile(r'(?:(?:East|West|North|South|St\.)\s?)?(?:[A-Z][a-z]+\s?){1,3}Parish\b.*$')
+
+
+def dbs_buyer(name):
+    """A DirecTV buyer folder's name without the state and office it carries."""
+    n = DBS_STATE_TAIL.sub('', name or '')
+    m = DBS_PARISH_TAIL.search(n)
+    if m and len(n[:m.start()].split()) >= 2:
+        n = n[:m.start()]
+    return n.strip()
+
+
+def revised(name):
+    """Whether a document's name marks it a revision of an earlier one."""
+    return bool(REVISED.search(name or ''))
+
+
 def buyer_folder(path):
     """The path of the buyer's own folder: `path` without trailing
     document-type folders ("…/Bill Cassidy/Orders" -> "…/Bill Cassidy")."""
@@ -106,14 +156,15 @@ def buyer_folder(path):
     return '/'.join(parts)
 
 
-def fcc_url(slug, path, folder_id):
-    """The FCC site's own link to a folder: the path below "Political Files",
-    each folder name slugged, then the folder's id, e.g.
+def fcc_url(profile, path, folder_id):
+    """The FCC site's own link to a folder: the profile ("tv-profile/wdsu",
+    "cable-profile/002460"), the path below "Political Files", each folder
+    name slugged, then the folder's id, e.g.
     /tv-profile/wdsu/political-files/2026/federal/us-senate/bill-cassidy/<id>.
     The id alone decides the page (a wrong slug still resolves, checked
     against the live site), so the slug is cosmetic and never breaks a link."""
     segs = [re.sub(r'[^a-z0-9]+', '-', p.lower()).strip('-') for p in path.split('/')[1:]]
-    return f"https://publicfiles.fcc.gov/tv-profile/{slug}/political-files/{'/'.join(segs)}/{folder_id}"
+    return f"https://publicfiles.fcc.gov/{profile}/political-files/{'/'.join(segs)}/{folder_id}"
 
 
 def parse_path(path):
@@ -240,13 +291,17 @@ def clean_name(buyer, issue=False):
 def buyer_key(buyer, alias=True):
     """Lower-case, punctuation-free, filler-free form of a buyer's name, so
     the same buyer filed differently at two stations groups together. A
-    middle initial is dropped ("Sherman Q Mack" -> "sherman mack");
+    middle initial is dropped ("Sherman Q Mack" -> "sherman mack"), and so
+    is a generational suffix (stations differ on "Hillar Moore III");
     `alias=False` skips the hand-made ALIASES."""
     k = SUPPORTERS.sub('', clean_name(buyer))
     k = FILLER.sub(' ', k.lower())
     k = re.sub(r'[^a-z0-9 ]', ' ', k)
     k = re.sub(r'\s+', ' ', k).strip()
     w = k.split()
+    if len(w) >= 3 and w[-1] in ('jr', 'sr', 'ii', 'iii', 'iv'):
+        w = w[:-1]
+        k = ' '.join(w)
     if len(w) == 3 and len(w[1]) == 1:
         k = f'{w[0]} {w[2]}'
     return ALIASES.get(k, k) if alias else k

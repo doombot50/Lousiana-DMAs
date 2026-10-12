@@ -111,6 +111,13 @@ a.mk:hover{color:var(--ink); background:var(--hair);}
 .callchip{font-family:"IBM Plex Mono",monospace; font-size:10px; padding:0 4px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2); text-decoration:none;}
 a.callchip:hover{color:var(--ink); background:var(--hair);}
 .callchip.quiet{opacity:.45;}
+.callchip.cable{border-left-style:dotted; font-style:italic;}
+.callchip.radio{border-left-style:double; border-left-width:4px;}
+.callchip.dbs{border-left-color:var(--ink2)!important; text-transform:none;}
+.spark{display:inline-block; vertical-align:-2px; margin-left:4px;}
+.spark rect{fill:var(--accent);} .spark rect.z{fill:var(--hair);}
+.onair{color:var(--ink); font-weight:600;}
+.mlegend{font:11.5px Archivo,system-ui,sans-serif; color:var(--muted); margin-top:6px; display:flex; gap:12px; flex-wrap:wrap;}
 .cr.win .nm::after{content:"✓ " attr(data-w); font:600 11px Archivo,system-ui,sans-serif; color:var(--accent-ink);}
 .votes{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink2);}
 .rf{padding:8px 16px 11px; border-top:1px solid var(--hair); font:12.5px/1.45 Archivo,system-ui,sans-serif; color:var(--ink2);}
@@ -164,7 +171,7 @@ __NAV__
 <footer>
   <p><b>Ballot:</b> the Louisiana Secretary of State's election portal, refreshed nightly. It lists contested races once qualifying closes; candidates elected unopposed at qualifying aren't on it. Votes appear here the morning after an election. A parish race is placed in its parish's TV market; a multi-parish race (Congress, judicial districts, PSC, BESE) is placed in the markets of the stations its candidates are booking, so the market filter finds it only once it's on the air.</p>
   <p><b>Money:</b> raised and spent are each candidate's totals for the {{cycle}} election cycle from their state finance reports, via the <a href="https://finance.charliestephens.xyz/">Louisiana campaign-finance dashboard</a>; cash on hand is the certified figure from the latest annual report. TV and radio are what the candidate's committee reported paying stations this cycle, matched as on the <a href="https://airwaves.charliestephens.xyz/">television</a> and <a href="https://airwaves.charliestephens.xyz/radio.html">radio</a> pages. Candidates are matched to their committee by name, and only when exactly one committee matches; a candidate with no match may simply not have filed a report yet, or may spend below the reporting threshold. Federal candidates report to the FEC, not the state, so they show political-file activity only.</p>
-  <p><b>Political files:</b> orders, invoices and requests that broadcast stations post to the FCC within days of a political ad buy, counted as documents, not dollars. Faded call signs have nothing in the last two weeks.</p>
+  <p><b>Political files:</b> orders, invoices and requests that TV stations, cable systems and radio stations post to the FCC within days of a political ad buy, counted as documents, not dollars (the dollar figures sit inside the documents, which the FCC doesn't let scripts read). Plain chips are TV stations, italic ones with a dotted edge are cable systems, double-edged ones radio stations, and DirecTV is satellite (its national file is read for Louisiana's folders only); faded ones have nothing in the last two weeks. The bars are documents a week over the last ten weeks. "Booked through" is the latest flight end written into a document's name, which some stations do and most don't; revisions are documents marked as revised orders.</p>
   <p><b>Does money win:</b> how often the candidate who spent the most won, across every contested Louisiana race since 2000, from the <a href="https://finance.charliestephens.xyz/does-money-win.html">campaign-finance dashboard's study</a>.</p>
 </footer>
 </div>
@@ -233,9 +240,16 @@ for(const t of ['',...TIERS]){
 }
 
 /* ---------- pieces ---------- */
-function chip(s){ // [call, url, live, market]
-  const st=`border-left-color:${s[3]?`var(${HUE[s[3]]})`:'var(--quiet)'}`, cls='callchip'+(s[2]?'':' quiet');
-  return s[1]?`<a class="${cls}" style="${st}" href="${s[1]}" rel="noopener" title="${s[0]}'s FCC political file for this buyer">${s[0]}</a>`:`<span class="${cls}" style="${st}">${s[0]}</span>`;
+const MEDIUM={tv:'TV station',cable:'cable system',radio:'radio station',dbs:'satellite'};
+function chip(s){ // [call, url, live, market, medium]
+  const st=`border-left-color:${s[3]?`var(${HUE[s[3]]})`:'var(--quiet)'}`, cls='callchip'+(s[4]&&s[4]!=='tv'?' '+s[4]:'')+(s[2]?'':' quiet');
+  return s[1]?`<a class="${cls}" style="${st}" href="${s[1]}" rel="noopener" title="${s[0]} (${MEDIUM[s[4]||'tv']}): its FCC political file for this buyer">${s[0]}</a>`:`<span class="${cls}" style="${st}" title="${MEDIUM[s[4]||'tv']}">${s[0]}</span>`;
+}
+// Documents a week over the last ten weeks, oldest first.
+function spark(wk){
+  if(!wk||!wk.some(Boolean)) return '';
+  const mx=Math.max(...wk), w=4, gap=1.5, h=14;
+  return `<svg class="spark" width="${wk.length*(w+gap)}" height="${h}" role="img" aria-label="Documents a week, last ${wk.length} weeks: ${wk.join(', ')}"><title>Documents a week, last ${wk.length} weeks: ${wk.join(', ')}</title>${wk.map((v,i)=>{const bh=v?Math.max(2,v/mx*h):1.5;return `<rect${v?'':' class="z"'} x="${i*(w+gap)}" y="${h-bh}" width="${w}" height="${bh}"/>`;}).join('')}</svg>`;
 }
 function m(v,label,sub){
   return `<span class="m${v?'':' z'}"><span class="lbl">${label}</span>${v?money(v):'—'}${sub?`<small>${sub}</small>`:''}</span>`;
@@ -245,7 +259,7 @@ function cand(c, e){
   const name=c.f?`<a href="${finLink(c)}" title="${esc(c.n)} on the campaign-finance dashboard: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
   const air=(c.tv||0)+(c.ra||0);
   const p=c.pf;
-  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}<span class="calls">${p.st.map(chip).join('')}</span></span>`
+  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}${spark(p.wk)}${p.onAir?`<br><span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:''}${p.revs?` · ${p.revs} revision${p.revs===1?'':'s'}`:''}<span class="calls">${p.st.map(chip).join('')}</span></span>`
           :`<span class="pf"><span class="lbl">Political files</span> <span style="color:var(--baseline)">—</span></span>`;
   const won=c.w&&/elect/i.test(c.w);
   const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes</span>`:'', c.w&&!won?esc(c.w):'',
@@ -254,7 +268,7 @@ function cand(c, e){
              !c.f&&!c.fed?'no state finance report matched':''].filter(Boolean).join(' · ');
   return `<div class="cr${won?' win':''}"${won?` data-w="${esc(c.w)}"`:''}>
     <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}</span>
-    ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?'end of '+c.coh[1]:'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
+    ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?c.coh[1]+' report':'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
     ${pf}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
 }
 function footnote(r){
@@ -347,7 +361,7 @@ function render(jump){
 {
   const a=document.getElementById('asof'), bits=[];
   if(DATA.fetched) bits.push('Ballot checked '+dshort(DATA.fetched.slice(0,10)));
-  if(FCC) bits.push('political files through '+dshort(FCC.scraped));
+  if(FCC) bits.push('political files through '+dshort(FCC.scraped)+(FCC.media?` (${[['tv','TV stations'],['cable','cable systems'],['radio','radio stations']].concat([['dbs','satellite providers']]).filter(([k])=>FCC.media[k]).map(([k,l])=>FCC.media[k]+' '+l).join(', ')})`:''));
   if(bits.length) a.textContent+=' · '+bits.join(' · ');
 }
 readHash();

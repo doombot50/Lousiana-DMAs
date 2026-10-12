@@ -134,6 +134,12 @@ python3 build_radio_page.py      # radio.html + radio.artifact.html
 city, owner, market) for the 67 stations carrying 85% of the dollars; edit
 `radio.template.html`, never the generated pages.
 
+**On the air now.** The radio stations' FCC political files (see *FCC
+political files*) add a live layer the filings can't: the page lists every
+buyer with documents posted in the last two weeks, at which stations, with
+"booked through" where a document's name gives a flight. It stays hidden
+until the nightly radio scrape has run.
+
 ### Two things the radio build has to handle that the TV build didn't
 
 - **Call signs collide with English.** A plain `[KW][A-Z]{3}` match over these
@@ -296,7 +302,8 @@ needs hand-editing when the calendar turns.
 - `build_page.py`, `build_radio_page.py`, `build_committees_page.py`,
   `build_races_page.py` — one per page, each from its `*.template.html`.
 - `fetch_ballot.py` — the Secretary of State's coming ballots (the races
-  page), run nightly.
+  page), run nightly; `fcc/find_cable.py` — the cable systems serving
+  Louisiana, run when they change.
 - `build_map.py`, `fetch_households.py` — reference geography and Census
   households, run only when those change.
 - `tests/` — regression tests, many of them real filings that were once
@@ -312,7 +319,9 @@ marker left unfilled stops the build.
 ### Nightly rebuild
 
 `.github/workflows/nightly-rebuild.yml` runs the tests and then those commands every morning
-at 11:17 UTC (off the hour: GitHub drops scheduled runs at :00 under load), after the upstream cache refreshes, and commits the
+at 11:17 UTC (off the hour: GitHub drops scheduled runs at :00 under load), after the upstream cache refreshes,
+and again at 23:17 UTC in the last 30 days before an election on the ballot (a gate job skips the evening run
+otherwise), and commits the
 result; GitHub Pages serves the commit. A night with no new filings commits
 nothing — the only diff would be the `generated` date, which the workflow
 ignores. It can also be run by hand from the Actions tab.
@@ -352,7 +361,7 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
 - **Light on the FCC.** The FCC's CDN blocks scripted traffic it judges
   heavy: a first full run of ~700 requests drew 403s that then held for every
   request, even from a fresh runner. So each night refreshes at most eight
-  stations (`--max-stations`), least recently scraped first, which rotates
+  TV stations (`--max-stations`), least recently scraped first, which rotates
   all 28 stations with online files through every four nights. Close to an
   election on `data/ballot.json` the rotation tightens, when buys move
   fastest: 14 a night in the last 30 days, all 28 in the last 10 (a steady
@@ -363,6 +372,29 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   the scraper waits once, then stops for the night and keeps everything it
   didn't reach as it was. Each station records `scraped_at`; one not
   refreshed in a week is flagged `stale` and named on the page.
+- **Cable and radio too.** Cable systems file political ads the same way,
+  per system (a PSID) rather than per station, and so do radio stations.
+  `fcc/find_cable.py` finds the 37 systems serving Louisiana through the
+  FCC's facility search and writes `data/cable_systems.json` (each system's
+  operator, the parishes its community units are in, and its TV market);
+  the **FCC cable systems** workflow runs it when the script changes.
+  `scrape_political_files.py --media cable` and `--media radio` (the 67
+  stations on the radio page) then read their files into
+  `data/fcc_cable.json` and `data/fcc_radio.json`, each with its own
+  rotation (6 cable systems and 10 radio stations a night, more near an
+  election). DirecTV files nationally (about 30,000 documents in 2026) but
+  sorts each level by state, so `--media dbs` walks only Louisiana's
+  folders (about 120 documents, most of them issue ads) into
+  `data/fcc_dbs.json`; Dish's 2026 folder is empty so far. Each run has a
+  request budget (`--budget`, 250): a station's first walk can cost
+  hundreds of requests, so once the budget is spent the rest wait a night.
+  The **FCC media check** workflow runs the scraper live against two TV
+  stations, one cable system and one radio station whenever it changes.
+- **Read from the names.** Some stations write a flight into a document's
+  name ("Camille Buras 10-5 to 10-18"): `normalize.flight` reads it, and the
+  races page says a buyer is "booked through" the latest flight end still
+  ahead. Documents marked "REV" or "revised" count as revisions, and each
+  buyer carries its documents a week for the last ten weeks.
 - **Listed, not read.** Amounts sit inside PDFs whose layout varies by
   station and sales system (and the document download URL refuses
   scripted requests), so the record is the folder and file names.
@@ -443,6 +475,11 @@ python3 fcc/scrape_political_files.py --stations WDSU KATC --years 2026
   stations, stations active now). One line per filer. Read by the
   campaign-finance dashboard; see *The committees page*.
 
+- `data/cable_systems.json` — the cable systems serving Louisiana (PSID →
+  operator, name, TV market and parishes), from `fcc/find_cable.py`.
+- `data/fcc_cable.json`, `data/fcc_radio.json` — the cable systems' and
+  radio stations' political-file listings, in the same shape as
+  `fcc_political.json` (each entry also records its FCC `profile` path).
 - `data/ballot.json` — the coming elections' races and candidates (and,
   after election night, votes and outcomes) from the Secretary of State, via
   `fetch_ballot.py`. A single-parish race whose title omits its parish gets

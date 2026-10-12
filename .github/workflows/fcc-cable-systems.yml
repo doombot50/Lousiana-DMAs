@@ -1,0 +1,42 @@
+# FCC cable systems — the cable systems serving Louisiana (fcc/find_cable.py),
+# whose political files the nightly rebuild reads. publicfiles.fcc.gov isn't
+# reachable from every network, so it runs here and commits
+# data/cable_systems.json to the branch that ran it. It runs when the script
+# changes, or by hand from the Actions tab when an operator's systems change.
+
+name: FCC cable systems
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fcc/find_cable.py
+      - .github/workflows/fcc-cable-systems.yml
+
+permissions:
+  contents: write
+
+jobs:
+  systems:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Find Louisiana cable systems
+        run: python3 fcc/find_cable.py
+      - name: Commit if changed
+        run: |
+          git add data/cable_systems.json
+          if git diff --cached --quiet; then
+            echo "Cable systems unchanged."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Reference data: Louisiana cable systems from the FCC"
+          # Another push may have landed while this ran.
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push

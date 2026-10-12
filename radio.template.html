@@ -123,6 +123,15 @@ table.st{border-collapse:collapse; width:100%;}
 .st .o{color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-size:12px; white-space:nowrap;}
 .st .n{font-family:"IBM Plex Mono",monospace; text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums;}
 .tblwrap{overflow-x:auto;}
+.nowrow{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 14px; padding:9px 0; border-top:1px solid var(--hair); font:13.5px/1.4 Archivo,system-ui,sans-serif;}
+.nowrow:first-child{border-top:0;}
+.nowrow .who{font-weight:600;}
+.nowrow .who a{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
+.nowrow .what{color:var(--ink2); font-size:12.5px;}
+.nowrow .n{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink2); text-align:right; white-space:nowrap;}
+.nowrow .calls{grid-column:1/-1; display:flex; flex-wrap:wrap; gap:3px;}
+.nowrow .calls a,.nowrow .calls span{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:0 4px; border-radius:2px; background:var(--page); color:var(--ink2); text-decoration:none; border:1px solid var(--hair);}
+.nowrow .calls .quiet{opacity:.45;}
 
 .method{max-width:68ch; font-size:14.5px; color:var(--ink2);}
 .method p{margin:10px 0;}
@@ -145,6 +154,13 @@ __NAV__
   <div class="dialcap"><span>Every radio dollar, by station format</span><span class="mono" id="dialtot"></span></div>
   <div class="stats" id="stats"></div>
 </header>
+
+<section id="now" hidden>
+  <p class="seclabel">On the air now</p>
+  <h2>Who is booking radio this fortnight</h2>
+  <p class="intro" id="nowintro"></p>
+  <div class="panel" id="nowlist"></div>
+</section>
 
 <section id="formats">
   <p class="seclabel">The dial</p>
@@ -219,6 +235,19 @@ __NAV__
 <script>
 /*__DATA__*/
 const prof = f => 'https://airwaves.charliestephens.xyz/committees.html#f='+encodeURIComponent(f);
+// Who the radio stations' FCC political files show booking now.
+if(DATA.pf&&DATA.pf.buyers.length){
+  const P=DATA.pf, esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const d=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  const KIND={Federal:'federal race','State & local':'state or local race',Issue:'issue ad'};
+  document.getElementById('nowintro').innerHTML=`Radio stations post every political order and invoice to the FCC within days, weeks before it shows in a finance report. In the ${P.days} days to ${d(P.scraped)}, the files of the ${P.stations} stations on this page checked so far show <b>${P.buyers.length+P.more} buyer${P.buyers.length+P.more===1?'':'s'}</b> booking time. Counts are documents, not dollars.`;
+  document.getElementById('nowlist').innerHTML=P.buyers.map(x=>`<div class="nowrow">
+    <span><span class="who">${x.f?`<a href="${prof(x.f)}">${esc(x.n)}</a>`:esc(x.n)}</span> <span class="what">· ${x.o?esc(x.o):KIND[x.b]||''}${x.onAir?` · booked through ${d(x.onAir[1])}`:''}</span></span>
+    <span class="n">${x.recent} doc${x.recent===1?'':'s'}${x.fresh?' · new':''}</span>
+    <span class="calls">${x.st.map(s=>s[1]?`<a href="${s[1]}" rel="noopener" class="${s[2]?'':'quiet'}" title="${s[0]}'s FCC political file for this buyer">${s[0]}</a>`:`<span class="${s[2]?'':'quiet'}">${s[0]}</span>`).join('')}</span></div>`).join('')
+    +(P.more?`<p class="note" style="font:12.5px Archivo,system-ui,sans-serif;color:var(--muted);margin:8px 0 0">and ${P.more} more; every race's buyers, across TV, cable and radio, are on the <a href="https://airwaves.charliestephens.xyz/races.html">races page</a>.</p>`:'');
+  document.getElementById('now').hidden=false;
+}
 
 const money=n=> n>=1e6 ? '$'+(n/1e6).toFixed(n>=1e7?1:2)+'M' : n>=1e3 ? '$'+Math.round(n/1e3)+'K' : '$'+Math.round(n);
 const full=n=>'$'+Math.round(n).toLocaleString('en-US');

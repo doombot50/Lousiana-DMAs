@@ -95,6 +95,47 @@ class Summary(unittest.TestCase):
         self.assertEqual(self.F['docs'], 6)
 
 
+class SummaryMedia(unittest.TestCase):
+    """Cable systems' files join TV's under the same buyer, labeled and tagged."""
+
+    def test_cable_joins_tv(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = os.path.join(tmp, 'data')
+            os.makedirs(d)
+            st = lambda call, files, **k: dict({'call': call, 'scraped_at': '2026-10-11T00:00:00Z',
+                                                'year_folders': {}, 'folders': {}, 'files': files}, **k)
+            dump({'scraped': '2026-10-11T00:00:00Z', 'stations': [
+                st('WBRZ', [doc('Local/District Attorney/Hillar Moore', 'Hillar Moore 10-5 to 10-18')])]},
+                os.path.join(d, 'fcc_political.json'))
+            dump({'scraped': '2026-10-11T00:00:00Z', 'stations': [
+                st('002460', [doc('State/Hillar Moore', 'Hillar Moore REV 2', '2026-10-10T09:00:00')],
+                   profile='cable-profile/002460')]}, os.path.join(d, 'fcc_cable.json'))
+            dump({'scraped': '2026-10-11T00:00:00Z', 'stations': [
+                st('DIRECTV', [doc('Local/Louisiana/Hillar Moore IIIEast Baton Rouge Parish District Attorney',
+                                   'HILLAR MOORE FOR LA_confirm1312860')], profile='dbs-profile/directv')]},
+                os.path.join(d, 'fcc_dbs.json'))
+            dump({'002460': {'name': 'Cox Baton Rouge', 'market': 'BR'}}, os.path.join(d, 'cable_systems.json'))
+            dump([], os.path.join(d, 'radio_stations.json'))
+            dump([{'call': 'WBRZ'}], os.path.join(d, 'stations.json'))
+            dump({}, os.path.join(d, 'filers.json'))
+            real = summary.D
+            summary.D = lambda *p: os.path.join(tmp, *p)
+            try:
+                F = summary.fcc_summary({'WBRZ': 'BR'}, full=True, media=('tv', 'cable', 'dbs'))
+                radio_only = summary.fcc_summary({'WBRZ': 'BR'}, full=True, media=('radio',))
+                tv_only = summary.fcc_summary({'WBRZ': 'BR'}, full=True)
+            finally:
+                summary.D = real
+        b = next(x for x in F['all'] if x['name'] == 'Hillar Moore')
+        # DirecTV's Louisiana folder and glued-on office don't split the buyer.
+        self.assertEqual([(s['c'], s['m'], s['k']) for s in b['st']],
+                         [('WBRZ', 'tv', 'BR'), ('Cox Baton Rouge', 'cable', 'BR'), ('DirecTV', 'dbs', None)])
+        self.assertEqual((b['docs'], b['revs'], b['onAir'][1], sum(b['wk'])), (3, 1, '2026-10-18', 3))
+        self.assertEqual(F['media'], {'tv': 1, 'cable': 1, 'dbs': 1})
+        self.assertIsNone(radio_only)        # no radio file yet
+        self.assertEqual(tv_only['all'][0]['docs'], 1)
+
+
 class SpendMatching(unittest.TestCase):
     """The TV and radio builders on synthetic filing rows."""
 

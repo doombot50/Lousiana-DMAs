@@ -8,8 +8,8 @@ import unittest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'fcc'))
-from normalize import (aliases, buyer_from_filename, buyer_key, classify, clean_name,  # noqa: E402
-                       filer_index, match_filer, out_of_state, parse_path, tidy_caps)
+from normalize import (aliases, buyer_from_filename, buyer_key, classify, clean_name, dbs_buyer,  # noqa: E402
+                       filer_index, flight, match_filer, out_of_state, parse_path, revised, tidy_caps)
 
 P = 'Political Files/2026/'
 
@@ -141,6 +141,36 @@ class MatchFiler(unittest.TestCase):
 
     def test_unknown_is_none(self):
         self.assertIsNone(match_filer(['Will Keaty'], self.idx))
+
+
+class FromTheName(unittest.TestCase):
+    # WDSU, WBRZ, KSLA and KPLC write the flight into the document's name.
+    def test_flights(self):
+        for name, want in [('Camille Buras 10-5 to 10-18', ('2026-10-05', '2026-10-18')),
+                           ('REVISED Fleming  Order Contract 4-27 thru 5-1-26', ('2026-04-27', '2026-05-01')),
+                           ('KSLA Texans for Chip Roy 5.22-5.26 Contract#4416049', ('2026-05-22', '2026-05-26')),
+                           ('Mike Johnson 10.12.26 thru 10.18.26', ('2026-10-12', '2026-10-18')),
+                           ('12-28 to 1-3', ('2025-12-28', '2026-01-03'))]:
+            self.assertEqual(flight(name, '2026'), want, name)
+
+    def test_not_flights(self):
+        # Order numbers, a single date, and KPXJ's timestamp names.
+        for name in ['PB - 20357', 'NAB 10-7', '20261009152635051', 'Order - 20349 REV 3']:
+            self.assertIsNone(flight(name, '2026'), name)
+
+    def test_directv_names(self):
+        for raw, name in [('Steve Scalise LA CD1', 'Steve Scalise'), ('Julia Letlow LA US Senate', 'Julia Letlow'),
+                          ('Hillar Moore IIIEast Baton Rouge Parish District Attorney', 'Hillar Moore III'),
+                          ('Louisiana Freedom Fund', 'Louisiana Freedom Fund')]:
+            self.assertEqual(dbs_buyer(raw), name, raw)
+        self.assertEqual(buyer_key(dbs_buyer('Hillar Moore IIIEast Baton Rouge Parish District Attorney')),
+                         buyer_key('Hillar Moore'))
+
+    def test_revisions(self):
+        for name in ['Order - 20349 REV 3', 'Louisiana Freedom Fund Order 1514741 r5.7.26',
+                     'Bill Cassidy NAB WVLA #5213225 revised 3.25.26']:
+            self.assertTrue(revised(name), name)
+        self.assertFalse(revised('Reveille PAC order'))
 
 
 if __name__ == '__main__':
