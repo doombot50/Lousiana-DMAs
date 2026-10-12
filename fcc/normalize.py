@@ -97,6 +97,40 @@ def classify(name, path):
     return 'other'
 
 
+# Flight dates written into a document's name: "10-5 to 10-18",
+# "4-27 thru 5-1-26", "5.22-5.26", "10.12.26 thru 10.18.26".
+_D = r'(\d{1,2})[./-](\d{1,2})(?:[./-](\d{2}|\d{4}))?'
+FLIGHT = re.compile(r'(?<![\d#])' + _D + r'\s*(?:-|–|thru|through|to)\s*' + _D + r'(?!\d)', re.I)
+REVISED = re.compile(r'\brev(?:ised|ision)?\b|\brev\s*\d|\br\d{1,2}[./]\d{1,2}', re.I)
+
+
+def flight(name, year):
+    """(start, end) ISO dates of the flight a document's name gives, in the
+    political-file folder's `year` unless the name says otherwise; None
+    when it gives none, or gives one that can't be a flight (backwards, or
+    longer than ~four months)."""
+    from datetime import date
+    m = FLIGHT.search(name or '')
+    if not m:
+        return None
+    m1, d1, y1, m2, d2, y2 = m.groups()
+    yr = lambda y: int(y) + 2000 if y and len(y) == 2 else int(y) if y else None
+    y2 = yr(y2) or yr(y1) or int(year)
+    y1 = yr(y1) or (y2 - 1 if int(m1) > int(m2) else y2)
+    try:
+        a, b = date(y1, int(m1), int(d1)), date(y2, int(m2), int(d2))
+    except ValueError:
+        return None
+    if not 0 <= (b - a).days <= 120:
+        return None
+    return a.isoformat(), b.isoformat()
+
+
+def revised(name):
+    """Whether a document's name marks it a revision of an earlier one."""
+    return bool(REVISED.search(name or ''))
+
+
 def buyer_folder(path):
     """The path of the buyer's own folder: `path` without trailing
     document-type folders ("…/Bill Cassidy/Orders" -> "…/Bill Cassidy")."""
