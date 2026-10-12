@@ -71,5 +71,85 @@
   "call": "WVUE-DT",
   "id": "4149"
  },
- "WWL-TV": "74192"
+ "WWL-TV": "74192",
+ "radio:KAJN": {
+  "id": "56098",
+  "profile": "fm-profile/kajn-fm"
+ },
+ "radio:KBON": {
+  "id": "60867",
+  "profile": "fm-profile/kbon"
+ },
+ "radio:KBZE": {
+  "id": "40580",
+  "profile": "fm-profile/kbze"
+ },
+ "radio:KEEL": {
+  "id": "46983",
+  "profile": "am-profile/keel"
+ },
+ "radio:KMDL": {
+  "id": "59289",
+  "profile": "fm-profile/kmdl"
+ },
+ "radio:KMEZ": {
+  "id": "12157",
+  "profile": "fm-profile/kmez"
+ },
+ "radio:KNEK": {
+  "id": "15801",
+  "profile": "am-profile/knek"
+ },
+ "radio:KPEL": {
+  "id": "12682",
+  "profile": "am-profile/kpel"
+ },
+ "radio:KQKI": {
+  "id": "64675",
+  "profile": "fm-profile/kqki-fm"
+ },
+ "radio:KQXL": {
+  "id": "11607",
+  "profile": "fm-profile/kqxl-fm"
+ },
+ "radio:KTDY": {
+  "id": "12674",
+  "profile": "fm-profile/ktdy"
+ },
+ "radio:WBOK": {
+  "id": "10917",
+  "profile": "am-profile/wbok"
+ },
+ "radio:WJBO": {
+  "id": "4054",
+  "profile": "am-profile/wjbo"
+ },
+ "radio:WLMG": {
+  "id": "34376",
+  "profile": "fm-profile/wlmg"
+ },
+ "radio:WNOE": {
+  "id": "58394",
+  "profile": "fm-profile/wnoe-fm"
+ },
+ "radio:WQUE": {
+  "id": "11915",
+  "profile": "fm-profile/wque-fm"
+ },
+ "radio:WRNO": {
+  "id": "54890",
+  "profile": "fm-profile/wrno-fm"
+ },
+ "radio:WWL": {
+  "id": "34377",
+  "profile": "am-profile/wwl"
+ },
+ "radio:WYLD": {
+  "id": "60707",
+  "profile": "am-profile/wyld"
+ },
+ "radio:WYNK": {
+  "id": "47402",
+  "profile": "fm-profile/wynk-fm"
+ }
 }

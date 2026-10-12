@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-11",
+ "generated": "2026-10-12",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1501391,
+ "rows_scanned": 1501414,
  "data_through": "2026-10-05",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13205188.38,
+ "total_spend": 13205818.38,
  "gov_year_share": 0.5457,
  "by_year": {
   "2000": 27912.25,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 138962.81
+  "2026": 139592.81
  },
  "stations": [
   {
@@ -3039,10 +3039,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 63022.67,
-   "rows": 43,
-   "committees": 18,
-   "avg_buy": 1465.64,
+   "spend": 63652.67,
+   "rows": 45,
+   "committees": 19,
+   "avg_buy": 1414.5,
    "by_year": {
     "2002": 1133.4,
     "2003": 16888.5,
@@ -3054,7 +3054,7 @@
     "2019": 19755.75,
     "2020": 5174.8,
     "2023": 561.0,
-    "2026": 315.0
+    "2026": 945.0
    },
    "top_committees": [
     {
@@ -4262,7 +4262,7 @@
    ]
   }
  ],
- "classified_spend": 11164623.98,
+ "classified_spend": 11165253.98,
  "unclassified_tail": {
   "amount": 2040564.4,
   "stations": 254,
@@ -4271,11 +4271,11 @@
  "categories": [
   {
    "category": "Black-audience",
-   "spend": 3812549.53,
+   "spend": 3813179.53,
    "stations": 19,
-   "rows": 2230,
-   "committees": 390,
-   "avg_buy": 1709.66,
+   "rows": 2232,
+   "committees": 391,
+   "avg_buy": 1708.41,
    "share": 0.2887
   },
   {
@@ -4405,7 +4405,7 @@
   },
   {
    "owner": "Holladay / The Radio People",
-   "spend": 218966.79,
+   "spend": 219596.79,
    "stations": 4,
    "share": 0.0166
   },
