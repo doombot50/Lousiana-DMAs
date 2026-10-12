@@ -84,9 +84,25 @@
   "id": "40580",
   "profile": "fm-profile/kbze"
  },
+ "radio:KDKS": {
+  "id": "16436",
+  "profile": "fm-profile/kdks-fm"
+ },
  "radio:KEEL": {
   "id": "46983",
   "profile": "am-profile/keel"
+ },
+ "radio:KFXZ": {
+  "id": "41054",
+  "profile": "am-profile/kfxz"
+ },
+ "radio:KJAE": {
+  "id": "52140",
+  "profile": "fm-profile/kjae"
+ },
+ "radio:KLWB": {
+  "id": "183335",
+  "profile": "fm-profile/klwb-fm"
  },
  "radio:KMDL": {
   "id": "59289",
@@ -95,6 +111,14 @@
  "radio:KMEZ": {
   "id": "12157",
   "profile": "fm-profile/kmez"
+ },
+ "radio:KMJJ": {
+  "id": "63929",
+  "profile": "fm-profile/kmjj-fm"
+ },
+ "radio:KMXH": {
+  "id": "21854",
+  "profile": "fm-profile/kmxh"
  },
  "radio:KNEK": {
   "id": "15801",
@@ -112,17 +136,65 @@
   "id": "11607",
   "profile": "fm-profile/kqxl-fm"
  },
+ "radio:KRMD": {
+  "id": "1305",
+  "profile": "am-profile/krmd"
+ },
+ "radio:KRVE": {
+  "id": "40866",
+  "profile": "fm-profile/krve"
+ },
+ "radio:KSIG": {
+  "id": "342",
+  "profile": "am-profile/ksig"
+ },
+ "radio:KSYL": {
+  "id": "9750",
+  "profile": "am-profile/ksyl"
+ },
  "radio:KTDY": {
   "id": "12674",
   "profile": "fm-profile/ktdy"
+ },
+ "radio:KVPI": {
+  "id": "70233",
+  "profile": "am-profile/kvpi"
+ },
+ "radio:KXKS": {
+  "id": "46982",
+  "profile": "fm-profile/kxks-fm"
+ },
+ "radio:KYKZ": {
+  "id": "38601",
+  "profile": "fm-profile/kykz"
+ },
+ "radio:KZWA": {
+  "id": "3422",
+  "profile": "fm-profile/kzwa"
  },
  "radio:WBOK": {
   "id": "10917",
   "profile": "am-profile/wbok"
  },
+ "radio:WDGL": {
+  "id": "25518",
+  "profile": "fm-profile/wdgl"
+ },
+ "radio:WEMX": {
+  "id": "58931",
+  "profile": "fm-profile/wemx"
+ },
+ "radio:WGSO": {
+  "id": "52433",
+  "profile": "am-profile/wgso"
+ },
  "radio:WJBO": {
   "id": "4054",
   "profile": "am-profile/wjbo"
+ },
+ "radio:WKBU": {
+  "id": "52434",
+  "profile": "fm-profile/wkbu"
  },
  "radio:WLMG": {
   "id": "34376",
@@ -140,9 +212,17 @@
   "id": "54890",
   "profile": "fm-profile/wrno-fm"
  },
+ "radio:WTGE": {
+  "id": "70022",
+  "profile": "fm-profile/wtge"
+ },
  "radio:WWL": {
   "id": "34377",
   "profile": "am-profile/wwl"
+ },
+ "radio:WXOK": {
+  "id": "11606",
+  "profile": "am-profile/wxok"
  },
  "radio:WYLD": {
   "id": "60707",
