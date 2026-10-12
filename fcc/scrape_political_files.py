@@ -230,9 +230,9 @@ Vermont Virginia Washington Wisconsin Wyoming""".split()) | {
 
 
 def other_state(name):
-    """A folder for another state's races, in a national file (DirecTV
-    sorts each level by state)."""
-    return name.strip() in STATES
+    """A folder for another state's races, or for national and multi-state
+    buys, in a national file (DirecTV sorts each level by state)."""
+    return name.strip() in STATES or bool(re.match(r'multi-?state|national', name.strip(), re.I))
 
 
 def walk(fid, ent, out, prev, stats, folders, prev_folders, skip=None):

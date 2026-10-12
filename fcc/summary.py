@@ -22,7 +22,7 @@ sys.path.insert(0, ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'fcc'))
 from markets import MARKETS  # noqa: E402
 from normalize import (aliases, bucket, buyer_folder, buyer_from_filename, buyer_key,  # noqa: E402
-                       classify, clean_name, fcc_url, filer_index, flight, match_filer, out_of_state,
+                       classify, clean_name, dbs_buyer, fcc_url, filer_index, flight, match_filer, out_of_state,
                        parse_path, revised, tidy_caps)
 
 
@@ -96,6 +96,8 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
         for f in st['files']:
             fpath = LA_FOLDER.sub('', f['path']) if medium == 'dbs' else f['path']
             level, office, buyer = parse_path(fpath)
+            if medium == 'dbs' and buyer:
+                buyer = dbs_buyer(buyer)
             if not level:
                 continue
             # No buyer folder (the Lake Charles stations file straight into

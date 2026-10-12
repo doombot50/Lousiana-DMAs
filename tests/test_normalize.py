@@ -8,7 +8,7 @@ import unittest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'fcc'))
-from normalize import (aliases, buyer_from_filename, buyer_key, classify, clean_name,  # noqa: E402
+from normalize import (aliases, buyer_from_filename, buyer_key, classify, clean_name, dbs_buyer,  # noqa: E402
                        filer_index, flight, match_filer, out_of_state, parse_path, revised, tidy_caps)
 
 P = 'Political Files/2026/'
@@ -157,6 +157,14 @@ class FromTheName(unittest.TestCase):
         # Order numbers, a single date, and KPXJ's timestamp names.
         for name in ['PB - 20357', 'NAB 10-7', '20261009152635051', 'Order - 20349 REV 3']:
             self.assertIsNone(flight(name, '2026'), name)
+
+    def test_directv_names(self):
+        for raw, name in [('Steve Scalise LA CD1', 'Steve Scalise'), ('Julia Letlow LA US Senate', 'Julia Letlow'),
+                          ('Hillar Moore IIIEast Baton Rouge Parish District Attorney', 'Hillar Moore III'),
+                          ('Louisiana Freedom Fund', 'Louisiana Freedom Fund')]:
+            self.assertEqual(dbs_buyer(raw), name, raw)
+        self.assertEqual(buyer_key(dbs_buyer('Hillar Moore IIIEast Baton Rouge Parish District Attorney')),
+                         buyer_key('Hillar Moore'))
 
     def test_revisions(self):
         for name in ['Order - 20349 REV 3', 'Louisiana Freedom Fund Order 1514741 r5.7.26',

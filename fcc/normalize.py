@@ -126,6 +126,22 @@ def flight(name, year):
     return a.isoformat(), b.isoformat()
 
 
+# DirecTV names a buyer folder "<name> LA CD1", "<name> LA US Senate", and
+# now and then glues the office on: "Hillar Moore IIIEast Baton Rouge Parish
+# District Attorney".
+DBS_STATE_TAIL = re.compile(r'\s+LA\s+(?:CD\s*\d+|US\s+(?:Senate|House)|Senate|House|Gov\w*|State\b|District\b).*$', re.I)
+DBS_PARISH_TAIL = re.compile(r'(?:(?:East|West|North|South|St\.)\s?)?(?:[A-Z][a-z]+\s?){1,3}Parish\b.*$')
+
+
+def dbs_buyer(name):
+    """A DirecTV buyer folder's name without the state and office it carries."""
+    n = DBS_STATE_TAIL.sub('', name or '')
+    m = DBS_PARISH_TAIL.search(n)
+    if m and len(n[:m.start()].split()) >= 2:
+        n = n[:m.start()]
+    return n.strip()
+
+
 def revised(name):
     """Whether a document's name marks it a revision of an earlier one."""
     return bool(REVISED.search(name or ''))
@@ -275,13 +291,17 @@ def clean_name(buyer, issue=False):
 def buyer_key(buyer, alias=True):
     """Lower-case, punctuation-free, filler-free form of a buyer's name, so
     the same buyer filed differently at two stations groups together. A
-    middle initial is dropped ("Sherman Q Mack" -> "sherman mack");
+    middle initial is dropped ("Sherman Q Mack" -> "sherman mack"), and so
+    is a generational suffix (stations differ on "Hillar Moore III");
     `alias=False` skips the hand-made ALIASES."""
     k = SUPPORTERS.sub('', clean_name(buyer))
     k = FILLER.sub(' ', k.lower())
     k = re.sub(r'[^a-z0-9 ]', ' ', k)
     k = re.sub(r'\s+', ' ', k).strip()
     w = k.split()
+    if len(w) >= 3 and w[-1] in ('jr', 'sr', 'ii', 'iii', 'iv'):
+        w = w[:-1]
+        k = ' '.join(w)
     if len(w) == 3 and len(w[1]) == 1:
         k = f'{w[0]} {w[2]}'
     return ALIASES.get(k, k) if alias else k
