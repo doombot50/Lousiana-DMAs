@@ -11,8 +11,9 @@ and the campaign-finance dashboard know about them:
   * certified cash on hand from the candidate's latest annual report;
   * what they've paid TV and radio stations this cycle (committees_tv.json,
     committees_radio.json);
-  * what the stations' FCC political files show them booking, and what was
-    posted in the last few days;
+  * what the FCC political files of the TV stations, cable systems and radio
+    stations show them booking: documents by week, flights booked ahead (from
+    the documents' names), and what was posted in the last few days;
   * how often the money leader has won this kind of race since 2000 (the
     "does money win?" page).
 
@@ -215,8 +216,9 @@ def fcc_index(F):
 
 def fcc_row(x):
     return {'bn': x['name'], 'docs': x['docs'], 'recent': x['recent'], 'latest': x['latest'],
-            'st': [[s['c'], s['u'], s['c'] in x['stRecent'], s['k']] for s in x['st']],
-            'fresh': len(x['fresh'])}
+            'st': [[s['c'], s['u'], s['c'] in x['stRecent'], s['k'], s['m']] for s in x['st']],
+            'fresh': len(x['fresh']), 'wk': x['wk'], 'revs': x['revs'],
+            **({'onAir': x['onAir']} if 'onAir' in x else {})}
 
 
 def candidate(c, fed, fin, tv, ra, pf, used):
@@ -348,7 +350,7 @@ def build(today=None):
     spend = load(D('data', 'station_spend.json'))
     ballot = load(D('data', 'ballot.json'), {'elections': []})
     market = {s['call']: BY_NAME[s['dma']] for s in load(D('data', 'stations.json'))}
-    F = fcc_summary(market, full=True)
+    F = fcc_summary(market, full=True, media=('tv', 'cable', 'radio'))
     fin = Finance(find_cache())
     tv, ra = load(D('data', 'committees_tv.json')), load(D('data', 'committees_radio.json'))
     pf = fcc_index(F)
@@ -385,7 +387,8 @@ def build(today=None):
     data = {
         'elections': elections,
         'feed': feed(F, elections),
-        'fcc': {'scraped': F['scraped'], 'freshSince': F['freshSince'], 'days': F['days']} if F else None,
+        'fcc': {'scraped': F['scraped'], 'freshSince': F['freshSince'], 'days': F['days'],
+                'media': F['media'], 'weeks': F['weeks']} if F else None,
         'wins': {'tier': {x['tier']: [x['rate'], x['n']] for x in wins.get('by_tier', [])},
                  'all': [wins['overall']['rate'], wins['overall']['n_races']] if wins.get('overall') else None,
                  'span': wins.get('span')} if wins else None,
