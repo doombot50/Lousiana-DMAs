@@ -117,6 +117,17 @@ def main():
                 y = get(f"{B}/api/manager/folder/id/{year['entity_folder_id']}.json?entityId={slug.upper()}") or {}
                 ys = (y.get('folder') or {}).get('subfolders') or []
                 print('  2026: ' + ', '.join(f"{s['folder_name']} ({s.get('file_count')})" for s in ys[:40]))
+                # One level down: are the levels split by state or market?
+                for lv in ys:
+                    if not int(lv.get('file_count') or 0):
+                        continue
+                    sub = get(f"{B}/api/manager/folder/id/{lv['entity_folder_id']}.json?entityId={slug.upper()}") or {}
+                    ss = (sub.get('folder') or {}).get('subfolders') or []
+                    la = [x for x in ss if re.search(r'louisiana|\bla\b|new orleans|baton rouge|shreveport|'
+                                                    r'lafayette|monroe|lake charles|alexandria', x['folder_name'], re.I)]
+                    print(f"  2026/{lv['folder_name']}: {len(ss)} subfolders, e.g. "
+                          + ', '.join(f"{x['folder_name']} ({x.get('file_count')})" for x in ss[:25])
+                          + f"; Louisiana-looking: {[(x['folder_name'], x.get('file_count')) for x in la]}")
 
 
 if __name__ == '__main__':

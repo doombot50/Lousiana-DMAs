@@ -33,6 +33,10 @@ on:
     # purpose: GitHub delays or drops scheduled runs at :00 when its queue is
     # busy, and the 11:00 schedule this replaced never fired once.
     - cron: '17 11 * * *'
+    # 23:17 UTC: a second pass in the last 30 days before an election on
+    # data/ballot.json, when the political files move fastest. The gate job
+    # skips it the rest of the year.
+    - cron: '17 23 * * *'
 
 concurrency:
   group: nightly-rebuild
@@ -43,7 +47,36 @@ permissions:
   issues: write     # the freshness check opens and closes its own issue
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      go: ${{ steps.close.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: data/ballot.json
+      - id: close
+        env:
+          EVENING: ${{ github.event.schedule == '17 23 * * *' }}
+        run: |
+          go=true
+          if [ "$EVENING" = true ]; then
+            go=$(python3 -c "
+          import json, datetime
+          today = datetime.date.today()
+          try:
+              days = [datetime.date.fromisoformat(e['date']) for e in json.load(open('data/ballot.json'))['elections']]
+          except (OSError, ValueError, KeyError):
+              days = []
+          print(str(any(0 <= (d - today).days <= 30 for d in days)).lower())")
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+          echo "Run the rebuild: $go"
+
   rebuild:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
