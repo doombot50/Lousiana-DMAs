@@ -1,0 +1,44 @@
+# Ballot — the Secretary of State's races and candidates for coming elections.
+#
+# voterportal.sos.la.gov isn't reachable from every network, so fetch_ballot.py
+# runs here and data/ballot.json is committed to the branch that ran it. The
+# nightly rebuild refreshes it too; this runs when the script changes, or by
+# hand from the Actions tab (say, the day qualifying closes).
+
+name: Ballot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fetch_ballot.py
+      - .github/workflows/ballot.yml
+
+permissions:
+  contents: write
+
+jobs:
+  ballot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch the ballot
+        run: python3 fetch_ballot.py
+
+      - name: Commit if changed
+        run: |
+          git add data/ballot.json
+          if git diff --cached --quiet -I'"fetched":'; then
+            echo "Ballot unchanged."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Ballot: races and candidates from the Secretary of State"
+          git push
