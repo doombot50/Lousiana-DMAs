@@ -227,6 +227,11 @@ A *New in the political files* panel lists every buyer with documents posted
 in the last three days, each linked to its race. Every view has a URL
 (`races.html#e=2026-11-03&pa=East%20Baton%20Rouge&t=Local`, or `#r=<race>`
 for one race), and committee profiles link to their candidate's race.
+Races open sorted by ad spending: what the candidates paid TV and radio
+stations plus a weight for the orders stations have posted to their
+political files (which run weeks ahead of the finance reports and are the
+only record of federal buys), so the Senate and congressional races lead.
+`#sort=money` sorts by money raised and spent instead, `#sort=az` by name.
 
 **Where it comes from.** `fetch_ballot.py` reads the Secretary of State's
 election-results portal (voterportal.sos.la.gov), which posts each ballot's

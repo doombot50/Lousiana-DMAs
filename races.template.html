@@ -166,8 +166,8 @@ __NAV__
     <select id="parish" aria-label="Parish"></select>
     <select id="mkt" aria-label="TV market"></select>
     <select id="sort" aria-label="Sort races">
+      <option value="air">Most ad spending first</option>
       <option value="money">Most money first</option>
-      <option value="air">Most ad activity first</option>
       <option value="az">A to Z</option>
     </select>
   </div>
@@ -203,7 +203,10 @@ const pct=r=>Math.round(r*100)+'%';
 const EDGE={'<2x':'less than 2×','2-5x':'2–5×','5-10x':'5–10×','>10x':'more than 10×'};
 const E=DATA.elections, FCC=DATA.fcc, W=DATA.wins;
 
-// Per race: search text and sort keys.
+// Per race: search text and sort keys. Ad spending (the default sort) is
+// what candidates paid TV and radio stations plus a weight for the
+// political-file orders stations posted, which run weeks ahead of the
+// finance reports and are the only record of federal buys.
 for(const e of E) for(const r of e.races){
   r.q=fold(r.o+' '+(r.pa||'')+' '+r.c.map(c=>c.n).join(' '));
   r.money=r.c.reduce((a,c)=>a+(c.r||0)+(c.s||0),0);
@@ -211,10 +214,10 @@ for(const e of E) for(const r of e.races){
 }
 
 /* ---------- state, kept in the URL hash ---------- */
-const S={e:null, q:'', pa:'', m:'', t:'', sort:'money', r:'', n:30};
+const S={e:null, q:'', pa:'', m:'', t:'', sort:'air', r:'', n:30};
 function readHash(){
   const h=new URLSearchParams(location.hash.slice(1));
-  S.e=h.get('e')||S.e; S.q=h.get('q')||''; S.pa=h.get('pa')||''; S.m=h.get('m')||''; S.t=h.get('t')||''; S.sort=h.get('sort')||'money'; S.r=h.get('r')||'';
+  S.e=h.get('e')||S.e; S.q=h.get('q')||''; S.pa=h.get('pa')||''; S.m=h.get('m')||''; S.t=h.get('t')||''; S.sort=h.get('sort')||'air'; S.r=h.get('r')||'';
   if(!E.some(e=>e.d===S.e)) S.e=(E.find(e=>e.d>=DATA.today&&(e.posted||e.scaffold))||E.find(e=>e.posted)||E[0]||{}).d;
 }
 function writeHash(){
@@ -222,7 +225,7 @@ function writeHash(){
   const first=(E.find(e=>e.d>=DATA.today&&(e.posted||e.scaffold))||{}).d;
   if(S.e&&S.e!==first) h.set('e',S.e);
   for(const k of ['q','pa','m','t','r']) if(S[k]) h.set(k,S[k]);
-  if(S.sort!=='money') h.set('sort',S.sort);
+  if(S.sort!=='air') h.set('sort',S.sort);
   const s=h.toString(); history.replaceState(null,'',s?'#'+s:location.pathname+location.search);
 }
 
