@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-10-12T20:34:54Z",
+ "scraped": "2026-10-13T00:32:58Z",
  "years": [
   2026,
   2027
@@ -12600,6 +12600,3559 @@
     }
    ],
    "stale": false
+  },
+  {
+   "call": "KJLO",
+   "fcc_call": "KJLO-FM",
+   "facility_id": "48632",
+   "root_folder": "21540095-3d95-735e-2bf9-0ca6b395e375",
+   "profile": "fm-profile/kjlo-fm",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "c6ad5ac8-914b-bad7-f990-0fc6196d58bd",
+    "2015": "44af8572-964d-2d76-218a-236e6597e13d",
+    "2016": "f2e5532a-cc73-aaea-5d51-e0e24a2780ce",
+    "2017": "fcb7c7ce-4770-a045-28f8-cf5dc36fc520",
+    "2018": "5f83c6f9-0428-e569-ae51-7785a78c0a72",
+    "2019": "2ad199ca-4ba7-c913-fa82-e9f0d4361a2b",
+    "2020": "f3e7dfbf-9ae1-cb76-f1d7-4f5c691271ab",
+    "2021": "0d9cc19f-fc58-7002-29e9-a947b9cc3db4",
+    "2022": "f6868a42-d197-5bc5-dc93-56d2e1b5eb60",
+    "2023": "de98a004-d657-fbeb-4aee-9e49f7dd2bb9",
+    "2024": "1609cf4a-c238-2044-8670-33605fd945b5",
+    "2025": "100e4082-dd99-f3d7-ae6d-4b3d3642bcb9",
+    "2026": "0963aa66-dc0b-25e0-a489-7cebff9a0944"
+   },
+   "folders": {
+    "Political Files/2026": "0963aa66-dc0b-25e0-a489-7cebff9a0944",
+    "Political Files/2026/Federal": "1e74dc7e-a292-5f6b-a40c-1e615dfda4e8",
+    "Political Files/2026/Federal/US House": "7ac952f1-d839-67ca-686c-d9a7890752cf",
+    "Political Files/2026/Federal/US Senate": "6ca73075-261b-b6df-f117-13a81deb8b8a",
+    "Political Files/2026/Local": "c354d7f2-dda5-1757-a5af-5875b96ebfd0",
+    "Political Files/2026/Non-Candidate Issue Ads": "6fcbf95c-6726-e08b-0e64-a15de73ecf48",
+    "Political Files/2026/State": "e47316ee-9762-e384-6b71-492b49add55b"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Michael Echols KJLO 10-9-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T10:07:25-04:00",
+     "folder_id": "7ac952f1-d839-67ca-686c-d9a7890752cf",
+     "file_id": "b86e2fbe-4988-5d88-db27-d2e657992608",
+     "file_manager_id": "2054a7d0-bbd0-4b42-932a-53bc68c59048"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Chris Lewis KJLO",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T09:43:47-04:00",
+     "folder_id": "c354d7f2-dda5-1757-a5af-5875b96ebfd0",
+     "file_id": "6c3e7b0e-f53a-61c0-541e-5c4f273d9857",
+     "file_manager_id": "85278b92-1c62-462f-9403-fd5c0d4a83ef"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Mennon Campbell 10-8 KJLO",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T09:43:47-04:00",
+     "folder_id": "c354d7f2-dda5-1757-a5af-5875b96ebfd0",
+     "file_id": "8747875e-2cf1-bf5d-9886-41ed855bbb04",
+     "file_manager_id": "bcf98400-119a-4196-b3e0-656cdde24777"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "RaisetheBarKJLOrrders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:05:09-04:00",
+     "folder_id": "7ac952f1-d839-67ca-686c-d9a7890752cf",
+     "file_id": "99916b0d-6985-8783-3be9-be0bb4965ecf",
+     "file_manager_id": "2f065ca3-0f7a-47a1-80f5-13c68fa4ba83"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "RaisetheBarKJLO1strun",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:28:15-04:00",
+     "folder_id": "7ac952f1-d839-67ca-686c-d9a7890752cf",
+     "file_id": "99745690-285a-fae1-62e9-5ea791f6f1f0",
+     "file_manager_id": "0ab2a0f6-c44e-4ff7-9fa7-1d5d3aefca67"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "RaisetheBarKJLO2ndrun",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:28:15-04:00",
+     "folder_id": "7ac952f1-d839-67ca-686c-d9a7890752cf",
+     "file_id": "335235d7-155c-7fce-114b-d38e85855aae",
+     "file_manager_id": "2cb05249-9d35-4439-af79-6ef14cda863e"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "CosseyDistrictJudgeKJLO",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:21:19-04:00",
+     "folder_id": "c354d7f2-dda5-1757-a5af-5875b96ebfd0",
+     "file_id": "5575db1e-8fc7-d5b3-8073-57df460570ac",
+     "file_manager_id": "2040e926-d565-46c0-ad24-3a77e24575dd"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "JoelDykeWMMarshallKJLO",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:21:19-04:00",
+     "folder_id": "c354d7f2-dda5-1757-a5af-5875b96ebfd0",
+     "file_id": "4955cd69-261e-111e-8919-06280e548edb",
+     "file_manager_id": "f4671988-9a37-47ed-a1a0-48519aaffaea"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "RaiseBarKJLO",
+     "ext": "pdf",
+     "uploaded": "2026-09-09T15:55:15-04:00",
+     "folder_id": "e47316ee-9762-e384-6b71-492b49add55b",
+     "file_id": "d97fe575-70cc-8a51-b3ac-f6b608845a06",
+     "file_manager_id": "389b53ae-5617-433b-889d-f6100667c903"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jamesDavissenate",
+     "ext": "pdf",
+     "uploaded": "2026-05-12T10:27:13-04:00",
+     "folder_id": "6ca73075-261b-b6df-f117-13a81deb8b8a",
+     "file_id": "9b2e70a3-48ab-a84f-5c8b-e61f0c98d1b3",
+     "file_manager_id": "a4315ebf-8f2e-4321-a0d2-c9d66fe732e5"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "RaiseBarPACpt3",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T10:53:41-04:00",
+     "folder_id": "6fcbf95c-6726-e08b-0e64-a15de73ecf48",
+     "file_id": "085868cc-87f1-ae8e-f2bf-e173cfb9cde9",
+     "file_manager_id": "a750f6dc-5bb6-4bf4-9344-c8769d5c9ae0"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KRRQ",
+   "fcc_call": "KRRQ",
+   "facility_id": "36227",
+   "root_folder": "a5929b9a-b261-7510-5c54-4412c6fad212",
+   "profile": "fm-profile/krrq",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2018": "55e2c0d9-dc72-6da1-df56-0ef6f065014d",
+    "2019": "4316a936-f15d-eed3-2168-50708257d0d3",
+    "2020": "702e8955-5a0b-5bdd-e555-cf9e2979ca3c",
+    "2021": "3b847444-3cd0-521f-f326-d8f66c4e366f",
+    "2022": "0071b491-2b02-90b3-39bc-390a9035efea",
+    "2023": "1ea5282e-a5f3-3488-6b88-ba1d0064ae4a",
+    "2024": "16b35a86-5971-d3a5-e8e0-c829b2147224",
+    "2025": "b2994467-34b2-9060-61f1-c7677fcc1263",
+    "2026": "8f56a672-30a6-3dea-4622-0b929a1f67df"
+   },
+   "folders": {
+    "Political Files/2026": "8f56a672-30a6-3dea-4622-0b929a1f67df",
+    "Political Files/2026/Non-Candidate Issue Ads": "0971e992-ca97-9e09-959e-62fe4a011d51"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1595690B-Voice of the Experienced-invoice- KRRQ",
+     "ext": "pdf",
+     "uploaded": "2026-06-02T15:45:39-04:00",
+     "folder_id": "0971e992-ca97-9e09-959e-62fe4a011d51",
+     "file_id": "b43d2852-0f77-5d4b-3b08-80c049575e47",
+     "file_manager_id": "d68c91f6-82cc-49f4-b5f2-078971fc3657"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1594951B-Louisiana Coalition for Fair Schools-KRRQ (1)",
+     "ext": "pdf",
+     "uploaded": "2026-05-19T17:36:51-04:00",
+     "folder_id": "0971e992-ca97-9e09-959e-62fe4a011d51",
+     "file_id": "d326aa4b-b3de-5ff6-6a3e-1dd4c6a3d4e5",
+     "file_manager_id": "e5f2e17f-3a90-4ec2-9763-2e5490e1717a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1594951B-Louisiana Coalition KRRQ Invoice",
+     "ext": "pdf",
+     "uploaded": "2026-05-19T17:36:51-04:00",
+     "folder_id": "0971e992-ca97-9e09-959e-62fe4a011d51",
+     "file_id": "a780dfd5-cbf4-a502-6ff2-81f74ca98669",
+     "file_manager_id": "e9b6096d-a2ba-489c-b22e-e13e0fe485a2"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1595690B-Voice of the Experienced-KRRQ",
+     "ext": "pdf",
+     "uploaded": "2026-05-15T13:51:16-04:00",
+     "folder_id": "0971e992-ca97-9e09-959e-62fe4a011d51",
+     "file_id": "ca42bb4b-2f0a-262f-945e-7f96db1c7abc",
+     "file_manager_id": "5861873b-8055-4e29-9388-41aaa9ef01f9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1594951B-Louisiana Coalition for Fair Schools-KRRQ",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T12:25:19-04:00",
+     "folder_id": "0971e992-ca97-9e09-959e-62fe4a011d51",
+     "file_id": "71fa4fa4-5263-7d29-b063-e34d413671d4",
+     "file_manager_id": "d6e4ce82-7f22-4523-9c3b-5747b926d732"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KVKI",
+   "fcc_call": "KVKI-FM",
+   "facility_id": "19560",
+   "root_folder": "d784ddba-85b6-42f7-7822-8e73af021a9f",
+   "profile": "fm-profile/kvki-fm",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "c8570be8-d34b-ba64-2671-bcbd458b723d",
+    "2015": "57043981-bd25-68f5-68fd-b4c6ce435acb",
+    "2016": "2b0d0af8-b47b-6cc3-c69b-56e33175e800",
+    "2017": "c6d67c2e-f1ea-c1b2-86fa-efef2df5f469",
+    "2018": "cb9edbab-8aa1-b42d-a5e7-d9c867d0be1d",
+    "2019": "8f93a5ad-9204-45e1-65c2-9a4f6c2296dc",
+    "2020": "9b1e82aa-21ee-1ccb-5e2c-e83369ba32c3",
+    "2021": "4f22a951-d052-d11b-a591-91d233a133ae",
+    "2022": "d4b28105-e960-3c53-e83e-ce385c616d6b",
+    "2023": "7307b5be-0642-6f6b-0719-9337f050f7c8",
+    "2024": "70b42569-2aba-5201-0bc9-67417b0bdc28",
+    "2025": "9701435a-5ad6-5ba3-fee2-641dc258399a",
+    "2026": "237e3052-75d2-fc19-030f-274c85595aec"
+   },
+   "folders": {
+    "Political Files/2026": "237e3052-75d2-fc19-030f-274c85595aec",
+    "Political Files/2026/Federal": "fdd07db2-073a-8d57-8f38-cba255e96921",
+    "Political Files/2026/Federal/US House": "80a454d6-fbc2-3ae1-8e6d-e4746756bf36",
+    "Political Files/2026/Federal/US House/Mike Johnson for Louisiana": "3f76e711-21bc-9ecd-70b7-6d97809200f9",
+    "Political Files/2026/Local": "fe34b3f6-a5d9-8ac5-7ba0-1a58e9ff2348",
+    "Political Files/2026/Local/Alan Seabaugh for District Attorney": "e3a41344-c8f9-21d4-1b6c-24e16a1ab6e1",
+    "Political Files/2026/Local/ArceneauxForShreveport": "135b5bc0-d84e-adf9-1235-f081b86da044",
+    "Political Files/2026/Local/James Stewart for Caddo DA": "5c8e4bc7-8164-ead2-fff9-10d79e27426e",
+    "Political Files/2026/Non-Candidate Issue Ads": "601abc8c-c1d4-d5ea-4b58-f0baec0fedc3",
+    "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars": "f4488c27-834b-658b-f653-c41c00029fb0",
+    "Political Files/2026/Non-Candidate Issue Ads/NABMediaOwnership": "c61487f1-0216-5807-c5b8-deb27ac29165"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local/Alan Seabaugh for District Attorney",
+     "name": "AlanSeabaughForDA.NAB",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T18:08:54-04:00",
+     "folder_id": "e3a41344-c8f9-21d4-1b6c-24e16a1ab6e1",
+     "file_id": "c73ccb64-c366-45c4-129a-41dd1b258a60",
+     "file_manager_id": "78bbcc6c-fd0c-42ea-8701-e45882413bc6"
+    },
+    {
+     "path": "Political Files/2026/Local/Alan Seabaugh for District Attorney",
+     "name": "AlanSeabaughForDA.OrderEmail",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T18:08:54-04:00",
+     "folder_id": "e3a41344-c8f9-21d4-1b6c-24e16a1ab6e1",
+     "file_id": "365ec638-a8a6-3ced-f5b6-c8a25fdc4061",
+     "file_manager_id": "6376c469-102c-4d0c-836b-ee1de8ce59ef"
+    },
+    {
+     "path": "Political Files/2026/Local/Alan Seabaugh for District Attorney",
+     "name": "AlanSeagbaughForDA.Confirmations",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T18:08:54-04:00",
+     "folder_id": "e3a41344-c8f9-21d4-1b6c-24e16a1ab6e1",
+     "file_id": "b4ae9fc1-ee1f-9363-70e1-65f56c26fa69",
+     "file_manager_id": "0c7a985e-3e57-464c-8a2f-96493f7e9ceb"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Johnson for Louisiana",
+     "name": "Mike Johnson for Louisiana NAB - Open Primary",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T14:13:34-04:00",
+     "folder_id": "3f76e711-21bc-9ecd-70b7-6d97809200f9",
+     "file_id": "c2f150d8-5af1-7020-0872-365df8522836",
+     "file_manager_id": "f81357e9-5079-4834-862b-a1373a1921e0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Johnson for Louisiana",
+     "name": "14640988",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T14:13:33-04:00",
+     "folder_id": "3f76e711-21bc-9ecd-70b7-6d97809200f9",
+     "file_id": "d3d5d2f4-d5fc-f648-af6d-cfddedfe13a1",
+     "file_manager_id": "862b6b65-92e9-4a23-885f-3622a11d1439"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Johnson for Louisiana",
+     "name": "6940404--1",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T14:13:33-04:00",
+     "folder_id": "3f76e711-21bc-9ecd-70b7-6d97809200f9",
+     "file_id": "1a032f74-80ea-b27d-838d-f8c64fbe2b1d",
+     "file_manager_id": "06f34f65-23d5-4ed2-9799-9e9fbf18016f"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "FW_ FW_ Arceneaux For Mayor_Williams Creative Agency---REVISION.Oct5Thru18",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T12:20:36-04:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "037b2075-62b2-626c-1fc3-2b0e3f1f7826",
+     "file_manager_id": "433ceb83-5ba1-4459-b636-c936cda3a7b2"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "2026-09-02 Williams Creative Agency NAB",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T10:21:05-04:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "6996a88e-c5c8-a9d6-8ee5-14e7c039540c",
+     "file_manager_id": "681c1846-b342-4c87-9a35-46ee8f551306"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "Arceneaux.Approval",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T10:21:05-04:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "57d85386-064d-b06d-5413-d49cab1c2bfa",
+     "file_manager_id": "175251db-4ebc-4d70-abfe-68b9bcc2685d"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "ArceneauxForMayor.SeptInvoice",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T10:21:05-04:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "fe1523df-7ba0-3d95-9f91-cb9f2694b771",
+     "file_manager_id": "8bcb0e9a-be79-40bb-8bae-2e104779d41e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "PB-AM Radio FINAL",
+     "ext": "pdf",
+     "uploaded": "2026-09-26T12:07:28-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "7e46c5e5-abde-3e40-4655-a8dd632a0d47",
+     "file_manager_id": "c08ba1cc-1f68-4938-b375-83954b5ce4e0"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "6924053--1",
+     "ext": "pdf",
+     "uploaded": "2026-09-26T12:07:27-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "df0506ab-4873-2677-da47-802914cd4ccd",
+     "file_manager_id": "f5e685d5-8964-48ad-b970-37ed7f3c5053"
+    },
+    {
+     "path": "Political Files/2026/Local/James Stewart for Caddo DA",
+     "name": "JamesStewartForCaddoDA.09112026",
+     "ext": "pdf",
+     "uploaded": "2026-09-11T18:24:28-04:00",
+     "folder_id": "5c8e4bc7-8164-ead2-fff9-10d79e27426e",
+     "file_id": "06f0b2ab-76ba-3f64-ed30-a7d54da2c6e9",
+     "file_manager_id": "e68e377a-3dcc-40d9-bd72-aec685f27955"
+    },
+    {
+     "path": "Political Files/2026/Local/James Stewart for Caddo DA",
+     "name": "JamesStewartForCaddoDA.Contract.09112026",
+     "ext": "pdf",
+     "uploaded": "2026-09-11T18:24:28-04:00",
+     "folder_id": "5c8e4bc7-8164-ead2-fff9-10d79e27426e",
+     "file_id": "dc9f2f89-ab40-a818-65b4-5c07a3f8010a",
+     "file_manager_id": "6798f009-641f-4c95-9215-3d84abecaa8b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/NABMediaOwnership",
+     "name": "6874845--1 KVKI FM",
+     "ext": "pdf",
+     "uploaded": "2026-09-09T18:53:28-04:00",
+     "folder_id": "c61487f1-0216-5807-c5b8-deb27ac29165",
+     "file_id": "8c5f16e7-75f9-511d-4172-14b4e31be3b8",
+     "file_manager_id": "78e43875-43f9-4502-ab67-ce298b50c61f"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/NABMediaOwnership",
+     "name": "NAB-PB-Media Ownership",
+     "ext": "pdf",
+     "uploaded": "2026-09-09T18:53:28-04:00",
+     "folder_id": "c61487f1-0216-5807-c5b8-deb27ac29165",
+     "file_id": "02062073-1139-248a-5c30-6e8963a46510",
+     "file_manager_id": "2cfd25f8-ffaf-4688-bdf8-4d37cf8eefb6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "NABOrders.EnterpriseWide.06012026.EmailForIO",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T12:20:37-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "ba4b0fd2-6bea-f908-4a57-e0fdc18c4da8",
+     "file_manager_id": "c7ccd1b4-43fd-4618-8dea-ec86b5bce9da"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "PB-19 AM Radio in Cars UPDATED",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T12:20:37-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "0555bd8b-32cb-a02b-8b3b-c9ac6e370464",
+     "file_manager_id": "27b0f028-7af8-4992-8bf6-65be173e1c9d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "6654838",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T12:20:36-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "cd1c90dd-ffb9-fb8e-aa03-66d1995a5d88",
+     "file_manager_id": "72416bb6-8f7b-49ad-9395-3d9933f1e36f"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "AMInEveryVehicleAct.Confirmation",
+     "ext": "pdf",
+     "uploaded": "2026-05-21T13:51:39-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "d4165e48-1787-0776-d201-d6488cee79b8",
+     "file_manager_id": "343b5eac-5c55-4996-8fb2-5fdd08666a63"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "AMRadioForEveryCar.NAB.LABemailWOrderDetailsAndScripts",
+     "ext": "pdf",
+     "uploaded": "2026-05-21T13:51:39-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "e9f01ea9-ccb1-3887-4720-3b19958d0f6a",
+     "file_manager_id": "6f88b218-6534-4bcb-b7d8-02609a9bfc33"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "PB-19 AM Radio in Cars UPDATED",
+     "ext": "pdf",
+     "uploaded": "2026-05-21T13:51:39-04:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "4abc48c8-dcce-51ec-c429-e0fa489ad903",
+     "file_manager_id": "f2a3d213-1fb4-4904-a8c5-35aa30436ea1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "6440872 KVKI",
+     "ext": "pdf",
+     "uploaded": "2026-02-17T11:11:33-05:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "9311c7c5-4f50-c25d-f150-d9cfdfdb918f",
+     "file_manager_id": "f1e10382-1b3e-4f2b-8101-61ef7dbf922b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/AMRadioInCars",
+     "name": "PB-19 AM Radio in Cars UPDATED",
+     "ext": "pdf",
+     "uploaded": "2026-02-17T11:11:33-05:00",
+     "folder_id": "f4488c27-834b-658b-f653-c41c00029fb0",
+     "file_id": "c50be6c8-e21b-40f0-ef98-4e310d238651",
+     "file_manager_id": "d6d54f1b-1237-485f-93dd-c0cde3b11845"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KLIL",
+   "fcc_call": "KLIL",
+   "facility_id": "8164",
+   "root_folder": "8e664d80-3785-0cd4-8b68-b98e1135be50",
+   "profile": "fm-profile/klil",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "f48f82ef-91b9-9e87-9581-48a7b1c012df",
+    "2015": "6e813e8c-5db2-5844-b484-7ea242f9b801",
+    "2016": "182ae1b2-92f9-5d46-8ccd-df121945713f",
+    "2017": "146ceb75-35fb-1c71-62c1-464e8820b0b9",
+    "2018": "fe636f77-9109-193b-d767-80b9df88f60d",
+    "2019": "934a509e-ba97-ca11-1315-f6877438f728",
+    "2020": "4dd82c67-efb8-e985-9361-4b9a3597b0c8",
+    "2021": "8bb6f644-1ef2-7829-5020-795d58fba3ea",
+    "2022": "a5f4dcf6-143d-b535-f984-8efbea666c21",
+    "2023": "ce1ee58b-2dda-ae8d-7e27-fbdbf7f116b2",
+    "2024": "d7b4a69b-1bf8-d41c-7b71-e393d714c7a0",
+    "2025": "d66ab631-9c9d-070a-1bf8-a234b5b67ef0",
+    "2026": "679cf3e0-ab22-2850-b5bf-76c469507a8f"
+   },
+   "folders": {
+    "Political Files/2026": "679cf3e0-ab22-2850-b5bf-76c469507a8f",
+    "Political Files/2026/Local": "4dd248f6-1f7b-b377-8de7-4e35cf1176c6",
+    "Political Files/2026/Local/AlissaTassin for Judge": "4d0f3e05-3cc7-c3b7-83b0-edb426bbcfc6",
+    "Political Files/2026/Local/Candidates April 2026": "90c176f2-301b-1b11-8b7a-1192ea8105f2",
+    "Political Files/2026/Local/Candidates April 2026/Mac Villemaret": "54d5f676-0f33-e537-1e84-f17a2495ddd6",
+    "Political Files/2026/Local/Chad Guillot for District Attorney KLIL": "e4f7cc29-1894-764a-666b-65e496d4387c",
+    "Political Files/2026/Local/Elizabeth  Williams for Judge": "6c02885b-8d31-4a92-2697-ab95af1726e0",
+    "Political Files/2026/Local/Grant Rabalais Councilman Moreauville": "b3eae1d1-a6f1-92c8-d400-d1c8da5c5653",
+    "Political Files/2026/Local/Judgeship and political Interity PAC": "a41089a4-62af-d783-0502-cad76772fa8f",
+    "Political Files/2026/Local/Judgeship election Barry Laiche 2026": "1b6a099c-45bd-7389-3740-4cf307412aec",
+    "Political Files/2026/Local/Judgeship election Barry Laiche 2026/Wesley Elmer for Judge 2026": "bbc8af4c-08e9-20c1-51b0-c8472dca16a5",
+    "Political Files/2026/Local/Kirk Lacour for Judge": "958899fe-f690-d597-fc13-81b4696bdcf9",
+    "Political Files/2026/Local/Police  Jury Propersition": "8a01338b-61a4-c80f-8fdd-d426e91c66bd",
+    "Political Files/2026/Local/T LEMOINE MAYOR OF MOREAUVILLE": "f683a101-e7b4-a7c2-265e-241c3d7f1473",
+    "Political Files/2026/Local/Wesley Elmer for judge": "e5f492ba-7f2a-0bba-7355-33409cbb7a6e"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local/T LEMOINE MAYOR OF MOREAUVILLE",
+     "name": "T LEMOINE ORD KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-06T13:59:20-04:00",
+     "folder_id": "f683a101-e7b4-a7c2-265e-241c3d7f1473",
+     "file_id": "a4ac7b11-db2c-13a8-408e-3aabc6953849",
+     "file_manager_id": "7577404a-88d3-4032-af80-8be603c8d7f1"
+    },
+    {
+     "path": "Political Files/2026/Local/T LEMOINE MAYOR OF MOREAUVILLE",
+     "name": "T LEMOINE AG KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-06T13:58:01-04:00",
+     "folder_id": "f683a101-e7b4-a7c2-265e-241c3d7f1473",
+     "file_id": "fd33df29-5186-454c-5d67-2365b488ff73",
+     "file_manager_id": "03163252-6de0-45aa-a891-a30e8aca5018"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "B LAICHE ORD KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-06T10:49:11-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "cb5d3dfe-2fb4-7347-bad1-094722ad60d4",
+     "file_manager_id": "11131c8a-3a9c-4201-8221-eece028d347e"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "B LAICHE ECHO KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-03T09:40:48-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "1277e0d2-175e-03d6-080e-b1481aeb59b7",
+     "file_manager_id": "b10d3e9e-be04-4644-b1b6-de3b3424f240"
+    },
+    {
+     "path": "Political Files/2026/Local/AlissaTassin for Judge",
+     "name": "ALISSA TASSIN KLIL A",
+     "ext": "pdf",
+     "uploaded": "2026-10-03T09:38:04-04:00",
+     "folder_id": "4d0f3e05-3cc7-c3b7-83b0-edb426bbcfc6",
+     "file_id": "a086da76-5baa-c3eb-2eed-54b6e65cb2fe",
+     "file_manager_id": "984c1e4d-b2ce-4f82-9aac-84ffd523685f"
+    },
+    {
+     "path": "Political Files/2026/Local/AlissaTassin for Judge",
+     "name": "ALISSA TASSIN KLIL 1",
+     "ext": "pdf",
+     "uploaded": "2026-10-03T09:37:41-04:00",
+     "folder_id": "4d0f3e05-3cc7-c3b7-83b0-edb426bbcfc6",
+     "file_id": "c245ecb2-ac83-537a-71e6-8f83df14d937",
+     "file_manager_id": "bbf17333-dff5-4273-baf4-d2debbe18bf4"
+    },
+    {
+     "path": "Political Files/2026/Local/Grant Rabalais Councilman Moreauville",
+     "name": "G RABALAIS AGREE",
+     "ext": "pdf",
+     "uploaded": "2026-09-28T09:26:39-04:00",
+     "folder_id": "b3eae1d1-a6f1-92c8-d400-d1c8da5c5653",
+     "file_id": "60b1fb71-d4a1-c4be-0e06-40ba9ae02a2e",
+     "file_manager_id": "35904daa-d4c6-443d-a0a3-772f7df01b6a"
+    },
+    {
+     "path": "Political Files/2026/Local/Grant Rabalais Councilman Moreauville",
+     "name": "G RABALAIS order",
+     "ext": "pdf",
+     "uploaded": "2026-09-28T09:26:38-04:00",
+     "folder_id": "b3eae1d1-a6f1-92c8-d400-d1c8da5c5653",
+     "file_id": "a240f72c-c4e4-eb46-e7dc-3af31fb62802",
+     "file_manager_id": "f4c21887-5e80-473f-8a40-222e48d060f4"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "B LAICHE BVILLE FAIR KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-09-28T09:20:03-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "905809d0-ad30-c6ec-b4fe-ef9b392f72c3",
+     "file_manager_id": "339f55fa-d4d0-4a5c-98b9-051d7b90db39"
+    },
+    {
+     "path": "Political Files/2026/Local/Wesley Elmer for judge",
+     "name": "WESLEY ELMER KLIL 2",
+     "ext": "pdf",
+     "uploaded": "2026-09-28T08:57:20-04:00",
+     "folder_id": "e5f492ba-7f2a-0bba-7355-33409cbb7a6e",
+     "file_id": "a93f3577-09e9-6205-132e-e65c3de77092",
+     "file_manager_id": "6df4be54-2043-438f-8733-95e5a2265d4d"
+    },
+    {
+     "path": "Political Files/2026/Local/Wesley Elmer for judge",
+     "name": "WESLEY ELMER for Judge Agreement KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-09-17T09:36:17-04:00",
+     "folder_id": "e5f492ba-7f2a-0bba-7355-33409cbb7a6e",
+     "file_id": "ed533c3c-5f70-47a9-a641-e32434bf72cb",
+     "file_manager_id": "64390ea0-6bec-49ab-b18c-04d327a9ce95"
+    },
+    {
+     "path": "Political Files/2026/Local/Wesley Elmer for judge",
+     "name": "WESLEY ELMER KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-09-17T09:27:47-04:00",
+     "folder_id": "e5f492ba-7f2a-0bba-7355-33409cbb7a6e",
+     "file_id": "11648714-25a3-b06a-0f72-58591a75d0f5",
+     "file_manager_id": "631e456c-9216-49e6-a57d-7ef0b0137790"
+    },
+    {
+     "path": "Political Files/2026/Local/Kirk Lacour for Judge",
+     "name": "KIRK LACOUR KLIL  PD for Judge Package",
+     "ext": "pdf",
+     "uploaded": "2026-09-08T15:58:52-04:00",
+     "folder_id": "958899fe-f690-d597-fc13-81b4696bdcf9",
+     "file_id": "f75b2891-33b1-ab9e-5609-1c2b223248ca",
+     "file_manager_id": "6515a520-5ad6-4d85-964a-43c6b43d6d88"
+    },
+    {
+     "path": "Political Files/2026/Local/Kirk Lacour for Judge",
+     "name": "KIRK LACOUR for Judge SAINTS Sponsor",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T13:19:42-04:00",
+     "folder_id": "958899fe-f690-d597-fc13-81b4696bdcf9",
+     "file_id": "56016aed-9d54-bb87-4808-5410265db860",
+     "file_manager_id": "a1951335-8269-42d6-9639-9cd9adba5c24"
+    },
+    {
+     "path": "Political Files/2026/Local/Kirk Lacour for Judge",
+     "name": "KIRK LACOUR KLIL for Judge Agreement",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T13:18:48-04:00",
+     "folder_id": "958899fe-f690-d597-fc13-81b4696bdcf9",
+     "file_id": "029b9eba-e409-fcf8-d3f0-738294f3a2f1",
+     "file_manager_id": "bc65d718-7dc2-46f0-8570-02875f0ed2b2"
+    },
+    {
+     "path": "Political Files/2026/Local/Chad Guillot for District Attorney KLIL",
+     "name": "CHAD GUILLOT for District Attorney KLIL Pol Agreemen",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T13:09:43-04:00",
+     "folder_id": "e4f7cc29-1894-764a-666b-65e496d4387c",
+     "file_id": "97f59906-a9a1-6080-161b-2ae44ca2bef9",
+     "file_manager_id": "d85789fe-e5c3-4821-b840-9dacc1f7f0a5"
+    },
+    {
+     "path": "Political Files/2026/Local/Chad Guillot for District Attorney KLIL",
+     "name": "CHAD GUILLO for District Attorney Saints  sponsor",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T13:09:41-04:00",
+     "folder_id": "e4f7cc29-1894-764a-666b-65e496d4387c",
+     "file_id": "a6e49f38-56d3-a536-97e3-213736af2744",
+     "file_manager_id": "edfdd086-1ad1-4a13-9bf5-066015f02cb7"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "BARRY LAICHE SAINTS",
+     "ext": "pdf",
+     "uploaded": "2026-08-12T10:05:42-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "1d7b460a-8fbb-9b1c-9d42-46216f6ada59",
+     "file_manager_id": "56570ed2-2976-48e7-bbaf-d5603cc4fdc7"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026/Wesley Elmer for Judge 2026",
+     "name": "WESLEY ELMER AGREE",
+     "ext": "pdf",
+     "uploaded": "2026-08-12T10:04:33-04:00",
+     "folder_id": "bbc8af4c-08e9-20c1-51b0-c8472dca16a5",
+     "file_id": "b62bf429-c0fe-7733-d973-7088c71f48a9",
+     "file_manager_id": "417c99e3-2ab0-49ca-b33d-391f4cd6f85d"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026/Wesley Elmer for Judge 2026",
+     "name": "WESLEY ELMER SAINTS SPONSOR",
+     "ext": "pdf",
+     "uploaded": "2026-08-12T10:04:32-04:00",
+     "folder_id": "bbc8af4c-08e9-20c1-51b0-c8472dca16a5",
+     "file_id": "36992495-d6f5-18c4-25cb-ea7b688a51c8",
+     "file_manager_id": "9c74aa36-ef05-42bf-85fc-f76931cbcc2e"
+    },
+    {
+     "path": "Political Files/2026/Local/Elizabeth  Williams for Judge",
+     "name": "ELIZABETH WILLIAMS KLIL AGREEMENT",
+     "ext": "pdf",
+     "uploaded": "2026-08-01T13:21:54-04:00",
+     "folder_id": "6c02885b-8d31-4a92-2697-ab95af1726e0",
+     "file_id": "e33a8860-71bf-00a3-5663-0ca55654f6c8",
+     "file_manager_id": "aa98ef62-bb4c-41fa-869f-752ae7a422c0"
+    },
+    {
+     "path": "Political Files/2026/Local/Elizabeth  Williams for Judge",
+     "name": "ELIZABETH WILLIAMS KLIL ORDERS",
+     "ext": "pdf",
+     "uploaded": "2026-08-01T13:21:54-04:00",
+     "folder_id": "6c02885b-8d31-4a92-2697-ab95af1726e0",
+     "file_id": "2c175322-e841-b1e7-25b8-cba80a6d8e11",
+     "file_manager_id": "1bc685a4-ef54-463b-87e7-2500c57ffd95"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "BARRY LAICHE RMT 725 KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-07-30T09:52:01-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "b5e28d39-0c50-cde6-988b-fe897521bc0e",
+     "file_manager_id": "09b64a20-dd8a-4634-9fa5-c1152a290155"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "BARRY LAICHE 4th jul",
+     "ext": "pdf",
+     "uploaded": "2026-07-10T10:15:47-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "8ea87b35-48fd-a6ea-dd95-430c37e420f9",
+     "file_manager_id": "833ecd11-4e3d-467e-beda-51986f412234"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "BARRY LAICHE KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-07-01T11:12:27-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "eee7393e-755d-6544-c353-7a4834401b42",
+     "file_manager_id": "652d72c7-0bbb-42ac-91ae-a3de43b60720"
+    },
+    {
+     "path": "Political Files/2026/Local/Police  Jury Propersition",
+     "name": "HRC KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T10:55:16-04:00",
+     "folder_id": "8a01338b-61a4-c80f-8fdd-d426e91c66bd",
+     "file_id": "8a09746c-3f3a-8b43-71ec-8ef89c15afff",
+     "file_manager_id": "e64b9a2a-196c-4208-a601-0b45bf8046d1"
+    },
+    {
+     "path": "Political Files/2026/Local/Police  Jury Propersition",
+     "name": "HRC KZLG",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T10:55:16-04:00",
+     "folder_id": "8a01338b-61a4-c80f-8fdd-d426e91c66bd",
+     "file_id": "0e281b31-23bb-516f-9fda-e705b402e0d1",
+     "file_manager_id": "8ae0081d-3530-4c72-ae72-3bcdc8ec5737"
+    },
+    {
+     "path": "Political Files/2026/Local/Candidates April 2026/Mac Villemaret",
+     "name": "Mac Villemarette",
+     "ext": "pdf",
+     "uploaded": "2026-05-05T17:08:11-04:00",
+     "folder_id": "54d5f676-0f33-e537-1e84-f17a2495ddd6",
+     "file_id": "60ad14c8-1927-a672-540f-3f5718a5c524",
+     "file_manager_id": "6d13da6e-666f-4a6a-b2c7-163d19724722"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship and political Interity PAC",
+     "name": "JUDGE PAC KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-04-30T11:09:05-04:00",
+     "folder_id": "a41089a4-62af-d783-0502-cad76772fa8f",
+     "file_id": "f32c63e7-3422-7b30-da99-21de3870e912",
+     "file_manager_id": "83f99bfa-47ca-4e94-8500-d4aa14ed7ab7"
+    },
+    {
+     "path": "Political Files/2026/Local/Candidates April 2026",
+     "name": "A SAUCIER POL,",
+     "ext": "pdf",
+     "uploaded": "2026-04-28T01:05:44-04:00",
+     "folder_id": "90c176f2-301b-1b11-8b7a-1192ea8105f2",
+     "file_id": "cab8390d-f4d7-a463-2511-d5ade1c83595",
+     "file_manager_id": "83c91ddc-30e7-42ce-a9cc-940277f1e190"
+    },
+    {
+     "path": "Political Files/2026/Local/Candidates April 2026",
+     "name": "MIKE GREMILLION POLITICAL",
+     "ext": "pdf",
+     "uploaded": "2026-04-28T00:53:29-04:00",
+     "folder_id": "90c176f2-301b-1b11-8b7a-1192ea8105f2",
+     "file_id": "b071c2dc-e4ad-d441-da04-73e9d72c8f90",
+     "file_manager_id": "83b4007a-7032-47a1-bd09-b0bdc311be65"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "WTIX",
+   "fcc_call": "WTIX-FM",
+   "facility_id": "8382",
+   "root_folder": "4ed270ce-7a07-679b-ab20-4e007c902633",
+   "profile": "fm-profile/wtix-fm",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2018": "d5861ddd-577e-942c-a664-a4e6ed738d22",
+    "2019": "0ae3859b-86cd-a01a-759f-234a90fee559",
+    "2020": "af2c0aee-7f50-2a0c-48d2-2795cd616c87",
+    "2021": "e6e70fbf-77ab-1447-317d-2a2c970e1cde",
+    "2022": "a7890841-cca2-089a-6b8a-2c041150d027",
+    "2023": "8da9acb5-f796-ed0e-1d27-0b99fe0bfe02",
+    "2024": "4d2b5b22-88c3-ea9a-8844-62c54ae96304",
+    "2025": "59659167-91e4-701b-fac3-bb332573692c",
+    "2026": "48c6da7c-07f0-5b95-8a21-3c0c58952cbf"
+   },
+   "folders": {
+    "Political Files/2026": "48c6da7c-07f0-5b95-8a21-3c0c58952cbf",
+    "Political Files/2026/Federal": "66a40be6-fd36-6043-26a3-8880e6ebc14a",
+    "Political Files/2026/Federal/US Senate": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+    "Political Files/2026/State": "53e78726-75e7-35ea-9e83-8ef74da94b77"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 22 - Accountability Project - run times",
+     "ext": "pdf",
+     "uploaded": "2026-06-30T19:45:44-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "3fc963b9-1bb6-4cc3-4afa-a987b835a89d",
+     "file_manager_id": "681dd35e-4943-49cd-aee9-55e55628be69"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 22 - Fleming - run times",
+     "ext": "pdf",
+     "uploaded": "2026-06-30T19:45:44-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "bc0bfe0a-7d7e-11c9-af4b-c260e352feae",
+     "file_manager_id": "fefc9e40-e0e2-4b70-a012-857fb422d7c7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 22 - Accountability Project - station order",
+     "ext": "pdf",
+     "uploaded": "2026-06-18T12:53:15-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "2dd1d042-f11c-a57c-7e48-d0ed1c1e1b13",
+     "file_manager_id": "8693fa06-ea7b-4ba4-9487-c164896d30b1"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 22 - Fleming - station order",
+     "ext": "pdf",
+     "uploaded": "2026-06-18T12:53:15-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "982dff4f-5d4c-db83-880b-c17dcb54db3f",
+     "file_manager_id": "177fab2e-5318-4c17-8dd2-fb66f979a69a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 15 - Fleming NAB Signed",
+     "ext": "pdf",
+     "uploaded": "2026-06-15T18:48:15-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "fef49460-31b2-a055-081e-5a85169edb5a",
+     "file_manager_id": "e0d1f640-5ef9-4fc4-b0dc-77c9e0646071"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 15 - Fleming - station order",
+     "ext": "pdf",
+     "uploaded": "2026-06-15T18:48:07-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "51728c0e-8f12-b404-ea10-6f0b70833c88",
+     "file_manager_id": "a1ca3ad9-9db9-4232-8af1-179d50d2e680"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 15 - Accountability Project Inc. NAB 2.27.26",
+     "ext": "pdf",
+     "uploaded": "2026-06-15T18:48:00-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "3a698bfe-357a-0c69-bea9-b9e88439870c",
+     "file_manager_id": "5c3299cb-986f-45f0-be02-887b409a5f34"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 15 - Accountability Project - station order",
+     "ext": "pdf",
+     "uploaded": "2026-06-15T18:48:00-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "80304e2c-9080-7dd1-5f43-5fa5a43cbb0f",
+     "file_manager_id": "6921b0d4-1814-4ab3-a9bf-05d252307eaf"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 29 - Fleming - run times",
+     "ext": "pdf",
+     "uploaded": "2026-06-09T13:08:32-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "2341681a-f9cd-9ef7-d972-3f7ff9019738",
+     "file_manager_id": "669ce10d-3cf1-4e3f-a5d1-76010df9b22f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 01 - Accountability Project - run times",
+     "ext": "pdf",
+     "uploaded": "2026-06-09T13:08:32-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "78df35f5-38e9-5239-b793-04b05c0c08ae",
+     "file_manager_id": "d5e7c0e1-2334-485b-9246-cf28b8b2f175"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 01 - Accountability Project - station order",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T12:36:28-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "7ec555e9-e9f2-8c44-e08b-76995878151e",
+     "file_manager_id": "ea3939bd-7c69-46f9-8f1d-579a3d8f0c29"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 06 01 - Accountability Project Inc. NAB 2.27.26",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T12:36:20-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "18f4d692-8f13-4e47-5eb8-fd7a8a8face0",
+     "file_manager_id": "f99f4b05-b5d2-4f8d-b281-482796015894"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 29 - Fleming - NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-30T17:52:48-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "1119f6f9-b976-55ee-9d2f-e6050414d3da",
+     "file_manager_id": "e2bd634a-49c1-4a93-a713-47e169350e54"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 29 - Fleming - station order",
+     "ext": "pdf",
+     "uploaded": "2026-05-30T17:52:48-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "30128868-664a-f184-5465-3452b8dd9f09",
+     "file_manager_id": "bc7c82fb-07bb-47d1-9c07-645a769b6aa1"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 11 - Accountability Project - Run Times",
+     "ext": "pdf",
+     "uploaded": "2026-05-22T11:29:11-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "65fa5730-17c0-3b21-3c8e-f577d9579690",
+     "file_manager_id": "f77e5ed3-7db1-4105-94cd-033203e8317b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 11 - Fleming - Run Times",
+     "ext": "pdf",
+     "uploaded": "2026-05-22T11:29:11-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "0d93ae21-0048-b561-9c23-49b3e4388181",
+     "file_manager_id": "6d9fef37-8d05-44d1-8ead-a7b6276e5478"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 11 - Accountability Project Inc - NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T15:41:03-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "38590e06-8bd3-7143-be14-6095fd7adab8",
+     "file_manager_id": "abab8895-957b-45fe-8605-b3206f9b0374"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 11 - Accountability Project - Station Order",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T15:41:03-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "39b7b992-89f7-944e-9f2e-4439114eb455",
+     "file_manager_id": "94a1a521-ce69-415d-90e5-3fb025fecc9d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 11 - Fleming - NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T11:47:11-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "b7968639-aaeb-61b3-d9bb-fb68f0c14cad",
+     "file_manager_id": "54d08253-b5d3-476c-a5d9-7606075b33e0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026 05 11 - Fleming - Station Order",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T11:47:04-04:00",
+     "folder_id": "a4b36f81-509c-e2fa-f583-8f148d3b2a6f",
+     "file_id": "11fe92e7-e66d-d57d-8377-4f68a5793b02",
+     "file_manager_id": "00060e06-0a4a-4b53-ae6a-0a6160870da3"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 03 02 - LA Freedom - Times Week of 2026-02-23",
+     "ext": "pdf",
+     "uploaded": "2026-03-03T14:59:09-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "024d76a4-8bfd-82b9-4776-75208aba277e",
+     "file_manager_id": "1447d18b-a985-49ca-8ac0-3d46974393a9"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 23 - LA Freedom - Times Week of 2026-02-16",
+     "ext": "pdf",
+     "uploaded": "2026-02-26T11:44:08-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "6ad24a9b-af06-2c7f-9bd2-ceeea8da918c",
+     "file_manager_id": "4e27c993-bc4c-4e3f-b7d8-1bb1d7b30195"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 16 - LA Freedom - Times Week of 2026-02-09",
+     "ext": "pdf",
+     "uploaded": "2026-02-22T16:59:25-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "649c114a-b36a-22e4-846e-52cb66c63777",
+     "file_manager_id": "302b7934-61de-4517-a3a2-b5dace9ef4e9"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 16 - LA Freedom - Station Order",
+     "ext": "pdf",
+     "uploaded": "2026-02-22T16:56:46-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "4ad39348-e2ad-1572-b306-842d9ae0b92d",
+     "file_manager_id": "bbe54056-4030-4c94-998c-d82d5b21c3b1"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 23 - LA Freedom - Station Order",
+     "ext": "pdf",
+     "uploaded": "2026-02-22T16:56:46-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "221009a0-131b-a478-9a48-bca58ef61fdc",
+     "file_manager_id": "47302291-9352-47a3-a925-617c7823ed0d"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 09 - LA Freedom - Times Week of 2026-02-02",
+     "ext": "pdf",
+     "uploaded": "2026-02-09T12:44:07-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "10a7a123-a173-22e5-0267-9e849415385f",
+     "file_manager_id": "95ef5d8e-fd94-4f52-a1cf-f6534a7ed66c"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 09 - LA Freedom - Station Order",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T14:06:05-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "4d63e0e3-0248-19aa-f1d7-1a57822543bd",
+     "file_manager_id": "678ece7f-0203-447d-9e0c-dd085b89b0e6"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 02 - LA Freedom Fund NAB 1.28",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T11:05:58-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "2fe74665-1f3f-6ac7-e4cb-bc85349c463a",
+     "file_manager_id": "00f179db-ae4c-44db-8550-1c927f4c3b3e"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026 02 02 - LA Freedom - Station Order",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T11:05:58-05:00",
+     "folder_id": "53e78726-75e7-35ea-9e83-8ef74da94b77",
+     "file_id": "14081653-52cf-f0e3-f3e0-c36b369c8cc9",
+     "file_manager_id": "7ed3d2dd-34e8-4ab4-8540-bf724bbefb28"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KAOK",
+   "fcc_call": "KAOK",
+   "facility_id": "67330",
+   "root_folder": "1fffd821-c414-b4a1-7993-129cf680685b",
+   "profile": "am-profile/kaok",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "58db9ee7-7ebc-a6c1-d594-cec74964688f",
+    "2015": "9521ad92-708e-25a3-1129-ff5be4479609",
+    "2016": "d7923b0b-b331-002b-5c70-112d4ef43e99",
+    "2017": "5e015d37-c278-a1d1-ada0-477e1d1f325a",
+    "2018": "0af0c7c3-f028-d478-cda9-d2d88ccbd1b8",
+    "2019": "c4f87cb6-99cf-f466-db90-e04fd3bd42d4",
+    "2020": "3433218e-683c-ac05-83d4-e0c2a176e018",
+    "2021": "00a8dc1e-2cbd-0bfe-8867-482192615068",
+    "2022": "b2a55177-448e-c3c1-c2e4-968fe4c5dd62",
+    "2023": "f8a5e31f-8ca3-e5eb-db43-e6b9ab723ae0",
+    "2024": "37ad1d76-ea55-8cdd-1602-5c12c982d910",
+    "2025": "28ec8378-acdb-e01f-a70a-f79dedbad931",
+    "2026": "8a08ae68-84a1-b590-2f53-31aeb6c96e31"
+   },
+   "folders": {
+    "Political Files/2026": "8a08ae68-84a1-b590-2f53-31aeb6c96e31",
+    "Political Files/2026/Federal": "ea20c6db-edba-3a46-9191-732082101a39",
+    "Political Files/2026/Federal/US House": "c28b4b57-f869-4f79-dbc4-b8a94c5072b5",
+    "Political Files/2026/Federal/US Senate": "352ea127-a74a-24ae-d974-61c5e6b13048",
+    "Political Files/2026/Local": "f364ce12-ef1d-560f-64ac-6cdfc41a1bc1",
+    "Political Files/2026/Non-Candidate Issue Ads": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+    "Political Files/2026/Terms and Disclosures": "55ce57f0-74ed-6ff4-c222-6278badac5c7"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1405810-Sanchez City Court Judge-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-09-17T17:29:00-04:00",
+     "folder_id": "f364ce12-ef1d-560f-64ac-6cdfc41a1bc1",
+     "file_id": "90a68bc2-2772-1497-cbb8-ccb96e6e431d",
+     "file_manager_id": "a84ef712-cc3b-4c7b-a371-abedd25d512c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55647006-V2-Garrity for PA-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T17:06:59-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "dfcb222c-68bd-8c00-ffe7-76a84f7d8922",
+     "file_manager_id": "5df9214f-a68b-4a0d-9f43-354177a9de7e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55647006-Garrity for PA-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-08-20T16:43:32-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "0524f185-665b-578b-43c5-0f1a00896292",
+     "file_manager_id": "b25252dc-0e2f-45e6-94f9-9a325b24f1d2"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1393372-v2-Higgins-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-08-13T16:56:14-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "141116db-4ddc-0012-000a-44a31bf22087",
+     "file_manager_id": "6ceb5037-dcce-4e11-9d8e-536c265a0527"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1393372-Higgins-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-08-12T16:35:25-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "c4c6ceaf-0322-c590-85e1-614179d79a8f",
+     "file_manager_id": "cfb11b8d-b8a6-44dc-9724-9b2f531e3bec"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1392943-Sanchez-City Court Judge-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-08-04T17:13:37-04:00",
+     "folder_id": "f364ce12-ef1d-560f-64ac-6cdfc41a1bc1",
+     "file_id": "ba8ea398-350d-9637-f1e3-4236f167c91d",
+     "file_manager_id": "109e6684-e1a2-436d-aa07-7a4e06ff15b9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:47:10-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "3017268e-d43e-5237-6961-851539259600",
+     "file_manager_id": "b2c21597-b921-44ea-a3c7-ca0aac3f5427"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:45:10-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "d5823da5-0b8d-ff43-f636-3a946ae7dc12",
+     "file_manager_id": "2bc98563-c421-44a5-873c-bd8dc86dc563"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:44:40-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "aeb4f9e0-6e14-ca71-a705-c2c94d4d2b35",
+     "file_manager_id": "b4003871-8dbb-4826-9f42-f8ad058d1205"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:43:53-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "03ca64be-cf49-144c-87ad-f60bde4e11e7",
+     "file_manager_id": "10dcd59c-8473-4a91-bb08-a816f023416c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:43:44-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "bfd033dc-742f-4e70-bb67-84f9998a28e5",
+     "file_manager_id": "513119b5-3d09-454e-af4c-042227a7faa1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:43:44-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "be6f3478-e4fd-1a5e-cc61-27ddaa26e049",
+     "file_manager_id": "0b333692-d019-4e4e-80e7-bc4bb6e3bdf6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:43:42-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "fce1b4cf-0061-be19-c772-560a411577ce",
+     "file_manager_id": "724a73b7-8021-4811-9b03-46d25b9ccd04"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net55264006-Freedom 250-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:36:16-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "95fdb7cf-442a-f57c-deee-a08d94c368f0",
+     "file_manager_id": "d7935f0d-9cdd-47b1-aafc-ad23a5d48347"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1380436-Accountability Project-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-06-22T17:21:02-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "4baebc32-d900-2e27-79bc-6966c8c0a249",
+     "file_manager_id": "dcca9c90-0c29-46b6-8c19-1b43d240b558"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1379072-Accountability Project-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-06-12T16:05:21-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "0ecd45ea-5587-51ae-fdc5-c2b6cbdfb58e",
+     "file_manager_id": "ef46a379-1102-421e-b15f-817687634ad6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1377458-Accountability Project-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-06-08T16:30:57-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "3d9abe52-9292-7100-0a46-f8447625bba0",
+     "file_manager_id": "5e50adf7-6e63-482f-933f-74fcd694a529"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1374328-Accountability Project, Inc-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-05-28T16:15:38-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "5f4fc83f-c913-dc8f-742e-ac29cb4b4fa9",
+     "file_manager_id": "07d6db81-b723-448d-96fa-e51562d2643e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1370169-Fleming-Senate-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T16:49:09-04:00",
+     "folder_id": "352ea127-a74a-24ae-d974-61c5e6b13048",
+     "file_id": "044157cb-7c93-c8d7-c47a-8a86243fc2fb",
+     "file_manager_id": "0d439dc4-9511-42da-bfe6-579bfd39a875"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "1365498-Johnson-Congress-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T16:48:05-04:00",
+     "folder_id": "c28b4b57-f869-4f79-dbc4-b8a94c5072b5",
+     "file_id": "1614b29a-b02b-5765-ab35-e0fc333166e1",
+     "file_manager_id": "b0027e2f-1869-41f9-a1e4-38e07ef356b8"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1368958-Accountability Project, Inc-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T16:18:02-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "50758fc7-6745-d65b-4c05-86625d8e5207",
+     "file_manager_id": "bca3ee68-d359-4143-a640-91268046cdf7"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net218068-V5-Electronic Payments Coalition-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T16:18:02-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "2927b727-a93a-383a-cc05-6a3ba504cd88",
+     "file_manager_id": "92f9fcf9-aeb4-437d-8a7e-952c64497194"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "1365497-Johnson-Congress-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-05-01T16:12:17-04:00",
+     "folder_id": "c28b4b57-f869-4f79-dbc4-b8a94c5072b5",
+     "file_id": "1476361c-c8eb-60a6-8690-6dc5d7320bad",
+     "file_manager_id": "a7e29db0-fb69-48dc-8e7d-d4bdea81c2bd"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net54684006-American Legislative Exchange Council-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-04-30T16:29:52-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "462184cb-baf4-153e-8544-026e9cc1b982",
+     "file_manager_id": "417d4db1-034f-4d74-aa91-dc55d3327291"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "1365255-Johnson-Congress KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-04-28T17:35:46-04:00",
+     "folder_id": "c28b4b57-f869-4f79-dbc4-b8a94c5072b5",
+     "file_id": "301f9d0d-3516-51a3-18d9-f84363f16e61",
+     "file_manager_id": "7820757d-4175-4e46-8364-84052ff82b77"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NET218068-V4-Electronic Payments Coalition-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-04-03T12:54:26-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "3d22276b-9d30-89b5-4a37-284dd6cb0600",
+     "file_manager_id": "a8a9bff8-acb5-4c2a-9854-3ff91a91d1d7"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NET212582-Americans for Prosperity-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-03-27T17:10:33-04:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "acb21815-9955-f9b5-ccf4-e13f5c8b0271",
+     "file_manager_id": "a8ec32e4-7f5b-415e-a940-dfcf1731fecf"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net218068-V3-Electronic Payments Coalition-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-03-06T17:11:42-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "30da4f1d-685d-fc23-b92c-a010bb81040f",
+     "file_manager_id": "f22dc907-33d0-43ba-93bc-7c8f971ba1ad"
+    },
+    {
+     "path": "Political Files/2026/Terms and Disclosures",
+     "name": "Cumulus-Political-Disclosure-Lake Charles 2026",
+     "ext": "doc",
+     "uploaded": "2026-02-09T17:07:36-05:00",
+     "folder_id": "55ce57f0-74ed-6ff4-c222-6278badac5c7",
+     "file_id": "8ee011af-a2a5-d2f8-b3fe-3adeb0436b49",
+     "file_manager_id": "883b6957-8965-4230-9064-b7c768074328"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net218068-Electronic Payments Coalition-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T17:18:48-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "99312032-7d0a-a8d6-252f-882b8db090d4",
+     "file_manager_id": "9c314bf0-05ba-4fc8-afe5-142bf806f81d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1341226-Louisiana Freedon Fund-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T16:33:51-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "e6c389e1-de88-75c3-589b-78fa5da8dcce",
+     "file_manager_id": "44caeead-37cd-4f0a-b412-ac83bd36ec80"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1341226-Louisiana Freedon Fund-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T16:29:55-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "a903cdb6-5319-0962-1ad4-85a574825b5b",
+     "file_manager_id": "256e1c62-a3ac-4e18-a0ed-b7c91f86d22f"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1339572-Louisiana Freedom Fund-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-01-30T17:59:53-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "aaf39d23-c244-9883-ac24-26a3d5889ec3",
+     "file_manager_id": "c1ee9a04-37d2-4adb-89bf-e89ce5e61628"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net53514006-Americans for Prosperity-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-01-26T14:01:50-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "9c405277-97e4-af2d-f728-5de4e1a36a9e",
+     "file_manager_id": "d1be9737-1b14-4b6b-95e7-906234f911f2"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net218068-V2-Electronic Payments Coalition-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-01-09T15:47:23-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "7b1873d9-bd25-a820-88de-92872b1ea681",
+     "file_manager_id": "e378a53e-8684-428b-8de5-80d821fec9a1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Net53665006-Conservatives for Lower Health Care Costs-KAOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-01-09T15:47:22-05:00",
+     "folder_id": "20ea701b-7152-8dbb-a85b-19dbb262a0e1",
+     "file_id": "2fec27e0-0484-68b2-425b-c88ef6a9c5db",
+     "file_manager_id": "c99d60a0-f6e7-46d8-aab4-3e53606be3f1"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KRVV",
+   "fcc_call": "KRVV",
+   "facility_id": "27468",
+   "root_folder": "79367ac0-862e-77c5-d4dd-76cdd5bf44b6",
+   "profile": "fm-profile/krvv",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "46bdd06e-b451-9f0a-a7fd-abb0bf600f00",
+    "2015": "665ce676-0a5d-3b1f-15c7-3f2941e81500",
+    "2016": "8b49b4a5-f343-0aa0-0646-a0a4503fbcbb",
+    "2017": "53d86b93-3b3c-2cdd-d7d9-a51243fc0da9",
+    "2018": "618b1f2b-5714-8edf-e5ca-957a7153de3a",
+    "2019": "2b52502f-49f5-dcf6-6e2e-ccdbdb159f44",
+    "2020": "87601931-bb0a-24eb-f302-aac8fc159436",
+    "2021": "82bcb8e6-388e-153e-91dc-4672ccfb1c23",
+    "2022": "aa8d8644-3b2f-6985-c157-6c11f38e4310",
+    "2023": "4fb7167c-f558-1a7f-c74d-363d7a7689dc",
+    "2024": "01a05925-e3a3-7c6d-f830-55a897a0dc78",
+    "2025": "58176a96-c55e-381b-78a3-fa1fcfd45959",
+    "2026": "4252d06d-8bcf-b259-6c9f-f70cbe7dba83"
+   },
+   "folders": {
+    "Political Files/2026": "4252d06d-8bcf-b259-6c9f-f70cbe7dba83",
+    "Political Files/2026/Federal": "15b3155f-5df2-99f0-2438-7deb97fe06f5",
+    "Political Files/2026/Federal/US Senate": "b74b6bb5-eb64-093c-bacd-86ea4a636cfe",
+    "Political Files/2026/Local": "bb1ddf18-40e5-a022-66ac-6d31a7b58f66",
+    "Political Files/2026/Non-Candidate Issue Ads": "c93fd4b5-c53d-f288-5601-899bb66b5e9a",
+    "Political Files/2026/State": "a6df7920-61fc-974f-23e1-1d3ee4e006cb"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Chris Lewis KRVV",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T10:06:42-04:00",
+     "folder_id": "bb1ddf18-40e5-a022-66ac-6d31a7b58f66",
+     "file_id": "9c989a09-e073-c183-c78c-6e52b21070a3",
+     "file_manager_id": "706b8f75-c08d-4179-ab35-69ec4440a31f"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "JohnAtkiinsKRVVorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:01:22-04:00",
+     "folder_id": "a6df7920-61fc-974f-23e1-1d3ee4e006cb",
+     "file_id": "4c062a90-20d6-ccff-502d-0832f9b511ec",
+     "file_manager_id": "1ce28482-d882-4b95-9956-67cfb87fe255"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "JanetFloydKRVVorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:00:56-04:00",
+     "folder_id": "bb1ddf18-40e5-a022-66ac-6d31a7b58f66",
+     "file_id": "cd7abc18-e664-a697-ff8b-835f953c735f",
+     "file_manager_id": "ef307231-36f9-4007-ab34-fb5fe0f05511"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "MaryBryantKRVVorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:00:56-04:00",
+     "folder_id": "bb1ddf18-40e5-a022-66ac-6d31a7b58f66",
+     "file_id": "2065581f-9401-d93f-e79a-90874396deef",
+     "file_manager_id": "c249dc0b-55c2-4924-aa15-6427863fde50"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "JanetFloydJudgeKMVXKRVV",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:18:30-04:00",
+     "folder_id": "bb1ddf18-40e5-a022-66ac-6d31a7b58f66",
+     "file_id": "bae044bd-0828-2fdd-7589-b0a1c034e5e2",
+     "file_manager_id": "bf33851d-d2e1-444a-94e4-abbe8a807ae7"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "LaCoalitionForFairSchools",
+     "ext": "pdf",
+     "uploaded": "2026-06-12T12:00:52-04:00",
+     "folder_id": "c93fd4b5-c53d-f288-5601-899bb66b5e9a",
+     "file_id": "1710b016-753d-c60c-5ee8-92194ba40145",
+     "file_manager_id": "bf0e374b-a619-45ab-b840-838667ca3a35"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jamesDavissenate",
+     "ext": "pdf",
+     "uploaded": "2026-05-08T13:44:42-04:00",
+     "folder_id": "b74b6bb5-eb64-093c-bacd-86ea4a636cfe",
+     "file_id": "7a959321-fb51-c33b-849b-bf9317e153f3",
+     "file_manager_id": "4eb8c2f5-6eaa-4bf1-acfe-93dc39f1d28e"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "WBRP",
+   "fcc_call": "WBRP",
+   "facility_id": "4490",
+   "root_folder": "5f954d0c-abfc-476f-3ad7-2748bcb63303",
+   "profile": "fm-profile/wbrp",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2018": "3463514c-ede0-9b82-43c8-91611aad1cfe",
+    "2019": "dfe9c804-9d72-3e0e-0252-680a62f9130c",
+    "2020": "c78e227a-d91e-c325-2be1-7c71a9870aff",
+    "2021": "4c0813ac-5d99-22bc-798f-e080b7526d3c",
+    "2022": "34571ea4-f942-847e-f7cd-6ff6dd117e3a",
+    "2023": "06c33202-e219-73dc-de47-d5a09bc90eef",
+    "2024": "962881a3-ff58-982e-7484-a3aed269b392",
+    "2025": "0801eeb1-d839-6ca7-473d-33f96dfeccc8",
+    "2026": "b923a2dd-e1f3-bd33-bec4-9ce7719ca984"
+   },
+   "folders": {
+    "Political Files/2026": "b923a2dd-e1f3-bd33-bec4-9ce7719ca984",
+    "Political Files/2026/Federal": "afb0e0de-7730-35f1-4655-621d93f4fde9",
+    "Political Files/2026/Federal/US House": "3d5f38fa-e223-456f-50ff-0dfec490d046",
+    "Political Files/2026/Federal/US Senate": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+    "Political Files/2026/Non-Candidate Issue Ads": "40d401b3-7abd-9855-0ba0-134daea024b0",
+    "Political Files/2026/Terms and Disclosures": "5632999a-3340-0c36-ce33-df7349f1c154"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Miguez 10092625853",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T13:24:18-04:00",
+     "folder_id": "3d5f38fa-e223-456f-50ff-0dfec490d046",
+     "file_id": "a4335994-39f7-eb33-f096-fa2a866001cc",
+     "file_manager_id": "68226416-a78d-4d7a-99b8-918e38b98b91"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "ClubforGrowth invoic25763-1",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T10:01:59-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "2a2cb6bf-2877-c350-dbda-1c649c05af75",
+     "file_manager_id": "391dc47c-1efc-414a-8f92-fcde54d3699a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC inv 09272625656-2",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T10:01:58-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "3f7c1636-0e8e-85c1-b5e7-87a5bf550ccf",
+     "file_manager_id": "3dfcbf2a-aff9-46d9-a9c1-c43bbed653e5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Blake Miguez WBRP 100526",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T14:36:44-04:00",
+     "folder_id": "3d5f38fa-e223-456f-50ff-0dfec490d046",
+     "file_id": "538eb458-2ad0-772d-16db-ad49327ac6fd",
+     "file_manager_id": "1479c772-f2e5-42b0-a614-32a73240ece4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Letlow NAB - Moon Network",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T08:35:15-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "4a68b1ae-fc3e-91ac-355d-d2620ede6c5e",
+     "file_manager_id": "af55aefe-039d-4775-bf4c-63fdbaabc0f4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Balke Miguez for Congress order 092826",
+     "ext": "pdf",
+     "uploaded": "2026-09-28T08:49:39-04:00",
+     "folder_id": "3d5f38fa-e223-456f-50ff-0dfec490d046",
+     "file_id": "001549dc-391a-3e49-67ff-04d6bb8d72b9",
+     "file_manager_id": "bc4e9941-184e-4ff4-99f9-13980d8b7388"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Blake Miguez NAB",
+     "ext": "pdf",
+     "uploaded": "2026-09-28T08:49:05-04:00",
+     "folder_id": "3d5f38fa-e223-456f-50ff-0dfec490d046",
+     "file_id": "39b709b4-0edd-f664-ed8d-fdafef913921",
+     "file_manager_id": "e3b39dd3-353e-4d4c-a1cb-5c730c41cd8c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Club for Growth 092426",
+     "ext": "pdf",
+     "uploaded": "2026-09-24T13:50:36-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "80bd597d-7d28-0756-0f3b-bba413966c77",
+     "file_manager_id": "acc09fad-ef1f-4bec-832e-206cce91f40e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Club for Growth 101426",
+     "ext": "pdf",
+     "uploaded": "2026-09-24T13:50:36-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "f74aa3b3-8071-462d-820a-75db82395c2d",
+     "file_manager_id": "e85fb6f5-16c7-40d5-8ed7-baed2981f785"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Club For Growth Action NAB",
+     "ext": "pdf",
+     "uploaded": "2026-09-24T13:50:36-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "2e49decc-03c6-15a3-290e-bbc32b90ce10",
+     "file_manager_id": "41b49eb8-6d0b-4780-9d6a-8a177f68368c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "epc 081926",
+     "ext": "pdf",
+     "uploaded": "2026-08-19T16:18:00-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "78dc80cd-6a68-f802-4d50-4ff1b590bf53",
+     "file_manager_id": "12cbc367-db7a-40fa-87e0-f64bab4096d6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Acct  Proj june inv25382-1",
+     "ext": "pdf",
+     "uploaded": "2026-07-10T11:31:16-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "c65a8591-2ad7-1ffe-c752-14978427e406",
+     "file_manager_id": "50b0b6be-5cac-49e5-807d-f4f36654a840"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Acct  Proj june inv25428-1",
+     "ext": "pdf",
+     "uploaded": "2026-07-10T11:31:16-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "dc8ac9af-a810-0b1e-be5b-1ae78dc40018",
+     "file_manager_id": "192765c4-e194-48a6-8c34-ceb428369457"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Acct  Proj june inv25411-1",
+     "ext": "pdf",
+     "uploaded": "2026-07-10T11:31:15-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "edcb7ea1-4a02-437e-ce14-4e7bb610d242",
+     "file_manager_id": "83e60ce5-ffc2-4c1b-8220-0d5b67620b2b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Acct  Proj june inv25338-2",
+     "ext": "pdf",
+     "uploaded": "2026-07-10T11:31:10-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "8f1d7eb1-1062-48ce-c641-0e101c06da05",
+     "file_manager_id": "d6261eae-dadb-40a6-94ce-f94141d5b548"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountability Project Inc 061726",
+     "ext": "pdf",
+     "uploaded": "2026-06-17T15:45:00-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "8fb9ebc8-93b2-94ee-528a-e0840f967b1c",
+     "file_manager_id": "0b8db35d-3c9e-4cd1-b6d8-83508ea6afed"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Account Proj NAb 060916",
+     "ext": "pdf",
+     "uploaded": "2026-06-10T10:29:06-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "c320c4d4-411d-2991-f9a5-98abd405a2b8",
+     "file_manager_id": "bda28d1b-f487-4532-8b1c-897f5ab8dc15"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Acct Proj order 060926",
+     "ext": "pdf",
+     "uploaded": "2026-06-10T10:28:54-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "457318a9-b2a8-53ea-037a-ffdd5961bac2",
+     "file_manager_id": "0abdefcc-1747-468a-b24d-aa9a24e9cf81"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "may WBRP Cassidy2625311-1",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T12:03:20-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "b2a7eaea-fe5a-a3fb-ebce-f318a499621b",
+     "file_manager_id": "92f31c74-b882-41ff-962d-b4cbcd86e3ae"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "may WBRP Acct Proj 2625338-1",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T12:02:14-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "8b22a78c-8942-5dae-55ed-28ca36c7ef49",
+     "file_manager_id": "3fb095ea-db74-4b1d-b5ab-cd81407dd881"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "may WBRP Cajun Pac 2625272-1",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T12:02:14-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "49d2ac59-c53b-cd1a-cb11-a9ba500d8a77",
+     "file_manager_id": "ef8e3267-4238-4f78-955d-da814d21c5cf"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "mayWBRP EPC 2625274-1",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T12:02:14-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "cacfa71c-8097-9d40-bd6d-d85d6bee51a6",
+     "file_manager_id": "a735f782-a21f-4660-85d2-5aa85fa3037a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "may WBRP EPC 2625286-1",
+     "ext": "pdf",
+     "uploaded": "2026-06-05T12:02:14-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "0c6d32dd-20ea-2bd2-7036-8f3a56dcaa92",
+     "file_manager_id": "9ed6e07b-70c6-4079-961a-5d2fcf95f613"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountability Project NAB 052726",
+     "ext": "pdf",
+     "uploaded": "2026-05-27T12:29:47-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "6e7d2fad-f604-3d2e-dbf3-7001e6ab012e",
+     "file_manager_id": "a57356a9-fc10-4b97-b515-f2f143892166"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountabilty Project Order 052726",
+     "ext": "pdf",
+     "uploaded": "2026-05-27T12:29:47-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "30dd9fbe-146c-fe99-7c02-9ffc974ce586",
+     "file_manager_id": "57c39943-8764-48a6-a6d6-ecf4af11dd87"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB AM NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-22T11:08:13-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "d041346e-99df-a753-2ebe-8a36b7513766",
+     "file_manager_id": "87a15282-0b91-4d42-8267-0dc5f77ac915"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB AM Radio Schedule",
+     "ext": "pdf",
+     "uploaded": "2026-05-22T11:08:13-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "0b238385-49c1-2cf9-315a-5acc225dfc91",
+     "file_manager_id": "37499604-bffe-4509-855a-93c5dd57df2d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Cassidy Order WBRP",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T12:13:15-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "7e2a683f-c9e9-cabb-8433-1b7a48ba149b",
+     "file_manager_id": "0f5def54-7d1b-4ba2-82f2-d161bc504dc6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Cassidy NAB 051426",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T12:09:39-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "dab1c22f-1869-5391-f747-1a69e86c7a2a",
+     "file_manager_id": "52fa76ba-f9f4-4405-9775-062f682ccc0e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Fleming NAB LRN",
+     "ext": "pdf",
+     "uploaded": "2026-05-13T15:36:14-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "3026cf99-d9df-9c2b-2c63-7a159621f93a",
+     "file_manager_id": "ce15d7e5-872a-4145-8ee5-b5c66501e150"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "accountability NAB LRN",
+     "ext": "pdf",
+     "uploaded": "2026-05-13T15:28:39-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "f1ea2c4a-5fea-8e07-45c1-3fd15bc80e6f",
+     "file_manager_id": "fd3ddf11-c0e1-4897-8c63-0f9fdddaab06"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "accountability project nab",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T11:46:38-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "d6edcc4c-9640-43ae-0e84-c51018ea7162",
+     "file_manager_id": "1f862d74-c0a7-4caf-96a4-584dfb0900ea"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "accountability project order 050726",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T11:45:40-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "81b035c5-724f-f288-fd5f-98edcf10de1e",
+     "file_manager_id": "eaac9487-67f8-4f54-8105-2683d7007f4c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Electricity Transmisssion Competition Coalition order",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T11:45:40-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "3725b404-ae30-9e24-5a52-6f2c52d7b202",
+     "file_manager_id": "03fce956-5ea2-4947-b022-c14457ee5fb7"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "ETCC NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-07T11:45:40-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "312e20c9-7619-8431-afd8-40e282ad6b77",
+     "file_manager_id": "f39b5a59-cb3d-4908-baca-ab91099a762e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC 050526",
+     "ext": "pdf",
+     "uploaded": "2026-05-06T09:19:39-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "71abd474-5000-c7f0-c21e-fbc6fd986016",
+     "file_manager_id": "6a1f8b6e-6e9e-447c-893a-45d7eefb42ab"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC25063-1 WBRP",
+     "ext": "pdf",
+     "uploaded": "2026-05-05T08:44:47-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "c18a8283-135f-d790-69b6-74c5fa633a29",
+     "file_manager_id": "f410aca1-8305-4e72-b3e6-f70c1a0d7364"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC25157-1 WBRP",
+     "ext": "pdf",
+     "uploaded": "2026-05-05T08:44:47-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "28536550-025e-83be-79cd-ecc49ed47bc4",
+     "file_manager_id": "31e573fb-7a99-4121-8f4c-3eab9af2d138"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Cajun Pac II NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-04T15:26:04-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "73684478-e9c3-4309-62e1-b6b9eb842949",
+     "file_manager_id": "8a64d823-56ba-49fe-9821-157511b977e6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Cajun Pac order",
+     "ext": "pdf",
+     "uploaded": "2026-05-04T15:26:03-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "12edd3c2-abec-fa78-6c54-e242a45fa398",
+     "file_manager_id": "c00a4095-c8a1-4ada-8187-703d7190bc8e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "protect la values 041626",
+     "ext": "pdf",
+     "uploaded": "2026-04-16T16:18:35-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "23282171-d796-e3e8-999c-7b93384595f2",
+     "file_manager_id": "b27a08d3-e873-4bae-b6a6-d29a94af2394"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Letlow moon",
+     "ext": "pdf",
+     "uploaded": "2026-04-16T08:38:05-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "eb9c8cc2-4a4c-2dd3-f661-45e6e4183398",
+     "file_manager_id": "154a810a-0ada-4787-8983-b4432a24702c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "LA Freedom Fund Moon",
+     "ext": "pdf",
+     "uploaded": "2026-04-16T08:37:25-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "ba728c7f-6691-b75a-19bb-5557a05a1da6",
+     "file_manager_id": "3ca70524-9d6d-48e6-800e-a82bdb5ed123"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Fleming NAB 041026",
+     "ext": "pdf",
+     "uploaded": "2026-04-10T12:02:40-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "d6cebdc2-2c4f-fcfe-0acf-dc63e4e7b0fe",
+     "file_manager_id": "9710da42-68d1-4cb9-913f-3727c364e7c6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "Fleming NAB",
+     "ext": "pdf",
+     "uploaded": "2026-04-09T16:35:40-04:00",
+     "folder_id": "845b2590-ce67-a4cf-c80a-85f27e80e513",
+     "file_id": "cd40936d-cd35-25ed-2c5c-a2cb951429ef",
+     "file_manager_id": "83510dd6-210d-4a7b-9b30-5bd693c31d2c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Q1 26 IOs.xlsx - WBRP-FM 1",
+     "ext": "pdf",
+     "uploaded": "2026-04-07T17:32:54-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "67dd79dd-9dd5-d727-7691-7c0cc937d022",
+     "file_manager_id": "b24598de-e61c-496e-86a5-f3f2f6f04e09"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountabilty Projec25002-1",
+     "ext": "pdf",
+     "uploaded": "2026-04-07T17:22:14-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "cb5d5f84-9212-dcb2-c5ec-173f220cb1e2",
+     "file_manager_id": "a3ba3606-d031-4621-90f7-e470d0a857ff"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountabilty Projec25008-1",
+     "ext": "pdf",
+     "uploaded": "2026-04-07T17:22:14-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "d3043d27-c758-4e4a-f021-faae316c052a",
+     "file_manager_id": "a7c24f26-c8f3-4e6d-aef0-d618e205a6c9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountability NAB",
+     "ext": "pdf",
+     "uploaded": "2026-04-07T17:05:43-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "c1a34e27-14c4-9ce4-96bf-34f23d2c3556",
+     "file_manager_id": "df88fe8b-aa20-4535-a7b8-b06e0e896c96"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "electronic payments 033026",
+     "ext": "pdf",
+     "uploaded": "2026-04-07T17:05:43-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "e0e70fe0-d9e5-73d3-6f96-6a0a232e71bd",
+     "file_manager_id": "ce7cf37e-4ddc-4b9c-a5f1-6c753c982b43"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "MAGA energy25032-1",
+     "ext": "pdf",
+     "uploaded": "2026-04-07T17:05:43-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "254ed34d-14ec-e137-fc58-16ee0ac05e50",
+     "file_manager_id": "7fb09a09-218d-4335-8195-f3ff793157fb"
+    },
+    {
+     "path": "Political Files/2026/Terms and Disclosures",
+     "name": "Political Disclosure Statement 08192022",
+     "ext": "pdf",
+     "uploaded": "2026-03-11T15:57:53-04:00",
+     "folder_id": "5632999a-3340-0c36-ce33-df7349f1c154",
+     "file_id": "cffbdcbd-9de9-8d13-9920-c71522ea01ec",
+     "file_manager_id": "1ea14b98-f00f-4303-bf60-0092afbc36a9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC NAB",
+     "ext": "pdf",
+     "uploaded": "2026-03-11T15:11:51-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "27f03913-f592-cb05-b02d-bbde9d73f9b5",
+     "file_manager_id": "3dc01837-41ce-4558-bfd6-74ea055bb667"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC24543-1",
+     "ext": "pdf",
+     "uploaded": "2026-03-11T15:08:57-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "fb04852c-4602-ba41-0785-77b220ab5775",
+     "file_manager_id": "4fd8babd-bb2e-4be1-9bfc-11ba76105054"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC24714-1",
+     "ext": "pdf",
+     "uploaded": "2026-03-11T15:08:57-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "04da1e0a-5363-dffa-4ad8-c301314d05b9",
+     "file_manager_id": "fe936311-a84a-4e08-86e4-91c5562bd2e6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "EPC24916-1",
+     "ext": "pdf",
+     "uploaded": "2026-03-11T15:08:57-04:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "b03cc0a8-991a-da2b-cf52-c09d2adb9557",
+     "file_manager_id": "70a48f05-ee6b-41de-a0de-5d20d4f10d1a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "accountability project order 030926",
+     "ext": "pdf",
+     "uploaded": "2026-03-06T14:34:19-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "f134ed04-0d7d-335c-0c97-4254eff9a449",
+     "file_manager_id": "59ef50ef-9f2e-4312-843f-882b42c339f7"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Accountability NAB",
+     "ext": "pdf",
+     "uploaded": "2026-03-04T12:17:20-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "e2c6df4e-4e28-343a-7cc9-e0be34bfd934",
+     "file_manager_id": "13ac22ec-9adf-4c9f-ba74-1322a1f5d3e6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "accountability project order",
+     "ext": "pdf",
+     "uploaded": "2026-03-04T12:16:45-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "e3101218-fa0e-e952-751a-9fed60221d26",
+     "file_manager_id": "c9311e64-a359-4df8-9d44-05591a7e9363"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "LA Freedom new spot NAB",
+     "ext": "pdf",
+     "uploaded": "2026-02-19T13:34:23-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "280a18a8-33a5-7246-105a-9bc90924f4ea",
+     "file_manager_id": "0026c1a4-3ba0-4629-8ab2-5b123a4a08e1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "LA freedom Fund 0209_0301 Order",
+     "ext": "pdf",
+     "uploaded": "2026-02-05T15:32:57-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "35ff2010-8239-9235-c16c-1cc5b611dae5",
+     "file_manager_id": "21a88545-b544-4e11-8932-91503a84e32a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "14204628 LA Freedom Fund",
+     "ext": "pdf",
+     "uploaded": "2026-02-03T08:34:59-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "92486b6b-f8b8-b7c4-db68-ecb66b5d8bec",
+     "file_manager_id": "bdb7b71b-8cc6-497c-a18a-f91a8377d905"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "LA Freedom Fund NAB",
+     "ext": "pdf",
+     "uploaded": "2026-02-03T08:34:59-05:00",
+     "folder_id": "40d401b3-7abd-9855-0ba0-134daea024b0",
+     "file_id": "1a062bb1-aec6-5128-a13d-0700a0dd587c",
+     "file_manager_id": "ba3c270d-6ac5-4ad1-bfad-7f8a319223fb"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KOKA",
+   "fcc_call": "KOKA",
+   "facility_id": "9222",
+   "root_folder": "180488e9-a4c8-f887-df4d-b0213a7a4ad7",
+   "profile": "am-profile/koka",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "c44c87f2-9426-526d-cc3a-bce32c6f972f",
+    "2015": "4037f555-b961-fa0d-2882-778fa9dad729",
+    "2016": "2dd9d0db-4836-9514-c5a7-a167dd03e86f",
+    "2017": "b7aeb449-6d6e-5a3c-8a24-647e5824049f",
+    "2018": "e7faff49-e265-dd20-705c-ec77ac43aca7",
+    "2019": "5a319b38-af26-4bbc-a666-124718dabdd3",
+    "2020": "972014bf-edd7-0d29-4910-2ddd453e0a00",
+    "2021": "e7a43c12-47b9-e25d-63ce-bcee5378175b",
+    "2022": "96059234-d909-f70c-71d3-bb85ae3ce7ac",
+    "2023": "4fabbad1-07be-d011-2557-1087ecbc5f8a",
+    "2024": "a0244e45-a78a-4517-df61-b1dfab985ebd",
+    "2025": "c9df1f5e-5447-4564-f5b2-63596e8db368",
+    "2026": "2545686e-5c35-103a-c44f-d58177c419bd"
+   },
+   "folders": {
+    "Political Files/2026": "2545686e-5c35-103a-c44f-d58177c419bd",
+    "Political Files/2026/Local": "51be6105-2392-2597-732b-892bdeb8f23f",
+    "Political Files/2026/Non-Candidate Issue Ads": "d56a8e6b-e65d-b444-37d1-9e9179ec51a4",
+    "Political Files/2026/State": "4956d5a0-c2f8-8442-f771-d282b1ba7291"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA HANH WILLIAMS FOR SHREVEPORT CITY COUNCIL DIST A 10-12",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T16:21:09-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "83d6ae5a-ba2e-bbb2-76d5-d326cf53f70b",
+     "file_manager_id": "b6ff7030-0502-4ab7-9767-188d3a442cf5"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "2026KOKA FRIENDS OF CADDO ISSUE 10-9",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T16:06:17-04:00",
+     "folder_id": "d56a8e6b-e65d-b444-37d1-9e9179ec51a4",
+     "file_id": "06a33031-2594-a2a9-65c6-07b8ad5f6b06",
+     "file_manager_id": "71b503f0-efc7-47cb-b4e8-6ac5f1c63aba"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA TOM ARCENEAUX FOR SHREVEPORT MAYOR 10-6 Revision",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T10:46:42-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "fa712c17-4280-bf90-b3c4-549cb45f1d09",
+     "file_manager_id": "cc158fbb-4a21-4506-ab72-d3c958b4aa3c"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA CHAUNTA MERO FOR SHREVEPORT MAYOR 10-8",
+     "ext": "pdf",
+     "uploaded": "2026-10-08T17:07:39-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "d444e74a-05c0-8cdd-5acc-cd964263c3aa",
+     "file_manager_id": "91aa1836-19ad-472b-aa38-38886d75a185"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA TOM ARCENEAUX FOR SHREVEPORT MAYOR 10-6",
+     "ext": "pdf",
+     "uploaded": "2026-10-07T11:23:47-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "99d9207c-7442-6070-6172-264ac946afe1",
+     "file_manager_id": "4d5b3dde-6517-4bae-93cc-111469bbe88b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "2026KOKA FRIENDS OF CADDO ISSUE 9-25 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T16:32:30-04:00",
+     "folder_id": "d56a8e6b-e65d-b444-37d1-9e9179ec51a4",
+     "file_id": "e92f8503-1bf1-1c2e-e90c-95bbc3b7a777",
+     "file_manager_id": "443a29da-c109-46b1-a42f-25d633b088b7"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA JOHN-PAUL YOUNG FOR SHREVEPORT MAYOR 9-24 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T16:30:15-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "065392e8-522c-6003-79cb-bcdd12e2723b",
+     "file_manager_id": "c41f5c95-28f1-4254-9354-a223e1bbb167"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA COMMITTEE TO RE-ELECT DA JAMES STEWART 10-2",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T16:47:41-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "dd335df3-f10c-df70-996c-1a4c5081d631",
+     "file_manager_id": "d13dc1d7-13c1-4e14-86cd-77768572492a"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA GARY BROOKS FOR CITY COUNCIL DIST B 10-1",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T11:02:09-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "bc292b98-8839-3540-cddf-f0fa7ae448fc",
+     "file_manager_id": "cf1021aa-1857-4b2e-8a23-5205b26de2bf"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "2026KOKA FRIENDS OF CADDO ISSUE 9-25",
+     "ext": "pdf",
+     "uploaded": "2026-09-25T16:54:56-04:00",
+     "folder_id": "d56a8e6b-e65d-b444-37d1-9e9179ec51a4",
+     "file_id": "0200d4c7-e6b8-6939-9685-842ad5a4c530",
+     "file_manager_id": "245f90e0-d3ee-448f-a18c-4820f624b4bb"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA JOHN-PAUL YOUNG FOR SHREVEPORT MAYOR 9-24",
+     "ext": "pdf",
+     "uploaded": "2026-09-25T15:31:45-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "5a65cdb2-c6bc-02b3-0c28-f977a7e4ac9f",
+     "file_manager_id": "91931a24-3b73-4b2d-adb8-d6dd9f54a6b1"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA KHARMEN DAVIS-TAYLOR FOR SHREVEPORT CITY JUDGE 09-10 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-09-21T15:29:32-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "05d2fc92-784c-a6f3-5a45-902e198225e9",
+     "file_manager_id": "52797d34-3908-4fcc-81c3-e59c18ba8117"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA KHARMEN DAVIS-TAYLOR FOR SHREVEPORT CITY JUDGE 09-10",
+     "ext": "pdf",
+     "uploaded": "2026-09-11T11:29:42-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "26d0728b-f4a5-9889-4c17-5ed7393fa569",
+     "file_manager_id": "429122f4-704f-4c17-9fcb-96d312f0f8a2"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026KOKA JOHN ATKINS-LA PUBLIC SERVICE COMM 8-25 INVOICE #2",
+     "ext": "pdf",
+     "uploaded": "2026-09-09T11:06:13-04:00",
+     "folder_id": "4956d5a0-c2f8-8442-f771-d282b1ba7291",
+     "file_id": "0888fb4e-73f9-6349-d34d-5ade367141cb",
+     "file_manager_id": "b9123aa3-5f8e-49c4-860b-a3e0d8b5cc38"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026KOKA JOHN ATKINS-LA PUBLIC SERVICE COMM 8-25 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-09-03T15:51:28-04:00",
+     "folder_id": "4956d5a0-c2f8-8442-f771-d282b1ba7291",
+     "file_id": "dde52a7d-cecc-519c-4ff4-771cf06c1503",
+     "file_manager_id": "47001e71-082c-4423-928c-ef78500f2c1f"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "2026KOKA JOHN ATKINS-LA PUBLIC SERVICE COMM 8-25",
+     "ext": "pdf",
+     "uploaded": "2026-08-25T16:50:53-04:00",
+     "folder_id": "4956d5a0-c2f8-8442-f771-d282b1ba7291",
+     "file_id": "22ffbf70-832a-11f6-56c4-53dadd2d29e0",
+     "file_manager_id": "2b6ec1ce-4289-41c9-b48b-63cf35b62447"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "20206KOKA KHARMEN DAVIS-TAYLOR FOR SHREVEPORT CITY JUDGE 07-20 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-08-14T12:27:41-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "bede9f2f-6d89-6023-3d38-e28ea7d2e88e",
+     "file_manager_id": "9d9929be-dda3-4316-984a-125b68b01964"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "20206KOKA KHARMEN DAVIS-TAYLOR FOR SHREVEPORT CITY JUDGE 07-20",
+     "ext": "pdf",
+     "uploaded": "2026-07-20T15:53:29-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "87f933f1-7ecb-644f-5cd4-b78b0627545e",
+     "file_manager_id": "39da90b3-6b43-410a-afdd-933c87ab4cff"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA TRINICIA LEONARD FOR SHREVEPORT CITY JUDGE DIV D 6-26 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-07-07T16:09:44-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "1b93b9a9-a293-b6c9-242c-f11c48997404",
+     "file_manager_id": "be0e5b72-2b22-4e89-9519-cafa7727b60b"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA TRINICIA LEONARD FOR SHREVEPORT CITY JUDGE DIV D 6-26",
+     "ext": "pdf",
+     "uploaded": "2026-06-26T12:14:37-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "967b04d9-35e8-78db-e7f0-6742d9272b95",
+     "file_manager_id": "40d9f3a4-3732-4f38-8f6a-985bc1ffee04"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA JAMES GREEN FOR PUBLIC SAFETY COMM 2-6 INVOICE",
+     "ext": "pdf",
+     "uploaded": "2026-02-18T12:09:15-05:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "eca7258b-5c46-9ced-b53c-51d047495386",
+     "file_manager_id": "c1defecb-a708-4046-aebe-f8ddf0baf1c3"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA JAMES GREEN FOR PUBLIC SAFETY COMM 2-6",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T16:01:49-05:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "54d502a4-646d-8d19-42bd-9a9238e139e2",
+     "file_manager_id": "bf7ce639-e6f2-4d63-bceb-22f10bbde74c"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "WGUO",
+   "fcc_call": "WGUO",
+   "facility_id": "70279",
+   "root_folder": "3583756e-aced-60f5-2cef-98a383804317",
+   "profile": "fm-profile/wguo",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "107ccc61-fd5a-1c2d-7159-ce9ee91db11c",
+    "2015": "2f01f111-b48f-8da0-ece4-c781dda246bb",
+    "2016": "0b74d864-d20e-0080-1143-7f5fc8ce6344",
+    "2017": "e99b6750-c8b0-8f8e-e637-ec8499976e15",
+    "2018": "2e2002ca-fbc9-f16a-3b2b-a8e540fa56ef",
+    "2019": "88ee3314-880b-525a-793d-fbba9541ddfe",
+    "2020": "11c69bcc-a43f-173c-930d-14ba1f7d9e0d",
+    "2021": "998e62ed-32b2-50c2-df66-c7aba94e7236",
+    "2022": "cb0f7014-4dd7-1802-8542-9d7ef092142b",
+    "2023": "89d69d62-0638-55e4-7c13-34e9b7963c70",
+    "2024": "9fa7d74a-7b42-28ae-d4ae-e462e3f0f3b7",
+    "2025": "a9c7fffb-47a7-5c9a-1da7-e48bb5a83119",
+    "2026": "5b6e66ec-1728-b82b-f231-93c1fa432948"
+   },
+   "folders": {
+    "Political Files/2026": "5b6e66ec-1728-b82b-f231-93c1fa432948"
+   },
+   "files": [],
+   "stale": false
+  },
+  {
+   "call": "WNXX",
+   "fcc_call": "WNXX",
+   "facility_id": "52882",
+   "root_folder": "a0c3703b-79a6-c9f6-dba4-e9994bd871df",
+   "profile": "fm-profile/wnxx",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2018": "a8f8e3b2-8030-4aae-47e2-1400d666c153",
+    "2019": "7f108edf-81a9-9e00-51d8-e9ee9e34da0f",
+    "2020": "6f1ed74f-e395-0b48-1a0c-06bc36f11ed9",
+    "2021": "aab13b84-1dac-78f0-2bab-9d351b487771",
+    "2022": "a2a6479c-3f6b-ea71-f90e-b5b058036722",
+    "2023": "7457e423-fe31-8b12-7273-39d20151c4d1",
+    "2024": "9cff0802-b54b-010c-74aa-a389c25f1fa1",
+    "2025": "b0de5ccd-bbe5-f0c0-dce2-26b99bd8e237",
+    "2026": "2396903b-b971-4f19-d3ef-40e51211b060"
+   },
+   "folders": {
+    "Political Files/2026": "2396903b-b971-4f19-d3ef-40e51211b060",
+    "Political Files/2026/Federal": "26746d09-25aa-1fb4-d1e2-b260b4853606",
+    "Political Files/2026/Federal/US House": "f639ff45-2877-6de8-6fc5-479a718d706f",
+    "Political Files/2026/Non-Candidate Issue Ads": "d36f1fd5-caec-dfb2-1d81-3f406e1ea014",
+    "Political Files/2026/Terms and Disclosures": "da62a388-0d70-ab00-6079-c68b61fa86a2"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Miguez 10092625854",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T13:26:52-04:00",
+     "folder_id": "f639ff45-2877-6de8-6fc5-479a718d706f",
+     "file_id": "0b9600e0-4bd0-3dd6-204d-c145b8824011",
+     "file_manager_id": "e2aedfe5-0bb9-4af6-a658-b439484082a0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Blake Miguez WNXX KNXX 100526 order",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T14:40:47-04:00",
+     "folder_id": "f639ff45-2877-6de8-6fc5-479a718d706f",
+     "file_id": "74c63b40-f39e-88cb-f154-97f18bdfe765",
+     "file_manager_id": "396c71f5-d56f-4a13-b421-05e7859776bc"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Blake Miguez KNXX WNXX NAB",
+     "ext": "pdf",
+     "uploaded": "2026-09-30T08:44:22-04:00",
+     "folder_id": "f639ff45-2877-6de8-6fc5-479a718d706f",
+     "file_id": "b2722446-c515-fffa-64a7-d80f26a7af0c",
+     "file_manager_id": "88e86178-16d8-461d-98fa-95a62a821b77"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Blake Miguez WNXX KNXX order",
+     "ext": "pdf",
+     "uploaded": "2026-09-30T08:44:22-04:00",
+     "folder_id": "f639ff45-2877-6de8-6fc5-479a718d706f",
+     "file_id": "ba306bb2-6694-b76b-5d38-3b7be11bac9c",
+     "file_manager_id": "7f3943e2-95c7-4929-9096-6c25d3647d6b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB AM NAB",
+     "ext": "pdf",
+     "uploaded": "2026-05-22T11:11:38-04:00",
+     "folder_id": "d36f1fd5-caec-dfb2-1d81-3f406e1ea014",
+     "file_id": "a04ec50f-747c-5f0a-78a5-dd4277d8c15b",
+     "file_manager_id": "00b850b0-1d92-4a4e-a35a-af989bc05b86"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB AM Radio Schedule",
+     "ext": "pdf",
+     "uploaded": "2026-05-22T11:11:38-04:00",
+     "folder_id": "d36f1fd5-caec-dfb2-1d81-3f406e1ea014",
+     "file_id": "80d6bbfb-d94f-1f40-6ae2-1d9548773fef",
+     "file_manager_id": "fd0b2035-840d-4e09-8e1c-0ab3832acd91"
+    },
+    {
+     "path": "Political Files/2026/Terms and Disclosures",
+     "name": "Political Disclosure Statement 08192022",
+     "ext": "pdf",
+     "uploaded": "2026-03-11T16:03:30-04:00",
+     "folder_id": "da62a388-0d70-ab00-6079-c68b61fa86a2",
+     "file_id": "851eb2c5-6746-cf05-e09d-dda311dd02b2",
+     "file_manager_id": "3694aa1f-6f01-45ab-88ee-cb7712885648"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KLKL",
+   "fcc_call": "KLKL",
+   "facility_id": "13802",
+   "root_folder": "8373877d-d9e8-d1f0-86e5-b344a1e086f1",
+   "profile": "fm-profile/klkl",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "09998b37-9b06-d91c-9e2e-7d50a4a7164a",
+    "2015": "dd00a430-edbe-bf2f-2e6e-870471777b11",
+    "2016": "b3515fdd-c48e-f88a-6a9e-6cc8d05bb415",
+    "2017": "4edff7aa-f2b3-8f80-6bfc-22933a7fe5f4",
+    "2018": "541873ec-14f0-ef14-e1b8-83800a345d0c",
+    "2019": "de27da76-d36c-a828-bc03-50b944b7d11d",
+    "2020": "46f84994-194a-802e-8a2c-dc633a1136f6",
+    "2021": "81abbeaa-e772-555b-d6f2-fa007721cf97",
+    "2022": "2b5f5d06-572b-d29e-c1c3-7288feaba99d",
+    "2023": "065ac479-ec89-4cf5-dc7d-b0143f598cfc",
+    "2024": "30037928-c9ec-1ede-e986-1594d4aaa2d1",
+    "2025": "9d9c59be-5fe3-542b-404a-3016869342f1",
+    "2026": "6c44a03c-bd42-a4d6-8a09-fbe5960c6a01"
+   },
+   "folders": {
+    "Political Files/2026": "6c44a03c-bd42-a4d6-8a09-fbe5960c6a01",
+    "Political Files/2026/Federal": "4c3d2a11-324f-e49c-aaca-710d7cf5e92f",
+    "Political Files/2026/Federal/US House": "c08baf5e-97bb-af3d-6176-7662f41c0e5a",
+    "Political Files/2026/Local": "0218cf57-795e-e1c0-5790-d58db319f706",
+    "Political Files/2026/Non-Candidate Issue Ads": "abf0bf6d-e19f-76cc-9c40-0802ec1f376e"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "2026KLKL FRIENDS OF CADDO ISSUE 10-9",
+     "ext": "pdf",
+     "uploaded": "2026-10-09T16:04:48-04:00",
+     "folder_id": "abf0bf6d-e19f-76cc-9c40-0802ec1f376e",
+     "file_id": "267475cb-974e-c725-f0d3-c1e006d51df5",
+     "file_manager_id": "73f5971c-dd7c-4dba-866d-6e13852475f4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "2026KLKL MIKE JOHNSON FOR US HOUSE OF REPRESENTATIVES 10-5",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T12:37:36-04:00",
+     "folder_id": "c08baf5e-97bb-af3d-6176-7662f41c0e5a",
+     "file_id": "2d4649f6-d21b-bc8d-ba44-5c6ba60d257f",
+     "file_manager_id": "f3c75b91-e9cc-4bba-b6ce-2d920f4ab5e9"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KLKL COMMITTEE TO RE-ELECT DA JAMES STEWART 10-2",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T16:46:30-04:00",
+     "folder_id": "0218cf57-795e-e1c0-5790-d58db319f706",
+     "file_id": "b6052b92-3f90-f05a-0309-083fff99ad6d",
+     "file_manager_id": "a05d162b-5025-46bd-bf2c-ea3d748aa28b"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KLKL GARY BROOKS FOR CITY COUNCIL DIST B 10-1",
+     "ext": "pdf",
+     "uploaded": "2026-10-02T11:01:01-04:00",
+     "folder_id": "0218cf57-795e-e1c0-5790-d58db319f706",
+     "file_id": "c096549d-b0af-e2a8-6f62-820bf8a68278",
+     "file_manager_id": "44485295-7314-40ee-831d-d9edfa337050"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KMLB",
+   "fcc_call": "KMLB",
+   "facility_id": "35249",
+   "root_folder": "f99fa547-c102-0ff6-bbe1-b45c7d71d202",
+   "profile": "am-profile/kmlb",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "1a75ff96-538a-3997-433d-c1eee7be129a",
+    "2015": "598f5578-7349-4fc7-ac79-eb1b129eb1b5",
+    "2016": "8c947932-34af-6e9a-0329-23bd2b3f2eeb",
+    "2017": "f1dc80c8-5fb7-1393-709e-af09a4f24643",
+    "2018": "b67310ab-cd8f-28e4-f36a-b82ab8e5ff50",
+    "2019": "5035ae69-b77e-2d67-b12d-ca5aad1385a9",
+    "2020": "1a6d362d-b2e7-becc-05ab-c7b85d657a12",
+    "2021": "27d911e4-823b-42e7-b7ad-998d872dd353",
+    "2022": "ca5d221e-5a35-2e96-7c05-559d67ff2d22",
+    "2023": "5a063d73-7d3f-747d-0fab-8d3d88eeb57f",
+    "2024": "677f768d-e486-eba6-a776-a35922e81953",
+    "2025": "d6193b7d-bd79-3028-8868-f5597b38ed77",
+    "2026": "ec6c586d-dc67-c8df-fe8a-0e254b3054ef"
+   },
+   "folders": {
+    "Political Files/2026": "ec6c586d-dc67-c8df-fe8a-0e254b3054ef",
+    "Political Files/2026/Federal": "13e80d94-eca2-ada9-a0c8-6a20281ae1af",
+    "Political Files/2026/Federal/US House": "37bd7192-4229-b425-a203-4996dc8804e7",
+    "Political Files/2026/Federal/US Senate": "cc9d14ee-065a-f969-cbb1-9fbaad80fbc3",
+    "Political Files/2026/Local": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+    "Political Files/2026/Non-Candidate Issue Ads": "add688fa-a47b-89fa-9d24-d6894d9181cb",
+    "Political Files/2026/State": "2ba88499-ce17-2569-d46d-ad5b2d0c4734"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Michael Echols KMLB 10-9-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T10:05:54-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "235fe496-dfd4-1ca1-aaef-df9026cb94ed",
+     "file_manager_id": "782f9c21-a6a4-4302-a15c-2dc3d9d18225"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Gabe Firment 10-6 OrderKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-07T17:25:16-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "cc6276c6-07e8-3a9a-3c27-aa7be1ec0f73",
+     "file_manager_id": "18e1a3a1-6d90-4791-8d2f-45ac0d6371b1"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Adam Cossey10-5-26OrderKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-07T17:24:57-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "e82f5fd8-5fb3-73fd-b383-1972603e0aed",
+     "file_manager_id": "a71bfcd4-5106-42c4-94d4-c5a5fadd9fcb"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "JohnAtkinsKMLBOctober",
+     "ext": "pdf",
+     "uploaded": "2026-10-06T13:35:49-04:00",
+     "folder_id": "2ba88499-ce17-2569-d46d-ad5b2d0c4734",
+     "file_id": "51607964-7930-b555-6bf9-d86c670a6794",
+     "file_manager_id": "cb67b4e2-5756-4cfe-aa1b-3b862328d119"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "JohnAtkinsKMLBorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:03:16-04:00",
+     "folder_id": "2ba88499-ce17-2569-d46d-ad5b2d0c4734",
+     "file_id": "865c1b8c-1c29-5f68-e90f-149c6bd788d9",
+     "file_manager_id": "e0b2604b-a769-44a0-b061-17317b37e63a"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "AlvinSharpKMLBorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:02:58-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "6c78aa15-eb15-bfcc-2556-7227ed943654",
+     "file_manager_id": "456c0a37-3f02-48cd-8a03-aa7e60adff29"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "CosseyKMLBorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:02:58-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "63183856-1c1f-84ba-9118-8f0da00c0016",
+     "file_manager_id": "3fc5494c-859f-4e29-8c01-8f03c2329e58"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "RaisetheBarKMLBorders",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T11:02:20-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "e87e7200-2753-00bf-217a-dd5ed8ba938d",
+     "file_manager_id": "6f8f14fe-27f8-4537-b46b-46c8aa7c9268"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "AdamCosseyJudgeKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-05T10:37:34-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "397f0e47-f6f1-70c9-0843-a14bc8fb7f2c",
+     "file_manager_id": "71a77e6f-a6fb-49ba-a76e-7cf80c2cfdc2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "RaisetheBarKMLB1strun",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:26:36-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "ffa38bd7-0d84-0e22-657c-a1dc6fe75afd",
+     "file_manager_id": "5f1e4237-5f4f-41a6-a5fd-8a66c27f9bae"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "RaisetheBarKMLB2ndrun",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:26:36-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "50da8651-bf22-4776-1176-e1cb42018495",
+     "file_manager_id": "45841f73-209d-4239-8b9e-45ac647ba0d6"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "AtkinsPublicServiceCommKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:17:13-04:00",
+     "folder_id": "2ba88499-ce17-2569-d46d-ad5b2d0c4734",
+     "file_id": "c171e7d2-32cf-5a4c-c1f5-65d212ec6aa1",
+     "file_manager_id": "bdcf491a-9162-4c4e-8b06-04f6f822d535"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "RaisetheBarKMLB1strun",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:17:13-04:00",
+     "folder_id": "2ba88499-ce17-2569-d46d-ad5b2d0c4734",
+     "file_id": "435b0170-10f4-0042-24f8-13053f1189ef",
+     "file_manager_id": "381c98c1-558a-4828-947d-90305da0a7f0"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "RaisetheBarKMLB2ndrun",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:17:13-04:00",
+     "folder_id": "2ba88499-ce17-2569-d46d-ad5b2d0c4734",
+     "file_id": "d42ca4a1-8854-21ad-1b57-010dfc74d64e",
+     "file_manager_id": "4e3417b0-b785-44bb-8a62-4625f61a11fb"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "AlvinSharpDistrictAttorneyKLIPKMLBKMVX",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:14:39-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "c094f551-f5b1-e0a9-5dcd-311eefcee767",
+     "file_manager_id": "16162cd7-9fbf-4673-b132-3005bff7e98f"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "ColvinDistrictAttorneyKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:14:39-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "2da96265-cdf5-4f7b-67ad-7cb8745ae340",
+     "file_manager_id": "2f6c4471-ddbf-4132-a21d-6d0e87f70ba5"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "CosseyDistrictJudgeKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:14:39-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "08b8a8e6-594e-24cb-09e2-07de59c1e5bb",
+     "file_manager_id": "a3c3863d-4685-46b7-92c6-a7c9c0c1f17f"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "CosseyKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:14:39-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "9ea68402-842e-80d1-ee76-8dae4520e9cf",
+     "file_manager_id": "724dc199-51a3-42cb-b39b-5679d614a697"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "MaryBryantJudgeKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-10-01T19:14:39-04:00",
+     "folder_id": "b5ebb5c1-94dc-84aa-2259-53d75bbc9fee",
+     "file_id": "a8331295-9c81-1a63-6997-052e0f1057ff",
+     "file_manager_id": "008b8fc9-9c09-4226-85a2-40b6d56447c0"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "RaiseBarKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-09-09T15:53:12-04:00",
+     "folder_id": "2ba88499-ce17-2569-d46d-ad5b2d0c4734",
+     "file_id": "d084d6e6-1806-f6ac-39de-89aa56392024",
+     "file_manager_id": "c5762040-667c-490a-a92b-8a016e4238e8"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "AccountabilityProjectKMLB",
+     "ext": "pdf",
+     "uploaded": "2026-06-12T11:57:00-04:00",
+     "folder_id": "add688fa-a47b-89fa-9d24-d6894d9181cb",
+     "file_id": "25920c07-718f-6a9f-5b70-541e3222aead",
+     "file_manager_id": "eb79e1f9-da54-4f1a-a11a-2baa3e30440e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "FlemingKMLBKigfish",
+     "ext": "pdf",
+     "uploaded": "2026-06-12T11:56:05-04:00",
+     "folder_id": "cc9d14ee-065a-f969-cbb1-9fbaad80fbc3",
+     "file_id": "d22b280d-964d-b27c-7a2b-a8567e9e23c2",
+     "file_manager_id": "5c8ba952-66fb-4f25-812e-84c1b05f0a30"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguez",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "f51c0a1c-a348-7038-9fee-812887a75d27",
+     "file_manager_id": "153a6f20-f0fd-4e49-9fec-524db174d7e9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguezpt2",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "2d9d40ae-f360-221f-9505-a160495ef460",
+     "file_manager_id": "9d1195e1-62f5-4a2c-8d9b-51bb784149d6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguezpt3",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "55d957db-69f5-5520-4494-44d39ed7874c",
+     "file_manager_id": "e248a324-6d38-4255-bee9-7fb90108561c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguezpt4",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "561861d7-bd67-4ee0-f409-f6d0a9e6328a",
+     "file_manager_id": "e95c2bd8-cc43-4eee-b231-6367ab0a202a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguezpt5",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "6e260460-266b-88e6-a3b2-faa85318f1af",
+     "file_manager_id": "eb71cfd0-eebb-498a-ae0d-ecb4a6124d81"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguezpt6",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "3524b96c-8751-1c23-20d4-004b5ec80f0d",
+     "file_manager_id": "abbe17fc-b452-4034-800f-24d0ee0b5dd5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "BlakeMiguezpt7",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:32:12-04:00",
+     "folder_id": "37bd7192-4229-b425-a203-4996dc8804e7",
+     "file_id": "b2e06eef-1496-3e86-c201-cf39aab62b43",
+     "file_manager_id": "0a922a9a-59ce-4eac-b6ab-b2b1a52ed2dd"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "LouisianaFreedomFund",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:07:43-04:00",
+     "folder_id": "add688fa-a47b-89fa-9d24-d6894d9181cb",
+     "file_id": "c9503569-89ed-3b49-9bf5-614d6ef92ccc",
+     "file_manager_id": "5e37b860-11da-4867-9b5f-5501518289a6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "RaiseBarPACpt3",
+     "ext": "pdf",
+     "uploaded": "2026-04-17T11:06:47-04:00",
+     "folder_id": "add688fa-a47b-89fa-9d24-d6894d9181cb",
+     "file_id": "1f8faa1a-2fe5-630a-b0ce-936806f32373",
+     "file_manager_id": "0d0c3784-46f0-4528-9cd1-035a041cc728"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KZRZ",
+   "fcc_call": "KZRZ",
+   "facility_id": "52510",
+   "root_folder": "a3f3379c-473e-3c07-c488-f2eda0ea72ac",
+   "profile": "fm-profile/kzrz",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "ac5e12f8-2bda-60ac-e45a-f5dc719656bd",
+    "2015": "6189fa89-9d60-2fdc-3e50-cf228ae3a0a4",
+    "2018": "e8ae5300-5b9d-1599-e933-1a82460652b1",
+    "2019": "699edc8a-f779-7840-5561-9c3fb6a747ba",
+    "2020": "9dd2d51c-0ec4-8095-32a0-73f0a1f378df",
+    "2021": "50754fc5-9c07-27fd-8045-ac6889e3647f",
+    "2022": "cdd17858-51ba-0cdd-0b8b-6aa41f5d9d2d",
+    "2023": "8253ecb6-ab9e-6722-9af7-c92b9885b752",
+    "2024": "eaedd414-b43c-4e05-b248-293caf5e4b86",
+    "2025": "978ff8fe-14d3-eb74-43fe-dd6892ba90ce",
+    "2026": "8e6b2fe8-2b29-bf95-0384-f6f2100ea129"
+   },
+   "folders": {
+    "Political Files/2026": "8e6b2fe8-2b29-bf95-0384-f6f2100ea129"
+   },
+   "files": [],
+   "stale": false
+  },
+  {
+   "call": "KGLA",
+   "fcc_call": "KGLA",
+   "facility_id": "56559",
+   "root_folder": "4735ac1d-78f7-bad3-05db-17790a77f4fc",
+   "profile": "am-profile/kgla",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "7de1498d-347d-e0e3-9686-114e1b1281a0",
+    "2015": "a0746d6e-e47a-9c8d-4011-ed6d002df20b",
+    "2016": "ffbca4de-98cb-e77b-f870-aa7e48b92879",
+    "2017": "77c1ef68-86d7-b2cd-cc8b-be3fedfcb1e3",
+    "2018": "5a82b47e-8f15-2079-f931-48a923bdf5fa",
+    "2019": "dbc47e03-2a44-5cf5-d7b4-77a9e6d4a4e6",
+    "2020": "5154045b-face-948f-bd2e-a075c683f30d",
+    "2021": "f7a3c6f0-0828-5df6-ec74-5f03f22aac69",
+    "2022": "95c20816-2add-1a10-369a-9a786dc55760",
+    "2023": "f6828e17-ecd9-9051-4221-1acb54829437",
+    "2024": "b7837767-00fe-5603-078c-e669c250ab58",
+    "2025": "28deea86-cacd-ff78-a4ea-8d00f621eea3",
+    "2026": "b3582070-74ca-52e6-83a3-ca664fe3d322"
+   },
+   "folders": {
+    "Political Files/2026": "b3582070-74ca-52e6-83a3-ca664fe3d322"
+   },
+   "files": [],
+   "stale": false
+  },
+  {
+   "call": "WFMF",
+   "fcc_call": "WFMF",
+   "facility_id": "4053",
+   "root_folder": "9bb7ee2f-fa01-32d9-422d-fa8760975387",
+   "profile": "fm-profile/wfmf",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "5c0c61cb-a965-ac35-bb66-ea6226b43b3c",
+    "2015": "682c9a3f-c8f3-d563-146d-fc0a0a6da82a",
+    "2016": "8f2a38ef-a76f-09c1-5962-137783878a6d",
+    "2017": "f99fffee-cb35-434d-19c3-1c42c673927e",
+    "2018": "09224bea-f7f0-82d1-4cbd-82dcfe7439f3",
+    "2019": "43d7c4fb-f858-6db3-e5d7-73cb0c7b5784",
+    "2020": "2cdaa1b8-2204-bc75-fb95-21fae1221213",
+    "2021": "b92b3de3-b1e9-7fdf-6907-b89155fb7748",
+    "2022": "398c4c9a-5e3d-f57e-2680-ab68e9a6a7f0",
+    "2023": "deb903ef-f8e1-3a06-87ba-3ccaebd0721d",
+    "2024": "928f8bb2-af14-fd8e-9008-f464053fafca",
+    "2025": "a4422034-492c-2182-411f-64a5242322c9",
+    "2026": "f685054f-50b0-92c6-68aa-9808a8e83a9d"
+   },
+   "folders": {
+    "Political Files/2026": "f685054f-50b0-92c6-68aa-9808a8e83a9d",
+    "Political Files/2026/Federal": "383b74ee-b09d-df58-2fa0-7e34e194a415",
+    "Political Files/2026/Federal/US House": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+    "Political Files/2026/Local": "daf683cb-aa48-7658-876e-eb58c15fac0a",
+    "Political Files/2026/Non-Candidate Issue Ads": "4a6fa626-16bf-24e2-638f-0e434be3af65"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "j_andrew_murrell_for_justice_of_the_peace_district_5_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-09-23T14:43:33-04:00",
+     "folder_id": "daf683cb-aa48-7658-876e-eb58c15fac0a",
+     "file_id": "2c2fc584-4c25-7216-88f1-1946715a142a",
+     "file_manager_id": "1f832b02-7703-4136-b14e-822372765250"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "robert_ainsworth_for_justice_of_the_peace_district_6_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-09-23T14:41:34-04:00",
+     "folder_id": "daf683cb-aa48-7658-876e-eb58c15fac0a",
+     "file_id": "43aedc85-319c-0278-2177-0dcf200ddad6",
+     "file_manager_id": "aa1476df-08cf-4f13-a8b7-01043fbbaa66"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "dajuana_leduff_w_moore_justice_of_the_peace_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-09-17T15:22:39-04:00",
+     "folder_id": "daf683cb-aa48-7658-876e-eb58c15fac0a",
+     "file_id": "d94ecf64-7c1a-b548-6730-d2923f843ff5",
+     "file_manager_id": "fd4368e6-b84e-4e41-8b33-6451479b36e7"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "hillar_moore_iii_for_district_attorney_for_the_19th_judicial_district_court_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-09-08T16:57:10-04:00",
+     "folder_id": "daf683cb-aa48-7658-876e-eb58c15fac0a",
+     "file_id": "fc5c5562-90cc-2721-f77e-965e5649cf1c",
+     "file_manager_id": "d21983a3-31ce-4d86-980a-8235bbb6e1e3"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "michael_mebruer_for_us_representatives_sixth_congressional_district",
+     "ext": "pdf",
+     "uploaded": "2026-09-03T14:06:11-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "e693b160-ddd5-8e1b-62ec-81d4135ddaa3",
+     "file_manager_id": "f3e7486c-98f8-437c-a2d1-d719b2624d18"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "walter_beach_for_us_representatives_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T09:24:05-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "b063454a-175a-b2c9-8233-5fb41e00f29d",
+     "file_manager_id": "a3fe65e2-dda3-417b-8588-5dd16ec5c8f2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "patrick_forbes_for_us_representative_6th_congressional_district_broadcast_appearance_revised",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T09:21:41-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "753ecff2-cba4-9c38-6cfe-04779959b5f2",
+     "file_manager_id": "14d6b236-e054-406c-8833-f4ca9ebbe653"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "rufus_craig_for_us_representative_6th_congressional_district_broadcast_appearance_revised",
+     "ext": "pdf",
+     "uploaded": "2026-08-28T09:19:20-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "3a182937-0c87-76a9-f9a4-2a35623d3897",
+     "file_manager_id": "969b60de-d40e-4b94-ad5a-1cd1973c08cd"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "larry_davis_iii_for_us_representative_6th_congressional_district_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-08-27T19:02:05-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "8c333f26-e308-0b31-db7b-21c439403a88",
+     "file_manager_id": "a0d13a20-ec25-4f86-b81c-abe2d5ef63fc"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "patrick_forbes_for_us_representative_6th_congressional_district_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-08-27T19:00:13-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "1418fdfc-80a1-1bef-b86c-7a6e3f94ef89",
+     "file_manager_id": "39bf6e4a-56a0-41fb-91de-aa4f83885086"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "rufus_craig_for_us_representative_6th_congressional_district_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-08-27T18:57:51-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "aa782e96-ea9e-cd79-bfdc-cb62257f29d0",
+     "file_manager_id": "d8a92d07-505d-4d93-a2df-fbf0ca30c53e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "monique_appeaning_for_us_representatives_6th_congressional_district_broadcast_appearance",
+     "ext": "pdf",
+     "uploaded": "2026-08-27T18:47:46-04:00",
+     "folder_id": "de0e8477-5fd2-b9c9-1168-553b9bd4ed2f",
+     "file_id": "9e6c5445-01ae-4f2e-0f14-fc74026a15b9",
+     "file_manager_id": "99c3e2df-ee35-4136-ac54-d31390184322"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "iheart_media_keep_am_in_cars_nab",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:53:57-04:00",
+     "folder_id": "4a6fa626-16bf-24e2-638f-0e434be3af65",
+     "file_id": "b436a937-83a5-c958-0552-290ac615e5c9",
+     "file_manager_id": "47daa5ec-743c-419d-90c7-0c33bfa7ba71"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "stand_together_network_nab_212582",
+     "ext": "pdf",
+     "uploaded": "2026-03-30T09:50:53-04:00",
+     "folder_id": "4a6fa626-16bf-24e2-638f-0e434be3af65",
+     "file_id": "21c05e69-aebf-f0fe-2a8b-fd9227d1c93d",
+     "file_manager_id": "5e353067-3170-4a48-b65f-dbf5023a0d8a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "national_association_of_broadcasters_nab_multi_market_revised",
+     "ext": "pdf",
+     "uploaded": "2026-03-02T13:39:10-05:00",
+     "folder_id": "4a6fa626-16bf-24e2-638f-0e434be3af65",
+     "file_id": "a7cb6672-eb76-5f2e-c888-230de3ab381f",
+     "file_manager_id": "95d67130-2e14-429f-a32b-a75391d0ca0b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "national_association_of_broadcasters_nab_multi_market",
+     "ext": "pdf",
+     "uploaded": "2026-03-02T13:25:51-05:00",
+     "folder_id": "4a6fa626-16bf-24e2-638f-0e434be3af65",
+     "file_id": "fd88e0af-6138-fa80-8b75-6a71b88ab50b",
+     "file_manager_id": "611803d3-5805-4993-a145-d4806ab02cca"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KEUN",
+   "fcc_call": "KEUN",
+   "facility_id": "67746",
+   "root_folder": "bf5a28ca-faa1-3a96-36f4-0be94358c5f8",
+   "profile": "am-profile/keun",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2016": "3def7a6f-3109-b5a8-f287-c19c5c684ae2",
+    "2017": "c0b30f95-bf14-6107-744d-d108392a628d",
+    "2018": "b5f9b004-34ff-2bcd-5d5c-24245a78fdf7",
+    "2019": "01e1c1cb-0569-fc4c-3942-ab6e39926428",
+    "2020": "d623b0ff-8009-74a9-3cce-8c7ff41f8926",
+    "2021": "fe33cdd6-fa01-7cdc-0dc4-bf41fa4043bc",
+    "2022": "8b4dfae1-feae-d696-e1ce-642dae50a8dd",
+    "2023": "ba66bf05-dfea-b741-fdaf-8311e37effc5",
+    "2024": "45153eef-19d5-f169-12d9-b6e8d0cd75cc",
+    "2025": "b5b12db4-343d-7220-4085-3d612bf506a5",
+    "2026": "7c6d04fb-47dc-8e63-1651-51a93554f79a"
+   },
+   "folders": {
+    "Political Files/2026": "7c6d04fb-47dc-8e63-1651-51a93554f79a",
+    "Political Files/2026/Non-Candidate Issue Ads": "c8a6eeb1-45d7-30b3-0843-6c03821f0de1"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "GMP_Feb2026_7856",
+     "ext": "pdf",
+     "uploaded": "2026-02-08T14:59:58-05:00",
+     "folder_id": "c8a6eeb1-45d7-30b3-0843-6c03821f0de1",
+     "file_id": "0778ecc5-a604-0fc5-046c-2416e5a7d6d1",
+     "file_manager_id": "1f67674e-90a4-45ee-a2c3-4e6264ef04ca"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "GMP_Feb2026_2",
+     "ext": "pdf",
+     "uploaded": "2026-02-08T14:59:45-05:00",
+     "folder_id": "c8a6eeb1-45d7-30b3-0843-6c03821f0de1",
+     "file_id": "154044e4-565b-22ac-1315-eadd6721cae4",
+     "file_manager_id": "0a23f4c7-d322-4311-91df-c34b9dcce36b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "GMP_Feb2026",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T22:49:59-05:00",
+     "folder_id": "c8a6eeb1-45d7-30b3-0843-6c03821f0de1",
+     "file_id": "2ffb76b0-d5cb-5aab-45b6-2ecf4a0e7d64",
+     "file_manager_id": "75bd302b-a32a-4305-9d38-52b2a47bede8"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KHLA",
+   "fcc_call": "KHLA",
+   "facility_id": "8169",
+   "root_folder": "c6b55acc-733b-1e05-3d77-e2f1fff9331a",
+   "profile": "fm-profile/khla",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2014": "e6ce1557-67cd-8e7c-153e-807bd2c5b4e1",
+    "2015": "f5796661-b5ac-51e0-1d8f-5c58cda17041",
+    "2016": "846b8d0c-3d1c-8291-0a68-dd4dcc2354ca",
+    "2017": "56c914b3-fb4f-df78-f9a2-cabaf8d368fd",
+    "2018": "f23dce50-cdb8-3321-ee9c-f923a137c6ed",
+    "2019": "180452a2-721a-9c7f-78d9-fdbae1306fa1",
+    "2020": "eed50e5a-41dc-3fb4-cf5b-98e97a33c03a",
+    "2021": "2613a9c3-df7a-dd9e-27a1-9558a9bcd6a3",
+    "2022": "850e5751-ade3-abd8-3658-297c0bd0f547",
+    "2023": "7d7dda04-9e0d-5610-a95b-84e53b53c9d5",
+    "2024": "249eb6b4-961c-1a0f-4d4b-d9b9d9c653fb",
+    "2025": "b46440cf-51fb-247f-68e1-d8fa3b32e42d",
+    "2026": "f310463b-787b-7bf2-f9dc-ca208737fbe7"
+   },
+   "folders": {
+    "Political Files/2026": "f310463b-787b-7bf2-f9dc-ca208737fbe7",
+    "Political Files/2026/Local": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+    "Political Files/2026/Non-Candidate Issue Ads": "060dc631-4fff-caf0-3861-ba744f9bc394",
+    "Political Files/2026/State": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "PB-AM Radio FINAL",
+     "ext": "pdf",
+     "uploaded": "2026-09-25T12:21:42-04:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "5312b7c7-7513-6c97-655b-7037313b28fa",
+     "file_manager_id": "120953b3-3da7-443a-bf8b-d92804d82a98"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB Political AM Radio in Car KHLA Contract",
+     "ext": "pdf",
+     "uploaded": "2026-09-25T12:21:41-04:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "355ba86b-0856-a07c-e580-a23d86f698ea",
+     "file_manager_id": "06834318-69fc-405a-afcf-c708d12d830c"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Steve Gunnell District Judge NAB Form",
+     "ext": "pdf",
+     "uploaded": "2026-09-22T10:29:46-04:00",
+     "folder_id": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+     "file_id": "1df4a8af-1b92-25ac-6efa-69535e698114",
+     "file_manager_id": "39443e85-918f-4552-bf6d-0be96286553e"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Steve Gunnell Re Elect Judge Signed Schedule",
+     "ext": "pdf",
+     "uploaded": "2026-09-22T10:29:46-04:00",
+     "folder_id": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+     "file_id": "7fd5f241-c4f1-4e3a-3d6e-029bbbabf620",
+     "file_manager_id": "08827d25-87a5-4aec-9345-e59c026a1411"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Steve Gunnell District Judge Contract KHLA",
+     "ext": "pdf",
+     "uploaded": "2026-09-22T10:29:45-04:00",
+     "folder_id": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+     "file_id": "f8b1ff81-f6e6-d5f5-23b8-019445e04677",
+     "file_manager_id": "63a08962-e139-476a-93ae-cb704b44a44a"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Daniel Sparks District Attorney Radio Agreement NAB",
+     "ext": "pdf",
+     "uploaded": "2026-09-18T15:57:44-04:00",
+     "folder_id": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+     "file_id": "c4b683a0-e797-04c9-3d54-8a4d71f85d15",
+     "file_manager_id": "b7e90ec5-e6e5-4776-8b5c-55d63c7cdffe"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Daniel Sparks District Attorney KHLA",
+     "ext": "pdf",
+     "uploaded": "2026-09-18T15:57:43-04:00",
+     "folder_id": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+     "file_id": "9da7bd16-6cdf-f651-a506-80e1338e0c17",
+     "file_manager_id": "487965e7-6910-4dda-a24c-4b409ec1e69c"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Daniel Sparks Signed Schedule",
+     "ext": "pdf",
+     "uploaded": "2026-09-18T15:57:43-04:00",
+     "folder_id": "d91e885c-0f3f-62a6-34a3-52d00d415b93",
+     "file_id": "36f135c5-56f1-6c68-14e6-7ecf129388ca",
+     "file_manager_id": "cd9c539d-bb1d-46bb-9e84-82fa0d53cccb"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB-PB-Media Ownership (1)",
+     "ext": "pdf",
+     "uploaded": "2026-09-04T12:21:36-04:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "fbcf4c0f-37c3-e7f8-a17d-b7bdf83765fa",
+     "file_manager_id": "43495f8d-4553-4a9b-9a93-e0d87046cc33"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "Media Ownership KHLA Contract",
+     "ext": "pdf",
+     "uploaded": "2026-09-04T12:21:34-04:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "483de9e2-984c-9cda-ec8e-0025e25a0cc5",
+     "file_manager_id": "bd96486e-ae1e-4f3b-a165-3edc4c5beff1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "PB-19 AM Radio in Cars UPDATED",
+     "ext": "pdf",
+     "uploaded": "2026-05-29T16:14:31-04:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "f584ec03-cb77-399d-22a6-c2ba6aad5699",
+     "file_manager_id": "0f54f24a-532a-4847-9caa-4cdaf70fc985"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "NAB Political Contract KHLA Estimate NAB - AM Radio_AL001",
+     "ext": "pdf",
+     "uploaded": "2026-05-29T16:14:30-04:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "a057942c-26a1-4a22-6edb-20c911480c67",
+     "file_manager_id": "ee8c44c5-72e1-4e1b-bbdf-2b5b75a3f27d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "PB-19 AM Radio in Cars UPDATED",
+     "ext": "pdf",
+     "uploaded": "2026-02-16T11:19:11-05:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "5302b023-8c5b-4aa8-8ef7-a11c4d0e528f",
+     "file_manager_id": "d3f1c312-d6ce-4402-851f-3bec06ad3e0b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "AM Radio in Cars KHLA",
+     "ext": "pdf",
+     "uploaded": "2026-02-16T11:19:08-05:00",
+     "folder_id": "060dc631-4fff-caf0-3861-ba744f9bc394",
+     "file_id": "5c648964-b1da-6362-da81-0faa0106d948",
+     "file_manager_id": "5bb68613-3017-4fa1-bdb4-a12d80d6ca40"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "Skip Broussard State Representative Contract KHLA Extension 6411503A",
+     "ext": "pdf",
+     "uploaded": "2026-02-04T10:06:01-05:00",
+     "folder_id": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8",
+     "file_id": "0d68f414-6a11-7c7a-65ce-c38958922e53",
+     "file_manager_id": "24f47548-47c2-40cc-9e1f-9bbbf6ba3419"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "Skip Broussard State Representative Order KHLA Extension 6411503A",
+     "ext": "pdf",
+     "uploaded": "2026-02-04T10:06:01-05:00",
+     "folder_id": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8",
+     "file_id": "d367fb1f-0675-1fec-fd80-eb41e624d412",
+     "file_manager_id": "1195ce75-1a1c-412e-9038-fc75e960a232"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "Skip Broussard State Representative Order KHLA 6411503A",
+     "ext": "pdf",
+     "uploaded": "2026-01-29T15:13:08-05:00",
+     "folder_id": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8",
+     "file_id": "51e1d07b-362b-767f-5f44-335ec81859ba",
+     "file_manager_id": "038fbdad-02bc-4170-95a9-11e38c9ad598"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "Skip Broussard State Representative Contract KHLA 6411503A--1",
+     "ext": "pdf",
+     "uploaded": "2026-01-29T15:06:10-05:00",
+     "folder_id": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8",
+     "file_id": "8c903bb5-f243-dd7c-7ca6-0acb29f07230",
+     "file_manager_id": "bd880561-9ecb-4f62-8bd4-87a0f10a39c6"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "SkipBroussardCandidateAgreementForm",
+     "ext": "pdf",
+     "uploaded": "2026-01-29T14:37:47-05:00",
+     "folder_id": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8",
+     "file_id": "0149e942-405a-bdce-57d1-0880e7037207",
+     "file_manager_id": "6de5f80b-219a-4713-99bb-2f2aa3026e87"
+    },
+    {
+     "path": "Political Files/2026/State",
+     "name": "Skip Broussard Candidate Order Grid",
+     "ext": "pdf",
+     "uploaded": "2026-01-29T14:37:47-05:00",
+     "folder_id": "8e0bb5a9-2fa0-3f6d-998a-82159ed42cb8",
+     "file_id": "ad953fed-3869-58f4-a0f4-25c828ddc588",
+     "file_manager_id": "5592a06c-8ef6-4d1d-8d55-977effb09aea"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "KSMB",
+   "fcc_call": "KSMB",
+   "facility_id": "41057",
+   "root_folder": "885553e5-c87c-43f1-81fe-9212fba9e544",
+   "profile": "fm-profile/ksmb",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2018": "cee675b1-fbfe-3f26-1667-a97d1f53f0cf",
+    "2019": "0dca29ed-9b7c-bb9b-3489-f978ab0e1a77",
+    "2020": "5db0b07a-19d2-064a-f647-883927a7293b",
+    "2021": "6dca9f12-8b82-23ae-86b5-9dfac6d43358",
+    "2022": "ce53b222-ebb0-0b2a-5dd7-b4005e5868f3",
+    "2023": "8d98fbf1-3fbd-dfb7-be39-b57eb5ef969d",
+    "2024": "a793482f-34c9-b495-f5c8-c0ebcb716cdb",
+    "2025": "50fae4a7-a25f-37a9-9e1b-f05b5df2ac8a",
+    "2026": "61ca31bb-8679-6221-a41f-1eef7219c056"
+   },
+   "folders": {
+    "Political Files/2026": "61ca31bb-8679-6221-a41f-1eef7219c056"
+   },
+   "files": [],
+   "stale": false
+  },
+  {
+   "call": "WRQQ",
+   "fcc_call": "WRQQ",
+   "facility_id": "61271",
+   "root_folder": "368fb021-b743-7297-2343-1c42164e74d1",
+   "profile": "fm-profile/wrqq",
+   "scraped_at": "2026-10-13T00:27:02Z",
+   "year_folders": {
+    "2018": "b286a22b-cb17-ead6-5abf-0cfb8d7416f9",
+    "2019": "ed99f005-5faa-ec66-61be-2c551f8bf7b3",
+    "2020": "9433c928-418a-abfe-f822-bc1ec3dea370",
+    "2021": "57568d6e-da81-2684-e61b-2bfc7add6824",
+    "2022": "2be38483-c481-c0ed-311b-8509e537f980",
+    "2023": "23cb06ed-9485-9044-007d-fb82a5d12d86",
+    "2024": "8a80de57-44bf-df63-4726-681841e64a79",
+    "2025": "dcfc29bc-9d46-5c3e-f2e3-a3e5fac138b2",
+    "2026": "f9c0b1fc-7071-d72c-840b-77bfd8d4581d"
+   },
+   "folders": {
+    "Political Files/2026": "f9c0b1fc-7071-d72c-840b-77bfd8d4581d",
+    "Political Files/2026/Federal": "cff7d446-8740-8f4c-666c-039d4988f34c",
+    "Political Files/2026/Federal/US Senate": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+    "Political Files/2026/Local": "64d535d8-7db0-7f1b-8530-2fe2c6bcb8ce",
+    "Political Files/2026/Non-Candidate Issue Ads": "a26a5b9f-7eb1-ab98-0e66-0ecd1e638c3c",
+    "Political Files/2026/Terms and Disclosures": "396427ae-50bf-c452-35c6-246b57532617"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1596087 - Community for Change - WRQQ-FM Invoice 5.26",
+     "ext": "pdf",
+     "uploaded": "2026-07-09T09:33:02-04:00",
+     "folder_id": "a26a5b9f-7eb1-ab98-0e66-0ecd1e638c3c",
+     "file_id": "d23a484b-efff-cca3-7301-33f51adabf73",
+     "file_manager_id": "d4474f24-a980-41c4-b346-77820aeac99d"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1586307-Guillard_D_Family Court Judge-WRQQ-FM-Invoice May2026",
+     "ext": "pdf",
+     "uploaded": "2026-06-02T13:29:09-04:00",
+     "folder_id": "64d535d8-7db0-7f1b-8530-2fe2c6bcb8ce",
+     "file_id": "29539753-f5b9-97ea-5b05-0589ba5a0fb3",
+     "file_manager_id": "2b59cf76-d301-42e1-98bf-9a3d627019b5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1587484-Cassiday_R_Senate-WRQQ-FM-Invoice May 2026",
+     "ext": "pdf",
+     "uploaded": "2026-06-02T13:26:35-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "7a651b56-17d9-db20-6739-f3e09df8f99e",
+     "file_manager_id": "2af9b73b-6af0-4423-bc24-c3e7ef68d984"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1590270-Cassidy_R_Senate-WRQQ-FM-Invoice May2026",
+     "ext": "pdf",
+     "uploaded": "2026-06-02T13:26:35-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "066f3dbe-2b72-1620-79c7-9501b0ced60e",
+     "file_manager_id": "449bb397-5719-46dc-898c-3c775a566134"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1595601-Cassidy_R_Senate-WRQQ-FM-Invoice May2026",
+     "ext": "pdf",
+     "uploaded": "2026-06-02T13:26:35-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "797f40bc-75d5-b6d1-4571-7358edf57102",
+     "file_manager_id": "d167b59a-f746-47f3-8208-7afe36725cd0"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1596087-Community for Change-WRQQ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-05-15T16:23:13-04:00",
+     "folder_id": "a26a5b9f-7eb1-ab98-0e66-0ecd1e638c3c",
+     "file_id": "77a95ea0-a2a9-791e-6146-160e6afa11a1",
+     "file_manager_id": "fe01e1c0-1d38-4f48-bfd8-64d0e5c67cb9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1595601-Cassidy-WRQQ-FM-REV 1",
+     "ext": "pdf",
+     "uploaded": "2026-05-15T16:22:16-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "8cf19bdc-e51a-5471-e0d2-95d725bd4908",
+     "file_manager_id": "86a0c451-9785-468f-a7ae-ab9346818a11"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1595601-Cassidy_R_Senate-WRQQ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T16:17:30-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "9aa7bf35-8ffb-1945-fc12-6dc9dc905bf6",
+     "file_manager_id": "9989c4e6-47a0-4a04-8c0f-6630caf60a39"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1586307-Guillard_D-Family Court Judge-WRQQ-FM- Invoice 04.2026",
+     "ext": "pdf",
+     "uploaded": "2026-05-06T09:55:13-04:00",
+     "folder_id": "64d535d8-7db0-7f1b-8530-2fe2c6bcb8ce",
+     "file_id": "e2b3f142-54e7-daab-444e-f2ba47802832",
+     "file_manager_id": "60469d04-3e1a-45f9-a09e-4d073caee72b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1585317-Cassidy_D_Senate-WRQQ-FM-Invoice 04.2026",
+     "ext": "pdf",
+     "uploaded": "2026-05-06T09:54:37-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "9c1b2907-2cf8-a4c3-defd-95226c167fb2",
+     "file_manager_id": "0c24baaf-1d4c-4e0b-b614-020c2755507b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1590270-Cassidy_D_Senate-WRQQ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-05-01T14:14:01-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "45ae448c-89d3-cc4e-f04d-fba47ec4fe93",
+     "file_manager_id": "f61a77d7-d729-4871-8b19-74573d042fed"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1587484-Cassidy_D_Senate-WRQQ-FM-Revision",
+     "ext": "pdf",
+     "uploaded": "2026-04-27T14:44:16-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "b9f05a36-74e5-4b7b-3117-392697045d15",
+     "file_manager_id": "16b39ae2-95a1-44ca-bf98-18b55f015c15"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1587484-Cassidy_D_Senate-WRQQ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-04-24T15:09:57-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "8cc48a39-b617-3bd2-58ec-9ba4366eac42",
+     "file_manager_id": "ca460abc-a22d-45f9-b1be-a4505919a422"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1586307-Guillard_D_Family Court Judge-WRQQ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-04-22T14:21:29-04:00",
+     "folder_id": "64d535d8-7db0-7f1b-8530-2fe2c6bcb8ce",
+     "file_id": "be4e5417-03b3-af66-cc75-4d8fe227de91",
+     "file_manager_id": "7a1a30ac-b0b5-4352-aa1d-9dd656c78080"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1585317-Cassidy_D_Senate-WRQQ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-04-20T09:50:11-04:00",
+     "folder_id": "d00a995a-dcc9-442e-2f57-ad570bec237b",
+     "file_id": "cc831d03-bad1-796e-0a84-1c0bdd3bf641",
+     "file_manager_id": "cafffc59-7248-4f5b-8c74-8cf2e9e97e91"
+    },
+    {
+     "path": "Political Files/2026/Terms and Disclosures",
+     "name": "Baton Rouge 2026 Cumulus Political Disclosure",
+     "ext": "pdf",
+     "uploaded": "2026-03-10T12:06:54-04:00",
+     "folder_id": "396427ae-50bf-c452-35c6-246b57532617",
+     "file_id": "52366a9e-42a7-1369-e132-12c43be0d0ba",
+     "file_manager_id": "9b66cb2a-f82b-43ce-a547-2587fa6b017e"
+    }
+   ],
+   "stale": false
   }
  ],
  "failed": [],
@@ -12608,41 +16161,61 @@
  "blocked": null,
  "attempted": {
   "KAJN": "2026-10-12T19:14:55Z",
+  "KAOK": "2026-10-13T00:27:02Z",
   "KBON": "2026-10-12T19:14:55Z",
   "KBZE": "2026-10-12T19:14:55Z",
   "KDKS": "2026-10-12T20:29:34Z",
   "KEEL": "2026-10-12T19:14:55Z",
+  "KEUN": "2026-10-13T00:27:02Z",
   "KFXZ": "2026-10-12T20:29:34Z",
+  "KGLA": "2026-10-13T00:27:02Z",
+  "KHLA": "2026-10-13T00:27:02Z",
   "KJAE": "2026-10-12T20:29:34Z",
+  "KJLO": "2026-10-13T00:27:02Z",
+  "KLIL": "2026-10-13T00:27:02Z",
+  "KLKL": "2026-10-13T00:27:02Z",
   "KLWB": "2026-10-12T20:29:34Z",
   "KMDL": "2026-10-12T19:14:55Z",
   "KMEZ": "2026-10-12T19:14:55Z",
   "KMJJ": "2026-10-12T20:29:34Z",
+  "KMLB": "2026-10-13T00:27:02Z",
   "KMXH": "2026-10-12T20:29:34Z",
   "KNEK": "2026-10-12T19:14:55Z",
+  "KOKA": "2026-10-13T00:27:02Z",
   "KPEL": "2026-10-12T19:14:55Z",
   "KQKI": "2026-10-12T19:14:55Z",
   "KQXL": "2026-10-12T19:14:55Z",
   "KRMD": "2026-10-12T20:29:34Z",
+  "KRRQ": "2026-10-13T00:27:02Z",
   "KRVE": "2026-10-12T20:29:34Z",
+  "KRVV": "2026-10-13T00:27:02Z",
   "KSIG": "2026-10-12T20:29:34Z",
+  "KSMB": "2026-10-13T00:27:02Z",
   "KSYL": "2026-10-12T20:29:34Z",
   "KTDY": "2026-10-12T19:14:55Z",
+  "KVKI": "2026-10-13T00:27:02Z",
   "KVPI": "2026-10-12T20:29:34Z",
   "KXKS": "2026-10-12T20:29:34Z",
   "KYKZ": "2026-10-12T20:29:34Z",
+  "KZRZ": "2026-10-13T00:27:02Z",
   "KZWA": "2026-10-12T20:29:34Z",
   "WBOK": "2026-10-12T19:14:55Z",
+  "WBRP": "2026-10-13T00:27:02Z",
   "WDGL": "2026-10-12T20:29:34Z",
   "WEMX": "2026-10-12T20:29:34Z",
+  "WFMF": "2026-10-13T00:27:02Z",
   "WGSO": "2026-10-12T20:29:34Z",
+  "WGUO": "2026-10-13T00:27:02Z",
   "WJBO": "2026-10-12T19:14:55Z",
   "WKBU": "2026-10-12T20:29:34Z",
   "WLMG": "2026-10-12T19:14:55Z",
   "WNOE": "2026-10-12T19:14:55Z",
+  "WNXX": "2026-10-13T00:27:02Z",
   "WQUE": "2026-10-12T19:14:55Z",
   "WRNO": "2026-10-12T19:14:55Z",
+  "WRQQ": "2026-10-13T00:27:02Z",
   "WTGE": "2026-10-12T20:29:34Z",
+  "WTIX": "2026-10-13T00:27:02Z",
   "WWL": "2026-10-12T19:14:55Z",
   "WXOK": "2026-10-12T20:29:34Z",
   "WYLD": "2026-10-12T19:14:55Z",
