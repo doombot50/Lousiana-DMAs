@@ -426,7 +426,8 @@ class Races(unittest.TestCase):
              '900', st, dist, '', '', '', '', '', '0', '0', end, '0', '0'])
         text = '\n'.join([row('H8LA01087', 'SCALISE, STEVE', 'LA', '01', '1000.40', '500', '250', '09/30/2026'),
                           row('S6LA00001', 'LETLOW,  JULIA', 'LA', '00', '20', '10', '5', ''),
-                          row('H6TX01001', 'SOMEONE, ELSE', 'TX', '01', '1', '1', '1', '09/30/2026')])
+                          row('H6TX01001', 'SOMEONE, ELSE', 'TX', '01', '1', '1', '1', '09/30/2026'),
+                          row('P00006213', 'PRESIDENT, A', '', '00', '1', '1', '1', '09/30/2026')])
         got = fetch_fec.parse(text, fetch_fec.COLUMNS)
         self.assertEqual([c['id'] for c in got], ['S6LA00001', 'H8LA01087'])   # Senate first, Texas out
         self.assertEqual(got[1], {'id': 'H8LA01087', 'name': 'SCALISE, STEVE', 'office': 'H', 'district': '01',
@@ -435,6 +436,9 @@ class Races(unittest.TestCase):
         self.assertEqual((got[0]['name'], got[0]['through']), ('LETLOW, JULIA', None))
         with self.assertRaises(ValueError):
             fetch_fec.parse('C00123|short', fetch_fec.COLUMNS)
+        with self.assertRaises(ValueError):                      # a column shifted
+            fetch_fec.parse(row('H8LA01087', 'SCALISE, STEVE', 'LA', '01', 'REP', '500', '250', '09/30/2026'),
+                            fetch_fec.COLUMNS)
         self.assertEqual([fetch_fec.cycle_for(date(y, 6, 1)) for y in (2026, 2027)], [2026, 2028])
 
     def test_fcc_rotation_tightens_before_an_election(self):

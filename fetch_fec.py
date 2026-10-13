@@ -18,15 +18,14 @@ rows. Writes data/fec.json:
 
 Raised and spent are the campaign's totals for the two-year cycle (receipts
 and disbursements, transfers included), cash on hand is at the end of the
-latest report, and `through` is that report's last day. The columns are
-read by name from the FEC's header file when it can be had, so a reordered
-file doesn't put receipts under spending; without it the published layout
-is used, and a row that doesn't fit it stops the run with the old file
-kept. fec.gov is not reachable from every network; the nightly workflow
+latest report, and `through` is that report's last day. The file has no
+header row, so every row is checked against the published layout (an id
+where the id goes, amounts and a date where they go); one that doesn't fit
+stops the run with the old file kept, rather than putting receipts under
+spending. fec.gov is not reachable from every network; the nightly workflow
 runs this on GitHub's runners. Stdlib only.
 """
 import argparse
-import csv
 import io
 import json
 import os
@@ -41,7 +40,6 @@ from datetime import date, datetime, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'data', 'fec.json')
 BULK = 'https://www.fec.gov/files/bulk-downloads/{cycle}/webl{yy}.zip'
-HEADER = 'https://www.fec.gov/files/bulk-downloads/data_dictionaries/webl_header_file.csv'
 # The file's published layout ("Current campaigns for House and Senate").
 COLUMNS = ['CAND_ID', 'CAND_NAME', 'CAND_ICI', 'PTY_CD', 'CAND_PTY_AFFILIATION', 'TTL_RECEIPTS',
            'TRANS_FROM_AUTH', 'TTL_DISB', 'TRANS_TO_AUTH', 'COH_BOP', 'COH_COP', 'CAND_CONTRIB',
@@ -76,24 +74,9 @@ def get(url, timeout=60):
     raise err
 
 
-def header():
-    """Column names from the FEC's header file, else the published layout."""
-    try:
-        names = next(csv.reader(io.StringIO(get(HEADER, 30).decode('utf-8-sig'))))
-        names = [n.strip().upper() for n in names if n.strip()]
-        if {'CAND_ID', 'CAND_NAME', 'TTL_RECEIPTS', 'TTL_DISB', 'COH_COP', 'CVG_END_DT'} <= set(names):
-            return names
-        print('  header file has an unexpected shape; using the published layout')
-    except (urllib.error.URLError, TimeoutError, StopIteration, UnicodeDecodeError) as e:
-        print(f'  header file unavailable ({e}); using the published layout')
-    return COLUMNS
-
-
 def amount(v):
-    try:
-        return round(float(v or 0))
-    except ValueError:
-        return 0
+    """A dollar field as a whole number; ValueError when it isn't one."""
+    return round(float(v.strip() or 0))
 
 
 def iso(mdy):
@@ -115,8 +98,14 @@ def parse(text, cols, state=STATE):
         if len(f) < len(cols):
             raise ValueError(f'line {n}: {len(f)} fields, expected {len(cols)}')
         x = dict(zip(cols, f))
-        if not re.fullmatch(r'[HSP]\d[A-Z]{2}\w+', x['CAND_ID']):
+        if not re.fullmatch(r'[HSP][0-9A-Z]{8}', x['CAND_ID']):
             raise ValueError(f'line {n}: {x["CAND_ID"]!r} is not a candidate id')
+        try:
+            for k in ('TTL_RECEIPTS', 'TTL_DISB', 'COH_COP'):
+                amount(x[k])
+            iso(x['CVG_END_DT'])
+        except ValueError:
+            raise ValueError(f'line {n}: amounts or date not where the layout puts them') from None
         office = x['CAND_ID'][0]
         if office == 'P' or x['CAND_OFFICE_ST'] != state:
             continue
@@ -147,7 +136,7 @@ def main():
         with zipfile.ZipFile(io.BytesIO(blob)) as z:
             name = next(n for n in z.namelist() if n.lower().endswith('.txt'))
             text = z.read(name).decode('latin-1')
-        rows = parse(text, header())
+        rows = parse(text, COLUMNS)
     except (urllib.error.URLError, TimeoutError, zipfile.BadZipFile, StopIteration, ValueError) as e:
         print(f'  failed: {e}; keeping {os.path.relpath(OUT, HERE)} as it was')
         sys.exit(1)
