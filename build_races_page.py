@@ -9,6 +9,8 @@ and the campaign-finance dashboard know about them:
   * raised and spent this four-year cycle, from the state finance reports
     (la-campaign-finance's per-filer totals);
   * certified cash on hand from the candidate's latest annual report;
+  * for federal candidates, raised, spent and cash on hand from the FEC's
+    bulk summary of House and Senate campaigns (fetch_fec.py, data/fec.json);
   * what they've paid TV and radio stations this cycle (committees_tv.json,
     committees_radio.json);
   * what the FCC political files of the TV stations, cable systems and radio
@@ -25,8 +27,10 @@ committees raising money this cycle that aren't tied to a race yet.
     python3 build_races_page.py
 
 Candidates are matched to state filers by name, only when exactly one filer
-matches. Federal candidates report to the FEC, not the state, so their rows
-carry airtime from the political files only. Inputs from la-campaign-finance
+matches. Federal candidates report to the FEC, not the state; they are
+matched to the FEC's campaigns for the same seat (see Fec), and carry no
+station payments, since federal campaigns pay media buyers rather than
+stations. Inputs from la-campaign-finance
 are read from the filings cache (fetch_cache.py); without them the page
 still builds, without the finance columns. Writes races.html (standalone)
 and races.artifact.html (body fragment), and data/filer_races.json (filer ->
@@ -193,6 +197,67 @@ class Finance:
         return out
 
 
+def fec_seat(office):
+    """('S', '00') or ('H', '04') for a federal race title; None otherwise."""
+    if re.search(r'U\.?\s?S\.?\s+Senat', office, re.I):
+        return 'S', '00'
+    m = re.search(r'(\d+)(?:st|nd|rd|th)\s+Congressional District', office, re.I)
+    return ('H', m.group(1).zfill(2)) if m else None
+
+
+def fec_person(name):
+    """'CARTER, TROY A. SR.' as 'Troy A. Carter', the order ballots use."""
+    last, _, given = name.partition(',')
+    given = re.sub(r'\b(MR|MRS|MS|DR|HON|JR|SR|II|III|IV)\b\.?', ' ', given.upper())
+    return ' '.join(f'{given} {last}'.split()).title()
+
+
+class Fec:
+    """The FEC's House and Senate campaigns, by seat, for matching federal
+    candidates. A ballot name matches a campaign for the same seat on its
+    full name or first + last name, else on a surname only one campaign for
+    the seat has, so long as the given names share an initial: "Clay
+    Higgins" is "HIGGINS, GLEN CLAY" and "Jamie Davis" can be "DAVIS,
+    JAMES", but a "Davis" doesn't make Jamie Davis a Larry Davis, and two
+    Davises for one seat match neither."""
+
+    def __init__(self, data):
+        self.cycle = (data or {}).get('cycle')
+        self.seats = defaultdict(list)
+        for c in (data or {}).get('candidates', []):
+            self.seats[(c['office'], c['district'])].append(c)
+
+    @staticmethod
+    def words(name):
+        return [x for x in buyer_key(name, alias=False).split() if x not in ('jr', 'sr', 'ii', 'iii', 'iv')]
+
+    def match(self, name, office):
+        pool = self.seats.get(fec_seat(office) or (), [])
+        keys = person_keys(name)
+        hits = [c for c in pool if keys & person_keys(fec_person(c['name']))]
+        if len(hits) == 1:
+            return hits[0]
+        if hits:
+            return None
+        w = self.words(name)
+        if len(w) < 2:
+            return None
+        same = [c for c in pool if self.words(fec_person(c['name']))[-1:] == w[-1:]]
+        if len(same) != 1:
+            return None
+        initials = lambda ws: {x[0] for x in ws}
+        given = initials(self.words(fec_person(same[0]['name']))[:-1])
+        return same[0] if initials(w[:-1]) & given else None
+
+    def money(self, c):
+        out = {'r': c['r'], 's': c['s'], 'fec': [c['id'], self.cycle]}
+        if c.get('through'):
+            out['coh'] = [c['coh'], c['through']]
+        if c.get('loans'):
+            out['b'] = c['loans']
+        return out
+
+
 def airtime(fn, tv, ra):
     """This cycle's TV and radio payments from the state filings."""
     yrs = lambda c: sum(v for y, v in (c.get('years') or {}).items() if '2024' <= y <= '2027')
@@ -221,11 +286,13 @@ def fcc_row(x):
             **({'onAir': x['onAir']} if 'onAir' in x else {})}
 
 
-def candidate(c, fed, fin, tv, ra, pf, used):
+def candidate(c, fed, fin, tv, ra, pf, used, fec=None, office=''):
     """One candidate's row: who they are and their money and airtime."""
     row = {'n': c['name'], 'p': c['party'] or 'OTH'}
     if c.get('votes') or c.get('outcome'):
         row['v'], row['w'] = c.get('votes') or 0, c.get('outcome') or ''
+    if fed and fec and (x := fec.match(c['name'], office)):
+        row.update(fec.money(x))
     fn = None if fed else fin.match(c['name'])
     if fn:
         row['f'] = fn
@@ -269,11 +336,11 @@ def advantage(rows, wins):
     return {'x': round(spent[0] / spent[1], 1), 'b': b, **({'rate': hist['rate'], 'n': hist['n']} if hist else {})}
 
 
-def ballot_races(election, fin, tv, ra, pf, used):
+def ballot_races(election, fin, tv, ra, pf, used, fec=None):
     out = []
     for r in election['races']:
         t = tier(r['office'])
-        rows = [candidate(c, t == 'Federal', fin, tv, ra, pf, used) for c in r['candidates']]
+        rows = [candidate(c, t == 'Federal', fin, tv, ra, pf, used, fec, r['office']) for c in r['candidates']]
         out.append({'id': r['id'], 'o': r['office'], 'pa': r.get('parish'), 't': t,
                     'k': race_markets(r, rows), 'el': r.get('elect', 1), 'c': rows,
                     **({'adv': a} if (a := advantage(rows, fin.wins)) else {})})
@@ -401,6 +468,7 @@ def build(today=None):
     market = {s['call']: BY_NAME[s['dma']] for s in load(D('data', 'stations.json'))}
     F = fcc_summary(market, full=True, media=('tv', 'cable', 'radio', 'dbs'))
     fin = Finance(find_cache())
+    fec = Fec(load(D('data', 'fec.json'), {}))
     tv, ra = load(D('data', 'committees_tv.json')), load(D('data', 'committees_radio.json'))
     pf = fcc_index(F)
     party = {}
@@ -412,7 +480,7 @@ def build(today=None):
     for e in ballot['elections']:
         day = date.fromisoformat(e['date'])
         if e.get('posted'):
-            races = ballot_races(e, fin, tv, ra, pf, used)
+            races = ballot_races(e, fin, tv, ra, pf, used, fec)
             for r in races:
                 taken |= {c['f'] for c in r['c'] if c.get('f')}
             elections.append({'d': e['date'], 'posted': True, 'races': races})
@@ -444,6 +512,7 @@ def build(today=None):
                  'all': [wins['overall']['rate'], wins['overall']['n_races']] if wins.get('overall') else None,
                  'span': wins.get('span')} if wins else None,
         'fetched': ballot.get('fetched'),
+        'fecThrough': max((c['through'] or '' for c in sum(fec.seats.values(), [])), default='') or None,
         'today': today.isoformat(),
     }
     return data, spend

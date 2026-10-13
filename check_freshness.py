@@ -18,7 +18,9 @@ and quietly stale. This checks each source's age and reports what is behind:
   * the FCC political files (`scraped` in data/fcc_political.json), and any
     station not refreshed in a week;
   * the Secretary of State ballot (`fetched` in data/ballot.json), when
-    there is one.
+    there is one;
+  * the FEC's campaign summaries (`fetched` in data/fec.json), when there
+    is one.
 
 Exits 1 when something is stale, writing the Markdown report the workflow
 puts in a GitHub issue; exits 0 when all is fresh. Stdlib only.
@@ -48,7 +50,7 @@ def parse(ts):
     return t if t.tzinfo else t.replace(tzinfo=timezone.utc)
 
 
-def problems(upstream, spend, fcc, now, ballot=None):
+def problems(upstream, spend, fcc, now, ballot=None, fec=None):
     """What is stale, as Markdown bullet lines; empty when everything is fresh."""
     out = []
 
@@ -82,6 +84,10 @@ def problems(upstream, spend, fcc, now, ballot=None):
         age('Ballot (`data/ballot.json`)', ballot.get('fetched'),
             'The "Refresh the ballot" step has been failing (it never fails the run), so the '
             "races page isn't picking up new results or races from the Secretary of State.")
+    if fec is not None:
+        age('FEC campaign totals (`data/fec.json`)', fec.get('fetched'),
+            'The "Refresh FEC totals" step has been failing (it never fails the run), so the '
+            "races page's federal candidates show old raised, spent and cash figures.")
     return out
 
 
@@ -102,8 +108,12 @@ def main():
         ballot = json.load(open(D('data', 'ballot.json'), encoding='utf-8'))
     except FileNotFoundError:
         ballot = None
+    try:
+        fec = json.load(open(D('data', 'fec.json'), encoding='utf-8'))
+    except FileNotFoundError:
+        fec = None
     now = datetime.now(timezone.utc)
-    found = problems(args.upstream, spend, fcc, now, ballot)
+    found = problems(args.upstream, spend, fcc, now, ballot, fec)
 
     if found:
         text = ('The nightly rebuild found data that has stopped updating, so '
