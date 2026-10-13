@@ -179,7 +179,7 @@ __NAV__
 
 <footer>
   <p><b>Ballot:</b> the Louisiana Secretary of State's election portal, refreshed nightly. It lists contested races once qualifying closes; candidates elected unopposed at qualifying aren't on it. Votes appear here the morning after an election. A parish race is placed in its parish's TV market; a multi-parish race (Congress, judicial districts, PSC, BESE) is placed in the markets of the stations its candidates are booking, so the market filter finds it only once it's on the air.</p>
-  <p><b>Money:</b> raised and spent are each candidate's totals for the {{cycle}} election cycle from their state finance reports, via the <a href="https://finance.charliestephens.xyz/">Louisiana campaign-finance dashboard</a>; cash on hand is the certified figure from the latest annual report. TV and radio are what the candidate's committee reported paying stations this cycle, matched as on the <a href="https://airwaves.charliestephens.xyz/">television</a> and <a href="https://airwaves.charliestephens.xyz/radio.html">radio</a> pages. Candidates are matched to their committee by name, and only when exactly one committee matches; a candidate with no match may simply not have filed a report yet, or may spend below the reporting threshold. Federal candidates report to the FEC, not the state, so they show political-file activity only.</p>
+  <p><b>Money:</b> raised and spent are each candidate's totals for the {{cycle}} election cycle from their state finance reports, via the <a href="https://finance.charliestephens.xyz/">Louisiana campaign-finance dashboard</a>; cash on hand is the certified figure from the latest annual report. TV and radio are what the candidate's committee reported paying stations this cycle, matched as on the <a href="https://airwaves.charliestephens.xyz/">television</a> and <a href="https://airwaves.charliestephens.xyz/radio.html">radio</a> pages. Candidates are matched to their committee by name, and only when exactly one committee matches; a candidate with no match may simply not have filed a report yet, or may spend below the reporting threshold. Federal candidates report to the FEC, not the state: their raised, spent and cash on hand are the campaign's totals for the two-year federal cycle from the FEC's daily summary of House and Senate campaigns, cash as of the end of its latest report, matched to the ballot by name among the campaigns for the same seat. Federal campaigns pay media buyers rather than stations, so their TV and radio column stays empty; the political files are the record of their airtime.</p>
   <p><b>Political files:</b> orders, invoices and requests that TV stations, cable systems and radio stations post to the FCC within days of a political ad buy, counted as documents, not dollars (the dollar figures sit inside the documents, which the FCC doesn't let scripts read). Plain chips are TV stations, italic ones with a dotted edge are cable systems, double-edged ones radio stations, and DirecTV is satellite (its national file is read for Louisiana's folders only); faded ones have nothing in the last two weeks. The bars are documents a week over the last ten weeks. "Booked through" is the latest flight end written into a document's name, which some stations do and most don't; revisions are documents marked as revised orders; "aired" counts the affidavits and confirmations cable systems and DirecTV file after spots have run, where an order or request comes before. A file a cable system lists once per ad zone, or in every system of a sales market, counts once.</p>
   <p><b>Does money win:</b> how often the candidate who spent the most won, across every contested Louisiana race since 2000, from the <a href="https://finance.charliestephens.xyz/does-money-win.html">campaign-finance dashboard's study</a>.</p>
 </footer>
@@ -192,8 +192,9 @@ const MKT={NO:'New Orleans',SHV:'Shreveport',BR:'Baton Rouge',LAF:'Lafayette',MO
 const TIERS=['Federal','Statewide','Legislative','Judicial','Local'];
 const TV='https://airwaves.charliestephens.xyz/', CM=TV+'committees.html';
 const FIN='https://finance.charliestephens.xyz/';
+const fecLink=c=>'https://www.fec.gov/data/candidate/'+encodeURIComponent(c.fec[0])+'/'+(c.fec[1]?'?cycle='+c.fec[1]:'');
 const finLink=c=>FIN+'#/campaign/'+encodeURIComponent(c.n)+'?filer='+encodeURIComponent(c.f);
-const money=n=>n>=1e6?'$'+(n/1e6).toFixed(n>=1e7?1:2)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+Math.round(n);
+const money=n=>n<0?'−'+money(-n):n>=1e6?'$'+(n/1e6).toFixed(n>=1e7?1:2)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+Math.round(n);
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fold=t=>t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9 ]/g,' ');
 const dshort=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
@@ -265,7 +266,8 @@ function m(v,label,sub){
 }
 function cand(c, e){
   const prof=c.f&&(c.tv||c.ra||c.pf);
-  const name=c.f?`<a href="${finLink(c)}" title="${esc(c.n)} on the campaign-finance dashboard: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
+  const name=c.f?`<a href="${finLink(c)}" title="${esc(c.n)} on the campaign-finance dashboard: donors, spending, reports">${esc(c.n)}</a>`
+            :c.fec?`<a href="${fecLink(c)}" rel="noopener" title="${esc(c.n)} at the FEC: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
   const air=(c.tv||0)+(c.ra||0);
   const p=c.pf;
   const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}${spark(p.wk)}${p.onAir?`<br><span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:''}${p.aired?` · ${p.aired} aired`:''}${p.revs?` · ${p.revs} revision${p.revs===1?'':'s'}`:''}<span class="calls">${p.st.map(chip).join('')}</span></span>`
@@ -274,10 +276,10 @@ function cand(c, e){
   const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes</span>`:'', c.w&&!won?esc(c.w):'',
              c.inc?'won this seat in '+(+e.d.slice(0,4)-4):'', c.last?`last ran for ${esc(c.last[0])}, ${c.last[1]}${c.last[2]?' ('+esc(c.last[2].toLowerCase())+')':''}`:'', c.b>=1000?`includes loans of ${money(c.b)}`:'',
              prof?`<a href="${CM}#f=${encodeURIComponent(c.f)}">airtime profile</a>`:'',
-             !c.f&&!c.fed?'no state finance report matched':''].filter(Boolean).join(' · ');
+             !c.f&&!c.fed?'no state finance report matched':'', c.fed&&!c.fec?'no FEC report matched':''].filter(Boolean).join(' · ');
   return `<div class="cr${won?' win':''}"${won?` data-w="${esc(c.w)}"`:''}>
     <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}</span>
-    ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?c.coh[1]+' report':'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
+    ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?(c.fec?'as of '+dshort(c.coh[1]):c.coh[1]+' report'):'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
     ${pf}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
 }
 function footnote(r){
@@ -379,6 +381,7 @@ function render(jump){
   const a=document.getElementById('asof'), bits=[];
   if(DATA.fetched) bits.push('Ballot checked '+dshort(DATA.fetched.slice(0,10)));
   if(FCC) bits.push('political files through '+dshort(FCC.scraped)+(FCC.media?` (${[['tv','TV stations'],['cable','cable systems'],['radio','radio stations']].concat([['dbs','satellite providers']]).filter(([k])=>FCC.media[k]).map(([k,l])=>FCC.media[k]+' '+l).join(', ')})`:''));
+  if(DATA.fecFetched) bits.push('FEC checked '+dshort(DATA.fecFetched.slice(0,10)));
   if(bits.length) a.textContent+=' · '+bits.join(' · ');
 }
 readHash();

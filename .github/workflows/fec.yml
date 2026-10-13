@@ -1,0 +1,46 @@
+# FEC — what Louisiana's federal candidates have raised and spent.
+#
+# fec.gov isn't reachable from every network, so fetch_fec.py runs here and
+# data/fec.json is committed to the branch that ran it. The nightly rebuild
+# refreshes it too; this runs when the script changes, or by hand from the
+# Actions tab.
+
+name: FEC
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fetch_fec.py
+      - .github/workflows/fec.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fec:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch the FEC totals
+        run: python3 fetch_fec.py
+
+      - name: Commit if changed
+        run: |
+          git add data/fec.json
+          if git diff --cached --quiet -I'"fetched":'; then
+            echo "FEC totals unchanged."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git commit -m "FEC: House and Senate campaign totals"
+          # Another push may have landed while this ran.
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push

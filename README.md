@@ -247,8 +247,25 @@ and the candidacy history vetoes a match between two names that have each
 run for office, never for the same one: *Edward James*, a Maringouin
 alderman candidate, is not *Edward "Ted" James*, the former state
 representative. A candidate with no match usually hasn't filed a report or
-spends below the itemization threshold. Federal candidates report to the
-FEC, so their rows carry political-file activity only.
+spends below the itemization threshold.
+
+**Federal candidates.** Candidates for the House and Senate report to the
+FEC, not the state. `fetch_fec.py` reads the FEC's bulk summary of House and
+Senate campaigns (`webl26.zip`, refreshed daily, no API key) and keeps
+Louisiana's rows in `data/fec.json`: each campaign's receipts, disbursements
+and cash on hand for the two-year cycle, with the last day of its latest
+report. A ballot name is matched only among the campaigns for the same seat
+(so Julia Letlow's Senate run isn't confused with her old House committee),
+on full or first-and-last name, else on a surname only one campaign for that
+seat has, with a shared given-name initial ("Gabe Firment" is the FEC's
+"FIRMENT, MICHAEL GABRIEL"). The candidate's name then links to their FEC page,
+and cash on hand is dated "as of" that report. The TV and radio column stays
+empty for federal candidates: their campaigns pay media buyers, not
+stations, so the FEC's disbursements don't say which stations aired them.
+The political files are the record of their airtime. The nightly run
+refreshes the file, and the **FEC** workflow runs it when the script
+changes; fec.gov, like the Secretary of State's portal, isn't reachable from
+every network.
 
 **Before qualifying.** The October 2027 ballot won't exist until qualifying
 in summer 2027. Until then its tab lists the offices contested in fall 2023,
@@ -302,7 +319,8 @@ needs hand-editing when the calendar turns.
 - `build_page.py`, `build_radio_page.py`, `build_committees_page.py`,
   `build_races_page.py` — one per page, each from its `*.template.html`.
 - `fetch_ballot.py` — the Secretary of State's coming ballots (the races
-  page), run nightly; `fcc/find_cable.py` — the cable systems serving
+  page), run nightly; `fetch_fec.py` — the FEC's House and Senate campaign
+  totals (the races page's federal candidates), run nightly; `fcc/find_cable.py` — the cable systems serving
   Louisiana, run when they change.
 - `build_map.py`, `fetch_households.py` — reference geography and Census
   households, run only when those change.
@@ -329,7 +347,7 @@ ignores. It can also be run by hand from the Actions tab.
 Each step is built to keep the site up when a source falters, so the last
 step, `check_freshness.py`, makes sure someone hears about it. It checks the
 age of the la-campaign-finance `data-cache` release (from the GitHub API),
-of this site's own build, of the FCC political files and of the ballot, plus
+of this site's own build, of the FCC political files, of the ballot and of the FEC totals, plus
 any station not refreshed in a week. When any is more than three days behind, it opens
 an issue titled "Nightly rebuild: site data has stopped updating" (GitHub
 emails the repo's watchers), rewrites it each night while the problem lasts,

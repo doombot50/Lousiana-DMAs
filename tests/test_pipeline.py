@@ -8,7 +8,7 @@ import os
 import sys
 import tempfile
 import unittest
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
@@ -268,8 +268,9 @@ class Freshness(unittest.TestCase):
         found = check_freshness.problems(
             '', {'generated': '2026-10-10'},
             {'scraped': '2026-10-11T00:00:00Z', 'stations': [{'call': 'KTBS', 'stale': True}]}, self.now,
-            {'fetched': '2026-10-01T11:00:00Z'})
-        self.assertEqual(len(found), 5)
+            {'fetched': '2026-10-01T11:00:00Z'}, {'fetched': '2026-10-02T11:00:00Z'})
+        self.assertEqual(len(found), 6)
+        self.assertIn('FEC', found[-1])
 
 
 if __name__ == '__main__':
@@ -381,6 +382,64 @@ class Races(unittest.TestCase):
         self.assertTrue(fin.different_people('Edward James, Jr.', 'Edward (Ted) James'))
         self.assertFalse(fin.different_people('Kimberly Marie Bainguel', 'Kimberly Bainguel'))
         self.assertFalse(fin.different_people('Megan Garretson', 'Megan Garretson'))
+
+    def test_federal_seats_from_race_titles(self):
+        from build_races_page import fec_seat
+        self.assertEqual(fec_seat('U. S. Senator'), ('S', '00'))
+        self.assertEqual(fec_seat('U. S. Representative -- 4th Congressional District'), ('H', '04'))
+        self.assertIsNone(fec_seat('State Senator -- 9th Senatorial District'))
+
+    def test_federal_candidates_match_the_fec_campaign_for_their_seat(self):
+        from build_races_page import Fec
+        c = lambda i, n, o, d: {'id': i, 'name': n, 'office': o, 'district': d, 'r': 10, 's': 5,
+                                'coh': 3, 'loans': 0, 'through': '2026-09-30'}
+        fec = Fec({'cycle': 2026, 'candidates': [
+            c('S6LA00001', 'LETLOW, JULIA', 'S', '00'),
+            c('H0LA05001', 'LETLOW, JULIA', 'H', '05'),        # her old House campaign
+            c('H8LA01001', 'SCALISE, STEVE', 'H', '01'),
+            c('H6LA02001', 'CARTER, TROY A. SR.', 'H', '02'),
+            c('H6LA03001', 'HIGGINS, GLEN CLAY', 'H', '03'),
+            c('H6LA03002', 'WALKER, CALEB', 'H', '03'),
+            c('H6LA04001', 'JOHNSON, JAMES MICHAEL', 'H', '04'),
+            c('H6LA06001', 'DAVIS, LARRY III', 'H', '06'),
+            c('H6LA06002', 'DAVIS, LAWRENCE', 'H', '06'),
+            c('H6LA05001', 'ECHOLS, MICHAEL', 'H', '05')]})
+        sen, d = 'U. S. Senator', 'U. S. Representative -- {} Congressional District'.format
+        got = lambda n, o: (fec.match(n, o) or {}).get('id')
+        self.assertEqual(got('Julia Letlow', sen), 'S6LA00001')            # the Senate seat's, not the House's
+        self.assertEqual(got('Steve Scalise', d('1st')), 'H8LA01001')
+        self.assertEqual(got('Troy A. Carter, Sr.', d('2nd')), 'H6LA02001')
+        self.assertEqual(got('Clay Higgins', d('3rd')), 'H6LA03001')        # by surname, a given name shared
+        self.assertEqual(got('Caleb With a C Walker', d('3rd')), 'H6LA03002')
+        self.assertEqual(got('Mike Johnson', d('4th')), 'H6LA04001')
+        self.assertIsNone(got('Jamie Davis', sen))                          # no Senate Davis
+        self.assertIsNone(got('Larry Davis III', d('6th')))                 # two Davises for the seat
+        self.assertIsNone(got('Mike Echols', d('4th')))                     # another seat's campaign
+        self.assertIsNone(got('Gordon Heslop', d('4th')))
+        self.assertEqual(fec.money(fec.match('Steve Scalise', d('1st'))),
+                         {'r': 10, 's': 5, 'fec': ['H8LA01001', 2026], 'coh': [3, '2026-09-30']})
+
+    def test_fec_bulk_rows(self):
+        import fetch_fec
+        row = lambda i, n, st, dist, rec, disb, coh, end: '|'.join(
+            [i, n, 'I', '1', 'REP', rec, '0', disb, '0', '0', coh, '100', '200', '50', '0', '0', '7',
+             '900', st, dist, '', '', '', '', '', '0', '0', end, '0', '0'])
+        text = '\n'.join([row('H8LA01087', 'SCALISE, STEVE', 'LA', '01', '1000.40', '500', '250', '09/30/2026'),
+                          row('S6LA00001', 'LETLOW,  JULIA', 'LA', '00', '20', '10', '5', ''),
+                          row('H6TX01001', 'SOMEONE, ELSE', 'TX', '01', '1', '1', '1', '09/30/2026'),
+                          row('P00006213', 'PRESIDENT, A', '', '00', '1', '1', '1', '09/30/2026')])
+        got = fetch_fec.parse(text, fetch_fec.COLUMNS)
+        self.assertEqual([c['id'] for c in got], ['S6LA00001', 'H8LA01087'])   # Senate first, Texas out
+        self.assertEqual(got[1], {'id': 'H8LA01087', 'name': 'SCALISE, STEVE', 'office': 'H', 'district': '01',
+                                  'party': 'REP', 'r': 1000, 's': 500, 'coh': 250, 'debts': 7, 'loans': 250,
+                                  'indiv': 900, 'self': 300, 'through': '2026-09-30'})
+        self.assertEqual((got[0]['name'], got[0]['through']), ('LETLOW, JULIA', None))
+        with self.assertRaises(ValueError):
+            fetch_fec.parse('C00123|short', fetch_fec.COLUMNS)
+        with self.assertRaises(ValueError):                      # a column shifted
+            fetch_fec.parse(row('H8LA01087', 'SCALISE, STEVE', 'LA', '01', 'REP', '500', '250', '09/30/2026'),
+                            fetch_fec.COLUMNS)
+        self.assertEqual([fetch_fec.cycle_for(date(y, 6, 1)) for y in (2026, 2027)], [2026, 2028])
 
     def test_fcc_rotation_tightens_before_an_election(self):
         from scrape_political_files import stations_tonight

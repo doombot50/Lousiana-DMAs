@@ -15,7 +15,8 @@
 #
 # It also refreshes the Secretary of State's ballot (fetch_ballot.py) for the
 # races page, which joins it to the finance totals fetch_cache.py pulls from
-# la-campaign-finance.
+# la-campaign-finance, and the FEC's totals for federal candidates
+# (fetch_fec.py).
 #
 # Last, a freshness check opens a GitHub issue if any source has gone more
 # than three days without updating, and closes it once all are fresh.
@@ -106,6 +107,13 @@ jobs:
         continue-on-error: true
         timeout-minutes: 20
         run: python3 fetch_ballot.py
+
+      # The FEC's daily summary of House and Senate campaigns, for the races
+      # page's federal candidates. A failure keeps the previous copy.
+      - name: Refresh FEC totals
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python3 fetch_fec.py
 
       - name: Refresh FCC political files
         continue-on-error: true
