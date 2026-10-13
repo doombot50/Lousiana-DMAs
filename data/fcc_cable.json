@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-13T03:43:54Z",
+ "scraped": "2026-10-13T18:23:34Z",
  "years": [
   2026,
   2027
@@ -106621,7 +106621,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -106649,7 +106649,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -106791,7 +106791,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -106819,7 +106819,7 @@
    "facility_id": "010036",
    "root_folder": "1569c0cf-22e8-5bfe-35c8-aa1751a93e93",
    "profile": "cable-profile/010036",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "37a24c7e-e732-7ebf-e445-782fc93ad929",
     "2015": "f30b4203-8b55-941b-24f0-e7e10eee6ce9",
@@ -106847,7 +106847,7 @@
    "facility_id": "005143",
    "root_folder": "0aadd1d9-9176-4a37-67a8-0b457f583cf8",
    "profile": "cable-profile/005143",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2017": "91a92350-cbba-d47a-c21b-b72f0306ab77",
     "2018": "25db26c6-f423-128b-b09a-57ed4a1f00a8",
@@ -157277,7 +157277,7 @@
    "facility_id": "008277",
    "root_folder": "2832ec99-417b-76ad-1b9f-edc21774de0b",
    "profile": "cable-profile/008277",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "a18e838a-ec38-ea1c-d1b1-2171ce991250",
     "2015": "17bc185a-3e10-a22b-0b78-875ac38be47c",
@@ -157305,7 +157305,7 @@
    "facility_id": "010740",
    "root_folder": "78db5cfe-9e84-bc0d-ffbc-f183d3a456b0",
    "profile": "cable-profile/010740",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "e732cc2c-b053-61bf-d77b-c8c4327e41c7",
     "2015": "b8096ae6-6ef2-25d2-6e19-fd35ddc07e56",
@@ -157555,7 +157555,7 @@
    "facility_id": "007036",
    "root_folder": "497d7643-b970-0bbd-34f2-22ef01c30307",
    "profile": "cable-profile/007036",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "83005020-6e3b-ea2f-ab4d-9259a57550cf",
     "2015": "abbbdefb-fdb2-8043-116a-056e2471ae22",
@@ -157691,7 +157691,7 @@
    "facility_id": "003478",
    "root_folder": "f10c386d-50e2-15da-742b-eec67690a8c2",
    "profile": "cable-profile/003478",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "631b6243-963c-7c7d-9074-5e56b6223b42",
     "2015": "34ffdece-676f-c151-602b-def93572037d",
@@ -157751,6 +157751,42 @@
     "Political Files/2026/State/Monroe-El Dorado/State House/AMP - FIRMENT FOR CONGRESS": "287fa63b-e69b-5a75-cb0b-5077090d60e7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727867_NAB_Form_20261013122344",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T12:47:11-04:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "de72e362-f0b8-f3e9-686b-482f01036b94",
+     "file_manager_id": "efa9611a-0c53-4bfb-994a-634483f543d7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727867_Order_Contract_20261013122337",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T12:47:09-04:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "2b547233-dea9-d211-d2d6-d4fa9a3db2f7",
+     "file_manager_id": "eb70c828-765b-4041-a8bd-d4d37e78d6b2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727866_Order_Contract_20261013122218",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T12:47:06-04:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "92d440a1-b63c-e6c1-ae4e-d183f15197cb",
+     "file_manager_id": "4e6e2853-ebe7-47a8-9596-fea63efdf2d2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727866_NAB_Form_20261013122225",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T12:47:04-04:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "ad285c19-df77-4f1e-6e4b-09a3dd681be2",
+     "file_manager_id": "50c15358-3aad-4d8e-8058-1ed9f3c1f607"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Monroe-El Dorado/AMP - HOMETOWN FREEDOM ACTION NETWORK",
      "name": "727829_Order_Contract_20261012115419",
@@ -160748,7 +160784,7 @@
    "facility_id": "004289",
    "root_folder": "cdee00c3-64fb-d199-4d4c-b71dd549a187",
    "profile": "cable-profile/004289",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "7afb2700-6530-4729-cae5-f74e96799b7c",
     "2015": "bbb92733-60e2-8e21-a6d2-e86039043540",
@@ -162983,7 +163019,7 @@
    "facility_id": "008858",
    "root_folder": "d510e6a7-4f45-a0d3-a76c-5a1f573d52d5",
    "profile": "cable-profile/008858",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "997d5c72-4c87-f06a-8178-94aeac54846f",
     "2015": "2f687d40-8d29-ebb3-6ef7-e46b2248fad6",
@@ -163011,7 +163047,7 @@
    "facility_id": "022095",
    "root_folder": "19aabc03-6246-dd44-3b54-c7e3fa0318e4",
    "profile": "cable-profile/022095",
-   "scraped_at": "2026-10-13T00:24:55Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "8f10b9f9-1f5e-4161-11f9-8e2faee2c017",
     "2015": "bbd41ad1-06c8-15be-a0f0-89c62f3cf1fb",
@@ -163039,7 +163075,7 @@
    "facility_id": "008273",
    "root_folder": "b0dbee07-8242-11d0-1d0c-3704b85765ef",
    "profile": "cable-profile/008273",
-   "scraped_at": "2026-10-13T00:24:55Z",
+   "scraped_at": "2026-10-13T18:21:09Z",
    "year_folders": {
     "2014": "d0be6a3e-3a52-b2aa-fa90-cc0bdf31b7ca",
     "2015": "f1905e9a-6684-17ce-1409-70701d415730",
@@ -165312,36 +165348,36 @@
   "003002": "2026-10-13T00:24:55Z",
   "003084": "2026-10-13T00:24:55Z",
   "003376": "2026-10-13T03:41:56Z",
-  "003478": "2026-10-12T20:21:25Z",
+  "003478": "2026-10-13T18:21:09Z",
   "003680": "2026-10-13T03:41:56Z",
-  "004289": "2026-10-12T20:21:25Z",
+  "004289": "2026-10-13T18:21:09Z",
   "004321": "2026-10-13T03:41:56Z",
   "004383": "2026-10-13T03:41:56Z",
   "005142": "2026-10-13T03:41:56Z",
-  "005143": "2026-10-12T20:21:25Z",
+  "005143": "2026-10-13T18:21:09Z",
   "005341": "2026-10-13T03:41:56Z",
-  "006379": "2026-10-12T20:21:25Z",
-  "007033": "2026-10-12T20:21:25Z",
-  "007036": "2026-10-12T20:21:25Z",
+  "006379": "2026-10-13T18:21:09Z",
+  "007033": "2026-10-13T18:21:09Z",
+  "007036": "2026-10-13T18:21:09Z",
   "007052": "2026-10-13T03:41:56Z",
   "008048": "2026-10-13T03:41:56Z",
-  "008273": "2026-10-13T00:24:55Z",
-  "008277": "2026-10-12T20:21:25Z",
+  "008273": "2026-10-13T18:21:09Z",
+  "008277": "2026-10-13T18:21:09Z",
   "008564": "2026-10-13T03:41:56Z",
   "008567": "2026-10-13T03:41:56Z",
   "008691": "2026-10-13T00:24:55Z",
-  "008858": "2026-10-12T20:21:25Z",
+  "008858": "2026-10-13T18:21:09Z",
   "008859": "2026-10-13T00:24:55Z",
-  "010036": "2026-10-12T20:21:25Z",
-  "010740": "2026-10-12T20:21:25Z",
+  "010036": "2026-10-13T18:21:09Z",
+  "010740": "2026-10-13T18:21:09Z",
   "011859": "2026-10-13T00:24:55Z",
   "013331": "2026-10-13T00:24:55Z",
   "014241": "2026-10-13T00:24:55Z",
   "015650": "2026-10-13T00:24:55Z",
-  "016728": "2026-10-12T20:21:25Z",
+  "016728": "2026-10-13T18:21:09Z",
   "020573": "2026-10-13T03:41:56Z",
   "021784": "2026-10-13T00:24:55Z",
-  "022095": "2026-10-13T00:24:55Z",
+  "022095": "2026-10-13T18:21:09Z",
   "022352": "2026-10-13T03:41:56Z",
   "022377": "2026-10-13T00:24:55Z"
  }
