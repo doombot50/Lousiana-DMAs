@@ -257,8 +257,8 @@ and cash on hand for the two-year cycle, with the last day of its latest
 report. A ballot name is matched only among the campaigns for the same seat
 (so Julia Letlow's Senate run isn't confused with her old House committee),
 on full or first-and-last name, else on a surname only one campaign for that
-seat has, with a shared given-name initial ("Clay Higgins" is the FEC's
-"HIGGINS, GLEN CLAY"). The candidate's name then links to their FEC page,
+seat has, with a shared given-name initial ("Gabe Firment" is the FEC's
+"FIRMENT, MICHAEL GABRIEL"). The candidate's name then links to their FEC page,
 and cash on hand is dated "as of" that report. The TV and radio column stays
 empty for federal candidates: their campaigns pay media buyers, not
 stations, so the FEC's disbursements don't say which stations aired them.

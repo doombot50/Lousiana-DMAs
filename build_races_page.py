@@ -216,13 +216,13 @@ class Fec:
     """The FEC's House and Senate campaigns, by seat, for matching federal
     candidates. A ballot name matches a campaign for the same seat on its
     full name or first + last name, else on a surname only one campaign for
-    the seat has, so long as the given names share an initial: "Clay
-    Higgins" is "HIGGINS, GLEN CLAY" and "Jamie Davis" can be "DAVIS,
-    JAMES", but a "Davis" doesn't make Jamie Davis a Larry Davis, and two
+    the seat has, so long as the given names share an initial: "Gabe
+    Firment" is "FIRMENT, MICHAEL GABRIEL" and "Mike Johnson" "JOHNSON,
+    JAMES MICHAEL", but a "Davis" doesn't make Jamie Davis a Larry Davis, and two
     Davises for one seat match neither."""
 
     def __init__(self, data):
-        self.cycle = (data or {}).get('cycle')
+        self.cycle, self.fetched = (data or {}).get('cycle'), (data or {}).get('fetched')
         self.seats = defaultdict(list)
         for c in (data or {}).get('candidates', []):
             self.seats[(c['office'], c['district'])].append(c)
@@ -512,7 +512,7 @@ def build(today=None):
                  'all': [wins['overall']['rate'], wins['overall']['n_races']] if wins.get('overall') else None,
                  'span': wins.get('span')} if wins else None,
         'fetched': ballot.get('fetched'),
-        'fecThrough': max((c['through'] or '' for c in sum(fec.seats.values(), [])), default='') or None,
+        'fecFetched': fec.fetched,
         'today': today.isoformat(),
     }
     return data, spend

@@ -194,7 +194,7 @@ const TV='https://airwaves.charliestephens.xyz/', CM=TV+'committees.html';
 const FIN='https://finance.charliestephens.xyz/';
 const fecLink=c=>'https://www.fec.gov/data/candidate/'+encodeURIComponent(c.fec[0])+'/'+(c.fec[1]?'?cycle='+c.fec[1]:'');
 const finLink=c=>FIN+'#/campaign/'+encodeURIComponent(c.n)+'?filer='+encodeURIComponent(c.f);
-const money=n=>n>=1e6?'$'+(n/1e6).toFixed(n>=1e7?1:2)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+Math.round(n);
+const money=n=>n<0?'−'+money(-n):n>=1e6?'$'+(n/1e6).toFixed(n>=1e7?1:2)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+Math.round(n);
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fold=t=>t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9 ]/g,' ');
 const dshort=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
@@ -381,7 +381,7 @@ function render(jump){
   const a=document.getElementById('asof'), bits=[];
   if(DATA.fetched) bits.push('Ballot checked '+dshort(DATA.fetched.slice(0,10)));
   if(FCC) bits.push('political files through '+dshort(FCC.scraped)+(FCC.media?` (${[['tv','TV stations'],['cable','cable systems'],['radio','radio stations']].concat([['dbs','satellite providers']]).filter(([k])=>FCC.media[k]).map(([k,l])=>FCC.media[k]+' '+l).join(', ')})`:''));
-  if(DATA.fecThrough) bits.push('FEC reports through '+dshort(DATA.fecThrough));
+  if(DATA.fecFetched) bits.push('FEC checked '+dshort(DATA.fecFetched.slice(0,10)));
   if(bits.length) a.textContent+=' · '+bits.join(' · ');
 }
 readHash();
