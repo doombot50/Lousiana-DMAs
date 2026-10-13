@@ -84,6 +84,10 @@
   "id": "60867",
   "profile": "fm-profile/kbon"
  },
+ "radio:KBTT": {
+  "id": "9221",
+  "profile": "fm-profile/kbtt"
+ },
  "radio:KBZE": {
   "id": "40580",
   "profile": "fm-profile/kbze"
@@ -119,6 +123,14 @@
  "radio:KJLO": {
   "id": "48632",
   "profile": "fm-profile/kjlo-fm"
+ },
+ "radio:KJMG": {
+  "id": "15095",
+  "profile": "fm-profile/kjmg"
+ },
+ "radio:KKND": {
+  "id": "58395",
+  "profile": "fm-profile/kknd"
  },
  "radio:KLIL": {
   "id": "8164",
@@ -176,6 +188,10 @@
   "id": "1305",
   "profile": "am-profile/krmd"
  },
+ "radio:KROF": {
+  "id": "275",
+  "profile": "am-profile/krof"
+ },
  "radio:KRRQ": {
   "id": "36227",
   "profile": "fm-profile/krrq"
@@ -195,6 +211,10 @@
  "radio:KSMB": {
   "id": "41057",
   "profile": "fm-profile/ksmb"
+ },
+ "radio:KSYB": {
+  "id": "49016",
+  "profile": "am-profile/ksyb"
  },
  "radio:KSYL": {
   "id": "9750",
@@ -220,6 +240,10 @@
   "id": "38601",
   "profile": "fm-profile/kykz"
  },
+ "radio:KZMZ": {
+  "id": "63199",
+  "profile": "fm-profile/kzmz"
+ },
  "radio:KZRZ": {
   "id": "52510",
   "profile": "fm-profile/kzrz"
@@ -243,6 +267,10 @@
  "radio:WEMX": {
   "id": "58931",
   "profile": "fm-profile/wemx"
+ },
+ "radio:WEZB": {
+  "id": "20346",
+  "profile": "fm-profile/wezb"
  },
  "radio:WFMF": {
   "id": "4053",

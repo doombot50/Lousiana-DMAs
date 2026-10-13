@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-13T00:27:01Z",
+ "scraped": "2026-10-13T03:43:54Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -3021,7 +3021,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -48496,7 +48496,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -50658,7 +50658,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -50690,6 +50690,15 @@
     "Political Files/2026/State/Campaign to Elect Will Keaty": "780b467a-bb6d-9820-f133-b22eac2e0d69"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_confirm1321710_sys1995_20261012_164631",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T17:15:32-04:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "9de6f826-8918-7180-4e0b-e39585a5f1ec",
+     "file_manager_id": "e7bf19c8-f9d9-4683-a2c8-2490f134a225"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Protecting Louisiana Values",
      "name": "PROTECT LOUISIANA VALUES-AMP_SEP_AFF1290477_SYS 8644",
@@ -52418,7 +52427,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -53535,7 +53544,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -103119,7 +103128,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-10-12T19:05:27Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -103168,6 +103177,15 @@
     "Political Files/2026/Non-Candidate Issue Ads/PROTECT AND DEFEND LOUISIANA": "9494817e-61d6-28ac-8a0b-a1f140423bc3"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise for Congress",
+     "name": "SCALISE FOR CONGRESS_NAB_SYS6979",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T15:41:26-04:00",
+     "folder_id": "30780c7e-55da-3a1f-3e97-07cde5456c97",
+     "file_id": "8928d18a-4c97-c7fb-cefa-9485d21b41fa",
+     "file_manager_id": "33fd279a-2fa5-4266-a3d6-29ec68aeb5f3"
+    },
     {
      "path": "Political Files/2026/Local/Scott Illing for Sheriff",
      "name": "Scott Illing - NAB Form SYS 1757_100926_1702",
@@ -106453,7 +106471,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -106481,7 +106499,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-10-12T20:21:25Z",
+   "scraped_at": "2026-10-13T03:41:56Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -164107,6 +164125,1181 @@
    },
    "files": [],
    "stale": false
+  },
+  {
+   "call": "003376",
+   "fcc_call": "003376",
+   "facility_id": "003376",
+   "root_folder": "35696673-0532-826d-bbd0-fd86dd2fc8bd",
+   "profile": "cable-profile/003376",
+   "scraped_at": "2026-10-13T03:41:56Z",
+   "year_folders": {
+    "2014": "43b2d375-2eeb-32fd-0adf-25a7ca6e7956",
+    "2015": "8c65513f-be4f-13b9-657c-c93558ac377b",
+    "2016": "541cb7cf-ac58-3050-654b-c72ed42895ce",
+    "2017": "ae4e77d6-644e-83b0-d001-c391410b114f",
+    "2018": "bb300db4-a0ab-897e-880b-346e3a56191a",
+    "2019": "877fb3da-5660-a317-7105-ff4c612ff8c8",
+    "2020": "d71548ec-d577-0dbb-de59-814f61df3bbd",
+    "2021": "30c020e9-51e0-f116-02c8-8c11eac75ca5",
+    "2022": "b171ecf7-5544-564b-5117-ddb0c143ca92",
+    "2023": "67e3bcce-0a43-be61-a89d-493aa6e79688",
+    "2024": "32c33c4d-3ffe-f787-669c-0e9f86bd48ff",
+    "2025": "598059e7-f574-0bf0-c253-166ccba5a145",
+    "2026": "9273cbbd-a78c-1a2a-3d5b-caea137ec923"
+   },
+   "folders": {
+    "Political Files/2026": "9273cbbd-a78c-1a2a-3d5b-caea137ec923"
+   },
+   "files": [],
+   "stale": false
+  },
+  {
+   "call": "004383",
+   "fcc_call": "004383",
+   "facility_id": "004383",
+   "root_folder": "079ce57f-f911-f7ec-3041-e2933f22bc71",
+   "profile": "cable-profile/004383",
+   "scraped_at": "2026-10-13T03:41:56Z",
+   "year_folders": {
+    "2014": "423b6c9d-5251-407a-adc3-ad4dff61186f",
+    "2015": "634829d0-474e-9216-6ee8-101cfd127bee",
+    "2016": "603ff3dd-2552-b8ad-cb0e-34892e8e84a2",
+    "2017": "377083c0-bf38-f192-4c87-5f5109d17722",
+    "2018": "c6f9468d-1dc3-55e9-5262-2e63d0bef157",
+    "2019": "d0db83fc-62ed-7557-fb87-f1272f99bece",
+    "2020": "d0958fb4-a200-e9f1-95b0-83f08dbb9d4f",
+    "2021": "0d3b6319-312b-946a-d696-2088da302947",
+    "2022": "e556faa9-46b5-1cb7-c172-bc64b465d6b1",
+    "2023": "0ee012e8-7a02-e2bc-b81b-f8782231bdd9",
+    "2024": "d45e2afe-9325-493c-3f82-a1f78e3ad867",
+    "2025": "4659f66f-9f10-df37-c657-19030940e43f",
+    "2026": "0e05e208-324f-4a2f-de31-e82510ae60df"
+   },
+   "folders": {
+    "Political Files/2026": "0e05e208-324f-4a2f-de31-e82510ae60df"
+   },
+   "files": [],
+   "stale": false
+  },
+  {
+   "call": "008567",
+   "fcc_call": "008567",
+   "facility_id": "008567",
+   "root_folder": "e9d841d0-c257-facd-08d6-92308ea4f926",
+   "profile": "cable-profile/008567",
+   "scraped_at": "2026-10-13T03:41:56Z",
+   "year_folders": {
+    "2014": "e3586980-e355-8b41-38c3-6ae23c953c37",
+    "2015": "65efd0da-acfc-ff5a-a285-8376c2401386",
+    "2016": "cc199779-c000-031b-d3cb-a5c41f1970ce",
+    "2017": "68929de5-8109-92f8-d72c-ce19d101138c",
+    "2018": "111a4e54-ebd1-0ca8-9fcb-617008924efd",
+    "2019": "5a8ea0c8-4cc9-cf1b-5134-1d1e56030a9e",
+    "2020": "30b0631c-69f0-f32f-478f-2a9085b51451",
+    "2021": "bb3a803a-6875-50dc-000b-c0aeedd7c9eb",
+    "2022": "121678ee-fb65-45f2-4b36-9e258b7675af",
+    "2023": "fb1b000e-177a-0f5e-6fc5-06351781312f",
+    "2024": "5ac2b7a5-ba36-3b4d-493e-72d752edd3ba",
+    "2025": "a9deeb0e-b97c-59b6-9b83-dc0bfcefe60b",
+    "2026": "beb43711-e7a2-edfc-52c7-fa02425a68c3"
+   },
+   "folders": {
+    "Political Files/2026": "beb43711-e7a2-edfc-52c7-fa02425a68c3",
+    "Political Files/2026/Federal": "425e46da-e900-0d4a-40bc-bc82632816b9",
+    "Political Files/2026/Federal/US House": "87ed524b-9166-a82c-217b-bcf76872ed95",
+    "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+    "Political Files/2026/Federal/US House/CORDELL FOR CONGRESS": "dac9e561-547e-eed6-497a-941a30da81f8",
+    "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+    "Political Files/2026/Local": "4401e7f2-1f74-e5c2-7262-ad09af4e567f",
+    "Political Files/2026/Local/JOHN ATKINS CAMPAIGN": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+    "Political Files/2026/Non-Candidate Issue Ads": "0ca42830-2ff3-f2b4-87ec-449cd110f19a",
+    "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW": "824f30ac-280c-92a9-833c-8870a8034b53"
+   },
+   "files": [
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_order4601265",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:43:20-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "d238eac0-3914-ed38-e48e-5151017b3193",
+     "file_manager_id": "9d6a6dfa-f5d7-41af-b2af-2b13f8a10c6e"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_order 4603125",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:43:20-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "a40c0e2d-a669-eac3-ca9c-7469c93aef7f",
+     "file_manager_id": "02262601-c08e-4d72-9fdc-0f2d6b9fb694"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_order 4603126",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:43:19-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "381d2d49-b009-18b7-4aa9-6a567a136da9",
+     "file_manager_id": "d50c44b0-76ca-4fd9-8d26-d736d2dca2ca"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_order 4601262",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:58-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "2acaf599-5e40-98fd-0f1a-641c8781f67e",
+     "file_manager_id": "eb027de5-2fc8-46f9-b7b4-db67737cdc42"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_order 4601264",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:58-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "2231dce1-9a69-25a9-4a6f-397e7271554b",
+     "file_manager_id": "d8b981a9-f5b2-466f-a763-242ac8167131"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_order 4601261",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:56-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "27db139b-e515-a371-c15a-6d1f1f97f289",
+     "file_manager_id": "60eda267-4b04-4234-8678-ef0862dc931b"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_NAB form5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:55-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "39cbaf30-72fe-2b1c-ce62-97fda030b16a",
+     "file_manager_id": "70aeb752-b2cf-45f8-a279-0229cce8dde3"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226396",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:54-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "b0a304ed-e9f3-418b-dcb6-501bfdab82ce",
+     "file_manager_id": "2d2f5d3e-3b23-475d-8355-07d80446d734"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_NAB form4",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:53-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "c9b8202e-8239-a878-96f8-6720a8eb84f1",
+     "file_manager_id": "43ae65cc-be4a-4e88-a80a-53b0d0633e33"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226393",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:51-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "e2d4b5cb-3215-ddf5-3ab0-b78f2daded8a",
+     "file_manager_id": "aa3f6acb-e8c0-42a1-8c8b-ad6d7a015c0d"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226395",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:50-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "16c1d552-857b-779d-76cb-298628f15b7b",
+     "file_manager_id": "3c53e047-531f-4c43-8090-290fcfbe5038"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226397",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:50-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "995972c8-97ac-0b96-e6e4-7fec6fac1fbc",
+     "file_manager_id": "93b67258-23a2-4d59-a959-895f0c8bf4ff"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_NAB form3",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:50-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "b19e86a9-cd4f-3288-31af-6e41845a3047",
+     "file_manager_id": "ffd352d5-70a1-45da-9bd4-5fb01946d7fe"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226120",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:48-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "38671b21-8d54-a09d-fd23-00fa2e6a8792",
+     "file_manager_id": "b39f58f4-9f76-41cf-8743-bcc1cc494b93"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_NAB form2",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:48-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "24201e9d-f747-09a6-3ad9-6f7e19d90c46",
+     "file_manager_id": "ab9e6893-9afa-4554-9a40-0afa134be448"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_NAB form",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:46-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "3e14b26a-788d-3f9b-b0f9-423287cede08",
+     "file_manager_id": "b98106c5-58fd-40c0-afc4-9fa7243e6a2d"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226398",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:44-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "41a18d36-4ce8-026a-5fd7-1552e233249e",
+     "file_manager_id": "4a693742-33e4-4e56-b042-d7faa43e28d3"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "JOHN ATKINS CAMPAIGN_inv sj226394",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:42:39-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "d190cd74-f153-25e3-30e5-98dcbb3ea0bc",
+     "file_manager_id": "39fb000a-da34-46cc-bd42-5619b4408fae"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_order 4603234",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:24:46-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "1bdae5f9-0116-07e7-bdaf-4fdd995e336a",
+     "file_manager_id": "068e85ac-80d5-408f-b209-bf1473b66ff2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_order 4602648",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:45-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "ed35351f-f5b9-b2d8-a32b-341e65bfe9e0",
+     "file_manager_id": "f8654b05-020b-4a91-be5a-80ccea86beaa"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_order 4599570",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:44-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "ae5c0aab-6f55-190f-2fd4-87ffce2186ae",
+     "file_manager_id": "c4d102e0-a3be-46c6-bbcf-a515f07540da"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_inv sj225634",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:19-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "bae27270-7499-c9d6-ff30-b1af1329174c",
+     "file_manager_id": "d3f82d16-70c4-4371-b1c7-187f63a55cf9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_NAB form6",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:19-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "ae943704-eaa9-7f35-ab67-d5eded5eb0ef",
+     "file_manager_id": "989096ca-b047-4a07-b52b-8f9bbe881d3c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_order 4599563",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:19-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "e4e9f78b-8708-b7a4-13f2-02eb4aa0621b",
+     "file_manager_id": "04167f45-0daf-4432-b19d-17f034da6997"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_inv sj226192",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:18-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "b6034a0f-5ad7-f81c-ed5b-568357610a40",
+     "file_manager_id": "64da8531-53a9-4b46-b6bb-3fc885f414e2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_NAB form4",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:18-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "faae5a96-3752-f7eb-aa6c-b8fa2c510221",
+     "file_manager_id": "911db70e-1f47-4bc2-87b3-477a948e8231"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_NAB form5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:18-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "776cae68-5a52-cf2e-575e-046e3284e287",
+     "file_manager_id": "b534d305-39b1-48d0-ace1-3314efc693f3"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_order 4598009",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:18-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "37cc160d-ca41-f106-7616-3746d7bc7fcc",
+     "file_manager_id": "44e10c0d-2488-413c-9694-0f046d2b860a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_inv sj225939",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:17-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "95698396-87b8-08a6-9e66-e361e7fbd3e7",
+     "file_manager_id": "100ed9fc-92a8-46fa-9f0f-5c31fbe4772b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_order 4596820",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:16-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "ae6aca1f-2289-bece-7562-22b351d0d126",
+     "file_manager_id": "0f9d6bb4-0c2a-4dbc-89ec-4cd8abdd1f12"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_inv sj225940",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:15-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "040e4a21-bc64-145e-0ba4-2b9ec1bb524d",
+     "file_manager_id": "e87e70dd-7156-40c4-99f2-dceb94c9f4f6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_inv sj225856",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:14-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "3dac0661-cd05-a035-6688-3acf8b813a0a",
+     "file_manager_id": "66f77558-efdf-4153-a806-831368e513ae"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_NAB form3",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:14-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "e7eb0fb4-7053-63e9-7434-6ac61999f3ac",
+     "file_manager_id": "551d6f28-c773-4ea2-9f1c-02875a24bc4c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_NAB form2",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:13-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "ae51af4f-34b3-efec-bbd8-ffba1ee4b765",
+     "file_manager_id": "07eb0fe3-9012-40c4-8005-7da159cf7c09"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_NAB form",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:12-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "614f42ba-292a-5b58-1920-6afa5023cbb9",
+     "file_manager_id": "4e10f96b-1578-4510-99e8-8536f5202296"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/RICK EDMONDS FOR LOUISIANA",
+     "name": "RICK EDMONDS FOR LOUISIANA_inv sj226191",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:23:09-04:00",
+     "folder_id": "23ebdc51-9dae-07a6-f347-866193f76fb3",
+     "file_id": "daa07c3c-ab9b-8685-55a4-9737d5d5329c",
+     "file_manager_id": "431d80d8-ef38-431d-b207-5d058a976d77"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/CORDELL FOR CONGRESS",
+     "name": "CORDELL FOR CONGRESS_inv sj225589",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:21:56-04:00",
+     "folder_id": "dac9e561-547e-eed6-497a-941a30da81f8",
+     "file_id": "b65ec8d1-3fbc-f869-41d1-41536172e2f7",
+     "file_manager_id": "c2d51c84-868d-45cd-9ad4-f3affc601172"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/CORDELL FOR CONGRESS",
+     "name": "CORDELL FOR CONGRESS_inv sj226280",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:21:54-04:00",
+     "folder_id": "dac9e561-547e-eed6-497a-941a30da81f8",
+     "file_id": "2b478e9d-8006-9c0c-f4ac-48a6eb59add2",
+     "file_manager_id": "ed069c2d-41e7-4243-b7cd-23db45414a2b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/CORDELL FOR CONGRESS",
+     "name": "CORDELL FOR CONGRESS_order 4596197",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:21:54-04:00",
+     "folder_id": "dac9e561-547e-eed6-497a-941a30da81f8",
+     "file_id": "6fdf7855-b94e-35f0-c71c-17a626202de4",
+     "file_manager_id": "59c0ecc6-aaa4-4c3b-b154-04e2a18ec710"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/CORDELL FOR CONGRESS",
+     "name": "CORDELL FOR CONGRESS_NAB form",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:21:52-04:00",
+     "folder_id": "dac9e561-547e-eed6-497a-941a30da81f8",
+     "file_id": "efbeeaa2-e152-615f-7544-8f674229763f",
+     "file_manager_id": "2a9f4c98-d0f2-42fc-9647-0306eff42ef8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4599489",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:20:32-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "d22e0b06-6ad5-0f49-8d5e-a4336f42fd49",
+     "file_manager_id": "330ad830-d1ac-445b-be90-0f396d8248d8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4602656",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:20:31-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "254edcae-fffb-7b7f-2be2-7aa0e1d485ea",
+     "file_manager_id": "9c7f90df-d017-4489-b5b4-60d5f99719ec"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form6 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:14-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "e859ffb8-64e3-41e0-c115-814d6ccf9e4e",
+     "file_manager_id": "3876029e-963e-4da6-ba23-581410920cc2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4574213",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:06-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "d9616340-368a-8dbc-b4e2-a500178216ed",
+     "file_manager_id": "e41a0c12-b74f-4064-9e3c-b649a61815c4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4582934",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:05-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "cb2d5ea4-b4a1-cb9b-6120-9a9e192d76a0",
+     "file_manager_id": "91df5981-cbea-44ff-b0bc-3c9f480a6cd6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4587577",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:05-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "8839ae7c-2a75-b14e-ccbe-55c87f3bd294",
+     "file_manager_id": "a7c8a583-be1f-40bc-a000-961978c92497"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4592464",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:04-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "1645d1e0-a29a-d047-709d-12a9ecd930f5",
+     "file_manager_id": "fae60814-f5ff-4652-9b75-9c4ba8cafc91"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4595811",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:04-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "969a4417-e89c-205d-565d-bc55a3e8ab8a",
+     "file_manager_id": "db102097-a723-433b-bbd4-c4ffe16d956e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_order 4572474",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:02-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "54d973dc-b689-d264-adfa-75b431ed6d7b",
+     "file_manager_id": "59858836-b2b9-44b3-9f08-b3d71dacb15b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form10",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:01-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "aaf393dc-68bd-8f6e-2be8-11cbaaf1a31f",
+     "file_manager_id": "69fe87d4-6118-499e-b976-5582047dff05"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form7",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:00-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "7c03c8bb-a117-f9e5-a732-63c0df28e2f6",
+     "file_manager_id": "e3643a63-103b-46c5-b075-2777f8447660"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form8",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:00-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "df17b7d6-25d2-9cc3-b7ab-564582faa369",
+     "file_manager_id": "1648b347-7b60-4639-8c34-01f6b9714829"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form8 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:19:00-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "8bfad37f-4142-7941-53c2-6c460f35e625",
+     "file_manager_id": "c6ededec-6241-42b4-b944-800ab06f374d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form9",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:18:59-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "b7fe872e-6639-e050-80cb-0eed861a408e",
+     "file_manager_id": "35ce873c-d530-4885-bfc1-a97e9357fa7e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form9 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:18:59-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "da860c4b-4afe-15d2-f4bf-bd5ec3ab57d5",
+     "file_manager_id": "f3d45433-7d4a-4b1c-b321-fef66c0eb255"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form6",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:18:56-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "a05917a2-2669-2fd8-7195-7d2035fb5b59",
+     "file_manager_id": "7014792b-9136-49d5-bb3f-2885db62b727"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form7 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:18:56-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "260becef-058c-af5a-5b9d-a9a530a44b4b",
+     "file_manager_id": "d9d2cd4f-35c0-474c-8f9c-a11e750ce93d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:41-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "bd0491ce-c9b2-60c4-8635-cf1455430b56",
+     "file_manager_id": "c6f01f32-7e48-48a7-8e52-87c16d4b950c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "5d02f1da-a2f8-bf32-617b-0e8086a3e9ad",
+     "file_manager_id": "462770f9-6fa1-41ef-b44e-dc1e8772f960"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (2) - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "b291cb9d-b621-1502-ea18-06a2720c5c36",
+     "file_manager_id": "08a5a49a-50fa-420d-a5b5-b2d7f95fa9a8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (3)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "69954bdb-a9ef-b594-a988-94af45f6aaf9",
+     "file_manager_id": "10a4067f-0442-4ec6-9f8a-97775be60986"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "3bd55d02-fefe-c63d-5d43-690a325887a4",
+     "file_manager_id": "50bceb16-38a1-47af-8a30-24222219e666"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:33-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "5e3856b8-aa7f-4fe5-aab6-1cfcae3c991a",
+     "file_manager_id": "43820ac8-5739-4601-986a-e5224f04400a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy (2) - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:32-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "3d5e77d1-51a7-e56d-5bf5-e225e52109d6",
+     "file_manager_id": "0ed35eca-e9a4-4667-8a40-3438c05d85ff"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:31-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "70e4666c-01a9-78e6-22fc-7c0a4fabbb50",
+     "file_manager_id": "95c7d6d2-3ebb-4ae1-b15f-5e135de194ae"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:31-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "ce48fab5-3912-644e-37c3-4aa827ef02a0",
+     "file_manager_id": "daeaf65d-40f3-4e58-bd9a-2371fa4744b9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:30-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "6b2cd92c-a0e2-356d-4cf9-14fb01026aaf",
+     "file_manager_id": "f703ab07-abb6-4617-8376-c3f8b4c9f825"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:29-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "33606fdb-000d-4500-90f6-2a68d2f645fa",
+     "file_manager_id": "07d9a07d-5e33-4f0f-929d-89c2c1b17460"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:29-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "f5e034e9-1a36-9513-98a4-010a53db1a15",
+     "file_manager_id": "73a444c8-ed53-4af6-ab3e-f58631b497e9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:17:29-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "a53b55ab-58f4-660d-fb01-2f5a05689d35",
+     "file_manager_id": "c5d6ccc9-1d99-4313-aa47-10499ce0e54e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:21-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "90f65d0c-9a35-3327-5a0d-f5263587e6bd",
+     "file_manager_id": "02fdf439-bcba-4f24-b840-0d1c1f7ba07c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:21-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "e93569fa-4315-3b76-c82d-13e6f757b8a2",
+     "file_manager_id": "8545c771-bcf1-4950-95f0-8118b2357695"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:21-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "21e0f105-5ab7-54ae-839d-7850d353de6f",
+     "file_manager_id": "cba75875-ba01-43b5-acc0-970b496a2e0b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy (2) - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:20-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "5ebf78bc-1747-00f9-7ba2-82faed733895",
+     "file_manager_id": "2ea3ef97-5224-4306-9ece-28366d9d0ee5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:20-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "0ee9a69c-feb2-3e58-d94f-abdac1433c96",
+     "file_manager_id": "29e84aa2-b39c-4cb9-a976-31887c04b4c8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form5 - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:19-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "a05a1a4e-f4e9-0d65-1e8a-dfa659279e04",
+     "file_manager_id": "dc013de7-0f86-4bb2-ace5-1fc98f0087b5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:18-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "95fa3caa-826a-4628-68da-1dce7baf4a03",
+     "file_manager_id": "b34b9ef9-e2e6-4dc0-be4d-2051ed5e0f05"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (3)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:18-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "e949149e-c9ef-94e0-782c-d5b7fe9d8e7c",
+     "file_manager_id": "71c07c5e-9bff-4bc7-8729-8febdc2d4081"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:17-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "210302bd-ba58-6b5c-d894-1bbe2efecd70",
+     "file_manager_id": "8521881f-4b4b-42f8-8c64-2f763b4aa6c9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:17-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "a46f005d-191d-7c91-1d4c-27644209c0cf",
+     "file_manager_id": "521ea4fd-41ca-448d-b264-7bba4584e5a2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:16-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "788f39b1-459b-506a-e2db-6062311257e0",
+     "file_manager_id": "dec661bd-7aeb-43d8-9d6d-6f8a0eb71e68"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:16-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "1fbde995-6d87-fe18-3476-43a77f3a8305",
+     "file_manager_id": "c7a0fa7b-66e1-46e9-9fce-33d00a06dbdf"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:15:16-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "57497b66-6917-9db8-4f7c-c6ee7bb339e1",
+     "file_manager_id": "07f078a0-2d67-4c54-9084-39aad005a4a1"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (2) - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:44-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "05741b13-cb17-85c8-4d87-a2147f247d7a",
+     "file_manager_id": "f2ab492a-4009-4837-a4d8-e860a10b25b7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:41-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "a38602ce-f814-1a0e-ddac-c223b05afba8",
+     "file_manager_id": "c2363998-7152-42a2-ba21-d7853ffc84b0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:40-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "affe2c15-67bd-965a-2361-4331601f8437",
+     "file_manager_id": "5aafde46-c5d0-4a81-8c91-62a0fff15b74"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:40-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "ada6ea17-ff74-054a-1e8d-d9346e04dae4",
+     "file_manager_id": "6826b92d-5f27-41c6-84be-2a48188b2d54"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form4 - Copy - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:39-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "6aab824b-57e4-8dd1-47e8-59c163bfbcbc",
+     "file_manager_id": "96b94946-824c-426e-9a0b-1944129d7d5c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form2 - Copy (2) - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "fe16a959-f22c-360f-39a4-4dd534aa56ce",
+     "file_manager_id": "7cd428c3-54dd-4b3e-8d1d-e717d3f25723"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "86818f52-6472-5638-a445-41133f5b2b94",
+     "file_manager_id": "cdc64c2e-b0ab-441b-aa0e-1e0a6612b541"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy (3)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:38-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "73a143c0-0fba-4d63-b9f8-f7c513f1586a",
+     "file_manager_id": "6863812f-9f73-4dff-a9ae-c7196aba729b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:37-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "235ac895-5495-4529-cbe3-30a4be10f461",
+     "file_manager_id": "10d8010b-586b-4353-a155-986e0ea56bcb"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy (2) - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:37-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "2cfd1d9a-7858-8077-a19e-42c7498c8265",
+     "file_manager_id": "7e72c2fe-c18f-434a-9f5a-fa086540acbc"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:37-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "6848af9e-aec3-5317-da6e-d19567c4206f",
+     "file_manager_id": "da2826c6-24eb-4b6c-aebb-738ebbf95e99"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form2 - Copy (3)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:36-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "ceff7b9f-731b-5394-1017-cc53b84c3862",
+     "file_manager_id": "fb4582d6-5782-4214-9534-7ed4507e7caa"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form2 - Copy - Copy (2)",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:36-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "7b3bf3fc-764d-ff7d-c946-358063e9be7b",
+     "file_manager_id": "2f9767e4-0ece-4543-bb07-7c7329243f0f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form3 - Copy - Copy - Copy",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:13:35-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "1d74659f-4d3d-7eba-8dcc-1492a232c9a7",
+     "file_manager_id": "c4b26490-485d-421c-bd6b-9e96dd4888d7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj222703 11-20",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:12:01-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "6a6576b3-de91-f170-b2b1-54a6e0342928",
+     "file_manager_id": "3ce8083f-9326-4b1f-b4a1-54fc9bfbd714"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj226278",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:12:01-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "7392a1db-7ded-4bd3-ebde-1606074e277c",
+     "file_manager_id": "895c8533-096f-4289-9fc2-336426eb178c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj225590 7-12",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:12:00-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "113667ea-9f6d-086e-7fb0-4377ad63f131",
+     "file_manager_id": "04c2904e-cc61-4d82-aac1-b13885eebff7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj225590 1-6",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:56-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "5a548de9-c1a6-a57f-ca62-48307e49fb29",
+     "file_manager_id": "aee9538c-dbb3-4fd9-97fb-facb08b287f2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj222703 1-10",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:55-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "7c9b7dde-27a1-b658-6dbd-3ce2f5d594d8",
+     "file_manager_id": "880a3ac0-64a4-4d61-a9bf-e71f5a366776"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_NAB form",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:50-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "771f42e9-e9df-369f-30a0-7da46ad81268",
+     "file_manager_id": "66f656bb-dd13-4546-8c7e-077f187eff05"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj225101 6-10",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:48-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "c3ff2db7-3636-03bb-df0a-d1d1a9189205",
+     "file_manager_id": "f2054862-3d99-4e31-ad5d-b6070b5bb579"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj225101 1-5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:47-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "8e81fc81-7b7e-41d2-ddc2-cd91cbf3f804",
+     "file_manager_id": "0e082870-fadd-4b1e-94d0-b33c6093e97a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj223862 6-10",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:45-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "2d5b6994-cc08-320a-fce0-41e8db7e10c9",
+     "file_manager_id": "7aa43f8e-ded5-4326-ab7f-68cb2631e7f7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv 225937 6-11",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:40-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "9b27efea-1365-994e-c264-b6dd2a73878b",
+     "file_manager_id": "39441965-5bb1-4ada-a482-296322b7983d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj223862 1-5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:39-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "b4552956-5657-2219-3227-9f1c92846302",
+     "file_manager_id": "bd6a65c8-3870-460b-80d3-3b8a30e02c51"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj223595 1-5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:37-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "ac249fdb-c141-c2d0-a8e6-fc84e0bc4a34",
+     "file_manager_id": "8d962027-ae03-4135-908c-5635a61ed179"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv 225937 1-5",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:33-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "33aa6baf-e88e-60cc-cf3a-7156dcd18185",
+     "file_manager_id": "0ecce423-9b88-4a23-85eb-c0a7e72b3f83"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj223595 6-10",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:33-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "bab62c73-adfc-e5e2-a4e9-ac257c3ebb7c",
+     "file_manager_id": "2a474c30-70e8-40f1-aa82-f6f56c82bba7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/BLAKE MIGUEZ FOR LOUISIANA",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_inv sj222392",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:11:31-04:00",
+     "folder_id": "a2ab76f6-0317-4642-f9cc-a416fc49261b",
+     "file_id": "25083c60-6784-b00b-caa2-b3d3b6307872",
+     "file_manager_id": "c77a382d-9867-457b-bb72-47f51b686d72"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW",
+     "name": "CONSERVATIVES FOR BETTER TOMORROW_inv sj231260 11-15",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:08:56-04:00",
+     "folder_id": "824f30ac-280c-92a9-833c-8870a8034b53",
+     "file_id": "dccf7710-ceb5-729f-beeb-e194e26f8080",
+     "file_manager_id": "c9aa7625-592f-4e09-99b7-f94e3d98586c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW",
+     "name": "CONSERVATIVES FOR BETTER TOMORROW_inv sj231260 16-20",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:08:53-04:00",
+     "folder_id": "824f30ac-280c-92a9-833c-8870a8034b53",
+     "file_id": "b07186de-9c5f-2a2c-4544-f8a734ce098e",
+     "file_manager_id": "3666c094-f416-4bda-90fc-b75c03077588"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW",
+     "name": "CONSERVATIVES FOR BETTER TOMORROW_inv sj231260 1-10",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:08:49-04:00",
+     "folder_id": "824f30ac-280c-92a9-833c-8870a8034b53",
+     "file_id": "a1a351c7-3891-2770-e916-83dac4ed7ced",
+     "file_manager_id": "4e308550-ea22-48cd-9b48-45b2edb2b156"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW",
+     "name": "CONSERVATIVES FOR BETTER TOMORROW_order 46229790",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:08:44-04:00",
+     "folder_id": "824f30ac-280c-92a9-833c-8870a8034b53",
+     "file_id": "22193e39-ced3-d895-5176-be9454fd63a7",
+     "file_manager_id": "4b8b9c2d-1080-4a82-b2ca-682fe7cbe6fe"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW",
+     "name": "CONSERVATIVES FOR BETTER TOMORROW_NAB form",
+     "ext": "pdf",
+     "uploaded": "2026-09-01T15:08:42-04:00",
+     "folder_id": "824f30ac-280c-92a9-833c-8870a8034b53",
+     "file_id": "b1c9c986-58a0-da37-9af8-e7b823f059fe",
+     "file_manager_id": "5cb0ac23-9b33-48b2-a7a2-f3c3eecbb7be"
+    }
+   ],
+   "stale": false
+  },
+  {
+   "call": "022352",
+   "fcc_call": "022352",
+   "facility_id": "022352",
+   "root_folder": "e690a879-3fcc-1cfc-0fff-d8487d6bb612",
+   "profile": "cable-profile/022352",
+   "scraped_at": "2026-10-13T03:41:56Z",
+   "year_folders": {
+    "2014": "926e4127-94ee-dea9-3a6e-0c503c9c31f8",
+    "2015": "6a44a346-37c7-9c0d-a7fd-f6df8d97724b",
+    "2016": "db7872eb-1cba-11e6-df01-4302e3117427",
+    "2017": "1b9d03ac-3bd1-f613-188a-4f52edaa1c06",
+    "2018": "670f4852-da15-450a-6442-fb8f19aef798",
+    "2019": "62310393-d639-3862-2c66-fd12bc339ca2",
+    "2020": "00d268ab-ce76-a37e-599a-795c24efab75",
+    "2021": "52c4014b-2119-8387-ad90-fda7eaf2061e",
+    "2022": "f57725d3-da39-fcf4-6036-95cbb9f27a22",
+    "2023": "969a2dc8-6938-2b78-627b-28ab0f5744f1",
+    "2024": "7fb6ac03-353d-3919-603d-ead593cbbaec",
+    "2025": "60476514-40dd-3e41-46e6-3ed13d354bfe",
+    "2026": "dcca4ca0-7690-9d39-8612-e6ee6621e618"
+   },
+   "folders": {
+    "Political Files/2026": "dcca4ca0-7690-9d39-8612-e6ee6621e618"
+   },
+   "files": [],
+   "stale": false
   }
  ],
  "failed": [],
@@ -164115,24 +165308,27 @@
  "blocked": null,
  "attempted": {
   "002247": "2026-10-13T00:24:55Z",
-  "002460": "2026-10-12T19:05:27Z",
+  "002460": "2026-10-13T03:41:56Z",
   "003002": "2026-10-13T00:24:55Z",
   "003084": "2026-10-13T00:24:55Z",
+  "003376": "2026-10-13T03:41:56Z",
   "003478": "2026-10-12T20:21:25Z",
-  "003680": "2026-10-12T20:21:25Z",
+  "003680": "2026-10-13T03:41:56Z",
   "004289": "2026-10-12T20:21:25Z",
-  "004321": "2026-10-12T19:05:27Z",
-  "005142": "2026-10-12T19:05:27Z",
+  "004321": "2026-10-13T03:41:56Z",
+  "004383": "2026-10-13T03:41:56Z",
+  "005142": "2026-10-13T03:41:56Z",
   "005143": "2026-10-12T20:21:25Z",
-  "005341": "2026-10-12T19:05:27Z",
+  "005341": "2026-10-13T03:41:56Z",
   "006379": "2026-10-12T20:21:25Z",
   "007033": "2026-10-12T20:21:25Z",
   "007036": "2026-10-12T20:21:25Z",
-  "007052": "2026-10-12T20:21:25Z",
-  "008048": "2026-10-12T19:05:27Z",
+  "007052": "2026-10-13T03:41:56Z",
+  "008048": "2026-10-13T03:41:56Z",
   "008273": "2026-10-13T00:24:55Z",
   "008277": "2026-10-12T20:21:25Z",
-  "008564": "2026-10-12T19:05:27Z",
+  "008564": "2026-10-13T03:41:56Z",
+  "008567": "2026-10-13T03:41:56Z",
   "008691": "2026-10-13T00:24:55Z",
   "008858": "2026-10-12T20:21:25Z",
   "008859": "2026-10-13T00:24:55Z",
@@ -164143,9 +165339,10 @@
   "014241": "2026-10-13T00:24:55Z",
   "015650": "2026-10-13T00:24:55Z",
   "016728": "2026-10-12T20:21:25Z",
-  "020573": "2026-10-12T19:05:27Z",
+  "020573": "2026-10-13T03:41:56Z",
   "021784": "2026-10-13T00:24:55Z",
   "022095": "2026-10-13T00:24:55Z",
+  "022352": "2026-10-13T03:41:56Z",
   "022377": "2026-10-13T00:24:55Z"
  }
 }
