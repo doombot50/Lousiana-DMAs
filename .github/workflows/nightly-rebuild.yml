@@ -162,9 +162,9 @@ jobs:
         continue-on-error: true
         timeout-minutes: 45
         run: |
-          python3 fcc/read_documents.py
-          python3 fcc/read_documents.py --media radio --budget 15
-          python3 fcc/read_documents.py --media cable --budget 15
+          python3 fcc/read_documents.py --minutes 25
+          python3 fcc/read_documents.py --media radio --budget 15 --minutes 8
+          python3 fcc/read_documents.py --media cable --budget 15 --minutes 8
 
       - name: Save document text
         if: always()
