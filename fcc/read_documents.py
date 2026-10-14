@@ -168,13 +168,15 @@ FILES = {'tv': 'fcc_political.json', 'cable': 'fcc_cable.json', 'radio': 'fcc_ra
 
 
 def read_one(get, f):
-    data = get(download_url(f), raw=True)
+    import scrape_political_files as sp
+    try:
+        data = get(download_url(f), raw=True, max_bytes=MAX_BYTES)
+    except sp.TooBig as e:
+        return {'status': 'too_big', 'bytes': e.args[0]}
     if data is None:
         return {'status': 'missing'}
     if not data.startswith(b'%PDF'):
         return {'status': 'not_pdf', 'bytes': len(data)}
-    if len(data) > MAX_BYTES:
-        return {'status': 'too_big', 'bytes': len(data)}
     text, how = pdf_text(data)
     if not text:
         return {'status': 'scan'}
@@ -289,22 +291,34 @@ def main():
     now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     counts = {}
     blocked = None
+
+    def save():
+        """Write what has been read so far, atomically, so a run cut off by
+        its step's timeout keeps every document it finished."""
+        store.update({'source': 'FCC political-file documents (publicfiles.fcc.gov), read with pdftotext',
+                      'updated': now, 'blocked': blocked})
+        store['documents'] = dict(sorted(docs.items()))
+        with open(args.out + '.tmp', 'w', encoding='utf-8') as fh:
+            json.dump(store, fh, indent=1, ensure_ascii=False)
+        os.replace(args.out + '.tmp', args.out)
+
     t0 = time.time()
     for call, f, kind in queue[:budget]:
         if time.time() - t0 > args.minutes * 60:
-            print(f'  {args.minutes:g} minutes up; the rest wait for the next run')
+            print(f'  {args.minutes:g} minutes up; the rest wait for the next run', flush=True)
             break
+        t1 = time.time()
         try:
             res = read_one(sp.get, f)
         except sp.Blocked as e:
             blocked = str(e)
-            print(f'  blocked at {call} ({e}); keeping what was read')
+            print(f'  blocked at {call} ({e}); keeping what was read', flush=True)
             break
         except subprocess.TimeoutExpired:
             # Recorded, so it doesn't take a slot every night.
             res = {'status': 'too_slow'}
-        except (RuntimeError, subprocess.SubprocessError) as e:
-            print(f'  {call} {f["name"]}: {e}')
+        except (RuntimeError, subprocess.SubprocessError, OSError) as e:
+            print(f'  {call} {f["name"]}: {e}', flush=True)
             continue
         if isinstance(res, tuple):
             res, text = res
@@ -313,11 +327,11 @@ def main():
                     'uploaded': f['uploaded'], 'name_kind': kind, 'read_at': now})
         docs[doc_id(f)] = res
         counts[res['status']] = counts.get(res['status'], 0) + 1
-    store.update({'source': 'FCC political-file documents (publicfiles.fcc.gov), read with pdftotext',
-                  'updated': now, 'blocked': blocked})
-    store['documents'] = dict(sorted(docs.items()))
-    with open(args.out, 'w', encoding='utf-8') as fh:
-        json.dump(store, fh, indent=1, ensure_ascii=False)
+        print(f"  {call:<8} {res['status']:<8} {res.get('via') or '':<4} {time.time() - t1:5.1f}s  "
+              f"{res.get('gross') or '':>10}  {(res.get('agency') or '')[:30]:<30}  {(f['name'] or '')[:50]}",
+              flush=True)
+        save()
+    save()
     left = len(queue) - sum(counts.values())
     print(f'{args.media}: read {sum(counts.values())} documents {counts}; {left:,} still unread; '
           f'{sp.SENT[0]} requests\nWrote {args.out}')

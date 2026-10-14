@@ -158,13 +158,18 @@ jobs:
           key: doc-text-${{ github.run_id }}
           restore-keys: doc-text-
 
+      # Each reader saves after every document and stops itself after
+      # --minutes; `timeout` is the backstop, so one medium overrunning
+      # can't cost the others their turn or the night its reads.
       - name: Read political-file documents
         continue-on-error: true
-        timeout-minutes: 45
+        timeout-minutes: 50
+        env:
+          PYTHONUNBUFFERED: '1'
         run: |
-          python3 fcc/read_documents.py --minutes 25
-          python3 fcc/read_documents.py --media radio --budget 15 --minutes 8
-          python3 fcc/read_documents.py --media cable --budget 15 --minutes 8
+          timeout 27m python3 fcc/read_documents.py --minutes 25 || echo "TV reader stopped ($?)"
+          timeout 10m python3 fcc/read_documents.py --media radio --budget 15 --minutes 8 || echo "radio reader stopped ($?)"
+          timeout 10m python3 fcc/read_documents.py --media cable --budget 15 --minutes 8 || echo "cable reader stopped ($?)"
 
       - name: Save document text
         if: always()
@@ -187,7 +192,10 @@ jobs:
 
       - name: Commit if the filings changed
         run: |
-          if git diff --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -I'"updated":' -- data/ '*.html'; then
+          # A file new tonight (the first data/fcc_documents.json) is untracked,
+          # which git diff doesn't see.
+          if git diff --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -I'"updated":' -- data/ '*.html' \
+             && [ -z "$(git ls-files --others --exclude-standard -- data/)" ]; then
             echo "No new filings since the last build; nothing to commit."
             exit 0
           fi
