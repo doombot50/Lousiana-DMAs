@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install pdftotext and tesseract
-        run: sudo apt-get install -y -q poppler-utils tesseract-ocr
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
       - name: TV sample
         run: |
           python3 fcc/read_documents.py --sample 20 --names "Shawn Lindsay 10-12" "Mike Echols KARD" \
