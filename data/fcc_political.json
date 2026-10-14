@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-10-13T19:38:15Z",
+ "scraped": "2026-10-14T02:04:48Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -2383,7 +2383,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -2410,6 +2410,7 @@
     "Political Files/2026/Federal/US Senate/BILL CASSIDY": "adfb066b-2340-b659-9722-b87bac0d32d7",
     "Political Files/2026/Federal/US Senate/BILL CASSIDY/NAB FORMS": "d0cd3815-a983-ac12-b2bc-913b8b82491a",
     "Political Files/2026/Federal/US Senate/JAMIE DAVIS": "a1753c72-fa4f-6589-e280-8c51e5e12f4a",
+    "Political Files/2026/Federal/US Senate/JAMIE DAVIS/NAB FORMS": "607ecd2f-f120-8a8b-c4de-a86cd09cc3a9",
     "Political Files/2026/Federal/US Senate/JOHN FLEMING": "537f699e-3198-fbef-27d7-cec6f5f7fdb0",
     "Political Files/2026/Federal/US Senate/JOHN FLEMING/NAB FORMS": "96ed8af0-9521-4827-efdb-47d37b6812f8",
     "Political Files/2026/Federal/US Senate/JULIE LETLOW": "4fb166a0-4bf6-dda9-24dd-91de0910b524",
@@ -2476,6 +2477,24 @@
     "Political Files/2026/Terms and Disclosures": "9b2698d5-7171-5140-a682-b1a096c11e96"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/MICHAEL ECHOLS/NAB FORMS",
+     "name": "ECHOLS NAB 10.13.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:35:50-04:00",
+     "folder_id": "a04f6089-6757-9c16-6a39-28a0511a0a73",
+     "file_id": "e18fa3a2-a227-97b0-c0ad-babc5f2f282e",
+     "file_manager_id": "607e84ff-96a1-426e-b397-50d68ea337fa"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/JAMIE DAVIS/NAB FORMS",
+     "name": "DAVIS NAB 10.13.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:25:38-04:00",
+     "folder_id": "607ecd2f-f120-8a8b-c4de-a86cd09cc3a9",
+     "file_id": "69e25f75-e010-a6c0-2e6a-00f0fbfa5b00",
+     "file_manager_id": "f7e7fbc4-4634-479d-b890-106792a895e8"
+    },
     {
      "path": "Political Files/2026/Local/JEFFERSON PARISH COURT/MARKO MARJANOVIC/NAB FORMS",
      "name": "MARJANOVIC NAB 10.7.26",
@@ -3889,7 +3908,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -3912,6 +3931,12 @@
     "Political Files/2026/Federal/US House/Echols-R for LA Dist 5": "ab924950-8fc2-15f2-1466-8b455b78615b",
     "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1": "97f79ff1-9af5-5e6a-1d82-42c9952d3391",
     "Political Files/2026/Federal/US Senate": "e9725a55-63bb-0935-cd9b-f8e343cc793b",
+    "Political Files/2026/Federal/US Senate/Cassidy-R for US Senate": "18fa06cf-4718-d48f-1d55-0f7697d72b5d",
+    "Political Files/2026/Federal/US Senate/Davis-D for US Senate": "87d1a4db-c6a4-1fbc-a011-760dd22d0138",
+    "Political Files/2026/Federal/US Senate/Davis-D for US Senate/NAB": "aac88609-65d2-8ec8-f30e-9d4220524f38",
+    "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Orders": "331b9b47-a1a6-cbd2-09ad-48dc9991c914",
+    "Political Files/2026/Federal/US Senate/Fleming-R for US Senate": "80b515a3-2eed-5ca1-ff0f-9c4aed1ca3f8",
+    "Political Files/2026/Federal/US Senate/Letlow-R for US Senate": "f19d9b3b-70df-8720-121b-a30f6409f0fc",
     "Political Files/2026/Local": "6a0db91e-5bf3-9ef8-bd5d-7d7ae005cc59",
     "Political Files/2026/Local/Brocato-F for JP Court Div A": "bb37c6fd-3e6e-a84e-d96b-62208e3f5a36",
     "Political Files/2026/Local/Brocato-F for JP Court Div A/NAB": "0bcdd014-0957-cd8b-19e2-24bf25469c8a",
@@ -3945,6 +3970,15 @@
     "Political Files/2026/Terms and Disclosures": "6be32221-c7d0-a1b9-c161-6431cefe2f3c"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Orders",
+     "name": "WWL Davis 3348837",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:37:46-04:00",
+     "folder_id": "331b9b47-a1a6-cbd2-09ad-48dc9991c914",
+     "file_id": "6f5deeba-2dd4-e495-b18e-7f619f7cbac8",
+     "file_manager_id": "c3c3313c-77fb-4fc1-bda0-e5f2a755f9f8"
+    },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
      "name": "WWL Illing 3348448",
@@ -24088,7 +24122,7 @@
    "facility_id": "70482",
    "root_folder": "d199c42f-0c80-38bd-7e45-eb2cbd824d95",
    "profile": "tv-profile/ksla",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "158fbf22-b91d-c99c-593d-e341b1311546",
     "2018": "19c3b1b9-8df3-0d98-2751-cf6acf62c22a",
@@ -24105,12 +24139,20 @@
     "Political Files/2026": "50c98ef0-c107-d39b-ef71-418a0eff67b2",
     "Political Files/2026/Federal": "e7c8cd03-aaba-e87c-4d3f-893e47e9bdbc",
     "Political Files/2026/Federal/US House": "5171754b-93fb-610f-7750-6f03abc54598",
+    "Political Files/2026/Federal/US House/4th District Congress": "a58c415b-7a07-2181-b0f9-ee0165ccc9bc",
+    "Political Files/2026/Federal/US House/4th District Congress/Conrad Cable for Congress": "1029ad89-6eff-ee92-0605-a36d882217ca",
+    "Political Files/2026/Federal/US House/4th District Congress/Matt Gromlich for Louisiana": "efc2ff37-bf56-d3cb-0ffc-24222512f883",
+    "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana": "2fc34087-341d-5ae0-7794-4a6187cf15be",
     "Political Files/2026/Federal/US Senate": "b0cf00ea-ec51-379c-87b7-2eea8d31d2f0",
     "Political Files/2026/Federal/US Senate/Louisiana": "be92d508-c3f2-60a8-f00f-2a1107f02a89",
     "Political Files/2026/Federal/US Senate/Texas": "85733aec-2d7a-0131-ade3-98ab55cf2ecc",
     "Political Files/2026/Federal/US Senate/Texas/Ken Paxton Victory Fund": "84367e72-0e0e-ce2c-68a2-7a52d649c360",
     "Political Files/2026/Federal/US Senate/Texas/Talarico for Texas": "c3e0abda-96ec-0ce6-fbe2-d00811f5540a",
     "Political Files/2026/Local": "77a45e94-23bd-13fb-2cbd-9e8736a8787b",
+    "Political Files/2026/Local/District Attorney": "6ee78528-c6bb-b06a-d071-5779cb854216",
+    "Political Files/2026/Local/District Attorney/Alan Seabaugh for District Attorney": "ae5cd3d5-6d86-6000-cf81-973f086a4f99",
+    "Political Files/2026/Local/District Attorney/Kelley Crisp for District Attorney": "73016351-3ce5-9914-f2db-4b2b7a66f219",
+    "Political Files/2026/Local/Shreveport Mayor": "0cfd8177-91da-78a9-1875-403c478e82f6",
     "Political Files/2026/Non-Candidate Issue Ads": "1741a032-c3ca-36a6-3d4b-bf0d135c943d",
     "Political Files/2026/State": "65ba0786-a07e-9d57-a579-4c1d87618ded",
     "Political Files/2026/State/LA Caddo Parish District Attorney": "505a7b25-5066-6c7d-cdc9-4c8d84f5535e",
@@ -24124,10 +24166,56 @@
     "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor": "03e5c5fa-074c-2cb6-34d0-1c0455ec2a17",
     "Political Files/2026/State/TX Governor/Texans for Greg Abbott": "6d9ab274-7536-a323-6b9b-13835f3eda81",
     "Political Files/2026/State/TX Lt Governor": "f0976446-49e4-cf29-3ae3-1e4177254754",
+    "Political Files/2026/State/TX Lt Governor/Dan Patrick": "3866278e-6688-f6d5-df2a-cba53df85183",
     "Political Files/2026/State/TX Rep District 1": "c4038954-f485-9313-ed7d-63888eb9abbc",
     "Political Files/2026/Terms and Disclosures": "0f4526ed-667b-d1b2-24fe-4f1820724fdc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/District Attorney/Alan Seabaugh for District Attorney",
+     "name": "Seabaugh  PB19 The Right Choice",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T19:27:55-04:00",
+     "folder_id": "ae5cd3d5-6d86-6000-cf81-973f086a4f99",
+     "file_id": "7b403a10-2fa5-494b-9bc1-a77ada4cd08a",
+     "file_manager_id": "7c05caf5-dfef-4cfa-9143-1227091c438f"
+    },
+    {
+     "path": "Political Files/2026/Local/District Attorney/Alan Seabaugh for District Attorney",
+     "name": "Seabaugh Order 4593621",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T19:27:54-04:00",
+     "folder_id": "ae5cd3d5-6d86-6000-cf81-973f086a4f99",
+     "file_id": "cec10b8a-19b1-8a15-fe28-68f04353e3c9",
+     "file_manager_id": "cbd3560f-1124-4e9c-943d-0179a3fce420"
+    },
+    {
+     "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+     "name": "Gina Hinojosa Tx Gov PB19 Coach",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T19:10:29-04:00",
+     "folder_id": "03e5c5fa-074c-2cb6-34d0-1c0455ec2a17",
+     "file_id": "5a7a7874-8579-3169-3611-d0384d886366",
+     "file_manager_id": "52de3505-7fb9-42ed-8973-fcc2c35853c8"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "Dan Patrick Lt Gov PB19 Public Economy",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T19:03:05-04:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "16a99e2b-5397-73cb-a45f-2f461c03bce4",
+     "file_manager_id": "ef8ee091-b4a2-42ea-ab92-95d572892583"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/4th District Congress/Conrad Cable for Congress",
+     "name": "Conrad Cable Congress PB19 General",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T18:13:01-04:00",
+     "folder_id": "1029ad89-6eff-ee92-0605-a36d882217ca",
+     "file_id": "f4d12862-99b4-30a7-1f39-f7143f51dea4",
+     "file_manager_id": "27030fd5-abd6-4bca-8db7-a8b9c5862e79"
+    },
     {
      "path": "Political Files/2026/State/LA Caddo Parish District Attorney/Alan Seabaugh for Caddo Parish District Attorney",
      "name": "KSLA Alan Seabaugh for Caddo Parish District Attorney Contract #4593621",
@@ -27467,7 +27555,7 @@
    "facility_id": "35648",
    "root_folder": "1d2faa8f-dcdf-c3ae-30b6-318a597f63f6",
    "profile": "tv-profile/ktal-tv",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2015": "1290354b-37ed-2506-6327-71a65f3f62d1",
     "2017": "9f8a4ff0-b532-2a09-f783-b7c653fdd2f6",
@@ -27512,6 +27600,24 @@
     "Political Files/2026/State/Texans for Greg Abbott-Governor": "ed5f1106-aa69-86e7-ef32-7530fb6f6abf"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+     "name": "KTAL Texans for Dan Patrick AdId Economy 30",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:47:10-04:00",
+     "folder_id": "de3a6b6c-e8d6-4932-268d-8a9265d9a750",
+     "file_id": "e5217f60-478e-810e-abdd-b8398fc56daf",
+     "file_manager_id": "7829965f-f085-4f43-b78b-0af5d7f6b47d"
+    },
+    {
+     "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+     "name": "KTAL Texans for Dan Patrick Est 657 Order 5435367",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:47:10-04:00",
+     "folder_id": "de3a6b6c-e8d6-4932-268d-8a9265d9a750",
+     "file_id": "6ff9de8e-c391-274e-34f6-5817a205a276",
+     "file_manager_id": "93885b18-21f4-4f1f-afef-faa52e0c5782"
+    },
     {
      "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
      "name": "KTAL Texans for Dan Patrick Est 587 Cancel Order 5394355",
@@ -32021,7 +32127,7 @@
    "facility_id": "12525",
    "root_folder": "8e93018b-e543-90b5-cc23-f40ab090b8f1",
    "profile": "tv-profile/kmss-tv",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "011f22e4-c809-e471-a979-09ede48e3665",
     "2018": "45749cb3-e592-3f45-adfa-714a2df86d17",
@@ -32056,6 +32162,24 @@
     "Political Files/2026/State/Texans for Greg Abbott-Governor": "6d05cb7e-f733-8e4b-0e26-e7cb506b488d"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Texans For Dan Patrick",
+     "name": "KMSS Texans for Dan Patrick AdId Economy 30",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:46:23-04:00",
+     "folder_id": "5ea18ca9-1ea5-54b1-4a88-fcdfc23b2f16",
+     "file_id": "1d7fffbd-b477-73b8-da14-231e21048406",
+     "file_manager_id": "7020bd1c-ad8e-4bca-8e2c-4ef11b886957"
+    },
+    {
+     "path": "Political Files/2026/State/Texans For Dan Patrick",
+     "name": "KMSS Texans for Dan Patrick Est 657 Order 5435356",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:46:23-04:00",
+     "folder_id": "5ea18ca9-1ea5-54b1-4a88-fcdfc23b2f16",
+     "file_id": "5773dde4-3e45-2dcd-caee-9c8322592518",
+     "file_manager_id": "ffd1a563-0607-4dce-b01d-b6db727daf86"
+    },
     {
      "path": "Political Files/2026/State/Texans For Dan Patrick",
      "name": "KMSS Texans for Dan Patrick AdId Gender Issues 30",
@@ -35035,7 +35159,7 @@
    "facility_id": "81507",
    "root_folder": "45e8e38c-6f5e-a398-1391-4c30782c1ba2",
    "profile": "tv-profile/kpxj",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "57488a89-2d49-2c54-a64e-735c5e56e738",
     "2018": "b9f0fdd6-d253-b0de-60e7-ed6352b922c8",
@@ -35065,6 +35189,7 @@
     "Political Files/2026/Federal/US House/Mike Johnson/Order - 20350 REV 3": "4e6c996c-84ea-0cdb-c6f4-dfd41de87f40",
     "Political Files/2026/Federal/US House/Mike Johnson/Order - 20423": "cec97dcf-8e97-67c6-2f64-9a65c8543bb5",
     "Political Files/2026/Federal/US House/Mike Johnson/Order - 20423 REV 1": "4a919bd6-4f2f-8a40-5b66-38658bc6457f",
+    "Political Files/2026/Federal/US House/Mike Johnson/Order - 20423 REV 2": "8bf8f09f-0cd7-649e-ecbb-d057b277cfe6",
     "Political Files/2026/Federal/US House/Mike Johnson/Order - 20425": "2286f7c0-e1b5-e5f4-19fe-35885d5bcb7f",
     "Political Files/2026/Federal/US House/Mike Johnson/Order - 20427": "11d5e456-811b-ea69-0935-8634f883af1e",
     "Political Files/2026/Federal/US House/Mike Johnson/PB - 18294": "7bf27621-0ae2-97f7-ef06-f4505aec6acb",
@@ -35090,6 +35215,20 @@
     "Political Files/2026/Local/Mayor of Shreveport/Siavosh Ravari/Order - 20442": "98ecda9b-a5ae-d8cb-292d-4f36bdec883c",
     "Political Files/2026/Local/Mayor of Shreveport/Siavosh Ravari/PB - 20442": "61d38faf-620b-7eff-18c7-3637dea1de22",
     "Political Files/2026/Non-Candidate Issue Ads": "d6a7137a-af83-d965-6cd1-a1ca1a259697",
+    "Political Files/2026/Non-Candidate Issue Ads/Accountability Project": "6a66093e-ac56-17a8-1dd7-a62241295391",
+    "Political Files/2026/Non-Candidate Issue Ads/American Mission Super PAC": "8c696c58-e4ea-1a69-9bce-1cb1991b36ef",
+    "Political Files/2026/Non-Candidate Issue Ads/Californians For Voter ID - CW": "61409e98-a444-f88c-20d6-c90a84557544",
+    "Political Files/2026/Non-Candidate Issue Ads/Lone Star Liberty PAC": "340e48fa-d89a-5025-6f8f-d6f22d768c8b",
+    "Political Files/2026/Non-Candidate Issue Ads/Louisiana Freedom Fund": "61451ddf-d5b0-1ab8-bef0-6a2655a1cb17",
+    "Political Files/2026/Non-Candidate Issue Ads/MEGA Energy Project": "a5af7659-342c-421e-1353-4667482b2369",
+    "Political Files/2026/Non-Candidate Issue Ads/Making Michigans Future - CW": "9776e47c-a360-bbc0-049b-6fbccf282e28",
+    "Political Files/2026/Non-Candidate Issue Ads/Protect the North Dakota Constitution - CW": "450fd681-d4d4-04f2-cd0b-a12acfa897b5",
+    "Political Files/2026/Non-Candidate Issue Ads/Protect the North Dakota Constitution - CW/Order - 63687v1": "aa9e93ff-c57b-1476-d6dc-75e567f21836",
+    "Political Files/2026/Non-Candidate Issue Ads/Protect the North Dakota Constitution - CW/PB - 63687v1": "bc573936-43fa-2f60-1b34-2dd4361c2487",
+    "Political Files/2026/Non-Candidate Issue Ads/Protect the North Dakota Constitution - CW/PB - 63687v1 - REV 1": "a20f3c31-1bcc-ee5b-98fd-62bbe995f2ac",
+    "Political Files/2026/Non-Candidate Issue Ads/Texas PAC": "99d91877-cd3f-e4ca-8357-95fddcedd76c",
+    "Political Files/2026/Non-Candidate Issue Ads/Texas PAC - CW": "40572157-2e1d-443b-1be4-397570d13964",
+    "Political Files/2026/Non-Candidate Issue Ads/Too Extreme for Idaho PAC - CW": "f4669963-58cf-97fe-80d2-b18cc289c111",
     "Political Files/2026/State": "da3bfceb-cc9a-e6d7-8403-b45e6a9559ac",
     "Political Files/2026/State/Texas Attorney General": "747699bc-46d3-e204-67eb-9fce784a631d",
     "Political Files/2026/State/Texas Comptroller": "409d77be-96f8-645a-2bc9-27db03447851",
@@ -35130,6 +35269,24 @@
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20404": "4e1c8eae-7ce3-718d-4b9c-6e4b834cf1d1"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Protect the North Dakota Constitution - CW/PB - 63687v1 - REV 1",
+     "name": "20261013162907675",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T17:13:01-04:00",
+     "folder_id": "a20f3c31-1bcc-ee5b-98fd-62bbe995f2ac",
+     "file_id": "a9242da0-3aef-b1d4-2e83-d523e7948596",
+     "file_manager_id": "b2258986-4020-42a9-ab9a-0630fef5d422"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Mike Johnson/Order - 20423 REV 2",
+     "name": "20261013140951593",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:53:42-04:00",
+     "folder_id": "8bf8f09f-0cd7-649e-ecbb-d057b277cfe6",
+     "file_id": "b8438c6f-c903-024e-dd26-77233cdd587a",
+     "file_manager_id": "97885af3-ee04-4807-826a-67ca07ea3e2d"
+    },
     {
      "path": "Political Files/2026/State/Texas Governor/Greg Abbott/Order - 20212 REV 3",
      "name": "20261012160632355",
@@ -37416,7 +37573,7 @@
    "facility_id": "33471",
    "root_folder": "ba750660-00ba-44ff-3e1d-8bd512e6caf1",
    "profile": "tv-profile/katc",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "65a68f9d-910d-9253-02dd-dbd81014b13b",
     "2018": "37d6049a-0dbc-dfd8-51d8-096a3aaf2e4f",
@@ -37449,6 +37606,33 @@
     "Political Files/2026/Non-Candidate Issue Ads": "1bafe298-4aa5-18db-2ff5-0f1e44e2e3f6"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/The Kristian Earles Campaign",
+     "name": "KRISTIAN EARLES KADN4594351",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:29:25-04:00",
+     "folder_id": "90704cdf-4f13-8f61-e699-3ae1e7f5519e",
+     "file_id": "2a0b19de-d463-f425-b227-c8318440cda5",
+     "file_manager_id": "fef92303-1ca8-409e-be85-b393dae51774"
+    },
+    {
+     "path": "Political Files/2026/Local/The Kristian Earles Campaign",
+     "name": "KRISTIAN EARLES KATC4594175",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:29:25-04:00",
+     "folder_id": "90704cdf-4f13-8f61-e699-3ae1e7f5519e",
+     "file_id": "d77584b9-86af-b641-26b4-896beb7eaf93",
+     "file_manager_id": "454f6001-9532-4441-a046-217d65247cbf"
+    },
+    {
+     "path": "Political Files/2026/Local/The Kristian Earles Campaign",
+     "name": "KRISTIAN EARLES KLAF4594216",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:29:25-04:00",
+     "folder_id": "90704cdf-4f13-8f61-e699-3ae1e7f5519e",
+     "file_id": "71e32f6d-b09d-a1f8-3347-f8e082904604",
+     "file_manager_id": "2a94b9d3-c004-4fe4-b3a5-3b4f693893cb"
+    },
     {
      "path": "Political Files/2026/Local/Don Landry DA 15 Judicial District of LA",
      "name": "DON LANDRY KATC REV1 4579589",
@@ -39339,7 +39523,7 @@
    "facility_id": "35059",
    "root_folder": "897e717c-c665-e9f9-cc1e-c4bbdb2aa3a1",
    "profile": "tv-profile/klfy-tv",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "1ae3e6af-2c1e-09e8-8025-7f46f61bf27c",
     "2018": "a0c6359b-88c1-6581-88f6-ab34189d913d",
@@ -39375,6 +39559,15 @@
     "Political Files/2026/Non-Candidate Issue Ads": "75876ce3-011d-85ad-eee4-20f3d82d6a1a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis - US Senate",
+     "name": "Pol-Jamie Davis_10.13.2026_Contract_5434512_rev1",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:42:02-04:00",
+     "folder_id": "9d202fcd-7a47-7883-0e5c-a6256af8edae",
+     "file_id": "b7fe2db4-7dc6-76c6-de40-9a8e1ce274b4",
+     "file_manager_id": "37a6a769-8681-4b65-966f-621cc02446e5"
+    },
     {
      "path": "Political Files/2026/Local/District Attorney/Kristian Earles - District Attorney",
      "name": "Pol-Kristian Earles_10.13.2026_Contract_5434759",
@@ -40932,7 +41125,7 @@
    "facility_id": "33261",
    "root_folder": "50121c5f-0768-c8cc-38e2-f0ff3c3b001f",
    "profile": "tv-profile/kadn-tv",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2014": "1fa666b2-7ce8-334f-6290-190da5d32431",
     "2015": "fc6694ff-c901-7496-9f7d-9fa96893c6a6",
@@ -40965,6 +41158,24 @@
     "Political Files/2026/Non-Candidate Issue Ads": "c7720a6c-5e8d-c584-177e-eb185e4c97ee"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/The Kristain Earles Campaign",
+     "name": "KRISTIAN EARLES KADN4594351",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:34:14-04:00",
+     "folder_id": "154d9505-ebe1-01b3-c0e6-6bc3d8a62d91",
+     "file_id": "b0546cac-7a94-9342-a0e1-160094655cfb",
+     "file_manager_id": "0fc187b8-24a7-497c-b413-76221d63e6d4"
+    },
+    {
+     "path": "Political Files/2026/Local/The Kristain Earles Campaign",
+     "name": "KRISTIAN EARLES KLAF4594216",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T14:34:14-04:00",
+     "folder_id": "154d9505-ebe1-01b3-c0e6-6bc3d8a62d91",
+     "file_id": "1c33cd0a-9a33-a0d2-0d77-ad7492495cd0",
+     "file_manager_id": "ecfbd143-3c3b-4c44-9d88-b1aef6df735c"
+    },
     {
      "path": "Political Files/2026/Local/The Kristain Earles Campaign",
      "name": "klaf-the kristin earls campagin-4594216",
@@ -42603,7 +42814,7 @@
    "facility_id": "48975",
    "root_folder": "c96465a1-4b00-57c1-eaa2-444c27864256",
    "profile": "tv-profile/knoe-tv",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2015": "9d19dfab-85d2-7a49-54f2-7e96bb03f41f",
     "2017": "5207134f-9eab-77dc-9e70-4c30db7bb52b",
@@ -45703,7 +45914,7 @@
    "facility_id": "35692",
    "root_folder": "6ccb985d-b32e-a6d1-6b62-04c24d877f2e",
    "profile": "tv-profile/ktve",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2018": "e3f9498d-ec81-99bb-5714-1348a5213d1e",
     "2019": "1c3d4528-0289-c08a-20ce-74b048259b13",
@@ -46324,7 +46535,7 @@
    "facility_id": "3658",
    "root_folder": "6aeadbe8-7885-28c3-3de9-7fe3217df95c",
    "profile": "tv-profile/kard",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2018": "624ee5c0-d284-8503-08e3-4adddd65668d",
     "2019": "e686e71c-c813-05ac-d41e-7e0222ad3c69",
@@ -46971,7 +47182,7 @@
    "facility_id": "13994",
    "root_folder": "3a7cbc6a-9d9c-fd49-2381-081f274c4aa9",
    "profile": "tv-profile/kplc",
-   "scraped_at": "2026-10-13T18:17:55Z",
+   "scraped_at": "2026-10-14T01:59:46Z",
    "year_folders": {
     "2017": "76c1d6da-c5a7-92b5-ecbe-b16a7d44a376",
     "2018": "cee6cef1-dcea-0704-0aa1-a9239d22df40",
@@ -46994,6 +47205,24 @@
     "Political Files/2026/State": "19f8868b-09ef-a1c7-6e8d-8749560c1d71"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "Mike Johnson Invoice-KPLC 10.5 thru 10.11",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T18:45:08-04:00",
+     "folder_id": "3f9b3427-5e87-4a46-36d2-d62c66cd47a5",
+     "file_id": "58d7ade8-8e83-9d1b-0fe0-8e5121743763",
+     "file_manager_id": "566d1fe2-9aca-4f74-9c9e-ab6a68059d80"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "californians-for-voter-id-ca-prop-39-09-09-20260924-225101635-pdf",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T17:22:52-04:00",
+     "folder_id": "193820bb-55ca-430e-b5d8-bb462469c491",
+     "file_id": "4f2d0db0-2137-9e50-6f3b-a87809e250ba",
+     "file_manager_id": "89296cda-ae3a-48ad-a09e-9b8c4e57956e"
+    },
     {
      "path": "Political Files/2026/Federal/US House",
      "name": "NAB Update-Mike Johnson 30 sec spot rec'd for 10.12.26 thru 10.18.26",
@@ -50917,25 +51146,25 @@
  ],
  "blocked": null,
  "attempted": {
-  "KADN": "2026-10-13T18:17:55Z",
+  "KADN": "2026-10-14T01:59:46Z",
   "KALB": "2026-10-13T19:35:15Z",
-  "KARD": "2026-10-13T18:17:55Z",
-  "KATC": "2026-10-13T18:17:55Z",
+  "KARD": "2026-10-14T01:59:46Z",
+  "KATC": "2026-10-14T01:59:46Z",
   "KLAX": "2026-10-13T19:35:15Z",
-  "KLFY": "2026-10-13T18:17:55Z",
-  "KMSS": "2026-10-13T18:17:55Z",
-  "KNOE": "2026-10-13T18:17:55Z",
-  "KPLC": "2026-10-13T18:17:55Z",
-  "KPXJ": "2026-10-13T18:17:55Z",
-  "KSLA": "2026-10-13T18:17:55Z",
-  "KTAL": "2026-10-13T18:17:55Z",
+  "KLFY": "2026-10-14T01:59:46Z",
+  "KMSS": "2026-10-14T01:59:46Z",
+  "KNOE": "2026-10-14T01:59:46Z",
+  "KPLC": "2026-10-14T01:59:46Z",
+  "KPXJ": "2026-10-14T01:59:46Z",
+  "KSLA": "2026-10-14T01:59:46Z",
+  "KTAL": "2026-10-14T01:59:46Z",
   "KTBS": "2026-10-13T19:35:15Z",
-  "KTVE": "2026-10-13T18:17:55Z",
+  "KTVE": "2026-10-14T01:59:46Z",
   "KVHP": "2026-10-13T19:35:15Z",
   "WAFB": "2026-10-13T19:35:15Z",
   "WBRL-CD": "2026-10-13T19:35:15Z",
   "WBRZ": "2026-10-13T19:35:15Z",
-  "WDSU": "2026-10-13T18:17:55Z",
+  "WDSU": "2026-10-14T01:59:46Z",
   "WGMB": "2026-10-13T19:35:15Z",
   "WGNO": "2026-10-13T19:35:15Z",
   "WLAE": "2026-10-13T19:35:15Z",
@@ -50943,7 +51172,7 @@
   "WNTZ": "2026-10-13T19:35:15Z",
   "WUPL": "2026-10-13T19:35:15Z",
   "WVLA": "2026-10-13T19:35:15Z",
-  "WVUE": "2026-10-13T18:17:55Z",
-  "WWL-TV": "2026-10-13T18:17:55Z"
+  "WVUE": "2026-10-14T01:59:46Z",
+  "WWL-TV": "2026-10-14T01:59:46Z"
  }
 }

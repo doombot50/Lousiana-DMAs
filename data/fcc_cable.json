@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-13T19:39:43Z",
+ "scraped": "2026-10-14T02:06:46Z",
  "years": [
   2026,
   2027
@@ -48496,7 +48496,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -50658,7 +50658,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -50690,6 +50690,15 @@
     "Political Files/2026/State/Campaign to Elect Will Keaty": "780b467a-bb6d-9820-f133-b22eac2e0d69"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_confirm1321711_sys8644_20261012_164631",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T16:25:54-04:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "eca0be45-e570-9b2d-039e-64124d3f0757",
+     "file_manager_id": "da8494ad-ca56-473b-95b1-515942fb5fc7"
+    },
     {
      "path": "Political Files/2026/Local/Donald Landry for DA",
      "name": "DONALD LANDRY LOU_confirm1321710_sys1995_20261012_164631",
@@ -52427,7 +52436,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -52464,6 +52473,186 @@
     "Political Files/2026/State/Texans for Greg Abbott": "cc6fd003-e879-44d3-2e4e-11699641ae31"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Dan Patrick for TX LT Governor",
+     "name": "ORD_33~3",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:56-04:00",
+     "folder_id": "3c82f67a-0582-c264-d8ea-3c029f8f4c47",
+     "file_id": "5ffc3e03-72d7-a9ad-d366-bf79c20ec4a4",
+     "file_manager_id": "aa124eac-e743-4252-a4f9-93ed173ea422"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORA202~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "7f7ac6b3-f050-0f34-4746-f894044b766e",
+     "file_manager_id": "d9244dd6-ec89-4113-8113-ebb29cd1ce0b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORD_33~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "0257938e-87a6-5783-4b1a-9016f7bd9518",
+     "file_manager_id": "94f86173-4b13-4c91-a13e-533cb0aa66cb"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORD_33~2",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "59adeec2-5f83-3699-91d5-e04918a05a2e",
+     "file_manager_id": "73020241-6c1a-4b08-b232-987336a719d2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORD_33~3",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "12aa2870-990c-2d3a-ff6e-c44a3e163ad2",
+     "file_manager_id": "b5482c79-9e9e-4ba7-9ed6-7a41cd1c8e64"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORD_33~4",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "678b355a-3a03-53fb-bfb7-af47c24d9aff",
+     "file_manager_id": "15a069d1-97a7-482a-b9fe-dcbd036165db"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORD961~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "04bb00fb-0051-27c5-84cd-1ef6c3ebd789",
+     "file_manager_id": "5b9438a7-52fa-4006-97d8-1294a05081df"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Cotton For Senate",
+     "name": "ORE5B7~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:38:04-04:00",
+     "folder_id": "26fe3ec4-99bd-c7f0-3895-a61e94d9cab8",
+     "file_id": "3164e91f-d31c-5ca2-b27a-50b02d9cc73c",
+     "file_manager_id": "7cb8180d-6cd9-4e0f-bf7f-021355ddd643"
+    },
+    {
+     "path": "Political Files/2026/State/Gina Hinojosa Campaign",
+     "name": "OR1821~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:37:04-04:00",
+     "folder_id": "09cb1642-3568-c873-6dcc-9401d58283e4",
+     "file_id": "b847c093-c7d2-2319-161d-22cadcc84991",
+     "file_manager_id": "3f38c1a6-c5ba-4a4f-967f-0afb834c5f7e"
+    },
+    {
+     "path": "Political Files/2026/State/Gina Hinojosa Campaign",
+     "name": "OR2EE8~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:37:04-04:00",
+     "folder_id": "09cb1642-3568-c873-6dcc-9401d58283e4",
+     "file_id": "cd22bdd1-2b8f-5276-8dcc-251210dcd7a7",
+     "file_manager_id": "96aa9d04-4c5d-4faa-a018-5b61c05e5983"
+    },
+    {
+     "path": "Political Files/2026/State/Gina Hinojosa Campaign",
+     "name": "OR6181~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:37:04-04:00",
+     "folder_id": "09cb1642-3568-c873-6dcc-9401d58283e4",
+     "file_id": "25355149-f074-a0ff-50a4-db8707275409",
+     "file_manager_id": "746e37d3-2244-4edc-9846-e1d16f684f73"
+    },
+    {
+     "path": "Political Files/2026/State/Gina Hinojosa Campaign",
+     "name": "OR79D7~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:37:04-04:00",
+     "folder_id": "09cb1642-3568-c873-6dcc-9401d58283e4",
+     "file_id": "9d2a33f6-e09d-11d1-ecbd-0c856ebd57b5",
+     "file_manager_id": "a0b7a48f-eccc-463a-9d5b-2d5cbc5300cf"
+    },
+    {
+     "path": "Political Files/2026/State/Sarah for Governor",
+     "name": "ORA29B~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:36:17-04:00",
+     "folder_id": "f68c5648-169d-4459-1e8c-22990e708482",
+     "file_id": "8c97b5d7-e451-9ea8-beaf-091b884dd6c5",
+     "file_manager_id": "b77e4cb9-343a-4232-b787-8111dd4638ca"
+    },
+    {
+     "path": "Political Files/2026/State/Sarah for Governor",
+     "name": "OR11F3~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:35:57-04:00",
+     "folder_id": "f68c5648-169d-4459-1e8c-22990e708482",
+     "file_id": "824dc349-f913-0104-11c5-331029bd2eb4",
+     "file_manager_id": "99e41e6f-140e-4ab4-a5ee-758b71b1f908"
+    },
+    {
+     "path": "Political Files/2026/State/Sarah for Governor",
+     "name": "OR1A47~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:35:57-04:00",
+     "folder_id": "f68c5648-169d-4459-1e8c-22990e708482",
+     "file_id": "c862f948-930d-4056-a350-5994feed7f4d",
+     "file_manager_id": "a9535ee6-73f1-4eb2-a663-351c64e15061"
+    },
+    {
+     "path": "Political Files/2026/State/Sarah for Governor",
+     "name": "ORA80C~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:35:57-04:00",
+     "folder_id": "f68c5648-169d-4459-1e8c-22990e708482",
+     "file_id": "64d526e7-7c66-3c5f-d10d-f30bde7249dc",
+     "file_manager_id": "e07216ff-9bef-4af3-9b88-69588d575b8a"
+    },
+    {
+     "path": "Political Files/2026/State/Texans for Greg Abbott",
+     "name": "ORB6AB~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:34:56-04:00",
+     "folder_id": "cc6fd003-e879-44d3-2e4e-11699641ae31",
+     "file_id": "85daa6de-986e-b88d-4f0b-526f60c422bf",
+     "file_manager_id": "3e1f8805-0dd4-4f39-81ad-5762ac9b1a78"
+    },
+    {
+     "path": "Political Files/2026/State/Texans for Greg Abbott",
+     "name": "ORC5C4~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:34:56-04:00",
+     "folder_id": "cc6fd003-e879-44d3-2e4e-11699641ae31",
+     "file_id": "3c8b306e-a210-cc7b-c509-ebc4479e574d",
+     "file_manager_id": "e29215cb-07d9-4297-831f-437e04d1cea4"
+    },
+    {
+     "path": "Political Files/2026/State/Texans for Greg Abbott",
+     "name": "ORFE46~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:34:56-04:00",
+     "folder_id": "cc6fd003-e879-44d3-2e4e-11699641ae31",
+     "file_id": "f3e8918b-6c40-da1c-aabd-49b396c427a1",
+     "file_manager_id": "d5f64bb4-6703-4e88-9265-d7fed08605e5"
+    },
+    {
+     "path": "Political Files/2026/State/Texans for Greg Abbott",
+     "name": "INV_33~1",
+     "ext": "PDF",
+     "uploaded": "2026-10-13T15:33:06-04:00",
+     "folder_id": "cc6fd003-e879-44d3-2e4e-11699641ae31",
+     "file_id": "f4f2ac42-1459-cc56-8197-e5d9d8a5da28",
+     "file_manager_id": "91b982c0-2c48-4334-b6d0-aa1b712c4bbf"
+    },
     {
      "path": "Political Files/2026/State/Sarah for Governor",
      "name": "633751~4",
@@ -53544,7 +53733,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -53613,12 +53802,22 @@
     "Political Files/2026/State/Lafayette LA": "4f6fbf42-94bf-8b6c-0492-2828bb50415a",
     "Political Files/2026/State/Lafayette LA/County District Attorney ": "7ef6cc36-e1dd-cc18-6d22-8539f4467db9",
     "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry": "923e9500-9835-ceeb-7e06-a7df7f237a8f",
+    "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
     "Political Files/2026/State/New Orleans": "954ed198-aa27-a83c-cde4-4b2c74f50c50",
     "Political Files/2026/State/New Orleans/Supreme Court Judge State": "18a7ef87-efa4-408d-3f5f-ffff566c3b8b",
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/Blair Downing Edwards": "386186e1-c502-ddf8-5266-ecf78c22e454",
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "87852d44-84df-a461-e263-19c55dddda0a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "63397012.10007257_OrderContract_10007257",
+     "ext": "pdf",
+     "uploaded": "2026-10-13T15:03:19-04:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "770d644f-82f3-724a-04cd-c7d79632b1ba",
+     "file_manager_id": "319288e6-5c01-4871-b193-3c668dd3eacb"
+    },
     {
      "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Steve Scalise",
      "name": "1314092_Order_Contract_20261006032332613",
@@ -103128,7 +103327,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -106471,7 +106670,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -106499,7 +106698,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -106621,7 +106820,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-10-13T18:21:09Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -106649,7 +106848,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-10-13T18:21:09Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -164168,7 +164367,7 @@
    "facility_id": "003376",
    "root_folder": "35696673-0532-826d-bbd0-fd86dd2fc8bd",
    "profile": "cable-profile/003376",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "43b2d375-2eeb-32fd-0adf-25a7ca6e7956",
     "2015": "8c65513f-be4f-13b9-657c-c93558ac377b",
@@ -164196,7 +164395,7 @@
    "facility_id": "004383",
    "root_folder": "079ce57f-f911-f7ec-3041-e2933f22bc71",
    "profile": "cable-profile/004383",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "423b6c9d-5251-407a-adc3-ad4dff61186f",
     "2015": "634829d0-474e-9216-6ee8-101cfd127bee",
@@ -164224,7 +164423,7 @@
    "facility_id": "008567",
    "root_folder": "e9d841d0-c257-facd-08d6-92308ea4f926",
    "profile": "cable-profile/008567",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "e3586980-e355-8b41-38c3-6ae23c953c37",
     "2015": "65efd0da-acfc-ff5a-a285-8376c2401386",
@@ -165315,7 +165514,7 @@
    "facility_id": "022352",
    "root_folder": "e690a879-3fcc-1cfc-0fff-d8487d6bb612",
    "profile": "cable-profile/022352",
-   "scraped_at": "2026-10-13T03:41:56Z",
+   "scraped_at": "2026-10-14T02:04:48Z",
    "year_folders": {
     "2014": "926e4127-94ee-dea9-3a6e-0c503c9c31f8",
     "2015": "6a44a346-37c7-9c0d-a7fd-f6df8d97724b",
@@ -165347,24 +165546,24 @@
   "002460": "2026-10-13T19:38:15Z",
   "003002": "2026-10-13T19:38:15Z",
   "003084": "2026-10-13T19:38:15Z",
-  "003376": "2026-10-13T03:41:56Z",
+  "003376": "2026-10-14T02:04:48Z",
   "003478": "2026-10-13T18:21:09Z",
-  "003680": "2026-10-13T03:41:56Z",
+  "003680": "2026-10-14T02:04:48Z",
   "004289": "2026-10-13T18:21:09Z",
-  "004321": "2026-10-13T03:41:56Z",
-  "004383": "2026-10-13T03:41:56Z",
-  "005142": "2026-10-13T03:41:56Z",
+  "004321": "2026-10-14T02:04:48Z",
+  "004383": "2026-10-14T02:04:48Z",
+  "005142": "2026-10-14T02:04:48Z",
   "005143": "2026-10-13T18:21:09Z",
-  "005341": "2026-10-13T03:41:56Z",
-  "006379": "2026-10-13T18:21:09Z",
+  "005341": "2026-10-14T02:04:48Z",
+  "006379": "2026-10-14T02:04:48Z",
   "007033": "2026-10-13T18:21:09Z",
   "007036": "2026-10-13T18:21:09Z",
-  "007052": "2026-10-13T03:41:56Z",
+  "007052": "2026-10-14T02:04:48Z",
   "008048": "2026-10-13T19:38:15Z",
   "008273": "2026-10-13T18:21:09Z",
   "008277": "2026-10-13T18:21:09Z",
-  "008564": "2026-10-13T03:41:56Z",
-  "008567": "2026-10-13T03:41:56Z",
+  "008564": "2026-10-14T02:04:48Z",
+  "008567": "2026-10-14T02:04:48Z",
   "008691": "2026-10-13T19:38:15Z",
   "008858": "2026-10-13T18:21:09Z",
   "008859": "2026-10-13T19:38:15Z",
@@ -165374,11 +165573,11 @@
   "013331": "2026-10-13T19:38:15Z",
   "014241": "2026-10-13T19:38:15Z",
   "015650": "2026-10-13T19:38:15Z",
-  "016728": "2026-10-13T18:21:09Z",
-  "020573": "2026-10-13T03:41:56Z",
+  "016728": "2026-10-14T02:04:48Z",
+  "020573": "2026-10-14T02:04:48Z",
   "021784": "2026-10-13T19:38:15Z",
   "022095": "2026-10-13T18:21:09Z",
-  "022352": "2026-10-13T03:41:56Z",
+  "022352": "2026-10-14T02:04:48Z",
   "022377": "2026-10-13T19:38:15Z"
  }
 }
