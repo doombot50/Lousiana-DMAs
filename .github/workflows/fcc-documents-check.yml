@@ -31,3 +31,22 @@ jobs:
         run: python3 fcc/read_documents.py --sample 40
       - name: Radio sample
         run: python3 fcc/read_documents.py --media radio --sample 6
+      # The nightly path end to end, into a scratch copy: read a few
+      # documents, then roll them up as the pages do.
+      - name: Nightly read, then rollup
+        run: |
+          python3 fcc/read_documents.py --budget 12
+          python3 - <<'PY'
+          import json, sys
+          sys.path.insert(0, 'fcc')
+          from summary import fcc_summary
+          d = json.load(open('data/fcc_documents.json'))['documents']
+          for k, v in list(d.items())[:12]:
+              print(v['status'], v.get('kind'), v.get('gross'), v.get('agency'), '|', v['call'], v['name'])
+          m = {s['call']: s['dma'] for s in json.load(open('data/stations.json'))}
+          F = fcc_summary({c: 'NO' for c in m}, full=True)
+          print('usd', F['usd'])
+          for x in F['all']:
+              if 'usd' in x:
+                  print(' ', x['name'], x['usd'])
+          PY
