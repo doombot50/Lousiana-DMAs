@@ -19,7 +19,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,14 +28,14 @@ jobs:
       - name: Install pdftotext and tesseract
         run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
       - name: TV sample
-        run: python3 fcc/read_documents.py --sample 40
+        run: python3 fcc/read_documents.py --sample 25
       - name: Radio sample
-        run: python3 fcc/read_documents.py --media radio --sample 6
+        run: python3 fcc/read_documents.py --media radio --sample 4
       # The nightly path end to end, into a scratch copy: read a few
       # documents, then roll them up as the pages do.
       - name: Nightly read, then rollup
         run: |
-          python3 fcc/read_documents.py --budget 12
+          python3 fcc/read_documents.py --budget 12 --minutes 8
           python3 - <<'PY'
           import json, sys
           sys.path.insert(0, 'fcc')

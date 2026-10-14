@@ -55,6 +55,7 @@ MAX_BYTES = 8 << 20   # a 40-page scan isn't worth the request budget twice over
 # ---------------------------------------------------------------- reading text
 
 OCR_PAGES = 2         # a scan is read from its first and last pages this many each
+OCR_SECONDS = 90      # per document: a poster-sized scan page can take tesseract many minutes
 
 
 def pdf_text(data, ocr=True):
@@ -76,12 +77,19 @@ def pdf_text(data, ocr=True):
         n = int(m.group(1)) if m else 1
         pages = sorted(set(range(1, min(n, OCR_PAGES) + 1)) | set(range(max(1, n - OCR_PAGES + 1), n + 1)))
         out = []
+        deadline = time.time() + OCR_SECONDS
         for pg in pages:
-            subprocess.run(['pdftoppm', '-r', '200', '-gray', '-png', '-f', str(pg), '-l', str(pg),
-                            pdf, os.path.join(tmp, f'p{pg}')], capture_output=True, timeout=120)
+            left = deadline - time.time()
+            if left <= 5:
+                break
+            # 200 dpi for a letter page, never more than 2,200 pixels a side:
+            # an oversized page is scaled down rather than rendered huge.
+            subprocess.run(['pdftoppm', '-r', '200', '-scale-to', '2200', '-gray', '-png', '-f', str(pg),
+                            '-l', str(pg), pdf, os.path.join(tmp, f'p{pg}')], capture_output=True, timeout=left)
             for png in sorted(x for x in os.listdir(tmp) if x.startswith(f'p{pg}') and x.endswith('.png')):
                 t = subprocess.run(['tesseract', os.path.join(tmp, png), '-', '--psm', '6',
-                                    '-c', 'preserve_interword_spaces=1'], capture_output=True, timeout=180)
+                                    '-c', 'preserve_interword_spaces=1'], capture_output=True,
+                                   timeout=max(5, deadline - time.time()))
                 out.append(t.stdout.decode('utf-8', 'replace'))
         text = '\n\f'.join(out)
         return (text, 'ocr') if len(re.sub(r'\s', '', text)) >= 40 else ('', 'scan')
@@ -210,6 +218,8 @@ def main():
     ap.add_argument('--names', nargs='*', help='with --sample: read only documents whose name or path '
                     'contains one of these')
     ap.add_argument('--offset', type=int, default=0, help='with --sample: skip this many of the sample first')
+    ap.add_argument('--minutes', type=float, default=30,
+                    help='stop reading after this long, keeping what was read (OCR is slow)')
     ap.add_argument('--out', default=D('fcc_documents.json'))
     ap.add_argument('--text-cache', default=os.path.join(ROOT, '.doc_text'),
                     help="where each document's extracted text is kept (git-ignored; the nightly run "
@@ -260,8 +270,8 @@ def main():
             except sp.Blocked:
                 print('BLOCKED; stopping')
                 break
-            except RuntimeError as e:
-                print('ERROR', e)
+            except (RuntimeError, subprocess.SubprocessError) as e:
+                print('ERROR', type(e).__name__, e)
                 continue
             if isinstance(res, tuple):
                 res, text = res
@@ -279,13 +289,20 @@ def main():
     now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     counts = {}
     blocked = None
+    t0 = time.time()
     for call, f, kind in queue[:budget]:
+        if time.time() - t0 > args.minutes * 60:
+            print(f'  {args.minutes:g} minutes up; the rest wait for the next run')
+            break
         try:
             res = read_one(sp.get, f)
         except sp.Blocked as e:
             blocked = str(e)
             print(f'  blocked at {call} ({e}); keeping what was read')
             break
+        except subprocess.TimeoutExpired:
+            # Recorded, so it doesn't take a slot every night.
+            res = {'status': 'too_slow'}
         except (RuntimeError, subprocess.SubprocessError) as e:
             print(f'  {call} {f["name"]}: {e}')
             continue
