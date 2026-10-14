@@ -119,7 +119,14 @@ def candidates(data, media, done):
     keep = {id(v[1]) for v in newest_rev.values()}
     read_requests = set()
     rows = []
+    # Cable systems and satellite list one file in every system of a sales
+    # market (fcc/summary.py counts it once); read it once.
+    names = set()
     for kind, call, f in out:
+        if media in ('cable', 'dbs'):
+            if f['name'] in names:
+                continue
+            names.add(f['name'])
         if doc_id(f) in done:
             if kind == 'request':
                 read_requests.add((call, buyer_folder(f['path'])))

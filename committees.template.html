@@ -216,7 +216,8 @@ function renderProfile(c){
         : `<b>${P.docs} document${P.docs===1?'':'s'}</b> this cycle, none in the last ${PF.days} days`}${P.recent&&P.docs>P.recent?` (${P.docs} this cycle)`:''}; latest ${dshort(P.latest)}.${P.o?` Filed as ${esc(P.o)}.`:''}</p>
       <div class="calls">${P.st.map(s=>{const st=`border-left-color:${s.k?`var(${HUE[s.k]})`:'var(--quiet)'}`, cls='callchip'+(s.r?'':' quiet');
         return s.u?`<a class="${cls}" style="${st}" href="${s.u}" rel="noopener" title="Open ${s.c}'s political file for this buyer">${s.c}</a>`:`<span class="${cls}" style="${st}">${s.c}</span>`;}).join('')}</div>
-      <p class="note">Orders, requests and invoices stations post to the FCC within days of a buy; counts are documents, not dollars. Faded call signs have nothing in the last ${PF.days} days. Matched to this filer by name; <a href="${TV}#pf=local">all political-file buyers</a>.</p></div>` : '';
+      ${P.usd?`<p class="lead"><b>${money(P.usd)}</b> in the ${P.priced} order${P.priced===1?'':'s'} and invoice${P.priced===1?'':'s'} read so far${P.ag?`, placed by ${P.ag.map(esc).join(', ')}`:''}.</p>`:P.ag?`<p class="lead">Placed by ${P.ag.map(esc).join(', ')}.</p>`:''}
+      <p class="note">Orders, requests and invoices stations post to the FCC within days of a buy; dollars are the gross of the documents read so far (a few dozen a night), each order once, so they are a floor. Faded call signs have nothing in the last ${PF.days} days. Matched to this filer by name; <a href="${TV}#pf=local">all political-file buyers</a>.</p></div>` : '';
   const mkts=c.mk.map(([k,v])=>[MKT[k],v,`var(${HUE[k]})`,mapLink(k)]);
   const el=document.getElementById('profile');
   el.innerHTML=`<button type="button" class="back" id="back">← All committees</button>
@@ -224,6 +225,10 @@ function renderProfile(c){
     <p class="meta"><span class="ptag ${c.p}">${c.p}</span> ${PN[c.p]} · state filer ${esc(c.f)} · ${c.y0?'paid for airtime '+(c.y0===c.y1?'in '+c.y0:yspan(c)):'no TV or radio payments reported yet'} · <a href="${finLink(c)}" title="Contributions, spending and cash on hand for this filer on the Louisiana campaign-finance dashboard">full campaign finance ↗</a></p>
     ${c.race?`<div class="panel bk"><h3>On the ballot</h3><p class="lead"><b>${esc(c.race[2])}</b>, ${dlong(c.race[0])}. <a href="${TV}races.html#${new URLSearchParams({e:c.race[0],r:c.race[1]})}">The race and its candidates' money →</a></p></div>`:''}
     ${bk}
+    ${c.ag?`<div class="panel bk"><h3>Media agencies · state filings</h3>
+      <p class="lead">Paid <b>${money(c.ag.reduce((a,x)=>a+x[1],0))}</b> to media firms that buy airtime from stations on a committee's behalf. Whatever they passed on to stations isn't in the station totals${tot?' below':''}, which count only payments made to stations directly.</p>
+      ${bars(c.ag.map(([n,v,cy,f])=>[n+(f?' ·':''),v,'var(--quiet)',null]))}
+      <p class="note">Everything the committee paid each firm, under any spelling, since 2000; it can include production and consulting as well as airtime. A dot marks a firm a station's political file names as the buying agency. <a href="${TV}#ag-sec">All agencies</a>.</p></div>`:''}
     ${tot?`<div class="stats">
       <div class="stat"><div class="v">${money(tot)}</div><div class="l">on television and radio</div></div>
       <div class="stat"><div class="v">${c.tv?money(c.tv):'—'}</div><div class="l">television, ${c.nts} station${c.nts===1?'':'s'}</div></div>
@@ -231,7 +236,7 @@ function renderProfile(c){
       <div class="stat"><div class="v">${best[0]}</div><div class="l">biggest year: ${money(best[1][0]+best[1][1])}</div></div>
     </div>
     <div class="panel"><h3>By year</h3><div class="legend"><span><i style="background:var(--accent)"></i>Television</span><span><i style="background:var(--laf)"></i>Radio</span></div><svg id="yrs" role="img" aria-label="Spending by year"></svg></div>`
-    :`<p class="note">This committee's state finance reports don't yet show a payment to a TV or radio station; the political files above are the only public record of its buys so far.</p>`}
+    :`<p class="note">This committee's state finance reports don't show a payment to a TV or radio station${c.ag?'; its airtime, if any, went through the agencies above':'; the political files above are the only public record of its buys so far'}.</p>`}
     <div class="cols" style="margin-top:16px">
       ${c.tv?`<div class="panel"><h3>Television by market</h3>${bars(mkts,null,c.tv)}</div>
               <div class="panel"><h3>Top TV stations</h3>${bars(c.ts.map(([s,v,k])=>[s,v,k?`var(${HUE[k]})`:'var(--quiet)',k?mapLink(k):null]))}${c.nts>c.ts.length?`<p class="note">and ${c.nts-c.ts.length} more</p>`:''}</div>`:''}

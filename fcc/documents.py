@@ -282,6 +282,7 @@ def agency_key(name):
     s = re.sub(r'\([^)]*\)', ' ', name.upper())
     s = re.sub(r'[^A-Z0-9& ]', ' ', s.replace('&', ' AND '))
     s = SUFFIXES.sub(' ', s)
+    s = re.sub(r'\bCONSULT(?:ING|ANTS?)\b', 'CONSULT', s)   # "Littlefield Consulting" / "Consultants"
     k = re.sub(r'[^A-Z0-9]', '', s)
     return AGENCY_ALIASES.get(k, k)
 

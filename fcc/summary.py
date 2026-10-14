@@ -21,6 +21,7 @@ D = lambda *p: os.path.join(ROOT, *p)
 sys.path.insert(0, ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'fcc'))
 from markets import MARKETS  # noqa: E402
+from documents import agency_key  # noqa: E402
 from normalize import (aliases, bucket, buyer_folder, buyer_from_filename, buyer_key,  # noqa: E402
                        classify, clean_name, dbs_buyer, fcc_url, filer_index, flight, match_filer, out_of_state,
                        parse_path, revised, tidy_caps)
@@ -60,6 +61,56 @@ def media_labels():
     for k, v in DBS_LABEL.items():
         out[('dbs', k)] = (v, None)
     return out
+
+
+def load_documents():
+    """What fcc/read_documents.py read inside the documents, by file id;
+    empty before it has run."""
+    try:
+        return load('data', 'fcc_documents.json').get('documents', {})
+    except FileNotFoundError:
+        return {}
+
+
+def booked(rs, docs):
+    """The dollars a buyer's documents show, from those read so far.
+
+    An order's revisions restate the whole order, so each station order
+    number counts once, at its latest revision; an invoice bills part of an
+    order, so invoices count only for an order whose own document hasn't
+    been read (each invoice once: a reissue repeats one). Gross, before
+    agency commission: what the buyer pays. Returns None when none of the
+    buyer's documents has been read."""
+    orders, invoices = {}, defaultdict(dict)
+    agencies = defaultdict(Counter)
+    read = priced = 0
+    for r in rs:
+        d = docs.get(r['id'])
+        if not d or d.get('status') not in ('read', 'scan'):
+            continue
+        read += 1
+        if d.get('agency'):
+            agencies[agency_key(d['agency'])][d['agency']] += 1
+        if d.get('gross') is None or d.get('gross') <= 0:
+            continue
+        priced += 1
+        # Cable systems file one order in every system of a sales market:
+        # one file name is one order.
+        where = ('name', r['fname']) if r['m'] in ('cable', 'dbs') else r['call']
+        key = (where, d.get('order_no') or r['id'])
+        if d['kind'] == 'order':
+            if key not in orders or r['up'] > orders[key][0]:
+                orders[key] = (r['up'], d['gross'])
+        elif d['kind'] == 'invoice' and not d.get('reissue'):
+            invoices[key][d.get('invoice_no') or r['id']] = d['gross']
+    if not read:
+        return None
+    ordered = sum(g for _, g in orders.values())
+    invoiced = sum(sum(v.values()) for v in invoices.values())
+    usd = ordered + sum(sum(v.values()) for k, v in invoices.items() if k not in orders)
+    ag = sorted(((sum(c.values()), c.most_common(1)[0][0]) for k, c in agencies.items() if k), reverse=True)
+    return {'usd': round(usd), 'ordered': round(ordered), 'invoiced': round(invoiced),
+            'read': read, 'priced': priced, 'ag': [n for _, n in ag]}
 
 
 def fcc_summary(markets_by_call, full=False, media=('tv',)):
@@ -122,7 +173,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
             yf = st.get('year_folders', {}).get(year)
             link = (fcc_url(profile, bpath, fid) if fid else
                     f"https://publicfiles.fcc.gov/{profile}/political-files/{year}/{yf}" if yf else None)
-            rows.append({'link': link, 'deep': bool(fid), 'from_name': bool(from_name), 'b': b, 'level': level, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
+            rows.append({'id': f.get('file_manager_id') or f.get('file_id'), 'link': link, 'deep': bool(fid), 'from_name': bool(from_name), 'b': b, 'level': level, 'key': buyer_key(name) or name.lower(), 'name': name, 'state': state,
                          # One document, however many times it is listed: Spectrum
                          # files the same order once per ad zone and in every
                          # system of a sales market (John Fleming's 3,048
@@ -170,6 +221,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
     except FileNotFoundError:
         fidx = {}
 
+    documents = load_documents()
     buyers = []
     for (b, target), rs in groups.items():
         # Each document once, dated by its first listing.
@@ -230,6 +282,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
             'fresh': [list(x) for x in fresh],
             'f': match_filer(sorted({clean_name(r['name']) for r in rs}), fidx, person=b != 'Issue')
                  if b in ('State & local', 'Issue') else None,
+            **({'usd': money} if (money := booked(uniq, documents)) else {}),
         })
     # Busiest this fortnight first, then the most recently active.
     buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
@@ -263,6 +316,13 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
                  'states': [[s, n] for s, n in Counter(
                      {x['state']: 0 for x in away} | Counter(
                          s for x in away for s in [x['state']] * x['docs'])).most_common()]},
+        # What the documents read so far add up to (fcc/read_documents.py
+        # reads a few dozen a night, newest orders first).
+        'usd': {'docs': sum(x['usd']['read'] for x in home if 'usd' in x),
+                'priced': sum(x['usd']['priced'] for x in home if 'usd' in x),
+                'total': sum(x['usd']['usd'] for x in home if 'usd' in x),
+                'byBucket': {k: sum(x['usd']['usd'] for x in home if 'usd' in x and x['b'] == k)
+                             for k in ('Federal', 'State & local', 'Issue')}},
         'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
         **({'all': home, 'freshSince': fresh_since} if full else {}),
     }

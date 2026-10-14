@@ -11,6 +11,7 @@ import unittest
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'fcc'))
 from documents import agency_key, amount, parse, same_agency  # noqa: E402
+from summary import booked  # noqa: E402
 
 
 def doc(name):
@@ -117,9 +118,41 @@ class AgencyNames(unittest.TestCase):
                      ('Louisiana Radio Network', 'KINGFISH COMMUNICATIONS D/B/A LOUISIANA RADIO NETWORK')]:
             self.assertTrue(same_agency(agency_key(a), agency_key(b)), (a, b))
 
+    def test_consulting_and_consultants(self):
+        self.assertEqual(agency_key('Littlefield Consulting'), agency_key('LITTLEFIELD CONSULTANTS, LLC'))
+
     def test_short_keys_need_an_exact_match(self):
         self.assertFalse(same_agency(agency_key('ESM'), agency_key('ESM Productions')))
         self.assertTrue(same_agency(agency_key('Angie Sanders'), agency_key('Angie Sanders Ad Group, LLC')))
+
+
+class Booked(unittest.TestCase):
+    """A buyer's dollars: each station order once, invoices only for an
+    order not read, a reissued invoice never twice."""
+    def row(self, i, up, call='WDSU', m='tv'):
+        return {'id': i, 'up': up, 'call': call, 'm': m, 'fname': i}
+
+    def test_revisions_and_invoices(self):
+        docs = {
+            'o1': {'status': 'read', 'kind': 'order', 'order_no': '100', 'gross': 1000.0, 'agency': 'SRCP Media Inc'},
+            'o1r': {'status': 'read', 'kind': 'order', 'order_no': '100', 'gross': 1500.0},     # its revision
+            'i1': {'status': 'read', 'kind': 'invoice', 'order_no': '100', 'invoice_no': '100-1', 'gross': 900.0},
+            'i2': {'status': 'read', 'kind': 'invoice', 'order_no': '200', 'invoice_no': '200-1', 'gross': 300.0},
+            'i2x': {'status': 'read', 'kind': 'invoice', 'order_no': '200', 'invoice_no': '200-1', 'gross': 300.0,
+                    'reissue': True},
+            'n': {'status': 'read', 'kind': 'request', 'gross': None, 'agency': 'SRCP MEDIA'},
+        }
+        rs = [self.row('o1', '2026-04-01'), self.row('o1r', '2026-04-09'), self.row('i1', '2026-04-20'),
+              self.row('i2', '2026-05-01'), self.row('i2x', '2026-05-02'), self.row('n', '2026-03-30'),
+              self.row('unread', '2026-05-03')]
+        b = booked(rs, docs)
+        self.assertEqual(b['usd'], 1800)          # order 100 at its revision, order 200 by invoice
+        self.assertEqual((b['ordered'], b['invoiced']), (1500, 1200))
+        self.assertEqual(b['read'], 6)
+        self.assertEqual(b['ag'], ['SRCP Media Inc'])
+
+    def test_nothing_read(self):
+        self.assertIsNone(booked([self.row('x', '2026-01-01')], {}))
 
 
 if __name__ == '__main__':

@@ -35,6 +35,9 @@ DESCRIPTION = ('Every Louisiana political committee that has bought television o
                'time since 2000: what it spent, when, and on which stations.')
 
 
+AGENCY_MIN = 10_000   # paid to listed agencies, for a profile on that alone
+
+
 def booking(market):
     """filer -> what the FCC political files show it booking, for buyers
     the TV page matched to a state filer; and the file's date stamps."""
@@ -46,7 +49,11 @@ def booking(market):
         if not x['f']:
             continue
         g = by.setdefault(x['f'], {'n': x['name'], 'o': x['office'], 'docs': 0, 'recent': 0,
-                                   'latest': '', 'st': {}, 'live': set()})
+                                   'latest': '', 'st': {}, 'live': set(), 'usd': 0, 'priced': 0, 'ag': []})
+        if 'usd' in x:
+            g['usd'] += x['usd']['usd']
+            g['priced'] += x['usd']['priced']
+            g['ag'] += [a for a in x['usd']['ag'] if a not in g['ag']]
         g['docs'] += x['docs']
         g['recent'] += x['recent']
         g['latest'] = max(g['latest'], x['latest'])
@@ -54,7 +61,9 @@ def booking(market):
             g['st'].setdefault(st['c'], st)
         g['live'] |= set(x['stRecent'])
     out = {f: {'n': g['n'], 'o': g['o'], 'docs': g['docs'], 'recent': g['recent'], 'latest': g['latest'],
-               'st': [dict(v, r=c in g['live']) for c, v in sorted(g['st'].items())]}
+               'st': [dict(v, r=c in g['live']) for c, v in sorted(g['st'].items())],
+               **({'usd': g['usd'], 'priced': g['priced']} if g['priced'] else {}),
+               **({'ag': g['ag'][:4]} if g['ag'] else {})}
            for f, g in by.items()}
     return out, {'scraped': F['scraped'], 'since': F['since'], 'days': F['days']}
 
@@ -71,10 +80,19 @@ def build_data():
     except FileNotFoundError:
         races = {}
 
+    # The media agencies each filer paid (build_agency_spend.py). A committee
+    # whose airtime went through an agency, never paying a station itself,
+    # gets a profile for it when it paid them at least AGENCY_MIN.
+    try:
+        ag = json.load(open(D('data', 'agencies.json'), encoding='utf-8'))
+    except FileNotFoundError:
+        ag = {'by_filer': {}, 'filers': {}}
+    ag_by = {fn: v for fn, v in ag['by_filer'].items() if sum(a['usd'] for a in v) >= AGENCY_MIN}
+
     rows = []
     # A filer booking airtime it hasn't reported paying for yet gets a
     # profile too: the political file runs weeks ahead of the filings.
-    for fn in sorted(set(tv) | set(ra) | set(pf)):
+    for fn in sorted(set(tv) | set(ra) | set(pf) | set(ag_by)):
         t, r = tv.get(fn, {}), ra.get(fn, {})
         years = sorted(set(t.get('years', {})) | set(r.get('years', {})))
         # The committee files are written with sorted keys, so rank here.
@@ -86,8 +104,10 @@ def build_data():
                 mk[market[c]] = mk.get(market[c], 0) + v
         rows.append({
             'f': fn,
-            'n': t.get('name') or r.get('name') or filers.get(fn, {}).get('n') or pf[fn]['n'],
-            'p': t.get('party') or r.get('party') or filers.get(fn, {}).get('p') or 'OTH',
+            'n': t.get('name') or r.get('name') or filers.get(fn, {}).get('n')
+                 or (pf[fn]['n'] if fn in pf else ag['filers'].get(fn, [f'filer {fn}'])[0]),
+            'p': t.get('party') or r.get('party') or filers.get(fn, {}).get('p')
+                 or (ag['filers'].get(fn) or [None, None])[1] or 'OTH',
             'tv': round(t.get('total', 0)), 'ra': round(r.get('total', 0)),
             # year -> [tv, radio]
             'y': {y: [round(t.get('years', {}).get(y, 0)), round(r.get('years', {}).get(y, 0))]
@@ -100,6 +120,7 @@ def build_data():
             'fm': [[k, round(v)] for k, v in sorted(r.get('formats', {}).items(), key=lambda x: -x[1])],
             **({'pf': pf[fn]} if fn in pf else {}),
             **({'race': races[fn]} if fn in races else {}),
+            **({'ag': [[a['n'], a['usd'], a['cycle'], a['fcc']] for a in ag_by[fn][:8]]} if fn in ag_by else {}),
         })
     rows.sort(key=lambda x: (-(x['tv'] + x['ra']), x['f']))   # filer number breaks ties stably
     return rows, pf_meta

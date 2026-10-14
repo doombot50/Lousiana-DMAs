@@ -234,6 +234,7 @@ def build_data():
         'rowsScanned': spend['rows_scanned'],
         'bench': benchmarks(spend, la_hh),
         'fcc': fcc_summary({s['call']: BY_NAME[s['dma']] for s in spend['stations']}),
+        'agencies': agencies(spend),
         'pace': {'from': spend['pace']['weeks'][0], 'to': spend['pace']['weeks'][1],
                  'cycles': [{'y': c['year'], 'primary': c['primary'], 'done': c['complete'],
                              'c': [round(v) for v in c['cumulative']]}
@@ -246,6 +247,37 @@ def build_data():
         'radioExcl': round(sum(spend['caveats']['radio_excluded'].values())),
         'ambig': round(sum(spend['caveats']['ambiguous_bare_call'].values())),
         'combined': round(spend['caveats']['combined_buys']['amount']),
+    }
+
+
+AGENCY_ROWS = 25
+
+
+def agencies(spend):
+    """The media agencies (data/agencies.json, from build_agency_spend.py)
+    beside what committees paid stations directly over the same years; None
+    before that build has run."""
+    try:
+        ag = json.load(open(D('data', 'agencies.json'), encoding='utf-8'))
+    except FileNotFoundError:
+        return None
+    since = ag['cycle_from']
+    direct = sum(v for st in spend['stations'] for y, v in st['by_year'].items() if int(y) >= since)
+    # The biggest by media dollars, plus every agency a political file names
+    # (federal buyers have no state payments to rank them by).
+    ranked = [r for r in ag['agencies'] if r.get('fcc') or r.get('paid', {}).get('media_cycle')]
+    keep = {id(r) for r in ranked[:AGENCY_ROWS]} | {id(r) for r in ranked if r.get('fcc')}
+    rows = [r for r in ranked if id(r) in keep][:AGENCY_ROWS * 2]
+    return {
+        'from': since, 'read': ag.get('documents_read', 0), 'stations': round(direct),
+        'media': sum(r.get('paid', {}).get('media_cycle', 0) for r in ag['agencies']),
+        'rows': [{'name': r['name'],
+                  **({'fcc': {k: r['fcc'][k] for k in ('docs', 'usd', 'stations', 'clients')}} if r.get('fcc') else {}),
+                  **({'paid': {'mediaCycle': r['paid']['media_cycle'], 'cycle': r['paid']['cycle'],
+                               'committees': r['paid']['committees'],
+                               'top': [{'f': t['f'], 'n': t['n'], 'usd': t['usd'], 'cycle': t['cycle']}
+                                       for t in r['paid']['top'][:4] if t['cycle'] > 0]}} if r.get('paid') else {})}
+                 for r in rows],
     }
 
 
