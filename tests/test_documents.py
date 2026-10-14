@@ -110,6 +110,15 @@ class NoGuessing(unittest.TestCase):
         self.assertEqual(d['agency'], 'Flexpoint Media')
 
 
+class Names(unittest.TestCase):
+    def test_ocr_debris_after_a_name(self):
+        from documents import clean
+        self.assertEqual(clean('Crossroads Media LLC H£'), 'Crossroads Media LLC')
+        self.assertEqual(clean('Media Ad Ventures, Inc ##'), 'Media Ad Ventures, Inc')
+        self.assertEqual(clean('AT&T Ad Works'), 'AT&T Ad Works')
+        self.assertEqual(clean("Bull's Eye Media"), "Bull's Eye Media")
+
+
 class AgencyNames(unittest.TestCase):
     def test_spellings_join(self):
         for a, b in [('Media Ad Ventures (MAV)', 'MAV LLC'), ('Media Ad Ventures, Inc', 'MEDIA AD VENTURES'),

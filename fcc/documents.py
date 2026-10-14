@@ -134,6 +134,9 @@ def clean(name):
     s = re.sub(r'[#|_~*‘’"“”]+', ' ', s)
     s = JUNK.sub('', s.strip())
     s = re.sub(r'\s+', ' ', s).strip(' .,:;-/')
+    # OCR debris trailing a name: a short token with a symbol or a
+    # non-ASCII character ("Crossroads Media LLC H£").
+    s = re.sub(r'(?:\s+(?=\S{0,3}(?:\s|$))\S*[^A-Za-z0-9\s.,&\'-]\S*)+$', '', s).strip(' .,:;-/')
     if len(s) < 3 or NOT_NAME.match(s) or not re.search(r'[A-Za-z]{2}', s):
         return None
     return s[:80]
