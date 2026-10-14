@@ -24,9 +24,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install pdftotext
-        run: sudo apt-get install -y -q poppler-utils
+      - name: Install pdftotext and tesseract
+        run: sudo apt-get install -y -q poppler-utils tesseract-ocr
       - name: TV sample
-        run: python3 fcc/read_documents.py --sample 60
+        run: |
+          python3 fcc/read_documents.py --sample 20 --names "Shawn Lindsay 10-12" "Mike Echols KARD" \
+            "Mike Johnson Invoice-KPLC 10.5" "Seabaugh  PB19" "JULIA LETLOW FOR LOUISIANA 3126030050" \
+            "Hillar Moore NAB WBRL" "KMSS Texans for Dan Patrick" "Order - 20423 REV 2" "Order - 20371 REV 2" \
+            "Firment Congress order 10.21" "Texas PAC-CW Network Buy" "Too Extreme for Idaho_Order" \
+            "Bill Cassidy WVLA" "Pol-Bill Cassidy_04.30.2026_Contract" "Letlow 4583332 KLAF" \
+            "Blake Miguez 4345651-1" "WGNO Cassidy 5178142 order" "Jacques Roy NALB" "Mike Echols WBRL" \
+            "Bill Cassidy 4-11 to 4-17 Sked B"
       - name: Radio sample
-        run: python3 fcc/read_documents.py --media radio --sample 8
+        run: python3 fcc/read_documents.py --media radio --sample 6

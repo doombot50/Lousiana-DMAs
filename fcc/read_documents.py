@@ -164,13 +164,37 @@ def parse(text):
     }
 
 
-def pdf_text(data):
-    """The text layer of a PDF, laid out in columns; '' for a scan."""
-    with tempfile.NamedTemporaryFile(suffix='.pdf') as f:
-        f.write(data)
-        f.flush()
-        r = subprocess.run(['pdftotext', '-layout', '-q', f.name, '-'], capture_output=True, timeout=60)
-    return r.stdout.decode('utf-8', 'replace')
+OCR_PAGES = 2         # a scan is read from its first and last pages this many each
+
+
+def pdf_text(data, ocr=True):
+    """(text, how): the text layer of a PDF laid out in columns ('text'), or
+    for a scan with none, tesseract's reading of its first and last pages
+    ('ocr'); ('', 'scan') when neither gives anything."""
+    with tempfile.TemporaryDirectory() as tmp:
+        pdf = os.path.join(tmp, 'doc.pdf')
+        with open(pdf, 'wb') as f:
+            f.write(data)
+        r = subprocess.run(['pdftotext', '-layout', '-q', pdf, '-'], capture_output=True, timeout=60)
+        text = r.stdout.decode('utf-8', 'replace')
+        if len(re.sub(r'\s', '', text)) >= 40:
+            return text, 'text'
+        if not ocr:
+            return '', 'scan'
+        info = subprocess.run(['pdfinfo', pdf], capture_output=True, timeout=30).stdout.decode('utf-8', 'replace')
+        m = re.search(r'^Pages:\s+(\d+)', info, re.M)
+        n = int(m.group(1)) if m else 1
+        pages = sorted(set(range(1, min(n, OCR_PAGES) + 1)) | set(range(max(1, n - OCR_PAGES + 1), n + 1)))
+        out = []
+        for pg in pages:
+            subprocess.run(['pdftoppm', '-r', '200', '-gray', '-png', '-f', str(pg), '-l', str(pg),
+                            pdf, os.path.join(tmp, f'p{pg}')], capture_output=True, timeout=120)
+            for png in sorted(x for x in os.listdir(tmp) if x.startswith(f'p{pg}') and x.endswith('.png')):
+                t = subprocess.run(['tesseract', os.path.join(tmp, png), '-', '--psm', '6',
+                                    '-c', 'preserve_interword_spaces=1'], capture_output=True, timeout=180)
+                out.append(t.stdout.decode('utf-8', 'replace'))
+        text = '\n\f'.join(out)
+        return (text, 'ocr') if len(re.sub(r'\s', '', text)) >= 40 else ('', 'scan')
 
 
 # ---------------------------------------------------------------- choosing
@@ -246,10 +270,10 @@ def read_one(get, f):
         return {'status': 'not_pdf', 'bytes': len(data)}
     if len(data) > MAX_BYTES:
         return {'status': 'too_big', 'bytes': len(data)}
-    text = pdf_text(data)
-    if len(re.sub(r'\s', '', text)) < 40:
-        return {'status': 'scan', 'pages': data.count(b'/Type /Page') or data.count(b'/Type/Page')}
-    return dict(parse(text), status='read'), text
+    text, how = pdf_text(data)
+    if not text:
+        return {'status': 'scan'}
+    return dict(parse(text), status='read', via=how), text
 
 
 def main():
@@ -259,6 +283,9 @@ def main():
     ap.add_argument('--sample', type=int,
                     help='read this many documents spread across stations and kinds, print their text '
                          'and what it parsed to, and write nothing')
+    ap.add_argument('--names', nargs='*', help='with --sample: read only documents whose name or path '
+                    'contains one of these')
+    ap.add_argument('--offset', type=int, default=0, help='with --sample: skip this many of the sample first')
     ap.add_argument('--out', default=D('fcc_documents.json'))
     args = ap.parse_args()
 
@@ -283,7 +310,15 @@ def main():
             seq.setdefault(r[2], []).append(r)
         rest = [seq[k][i] for i in range(max(map(len, seq.values())))
                 for k in ('request', 'invoice', 'other') if i < len(seq.get(k, []))]
-        picks = (seq.get('order', []) + rest)[:args.sample]
+        picks = (seq.get('order', []) + rest)[args.offset:args.offset + args.sample]
+        if args.names:
+            # Each named document (its newest listing), whatever its kind.
+            picks = []
+            for want in args.names:
+                hit = next(((c, f, k) for c, f, k in queue
+                            if want.lower() in f"{f['path']}/{f['name']}".lower()), None)
+                if hit:
+                    picks.append(hit)
         for call, f, kind in picks:
             print('=' * 100)
             print(f"{call} | {kind} | {f['path']} | {f['name']} | {f['uploaded']}")
@@ -300,7 +335,7 @@ def main():
                 res, text = res
                 print(json.dumps(res))
                 print('-' * 100)
-                print(text[:6000])
+                print(text if len(text) <= 14000 else text[:7000] + '\n[…]\n' + text[-7000:])
             else:
                 print(json.dumps(res))
         print(f'{sp.SENT[0]} requests')
