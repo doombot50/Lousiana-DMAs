@@ -1,0 +1,32 @@
+# FCC documents check — reads a small sample of political-file documents
+# (one order, invoice and request form per station) when the document reader
+# changes, and prints each one's text beside what it parsed to, so the parser
+# can be checked against the real stations' sales systems. Commits nothing.
+
+name: FCC documents check
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fcc/read_documents.py
+      - .github/workflows/fcc-documents-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pdftotext
+        run: sudo apt-get install -y -q poppler-utils
+      - name: TV sample
+        run: python3 fcc/read_documents.py --sample 60
+      - name: Radio sample
+        run: python3 fcc/read_documents.py --media radio --sample 8

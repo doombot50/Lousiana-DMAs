@@ -72,14 +72,18 @@ class Blocked(Exception):
 SENT = [0]            # requests made this run, for --budget
 
 
-def get(url, want_json=True):
+def get(url, want_json=True, raw=False):
+    """GET a URL: parsed JSON, text, or with `raw` the bytes (a document)."""
     SENT[0] += 1
     blocked_once = False
     for attempt in range(1, RETRIES + 1):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=45) as r:
-                body = r.read().decode('utf-8', 'replace')
+            with urllib.request.urlopen(urllib.request.Request(url, headers=dict(UA, Accept='*/*') if raw else UA), timeout=45) as r:
+                body = r.read()
             time.sleep(PAUSE)
+            if raw:
+                return body
+            body = body.decode('utf-8', 'replace')
             return json.loads(body) if want_json else body
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
             if isinstance(e, urllib.error.HTTPError) and e.code == 404:
