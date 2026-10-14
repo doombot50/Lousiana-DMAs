@@ -313,10 +313,11 @@ needs hand-editing when the calendar turns.
   `data/party_corrections.json`), the
   committee-detail writer and the governor's-race calendar (`PRIMARIES`).
 - `build_station_spend.py`, `build_radio_spend.py`, `build_spend.py` — the
-  spend data (above).
+  spend data (above); `build_agency_spend.py` — the media agencies.
 - `markets.py` — the seven Nielsen markets: keys, names, ranks, households.
 - `fcc/` — the political files: `scrape_political_files.py` (the nightly
-  scrape), `normalize.py` (folder path → level, office, buyer; name keys;
+  scrape), `read_documents.py` and `documents.py` (reading the documents),
+  `normalize.py` (folder path → level, office, buyer; name keys;
   filer matching), `summary.py` (buyers rolled up across stations).
 - `page_shell.py` — the tab bar, document head, template tokens and the
   two-output publish step every page uses; `prose.py` — the phrases the copy
@@ -359,6 +360,55 @@ emails the repo's watchers), rewrites it each night while the problem lasts,
 and closes it once every source is fresh. It cannot notice the workflow
 not running at all: GitHub pauses scheduled workflows in a repository with
 no activity for 60 days.
+
+## The documents, and the agencies
+
+The political files list documents; `fcc/read_documents.py` reads them. A
+station's order, contract or invoice prints the gross amount, the agency that
+placed the buy and the advertiser, so reading them puts dollars on the
+political-file buyers (the only dollar figures anywhere for federal
+campaigns' airtime) and names the agencies.
+
+```bash
+python3 fcc/read_documents.py                  # tonight's TV batch (needs poppler-utils, tesseract-ocr)
+python3 fcc/read_documents.py --sample 40      # print what a sample reads as; writes nothing
+python3 build_agency_spend.py                  # data/agencies.json
+```
+
+- **Read once, by layout.** Each document is downloaded once ever and what it
+  read as is kept in `data/fcc_documents.json`. `fcc/documents.py` reads each
+  sales system's layout by where its labels sit: WideOrbit orders (the bill
+  plan's `Totals` row), WideOrbit contracts (the buyer is the party under
+  "And:"), WideOrbit and Nexstar invoices (who is billed), KLAX's contracts and
+  the NAB request forms (agency only). About two in five documents are
+  scans; those are OCR'd with tesseract. Every layout is tested on a real
+  document's text in `tests/documents/`; a field that can't be found is left
+  empty, never guessed.
+- **Light on the FCC.** A night reads 40 TV documents (80 in the last 30
+  days before an election, 120 in the last 10), newest orders first, plus 15
+  radio and 15 cable. The extracted text is kept in the Actions cache, so a
+  parser fix re-reads everything without another download.
+- **Counting dollars.** An order's revisions restate the whole order, so each
+  station order number counts once, at its latest revision. An invoice bills
+  part of an order, so invoices count only for an order whose own document
+  hasn't been read, and a reissued invoice never twice. Amounts are gross,
+  before agency commission. Until every document is read the figures are a
+  floor; the pages say how many documents they rest on.
+- **The agencies.** `build_agency_spend.py` takes every agency the documents
+  name, joins it to the state filings under any spelling
+  (`documents.agency_key`: "Media Ad Ventures (MAV)", "MAV LLC" and "MEDIA AD
+  VENTURES, INC" are one firm), and adds, for the years the political files
+  don't reach, every firm committees paid at least $100,000 for work their
+  reports describe as TV, broadcast, air time or a media buy. Companies that
+  sell time (cable, satellite and station groups, ad platforms) are left
+  out. Since 2023 committees have paid stations about $20M directly and these
+  firms about $18M more for described media work; that money never reaches
+  the station ledger. What a committee paid a firm can include production and
+  consulting, so the pages show the described-media part beside the total.
+  The TV page lists the agencies; each committee profile shows the firms it
+  paid, so a campaign that bought its airtime through an agency, like Jeff
+  Landry's (stations $1.9M directly, media firms $8.6M), no longer looks
+  small.
 
 ## FCC political files
 

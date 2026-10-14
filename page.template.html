@@ -87,6 +87,16 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pfrow .when{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink2); text-align:right; white-space:nowrap;}
 .pfrow .when b{color:var(--ink);}
 .pfrow .calls{grid-column:1/-1; display:flex; flex-wrap:wrap; gap:4px;}
+.pfrow .usd{color:var(--ink); font-weight:600;}
+.agrow{display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:4px 18px; padding:11px 16px; border-top:1px solid var(--hair); align-items:baseline;}
+.agrow:first-child{border-top:0;}
+.agrow.head{font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding-top:6px; padding-bottom:6px;}
+.agrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:14px;}
+.agrow .num{font-family:"IBM Plex Mono",monospace; font-size:12px; text-align:right; white-space:nowrap; color:var(--ink);}
+.agrow .num small{display:block; font-size:10.5px; color:var(--muted); font-weight:400;}
+.agrow .who{grid-column:1/-1; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2); line-height:1.5;}
+.agrow .who a{color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
+@media (max-width:560px){ .agrow{grid-template-columns:minmax(0,1fr) auto;} .agrow .num.fcc{grid-column:2;} }
 a.callchip{text-decoration:none;}
 a.callchip:hover{color:var(--ink); background:var(--hair);}
 .callchip{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2);}
@@ -262,6 +272,14 @@ __NAV__
   <p class="cap" style="margin-top:10px">Click a name for the candidate's state committee profile, a call sign for that station's political file for the buyer.</p>
   <div class="pf" id="pflist" style="margin-top:8px"></div>
   <p class="cap" id="pfcap"></p>
+</section>
+
+<section id="ag-sec" hidden>
+  <p class="seclabel">The agencies</p>
+  <h2>The money that never reaches a station's ledger</h2>
+  <p class="intro" id="agintro"></p>
+  <div class="pf" id="aglist" style="margin-top:8px"></div>
+  <p class="cap" id="agcap"></p>
 </section>
 
 <section id="markets">
@@ -600,6 +618,7 @@ if(DATA.fcc){
     (F.markets.length<7 ? `So far this covers ${F.stations} stations in ${F.markets.join(' and ').replace(/ and (?=.* and )/g,', ')}; the rest of the state's stations join over the next few nights. ` : '')+
     `In the ${F.days} days to ${dshort(F.scraped)}, these stations posted <b>${fmt(F.recentDocs)} documents</b> for <b>${F.recentBuyers} buyers</b>. `+
     `<b>${fmt(F.byBucket['Federal'])}</b> of them were for federal races, which Louisiana's own disclosure filings never show.`+
+    (F.usd && F.usd.priced ? ` Reading the documents themselves, a few dozen a night with the newest orders first, ${fmt(F.usd.priced)} orders and invoices so far add up to <b>${money(F.usd.total)}</b> in airtime, <b>${money(F.usd.byBucket['Federal'])}</b> of it federal.` : '')+
     (F.away.buyers ? ` Not counted here: ${fmt(F.away.recent)} more for ${F.away.buyers} buyers in other states' races. ${Math.round(F.away.states[0][1]/F.away.docs*100)}% of those documents are ${F.away.states[0][0]} campaigns, carried on stations whose markets cross the state line; the rest are national issue buys on network sub-channels. They're under <i>Out of state</i>.` : '');
   let level=PFKEY[hashGet('pf')]||'all', showAll=false;
   const chips=document.getElementById('pfchips');
@@ -627,7 +646,7 @@ if(DATA.fcc){
       // reported paying stations, next to what it is booking now.
       const name = x.f ? `<a class="nm" href="${prof(x.f)}" title="${esc(x.name)}'s state committee profile">${esc(x.name)}</a>` : esc(x.name);
       return `<div class="pfrow"><div><span class="nm">${name}</span><span class="btag">${x.state || BL[x.b]}</span>${x.office?`<span class="of">${esc(x.office)}</span>`:''}</div>
-        <div class="when">${x.recent?`<b>${x.recent}</b> new · `:''}latest ${dshort(x.latest)}</div>
+        <div class="when">${x.usd&&x.usd.usd?`<span class="usd" title="Gross of the orders and invoices read so far: ${x.usd.priced} of ${x.docs} documents carry an amount">${money(x.usd.usd)}</span> · `:''}${x.recent?`<b>${x.recent}</b> new · `:''}latest ${dshort(x.latest)}</div>
         <div class="calls">${calls}</div></div>`;
     }).join('');
     if(rows.length>shown.length) h+=`<button type="button" class="pfmore" id="pfmore">Show all ${rows.length}</button>`;
@@ -636,12 +655,39 @@ if(DATA.fcc){
   }
   render();
   document.getElementById('pfcap').textContent =
-    `From the FCC public inspection files of ${F.stations} stations. To keep the load on the FCC's site light, a few stations are re-read each night`+(F.oldest<F.scraped?`, so the oldest here is as of ${dshort(F.oldest)}`:'')+`. Counts are documents — requests, orders, invoices — not dollars: amounts sit inside PDFs whose layout varies by station. `+
+    `From the FCC public inspection files of ${F.stations} stations. To keep the load on the FCC's site light, a few stations are re-read each night`+(F.oldest<F.scraped?`, so the oldest here is as of ${dshort(F.oldest)}`:'')+`. Counts are documents — requests, orders, invoices. `+
+    (F.usd && F.usd.docs ? `Dollars are the gross of the orders and invoices read so far (${fmt(F.usd.docs)} documents, text or OCR): each station order once, at its latest revision, and invoices only for an order whose own document hasn't been read, so a figure grows as more are read and is a floor, not a total. ` : '')+
     (F.byName.length ? `${F.byName.join(' and ')} file${F.byName.length>1?'':'s'} documents without a folder per buyer, so there the buyer is read from each document's name. ` : '')+
     `Stations name buyers their own way ("Cassidy-R for US Senate", "Bill Cassidy"); names are merged across stations only where the match is unambiguous. Faded call signs have documents earlier in the cycle but none in the last ${F.days} days. `+
     (F.noFile.length ? `${F.noFile.join(', ')} ${F.noFile.length>1?'are':'is a'} low-power station${F.noFile.length>1?'s':''} exempt from the online file. ` : '')+
     (F.stale.length ? `${F.stale.join(', ')} ${F.stale.length>1?'have':'has'} not been refreshed in over a week. ` : '')+
     `Each call sign opens that station's political file for the buyer; a state candidate's or PAC's name opens its committee profile, matched to its state filer by name. Federal candidates report to the FEC, not the state, so they have none.`;
+}
+
+/* ---------- agencies ---------- */
+if(DATA.agencies && DATA.agencies.rows.length){
+  const A = DATA.agencies;
+  document.getElementById('ag-sec').hidden = false;
+  const esc = t => String(t).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const named = A.rows.filter(r=>r.fcc);
+  document.getElementById('agintro').innerHTML =
+    `The ledger below counts what committees paid stations <i>directly</i>. Much of the money doesn't go that way: a campaign pays a media-buying agency, the agency pays the stations, and the filings name only the agency. `+
+    `Since ${A.from}, Louisiana committees have paid stations <b>${money(A.stations)}</b> directly — and paid the firms below <b>${money(A.media)}</b> for work their reports describe as TV, broadcast, air time or a media buy. `+
+    (named.length ? `<b>${named.length}</b> of them are named as the buying agency on orders and invoices in the stations' political files${A.read?`, from the ${fmt(A.read)} documents read so far`:''}, which also says whose time they are buying, including federal campaigns the state filings never see.` : '');
+  const head = `<div class="agrow head"><span>Agency</span><span class="num">State filings, since ${A.from}</span><span class="num fcc">Political files</span></div>`;
+  document.getElementById('aglist').innerHTML = head + A.rows.map(r=>{
+    const p=r.paid||{}, f=r.fcc;
+    const who = [
+      p.top && p.top.length ? `Paid by ${p.top.slice(0,4).map(t=>`<a href="${prof(t.f)}" title="${esc(t.n)}'s committee profile">${esc(t.n)}</a> (${money(t.cycle)})`).join(', ')}${p.committees>p.top.length?` and ${p.committees-p.top.length} more since 2000`:''}` : '',
+      f && f.clients.length ? `Buying for ${f.clients.slice(0,4).map(esc).join(', ')} at ${f.stations.slice(0,6).join(', ')}${f.stations.length>6?'…':''}` : '',
+    ].filter(Boolean).join('. ');
+    return `<div class="agrow"><span class="nm">${esc(r.name)}${f?'<span class="btag" title="Named as the buying agency in a station\'s political file">POLITICAL FILE</span>':''}</span>
+      <span class="num">${p.mediaCycle?money(p.mediaCycle):'—'}<small>${p.cycle?money(p.cycle)+' in all':'no state payments'}</small></span>
+      <span class="num fcc">${f&&f.usd?money(f.usd):'—'}<small>${f?f.docs+' document'+(f.docs===1?'':'s'):''}</small></span>
+      ${who?`<span class="who">${who}.</span>`:''}</div>`;
+  }).join('');
+  document.getElementById('agcap').textContent =
+    `State filings: every payment to the firm under any spelling since ${A.from}; the large figure is the part described as TV, broadcast, air time or a media buy, the small one everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`;
 }
 
 /* ---------- map ---------- */

@@ -18,6 +18,10 @@
 # la-campaign-finance, and the FEC's totals for federal candidates
 # (fetch_fec.py).
 #
+# It reads a few dozen political-file documents a night (fcc/read_documents.py)
+# for the dollars and the agency inside, and joins the agencies to what
+# committees paid them (build_agency_spend.py).
+#
 # Last, a freshness check opens a GitHub issue if any source has gone more
 # than three days without updating, and closes it once all are fresh.
 #
@@ -138,6 +142,42 @@ jobs:
         timeout-minutes: 15
         run: python3 fcc/scrape_political_files.py --media dbs
 
+      # What the political-file documents say inside: amounts, agencies.
+      # Each document is downloaded once ever (data/fcc_documents.json
+      # records what it read as); its text is kept in the Actions cache so a
+      # parser change re-reads everything without asking the FCC again. A
+      # small budget a night, newest orders first, TV before the rest.
+      - name: Install PDF tools
+        continue-on-error: true
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
+
+      - name: Restore document text
+        uses: actions/cache/restore@v4
+        with:
+          path: .doc_text
+          key: doc-text-${{ github.run_id }}
+          restore-keys: doc-text-
+
+      - name: Read political-file documents
+        continue-on-error: true
+        timeout-minutes: 45
+        run: |
+          python3 fcc/read_documents.py
+          python3 fcc/read_documents.py --media radio --budget 15
+          python3 fcc/read_documents.py --media cable --budget 15
+
+      - name: Save document text
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .doc_text
+          key: doc-text-${{ github.run_id }}
+
+      # The agencies between committees and stations: those the documents
+      # name, joined to what committees paid them in the state filings.
+      - name: Rebuild agencies
+        run: python3 build_agency_spend.py
+
       - name: Rebuild pages
         run: |
           python3 build_page.py
@@ -147,7 +187,7 @@ jobs:
 
       - name: Commit if the filings changed
         run: |
-          if git diff --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -- data/ '*.html'; then
+          if git diff --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -I'"updated":' -- data/ '*.html'; then
             echo "No new filings since the last build; nothing to commit."
             exit 0
           fi

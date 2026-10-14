@@ -1,0 +1,52 @@
+# FCC documents check — reads a small sample of political-file documents
+# (one order, invoice and request form per station) when the document reader
+# changes, and prints each one's text beside what it parsed to, so the parser
+# can be checked against the real stations' sales systems. Commits nothing.
+
+name: FCC documents check
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - fcc/read_documents.py
+      - fcc/documents.py
+      - .github/workflows/fcc-documents-check.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pdftotext and tesseract
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
+      - name: TV sample
+        run: python3 fcc/read_documents.py --sample 40
+      - name: Radio sample
+        run: python3 fcc/read_documents.py --media radio --sample 6
+      # The nightly path end to end, into a scratch copy: read a few
+      # documents, then roll them up as the pages do.
+      - name: Nightly read, then rollup
+        run: |
+          python3 fcc/read_documents.py --budget 12
+          python3 - <<'PY'
+          import json, sys
+          sys.path.insert(0, 'fcc')
+          from summary import fcc_summary
+          d = json.load(open('data/fcc_documents.json'))['documents']
+          for k, v in list(d.items())[:12]:
+              print(v['status'], v.get('kind'), v.get('gross'), v.get('agency'), '|', v['call'], v['name'])
+          m = {s['call']: s['dma'] for s in json.load(open('data/stations.json'))}
+          F = fcc_summary({c: 'NO' for c in m}, full=True)
+          print('usd', F['usd'])
+          for x in F['all']:
+              if 'usd' in x:
+                  print(' ', x['name'], x['usd'])
+          PY

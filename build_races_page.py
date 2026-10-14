@@ -283,7 +283,9 @@ def fcc_row(x):
     return {'bn': x['name'], 'docs': x['docs'], 'recent': x['recent'], 'latest': x['latest'],
             'st': [[s['c'], s['u'], s['c'] in x['stRecent'], s['k'], s['m']] for s in x['st']],
             'fresh': len(x['fresh']), 'wk': x['wk'], 'revs': x['revs'], 'aired': x['aired'],
-            **({'onAir': x['onAir']} if 'onAir' in x else {})}
+            **({'onAir': x['onAir']} if 'onAir' in x else {}),
+            **({'usd': x['usd']['usd'], 'priced': x['usd']['priced'], 'ag': x['usd']['ag'][:2]}
+               if x.get('usd', {}).get('usd') else {})}
 
 
 def candidate(c, fed, fin, tv, ra, pf, used, fec=None, office=''):
