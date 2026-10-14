@@ -27,13 +27,14 @@ few (--budget, default 40, more close to an election), newest orders first:
 
 Text comes from poppler's `pdftotext -layout` (apt: poppler-utils). A scan
 with no text layer is recorded as such and not retried. What a document
-reads as (parse()) is regression-tested on real documents' text in
-tests/test_documents.py; a document whose amount can't be found is kept with
-`gross: null`, never guessed.
+reads as is fcc/documents.py's parse(), regression-tested on real
+documents' text (tests/documents/); a document whose amount can't be found
+is kept with `gross: null`, never guessed.
 
 Must run where publicfiles.fcc.gov is reachable (GitHub Actions).
 """
 import argparse
+import gzip
 import json
 import os
 import re
@@ -45,124 +46,13 @@ import time
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
+from documents import parse  # noqa: E402
 D = lambda *p: os.path.join(ROOT, 'data', *p)
 
-PARSER = 1            # bump when parse() changes, to re-parse kept text-less results
 MAX_BYTES = 8 << 20   # a 40-page scan isn't worth the request budget twice over
 
 
 # ---------------------------------------------------------------- reading text
-
-MONEY = r'\$?\s*(\(?-?[\d,]+\.\d{2}\)?|\(?-?\d{1,3}(?:,\d{3})+\)?)'
-
-
-def amount(s):
-    """'$1,234.50' -> 1234.5; '(500.00)' -> -500.0; None when not a number."""
-    s = s.replace('$', '').replace(',', '').strip()
-    neg = s.startswith('(') and s.endswith(')')
-    try:
-        v = float(s.strip('()'))
-    except ValueError:
-        return None
-    return -v if neg else v
-
-
-# Totals, most specific first: a line naming the gross total of the whole
-# order or invoice. Line-item columns ("Gross" at the head of a column) are
-# not totals, which is why each wants "total" or a terminal position.
-GROSS = [
-    re.compile(r'(?:order|contract|grand|invoice|schedule)?\s*total\s+gross(?:\s+amount)?\s*:?\s*' + MONEY, re.I),
-    re.compile(r'gross\s+(?:order\s+|contract\s+|invoice\s+)?(?:total|amount)\s*:?\s*' + MONEY, re.I),
-    re.compile(r'total\s+(?:order\s+|contract\s+)?(?:amount|cost|dollars)\s*:?\s*' + MONEY, re.I),
-    re.compile(r'(?:order|contract|grand|schedule)\s+total\s*:?\s*' + MONEY, re.I),
-]
-NET = [
-    re.compile(r'total\s+net(?:\s+amount)?\s*:?\s*' + MONEY, re.I),
-    re.compile(r'net\s+(?:order\s+|contract\s+|invoice\s+)?(?:total|amount)(?:\s+due)?\s*:?\s*' + MONEY, re.I),
-    re.compile(r'(?:amount|balance|total)\s+due\s*:?\s*' + MONEY, re.I),
-]
-COMMISSION = re.compile(r'(?:agency\s+)?commission\s*(?:\(?\s*\d{1,2}(?:\.\d+)?\s*%\s*\)?)?\s*:?\s*' + MONEY, re.I)
-
-# A labelled field: "Agency: Smart Media Group" up to a run of spaces (the
-# next column in -layout text) or the end of the line.
-def field(label):
-    return re.compile(r'(?:^|\s{2,}|\|)\s*' + label + r'\s*[:#]?\s+([^\n]+?)(?=\s{3,}|\s*$)', re.I | re.M)
-
-
-AGENCY = [field(r'(?:buying\s+|media\s+|ad(?:vertising)?\s+)?agency(?:\s+name)?'),
-          field(r'(?:billing|bill\s+to)\s+(?:agency|name)')]
-ADVERTISER = [field(r'advertiser(?:\s+name)?'), field(r'client'), field(r'candidate(?:\s+name)?')]
-ORDER_NO = re.compile(r'(?:order|contract|invoice|estimate)\s*(?:no\.?|number|#|id)\s*:?\s*([A-Z]?\d{4,10}(?:-\d{1,2})?)', re.I)
-DATE = r'(\d{1,2}/\d{1,2}/\d{2,4})'
-FLIGHT = re.compile(r'(?:flight|schedule|air|contract)\s*(?:dates?)?\s*:?\s*' + DATE + r'\s*(?:-|–|to|thru|through)\s*' + DATE, re.I)
-SPOTS = re.compile(r'total\s+(?:spots|units)\s*:?\s*([\d,]+)', re.I)
-
-# What isn't an agency: labels and boilerplate that land in the field.
-NOT_NAME = re.compile(r'^(?:n/?a|none|direct|same|self|tbd|-+|\W+|address|contact|phone|'
-                      r'commission|code|id|no\.?|number|name|ref\w*)\b', re.I)
-
-
-def first(patterns, text, conv=lambda x: x):
-    for p in patterns:
-        for m in p.finditer(text):
-            v = conv(m.group(1))
-            if v not in (None, ''):
-                return v
-    return None
-
-
-def last(patterns, text, conv):
-    """The last match of the first pattern that matches: a total sits at the
-    end of the document, after any subtotals."""
-    for p in patterns:
-        vals = [v for v in (conv(m.group(1)) for m in p.finditer(text)) if v is not None]
-        if vals:
-            return vals[-1]
-    return None
-
-
-def name_field(patterns, text):
-    for p in patterns:
-        for m in p.finditer(text):
-            v = re.sub(r'\s+', ' ', m.group(1)).strip(' :,-')
-            if v and not NOT_NAME.match(v) and re.search(r'[A-Za-z]{2}', v) and len(v) <= 80:
-                return v
-    return None
-
-
-def kind_of(text):
-    t = text[:3000].lower()
-    if re.search(r'agreement form for (?:political|non-candidate|candidate)|pb-?1[6-9]\b|nab form', t):
-        return 'request'
-    if re.search(r'\binvoice\b', t):
-        return 'invoice'
-    if re.search(r'\b(?:order|contract|schedule|proposal)\b', t):
-        return 'order'
-    return 'other'
-
-
-def parse(text):
-    """What a document's text says: its kind, gross and net amounts, agency,
-    advertiser, order number and flight. Fields it can't find are None."""
-    k = kind_of(text)
-    gross = last(GROSS, text, amount)
-    net = last(NET, text, amount)
-    comm = last([COMMISSION], text, amount)
-    # Net and commission give the gross when only they are printed.
-    if gross is None and net is not None and comm is not None:
-        gross = round(net + comm, 2)
-    fl = FLIGHT.search(text)
-    sp = SPOTS.search(text)
-    return {
-        'kind': k,
-        'gross': gross, 'net': net,
-        'agency': name_field(AGENCY, text),
-        'advertiser': name_field(ADVERTISER, text),
-        'order_no': first([ORDER_NO], text),
-        'flight': [fl.group(1), fl.group(2)] if fl else None,
-        'spots': int(sp.group(1).replace(',', '')) if sp else None,
-    }
-
 
 OCR_PAGES = 2         # a scan is read from its first and last pages this many each
 
@@ -276,6 +166,33 @@ def read_one(get, f):
     return dict(parse(text), status='read', via=how), text
 
 
+def text_path(cache, did):
+    return os.path.join(cache, did[:2], did + '.txt.gz')
+
+
+def keep_text(cache, did, text):
+    os.makedirs(os.path.dirname(text_path(cache, did)), exist_ok=True)
+    with gzip.open(text_path(cache, did), 'wt', encoding='utf-8') as f:
+        f.write(text)
+
+
+def reparse(docs, cache):
+    """Re-read every kept document's text with the current parser, so a fix
+    to fcc/documents.py reaches documents read before it. Returns how many."""
+    n = 0
+    for did, d in docs.items():
+        if d.get('status') != 'read':
+            continue
+        try:
+            with gzip.open(text_path(cache, did), 'rt', encoding='utf-8') as f:
+                text = f.read()
+        except OSError:
+            continue
+        d.update(parse(text))
+        n += 1
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--media', choices=sorted(FILES), default='tv')
@@ -287,6 +204,10 @@ def main():
                     'contains one of these')
     ap.add_argument('--offset', type=int, default=0, help='with --sample: skip this many of the sample first')
     ap.add_argument('--out', default=D('fcc_documents.json'))
+    ap.add_argument('--text-cache', default=os.path.join(ROOT, '.doc_text'),
+                    help="where each document's extracted text is kept (git-ignored; the nightly run "
+                         "carries it between runs in the Actions cache), so a parser change re-reads "
+                         "every document without downloading it again")
     args = ap.parse_args()
 
     import scrape_political_files as sp
@@ -296,6 +217,10 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError):
         store = {'documents': {}}
     docs = store.setdefault('documents', {})
+    if not args.sample:
+        n = reparse(docs, args.text_cache)
+        if n:
+            print(f'Re-read {n:,} documents from the text cache with the current parser')
     queue = candidates(listing, args.media, set() if args.sample else set(docs))
 
     if args.sample:
@@ -358,9 +283,10 @@ def main():
             print(f'  {call} {f["name"]}: {e}')
             continue
         if isinstance(res, tuple):
-            res = res[0]
+            res, text = res
+            keep_text(args.text_cache, doc_id(f), text)
         res.update({'media': args.media, 'call': call, 'path': f['path'], 'name': f['name'],
-                    'uploaded': f['uploaded'], 'name_kind': kind, 'read_at': now, 'parser': PARSER})
+                    'uploaded': f['uploaded'], 'name_kind': kind, 'read_at': now})
         docs[doc_id(f)] = res
         counts[res['status']] = counts.get(res['status'], 0) + 1
     store.update({'source': 'FCC political-file documents (publicfiles.fcc.gov), read with pdftotext',
