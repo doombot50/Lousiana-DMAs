@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-10-14T20:28:52Z",
+ "scraped": "2026-10-15T01:36:56Z",
  "years": [
   2026,
   2027
@@ -6862,7 +6862,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -9052,7 +9052,7 @@
    "facility_id": "13938",
    "root_folder": "fc8f8266-9929-cdf7-1999-ae430f14a725",
    "profile": "tv-profile/wupl",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2015": "f1603605-cb81-4311-203a-f87b390db1d3",
     "2017": "7621df02-232b-c1e4-5026-ae45e370e409",
@@ -9084,6 +9084,15 @@
     "Political Files/2026/Terms and Disclosures": "0eb7e955-67ee-ed7e-73bc-19b71d69f46b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/NAB",
+     "name": "Seuzeneau NAB signed 100926 rev101426",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T15:23:59-04:00",
+     "folder_id": "42236375-752a-f945-4ce6-ca69f539a1bf",
+     "file_id": "c7d61532-8ee4-610e-8c53-93f977e3f8e7",
+     "file_manager_id": "28f42799-cd88-4bb7-9f92-1d9bf5d00a4c"
+    },
     {
      "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Orders",
      "name": "WUPL Seuzeneau 3348734",
@@ -9822,7 +9831,7 @@
    "facility_id": "54280",
    "root_folder": "c0882dd8-4018-5d1d-de87-45728b37efcc",
    "profile": "tv-profile/wnol-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "3bcc5f7e-979a-dbb4-05a4-69cddf905cd2",
     "2018": "8f764d8d-cab5-287e-2e6c-930b6ecc5543",
@@ -10497,7 +10506,7 @@
    "facility_id": "18819",
    "root_folder": "3b3f087e-2252-72e8-0100-209bd3534851",
    "profile": "tv-profile/wlae-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2012": "b4286e7f-60bc-dffa-af95-338032627d18",
     "2013": "25979cc0-a290-908d-fab5-727c1f089e53",
@@ -10527,7 +10536,7 @@
    "facility_id": "589",
    "root_folder": "cdc91283-1e5a-b75e-2ad2-aa19cb822ebd",
    "profile": "tv-profile/wafb",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "427856e2-4249-1395-ac75-515b47dd99bf",
     "2018": "9622ae40-f309-8ffd-c21f-8f7d8d1ea584",
@@ -10583,6 +10592,24 @@
     "Political Files/2026/Terms and Disclosures": "ec5e912a-f7f8-7af0-2b8b-342ddc1a0c73"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Justice PAC/PB19",
+     "name": "Justice PAC NAB PB19 Zip Zero",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T12:21:42-04:00",
+     "folder_id": "22adaeb0-9d31-1585-96e7-a0c4933cf345",
+     "file_id": "94d5341e-9ce3-5da3-bc70-ec1e91943072",
+     "file_manager_id": "322c6452-4030-44da-9c07-6cf8e52079e5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miquez/Orders",
+     "name": "Blake Miquez 4583744 R1",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T12:08:39-04:00",
+     "folder_id": "57e52077-5f06-0946-d493-939da879c874",
+     "file_id": "7b97b685-13d7-e654-afd7-e773d8bb5efe",
+     "file_manager_id": "b6bb714c-051b-4f2e-a516-9f12b1c861c3"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Justice PAC/Orders",
      "name": "Justice PAC 4594645",
@@ -13418,7 +13445,7 @@
    "facility_id": "38616",
    "root_folder": "e7b17d62-7092-2fac-19d3-86391be87b48",
    "profile": "tv-profile/wbrz-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "59f0e199-f0a4-a3a9-0f26-2e194e2aa680",
     "2018": "edbeb72d-c0c1-838f-8e41-1860fe3eb605",
@@ -15696,7 +15723,7 @@
    "facility_id": "70021",
    "root_folder": "4c3899ce-a1b4-75b8-f141-0ef22e4dcde8",
    "profile": "tv-profile/wvla-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2015": "0775bb15-1bdc-248e-5fbb-417544a134fd",
     "2017": "f6854619-0b70-88f1-8f5c-d65ddcaa3d29",
@@ -17447,7 +17474,7 @@
    "facility_id": "12520",
    "root_folder": "cd9cc7d7-41e2-81ce-26ec-da3e530f17aa",
    "profile": "tv-profile/wgmb-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "35ad5814-c815-5b93-f71f-0c6a7bd0206d",
     "2018": "1c8bcdf6-e74c-0ee1-03ac-a7dad45e3b71",
@@ -19034,7 +19061,7 @@
    "facility_id": "24976",
    "root_folder": "a146d1bc-3544-e8b6-814b-ecd38c265a62",
    "profile": "tv-profile/wbrl-cd",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2018": "14a0bf1e-d465-870b-7247-1ab28226555b",
     "2019": "789bf9f1-7cbc-d252-b4ac-25a24543e1f4",
@@ -19486,7 +19513,7 @@
    "facility_id": "35652",
    "root_folder": "1f09d425-ebf2-ac3b-ac66-e21e9f0d29b5",
    "profile": "tv-profile/ktbs-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "5d48fdc4-598f-ced1-d930-348ba57ab492",
     "2018": "ab97ab3d-0af9-1b15-71ed-fe2a74956731",
@@ -19633,6 +19660,7 @@
     "Political Files/2026/Federal/US Senate/Ken Paxton/Order - 20359": "c9ea3dce-2166-d60e-5142-b5f6e70164bc",
     "Political Files/2026/Federal/US Senate/Ken Paxton/PB - 20357": "c6a94ac7-a079-28f9-b634-319156bd75b3",
     "Political Files/2026/Federal/US Senate/Ken Paxton/PB - 20357 REV 1": "88b46e0f-5823-3e3c-6d1d-03cbcc66c377",
+    "Political Files/2026/Federal/US Senate/Ken Paxton/PB - 20357 REV 2": "79ffab64-7af1-19cd-f586-c5c7e91810fc",
     "Political Files/2026/Federal/US Senate/Ken Paxton/PB - 20358": "3314a601-ec7d-b413-404c-002f1375347e",
     "Political Files/2026/Federal/US Senate/Ken Paxton/PB - 20359": "2b6a5cd7-d44e-b4b6-5c23-085d55e637b2",
     "Political Files/2026/Local": "a17f6dc9-a5f3-7c2c-b7d8-8fd0a0a9c9b5",
@@ -19991,6 +20019,7 @@
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20399": "d243652f-f790-0af6-3ad7-d8f3fd24c081",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20399 REV 1": "f9d700e5-f891-4a10-c8ed-9b508d064406",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20401": "c56d1c51-0347-a8c6-32c8-e9bab89b4008",
+    "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20401 REV 1": "ec1d104d-2e50-2f36-6f23-9375d5170f3b",
     "Political Files/2026/State/Texas House District 1": "e11f0786-e8a1-40c5-9fd7-e54c52d69a42",
     "Political Files/2026/State/Texas House District 1/Chris Spencer": "e5a62aeb-1fcf-d35d-143b-0e94bd76ffc0",
     "Political Files/2026/State/Texas House District 1/Chris Spencer/Order - 16973": "e08666b9-93db-ae91-fd5c-5d71f83f41ae",
@@ -20026,6 +20055,24 @@
     "Political Files/2026/State/Texas State Representative/Josh Bray/PB - 17328": "d9fa19b5-c6ce-355f-79b3-9285019376e1"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/Ken Paxton/PB - 20357 REV 2",
+     "name": "20261014143229303",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T15:29:19-04:00",
+     "folder_id": "79ffab64-7af1-19cd-f586-c5c7e91810fc",
+     "file_id": "6733023a-4e5b-d981-b5be-a4a0ddaf8fd5",
+     "file_manager_id": "1eb88397-eb24-48e1-8bfa-409549b621fe"
+    },
+    {
+     "path": "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20401 REV 1",
+     "name": "20261014143249935",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T15:27:59-04:00",
+     "folder_id": "ec1d104d-2e50-2f36-6f23-9375d5170f3b",
+     "file_id": "fe3fddfd-03f8-c718-a936-355e253b8c78",
+     "file_manager_id": "63e51e6c-939b-4ab2-a5cd-0fbf15d2411a"
+    },
     {
      "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20009 REV 5",
      "name": "20261013164859208",
@@ -48422,7 +48469,7 @@
    "facility_id": "35852",
    "root_folder": "b912fb7c-0956-9efc-0d7f-75df566a3877",
    "profile": "tv-profile/kvhp",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2012": "b608a943-41f6-692e-e617-dd1b1bf27975",
     "2013": "ef516e5e-b9e2-4341-26e2-1d4e6c271d00",
@@ -49753,7 +49800,7 @@
    "facility_id": "51598",
    "root_folder": "4c72836f-58bb-6e20-9264-886b97ad6941",
    "profile": "tv-profile/kalb-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2017": "0afb61f3-b48f-5fb4-32c5-8912057349c7",
     "2018": "6eb72ab6-a9d5-542a-0522-ab4b38dbe3d8",
@@ -50829,7 +50876,7 @@
    "facility_id": "52907",
    "root_folder": "05f00a78-2e38-ca9b-9fdb-20f7062a9793",
    "profile": "tv-profile/klax-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2018": "5185c466-8e76-1ef8-2bc3-2e500088489f",
     "2019": "1cc958b0-3405-760b-74b4-761d1bbb8c01",
@@ -51271,7 +51318,7 @@
    "facility_id": "16539",
    "root_folder": "7ea29a0e-4a15-e0d6-30d2-9ff42870feda",
    "profile": "tv-profile/wntz-tv",
-   "scraped_at": "2026-10-14T15:50:38Z",
+   "scraped_at": "2026-10-15T01:34:29Z",
    "year_folders": {
     "2015": "499fa776-206c-b2ee-13a1-c5f507d7430c",
     "2017": "ab224572-9c77-adba-46ef-43d52bc7ab10",
@@ -51299,6 +51346,51 @@
     "Political Files/2026/Terms and Disclosures": "7499491b-3cd0-d7cc-19c9-21f00d259a13"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment PB19 est9970",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:05:25-04:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "cb82ea0c-aad7-3387-db54-0752ec36f5ed",
+     "file_manager_id": "cf7ef9eb-c9d3-4a12-8d53-0510e82036ba"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment PB19 est9971",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:05:25-04:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "3df3fc17-02f4-693e-bc33-fa37808010ea",
+     "file_manager_id": "1e1af91d-018e-4956-a96e-0c3b88f568c5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment PB19 est 9972",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:05:25-04:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "adc57436-bee7-2123-d484-95019e093744",
+     "file_manager_id": "91e2cfe9-6969-4154-9b4e-548054cccc9c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/LA Growth  Future Fund",
+     "name": "LA growth and future Fund 10.19-11.01.26 revised order",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T15:54:35-04:00",
+     "folder_id": "b6e6b430-18b8-360d-3b91-788b1b958a5a",
+     "file_id": "49886ab6-45f4-04e9-e76d-a4c060f9fd1d",
+     "file_manager_id": "31ce300e-598d-45cd-b914-a83c37b2648c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment Congress order 10.21.26-11.01.26 revision",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T15:53:43-04:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "2ef76078-68c3-5d35-b03e-d55acc4fdb85",
+     "file_manager_id": "7eead15c-6058-4e0a-a293-7d63d26928c6"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/LA Growth  Future Fund",
      "name": "Candidate adv agreement LA Growth 10.12.26-10.18.26",
@@ -51337,15 +51429,6 @@
     },
     {
      "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
-     "name": "Candidate adv agreement Firment Congress 10.21.26-10.27.26",
-     "ext": "pdf",
-     "uploaded": "2026-10-12T12:52:14-04:00",
-     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
-     "file_id": "022f7213-ad2a-53b6-275b-255e3a6c097c",
-     "file_manager_id": "7b2b0e89-f83c-4f0e-beb9-9b16c69f54ac"
-    },
-    {
-     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
      "name": "Firment Congress order 10.21.26-10.27.26",
      "ext": "pdf",
      "uploaded": "2026-10-12T12:52:14-04:00",
@@ -51355,30 +51438,12 @@
     },
     {
      "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
-     "name": "Candidate adv agreement Firment Congress 10.14.269-10.20.26",
-     "ext": "pdf",
-     "uploaded": "2026-10-12T12:32:24-04:00",
-     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
-     "file_id": "540400e7-3c48-be43-611d-4faea197e0d9",
-     "file_manager_id": "532163bb-6136-4dab-a353-d3872ffa9cf8"
-    },
-    {
-     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
      "name": "firment Congress order 10.14.26-10.20.26",
      "ext": "pdf",
      "uploaded": "2026-10-12T12:32:24-04:00",
      "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
      "file_id": "1e503d4a-e3c2-d1bd-c5d1-b30b1f10f16d",
      "file_manager_id": "a3a4e718-1dff-43ed-8a59-d772a0d7f9f7"
-    },
-    {
-     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
-     "name": "firment Congress Ad Agreement form 10.28.26-11.03.26",
-     "ext": "pdf",
-     "uploaded": "2026-10-12T12:20:32-04:00",
-     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
-     "file_id": "b96c5dea-be12-b40a-0776-252a4d5b71a1",
-     "file_manager_id": "bbec8e3c-c5af-4eed-9e2c-a7126d3bd22f"
     },
     {
      "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
@@ -51582,10 +51647,10 @@
  "blocked": null,
  "attempted": {
   "KADN": "2026-10-14T20:25:43Z",
-  "KALB": "2026-10-14T15:50:38Z",
+  "KALB": "2026-10-15T01:34:29Z",
   "KARD": "2026-10-14T20:25:43Z",
   "KATC": "2026-10-14T20:25:43Z",
-  "KLAX": "2026-10-14T15:50:38Z",
+  "KLAX": "2026-10-15T01:34:29Z",
   "KLFY": "2026-10-14T20:25:43Z",
   "KMSS": "2026-10-14T20:25:43Z",
   "KNOE": "2026-10-14T20:25:43Z",
@@ -51593,20 +51658,20 @@
   "KPXJ": "2026-10-14T20:25:43Z",
   "KSLA": "2026-10-14T20:25:43Z",
   "KTAL": "2026-10-14T20:25:43Z",
-  "KTBS": "2026-10-14T15:50:38Z",
+  "KTBS": "2026-10-15T01:34:29Z",
   "KTVE": "2026-10-14T20:25:43Z",
-  "KVHP": "2026-10-14T15:50:38Z",
-  "WAFB": "2026-10-14T15:50:38Z",
-  "WBRL-CD": "2026-10-14T15:50:38Z",
-  "WBRZ": "2026-10-14T15:50:38Z",
+  "KVHP": "2026-10-15T01:34:29Z",
+  "WAFB": "2026-10-15T01:34:29Z",
+  "WBRL-CD": "2026-10-15T01:34:29Z",
+  "WBRZ": "2026-10-15T01:34:29Z",
   "WDSU": "2026-10-14T20:25:43Z",
-  "WGMB": "2026-10-14T15:50:38Z",
-  "WGNO": "2026-10-14T15:50:38Z",
-  "WLAE": "2026-10-14T15:50:38Z",
-  "WNOL": "2026-10-14T15:50:38Z",
-  "WNTZ": "2026-10-14T15:50:38Z",
-  "WUPL": "2026-10-14T15:50:38Z",
-  "WVLA": "2026-10-14T15:50:38Z",
+  "WGMB": "2026-10-15T01:34:29Z",
+  "WGNO": "2026-10-15T01:34:29Z",
+  "WLAE": "2026-10-15T01:34:29Z",
+  "WNOL": "2026-10-15T01:34:29Z",
+  "WNTZ": "2026-10-15T01:34:29Z",
+  "WUPL": "2026-10-15T01:34:29Z",
+  "WVLA": "2026-10-15T01:34:29Z",
   "WVUE": "2026-10-14T20:25:43Z",
   "WWL-TV": "2026-10-14T20:25:43Z"
  }
