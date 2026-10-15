@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-10-15T01:36:56Z",
+ "scraped": "2026-10-15T15:39:52Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -29,11 +29,305 @@
    "folders": {
     "Political Files/2026": "aacced6c-0648-e0ff-e515-407aec48edf7",
     "Political Files/2026/Federal": "5fc4aa7a-b4b6-4302-adfc-7800e1bc2c8a",
+    "Political Files/2026/Federal/US House": "ff8d4899-9ece-8f6a-e3b9-99b33c0104c6",
+    "Political Files/2026/Federal/US House/Steve Scalise": "fbfaf1a8-c914-3066-4ecd-5095ae396b88",
+    "Political Files/2026/Federal/US House/Troy Carter": "a0e84c88-cc7e-75df-1c10-c8609f44794e",
+    "Political Files/2026/Federal/US Senate": "ea9d5482-9b4d-1762-ddfc-03df94d67077",
+    "Political Files/2026/Federal/US Senate/Bill Cassidy": "e07623df-f039-af36-c77e-99510141d777",
+    "Political Files/2026/Federal/US Senate/Jamie Davis": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+    "Political Files/2026/Federal/US Senate/John Fleming": "e22c1439-34e1-5f83-f51e-fe50d97def02",
+    "Political Files/2026/Federal/US Senate/Julie Letlow": "c37d67a3-7f17-6c18-ce5d-4db73a67c6f1",
     "Political Files/2026/Local": "5530cba6-6f88-ecbf-5a94-a2495ed12f16",
+    "Political Files/2026/Local/Cameron Mary": "dbd73dc3-762d-31a5-db34-5655e08626c9",
+    "Political Files/2026/Local/Camille Buras": "dfa9c4ed-acd3-cf84-6fd3-1234ec3955de",
+    "Political Files/2026/Local/Daniel Seuzeneau": "d95e8405-cac2-e11f-dea5-f0de725a7e26",
+    "Political Files/2026/Local/Ellie Schroder": "be81c7df-2551-75ed-e98f-ce666019b787",
+    "Political Files/2026/Local/Elroy James": "a749aa49-2c1e-88e5-4c24-0f051d6f82d8",
+    "Political Files/2026/Local/Joe McMahon": "7d260be1-153a-f842-0e2f-79f4375c10d2",
+    "Political Files/2026/Local/Joe Stagni": "1b905389-f4df-c57c-1962-915484304e12",
+    "Political Files/2026/Local/John Young": "a0f6087d-4aaa-7dc3-8a84-a942434937ae",
+    "Political Files/2026/Local/Joseph Cao": "b8f7796b-0c15-b960-80fd-9fdd0bf0b6da",
+    "Political Files/2026/Local/Leon Roche": "ee9db464-c418-015c-4faf-a763dbec48ed",
+    "Political Files/2026/Local/Marko Marjanovic": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+    "Political Files/2026/Local/Michael Marsiglia": "562d1876-9c5e-f91e-4f67-881b49c00624",
+    "Political Files/2026/Local/Michele Echols": "cfe7c45f-a0be-54a2-cb05-086e565f5317",
+    "Political Files/2026/Local/Richard Perque": "daf26600-c974-c28a-6a50-caf9c6563c2f",
+    "Political Files/2026/Local/Sal Brocato": "8f2c7795-ded2-ff91-14b4-751020008c02",
+    "Political Files/2026/Local/Scott Illing": "66550627-3a1d-98c4-ae60-7adb6a742aca",
+    "Political Files/2026/Local/Shawn Lindsay": "a3c5744b-ceab-a859-8003-e26292c2470d",
+    "Political Files/2026/Local/Sherman Mack": "be5dc720-7eba-ff33-2c67-9ab80f5de3b6",
+    "Political Files/2026/Local/Sheryl Howard": "aafe92e6-8d36-0aed-6702-f0c94c6b1629",
+    "Political Files/2026/Local/Stephanie Bridges": "5678c920-a67f-e67d-7b64-518955ab3b08",
     "Political Files/2026/Non-Candidate Issue Ads": "cd34af07-045f-1143-d628-94c3e66fccc0",
+    "Political Files/2026/Non-Candidate Issue Ads/Accountability Project": "e7b649ec-743a-3734-abb9-2f4b66c16dc7",
+    "Political Files/2026/Non-Candidate Issue Ads/American Mission Super PAC": "5a942aaa-6852-d65c-4d6a-49cc75cb10c3",
+    "Political Files/2026/Non-Candidate Issue Ads/Citizens Action League": "01668446-ad18-1d2e-1cb3-aeae5ffac160",
+    "Political Files/2026/Non-Candidate Issue Ads/ClearPath Action Fund": "4e97e41a-466e-fdcc-481e-6134bf11667d",
+    "Political Files/2026/Non-Candidate Issue Ads/Conservatives For A Better Tomorrow": "f9019029-1406-7173-b2a7-1cfd64efc58e",
+    "Political Files/2026/Non-Candidate Issue Ads/Fair Rates First": "26dd3333-6119-18ff-ab15-434cb97b85b9",
+    "Political Files/2026/Non-Candidate Issue Ads/First Consumers PAC": "fe60bebe-b521-d936-7aa2-c41a7a9fb41a",
+    "Political Files/2026/Non-Candidate Issue Ads/First Principles PAC": "1797762c-4086-bc68-9ca5-fecc24cb60b9",
+    "Political Files/2026/Non-Candidate Issue Ads/Louisiana Freedom Fund": "55445dc7-e8c9-0cb3-2e39-203b6b497896",
+    "Political Files/2026/Non-Candidate Issue Ads/Moms Protecting Children PAC": "2e565d48-cdab-cf4a-c313-02004df6bf59",
+    "Political Files/2026/Non-Candidate Issue Ads/New Horizons USA": "fdc79e79-f876-8f50-55ab-938343e6ee8d",
+    "Political Files/2026/Non-Candidate Issue Ads/Protect St Tammanys Future": "4d716115-0f2e-0abb-99c4-0152e4a01bbe",
+    "Political Files/2026/Non-Candidate Issue Ads/Raise the Bar PAC": "22fbd3a7-7e14-081e-5475-569b4191a099",
+    "Political Files/2026/Non-Candidate Issue Ads/Save My Louisiana": "da52f593-d0f0-9621-818b-3e84bb14fb3b",
     "Political Files/2026/State": "cce1dd58-e007-2b03-412c-8c4072310944"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic 10-13 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:31:33-04:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "bc9e47cb-99de-6672-a4f3-ec26a695030b",
+     "file_manager_id": "6c4ae3c5-dfba-49a5-9655-31f84e8af0d3"
+    },
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic 10-14 2",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:31:33-04:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "4e10340c-0208-6222-697c-226b0f200582",
+     "file_manager_id": "90b82f84-cd41-4a1c-8298-1eefa10ccd82"
+    },
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic 10-15 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:31:33-04:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "c152ff10-2e75-6cca-3972-3fdbf42568fa",
+     "file_manager_id": "2b49b3fc-7337-429e-a9e3-3e1b9d1da372"
+    },
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic NAB 10-12",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:31:33-04:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "09c18aed-f2ad-e058-22f1-ebb6968564f4",
+     "file_manager_id": "be0862de-bbd8-4bb9-8076-429205a37235"
+    },
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic NAB 10-14 1",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:31:33-04:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "2339da05-5c2f-fb71-6678-b2bac2c3484d",
+     "file_manager_id": "143220d0-e3bb-4c5a-9f8f-63bc297c6b6b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Protect St Tammanys Future",
+     "name": "Protect St Tammanys Future 10-15 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:25:11-04:00",
+     "folder_id": "4d716115-0f2e-0abb-99c4-0152e4a01bbe",
+     "file_id": "2294c9e0-0c98-5d76-92b4-f640a80465a4",
+     "file_manager_id": "4d909028-3e5b-459a-9075-0af4eac8ae84"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Protect St Tammanys Future",
+     "name": "Protect St Tammany's Future NAB 10-14",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:25:11-04:00",
+     "folder_id": "4d716115-0f2e-0abb-99c4-0152e4a01bbe",
+     "file_id": "d37fbb57-ac47-aa66-0ac4-0c57237fcb07",
+     "file_manager_id": "387833e9-628d-48a8-9c06-156a82f7ee36"
+    },
+    {
+     "path": "Political Files/2026/Local/Cameron Mary",
+     "name": "Cameron Mary 10-15 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:23:57-04:00",
+     "folder_id": "dbd73dc3-762d-31a5-db34-5655e08626c9",
+     "file_id": "9e6aa7de-3293-90b8-1db9-6615591d19e8",
+     "file_manager_id": "6530da78-b97a-4098-ab98-1e4a22a379de"
+    },
+    {
+     "path": "Political Files/2026/Local/Cameron Mary",
+     "name": "Cameron Mary NAB 10-14",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:23:57-04:00",
+     "folder_id": "dbd73dc3-762d-31a5-db34-5655e08626c9",
+     "file_id": "ef29da34-845a-cedb-3585-4c487b8d969e",
+     "file_manager_id": "71d88f3e-e0c8-417f-8297-8e39e20537aa"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julie Letlow",
+     "name": "Julia Letlow 10-5 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:18:18-04:00",
+     "folder_id": "c37d67a3-7f17-6c18-ce5d-4db73a67c6f1",
+     "file_id": "1c85cdf7-283b-47a7-c793-83db7278be08",
+     "file_manager_id": "30da25b1-7939-44cc-85e2-db2eff474bbf"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julie Letlow",
+     "name": "Julia Letlow NAB 10-7-",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:18:18-04:00",
+     "folder_id": "c37d67a3-7f17-6c18-ce5d-4db73a67c6f1",
+     "file_id": "3d5660eb-a7d1-17fb-d44d-563562744508",
+     "file_manager_id": "1e25eb2a-4eaf-4aa9-a5cb-924882f5f9d4"
+    },
+    {
+     "path": "Political Files/2026/Local/Michele Echols",
+     "name": "Michele Echols 10-12 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:17:00-04:00",
+     "folder_id": "cfe7c45f-a0be-54a2-cb05-086e565f5317",
+     "file_id": "76f0d029-9066-9ebf-0476-10e115d58881",
+     "file_manager_id": "6483e746-6dff-4b3e-a915-3eefaa233701"
+    },
+    {
+     "path": "Political Files/2026/Local/Michele Echols",
+     "name": "Michele Echols NAB 10-6",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:17:00-04:00",
+     "folder_id": "cfe7c45f-a0be-54a2-cb05-086e565f5317",
+     "file_id": "a1ab838f-a44b-bfcf-2e37-4460141fed44",
+     "file_manager_id": "fbac98de-67ee-465c-b767-c038a62c9eb9"
+    },
+    {
+     "path": "Political Files/2026/Local/Leon Roche",
+     "name": "Leon Roche 10-12 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:15:34-04:00",
+     "folder_id": "ee9db464-c418-015c-4faf-a763dbec48ed",
+     "file_id": "afb3d17e-6eb3-5dee-1ff1-a549486f4eb6",
+     "file_manager_id": "6e91c5ea-84f2-4e3f-b4f2-424bc766e37d"
+    },
+    {
+     "path": "Political Files/2026/Local/Leon Roche",
+     "name": "Leon Roche NAB 10-9",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:15:34-04:00",
+     "folder_id": "ee9db464-c418-015c-4faf-a763dbec48ed",
+     "file_id": "57caf29f-20fd-0413-e6c8-334f67a3b104",
+     "file_manager_id": "fb21a02c-5bd5-4c81-9c89-c21e7eeb1288"
+    },
+    {
+     "path": "Political Files/2026/Local/Joe McMahon",
+     "name": "Joe McMahon 10-12 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:14:16-04:00",
+     "folder_id": "7d260be1-153a-f842-0e2f-79f4375c10d2",
+     "file_id": "6d0a4d65-da27-cf70-3091-16a9c0a6142b",
+     "file_manager_id": "e7d461c5-4225-40ba-91ce-6cf0168d9047"
+    },
+    {
+     "path": "Political Files/2026/Local/Joe McMahon",
+     "name": "Joe McMahon NAB 10-9",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:14:16-04:00",
+     "folder_id": "7d260be1-153a-f842-0e2f-79f4375c10d2",
+     "file_id": "30ae4350-9ca4-95a3-bbed-19fc324042e1",
+     "file_manager_id": "2219f6a9-62b0-4728-a3d0-0950f8939337"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack",
+     "name": "Sherman Mack 10-13 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:11:56-04:00",
+     "folder_id": "be5dc720-7eba-ff33-2c67-9ab80f5de3b6",
+     "file_id": "b7282221-c330-db71-98a0-92a517682b30",
+     "file_manager_id": "c263724b-df10-4d62-a11d-5ac991bc39c2"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack",
+     "name": "Sherman Mack NAB 10-12",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:11:56-04:00",
+     "folder_id": "be5dc720-7eba-ff33-2c67-9ab80f5de3b6",
+     "file_id": "d4faf57d-78bc-4409-d178-b78e29e48bee",
+     "file_manager_id": "05330475-9095-42fe-8869-bad19b8880e2"
+    },
+    {
+     "path": "Political Files/2026/Local/Sal Brocato",
+     "name": "Sal Brocato 10-13 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:02:53-04:00",
+     "folder_id": "8f2c7795-ded2-ff91-14b4-751020008c02",
+     "file_id": "0305af72-46a3-cf55-d2ec-fe945cafba1a",
+     "file_manager_id": "7a279eec-a0f7-41bf-8cca-271961ed6c6f"
+    },
+    {
+     "path": "Political Files/2026/Local/Sal Brocato",
+     "name": "Sal Brocato NAB 10-9",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:02:53-04:00",
+     "folder_id": "8f2c7795-ded2-ff91-14b4-751020008c02",
+     "file_id": "c11c3c83-c94a-6410-6def-5ead02a1c147",
+     "file_manager_id": "a49ec77c-c350-4f19-a9c6-933de4f899f8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "Jamie Davis 10-14 to 10-19",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:00:41-04:00",
+     "folder_id": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+     "file_id": "6fa6d3e3-9485-b88d-b89e-4eff5d3713c2",
+     "file_manager_id": "2da6ee5b-d2d9-4562-a70a-40b0844ff94a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "Jamie Davis NAB 10-13",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T18:00:41-04:00",
+     "folder_id": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+     "file_id": "4511d689-bea5-57fb-a6b0-13b5a11a43a6",
+     "file_manager_id": "cfb3a9cb-118d-4800-aa00-4ebf204cebcd"
+    },
+    {
+     "path": "Political Files/2026/Local/Scott Illing",
+     "name": "Scott Illing 10-13 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T17:58:11-04:00",
+     "folder_id": "66550627-3a1d-98c4-ae60-7adb6a742aca",
+     "file_id": "2035a579-1e2b-4e9b-cd4b-8e2bf0a366db",
+     "file_manager_id": "648a8165-bee4-4ed5-927f-361383124e53"
+    },
+    {
+     "path": "Political Files/2026/Local/Scott Illing",
+     "name": "Scott Illing NAB 10-12",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T17:58:11-04:00",
+     "folder_id": "66550627-3a1d-98c4-ae60-7adb6a742aca",
+     "file_id": "a4ed675b-abbd-1a88-0756-d9ac1b3ba94c",
+     "file_manager_id": "4550403b-6ec8-47cc-82c3-0d5aa8708379"
+    },
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic 10-15 to 10-16",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T17:55:37-04:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "44bf9e8b-be35-4dc0-ea66-475466c90b12",
+     "file_manager_id": "6bd18070-4193-46f3-a6ff-36c58f57bac9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Troy Carter",
+     "name": "Troy Carter 10-13 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T17:53:36-04:00",
+     "folder_id": "a0e84c88-cc7e-75df-1c10-c8609f44794e",
+     "file_id": "092a665e-aaf2-070b-61a9-946f61ed6d2d",
+     "file_manager_id": "210e2980-e941-4b90-8950-550dc6aa0072"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Troy Carter",
+     "name": "Troy Carter NAB 10-13 to 10-18",
+     "ext": "pdf",
+     "uploaded": "2026-10-14T17:53:36-04:00",
+     "folder_id": "a0e84c88-cc7e-75df-1c10-c8609f44794e",
+     "file_id": "15191952-8a2d-f0d8-5a40-7cda347f969a",
+     "file_manager_id": "73fa32dc-ff74-4784-83dc-e111d5d1b8f5"
+    },
     {
      "path": "Political Files/2026/Local/Shawn Lindsay",
      "name": "Shawn Lindsay 10-12 to 10-18",
@@ -2383,7 +2677,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -3908,7 +4202,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -3929,7 +4223,13 @@
     "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/NAB": "e9fcb4de-4789-49c7-da3c-50494d9ddb91",
     "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Orders": "10e2f0e8-58d5-d263-6242-c305a84466ec",
     "Political Files/2026/Federal/US House/Echols-R for LA Dist 5": "ab924950-8fc2-15f2-1466-8b455b78615b",
+    "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Invoices": "17c16e95-ac96-3ffd-af82-09dd11537618",
+    "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/NAB": "06bc3a0a-1d6f-e3bb-4d0f-a023df4805e5",
+    "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Orders": "804b38c1-49da-b8cf-4f3f-7bea9e59eea8",
     "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1": "97f79ff1-9af5-5e6a-1d82-42c9952d3391",
+    "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices": "4996cb53-46c4-f00a-31b6-4c7bc02103ad",
+    "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/NAB": "eba31581-18d8-4e10-fb36-7f132d8886f6",
+    "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Orders": "6d6a5e4f-2ace-4d40-3663-5230237b7fa2",
     "Political Files/2026/Federal/US Senate": "e9725a55-63bb-0935-cd9b-f8e343cc793b",
     "Political Files/2026/Federal/US Senate/Cassidy-R for US Senate": "18fa06cf-4718-d48f-1d55-0f7697d72b5d",
     "Political Files/2026/Federal/US Senate/Davis-D for US Senate": "87d1a4db-c6a4-1fbc-a011-760dd22d0138",
@@ -3937,24 +4237,38 @@
     "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Orders": "331b9b47-a1a6-cbd2-09ad-48dc9991c914",
     "Political Files/2026/Federal/US Senate/Fleming-R for US Senate": "80b515a3-2eed-5ca1-ff0f-9c4aed1ca3f8",
     "Political Files/2026/Federal/US Senate/Letlow-R for US Senate": "f19d9b3b-70df-8720-121b-a30f6409f0fc",
+    "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/Invoices": "de096069-8774-1cd6-46fa-3903ce6b618f",
+    "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/NAB": "faf15548-c3f9-d32e-c476-fcb6a51bbd20",
+    "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/Orders": "69af2628-df1d-6eed-312f-f25351e3f0b1",
     "Political Files/2026/Local": "6a0db91e-5bf3-9ef8-bd5d-7d7ae005cc59",
     "Political Files/2026/Local/Brocato-F for JP Court Div A": "bb37c6fd-3e6e-a84e-d96b-62208e3f5a36",
     "Political Files/2026/Local/Brocato-F for JP Court Div A/NAB": "0bcdd014-0957-cd8b-19e2-24bf25469c8a",
     "Political Files/2026/Local/Brocato-F for JP Court Div A/Order": "ccaf72fa-7ed9-be83-7b45-5e04a3cd6eff",
     "Political Files/2026/Local/Buras-D for OP Crim Court Judge": "39e5fe42-beac-4896-1b0f-05b5920a4ae5",
+    "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Invoices": "00c7ae0e-cc10-99a3-9950-cd46fe7f1563",
+    "Political Files/2026/Local/Buras-D for OP Crim Court Judge/NAB": "5a8620ae-66e2-7341-afef-036325acd416",
+    "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Orders": "de000746-ac1a-a3bd-3fb7-9991bb932125",
     "Political Files/2026/Local/Howard-D for Civil Dist Court": "4e39fcff-3551-42a1-251f-771117fbd6a4",
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff": "5c342314-21e3-ba4a-ccc0-ee5106e816b4",
+    "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff/NAB": "650a5c07-7487-4bbd-2777-5a1003821371",
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders": "5f3bd6e9-81e9-eeed-44b8-c8433c404723",
     "Political Files/2026/Local/James-D for Civil Dist Court Div N": "25c65e61-c950-5826-f809-ae721a2aaf02",
     "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M": "c09a3694-87b8-e776-72f3-837b228cc84f",
+    "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices": "7d595723-cfd5-acb7-5abe-fa914b500722",
+    "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/NAB": "fd8a9e83-99f8-6fee-73a4-90dd2eae35bb",
+    "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Orders": "f1bdaa21-f79d-edc8-0de4-fd8ce6065ccb",
     "Political Files/2026/Local/Mack-R for 21st District DA": "f9b89deb-7242-0d07-0a46-b1de0f8e3798",
     "Political Files/2026/Local/Mack-R for 21st District DA/NAB": "47f524e6-4267-1e4d-63e9-3a49f4ab8803",
     "Political Files/2026/Local/Mack-R for 21st District DA/Orders": "c724d9d3-64d3-76a4-d088-8ef6b1f9149a",
     "Political Files/2026/Local/Marjanovic-R for JP Court Div F": "6960de1b-807b-6193-5ae6-00e9f15d8f52",
+    "Political Files/2026/Local/Marjanovic-R for JP Court Div F/Invoices": "f0455eba-ea65-6370-33b3-0203bbc02489",
     "Political Files/2026/Local/Marjanovic-R for JP Court Div F/NAB": "42e6c3da-3b1e-ea61-6a9c-b70610d0c7c7",
     "Political Files/2026/Local/Marjanovic-R for JP Court Div F/Orders": "fd1ac40b-9e83-663a-865d-c77a575ffb43",
     "Political Files/2026/Local/Marsiglia-R for JP Court Div A": "b980dbd4-1d55-1886-8586-ac1f52263dac",
+    "Political Files/2026/Local/Marsiglia-R for JP Court Div A/Invoices": "78b71a52-b518-6077-928e-3102822c7d68",
+    "Political Files/2026/Local/Marsiglia-R for JP Court Div A/NAB": "d3887f84-54a5-afb1-39ca-1aa0c1b655b7",
+    "Political Files/2026/Local/Marsiglia-R for JP Court Div A/Orders": "a21d0870-1663-64f3-7e7e-74f58e4903df",
     "Political Files/2026/Local/Mary-R for JP Court Div E": "84a5c757-d8e5-ead3-b733-b94f6043bb13",
     "Political Files/2026/Local/Mary-R for JP Court Div E/NAB": "4ffcbc4d-1d5c-9d07-8908-daea83c475d3",
     "Political Files/2026/Local/Mary-R for JP Court Div E/Orders": "d63d7604-28f5-412e-76ad-3e68d6c8d678",
@@ -3962,6 +4276,7 @@
     "Political Files/2026/Local/Michele Echols for JP Court Div E": "5f6860b5-7bab-139f-9a1f-9f610930db62",
     "Political Files/2026/Local/Perque-D for Civil Dist Court Div M": "19edd97d-abae-9857-c226-5b2d95e75f93",
     "Political Files/2026/Local/Roche-D for OP Crim Court Sect H": "97ae9f6d-a556-7a39-fa06-1703b04b9925",
+    "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/Invoices": "c80f2696-8cf7-d437-c6a2-b45aa5ca576b",
     "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/NAB": "b0cf01f3-202c-fff8-81bc-25b8bd6bf6ec",
     "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/Orders": "62cc3dd1-7a5f-c42a-f65b-d1abb791f483",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff": "0b6f575b-6d4c-cb7b-517f-da272a62c993",
@@ -3973,6 +4288,87 @@
     "Political Files/2026/Terms and Disclosures": "6be32221-c7d0-a1b9-c161-6431cefe2f3c"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+     "name": "Scalise LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:19:51-04:00",
+     "folder_id": "4996cb53-46c4-f00a-31b6-4c7bc02103ad",
+     "file_id": "fb766777-30ad-0409-ef40-e7f6bfab02b3",
+     "file_manager_id": "c3c76942-3989-4ee6-ac48-43a3d9d73432"
+    },
+    {
+     "path": "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/Invoices",
+     "name": "Roche LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:19:28-04:00",
+     "folder_id": "c80f2696-8cf7-d437-c6a2-b45aa5ca576b",
+     "file_id": "996b24ac-0495-f100-3f88-234ccb52246c",
+     "file_manager_id": "be60eb48-e63f-4bfa-a3fe-ca8dc24d7c37"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Invoices",
+     "name": "Mike Echols LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:19:04-04:00",
+     "folder_id": "17c16e95-ac96-3ffd-af82-09dd11537618",
+     "file_id": "715f3fbb-b3e9-cb86-76ed-0b2db96e45ab",
+     "file_manager_id": "06288dbe-15c2-4230-8259-c91ad067ed9c"
+    },
+    {
+     "path": "Political Files/2026/Local/Marsiglia-R for JP Court Div A/Invoices",
+     "name": "Marsiglia LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:18:40-04:00",
+     "folder_id": "78b71a52-b518-6077-928e-3102822c7d68",
+     "file_id": "896eae03-31ec-7056-998c-8ab09f17a376",
+     "file_manager_id": "12c83cbc-bcdb-4d4d-9f82-b20fe914c919"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for JP Court Div F/Invoices",
+     "name": "Marjanovic LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:18:22-04:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "e90e01dc-ecdf-c834-fc8a-68c07469d2f1",
+     "file_manager_id": "63f91aca-52e9-482f-906c-9296fca4f115"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "Lindsay LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:17:57-04:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "fb1d844c-c7a4-7c9d-6718-1c593e4c7a33",
+     "file_manager_id": "8e5fc2aa-dbdb-4e26-b3fa-f2704dfe0fe0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/Invoices",
+     "name": "Letlow LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:17:41-04:00",
+     "folder_id": "de096069-8774-1cd6-46fa-3903ce6b618f",
+     "file_id": "b040f0b1-057d-d272-4232-d7f4cf6f626b",
+     "file_manager_id": "42dcdac8-d90b-4b7c-ab29-40e07d26f01d"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "Illing LUR Rebates wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:17:12-04:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "0a18c496-bfac-0d7a-5f88-c3e63c270772",
+     "file_manager_id": "539ed9ae-e380-4d36-86f5-c594f1ed9eda"
+    },
+    {
+     "path": "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Invoices",
+     "name": "Buras LUR Rebats wk of 10-05-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:16:57-04:00",
+     "folder_id": "00c7ae0e-cc10-99a3-9950-cd46fe7f1563",
+     "file_id": "9e32468f-c9f5-bf06-ac88-ef4425a2fee9",
+     "file_manager_id": "fdafa10e-cd4d-4928-a2b4-fd2660ceedd2"
+    },
     {
      "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/NAB",
      "name": "Seuzeneau NAB signed 100926 rev101426",
@@ -24348,7 +24744,7 @@
    "facility_id": "70482",
    "root_folder": "d199c42f-0c80-38bd-7e45-eb2cbd824d95",
    "profile": "tv-profile/ksla",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "158fbf22-b91d-c99c-593d-e341b1311546",
     "2018": "19c3b1b9-8df3-0d98-2751-cf6acf62c22a",
@@ -27790,7 +28186,7 @@
    "facility_id": "35648",
    "root_folder": "1d2faa8f-dcdf-c3ae-30b6-318a597f63f6",
    "profile": "tv-profile/ktal-tv",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2015": "1290354b-37ed-2506-6327-71a65f3f62d1",
     "2017": "9f8a4ff0-b532-2a09-f783-b7c653fdd2f6",
@@ -32371,7 +32767,7 @@
    "facility_id": "12525",
    "root_folder": "8e93018b-e543-90b5-cc23-f40ab090b8f1",
    "profile": "tv-profile/kmss-tv",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "011f22e4-c809-e471-a979-09ede48e3665",
     "2018": "45749cb3-e592-3f45-adfa-714a2df86d17",
@@ -35424,7 +35820,7 @@
    "facility_id": "81507",
    "root_folder": "45e8e38c-6f5e-a398-1391-4c30782c1ba2",
    "profile": "tv-profile/kpxj",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "57488a89-2d49-2c54-a64e-735c5e56e738",
     "2018": "b9f0fdd6-d253-b0de-60e7-ed6352b922c8",
@@ -37865,7 +38261,7 @@
    "facility_id": "33471",
    "root_folder": "ba750660-00ba-44ff-3e1d-8bd512e6caf1",
    "profile": "tv-profile/katc",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "65a68f9d-910d-9253-02dd-dbd81014b13b",
     "2018": "37d6049a-0dbc-dfd8-51d8-096a3aaf2e4f",
@@ -37892,12 +38288,76 @@
     "Political Files/2026/Local/Emilia Pardo LA City Court Judge Division B": "c60884a4-1a7d-182f-50ff-a78472a3c742",
     "Political Files/2026/Local/Eric Knight Mayor Campaign": "2cdda8e4-7c55-04ac-2abd-c49fdedc4d01",
     "Political Files/2026/Local/FRIENDS TO ELECT BART HEBERT LLC": "2d9cc7d6-e872-3df2-9b2c-7d5200029072",
+    "Political Files/2026/Local/Susan Theall to Re-elect Family Court": "e89283e2-5a68-505a-85af-45f2e0a4be7b",
     "Political Files/2026/Local/The Committee to elect David Way for District Judge": "995ddcaa-4304-2343-5331-7e42343341df",
     "Political Files/2026/Local/The Kristian Earles Campaign": "90704cdf-4f13-8f61-e699-3ae1e7f5519e",
     "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA": "706799cf-3105-aaa9-1e36-90e916d7a6ba",
     "Political Files/2026/Non-Candidate Issue Ads": "1bafe298-4aa5-18db-2ff5-0f1e44e2e3f6"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA",
+     "name": "KATC-DON LANDRY REVISION 1 4595823",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:31:46-04:00",
+     "folder_id": "706799cf-3105-aaa9-1e36-90e916d7a6ba",
+     "file_id": "1724478d-3636-6290-d5d5-a7d73e8d4e49",
+     "file_manager_id": "b130d4e5-3ebb-4195-b024-04179c3ae760"
+    },
+    {
+     "path": "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA",
+     "name": "KATC WILL KEATY REVISION 4583233",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:31:46-04:00",
+     "folder_id": "706799cf-3105-aaa9-1e36-90e916d7a6ba",
+     "file_id": "ca7bc93b-8361-1c84-dec6-d93e3886afed",
+     "file_manager_id": "09d5d8d8-252f-4a04-af4d-77b3548740dd"
+    },
+    {
+     "path": "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA",
+     "name": "KLAF-WILL KEATY-REVISION 4583229",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:31:46-04:00",
+     "folder_id": "706799cf-3105-aaa9-1e36-90e916d7a6ba",
+     "file_id": "26341733-f3b4-9896-da8f-71cfc7d01e0f",
+     "file_manager_id": "f8eeef97-0d49-4250-8468-778e685530eb"
+    },
+    {
+     "path": "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA",
+     "name": "WILL KEATY DISTRICT JUDGE 4583232-REVISION",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:31:46-04:00",
+     "folder_id": "706799cf-3105-aaa9-1e36-90e916d7a6ba",
+     "file_id": "d39f59cf-e777-dc45-4c93-106d4d43e7ee",
+     "file_manager_id": "ec66ff79-875d-459c-82d1-6d0b681b4ecc"
+    },
+    {
+     "path": "Political Files/2026/Local/Don Landry DA 15 Judicial District of LA",
+     "name": "KATC-DON LANDRY REVISION 1 4595823",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:31:13-04:00",
+     "folder_id": "6e0b63e4-ba1e-c02f-4f80-26bdc8b3ec34",
+     "file_id": "e8de0e80-dd4e-2f8e-90ea-1ffd592d09e8",
+     "file_manager_id": "da60b878-18d5-4570-9d63-4d7d70e958e0"
+    },
+    {
+     "path": "Political Files/2026/Local/Susan Theall to Re-elect Family Court",
+     "name": "KATC-SUSAN THEALL TO RELECT FAMILY COURT",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:30:58-04:00",
+     "folder_id": "e89283e2-5a68-505a-85af-45f2e0a4be7b",
+     "file_id": "f8da6175-ca5e-6b5a-ea4b-28771e0e78d4",
+     "file_manager_id": "4f04e413-97e5-4d4f-afdd-648f56873774"
+    },
+    {
+     "path": "Political Files/2026/Local/Susan Theall to Re-elect Family Court",
+     "name": "SUSAN THEALL NAB",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:30:58-04:00",
+     "folder_id": "e89283e2-5a68-505a-85af-45f2e0a4be7b",
+     "file_id": "25865423-d7ad-0390-768a-4d4cb77733f0",
+     "file_manager_id": "55641348-a0f9-417a-849c-529813c0062a"
+    },
     {
      "path": "Political Files/2026/Local/Don Landry DA 15 Judicial District of LA",
      "name": "KADN-DON LANDRY 4595817 REVISION 1",
@@ -39896,7 +40356,7 @@
    "facility_id": "35059",
    "root_folder": "897e717c-c665-e9f9-cc1e-c4bbdb2aa3a1",
    "profile": "tv-profile/klfy-tv",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "1ae3e6af-2c1e-09e8-8025-7f46f61bf27c",
     "2018": "a0c6359b-88c1-6581-88f6-ab34189d913d",
@@ -39926,12 +40386,32 @@
     "Political Files/2026/Local/District Attorney/Don Landry - District Attorney": "fd78a4d5-2e10-5a83-f981-2cda36d3aec1",
     "Political Files/2026/Local/District Attorney/Kristian Earles - District Attorney": "8a0700b9-a2ee-320e-77f2-1f51fc478773",
     "Political Files/2026/Local/District Judge": "90cb93b7-c006-e320-8671-b05cc4192cee",
+    "Political Files/2026/Local/Family Court Judge": "f7294c1c-c931-33c3-8b39-a44a724be915",
+    "Political Files/2026/Local/Family Court Judge/Susan Theall- Family Court Judge": "e7ee379f-c7e6-e3ba-292d-c73d30419009",
     "Political Files/2026/Local/KLFY-Digital-CTV": "8ef3f949-b102-d24e-9ed3-479e5fe5f977",
     "Political Files/2026/Local/KLFY-Digital-CTV/Pol- David Way- District Judge": "2238b011-6746-b89e-d94e-4e892b9cdd75",
     "Political Files/2026/Local/KLFY-Digital-CTV/Pol- James Klock": "bf7f84da-a445-0aa1-c614-926cd08a4b34",
     "Political Files/2026/Non-Candidate Issue Ads": "75876ce3-011d-85ad-eee4-20f3d82d6a1a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Family Court Judge/Susan Theall- Family Court Judge",
+     "name": "Pol-Susan Theall_10.15.2026_Contract_5436671",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:08:51-04:00",
+     "folder_id": "e7ee379f-c7e6-e3ba-292d-c73d30419009",
+     "file_id": "439eb107-4c02-2c87-8b55-a9ff1d4a3bd5",
+     "file_manager_id": "67e513ed-a98f-4d5d-ba32-b986d466b152"
+    },
+    {
+     "path": "Political Files/2026/Local/Family Court Judge/Susan Theall- Family Court Judge",
+     "name": "Pol-Susan Theall_10.15.2026_NAB-signed",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:08:51-04:00",
+     "folder_id": "e7ee379f-c7e6-e3ba-292d-c73d30419009",
+     "file_id": "052540de-21e0-ef63-3df6-734653a2cbb0",
+     "file_manager_id": "d8501748-f0ea-462b-8f09-1dacfc895e04"
+    },
     {
      "path": "Political Files/2026/Federal/US Senate/Julia Letlow - US Senate",
      "name": "Pol-Julia Letlow_10.14.2026_Revision 1_Contract_5425292",
@@ -41516,7 +41996,7 @@
    "facility_id": "33261",
    "root_folder": "50121c5f-0768-c8cc-38e2-f0ff3c3b001f",
    "profile": "tv-profile/kadn-tv",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2014": "1fa666b2-7ce8-334f-6290-190da5d32431",
     "2015": "fc6694ff-c901-7496-9f7d-9fa96893c6a6",
@@ -41543,12 +42023,76 @@
     "Political Files/2026/Local": "93846577-1541-0087-f5d5-a52a16acdcb0",
     "Political Files/2026/Local/Don Landry DA 15th Judicial District of LA": "bd55e0a3-8ddb-8552-11b4-63373746f981",
     "Political Files/2026/Local/Eric Knight Mayor Campaign": "f27fa5d8-6ba8-b6f4-be18-b296697eaa9f",
+    "Political Files/2026/Local/SUSAN THEALL TO RELECT FAMILY COURT": "0e45a0eb-d502-2147-cfd8-e618f6c4629d",
     "Political Files/2026/Local/The Kristain Earles Campaign": "154d9505-ebe1-01b3-c0e6-6bc3d8a62d91",
     "Political Files/2026/Local/The committee to elect David Way for District Judge": "6e44b196-2b89-f452-9478-31bb9ad4e4fd",
     "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA": "11a1c833-eac6-eb30-bb2b-7c59d70e8372",
     "Political Files/2026/Non-Candidate Issue Ads": "c7720a6c-5e8d-c584-177e-eb185e4c97ee"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow for US Senate",
+     "name": "LETLOW FOR SENATE 4583330 REV 4",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:25:03-04:00",
+     "folder_id": "050baaea-ffbe-ff9f-53fe-06e2d9608a5f",
+     "file_id": "21e72952-d8af-b511-c343-6b8f55a7c04c",
+     "file_manager_id": "a966e3b2-fa2d-467e-820a-2630643c0376"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow for US Senate",
+     "name": "KADN-LETLOW FOR SENATE-4583328 REVISION 1",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:22:57-04:00",
+     "folder_id": "050baaea-ffbe-ff9f-53fe-06e2d9608a5f",
+     "file_id": "d17bf594-b43d-684f-36b8-00258e356e76",
+     "file_manager_id": "4f564b64-63a8-4c48-b8cc-b10e0dfd680e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow for US Senate",
+     "name": "LETLOW FOR SENATE 4583328-REVISION 2",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:22:57-04:00",
+     "folder_id": "050baaea-ffbe-ff9f-53fe-06e2d9608a5f",
+     "file_id": "c2104036-c8f9-b61b-f4c4-348c09200d7b",
+     "file_manager_id": "275c5b29-fe40-4454-94ba-cc05770568ae"
+    },
+    {
+     "path": "Political Files/2026/Local/SUSAN THEALL TO RELECT FAMILY COURT",
+     "name": "SUSAN THEALL NAB",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:32:29-04:00",
+     "folder_id": "0e45a0eb-d502-2147-cfd8-e618f6c4629d",
+     "file_id": "99559006-1e06-92e4-cc1c-92ec65ab532d",
+     "file_manager_id": "a4ababf9-8c8c-446d-9c7f-5aeafd5a2b51"
+    },
+    {
+     "path": "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA",
+     "name": "KLAF-WILL KEATY-REVISION 4583229",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:15:08-04:00",
+     "folder_id": "11a1c833-eac6-eb30-bb2b-7c59d70e8372",
+     "file_id": "a36764c4-65dd-1689-78d2-a43186dccb42",
+     "file_manager_id": "23864412-eddc-4852-b4dd-626f0a507530"
+    },
+    {
+     "path": "Political Files/2026/Local/Will Keaty District Judge 15th Dist of LA",
+     "name": "WILL KEATY DISTRICT JUDGE 4583232-REVISION",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:15:08-04:00",
+     "folder_id": "11a1c833-eac6-eb30-bb2b-7c59d70e8372",
+     "file_id": "70460b17-f576-ced3-56bb-012cf846ba5e",
+     "file_manager_id": "8d7453ed-9197-40bd-a454-7c11b5b92963"
+    },
+    {
+     "path": "Political Files/2026/Local/SUSAN THEALL TO RELECT FAMILY COURT",
+     "name": "KADN-SUSAN THEALL TO RELECT FAMILY COURT",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T09:14:18-04:00",
+     "folder_id": "0e45a0eb-d502-2147-cfd8-e618f6c4629d",
+     "file_id": "ac035746-6ea8-e04a-1e3d-d3da94d1199e",
+     "file_manager_id": "f16d6811-2cb5-489b-a897-1f5a7fbce5ea"
+    },
     {
      "path": "Political Files/2026/Federal/US Senate/Julia Letlow for US Senate",
      "name": "KADN-JULIA LETLOW 4583328-REVISION",
@@ -43259,7 +43803,7 @@
    "facility_id": "48975",
    "root_folder": "c96465a1-4b00-57c1-eaa2-444c27864256",
    "profile": "tv-profile/knoe-tv",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2015": "9d19dfab-85d2-7a49-54f2-7e96bb03f41f",
     "2017": "5207134f-9eab-77dc-9e70-4c30db7bb52b",
@@ -46359,7 +46903,7 @@
    "facility_id": "35692",
    "root_folder": "6ccb985d-b32e-a6d1-6b62-04c24d877f2e",
    "profile": "tv-profile/ktve",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2018": "e3f9498d-ec81-99bb-5714-1348a5213d1e",
     "2019": "1c3d4528-0289-c08a-20ce-74b048259b13",
@@ -46395,6 +46939,24 @@
     "Political Files/2026/State/Misti Cordell": "384f2dea-4d7b-9382-997a-0055c8301cfb"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Adam Cossey",
+     "name": "Adam Cossey KTVE 10.14.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:15:23-04:00",
+     "folder_id": "0cc55970-4911-5f7e-011e-ab401c04d7ff",
+     "file_id": "f70d7974-ed99-1b36-f23c-e118d504c46c",
+     "file_manager_id": "7c522150-cc0b-436e-a3c8-d24f711e98f6"
+    },
+    {
+     "path": "Political Files/2026/Local/Adam Cossey",
+     "name": "Adam Cossey NAB 10.14.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:15:23-04:00",
+     "folder_id": "0cc55970-4911-5f7e-011e-ab401c04d7ff",
+     "file_id": "0817c28a-2ada-d83b-6ca5-f00adbfab5e0",
+     "file_manager_id": "944ca4f1-1405-4b04-8838-7ce90770ac08"
+    },
     {
      "path": "Political Files/2026/State/Mike Echols",
      "name": "Mike Echols KTVE 10.9.26",
@@ -46980,7 +47542,7 @@
    "facility_id": "3658",
    "root_folder": "6aeadbe8-7885-28c3-3de9-7fe3217df95c",
    "profile": "tv-profile/kard",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2018": "624ee5c0-d284-8503-08e3-4adddd65668d",
     "2019": "e686e71c-c813-05ac-d41e-7e0222ad3c69",
@@ -47015,6 +47577,24 @@
     "Political Files/2026/State/Misti Cordell": "a198decc-3cb3-2224-571a-49ab527cada6"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Adam Cossey",
+     "name": "Adam Cossey KARD 10.14.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:20:55-04:00",
+     "folder_id": "ab770368-40d5-3dc5-068c-ea0d096aa091",
+     "file_id": "168d961a-e092-31ce-be8f-41490925df56",
+     "file_manager_id": "126f9379-10ed-439c-9c1a-cbc4adfb8512"
+    },
+    {
+     "path": "Political Files/2026/Local/Adam Cossey",
+     "name": "Adam Cossey NAB 10.14.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T10:20:55-04:00",
+     "folder_id": "ab770368-40d5-3dc5-068c-ea0d096aa091",
+     "file_id": "a71deb96-d050-b640-fecf-f690b441c011",
+     "file_manager_id": "d8a53e28-9368-422b-bc8e-3a01d6053be9"
+    },
     {
      "path": "Political Files/2026/State/Mike Echols",
      "name": "Mike Echols KARD 10.9.26",
@@ -47627,7 +48207,7 @@
    "facility_id": "13994",
    "root_folder": "3a7cbc6a-9d9c-fd49-2381-081f274c4aa9",
    "profile": "tv-profile/kplc",
-   "scraped_at": "2026-10-14T20:25:43Z",
+   "scraped_at": "2026-10-15T15:36:21Z",
    "year_folders": {
     "2017": "76c1d6da-c5a7-92b5-ecbe-b16a7d44a376",
     "2018": "cee6cef1-dcea-0704-0aa1-a9239d22df40",
@@ -51646,25 +52226,25 @@
  ],
  "blocked": null,
  "attempted": {
-  "KADN": "2026-10-14T20:25:43Z",
+  "KADN": "2026-10-15T15:36:21Z",
   "KALB": "2026-10-15T01:34:29Z",
-  "KARD": "2026-10-14T20:25:43Z",
-  "KATC": "2026-10-14T20:25:43Z",
+  "KARD": "2026-10-15T15:36:21Z",
+  "KATC": "2026-10-15T15:36:21Z",
   "KLAX": "2026-10-15T01:34:29Z",
-  "KLFY": "2026-10-14T20:25:43Z",
-  "KMSS": "2026-10-14T20:25:43Z",
-  "KNOE": "2026-10-14T20:25:43Z",
-  "KPLC": "2026-10-14T20:25:43Z",
-  "KPXJ": "2026-10-14T20:25:43Z",
-  "KSLA": "2026-10-14T20:25:43Z",
-  "KTAL": "2026-10-14T20:25:43Z",
+  "KLFY": "2026-10-15T15:36:21Z",
+  "KMSS": "2026-10-15T15:36:21Z",
+  "KNOE": "2026-10-15T15:36:21Z",
+  "KPLC": "2026-10-15T15:36:21Z",
+  "KPXJ": "2026-10-15T15:36:21Z",
+  "KSLA": "2026-10-15T15:36:21Z",
+  "KTAL": "2026-10-15T15:36:21Z",
   "KTBS": "2026-10-15T01:34:29Z",
-  "KTVE": "2026-10-14T20:25:43Z",
+  "KTVE": "2026-10-15T15:36:21Z",
   "KVHP": "2026-10-15T01:34:29Z",
   "WAFB": "2026-10-15T01:34:29Z",
   "WBRL-CD": "2026-10-15T01:34:29Z",
   "WBRZ": "2026-10-15T01:34:29Z",
-  "WDSU": "2026-10-14T20:25:43Z",
+  "WDSU": "2026-10-15T15:36:21Z",
   "WGMB": "2026-10-15T01:34:29Z",
   "WGNO": "2026-10-15T01:34:29Z",
   "WLAE": "2026-10-15T01:34:29Z",
@@ -51672,7 +52252,7 @@
   "WNTZ": "2026-10-15T01:34:29Z",
   "WUPL": "2026-10-15T01:34:29Z",
   "WVLA": "2026-10-15T01:34:29Z",
-  "WVUE": "2026-10-14T20:25:43Z",
-  "WWL-TV": "2026-10-14T20:25:43Z"
+  "WVUE": "2026-10-15T15:36:21Z",
+  "WWL-TV": "2026-10-15T15:36:21Z"
  }
 }

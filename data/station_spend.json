@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-15",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1501522,
- "data_through": "2026-10-05",
+ "rows_scanned": 1501590,
+ "data_through": "2026-10-14",
  "years_covered": [
   2000,
   2026
@@ -787,6 +787,7 @@
      1314335.25,
      1314335.25,
      1314335.25,
+     1314335.25,
      1314335.25
     ]
    }
@@ -794,10 +795,10 @@
   "note": "cumulative TV dollars from every state committee, by week relative to the governor's-race primary; includes the legislative and local races on the same ballots"
  },
  "recent_buyers": {
-  "since": "2025-10-06",
-  "through": "2026-10-05",
-  "total": 1386632.5,
-  "committees": 20,
+  "since": "2025-10-15",
+  "through": "2026-10-14",
+  "total": 1314335.25,
+  "committees": 18,
   "top": [
    {
     "name": "FIRST PRINCIPLES PAC",
@@ -821,18 +822,18 @@
     "last_buy": "2026-06-26"
    },
    {
-    "name": "WIN EBR",
-    "party": "OTH",
-    "filer": "6763",
-    "amount": 75495.0,
-    "last_buy": "2025-10-26"
-   },
-   {
     "name": "M. Thomas (\"Tom\") Arceneaux",
     "party": "REP",
     "filer": "5573",
     "amount": 68728.75,
     "last_buy": "2026-09-16"
+   },
+   {
+    "name": "WIN EBR",
+    "party": "OTH",
+    "filer": "6763",
+    "amount": 55685.0,
+    "last_buy": "2025-10-26"
    },
    {
     "name": "Anh Joseph Cao",
@@ -856,13 +857,6 @@
     "last_buy": "2025-11-11"
    },
    {
-    "name": "Helena Moreno",
-    "party": "DEM",
-    "filer": "1921",
-    "amount": 44327.5,
-    "last_buy": "2025-10-10"
-   },
-   {
     "name": "William H. Burris",
     "party": "REP",
     "filer": "4096",
@@ -882,6 +876,13 @@
     "filer": "6596",
     "amount": 25000.0,
     "last_buy": "2026-07-31"
+   },
+   {
+    "name": "Jambalaya PAC",
+    "party": "OTH",
+    "filer": "4919",
+    "amount": 19600.0,
+    "last_buy": "2026-06-09"
    }
   ]
  },
