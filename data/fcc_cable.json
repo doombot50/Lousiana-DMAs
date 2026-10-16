@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-15T15:41:48Z",
+ "scraped": "2026-10-16T01:35:15Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-10-15T01:36:56Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -69,6 +69,42 @@
     "Political Files/2026/State/Blair Downing": "8e29b69f-2097-3ec0-3f7b-4541361e65cc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/ACCOUNTABILITY PROJECT INC",
+     "name": "accountability-project-nab-4-11-4-17",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T12:35:55-04:00",
+     "folder_id": "83ff6691-7923-6598-4396-167878290ef2",
+     "file_id": "dc5a841c-f47f-ed67-b460-a0cfba944836",
+     "file_manager_id": "0111dd76-dd8a-422e-86c3-05005a868c0c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/FIRST PRINCIPLES PAC",
+     "name": "first-principles-pac-amp-lou_may_aff1094833_sys-3174",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T12:16:02-04:00",
+     "folder_id": "3e4ea04a-57e3-2aa0-186f-a07500a8733b",
+     "file_id": "b530e15f-a2a0-c8bf-747f-b85f0a183947",
+     "file_manager_id": "66d24ebf-3147-4804-80ac-0f621d42bcd9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/FIRST PRINCIPLES PAC",
+     "name": "first-principles-pac-amp-lou_may_aff1129914_sys-3174",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T12:16:02-04:00",
+     "folder_id": "3e4ea04a-57e3-2aa0-186f-a07500a8733b",
+     "file_id": "4f6b7f31-6704-ba86-ac3f-0a3b7f0aedfa",
+     "file_manager_id": "047e8f9d-546b-4ad3-bd6a-55d7f204a4e4"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/FIRST PRINCIPLES PAC",
+     "name": "first-principles-pac-amp-lou_may_aff1129920_sys-3174",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T12:16:02-04:00",
+     "folder_id": "3e4ea04a-57e3-2aa0-186f-a07500a8733b",
+     "file_id": "4a35864b-b359-1fce-460b-3b1d9d80860a",
+     "file_manager_id": "89595459-3ebf-47c5-b0e1-064c983ad355"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Rick Edmonds for Louisiana",
      "name": "RICK EDMONDS FOR LOUISIANA NCC_confirm1322644_sys3996_20261014_150029",
@@ -448,15 +484,6 @@
      "file_manager_id": "364c450a-b444-49e2-abf1-2353d680e0a8"
     },
     {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/-Friends of Justice",
-     "name": "FRIENDS OF JUSTICE_JUN_AFF1162018_SYS 3996 0021",
-     "ext": "pdf",
-     "uploaded": "2026-07-27T11:19:57-04:00",
-     "folder_id": "ea1ba214-8e19-555e-af75-e00d6135c7f5",
-     "file_id": "437508eb-3188-5369-4457-c05e909ab8be",
-     "file_manager_id": "efe9bf14-e3b1-4236-9127-eb5278a43588"
-    },
-    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/CONSERV FOR A BETTER TOMORROW",
      "name": "CONSERV FOR A BETTER TOMORROW_JUN_AFF1196230_SYS 3996",
      "ext": "pdf",
@@ -772,24 +799,6 @@
      "file_manager_id": "689c8c6c-d82e-41d9-a1e1-0441d576eeb9"
     },
     {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "MOMS PROTECTING CHILDREN PAC_MAY_AFF1116953_SYS 3174",
-     "ext": "pdf",
-     "uploaded": "2026-06-15T11:19:48-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "c0a5c50b-4af3-9e8a-37f3-8823ddc3f5e8",
-     "file_manager_id": "3e12436c-3af3-41b4-ab57-9b0cac81f4b0"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "MOMS PROTECTING CHILDREN PAC_MAY_AFF1136047_SYS 3174",
-     "ext": "pdf",
-     "uploaded": "2026-06-15T11:19:42-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "979c8eee-5f63-43f6-2b8b-a4fcff4c2169",
-     "file_manager_id": "77da0926-5085-4908-8342-1fa941cc8322"
-    },
-    {
      "path": "Political Files/2026/Federal/US Senate/BLAKE MIGUEZ",
      "name": "BLAKE MIGUEZ FOR LOUISIANA_MAY_AFF1125950_SYS 3174",
      "ext": "pdf",
@@ -923,15 +932,6 @@
      "folder_id": "e8377c4d-adff-9a25-10d9-1c3afdcae74e",
      "file_id": "33f169a1-ed35-bb10-037f-f184cad2c431",
      "file_manager_id": "0c242d5a-7bfc-4177-a0a0-6b7e35a7a613"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "MOMS PROTECTING CHILDREN PAC_MAY_AFF1142613_SYS 3174",
-     "ext": "pdf",
-     "uploaded": "2026-06-15T11:14:48-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "2f5d80c0-f5e8-597e-ee15-dee5f736b614",
-     "file_manager_id": "2dfb0f7e-f1fe-41b8-9016-289fa6360c98"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/ACCOUNTABILITY PROJECT INC",
@@ -1220,33 +1220,6 @@
      "folder_id": "ea1ba214-8e19-555e-af75-e00d6135c7f5",
      "file_id": "2f67b488-0f61-39a2-5c4a-a01f8e4c649b",
      "file_manager_id": "ac90d0f7-75df-49bd-97f9-bcae0d877610"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/-Friends of Justice",
-     "name": "06-01-26-112826-4316-0-ordercontract",
-     "ext": "pdf",
-     "uploaded": "2026-06-08T10:06:49-04:00",
-     "folder_id": "ea1ba214-8e19-555e-af75-e00d6135c7f5",
-     "file_id": "8fad86a4-b4f4-91e2-5e65-2c480b3bf9c1",
-     "file_manager_id": "38084517-9e76-424d-8bcd-bdc396915ffb"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/-Friends of Justice",
-     "name": "Friends of Justice NAB page 1-5.28",
-     "ext": "pdf",
-     "uploaded": "2026-06-08T10:06:49-04:00",
-     "folder_id": "ea1ba214-8e19-555e-af75-e00d6135c7f5",
-     "file_id": "ade64655-b40e-e58a-3536-e6cb9f6c1a7c",
-     "file_manager_id": "cd96ddb3-4234-472d-b4f3-7717e39b51ec"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/-Friends of Justice",
-     "name": "Friends of Justice NAB page 2-5.28",
-     "ext": "pdf",
-     "uploaded": "2026-06-08T10:06:49-04:00",
-     "folder_id": "ea1ba214-8e19-555e-af75-e00d6135c7f5",
-     "file_id": "8e1c7e79-8d2a-b2ce-75ab-24b138c0a2c9",
-     "file_manager_id": "aa4e6877-b40d-4178-bb73-143a9fa4f0d1"
     },
     {
      "path": "Political Files/2026/Federal/US Senate/Rick Edmonds",
@@ -1951,42 +1924,6 @@
      "file_manager_id": "c53126f1-5813-4ce2-8d7e-057434d479c1"
     },
     {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "MOMS PROTECTING CHILDREN PAC_confirm1142613_sys3174_20260508_150010",
-     "ext": "pdf",
-     "uploaded": "2026-05-18T10:03:54-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "0ab6d795-9d93-16cd-fd81-8a128e4f3b89",
-     "file_manager_id": "335efdff-b6eb-447d-926b-e8bb3dad55f2"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "Mom's Protecting Kids 5.9-5.16-SYS 3174",
-     "ext": "pdf",
-     "uploaded": "2026-05-18T10:03:45-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "9186aadc-2373-50ad-a570-6e7c04e3810a",
-     "file_manager_id": "071ab610-0641-4f12-8fdc-61ffef90007c"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "Revised-Mom's Protecting Kids 5.9-5.16-SYS 3174",
-     "ext": "pdf",
-     "uploaded": "2026-05-18T10:03:24-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "2bb8c04d-5337-ecef-54ee-837a120cc52b",
-     "file_manager_id": "4345cfb5-619d-43b4-a254-2d69845b358c"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "MOM'S PROTECTING CHILDREN PAC_AFF1116953_SYS 3174",
-     "ext": "pdf",
-     "uploaded": "2026-05-18T10:03:14-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "659bd17a-8c3b-6827-5bf1-457a6227ced7",
-     "file_manager_id": "87932bd5-36d7-4c2c-9a7e-da774242af3d"
-    },
-    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Power To The Patients",
      "name": "Power To The Patients-Amp LOU_AFF1099825_SYS 3996",
      "ext": "pdf",
@@ -2194,15 +2131,6 @@
      "file_manager_id": "f2a1c614-7f82-479f-ba43-631379f40d38"
     },
     {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "Moms Protecting Children order contract 5.2-5.8-3174",
-     "ext": "pdf",
-     "uploaded": "2026-05-06T10:43:21-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "47e67b3c-96e0-8bc2-3e59-f9ad837affd2",
-     "file_manager_id": "a3f3e596-b671-42da-99a3-d4a6eb3e3023"
-    },
-    {
      "path": "Political Files/2026/Local/WILLIAM H BURRIS JUDGE",
      "name": "ELECT WILLIAM H BURRIS JUDGE- LA_confirm1136443_sys3174_20260504_150007",
      "ext": "pdf",
@@ -2246,15 +2174,6 @@
      "folder_id": "f62da28b-6277-e8f4-12d9-7c0ca565f3e3",
      "file_id": "6cb9e336-0f5c-0e7f-9fee-178c9bcc54c0",
      "file_manager_id": "983ac3b4-30eb-4849-afc5-258df61d0da9"
-    },
-    {
-     "path": "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC",
-     "name": "MOMS PROTECTING CHILDREN PAC_confirm1116953_sys3174_20260421_150002",
-     "ext": "pdf",
-     "uploaded": "2026-05-04T09:50:42-04:00",
-     "folder_id": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
-     "file_id": "3278c724-1d70-1dec-3258-0e77e7722255",
-     "file_manager_id": "db40722f-52a9-4dc5-80b9-4efa26060686"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/FIRST PRINCIPLES PAC",
@@ -3048,7 +2967,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-10-15T01:36:56Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -3104,11 +3023,31 @@
     "Political Files/2026/Non-Candidate Issue Ads/New Orleans/The Fellowship PAC": "87926add-67af-051c-a91d-73a31e183f44",
     "Political Files/2026/State": "f9cf552b-d081-9892-c970-7acc6b69900a",
     "Political Files/2026/State/New Orleans": "9654e300-63e4-cb03-a093-bce4d2a25d55",
+    "Political Files/2026/State/New Orleans/District Court Judge": "0ba51c75-b5ef-6a3c-ca28-633cfb79563c",
+    "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
     "Political Files/2026/State/New Orleans/Supreme Court Judge State": "924827a3-e61a-41a5-5416-4ad41a69026f",
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/Blair Downing Edwards": "4c5b3357-bbc8-f4b8-7e79-af11eb8f4d04",
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "41492af5-a4b8-0aca-58b1-ad0cd4ad7914"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322823_Order_Contract_20261015094620677",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:04:40-04:00",
+     "folder_id": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
+     "file_id": "7b01a4f5-f0ed-ca87-74e7-0aeb7f089e6f",
+     "file_manager_id": "ab5794c5-d0ee-4967-bc11-e2879513c85b"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322829_Order_Contract_20261015093958672",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:01:50-04:00",
+     "folder_id": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
+     "file_id": "f8fd1bf3-6149-3d78-236b-160d40afce5f",
+     "file_manager_id": "2c3c0a5e-00c7-44dc-943e-5326568963b7"
+    },
     {
      "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Steve Scalise",
      "name": "1314092_Order_Contract_20261006032332613",
@@ -173784,7 +173723,7 @@
    "facility_id": "015650",
    "root_folder": "ea41c606-547e-a802-a0d8-c11fa743eef0",
    "profile": "cable-profile/015650",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "b6c925cf-f344-5015-992d-19d7dbac98a7",
     "2015": "a6ead5f3-cfc2-4959-2c20-47282575a66a",
@@ -173812,7 +173751,7 @@
    "facility_id": "003084",
    "root_folder": "5bd9755d-b4bc-f5f5-1e8b-9defd8ac2ade",
    "profile": "cable-profile/003084",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "fa79c064-f3b3-63a1-ea2a-ab9e972cc57a",
     "2015": "7e8133cc-d8c2-0331-f552-f9ed6d3f88db",
@@ -173840,7 +173779,7 @@
    "facility_id": "008691",
    "root_folder": "b333af19-3860-a6e6-fea2-b097c8104064",
    "profile": "cable-profile/008691",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "24c8f34b-4570-501a-5b70-e560d6e97588",
     "2015": "2a4bf7fe-30f5-9441-2411-1e7f1f354697",
@@ -173868,7 +173807,7 @@
    "facility_id": "008859",
    "root_folder": "e6e82b2f-5f52-dcb6-24b3-db9892f3b8c7",
    "profile": "cable-profile/008859",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "b409b0e9-e184-148f-37fb-c74ffab1792d",
     "2015": "463410f1-38de-7a68-3915-8fa6bfe7f3cf",
@@ -173896,7 +173835,7 @@
    "facility_id": "011859",
    "root_folder": "3b09de7a-f0ea-0c09-ee43-6f8b599aaec9",
    "profile": "cable-profile/011859",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "795cc9b3-331d-e394-30dc-f7d06d791312",
     "2015": "d3276ab7-cacb-db71-2d0e-ed0182c67c1d",
@@ -173924,7 +173863,7 @@
    "facility_id": "021784",
    "root_folder": "7a2ca2d1-7fe0-922a-f7bd-f5d60356b09c",
    "profile": "cable-profile/021784",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "77f830a0-05a9-d18d-3c5d-e60b8a0fe7b8",
     "2015": "7d2dcfab-597f-6425-3831-63e67b49247e",
@@ -173952,7 +173891,7 @@
    "facility_id": "003002",
    "root_folder": "9b53ba83-f024-1eb1-08f1-b2a2d9fbd5a2",
    "profile": "cable-profile/003002",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "5a2fce5a-a3eb-e879-14db-d7e240a5c972",
     "2015": "71187659-756e-7b6b-34cd-5825948db3c7",
@@ -173980,7 +173919,7 @@
    "facility_id": "013331",
    "root_folder": "ee6803f6-ee38-af14-4c58-98926abd167b",
    "profile": "cable-profile/013331",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "895ce967-4f67-8960-a06c-495975ae59f3",
     "2015": "c813abc4-bf12-1c55-2173-af910626f9c8",
@@ -174116,7 +174055,7 @@
    "facility_id": "014241",
    "root_folder": "bf7cf25c-b839-dbe6-8a09-883a9a826589",
    "profile": "cable-profile/014241",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "f7b587b6-46ff-01e1-2957-b9e515e6d99b",
     "2015": "73d7566c-2867-92f0-6598-4ca2cae748b8",
@@ -174144,7 +174083,7 @@
    "facility_id": "022377",
    "root_folder": "ff844076-790e-e736-aeac-7e795699af78",
    "profile": "cable-profile/022377",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "c161c065-a4a1-9f9e-2b51-81d8d6a3105d",
     "2015": "124fb855-412c-dd6f-12db-b552c4d24a41",
@@ -174821,7 +174760,7 @@
    "facility_id": "002247",
    "root_folder": "9be1dba7-f066-518a-0007-350a098c2d3b",
    "profile": "cable-profile/002247",
-   "scraped_at": "2026-10-14T20:28:52Z",
+   "scraped_at": "2026-10-16T01:33:28Z",
    "year_folders": {
     "2014": "2a6e7e67-56e1-012b-427f-c60e6e93219f",
     "2015": "c15bd8d1-ea83-efd3-0088-8b426bf7f030",
@@ -176024,10 +175963,10 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "002247": "2026-10-14T20:28:52Z",
-  "002460": "2026-10-15T01:36:56Z",
-  "003002": "2026-10-14T20:28:52Z",
-  "003084": "2026-10-14T20:28:52Z",
+  "002247": "2026-10-16T01:33:28Z",
+  "002460": "2026-10-16T01:33:28Z",
+  "003002": "2026-10-16T01:33:28Z",
+  "003084": "2026-10-16T01:33:28Z",
   "003376": "2026-10-15T01:36:56Z",
   "003478": "2026-10-15T15:39:52Z",
   "003680": "2026-10-15T01:36:56Z",
@@ -176041,25 +175980,25 @@
   "007033": "2026-10-15T15:39:52Z",
   "007036": "2026-10-15T15:39:52Z",
   "007052": "2026-10-15T01:36:56Z",
-  "008048": "2026-10-15T01:36:56Z",
+  "008048": "2026-10-16T01:33:28Z",
   "008273": "2026-10-15T15:39:52Z",
   "008277": "2026-10-15T15:39:52Z",
   "008564": "2026-10-15T01:36:56Z",
   "008567": "2026-10-15T01:36:56Z",
-  "008691": "2026-10-14T20:28:52Z",
+  "008691": "2026-10-16T01:33:28Z",
   "008858": "2026-10-15T15:39:52Z",
-  "008859": "2026-10-14T20:28:52Z",
+  "008859": "2026-10-16T01:33:28Z",
   "010036": "2026-10-15T15:39:52Z",
   "010740": "2026-10-15T15:39:52Z",
-  "011859": "2026-10-14T20:28:52Z",
-  "013331": "2026-10-14T20:28:52Z",
-  "014241": "2026-10-14T20:28:52Z",
-  "015650": "2026-10-14T20:28:52Z",
+  "011859": "2026-10-16T01:33:28Z",
+  "013331": "2026-10-16T01:33:28Z",
+  "014241": "2026-10-16T01:33:28Z",
+  "015650": "2026-10-16T01:33:28Z",
   "016728": "2026-10-15T01:36:56Z",
   "020573": "2026-10-15T15:39:52Z",
-  "021784": "2026-10-14T20:28:52Z",
+  "021784": "2026-10-16T01:33:28Z",
   "022095": "2026-10-15T15:39:52Z",
   "022352": "2026-10-15T01:36:56Z",
-  "022377": "2026-10-14T20:28:52Z"
+  "022377": "2026-10-16T01:33:28Z"
  }
 }
