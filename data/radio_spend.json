@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-16",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1501590,
+ "rows_scanned": 1502025,
  "data_through": "2026-10-14",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13205503.38,
+ "total_spend": 13205953.38,
  "gov_year_share": 0.5457,
  "by_year": {
   "2000": 27912.25,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 139277.81
+  "2026": 139727.81
  },
  "stations": [
   {
@@ -1849,10 +1849,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 104258.17,
-   "rows": 190,
+   "spend": 104708.17,
+   "rows": 191,
    "committees": 40,
-   "avg_buy": 548.73,
+   "avg_buy": 548.21,
    "by_year": {
     "2003": 1925.0,
     "2007": 13003.8,
@@ -1872,7 +1872,7 @@
     "2023": 8301.0,
     "2024": 8825.0,
     "2025": 4625.0,
-    "2026": 2325.0
+    "2026": 2775.0
    },
    "top_committees": [
     {
@@ -4262,7 +4262,7 @@
    ]
   }
  ],
- "classified_spend": 11164938.98,
+ "classified_spend": 11165388.98,
  "unclassified_tail": {
   "amount": 2040564.4,
   "stations": 254,
@@ -4289,12 +4289,12 @@
   },
   {
    "category": "Country",
-   "spend": 1643168.85,
+   "spend": 1643618.85,
    "stations": 12,
-   "rows": 1308,
+   "rows": 1309,
    "committees": 265,
-   "avg_buy": 1256.25,
-   "share": 0.1244
+   "avg_buy": 1255.63,
+   "share": 0.1245
   },
   {
    "category": "Pop / AC",
@@ -4369,7 +4369,7 @@
   },
   {
    "owner": "Local",
-   "spend": 2238268.26,
+   "spend": 2238718.26,
    "stations": 23,
    "share": 0.1695
   },
@@ -4902,7 +4902,7 @@
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
   "name_collisions_rejected": {
-   "amount": 9102531.34,
+   "amount": 9104766.34,
    "examples": [
     "WORD",
     "WEST",

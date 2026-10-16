@@ -2832,11 +2832,11 @@
    "name": "The Political Firm",
    "found_by": "filings",
    "paid": {
-    "total": 12382131,
+    "total": 12389731,
     "media": 2510432,
-    "rows": 2427,
+    "rows": 2429,
     "media_cycle": 102946,
-    "cycle": 2005117,
+    "cycle": 2012717,
     "years": {
      "2006": 175561,
      "2007": 750890,
@@ -2857,9 +2857,9 @@
      "2023": 1038555,
      "2024": 269551,
      "2025": 156890,
-     "2026": 540122
+     "2026": 547722
     },
-    "committees": 182,
+    "committees": 183,
     "top": [
      {
       "f": "1314",
@@ -4846,11 +4846,11 @@
    "name": "Brave New Television",
    "found_by": "filings",
    "paid": {
-    "total": 1380818,
+    "total": 1386318,
     "media": 487777,
-    "rows": 331,
+    "rows": 333,
     "media_cycle": 17500,
-    "cycle": 398431,
+    "cycle": 403931,
     "years": {
      "2014": 4400,
      "2015": 427022,
@@ -4864,7 +4864,7 @@
      "2023": 144781,
      "2024": 44666,
      "2025": 144015,
-     "2026": 64969
+     "2026": 70469
     },
     "committees": 60,
     "top": [
@@ -4872,8 +4872,8 @@
       "f": "6399",
       "n": "Foundation PAC",
       "p": "OTH",
-      "usd": 100977,
-      "cycle": 100977
+      "usd": 106477,
+      "cycle": 106477
      },
      {
       "f": "4593",
@@ -24707,6 +24707,15 @@
     "fcc": false
    }
   ],
+  "3444": [
+   {
+    "k": "POLITICALFIRM",
+    "n": "The Political Firm",
+    "usd": 7600,
+    "cycle": 7600,
+    "fcc": false
+   }
+  ],
   "3446": [
    {
     "k": "ARSEMENTMEDIA",
@@ -32925,8 +32934,8 @@
    {
     "k": "BRAVENEWTELEVISION",
     "n": "Brave New Television",
-    "usd": 100977,
-    "cycle": 100977,
+    "usd": 106477,
+    "cycle": 106477,
     "fcc": false
    }
   ],
@@ -38925,6 +38934,10 @@
   ],
   "3442": [
    "Scott P. Illing",
+   "REP"
+  ],
+  "3444": [
+   "Lisa Nelson",
    "REP"
   ],
   "3446": [
