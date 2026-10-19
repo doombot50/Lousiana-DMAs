@@ -69,23 +69,54 @@ class Blocked(Exception):
     """The CDN is refusing us; stop for the night rather than push harder."""
 
 
+class TooBig(Exception):
+    """A document larger than the caller will take; not downloaded further."""
+
+
 SENT = [0]            # requests made this run, for --budget
 
 
-def get(url, want_json=True, raw=False):
-    """GET a URL: parsed JSON, text, or with `raw` the bytes (a document)."""
+DOWNLOAD_SECONDS = 120   # a document trickling in slower than this is given up on
+
+
+def read_capped(r, max_bytes, deadline):
+    """A response's bytes, in chunks, stopping at `max_bytes` (TooBig) or the
+    deadline (TimeoutError): the socket timeout alone never fires on a slow
+    but steady download."""
+    chunks, n = [], 0
+    while True:
+        b = r.read1(1 << 16)   # what has arrived, not a full chunk
+        if not b:
+            return b''.join(chunks)
+        n += len(b)
+        if max_bytes and n > max_bytes:
+            raise TooBig(n)
+        if time.time() > deadline:
+            raise TimeoutError(f'download still going after {DOWNLOAD_SECONDS}s ({n:,} bytes)')
+        chunks.append(b)
+
+
+def get(url, want_json=True, raw=False, max_bytes=None):
+    """GET a URL: parsed JSON, text, or with `raw` the bytes (a document),
+    at most `max_bytes` of them (TooBig past that)."""
     SENT[0] += 1
     blocked_once = False
-    for attempt in range(1, RETRIES + 1):
+    # A document gets one retry: a stalled download already cost its deadline.
+    tries = 2 if raw else RETRIES
+    for attempt in range(1, tries + 1):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=dict(UA, Accept='*/*') if raw else UA), timeout=45) as r:
-                body = r.read()
+                if raw and max_bytes and int(r.headers.get('Content-Length') or 0) > max_bytes:
+                    raise TooBig(int(r.headers['Content-Length']))
+                body = read_capped(r, max_bytes, time.time() + DOWNLOAD_SECONDS) if raw else r.read()
             time.sleep(PAUSE)
             if raw:
                 return body
             body = body.decode('utf-8', 'replace')
             return json.loads(body) if want_json else body
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        # OSError covers URLError and HTTPError, timeouts and dropped
+        # connections ("Connection reset by peer").
+        except (OSError, json.JSONDecodeError) as e:
             if isinstance(e, urllib.error.HTTPError) and e.code == 404:
                 return None
             if isinstance(e, urllib.error.HTTPError) and e.code == 403:
@@ -95,7 +126,7 @@ def get(url, want_json=True, raw=False):
                 print(f'  403 from the CDN; waiting {BLOCK_WAIT}s before one retry')
                 time.sleep(BLOCK_WAIT)
                 continue
-            if attempt == RETRIES:
+            if attempt == tries:
                 raise RuntimeError(f'{url}: {e}') from e
             time.sleep(2 ** attempt)
 
