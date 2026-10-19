@@ -158,6 +158,15 @@ class FromTheName(unittest.TestCase):
                            ('37408 Club for Growth Action 2026-09-23 2026-11-03 Order D2', ('2026-09-23', '2026-11-03'))]:
             self.assertEqual(flight(name, '2026'), want, name)
 
+    def test_system_number_is_not_a_year(self):
+        # Cox (PSIDs 002460, 004321, 005341) and DirecTV file a cable system's
+        # number after the flight.
+        for name, want in [('Julia Letlow 6.17-6.23-3996 order contract', ('2026-06-17', '2026-06-23')),
+                           ('Julia Letlow-5.11-5.15-8644', ('2026-05-11', '2026-05-15')),
+                           ('Julia Letlow 6.17-6.23-6979order contract', ('2026-06-17', '2026-06-23')),
+                           ('Julia Letlow 3996-6.24-6.27-ordercontract', ('2026-06-24', '2026-06-27'))]:
+            self.assertEqual(flight(name, '2026'), want, name)
+
     def test_not_flights(self):
         # Order numbers, a single date, and KPXJ's timestamp names.
         for name in ['PB - 20357', 'NAB 10-7', '20261009152635051', 'Order - 20349 REV 3',
@@ -167,7 +176,11 @@ class FromTheName(unittest.TestCase):
     def test_directv_names(self):
         for raw, name in [('Steve Scalise LA CD1', 'Steve Scalise'), ('Julia Letlow LA US Senate', 'Julia Letlow'),
                           ('Hillar Moore IIIEast Baton Rouge Parish District Attorney', 'Hillar Moore III'),
-                          ('Louisiana Freedom Fund', 'Louisiana Freedom Fund')]:
+                          ('Louisiana Freedom Fund', 'Louisiana Freedom Fund'),
+                          # Its Senate folders end in a bare state code.
+                          ('Julia Letlow LA', 'Julia Letlow'), ('Bill Cassidy LA', 'Bill Cassidy'),
+                          ('Ellie Schroder LA Board of Elementary and Secondary Education D1', 'Ellie Schroder'),
+                          ('John F Young LA Public Service Commissioner D1', 'John F Young')]:
             self.assertEqual(dbs_buyer(raw), name, raw)
         self.assertEqual(buyer_key(dbs_buyer('Hillar Moore IIIEast Baton Rouge Parish District Attorney')),
                          buyer_key('Hillar Moore'))

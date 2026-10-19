@@ -129,7 +129,12 @@ def flight(name, year):
     if not m:
         return None
     m1, d1, y1, m2, d2, y2 = m.groups()
-    yr = lambda y: int(y) + 2000 if y and len(y) == 2 else int(y) if y else None
+    # A year counts only near the folder's: Cox's cable files put the system
+    # number where a year would go ("Julia Letlow 6.17-6.23-3996"), which
+    # read as June 3996 and put her on the air for 1,970 more years.
+    def yr(y):
+        v = int(y) + 2000 if y and len(y) == 2 else int(y) if y else None
+        return v if v and abs(v - int(year)) <= 1 else None
     y2 = yr(y2) or yr(y1) or int(year)
     y1 = yr(y1) or (y2 - 1 if int(m1) > int(m2) else y2)
     try:
@@ -141,10 +146,11 @@ def flight(name, year):
     return a.isoformat(), b.isoformat()
 
 
-# DirecTV names a buyer folder "<name> LA CD1", "<name> LA US Senate", and
+# DirecTV names a buyer folder "<name> LA CD1", "<name> LA US Senate",
+# "<name> LA" alone (its Senate folders: "Julia Letlow LA"), and
 # now and then glues the office on: "Hillar Moore IIIEast Baton Rouge Parish
 # District Attorney".
-DBS_STATE_TAIL = re.compile(r'\s+LA\s+(?:CD\s*\d+|US\s+(?:Senate|House)|Senate|House|Gov\w*|State\b|District\b).*$', re.I)
+DBS_STATE_TAIL = re.compile(r'\s+LA(?:\s+(?:CD\s*\d+|US\s+(?:Senate|House)|Senate|House|Gov\w*|State\b|District\b|Board\b|Public\s+Service\b|Supreme\b|Court\b).*)?$', re.I)
 DBS_PARISH_TAIL = re.compile(r'(?:(?:East|West|North|South|St\.)\s?)?(?:[A-Z][a-z]+\s?){1,3}Parish\b.*$')
 
 
