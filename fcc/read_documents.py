@@ -38,6 +38,7 @@ import gzip
 import json
 import os
 import re
+import signal
 import subprocess
 import sys
 import tempfile
@@ -56,6 +57,15 @@ MAX_BYTES = 8 << 20   # a 40-page scan isn't worth the request budget twice over
 
 OCR_PAGES = 2         # a scan is read from its first and last pages this many each
 OCR_SECONDS = 90      # per document: a poster-sized scan page can take tesseract many minutes
+DOC_SECONDS = 240     # per document, everything included: past this it is abandoned
+
+
+class DocTimeout(Exception):
+    """A document still unread after DOC_SECONDS, whatever it was stuck in."""
+
+
+def _alarm(signum, frame):
+    raise DocTimeout()
 
 
 def pdf_text(data, ocr=True):
@@ -308,8 +318,19 @@ def main():
             print(f'  {args.minutes:g} minutes up; the rest wait for the next run', flush=True)
             break
         t1 = time.time()
+        # Named before it starts, so a document that stalls the run is in the log.
+        print(f"  {call:<8} reading  {(f['name'] or '')[:60]}", flush=True)
+        # A hard stop for the whole document. The download and OCR limits
+        # cover the stalls seen so far; a TV document on 19 October stalled
+        # somewhere they don't reach, for 25 minutes, and was never recorded,
+        # so it would have led the queue every night after.
+        signal.signal(signal.SIGALRM, _alarm)
+        signal.alarm(DOC_SECONDS)
         try:
             res = read_one(sp.get, f)
+        except DocTimeout:
+            print(f'  {call} {f["name"]}: still going after {DOC_SECONDS}s; abandoned', flush=True)
+            res = {'status': 'too_slow'}
         except sp.Blocked as e:
             blocked = str(e)
             print(f'  blocked at {call} ({e}); keeping what was read', flush=True)
@@ -320,6 +341,8 @@ def main():
         except (RuntimeError, subprocess.SubprocessError, OSError) as e:
             print(f'  {call} {f["name"]}: {e}', flush=True)
             continue
+        finally:
+            signal.alarm(0)
         if isinstance(res, tuple):
             res, text = res
             keep_text(args.text_cache, doc_id(f), text)
