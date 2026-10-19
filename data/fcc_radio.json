@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-10-19T17:16:23Z",
+ "scraped": "2026-10-19T19:37:59Z",
  "years": [
   2026,
   2027
@@ -8391,7 +8391,7 @@
    "facility_id": "59289",
    "root_folder": "1e6fcc3d-ed9a-bf5e-91b2-3f32dd2ae950",
    "profile": "fm-profile/kmdl",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "5e1570fe-fd2e-f295-5509-0b88b8bc70ad",
     "2015": "ed2ac383-e7dd-09ac-4cd6-35186fc24118",
@@ -8622,7 +8622,7 @@
    "facility_id": "60867",
    "root_folder": "5e3f76f3-ebf0-46c9-3174-493d08581d07",
    "profile": "fm-profile/kbon",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "196a7c0d-499e-0a54-5268-f676673fe844",
     "2015": "3c348312-8be1-efa7-84a4-425cf95a06c0",
@@ -8650,7 +8650,7 @@
    "facility_id": "15801",
    "root_folder": "b0bb9061-bd56-e7a3-98ee-095d25cd0682",
    "profile": "am-profile/knek",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2018": "e33ba627-70b5-9954-a6b5-d8e600a7ce3e",
     "2019": "7a9e3275-1a3c-1b8a-ed83-0886bc22bba7",
@@ -8674,7 +8674,7 @@
    "facility_id": "40580",
    "root_folder": "ecd6a63b-011f-5420-8b31-735e83a3b188",
    "profile": "fm-profile/kbze",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "54b179fa-b954-65a6-dfd5-aeb779649aa4",
     "2015": "8a94f2f3-fd7f-52dc-0ac1-2ea438eacc2b",
@@ -8702,7 +8702,7 @@
    "facility_id": "12674",
    "root_folder": "ee006e3e-9b24-964f-b807-d0bea6065bf5",
    "profile": "fm-profile/ktdy",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "5fbdf594-6a34-7034-2589-ffa1693107f1",
     "2015": "00641e98-842e-7d89-1e40-9e308dd96432",
@@ -8942,7 +8942,7 @@
    "facility_id": "47402",
    "root_folder": "14503b97-f8d4-f991-37c0-efc8375f3c24",
    "profile": "fm-profile/wynk-fm",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "69afb846-ded3-3464-aadf-49a6cc871703",
     "2015": "979a71b5-fa23-35d3-ad50-cc79cd695969",
@@ -9534,7 +9534,7 @@
    "facility_id": "64675",
    "root_folder": "450a2c3e-dfbc-bd60-faf5-7d0a1f67149b",
    "profile": "fm-profile/kqki-fm",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "54919287-f678-6396-3d65-c3da2d0d955d",
     "2015": "26b0b43a-5dfd-77e4-b0fd-7f623b6374a3",
@@ -9720,7 +9720,7 @@
    "facility_id": "3422",
    "root_folder": "347f4fbb-08fe-edd2-c560-db492d687aa5",
    "profile": "fm-profile/kzwa",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "1b7370ce-c0ef-9fcf-dc65-69717d1eccb4",
     "2015": "6dc29083-6efd-efa2-365b-913b10db8821",
@@ -9807,7 +9807,7 @@
    "facility_id": "58931",
    "root_folder": "9d092d1f-0b73-92bd-32e4-5f5fbacd7484",
    "profile": "fm-profile/wemx",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2018": "cebd8cbb-fd04-cb0a-2551-c3af18a1e413",
     "2019": "6a09cf47-d5f4-fcaf-e572-dbcbc66087b1",
@@ -9826,6 +9826,15 @@
     "Political Files/2026/Terms and Disclosures": "35e9c825-7ef7-8664-7eea-36839e458041"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1648498-Caine_D_Justice of the Peace-WEMX-FM",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T14:39:45-04:00",
+     "folder_id": "8c915060-377c-a9e9-eaa6-eb43033e7a6b",
+     "file_id": "b0bfd734-4f7a-56c0-1e93-b92e6713d1c4",
+     "file_manager_id": "f7bed2c1-b69a-4c35-b926-3d48180a3f22"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "1647514B-Voters Organized to Educate-WEMX-FM",
@@ -10042,7 +10051,7 @@
    "facility_id": "1305",
    "root_folder": "6fa5cfa2-ab40-e381-3538-b98d39c742a6",
    "profile": "am-profile/krmd",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "4fee8c9e-bf34-d82c-d632-74a16093889b",
     "2015": "248604ff-473f-425b-7229-629fa64de283",
@@ -10070,7 +10079,7 @@
    "facility_id": "11606",
    "root_folder": "8142b74b-c409-13dc-f779-76f97e6caf31",
    "profile": "am-profile/wxok",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2018": "5d29202a-4fbc-96f5-a0fc-696999dc5d4f",
     "2019": "59326ab7-45e3-0c7c-d9da-d56d0333bd02",
@@ -10089,6 +10098,15 @@
     "Political Files/2026/Terms and Disclosures": "28cdda15-1eab-0834-2d96-30a55207bc11"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1648511-Caine_D_Justice of the Peace-WXOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T14:38:31-04:00",
+     "folder_id": "07f73b31-7125-dcd7-9f55-5305bb737935",
+     "file_id": "a8174411-9f3d-7847-e785-66e7756c1218",
+     "file_manager_id": "a2fc406b-52c2-4d6a-bb85-f7ee9e743021"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "1648036-Moore_D_District Attorney-WXOK-AM",
@@ -10251,7 +10269,7 @@
    "facility_id": "52434",
    "root_folder": "8afd8730-3401-83dd-991a-ce99b40a7af4",
    "profile": "fm-profile/wkbu",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2017": "3a78327f-4f94-3ce9-fc58-d582bd8f2219",
     "2018": "59d233af-5873-a280-63d8-eb1cf7f39499",
@@ -10381,7 +10399,7 @@
    "facility_id": "41054",
    "root_folder": "ad29251b-2867-d10e-29d3-94256bcee35a",
    "profile": "am-profile/kfxz",
-   "scraped_at": "2026-10-18T14:38:09Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "a3533337-4ff7-d863-260a-a3ecf945e2b9",
     "2015": "84ec7675-db87-99bc-da8c-9d0114ca0692",
@@ -17132,7 +17150,7 @@
    "facility_id": "20346",
    "root_folder": "838364ab-b32a-c5d5-423d-579856247ed4",
    "profile": "fm-profile/wezb",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2017": "2df8d4ed-2c77-e750-2352-d63de578af9a",
     "2018": "41a45330-e77f-9814-55ae-5edf6f969477",
@@ -17236,7 +17254,7 @@
    "facility_id": "15095",
    "root_folder": "e142023f-6a78-c3d0-f067-49a6e1fac52e",
    "profile": "fm-profile/kjmg",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "b5af1f13-40d2-f199-27f2-730a432ac4d5",
     "2015": "aa8c57c4-65a6-f60b-f547-065fc7a1ebcb",
@@ -17264,7 +17282,7 @@
    "facility_id": "9221",
    "root_folder": "7b0b4e4d-92e4-3803-b7ab-2db050e8f68d",
    "profile": "fm-profile/kbtt",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "5bc16c51-dcee-c88e-3c73-592287a1bc96",
     "2015": "4075ece4-dc0b-93e8-d9e6-07ac6aea596c",
@@ -17349,7 +17367,7 @@
    "facility_id": "49016",
    "root_folder": "aa1207a6-72cf-48cc-75a7-cb530291dcb0",
    "profile": "am-profile/ksyb",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "0cf7ea7c-2907-079f-77ba-d295fb854dec",
     "2015": "e4edc85a-c565-47d1-c506-2848f2083ef7",
@@ -17377,7 +17395,7 @@
    "facility_id": "58395",
    "root_folder": "73f37756-aff0-c921-8c07-9bc2db6e6fac",
    "profile": "fm-profile/kknd",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2017": "69b1583e-a867-453c-9d4a-42c11b2a3676",
     "2018": "766b51f3-0d57-f065-9aad-c000c451ccbd",
@@ -17413,7 +17431,7 @@
    "facility_id": "63199",
    "root_folder": "b04198bf-97fd-3c54-d021-d2585edb0743",
    "profile": "fm-profile/kzmz",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "3569fa2c-6e37-0766-31af-54600dbde581",
     "2015": "e0f8d3e4-226b-79c7-5305-3e56797a4097",
@@ -17483,7 +17501,7 @@
    "facility_id": "275",
    "root_folder": "1ced3265-613d-b949-8eaa-6def2abdff76",
    "profile": "am-profile/krof",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T19:35:44Z",
    "year_folders": {
     "2014": "93debe9d-eee0-9d68-ed8b-7d87e8fb1e81",
     "2015": "eae1ce53-4086-f819-83e6-c4685dec3041",
@@ -17848,59 +17866,59 @@
  "attempted": {
   "KAJN": "2026-10-19T17:14:02Z",
   "KAOK": "2026-10-18T14:38:09Z",
-  "KBON": "2026-10-18T14:38:09Z",
-  "KBTT": "2026-10-18T01:14:39Z",
-  "KBZE": "2026-10-18T14:38:09Z",
+  "KBON": "2026-10-19T19:35:44Z",
+  "KBTT": "2026-10-19T19:35:44Z",
+  "KBZE": "2026-10-19T19:35:44Z",
   "KDKS": "2026-10-19T01:25:42Z",
   "KEEL": "2026-10-19T17:14:02Z",
   "KEUN": "2026-10-19T17:14:02Z",
-  "KFXZ": "2026-10-18T14:38:09Z",
+  "KFXZ": "2026-10-19T19:35:44Z",
   "KGLA": "2026-10-19T17:14:02Z",
   "KHLA": "2026-10-19T17:14:02Z",
   "KJAE": "2026-10-19T01:25:42Z",
   "KJLO": "2026-10-18T14:38:09Z",
-  "KJMG": "2026-10-18T01:14:39Z",
-  "KKND": "2026-10-18T01:14:39Z",
+  "KJMG": "2026-10-19T19:35:44Z",
+  "KKND": "2026-10-19T19:35:44Z",
   "KLIL": "2026-10-18T14:38:09Z",
   "KLKL": "2026-10-19T01:25:42Z",
   "KLWB": "2026-10-19T01:25:42Z",
-  "KMDL": "2026-10-18T14:38:09Z",
+  "KMDL": "2026-10-19T19:35:44Z",
   "KMEZ": "2026-10-19T17:14:02Z",
   "KMJJ": "2026-10-19T01:25:42Z",
   "KMLB": "2026-10-19T01:25:42Z",
   "KMXH": "2026-10-19T01:25:42Z",
-  "KNEK": "2026-10-18T14:38:09Z",
+  "KNEK": "2026-10-19T19:35:44Z",
   "KOKA": "2026-10-19T01:25:42Z",
   "KPEL": "2026-10-19T17:14:02Z",
-  "KQKI": "2026-10-18T14:38:09Z",
+  "KQKI": "2026-10-19T19:35:44Z",
   "KQXL": "2026-10-19T17:14:02Z",
-  "KRMD": "2026-10-18T14:38:09Z",
-  "KROF": "2026-10-18T01:14:39Z",
+  "KRMD": "2026-10-19T19:35:44Z",
+  "KROF": "2026-10-19T19:35:44Z",
   "KRRQ": "2026-10-18T14:38:09Z",
   "KRVE": "2026-10-19T01:25:42Z",
   "KRVV": "2026-10-19T01:25:42Z",
   "KSIG": "2026-10-19T01:25:42Z",
   "KSMB": "2026-10-19T17:14:02Z",
-  "KSYB": "2026-10-18T01:14:39Z",
+  "KSYB": "2026-10-19T19:35:44Z",
   "KSYL": "2026-10-18T14:38:09Z",
-  "KTDY": "2026-10-18T14:38:09Z",
+  "KTDY": "2026-10-19T19:35:44Z",
   "KVKI": "2026-10-18T14:38:09Z",
   "KVPI": "2026-10-19T01:25:42Z",
   "KXKS": "2026-10-19T01:25:42Z",
   "KYKZ": "2026-10-19T01:25:42Z",
-  "KZMZ": "2026-10-18T01:14:39Z",
+  "KZMZ": "2026-10-19T19:35:44Z",
   "KZRZ": "2026-10-19T17:14:02Z",
-  "KZWA": "2026-10-18T14:38:09Z",
+  "KZWA": "2026-10-19T19:35:44Z",
   "WBOK": "2026-10-19T17:14:02Z",
   "WBRP": "2026-10-19T01:25:42Z",
   "WDGL": "2026-10-19T01:25:42Z",
-  "WEMX": "2026-10-18T14:38:09Z",
-  "WEZB": "2026-10-18T01:14:39Z",
+  "WEMX": "2026-10-19T19:35:44Z",
+  "WEZB": "2026-10-19T19:35:44Z",
   "WFMF": "2026-10-19T17:14:02Z",
   "WGSO": "2026-10-19T01:25:42Z",
   "WGUO": "2026-10-19T01:25:42Z",
   "WJBO": "2026-10-19T17:14:02Z",
-  "WKBU": "2026-10-18T14:38:09Z",
+  "WKBU": "2026-10-19T19:35:44Z",
   "WLMG": "2026-10-19T17:14:02Z",
   "WNOE": "2026-10-19T17:14:02Z",
   "WNXX": "2026-10-19T01:25:42Z",
@@ -17910,8 +17928,8 @@
   "WTGE": "2026-10-19T01:25:42Z",
   "WTIX": "2026-10-18T14:38:09Z",
   "WWL": "2026-10-19T17:14:02Z",
-  "WXOK": "2026-10-18T14:38:09Z",
+  "WXOK": "2026-10-19T19:35:44Z",
   "WYLD": "2026-10-19T17:14:02Z",
-  "WYNK": "2026-10-18T14:38:09Z"
+  "WYNK": "2026-10-19T19:35:44Z"
  }
 }
