@@ -2,7 +2,7 @@
  "generated": "2026-10-19",
  "data_through": "2026-10-16",
  "cycle_from": 2023,
- "documents_read": 0,
+ "documents_read": 45,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -334,7 +334,20 @@
   {
    "key": "AXMEDIA",
    "name": "Ax Media",
-   "found_by": "filings",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 17915,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Ken Paxton for Senate"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
    "paid": {
     "total": 2203201,
     "media": 1918418,
@@ -565,119 +578,33 @@
    }
   },
   {
-   "key": "PATRIOTMEDIA",
-   "name": "Patriot Media Group",
-   "found_by": "filings",
-   "paid": {
-    "total": 509056,
-    "media": 509056,
-    "rows": 5,
-    "media_cycle": 509056,
-    "cycle": 509056,
-    "years": {
-     "2023": 509056
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "6034",
-      "n": "RGA (Republican Governors Association) Right Direction PAC",
-      "p": "REP",
-      "usd": 509056,
-      "cycle": 509056
-     }
-    ],
-    "spellings": [
-     "PATRIOT MEDIA GROUP"
-    ]
-   }
-  },
-  {
-   "key": "HYRIZON",
-   "name": "Hyrizon Group",
-   "found_by": "filings",
-   "paid": {
-    "total": 503390,
-    "media": 500000,
-    "rows": 3,
-    "media_cycle": 500000,
-    "cycle": 503390,
-    "years": {
-     "2026": 503390
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "8174",
-      "n": "Consumers First PAC",
-      "p": "OTH",
-      "usd": 500000,
-      "cycle": 500000
-     },
-     {
-      "f": "7609",
-      "n": "Whitney Germany",
-      "p": "OTH",
-      "usd": 1695,
-      "cycle": 1695
-     },
-     {
-      "f": "3442",
-      "n": "Scott P. Illing",
-      "p": "REP",
-      "usd": 1695,
-      "cycle": 1695
-     }
-    ],
-    "spellings": [
-     "HYRIZON GROUP, LLC",
-     "HYRIZON GROUP"
-    ]
-   }
-  },
-  {
-   "key": "TECHNICOLORPOLITICAL",
-   "name": "Technicolor Political",
-   "found_by": "filings",
-   "paid": {
-    "total": 500474,
-    "media": 495449,
-    "rows": 6,
-    "media_cycle": 495449,
-    "cycle": 500474,
-    "years": {
-     "2025": 500474
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 500474,
-      "cycle": 500474
-     }
-    ],
-    "spellings": [
-     "TECHNICOLOR POLITICAL"
-    ]
-   }
-  },
-  {
    "key": "ARSEMENTMEDIA",
    "name": "Arsement Media Group",
-   "found_by": "filings",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 38575,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Marsiglia/R/JP Court Judge, Div A"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
    "paid": {
-    "total": 10387265,
-    "media": 1905583,
-    "rows": 892,
+    "total": 10516301,
+    "media": 1995166,
+    "rows": 920,
     "media_cycle": 476445,
     "cycle": 1593161,
     "years": {
      "2012": 123833,
      "2013": 72797,
-     "2014": 755054,
-     "2015": 1892961,
+     "2014": 869040,
+     "2015": 1908011,
      "2016": 668599,
      "2017": 486032,
      "2018": 433645,
@@ -802,8 +729,108 @@
      "ARSEMENT MEDIA GROUP",
      "ARSEMENT MEDIA",
      "ARSEMENT MEDIA GROUP, LLC",
+     "ARSEMENT MEDIA/CONSULTING GROUP",
      "ARSEMENT MEDIA GROUP LLC",
      "ARSEMENT MEDIA GROUP. LLC"
+    ]
+   }
+  },
+  {
+   "key": "PATRIOTMEDIA",
+   "name": "Patriot Media Group",
+   "found_by": "filings",
+   "paid": {
+    "total": 509056,
+    "media": 509056,
+    "rows": 5,
+    "media_cycle": 509056,
+    "cycle": 509056,
+    "years": {
+     "2023": 509056
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "6034",
+      "n": "RGA (Republican Governors Association) Right Direction PAC",
+      "p": "REP",
+      "usd": 509056,
+      "cycle": 509056
+     }
+    ],
+    "spellings": [
+     "PATRIOT MEDIA GROUP"
+    ]
+   }
+  },
+  {
+   "key": "HYRIZON",
+   "name": "Hyrizon Group",
+   "found_by": "filings",
+   "paid": {
+    "total": 503390,
+    "media": 500000,
+    "rows": 3,
+    "media_cycle": 500000,
+    "cycle": 503390,
+    "years": {
+     "2026": 503390
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "8174",
+      "n": "Consumers First PAC",
+      "p": "OTH",
+      "usd": 500000,
+      "cycle": 500000
+     },
+     {
+      "f": "7609",
+      "n": "Whitney Germany",
+      "p": "OTH",
+      "usd": 1695,
+      "cycle": 1695
+     },
+     {
+      "f": "3442",
+      "n": "Scott P. Illing",
+      "p": "REP",
+      "usd": 1695,
+      "cycle": 1695
+     }
+    ],
+    "spellings": [
+     "HYRIZON GROUP, LLC",
+     "HYRIZON GROUP"
+    ]
+   }
+  },
+  {
+   "key": "TECHNICOLORPOLITICAL",
+   "name": "Technicolor Political",
+   "found_by": "filings",
+   "paid": {
+    "total": 500474,
+    "media": 495449,
+    "rows": 6,
+    "media_cycle": 495449,
+    "cycle": 500474,
+    "years": {
+     "2025": 500474
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 500474,
+      "cycle": 500474
+     }
+    ],
+    "spellings": [
+     "TECHNICOLOR POLITICAL"
     ]
    }
   },
@@ -1304,6 +1331,177 @@
      "DEVISE STRATEGY GROUP, LLC",
      "DEVISE STRATEGY GROUP",
      "DEVISE STRATEGY GROUP LLC"
+    ]
+   }
+  },
+  {
+   "key": "BUISSONCREATIVESTRATEGIES",
+   "name": "Buisson Creative Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 3,
+    "usd": 27860,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Raines/R/JP First Parish Court, Div B",
+     "McMahon/R/JP 24th JDC Judge",
+     "Brocato/R/JP 1st Court Div A"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
+   "paid": {
+    "total": 9890073,
+    "media": 2341188,
+    "rows": 2816,
+    "media_cycle": 148430,
+    "cycle": 1515419,
+    "years": {
+     "2000": 22813,
+     "2001": 24656,
+     "2002": 121134,
+     "2003": 588031,
+     "2004": 31830,
+     "2005": 36342,
+     "2006": 181515,
+     "2007": 703479,
+     "2009": 326450,
+     "2010": 495059,
+     "2011": 855679,
+     "2012": 252172,
+     "2013": 62021,
+     "2014": 850576,
+     "2015": 838177,
+     "2016": 104165,
+     "2017": 185244,
+     "2018": 404986,
+     "2019": 1009204,
+     "2020": 768704,
+     "2021": 307075,
+     "2022": 205344,
+     "2023": 936326,
+     "2024": 391979,
+     "2025": 56112,
+     "2026": 131002
+    },
+    "committees": 178,
+    "top": [
+     {
+      "f": "5061",
+      "n": "Vincent F. Wynne, Jr.",
+      "p": "REP",
+      "usd": 276167,
+      "cycle": 224402
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 798083,
+      "cycle": 180977
+     },
+     {
+      "f": "1796",
+      "n": "Arita Bohannan",
+      "p": "REP",
+      "usd": 385645,
+      "cycle": 132544
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 239636,
+      "cycle": 113866
+     },
+     {
+      "f": "4485",
+      "n": "Mandie Landry",
+      "p": "DEM",
+      "usd": 72621,
+      "cycle": 72621
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 158414,
+      "cycle": 70264
+     },
+     {
+      "f": "6500",
+      "n": "Julie Quinn",
+      "p": "REP",
+      "usd": 87504,
+      "cycle": 69562
+     },
+     {
+      "f": "1374",
+      "n": "Hans J. Liljeberg",
+      "p": "REP",
+      "usd": 51537,
+      "cycle": 51537
+     },
+     {
+      "f": "6352",
+      "n": "Lindsey Valenti",
+      "p": "REP",
+      "usd": 48037,
+      "cycle": 48037
+     },
+     {
+      "f": "3731",
+      "n": "Stephanie Hilferty",
+      "p": "REP",
+      "usd": 102941,
+      "cycle": 42973
+     },
+     {
+      "f": "2797",
+      "n": "Michael Glaser",
+      "p": "REP",
+      "usd": 70674,
+      "cycle": 40850
+     },
+     {
+      "f": "6177",
+      "n": "Vincent E. Cox III",
+      "p": "REP",
+      "usd": 40231,
+      "cycle": 40231
+     },
+     {
+      "f": "3409",
+      "n": "Jerry Turlich",
+      "p": "REP",
+      "usd": 84434,
+      "cycle": 39533
+     },
+     {
+      "f": "1373",
+      "n": "John F. Young, Jr.",
+      "p": "REP",
+      "usd": 31405,
+      "cycle": 30655
+     },
+     {
+      "f": "41",
+      "n": "Marion F. Edwards",
+      "p": "DEM",
+      "usd": 45989,
+      "cycle": 29989
+     }
+    ],
+    "spellings": [
+     "BUISSON CREATIVE STRATEGIES",
+     "BUISSON CREATIVE STRATEGIES, LLC",
+     "BUISSON CREATIVE",
+     "BUISSON CREATIVE STRATEGIES LLC",
+     "BUISSON CREATIVE STRATEGIES, L.L.C.",
+     "BUISSON CREATIVE STRATEGIES L.L.C."
     ]
    }
   },
@@ -2402,162 +2600,6 @@
    }
   },
   {
-   "key": "BUISSONCREATIVESTRATEGIES",
-   "name": "Buisson Creative Strategies",
-   "found_by": "filings",
-   "paid": {
-    "total": 7443134,
-    "media": 1642397,
-    "rows": 2286,
-    "media_cycle": 126301,
-    "cycle": 1031001,
-    "years": {
-     "2000": 22813,
-     "2001": 24656,
-     "2002": 121134,
-     "2003": 588031,
-     "2004": 31830,
-     "2005": 36342,
-     "2006": 181515,
-     "2007": 668479,
-     "2009": 326450,
-     "2010": 446163,
-     "2011": 642877,
-     "2012": 249372,
-     "2013": 52030,
-     "2014": 517744,
-     "2015": 332418,
-     "2016": 65156,
-     "2017": 139281,
-     "2018": 159660,
-     "2019": 962547,
-     "2020": 500559,
-     "2021": 226067,
-     "2022": 117011,
-     "2023": 748745,
-     "2024": 165985,
-     "2025": 46165,
-     "2026": 70106
-    },
-    "committees": 140,
-    "top": [
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 342662,
-      "cycle": 180977
-     },
-     {
-      "f": "1796",
-      "n": "Arita Bohannan",
-      "p": "REP",
-      "usd": 385645,
-      "cycle": 132544
-     },
-     {
-      "f": "1498",
-      "n": "Ricky Templet",
-      "p": "REP",
-      "usd": 239636,
-      "cycle": 113866
-     },
-     {
-      "f": "2781",
-      "n": "Dominick Impastato",
-      "p": "REP",
-      "usd": 158414,
-      "cycle": 70264
-     },
-     {
-      "f": "6500",
-      "n": "Julie Quinn",
-      "p": "REP",
-      "usd": 87504,
-      "cycle": 69562
-     },
-     {
-      "f": "1374",
-      "n": "Hans J. Liljeberg",
-      "p": "REP",
-      "usd": 51537,
-      "cycle": 51537
-     },
-     {
-      "f": "6352",
-      "n": "Lindsey Valenti",
-      "p": "REP",
-      "usd": 48037,
-      "cycle": 48037
-     },
-     {
-      "f": "3731",
-      "n": "Stephanie Hilferty",
-      "p": "REP",
-      "usd": 94299,
-      "cycle": 42973
-     },
-     {
-      "f": "2797",
-      "n": "Michael Glaser",
-      "p": "REP",
-      "usd": 70674,
-      "cycle": 40850
-     },
-     {
-      "f": "6177",
-      "n": "Vincent E. Cox III",
-      "p": "REP",
-      "usd": 33731,
-      "cycle": 33731
-     },
-     {
-      "f": "2044",
-      "n": "Randy Smith",
-      "p": "REP",
-      "usd": 141800,
-      "cycle": 27408
-     },
-     {
-      "f": "2858",
-      "n": "Keith Conley",
-      "p": "REP",
-      "usd": 72988,
-      "cycle": 22528
-     },
-     {
-      "f": "2939",
-      "n": "Jennifer Guillot Womble",
-      "p": "REP",
-      "usd": 31945,
-      "cycle": 21775
-     },
-     {
-      "f": "1195",
-      "n": "Patrick Connick",
-      "p": "REP",
-      "usd": 20806,
-      "cycle": 20806
-     },
-     {
-      "f": "1182",
-      "n": "Deborah Villio",
-      "p": "REP",
-      "usd": 220076,
-      "cycle": 20180
-     }
-    ],
-    "spellings": [
-     "BUISSON CREATIVE STRATEGIES",
-     "BUISSON CREATIVE STRATEGIES, LLC",
-     "BUISSON CREATIVE STRATEGIES LLC",
-     "BUISSON CREATIVE STRATEGIES, L.L.C.",
-     "BUISSON CREATIVE STRATEGIES L.L.C.",
-     "BUISSON CREATIVE STRATEGIES INC"
-    ]
-   }
-  },
-  {
    "key": "REDLINEMEDIA",
    "name": "Red Line Media",
    "found_by": "filings",
@@ -2828,6 +2870,71 @@
    }
   },
   {
+   "key": "CANALPARTNERSMEDIA",
+   "name": "Canal Partners Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 10275,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Davis/D/US Senate"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
+   "paid": {
+    "total": 396193,
+    "media": 362975,
+    "rows": 10,
+    "media_cycle": 100000,
+    "cycle": 100000,
+    "years": {
+     "2015": 54003,
+     "2018": 238975,
+     "2021": 3215,
+     "2025": 100000
+    },
+    "committees": 4,
+    "top": [
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 100000,
+      "cycle": 100000
+     },
+     {
+      "f": "4332",
+      "n": "Move EBR, Inc.",
+      "p": "OTH",
+      "usd": 238975,
+      "cycle": 0
+     },
+     {
+      "f": "1564",
+      "n": "Dorothy Sue Hill",
+      "p": "DEM",
+      "usd": 54003,
+      "cycle": 0
+     },
+     {
+      "f": "5290",
+      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
+      "p": "OTH",
+      "usd": 3215,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CANAL PARTNERS MEDIA"
+    ]
+   }
+  },
+  {
    "key": "POLITICALFIRM",
    "name": "The Political Firm",
    "found_by": "filings",
@@ -2974,58 +3081,6 @@
      "POLITICAL FIRM",
      "POLITICAL FIRM LLC",
      "THE POLITICAL FIRM INC."
-    ]
-   }
-  },
-  {
-   "key": "CANALPARTNERSMEDIA",
-   "name": "Canal Partners Media",
-   "found_by": "filings",
-   "paid": {
-    "total": 396193,
-    "media": 362975,
-    "rows": 10,
-    "media_cycle": 100000,
-    "cycle": 100000,
-    "years": {
-     "2015": 54003,
-     "2018": 238975,
-     "2021": 3215,
-     "2025": 100000
-    },
-    "committees": 4,
-    "top": [
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 100000,
-      "cycle": 100000
-     },
-     {
-      "f": "4332",
-      "n": "Move EBR, Inc.",
-      "p": "OTH",
-      "usd": 238975,
-      "cycle": 0
-     },
-     {
-      "f": "1564",
-      "n": "Dorothy Sue Hill",
-      "p": "DEM",
-      "usd": 54003,
-      "cycle": 0
-     },
-     {
-      "f": "5290",
-      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
-      "p": "OTH",
-      "usd": 3215,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CANAL PARTNERS MEDIA"
     ]
    }
   },
@@ -4274,6 +4329,47 @@
    }
   },
   {
+   "key": "MEDIAADVENTURES",
+   "name": "Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 34380,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Mike Johnson for Louistana"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
+   "paid": {
+    "total": 18000,
+    "media": 0,
+    "rows": 3,
+    "media_cycle": 0,
+    "cycle": 18000,
+    "years": {
+     "2026": 18000
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "4919",
+      "n": "Jambalaya PAC",
+      "p": "OTH",
+      "usd": 18000,
+      "cycle": 18000
+     }
+    ],
+    "spellings": [
+     "MEDIA AD VENTURES"
+    ]
+   }
+  },
+  {
    "key": "QUESTCOMMCONSULT",
    "name": "Questcomm Consultants",
    "found_by": "filings",
@@ -4552,151 +4648,6 @@
      "HOLBROOK MULTI-MEDIA INC.",
      "HOLBROOK MULTI MEDIA INC",
      "HOLBROOK MULTI-MEDIA, INC"
-    ]
-   }
-  },
-  {
-   "key": "BUISSONCREATIVE",
-   "name": "Buisson Creative",
-   "found_by": "filings",
-   "paid": {
-    "total": 2437840,
-    "media": 698791,
-    "rows": 524,
-    "media_cycle": 22130,
-    "cycle": 475318,
-    "years": {
-     "2007": 35000,
-     "2010": 48896,
-     "2011": 212801,
-     "2012": 2800,
-     "2013": 9991,
-     "2014": 332832,
-     "2015": 505759,
-     "2016": 39009,
-     "2017": 45963,
-     "2018": 245326,
-     "2019": 46657,
-     "2020": 268145,
-     "2021": 81008,
-     "2022": 88333,
-     "2023": 187581,
-     "2024": 225993,
-     "2025": 9947,
-     "2026": 51797
-    },
-    "committees": 55,
-    "top": [
-     {
-      "f": "5061",
-      "n": "Vincent F. Wynne, Jr.",
-      "p": "REP",
-      "usd": 236134,
-      "cycle": 218040
-     },
-     {
-      "f": "4485",
-      "n": "Mandie Landry",
-      "p": "DEM",
-      "usd": 72621,
-      "cycle": 72621
-     },
-     {
-      "f": "3409",
-      "n": "Jerry Turlich",
-      "p": "REP",
-      "usd": 84434,
-      "cycle": 39533
-     },
-     {
-      "f": "1373",
-      "n": "John F. Young, Jr.",
-      "p": "REP",
-      "usd": 31405,
-      "cycle": 30655
-     },
-     {
-      "f": "41",
-      "n": "Marion F. Edwards",
-      "p": "DEM",
-      "usd": 45989,
-      "cycle": 29989
-     },
-     {
-      "f": "5599",
-      "n": "W. Keith Hinkley",
-      "p": "REP",
-      "usd": 96637,
-      "cycle": 27208
-     },
-     {
-      "f": "3715",
-      "n": "Kerri Callais",
-      "p": "REP",
-      "usd": 19418,
-      "cycle": 19418
-     },
-     {
-      "f": "781",
-      "n": "Eric Skrmetta",
-      "p": "REP",
-      "usd": 245169,
-      "cycle": 14263
-     },
-     {
-      "f": "1143",
-      "n": "George Branigan",
-      "p": "REP",
-      "usd": 17500,
-      "cycle": 12500
-     },
-     {
-      "f": "6177",
-      "n": "Vincent E. Cox III",
-      "p": "REP",
-      "usd": 6500,
-      "cycle": 6500
-     },
-     {
-      "f": "4220",
-      "n": "Allen David Leone Jr.",
-      "p": "REP",
-      "usd": 3838,
-      "cycle": 3488
-     },
-     {
-      "f": "2053",
-      "n": "Michael Bayham",
-      "p": "REP",
-      "usd": 1104,
-      "cycle": 1104
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 455421,
-      "cycle": 0
-     },
-     {
-      "f": "4158",
-      "n": "John Fortunato",
-      "p": "REP",
-      "usd": 219113,
-      "cycle": 0
-     },
-     {
-      "f": "1783",
-      "n": "Michael Bagneris",
-      "p": "DEM",
-      "usd": 175785,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BUISSON CREATIVE",
-     "BUISSON CREATIVE LLC",
-     "BUISSON CREATIVE, L.L.C."
     ]
    }
   },
@@ -5262,6 +5213,159 @@
    }
   },
   {
+   "key": "CARVINCONSULT",
+   "name": "Carvin Consulting",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 10040,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Illing/R/St. Tammany Parish Sheriff",
+     "Lee/R/JP 1st Parish Court Div B"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-19"
+   },
+   "paid": {
+    "total": 580147,
+    "media": 49563,
+    "rows": 119,
+    "media_cycle": 5000,
+    "cycle": 162858,
+    "years": {
+     "2013": 101098,
+     "2014": 32964,
+     "2016": 6991,
+     "2018": 2000,
+     "2020": 250539,
+     "2022": 23698,
+     "2023": 53000,
+     "2025": 44050,
+     "2026": 65808
+    },
+    "committees": 26,
+    "top": [
+     {
+      "f": "6457",
+      "n": "Holly Friedman",
+      "p": "DEM",
+      "usd": 28050,
+      "cycle": 28050
+     },
+     {
+      "f": "2081",
+      "n": "Anh Joseph Cao",
+      "p": "OTH",
+      "usd": 23851,
+      "cycle": 23851
+     },
+     {
+      "f": "1388",
+      "n": "Arnie Fielkow",
+      "p": "DEM",
+      "usd": 20000,
+      "cycle": 20000
+     },
+     {
+      "f": "7611",
+      "n": "JOHN F. LEE",
+      "p": "REP",
+      "usd": 19018,
+      "cycle": 19018
+     },
+     {
+      "f": "6845",
+      "n": "Sidney Barthelemy II",
+      "p": "DEM",
+      "usd": 17939,
+      "cycle": 17939
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 17500,
+      "cycle": 17500
+     },
+     {
+      "f": "5842",
+      "n": "Hunter P. Harris",
+      "p": "OTH",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 15000,
+      "cycle": 8000
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 6000,
+      "cycle": 6000
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5698",
+      "n": "Simone Levine",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 2500,
+      "cycle": 2500
+     },
+     {
+      "f": "2992",
+      "n": "Pat Rooney",
+      "p": "REP",
+      "usd": 141786,
+      "cycle": 0
+     },
+     {
+      "f": "1719",
+      "n": "Terri Love",
+      "p": "DEM",
+      "usd": 98753,
+      "cycle": 0
+     },
+     {
+      "f": "2733",
+      "n": "Barron C. Burmaster",
+      "p": "REP",
+      "usd": 32500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CARVIN CONSULTING, INC.",
+     "CARVIN CONSULTING",
+     "CARVIN CONSULTING INC",
+     "CARVIN CONSULTING INC.",
+     "CARVIN CONSULTING GROUP",
+     "CARVIN CONSULTANTS, INC."
+    ]
+   }
+  },
+  {
    "key": "STRATEGICMEDIASERVICES",
    "name": "Strategic Media Services",
    "found_by": "filings",
@@ -5655,6 +5759,135 @@
    }
   },
   {
+   "key": "JBCOMMUNICATIONS",
+   "name": "JB Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 1428,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Mary/R/22nd JDC Div E"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
+   "paid": {
+    "total": 133356,
+    "media": 3000,
+    "rows": 38,
+    "media_cycle": 3000,
+    "cycle": 133356,
+    "years": {
+     "2023": 9000,
+     "2024": 44987,
+     "2025": 6535,
+     "2026": 72834
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 53987,
+      "cycle": 53987
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 32669,
+      "cycle": 32669
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 25025,
+      "cycle": 25025
+     },
+     {
+      "f": "7263",
+      "n": "SAL BROCATO",
+      "p": "OTH",
+      "usd": 13925,
+      "cycle": 13925
+     },
+     {
+      "f": "7553",
+      "n": "ALFRED GALINDO",
+      "p": "OTH",
+      "usd": 7750,
+      "cycle": 7750
+     }
+    ],
+    "spellings": [
+     "JB COMMUNICATIONS LLC",
+     "JB COMMUNICATIONS"
+    ]
+   }
+  },
+  {
+   "key": "FLEXPOINTMEDIA",
+   "name": "FlexPoint Campaigns",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 3140,
+    "stations": [
+     "KLAX"
+    ],
+    "clients": [
+     "Firment For Congress"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15"
+   },
+   "paid": {
+    "total": 7756209,
+    "media": 3388477,
+    "rows": 39,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 7756209
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "4383",
+      "n": "Edward L. Rispone",
+      "p": "REP",
+      "usd": 7640459,
+      "cycle": 0
+     },
+     {
+      "f": "4927",
+      "n": "Republican State Leadership Committee - Louisiana",
+      "p": "OTH",
+      "usd": 97012,
+      "cycle": 0
+     },
+     {
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 18739,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FLEXPOINT MEDIA INC",
+     "FLEXPOINT MEDIA INC."
+    ]
+   }
+  },
+  {
    "key": "TEDDLIESTUARTMEDIAPARTNERS",
    "name": "Teddlie Stuart Media Partners",
    "found_by": "filings",
@@ -5798,6 +6031,96 @@
    }
   },
   {
+   "key": "ELECTRICSYMPHONYMEDIAHT",
+   "name": "Electric Symphony Media Ht",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 1320,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Dan Patrick for Lt Governor"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15"
+   }
+  },
+  {
+   "key": "MOBILECOMMUNICATIONS",
+   "name": "Mobile Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 190,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16"
+   },
+   "paid": {
+    "total": 17674,
+    "media": 11210,
+    "rows": 7,
+    "media_cycle": 0,
+    "cycle": 5990,
+    "years": {
+     "2011": 10760,
+     "2014": 450,
+     "2015": 475,
+     "2023": 5990
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6043",
+      "n": "Regina Webb",
+      "p": "DEM",
+      "usd": 4990,
+      "cycle": 4990
+     },
+     {
+      "f": "3394",
+      "n": "John Milkovich",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "2190",
+      "n": "Gregory Tarver",
+      "p": "DEM",
+      "usd": 10760,
+      "cycle": 0
+     },
+     {
+      "f": "2884",
+      "n": "Sam L. Jenkins, Jr.",
+      "p": "DEM",
+      "usd": 475,
+      "cycle": 0
+     },
+     {
+      "f": "2686",
+      "n": "Don Decovan Otis",
+      "p": "DEM",
+      "usd": 450,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MOBILE COMMUNICATIONS SERVICE",
+     "MOBILE COMMUNICATION SERVICE",
+     "MOBILE COMMUNICATION SERVICE (ELAW)"
+    ]
+   }
+  },
+  {
    "key": "GRASSROOTSMEDIA",
    "name": "Grassroots Media",
    "found_by": "filings",
@@ -5912,49 +6235,6 @@
     "spellings": [
      "MEDIA STRATEGIES AND RESEARCH",
      "MEDIA STRATEGIES & RESEARCH"
-    ]
-   }
-  },
-  {
-   "key": "FLEXPOINTMEDIA",
-   "name": "Flexpoint Media",
-   "found_by": "filings",
-   "paid": {
-    "total": 7756209,
-    "media": 3388477,
-    "rows": 39,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 7756209
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "4383",
-      "n": "Edward L. Rispone",
-      "p": "REP",
-      "usd": 7640459,
-      "cycle": 0
-     },
-     {
-      "f": "4927",
-      "n": "Republican State Leadership Committee - Louisiana",
-      "p": "OTH",
-      "usd": 97012,
-      "cycle": 0
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 18739,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FLEXPOINT MEDIA INC",
-     "FLEXPOINT MEDIA INC."
     ]
    }
   },
@@ -13210,11 +13490,11 @@
   ],
   "1045": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 99002,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1047": [
@@ -13315,7 +13595,7 @@
     "n": "Ax Media",
     "usd": 69372,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1059": [
@@ -13331,7 +13611,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 14648,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAMCOCONSULT",
@@ -13705,7 +13985,7 @@
     "n": "Arsement Media Group",
     "usd": 50445,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -13825,9 +14105,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 31721,
+    "usd": 33620,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -13840,13 +14120,6 @@
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 4000,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 1899,
     "cycle": 0,
     "fcc": false
    }
@@ -13871,7 +14144,7 @@
     "n": "Ax Media",
     "usd": 140448,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CROSSSCREENMEDIA",
@@ -13963,7 +14236,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 192767,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -14183,7 +14456,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 39934,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1135": [
@@ -14222,11 +14495,11 @@
   ],
   "1143": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 17500,
     "cycle": 12500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -14242,7 +14515,7 @@
     "n": "Arsement Media Group",
     "usd": 3449949,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "D2MEDIA",
@@ -14460,7 +14733,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 220076,
     "cycle": 20180,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESTOWNASSOCIATES",
@@ -14472,11 +14745,11 @@
   ],
   "1184": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 12691,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -14526,7 +14799,7 @@
     "n": "Arsement Media Group",
     "usd": 222078,
     "cycle": 222078,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
@@ -14567,7 +14840,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 20806,
     "cycle": 20806,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1196": [
@@ -14585,7 +14858,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 14077,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1200": [
@@ -14667,7 +14940,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 168648,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -14775,7 +15048,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 13018,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -14848,7 +15121,7 @@
     "n": "Arsement Media Group",
     "usd": 99128,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1262": [
@@ -14893,7 +15166,7 @@
     "n": "Ax Media",
     "usd": 78680,
     "cycle": 78680,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -14907,7 +15180,7 @@
     "n": "Arsement Media Group",
     "usd": 66863,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1285": [
@@ -14934,7 +15207,7 @@
     "n": "Arsement Media Group",
     "usd": 59158,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -14975,7 +15248,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 2983,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1313": [
@@ -15001,11 +15274,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1314": [
@@ -15021,7 +15294,16 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 15000,
-    "fcc": false
+    "fcc": true
+   }
+  ],
+  "1315": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 6000,
+    "cycle": 6000,
+    "fcc": true
    }
   ],
   "1321": [
@@ -15071,7 +15353,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 18300,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -15162,7 +15444,7 @@
     "n": "Arsement Media Group",
     "usd": 9725,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1373": [
@@ -15209,11 +15491,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 31405,
     "cycle": 30655,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -15243,7 +15525,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 51537,
     "cycle": 51537,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -15342,6 +15624,13 @@
   ],
   "1388": [
    {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 20000,
+    "cycle": 20000,
+    "fcc": true
+   },
+   {
     "k": "TEDDLIEMEDIAPARTNERS",
     "n": "Teddlie Media Partners",
     "usd": 19199,
@@ -15401,7 +15690,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 13720,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1397": [
@@ -15424,7 +15713,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 60055,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1399": [
@@ -15515,7 +15804,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 9750,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1418": [
@@ -15611,7 +15900,7 @@
     "n": "Arsement Media Group",
     "usd": 89395,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -15709,7 +15998,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 7500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -15732,7 +16021,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1445": [
@@ -15741,10 +16030,17 @@
     "n": "Buisson Creative Strategies",
     "usd": 575465,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1446": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 6991,
+    "cycle": 0,
+    "fcc": true
+   },
    {
     "k": "CARVINSEDER",
     "n": "Carvin/Seder",
@@ -15782,7 +16078,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 3199,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1450": [
@@ -15878,7 +16174,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 120996,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -15903,7 +16199,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 11359,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1468": [
@@ -15926,7 +16222,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 2400,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DENOSEDERPRODUCTIONS",
@@ -15988,7 +16284,7 @@
     "n": "Ax Media",
     "usd": 18222,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ZETAGLOBAL",
@@ -16004,7 +16300,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 60092,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -16069,9 +16365,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 62679,
+    "usd": 66179,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "INNOVATIVEADVERTISING",
@@ -16086,13 +16382,6 @@
     "usd": 5000,
     "cycle": 0,
     "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 3500,
-    "cycle": 0,
-    "fcc": false
    }
   ],
   "1489": [
@@ -16101,7 +16390,7 @@
     "n": "Arsement Media Group",
     "usd": 121472,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ROUGAROUCONSULT",
@@ -16117,7 +16406,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 7500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1498": [
@@ -16126,7 +16415,14 @@
     "n": "Buisson Creative Strategies",
     "usd": 239636,
     "cycle": 113866,
-    "fcc": false
+    "fcc": true
+   },
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 17500,
+    "cycle": 17500,
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -16158,21 +16454,14 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 57092,
+    "usd": 59289,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESHARTMANANDASSOCIATES",
     "n": "James Hartman & Associates",
     "usd": 15000,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 2197,
     "cycle": 0,
     "fcc": false
    }
@@ -16260,7 +16549,7 @@
     "n": "Arsement Media Group",
     "usd": 16250,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTPRODUCTIONS",
@@ -16473,7 +16762,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 2400,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1559": [
@@ -16491,7 +16780,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 111077,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1561": [
@@ -16546,14 +16835,14 @@
     "n": "Canal Partners Media",
     "usd": 54003,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
-    "usd": 30577,
+    "usd": 35627,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1565": [
@@ -16627,13 +16916,22 @@
     "fcc": false
    }
   ],
+  "1583": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 10000,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1591": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 206076,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VELOCITYAGENCY",
@@ -16739,11 +17037,11 @@
   ],
   "1605": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 15600,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAMCOCONSULT",
@@ -16793,7 +17091,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1618": [
@@ -16827,7 +17125,7 @@
     "n": "Arsement Media Group",
     "usd": 1221,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1625": [
@@ -16888,11 +17186,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 3500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -16949,7 +17247,7 @@
     "n": "Arsement Media Group",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTPRODUCTIONS",
@@ -16965,7 +17263,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 299199,
     "cycle": 813,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GELPIPRODUCTIONSERVICES",
@@ -17066,7 +17364,7 @@
     "n": "Arsement Media Group",
     "usd": 48686,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIESTUARTMEDIAPARTNERS",
@@ -17094,16 +17392,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 10050,
+    "usd": 17041,
     "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 6991,
-    "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1658": [
@@ -17112,7 +17403,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 9664,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1659": [
@@ -17142,11 +17433,11 @@
   ],
   "1661": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 42919,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -17190,18 +17481,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 1100,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 1095,
+    "usd": 2195,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1671": [
@@ -17312,7 +17596,7 @@
     "n": "Arsement Media Group",
     "usd": 81941,
     "cycle": 81941,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAMCOCONSULT",
@@ -17326,7 +17610,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 7063,
     "cycle": 7063,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -17408,7 +17692,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 47877,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1717": [
@@ -17436,6 +17720,13 @@
   ],
   "1719": [
    {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 98753,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "FIREONBAYOU",
     "n": "Fire On The Bayou",
     "usd": 2500,
@@ -17447,7 +17738,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1887,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1720": [
@@ -17456,7 +17747,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 15940,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1722": [
@@ -17520,7 +17811,7 @@
     "n": "Arsement Media Group",
     "usd": 119216,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HTV",
@@ -17597,11 +17888,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 2000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1738": [
@@ -17635,7 +17926,7 @@
     "n": "Arsement Media Group",
     "usd": 132515,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BERNICONSULT",
@@ -17658,7 +17949,7 @@
     "n": "Arsement Media Group",
     "usd": 46628,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "175": [
@@ -17784,24 +18075,17 @@
     "fcc": false
    },
    {
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
+    "usd": 798083,
+    "cycle": 180977,
+    "fcc": true
+   },
+   {
     "k": "MENTZERMEDIA",
     "n": "Mentzer Media",
     "usd": 733000,
     "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 455421,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVESTRATEGIES",
-    "n": "Buisson Creative Strategies",
-    "usd": 342662,
-    "cycle": 180977,
     "fcc": false
    },
    {
@@ -17913,7 +18197,7 @@
     "n": "Arsement Media Group",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "KJACOMMUNICATIONS",
@@ -18021,11 +18305,11 @@
   ],
   "1783": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 175785,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FARWELL",
@@ -18062,7 +18346,7 @@
     "n": "Arsement Media Group",
     "usd": 80628,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -18099,7 +18383,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1795": [
@@ -18111,11 +18395,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 58515,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1796": [
@@ -18124,7 +18408,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 385645,
     "cycle": 132544,
-    "fcc": false
+    "fcc": true
    }
   ],
   "18": [
@@ -18156,21 +18440,14 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 204457,
+    "usd": 233182,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "INNOVATIVEADVERTISING",
     "n": "Innovative Advertising",
     "usd": 116465,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 28725,
     "cycle": 0,
     "fcc": false
    },
@@ -18234,16 +18511,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 38086,
+    "usd": 57695,
     "cycle": 13135,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 19609,
-    "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1823": [
@@ -18261,7 +18531,7 @@
     "n": "Arsement Media Group",
     "usd": 77649,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1826": [
@@ -18284,7 +18554,7 @@
     "n": "Arsement Media Group",
     "usd": 20000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ROYFLETCHER",
@@ -18355,7 +18625,7 @@
     "n": "Arsement Media Group",
     "usd": 101309,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTPRODUCTIONS",
@@ -18421,7 +18691,7 @@
     "n": "Arsement Media Group",
     "usd": 19880,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTPRODUCTIONS",
@@ -18446,7 +18716,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1873": [
@@ -18512,7 +18782,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -18686,11 +18956,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 33734,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -18804,7 +19074,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 2500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "194": [
@@ -18912,11 +19182,11 @@
   ],
   "1962": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 11150,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1963": [
@@ -18998,7 +19268,7 @@
     "n": "Ax Media",
     "usd": 15038,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ROYFLETCHER",
@@ -19014,7 +19284,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1240,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -19030,7 +19300,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1240,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -19192,7 +19462,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1240,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2014": [
@@ -19326,11 +19596,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 9912,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TRADEDESK",
@@ -19423,7 +19693,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 141800,
     "cycle": 27408,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -19439,7 +19709,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 328989,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -19474,11 +19744,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 1104,
     "cycle": 1104,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2055": [
@@ -19528,7 +19798,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 8634,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2072": [
@@ -19576,7 +19846,7 @@
     "n": "Arsement Media Group",
     "usd": 20552,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTPRODUCTIONS",
@@ -19682,6 +19952,13 @@
   ],
   "2081": [
    {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 23851,
+    "cycle": 23851,
+    "fcc": true
+   },
+   {
     "k": "FIREONBAYOU",
     "n": "Fire On The Bayou",
     "usd": 6400,
@@ -19779,7 +20056,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -19794,6 +20071,13 @@
     "usd": 4535,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 2063,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2111": [
@@ -19976,7 +20260,7 @@
     "n": "Arsement Media Group",
     "usd": 10000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2149": [
@@ -20122,7 +20406,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2182": [
@@ -20143,11 +20427,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 10607,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2184": [
@@ -20198,6 +20482,13 @@
     "usd": 12000,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "MOBILECOMMUNICATIONS",
+    "n": "Mobile Communications",
+    "usd": 10760,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2191": [
@@ -20224,7 +20515,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 9108,
     "cycle": 9108,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -20384,7 +20675,7 @@
     "n": "Arsement Media Group",
     "usd": 17960,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -20547,7 +20838,7 @@
     "n": "Arsement Media Group",
     "usd": 153877,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HEALTHYIMAGE",
@@ -20845,16 +21136,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 49944,
+    "usd": 52238,
     "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 2294,
-    "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2345": [
@@ -20863,7 +21147,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 18115,
     "cycle": 18115,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2348": [
@@ -20927,16 +21211,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 27864,
+    "usd": 39440,
     "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 11576,
-    "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2381": [
@@ -21124,7 +21401,7 @@
     "n": "Ax Media",
     "usd": 145094,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -21488,7 +21765,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 2850,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -21531,7 +21808,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2614": [
@@ -21631,11 +21908,27 @@
   ],
   "2661": [
    {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 31113,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 5000,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2663": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 11631,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2664": [
@@ -21683,7 +21976,7 @@
     "n": "Ax Media",
     "usd": 27484,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GOBIGMEDIA",
@@ -21711,7 +22004,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2672": [
@@ -21733,6 +22026,13 @@
    }
   ],
   "2677": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 12377,
+    "cycle": 0,
+    "fcc": true
+   },
    {
     "k": "WYLDFM",
     "n": "Wyld-Fm",
@@ -21770,7 +22070,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 5750,
     "cycle": 5750,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESTOWNASSOCIATES",
@@ -21875,6 +22175,15 @@
     "fcc": false
    }
   ],
+  "2725": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 10501,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "2726": [
    {
     "k": "TRIBUNE",
@@ -21918,11 +22227,27 @@
   ],
   "2733": [
    {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 32500,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 4500,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2739": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 5475,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2740": [
@@ -21947,7 +22272,7 @@
     "n": "Arsement Media Group",
     "usd": 62447,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2752": [
@@ -21974,7 +22299,7 @@
     "n": "Arsement Media Group",
     "usd": 23891,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2765": [
@@ -22006,7 +22331,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2774": [
@@ -22040,7 +22365,14 @@
     "n": "Buisson Creative Strategies",
     "usd": 158414,
     "cycle": 70264,
-    "fcc": false
+    "fcc": true
+   },
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 5000,
+    "cycle": 5000,
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -22090,7 +22422,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 70674,
     "cycle": 40850,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "PEOPLEWHOTHINK",
@@ -22106,7 +22438,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 19119,
     "cycle": 4475,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BULLSEYEMEDIA",
@@ -22166,14 +22498,14 @@
     "n": "Arsement Media Group",
     "usd": 86280,
     "cycle": 25000,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "AXMEDIA",
     "n": "Ax Media",
     "usd": 78369,
     "cycle": 78369,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -22237,7 +22569,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "MUNSON",
@@ -22333,7 +22665,7 @@
     "n": "Ax Media",
     "usd": 22818,
     "cycle": 22818,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LR3CONSULT",
@@ -22456,7 +22788,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 22401,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2836": [
@@ -22499,7 +22831,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 72988,
     "cycle": 22528,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WWLTV",
@@ -22593,7 +22925,7 @@
     "n": "Arsement Media Group",
     "usd": 396337,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -22618,7 +22950,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 112846,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2875": [
@@ -22772,7 +23104,7 @@
     "n": "Ax Media",
     "usd": 30806,
     "cycle": 30806,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2910": [
@@ -22833,7 +23165,7 @@
     "n": "Arsement Media Group",
     "usd": 15177,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "YOUNGBROADCASTING",
@@ -22938,7 +23270,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 31945,
     "cycle": 21775,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2940": [
@@ -22947,7 +23279,7 @@
     "n": "Arsement Media Group",
     "usd": 18042,
     "cycle": 18042,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2949": [
@@ -22974,7 +23306,7 @@
     "n": "Arsement Media Group",
     "usd": 223175,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2981": [
@@ -22983,7 +23315,7 @@
     "n": "Arsement Media Group",
     "usd": 175634,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "KAPLANADVERTISING",
@@ -22991,6 +23323,15 @@
     "usd": 25950,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2992": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 141786,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2994": [
@@ -23008,7 +23349,7 @@
     "n": "Arsement Media Group",
     "usd": 33760,
     "cycle": 7490,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2997": [
@@ -23060,7 +23401,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 58970,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3009": [
@@ -23197,11 +23538,11 @@
   ],
   "3050": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 5344,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3055": [
@@ -23262,7 +23603,7 @@
     "n": "Ax Media",
     "usd": 51512,
     "cycle": 51512,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -23299,7 +23640,7 @@
     "n": "Arsement Media Group",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "309": [
@@ -23315,7 +23656,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1378,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3092": [
@@ -23334,6 +23675,15 @@
     "usd": 1500,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "3096": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 18401,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "31": [
@@ -23363,7 +23713,7 @@
     "n": "Arsement Media Group",
     "usd": 20733,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "KQXLFM",
@@ -23473,9 +23823,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 13678,
+    "usd": 14028,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3146": [
@@ -23613,9 +23963,9 @@
    {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
-    "usd": 15526,
+    "usd": 139513,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3213": [
@@ -23667,7 +24017,7 @@
     "n": "Arsement Media Group",
     "usd": 6750,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3224": [
@@ -23699,7 +24049,7 @@
     "n": "Arsement Media Group",
     "usd": 97819,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -23861,7 +24211,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 19018,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3285": [
@@ -23913,7 +24263,7 @@
     "n": "Arsement Media Group",
     "usd": 46532,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3305": [
@@ -24034,7 +24384,7 @@
     "n": "Ax Media",
     "usd": 20958,
     "cycle": 20958,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3324": [
@@ -24125,7 +24475,7 @@
     "n": "Arsement Media Group",
     "usd": 55922,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3347": [
@@ -24371,14 +24721,14 @@
     "n": "Ax Media",
     "usd": 60494,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
     "usd": 14465,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3394": [
@@ -24409,6 +24759,13 @@
     "usd": 27885,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "MOBILECOMMUNICATIONS",
+    "n": "Mobile Communications",
+    "usd": 1000,
+    "cycle": 1000,
+    "fcc": true
    }
   ],
   "3395": [
@@ -24424,7 +24781,7 @@
     "n": "Arsement Media Group",
     "usd": 53047,
     "cycle": 53047,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -24443,9 +24800,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 19007,
+    "usd": 20907,
     "cycle": 75,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -24458,13 +24815,6 @@
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 4000,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 1900,
     "cycle": 0,
     "fcc": false
    }
@@ -24487,20 +24837,20 @@
   ],
   "3407": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3409": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 84434,
     "cycle": 39533,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3413": [
@@ -24546,7 +24896,7 @@
     "n": "Arsement Media Group",
     "usd": 38392,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LR3CONSULT",
@@ -24722,7 +25072,7 @@
     "n": "Arsement Media Group",
     "usd": 126568,
     "cycle": 15000,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JONESCOMMUNICATIONS",
@@ -24988,7 +25338,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3572": [
@@ -25069,7 +25419,7 @@
     "n": "Arsement Media Group",
     "usd": 3015,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3630": [
@@ -25078,7 +25428,7 @@
     "n": "Arsement Media Group",
     "usd": 42209,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3635": [
@@ -25131,11 +25481,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "365": [
@@ -25192,7 +25542,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 4500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "367": [
@@ -25201,7 +25551,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 277081,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "COMMUNICATIONS",
@@ -25341,11 +25691,11 @@
   ],
   "3715": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 19418,
     "cycle": 19418,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3717": [
@@ -25393,16 +25743,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 94299,
+    "usd": 102941,
     "cycle": 42973,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 8642,
-    "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3760": [
@@ -25459,7 +25802,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 39449,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3817": [
@@ -25495,7 +25838,7 @@
     "n": "Ax Media",
     "usd": 75000,
     "cycle": 75000,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BULLSEYEMEDIA",
@@ -25516,7 +25859,7 @@
     "n": "Arsement Media Group",
     "usd": 24024,
     "cycle": 24024,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -25582,7 +25925,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 59076,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LEBLANCANDSHUSTERPUBLICRELATIONS",
@@ -25621,7 +25964,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 3949,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -25857,7 +26200,7 @@
     "n": "Arsement Media Group",
     "usd": 97554,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3939": [
@@ -25903,7 +26246,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3942": [
@@ -26012,7 +26355,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 2520,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "400": [
@@ -26064,7 +26407,7 @@
     "n": "Arsement Media Group",
     "usd": 118088,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4030": [
@@ -26126,7 +26469,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4039": [
@@ -26206,7 +26549,7 @@
     "n": "Ax Media",
     "usd": 273649,
     "cycle": 156095,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -26220,7 +26563,7 @@
     "n": "Arsement Media Group",
     "usd": 91691,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4055": [
@@ -26273,7 +26616,7 @@
     "n": "Arsement Media Group",
     "usd": 31739,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4060": [
@@ -26367,11 +26710,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4087": [
@@ -26389,7 +26732,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 9643,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WINPARTNERS",
@@ -26412,7 +26755,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4093": [
@@ -26458,11 +26801,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 45989,
     "cycle": 29989,
-    "fcc": false
+    "fcc": true
    }
   ],
   "410": [
@@ -26471,7 +26814,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 7500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4100": [
@@ -26714,11 +27057,11 @@
   ],
   "4158": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 219113,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "COMPOSE",
@@ -26750,7 +27093,7 @@
     "n": "Arsement Media Group",
     "usd": 47782,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -26889,7 +27232,7 @@
     "n": "Ax Media",
     "usd": 126291,
     "cycle": 126291,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -26912,7 +27255,7 @@
     "n": "Arsement Media Group",
     "usd": 98070,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -26920,6 +27263,13 @@
     "usd": 82202,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 15000,
+    "cycle": 8000,
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -26944,7 +27294,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 17328,
     "cycle": 5000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "419": [
@@ -26953,7 +27303,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 17834,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4192": [
@@ -26980,7 +27330,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 10134,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "42": [
@@ -27078,7 +27428,7 @@
     "n": "Ax Media",
     "usd": 11285,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BRAVENEWTELEVISION",
@@ -27099,11 +27449,11 @@
   ],
   "4220": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 3838,
     "cycle": 3488,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4221": [
@@ -27256,7 +27606,7 @@
     "n": "Ax Media",
     "usd": 36456,
     "cycle": 30216,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ZETAGLOBAL",
@@ -27311,11 +27661,11 @@
   ],
   "4264": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 15616,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4265": [
@@ -27360,7 +27710,7 @@
     "n": "Arsement Media Group",
     "usd": 111251,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4277": [
@@ -27378,7 +27728,7 @@
     "n": "Arsement Media Group",
     "usd": 137015,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIESTUARTMEDIAPARTNERS",
@@ -27401,7 +27751,7 @@
     "n": "Ax Media",
     "usd": 54296,
     "cycle": 54296,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -27463,11 +27813,11 @@
   ],
   "4313": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 1257,
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
+    "usd": 2132,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4314": [
@@ -27485,7 +27835,7 @@
     "n": "Arsement Media Group",
     "usd": 52025,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BURNINGSTICKCREATIVE",
@@ -27510,7 +27860,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1082,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4331": [
@@ -27535,7 +27885,7 @@
     "n": "Canal Partners Media",
     "usd": 238975,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -27637,10 +27987,10 @@
   "4383": [
    {
     "k": "FLEXPOINTMEDIA",
-    "n": "Flexpoint Media",
+    "n": "FlexPoint Campaigns",
     "usd": 7640459,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "SOMETHINGELSESTRATEGIES",
@@ -27693,7 +28043,7 @@
     "n": "Arsement Media Group",
     "usd": 54624,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIESTUARTMEDIAPARTNERS",
@@ -27748,7 +28098,7 @@
     "n": "Arsement Media Group",
     "usd": 85293,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HEALTHYIMAGE",
@@ -27842,7 +28192,7 @@
     "n": "Arsement Media Group",
     "usd": 263186,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4420": [
@@ -27894,7 +28244,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 60266,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4430": [
@@ -27958,7 +28308,7 @@
     "n": "Ax Media",
     "usd": 27255,
     "cycle": 27255,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DEVISESTRATEGY",
@@ -28174,11 +28524,11 @@
   ],
   "4485": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 72621,
     "cycle": 72621,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4489": [
@@ -28217,7 +28567,7 @@
     "n": "Arsement Media Group",
     "usd": 44906,
     "cycle": 44906,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4495": [
@@ -28251,7 +28601,7 @@
     "n": "Ax Media",
     "usd": 13572,
     "cycle": 13572,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4510": [
@@ -28360,7 +28710,7 @@
     "n": "Arsement Media Group",
     "usd": 116298,
     "cycle": 30880,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BURNINGSTICKCREATIVE",
@@ -28383,7 +28733,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 204906,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DENOSEDERPRODUCTIONS",
@@ -28531,7 +28881,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 4116,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4569": [
@@ -28565,7 +28915,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 5321,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4582": [
@@ -28615,7 +28965,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 75836,
     "cycle": 1600,
-    "fcc": false
+    "fcc": true
    }
   ],
   "460": [
@@ -28679,7 +29029,7 @@
     "n": "Ax Media",
     "usd": 19364,
     "cycle": 19364,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4607": [
@@ -29002,7 +29352,7 @@
     "n": "Ax Media",
     "usd": 173468,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -29043,7 +29393,7 @@
     "n": "Ax Media",
     "usd": 7521,
     "cycle": 7521,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ZETAGLOBAL",
@@ -29262,11 +29612,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 2000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -29310,6 +29660,13 @@
     "fcc": false
    },
    {
+    "k": "MEDIAADVENTURES",
+    "n": "Media Ad Ventures",
+    "usd": 18000,
+    "cycle": 18000,
+    "fcc": true
+   },
+   {
     "k": "LR3CONSULT",
     "n": "Lr3 Consulting",
     "usd": 8000,
@@ -29334,10 +29691,10 @@
   "4927": [
    {
     "k": "FLEXPOINTMEDIA",
-    "n": "Flexpoint Media",
+    "n": "FlexPoint Campaigns",
     "usd": 97012,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "IMGE",
@@ -29590,7 +29947,7 @@
     "n": "Ax Media",
     "usd": 35749,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CROSSSCREENMEDIA",
@@ -29613,7 +29970,7 @@
     "n": "Ax Media",
     "usd": 9360,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5052": [
@@ -29640,29 +29997,22 @@
     "n": "Buisson Creative Strategies",
     "usd": 29592,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5061": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 236134,
-    "cycle": 218040,
-    "fcc": false
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
+    "usd": 276167,
+    "cycle": 224402,
+    "fcc": true
    },
    {
     "k": "VELOCITYAGENCY",
     "n": "Velocity Agency",
     "usd": 143977,
     "cycle": 0,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVESTRATEGIES",
-    "n": "Buisson Creative Strategies",
-    "usd": 40033,
-    "cycle": 6361,
     "fcc": false
    }
   ],
@@ -29751,7 +30101,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 36497,
     "cycle": 335,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5083": [
@@ -29760,7 +30110,7 @@
     "n": "Arsement Media Group",
     "usd": 112746,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5089": [
@@ -29871,7 +30221,7 @@
     "n": "Ax Media",
     "usd": 15323,
     "cycle": 15310,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ZETAGLOBAL",
@@ -29903,7 +30253,7 @@
     "n": "Arsement Media Group",
     "usd": 3948,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5149": [
@@ -29944,7 +30294,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 43622,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5154": [
@@ -29962,7 +30312,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 71887,
     "cycle": 332,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5162": [
@@ -29971,16 +30321,23 @@
     "n": "Buisson Creative Strategies",
     "usd": 8515,
     "cycle": 971,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5167": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 63351,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
+   },
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 10000,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "5168": [
@@ -30227,7 +30584,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 34025,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5290": [
@@ -30236,7 +30593,7 @@
     "n": "Canal Partners Media",
     "usd": 3215,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5292": [
@@ -30245,7 +30602,7 @@
     "n": "Arsement Media Group",
     "usd": 29069,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5298": [
@@ -30345,7 +30702,7 @@
     "n": "Arsement Media Group",
     "usd": 4000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5320": [
@@ -30470,7 +30827,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 3887,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5373": [
@@ -30520,7 +30877,7 @@
     "n": "Arsement Media Group",
     "usd": 64668,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "54": [
@@ -30580,7 +30937,7 @@
     "n": "Ax Media",
     "usd": 36125,
     "cycle": 36125,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5401": [
@@ -30598,7 +30955,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 20582,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -30712,7 +31069,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 10876,
     "cycle": 10876,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5470": [
@@ -30722,6 +31079,15 @@
     "usd": 2500,
     "cycle": 2500,
     "fcc": false
+   }
+  ],
+  "5471": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 2500,
+    "cycle": 2500,
+    "fcc": true
    }
   ],
   "5472": [
@@ -30753,11 +31119,11 @@
   ],
   "5488": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 28695,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5489": [
@@ -30793,7 +31159,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 69148,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "550": [
@@ -30834,7 +31200,7 @@
     "n": "Arsement Media Group",
     "usd": 37034,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BERLINROSEN",
@@ -30933,11 +31299,11 @@
   ],
   "5530": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5540": [
@@ -31021,7 +31387,7 @@
     "n": "Ax Media",
     "usd": 21084,
     "cycle": 2108,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -31044,7 +31410,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 19138,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5567": [
@@ -31080,7 +31446,7 @@
     "n": "Ax Media",
     "usd": 302165,
     "cycle": 302165,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -31156,11 +31522,11 @@
   ],
   "5599": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 96637,
     "cycle": 27208,
-    "fcc": false
+    "fcc": true
    }
   ],
   "560": [
@@ -31220,6 +31586,15 @@
     "fcc": false
    }
   ],
+  "5698": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 5000,
+    "cycle": 5000,
+    "fcc": true
+   }
+  ],
   "5706": [
    {
     "k": "OURSOBEYCHOK",
@@ -31258,7 +31633,7 @@
     "n": "Ax Media",
     "usd": 7540,
     "cycle": 7540,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5740": [
@@ -31267,7 +31642,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 10732,
     "cycle": 2792,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5753": [
@@ -31389,7 +31764,7 @@
     "n": "Arsement Media Group",
     "usd": 127398,
     "cycle": 112398,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DEVISESTRATEGY",
@@ -31397,6 +31772,15 @@
     "usd": 98584,
     "cycle": 98584,
     "fcc": false
+   }
+  ],
+  "5842": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 10000,
+    "cycle": 10000,
+    "fcc": true
    }
   ],
   "5846": [
@@ -31543,7 +31927,7 @@
     "n": "Ax Media",
     "usd": 24992,
     "cycle": 24992,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -31661,7 +32045,7 @@
     "n": "Arsement Media Group",
     "usd": 141170,
     "cycle": 141170,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FLETCHERCONSULT",
@@ -31903,7 +32287,7 @@
     "n": "Ax Media",
     "usd": 44096,
     "cycle": 44096,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HEALTHYIMAGE",
@@ -31996,7 +32380,7 @@
     "n": "Ax Media",
     "usd": 126668,
     "cycle": 126668,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -32131,7 +32515,16 @@
     "n": "Arsement Media Group",
     "usd": 175901,
     "cycle": 175901,
-    "fcc": false
+    "fcc": true
+   }
+  ],
+  "6043": [
+   {
+    "k": "MOBILECOMMUNICATIONS",
+    "n": "Mobile Communications",
+    "usd": 4990,
+    "cycle": 4990,
+    "fcc": true
    }
   ],
   "605": [
@@ -32140,7 +32533,7 @@
     "n": "Arsement Media Group",
     "usd": 38314,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HTV10",
@@ -32364,7 +32757,7 @@
     "n": "Arsement Media Group",
     "usd": 33216,
     "cycle": 33216,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DEVISESTRATEGY",
@@ -32389,7 +32782,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 15000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6173": [
@@ -32405,16 +32798,9 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 33731,
-    "cycle": 33731,
-    "fcc": false
-   },
-   {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 6500,
-    "cycle": 6500,
-    "fcc": false
+    "usd": 40231,
+    "cycle": 40231,
+    "fcc": true
    }
   ],
   "6180": [
@@ -32732,7 +33118,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 247232,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "NATIONALCABLECOMMUNICATIONS",
@@ -32841,6 +33227,13 @@
   ],
   "6351": [
    {
+    "k": "JBCOMMUNICATIONS",
+    "n": "JB Communications",
+    "usd": 53987,
+    "cycle": 53987,
+    "fcc": true
+   },
+   {
     "k": "FIREONBAYOU",
     "n": "Fire On The Bayou",
     "usd": 32735,
@@ -32854,7 +33247,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 48037,
     "cycle": 48037,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6355": [
@@ -32982,11 +33375,11 @@
     "fcc": false
    },
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
     "usd": 145471,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "643": [
@@ -33004,10 +33397,17 @@
     "n": "Arsement Media Group",
     "usd": 36719,
     "cycle": 36719,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6457": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 28050,
+    "cycle": 28050,
+    "fcc": true
+   },
    {
     "k": "FIREONBAYOU",
     "n": "Fire On The Bayou",
@@ -33117,7 +33517,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 87504,
     "cycle": 69562,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -33213,7 +33613,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 16842,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -33306,7 +33706,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1250,
     "cycle": 1250,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6552": [
@@ -33374,7 +33774,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 10105,
     "cycle": 10105,
-    "fcc": false
+    "fcc": true
    }
   ],
   "657": [
@@ -33426,7 +33826,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 15000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6594": [
@@ -33444,7 +33844,7 @@
     "n": "Canal Partners Media",
     "usd": 100000,
     "cycle": 100000,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -33460,7 +33860,7 @@
     "n": "Arsement Media Group",
     "usd": 22050,
     "cycle": 22050,
-    "fcc": false
+    "fcc": true
    }
   ],
   "660": [
@@ -33478,7 +33878,7 @@
     "n": "Arsement Media Group",
     "usd": 55500,
     "cycle": 55500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -33490,11 +33890,18 @@
   ],
   "6646": [
    {
+    "k": "JBCOMMUNICATIONS",
+    "n": "JB Communications",
+    "usd": 32669,
+    "cycle": 32669,
+    "fcc": true
+   },
+   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 11128,
-    "cycle": 11128,
-    "fcc": false
+    "usd": 19648,
+    "cycle": 19648,
+    "fcc": true
    }
   ],
   "6677": [
@@ -33503,7 +33910,7 @@
     "n": "Arsement Media Group",
     "usd": 251932,
     "cycle": 251932,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6687": [
@@ -33521,7 +33928,7 @@
     "n": "Arsement Media Group",
     "usd": 7500,
     "cycle": 7500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6694": [
@@ -33530,7 +33937,7 @@
     "n": "Arsement Media Group",
     "usd": 44630,
     "cycle": 44630,
-    "fcc": false
+    "fcc": true
    }
   ],
   "670": [
@@ -33557,7 +33964,7 @@
     "n": "Arsement Media Group",
     "usd": 64245,
     "cycle": 64245,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6719": [
@@ -33818,6 +34225,13 @@
   ],
   "6845": [
    {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 17939,
+    "cycle": 17939,
+    "fcc": true
+   },
+   {
     "k": "FIREONBAYOU",
     "n": "Fire On The Bayou",
     "usd": 13550,
@@ -33915,7 +34329,7 @@
     "n": "Arsement Media Group",
     "usd": 15000,
     "cycle": 15000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "69": [
@@ -33993,7 +34407,7 @@
     "n": "Arsement Media Group",
     "usd": 1756,
     "cycle": 1756,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6926": [
@@ -34011,7 +34425,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 1629,
     "cycle": 1629,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7029": [
@@ -34020,7 +34434,7 @@
     "n": "Arsement Media Group",
     "usd": 10000,
     "cycle": 10000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "711": [
@@ -34047,7 +34461,7 @@
     "n": "Arsement Media Group",
     "usd": 23612,
     "cycle": 23612,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7161": [
@@ -34125,7 +34539,7 @@
     "n": "Arsement Media Group",
     "usd": 11823,
     "cycle": 11823,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7263": [
@@ -34134,7 +34548,14 @@
     "n": "Buisson Creative Strategies",
     "usd": 14400,
     "cycle": 14400,
-    "fcc": false
+    "fcc": true
+   },
+   {
+    "k": "JBCOMMUNICATIONS",
+    "n": "JB Communications",
+    "usd": 13925,
+    "cycle": 13925,
+    "fcc": true
    }
   ],
   "7276": [
@@ -34159,7 +34580,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 4327,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -34245,10 +34666,17 @@
     "n": "Buisson Creative Strategies",
     "usd": 8500,
     "cycle": 8500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7532": [
+   {
+    "k": "JBCOMMUNICATIONS",
+    "n": "JB Communications",
+    "usd": 25025,
+    "cycle": 25025,
+    "fcc": true
+   },
    {
     "k": "VELOCITYAGENCY",
     "n": "Velocity Agency",
@@ -34280,6 +34708,15 @@
     "usd": 15280,
     "cycle": 15280,
     "fcc": false
+   }
+  ],
+  "7553": [
+   {
+    "k": "JBCOMMUNICATIONS",
+    "n": "JB Communications",
+    "usd": 7750,
+    "cycle": 7750,
+    "fcc": true
    }
   ],
   "7557": [
@@ -34330,6 +34767,15 @@
     "usd": 1695,
     "cycle": 1695,
     "fcc": false
+   }
+  ],
+  "7611": [
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 19018,
+    "cycle": 19018,
+    "fcc": true
    }
   ],
   "770": [
@@ -34390,23 +34836,16 @@
     "n": "Buisson Creative Strategies",
     "usd": 253022,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "781": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 245169,
-    "cycle": 14263,
-    "fcc": false
-   },
-   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 199329,
-    "cycle": 0,
-    "fcc": false
+    "usd": 444499,
+    "cycle": 14263,
+    "fcc": true
    },
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -34514,7 +34953,7 @@
     "n": "Arsement Media Group",
     "usd": 509673,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -34522,6 +34961,13 @@
     "usd": 179683,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "CARVINCONSULT",
+    "n": "Carvin Consulting",
+    "usd": 18698,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -34544,7 +34990,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 24671,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "801": [
@@ -34587,7 +35033,7 @@
     "n": "Arsement Media Group",
     "usd": 257934,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAMCOCONSULT",
@@ -34628,7 +35074,7 @@
     "n": "Arsement Media Group",
     "usd": 18300,
     "cycle": 18300,
-    "fcc": false
+    "fcc": true
    }
   ],
   "82": [
@@ -34839,7 +35285,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 35526,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -34887,7 +35333,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 40320,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "867": [
@@ -35009,7 +35455,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 21671,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "915": [
@@ -35023,18 +35469,11 @@
   ],
   "918": [
    {
-    "k": "BUISSONCREATIVE",
-    "n": "Buisson Creative",
-    "usd": 63275,
-    "cycle": 0,
-    "fcc": false
-   },
-   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 47605,
+    "usd": 110880,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -35075,7 +35514,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 6500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -35266,7 +35705,7 @@
     "n": "Arsement Media Group",
     "usd": 94350,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -35319,7 +35758,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 60486,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "948": [
@@ -35513,7 +35952,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 18406,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIEMEDIAPARTNERS",
@@ -35529,7 +35968,7 @@
     "n": "Buisson Creative Strategies",
     "usd": 22019,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "98": [
@@ -35704,7 +36143,7 @@
     "n": "Ax Media",
     "usd": 2647,
     "cycle": 2647,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DEVISESTRATEGY",
@@ -35801,10 +36240,10 @@
    },
    {
     "k": "FLEXPOINTMEDIA",
-    "n": "Flexpoint Media",
+    "n": "FlexPoint Campaigns",
     "usd": 18739,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LIQUIDVENTURES",
@@ -36328,6 +36767,10 @@
    "Blair Edwards",
    "REP"
   ],
+  "1315": [
+   "Arthur L. Hunter",
+   "DEM"
+  ],
   "1321": [
    "Chandler Loupe",
    "REP"
@@ -36719,6 +37162,10 @@
   "1579": [
    "Sherri Smith Cheek",
    "REP"
+  ],
+  "1583": [
+   "Ann Murry Keller",
+   "OTH"
   ],
   "1591": [
    "Ben Zahn",
@@ -38048,6 +38495,10 @@
    "Douglas Hammel",
    "DEM"
   ],
+  "2663": [
+   "Allison Bowler",
+   "REP"
+  ],
   "2664": [
    "Hilary Landry",
    "REP"
@@ -38116,6 +38567,10 @@
    "Clinton Smith, Jr.",
    "DEM"
   ],
+  "2725": [
+   "Marie A. Bookman",
+   "DEM"
+  ],
   "2726": [
    "D. Nicole Sheppard",
    "DEM"
@@ -38131,6 +38586,10 @@
   "2733": [
    "Barron C. Burmaster",
    "REP"
+  ],
+  "2739": [
+   "Harry Cantrell",
+   "DEM"
   ],
   "2740": [
    "Stephen Michael Petit, Jr.",
@@ -38448,6 +38907,10 @@
    "Kip A. Judice",
    "REP"
   ],
+  "2992": [
+   "Pat Rooney",
+   "REP"
+  ],
   "2994": [
    "Angel G. Varnado",
    "DEM"
@@ -38559,6 +39022,10 @@
   "3093": [
    "Raymond Griffin, Jr.",
    "OTH"
+  ],
+  "3096": [
+   "John J. Erny, III",
+   "REP"
   ],
   "31": [
    "Kathleen Babineaux Blanco",
@@ -40736,6 +41203,10 @@
    "Freddie King III",
    "DEM"
   ],
+  "5471": [
+   "Delisha Boyd",
+   "DEM"
+  ],
   "5472": [
    "Vina Nguyen",
    "REP"
@@ -40888,6 +41359,10 @@
    "Nathaniel Rust",
    "OTH"
   ],
+  "5698": [
+   "Simone Levine",
+   "DEM"
+  ],
   "5706": [
    "Adam Kwentua",
    "DEM"
@@ -40951,6 +41426,10 @@
   "5839": [
    "Brach Myers",
    "REP"
+  ],
+  "5842": [
+   "Hunter P. Harris",
+   "OTH"
   ],
   "5846": [
    "Linda Gram Burgess",
@@ -41175,6 +41654,10 @@
   "6040": [
    "Monique Blanco Boulet",
    "REP"
+  ],
+  "6043": [
+   "Regina Webb",
+   "DEM"
   ],
   "605": [
    "Damon J. Baldone",
@@ -41804,6 +42287,10 @@
    "Michael Smith",
    "OTH"
   ],
+  "7553": [
+   "ALFRED GALINDO",
+   "OTH"
+  ],
   "7557": [
    "Adam Cossey",
    "OTH"
@@ -41819,6 +42306,10 @@
   "7609": [
    "Whitney Germany",
    "OTH"
+  ],
+  "7611": [
+   "JOHN F. LEE",
+   "REP"
   ],
   "770": [
    "Ann D. Duplessis",

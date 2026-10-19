@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-10-19T01:27:54Z",
+ "scraped": "2026-10-19T17:16:23Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "34377",
    "root_folder": "f0ae9f95-558c-277a-75dd-b2e28ffe51cb",
    "profile": "am-profile/wwl",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2017": "38eb5549-6323-1e6d-bd47-90c80751145c",
     "2018": "73751ad0-9e0e-9d04-16a4-de57a6bc586f",
@@ -33,6 +33,7 @@
     "Political Files/2026/Federal/US Senate/Bill Cassidy for Senate": "7f48d2d9-1377-715a-a7ea-cd508b55232f",
     "Political Files/2026/Local": "727d389e-6633-ee5b-1b85-bccd0fbb3425",
     "Political Files/2026/Local/Brian Brennan for Kenner City Council": "83908d0a-8afb-6f02-ae08-8a7e5fab59b6",
+    "Political Files/2026/Local/Friends of Simone Levine": "861a7ac4-d40b-3026-99e0-ae71399c5771",
     "Political Files/2026/Local/Sydney Barthelemy for Senate District 3": "7ba2c824-7919-3daf-1892-70aba516d0bc",
     "Political Files/2026/Non-Candidate Issue Ads": "0a6e2b3c-b738-230d-24f8-b9d23a6b8ce6",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc": "6252ba23-4833-557d-befe-b0d0700fc7ee",
@@ -48,6 +49,24 @@
     "Political Files/2026/Terms and Disclosures/Invoices": "7243f4d2-d5ab-fccf-6e25-9268de5fb29b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Friends of Simone Levine",
+     "name": "3447059-WWL-Friends of Simone Levine -NAB",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T13:05:39-04:00",
+     "folder_id": "861a7ac4-d40b-3026-99e0-ae71399c5771",
+     "file_id": "21892dc8-2031-fea0-d514-f4a480a861e9",
+     "file_manager_id": "880369ac-2830-41eb-8461-8b102d59c81e"
+    },
+    {
+     "path": "Political Files/2026/Local/Friends of Simone Levine",
+     "name": "3447059-WWL-Friends of Simone Levine -order",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T13:05:39-04:00",
+     "folder_id": "861a7ac4-d40b-3026-99e0-ae71399c5771",
+     "file_id": "20718a00-32f6-df53-8c5b-4f358c458c0c",
+     "file_manager_id": "350f90d0-b178-4585-86f0-47766c32a41e"
+    },
     {
      "path": "Political Files/2026/State/Friends of Simone Levine",
      "name": "3447059-WWL-Friends of Simone Levine -NAB",
@@ -669,7 +688,7 @@
    "facility_id": "60707",
    "root_folder": "49864aa4-4269-2f4d-cc27-6bb284bcc2cf",
    "profile": "am-profile/wyld",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "a465475b-29e4-fdd5-d1fc-706f085f0b17",
     "2015": "f67a1ebc-567e-38cb-d239-d19973103ed6",
@@ -772,7 +791,7 @@
    "facility_id": "54890",
    "root_folder": "2c634176-7d25-f7b9-6f93-1df6083e7736",
    "profile": "fm-profile/wrno-fm",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "cbf5076c-a386-a661-007f-04219e8a41df",
     "2015": "0b768790-1e57-e958-6b83-ff3eed4ee6c7",
@@ -2310,7 +2329,7 @@
    "facility_id": "11915",
    "root_folder": "593affec-3748-8fab-612a-c0f829ef734c",
    "profile": "fm-profile/wque-fm",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "098af428-b143-6a5d-9c60-c113cd91f997",
     "2015": "5db0f113-dec9-2dcc-b051-38b24f52574e",
@@ -2439,7 +2458,7 @@
    "facility_id": "12682",
    "root_folder": "5f817903-4735-2b57-e988-4aac3edae047",
    "profile": "am-profile/kpel",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "d022ecb2-8215-4bf2-e3c8-fbc7b8d42d2a",
     "2015": "dbed64b7-5bca-073d-7315-b6c9685b394c",
@@ -2541,7 +2560,7 @@
    "facility_id": "4054",
    "root_folder": "7a26cfff-38dd-e41c-8521-21d394e9d42a",
    "profile": "am-profile/wjbo",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "372007e5-244c-e8d6-662f-3d768451f313",
     "2015": "c51a627d-df94-e1b0-d6ad-49b9aa6edb5c",
@@ -2566,6 +2585,42 @@
     "Political Files/2026/Non-Candidate Issue Ads": "f31077ea-05a1-ca1d-18dd-eb0023da05ce"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "club_for_growth_nab_1100687480",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T12:23:17-04:00",
+     "folder_id": "f31077ea-05a1-ca1d-18dd-eb0023da05ce",
+     "file_id": "7714a3e6-f662-9345-33bf-848670db68a1",
+     "file_manager_id": "b539362a-8ae3-4583-bc87-7e63063ca860"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "blake_miguez_for_louisiana_nab_1100687513",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T12:13:41-04:00",
+     "folder_id": "58712e4b-0fde-f3d0-a89f-9bd25e589109",
+     "file_id": "0ce7c190-f550-810a-4ea3-bd8516f00bb0",
+     "file_manager_id": "a4220ede-e334-404c-a0f4-825ed2469c9f"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "club_for_growth_order_confirmation_1100687480",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T03:06:23-04:00",
+     "folder_id": "f31077ea-05a1-ca1d-18dd-eb0023da05ce",
+     "file_id": "632b0bc2-d186-69c8-6174-6e8eb8597a64",
+     "file_manager_id": "e262c5db-ec25-4c03-95b6-cf305a117a88"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "blake_miguez_for_congress_order_confirmation_1100687513",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T03:06:19-04:00",
+     "folder_id": "58712e4b-0fde-f3d0-a89f-9bd25e589109",
+     "file_id": "8edcc1f8-608a-e63c-67d4-2c00bbd486ba",
+     "file_manager_id": "853e9d59-5049-4942-9af4-6fcd8b33bdd9"
+    },
     {
      "path": "Political Files/2026/Federal/US House",
      "name": "blake_miguez_for_congress_order_confirmation_1100687513",
@@ -5635,7 +5690,7 @@
    "facility_id": "46983",
    "root_folder": "f5c9ed49-1e9e-0987-42e8-1a5f5ac5a2bb",
    "profile": "am-profile/keel",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "30b2b76d-7e1a-c097-c846-5fefcdecfbe8",
     "2015": "c5764378-5b4e-ecae-effc-22ebef86b221",
@@ -7300,7 +7355,7 @@
    "facility_id": "12157",
    "root_folder": "3846803d-b351-3fea-4372-9af90639fc1a",
    "profile": "fm-profile/kmez",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2018": "b56ce87c-49c1-e307-78f1-fcc22f64a21a",
     "2019": "90c2352d-ff23-9061-0a5d-abba3df1bca2",
@@ -7391,7 +7446,7 @@
    "facility_id": "58394",
    "root_folder": "20cbab09-6499-fde5-32d6-a6394d5defa5",
    "profile": "fm-profile/wnoe-fm",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "8274abd6-a26a-7483-0c94-5a3cc80db4c6",
     "2015": "2c05edbd-c10a-d91c-7b90-8e4ec807878e",
@@ -7738,7 +7793,7 @@
    "facility_id": "11607",
    "root_folder": "ad8a1241-eb9a-1ab4-8a2a-5fd4f2b35cc5",
    "profile": "fm-profile/kqxl-fm",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2018": "fb29828a-d3e8-1e03-b548-a4286a357f31",
     "2019": "cfb98c18-c3bb-c5a8-932d-3be82f4c02bc",
@@ -8054,7 +8109,7 @@
    "facility_id": "10917",
    "root_folder": "1428d3cc-56a7-d3de-d8fe-439107719b34",
    "profile": "am-profile/wbok",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "5dd310b5-844b-146a-d5de-51d28b866cf7",
     "2015": "796d5c0f-1504-fe7c-8ee2-90b8a8dc1ad5",
@@ -8082,7 +8137,7 @@
    "facility_id": "56098",
    "root_folder": "e36f84bb-c0ce-398e-9830-75c8f7d67e15",
    "profile": "fm-profile/kajn-fm",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "338393c3-1ebc-2dbe-a99d-194d4718145c",
     "2015": "e688b684-57f8-88c2-626e-47047ef4491c",
@@ -8110,7 +8165,7 @@
    "facility_id": "34376",
    "root_folder": "b128f92b-b29c-a692-5dd2-b4f005574d2d",
    "profile": "fm-profile/wlmg",
-   "scraped_at": "2026-10-18T01:14:39Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2017": "ca4f4e7e-b787-b8e7-37bf-74dbc8e42184",
     "2018": "c14e7a0e-e5d3-6be4-8bb6-4eb3e4a5f1d6",
@@ -16345,7 +16400,7 @@
    "facility_id": "52510",
    "root_folder": "a3f3379c-473e-3c07-c488-f2eda0ea72ac",
    "profile": "fm-profile/kzrz",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "ac5e12f8-2bda-60ac-e45a-f5dc719656bd",
     "2015": "6189fa89-9d60-2fdc-3e50-cf228ae3a0a4",
@@ -16371,7 +16426,7 @@
    "facility_id": "56559",
    "root_folder": "4735ac1d-78f7-bad3-05db-17790a77f4fc",
    "profile": "am-profile/kgla",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "7de1498d-347d-e0e3-9686-114e1b1281a0",
     "2015": "a0746d6e-e47a-9c8d-4011-ed6d002df20b",
@@ -16399,7 +16454,7 @@
    "facility_id": "4053",
    "root_folder": "9bb7ee2f-fa01-32d9-422d-fa8760975387",
    "profile": "fm-profile/wfmf",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "5c0c61cb-a965-ac35-bb66-ea6226b43b3c",
     "2015": "682c9a3f-c8f3-d563-146d-fc0a0a6da82a",
@@ -16612,7 +16667,7 @@
    "facility_id": "67746",
    "root_folder": "bf5a28ca-faa1-3a96-36f4-0be94358c5f8",
    "profile": "am-profile/keun",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2016": "3def7a6f-3109-b5a8-f287-c19c5c684ae2",
     "2017": "c0b30f95-bf14-6107-744d-d108392a628d",
@@ -16667,7 +16722,7 @@
    "facility_id": "8169",
    "root_folder": "c6b55acc-733b-1e05-3d77-e2f1fff9331a",
    "profile": "fm-profile/khla",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2014": "e6ce1557-67cd-8e7c-153e-807bd2c5b4e1",
     "2015": "f5796661-b5ac-51e0-1d8f-5c58cda17041",
@@ -16879,7 +16934,7 @@
    "facility_id": "41057",
    "root_folder": "885553e5-c87c-43f1-81fe-9212fba9e544",
    "profile": "fm-profile/ksmb",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2018": "cee675b1-fbfe-3f26-1667-a97d1f53f0cf",
     "2019": "0dca29ed-9b7c-bb9b-3489-f978ab0e1a77",
@@ -16903,7 +16958,7 @@
    "facility_id": "61271",
    "root_folder": "368fb021-b743-7297-2343-1c42164e74d1",
    "profile": "fm-profile/wrqq",
-   "scraped_at": "2026-10-17T14:20:58Z",
+   "scraped_at": "2026-10-19T17:14:02Z",
    "year_folders": {
     "2018": "b286a22b-cb17-ead6-5abf-0cfb8d7416f9",
     "2019": "ed99f005-5faa-ec66-61be-2c551f8bf7b3",
@@ -17791,17 +17846,17 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "KAJN": "2026-10-18T01:14:39Z",
+  "KAJN": "2026-10-19T17:14:02Z",
   "KAOK": "2026-10-18T14:38:09Z",
   "KBON": "2026-10-18T14:38:09Z",
   "KBTT": "2026-10-18T01:14:39Z",
   "KBZE": "2026-10-18T14:38:09Z",
   "KDKS": "2026-10-19T01:25:42Z",
-  "KEEL": "2026-10-18T01:14:39Z",
-  "KEUN": "2026-10-17T14:20:58Z",
+  "KEEL": "2026-10-19T17:14:02Z",
+  "KEUN": "2026-10-19T17:14:02Z",
   "KFXZ": "2026-10-18T14:38:09Z",
-  "KGLA": "2026-10-17T14:20:58Z",
-  "KHLA": "2026-10-17T14:20:58Z",
+  "KGLA": "2026-10-19T17:14:02Z",
+  "KHLA": "2026-10-19T17:14:02Z",
   "KJAE": "2026-10-19T01:25:42Z",
   "KJLO": "2026-10-18T14:38:09Z",
   "KJMG": "2026-10-18T01:14:39Z",
@@ -17810,22 +17865,22 @@
   "KLKL": "2026-10-19T01:25:42Z",
   "KLWB": "2026-10-19T01:25:42Z",
   "KMDL": "2026-10-18T14:38:09Z",
-  "KMEZ": "2026-10-18T01:14:39Z",
+  "KMEZ": "2026-10-19T17:14:02Z",
   "KMJJ": "2026-10-19T01:25:42Z",
   "KMLB": "2026-10-19T01:25:42Z",
   "KMXH": "2026-10-19T01:25:42Z",
   "KNEK": "2026-10-18T14:38:09Z",
   "KOKA": "2026-10-19T01:25:42Z",
-  "KPEL": "2026-10-18T01:14:39Z",
+  "KPEL": "2026-10-19T17:14:02Z",
   "KQKI": "2026-10-18T14:38:09Z",
-  "KQXL": "2026-10-18T01:14:39Z",
+  "KQXL": "2026-10-19T17:14:02Z",
   "KRMD": "2026-10-18T14:38:09Z",
   "KROF": "2026-10-18T01:14:39Z",
   "KRRQ": "2026-10-18T14:38:09Z",
   "KRVE": "2026-10-19T01:25:42Z",
   "KRVV": "2026-10-19T01:25:42Z",
   "KSIG": "2026-10-19T01:25:42Z",
-  "KSMB": "2026-10-17T14:20:58Z",
+  "KSMB": "2026-10-19T17:14:02Z",
   "KSYB": "2026-10-18T01:14:39Z",
   "KSYL": "2026-10-18T14:38:09Z",
   "KTDY": "2026-10-18T14:38:09Z",
@@ -17834,29 +17889,29 @@
   "KXKS": "2026-10-19T01:25:42Z",
   "KYKZ": "2026-10-19T01:25:42Z",
   "KZMZ": "2026-10-18T01:14:39Z",
-  "KZRZ": "2026-10-17T14:20:58Z",
+  "KZRZ": "2026-10-19T17:14:02Z",
   "KZWA": "2026-10-18T14:38:09Z",
-  "WBOK": "2026-10-18T01:14:39Z",
+  "WBOK": "2026-10-19T17:14:02Z",
   "WBRP": "2026-10-19T01:25:42Z",
   "WDGL": "2026-10-19T01:25:42Z",
   "WEMX": "2026-10-18T14:38:09Z",
   "WEZB": "2026-10-18T01:14:39Z",
-  "WFMF": "2026-10-17T14:20:58Z",
+  "WFMF": "2026-10-19T17:14:02Z",
   "WGSO": "2026-10-19T01:25:42Z",
   "WGUO": "2026-10-19T01:25:42Z",
-  "WJBO": "2026-10-18T01:14:39Z",
+  "WJBO": "2026-10-19T17:14:02Z",
   "WKBU": "2026-10-18T14:38:09Z",
-  "WLMG": "2026-10-18T01:14:39Z",
-  "WNOE": "2026-10-18T01:14:39Z",
+  "WLMG": "2026-10-19T17:14:02Z",
+  "WNOE": "2026-10-19T17:14:02Z",
   "WNXX": "2026-10-19T01:25:42Z",
-  "WQUE": "2026-10-18T01:14:39Z",
-  "WRNO": "2026-10-18T01:14:39Z",
-  "WRQQ": "2026-10-17T14:20:58Z",
+  "WQUE": "2026-10-19T17:14:02Z",
+  "WRNO": "2026-10-19T17:14:02Z",
+  "WRQQ": "2026-10-19T17:14:02Z",
   "WTGE": "2026-10-19T01:25:42Z",
   "WTIX": "2026-10-18T14:38:09Z",
-  "WWL": "2026-10-18T01:14:39Z",
+  "WWL": "2026-10-19T17:14:02Z",
   "WXOK": "2026-10-18T14:38:09Z",
-  "WYLD": "2026-10-18T01:14:39Z",
+  "WYLD": "2026-10-19T17:14:02Z",
   "WYNK": "2026-10-18T14:38:09Z"
  }
 }
