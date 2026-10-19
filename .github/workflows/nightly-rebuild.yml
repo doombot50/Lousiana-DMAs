@@ -158,8 +158,10 @@ jobs:
           key: doc-text-${{ github.run_id }}
           restore-keys: doc-text-
 
-      # Each reader saves after every document and stops itself after
-      # --minutes; `timeout` is the backstop, so one medium overrunning
+      # Each reader saves after every document and stops starting new ones
+      # after --minutes; one already started can take up to four minutes
+      # more (fcc/read_documents.py's DOC_SECONDS), which --minutes leaves
+      # room for. `timeout` is the backstop, so one medium overrunning
       # can't cost the others their turn or the night its reads.
       - name: Read political-file documents
         continue-on-error: true
@@ -167,9 +169,9 @@ jobs:
         env:
           PYTHONUNBUFFERED: '1'
         run: |
-          timeout 27m python3 fcc/read_documents.py --minutes 25 || echo "TV reader stopped ($?)"
-          timeout 10m python3 fcc/read_documents.py --media radio --budget 15 --minutes 8 || echo "radio reader stopped ($?)"
-          timeout 10m python3 fcc/read_documents.py --media cable --budget 15 --minutes 8 || echo "cable reader stopped ($?)"
+          timeout 27m python3 fcc/read_documents.py --minutes 22 || echo "TV reader stopped ($?)"
+          timeout 10m python3 fcc/read_documents.py --media radio --budget 15 --minutes 6 || echo "radio reader stopped ($?)"
+          timeout 10m python3 fcc/read_documents.py --media cable --budget 15 --minutes 6 || echo "cable reader stopped ($?)"
 
       - name: Save document text
         if: always()
