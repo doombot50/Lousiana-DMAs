@@ -111,6 +111,27 @@ class NoGuessing(unittest.TestCase):
 
 
 class Names(unittest.TestCase):
+    def test_billing_words_are_not_names(self):
+        # A scanned KTBS contract's billing columns, read into the buyer's place.
+        from documents import clean
+        for junk in ['Cash', 'EOM/EOC', 'EOM/EOC Calendar', 't vf']:
+            self.assertIsNone(clean(junk), junk)
+
+    def test_short_ocr_debris(self):
+        from documents import clean
+        self.assertEqual(clean('FlexPoint Media t'), 'FlexPoint Media')
+        self.assertEqual(clean('Media Ad Ventures, Inc Ht'), 'Media Ad Ventures, Inc')
+        self.assertEqual(clean('Electric Symphony Media Ht'), 'Electric Symphony Media')
+        self.assertEqual(clean('Smith & Co'), 'Smith & Co')
+        self.assertEqual(clean('Citizens for a Better LA'), 'Citizens for a Better LA')
+
+    def test_a_candidate_is_not_an_agency(self):
+        from documents import agency_of
+        text = 'Contract Agreement Between:\n\nAnd:\n           Roche/D/Judge\n'
+        self.assertIsNone(agency_of(text, 'contract', None))
+        text = 'Contract Agreement Between:\n\nAnd:\n           Friends of Gaddo (D) if\n'
+        self.assertIsNone(agency_of(text, 'contract', None))
+
     def test_ocr_debris_after_a_name(self):
         from documents import clean
         self.assertEqual(clean('Crossroads Media LLC H£'), 'Crossroads Media LLC')

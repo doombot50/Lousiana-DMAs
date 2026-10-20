@@ -122,7 +122,17 @@ def under(text, label):
 JUNK = re.compile(r'^(?:n/?a\b|none\b|tbd\b|same\b|self\b|direct\b)[\s,;:-]*', re.I)
 # Not a name: a label or an address line that lands where a name should be.
 NOT_NAME = re.compile(r'^(?:attention|attn|p\.?\s?o\.?\s+box|\d|address|contact|phone|email|'
-                      r'billing|agency\b|advertiser\b|name\b|station|us$|comm)', re.I)
+                      r'billing|agency\b|advertiser\b|name\b|station|us$|comm|'
+                      # a WideOrbit contract's billing columns, which OCR can run
+                      # into the buyer's line ("Cash", "EOM/EOC Calendar")
+                      r'cash\b|trade\b|eom\b|eoc\b|broadcast\b|calendar\b|property\b|'
+                      r'account executive|sales office|special handling|demographic)', re.I)
+# A candidate written the way stations file one ("Roche/D/Judge", "Friends
+# of Gaddo (D)"): the advertiser itself, buying direct, not an agency.
+PARTY_MARK = re.compile(r'/\s*[DRIL]\s*/|\(\s*[DRIL]\s*\)')
+# Short words a name may end in; any other trailing token of one or two
+# letters is OCR debris ("FlexPoint Media t", "Media Ad Ventures, Inc Ht").
+SHORT_OK = {'LA', 'TV', 'US', 'II', 'IV', 'CO', 'JR', 'SR', 'PR', 'AD', 'MS', 'TX'}
 
 
 def clean(name):
@@ -137,6 +147,11 @@ def clean(name):
     # OCR debris trailing a name: a short token with a symbol or a
     # non-ASCII character ("Crossroads Media LLC H£").
     s = re.sub(r'(?:\s+(?=\S{0,3}(?:\s|$))\S*[^A-Za-z0-9\s.,&\'-]\S*)+$', '', s).strip(' .,:;-/')
+    while True:
+        m = re.search(r'\s+([A-Za-z]{1,2})$', s)
+        if not m or m.group(1).upper() in SHORT_OK:
+            break
+        s = s[:m.start()].rstrip(' .,:;-/')
     if len(s) < 3 or NOT_NAME.match(s) or not re.search(r'[A-Za-z]{2}', s):
         return None
     return s[:80]
@@ -176,13 +191,13 @@ def search(pattern, text, flags=re.I | re.M):
     return m.group(1).strip() if m else None
 
 
-def agency_of(text, lay, advertiser):
+def _agency_of(text, lay, advertiser):
     if lay == 'order':
         a = search(r'^\s*Agency\s+Name:\s*(.+?)(?:\s{3,}|$)', text)
         if a:
             return clean(a)
     if lay == 'contract':
-        m = re.search(r'^\s*And:', text, re.M)
+        m = re.search(r'^[ \t]*And:', text, re.M)
         if m:
             return clean(next_line(text, m.start(), left=60))
         a = search(r'(?:^|\s{2,})Agency\s{2,}(.+?)(?:\s{3,}|$)', text)
@@ -207,6 +222,16 @@ def agency_of(text, lay, advertiser):
     # Anything else (OCR'd orders from other systems): a labelled "Agency:".
     a = search(r'(?:^|\s{2,})Agency(?:\s+Name)?\s*:\s*(.+?)(?:\s{3,}|$)', text)
     return clean(a) if a else None
+
+
+def agency_of(text, lay, advertiser):
+    """The agency that placed the buy, or None: none named, or the name in
+    the agency's place is the advertiser itself (a candidate as stations
+    file one, "Roche/D/Judge"), which means it bought direct."""
+    a = _agency_of(text, lay, advertiser)
+    if not a or PARTY_MARK.search(a) or same_party(a, advertiser):
+        return None
+    return a
 
 
 def advertiser_of(text, lay):
