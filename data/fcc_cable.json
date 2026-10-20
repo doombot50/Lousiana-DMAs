@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-20T15:44:42Z",
+ "scraped": "2026-10-20T20:07:22Z",
  "years": [
   2026,
   2027
@@ -48479,7 +48479,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-10-20T02:09:26Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -50641,7 +50641,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-10-20T02:09:26Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -105676,7 +105676,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -105704,7 +105704,7 @@
    "facility_id": "010036",
    "root_folder": "1569c0cf-22e8-5bfe-35c8-aa1751a93e93",
    "profile": "cable-profile/010036",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "37a24c7e-e732-7ebf-e445-782fc93ad929",
     "2015": "f30b4203-8b55-941b-24f0-e7e10eee6ce9",
@@ -105732,7 +105732,7 @@
    "facility_id": "005143",
    "root_folder": "0aadd1d9-9176-4a37-67a8-0b457f583cf8",
    "profile": "cable-profile/005143",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2017": "91a92350-cbba-d47a-c21b-b72f0306ab77",
     "2018": "25db26c6-f423-128b-b09a-57ed4a1f00a8",
@@ -156201,7 +156201,7 @@
    "facility_id": "008277",
    "root_folder": "2832ec99-417b-76ad-1b9f-edc21774de0b",
    "profile": "cable-profile/008277",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "a18e838a-ec38-ea1c-d1b1-2171ce991250",
     "2015": "17bc185a-3e10-a22b-0b78-875ac38be47c",
@@ -156229,7 +156229,7 @@
    "facility_id": "010740",
    "root_folder": "78db5cfe-9e84-bc0d-ffbc-f183d3a456b0",
    "profile": "cable-profile/010740",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "e732cc2c-b053-61bf-d77b-c8c4327e41c7",
     "2015": "b8096ae6-6ef2-25d2-6e19-fd35ddc07e56",
@@ -156479,7 +156479,7 @@
    "facility_id": "007036",
    "root_folder": "497d7643-b970-0bbd-34f2-22ef01c30307",
    "profile": "cable-profile/007036",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "83005020-6e3b-ea2f-ab4d-9259a57550cf",
     "2015": "abbbdefb-fdb2-8043-116a-056e2471ae22",
@@ -156615,7 +156615,7 @@
    "facility_id": "003478",
    "root_folder": "f10c386d-50e2-15da-742b-eec67690a8c2",
    "profile": "cable-profile/003478",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "631b6243-963c-7c7d-9074-5e56b6223b42",
     "2015": "34ffdece-676f-c151-602b-def93572037d",
@@ -156678,6 +156678,15 @@
     "Political Files/2026/State/Monroe-El Dorado/State House/AMP - FIRMENT FOR CONGRESS": "287fa63b-e69b-5a75-cb0b-5077090d60e7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Monroe-El Dorado/AMP - HOMETOWN FREEDOM ACTION NETWORK",
+     "name": "727829_NAB_Form_20261020110735",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T12:47:33-04:00",
+     "folder_id": "99205129-4136-0c72-0a93-bf8bf8d93a87",
+     "file_id": "a512b425-ac0e-c074-631b-6456e4625db6",
+     "file_manager_id": "04828f5b-bc20-4732-bb41-568386a78917"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - ECHOLS FOR CONGRESS - LA CD-5",
      "name": "727313_Invoice_20261018082754",
@@ -159837,7 +159846,7 @@
    "facility_id": "004289",
    "root_folder": "cdee00c3-64fb-d199-4d4c-b71dd549a187",
    "profile": "cable-profile/004289",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "7afb2700-6530-4729-cae5-f74e96799b7c",
     "2015": "bbb92733-60e2-8e21-a6d2-e86039043540",
@@ -159866,6 +159875,7 @@
     "Political Files/2026/Federal/US Senate/Louisiana - LA/PCA - JULIA LETLOW FOR LA": "eb94774b-adb5-87b3-9207-574944805124",
     "Political Files/2026/Federal/US Senate/New Orleans": "898519d6-ee57-49f6-8c28-c35284ab4ec8",
     "Political Files/2026/Federal/US Senate/New Orleans/ BILL CASSIDY FOR SENATE": "0a148970-4b7e-8741-5093-6887bfc0db7c",
+    "Political Files/2026/Federal/US Senate/New Orleans/ASHLEY MOODY VICTORY COMMITTEE": "627521a7-9ce5-e964-35c0-bfc5e562ae16",
     "Political Files/2026/Federal/US Senate/New Orleans/BILL CASSIDAY FOR SENATE": "dd3a0b36-469c-d787-4765-4dad538bd373",
     "Political Files/2026/Federal/US Senate/New Orleans/Fleming for Louisiana": "83d2edc0-b17d-cb1a-ea93-68ca266a0b96",
     "Political Files/2026/Federal/US Senate/New Orleans/JULIA LETLOW FOR LOUISIANA": "565353f6-4da4-ef37-2342-9ada5f7830cc",
@@ -159894,6 +159904,24 @@
     "Political Files/2026/State/New Orleans/State House/FHRCC3PACOTHER HD 37": "a3739ad0-5faf-d055-e937-0eb3abdaf6b7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/New Orleans/ASHLEY MOODY VICTORY COMMITTEE",
+     "name": "130657425_NAB_Form_20261020084048",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T13:07:01-04:00",
+     "folder_id": "627521a7-9ce5-e964-35c0-bfc5e562ae16",
+     "file_id": "ae408068-6e99-463d-3610-9cb85208cdd5",
+     "file_manager_id": "ce859400-b598-4a5e-9452-e44ce8ed55c7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/New Orleans/ASHLEY MOODY VICTORY COMMITTEE",
+     "name": "130657425_Order_Contract_20261020084042",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T13:07:00-04:00",
+     "folder_id": "627521a7-9ce5-e964-35c0-bfc5e562ae16",
+     "file_id": "ccfb878f-7799-83db-2a0d-1757795ab426",
+     "file_manager_id": "b7d962a2-65df-469b-901d-7812f9da573c"
+    },
     {
      "path": "Political Files/2026/State/New Orleans/State House/FHRCC3PACOTHER HD 37",
      "name": "130655871_NAB_Form_20261008072930",
@@ -162072,7 +162100,7 @@
    "facility_id": "008858",
    "root_folder": "d510e6a7-4f45-a0d3-a76c-5a1f573d52d5",
    "profile": "cable-profile/008858",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "997d5c72-4c87-f06a-8178-94aeac54846f",
     "2015": "2f687d40-8d29-ebb3-6ef7-e46b2248fad6",
@@ -162100,7 +162128,7 @@
    "facility_id": "022095",
    "root_folder": "19aabc03-6246-dd44-3b54-c7e3fa0318e4",
    "profile": "cable-profile/022095",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "8f10b9f9-1f5e-4161-11f9-8e2faee2c017",
     "2015": "bbd41ad1-06c8-15be-a0f0-89c62f3cf1fb",
@@ -162128,7 +162156,7 @@
    "facility_id": "008273",
    "root_folder": "b0dbee07-8242-11d0-1d0c-3704b85765ef",
    "profile": "cable-profile/008273",
-   "scraped_at": "2026-10-19T19:34:11Z",
+   "scraped_at": "2026-10-20T20:05:41Z",
    "year_folders": {
     "2014": "d0be6a3e-3a52-b2aa-fa90-cc0bdf31b7ca",
     "2015": "f1905e9a-6684-17ce-1409-70701d415730",
@@ -164401,36 +164429,36 @@
   "003002": "2026-10-20T02:09:26Z",
   "003084": "2026-10-20T02:09:26Z",
   "003376": "2026-10-20T15:43:05Z",
-  "003478": "2026-10-19T19:34:11Z",
+  "003478": "2026-10-20T20:05:41Z",
   "003680": "2026-10-20T15:43:05Z",
-  "004289": "2026-10-19T19:34:11Z",
-  "004321": "2026-10-20T02:09:26Z",
+  "004289": "2026-10-20T20:05:41Z",
+  "004321": "2026-10-20T20:05:41Z",
   "004383": "2026-10-20T15:43:05Z",
   "005142": "2026-10-20T15:43:05Z",
-  "005143": "2026-10-19T19:34:11Z",
+  "005143": "2026-10-20T20:05:41Z",
   "005341": "2026-10-20T15:43:05Z",
   "006379": "2026-10-20T15:43:05Z",
-  "007033": "2026-10-19T19:34:11Z",
-  "007036": "2026-10-19T19:34:11Z",
+  "007033": "2026-10-20T20:05:41Z",
+  "007036": "2026-10-20T20:05:41Z",
   "007052": "2026-10-20T15:43:05Z",
   "008048": "2026-10-20T15:43:05Z",
-  "008273": "2026-10-19T19:34:11Z",
-  "008277": "2026-10-19T19:34:11Z",
+  "008273": "2026-10-20T20:05:41Z",
+  "008277": "2026-10-20T20:05:41Z",
   "008564": "2026-10-20T15:43:05Z",
   "008567": "2026-10-20T15:43:05Z",
   "008691": "2026-10-20T02:09:26Z",
-  "008858": "2026-10-19T19:34:11Z",
+  "008858": "2026-10-20T20:05:41Z",
   "008859": "2026-10-20T02:09:26Z",
-  "010036": "2026-10-19T19:34:11Z",
-  "010740": "2026-10-19T19:34:11Z",
+  "010036": "2026-10-20T20:05:41Z",
+  "010740": "2026-10-20T20:05:41Z",
   "011859": "2026-10-20T02:09:26Z",
   "013331": "2026-10-20T02:09:26Z",
   "014241": "2026-10-20T02:09:26Z",
   "015650": "2026-10-20T02:09:26Z",
   "016728": "2026-10-20T15:43:05Z",
-  "020573": "2026-10-20T02:09:26Z",
+  "020573": "2026-10-20T20:05:41Z",
   "021784": "2026-10-20T02:09:26Z",
-  "022095": "2026-10-19T19:34:11Z",
+  "022095": "2026-10-20T20:05:41Z",
   "022352": "2026-10-20T15:43:05Z",
   "022377": "2026-10-20T02:09:26Z"
  }
