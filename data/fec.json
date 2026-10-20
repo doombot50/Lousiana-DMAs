@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-20T01:55:39Z",
+"fetched": "2026-10-20T15:40:08Z",
 "source": "https://www.fec.gov/files/bulk-downloads/2026/webl26.zip",
 "cycle": 2026,
 "candidates": [
@@ -8,9 +8,9 @@
 {"id": "S6LA00680", "name": "CROCKETT, GARY", "office": "S", "district": "00", "party": "DEM", "r": 350000, "s": 49541, "coh": 270987, "debts": 0, "loans": 350000, "indiv": 0, "self": 350000, "through": "2026-06-07"},
 {"id": "S6LA00615", "name": "DAVIS, JAMIE", "office": "S", "district": "00", "party": "DEM", "r": 4015530, "s": 3072701, "coh": 942253, "debts": 54000, "loans": 54000, "indiv": 3949887, "self": 54000, "through": "2026-09-30"},
 {"id": "S6LA00581", "name": "EMERSON, JULIE CATHRYN", "office": "S", "district": "00", "party": "REP", "r": 728875, "s": 664491, "coh": 64384, "debts": 0, "loans": 300000, "indiv": 362375, "self": 300000, "through": "2026-09-30"},
-{"id": "S6LA00318", "name": "FLEMING, JOHN C. JR.", "office": "S", "district": "00", "party": "REP", "r": 12336653, "s": 12350191, "coh": 5359, "debts": 4597909, "loans": 11576736, "indiv": 750371, "self": 11576736, "through": "2026-09-30"},
+{"id": "S6LA00318", "name": "FLEMING, JOHN C. JR.", "office": "S", "district": "00", "party": "REP", "r": 12336653, "s": 12350191, "coh": 5359, "debts": 4597909, "loans": 11576736, "indiv": 750371, "self": 11576736, "through": "2026-10-14"},
 {"id": "S6LA00664", "name": "LETLOW, JULIA", "office": "S", "district": "00", "party": "REP", "r": 6979082, "s": 5560319, "coh": 1418763, "debts": 0, "loans": 0, "indiv": 1498803, "self": 0, "through": "2026-09-30"},
-{"id": "S6LA00540", "name": "MIGUEZ, BLAKE", "office": "S", "district": "00", "party": "REP", "r": 7641696, "s": 5519813, "coh": 2125209, "debts": 2513458, "loans": 3514561, "indiv": 3756650, "self": 3514561, "through": "2026-09-30"},
+{"id": "S6LA00540", "name": "MIGUEZ, BLAKE", "office": "S", "district": "00", "party": "REP", "r": 7645022, "s": 5519813, "coh": 2125209, "debts": 2513458, "loans": 3514561, "indiv": 3759976, "self": 3514561, "through": "2026-09-30"},
 {"id": "S6LA00573", "name": "SEIDEN, KATHY W", "office": "S", "district": "00", "party": "REP", "r": 1202191, "s": 1202191, "coh": 0, "debts": 0, "loans": 1075000, "indiv": 127191, "self": 1075000, "through": "2026-05-12"},
 {"id": "S6LA00672", "name": "SKRMETTA, ERIC", "office": "S", "district": "00", "party": "REP", "r": 67750, "s": 63129, "coh": 4621, "debts": 0, "loans": 0, "indiv": 64250, "self": 0, "through": "2026-09-30"},
 {"id": "S6LA00698", "name": "SPENCER, MARK", "office": "S", "district": "00", "party": "REP", "r": 5421, "s": 5366, "coh": 55, "debts": 5275, "loans": 5275, "indiv": 26, "self": 5395, "through": "2026-09-30"},
@@ -49,7 +49,7 @@
 {"id": "H6LA05309", "name": "GARCIA, LINDSAY", "office": "H", "district": "06", "party": "DEM", "r": 92545, "s": 64845, "coh": 27700, "debts": 2965, "loans": 2965, "indiv": 87231, "self": 2965, "through": "2026-09-30"},
 {"id": "H6LA06141", "name": "JOHNSON, CHRISTIAN RASHAD", "office": "H", "district": "06", "party": "REP", "r": 0, "s": 0, "coh": 0, "debts": 0, "loans": 0, "indiv": 0, "self": 0, "through": "2026-03-31"},
 {"id": "H6LA05259", "name": "MEBRUER, MICHAEL EDWARD", "office": "H", "district": "06", "party": "REP", "r": 70714, "s": 53004, "coh": 13613, "debts": 0, "loans": 0, "indiv": 0, "self": 70714, "through": "2026-09-30"},
-{"id": "H6LA05234", "name": "MIGUEZ, BLAKE", "office": "H", "district": "06", "party": "REP", "r": 7641696, "s": 5519813, "coh": 2125209, "debts": 2513458, "loans": 3514561, "indiv": 3756650, "self": 3514561, "through": "2026-09-30"},
+{"id": "H6LA05234", "name": "MIGUEZ, BLAKE", "office": "H", "district": "06", "party": "REP", "r": 7645022, "s": 5519813, "coh": 2125209, "debts": 2513458, "loans": 3514561, "indiv": 3759976, "self": 3514561, "through": "2026-09-30"},
 {"id": "H6LA06182", "name": "WAGLEY, STEPHEN", "office": "H", "district": "06", "party": "REP", "r": 595635, "s": 436409, "coh": 159226, "debts": 587000, "loans": 587000, "indiv": 8635, "self": 587000, "through": "2026-09-30"}
 ]
 }

@@ -2,7 +2,7 @@
  "generated": "2026-10-20",
  "data_through": "2026-10-16",
  "cycle_from": 2023,
- "documents_read": 205,
+ "documents_read": 264,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -297,79 +297,32 @@
    }
   },
   {
-   "key": "AMERICANMEDIAANDADVOCACY",
-   "name": "American Media & Advocacy Group",
-   "found_by": "filings",
-   "paid": {
-    "total": 1569365,
-    "media": 1340240,
-    "rows": 81,
-    "media_cycle": 1297165,
-    "cycle": 1442465,
-    "years": {
-     "2013": 35294,
-     "2017": 88888,
-     "2018": 982,
-     "2019": 668,
-     "2020": 770,
-     "2021": 298,
-     "2023": 1442465
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "5947",
-      "n": "Stephen Waguespack",
-      "p": "REP",
-      "usd": 1442465,
-      "cycle": 1442465
-     },
-     {
-      "f": "4043",
-      "n": "Craig C. Greene",
-      "p": "REP",
-      "usd": 91606,
-      "cycle": 0
-     },
-     {
-      "f": "631",
-      "n": "Bobby Jindal",
-      "p": "REP",
-      "usd": 35294,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "AMERICAN MEDIA & ADVOCACY GROUP",
-     "AMERICAN MEDIA AND ADVOCACY GROUP"
-    ]
-   }
-  },
-  {
    "key": "AXMEDIA",
    "name": "Ax Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 22050,
+    "docs": 4,
+    "priced": 4,
+    "usd": 57880,
     "stations": [
      "KTBS",
      "WDSU"
     ],
     "clients": [
      "Ken Paxton for Senate",
-     "Downing/R/LA State Supreme Court Dist 1"
+     "Ken Paxton Victory Fund-Senate Ht",
+     "Downing/R/LA State Supreme Court Dist 1",
+     "Ken Paxton Victory Fund-Senate"
     ],
-    "first": "2026-10-07",
+    "first": "2026-10-01",
     "last": "2026-10-16"
    },
    "paid": {
-    "total": 2203201,
-    "media": 1918418,
-    "rows": 119,
-    "media_cycle": 1163580,
-    "cycle": 1354405,
+    "total": 2627451,
+    "media": 2342668,
+    "rows": 120,
+    "media_cycle": 1587830,
+    "cycle": 1778655,
     "years": {
      "2018": 27484,
      "2019": 415851,
@@ -379,10 +332,17 @@
      "2023": 863495,
      "2024": 208052,
      "2025": 177053,
-     "2026": 105806
+     "2026": 530056
     },
-    "committees": 35,
+    "committees": 36,
     "top": [
+     {
+      "f": "8205",
+      "n": "Keep Louisiana Affordable",
+      "p": "OTH",
+      "usd": 424250,
+      "cycle": 424250
+     },
      {
       "f": "5579",
       "n": "Elizabeth Murrill",
@@ -480,13 +440,6 @@
       "p": "REP",
       "usd": 27255,
       "cycle": 27255
-     },
-     {
-      "f": "5887",
-      "n": "Laura Trahan Faul",
-      "p": "REP",
-      "usd": 24992,
-      "cycle": 24992
      }
     ],
     "spellings": [
@@ -494,6 +447,55 @@
      "AX MEDIA LLC",
      "AXMEDIA LLC",
      "AXMEDIA"
+    ]
+   }
+  },
+  {
+   "key": "AMERICANMEDIAANDADVOCACY",
+   "name": "American Media & Advocacy Group",
+   "found_by": "filings",
+   "paid": {
+    "total": 1569365,
+    "media": 1340240,
+    "rows": 81,
+    "media_cycle": 1297165,
+    "cycle": 1442465,
+    "years": {
+     "2013": 35294,
+     "2017": 88888,
+     "2018": 982,
+     "2019": 668,
+     "2020": 770,
+     "2021": 298,
+     "2023": 1442465
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "5947",
+      "n": "Stephen Waguespack",
+      "p": "REP",
+      "usd": 1442465,
+      "cycle": 1442465
+     },
+     {
+      "f": "4043",
+      "n": "Craig C. Greene",
+      "p": "REP",
+      "usd": 91606,
+      "cycle": 0
+     },
+     {
+      "f": "631",
+      "n": "Bobby Jindal",
+      "p": "REP",
+      "usd": 35294,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "AMERICAN MEDIA & ADVOCACY GROUP",
+     "AMERICAN MEDIA AND ADVOCACY GROUP"
     ]
    }
   },
@@ -523,6 +525,36 @@
     "spellings": [
      "ACCESS MEDIA SERVICES"
     ]
+   }
+  },
+  {
+   "key": "FLEXPOINTMEDIA",
+   "name": "Flexpoint Campaigns",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 18,
+    "priced": 15,
+    "usd": 631760,
+    "stations": [
+     "KLAX",
+     "KPLC",
+     "KPXJ",
+     "KTBS",
+     "WNTZ"
+    ],
+    "clients": [
+     "Firment For Congress",
+     "Michael Gabriel Firment/Congres",
+     "Texas Pac H t",
+     "SOriginal Date 7 Revision",
+     "Texas Pac",
+     "Michael Gabriel Firment(Congres",
+     "exas Pac",
+     "Texas Pac H",
+     "Michael Gabriel FirmentCongres"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-10-15"
    }
   },
   {
@@ -584,7 +616,20 @@
   {
    "key": "SMARTMEDIA",
    "name": "Smart Media Group",
-   "found_by": "filings",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 27440,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "John Atkins-La Public Service Comm.District] 09/28/26 / 09/30/26"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-09-30"
+   },
    "paid": {
     "total": 2071866,
     "media": 1531633,
@@ -650,34 +695,89 @@
    }
   },
   {
-   "key": "ARSEMENTMEDIA",
-   "name": "Arsement Media Group",
+   "key": "PATRIOTMEDIA",
+   "name": "Patriot Media Group",
+   "found_by": "filings",
+   "paid": {
+    "total": 509056,
+    "media": 509056,
+    "rows": 5,
+    "media_cycle": 509056,
+    "cycle": 509056,
+    "years": {
+     "2023": 509056
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "6034",
+      "n": "RGA (Republican Governors Association) Right Direction PAC",
+      "p": "REP",
+      "usd": 509056,
+      "cycle": 509056
+     }
+    ],
+    "spellings": [
+     "PATRIOT MEDIA GROUP"
+    ]
+   }
+  },
+  {
+   "key": "TECHNICOLORPOLITICAL",
+   "name": "Technicolor Political",
+   "found_by": "filings",
+   "paid": {
+    "total": 500474,
+    "media": 495449,
+    "rows": 6,
+    "media_cycle": 495449,
+    "cycle": 500474,
+    "years": {
+     "2025": 500474
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 500474,
+      "cycle": 500474
+     }
+    ],
+    "spellings": [
+     "TECHNICOLOR POLITICAL"
+    ]
+   }
+  },
+  {
+   "key": "ARSEMENTMEDIA5019900",
+   "name": "Arsement Media Group 501-9900",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
-    "priced": 6,
-    "usd": 63760,
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
     "stations": [
-     "WDSU"
+     "004321"
     ],
     "clients": [
-     "Lindsay/D/Orleans Parish Civil District Judge",
-     "Marsiglia/R/JP Court Judge, Div A"
+     "Friends to Elect Bart Hebert, LLC"
     ],
-    "first": "2026-10-06",
-    "last": "2026-10-16"
+    "first": "2026-10-14",
+    "last": "2026-10-14"
    },
    "paid": {
-    "total": 10516301,
-    "media": 1995166,
-    "rows": 920,
+    "total": 10387265,
+    "media": 1905583,
+    "rows": 892,
     "media_cycle": 476445,
     "cycle": 1593161,
     "years": {
      "2012": 123833,
      "2013": 72797,
-     "2014": 869040,
-     "2015": 1908011,
+     "2014": 755054,
+     "2015": 1892961,
      "2016": 668599,
      "2017": 486032,
      "2018": 433645,
@@ -802,65 +902,8 @@
      "ARSEMENT MEDIA GROUP",
      "ARSEMENT MEDIA",
      "ARSEMENT MEDIA GROUP, LLC",
-     "ARSEMENT MEDIA/CONSULTING GROUP",
      "ARSEMENT MEDIA GROUP LLC",
      "ARSEMENT MEDIA GROUP. LLC"
-    ]
-   }
-  },
-  {
-   "key": "PATRIOTMEDIA",
-   "name": "Patriot Media Group",
-   "found_by": "filings",
-   "paid": {
-    "total": 509056,
-    "media": 509056,
-    "rows": 5,
-    "media_cycle": 509056,
-    "cycle": 509056,
-    "years": {
-     "2023": 509056
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "6034",
-      "n": "RGA (Republican Governors Association) Right Direction PAC",
-      "p": "REP",
-      "usd": 509056,
-      "cycle": 509056
-     }
-    ],
-    "spellings": [
-     "PATRIOT MEDIA GROUP"
-    ]
-   }
-  },
-  {
-   "key": "TECHNICOLORPOLITICAL",
-   "name": "Technicolor Political",
-   "found_by": "filings",
-   "paid": {
-    "total": 500474,
-    "media": 495449,
-    "rows": 6,
-    "media_cycle": 495449,
-    "cycle": 500474,
-    "years": {
-     "2025": 500474
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 500474,
-      "cycle": 500474
-     }
-    ],
-    "spellings": [
-     "TECHNICOLOR POLITICAL"
     ]
    }
   },
@@ -1140,6 +1183,133 @@
    }
   },
   {
+   "key": "CROSSROADSMEDIA",
+   "name": "Crossroads Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 16,
+    "priced": 16,
+    "usd": 392055,
+    "stations": [
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [
+     "Texans for Greg Abbott",
+     "Texans for Greg Abbott H",
+     "Griginal Date / Revision",
+     "xans for Greg Abbott",
+     "Greg Abbott"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-10-19"
+   },
+   "paid": {
+    "total": 295567,
+    "media": 291333,
+    "rows": 20,
+    "media_cycle": 0,
+    "cycle": 275,
+    "years": {
+     "2009": 25,
+     "2013": 1000,
+     "2014": 450,
+     "2015": 291717,
+     "2016": 500,
+     "2017": 150,
+     "2019": 300,
+     "2022": 1150,
+     "2023": 75,
+     "2024": 200
+    },
+    "committees": 11,
+    "top": [
+     {
+      "f": "1518",
+      "n": "Craig Webre",
+      "p": "REP",
+      "usd": 600,
+      "cycle": 275
+     },
+     {
+      "f": "160",
+      "n": "John L. (Jay) Dardenne",
+      "p": "REP",
+      "usd": 291333,
+      "cycle": 0
+     },
+     {
+      "f": "1906",
+      "n": "Jerome (Dee) Richard",
+      "p": "IND",
+      "usd": 1000,
+      "cycle": 0
+     },
+     {
+      "f": "3368",
+      "n": "Michael Gros",
+      "p": "REP",
+      "usd": 600,
+      "cycle": 0
+     },
+     {
+      "f": "5767",
+      "n": "Kevin Robert Clement",
+      "p": "REP",
+      "usd": 500,
+      "cycle": 0
+     },
+     {
+      "f": "5784",
+      "n": "Rebecca N. Robichaux",
+      "p": "REP",
+      "usd": 500,
+      "cycle": 0
+     },
+     {
+      "f": "2344",
+      "n": "Guy McInnis",
+      "p": "IND",
+      "usd": 284,
+      "cycle": 0
+     },
+     {
+      "f": "532",
+      "n": "Tony Mancuso",
+      "p": "DEM",
+      "usd": 250,
+      "cycle": 0
+     },
+     {
+      "f": "2840",
+      "n": "Jerry Hodnett",
+      "p": "REP",
+      "usd": 200,
+      "cycle": 0
+     },
+     {
+      "f": "3146",
+      "n": "Wendy Thibodeaux",
+      "p": "IND",
+      "usd": 150,
+      "cycle": 0
+     },
+     {
+      "f": "3686",
+      "n": "Sandra LeBlanc Holloway",
+      "p": "OTH",
+      "usd": 150,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CROSSROADS",
+     "CROSSROADS MEDIA",
+     "CROSS ROADS"
+    ]
+   }
+  },
+  {
    "key": "TRADEDESK",
    "name": "The Trade Desk",
    "found_by": "filings",
@@ -1273,6 +1443,62 @@
    }
   },
   {
+   "key": "MEDIAADVENTURES",
+   "name": "Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 13,
+    "priced": 12,
+    "usd": 271670,
+    "stations": [
+     "005341",
+     "KPXJ",
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Mike Johnson for Louisiana",
+     "Mike Johnson for Louistana",
+     "Mike Johnson for Louisiana f",
+     "Scalise/R/Congress",
+     "Mike Johnson for Louislana Ht",
+     "Mike Johnson for Loulslana",
+     "Mike Johnson for Loulsiana",
+     "Scalise for Congress"
+    ],
+    "first": "2026-10-05",
+    "last": "2026-10-19"
+   }
+  },
+  {
+   "key": "AXADVOCACY",
+   "name": "Axadvocacy",
+   "found_by": "filings",
+   "paid": {
+    "total": 250000,
+    "media": 234000,
+    "rows": 3,
+    "media_cycle": 234000,
+    "cycle": 250000,
+    "years": {
+     "2026": 250000
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "8205",
+      "n": "Keep Louisiana Affordable",
+      "p": "OTH",
+      "usd": 250000,
+      "cycle": 250000
+     }
+    ],
+    "spellings": [
+     "AXADVOCACY"
+    ]
+   }
+  },
+  {
    "key": "CONVERGENCEMEDIA",
    "name": "Convergence Media",
    "found_by": "filings",
@@ -1301,56 +1527,6 @@
    }
   },
   {
-   "key": "MEDIAADVENTURES",
-   "name": "Media Ad Ventures",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 11,
-    "priced": 11,
-    "usd": 219930,
-    "stations": [
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Mike Johnson for Louisiana",
-     "Mike Johnson for Louistana",
-     "Mike Johnson for Louisiana f",
-     "Scalise/R/Congress",
-     "Mike Johnson for Louislana Ht",
-     "Mike Johnson for Loulslana",
-     "Mike Johnson for Loulsiana"
-    ],
-    "first": "2026-10-05",
-    "last": "2026-10-16"
-   }
-  },
-  {
-   "key": "FLEXPOINTMEDIA",
-   "name": "FlexPoint Campaigns",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 12,
-    "priced": 10,
-    "usd": 211740,
-    "stations": [
-     "KLAX",
-     "KTBS",
-     "WNTZ"
-    ],
-    "clients": [
-     "Firment For Congress",
-     "Michael Gabriel Firment/Congres",
-     "Texas Pac H t",
-     "SOriginal Date 7 Revision",
-     "Michael Gabriel Firment(Congres"
-    ],
-    "first": "2026-10-02",
-    "last": "2026-10-15"
-   }
-  },
-  {
    "key": "BUISSONCREATIVESTRATEGIES",
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
@@ -1370,11 +1546,11 @@
     "last": "2026-10-16"
    },
    "paid": {
-    "total": 9890073,
+    "total": 9891073,
     "media": 2341188,
-    "rows": 2816,
+    "rows": 2817,
     "media_cycle": 148430,
-    "cycle": 1515419,
+    "cycle": 1516419,
     "years": {
      "2000": 22813,
      "2001": 24656,
@@ -1401,7 +1577,7 @@
      "2023": 936326,
      "2024": 391979,
      "2025": 56112,
-     "2026": 131002
+     "2026": 132002
     },
     "committees": 178,
     "top": [
@@ -1801,132 +1977,6 @@
      "DEVISE STRATEGY GROUP, LLC",
      "DEVISE STRATEGY GROUP",
      "DEVISE STRATEGY GROUP LLC"
-    ]
-   }
-  },
-  {
-   "key": "CROSSROADSMEDIA",
-   "name": "Crossroads Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 7,
-    "priced": 7,
-    "usd": 173610,
-    "stations": [
-     "KPXJ",
-     "KTBS"
-    ],
-    "clients": [
-     "Texans for Greg Abbott",
-     "Texans for Greg Abbott H",
-     "xans for Greg Abbott",
-     "Greg Abbott"
-    ],
-    "first": "2026-10-06",
-    "last": "2026-10-12"
-   },
-   "paid": {
-    "total": 295567,
-    "media": 291333,
-    "rows": 20,
-    "media_cycle": 0,
-    "cycle": 275,
-    "years": {
-     "2009": 25,
-     "2013": 1000,
-     "2014": 450,
-     "2015": 291717,
-     "2016": 500,
-     "2017": 150,
-     "2019": 300,
-     "2022": 1150,
-     "2023": 75,
-     "2024": 200
-    },
-    "committees": 11,
-    "top": [
-     {
-      "f": "1518",
-      "n": "Craig Webre",
-      "p": "REP",
-      "usd": 600,
-      "cycle": 275
-     },
-     {
-      "f": "160",
-      "n": "John L. (Jay) Dardenne",
-      "p": "REP",
-      "usd": 291333,
-      "cycle": 0
-     },
-     {
-      "f": "1906",
-      "n": "Jerome (Dee) Richard",
-      "p": "IND",
-      "usd": 1000,
-      "cycle": 0
-     },
-     {
-      "f": "3368",
-      "n": "Michael Gros",
-      "p": "REP",
-      "usd": 600,
-      "cycle": 0
-     },
-     {
-      "f": "5767",
-      "n": "Kevin Robert Clement",
-      "p": "REP",
-      "usd": 500,
-      "cycle": 0
-     },
-     {
-      "f": "5784",
-      "n": "Rebecca N. Robichaux",
-      "p": "REP",
-      "usd": 500,
-      "cycle": 0
-     },
-     {
-      "f": "2344",
-      "n": "Guy McInnis",
-      "p": "IND",
-      "usd": 284,
-      "cycle": 0
-     },
-     {
-      "f": "532",
-      "n": "Tony Mancuso",
-      "p": "DEM",
-      "usd": 250,
-      "cycle": 0
-     },
-     {
-      "f": "2840",
-      "n": "Jerry Hodnett",
-      "p": "REP",
-      "usd": 200,
-      "cycle": 0
-     },
-     {
-      "f": "3146",
-      "n": "Wendy Thibodeaux",
-      "p": "IND",
-      "usd": 150,
-      "cycle": 0
-     },
-     {
-      "f": "3686",
-      "n": "Sandra LeBlanc Holloway",
-      "p": "OTH",
-      "usd": 150,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CROSSROADS",
-     "CROSSROADS MEDIA",
-     "CROSS ROADS"
     ]
    }
   },
@@ -3369,15 +3419,36 @@
    }
   },
   {
+   "key": "BRABENDERCOX",
+   "name": "Brabender Cox",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 4,
+    "usd": 111050,
+    "stations": [
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Julia Letiow - US Senate (LA)",
+     "Letlow/R/Senate",
+     "Julla Letlow - US Senate (LA)"
+    ],
+    "first": "2026-10-02",
+    "last": "2026-10-14"
+   }
+  },
+  {
    "key": "POLITICALFIRM",
    "name": "The Political Firm",
    "found_by": "filings",
    "paid": {
-    "total": 12419243,
+    "total": 12437243,
     "media": 2510432,
-    "rows": 2435,
+    "rows": 2436,
     "media_cycle": 102946,
-    "cycle": 2042229,
+    "cycle": 2060229,
     "years": {
      "2006": 175561,
      "2007": 750890,
@@ -3398,9 +3469,9 @@
      "2023": 1038555,
      "2024": 269551,
      "2025": 156890,
-     "2026": 577234
+     "2026": 595234
     },
-    "committees": 183,
+    "committees": 184,
     "top": [
      {
       "f": "1314",
@@ -4545,26 +4616,6 @@
    }
   },
   {
-   "key": "BRABENDERCOX",
-   "name": "Brabender Cox",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 69425,
-    "stations": [
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Julia Letiow - US Senate (LA)",
-     "Letlow/R/Senate"
-    ],
-    "first": "2026-10-09",
-    "last": "2026-10-14"
-   }
-  },
-  {
    "key": "POLITICALCOMMUNICATIONSADVERTISING",
    "name": "Political Communications Advertising",
    "found_by": "filings",
@@ -4627,6 +4678,57 @@
     ],
     "spellings": [
      "POLITICAL COMMUNICATIONS ADVERTISING"
+    ]
+   }
+  },
+  {
+   "key": "ARSEMENTMEDIA",
+   "name": "Arsement Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 6,
+    "usd": 63760,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Lindsay/D/Orleans Parish Civil District Judge",
+     "Marsiglia/R/JP Court Judge, Div A"
+    ],
+    "first": "2026-10-06",
+    "last": "2026-10-16"
+   },
+   "paid": {
+    "total": 129036,
+    "media": 89582,
+    "rows": 28,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2014": 113986,
+     "2015": 15050
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "3212",
+      "n": "Brian L. Pope",
+      "p": "REP",
+      "usd": 123986,
+      "cycle": 0
+     },
+     {
+      "f": "1564",
+      "n": "Dorothy Sue Hill",
+      "p": "DEM",
+      "usd": 5050,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "ARSEMENT MEDIA/CONSULTING GROUP",
+     "ARSEMENT MEDIA GROU"
     ]
    }
   },
@@ -5136,6 +5238,24 @@
    }
   },
   {
+   "key": "BRABENDERCOXH",
+   "name": "Brabender Cox H",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 28325,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "ulia Letlow - US Senate (LA) H"
+    ],
+    "first": "2026-10-02",
+    "last": "2026-10-02"
+   }
+  },
+  {
    "key": "ELECTRICSYMPHONYMEDIA",
    "name": "Electric Symphony Media",
    "found_by": "political file",
@@ -5628,11 +5748,11 @@
    "name": "Brave New Television",
    "found_by": "filings",
    "paid": {
-    "total": 1386318,
+    "total": 1387818,
     "media": 487777,
-    "rows": 333,
+    "rows": 334,
     "media_cycle": 17500,
-    "cycle": 403931,
+    "cycle": 405431,
     "years": {
      "2014": 4400,
      "2015": 427022,
@@ -5646,9 +5766,9 @@
      "2023": 144781,
      "2024": 44666,
      "2025": 144015,
-     "2026": 70469
+     "2026": 71969
     },
-    "committees": 60,
+    "committees": 61,
     "top": [
      {
       "f": "6399",
@@ -6249,7 +6369,7 @@
    "name": "Taylor Media Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 6,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -6257,7 +6377,7 @@
      "WYNK"
     ],
     "clients": [],
-    "first": "2026-09-29",
+    "first": "2026-09-19",
     "last": "2026-09-29"
    },
    "paid": {
@@ -14384,6 +14504,24 @@
    }
   },
   {
+   "key": "FLEXPOINTCAMPAIGNSINFOFLEXPOINTCAMPAIGNSCOM2024172274",
+   "name": "FlexPoint Campaigns; info@flexpointcampaigns.com; 202-417-2274",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "003478"
+    ],
+    "clients": [
+     "Firment for Congress"
+    ],
+    "first": "2026-10-13",
+    "last": "2026-10-13"
+   }
+  },
+  {
    "key": "TVF",
    "name": "t vf",
    "found_by": "political file",
@@ -15061,8 +15199,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 50445,
     "cycle": 0,
     "fcc": true
@@ -15598,8 +15736,8 @@
   ],
   "1144": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 3449949,
     "cycle": 0,
     "fcc": true
@@ -15882,8 +16020,8 @@
   ],
   "1190": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 222078,
     "cycle": 222078,
     "fcc": true
@@ -16105,7 +16243,7 @@
     "n": "Smart Media Group",
     "usd": 967924,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "STRATEGICMEDIASERVICES",
@@ -16211,8 +16349,8 @@
   ],
   "1260": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 99128,
     "cycle": 0,
     "fcc": true
@@ -16277,8 +16415,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 66863,
     "cycle": 0,
     "fcc": true
@@ -16304,8 +16442,8 @@
   ],
   "1289": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 59158,
     "cycle": 0,
     "fcc": true
@@ -16398,8 +16536,8 @@
     "fcc": true
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -16557,8 +16695,8 @@
   ],
   "1372": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 9725,
     "cycle": 0,
     "fcc": true
@@ -17020,8 +17158,8 @@
   ],
   "1425": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 89395,
     "cycle": 0,
     "fcc": true
@@ -17524,8 +17662,8 @@
   ],
   "1489": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 121472,
     "cycle": 0,
     "fcc": true
@@ -17683,8 +17821,8 @@
   ],
   "1525": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 16250,
     "cycle": 0,
     "fcc": true
@@ -17976,9 +18114,16 @@
     "fcc": true
    },
    {
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
+    "usd": 30577,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
-    "usd": 35627,
+    "usd": 5050,
     "cycle": 0,
     "fcc": true
    }
@@ -18259,8 +18404,8 @@
   ],
   "1622": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 1221,
     "cycle": 0,
     "fcc": true
@@ -18286,7 +18431,7 @@
     "n": "Smart Media Group",
     "usd": 500764,
     "cycle": 500764,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TRADEDESK",
@@ -18381,8 +18526,8 @@
   ],
   "1636": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 5000,
     "cycle": 0,
     "fcc": true
@@ -18498,8 +18643,8 @@
   ],
   "1654": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 48686,
     "cycle": 0,
     "fcc": true
@@ -18744,8 +18889,8 @@
   ],
   "1703": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 81941,
     "cycle": 81941,
     "fcc": true
@@ -18982,8 +19127,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 119216,
     "cycle": 0,
     "fcc": true
@@ -19104,8 +19249,8 @@
   ],
   "1744": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 132515,
     "cycle": 0,
     "fcc": true
@@ -19127,8 +19272,8 @@
   ],
   "1745": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 46628,
     "cycle": 0,
     "fcc": true
@@ -19382,8 +19527,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 3000,
     "cycle": 0,
     "fcc": true
@@ -19531,8 +19676,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 80628,
     "cycle": 0,
     "fcc": true
@@ -19723,8 +19868,8 @@
   ],
   "1825": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 77649,
     "cycle": 0,
     "fcc": true
@@ -19746,8 +19891,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 20000,
     "cycle": 0,
     "fcc": true
@@ -19826,8 +19971,8 @@
   ],
   "1851": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 101309,
     "cycle": 0,
     "fcc": true
@@ -19892,8 +20037,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 19880,
     "cycle": 0,
     "fcc": true
@@ -21068,8 +21213,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 20552,
     "cycle": 0,
     "fcc": true
@@ -21287,8 +21432,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 0,
     "fcc": true
@@ -21498,8 +21643,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 10000,
     "cycle": 0,
     "fcc": true
@@ -21929,8 +22074,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 17960,
     "cycle": 0,
     "fcc": true
@@ -22092,8 +22237,8 @@
   ],
   "2262": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 153877,
     "cycle": 0,
     "fcc": true
@@ -23570,8 +23715,8 @@
   ],
   "2744": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 62447,
     "cycle": 0,
     "fcc": true
@@ -23597,8 +23742,8 @@
   ],
   "2760": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 23891,
     "cycle": 0,
     "fcc": true
@@ -23796,8 +23941,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 86280,
     "cycle": 25000,
     "fcc": true
@@ -23874,8 +24019,8 @@
   ],
   "2807": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 0,
     "fcc": true
@@ -24248,8 +24393,8 @@
   ],
   "2871": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 396337,
     "cycle": 0,
     "fcc": true
@@ -24488,8 +24633,8 @@
   ],
   "2916": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15177,
     "cycle": 0,
     "fcc": true
@@ -24602,8 +24747,8 @@
   ],
   "2940": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 18042,
     "cycle": 18042,
     "fcc": true
@@ -24629,8 +24774,8 @@
   ],
   "2961": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 223175,
     "cycle": 0,
     "fcc": true
@@ -24638,8 +24783,8 @@
   ],
   "2981": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 175634,
     "cycle": 0,
     "fcc": true
@@ -24672,8 +24817,8 @@
   ],
   "2996": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 33760,
     "cycle": 7490,
     "fcc": true
@@ -24963,8 +25108,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 5000,
     "cycle": 0,
     "fcc": true
@@ -25036,8 +25181,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 20733,
     "cycle": 0,
     "fcc": true
@@ -25290,7 +25435,14 @@
    {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
-    "usd": 139513,
+    "usd": 123986,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
+    "usd": 15526,
     "cycle": 0,
     "fcc": true
    }
@@ -25340,8 +25492,8 @@
   ],
   "3222": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 6750,
     "cycle": 0,
     "fcc": true
@@ -25372,8 +25524,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 97819,
     "cycle": 0,
     "fcc": true
@@ -25586,8 +25738,8 @@
   ],
   "3299": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 46532,
     "cycle": 0,
     "fcc": true
@@ -25798,8 +25950,8 @@
   ],
   "3344": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 55922,
     "cycle": 0,
     "fcc": true
@@ -25966,7 +26118,7 @@
     "n": "Smart Media Group",
     "usd": 218558,
     "cycle": 218558,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3379": [
@@ -26051,8 +26203,8 @@
     "fcc": true
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 14465,
     "cycle": 0,
     "fcc": true
@@ -26104,8 +26256,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 53047,
     "cycle": 53047,
     "fcc": true
@@ -26228,8 +26380,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 38392,
     "cycle": 0,
     "fcc": true
@@ -26411,8 +26563,8 @@
   ],
   "3446": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 126568,
     "cycle": 15000,
     "fcc": true
@@ -26758,8 +26910,8 @@
   ],
   "3624": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 3015,
     "cycle": 0,
     "fcc": true
@@ -26767,8 +26919,8 @@
   ],
   "3630": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 42209,
     "cycle": 0,
     "fcc": true
@@ -27214,8 +27366,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 24024,
     "cycle": 24024,
     "fcc": true
@@ -27564,8 +27716,8 @@
   ],
   "3938": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 97554,
     "cycle": 0,
     "fcc": true
@@ -27771,8 +27923,8 @@
   ],
   "4028": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 118088,
     "cycle": 0,
     "fcc": true
@@ -27833,8 +27985,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 0,
     "fcc": true
@@ -27934,8 +28086,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 91691,
     "cycle": 0,
     "fcc": true
@@ -27987,8 +28139,8 @@
   ],
   "4056": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 31739,
     "cycle": 0,
     "fcc": true
@@ -28133,8 +28285,8 @@
   ],
   "4092": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 0,
     "fcc": true
@@ -28471,8 +28623,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 47782,
     "cycle": 0,
     "fcc": true
@@ -28633,8 +28785,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 98070,
     "cycle": 0,
     "fcc": true
@@ -29102,8 +29254,8 @@
   ],
   "4271": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 111251,
     "cycle": 0,
     "fcc": true
@@ -29120,8 +29272,8 @@
   ],
   "4281": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 137015,
     "cycle": 0,
     "fcc": true
@@ -29227,8 +29379,8 @@
   ],
   "4320": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 52025,
     "cycle": 0,
     "fcc": true
@@ -29435,8 +29587,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 54624,
     "cycle": 0,
     "fcc": true
@@ -29490,8 +29642,8 @@
   ],
   "4403": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 85293,
     "cycle": 0,
     "fcc": true
@@ -29584,8 +29736,8 @@
   ],
   "442": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 263186,
     "cycle": 0,
     "fcc": true
@@ -29841,7 +29993,7 @@
     "n": "Smart Media Group",
     "usd": 368651,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LR3CONSULT",
@@ -29959,8 +30111,8 @@
   ],
   "4494": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 44906,
     "cycle": 44906,
     "fcc": true
@@ -30102,8 +30254,8 @@
   ],
   "4525": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 116298,
     "cycle": 30880,
     "fcc": true
@@ -31548,8 +31700,8 @@
   ],
   "5083": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 112746,
     "cycle": 0,
     "fcc": true
@@ -31732,8 +31884,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 3948,
     "cycle": 0,
     "fcc": true
@@ -31829,6 +31981,13 @@
     "n": "Questcomm Consultants",
     "usd": 1723,
     "cycle": 1723,
+    "fcc": false
+   },
+   {
+    "k": "BRAVENEWTELEVISION",
+    "n": "Brave New Television",
+    "usd": 1500,
+    "cycle": 1500,
     "fcc": false
    }
   ],
@@ -32097,8 +32256,8 @@
   ],
   "5292": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 29069,
     "cycle": 0,
     "fcc": true
@@ -32197,8 +32356,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 4000,
     "cycle": 0,
     "fcc": true
@@ -32372,8 +32531,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 64668,
     "cycle": 0,
     "fcc": true
@@ -32718,8 +32877,8 @@
   ],
   "5507": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 37034,
     "cycle": 0,
     "fcc": true
@@ -33357,8 +33516,8 @@
   ],
   "5839": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 127398,
     "cycle": 112398,
     "fcc": true
@@ -33665,8 +33824,8 @@
   ],
   "5917": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 141170,
     "cycle": 141170,
     "fcc": true
@@ -34144,8 +34303,8 @@
   ],
   "6040": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 175901,
     "cycle": 175901,
     "fcc": true
@@ -34162,8 +34321,8 @@
   ],
   "605": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 38314,
     "cycle": 0,
     "fcc": true
@@ -34386,8 +34545,8 @@
   ],
   "6134": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 33216,
     "cycle": 33216,
     "fcc": true
@@ -34411,8 +34570,8 @@
   ],
   "616": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -34781,7 +34940,7 @@
     "n": "Smart Media Group",
     "usd": 15035,
     "cycle": 15035,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BRAVENEWTELEVISION",
@@ -35033,8 +35192,8 @@
   ],
   "6436": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 36719,
     "cycle": 36719,
     "fcc": true
@@ -35503,8 +35662,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -35537,8 +35696,8 @@
   ],
   "6599": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 22050,
     "cycle": 22050,
     "fcc": true
@@ -35555,8 +35714,8 @@
   ],
   "6600": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 55500,
     "cycle": 55500,
     "fcc": true
@@ -35587,8 +35746,8 @@
   ],
   "6677": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 251932,
     "cycle": 251932,
     "fcc": true
@@ -35605,8 +35764,8 @@
   ],
   "6692": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 7500,
     "cycle": 7500,
     "fcc": true
@@ -35614,8 +35773,8 @@
   ],
   "6694": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 44630,
     "cycle": 44630,
     "fcc": true
@@ -35650,8 +35809,8 @@
   ],
   "6712": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 64245,
     "cycle": 64245,
     "fcc": true
@@ -36029,8 +36188,8 @@
   ],
   "6897": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -36114,8 +36273,8 @@
   ],
   "6922": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 1756,
     "cycle": 1756,
     "fcc": true
@@ -36148,8 +36307,8 @@
     "fcc": true
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 10000,
     "cycle": 10000,
     "fcc": true
@@ -36184,8 +36343,8 @@
   ],
   "7145": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 23612,
     "cycle": 23612,
     "fcc": true
@@ -36271,8 +36430,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 11823,
     "cycle": 11823,
     "fcc": true
@@ -36414,8 +36573,8 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 8500,
-    "cycle": 8500,
+    "usd": 9500,
+    "cycle": 9500,
     "fcc": true
    },
    {
@@ -36706,8 +36865,8 @@
   ],
   "79": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 509673,
     "cycle": 0,
     "fcc": true
@@ -36786,8 +36945,8 @@
   ],
   "812": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 257934,
     "cycle": 0,
     "fcc": true
@@ -36827,8 +36986,8 @@
   ],
   "8182": [
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 18300,
     "cycle": 18300,
     "fcc": true
@@ -36870,6 +37029,29 @@
     "n": "Creative Marketing Sales",
     "usd": 1000,
     "cycle": 0,
+    "fcc": false
+   }
+  ],
+  "8205": [
+   {
+    "k": "AXMEDIA",
+    "n": "Ax Media",
+    "usd": 424250,
+    "cycle": 424250,
+    "fcc": true
+   },
+   {
+    "k": "AXADVOCACY",
+    "n": "Axadvocacy",
+    "usd": 250000,
+    "cycle": 250000,
+    "fcc": false
+   },
+   {
+    "k": "POLITICALFIRM",
+    "n": "The Political Firm",
+    "usd": 18000,
+    "cycle": 18000,
     "fcc": false
    }
   ],
@@ -37465,8 +37647,8 @@
     "fcc": false
    },
    {
-    "k": "ARSEMENTMEDIA",
-    "n": "Arsement Media Group",
+    "k": "ARSEMENTMEDIA5019900",
+    "n": "Arsement Media Group 501-9900",
     "usd": 94350,
     "cycle": 0,
     "fcc": true
@@ -44305,6 +44487,10 @@
   "820": [
    "Denis P. Bechac",
    "REP"
+  ],
+  "8205": [
+   "Keep Louisiana Affordable",
+   "OTH"
   ],
   "822": [
    "Jeffrey S. Cox",
