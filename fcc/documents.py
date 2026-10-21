@@ -147,6 +147,8 @@ def clean(name):
     # OCR debris trailing a name: a short token with a symbol or a
     # non-ASCII character ("Crossroads Media LLC H£").
     s = re.sub(r'(?:\s+(?=\S{0,3}(?:\s|$))\S*[^A-Za-z0-9\s.,&\'-]\S*)+$', '', s).strip(' .,:;-/')
+    # A phone number or code run onto the name ("Arsement Media Group 501-9900").
+    s = re.sub(r'(?:\s+\(?\d[\d\s().-]{3,}\d)+$', '', s).strip(' .,:;-/')
     while True:
         m = re.search(r'\s+([A-Za-z]{1,2})$', s)
         if not m or m.group(1).upper() in SHORT_OK:

@@ -113,7 +113,7 @@ def booked(rs, docs):
             'read': read, 'priced': priced, 'ag': [n for _, n in ag]}
 
 
-def fcc_summary(markets_by_call, full=False, media=('tv',)):
+def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
     """Roll the FCC political-file listing up to buyers across stations.
     Returns None when the scrape hasn't run, so the page builds without it.
     With `full`, the result also carries every buyer (`all`), not just the
@@ -121,7 +121,10 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
     and `fresh`: the documents uploaded in the last FRESH_DAYS days.
     `media` picks the files: TV's alone by default, or with (or without)
     cable systems', satellite's and radio stations'; each buyer's stations
-    then carry their medium (`m`)."""
+    then carry their medium (`m`). With `ids`, it also carries `awayIds`:
+    the file ids of every document filed for another state's race, by the
+    same rules that put a buyer under Out of state (build_agency_spend.py
+    splits each agency's dollars with it)."""
     docs = {}
     for md in media:
         try:
@@ -325,4 +328,5 @@ def fcc_summary(markets_by_call, full=False, media=('tv',)):
                              for k in ('Federal', 'State & local', 'Issue')}},
         'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
         **({'all': home, 'freshSince': fresh_since} if full else {}),
+        **({'awayIds': sorted({r['id'] for r in rows if r['b'] == 'Out of state' and r['id']})} if ids else {}),
     }
