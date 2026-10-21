@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-21",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1502368,
- "data_through": "2026-10-16",
+ "rows_scanned": 1502563,
+ "data_through": "2026-10-20",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121118935.61,
+ "total_spend": 121132563.73,
  "pace": {
   "weeks": [
    -104,
@@ -787,18 +787,19 @@
      1314335.25,
      1314335.25,
      1314335.25,
-     1314335.25,
-     1314335.25
+     1327963.37,
+     1327963.37,
+     1327963.37
     ]
    }
   ],
   "note": "cumulative TV dollars from every state committee, by week relative to the governor's-race primary; includes the legislative and local races on the same ballots"
  },
  "recent_buyers": {
-  "since": "2025-10-17",
-  "through": "2026-10-16",
-  "total": 1282435.25,
-  "committees": 18,
+  "since": "2025-10-21",
+  "through": "2026-10-20",
+  "total": 1296063.37,
+  "committees": 19,
   "top": [
    {
     "name": "FIRST PRINCIPLES PAC",
@@ -894,9 +895,9 @@
    "dma_rank_2024_25": 50,
    "owner": "Tegna · Nexstar",
    "owner_group": "nexstar",
-   "spend": 15346151.54,
-   "rows": 1269,
-   "committees": 282,
+   "spend": 15350741.54,
+   "rows": 1270,
+   "committees": 283,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -925,7 +926,7 @@
     "2023": 1477098.58,
     "2024": 119047.85,
     "2025": 378989.52,
-    "2026": 216165.5
+    "2026": 220755.5
    },
    "top_committees": [
     {
@@ -1121,9 +1122,9 @@
    "dma_rank_2024_25": 50,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 11734194.31,
-   "rows": 984,
-   "committees": 239,
+   "spend": 11740272.31,
+   "rows": 985,
+   "committees": 240,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -1151,7 +1152,7 @@
     "2023": 2179550.41,
     "2024": 169350.59,
     "2025": 316818.43,
-    "2026": 359675.75
+    "2026": 365753.75
    },
    "top_committees": [
     {
@@ -1235,9 +1236,9 @@
    "dma_rank_2024_25": 50,
    "owner": "Hearst Television",
    "owner_group": "hearst",
-   "spend": 10150497.7,
-   "rows": 1096,
-   "committees": 273,
+   "spend": 10153457.82,
+   "rows": 1097,
+   "committees": 274,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -1265,7 +1266,7 @@
     "2023": 1652153.79,
     "2024": 144480.25,
     "2025": 313772.47,
-    "2026": 263796.75
+    "2026": 266756.87
    },
    "top_committees": [
     {
@@ -4095,9 +4096,9 @@
   {
    "name": "New Orleans",
    "rank": 50,
-   "spend": 40564569.58,
+   "spend": 40578197.7,
    "stations": 7,
-   "share": 0.3349
+   "share": 0.335
   },
   {
    "name": "Baton Rouge",
@@ -4145,13 +4146,13 @@
  "owners": [
   {
    "group": "gray",
-   "spend": 57599350.54,
+   "spend": 57605428.54,
    "stations": 10,
    "share": 0.4756
   },
   {
    "group": "nexstar",
-   "spend": 36902590.64,
+   "spend": 36907180.64,
    "stations": 13,
    "share": 0.3047
   },
@@ -4163,7 +4164,7 @@
   },
   {
    "group": "hearst",
-   "spend": 10150497.7,
+   "spend": 10153457.82,
    "stations": 1,
    "share": 0.0838
   },
