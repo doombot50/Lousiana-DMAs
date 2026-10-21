@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-10-20T20:05:41Z",
+ "scraped": "2026-10-21T01:45:22Z",
  "years": [
   2026,
   2027
@@ -8024,7 +8024,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -8052,6 +8052,9 @@
     "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division A/Sal Brocato": "61bc7916-40fa-a77b-2e9b-64f35dadd25e",
     "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division B": "f0333e68-f8fb-3a97-4e43-ed78991b18f4",
     "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division B/John Lee": "244d14bf-d5ce-4e10-e56e-57c582d889f8",
+    "Political Files/2026/Local/Orleans Parish": "8ad42fdb-7dd5-0130-c4a9-a83e0efbfc3f",
+    "Political Files/2026/Local/Orleans Parish/Judge Civil District Court Division L": "8083c6ff-c517-fddb-c730-5b99ce5fa3f6",
+    "Political Files/2026/Local/Orleans Parish/Judge Civil District Court Division L/Candace Newell": "75ff1513-57d2-c0c6-c6bd-c674166c6583",
     "Political Files/2026/Non-Candidate Issue Ads": "cddc2995-c520-6d27-09f3-82ae2ad517ed",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc": "6fbad79a-031c-c50b-39dc-1f9b9c6b9a6f",
     "Political Files/2026/Non-Candidate Issue Ads/American Mission Super PAC": "4aa09c66-d2a3-e19e-4b74-71b1c7946ed1",
@@ -8065,6 +8068,24 @@
     "Political Files/2026/State": "83318994-cd0f-6ccd-33e5-da307dd20115"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Orleans Parish/Judge Civil District Court Division L/Candace Newell",
+     "name": "WGNO Newell 5441897 order",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T16:13:27-04:00",
+     "folder_id": "75ff1513-57d2-c0c6-c6bd-c674166c6583",
+     "file_id": "c89a5927-53be-f773-6aca-56b186d2ad8b",
+     "file_manager_id": "a32c67df-b2db-4d03-8e82-29f17b9287b1"
+    },
+    {
+     "path": "Political Files/2026/Local/Orleans Parish/Judge Civil District Court Division L/Candace Newell",
+     "name": "WGNO Newell NAB 10-20-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T16:13:27-04:00",
+     "folder_id": "75ff1513-57d2-c0c6-c6bd-c674166c6583",
+     "file_id": "dc301c78-c468-2d7e-34fd-70b244edacef",
+     "file_manager_id": "5f570ac6-a246-4996-a557-28e9beff1cd8"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/VCPORA PAC",
      "name": "WGNO VCPORA PAC NAB 10-19-26",
@@ -10261,7 +10282,7 @@
    "facility_id": "13938",
    "root_folder": "fc8f8266-9929-cdf7-1999-ae430f14a725",
    "profile": "tv-profile/wupl",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2015": "f1603605-cb81-4311-203a-f87b390db1d3",
     "2017": "7621df02-232b-c1e4-5026-ae45e370e409",
@@ -11092,7 +11113,7 @@
    "facility_id": "54280",
    "root_folder": "c0882dd8-4018-5d1d-de87-45728b37efcc",
    "profile": "tv-profile/wnol-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "3bcc5f7e-979a-dbb4-05a4-69cddf905cd2",
     "2018": "8f764d8d-cab5-287e-2e6c-930b6ecc5543",
@@ -11767,7 +11788,7 @@
    "facility_id": "18819",
    "root_folder": "3b3f087e-2252-72e8-0100-209bd3534851",
    "profile": "tv-profile/wlae-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2012": "b4286e7f-60bc-dffa-af95-338032627d18",
     "2013": "25979cc0-a290-908d-fab5-727c1f089e53",
@@ -11797,7 +11818,7 @@
    "facility_id": "589",
    "root_folder": "cdc91283-1e5a-b75e-2ad2-aa19cb822ebd",
    "profile": "tv-profile/wafb",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "427856e2-4249-1395-ac75-515b47dd99bf",
     "2018": "9622ae40-f309-8ffd-c21f-8f7d8d1ea584",
@@ -11834,6 +11855,9 @@
     "Political Files/2026/Federal/US Senate/Jamie Davis/PB19": "7524e929-b270-d3cb-da9d-58da2626ce77",
     "Political Files/2026/Federal/US Senate/John Fleming": "3ab4e85b-0ab4-d120-b951-4ea2aadab2af",
     "Political Files/2026/Federal/US Senate/Julia Letlow": "f8fdb135-2a9d-43a4-1aa7-f6204d3b6d4a",
+    "Political Files/2026/Federal/US Senate/Julia Letlow/Invoices": "878cba22-3e6f-43f6-ce5f-5447d980acd3",
+    "Political Files/2026/Federal/US Senate/Julia Letlow/Orders": "85b065b3-d9be-8922-2367-31fae9da24f2",
+    "Political Files/2026/Federal/US Senate/Julia Letlow/PB19": "c001b6a7-c245-64ab-a259-2936c20d2a3e",
     "Political Files/2026/Local": "6344ef6e-5340-10a7-b6ab-177c82d61f67",
     "Political Files/2026/Local/District Attorney 19th": "8466e3b5-a155-18bc-1dae-93919e0004ae",
     "Political Files/2026/Local/District Attorney 19th/Hillar Moore": "2f15e187-a64c-8d47-6657-8e3acd60b7b8",
@@ -11873,6 +11897,24 @@
     "Political Files/2026/Terms and Disclosures": "ec5e912a-f7f8-7af0-2b8b-342ddc1a0c73"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Orders",
+     "name": "Julia Letlow 4602391",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T15:52:45-04:00",
+     "folder_id": "85b065b3-d9be-8922-2367-31fae9da24f2",
+     "file_id": "64f16167-bd16-7621-66fb-dc8b4ff5d156",
+     "file_manager_id": "0a8f671f-f3a6-476d-9ac2-dd40f61a2967"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmonds/Orders",
+     "name": "Rick Edmonds 4602325",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T15:29:00-04:00",
+     "folder_id": "6d8f1cef-06ff-6400-d9c0-ffd850992f64",
+     "file_id": "77b81972-8c18-fc36-1a4b-86d95c91f511",
+     "file_manager_id": "486ac5ad-ef0e-409c-8254-dfb5edf261b1"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Orders",
      "name": "Conservatives for American Excellence 4600843",
@@ -14969,7 +15011,7 @@
    "facility_id": "38616",
    "root_folder": "e7b17d62-7092-2fac-19d3-86391be87b48",
    "profile": "tv-profile/wbrz-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "59f0e199-f0a4-a3a9-0f26-2e194e2aa680",
     "2018": "edbeb72d-c0c1-838f-8e41-1860fe3eb605",
@@ -15025,6 +15067,33 @@
     "Political Files/2026/Terms and Disclosures": "e423f74e-f4b6-e207-6acb-ba3c89c4ad45"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/District Attorney - 19th Judicial District/Hillar Moore - District Attorney - 19th Dist",
+     "name": "Hillar Moore - District Attorney - 19th Dist 10.21-10.27",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T12:00:29-04:00",
+     "folder_id": "be6d76dc-31b5-4b19-5078-271357cd66d2",
+     "file_id": "62d4fc03-0a8a-f9c3-c4c8-fed9aa0f2687",
+     "file_manager_id": "64d7780f-0dc8-4aeb-904c-bb9da33b0e88"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence",
+     "name": "Conservatives for American Excellence 10.20-10.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T12:00:07-04:00",
+     "folder_id": "90944591-0c57-dcca-0d78-529fb3ab2c1b",
+     "file_id": "1d5f0609-1ac6-5974-37f9-e6c1e15e71f8",
+     "file_manager_id": "52eae709-fff6-41a8-b091-84d6c74c2ce2"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club for Growth 10.21-11.3",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T11:59:49-04:00",
+     "folder_id": "8e7b41eb-6867-b5d3-2933-f8c0e214e563",
+     "file_id": "5064b956-1580-7e7d-ab33-81fc0454ab22",
+     "file_manager_id": "43e2f924-b09a-415f-acbf-f73e5c5a3fc7"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Stephen Wagley - US Representaive 6th Congressional Dist - R",
      "name": "Stephen Wagley - US Rep. 6th Congressional Dist 10.20-10.26",
@@ -17338,7 +17407,7 @@
    "facility_id": "70021",
    "root_folder": "4c3899ce-a1b4-75b8-f141-0ef22e4dcde8",
    "profile": "tv-profile/wvla-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2015": "0775bb15-1bdc-248e-5fbb-417544a134fd",
     "2017": "f6854619-0b70-88f1-8f5c-d65ddcaa3d29",
@@ -17380,6 +17449,42 @@
     "Political Files/2026/State/Hillar Moore- District Attorney": "3c042976-7265-8a16-d308-fa9de4d9a02d"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmunds",
+     "name": "Rick Edmunds NAB WVLA #5442223",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T18:11:11-04:00",
+     "folder_id": "0d67fd2e-d1ee-34f6-9a62-ca382d8522af",
+     "file_id": "83e53df4-b7b4-157e-64cf-25a7850e44f9",
+     "file_manager_id": "62b7c30c-a459-4c0a-9db6-4168c55325d9"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmunds",
+     "name": "Rick Edmunds WVLA #5442223",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T18:11:10-04:00",
+     "folder_id": "0d67fd2e-d1ee-34f6-9a62-ca382d8522af",
+     "file_id": "d9abcc4b-ddb4-3317-cfe1-094747c71ea7",
+     "file_manager_id": "03afd870-2658-4bb4-acd8-bfa673316939"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+     "name": "Julia Letlow NAB WVLA #5442118",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T18:08:51-04:00",
+     "folder_id": "c2a9bf61-a651-58c7-3594-d005ea96021c",
+     "file_id": "14bc1624-2905-ca24-d321-5acba1faa780",
+     "file_manager_id": "cb4965c6-5f9f-4e89-95ca-0abcb88d69bb"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+     "name": "Julia Letlow WVLA #5442118",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T18:08:50-04:00",
+     "folder_id": "c2a9bf61-a651-58c7-3594-d005ea96021c",
+     "file_id": "42fd6efb-c14a-9191-1ac2-6511d34cafcd",
+     "file_manager_id": "488bca62-1bc6-4a28-9e9d-ae63695b7833"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Club Growth Action Pac",
      "name": "Club for Growth Action PAC NAB WVLA #5440817",
@@ -19261,7 +19366,7 @@
    "facility_id": "12520",
    "root_folder": "cd9cc7d7-41e2-81ce-26ec-da3e530f17aa",
    "profile": "tv-profile/wgmb-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "35ad5814-c815-5b93-f71f-0c6a7bd0206d",
     "2018": "1c8bcdf6-e74c-0ee1-03ac-a7dad45e3b71",
@@ -19301,6 +19406,24 @@
     "Political Files/2026/State/Hillar Moore- District Attorney": "a7da3ab5-3844-248e-5d92-1598029e630b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+     "name": "Julia Letlow NAB WGMB #5442141",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T18:09:41-04:00",
+     "folder_id": "a21f5bc3-00aa-c931-048e-160c2126c29d",
+     "file_id": "a21cbac3-29d9-64b3-f71f-235e8497f773",
+     "file_manager_id": "d69c1c3a-b17e-48ce-850c-45a1ecd129b8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+     "name": "Julia Letlow WGMB #5442141",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T18:09:41-04:00",
+     "folder_id": "a21f5bc3-00aa-c931-048e-160c2126c29d",
+     "file_id": "feffc82d-a9a8-5400-e25b-c8e1e080175e",
+     "file_manager_id": "03fbbe2d-4396-4132-a11a-d458b262c911"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Club Growth Action Pac",
      "name": "Club for Growth Action PAC NAB WGMB #5440850",
@@ -20984,7 +21107,7 @@
    "facility_id": "24976",
    "root_folder": "a146d1bc-3544-e8b6-814b-ecd38c265a62",
    "profile": "tv-profile/wbrl-cd",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2018": "14a0bf1e-d465-870b-7247-1ab28226555b",
     "2019": "789bf9f1-7cbc-d252-b4ac-25a24543e1f4",
@@ -21455,7 +21578,7 @@
    "facility_id": "35652",
    "root_folder": "1f09d425-ebf2-ac3b-ac66-e21e9f0d29b5",
    "profile": "tv-profile/ktbs-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "5d48fdc4-598f-ced1-d930-348ba57ab492",
     "2018": "ab97ab3d-0af9-1b15-71ed-fe2a74956731",
@@ -21625,6 +21748,7 @@
     "Political Files/2026/Local/Caddo Parish District Attorney/Alan T Seabaugh": "b2e045c7-4ed2-a495-c042-979ae35ae4c3",
     "Political Files/2026/Local/Caddo Parish District Attorney/Alan T Seabaugh/Order - 20472": "0aff92fe-d07c-e98e-cdcb-b0d2b02a50dd",
     "Political Files/2026/Local/Caddo Parish District Attorney/Alan T Seabaugh/PB - 20472": "43131e07-9c02-ae22-364d-769beb743694",
+    "Political Files/2026/Local/Caddo Parish District Attorney/Alan T Seabaugh/PB - 20472 REV 1": "5d8a49b1-26eb-c10d-5d3b-2be9f0f9d717",
     "Political Files/2026/Local/Caddo Parish District Attorney/James E Stewart": "5f522269-78ab-de01-5e6a-96bb67385250",
     "Political Files/2026/Local/Caddo Parish District Attorney/James E Stewart/Order - 20454": "c6588055-4b72-4226-efae-0559ded2cbf0",
     "Political Files/2026/Local/Caddo Parish District Attorney/James E Stewart/PB - 20454": "4fc114a1-366a-e0b0-2d0e-40879aef71e4",
@@ -21983,6 +22107,7 @@
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20210": "9f0319dc-4333-5b69-1f46-1dd68e4313da",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20210 REV 1": "087c7257-9817-0bb3-7a8a-ae088702c31a",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20261": "b16ed551-1de7-ad45-17a0-dcec3ca890e5",
+    "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20261 REV 1": "723a4720-8598-4ce3-565f-a36e14b74c86",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20332": "f2ef0ae2-1fba-7bcf-2e7b-05dbe555b875",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20332 REV 1": "4ceb0f19-31cb-5896-cf4b-987d3bd6e1de",
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20399": "d243652f-f790-0af6-3ad7-d8f3fd24c081",
@@ -22024,6 +22149,24 @@
     "Political Files/2026/State/Texas State Representative/Josh Bray/PB - 17328": "d9fa19b5-c6ce-355f-79b3-9285019376e1"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20261 REV 1",
+     "name": "20261020160207857",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T16:56:23-04:00",
+     "folder_id": "723a4720-8598-4ce3-565f-a36e14b74c86",
+     "file_id": "36d519ba-7cc1-379c-934e-0110cb141f81",
+     "file_manager_id": "8f696e45-5ebe-4a7f-a998-f91b3104f873"
+    },
+    {
+     "path": "Political Files/2026/Local/Caddo Parish District Attorney/Alan T Seabaugh/PB - 20472 REV 1",
+     "name": "20261020160154060",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T16:51:54-04:00",
+     "folder_id": "5d8a49b1-26eb-c10d-5d3b-2be9f0f9d717",
+     "file_id": "298b7a83-f0ea-78fb-568e-3bb4d42d4673",
+     "file_manager_id": "d2b1a8f9-5215-46dd-ae00-0c11a269ea0e"
+    },
     {
      "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20365 REV 5",
      "name": "20261019153554769",
@@ -52295,7 +52438,7 @@
    "facility_id": "35852",
    "root_folder": "b912fb7c-0956-9efc-0d7f-75df566a3877",
    "profile": "tv-profile/kvhp",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2012": "b608a943-41f6-692e-e617-dd1b1bf27975",
     "2013": "ef516e5e-b9e2-4341-26e2-1d4e6c271d00",
@@ -53662,7 +53805,7 @@
    "facility_id": "51598",
    "root_folder": "4c72836f-58bb-6e20-9264-886b97ad6941",
    "profile": "tv-profile/kalb-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2017": "0afb61f3-b48f-5fb4-32c5-8912057349c7",
     "2018": "6eb72ab6-a9d5-542a-0522-ab4b38dbe3d8",
@@ -53694,6 +53837,24 @@
     "Political Files/2026/Non-Candidate Issue Ads/Save Our Louisiana": "1888e08a-c368-a634-3fc1-3c40b46c34a0"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Jacques Roy for Mayor",
+     "name": "Jacques Roy for Mayor KALB 4600732",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T11:50:33-04:00",
+     "folder_id": "00ccf93d-edb3-15d3-a3fb-4a7d2e061de5",
+     "file_id": "026bf7b5-b6b1-0fcf-d62a-51749c0baf66",
+     "file_manager_id": "2f4c2b2e-19a6-4c4a-a7b8-2b8fbbe1e829"
+    },
+    {
+     "path": "Political Files/2026/Local/Jacques Roy for Mayor",
+     "name": "Jacques Roy for Mayor NAB Form 10-19-26",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T11:50:33-04:00",
+     "folder_id": "00ccf93d-edb3-15d3-a3fb-4a7d2e061de5",
+     "file_id": "d0da9510-a1d8-48e4-da09-57ff5de43d40",
+     "file_manager_id": "bc918ad5-7f68-43f5-ad3e-0f80d2051bfd"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Michael Echols for Congress",
      "name": "Echols for Congress NAB Form 10-16-26",
@@ -54801,7 +54962,7 @@
    "facility_id": "52907",
    "root_folder": "05f00a78-2e38-ca9b-9fdb-20f7062a9793",
    "profile": "tv-profile/klax-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2018": "5185c466-8e76-1ef8-2bc3-2e500088489f",
     "2019": "1cc958b0-3405-760b-74b4-761d1bbb8c01",
@@ -55297,7 +55458,7 @@
    "facility_id": "16539",
    "root_folder": "7ea29a0e-4a15-e0d6-30d2-9ff42870feda",
    "profile": "tv-profile/wntz-tv",
-   "scraped_at": "2026-10-20T15:40:08Z",
+   "scraped_at": "2026-10-21T01:42:17Z",
    "year_folders": {
     "2015": "499fa776-206c-b2ee-13a1-c5f507d7430c",
     "2017": "ab224572-9c77-adba-46ef-43d52bc7ab10",
@@ -55325,6 +55486,24 @@
     "Political Files/2026/Terms and Disclosures": "7499491b-3cd0-d7cc-19c9-21f00d259a13"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment Congress est 10117 rev",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T15:54:38-04:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "7fa09124-7def-e5ab-8c25-c368afa607ec",
+     "file_manager_id": "4727c9bd-1c9d-4608-a941-49465e395c07"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment Congress est 9971 revised",
+     "ext": "pdf",
+     "uploaded": "2026-10-20T15:54:38-04:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "8d22b940-af42-40ea-5f2d-5cc6ed362376",
+     "file_manager_id": "de7965fd-cb3b-4a24-973c-1992bd03570c"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
      "name": "Firment for Congress est 10117",
@@ -55662,10 +55841,10 @@
  "blocked": null,
  "attempted": {
   "KADN": "2026-10-20T20:01:47Z",
-  "KALB": "2026-10-20T15:40:08Z",
+  "KALB": "2026-10-21T01:42:17Z",
   "KARD": "2026-10-20T20:01:47Z",
   "KATC": "2026-10-20T20:01:47Z",
-  "KLAX": "2026-10-20T15:40:08Z",
+  "KLAX": "2026-10-21T01:42:17Z",
   "KLFY": "2026-10-20T20:01:47Z",
   "KMSS": "2026-10-20T20:01:47Z",
   "KNOE": "2026-10-20T20:01:47Z",
@@ -55673,20 +55852,20 @@
   "KPXJ": "2026-10-20T20:01:47Z",
   "KSLA": "2026-10-20T20:01:47Z",
   "KTAL": "2026-10-20T20:01:47Z",
-  "KTBS": "2026-10-20T15:40:08Z",
+  "KTBS": "2026-10-21T01:42:17Z",
   "KTVE": "2026-10-20T20:01:47Z",
-  "KVHP": "2026-10-20T15:40:08Z",
-  "WAFB": "2026-10-20T15:40:08Z",
-  "WBRL-CD": "2026-10-20T15:40:08Z",
-  "WBRZ": "2026-10-20T15:40:08Z",
+  "KVHP": "2026-10-21T01:42:17Z",
+  "WAFB": "2026-10-21T01:42:17Z",
+  "WBRL-CD": "2026-10-21T01:42:17Z",
+  "WBRZ": "2026-10-21T01:42:17Z",
   "WDSU": "2026-10-20T20:01:47Z",
-  "WGMB": "2026-10-20T15:40:08Z",
-  "WGNO": "2026-10-20T15:40:08Z",
-  "WLAE": "2026-10-20T15:40:08Z",
-  "WNOL": "2026-10-20T15:40:08Z",
-  "WNTZ": "2026-10-20T15:40:08Z",
-  "WUPL": "2026-10-20T15:40:08Z",
-  "WVLA": "2026-10-20T15:40:08Z",
+  "WGMB": "2026-10-21T01:42:17Z",
+  "WGNO": "2026-10-21T01:42:17Z",
+  "WLAE": "2026-10-21T01:42:17Z",
+  "WNOL": "2026-10-21T01:42:17Z",
+  "WNTZ": "2026-10-21T01:42:17Z",
+  "WUPL": "2026-10-21T01:42:17Z",
+  "WVLA": "2026-10-21T01:42:17Z",
   "WVUE": "2026-10-20T20:01:47Z",
   "WWL-TV": "2026-10-20T20:01:47Z"
  }
