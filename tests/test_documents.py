@@ -117,6 +117,11 @@ class Names(unittest.TestCase):
         for junk in ['Cash', 'EOM/EOC', 'EOM/EOC Calendar', 't vf']:
             self.assertIsNone(clean(junk), junk)
 
+    def test_phone_number_after_a_name(self):
+        from documents import clean
+        self.assertEqual(clean('Arsement Media Group 501-9900'), 'Arsement Media Group')
+        self.assertEqual(clean('Smart Media Group (225) 555-0100'), 'Smart Media Group')
+
     def test_short_ocr_debris(self):
         from documents import clean
         self.assertEqual(clean('FlexPoint Media t'), 'FlexPoint Media')

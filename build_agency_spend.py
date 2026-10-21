@@ -63,10 +63,45 @@ def documents():
         return {}
 
 
-def fcc_agencies(docs, calls_by_media):
-    """Agency key -> what the political-file documents say about it."""
-    out = defaultdict(lambda: {'names': Counter(), 'stations': set(), 'clients': Counter(),
-                               'docs': 0, 'orders': {}, 'first': None, 'last': None})
+def client_name(s):
+    """An advertiser as read off a document, without the station's prefix
+    ("POL/"), dates a contract prints beside it, or OCR's brackets."""
+    s = re.sub(r'^(?:POL|ISS)\s*/\s*', '', s or '', flags=re.I)
+    s = re.sub(r'[«»\[\]{}|]', ' ', s)
+    s = re.sub(r'\d{1,2}/\d{1,2}/\d{2,4}(?:\s*/\s*)?', ' ', s)
+    return re.sub(r'\s+', ' ', s).strip(' .,:;-/')
+
+
+def top_clients(counter, n):
+    """The most frequent clients, each once: spellings whose letters one
+    contains the other's ("Accountability Project, Inc", "ountability
+    Project") are one client, named by its most frequent spelling."""
+    out = []
+    for name, _ in counter.most_common():
+        k = re.sub(r'[^a-z]', '', re.sub(r'\b(?:inc|llc|the)\b', '', name.lower()))
+        if len(k) < 4 or any(k in o or o in k for o, _ in out):
+            continue
+        out.append((k, name))
+    return [nm for _, nm in out[:n]]
+
+
+def away_ids():
+    """File ids of the political-file documents filed for another state's
+    race (Texas's on Shreveport stations, network issue buys on
+    sub-channels), as fcc/summary.py sorts them; empty before a scrape."""
+    from summary import fcc_summary
+    F = fcc_summary({}, media=('tv', 'cable', 'radio', 'dbs'), ids=True)
+    return set((F or {}).get('awayIds', []))
+
+
+def fcc_agencies(docs, away=frozenset()):
+    """Agency key -> what the political-file documents say about it, each
+    figure kept apart for Louisiana's races and other states' (`away`, file
+    ids): an agency buying Texas's Senate race on Shreveport stations isn't
+    Louisiana money."""
+    side = lambda: {'clients': Counter(), 'docs': 0, 'orders': {}}
+    out = defaultdict(lambda: {'names': Counter(), 'stations': set(), 'first': None, 'last': None,
+                               'la': side(), 'away': side()})
     for did, d in docs.items():
         a = d.get('agency')
         if d.get('status') != 'read' or not a or same_party(a, d.get('advertiser')):
@@ -76,27 +111,28 @@ def fcc_agencies(docs, calls_by_media):
             continue
         x = out[k]
         x['names'][a] += 1
-        x['docs'] += 1
         x['stations'].add((d.get('media') or 'tv', d.get('call')))
-        client = re.sub(r'^(?:POL|ISS)\s*/\s*', '', d.get('advertiser') or '', flags=re.I).strip()
-        if client:
-            x['clients'][client] += 1
         up = (d.get('uploaded') or '')[:10]
         x['first'] = min(filter(None, [x['first'], up])) if up else x['first']
         x['last'] = max(filter(None, [x['last'], up])) if up else x['last']
+        y = x['away' if did in away else 'la']
+        y['docs'] += 1
+        client = client_name(d.get('advertiser'))
+        if client:
+            y['clients'][client] += 1
         # Each order once at its latest revision; invoices only stand in
         # for an order not read (as fcc/summary.py's booked()).
         if d.get('gross') and d['gross'] > 0 and d.get('kind') in ('order', 'invoice') and not d.get('reissue'):
             key = (d.get('call'), d.get('order_no') or did)
-            prev = x['orders'].get(key)
+            prev = y['orders'].get(key)
             if d['kind'] == 'order':
                 if not prev or prev[0] != 'order' or up > prev[1]:
-                    x['orders'][key] = ('order', up, d['gross'], {})
+                    y['orders'][key] = ('order', up, d['gross'], {})
             else:
                 inv = prev[3] if prev and prev[0] == 'invoice' else {}
                 inv[d.get('invoice_no') or did] = d['gross']
                 if not prev or prev[0] == 'invoice':
-                    x['orders'][key] = ('invoice', up, sum(inv.values()), inv)
+                    y['orders'][key] = ('invoice', up, sum(inv.values()), inv)
     return out
 
 
@@ -104,7 +140,7 @@ def builder(args, files):
     docs = documents()
     stations = json.load(open(D('stations.json'), encoding='utf-8'))
     callset = {s['call'].split('-')[0] for s in stations}
-    fcc = fcc_agencies(docs, None)
+    fcc = fcc_agencies(docs, away_ids())
     fcc_keys = sorted(fcc, key=len, reverse=True)
     this_year = int(time.strftime('%Y'))
 
@@ -169,11 +205,15 @@ def builder(args, files):
             label = re.sub(r'[\s,.]+(?:LLC|Inc|L\.L\.C)\.?$', '', label, flags=re.I).strip()
             row = {'key': k, 'name': label, 'found_by': 'political file' if f else 'filings'}
             if f:
-                usd = sum(o[2] for o in f['orders'].values())
-                row['fcc'] = {'docs': f['docs'], 'priced': len(f['orders']), 'usd': round(usd),
+                la, aw = f['la'], f['away']
+                row['fcc'] = {'docs': la['docs'], 'priced': len(la['orders']),
+                              'usd': round(sum(o[2] for o in la['orders'].values())),
                               'stations': sorted(c for _, c in f['stations'] if c),
-                              'clients': [c for c, _ in f['clients'].most_common(12)],
-                              'first': f['first'], 'last': f['last']}
+                              'clients': top_clients(la['clients'], 12),
+                              'first': f['first'], 'last': f['last'],
+                              # Other states' races the agency bought on Louisiana stations.
+                              'away': {'docs': aw['docs'], 'usd': round(sum(o[2] for o in aw['orders'].values())),
+                                       'clients': top_clients(aw['clients'], 6)}}
             if p and p['rows']:
                 # This cycle's payers first; all-time only breaks ties.
                 top = sorted(p['by'].items(), key=lambda x: (-x[1][1], -x[1][0]))

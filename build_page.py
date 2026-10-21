@@ -272,7 +272,9 @@ def agencies(spend):
         'from': since, 'read': ag.get('documents_read', 0), 'stations': round(direct),
         'media': sum(r.get('paid', {}).get('media_cycle', 0) for r in ag['agencies']),
         'rows': [{'name': r['name'],
-                  **({'fcc': {k: r['fcc'][k] for k in ('docs', 'usd', 'stations', 'clients')}} if r.get('fcc') else {}),
+                  **({'fcc': {**{k: r['fcc'][k] for k in ('docs', 'usd', 'stations', 'clients')},
+                              **({'away': r['fcc']['away']} if r['fcc'].get('away', {}).get('docs') else {})}}
+                     if r.get('fcc') else {}),
                   **({'paid': {'mediaCycle': r['paid']['media_cycle'], 'cycle': r['paid']['cycle'],
                                'committees': r['paid']['committees'],
                                'top': [{'f': t['f'], 'n': t['n'], 'usd': t['usd'], 'cycle': t['cycle']}
