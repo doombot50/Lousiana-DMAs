@@ -88,7 +88,7 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pfrow .when b{color:var(--ink);}
 .pfrow .calls{grid-column:1/-1; display:flex; flex-wrap:wrap; gap:4px;}
 .pfrow .usd{color:var(--ink); font-weight:600;}
-.agrow{display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:4px 18px; padding:11px 16px; border-top:1px solid var(--hair); align-items:baseline;}
+.agrow{display:grid; grid-template-columns:minmax(0,1fr) 150px 210px; gap:4px 18px; padding:11px 16px; border-top:1px solid var(--hair); align-items:baseline;}
 .agrow:first-child{border-top:0;}
 .agrow.head{font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding-top:6px; padding-bottom:6px;}
 .agrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:14px;}
@@ -97,6 +97,7 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .agrow .who{grid-column:1/-1; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2); line-height:1.5;}
 .agrow .who a{color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
 @media (max-width:560px){ .agrow{grid-template-columns:minmax(0,1fr) auto;} .agrow .num.fcc{grid-column:2;} }
+.agrow .num small{white-space:normal;}
 a.callchip{text-decoration:none;}
 a.callchip:hover{color:var(--ink); background:var(--hair);}
 .callchip{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2);}
@@ -680,14 +681,15 @@ if(DATA.agencies && DATA.agencies.rows.length){
     const who = [
       p.top && p.top.length ? `Paid by ${p.top.slice(0,4).map(t=>`<a href="${prof(t.f)}" title="${esc(t.n)}'s committee profile">${esc(t.n)}</a> (${money(t.cycle)})`).join(', ')}${p.committees>p.top.length?` and ${p.committees-p.top.length} more since 2000`:''}` : '',
       f && f.clients.length ? `Buying for ${f.clients.slice(0,4).map(esc).join(', ')} at ${f.stations.slice(0,6).join(', ')}${f.stations.length>6?'…':''}` : '',
+      f && f.away ? `Also ${f.away.usd?money(f.away.usd)+' ':''}for other states' races carried on Louisiana stations${f.away.clients.length?' ('+f.away.clients.slice(0,3).map(esc).join(', ')+')':''}, not counted here` : '',
     ].filter(Boolean).join('. ');
     return `<div class="agrow"><span class="nm">${esc(r.name)}${f?'<span class="btag" title="Named as the buying agency in a station\'s political file">POLITICAL FILE</span>':''}</span>
       <span class="num">${p.mediaCycle?money(p.mediaCycle):'—'}<small>${p.cycle?money(p.cycle)+' in all':'no state payments'}</small></span>
-      <span class="num fcc">${f&&f.usd?money(f.usd):'—'}<small>${f?f.docs+' document'+(f.docs===1?'':'s'):''}</small></span>
+      <span class="num fcc">${f&&f.usd?money(f.usd):'—'}<small>${f?(f.docs?f.docs+' document'+(f.docs===1?'':'s'):'')+(f.away&&f.away.usd?(f.docs?' · ':'')+'+'+money(f.away.usd)+' out of state':''):''}</small></span>
       ${who?`<span class="who">${who}.</span>`:''}</div>`;
   }).join('');
   document.getElementById('agcap').textContent =
-    `State filings: every payment to the firm under any spelling since ${A.from}; the large figure is the part described as TV, broadcast, air time or a media buy, the small one everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`;
+    `State filings: every payment to the firm under any spelling since ${A.from}; the large figure is the part described as TV, broadcast, air time or a media buy, the small one everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once, for Louisiana's races; what it bought on Louisiana stations for other states' races (Texas's, mostly, on Shreveport's) is shown apart and not counted. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`;
 }
 
 /* ---------- map ---------- */
