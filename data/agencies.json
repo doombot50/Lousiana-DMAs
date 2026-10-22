@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-21",
+ "generated": "2026-10-22",
  "data_through": "2026-10-20",
  "cycle_from": 2023,
- "documents_read": 510,
+ "documents_read": 585,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -151,16 +151,18 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
+    "docs": 5,
     "priced": 4,
     "usd": 42700,
     "stations": [
+     "008048",
      "WDSU"
     ],
     "clients": [
      "Burris/R/LA Supreme Court Dist 1",
      "Protect St. Tammany's Future",
      "Echols/R/22 Jud District Court - DivE",
+     "Ellie Schroder Campaign",
      "Schroder/R/BESE Dist 1"
     ],
     "first": "2026-05-12",
@@ -308,9 +310,9 @@
    "name": "Ax Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 23715,
+    "docs": 4,
+    "priced": 4,
+    "usd": 36805,
     "stations": [
      "KTBS",
      "WDSU"
@@ -318,7 +320,7 @@
     "clients": [
      "Downing/R/LA State Supreme Court Dist 1"
     ],
-    "first": "2026-05-11",
+    "first": "2026-05-04",
     "last": "2026-10-16",
     "away": {
      "docs": 3,
@@ -463,6 +465,66 @@
    }
   },
   {
+   "key": "DELCIELOMEDIA",
+   "name": "Del Cielo Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 40,
+    "priced": 37,
+    "usd": 904050,
+    "stations": [
+     "KLAX",
+     "KPXJ",
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Accountability Project, Inc",
+     "Accountabllity Project",
+     "original Date / Revision",
+     "Accountablilty Project"
+    ],
+    "first": "2026-04-27",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1176834,
+    "media": 434005,
+    "rows": 9,
+    "media_cycle": 434005,
+    "cycle": 1055775,
+    "years": {
+     "2015": 121060,
+     "2023": 1055775
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "4517",
+      "n": "Louisiana Freedom Fund",
+      "p": "OTH",
+      "usd": 1055775,
+      "cycle": 1055775
+     },
+     {
+      "f": "3278",
+      "n": "Now or Never - Louisiana PAC",
+      "p": "OTH",
+      "usd": 121060,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "DEL CIELO MEDIA LLC"
+    ]
+   }
+  },
+  {
    "key": "AMERICANMEDIAANDADVOCACY",
    "name": "American Media & Advocacy Group",
    "found_by": "filings",
@@ -540,25 +602,24 @@
    }
   },
   {
-   "key": "DELCIELOMEDIA",
-   "name": "Del Cielo Media",
+   "key": "SMARTMEDIA",
+   "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 28,
-    "priced": 25,
-    "usd": 620300,
+    "docs": 8,
+    "priced": 7,
+    "usd": 124010,
     "stations": [
-     "KLAX",
-     "KPXJ",
-     "KTBS",
-     "WDSU"
+     "004321",
+     "KTBS"
     ],
     "clients": [
-     "Accountability Project, Inc",
-     "Accountabllity Project"
+     "John Atkins-La Public Service Comm.District",
+     "Protect Louisiana Values",
+     "John Atkins-La Public Service Comm. Distrlet"
     ],
-    "first": "2026-05-07",
-    "last": "2026-10-07",
+    "first": "2026-04-27",
+    "last": "2026-10-05",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -566,34 +627,66 @@
     }
    },
    "paid": {
-    "total": 1176834,
-    "media": 434005,
-    "rows": 9,
-    "media_cycle": 434005,
-    "cycle": 1055775,
+    "total": 2071866,
+    "media": 1531633,
+    "rows": 27,
+    "media_cycle": 540532,
+    "cycle": 734357,
     "years": {
-     "2015": 121060,
-     "2023": 1055775
+     "2015": 968858,
+     "2019": 368651,
+     "2023": 515799,
+     "2026": 218558
     },
-    "committees": 2,
+    "committees": 6,
     "top": [
      {
-      "f": "4517",
-      "n": "Louisiana Freedom Fund",
-      "p": "OTH",
-      "usd": 1055775,
-      "cycle": 1055775
+      "f": "1625",
+      "n": "Jeff Landry",
+      "p": "REP",
+      "usd": 500764,
+      "cycle": 500764
      },
      {
-      "f": "3278",
-      "n": "Now or Never - Louisiana PAC",
+      "f": "3375",
+      "n": "John E Atkins",
+      "p": "REP",
+      "usd": 218558,
+      "cycle": 218558
+     },
+     {
+      "f": "6337",
+      "n": "Conservative Louisiana PAC",
       "p": "OTH",
-      "usd": 121060,
+      "usd": 15035,
+      "cycle": 15035
+     },
+     {
+      "f": "123",
+      "n": "John Kennedy",
+      "p": "REP",
+      "usd": 967924,
+      "cycle": 0
+     },
+     {
+      "f": "4472",
+      "n": "Timothy Temple",
+      "p": "REP",
+      "usd": 368651,
+      "cycle": 0
+     },
+     {
+      "f": "3814",
+      "n": "Joseph Swider",
+      "p": "DEM",
+      "usd": 933,
       "cycle": 0
      }
     ],
     "spellings": [
-     "DEL CIELO MEDIA LLC"
+     "SMART MEDIA GROUP",
+     "SMART MEDIA GROUP LLC",
+     "SMART MEDIA"
     ]
    }
   },
@@ -602,9 +695,9 @@
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
-    "priced": 7,
-    "usd": 70450,
+    "docs": 12,
+    "priced": 10,
+    "usd": 93210,
     "stations": [
      "004321",
      "WDSU"
@@ -612,11 +705,12 @@
     "clients": [
      "Lindsay/D/Orleans Parish Civil District Judge",
      "Marsiglia/R/JP Court Judge, Div",
+     "Howard/D/Orleans Parish Civil District Court",
+     "Stagni/R/Kenner Council At-Large Div",
      "Friends to Elect Bart Hebert, LLC",
-     "Campaign to Elect Will Keaty",
-     "Howard/D/Orleans Parish Civil District Court"
+     "Campaign to Elect Will Keaty"
     ],
-    "first": "2026-05-11",
+    "first": "2026-04-27",
     "last": "2026-10-16",
     "away": {
      "docs": 0,
@@ -762,94 +856,6 @@
      "ARSEMENT MEDIA/CONSULTING GROUP",
      "ARSEMENT MEDIA GROUP LLC",
      "ARSEMENT MEDIA GROUP. LLC"
-    ]
-   }
-  },
-  {
-   "key": "SMARTMEDIA",
-   "name": "Smart Media Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 6,
-    "priced": 5,
-    "usd": 77700,
-    "stations": [
-     "004321",
-     "KTBS"
-    ],
-    "clients": [
-     "John Atkins-La Public Service Comm.District",
-     "Protect Louisiana Values"
-    ],
-    "first": "2026-09-28",
-    "last": "2026-10-05",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 2071866,
-    "media": 1531633,
-    "rows": 27,
-    "media_cycle": 540532,
-    "cycle": 734357,
-    "years": {
-     "2015": 968858,
-     "2019": 368651,
-     "2023": 515799,
-     "2026": 218558
-    },
-    "committees": 6,
-    "top": [
-     {
-      "f": "1625",
-      "n": "Jeff Landry",
-      "p": "REP",
-      "usd": 500764,
-      "cycle": 500764
-     },
-     {
-      "f": "3375",
-      "n": "John E Atkins",
-      "p": "REP",
-      "usd": 218558,
-      "cycle": 218558
-     },
-     {
-      "f": "6337",
-      "n": "Conservative Louisiana PAC",
-      "p": "OTH",
-      "usd": 15035,
-      "cycle": 15035
-     },
-     {
-      "f": "123",
-      "n": "John Kennedy",
-      "p": "REP",
-      "usd": 967924,
-      "cycle": 0
-     },
-     {
-      "f": "4472",
-      "n": "Timothy Temple",
-      "p": "REP",
-      "usd": 368651,
-      "cycle": 0
-     },
-     {
-      "f": "3814",
-      "n": "Joseph Swider",
-      "p": "DEM",
-      "usd": 933,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "SMART MEDIA GROUP",
-     "SMART MEDIA GROUP LLC",
-     "SMART MEDIA"
     ]
    }
   },
@@ -1145,9 +1151,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 16,
-    "priced": 15,
-    "usd": 323415,
+    "docs": 17,
+    "priced": 16,
+    "usd": 339915,
     "stations": [
      "005341",
      "KPXJ",
@@ -1163,7 +1169,7 @@
      "Mike Johnson for Louislana",
      "Scalise for Congress"
     ],
-    "first": "2026-05-14",
+    "first": "2026-04-29",
     "last": "2026-10-20",
     "away": {
      "docs": 0,
@@ -1329,58 +1335,173 @@
    }
   },
   {
-   "key": "AXADVOCACY",
-   "name": "Axadvocacy",
-   "found_by": "filings",
-   "paid": {
-    "total": 250000,
-    "media": 234000,
-    "rows": 3,
-    "media_cycle": 234000,
-    "cycle": 250000,
-    "years": {
-     "2026": 250000
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "8205",
-      "n": "Keep Louisiana Affordable",
-      "p": "OTH",
-      "usd": 250000,
-      "cycle": 250000
-     }
+   "key": "KINGFISHCOMMUNICATIONS",
+   "name": "Kingfish Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 12,
+    "priced": 11,
+    "usd": 225785,
+    "stations": [
+     "KLAX",
+     "KPLC",
+     "KPXJ",
+     "KTBS",
+     "WDSU",
+     "WJBO"
     ],
-    "spellings": [
-     "AXADVOCACY"
-    ]
-   }
-  },
-  {
-   "key": "CONVERGENCEMEDIA",
-   "name": "Convergence Media",
-   "found_by": "filings",
+    "clients": [
+     "Fleming/R/Senate",
+     "John Fleming/Fleming for Louisiana",
+     "Fleming for LA",
+     "John Fleming-LA Senate",
+     "Moms Protecting Children PAC"
+    ],
+    "first": "2026-04-27",
+    "last": "2026-09-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
    "paid": {
-    "total": 623403,
-    "media": 227679,
-    "rows": 35,
-    "media_cycle": 227679,
-    "cycle": 623403,
+    "total": 703417,
+    "media": 85192,
+    "rows": 50,
+    "media_cycle": 43000,
+    "cycle": 270892,
     "years": {
-     "2023": 623403
+     "2003": 4480,
+     "2010": 1275,
+     "2011": 15454,
+     "2012": 850,
+     "2013": 25800,
+     "2014": 55350,
+     "2015": 49299,
+     "2016": 21386,
+     "2017": 35997,
+     "2018": 21800,
+     "2019": 116833,
+     "2020": 84000,
+     "2023": 238302,
+     "2024": 28000,
+     "2025": 4590
     },
-    "committees": 1,
+    "committees": 25,
     "top": [
      {
-      "f": "5947",
-      "n": "Stephen Waguespack",
+      "f": "5603",
+      "n": "Hunter W. Lundy",
+      "p": "DEM",
+      "usd": 93751,
+      "cycle": 93751
+     },
+     {
+      "f": "5883",
+      "n": "John Fleming",
       "p": "REP",
-      "usd": 623403,
-      "cycle": 623403
+      "usd": 43000,
+      "cycle": 43000
+     },
+     {
+      "f": "5864",
+      "n": "Harvey E. Ned White III",
+      "p": "REP",
+      "usd": 30000,
+      "cycle": 30000
+     },
+     {
+      "f": "6532",
+      "n": "Louisiana Judical Integrity PAC",
+      "p": "OTH",
+      "usd": 28000,
+      "cycle": 28000
+     },
+     {
+      "f": "4055",
+      "n": "John Stefanski",
+      "p": "REP",
+      "usd": 23251,
+      "cycle": 23251
+     },
+     {
+      "f": "2223",
+      "n": "Clay Schexnayder",
+      "p": "REP",
+      "usd": 15400,
+      "cycle": 15400
+     },
+     {
+      "f": "3440",
+      "n": "Scott McKnight",
+      "p": "REP",
+      "usd": 15400,
+      "cycle": 15400
+     },
+     {
+      "f": "2816",
+      "n": "Martin K. Maley, Sr.",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "5023",
+      "n": "Make Louisiana Great Again",
+      "p": "OTH",
+      "usd": 4590,
+      "cycle": 4590
+     },
+     {
+      "f": "1193",
+      "n": "Elbert Guillory",
+      "p": "REP",
+      "usd": 2500,
+      "cycle": 2500
+     },
+     {
+      "f": "1597",
+      "n": "LA Federation of Teachers PAC",
+      "p": "OTH",
+      "usd": 180247,
+      "cycle": 0
+     },
+     {
+      "f": "997",
+      "n": "James J (Jim) Donelon",
+      "p": "REP",
+      "usd": 65695,
+      "cycle": 0
+     },
+     {
+      "f": "1361",
+      "n": "LA Manufacturers Polical Actions Committee (LAMP)",
+      "p": "OTH",
+      "usd": 42085,
+      "cycle": 0
+     },
+     {
+      "f": "4171",
+      "n": "Louisiana Free Enterprise PAC",
+      "p": "OTH",
+      "usd": 35000,
+      "cycle": 0
+     },
+     {
+      "f": "1144",
+      "n": "John Bel Edwards",
+      "p": "DEM",
+      "usd": 30738,
+      "cycle": 0
      }
     ],
     "spellings": [
-     "CONVERGENCE MEDIA, LLC"
+     "LOUISIANA RADIO NETWORK",
+     "KINGFISH COMMUNICATIONS",
+     "KINGFISH COMMUNICATIONS LLC",
+     "KINGFISH COMMUNICATIONS D/B/A LOUISIANA RADIO NETWORK",
+     "KINGFISH COMMUNICATIONS, LLC"
     ]
    }
   },
@@ -1389,9 +1510,9 @@
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
-    "priced": 8,
-    "usd": 78200,
+    "docs": 9,
+    "priced": 9,
+    "usd": 90605,
     "stations": [
      "WDSU"
     ],
@@ -1401,7 +1522,7 @@
      "McMahon/R/JP 24th JDC Judge",
      "Raines/R/JP First Parish Court, Div"
     ],
-    "first": "2026-05-07",
+    "first": "2026-04-30",
     "last": "2026-10-16",
     "away": {
      "docs": 0,
@@ -1562,6 +1683,62 @@
    }
   },
   {
+   "key": "AXADVOCACY",
+   "name": "Axadvocacy",
+   "found_by": "filings",
+   "paid": {
+    "total": 250000,
+    "media": 234000,
+    "rows": 3,
+    "media_cycle": 234000,
+    "cycle": 250000,
+    "years": {
+     "2026": 250000
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "8205",
+      "n": "Keep Louisiana Affordable",
+      "p": "OTH",
+      "usd": 250000,
+      "cycle": 250000
+     }
+    ],
+    "spellings": [
+     "AXADVOCACY"
+    ]
+   }
+  },
+  {
+   "key": "CONVERGENCEMEDIA",
+   "name": "Convergence Media",
+   "found_by": "filings",
+   "paid": {
+    "total": 623403,
+    "media": 227679,
+    "rows": 35,
+    "media_cycle": 227679,
+    "cycle": 623403,
+    "years": {
+     "2023": 623403
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5947",
+      "n": "Stephen Waguespack",
+      "p": "REP",
+      "usd": 623403,
+      "cycle": 623403
+     }
+    ],
+    "spellings": [
+     "CONVERGENCE MEDIA, LLC"
+    ]
+   }
+  },
+  {
    "key": "BULLSEYEMEDIA",
    "name": "Bull's Eye Media",
    "found_by": "political file",
@@ -1718,27 +1895,25 @@
    }
   },
   {
-   "key": "KINGFISHCOMMUNICATIONS",
-   "name": "Kingfish Communications",
+   "key": "TOTALVIDEOPLACEMENTS",
+   "name": "Total Video Placements",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
+    "docs": 7,
     "priced": 7,
-    "usd": 162210,
+    "usd": 196530,
     "stations": [
-     "KLAX",
      "KPXJ",
      "KTBS",
-     "WDSU",
-     "WJBO"
+     "WDSU"
     ],
     "clients": [
-     "Fleming/R/Senate",
-     "John Fleming/Fleming for Louisiana",
-     "Fleming for LA"
+     "Louisiana Freedom Fund",
+     "Loulsiana Freedom Fund",
+     "Public First Action"
     ],
-    "first": "2026-05-07",
-    "last": "2026-09-16",
+    "first": "2026-04-27",
+    "last": "2026-07-09",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1746,142 +1921,26 @@
     }
    },
    "paid": {
-    "total": 703417,
-    "media": 85192,
-    "rows": 50,
-    "media_cycle": 43000,
-    "cycle": 270892,
+    "total": 1003,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
     "years": {
-     "2003": 4480,
-     "2010": 1275,
-     "2011": 15454,
-     "2012": 850,
-     "2013": 25800,
-     "2014": 55350,
-     "2015": 49299,
-     "2016": 21386,
-     "2017": 35997,
-     "2018": 21800,
-     "2019": 116833,
-     "2020": 84000,
-     "2023": 238302,
-     "2024": 28000,
-     "2025": 4590
+     "2004": 1003
     },
-    "committees": 25,
+    "committees": 1,
     "top": [
      {
-      "f": "5603",
-      "n": "Hunter W. Lundy",
-      "p": "DEM",
-      "usd": 93751,
-      "cycle": 93751
-     },
-     {
-      "f": "5883",
-      "n": "John Fleming",
+      "f": "801",
+      "n": "Steven G. (Buzz) Durio",
       "p": "REP",
-      "usd": 43000,
-      "cycle": 43000
-     },
-     {
-      "f": "5864",
-      "n": "Harvey E. Ned White III",
-      "p": "REP",
-      "usd": 30000,
-      "cycle": 30000
-     },
-     {
-      "f": "6532",
-      "n": "Louisiana Judical Integrity PAC",
-      "p": "OTH",
-      "usd": 28000,
-      "cycle": 28000
-     },
-     {
-      "f": "4055",
-      "n": "John Stefanski",
-      "p": "REP",
-      "usd": 23251,
-      "cycle": 23251
-     },
-     {
-      "f": "2223",
-      "n": "Clay Schexnayder",
-      "p": "REP",
-      "usd": 15400,
-      "cycle": 15400
-     },
-     {
-      "f": "3440",
-      "n": "Scott McKnight",
-      "p": "REP",
-      "usd": 15400,
-      "cycle": 15400
-     },
-     {
-      "f": "2816",
-      "n": "Martin K. Maley, Sr.",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "5023",
-      "n": "Make Louisiana Great Again",
-      "p": "OTH",
-      "usd": 4590,
-      "cycle": 4590
-     },
-     {
-      "f": "1193",
-      "n": "Elbert Guillory",
-      "p": "REP",
-      "usd": 2500,
-      "cycle": 2500
-     },
-     {
-      "f": "1597",
-      "n": "LA Federation of Teachers PAC",
-      "p": "OTH",
-      "usd": 180247,
-      "cycle": 0
-     },
-     {
-      "f": "997",
-      "n": "James J (Jim) Donelon",
-      "p": "REP",
-      "usd": 65695,
-      "cycle": 0
-     },
-     {
-      "f": "1361",
-      "n": "LA Manufacturers Polical Actions Committee (LAMP)",
-      "p": "OTH",
-      "usd": 42085,
-      "cycle": 0
-     },
-     {
-      "f": "4171",
-      "n": "Louisiana Free Enterprise PAC",
-      "p": "OTH",
-      "usd": 35000,
-      "cycle": 0
-     },
-     {
-      "f": "1144",
-      "n": "John Bel Edwards",
-      "p": "DEM",
-      "usd": 30738,
+      "usd": 1003,
       "cycle": 0
      }
     ],
     "spellings": [
-     "LOUISIANA RADIO NETWORK",
-     "KINGFISH COMMUNICATIONS",
-     "KINGFISH COMMUNICATIONS LLC",
-     "KINGFISH COMMUNICATIONS D/B/A LOUISIANA RADIO NETWORK",
-     "KINGFISH COMMUNICATIONS, LLC"
+     "TOTAL VIDEO"
     ]
    }
   },
@@ -2015,6 +2074,159 @@
      "DEVISE STRATEGY GROUP, LLC",
      "DEVISE STRATEGY GROUP",
      "DEVISE STRATEGY GROUP LLC"
+    ]
+   }
+  },
+  {
+   "key": "VICTORIACOULONCONSULT",
+   "name": "Victoria Coulon Consulting",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 11,
+    "priced": 11,
+    "usd": 35050,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Marjanovic/R/JP 24th JDC - Div",
+     "James/D/Orl Parish Civil District Court Divison N",
+     "Perque/D/Orl Parish Civil Court Div",
+     "Troy Carter/D/Congress"
+    ],
+    "first": "2026-04-30",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 734526,
+    "media": 166925,
+    "rows": 127,
+    "media_cycle": 148305,
+    "cycle": 557755,
+    "years": {
+     "2021": 73470,
+     "2022": 103301,
+     "2023": 148107,
+     "2024": 63200,
+     "2025": 222983,
+     "2026": 123465
+    },
+    "committees": 42,
+    "top": [
+     {
+      "f": "5470",
+      "n": "Freddie King III",
+      "p": "DEM",
+      "usd": 105873,
+      "cycle": 74183
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 84580,
+      "cycle": 52460
+     },
+     {
+      "f": "5114",
+      "n": "Diedre Pierce Kelly",
+      "p": "DEM",
+      "usd": 50000,
+      "cycle": 50000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 48270,
+      "cycle": 48270
+     },
+     {
+      "f": "5111",
+      "n": "Marissa Hutabarat",
+      "p": "DEM",
+      "usd": 44305,
+      "cycle": 44305
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 36935,
+      "cycle": 36935
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 35000,
+      "cycle": 35000
+     },
+     {
+      "f": "4623",
+      "n": "Scott Walker",
+      "p": "REP",
+      "usd": 27501,
+      "cycle": 27501
+     },
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 20000,
+      "cycle": 20000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 16280,
+      "cycle": 16280
+     },
+     {
+      "f": "7029",
+      "n": "Shawn Lindsay",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "7515",
+      "n": "Marko Marjanovic",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "1759",
+      "n": "Joseph P. Lopinto, III",
+      "p": "REP",
+      "usd": 11800,
+      "cycle": 11800
+     },
+     {
+      "f": "1195",
+      "n": "Patrick Connick",
+      "p": "REP",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 9000,
+      "cycle": 9000
+     }
+    ],
+    "spellings": [
+     "VICTORIA COULON CONSULTING",
+     "VICTORIA COULON"
     ]
    }
   },
@@ -2176,159 +2388,6 @@
      "LITTLEFIELD CONSULTANTS",
      "LITTLEFIELD CONSULTING LLC",
      "LITTLEFIELD CONSULTING, LLC"
-    ]
-   }
-  },
-  {
-   "key": "VICTORIACOULONCONSULT",
-   "name": "Victoria Coulon Consulting",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 9,
-    "priced": 9,
-    "usd": 25175,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Marjanovic/R/JP 24th JDC - Div",
-     "Perque/D/Orl Parish Civil Court Div",
-     "Troy Carter/D/Congress",
-     "James/D/Orl Parish Civil District Court Divison N"
-    ],
-    "first": "2026-05-12",
-    "last": "2026-10-19",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 734526,
-    "media": 166925,
-    "rows": 127,
-    "media_cycle": 148305,
-    "cycle": 557755,
-    "years": {
-     "2021": 73470,
-     "2022": 103301,
-     "2023": 148107,
-     "2024": 63200,
-     "2025": 222983,
-     "2026": 123465
-    },
-    "committees": 42,
-    "top": [
-     {
-      "f": "5470",
-      "n": "Freddie King III",
-      "p": "DEM",
-      "usd": 105873,
-      "cycle": 74183
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 84580,
-      "cycle": 52460
-     },
-     {
-      "f": "5114",
-      "n": "Diedre Pierce Kelly",
-      "p": "DEM",
-      "usd": 50000,
-      "cycle": 50000
-     },
-     {
-      "f": "5471",
-      "n": "Delisha Boyd",
-      "p": "DEM",
-      "usd": 48270,
-      "cycle": 48270
-     },
-     {
-      "f": "5111",
-      "n": "Marissa Hutabarat",
-      "p": "DEM",
-      "usd": 44305,
-      "cycle": 44305
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 36935,
-      "cycle": 36935
-     },
-     {
-      "f": "2603",
-      "n": "Darren Lombard",
-      "p": "DEM",
-      "usd": 35000,
-      "cycle": 35000
-     },
-     {
-      "f": "4623",
-      "n": "Scott Walker",
-      "p": "REP",
-      "usd": 27501,
-      "cycle": 27501
-     },
-     {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
-      "p": "REP",
-      "usd": 20000,
-      "cycle": 20000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 16280,
-      "cycle": 16280
-     },
-     {
-      "f": "7029",
-      "n": "Shawn Lindsay",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "7515",
-      "n": "Marko Marjanovic",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "1759",
-      "n": "Joseph P. Lopinto, III",
-      "p": "REP",
-      "usd": 11800,
-      "cycle": 11800
-     },
-     {
-      "f": "1195",
-      "n": "Patrick Connick",
-      "p": "REP",
-      "usd": 10000,
-      "cycle": 10000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 9000,
-      "cycle": 9000
-     }
-    ],
-    "spellings": [
-     "VICTORIA COULON CONSULTING",
-     "VICTORIA COULON"
     ]
    }
   },
@@ -2894,10 +2953,11 @@
    "name": "Strategic Media Placement",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 2,
     "usd": 92470,
     "stations": [
+     "008048",
      "KPXJ",
      "KTBS",
      "WDSU"
@@ -2906,7 +2966,7 @@
      "Conservatives for A Better Tomorrow"
     ],
     "first": "2026-05-22",
-    "last": "2026-06-25",
+    "last": "2026-09-17",
     "away": {
      "docs": 2,
      "usd": 9775,
@@ -3873,54 +3933,6 @@
    }
   },
   {
-   "key": "TOTALVIDEOPLACEMENTS",
-   "name": "Total Video Placements",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 99920,
-    "stations": [
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Public First Action",
-     "Louisiana Freedom Fund"
-    ],
-    "first": "2026-05-07",
-    "last": "2026-07-09",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1003,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2004": 1003
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "801",
-      "n": "Steven G. (Buzz) Durio",
-      "p": "REP",
-      "usd": 1003,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "TOTAL VIDEO"
-    ]
-   }
-  },
-  {
    "key": "JAMESHARTMANANDASSOCIATES",
    "name": "James Hartman & Associates",
    "found_by": "filings",
@@ -4066,6 +4078,65 @@
      "JAMES HARTMAN & ASSOCIATES LLC",
      "JAMES HARTMAN AND ASSOCIATES LLC",
      "JAMES HARTMAN AND ASSOCIATES, LLC"
+    ]
+   }
+  },
+  {
+   "key": "SRCPMEDIA",
+   "name": "SRCP Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 12,
+    "priced": 11,
+    "usd": 89705,
+    "stations": [
+     "KPXJ",
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Bill Cassidy for Senate",
+     "Cassidy/R/Senate",
+     "BIli Cassidy for Senate"
+    ],
+    "first": "2026-04-27",
+    "last": "2026-05-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 199974,
+    "media": 47500,
+    "rows": 3,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2017": 152474,
+     "2018": 47500
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "4131",
+      "n": "Yes On 1 PAC",
+      "p": "OTH",
+      "usd": 152474,
+      "cycle": 0
+     },
+     {
+      "f": "4228",
+      "n": "Jefferson Safe & Strong PAC",
+      "p": "OTH",
+      "usd": 47500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "SRCP MEDIA, INC.",
+     "SRCP MEDIA"
     ]
    }
   },
@@ -4885,25 +4956,21 @@
    }
   },
   {
-   "key": "SRCPMEDIA",
-   "name": "SRCP Media",
+   "key": "MENTZERMEDIASERVICES",
+   "name": "Mentzer Media Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
-    "priced": 6,
-    "usd": 52010,
+    "docs": 2,
+    "priced": 2,
+    "usd": 52200,
     "stations": [
-     "KPXJ",
-     "KTBS",
      "WDSU"
     ],
     "clients": [
-     "Bill Cassidy for Senate",
-     "Cassidy/R/Senate",
-     "BIli Cassidy for Senate"
+     "First Principles PAC"
     ],
-    "first": "2026-05-07",
-    "last": "2026-05-12",
+    "first": "2026-04-30",
+    "last": "2026-05-07",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -4911,36 +4978,137 @@
     }
    },
    "paid": {
-    "total": 199974,
-    "media": 47500,
-    "rows": 3,
+    "total": 3667287,
+    "media": 2144757,
+    "rows": 193,
     "media_cycle": 0,
-    "cycle": 0,
+    "cycle": 3995,
     "years": {
-     "2017": 152474,
-     "2018": 47500
+     "2006": 840840,
+     "2007": 352777,
+     "2010": 56228,
+     "2011": 909424,
+     "2012": 250816,
+     "2014": 27750,
+     "2015": 1225458,
+     "2026": 3995
     },
-    "committees": 2,
+    "committees": 12,
     "top": [
      {
-      "f": "4131",
-      "n": "Yes On 1 PAC",
+      "f": "7125",
+      "n": "FIRST PRINCIPLES PAC",
       "p": "OTH",
-      "usd": 152474,
+      "usd": 3995,
+      "cycle": 3995
+     },
+     {
+      "f": "997",
+      "n": "James J (Jim) Donelon",
+      "p": "REP",
+      "usd": 1145653,
       "cycle": 0
      },
      {
-      "f": "4228",
-      "n": "Jefferson Safe & Strong PAC",
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 733000,
+      "cycle": 0
+     },
+     {
+      "f": "160",
+      "n": "John L. (Jay) Dardenne",
+      "p": "REP",
+      "usd": 730660,
+      "cycle": 0
+     },
+     {
+      "f": "2820",
+      "n": "The Fund for Louisiana's Future",
       "p": "OTH",
-      "usd": 47500,
+      "usd": 482051,
+      "cycle": 0
+     },
+     {
+      "f": "2451",
+      "n": "William Morvant",
+      "p": "REP",
+      "usd": 213989,
+      "cycle": 0
+     },
+     {
+      "f": "949",
+      "n": "Bill Cassidy",
+      "p": "REP",
+      "usd": 212800,
+      "cycle": 0
+     },
+     {
+      "f": "1563",
+      "n": "Sid Gautreaux",
+      "p": "REP",
+      "usd": 65000,
+      "cycle": 0
+     },
+     {
+      "f": "1919",
+      "n": "Erich E. Ponti",
+      "p": "REP",
+      "usd": 36826,
+      "cycle": 0
+     },
+     {
+      "f": "2810",
+      "n": "Leanne Truehart, M.D.",
+      "p": "OTH",
+      "usd": 27750,
+      "cycle": 0
+     },
+     {
+      "f": "2799",
+      "n": "Andre Comeaux",
+      "p": "REP",
+      "usd": 10407,
+      "cycle": 0
+     },
+     {
+      "f": "1105",
+      "n": "Wayne Carter",
+      "p": "OTH",
+      "usd": 5157,
       "cycle": 0
      }
     ],
     "spellings": [
-     "SRCP MEDIA, INC.",
-     "SRCP MEDIA"
+     "MENTZER MEDIA SERVICES INC.",
+     "MENTZER MEDIA",
+     "MENTZER MEDIA SERVICES INC",
+     "MENTZER MEDIA SERVICES"
     ]
+   }
+  },
+  {
+   "key": "RIGHTTARGETSTRATEGY",
+   "name": "Right Target Strategy Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 3,
+    "usd": 51700,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Moms Protecting Children PAC"
+    ],
+    "first": "2026-05-04",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -5109,29 +5277,6 @@
    }
   },
   {
-   "key": "RIGHTTARGETSTRATEGY",
-   "name": "Right Target Strategy Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 34100,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Moms Protecting Children PAC"
-    ],
-    "first": "2026-05-15",
-    "last": "2026-10-07",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "QUESTCOMMCONSULT",
    "name": "Questcomm Consultants",
    "found_by": "filings",
@@ -5280,9 +5425,9 @@
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
-    "priced": 6,
-    "usd": 23770,
+    "docs": 7,
+    "priced": 7,
+    "usd": 25070,
     "stations": [
      "WDSU"
     ],
@@ -5291,7 +5436,7 @@
      "Cao/R/BESE District 1",
      "Lee/R/JP 1st Parish Court Div"
     ],
-    "first": "2026-06-11",
+    "first": "2026-05-04",
     "last": "2026-10-19",
     "away": {
      "docs": 0,
@@ -5431,139 +5576,6 @@
      "CARVIN CONSULTING INC.",
      "CARVIN CONSULTING GROUP",
      "CARVIN CONSULTANTS, INC."
-    ]
-   }
-  },
-  {
-   "key": "MENTZERMEDIASERVICES",
-   "name": "Mentzer Media Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 25700,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "First Principles PAC"
-    ],
-    "first": "2026-05-07",
-    "last": "2026-05-07",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 3667287,
-    "media": 2144757,
-    "rows": 193,
-    "media_cycle": 0,
-    "cycle": 3995,
-    "years": {
-     "2006": 840840,
-     "2007": 352777,
-     "2010": 56228,
-     "2011": 909424,
-     "2012": 250816,
-     "2014": 27750,
-     "2015": 1225458,
-     "2026": 3995
-    },
-    "committees": 12,
-    "top": [
-     {
-      "f": "7125",
-      "n": "FIRST PRINCIPLES PAC",
-      "p": "OTH",
-      "usd": 3995,
-      "cycle": 3995
-     },
-     {
-      "f": "997",
-      "n": "James J (Jim) Donelon",
-      "p": "REP",
-      "usd": 1145653,
-      "cycle": 0
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 733000,
-      "cycle": 0
-     },
-     {
-      "f": "160",
-      "n": "John L. (Jay) Dardenne",
-      "p": "REP",
-      "usd": 730660,
-      "cycle": 0
-     },
-     {
-      "f": "2820",
-      "n": "The Fund for Louisiana's Future",
-      "p": "OTH",
-      "usd": 482051,
-      "cycle": 0
-     },
-     {
-      "f": "2451",
-      "n": "William Morvant",
-      "p": "REP",
-      "usd": 213989,
-      "cycle": 0
-     },
-     {
-      "f": "949",
-      "n": "Bill Cassidy",
-      "p": "REP",
-      "usd": 212800,
-      "cycle": 0
-     },
-     {
-      "f": "1563",
-      "n": "Sid Gautreaux",
-      "p": "REP",
-      "usd": 65000,
-      "cycle": 0
-     },
-     {
-      "f": "1919",
-      "n": "Erich E. Ponti",
-      "p": "REP",
-      "usd": 36826,
-      "cycle": 0
-     },
-     {
-      "f": "2810",
-      "n": "Leanne Truehart, M.D.",
-      "p": "OTH",
-      "usd": 27750,
-      "cycle": 0
-     },
-     {
-      "f": "2799",
-      "n": "Andre Comeaux",
-      "p": "REP",
-      "usd": 10407,
-      "cycle": 0
-     },
-     {
-      "f": "1105",
-      "n": "Wayne Carter",
-      "p": "OTH",
-      "usd": 5157,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MENTZER MEDIA SERVICES INC.",
-     "MENTZER MEDIA",
-     "MENTZER MEDIA SERVICES INC",
-     "MENTZER MEDIA SERVICES"
     ]
    }
   },
@@ -5721,6 +5733,29 @@
     ],
     "first": "2026-09-21",
     "last": "2026-10-14",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "GP3MEDIAMIX",
+   "name": "GP3 Media Mix",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 20300,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Fair Rates First"
+    ],
+    "first": "2026-05-04",
+    "last": "2026-05-04",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -6551,6 +6586,29 @@
    }
   },
   {
+   "key": "SNEET",
+   "name": "sn eet",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 12355,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "John Fleming/Fleming for Louisiana"
+    ],
+    "first": "2026-05-01",
+    "last": "2026-05-01",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "STRATEGICMEDIASERVICES",
    "name": "Strategic Media Services",
    "found_by": "political file",
@@ -6622,10 +6680,10 @@
      "Alan Seabaugh"
     ],
     "first": "2026-07-07",
-    "last": "2026-10-15",
+    "last": "2026-10-21",
     "away": {
-     "docs": 7,
-     "usd": 184890,
+     "docs": 8,
+     "usd": 188740,
      "clients": [
       "Dan Patrick for Lt Governor"
      ]
@@ -7788,6 +7846,29 @@
     "spellings": [
      "STORMY GAGE-WATTS"
     ]
+   }
+  },
+  {
+   "key": "TNATI",
+   "name": "tnati",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 1735,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "John Fleming/Fleming for Louisiana"
+    ],
+    "first": "2026-05-01",
+    "last": "2026-05-01",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -15029,6 +15110,29 @@
     ],
     "first": "2026-09-30",
     "last": "2026-09-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "RTSG",
+   "name": "RTSG",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048"
+    ],
+    "clients": [
+     "Defend and Protect Louisiana"
+    ],
+    "first": "2026-09-17",
+    "last": "2026-09-17",
     "away": {
      "docs": 0,
      "usd": 0,
