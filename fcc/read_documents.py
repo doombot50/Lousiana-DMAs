@@ -63,7 +63,7 @@ DOC_SECONDS = 240     # per document, everything included: past this it is aband
 # once more, at least RETRY_DAYS later, a few a night ahead of the new ones.
 RETRY = ('too_slow', 'failed')
 RETRY_DAYS = 2
-RETRY_PER_RUN = 3
+RETRY_PER_RUN = 10
 
 
 class DocTimeout(Exception):
