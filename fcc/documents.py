@@ -51,7 +51,10 @@ def amount(s):
 
 # A totals row: "Totals  4  $2,900.00  $2,465.00", "Totals  13  $3,330.00  ($499.50)  $2,830.50".
 # The spot count comes first; amounts follow. OCR sometimes slips a rating in.
-TOTALS_ROW = re.compile(r'^\s*Totals?\b[ \t:]+((?:[ \t]*(?:\(?\$?[\d,]+(?:\.\d{2})?\)?|[\d.]+))+)[ \t]*$', re.I | re.M)
+# Each number is one whitespace-free run (AMT splits "$2,900.00($499.50)"
+# later): a pattern that could split a run of digits several ways took
+# minutes to give up on a scanned "Totals 1111111111111111 ..." line.
+TOTALS_ROW = re.compile(r'^\s*Totals?\b[ \t:]+([(\$\d][\d,.$()]*(?:[ \t]+[(\$\d][\d,.$()]*)*)[ \t]*$', re.I | re.M)
 GROSS_TOTAL = re.compile(r'(?:Gross\s+Total|Total\s+Gross(?:\s+Amount)?|Grand\s+Total)\s*:?\s+(?:\d{1,5}\s+)?(' + AMT + ')', re.I)
 NET_TOTAL = re.compile(r'(?:Net\s+Amount\s+Due|Net\s+Total|Total\s+Net(?:\s+Amount)?)\s*:?\s+(' + AMT + ')', re.I)
 
@@ -148,7 +151,9 @@ def clean(name):
     # non-ASCII character ("Crossroads Media LLC H£").
     s = re.sub(r'(?:\s+(?=\S{0,3}(?:\s|$))\S*[^A-Za-z0-9\s.,&\'-]\S*)+$', '', s).strip(' .,:;-/')
     # A phone number or code run onto the name ("Arsement Media Group 501-9900").
-    s = re.sub(r'(?:\s+\(?\d[\d\s().-]{3,}\d)+$', '', s).strip(' .,:;-/')
+    # One run to the end (spaces are single by now): a repeated group here
+    # took minutes to give up on a long OCR'd row of digits.
+    s = re.sub(r' \(?\d[\d ().-]{3,}\d$', '', s).strip(' .,:;-/')
     while True:
         m = re.search(r'\s+([A-Za-z]{1,2})$', s)
         if not m or m.group(1).upper() in SHORT_OK:

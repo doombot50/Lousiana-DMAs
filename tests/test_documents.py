@@ -161,6 +161,19 @@ class AgencyNames(unittest.TestCase):
         self.assertTrue(same_agency(agency_key('Angie Sanders'), agency_key('Angie Sanders Ad Group, LLC')))
 
 
+class Speed(unittest.TestCase):
+    """Scanned rows of digits that a pattern could split many ways took
+    minutes to parse, and stalled the nightly reader past its limit."""
+    def test_long_digit_rows_parse_at_once(self):
+        import time
+        from documents import clean
+        text = open(os.path.join(ROOT, 'tests', 'documents', 'ocr_contract_ktbs.txt'), encoding='utf-8').read()
+        t = time.time()
+        parse(text + '\nTotals ' + '1' * 60 + ' x\n')
+        clean('Smart Media ' + '1 2' * 60 + ' x')
+        self.assertLess(time.time() - t, 2)
+
+
 class Retries(unittest.TestCase):
     """A stall or failed download is tried once more, two days on; nothing
     else is ever downloaded twice."""
