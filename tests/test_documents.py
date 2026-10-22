@@ -161,6 +161,20 @@ class AgencyNames(unittest.TestCase):
         self.assertTrue(same_agency(agency_key('Angie Sanders'), agency_key('Angie Sanders Ad Group, LLC')))
 
 
+class Retries(unittest.TestCase):
+    """A stall or failed download is tried once more, two days on; nothing
+    else is ever downloaded twice."""
+    def test_once_more_after_two_days(self):
+        from read_documents import retry_due
+        cutoff = '2026-10-20'
+        self.assertTrue(retry_due({'status': 'too_slow', 'read_at': '2026-10-20T16:10:00Z'}, cutoff))
+        self.assertTrue(retry_due({'status': 'failed', 'read_at': '2026-10-19T16:10:00Z'}, cutoff))
+        self.assertFalse(retry_due({'status': 'too_slow', 'read_at': '2026-10-21T16:10:00Z'}, cutoff))
+        self.assertFalse(retry_due({'status': 'too_slow', 'tries': 2, 'read_at': '2026-10-01'}, cutoff))
+        for status in ('read', 'scan', 'too_big', 'not_pdf'):
+            self.assertFalse(retry_due({'status': status, 'read_at': '2026-10-01'}, cutoff), status)
+
+
 class Booked(unittest.TestCase):
     """A buyer's dollars: each station order once, invoices only for an
     order not read, a reissued invoice never twice."""
