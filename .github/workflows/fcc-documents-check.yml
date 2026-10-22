@@ -31,6 +31,18 @@ jobs:
         run: python3 fcc/read_documents.py --sample 25
       - name: Radio sample
         run: python3 fcc/read_documents.py --media radio --sample 4
+      # Radio's own layouts: iHeartMedia's order confirmations and the
+      # small stations' scanned orders, most of them read but unpriced.
+      - name: Radio layouts
+        run: |
+          python3 fcc/read_documents.py --media radio --sample 12 --names \
+            accountability_project_inc_order_confirmation_1100655318 \
+            mark_spencer_for_senate_order_confirmation_1923743463 \
+            club_for_growth_order_confirmation_1100682003 \
+            sherman_mack_for_da_order_confirmation_9001395062 \
+            "CAPTAIN HIGGINS FOR LOUISIANA" JohnAtkiinsKRVVorders \
+            "Satrica Wilkiams" "Steve Gunnell" AlvinSharpKMLBorders \
+            "SLADE SANDERS"
       # The nightly path end to end, into a scratch copy: read a few
       # documents, then roll them up as the pages do.
       - name: Nightly read, then rollup
