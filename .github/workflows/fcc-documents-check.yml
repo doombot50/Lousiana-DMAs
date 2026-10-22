@@ -29,6 +29,50 @@ jobs:
         run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
       - name: TV sample
         run: python3 fcc/read_documents.py --sample 25
+      - name: Restore document text
+        uses: actions/cache/restore@v4
+        with:
+          path: .doc_text
+          key: doc-text-check-${{ github.run_id }}
+          restore-keys: doc-text-
+      # Where the nightly's minutes go: the slowest kept texts to parse, and
+      # each phase of the KTBS documents that stalled past four minutes.
+      - name: Timings
+        timeout-minutes: 20
+        run: |
+          python3 - <<'PY'
+          import glob, gzip, json, sys, time
+          sys.path.insert(0, 'fcc')
+          from documents import parse
+          t0 = time.time(); out = []
+          for p in glob.glob('.doc_text/*/*.txt.gz'):
+              t1 = time.time(); text = gzip.open(p, 'rt').read(); t2 = time.time()
+              parse(text); out.append((time.time() - t2, t2 - t1, len(text), p))
+          print(f'{len(out)} texts in {time.time() - t0:.1f}s')
+          for x in sorted(out, reverse=True)[:12]:
+              print(f'  parse {x[0]:7.2f}s  gunzip {x[1]:5.2f}s  {x[2]:9,d}  {x[3]}')
+          PY
+          python3 - <<'PY'
+          import json, sys, time
+          sys.path.insert(0, 'fcc')
+          import scrape_political_files as sp
+          import read_documents as rd
+          from documents import parse
+          from read_documents import candidates, download_url, pdf_text
+          L = json.load(open('data/fcc_political.json'))
+          want = {'20260424172600627', '20260416155914894', 'o18007'}
+          seen = set()
+          for call, f, kind in candidates(L, 'tv', set()):
+              if call != 'KTBS' or f['name'] not in want or f['name'] in seen:
+                  continue
+              seen.add(f['name'])
+              t = time.time(); data = sp.get(download_url(f), raw=True, max_bytes=rd.MAX_BYTES)
+              print(f['name'], 'download', round(time.time() - t, 1), 's', len(data or b''), 'bytes', flush=True)
+              t = time.time(); text, how = pdf_text(data)
+              print('  text', how, round(time.time() - t, 1), 's', len(text), 'chars', flush=True)
+              t = time.time(); parse(text)
+              print('  parse', round(time.time() - t, 1), 's', flush=True)
+          PY
       - name: Radio sample
         run: python3 fcc/read_documents.py --media radio --sample 4
       # Radio's own layouts: iHeartMedia's order confirmations and the
