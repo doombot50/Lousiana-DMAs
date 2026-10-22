@@ -91,6 +91,36 @@ class Invoices(unittest.TestCase):
         self.assertEqual(d['agency'], 'Kingfish Communications LLC')
 
 
+class Radio(unittest.TestCase):
+    def test_iheart_confirmation(self):
+        d = doc('iheart_wjbo.txt')         # WJBO, Accountability Project, through iHeart's rep firm
+        self.assertEqual((d['kind'], d['layout'], d['gross'], d['net']), ('order', 'iheart', 10000.0, 8500.0))
+        self.assertEqual((d['advertiser'], d['order_no']), ('Accountability Project Inc', '1100655318'))
+        self.assertIsNone(d['agency'])     # Katz Media Group is the rep, not an agency
+        self.assertIsNone(doc('iheart_wrno.txt')['agency'])     # "Political Candidate - Direct"
+        d = doc('iheart_wjbo_agency.txt')  # Club for Growth
+        self.assertEqual((d['gross'], d['agency']), (22500.0, 'Medium Buying, LLC'))
+
+    def test_iheart_labelled(self):
+        d = doc('iheart_wynk_labelled.txt')
+        self.assertEqual((d['gross'], d['net']), (13050.0, 11092.5))
+        self.assertEqual((d['agency'], d['advertiser']), ('Taylor Media Services', 'Sherman Mack for DA'))
+
+    def test_wavstar(self):
+        d = doc('wavstar_kqki.txt')        # KQKI, Captain Higgins, bought direct
+        self.assertEqual((d['gross'], d['order_no'], d['agency']), (1996.0, 'C00208524', None))
+
+    def test_on_air_schedule(self):
+        d = doc('schedule_krvv.txt')       # KRVV, scanned
+        self.assertEqual((d['gross'], d['net']), (225.0, 191.25))
+        self.assertEqual(d['agency'], 'MOBILE COMMUNICATIONS SERVICES')
+
+    def test_schedule_holding_another_clients_order(self):
+        # Alvin Sharp's $600, bought direct, and a DA candidate's $120 in one file.
+        d = doc('schedule_kmlb.txt')
+        self.assertEqual((d['gross'], d['advertiser'], d['agency']), (600.0, 'ALVIN SHARP', None))
+
+
 class RequestForms(unittest.TestCase):
     def test_issue_form(self):
         d = doc('nab_issue_ksla.txt')
@@ -212,6 +242,12 @@ class Booked(unittest.TestCase):
         self.assertEqual((b['ordered'], b['invoiced']), (1500, 1200))
         self.assertEqual(b['read'], 6)
         self.assertEqual(b['ag'], ['SRCP Media Inc'])
+
+    def test_radio_order_filed_at_two_stations(self):
+        docs = {'a': {'status': 'read', 'kind': 'order', 'order_no': '9001395062', 'gross': 13050.0},
+                'b': {'status': 'read', 'kind': 'order', 'order_no': '9001395062', 'gross': 13050.0}}
+        rs = [self.row('a', '2026-09-29', 'WYNK', 'radio'), self.row('b', '2026-09-29', 'KRVE', 'radio')]
+        self.assertEqual(booked(rs, docs)['usd'], 13050)
 
     def test_nothing_read(self):
         self.assertIsNone(booked([self.row('x', '2026-01-01')], {}))
