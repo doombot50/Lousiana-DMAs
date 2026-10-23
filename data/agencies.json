@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-23",
- "data_through": "2026-10-21",
+ "data_through": "2026-10-22",
  "cycle_from": 2023,
- "documents_read": 851,
+ "documents_read": 1068,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -10,9 +10,27 @@
  ],
  "agencies": [
   {
-   "key": "PEOPLEWHOTHINK",
-   "name": "People Who Think",
-   "found_by": "filings",
+   "key": "PEOPLEWHOTHINKDELCIELOMEDIA",
+   "name": "People Who Think / Del Cielo Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048"
+    ],
+    "clients": [
+     "Accountability Project, Inc"
+    ],
+    "first": "2026-07-28",
+    "last": "2026-07-28",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
    "paid": {
     "total": 16120573,
     "media": 7107645,
@@ -310,9 +328,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 70,
-    "priced": 61,
-    "usd": 1251130,
+    "docs": 72,
+    "priced": 62,
+    "usd": 1276278,
     "stations": [
      "KLAX",
      "KPXJ",
@@ -323,8 +341,8 @@
     ],
     "clients": [
      "Accountability Project, Inc",
-     "Maga Energy Project",
      "Accountabllity Project",
+     "Maga Energy Project",
      "Electronic Payments Coalition",
      "original Date / Revision",
      "Accountablilty Project"
@@ -384,15 +402,16 @@
     "clients": [
      "Downing/R/LA State Supreme Court Dist 1"
     ],
-    "first": "2026-03-02",
+    "first": "2026-02-02",
     "last": "2026-10-16",
     "away": {
-     "docs": 5,
-     "usd": 102775,
+     "docs": 10,
+     "usd": 166570,
      "clients": [
-      "Ken Paxton Victory Fund-Senate",
       "Chris Spencer Campaign",
-      "Ken Paxton for Senate"
+      "Ken Paxton Victory Fund-Senate",
+      "Ken Paxton for Senate",
+      "encer Campalgn"
      ]
     }
    },
@@ -530,6 +549,60 @@
    }
   },
   {
+   "key": "TOTALVIDEOPLACEMENTS",
+   "name": "Total Video Placements",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 47,
+    "priced": 45,
+    "usd": 1502185,
+    "stations": [
+     "008048",
+     "KPXJ",
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Louisiana Freedom Fund",
+     "Loulsiana Freedom Fund",
+     "Loulstana Freedom Fund",
+     "Original Date 7 Revision",
+     "Public First Action",
+     "Louistana Freedom Fund"
+    ],
+    "first": "2026-02-05",
+    "last": "2026-07-29",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1003,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2004": 1003
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "801",
+      "n": "Steven G. (Buzz) Durio",
+      "p": "REP",
+      "usd": 1003,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "TOTAL VIDEO"
+    ]
+   }
+  },
+  {
    "key": "AMERICANMEDIAANDADVOCACY",
    "name": "American Media & Advocacy Group",
    "found_by": "filings",
@@ -607,59 +680,6 @@
    }
   },
   {
-   "key": "TOTALVIDEOPLACEMENTS",
-   "name": "Total Video Placements",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 39,
-    "priced": 38,
-    "usd": 837275,
-    "stations": [
-     "008048",
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Louisiana Freedom Fund",
-     "Loulsiana Freedom Fund",
-     "Loulstana Freedom Fund",
-     "Public First Action",
-     "Louistana Freedom Fund"
-    ],
-    "first": "2026-03-02",
-    "last": "2026-07-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1003,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2004": 1003
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "801",
-      "n": "Steven G. (Buzz) Durio",
-      "p": "REP",
-      "usd": 1003,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "TOTAL VIDEO"
-    ]
-   }
-  },
-  {
    "key": "SMARTMEDIA",
    "name": "Smart Media Group",
    "found_by": "political file",
@@ -669,6 +689,7 @@
     "usd": 178925,
     "stations": [
      "004321",
+     "KPXJ",
      "KTBS"
     ],
     "clients": [
@@ -677,12 +698,16 @@
      "John Atkins-La Publle Service Comm.District",
      "John Atkins-La Public Service Comm. Distrlet"
     ],
-    "first": "2026-04-22",
+    "first": "2026-02-17",
     "last": "2026-10-05",
     "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
+     "docs": 8,
+     "usd": 60550,
+     "clients": [
+      "Don Huffines for Texas Comptroller",
+      "n Huilfines for Texas Comptroller",
+      "Don Huffines for Texas Comptroiler"
+     ]
     }
    },
    "paid": {
@@ -754,23 +779,23 @@
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 13,
-    "priced": 11,
-    "usd": 104030,
+    "docs": 15,
+    "priced": 13,
+    "usd": 109960,
     "stations": [
      "004321",
      "WDSU"
     ],
     "clients": [
-     "Howard/D/Orleans Parish Civil District Court",
      "Lindsay/D/Orleans Parish Civil District Judge",
+     "Howard/D/Orleans Parish Civil District Court",
      "Marsiglia/R/JP Court Judge, Div",
      "Stagni/R/Kenner Council At-Large Div",
      "Friends to Elect Bart Hebert, LLC",
      "Campaign to Elect Will Keaty"
     ],
     "first": "2026-04-24",
-    "last": "2026-10-16",
+    "last": "2026-10-22",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -941,15 +966,15 @@
     }
    },
    "paid": {
-    "total": 503390,
+    "total": 550390,
     "media": 500000,
-    "rows": 3,
+    "rows": 4,
     "media_cycle": 500000,
-    "cycle": 503390,
+    "cycle": 550390,
     "years": {
-     "2026": 503390
+     "2026": 550390
     },
-    "committees": 3,
+    "committees": 4,
     "top": [
      {
       "f": "8174",
@@ -957,6 +982,13 @@
       "p": "OTH",
       "usd": 500000,
       "cycle": 500000
+     },
+     {
+      "f": "6764",
+      "n": "Greater New Orleans Housing Alliance",
+      "p": "OTH",
+      "usd": 47000,
+      "cycle": 47000
      },
      {
       "f": "7609",
@@ -975,7 +1007,76 @@
     ],
     "spellings": [
      "HYRIZON GROUP, LLC",
-     "HYRIZON GROUP"
+     "HYRIZON GROUP",
+     "HYRIZON GROUP LLC"
+    ]
+   }
+  },
+  {
+   "key": "SRCPMEDIA",
+   "name": "SRCPmedia",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 95,
+    "priced": 66,
+    "usd": 541100,
+    "stations": [
+     "KPXJ",
+     "KTBS",
+     "WDSU",
+     "WJBO",
+     "WNOE",
+     "WRNO",
+     "WYNK"
+    ],
+    "clients": [
+     "Bill Cassidy for US Senate",
+     "Bill Cassidy for Senate",
+     "Cassidy/R/Senate",
+     "BIH Cassidy for Senate",
+     "BIil Cassidy for Senate",
+     "Bil Cassidy for Senate",
+     "BIN Cassidy for Senate fit",
+     "BIli Cassidy for Senate"
+    ],
+    "first": "2026-02-12",
+    "last": "2026-08-25",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 199974,
+    "media": 47500,
+    "rows": 3,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2017": 152474,
+     "2018": 47500
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "4131",
+      "n": "Yes On 1 PAC",
+      "p": "OTH",
+      "usd": 152474,
+      "cycle": 0
+     },
+     {
+      "f": "4228",
+      "n": "Jefferson Safe & Strong PAC",
+      "p": "OTH",
+      "usd": 47500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "SRCP MEDIA, INC.",
+     "SRCP MEDIA"
     ]
    }
   },
@@ -1040,9 +1141,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 27,
-    "priced": 25,
-    "usd": 456510,
+    "docs": 28,
+    "priced": 26,
+    "usd": 457570,
     "stations": [
      "005341",
      "KPXJ",
@@ -1116,72 +1217,6 @@
     ],
     "spellings": [
      "VCREEK"
-    ]
-   }
-  },
-  {
-   "key": "SRCPMEDIA",
-   "name": "SRCP Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 64,
-    "priced": 55,
-    "usd": 408310,
-    "stations": [
-     "KPXJ",
-     "KTBS",
-     "WDSU",
-     "WJBO",
-     "WNOE",
-     "WRNO",
-     "WYNK"
-    ],
-    "clients": [
-     "Bill Cassidy for US Senate",
-     "Bill Cassidy for Senate",
-     "Cassidy/R/Senate",
-     "BIil Cassidy for Senate",
-     "Bil Cassidy for Senate",
-     "BIli Cassidy for Senate"
-    ],
-    "first": "2026-03-02",
-    "last": "2026-08-25",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 199974,
-    "media": 47500,
-    "rows": 3,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2017": 152474,
-     "2018": 47500
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "4131",
-      "n": "Yes On 1 PAC",
-      "p": "OTH",
-      "usd": 152474,
-      "cycle": 0
-     },
-     {
-      "f": "4228",
-      "n": "Jefferson Safe & Strong PAC",
-      "p": "OTH",
-      "usd": 47500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "SRCP MEDIA, INC.",
-     "SRCP MEDIA"
     ]
    }
   },
@@ -1332,9 +1367,9 @@
    "name": "Kingfish Communications",
    "found_by": "political file",
    "fcc": {
-    "docs": 16,
-    "priced": 16,
-    "usd": 269610,
+    "docs": 31,
+    "priced": 22,
+    "usd": 295220,
     "stations": [
      "KALB",
      "KLAX",
@@ -1345,13 +1380,14 @@
      "WJBO"
     ],
     "clients": [
+     "John Fleming for U.S. Senate",
      "Fleming/R/Senate",
      "John Fleming/Fleming for Louisiana",
      "Moms Protecting Children PAC",
-     "John Fleming for U.S. Senate",
      "SaveOurLouisiana.Org",
      "Fleming for LA",
      "Save My Louisiana",
+     "John Fleming/Fieming for Louisiana",
      "John Fleming-LA Senate"
     ],
     "first": "2026-03-23",
@@ -1813,6 +1849,37 @@
    }
   },
   {
+   "key": "BRABENDERCOX",
+   "name": "Brabender Cox",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 17,
+    "priced": 17,
+    "usd": 238175,
+    "stations": [
+     "KLAX",
+     "KPXJ",
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Letlow/R/Senate",
+     "Julia Letlow - US Senate (LA)",
+     "Julla Letlow - US Senate (LA)",
+     "Julia Letiow - US Senate (LA)",
+     "Julla Letiow - US Senate (LA)",
+     "Griginal Date 7 Revision"
+    ],
+    "first": "2026-02-20",
+    "last": "2026-10-14",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "AXADVOCACY",
    "name": "Axadvocacy",
    "found_by": "filings",
@@ -2029,9 +2096,9 @@
    "name": "Victoria Coulon Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 12,
-    "priced": 12,
-    "usd": 45420,
+    "docs": 13,
+    "priced": 13,
+    "usd": 51445,
     "stations": [
      "WDSU",
      "WYLD"
@@ -2310,36 +2377,6 @@
      "DEVISE STRATEGY GROUP",
      "DEVISE STRATEGY GROUP LLC"
     ]
-   }
-  },
-  {
-   "key": "BRABENDERCOX",
-   "name": "Brabender Cox",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 11,
-    "priced": 11,
-    "usd": 184940,
-    "stations": [
-     "KLAX",
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Letlow/R/Senate",
-     "Julla Letlow - US Senate (LA)",
-     "Julia Letiow - US Senate (LA)",
-     "ulia Letlow - US Senate (LA)",
-     "Julia Letlow"
-    ],
-    "first": "2026-03-02",
-    "last": "2026-10-14",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -2997,9 +3034,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
-    "priced": 5,
-    "usd": 45175,
+    "docs": 6,
+    "priced": 6,
+    "usd": 45710,
     "stations": [
      "KPXJ",
      "KTBS",
@@ -3007,8 +3044,8 @@
     ],
     "clients": [
      "Davis/D/US Senate",
-     "Jamle Davis for US Senate",
-     "Jamie Davis for US Senate fHF"
+     "Jamie Davis for US Senate",
+     "Jamle Davis for US Senate"
     ],
     "first": "2026-10-14",
     "last": "2026-10-22",
@@ -3874,7 +3911,7 @@
    "name": "Mentzer Media Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 10,
+    "docs": 26,
     "priced": 5,
     "usd": 113600,
     "stations": [
@@ -4303,153 +4340,22 @@
    }
   },
   {
-   "key": "CHANNELONEDIGITAL",
-   "name": "Channel One Digital",
-   "found_by": "filings",
-   "paid": {
-    "total": 766357,
-    "media": 393278,
-    "rows": 274,
-    "media_cycle": 85340,
-    "cycle": 120708,
-    "years": {
-     "2011": 2537,
-     "2012": 17469,
-     "2013": 7358,
-     "2014": 6631,
-     "2015": 42653,
-     "2016": 393394,
-     "2017": 24621,
-     "2018": 34048,
-     "2019": 9998,
-     "2020": 8793,
-     "2022": 98146,
-     "2023": 120708
-    },
-    "committees": 14,
-    "top": [
-     {
-      "f": "952",
-      "n": "Mike Francis",
-      "p": "REP",
-      "usd": 612369,
-      "cycle": 120708
-     },
-     {
-      "f": "1826",
-      "n": "Fred Mills",
-      "p": "REP",
-      "usd": 45894,
-      "cycle": 0
-     },
-     {
-      "f": "1731",
-      "n": "Scott A. Angelle",
-      "p": "REP",
-      "usd": 36127,
-      "cycle": 0
-     },
-     {
-      "f": "4192",
-      "n": "Scott Anslum",
-      "p": "IND",
-      "usd": 24711,
-      "cycle": 0
-     },
-     {
-      "f": "4055",
-      "n": "John Stefanski",
-      "p": "REP",
-      "usd": 15000,
-      "cycle": 0
-     },
-     {
-      "f": "2799",
-      "n": "Andre Comeaux",
-      "p": "REP",
-      "usd": 9071,
-      "cycle": 0
-     },
-     {
-      "f": "5136",
-      "n": "Tommy Frederick",
-      "p": "REP",
-      "usd": 8793,
-      "cycle": 0
-     },
-     {
-      "f": "4662",
-      "n": "Keith Wayne Kishbaugh",
-      "p": "REP",
-      "usd": 5190,
-      "cycle": 0
-     },
-     {
-      "f": "1772",
-      "n": "Leadership for Louisiana",
-      "p": "OTH",
-      "usd": 4500,
-      "cycle": 0
-     },
-     {
-      "f": "3437",
-      "n": "Charlotte Clavier",
-      "p": "REP",
-      "usd": 2820,
-      "cycle": 0
-     },
-     {
-      "f": "4458",
-      "n": "Keith Baudin",
-      "p": "REP",
-      "usd": 807,
-      "cycle": 0
-     },
-     {
-      "f": "2064",
-      "n": "Michael (Mike Pete) Huval",
-      "p": "REP",
-      "usd": 517,
-      "cycle": 0
-     },
-     {
-      "f": "2961",
-      "n": "James (Jimmy) Genovese",
-      "p": "REP",
-      "usd": 450,
-      "cycle": 0
-     },
-     {
-      "f": "2887",
-      "n": "Frank Stanton Hardee, III",
-      "p": "OTH",
-      "usd": 105,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CHANNEL ONE DIGITAL",
-     "CHANNEL ONE DIGITAL, INC",
-     "CHANNEL ONE DIGITAL INC.",
-     "CHANNEL ONE DIGITAL, INC."
-    ]
-   }
-  },
-  {
    "key": "CAPITALBUSINESSSERVICES",
    "name": "Capital Business Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 4370,
+    "docs": 3,
+    "priced": 3,
+    "usd": 10850,
     "stations": [
+     "KRVE",
      "WJBO"
     ],
     "clients": [
+     "Raise The Bar PAC",
      "Wendy Edwards for Family Court"
     ],
-    "first": "2026-10-22",
+    "first": "2026-05-22",
     "last": "2026-10-22",
     "away": {
      "docs": 0,
@@ -4596,6 +4502,139 @@
      "CAPITAL BUSINESS SERVICE, LLC",
      "CAPITAL BUSINESS LLC",
      "CAPITAL BUSINESS SERVICES, L.L.C."
+    ]
+   }
+  },
+  {
+   "key": "CHANNELONEDIGITAL",
+   "name": "Channel One Digital",
+   "found_by": "filings",
+   "paid": {
+    "total": 766357,
+    "media": 393278,
+    "rows": 274,
+    "media_cycle": 85340,
+    "cycle": 120708,
+    "years": {
+     "2011": 2537,
+     "2012": 17469,
+     "2013": 7358,
+     "2014": 6631,
+     "2015": 42653,
+     "2016": 393394,
+     "2017": 24621,
+     "2018": 34048,
+     "2019": 9998,
+     "2020": 8793,
+     "2022": 98146,
+     "2023": 120708
+    },
+    "committees": 14,
+    "top": [
+     {
+      "f": "952",
+      "n": "Mike Francis",
+      "p": "REP",
+      "usd": 612369,
+      "cycle": 120708
+     },
+     {
+      "f": "1826",
+      "n": "Fred Mills",
+      "p": "REP",
+      "usd": 45894,
+      "cycle": 0
+     },
+     {
+      "f": "1731",
+      "n": "Scott A. Angelle",
+      "p": "REP",
+      "usd": 36127,
+      "cycle": 0
+     },
+     {
+      "f": "4192",
+      "n": "Scott Anslum",
+      "p": "IND",
+      "usd": 24711,
+      "cycle": 0
+     },
+     {
+      "f": "4055",
+      "n": "John Stefanski",
+      "p": "REP",
+      "usd": 15000,
+      "cycle": 0
+     },
+     {
+      "f": "2799",
+      "n": "Andre Comeaux",
+      "p": "REP",
+      "usd": 9071,
+      "cycle": 0
+     },
+     {
+      "f": "5136",
+      "n": "Tommy Frederick",
+      "p": "REP",
+      "usd": 8793,
+      "cycle": 0
+     },
+     {
+      "f": "4662",
+      "n": "Keith Wayne Kishbaugh",
+      "p": "REP",
+      "usd": 5190,
+      "cycle": 0
+     },
+     {
+      "f": "1772",
+      "n": "Leadership for Louisiana",
+      "p": "OTH",
+      "usd": 4500,
+      "cycle": 0
+     },
+     {
+      "f": "3437",
+      "n": "Charlotte Clavier",
+      "p": "REP",
+      "usd": 2820,
+      "cycle": 0
+     },
+     {
+      "f": "4458",
+      "n": "Keith Baudin",
+      "p": "REP",
+      "usd": 807,
+      "cycle": 0
+     },
+     {
+      "f": "2064",
+      "n": "Michael (Mike Pete) Huval",
+      "p": "REP",
+      "usd": 517,
+      "cycle": 0
+     },
+     {
+      "f": "2961",
+      "n": "James (Jimmy) Genovese",
+      "p": "REP",
+      "usd": 450,
+      "cycle": 0
+     },
+     {
+      "f": "2887",
+      "n": "Frank Stanton Hardee, III",
+      "p": "OTH",
+      "usd": 105,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CHANNEL ONE DIGITAL",
+     "CHANNEL ONE DIGITAL, INC",
+     "CHANNEL ONE DIGITAL INC.",
+     "CHANNEL ONE DIGITAL, INC."
     ]
    }
   },
@@ -4955,11 +4994,34 @@
    }
   },
   {
+   "key": "TOTALVIDEOPIACEMENTS",
+   "name": "Total Video Piacements",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 64180,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "uisiana Freedom Fund"
+    ],
+    "first": "2026-02-27",
+    "last": "2026-03-27",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "ELECTRICSYMPHONYMEDIA",
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 17,
+    "docs": 20,
     "priced": 10,
     "usd": 58695,
     "stations": [
@@ -4970,13 +5032,16 @@
      "Blake Miguez for Congress",
      "Alan Seabaugh"
     ],
-    "first": "2026-07-07",
+    "first": "2026-02-02",
     "last": "2026-10-21",
     "away": {
-     "docs": 8,
-     "usd": 188740,
+     "docs": 18,
+     "usd": 260590,
      "clients": [
-      "Dan Patrick for Lt Governor"
+      "Dan Patrick for Lt Governor",
+      "Josh Bray for Texas Campaign",
+      "Josh Bray for Texas Campalgn",
+      "Kelley Crisp for District Attorney"
      ]
     }
    }
@@ -5604,26 +5669,268 @@
    }
   },
   {
-   "key": "TOTALVIDEOPIACEMENTS",
-   "name": "Total Video Piacements",
+   "key": "LOUISIANANETWORK",
+   "name": "THE LOUISIANA NETWORK",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 30705,
+    "docs": 11,
+    "priced": 6,
+    "usd": 32585,
     "stations": [
-     "KTBS"
+     "WRNO"
     ],
     "clients": [
-     "Freedom Fund"
+     "Fleming for Louisiana",
+     "Moms Protecting Children"
     ],
-    "first": "2026-03-27",
-    "last": "2026-03-27",
+    "first": "2026-05-08",
+    "last": "2026-09-16",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
+   },
+   "paid": {
+    "total": 178010,
+    "media": 0,
+    "rows": 36,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2000": 18190,
+     "2001": 16800,
+     "2002": 37975,
+     "2003": 46720,
+     "2004": 1050,
+     "2005": 13600,
+     "2006": 16750,
+     "2012": 25000,
+     "2020": 1925
+    },
+    "committees": 8,
+    "top": [
+     {
+      "f": "6",
+      "n": "M. J. (Mike) Foster, Jr.",
+      "p": "OTH",
+      "usd": 61600,
+      "cycle": 0
+     },
+     {
+      "f": "658",
+      "n": "Melinda Schwegmann",
+      "p": "OTH",
+      "usd": 29920,
+      "cycle": 0
+     },
+     {
+      "f": "1597",
+      "n": "LA Federation of Teachers PAC",
+      "p": "OTH",
+      "usd": 25000,
+      "cycle": 0
+     },
+     {
+      "f": "595",
+      "n": "Louisiana Association of Educators (LAE PAC)",
+      "p": "OTH",
+      "usd": 24140,
+      "cycle": 0
+     },
+     {
+      "f": "306",
+      "n": "Louisiana Sheriffs' and Deputies' PAC",
+      "p": "OTH",
+      "usd": 18000,
+      "cycle": 0
+     },
+     {
+      "f": "31",
+      "n": "Kathleen Babineaux Blanco",
+      "p": "DEM",
+      "usd": 16750,
+      "cycle": 0
+     },
+     {
+      "f": "179",
+      "n": "Foster L. Campbell, Jr.",
+      "p": "DEM",
+      "usd": 2300,
+      "cycle": 0
+     },
+     {
+      "f": "336",
+      "n": "Business Affairs Research Program",
+      "p": "OTH",
+      "usd": 300,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "LOUISIANA NETWORK INC",
+     "LOUISIANA NETWORK"
+    ]
+   }
+  },
+  {
+   "key": "CARVINCONSULT",
+   "name": "Carvin Consulting",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 8,
+    "priced": 8,
+    "usd": 26400,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Illing/R/St. Tammany Parish Sheriff",
+     "Cao/R/BESE District 1",
+     "Lee/R/JP 1st Parish Court Div",
+     "Barthelemy/D/State Senate Dist 3"
+    ],
+    "first": "2026-02-05",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 580147,
+    "media": 49563,
+    "rows": 119,
+    "media_cycle": 5000,
+    "cycle": 162858,
+    "years": {
+     "2013": 101098,
+     "2014": 32964,
+     "2016": 6991,
+     "2018": 2000,
+     "2020": 250539,
+     "2022": 23698,
+     "2023": 53000,
+     "2025": 44050,
+     "2026": 65808
+    },
+    "committees": 26,
+    "top": [
+     {
+      "f": "6457",
+      "n": "Holly Friedman",
+      "p": "DEM",
+      "usd": 28050,
+      "cycle": 28050
+     },
+     {
+      "f": "2081",
+      "n": "Anh Joseph Cao",
+      "p": "OTH",
+      "usd": 23851,
+      "cycle": 23851
+     },
+     {
+      "f": "1388",
+      "n": "Arnie Fielkow",
+      "p": "DEM",
+      "usd": 20000,
+      "cycle": 20000
+     },
+     {
+      "f": "7611",
+      "n": "JOHN F. LEE",
+      "p": "REP",
+      "usd": 19018,
+      "cycle": 19018
+     },
+     {
+      "f": "6845",
+      "n": "Sidney Barthelemy II",
+      "p": "DEM",
+      "usd": 17939,
+      "cycle": 17939
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 17500,
+      "cycle": 17500
+     },
+     {
+      "f": "5842",
+      "n": "Hunter P. Harris",
+      "p": "OTH",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 15000,
+      "cycle": 8000
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 6000,
+      "cycle": 6000
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5698",
+      "n": "Simone Levine",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 2500,
+      "cycle": 2500
+     },
+     {
+      "f": "2992",
+      "n": "Pat Rooney",
+      "p": "REP",
+      "usd": 141786,
+      "cycle": 0
+     },
+     {
+      "f": "1719",
+      "n": "Terri Love",
+      "p": "DEM",
+      "usd": 98753,
+      "cycle": 0
+     },
+     {
+      "f": "2733",
+      "n": "Barron C. Burmaster",
+      "p": "REP",
+      "usd": 32500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CARVIN CONSULTING, INC.",
+     "CARVIN CONSULTING",
+     "CARVIN CONSULTING INC",
+     "CARVIN CONSULTING INC.",
+     "CARVIN CONSULTING GROUP",
+     "CARVIN CONSULTANTS, INC."
+    ]
    }
   },
   {
@@ -5771,170 +6078,11 @@
    }
   },
   {
-   "key": "CARVINCONSULT",
-   "name": "Carvin Consulting",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 7,
-    "priced": 7,
-    "usd": 25070,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Illing/R/St. Tammany Parish Sheriff",
-     "Cao/R/BESE District 1",
-     "Lee/R/JP 1st Parish Court Div"
-    ],
-    "first": "2026-05-04",
-    "last": "2026-10-19",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 580147,
-    "media": 49563,
-    "rows": 119,
-    "media_cycle": 5000,
-    "cycle": 162858,
-    "years": {
-     "2013": 101098,
-     "2014": 32964,
-     "2016": 6991,
-     "2018": 2000,
-     "2020": 250539,
-     "2022": 23698,
-     "2023": 53000,
-     "2025": 44050,
-     "2026": 65808
-    },
-    "committees": 26,
-    "top": [
-     {
-      "f": "6457",
-      "n": "Holly Friedman",
-      "p": "DEM",
-      "usd": 28050,
-      "cycle": 28050
-     },
-     {
-      "f": "2081",
-      "n": "Anh Joseph Cao",
-      "p": "OTH",
-      "usd": 23851,
-      "cycle": 23851
-     },
-     {
-      "f": "1388",
-      "n": "Arnie Fielkow",
-      "p": "DEM",
-      "usd": 20000,
-      "cycle": 20000
-     },
-     {
-      "f": "7611",
-      "n": "JOHN F. LEE",
-      "p": "REP",
-      "usd": 19018,
-      "cycle": 19018
-     },
-     {
-      "f": "6845",
-      "n": "Sidney Barthelemy II",
-      "p": "DEM",
-      "usd": 17939,
-      "cycle": 17939
-     },
-     {
-      "f": "1498",
-      "n": "Ricky Templet",
-      "p": "REP",
-      "usd": 17500,
-      "cycle": 17500
-     },
-     {
-      "f": "5842",
-      "n": "Hunter P. Harris",
-      "p": "OTH",
-      "usd": 10000,
-      "cycle": 10000
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 15000,
-      "cycle": 8000
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 6000,
-      "cycle": 6000
-     },
-     {
-      "f": "2781",
-      "n": "Dominick Impastato",
-      "p": "REP",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "5698",
-      "n": "Simone Levine",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "5471",
-      "n": "Delisha Boyd",
-      "p": "DEM",
-      "usd": 2500,
-      "cycle": 2500
-     },
-     {
-      "f": "2992",
-      "n": "Pat Rooney",
-      "p": "REP",
-      "usd": 141786,
-      "cycle": 0
-     },
-     {
-      "f": "1719",
-      "n": "Terri Love",
-      "p": "DEM",
-      "usd": 98753,
-      "cycle": 0
-     },
-     {
-      "f": "2733",
-      "n": "Barron C. Burmaster",
-      "p": "REP",
-      "usd": 32500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CARVIN CONSULTING, INC.",
-     "CARVIN CONSULTING",
-     "CARVIN CONSULTING INC",
-     "CARVIN CONSULTING INC.",
-     "CARVIN CONSULTING GROUP",
-     "CARVIN CONSULTANTS, INC."
-    ]
-   }
-  },
-  {
    "key": "LITTLEFIELDANDASSOCIATESCONSULT",
    "name": "Littlefield & Associates Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 12,
+    "docs": 17,
     "priced": 2,
     "usd": 27450,
     "stations": [
@@ -5944,7 +6092,7 @@
     "clients": [
      "Cajun PAC II"
     ],
-    "first": "2026-08-02",
+    "first": "2026-07-31",
     "last": "2026-08-25",
     "away": {
      "docs": 0,
@@ -5990,6 +6138,29 @@
     "spellings": [
      "LITTLEFIELD & ASSOCIATES CONSULTING"
     ]
+   }
+  },
+  {
+   "key": "BRABENDERCOXMIHALKEPITTSBURGH",
+   "name": "Brabender Cox Mihalke/Pittsburgh",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 4,
+    "usd": 26080,
+    "stations": [
+     "KALB"
+    ],
+    "clients": [
+     "Julia Letlow for LA Senate"
+    ],
+    "first": "2026-03-02",
+    "last": "2026-03-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -6855,20 +7026,21 @@
   },
   {
    "key": "POOLHOUSE",
-   "name": "Poolhouse",
+   "name": "POOLHOUSE",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 3,
     "priced": 1,
     "usd": 14050,
     "stations": [
+     "008048",
      "WDSU"
     ],
     "clients": [
      "ClearPath Action Fund"
     ],
     "first": "2026-03-23",
-    "last": "2026-03-23",
+    "last": "2026-07-27",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -6909,21 +7081,21 @@
    }
   },
   {
-   "key": "BRABENDERCOXMIHALKEPITTSBURGH",
-   "name": "Brabender Cox Mihalke/Pittsburgh",
+   "key": "SRCOPMEDIA",
+   "name": "SRCOP Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 13540,
+    "docs": 1,
+    "priced": 1,
+    "usd": 13500,
     "stations": [
-     "KALB"
+     "KTBS"
     ],
     "clients": [
-     "Julia Letlow for LA Senate"
+     "Bill Cassidy for Senate"
     ],
-    "first": "2026-03-06",
-    "last": "2026-03-06",
+    "first": "2026-02-17",
+    "last": "2026-02-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7140,8 +7312,8 @@
     "first": "2026-05-08",
     "last": "2026-05-20",
     "away": {
-     "docs": 4,
-     "usd": 25615,
+     "docs": 6,
+     "usd": 37425,
      "clients": [
       "Texans For Chip Roy (TX-AG)",
       "Chip Roy/Attorney General/TX/Rep"
@@ -7186,7 +7358,7 @@
    "name": "GP3 Mix Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
+    "docs": 6,
     "priced": 2,
     "usd": 10800,
     "stations": [
@@ -7195,7 +7367,7 @@
     "clients": [
      "Fair Rates First"
     ],
-    "first": "2026-08-03",
+    "first": "2026-05-08",
     "last": "2026-08-06",
     "away": {
      "docs": 0,
@@ -7450,6 +7622,158 @@
     ],
     "spellings": [
      "ARMADA STRATEGIES"
+    ]
+   }
+  },
+  {
+   "key": "BRANDONGUICHARDDIGITAL",
+   "name": "Brandon Guichard Digital Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 8090,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Holmes/D/OP Crim Dist Court Div",
+     "Jewett/D/Congress"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 377011,
+    "media": 0,
+    "rows": 75,
+    "media_cycle": 0,
+    "cycle": 265324,
+    "years": {
+     "2020": 31762,
+     "2021": 33750,
+     "2022": 46175,
+     "2023": 68556,
+     "2025": 165568,
+     "2026": 31200
+    },
+    "committees": 20,
+    "top": [
+     {
+      "f": "1921",
+      "n": "Helena Moreno",
+      "p": "DEM",
+      "usd": 161924,
+      "cycle": 161924
+     },
+     {
+      "f": "5507",
+      "n": "Dustin Granger",
+      "p": "DEM",
+      "usd": 28000,
+      "cycle": 28000
+     },
+     {
+      "f": "4399",
+      "n": "Jeremy LaCombe",
+      "p": "REP",
+      "usd": 36150,
+      "cycle": 15000
+     },
+     {
+      "f": "6149",
+      "n": "Madison O'Malley",
+      "p": "DEM",
+      "usd": 13950,
+      "cycle": 13950
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 10700,
+      "cycle": 10700
+     },
+     {
+      "f": "7779",
+      "n": "Lacy Landrum",
+      "p": "OTH",
+      "usd": 8000,
+      "cycle": 8000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "957",
+      "n": "Byron Lee",
+      "p": "DEM",
+      "usd": 7250,
+      "cycle": 7250
+     },
+     {
+      "f": "2598",
+      "n": "Kimya Holmes",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 17250,
+      "cycle": 4000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 4000,
+      "cycle": 4000
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 23000,
+      "cycle": 0
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 19675,
+      "cycle": 0
+     },
+     {
+      "f": "2345",
+      "n": "Leo J. Palazzo",
+      "p": "REP",
+      "usd": 10500,
+      "cycle": 0
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 7257,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BRANDON GUICHARD DIGITAL GROUP",
+     "BRANDON GUICHARD",
+     "BRANDON GUICHARD DIGITAL"
     ]
    }
   },
@@ -7829,157 +8153,6 @@
    }
   },
   {
-   "key": "BRANDONGUICHARDDIGITAL",
-   "name": "Brandon Guichard Digital Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 4815,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Holmes/D/OP Crim Dist Court Div"
-    ],
-    "first": "2026-10-21",
-    "last": "2026-10-21",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 377011,
-    "media": 0,
-    "rows": 75,
-    "media_cycle": 0,
-    "cycle": 265324,
-    "years": {
-     "2020": 31762,
-     "2021": 33750,
-     "2022": 46175,
-     "2023": 68556,
-     "2025": 165568,
-     "2026": 31200
-    },
-    "committees": 20,
-    "top": [
-     {
-      "f": "1921",
-      "n": "Helena Moreno",
-      "p": "DEM",
-      "usd": 161924,
-      "cycle": 161924
-     },
-     {
-      "f": "5507",
-      "n": "Dustin Granger",
-      "p": "DEM",
-      "usd": 28000,
-      "cycle": 28000
-     },
-     {
-      "f": "4399",
-      "n": "Jeremy LaCombe",
-      "p": "REP",
-      "usd": 36150,
-      "cycle": 15000
-     },
-     {
-      "f": "6149",
-      "n": "Madison O'Malley",
-      "p": "DEM",
-      "usd": 13950,
-      "cycle": 13950
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 10700,
-      "cycle": 10700
-     },
-     {
-      "f": "7779",
-      "n": "Lacy Landrum",
-      "p": "OTH",
-      "usd": 8000,
-      "cycle": 8000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "957",
-      "n": "Byron Lee",
-      "p": "DEM",
-      "usd": 7250,
-      "cycle": 7250
-     },
-     {
-      "f": "2598",
-      "n": "Kimya Holmes",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 17250,
-      "cycle": 4000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 4000,
-      "cycle": 4000
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 23000,
-      "cycle": 0
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 19675,
-      "cycle": 0
-     },
-     {
-      "f": "2345",
-      "n": "Leo J. Palazzo",
-      "p": "REP",
-      "usd": 10500,
-      "cycle": 0
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 7257,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BRANDON GUICHARD DIGITAL GROUP",
-     "BRANDON GUICHARD",
-     "BRANDON GUICHARD DIGITAL"
-    ]
-   }
-  },
-  {
    "key": "QUESTCOMMUNICATIONS",
    "name": "QUEST COMMUNICATIONS",
    "found_by": "political file",
@@ -8167,107 +8340,26 @@
    }
   },
   {
-   "key": "LOUISIANANETWORK",
-   "name": "THE LOUISIANA NETWORK",
+   "key": "COLOUISIANANETWORK",
+   "name": "c/o THE LOUISIANA NETWORK",
    "found_by": "political file",
    "fcc": {
     "docs": 1,
     "priced": 1,
-    "usd": 3615,
+    "usd": 3315,
     "stations": [
      "WRNO"
     ],
     "clients": [
      "Fleming for Louisiana"
     ],
-    "first": "2026-09-16",
-    "last": "2026-09-16",
+    "first": "2026-06-15",
+    "last": "2026-06-15",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
-   },
-   "paid": {
-    "total": 178010,
-    "media": 0,
-    "rows": 36,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2000": 18190,
-     "2001": 16800,
-     "2002": 37975,
-     "2003": 46720,
-     "2004": 1050,
-     "2005": 13600,
-     "2006": 16750,
-     "2012": 25000,
-     "2020": 1925
-    },
-    "committees": 8,
-    "top": [
-     {
-      "f": "6",
-      "n": "M. J. (Mike) Foster, Jr.",
-      "p": "OTH",
-      "usd": 61600,
-      "cycle": 0
-     },
-     {
-      "f": "658",
-      "n": "Melinda Schwegmann",
-      "p": "OTH",
-      "usd": 29920,
-      "cycle": 0
-     },
-     {
-      "f": "1597",
-      "n": "LA Federation of Teachers PAC",
-      "p": "OTH",
-      "usd": 25000,
-      "cycle": 0
-     },
-     {
-      "f": "595",
-      "n": "Louisiana Association of Educators (LAE PAC)",
-      "p": "OTH",
-      "usd": 24140,
-      "cycle": 0
-     },
-     {
-      "f": "306",
-      "n": "Louisiana Sheriffs' and Deputies' PAC",
-      "p": "OTH",
-      "usd": 18000,
-      "cycle": 0
-     },
-     {
-      "f": "31",
-      "n": "Kathleen Babineaux Blanco",
-      "p": "DEM",
-      "usd": 16750,
-      "cycle": 0
-     },
-     {
-      "f": "179",
-      "n": "Foster L. Campbell, Jr.",
-      "p": "DEM",
-      "usd": 2300,
-      "cycle": 0
-     },
-     {
-      "f": "336",
-      "n": "Business Affairs Research Program",
-      "p": "OTH",
-      "usd": 300,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "LOUISIANA NETWORK INC",
-     "LOUISIANA NETWORK"
-    ]
    }
   },
   {
@@ -8275,7 +8367,7 @@
    "name": "Political Issue - Direct",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 1,
     "usd": 2990,
     "stations": [
@@ -8284,13 +8376,180 @@
     "clients": [
      "Voice of the Experienced"
     ],
-    "first": "2026-08-05",
+    "first": "2026-05-16",
     "last": "2026-08-05",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "ALPHAMEDIAANDPUBLICRELATIONS",
+   "name": "Alpha Media and Public Relations",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2590,
+    "stations": [
+     "WQUE"
+    ],
+    "clients": [
+     "Louisiana Coalition for Fair"
+    ],
+    "first": "2026-05-13",
+    "last": "2026-05-13",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 715537,
+    "media": 138551,
+    "rows": 307,
+    "media_cycle": 0,
+    "cycle": 136254,
+    "years": {
+     "2003": 38544,
+     "2007": 41265,
+     "2009": 1800,
+     "2010": 20685,
+     "2011": 74845,
+     "2012": 1500,
+     "2014": 23410,
+     "2015": 93500,
+     "2016": 41391,
+     "2017": 26719,
+     "2018": 30258,
+     "2019": 105994,
+     "2020": 35309,
+     "2021": 16119,
+     "2022": 27942,
+     "2023": 131974,
+     "2024": 1500,
+     "2025": 1780,
+     "2026": 1000
+    },
+    "committees": 92,
+    "top": [
+     {
+      "f": "1190",
+      "n": "Shawn Wilson",
+      "p": "DEM",
+      "usd": 81786,
+      "cycle": 76456
+     },
+     {
+      "f": "4454",
+      "n": "Larvadain, III Edward",
+      "p": "OTH",
+      "usd": 28123,
+      "cycle": 28123
+     },
+     {
+      "f": "5640",
+      "n": "James U. Jefferson",
+      "p": "DEM",
+      "usd": 10400,
+      "cycle": 10400
+     },
+     {
+      "f": "5603",
+      "n": "Hunter W. Lundy",
+      "p": "DEM",
+      "usd": 9879,
+      "cycle": 9879
+     },
+     {
+      "f": "4933",
+      "n": "Daryl Joy Walters",
+      "p": "DEM",
+      "usd": 6459,
+      "cycle": 1659
+     },
+     {
+      "f": "5759",
+      "n": "Alan Jackson",
+      "p": "DEM",
+      "usd": 1590,
+      "cycle": 1590
+     },
+     {
+      "f": "6431",
+      "n": "RENEW SHREVEPORT PAC, LLC",
+      "p": "OTH",
+      "usd": 1500,
+      "cycle": 1500
+     },
+     {
+      "f": "6298",
+      "n": "Jasmine Green",
+      "p": "DEM",
+      "usd": 1200,
+      "cycle": 1200
+     },
+     {
+      "f": "7316",
+      "n": "Louisiana Coalition for Fair Schools",
+      "p": "OTH",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "2638",
+      "n": "Lyndon B. Johnson",
+      "p": "DEM",
+      "usd": 900,
+      "cycle": 900
+     },
+     {
+      "f": "4360",
+      "n": "Grayson Boucher",
+      "p": "REP",
+      "usd": 884,
+      "cycle": 884
+     },
+     {
+      "f": "2884",
+      "n": "Sam L. Jenkins, Jr.",
+      "p": "DEM",
+      "usd": 2343,
+      "cycle": 600
+     },
+     {
+      "f": "4441",
+      "n": "Thomas Alexander Pressly IV",
+      "p": "REP",
+      "usd": 600,
+      "cycle": 600
+     },
+     {
+      "f": "5436",
+      "n": "Lee Arthur Jeter, Sr",
+      "p": "DEM",
+      "usd": 580,
+      "cycle": 580
+     },
+     {
+      "f": "4905",
+      "n": "Hersy Jones",
+      "p": "DEM",
+      "usd": 1330,
+      "cycle": 278
+     }
+    ],
+    "spellings": [
+     "ALPHA MEDIA",
+     "ALPHA MEDIA & PUBLIC RELATIONS",
+     "ALPHA MEDIA AND PUBLIC RELATIONS",
+     "ALPHA MEDIA LLC",
+     "ALPHA MEDIA, LLC",
+     "ALPHAMEDIA"
+    ]
    }
   },
   {
@@ -8434,6 +8693,30 @@
      "TEDDLIE STUART MEDIA PARTNERS, LLC",
      "TEDDLIESTUART MEDIA PARTNERS"
     ]
+   }
+  },
+  {
+   "key": "POLICYWORKS",
+   "name": "PolicyWorks",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 1810,
+    "stations": [
+     "KEEL",
+     "WBRP"
+    ],
+    "clients": [
+     "Electricity Transmission Competition Coalition"
+    ],
+    "first": "2026-05-07",
+    "last": "2026-05-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -11248,11 +11531,11 @@
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-08-25",
+    "first": "2026-02-11",
     "last": "2026-10-19",
     "away": {
-     "docs": 31,
-     "usd": 937410,
+     "docs": 34,
+     "usd": 963225,
      "clients": [
       "Texans for Greg Abbott",
       "Griginal Date / Revision",
@@ -14159,150 +14442,6 @@
    }
   },
   {
-   "key": "ALPHAMEDIAANDPUBLICRELATIONS",
-   "name": "Alpha Media & Public Relations",
-   "found_by": "filings",
-   "paid": {
-    "total": 426071,
-    "media": 128997,
-    "rows": 106,
-    "media_cycle": 0,
-    "cycle": 105579,
-    "years": {
-     "2003": 38544,
-     "2007": 35935,
-     "2009": 1800,
-     "2010": 11691,
-     "2011": 19110,
-     "2012": 1000,
-     "2014": 22910,
-     "2015": 66486,
-     "2016": 4200,
-     "2017": 21231,
-     "2018": 6906,
-     "2019": 74890,
-     "2021": 15439,
-     "2022": 350,
-     "2023": 104579,
-     "2026": 1000
-    },
-    "committees": 21,
-    "top": [
-     {
-      "f": "1190",
-      "n": "Shawn Wilson",
-      "p": "DEM",
-      "usd": 76456,
-      "cycle": 76456
-     },
-     {
-      "f": "4454",
-      "n": "Larvadain, III Edward",
-      "p": "OTH",
-      "usd": 28123,
-      "cycle": 28123
-     },
-     {
-      "f": "7316",
-      "n": "Louisiana Coalition for Fair Schools",
-      "p": "OTH",
-      "usd": 1000,
-      "cycle": 1000
-     },
-     {
-      "f": "377",
-      "n": "Patricia Haynes Smith",
-      "p": "DEM",
-      "usd": 110621,
-      "cycle": 0
-     },
-     {
-      "f": "1144",
-      "n": "John Bel Edwards",
-      "p": "DEM",
-      "usd": 62951,
-      "cycle": 0
-     },
-     {
-      "f": "606",
-      "n": "Randy Ewing",
-      "p": "OTH",
-      "usd": 38544,
-      "cycle": 0
-     },
-     {
-      "f": "1855",
-      "n": "Gail S. Adkins",
-      "p": "OTH",
-      "usd": 22660,
-      "cycle": 0
-     },
-     {
-      "f": "4083",
-      "n": "Omar Khalid Mason",
-      "p": "DEM",
-      "usd": 21187,
-      "cycle": 0
-     },
-     {
-      "f": "2141",
-      "n": "Edward (Ted) James",
-      "p": "DEM",
-      "usd": 19110,
-      "cycle": 0
-     },
-     {
-      "f": "5508",
-      "n": "Terrel T. Kent",
-      "p": "DEM",
-      "usd": 15439,
-      "cycle": 0
-     },
-     {
-      "f": "1992",
-      "n": "Citizens Against Traffic Congestion PAC",
-      "p": "OTH",
-      "usd": 11691,
-      "cycle": 0
-     },
-     {
-      "f": "4221",
-      "n": "Miracle Myles",
-      "p": "DEM",
-      "usd": 4573,
-      "cycle": 0
-     },
-     {
-      "f": "2507",
-      "n": "Tarvald Smith",
-      "p": "DEM",
-      "usd": 3535,
-      "cycle": 0
-     },
-     {
-      "f": "194",
-      "n": "Sharon Weston Broome",
-      "p": "DEM",
-      "usd": 3200,
-      "cycle": 0
-     },
-     {
-      "f": "595",
-      "n": "Louisiana Association of Educators (LAE PAC)",
-      "p": "OTH",
-      "usd": 2230,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "ALPHA MEDIA & PUBLIC RELATIONS",
-     "ALPHA MEDIA AND PUBLIC RELATIONS",
-     "ALPHA MEDIA& PUBLIC RELATIONS",
-     "ALPHA MEDIA AND PUBLIC RELATIONS, LLC"
-    ]
-   }
-  },
-  {
    "key": "ARSEMENTPRODUCTIONS",
    "name": "Arsement Productions",
    "found_by": "filings",
@@ -15687,6 +15826,29 @@
    }
   },
   {
+   "key": "AXMEDIADIFF",
+   "name": "Ax Media diff",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-02-05",
+    "last": "2026-02-05",
+    "away": {
+     "docs": 1,
+     "usd": 5950,
+     "clients": [
+      "Chris Spencer Campaign"
+     ]
+    }
+   }
+  },
+  {
    "key": "CROSSROADSMEDLA",
    "name": "Crossroads Medla",
    "found_by": "political file",
@@ -15725,6 +15887,29 @@
     ],
     "first": "2026-10-08",
     "last": "2026-10-13",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "GENZ2SOLUTIONS",
+   "name": "Genz2 Solutions",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008564"
+    ],
+    "clients": [
+     "Rick Edmonds for Louisiana"
+    ],
+    "first": "2026-07-15",
+    "last": "2026-07-15",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -15897,6 +16082,29 @@
    }
   },
   {
+   "key": "YES",
+   "name": "Yes",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KZWA"
+    ],
+    "clients": [
+     "Jamie Davis For US Senate"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NABRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
    "name": "[ N/A BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
@@ -15921,29 +16129,6 @@
    }
   },
   {
-   "key": "NALITTLEFIELDCONSULT",
-   "name": "[ N/A LITTLEFIELD CONSULTING",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 0,
-    "usd": 0,
-    "stations": [
-     "003478"
-    ],
-    "clients": [
-     "CORDELL FOR CONGRESS"
-    ],
-    "first": "2026-09-29",
-    "last": "2026-09-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "NAMENTZERMEDIASERVICESJAMIECROSSJCROSSMENTZERMEDIACOM",
    "name": "[ N/A Mentzer Media Services - Jamie Cross - Jcross@mentzermedia.com",
    "found_by": "political file",
@@ -15960,6 +16145,30 @@
     ],
     "first": "2026-10-08",
     "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NALITTLEFIELDCONSULT",
+   "name": "[] N/A LITTLEFIELD CONSULTING",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "003478",
+     "008564"
+    ],
+    "clients": [
+     "CORDELL FOR CONGRESS"
+    ],
+    "first": "2026-07-15",
+    "last": "2026-09-29",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17237,10 +17446,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 62951,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "MNOE",
@@ -17493,10 +17702,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
-    "usd": 76456,
+    "n": "Alpha Media and Public Relations",
+    "usd": 81786,
     "cycle": 76456,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -17794,11 +18003,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 10241,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "PUSHDIGITAL",
@@ -18152,11 +18361,11 @@
   ],
   "1361": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 54382,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "KINGFISHCOMMUNICATIONS",
@@ -18600,10 +18809,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 1800,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "142": [
@@ -19999,11 +20208,11 @@
   ],
   "1625": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 6282228,
     "cycle": 6240610,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LITTLEFIELDCONSULT",
@@ -20364,11 +20573,11 @@
   ],
   "1666": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 5644,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -21129,11 +21338,11 @@
   ],
   "1772": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 77364,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -21580,10 +21789,10 @@
   "1828": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1835": [
@@ -21646,10 +21855,10 @@
   "1855": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 22660,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1856": [
@@ -21743,6 +21952,15 @@
     "fcc": false
    }
   ],
+  "1876": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 3776,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1877": [
    {
     "k": "OURSOBEYCHOK",
@@ -21832,6 +22050,15 @@
     "usd": 11690,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "1896": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 11512,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "1902": [
@@ -22074,11 +22301,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 12776,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1937": [
@@ -22130,10 +22357,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 3200,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1940": [
@@ -22346,6 +22573,15 @@
     "fcc": false
    }
   ],
+  "1978": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 8494,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1981": [
    {
     "k": "CREATIVECOMMUNICATIONS",
@@ -22397,10 +22633,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 11691,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1998": [
@@ -22860,11 +23096,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 73637,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2074": [
@@ -23212,11 +23448,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 104108,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -23268,10 +23504,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 19110,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2143": [
@@ -23559,6 +23795,13 @@
     "fcc": false
    },
    {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 18241,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "FLETCHERCONSULT",
     "n": "Fletcher Consultants",
     "usd": 12000,
@@ -23824,11 +24067,11 @@
   ],
   "2241": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 191418,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BRAVENEWTELEVISION",
@@ -23873,6 +24116,15 @@
     "usd": 1291,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2244": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1435,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2257": [
@@ -23976,11 +24228,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 94866,
     "cycle": 94866,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HTV",
@@ -24144,6 +24396,15 @@
     "fcc": false
    }
   ],
+  "2297": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2750,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "2302": [
    {
     "k": "ROUGAROUCONSULT",
@@ -24237,6 +24498,15 @@
     "fcc": false
    }
   ],
+  "2330": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1000,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "2344": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -24290,6 +24560,15 @@
     "k": "ALLERTONAND",
     "n": "Allerton & Co",
     "usd": 5332,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "2356": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 4089,
     "cycle": 0,
     "fcc": true
    }
@@ -24583,10 +24862,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 3535,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2514": [
@@ -25636,11 +25915,11 @@
     "fcc": true
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 18008,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2798": [
@@ -25921,6 +26200,13 @@
     "usd": 85638,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1121,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "282": [
@@ -26292,6 +26578,13 @@
     "usd": 4000,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2343,
+    "cycle": 600,
+    "fcc": true
    }
   ],
   "2892": [
@@ -26301,6 +26594,13 @@
     "usd": 66510,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 14533,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2894": [
@@ -26529,6 +26829,15 @@
     "n": "Arsement Media Group",
     "usd": 18042,
     "cycle": 18042,
+    "fcc": true
+   }
+  ],
+  "2942": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1350,
+    "cycle": 0,
     "fcc": true
    }
   ],
@@ -27445,11 +27754,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 543058,
     "cycle": 44939,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BERNICONSULT",
@@ -27562,6 +27871,15 @@
     "usd": 2250,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "3308": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1021,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3310": [
@@ -27854,6 +28172,13 @@
     "usd": 20143,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 4005,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3364": [
@@ -27863,6 +28188,13 @@
     "usd": 101462,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 5566,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3369": [
@@ -27993,6 +28325,15 @@
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
     "usd": 14465,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "3392": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1946,
     "cycle": 0,
     "fcc": true
    }
@@ -28272,11 +28613,11 @@
   ],
   "3440": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 138153,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "INNOVATIVEADVERTISING",
@@ -28603,6 +28944,13 @@
     "usd": 19173,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 7057,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "CLAYYOUNGENTERPRISES",
@@ -28960,6 +29308,15 @@
     "fcc": false
    }
   ],
+  "3688": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2785,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "3700": [
    {
     "k": "OURSOBEYCHOK",
@@ -29053,11 +29410,11 @@
   ],
   "3731": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 390837,
     "cycle": 390837,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -29083,6 +29440,15 @@
     "fcc": true
    }
   ],
+  "3755": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2060,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "3760": [
    {
     "k": "OURSOBEYCHOK",
@@ -29102,10 +29468,10 @@
   "377": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
-    "usd": 110621,
+    "n": "Alpha Media and Public Relations",
+    "usd": 157826,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "KQXLFM",
@@ -29122,6 +29488,15 @@
     "usd": 23435,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "3792": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1148,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "381": [
@@ -29377,6 +29752,15 @@
     "fcc": false
    }
   ],
+  "3901": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 9141,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "3905": [
    {
     "k": "VELOCITYAGENCY",
@@ -29459,10 +29843,10 @@
   "3932": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 1000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3933": [
@@ -29488,11 +29872,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 2500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3934": [
@@ -29636,6 +30020,22 @@
     "usd": 80750,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 20752,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "3984": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 6954,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "399": [
@@ -29658,11 +30058,11 @@
   ],
   "3996": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 1902008,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GOBIGMEDIA",
@@ -29770,11 +30170,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 69456,
     "cycle": 7449,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "EMXDIGITAL",
@@ -29789,6 +30189,15 @@
     "usd": 22063,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "4036": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2606,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4038": [
@@ -30060,10 +30469,10 @@
   "4083": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 21187,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -30270,7 +30679,7 @@
    },
    {
     "k": "SRCPMEDIA",
-    "n": "SRCP Media",
+    "n": "SRCPmedia",
     "usd": 152474,
     "cycle": 0,
     "fcc": true
@@ -30315,11 +30724,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 74557,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ROUGAROUCONSULT",
@@ -30523,11 +30932,11 @@
   ],
   "4171": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 105158,
     "cycle": 105158,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DEVISESTRATEGY",
@@ -30562,11 +30971,11 @@
   ],
   "4176": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 1500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4177": [
@@ -30866,10 +31275,10 @@
   "4221": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 4573,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4223": [
@@ -30919,17 +31328,17 @@
    },
    {
     "k": "SRCPMEDIA",
-    "n": "SRCP Media",
+    "n": "SRCPmedia",
     "usd": 47500,
     "cycle": 0,
     "fcc": true
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 32711,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FIREONBAYOU",
@@ -31421,6 +31830,13 @@
     "usd": 5850,
     "cycle": 0,
     "fcc": true
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 4307,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4383": [
@@ -31734,6 +32150,15 @@
     "fcc": false
    }
   ],
+  "4435": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 5200,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "4441": [
    {
     "k": "POLITICALFIRM",
@@ -31814,11 +32239,11 @@
   ],
   "4449": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 77167,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LR3CONSULT",
@@ -31861,10 +32286,10 @@
   "4454": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 28123,
     "cycle": 28123,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4467": [
@@ -31895,7 +32320,7 @@
    },
    {
     "k": "POOLHOUSE",
-    "n": "Poolhouse",
+    "n": "POOLHOUSE",
     "usd": 177729,
     "cycle": 0,
     "fcc": true
@@ -32214,11 +32639,11 @@
     "fcc": true
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 174639,
     "cycle": 162301,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BRAVENEWTELEVISION",
@@ -32230,11 +32655,11 @@
   ],
   "4543": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 115992,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4546": [
@@ -33056,6 +33481,15 @@
     "fcc": false
    }
   ],
+  "4905": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1330,
+    "cycle": 278,
+    "fcc": true
+   }
+  ],
   "4909": [
    {
     "k": "QUESTCOMMCONSULT",
@@ -33113,11 +33547,11 @@
   ],
   "4917": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 62434,
     "cycle": 1140,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4919": [
@@ -33164,6 +33598,15 @@
     "fcc": false
    }
   ],
+  "4925": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 8844,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "4927": [
    {
     "k": "FLEXPOINTMEDIA",
@@ -33180,11 +33623,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 4069,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "SOMETHINGELSESTRATEGIES",
@@ -33192,6 +33635,15 @@
     "usd": 1847,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "4933": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 6459,
+    "cycle": 1659,
+    "fcc": true
    }
   ],
   "4936": [
@@ -33362,11 +33814,11 @@
   ],
   "5022": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 100000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5023": [
@@ -33630,11 +34082,11 @@
   ],
   "5090": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 347465,
     "cycle": 347465,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BULLSEYEMEDIA",
@@ -33796,6 +34248,13 @@
     "fcc": false
    },
    {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 4535,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
     "usd": 3948,
@@ -33933,6 +34392,15 @@
     "usd": 3510,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "5176": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2003,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "5180": [
@@ -34119,6 +34587,15 @@
     "usd": 32012,
     "cycle": 32012,
     "fcc": false
+   }
+  ],
+  "5262": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1738,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "5265": [
@@ -34323,11 +34800,11 @@
   ],
   "5322": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 34715,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5325": [
@@ -34373,6 +34850,15 @@
     "fcc": false
    }
   ],
+  "5336": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 3548,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "5337": [
    {
     "k": "QUESTCOMMCONSULT",
@@ -34414,11 +34900,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 72528,
     "cycle": 72528,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BERNICONSULT",
@@ -34497,6 +34983,13 @@
     "k": "KINGFISHCOMMUNICATIONS",
     "n": "Kingfish Communications",
     "usd": 11500,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 6900,
     "cycle": 0,
     "fcc": true
    }
@@ -34622,11 +35115,11 @@
   ],
   "5441": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 50000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DEVISESTRATEGY",
@@ -34864,10 +35357,10 @@
   "5508": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 15439,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "551": [
@@ -34920,11 +35413,11 @@
   ],
   "5522": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 1575438,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TRADEDESK",
@@ -34964,11 +35457,11 @@
   ],
   "5524": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 586853,
     "cycle": 523836,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5530": [
@@ -35009,11 +35502,11 @@
   ],
   "5551": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 78299,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5552": [
@@ -35112,6 +35605,13 @@
     "usd": 254889,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 3100,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "5579": [
@@ -35263,6 +35763,13 @@
     "usd": 28565,
     "cycle": 28565,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 9879,
+    "cycle": 9879,
+    "fcc": true
    }
   ],
   "5626": [
@@ -35278,6 +35785,15 @@
     "n": "Littlefield Consulting",
     "usd": 37000,
     "cycle": 37000,
+    "fcc": true
+   }
+  ],
+  "5640": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 10400,
+    "cycle": 10400,
     "fcc": true
    }
   ],
@@ -35376,6 +35892,15 @@
     "fcc": true
    }
   ],
+  "5725": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2668,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "5740": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -35399,6 +35924,15 @@
     "usd": 177550,
     "cycle": 112550,
     "fcc": false
+   }
+  ],
+  "5759": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1590,
+    "cycle": 1590,
+    "fcc": true
    }
   ],
   "576": [
@@ -35496,6 +36030,15 @@
     "usd": 12000,
     "cycle": 12000,
     "fcc": false
+   }
+  ],
+  "5830": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 2162,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "5839": [
@@ -35727,11 +36270,11 @@
   ],
   "5892": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 141073,
     "cycle": 141073,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -35821,7 +36364,7 @@
    },
    {
     "k": "POOLHOUSE",
-    "n": "Poolhouse",
+    "n": "POOLHOUSE",
     "usd": 6230,
     "cycle": 0,
     "fcc": true
@@ -35940,10 +36483,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 2230,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BUYINGTIME",
@@ -36396,10 +36939,10 @@
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 38544,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -36537,11 +37080,11 @@
   ],
   "6118": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 16715,
     "cycle": 16715,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GOBIGMEDIA",
@@ -36666,11 +37209,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 122122,
     "cycle": 122122,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "INNOVATIVEADVERTISING",
@@ -36846,11 +37389,11 @@
   ],
   "6295": [
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 1839017,
     "cycle": 1839017,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GOBIGMEDIA",
@@ -36858,6 +37401,15 @@
     "usd": 1303819,
     "cycle": 1303819,
     "fcc": false
+   }
+  ],
+  "6298": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1200,
+    "cycle": 1200,
+    "fcc": true
    }
   ],
   "631": [
@@ -37253,6 +37805,15 @@
     "usd": 224832,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "6431": [
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 1500,
+    "cycle": 1500,
+    "fcc": true
    }
   ],
   "6436": [
@@ -38057,6 +38618,15 @@
     "fcc": false
    }
   ],
+  "6764": [
+   {
+    "k": "HYRIZON",
+    "n": "Hyrizon Group",
+    "usd": 47000,
+    "cycle": 47000,
+    "fcc": true
+   }
+  ],
   "677": [
    {
     "k": "FLETCHERCONSULT",
@@ -38483,11 +39053,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 114537,
     "cycle": 114537,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7199": [
@@ -38499,11 +39069,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 126975,
     "cycle": 126975,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BRAVENEWTELEVISION",
@@ -38624,10 +39194,10 @@
   "7316": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
-    "n": "Alpha Media & Public Relations",
+    "n": "Alpha Media and Public Relations",
     "usd": 1000,
     "cycle": 1000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7366": [
@@ -39742,6 +40312,13 @@
     "usd": 4840,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 4500,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "938": [
@@ -39823,6 +40400,13 @@
     "usd": 11640,
     "cycle": 11640,
     "fcc": false
+   },
+   {
+    "k": "ALPHAMEDIAANDPUBLICRELATIONS",
+    "n": "Alpha Media and Public Relations",
+    "usd": 6397,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "WYLDFM",
@@ -40186,11 +40770,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 132692,
     "cycle": 71766,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "COMPOSEDIGITALDESIGN",
@@ -40279,11 +40863,11 @@
     "fcc": false
    },
    {
-    "k": "PEOPLEWHOTHINK",
-    "n": "People Who Think",
+    "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
+    "n": "People Who Think / Del Cielo Media",
     "usd": 162116,
     "cycle": 156734,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "SOMETHINGELSESTRATEGIES",
@@ -41746,6 +42330,10 @@
    "Charlotte A. Randolph",
    "REP"
   ],
+  "1876": [
+   "Sheva Sims",
+   "DEM"
+  ],
   "1877": [
    "Anthony Marabella",
    "OTH"
@@ -41773,6 +42361,10 @@
   "1895": [
    "Tanner A. Messina, Jr.",
    "OTH"
+  ],
+  "1896": [
+   "Dele Adebamiji",
+   "DEM"
   ],
   "1902": [
    "Frank Minyard, M.D.",
@@ -41901,6 +42493,10 @@
   "1974": [
    "Larry N. Dale",
    "REP"
+  ],
+  "1978": [
+   "Craig Freeman",
+   "DEM"
   ],
   "1981": [
    "David Tatman",
@@ -42286,6 +42882,10 @@
    "Jimmy Cantrelle",
    "DEM"
   ],
+  "2244": [
+   "Edmond D. Jordan",
+   "DEM"
+  ],
   "2257": [
    "Lance Harris",
    "REP"
@@ -42362,6 +42962,10 @@
    "Richard A. (Rick) Chargois",
    "REP"
   ],
+  "2297": [
+   "Lynn D. Cawthorne",
+   "DEM"
+  ],
   "2302": [
    "Riser PAC",
    "OTH"
@@ -42394,6 +42998,10 @@
    "Lenar L. Whitney",
    "REP"
   ],
+  "2330": [
+   "Barbara Norton",
+   "DEM"
+  ],
   "2344": [
    "Guy McInnis",
    "IND"
@@ -42408,6 +43016,10 @@
   ],
   "2352": [
    "Randy S. Nunez",
+   "DEM"
+  ],
+  "2356": [
+   "Carolyn Hill",
    "DEM"
   ],
   "2360": [
@@ -43078,6 +43690,10 @@
    "Brent Hawkins",
    "DEM"
   ],
+  "2942": [
+   "Ramona L. Emanuel",
+   "DEM"
+  ],
   "2949": [
    "Better Schools, Better Futures, Inc.",
    "OTH"
@@ -43406,6 +44022,10 @@
    "Lewis H. Pitman, Jr.",
    "REP"
   ],
+  "3308": [
+   "Dodie Horton",
+   "REP"
+  ],
   "3310": [
    "Heath Pastor",
    "DEM"
@@ -43529,6 +44149,10 @@
   "3390": [
    "Stephen Dwight",
    "REP"
+  ],
+  "3392": [
+   "Terence Vinson",
+   "DEM"
   ],
   "3394": [
    "John Milkovich",
@@ -43790,6 +44414,10 @@
    "Jo Ellen Kearny, Treasurer EBR Library PAC",
    "OTH"
   ],
+  "3688": [
+   "Barbara West Carpenter",
+   "DEM"
+  ],
   "3700": [
    "Education Reform Now Advocacy",
    "OTH"
@@ -43826,6 +44454,10 @@
    "Jason Hughes",
    "DEM"
   ],
+  "3755": [
+   "Fred Moss IV",
+   "DEM"
+  ],
   "3760": [
    "Wendell Jay Luneau",
    "DEM"
@@ -43837,6 +44469,10 @@
   "3779": [
    "John H. Bagneris",
    "DEM"
+  ],
+  "3792": [
+   "Patsy Smith Maggio",
+   "REP"
   ],
   "381": [
    "Patricia Core",
@@ -43909,6 +44545,10 @@
   "3894": [
    "Keith M. Reynaud",
    "REP"
+  ],
+  "3901": [
+   "Dawn Collins",
+   "DEM"
   ],
   "3905": [
    "St Tammany Chamber PAC",
@@ -43998,6 +44638,10 @@
    "Excellence in Higher Education Ballot Proposition Committee",
    "OTH"
   ],
+  "3984": [
+   "Erika L. Green",
+   "DEM"
+  ],
   "399": [
    "Darryl Harrison",
    "OTH"
@@ -44036,6 +44680,10 @@
   ],
   "4035": [
    "Patrick Moore McMath",
+   "REP"
+  ],
+  "4036": [
+   "Robert \"Robbie\" Hal Gatti Jr.",
    "REP"
   ],
   "4038": [
@@ -44550,6 +45198,10 @@
    "Mike Johnson",
    "REP"
   ],
+  "4435": [
+   "NaTashia Carter Benoit",
+   "DEM"
+  ],
   "4441": [
    "Thomas Alexander Pressly IV",
    "REP"
@@ -44954,6 +45606,10 @@
    "Randal Hermes",
    "IND"
   ],
+  "4905": [
+   "Hersy Jones",
+   "DEM"
+  ],
   "4909": [
    "Glen D. Womack",
    "REP"
@@ -44974,9 +45630,17 @@
    "Jambalaya PAC",
    "OTH"
   ],
+  "4925": [
+   "Sonya Hall",
+   "DEM"
+  ],
   "4927": [
    "Republican State Leadership Committee - Louisiana",
    "OTH"
+  ],
+  "4933": [
+   "Daryl Joy Walters",
+   "DEM"
   ],
   "4936": [
    "Robert McKnight",
@@ -45214,6 +45878,10 @@
    "George Winston",
    "DEM"
   ],
+  "5176": [
+   "Emily Merckle",
+   "REP"
+  ],
   "5180": [
    "Bobby L. Holmes",
    "DEM"
@@ -45277,6 +45945,10 @@
   "5259": [
    "Carla S. Sigler",
    "REP"
+  ],
+  "5262": [
+   "J. Antonio Florence",
+   "DEM"
   ],
   "5265": [
    "Davante Lewis",
@@ -45361,6 +46033,10 @@
   "5334": [
    "Philip C. Brickman",
    "OTH"
+  ],
+  "5336": [
+   "Donald J. Gaut",
+   "IND"
   ],
   "5337": [
    "Yumeaka Robinson Washington",
@@ -45610,6 +46286,10 @@
    "CENLA STRONG PAC",
    "OTH"
   ],
+  "5640": [
+   "James U. Jefferson",
+   "DEM"
+  ],
   "5643": [
    "Nathaniel Rust",
    "OTH"
@@ -45646,6 +46326,10 @@
    "Dixon McMakin",
    "REP"
   ],
+  "5725": [
+   "Mario Carlos Chavez",
+   "REP"
+  ],
   "5740": [
    "Edward V. Lepre",
    "REP"
@@ -45653,6 +46337,10 @@
   "5753": [
    "NoLaToya",
    "OTH"
+  ],
+  "5759": [
+   "Alan Jackson",
+   "DEM"
   ],
   "576": [
    "Charles Donaldson",
@@ -45693,6 +46381,10 @@
   "5826": [
    "One Future PAC",
    "OTH"
+  ],
+  "5830": [
+   "Mavice Thigpen",
+   "DEM"
   ],
   "5839": [
    "Brach Myers",
@@ -46094,6 +46786,10 @@
    "Louisiana Kids Matter Action Fund",
    "OTH"
   ],
+  "6298": [
+   "Jasmine Green",
+   "DEM"
+  ],
   "631": [
    "Bobby Jindal",
    "REP"
@@ -46169,6 +46865,10 @@
   "643": [
    "Barrow Peacock",
    "REP"
+  ],
+  "6431": [
+   "RENEW SHREVEPORT PAC, LLC",
+   "OTH"
   ],
   "6436": [
    "Ashlie Myers Spiker",
@@ -46429,6 +47129,10 @@
   "676": [
    "Barry P. Bonvillain",
    "DEM"
+  ],
+  "6764": [
+   "Greater New Orleans Housing Alliance",
+   "OTH"
   ],
   "677": [
    "Warren Harang, III",

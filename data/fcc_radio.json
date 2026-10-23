@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-10-23T01:46:06Z",
+ "scraped": "2026-10-23T15:54:24Z",
  "years": [
   2026,
   2027
@@ -8582,7 +8582,7 @@
    "facility_id": "59289",
    "root_folder": "1e6fcc3d-ed9a-bf5e-91b2-3f32dd2ae950",
    "profile": "fm-profile/kmdl",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "5e1570fe-fd2e-f295-5509-0b88b8bc70ad",
     "2015": "ed2ac383-e7dd-09ac-4cd6-35186fc24118",
@@ -8606,6 +8606,15 @@
     "Political Files/2026/Non-Candidate Issue Ads": "0f3501ed-4f32-52f8-ea00-a49ee686cbdf"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "Jean Paul Broussard for Chief 10.21.26",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T14:24:53-04:00",
+     "folder_id": "b93e7e00-0850-c65e-4794-346ba038cd9f",
+     "file_id": "972f1094-58eb-0675-52cf-5ebbe0a63489",
+     "file_manager_id": "44441e91-f55d-4fb7-a181-bbe9737c7968"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "Don Chauvin for Carencro Mayor 10.21.26",
@@ -8831,7 +8840,7 @@
    "facility_id": "60867",
    "root_folder": "5e3f76f3-ebf0-46c9-3174-493d08581d07",
    "profile": "fm-profile/kbon",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "196a7c0d-499e-0a54-5268-f676673fe844",
     "2015": "3c348312-8be1-efa7-84a4-425cf95a06c0",
@@ -8859,7 +8868,7 @@
    "facility_id": "15801",
    "root_folder": "b0bb9061-bd56-e7a3-98ee-095d25cd0682",
    "profile": "am-profile/knek",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2018": "e33ba627-70b5-9954-a6b5-d8e600a7ce3e",
     "2019": "7a9e3275-1a3c-1b8a-ed83-0886bc22bba7",
@@ -8883,7 +8892,7 @@
    "facility_id": "40580",
    "root_folder": "ecd6a63b-011f-5420-8b31-735e83a3b188",
    "profile": "fm-profile/kbze",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "54b179fa-b954-65a6-dfd5-aeb779649aa4",
     "2015": "8a94f2f3-fd7f-52dc-0ac1-2ea438eacc2b",
@@ -8911,7 +8920,7 @@
    "facility_id": "12674",
    "root_folder": "ee006e3e-9b24-964f-b807-d0bea6065bf5",
    "profile": "fm-profile/ktdy",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "5fbdf594-6a34-7034-2589-ffa1693107f1",
     "2015": "00641e98-842e-7d89-1e40-9e308dd96432",
@@ -9169,7 +9178,7 @@
    "facility_id": "47402",
    "root_folder": "14503b97-f8d4-f991-37c0-efc8375f3c24",
    "profile": "fm-profile/wynk-fm",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "69afb846-ded3-3464-aadf-49a6cc871703",
     "2015": "979a71b5-fa23-35d3-ad50-cc79cd695969",
@@ -9761,7 +9770,7 @@
    "facility_id": "64675",
    "root_folder": "450a2c3e-dfbc-bd60-faf5-7d0a1f67149b",
    "profile": "fm-profile/kqki-fm",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "54919287-f678-6396-3d65-c3da2d0d955d",
     "2015": "26b0b43a-5dfd-77e4-b0fd-7f623b6374a3",
@@ -9977,7 +9986,7 @@
    "facility_id": "3422",
    "root_folder": "347f4fbb-08fe-edd2-c560-db492d687aa5",
    "profile": "fm-profile/kzwa",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "1b7370ce-c0ef-9fcf-dc65-69717d1eccb4",
     "2015": "6dc29083-6efd-efa2-365b-913b10db8821",
@@ -9998,10 +10007,57 @@
     "Political Files/2026/Local": "a33a49e3-37c6-a0f1-ff8f-1ea4d324a3e5",
     "Political Files/2026/Local/Brent Hawkins - 14th JDC Magistrate Judge - 2026": "dbb07b4d-9d79-d5ba-ed60-a4a19781f950",
     "Political Files/2026/Local/Erik Johnson Sr - Chief of Police - Town of Iowa": "c1d8fba0-7765-8c49-5a08-3189d010e3e4",
+    "Political Files/2026/Local/Jamie Davis For - US Senate 2026": "91c9d8dd-6bb4-afaa-d26c-6e86294743ab",
+    "Political Files/2026/Local/Ron Richard - City Court Judge - 2026": "dd43606e-519f-981e-ef5c-dffddfad12e0",
     "Political Files/2026/Local/SaTrica Williams - 14th Judicial District Court Judge Division J": "55bbae2a-66e4-de26-a0e7-447171dbc007",
     "Political Files/2026/Local/Walt Sanchez - City Court Judge - 2026": "226569e3-4aad-5341-420c-0f424016f9bf"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Ron Richard - City Court Judge - 2026",
+     "name": "Ron Richard For City Judge - Sales Order 2026",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:38:25-04:00",
+     "folder_id": "dd43606e-519f-981e-ef5c-dffddfad12e0",
+     "file_id": "4eafe148-111d-7bf8-8656-a7b5715979bc",
+     "file_manager_id": "4486620e-c120-4780-86e9-14e49f1cc0e1"
+    },
+    {
+     "path": "Political Files/2026/Local/Jamie Davis For - US Senate 2026",
+     "name": "Jamie Davis For US Senate Agency Recognition Letter",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:19:50-04:00",
+     "folder_id": "91c9d8dd-6bb4-afaa-d26c-6e86294743ab",
+     "file_id": "564a8b1c-2ce6-6475-8842-8f7a2524335b",
+     "file_manager_id": "d1fdc9df-e696-438c-81fc-2a8c6086f231"
+    },
+    {
+     "path": "Political Files/2026/Local/Jamie Davis For - US Senate 2026",
+     "name": "Jamie Davis For US Senate Political Form 2026",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:19:47-04:00",
+     "folder_id": "91c9d8dd-6bb4-afaa-d26c-6e86294743ab",
+     "file_id": "f71036b1-9375-3a4c-b65a-4834303a368a",
+     "file_manager_id": "8c0c46e3-efe0-4ad7-ab18-c60eeb64be72"
+    },
+    {
+     "path": "Political Files/2026/Local/Jamie Davis For - US Senate 2026",
+     "name": "Jamie Davis For US Senate Political Sales Order 2026",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:19:46-04:00",
+     "folder_id": "91c9d8dd-6bb4-afaa-d26c-6e86294743ab",
+     "file_id": "cdc39690-4118-b4fa-6347-78b5f1d8c3cc",
+     "file_manager_id": "faf2d32b-ba66-443e-8297-7d40713de903"
+    },
+    {
+     "path": "Political Files/2026/Local/Ron Richard - City Court Judge - 2026",
+     "name": "Ron Richard 2026 Political Agreement",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:04:41-04:00",
+     "folder_id": "dd43606e-519f-981e-ef5c-dffddfad12e0",
+     "file_id": "f4f7c8df-e440-91eb-3684-f6e43158f065",
+     "file_manager_id": "d12ad878-df9e-4377-9b4c-a45c588332db"
+    },
     {
      "path": "Political Files/2026/Local/SaTrica Williams - 14th Judicial District Court Judge Division J",
      "name": "Satrica Wilkiams 2026 Political Agreement",
@@ -10092,7 +10148,7 @@
    "facility_id": "58931",
    "root_folder": "9d092d1f-0b73-92bd-32e4-5f5fbacd7484",
    "profile": "fm-profile/wemx",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2018": "cebd8cbb-fd04-cb0a-2551-c3af18a1e413",
     "2019": "6a09cf47-d5f4-fcaf-e572-dbcbc66087b1",
@@ -10111,6 +10167,15 @@
     "Political Files/2026/Terms and Disclosures": "35e9c825-7ef7-8664-7eea-36839e458041"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1649933-Moore_D_District Attorney-WEMX-FM",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:24:27-04:00",
+     "folder_id": "8c915060-377c-a9e9-eaa6-eb43033e7a6b",
+     "file_id": "153a7ba1-d77e-02cc-9ee1-6d5edbfd5f31",
+     "file_manager_id": "34136340-8b78-49c9-853e-27b015e0768b"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "1648251-Allen_D-Judge-WEMX-FM",
@@ -10345,7 +10410,7 @@
    "facility_id": "1305",
    "root_folder": "6fa5cfa2-ab40-e381-3538-b98d39c742a6",
    "profile": "am-profile/krmd",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "4fee8c9e-bf34-d82c-d632-74a16093889b",
     "2015": "248604ff-473f-425b-7229-629fa64de283",
@@ -10373,7 +10438,7 @@
    "facility_id": "11606",
    "root_folder": "8142b74b-c409-13dc-f779-76f97e6caf31",
    "profile": "am-profile/wxok",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2018": "5d29202a-4fbc-96f5-a0fc-696999dc5d4f",
     "2019": "59326ab7-45e3-0c7c-d9da-d56d0333bd02",
@@ -10392,6 +10457,15 @@
     "Political Files/2026/Terms and Disclosures": "28cdda15-1eab-0834-2d96-30a55207bc11"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1649941-Moore_D_District Attorney-WXOK-AM",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T11:22:08-04:00",
+     "folder_id": "07f73b31-7125-dcd7-9f55-5305bb737935",
+     "file_id": "071f600e-8630-59fd-ea3d-33fcf0933cab",
+     "file_manager_id": "2fc55390-af9b-4d72-a15b-10b2434d25dd"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "1648249-Allen_D_Judge-WXOK-AM",
@@ -10572,7 +10646,7 @@
    "facility_id": "52434",
    "root_folder": "8afd8730-3401-83dd-991a-ce99b40a7af4",
    "profile": "fm-profile/wkbu",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2017": "3a78327f-4f94-3ce9-fc58-d582bd8f2219",
     "2018": "59d233af-5873-a280-63d8-eb1cf7f39499",
@@ -10702,7 +10776,7 @@
    "facility_id": "41054",
    "root_folder": "ad29251b-2867-d10e-29d3-94256bcee35a",
    "profile": "am-profile/kfxz",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "a3533337-4ff7-d863-260a-a3ecf945e2b9",
     "2015": "84ec7675-db87-99bc-da8c-9d0114ca0692",
@@ -13356,7 +13430,7 @@
    "facility_id": "9750",
    "root_folder": "13657063-875e-7c49-e9d4-d776143fa881",
    "profile": "am-profile/ksyl",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "76107b99-876d-1883-148d-c8acfd1ba8ac",
     "2015": "be8692f0-7fa9-5fd7-aafb-06b07736f70d",
@@ -13716,7 +13790,7 @@
    "facility_id": "48632",
    "root_folder": "21540095-3d95-735e-2bf9-0ca6b395e375",
    "profile": "fm-profile/kjlo-fm",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "c6ad5ac8-914b-bad7-f990-0fc6196d58bd",
     "2015": "44af8572-964d-2d76-218a-236e6597e13d",
@@ -13876,7 +13950,7 @@
    "facility_id": "36227",
    "root_folder": "a5929b9a-b261-7510-5c54-4412c6fad212",
    "profile": "fm-profile/krrq",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2018": "55e2c0d9-dc72-6da1-df56-0ef6f065014d",
     "2019": "4316a936-f15d-eed3-2168-50708257d0d3",
@@ -13993,7 +14067,7 @@
    "facility_id": "19560",
    "root_folder": "d784ddba-85b6-42f7-7822-8e73af021a9f",
    "profile": "fm-profile/kvki-fm",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "c8570be8-d34b-ba64-2671-bcbd458b723d",
     "2015": "57043981-bd25-68f5-68fd-b4c6ce435acb",
@@ -14295,7 +14369,7 @@
    "facility_id": "8164",
    "root_folder": "8e664d80-3785-0cd4-8b68-b98e1135be50",
    "profile": "fm-profile/klil",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "f48f82ef-91b9-9e87-9581-48a7b1c012df",
     "2015": "6e813e8c-5db2-5844-b484-7ea242f9b801",
@@ -14332,9 +14406,55 @@
     "Political Files/2026/Local/Mayuex S for School Board": "0af9a94a-6534-d79a-c380-9e377076a488",
     "Political Files/2026/Local/Police  Jury Propersition": "8a01338b-61a4-c80f-8fdd-d426e91c66bd",
     "Political Files/2026/Local/T LEMOINE MAYOR OF MOREAUVILLE": "f683a101-e7b4-a7c2-265e-241c3d7f1473",
+    "Political Files/2026/Local/Tax Opposition": "68c1201a-60ad-b608-10d1-52164080dcb8",
     "Political Files/2026/Local/Wesley Elmer for judge": "e5f492ba-7f2a-0bba-7355-33409cbb7a6e"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Jeansonne  Mark for Judge",
+     "name": "M JEANSONNE KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T15:17:36-04:00",
+     "folder_id": "12eeab21-502c-4a83-2ded-c50e6b804a82",
+     "file_id": "6bc12a8e-c6c6-ddc1-35ee-e026cae58bdd",
+     "file_manager_id": "a2fbfb48-bc1a-4f44-9291-3f9e61898c80"
+    },
+    {
+     "path": "Political Files/2026/Local/Elizabeth  Williams for Judge",
+     "name": "LIZ WILLIAMS KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T15:15:55-04:00",
+     "folder_id": "6c02885b-8d31-4a92-2697-ab95af1726e0",
+     "file_id": "115091d4-be89-33ff-f488-8d629ca7814e",
+     "file_manager_id": "0db257df-625a-43d2-8dfd-a4b6b8c954f6"
+    },
+    {
+     "path": "Political Files/2026/Local/Judgeship election Barry Laiche 2026",
+     "name": "B LAICHE 60sec KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T15:08:38-04:00",
+     "folder_id": "1b6a099c-45bd-7389-3740-4cf307412aec",
+     "file_id": "d108e0d5-c632-6c39-d173-aff58ef04551",
+     "file_manager_id": "71f9814d-36cb-46f5-84a7-ed1a9a8f274e"
+    },
+    {
+     "path": "Political Files/2026/Local/Tax Opposition",
+     "name": "TAX OPPOSITION KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T15:03:40-04:00",
+     "folder_id": "68c1201a-60ad-b608-10d1-52164080dcb8",
+     "file_id": "b126ce38-4cb4-7245-3836-2adb0e6c1b39",
+     "file_manager_id": "d9d7a441-b3cd-4627-a417-052f1aa07fcb"
+    },
+    {
+     "path": "Political Files/2026/Local/Tax Opposition",
+     "name": "TAX OPPO AGRE KLIL",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T15:03:39-04:00",
+     "folder_id": "68c1201a-60ad-b608-10d1-52164080dcb8",
+     "file_id": "974a27e1-0efa-73ea-6531-31edd1a0573b",
+     "file_manager_id": "7a3c241a-317f-4bab-affd-84d581477521"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Firmint Gabe",
      "name": "GABE FIRMENT AG KLIL",
@@ -14704,7 +14824,7 @@
    "facility_id": "8382",
    "root_folder": "4ed270ce-7a07-679b-ab20-4e007c902633",
    "profile": "fm-profile/wtix-fm",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2018": "d5861ddd-577e-942c-a664-a4e6ed738d22",
     "2019": "0ae3859b-86cd-a01a-759f-234a90fee559",
@@ -15012,7 +15132,7 @@
    "facility_id": "67330",
    "root_folder": "1fffd821-c414-b4a1-7993-129cf680685b",
    "profile": "am-profile/kaok",
-   "scraped_at": "2026-10-21T16:03:58Z",
+   "scraped_at": "2026-10-23T15:51:47Z",
    "year_folders": {
     "2014": "58db9ee7-7ebc-a6c1-d594-cec74964688f",
     "2015": "9521ad92-708e-25a3-1129-ff5be4479609",
@@ -18482,60 +18602,60 @@
  "blocked": null,
  "attempted": {
   "KAJN": "2026-10-23T01:43:32Z",
-  "KAOK": "2026-10-21T16:03:58Z",
-  "KBON": "2026-10-22T01:42:41Z",
+  "KAOK": "2026-10-23T15:51:47Z",
+  "KBON": "2026-10-23T15:51:47Z",
   "KBTT": "2026-10-23T01:43:32Z",
-  "KBZE": "2026-10-22T01:42:41Z",
+  "KBZE": "2026-10-23T15:51:47Z",
   "KDKS": "2026-10-22T15:58:45Z",
   "KEEL": "2026-10-23T01:43:32Z",
   "KEUN": "2026-10-22T15:58:45Z",
-  "KFXZ": "2026-10-22T01:42:41Z",
+  "KFXZ": "2026-10-23T15:51:47Z",
   "KGLA": "2026-10-22T15:58:45Z",
   "KHLA": "2026-10-22T15:58:45Z",
   "KJAE": "2026-10-22T15:58:45Z",
-  "KJLO": "2026-10-21T16:03:58Z",
+  "KJLO": "2026-10-23T15:51:47Z",
   "KJMG": "2026-10-23T01:43:32Z",
   "KKND": "2026-10-23T01:43:32Z",
-  "KLIL": "2026-10-21T16:03:58Z",
+  "KLIL": "2026-10-23T15:51:47Z",
   "KLKL": "2026-10-22T01:42:41Z",
   "KLWB": "2026-10-22T15:58:45Z",
-  "KMDL": "2026-10-22T01:42:41Z",
+  "KMDL": "2026-10-23T15:51:47Z",
   "KMEZ": "2026-10-23T01:43:32Z",
   "KMJJ": "2026-10-22T15:58:45Z",
   "KMLB": "2026-10-22T01:42:41Z",
   "KMXH": "2026-10-22T15:58:45Z",
-  "KNEK": "2026-10-22T01:42:41Z",
+  "KNEK": "2026-10-23T15:51:47Z",
   "KOKA": "2026-10-22T01:42:41Z",
   "KPEL": "2026-10-23T01:43:32Z",
-  "KQKI": "2026-10-22T01:42:41Z",
+  "KQKI": "2026-10-23T15:51:47Z",
   "KQXL": "2026-10-23T01:43:32Z",
-  "KRMD": "2026-10-22T01:42:41Z",
+  "KRMD": "2026-10-23T15:51:47Z",
   "KROF": "2026-10-23T01:43:32Z",
-  "KRRQ": "2026-10-21T16:03:58Z",
+  "KRRQ": "2026-10-23T15:51:47Z",
   "KRVE": "2026-10-22T15:58:45Z",
   "KRVV": "2026-10-22T01:42:41Z",
   "KSIG": "2026-10-22T15:58:45Z",
   "KSMB": "2026-10-22T15:58:45Z",
   "KSYB": "2026-10-23T01:43:32Z",
-  "KSYL": "2026-10-21T16:03:58Z",
-  "KTDY": "2026-10-22T01:42:41Z",
-  "KVKI": "2026-10-21T16:03:58Z",
+  "KSYL": "2026-10-23T15:51:47Z",
+  "KTDY": "2026-10-23T15:51:47Z",
+  "KVKI": "2026-10-23T15:51:47Z",
   "KVPI": "2026-10-22T15:58:45Z",
   "KXKS": "2026-10-22T15:58:45Z",
   "KYKZ": "2026-10-22T15:58:45Z",
   "KZMZ": "2026-10-23T01:43:32Z",
   "KZRZ": "2026-10-22T15:58:45Z",
-  "KZWA": "2026-10-22T01:42:41Z",
+  "KZWA": "2026-10-23T15:51:47Z",
   "WBOK": "2026-10-23T01:43:32Z",
   "WBRP": "2026-10-22T01:42:41Z",
   "WDGL": "2026-10-22T15:58:45Z",
-  "WEMX": "2026-10-22T01:42:41Z",
+  "WEMX": "2026-10-23T15:51:47Z",
   "WEZB": "2026-10-23T01:43:32Z",
   "WFMF": "2026-10-22T15:58:45Z",
   "WGSO": "2026-10-22T15:58:45Z",
   "WGUO": "2026-10-22T01:42:41Z",
   "WJBO": "2026-10-23T01:43:32Z",
-  "WKBU": "2026-10-22T01:42:41Z",
+  "WKBU": "2026-10-23T15:51:47Z",
   "WLMG": "2026-10-23T01:43:32Z",
   "WNOE": "2026-10-23T01:43:32Z",
   "WNXX": "2026-10-22T01:42:41Z",
@@ -18543,10 +18663,10 @@
   "WRNO": "2026-10-23T01:43:32Z",
   "WRQQ": "2026-10-22T15:58:45Z",
   "WTGE": "2026-10-22T15:58:45Z",
-  "WTIX": "2026-10-21T16:03:58Z",
+  "WTIX": "2026-10-23T15:51:47Z",
   "WWL": "2026-10-23T01:43:32Z",
-  "WXOK": "2026-10-22T01:42:41Z",
+  "WXOK": "2026-10-23T15:51:47Z",
   "WYLD": "2026-10-23T01:43:32Z",
-  "WYNK": "2026-10-22T01:42:41Z"
+  "WYNK": "2026-10-23T15:51:47Z"
  }
 }
