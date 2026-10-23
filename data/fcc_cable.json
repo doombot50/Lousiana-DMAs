@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-22T15:58:45Z",
+ "scraped": "2026-10-23T01:43:32Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-10-22T01:41:01Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -3021,7 +3021,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-10-22T01:41:01Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -52574,7 +52574,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -53871,7 +53871,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -53949,6 +53949,15 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "87852d44-84df-a461-e263-19c55dddda0a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "63397012.10007257_NAB_20261022015414534",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T16:05:47-04:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "4e0a0052-d198-203d-457d-a6006fec67c9",
+     "file_manager_id": "2cd908ab-4311-41ba-9d68-ed45c76501b9"
+    },
     {
      "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
      "name": "1322823_Order_Contract_20261015094620677",
@@ -103494,7 +103503,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -103524,6 +103533,7 @@
     "Political Files/2026/Local/JOHN YOUNG": "b9937436-d308-e180-6893-493ace14e2a4",
     "Political Files/2026/Local/JOSEPH CAO": "d135b7e9-18a3-ec55-a051-684138e107ce",
     "Political Files/2026/Local/Joe McMahon for Judge": "95b7a31a-961c-53b2-9902-25a3f9973662",
+    "Political Files/2026/Local/John F Lee": "054b64c8-1cd8-51fa-3cab-cf7c5fb84d2a",
     "Political Files/2026/Local/Mike Marsiglia for Parish Judge": "dee348c8-0174-d696-97be-517afeea54e7",
     "Political Files/2026/Local/Scott Illing for Sheriff": "6b5dac1c-2ecb-a51d-bea9-5e5d972b256f",
     "Political Files/2026/Non-Candidate Issue Ads": "4cb42a4f-4c0c-1e40-0c54-a7e0509092b1",
@@ -103540,6 +103550,24 @@
     "Political Files/2026/Non-Candidate Issue Ads/NEW HORIZONS USA PAC": "411d1ae6-a4bd-7b88-6e5a-feab3378e908"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/John F Lee",
+     "name": "JOHN F LEE_confirm1326021_sys1758_sys0222_20261016_150006",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T11:10:22-04:00",
+     "folder_id": "054b64c8-1cd8-51fa-3cab-cf7c5fb84d2a",
+     "file_id": "1e468af5-e1a6-9f59-36d1-57a04eb1760f",
+     "file_manager_id": "fdca8184-e57c-490d-8cf2-49e60e4a9de8"
+    },
+    {
+     "path": "Political Files/2026/Local/Comm to Elect Candace Newell",
+     "name": "COMM TO ELECT CANDACE NEWELL_NAB_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T13:32:14-04:00",
+     "folder_id": "415e8b88-794a-e501-0686-a9dd3c579ec2",
+     "file_id": "1379e261-bb94-4d35-9ee3-1dfec7e0cbfd",
+     "file_manager_id": "3aa7348c-770b-46d1-aa32-d89128388cff"
+    },
     {
      "path": "Political Files/2026/Local/Comm to Elect Candace Newell",
      "name": "COMM TO ELECT CANDACE NEWELL_confirm1330186_sys0222_20261020_151626",
@@ -105412,7 +105440,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -105440,7 +105468,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -105562,7 +105590,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -105590,7 +105618,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -163431,7 +163459,7 @@
    "facility_id": "003376",
    "root_folder": "35696673-0532-826d-bbd0-fd86dd2fc8bd",
    "profile": "cable-profile/003376",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "43b2d375-2eeb-32fd-0adf-25a7ca6e7956",
     "2015": "8c65513f-be4f-13b9-657c-c93558ac377b",
@@ -163459,7 +163487,7 @@
    "facility_id": "004383",
    "root_folder": "079ce57f-f911-f7ec-3041-e2933f22bc71",
    "profile": "cable-profile/004383",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "423b6c9d-5251-407a-adc3-ad4dff61186f",
     "2015": "634829d0-474e-9216-6ee8-101cfd127bee",
@@ -163487,7 +163515,7 @@
    "facility_id": "008567",
    "root_folder": "e9d841d0-c257-facd-08d6-92308ea4f926",
    "profile": "cable-profile/008567",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "e3586980-e355-8b41-38c3-6ae23c953c37",
     "2015": "65efd0da-acfc-ff5a-a285-8376c2401386",
@@ -163516,6 +163544,96 @@
     "Political Files/2026/Non-Candidate Issue Ads/CONSERVATIVES FOR BETTER TOMORROW": "824f30ac-280c-92a9-833c-8870a8034b53"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726800_NAB_Form_20260929031418",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:43-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "c9b21693-5a57-0552-6f15-01a7f2b513c8",
+     "file_manager_id": "24ee6798-8ac1-4214-848f-086601d925d9"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726800_Order_Contract_20260929031411",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:43-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "7bf5695c-b7d5-86a0-f163-b47ea201e1b5",
+     "file_manager_id": "14761cd5-9177-4b00-bc92-ebb966ee9557"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726797_Order_Contract_20260929031155",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:42-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "96a64e11-e202-92df-773f-b5a511455a67",
+     "file_manager_id": "1b7c4e9a-7430-4704-a399-018b3d328aad"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726798_NAB_Form_20260929031246",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:42-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "435ccfe1-8307-a424-2915-9b2562bc5aa9",
+     "file_manager_id": "f72f890d-f718-4126-a423-8b493a99bd62"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726798_Order_Contract_20260929031238",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:42-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "92162978-dc40-0c35-4588-9791bae3a4ce",
+     "file_manager_id": "eb23be77-694f-4162-afaa-45579945c66c"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726799_NAB_Form_20260929031333",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:42-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "c9771823-dff7-82b2-f503-fbb236e8f111",
+     "file_manager_id": "766cee86-ab8c-4bee-939f-1c074f790d65"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726799_Order_Contract_20260929031327",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:42-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "a97f1ba6-a682-5c2c-8573-7169cd9aafe0",
+     "file_manager_id": "fb5beda5-39a1-4cee-a1f8-e8bb19b7d9e3"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726800_Invoice_20261017083517",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:42-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "3b3186b1-673b-53cc-f70a-3fc5a76d5799",
+     "file_manager_id": "c7074352-a928-4a41-98f3-82a067ec16c9"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726796_NAB_Form_20260929031020",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:41-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "497dfda5-6a82-15cd-517a-600f0969cdc7",
+     "file_manager_id": "fe8c1687-dac6-4ff5-8118-2081a36f0766"
+    },
+    {
+     "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
+     "name": "726797_NAB_Form_20260929031200",
+     "ext": "pdf",
+     "uploaded": "2026-10-21T15:28:41-04:00",
+     "folder_id": "dd012622-e1ba-fea4-e9f5-352ccb73d7db",
+     "file_id": "650cf349-1c02-2039-c534-d78b41464942",
+     "file_manager_id": "fcdbfa6a-bead-4e80-9d94-4cd5f21c107f"
+    },
     {
      "path": "Political Files/2026/Local/JOHN ATKINS CAMPAIGN",
      "name": "JOHN ATKINS CAMPAIGN_order4601265",
@@ -164578,7 +164696,7 @@
    "facility_id": "022352",
    "root_folder": "e690a879-3fcc-1cfc-0fff-d8487d6bb612",
    "profile": "cable-profile/022352",
-   "scraped_at": "2026-10-21T16:02:27Z",
+   "scraped_at": "2026-10-23T01:41:45Z",
    "year_folders": {
     "2014": "926e4127-94ee-dea9-3a6e-0c503c9c31f8",
     "2015": "6a44a346-37c7-9c0d-a7fd-f6df8d97724b",
@@ -164607,27 +164725,27 @@
  "blocked": null,
  "attempted": {
   "002247": "2026-10-22T15:57:15Z",
-  "002460": "2026-10-22T01:41:01Z",
+  "002460": "2026-10-23T01:41:45Z",
   "003002": "2026-10-22T15:57:15Z",
   "003084": "2026-10-22T15:57:15Z",
-  "003376": "2026-10-21T16:02:27Z",
+  "003376": "2026-10-23T01:41:45Z",
   "003478": "2026-10-22T01:41:01Z",
-  "003680": "2026-10-21T16:02:27Z",
+  "003680": "2026-10-23T01:41:45Z",
   "004289": "2026-10-22T01:41:01Z",
   "004321": "2026-10-22T15:57:15Z",
-  "004383": "2026-10-21T16:02:27Z",
-  "005142": "2026-10-21T16:02:27Z",
+  "004383": "2026-10-23T01:41:45Z",
+  "005142": "2026-10-23T01:41:45Z",
   "005143": "2026-10-22T01:41:01Z",
-  "005341": "2026-10-21T16:02:27Z",
-  "006379": "2026-10-21T16:02:27Z",
+  "005341": "2026-10-23T01:41:45Z",
+  "006379": "2026-10-23T01:41:45Z",
   "007033": "2026-10-22T01:41:01Z",
   "007036": "2026-10-22T01:41:01Z",
-  "007052": "2026-10-21T16:02:27Z",
-  "008048": "2026-10-22T01:41:01Z",
+  "007052": "2026-10-23T01:41:45Z",
+  "008048": "2026-10-23T01:41:45Z",
   "008273": "2026-10-22T01:41:01Z",
   "008277": "2026-10-22T01:41:01Z",
-  "008564": "2026-10-21T16:02:27Z",
-  "008567": "2026-10-21T16:02:27Z",
+  "008564": "2026-10-23T01:41:45Z",
+  "008567": "2026-10-23T01:41:45Z",
   "008691": "2026-10-22T15:57:15Z",
   "008858": "2026-10-22T01:41:01Z",
   "008859": "2026-10-22T15:57:15Z",
@@ -164637,11 +164755,11 @@
   "013331": "2026-10-22T15:57:15Z",
   "014241": "2026-10-22T15:57:15Z",
   "015650": "2026-10-22T15:57:15Z",
-  "016728": "2026-10-21T16:02:27Z",
+  "016728": "2026-10-23T01:41:45Z",
   "020573": "2026-10-22T15:57:15Z",
   "021784": "2026-10-22T15:57:15Z",
   "022095": "2026-10-22T01:41:01Z",
-  "022352": "2026-10-21T16:02:27Z",
+  "022352": "2026-10-23T01:41:45Z",
   "022377": "2026-10-22T15:57:15Z"
  }
 }
