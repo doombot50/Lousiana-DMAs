@@ -59,6 +59,12 @@ OCR_PAGES = 2         # a scan is read from its first and last pages this many e
 OCR_SECONDS = 90      # per document: a poster-sized scan page can take tesseract many minutes
 DOC_SECONDS = 240     # per document, everything included: past this it is abandoned
 
+# A stall or a failed download may not happen twice: such a document is read
+# once more, at least RETRY_DAYS later, a few a night ahead of the new ones.
+RETRY = ('too_slow', 'failed')
+RETRY_DAYS = 2
+RETRY_PER_RUN = 10
+
 
 class DocTimeout(Exception):
     """A document still unread after DOC_SECONDS, whatever it was stuck in."""
@@ -193,6 +199,12 @@ def read_one(get, f):
     return dict(parse(text), status='read', via=how), text
 
 
+def retry_due(d, cutoff):
+    """Whether a document that stalled or failed, last tried before `cutoff`
+    (a date), is due its one more try."""
+    return d.get('status') in RETRY and d.get('tries', 1) < 2 and (d.get('read_at') or '')[:10] <= cutoff
+
+
 def text_path(cache, did):
     return os.path.join(cache, did[:2], did + '.txt.gz')
 
@@ -250,7 +262,14 @@ def main():
         n = reparse(docs, args.text_cache)
         if n:
             print(f'Re-read {n:,} documents from the text cache with the current parser')
-    queue = candidates(listing, args.media, set() if args.sample else set(docs))
+    cutoff = time.strftime('%Y-%m-%d', time.gmtime(time.time() - RETRY_DAYS * 86400))
+    due = set() if args.sample else {did for did, d in docs.items() if retry_due(d, cutoff)}
+    queue = candidates(listing, args.media, set() if args.sample else set(docs) - due)
+    if due:
+        again = [q for q in queue if doc_id(q[1]) in due][:RETRY_PER_RUN]
+        queue = again + [q for q in queue if doc_id(q[1]) not in due]
+        if again:
+            print(f'Trying {len(again)} of {len(due)} stalled or failed documents again')
 
     if args.sample:
         # One of each kind per station, round-robin, so the sample covers
@@ -339,13 +358,17 @@ def main():
             # Recorded, so it doesn't take a slot every night.
             res = {'status': 'too_slow'}
         except (RuntimeError, subprocess.SubprocessError, OSError) as e:
+            # Recorded too (an HTTP 401 was retried every night), and tried
+            # once more later.
             print(f'  {call} {f["name"]}: {e}', flush=True)
-            continue
+            res = {'status': 'failed', 'error': str(e)[-200:]}
         finally:
             signal.alarm(0)
         if isinstance(res, tuple):
             res, text = res
             keep_text(args.text_cache, doc_id(f), text)
+        if doc_id(f) in docs:
+            res['tries'] = docs[doc_id(f)].get('tries', 1) + 1
         res.update({'media': args.media, 'call': call, 'path': f['path'], 'name': f['name'],
                     'uploaded': f['uploaded'], 'name_kind': kind, 'read_at': now})
         docs[doc_id(f)] = res

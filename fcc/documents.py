@@ -51,7 +51,10 @@ def amount(s):
 
 # A totals row: "Totals  4  $2,900.00  $2,465.00", "Totals  13  $3,330.00  ($499.50)  $2,830.50".
 # The spot count comes first; amounts follow. OCR sometimes slips a rating in.
-TOTALS_ROW = re.compile(r'^\s*Totals?\b[ \t:]+((?:[ \t]*(?:\(?\$?[\d,]+(?:\.\d{2})?\)?|[\d.]+))+)[ \t]*$', re.I | re.M)
+# Each number is one whitespace-free run (AMT splits "$2,900.00($499.50)"
+# later): a pattern that could split a run of digits several ways took
+# minutes to give up on a scanned "Totals 1111111111111111 ..." line.
+TOTALS_ROW = re.compile(r'^\s*Totals?\b[ \t:]+([(\$\d][\d,.$()]*(?:[ \t]+[(\$\d][\d,.$()]*)*)[ \t]*$', re.I | re.M)
 GROSS_TOTAL = re.compile(r'(?:Gross\s+Total|Total\s+Gross(?:\s+Amount)?|Grand\s+Total)\s*:?\s+(?:\d{1,5}\s+)?(' + AMT + ')', re.I)
 NET_TOTAL = re.compile(r'(?:Net\s+Amount\s+Due|Net\s+Total|Total\s+Net(?:\s+Amount)?)\s*:?\s+(' + AMT + ')', re.I)
 
@@ -132,7 +135,7 @@ NOT_NAME = re.compile(r'^(?:attention|attn|p\.?\s?o\.?\s+box|\d|address|contact|
 PARTY_MARK = re.compile(r'/\s*[DRIL]\s*/|\(\s*[DRIL]\s*\)')
 # Short words a name may end in; any other trailing token of one or two
 # letters is OCR debris ("FlexPoint Media t", "Media Ad Ventures, Inc Ht").
-SHORT_OK = {'LA', 'TV', 'US', 'II', 'IV', 'CO', 'JR', 'SR', 'PR', 'AD', 'MS', 'TX'}
+SHORT_OK = {'LA', 'TV', 'US', 'II', 'IV', 'CO', 'JR', 'SR', 'PR', 'AD', 'MS', 'TX', 'DA'}
 
 
 def clean(name):
@@ -148,7 +151,9 @@ def clean(name):
     # non-ASCII character ("Crossroads Media LLC H£").
     s = re.sub(r'(?:\s+(?=\S{0,3}(?:\s|$))\S*[^A-Za-z0-9\s.,&\'-]\S*)+$', '', s).strip(' .,:;-/')
     # A phone number or code run onto the name ("Arsement Media Group 501-9900").
-    s = re.sub(r'(?:\s+\(?\d[\d\s().-]{3,}\d)+$', '', s).strip(' .,:;-/')
+    # One run to the end (spaces are single by now): a repeated group here
+    # took minutes to give up on a long OCR'd row of digits.
+    s = re.sub(r' \(?\d[\d ().-]{3,}\d$', '', s).strip(' .,:;-/')
     while True:
         m = re.search(r'\s+([A-Za-z]{1,2})$', s)
         if not m or m.group(1).upper() in SHORT_OK:
@@ -170,6 +175,14 @@ def same_party(a, b):
 
 def layout(text):
     head = text[:4000]
+    # Radio's sales systems: iHeartMedia's order confirmations, WAVSTAR's
+    # sales orders, and the Monroe stations' on-air schedules.
+    if re.search(r'Order\s+Confirmation', head) and re.search(r'Ordered\s+Gross', text):
+        return 'iheart'
+    if re.search(r'WAVSTAR', head) and re.search(r'Sales\s+Order', head):
+        return 'wavstar'
+    if re.search(r'On-Air\s+Schedule', head, re.I) and re.search(r'Total\s+Charges', text, re.I):
+        return 'schedule'
     if re.search(r'agreement\s+form|PB-?1[6-9]\b|request(?:s|ing)?\s+station\s+time', head, re.I):
         return 'nab'
     if re.search(r'\bINVOICE\b', head) and re.search(r'Invoice\s*#', head):
@@ -185,7 +198,49 @@ def layout(text):
     return 'other'
 
 
-KIND = {'nab': 'request', 'invoice': 'invoice', 'contract': 'order', 'order': 'order', 'other': 'other'}
+KIND = {'nab': 'request', 'invoice': 'invoice', 'contract': 'order', 'order': 'order', 'other': 'other',
+        'iheart': 'order', 'wavstar': 'order', 'schedule': 'order'}
+
+# iHeartMedia's national rep firm, and its mark for a candidate who bought
+# direct: neither is an agency.
+NOT_AGENCY = re.compile(r'^(?:KATZ\b|Political\s+Candidate|Direct\b|No\b)', re.I)
+
+
+def radio_totals(text, lay):
+    """(gross, net) as radio's sales systems print them."""
+    money = lambda pat: [v for v in (amount(m) for m in re.findall(pat, text, re.I)) if v is not None]
+    if lay == 'iheart':
+        g, n = money(r'Ordered\s+Gross:\s+(' + AMT + ')'), money(r'Ordered\s+Net:\s+(' + AMT + ')')
+        return (max(g) if g else None), (max(n) if n else None)
+    if lay == 'wavstar':
+        g = [v for v in (amount(m) for m in re.findall(r'^\s*Total:\s+(\$\s?[\d,]+\.\d{2})', text, re.M))
+             if v is not None]
+        return (max(g) if g else None), None
+    orders = schedule_orders(text)
+    mine = [o for o in orders if o['client'] == orders[0]['client']]
+    g = [o['gross'] for o in mine if o['gross'] is not None]
+    n = [o['net'] for o in mine if o['net'] is not None]
+    return (sum(g) if g else None), (sum(n) if n and len(n) == len(mine) else None)
+
+
+def schedule_orders(text):
+    """The orders in an on-air schedule file, in order: one file can hold
+    several, for more than one client ("AlvinSharpKMLBorders" holds a DA
+    candidate's too). Each ends with its charges, then a billing-totals line
+    naming its client, then the station's and the buyer's acceptance."""
+    out = []
+    for m in re.finditer(r'Total\s+Charges:\s+(' + AMT + ')', text, re.I):
+        rest = text[m.end():]
+        nxt = re.search(r'Total\s+Charges:', rest, re.I)
+        rest = rest[:nxt.start()] if nxt else rest
+        net = re.search(r'Total\s+Net:\s+(' + AMT + ')', rest, re.I)
+        who = re.search(r'Billing\s+Totals\s+for\s+(.+?)\s*/', rest, re.I)
+        by = [a for a in re.findall(r'(?<!Confirmed & )Accepted\s+for\s+(.+?)\s+By:', rest)
+              if not re.match(r'[KW][A-Z]{2,3}\b', a)]
+        out.append({'gross': amount(m.group(1)), 'net': amount(net.group(1)) if net else None,
+                    'client': clean(who.group(1)) if who else None, 'by': clean(by[0]) if by else None})
+    return out
+
 
 
 def search(pattern, text, flags=re.I | re.M):
@@ -194,6 +249,22 @@ def search(pattern, text, flags=re.I | re.M):
 
 
 def _agency_of(text, lay, advertiser):
+    if lay == 'iheart':
+        a = search(r'^\s*Agency:\s+(.+?)(?:\s{3,}|$)', text)
+        if not a and advertiser:
+            # The bill-to block: the advertiser, then the agency beneath it.
+            m = re.search(r'^[ \t]{0,40}' + re.escape(advertiser[:20]), text, re.M)
+            a = next_line(text, m.start(), left=40) if m else None
+        a = clean(a)
+        return None if not a or NOT_AGENCY.match(a) else a
+    if lay == 'wavstar':
+        a = search(r'Agency:[ \t]+(.+?)(?:\s{3,}|$)', text)
+        return None if not a or NOT_AGENCY.match(a) else clean(a)
+    if lay == 'schedule':
+        # The buyer that signs for the first client's order: an agency, or
+        # the client itself (then agency_of finds it the same party).
+        orders = schedule_orders(text)
+        return orders[0]['by'] if orders else None
     if lay == 'order':
         a = search(r'^\s*Agency\s+Name:\s*(.+?)(?:\s{3,}|$)', text)
         if a:
@@ -237,6 +308,19 @@ def agency_of(text, lay, advertiser):
 
 
 def advertiser_of(text, lay):
+    if lay == 'iheart':
+        a = search(r'^\s*Advertiser:\s+(.+?)(?:\s{3,}|$)', text)
+        if not a:
+            # The first line of the bill-to block, at the left margin.
+            m = re.search(r'^[ \t]*Entered:', text, re.M)
+            a = next_line(text, m.start(), left=40) if m else None
+        return clean(a)
+    if lay == 'wavstar':
+        return clean(search(r'Advertiser:[ \t]+(.+?)(?:\s{3,}|$)', text))
+    if lay == 'schedule':
+        orders = schedule_orders(text)
+        return (orders[0]['client'] if orders and orders[0]['client']
+                else clean(search(r'Client:[ \t]+(.+?)(?:\s{3,}|$)', text)))
     if lay == 'order':
         return clean(search(r'^\s*Advertiser\s+Name:\s*(.+?)(?:\s{3,}|\s+Order Brand|$)', text))
     if lay == 'contract':
@@ -257,6 +341,13 @@ def advertiser_of(text, lay):
 
 
 def order_no_of(text, lay):
+    if lay == 'iheart':
+        return search(r'Order\s+No:\s+(\d{6,12})', text)
+    if lay == 'wavstar':
+        return search(r'Contract\s+ID:\s+([A-Z]?\d{5,10})', text)
+    if lay == 'schedule':
+        nos = set(re.findall(r'Order\s*#:\s+(\d{4,6}-\d{4,6})', text))
+        return nos.pop() if len(nos) == 1 else None
     if lay == 'order':
         return search(r'Order\s*/\s*Rev:?\s*(\d{4,10})', text)
     if lay == 'contract':
@@ -275,7 +366,10 @@ def parse(text):
     number and the invoice number. Fields it can't find are None."""
     lay = layout(text)
     adv = advertiser_of(text, lay)
-    gross, net = totals(text) if lay != 'nab' else (None, None)
+    if lay in ('iheart', 'wavstar', 'schedule'):
+        gross, net = radio_totals(text, lay)
+    else:
+        gross, net = totals(text) if lay != 'nab' else (None, None)
     fl = re.search(r'(?:Flight\s+Dates|Contract\s+Dates|Order\s+Flight)[: \t]*(?:\n\s*)?(\d\d/\d\d/\d\d)\s*-\s*(\d\d/\d\d/\d\d)', text, re.I)
     return {
         'kind': KIND[lay], 'layout': lay,

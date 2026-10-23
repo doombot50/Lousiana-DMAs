@@ -97,6 +97,11 @@ def booked(rs, docs):
         # Cable systems file one order in every system of a sales market:
         # one file name is one order.
         where = ('name', r['fname']) if r['m'] in ('cable', 'dbs') else r['call']
+        # A radio group's order can cover several of its stations (iHeart's
+        # one order for WYNK and KRVE) and is filed at each: its number,
+        # unique across the group, is the order.
+        if r['m'] == 'radio' and d.get('order_no'):
+            where = 'radio'
         key = (where, d.get('order_no') or r['id'])
         if d['kind'] == 'order':
             if key not in orders or r['up'] > orders[key][0]:

@@ -379,17 +379,22 @@ python3 build_agency_spend.py                  # data/agencies.json
   read as is kept in `data/fcc_documents.json`. `fcc/documents.py` reads each
   sales system's layout by where its labels sit: WideOrbit orders (the bill
   plan's `Totals` row), WideOrbit contracts (the buyer is the party under
-  "And:"), WideOrbit and Nexstar invoices (who is billed), KLAX's contracts and
-  the NAB request forms (agency only). About two in five documents are
+  "And:"), WideOrbit and Nexstar invoices (who is billed), KLAX's contracts,
+  the NAB request forms (agency only), and radio's iHeartMedia order
+  confirmations, WAVSTAR sales orders and the Monroe stations' on-air
+  schedules. About two in five documents are
   scans; those are OCR'd with tesseract. Every layout is tested on a real
   document's text in `tests/documents/`; a field that can't be found is left
   empty, never guessed.
-- **Light on the FCC.** A night reads 40 TV documents (80 in the last 30
-  days before an election, 120 in the last 10), newest orders first, plus 15
-  radio and 15 cable. The extracted text is kept in the Actions cache, so a
+- **Light on the FCC.** A night reads up to 40 TV documents (80 in the last
+  30 days before an election, 120 in the last 10) in 22 minutes, newest
+  orders first, plus up to 100 radio and 60 cable, which are mostly text and
+  quick. A document that stalls or fails to download is tried once more two
+  days on, ten a night. The extracted text is kept in the Actions cache, so a
   parser fix re-reads everything without another download.
 - **Counting dollars.** An order's revisions restate the whole order, so each
-  station order number counts once, at its latest revision. An invoice bills
+  station order number counts once, at its latest revision (a radio group's
+  order, filed at each of its stations it covers, once in all). An invoice bills
   part of an order, so invoices count only for an order whose own document
   hasn't been read, and a reissued invoice never twice. Amounts are gross,
   before agency commission. Until every document is read the figures are a
