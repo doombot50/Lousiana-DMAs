@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-24",
- "data_through": "2026-10-22",
+ "data_through": "2026-10-23",
  "cycle_from": 2023,
- "documents_read": 1316,
+ "documents_read": 1524,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -14,16 +14,17 @@
    "name": "People Who Think / Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 5,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "005142",
      "008048"
     ],
     "clients": [
      "Accountability Project, Inc"
     ],
-    "first": "2026-07-28",
+    "first": "2026-06-22",
     "last": "2026-07-28",
     "away": {
      "docs": 0,
@@ -169,17 +170,23 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
-    "priced": 5,
-    "usd": 56640,
+    "docs": 13,
+    "priced": 6,
+    "usd": 95615,
     "stations": [
      "008048",
-     "WDSU"
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WVUE",
+     "WWL-TV"
     ],
     "clients": [
      "Protect St. Tammany's Future",
+     "Brad Cascio for District Attorney",
      "Echols/R/22 Jud District Court - DivE",
      "Burris/R/LA Supreme Court Dist 1",
+     "Echols for Judge",
      "Ellie Schroder Campaign",
      "Schroder/R/BESE Dist 1"
     ],
@@ -393,15 +400,16 @@
    "name": "Total Video Placements",
    "found_by": "political file",
    "fcc": {
-    "docs": 53,
-    "priced": 50,
-    "usd": 1678475,
+    "docs": 58,
+    "priced": 53,
+    "usd": 1729225,
     "stations": [
      "008048",
      "KPXJ",
      "KTBS",
      "WDSU",
-     "WJBO"
+     "WJBO",
+     "WRNO"
     ],
     "clients": [
      "Louisiana Freedom Fund",
@@ -449,26 +457,28 @@
    "name": "Ax Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 7,
+    "docs": 8,
     "priced": 7,
     "usd": 62778,
     "stations": [
+     "KLFY",
      "KSLA",
      "KTBS",
      "WDSU"
     ],
     "clients": [
-     "Downing/R/LA State Supreme Court Dist 1"
+     "Downing/R/LA State Supreme Court Dist 1",
+     "The Kristian Earles Campaign"
     ],
     "first": "2026-01-23",
     "last": "2026-10-23",
     "away": {
-     "docs": 13,
+     "docs": 16,
      "usd": 174755,
      "clients": [
       "Chris Spencer Campaign",
+      "Ken Paxton For Senate",
       "Ken Paxton Victory Fund-Senate",
-      "Ken Paxton for Senate",
       "encer Campalgn"
      ]
     }
@@ -688,7 +698,7 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 16,
+    "docs": 17,
     "priced": 11,
     "usd": 200705,
     "stations": [
@@ -785,12 +795,14 @@
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 15,
-    "priced": 13,
-    "usd": 109960,
+    "docs": 20,
+    "priced": 15,
+    "usd": 144715,
     "stations": [
      "004321",
-     "WDSU"
+     "KLFY",
+     "WDSU",
+     "WVUE"
     ],
     "clients": [
      "Lindsay/D/Orleans Parish Civil District Judge",
@@ -798,10 +810,13 @@
      "Marsiglia/R/JP Court Judge, Div",
      "Stagni/R/Kenner Council At-Large Div",
      "Friends to Elect Bart Hebert, LLC",
-     "Campaign to Elect Will Keaty"
+     "Campaign to Elect Will Keaty",
+     "Marsiglia for Judge",
+     "The Committee to Elect Emilia Pardo",
+     "Buras for Judge"
     ],
     "first": "2026-04-24",
-    "last": "2026-10-22",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1115,58 +1130,33 @@
    }
   },
   {
-   "key": "TECHNICOLORPOLITICAL",
-   "name": "Technicolor Political",
-   "found_by": "filings",
-   "paid": {
-    "total": 500474,
-    "media": 495449,
-    "rows": 6,
-    "media_cycle": 495449,
-    "cycle": 500474,
-    "years": {
-     "2025": 500474
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 500474,
-      "cycle": 500474
-     }
-    ],
-    "spellings": [
-     "TECHNICOLOR POLITICAL"
-    ]
-   }
-  },
-  {
    "key": "MEDIAADVENTURES",
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 32,
-    "priced": 29,
-    "usd": 483295,
+    "docs": 36,
+    "priced": 32,
+    "usd": 495700,
     "stations": [
      "005341",
      "KARD",
      "KPXJ",
+     "KSLA",
      "KTBS",
      "KTVE",
-     "WDSU"
+     "WDSU",
+     "WVUE"
     ],
     "clients": [
      "Mike Johnson for Louisiana",
      "Scalise/R/Congress",
+     "Mike Echols/US Congress/LA/Rep",
      "Mike Johnson for Loulslana",
      "Mike Johnson for Loulsiana",
-     "Mike Echols/US Congress/LA/Rep",
      "Mike Johnson for Louistana",
      "Mike Johnson for Louislana",
      "Mike Johnson for Loulstana",
+     "Echols for LA State Congress",
      "Scalise for Congress"
     ],
     "first": "2026-04-20",
@@ -1198,6 +1188,34 @@
     ],
     "spellings": [
      "MEDIA AD VENTURES"
+    ]
+   }
+  },
+  {
+   "key": "TECHNICOLORPOLITICAL",
+   "name": "Technicolor Political",
+   "found_by": "filings",
+   "paid": {
+    "total": 500474,
+    "media": 495449,
+    "rows": 6,
+    "media_cycle": 495449,
+    "cycle": 500474,
+    "years": {
+     "2025": 500474
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 500474,
+      "cycle": 500474
+     }
+    ],
+    "spellings": [
+     "TECHNICOLOR POLITICAL"
     ]
    }
   },
@@ -1234,11 +1252,11 @@
    "name": "Go Big Media",
    "found_by": "filings",
    "paid": {
-    "total": 5145492,
+    "total": 5145537,
     "media": 670006,
-    "rows": 496,
+    "rows": 497,
     "media_cycle": 405205,
-    "cycle": 2454712,
+    "cycle": 2454757,
     "years": {
      "2015": 303179,
      "2016": 81671,
@@ -1250,7 +1268,7 @@
      "2022": 125624,
      "2023": 2316685,
      "2024": 50,
-     "2025": 55369,
+     "2025": 55414,
      "2026": 82608
     },
     "committees": 50,
@@ -1329,8 +1347,8 @@
       "f": "4495",
       "n": "Kevin M. Berken",
       "p": "REP",
-      "usd": 31711,
-      "cycle": 31711
+      "usd": 31756,
+      "cycle": 31756
      },
      {
       "f": "2223",
@@ -1376,10 +1394,13 @@
    "name": "Kingfish Communications",
    "found_by": "political file",
    "fcc": {
-    "docs": 31,
+    "docs": 35,
     "priced": 22,
     "usd": 295220,
     "stations": [
+     "003680",
+     "005142",
+     "008048",
      "KALB",
      "KLAX",
      "KPLC",
@@ -1548,6 +1569,187 @@
    }
   },
   {
+   "key": "BUISSONCREATIVESTRATEGIES",
+   "name": "Buisson Creative Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 15,
+    "priced": 15,
+    "usd": 146885,
+    "stations": [
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Young/R/LA Public Service Commissioner Dist 1",
+     "McMahon/R/JP 24th JDC Judge",
+     "Brocato/R/JP 1st Court Div",
+     "Raines for Judge",
+     "Raines/R/JP First Parish Court Div",
+     "Brocato for Judge",
+     "McMahon for Judge"
+    ],
+    "first": "2026-04-30",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 9899638,
+    "media": 2341188,
+    "rows": 2820,
+    "media_cycle": 148430,
+    "cycle": 1524983,
+    "years": {
+     "2000": 22813,
+     "2001": 24656,
+     "2002": 121134,
+     "2003": 588031,
+     "2004": 31830,
+     "2005": 36342,
+     "2006": 181515,
+     "2007": 703479,
+     "2009": 326450,
+     "2010": 495059,
+     "2011": 855679,
+     "2012": 252172,
+     "2013": 62021,
+     "2014": 850576,
+     "2015": 838177,
+     "2016": 104165,
+     "2017": 185244,
+     "2018": 404986,
+     "2019": 1009204,
+     "2020": 768704,
+     "2021": 307075,
+     "2022": 205344,
+     "2023": 936326,
+     "2024": 391979,
+     "2025": 56112,
+     "2026": 140567
+    },
+    "committees": 178,
+    "top": [
+     {
+      "f": "5061",
+      "n": "Vincent F. Wynne, Jr.",
+      "p": "REP",
+      "usd": 276167,
+      "cycle": 224402
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 798083,
+      "cycle": 180977
+     },
+     {
+      "f": "1796",
+      "n": "Arita Bohannan",
+      "p": "REP",
+      "usd": 385645,
+      "cycle": 132544
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 239636,
+      "cycle": 113866
+     },
+     {
+      "f": "4485",
+      "n": "Mandie Landry",
+      "p": "DEM",
+      "usd": 72621,
+      "cycle": 72621
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 158414,
+      "cycle": 70264
+     },
+     {
+      "f": "6500",
+      "n": "Julie Quinn",
+      "p": "REP",
+      "usd": 87504,
+      "cycle": 69562
+     },
+     {
+      "f": "1374",
+      "n": "Hans J. Liljeberg",
+      "p": "REP",
+      "usd": 51537,
+      "cycle": 51537
+     },
+     {
+      "f": "6352",
+      "n": "Lindsey Valenti",
+      "p": "REP",
+      "usd": 48037,
+      "cycle": 48037
+     },
+     {
+      "f": "3731",
+      "n": "Stephanie Hilferty",
+      "p": "REP",
+      "usd": 102941,
+      "cycle": 42973
+     },
+     {
+      "f": "2797",
+      "n": "Michael Glaser",
+      "p": "REP",
+      "usd": 70674,
+      "cycle": 40850
+     },
+     {
+      "f": "6177",
+      "n": "Vincent E. Cox III",
+      "p": "REP",
+      "usd": 40231,
+      "cycle": 40231
+     },
+     {
+      "f": "3409",
+      "n": "Jerry Turlich",
+      "p": "REP",
+      "usd": 84434,
+      "cycle": 39533
+     },
+     {
+      "f": "1373",
+      "n": "John F. Young, Jr.",
+      "p": "REP",
+      "usd": 31405,
+      "cycle": 30655
+     },
+     {
+      "f": "41",
+      "n": "Marion F. Edwards",
+      "p": "DEM",
+      "usd": 45989,
+      "cycle": 29989
+     }
+    ],
+    "spellings": [
+     "BUISSON CREATIVE STRATEGIES",
+     "BUISSON CREATIVE STRATEGIES, LLC",
+     "BUISSON CREATIVE",
+     "BUISSON CREATIVE STRATEGIES LLC",
+     "BUISSON CREATIVE STRATEGIES, L.L.C.",
+     "BUISSON CREATIVE STRATEGIES L.L.C."
+    ]
+   }
+  },
+  {
    "key": "TRADEDESK",
    "name": "The Trade Desk",
    "found_by": "filings",
@@ -1681,183 +1883,6 @@
    }
   },
   {
-   "key": "BUISSONCREATIVESTRATEGIES",
-   "name": "Buisson Creative Strategies",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 12,
-    "priced": 12,
-    "usd": 120345,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Young/R/LA Public Service Commissioner Dist 1",
-     "McMahon/R/JP 24th JDC Judge",
-     "Brocato/R/JP 1st Court Div",
-     "Raines/R/JP First Parish Court Div"
-    ],
-    "first": "2026-04-30",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 9899563,
-    "media": 2341188,
-    "rows": 2819,
-    "media_cycle": 148430,
-    "cycle": 1524908,
-    "years": {
-     "2000": 22813,
-     "2001": 24656,
-     "2002": 121134,
-     "2003": 588031,
-     "2004": 31830,
-     "2005": 36342,
-     "2006": 181515,
-     "2007": 703479,
-     "2009": 326450,
-     "2010": 495059,
-     "2011": 855679,
-     "2012": 252172,
-     "2013": 62021,
-     "2014": 850576,
-     "2015": 838177,
-     "2016": 104165,
-     "2017": 185244,
-     "2018": 404986,
-     "2019": 1009204,
-     "2020": 768704,
-     "2021": 307075,
-     "2022": 205344,
-     "2023": 936326,
-     "2024": 391979,
-     "2025": 56112,
-     "2026": 140492
-    },
-    "committees": 178,
-    "top": [
-     {
-      "f": "5061",
-      "n": "Vincent F. Wynne, Jr.",
-      "p": "REP",
-      "usd": 276167,
-      "cycle": 224402
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 798083,
-      "cycle": 180977
-     },
-     {
-      "f": "1796",
-      "n": "Arita Bohannan",
-      "p": "REP",
-      "usd": 385645,
-      "cycle": 132544
-     },
-     {
-      "f": "1498",
-      "n": "Ricky Templet",
-      "p": "REP",
-      "usd": 239636,
-      "cycle": 113866
-     },
-     {
-      "f": "4485",
-      "n": "Mandie Landry",
-      "p": "DEM",
-      "usd": 72621,
-      "cycle": 72621
-     },
-     {
-      "f": "2781",
-      "n": "Dominick Impastato",
-      "p": "REP",
-      "usd": 158414,
-      "cycle": 70264
-     },
-     {
-      "f": "6500",
-      "n": "Julie Quinn",
-      "p": "REP",
-      "usd": 87504,
-      "cycle": 69562
-     },
-     {
-      "f": "1374",
-      "n": "Hans J. Liljeberg",
-      "p": "REP",
-      "usd": 51537,
-      "cycle": 51537
-     },
-     {
-      "f": "6352",
-      "n": "Lindsey Valenti",
-      "p": "REP",
-      "usd": 48037,
-      "cycle": 48037
-     },
-     {
-      "f": "3731",
-      "n": "Stephanie Hilferty",
-      "p": "REP",
-      "usd": 102941,
-      "cycle": 42973
-     },
-     {
-      "f": "2797",
-      "n": "Michael Glaser",
-      "p": "REP",
-      "usd": 70674,
-      "cycle": 40850
-     },
-     {
-      "f": "6177",
-      "n": "Vincent E. Cox III",
-      "p": "REP",
-      "usd": 40231,
-      "cycle": 40231
-     },
-     {
-      "f": "3409",
-      "n": "Jerry Turlich",
-      "p": "REP",
-      "usd": 84434,
-      "cycle": 39533
-     },
-     {
-      "f": "1373",
-      "n": "John F. Young, Jr.",
-      "p": "REP",
-      "usd": 31405,
-      "cycle": 30655
-     },
-     {
-      "f": "41",
-      "n": "Marion F. Edwards",
-      "p": "DEM",
-      "usd": 45989,
-      "cycle": 29989
-     }
-    ],
-    "spellings": [
-     "BUISSON CREATIVE STRATEGIES",
-     "BUISSON CREATIVE STRATEGIES, LLC",
-     "BUISSON CREATIVE",
-     "BUISSON CREATIVE STRATEGIES LLC",
-     "BUISSON CREATIVE STRATEGIES, L.L.C.",
-     "BUISSON CREATIVE STRATEGIES L.L.C."
-    ]
-   }
-  },
-  {
    "key": "BRABENDERCOX",
    "name": "Brabender Cox",
    "found_by": "political file",
@@ -1886,6 +1911,164 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "BULLSEYEMEDIA",
+   "name": "Bull's Eye Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 5,
+    "usd": 66432,
+    "stations": [
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "New Horizons USA",
+     "Newell for Judge",
+     "Newell/D/Orl Parish Civil Dist Court, Div"
+    ],
+    "first": "2026-06-09",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 704245,
+    "media": 438635,
+    "rows": 50,
+    "media_cycle": 171020,
+    "cycle": 331992,
+    "years": {
+     "2014": 5130,
+     "2015": 40061,
+     "2017": 72000,
+     "2020": 15780,
+     "2021": 5057,
+     "2022": 234225,
+     "2023": 153020,
+     "2024": 50658,
+     "2025": 82000,
+     "2026": 46314
+    },
+    "committees": 18,
+    "top": [
+     {
+      "f": "5090",
+      "n": "Timothy \"Timmy\" P. Kerner, Jr.",
+      "p": "REP",
+      "usd": 82000,
+      "cycle": 82000
+     },
+     {
+      "f": "4161",
+      "n": "The Voice of the People LLC",
+      "p": "OTH",
+      "usd": 70678,
+      "cycle": 70678
+     },
+     {
+      "f": "5753",
+      "n": "NoLaToya",
+      "p": "OTH",
+      "usd": 298575,
+      "cycle": 68000
+     },
+     {
+      "f": "3847",
+      "n": "New Horizon's USA",
+      "p": "OTH",
+      "usd": 45000,
+      "cycle": 45000
+     },
+     {
+      "f": "5872",
+      "n": "One Hundred Percent",
+      "p": "OTH",
+      "usd": 36000,
+      "cycle": 36000
+     },
+     {
+      "f": "1333",
+      "n": "Melanie Talia",
+      "p": "DEM",
+      "usd": 24000,
+      "cycle": 24000
+     },
+     {
+      "f": "2268",
+      "n": "Gregory Miller",
+      "p": "REP",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "7104",
+      "n": "Wesley K. Elmer",
+      "p": "OTH",
+      "usd": 1314,
+      "cycle": 1314
+     },
+     {
+      "f": "1101",
+      "n": "Tracey Flemings-Davillier",
+      "p": "DEM",
+      "usd": 72000,
+      "cycle": 0
+     },
+     {
+      "f": "1070",
+      "n": "Natalie Robottom",
+      "p": "DEM",
+      "usd": 25061,
+      "cycle": 0
+     },
+     {
+      "f": "1754",
+      "n": "Jude Gravois",
+      "p": "DEM",
+      "usd": 15390,
+      "cycle": 0
+     },
+     {
+      "f": "54",
+      "n": "Michael Waguespack",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 0
+     },
+     {
+      "f": "2825",
+      "n": "Jason Verdigets",
+      "p": "REP",
+      "usd": 5130,
+      "cycle": 0
+     },
+     {
+      "f": "2798",
+      "n": "Michael Sigur",
+      "p": "OTH",
+      "usd": 3650,
+      "cycle": 0
+     },
+     {
+      "f": "1454",
+      "n": "Austin Badon",
+      "p": "DEM",
+      "usd": 3145,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BULL'S EYE MEDIA",
+     "BULLS EYE MEDIA",
+     "BULLSEYE MEDIA"
+    ]
    }
   },
   {
@@ -1941,162 +2124,6 @@
     ],
     "spellings": [
      "CONVERGENCE MEDIA, LLC"
-    ]
-   }
-  },
-  {
-   "key": "BULLSEYEMEDIA",
-   "name": "Bull's Eye Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 4,
-    "priced": 4,
-    "usd": 52612,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "New Horizons USA",
-     "Newell/D/Orl Parish Civil Dist Court, Div"
-    ],
-    "first": "2026-06-09",
-    "last": "2026-10-19",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 702931,
-    "media": 438635,
-    "rows": 49,
-    "media_cycle": 171020,
-    "cycle": 330678,
-    "years": {
-     "2014": 5130,
-     "2015": 40061,
-     "2017": 72000,
-     "2020": 15780,
-     "2021": 5057,
-     "2022": 234225,
-     "2023": 153020,
-     "2024": 50658,
-     "2025": 82000,
-     "2026": 45000
-    },
-    "committees": 17,
-    "top": [
-     {
-      "f": "5090",
-      "n": "Timothy \"Timmy\" P. Kerner, Jr.",
-      "p": "REP",
-      "usd": 82000,
-      "cycle": 82000
-     },
-     {
-      "f": "4161",
-      "n": "The Voice of the People LLC",
-      "p": "OTH",
-      "usd": 70678,
-      "cycle": 70678
-     },
-     {
-      "f": "5753",
-      "n": "NoLaToya",
-      "p": "OTH",
-      "usd": 298575,
-      "cycle": 68000
-     },
-     {
-      "f": "3847",
-      "n": "New Horizon's USA",
-      "p": "OTH",
-      "usd": 45000,
-      "cycle": 45000
-     },
-     {
-      "f": "5872",
-      "n": "One Hundred Percent",
-      "p": "OTH",
-      "usd": 36000,
-      "cycle": 36000
-     },
-     {
-      "f": "1333",
-      "n": "Melanie Talia",
-      "p": "DEM",
-      "usd": 24000,
-      "cycle": 24000
-     },
-     {
-      "f": "2268",
-      "n": "Gregory Miller",
-      "p": "REP",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "1101",
-      "n": "Tracey Flemings-Davillier",
-      "p": "DEM",
-      "usd": 72000,
-      "cycle": 0
-     },
-     {
-      "f": "1070",
-      "n": "Natalie Robottom",
-      "p": "DEM",
-      "usd": 25061,
-      "cycle": 0
-     },
-     {
-      "f": "1754",
-      "n": "Jude Gravois",
-      "p": "DEM",
-      "usd": 15390,
-      "cycle": 0
-     },
-     {
-      "f": "54",
-      "n": "Michael Waguespack",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 0
-     },
-     {
-      "f": "2825",
-      "n": "Jason Verdigets",
-      "p": "REP",
-      "usd": 5130,
-      "cycle": 0
-     },
-     {
-      "f": "2798",
-      "n": "Michael Sigur",
-      "p": "OTH",
-      "usd": 3650,
-      "cycle": 0
-     },
-     {
-      "f": "1454",
-      "n": "Austin Badon",
-      "p": "DEM",
-      "usd": 3145,
-      "cycle": 0
-     },
-     {
-      "f": "5330",
-      "n": "Lynelle Johnson",
-      "p": "REP",
-      "usd": 1912,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BULL'S EYE MEDIA",
-     "BULLS EYE MEDIA",
-     "BULLSEYE MEDIA"
     ]
    }
   },
@@ -3082,11 +3109,13 @@
    "name": "Strategic Media Placement",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 5,
     "priced": 2,
     "usd": 92470,
     "stations": [
+     "003478",
      "008048",
+     "008564",
      "KPXJ",
      "KTBS",
      "WDSU"
@@ -3420,7 +3449,7 @@
    "name": "Medium Buying",
    "found_by": "political file",
    "fcc": {
-    "docs": 16,
+    "docs": 21,
     "priced": 4,
     "usd": 127100,
     "stations": [
@@ -4187,17 +4216,19 @@
    "name": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 5,
     "priced": 0,
     "usd": 0,
     "stations": [
      "KSLA",
+     "WAFB",
      "WBRZ"
     ],
     "clients": [
-     "JAMIE DAVIS FOR U.S. SENATE"
+     "JAMIE DAVIS FOR U.S. SENATE",
+     "Hillar Moore Campaign"
     ],
-    "first": "2026-10-21",
+    "first": "2026-10-19",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -4399,172 +4430,6 @@
      "JAMES HARTMAN & ASSOCIATES LLC",
      "JAMES HARTMAN AND ASSOCIATES LLC",
      "JAMES HARTMAN AND ASSOCIATES, LLC"
-    ]
-   }
-  },
-  {
-   "key": "CAPITALBUSINESSSERVICES",
-   "name": "Capital Business Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 14,
-    "priced": 3,
-    "usd": 10850,
-    "stations": [
-     "KRVE",
-     "WJBO"
-    ],
-    "clients": [
-     "Raise The Bar PAC",
-     "Wendy Edwards for Family Court"
-    ],
-    "first": "2026-04-28",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1833014,
-    "media": 101412,
-    "rows": 534,
-    "media_cycle": 80025,
-    "cycle": 1014407,
-    "years": {
-     "2011": 120349,
-     "2012": 91056,
-     "2013": 32473,
-     "2014": 62406,
-     "2015": 64362,
-     "2016": 31239,
-     "2017": 57816,
-     "2018": 21127,
-     "2019": 88282,
-     "2020": 143014,
-     "2021": 1175,
-     "2022": 105308,
-     "2023": 596930,
-     "2024": 147938,
-     "2025": 115341,
-     "2026": 154198
-    },
-    "committees": 70,
-    "top": [
-     {
-      "f": "4593",
-      "n": "Randall Delatte",
-      "p": "REP",
-      "usd": 142061,
-      "cycle": 142061
-     },
-     {
-      "f": "4443",
-      "n": "Albert C. \"Buddy\" Mincey, Jr.",
-      "p": "OTH",
-      "usd": 136735,
-      "cycle": 136735
-     },
-     {
-      "f": "1475",
-      "n": "Sherman Q. Mack",
-      "p": "REP",
-      "usd": 56323,
-      "cycle": 56323
-     },
-     {
-      "f": "6495",
-      "n": "MATTHEW BELSER",
-      "p": "REP",
-      "usd": 51428,
-      "cycle": 51428
-     },
-     {
-      "f": "4500",
-      "n": "Samuel A. Dowies",
-      "p": "IND",
-      "usd": 104706,
-      "cycle": 49350
-     },
-     {
-      "f": "5304",
-      "n": "Aaron Moak",
-      "p": "REP",
-      "usd": 44443,
-      "cycle": 44443
-     },
-     {
-      "f": "6719",
-      "n": "James Manasseh",
-      "p": "OTH",
-      "usd": 42338,
-      "cycle": 42338
-     },
-     {
-      "f": "4138",
-      "n": "Carson Marcantel",
-      "p": "REP",
-      "usd": 36785,
-      "cycle": 36785
-     },
-     {
-      "f": "6110",
-      "n": "Laurie Marien",
-      "p": "REP",
-      "usd": 36543,
-      "cycle": 36543
-     },
-     {
-      "f": "6267",
-      "n": "Coday Johnston",
-      "p": "REP",
-      "usd": 34748,
-      "cycle": 34748
-     },
-     {
-      "f": "6058",
-      "n": "Ronald Dean Register, Jr",
-      "p": "OTH",
-      "usd": 34344,
-      "cycle": 34344
-     },
-     {
-      "f": "4604",
-      "n": "KELLY BALFOUR",
-      "p": "REP",
-      "usd": 32625,
-      "cycle": 32625
-     },
-     {
-      "f": "5907",
-      "n": "Rex \"Eddie\" Albritton",
-      "p": "OTH",
-      "usd": 34079,
-      "cycle": 31472
-     },
-     {
-      "f": "6157",
-      "n": "Veronica \"Vicky\" Jones",
-      "p": "OTH",
-      "usd": 30831,
-      "cycle": 30831
-     },
-     {
-      "f": "6416",
-      "n": "John Smith",
-      "p": "REP",
-      "usd": 26975,
-      "cycle": 26975
-     }
-    ],
-    "spellings": [
-     "CAPITAL BUSINESS SERVICES, LLC",
-     "CAPITAL BUSINESS SERVICES",
-     "CAPITAL BUSINESS SERVICES LLC",
-     "CAPITAL BUSINESS SERVICE, LLC",
-     "CAPITAL BUSINESS LLC",
-     "CAPITAL BUSINESS SERVICES, L.L.C."
     ]
    }
   },
@@ -4875,6 +4740,168 @@
    }
   },
   {
+   "key": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+   "name": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WJBO"
+    ],
+    "clients": [],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1835341,
+    "media": 101412,
+    "rows": 535,
+    "media_cycle": 80025,
+    "cycle": 1016734,
+    "years": {
+     "2011": 120349,
+     "2012": 91056,
+     "2013": 32473,
+     "2014": 62406,
+     "2015": 64362,
+     "2016": 31239,
+     "2017": 57816,
+     "2018": 21127,
+     "2019": 88282,
+     "2020": 143014,
+     "2021": 1175,
+     "2022": 105308,
+     "2023": 596930,
+     "2024": 147938,
+     "2025": 115341,
+     "2026": 156525
+    },
+    "committees": 70,
+    "top": [
+     {
+      "f": "4593",
+      "n": "Randall Delatte",
+      "p": "REP",
+      "usd": 142061,
+      "cycle": 142061
+     },
+     {
+      "f": "4443",
+      "n": "Albert C. \"Buddy\" Mincey, Jr.",
+      "p": "OTH",
+      "usd": 136735,
+      "cycle": 136735
+     },
+     {
+      "f": "1475",
+      "n": "Sherman Q. Mack",
+      "p": "REP",
+      "usd": 56323,
+      "cycle": 56323
+     },
+     {
+      "f": "6495",
+      "n": "MATTHEW BELSER",
+      "p": "REP",
+      "usd": 51428,
+      "cycle": 51428
+     },
+     {
+      "f": "4500",
+      "n": "Samuel A. Dowies",
+      "p": "IND",
+      "usd": 104706,
+      "cycle": 49350
+     },
+     {
+      "f": "5304",
+      "n": "Aaron Moak",
+      "p": "REP",
+      "usd": 44443,
+      "cycle": 44443
+     },
+     {
+      "f": "6719",
+      "n": "James Manasseh",
+      "p": "OTH",
+      "usd": 42338,
+      "cycle": 42338
+     },
+     {
+      "f": "4138",
+      "n": "Carson Marcantel",
+      "p": "REP",
+      "usd": 36785,
+      "cycle": 36785
+     },
+     {
+      "f": "6110",
+      "n": "Laurie Marien",
+      "p": "REP",
+      "usd": 36543,
+      "cycle": 36543
+     },
+     {
+      "f": "6267",
+      "n": "Coday Johnston",
+      "p": "REP",
+      "usd": 34748,
+      "cycle": 34748
+     },
+     {
+      "f": "6058",
+      "n": "Ronald Dean Register, Jr",
+      "p": "OTH",
+      "usd": 34344,
+      "cycle": 34344
+     },
+     {
+      "f": "4604",
+      "n": "KELLY BALFOUR",
+      "p": "REP",
+      "usd": 32625,
+      "cycle": 32625
+     },
+     {
+      "f": "5907",
+      "n": "Rex \"Eddie\" Albritton",
+      "p": "OTH",
+      "usd": 34079,
+      "cycle": 31472
+     },
+     {
+      "f": "6157",
+      "n": "Veronica \"Vicky\" Jones",
+      "p": "OTH",
+      "usd": 30831,
+      "cycle": 30831
+     },
+     {
+      "f": "6416",
+      "n": "John Smith",
+      "p": "REP",
+      "usd": 26975,
+      "cycle": 26975
+     }
+    ],
+    "spellings": [
+     "CAPITAL BUSINESS SERVICES, LLC",
+     "CAPITAL BUSINESS SERVICES",
+     "CAPITAL BUSINESS SERVICES LLC",
+     "CAPITAL BUSINESS SERVICE, LLC",
+     "CAPITAL BUSINESS LLC",
+     "CAPITAL BUSINESS SERVICES, L.L.C."
+    ]
+   }
+  },
+  {
    "key": "WINPARTNERS",
    "name": "Win Partners",
    "found_by": "filings",
@@ -5022,7 +5049,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 40,
+    "docs": 41,
     "priced": 12,
     "usd": 77415,
     "stations": [
@@ -5457,211 +5484,22 @@
    }
   },
   {
-   "key": "ROUGAROUCONSULT",
-   "name": "Rougarou Consulting",
-   "found_by": "filings",
-   "paid": {
-    "total": 2314951,
-    "media": 388327,
-    "rows": 390,
-    "media_cycle": 48926,
-    "cycle": 687544,
-    "years": {
-     "2015": 4750,
-     "2016": 2500,
-     "2017": 285997,
-     "2018": 135370,
-     "2019": 551277,
-     "2020": 316712,
-     "2021": 142633,
-     "2022": 188168,
-     "2023": 600582,
-     "2024": 14953,
-     "2025": 25280,
-     "2026": 46730
-    },
-    "committees": 62,
-    "top": [
-     {
-      "f": "1770",
-      "n": "Neil H. Riser",
-      "p": "REP",
-      "usd": 432837,
-      "cycle": 218140
-     },
-     {
-      "f": "6316",
-      "n": "Dirk Guidry",
-      "p": "DEM",
-      "usd": 100602,
-      "cycle": 100602
-     },
-     {
-      "f": "6054",
-      "n": "Haus Cordray",
-      "p": "IND",
-      "usd": 61417,
-      "cycle": 61417
-     },
-     {
-      "f": "5852",
-      "n": "Gary Lane Driskell",
-      "p": "IND",
-      "usd": 42213,
-      "cycle": 42213
-     },
-     {
-      "f": "3394",
-      "n": "John Milkovich",
-      "p": "DEM",
-      "usd": 77433,
-      "cycle": 37091
-     },
-     {
-      "f": "6271",
-      "n": "Kenneth Gingles",
-      "p": "REP",
-      "usd": 33680,
-      "cycle": 33680
-     },
-     {
-      "f": "2019",
-      "n": "Jeremy M. Evans",
-      "p": "REP",
-      "usd": 62582,
-      "cycle": 30915
-     },
-     {
-      "f": "4637",
-      "n": "Rhonda Butler",
-      "p": "REP",
-      "usd": 24256,
-      "cycle": 24256
-     },
-     {
-      "f": "6254",
-      "n": "Sylvia Taylor",
-      "p": "DEM",
-      "usd": 24083,
-      "cycle": 24083
-     },
-     {
-      "f": "3040",
-      "n": "Steve Gunnell",
-      "p": "OTH",
-      "usd": 22534,
-      "cycle": 22534
-     },
-     {
-      "f": "6284",
-      "n": "James Davis Jr",
-      "p": "OTH",
-      "usd": 17250,
-      "cycle": 17250
-     },
-     {
-      "f": "6720",
-      "n": "Cindy Poston Lavespere",
-      "p": "OTH",
-      "usd": 14063,
-      "cycle": 14063
-     },
-     {
-      "f": "5866",
-      "n": "Parry Matt Thomas",
-      "p": "IND",
-      "usd": 13496,
-      "cycle": 13496
-     },
-     {
-      "f": "6588",
-      "n": "Tyrell Thomas Morris",
-      "p": "OTH",
-      "usd": 11336,
-      "cycle": 11336
-     },
-     {
-      "f": "4372",
-      "n": "Kim Segura Landry",
-      "p": "REP",
-      "usd": 8883,
-      "cycle": 8883
-     }
-    ],
-    "spellings": [
-     "ROUGAROU CONSULTING",
-     "ROUGAROU CONSULTING, LLC",
-     "ROUGAROU CONSULTING LLC",
-     "ROUGAROU CONSULTING L.L.C.",
-     "ROUGAROU CONSULTANTS,LLC",
-     "ROUGAROU CONSULTANTS"
-    ]
-   }
-  },
-  {
-   "key": "DELCLELOMEDIA",
-   "name": "Del Clelo Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 5,
-    "usd": 38450,
-    "stations": [
-     "KPXJ",
-     "KTBS"
-    ],
-    "clients": [
-     "Accountabllity Project",
-     "Accountablilty Project",
-     "Accountabillty Project",
-     "Maga Energy Project"
-    ],
-    "first": "2026-03-06",
-    "last": "2026-05-08",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
-   "key": "DECIELOMEDIA",
-   "name": "De! Cielo Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 34135,
-    "stations": [
-     "KTBS"
-    ],
-    "clients": [
-     "Accountability Project"
-    ],
-    "first": "2026-06-18",
-    "last": "2026-06-18",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "CARVINCONSULT",
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
-    "priced": 9,
-    "usd": 28630,
+    "docs": 11,
+    "priced": 11,
+    "usd": 44605,
     "stations": [
-     "WDSU"
+     "WDSU",
+     "WVUE"
     ],
     "clients": [
      "Illing/R/St. Tammany Parish Sheriff",
      "Cao/R/BESE District 1",
+     "Illing for Sheriff",
+     "Lee for Judge",
      "Lee/R/JP 1st Parish Court Div",
      "Barthelemy/D/State Senate Dist 3"
     ],
@@ -5806,6 +5644,472 @@
      "CARVIN CONSULTING GROUP",
      "CARVIN CONSULTANTS, INC."
     ]
+   }
+  },
+  {
+   "key": "ROUGAROUCONSULT",
+   "name": "Rougarou Consulting",
+   "found_by": "filings",
+   "paid": {
+    "total": 2315645,
+    "media": 388327,
+    "rows": 391,
+    "media_cycle": 48926,
+    "cycle": 688238,
+    "years": {
+     "2015": 4750,
+     "2016": 2500,
+     "2017": 285997,
+     "2018": 135370,
+     "2019": 551277,
+     "2020": 316712,
+     "2021": 142633,
+     "2022": 188168,
+     "2023": 600582,
+     "2024": 14953,
+     "2025": 25280,
+     "2026": 47423
+    },
+    "committees": 62,
+    "top": [
+     {
+      "f": "1770",
+      "n": "Neil H. Riser",
+      "p": "REP",
+      "usd": 432837,
+      "cycle": 218140
+     },
+     {
+      "f": "6316",
+      "n": "Dirk Guidry",
+      "p": "DEM",
+      "usd": 100602,
+      "cycle": 100602
+     },
+     {
+      "f": "6054",
+      "n": "Haus Cordray",
+      "p": "IND",
+      "usd": 61417,
+      "cycle": 61417
+     },
+     {
+      "f": "5852",
+      "n": "Gary Lane Driskell",
+      "p": "IND",
+      "usd": 42213,
+      "cycle": 42213
+     },
+     {
+      "f": "3394",
+      "n": "John Milkovich",
+      "p": "DEM",
+      "usd": 77433,
+      "cycle": 37091
+     },
+     {
+      "f": "6271",
+      "n": "Kenneth Gingles",
+      "p": "REP",
+      "usd": 33680,
+      "cycle": 33680
+     },
+     {
+      "f": "2019",
+      "n": "Jeremy M. Evans",
+      "p": "REP",
+      "usd": 62582,
+      "cycle": 30915
+     },
+     {
+      "f": "4637",
+      "n": "Rhonda Butler",
+      "p": "REP",
+      "usd": 24256,
+      "cycle": 24256
+     },
+     {
+      "f": "6254",
+      "n": "Sylvia Taylor",
+      "p": "DEM",
+      "usd": 24083,
+      "cycle": 24083
+     },
+     {
+      "f": "3040",
+      "n": "Steve Gunnell",
+      "p": "OTH",
+      "usd": 22534,
+      "cycle": 22534
+     },
+     {
+      "f": "6284",
+      "n": "James Davis Jr",
+      "p": "OTH",
+      "usd": 17250,
+      "cycle": 17250
+     },
+     {
+      "f": "6720",
+      "n": "Cindy Poston Lavespere",
+      "p": "OTH",
+      "usd": 14063,
+      "cycle": 14063
+     },
+     {
+      "f": "5866",
+      "n": "Parry Matt Thomas",
+      "p": "IND",
+      "usd": 13496,
+      "cycle": 13496
+     },
+     {
+      "f": "6588",
+      "n": "Tyrell Thomas Morris",
+      "p": "OTH",
+      "usd": 11336,
+      "cycle": 11336
+     },
+     {
+      "f": "4372",
+      "n": "Kim Segura Landry",
+      "p": "REP",
+      "usd": 8883,
+      "cycle": 8883
+     }
+    ],
+    "spellings": [
+     "ROUGAROU CONSULTING",
+     "ROUGAROU CONSULTING, LLC",
+     "ROUGAROU CONSULTING LLC",
+     "ROUGAROU CONSULTING L.L.C.",
+     "ROUGAROU CONSULTANTS,LLC",
+     "ROUGAROU CONSULTANTS"
+    ]
+   }
+  },
+  {
+   "key": "EASONADVERTISINGAGENCY",
+   "name": "Eason Advertising Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 541,
+    "stations": [
+     "KMDL"
+    ],
+    "clients": [
+     "r Chief"
+    ],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 106028,
+    "media": 61394,
+    "rows": 32,
+    "media_cycle": 45981,
+    "cycle": 77270,
+    "years": {
+     "2011": 15454,
+     "2015": 10351,
+     "2019": 2953,
+     "2023": 35003,
+     "2024": 2000,
+     "2025": 22530,
+     "2026": 17736
+    },
+    "committees": 9,
+    "top": [
+     {
+      "f": "5960",
+      "n": "Cynthia Simon Spadoni",
+      "p": "REP",
+      "usd": 30353,
+      "cycle": 30353
+     },
+     {
+      "f": "4239",
+      "n": "Jesse Garrett Regan",
+      "p": "REP",
+      "usd": 22530,
+      "cycle": 22530
+     },
+     {
+      "f": "8111",
+      "n": "James Klock",
+      "p": "OTH",
+      "usd": 17736,
+      "cycle": 17736
+     },
+     {
+      "f": "2192",
+      "n": "Walter Russell Campbell",
+      "p": "REP",
+      "usd": 4650,
+      "cycle": 4650
+     },
+     {
+      "f": "2020",
+      "n": "David Groner",
+      "p": "REP",
+      "usd": 2000,
+      "cycle": 2000
+     },
+     {
+      "f": "3378",
+      "n": "Carol Ross",
+      "p": "REP",
+      "usd": 10351,
+      "cycle": 0
+     },
+     {
+      "f": "2089",
+      "n": "Marshall Montgomery",
+      "p": "REP",
+      "usd": 7819,
+      "cycle": 0
+     },
+     {
+      "f": "2097",
+      "n": "Craig P. Spikes",
+      "p": "IND",
+      "usd": 7635,
+      "cycle": 0
+     },
+     {
+      "f": "4802",
+      "n": "Joshua Slavone Guillory",
+      "p": "OTH",
+      "usd": 2953,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "EASON ADVERTISING",
+     "EASON ADVERTISING, LLC",
+     "EASON ADVERTISING LLC"
+    ]
+   }
+  },
+  {
+   "key": "DELCLELOMEDIA",
+   "name": "Del Clelo Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 5,
+    "usd": 38450,
+    "stations": [
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [
+     "Accountabllity Project",
+     "Accountablilty Project",
+     "Accountabillty Project",
+     "Maga Energy Project"
+    ],
+    "first": "2026-03-06",
+    "last": "2026-05-08",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "BUISSONCREATIVE",
+   "name": "Buisson Creative",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "004289"
+    ],
+    "clients": [
+     "The Committee to Elect John Young"
+    ],
+    "first": "2026-06-24",
+    "last": "2026-06-24",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 611476,
+    "media": 51308,
+    "rows": 105,
+    "media_cycle": 34802,
+    "cycle": 90220,
+    "years": {
+     "2000": 11000,
+     "2001": 155687,
+     "2003": 130117,
+     "2004": 51394,
+     "2006": 48712,
+     "2007": 22895,
+     "2010": 15000,
+     "2011": 4589,
+     "2012": 1000,
+     "2013": 29304,
+     "2014": 8240,
+     "2015": 200,
+     "2017": 325,
+     "2019": 42792,
+     "2024": 440,
+     "2025": 89781
+    },
+    "committees": 18,
+    "top": [
+     {
+      "f": "2620",
+      "n": "Edwin M. Shorty, Jr.",
+      "p": "DEM",
+      "usd": 89781,
+      "cycle": 89781
+     },
+     {
+      "f": "5844",
+      "n": "Kevin Guitterrez",
+      "p": "REP",
+      "usd": 440,
+      "cycle": 440
+     },
+     {
+      "f": "366",
+      "n": "Bruce Lizana",
+      "p": "OTH",
+      "usd": 160687,
+      "cycle": 0
+     },
+     {
+      "f": "653",
+      "n": "Jennifer Sneed",
+      "p": "OTH",
+      "usd": 130117,
+      "cycle": 0
+     },
+     {
+      "f": "780",
+      "n": "Edmond J Muniz",
+      "p": "OTH",
+      "usd": 51394,
+      "cycle": 0
+     },
+     {
+      "f": "1590",
+      "n": "Timothy Kerner",
+      "p": "REP",
+      "usd": 42792,
+      "cycle": 0
+     },
+     {
+      "f": "975",
+      "n": "James Carter",
+      "p": "DEM",
+      "usd": 41874,
+      "cycle": 0
+     },
+     {
+      "f": "1998",
+      "n": "Jeanne Nunez Juneau",
+      "p": "DEM",
+      "usd": 29304,
+      "cycle": 0
+     },
+     {
+      "f": "1755",
+      "n": "Stephen Windhorst",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 0
+     },
+     {
+      "f": "914",
+      "n": "Fredericka Wicker",
+      "p": "OTH",
+      "usd": 11776,
+      "cycle": 0
+     },
+     {
+      "f": "1219",
+      "n": "A. G. Crowe",
+      "p": "REP",
+      "usd": 11165,
+      "cycle": 0
+     },
+     {
+      "f": "1237",
+      "n": "Neil Abramson",
+      "p": "DEM",
+      "usd": 6791,
+      "cycle": 0
+     },
+     {
+      "f": "387",
+      "n": "Alvin D. Singletary",
+      "p": "OTH",
+      "usd": 6000,
+      "cycle": 0
+     },
+     {
+      "f": "991",
+      "n": "Arthur A. Morrell",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 0
+     },
+     {
+      "f": "1803",
+      "n": "Patricia Brister",
+      "p": "REP",
+      "usd": 4589,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BUISSON CREATIVE STRATERGIES",
+     "BUISSON CREATIVE STRATEGY",
+     "BUISSON CREATIVE STRATGIES, LLC",
+     "BUISSON CREATIVE STRATGIES",
+     "BUISSON CREATIVE SERVICES",
+     "BUISSON CREATIVE STATEGIES"
+    ]
+   }
+  },
+  {
+   "key": "DECIELOMEDIA",
+   "name": "De! Cielo Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 34135,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Accountability Project"
+    ],
+    "first": "2026-06-18",
+    "last": "2026-06-18",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -6063,6 +6367,86 @@
    }
   },
   {
+   "key": "JBCOMMUNICATIONS",
+   "name": "JB Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 5,
+    "usd": 22675,
+    "stations": [
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Mary/R/22nd JDC Div",
+     "Mary for Judge"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 133356,
+    "media": 3000,
+    "rows": 38,
+    "media_cycle": 3000,
+    "cycle": 133356,
+    "years": {
+     "2023": 9000,
+     "2024": 44987,
+     "2025": 6535,
+     "2026": 72834
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 53987,
+      "cycle": 53987
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 32669,
+      "cycle": 32669
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 25025,
+      "cycle": 25025
+     },
+     {
+      "f": "7263",
+      "n": "SAL BROCATO",
+      "p": "OTH",
+      "usd": 13925,
+      "cycle": 13925
+     },
+     {
+      "f": "7553",
+      "n": "ALFRED GALINDO",
+      "p": "OTH",
+      "usd": 7750,
+      "cycle": 7750
+     }
+    ],
+    "spellings": [
+     "JB COMMUNICATIONS LLC",
+     "JB COMMUNICATIONS"
+    ]
+   }
+  },
+  {
    "key": "HOLBROOKMULTIMEDIA",
    "name": "Holbrook Multi-Media",
    "found_by": "filings",
@@ -6275,7 +6659,7 @@
    "name": "FlexPoint Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 15,
+    "docs": 17,
     "priced": 11,
     "usd": 17860,
     "stations": [
@@ -6293,10 +6677,11 @@
     "first": "2026-09-11",
     "last": "2026-10-23",
     "away": {
-     "docs": 18,
+     "docs": 22,
      "usd": 2273500,
      "clients": [
       "Texas Pac",
+      "Californians For Voter",
       "SOriginal Date 7 Revision"
      ]
     }
@@ -6946,6 +7331,33 @@
    }
   },
   {
+   "key": "MARKETINGBLITZAD",
+   "name": "Marketing Blitz Ad Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 4,
+    "usd": 14890,
+    "stations": [
+     "KNEK",
+     "KRRQ",
+     "WQUE",
+     "WYLD"
+    ],
+    "clients": [
+     "Jaimie Davis for US Senate",
+     "Davis/D/Senate"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "POOLHOUSE",
    "name": "POOLHOUSE",
    "found_by": "political file",
@@ -7195,84 +7607,6 @@
    }
   },
   {
-   "key": "JBCOMMUNICATIONS",
-   "name": "JB Communications",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 9402,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Mary/R/22nd JDC Div"
-    ],
-    "first": "2026-10-14",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 133356,
-    "media": 3000,
-    "rows": 38,
-    "media_cycle": 3000,
-    "cycle": 133356,
-    "years": {
-     "2023": 9000,
-     "2024": 44987,
-     "2025": 6535,
-     "2026": 72834
-    },
-    "committees": 5,
-    "top": [
-     {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
-      "p": "REP",
-      "usd": 53987,
-      "cycle": 53987
-     },
-     {
-      "f": "6646",
-      "n": "Joseph R. McMahon III",
-      "p": "OTH",
-      "usd": 32669,
-      "cycle": 32669
-     },
-     {
-      "f": "7532",
-      "n": "Cameron M. Mary",
-      "p": "OTH",
-      "usd": 25025,
-      "cycle": 25025
-     },
-     {
-      "f": "7263",
-      "n": "SAL BROCATO",
-      "p": "OTH",
-      "usd": 13925,
-      "cycle": 13925
-     },
-     {
-      "f": "7553",
-      "n": "ALFRED GALINDO",
-      "p": "OTH",
-      "usd": 7750,
-      "cycle": 7750
-     }
-    ],
-    "spellings": [
-     "JB COMMUNICATIONS LLC",
-     "JB COMMUNICATIONS"
-    ]
-   }
-  },
-  {
    "key": "SNEET",
    "name": "sn eet",
    "found_by": "political file",
@@ -7353,6 +7687,95 @@
    }
   },
   {
+   "key": "QUESTCOMMUNICATIONCONSULT",
+   "name": "Quest Communication Consultants",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 8,
+    "priced": 8,
+    "usd": 12148,
+    "stations": [
+     "KARD",
+     "KNOE",
+     "KTVE"
+    ],
+    "clients": [
+     "Mike Smith/City Court Judge/LA/Rep",
+     "Adam Cossey for District Judge",
+     "Robert Cherry/City Marshal/LA/Independent"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 172824,
+    "media": 57310,
+    "rows": 60,
+    "media_cycle": 0,
+    "cycle": 43524,
+    "years": {
+     "2011": 88302,
+     "2012": 5816,
+     "2013": 2817,
+     "2014": 650,
+     "2015": 14017,
+     "2016": 3003,
+     "2017": 1373,
+     "2019": 12822,
+     "2022": 500,
+     "2023": 16044,
+     "2024": 1437,
+     "2026": 26044
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6910",
+      "n": "James H. Colvin Jr. (JIM)",
+      "p": "OTH",
+      "usd": 26044,
+      "cycle": 26044
+     },
+     {
+      "f": "6199",
+      "n": "Toni Bacon",
+      "p": "REP",
+      "usd": 14147,
+      "cycle": 14147
+     },
+     {
+      "f": "2157",
+      "n": "Jay Russell",
+      "p": "REP",
+      "usd": 118134,
+      "cycle": 3334
+     },
+     {
+      "f": "3696",
+      "n": "Linda Taylor Cook",
+      "p": "IND",
+      "usd": 11000,
+      "cycle": 0
+     },
+     {
+      "f": "4465",
+      "n": "Michael D. Allen",
+      "p": "IND",
+      "usd": 3500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "QUEST COMMUNICATION CONSULTANTS"
+    ]
+   }
+  },
+  {
    "key": "WOT",
    "name": "wot",
    "found_by": "political file",
@@ -7367,6 +7790,31 @@
      "Conrad Cable for Congress"
     ],
     "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CAPITALBUSINESSSERVICES",
+   "name": "Capital Business Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 14,
+    "priced": 3,
+    "usd": 10850,
+    "stations": [
+     "KRVE",
+     "WJBO"
+    ],
+    "clients": [
+     "Raise The Bar PAC",
+     "Wendy Edwards for Family Court"
+    ],
+    "first": "2026-04-28",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -7451,6 +7899,162 @@
    }
   },
   {
+   "key": "BRANDONGUICHARDDIGITAL",
+   "name": "Brandon Guichard Digital Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 3,
+    "usd": 10380,
+    "stations": [
+     "WBRZ",
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Holmes/D/OP Crim Dist Court Div",
+     "JUSTICE PAC",
+     "Justin for Public Service Commission",
+     "Jewett/D/Congress"
+    ],
+    "first": "2026-10-20",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 377011,
+    "media": 0,
+    "rows": 75,
+    "media_cycle": 0,
+    "cycle": 265324,
+    "years": {
+     "2020": 31762,
+     "2021": 33750,
+     "2022": 46175,
+     "2023": 68556,
+     "2025": 165568,
+     "2026": 31200
+    },
+    "committees": 20,
+    "top": [
+     {
+      "f": "1921",
+      "n": "Helena Moreno",
+      "p": "DEM",
+      "usd": 161924,
+      "cycle": 161924
+     },
+     {
+      "f": "5507",
+      "n": "Dustin Granger",
+      "p": "DEM",
+      "usd": 28000,
+      "cycle": 28000
+     },
+     {
+      "f": "4399",
+      "n": "Jeremy LaCombe",
+      "p": "REP",
+      "usd": 36150,
+      "cycle": 15000
+     },
+     {
+      "f": "6149",
+      "n": "Madison O'Malley",
+      "p": "DEM",
+      "usd": 13950,
+      "cycle": 13950
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 10700,
+      "cycle": 10700
+     },
+     {
+      "f": "7779",
+      "n": "Lacy Landrum",
+      "p": "OTH",
+      "usd": 8000,
+      "cycle": 8000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "957",
+      "n": "Byron Lee",
+      "p": "DEM",
+      "usd": 7250,
+      "cycle": 7250
+     },
+     {
+      "f": "2598",
+      "n": "Kimya Holmes",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 17250,
+      "cycle": 4000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 4000,
+      "cycle": 4000
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 23000,
+      "cycle": 0
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 19675,
+      "cycle": 0
+     },
+     {
+      "f": "2345",
+      "n": "Leo J. Palazzo",
+      "p": "REP",
+      "usd": 10500,
+      "cycle": 0
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 7257,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BRANDON GUICHARD DIGITAL GROUP",
+     "BRANDON GUICHARD",
+     "BRANDON GUICHARD DIGITAL"
+    ]
+   }
+  },
+  {
    "key": "MEDIACONSULT",
    "name": "Media Consultants",
    "found_by": "political file",
@@ -7494,30 +8098,6 @@
     "spellings": [
      "MEDIACONSULTANT CHERON BRYLSKI"
     ]
-   }
-  },
-  {
-   "key": "MARKETINGBLITZAD",
-   "name": "Marketing Blitz Ad Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 4,
-    "priced": 2,
-    "usd": 10000,
-    "stations": [
-     "WQUE",
-     "WYLD"
-    ],
-    "clients": [
-     "Jaimie Davis for US Senate"
-    ],
-    "first": "2026-10-23",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -7623,6 +8203,30 @@
      "NATIONAL CABLE COMMUNICATIONS",
      "NATIONAL CABLE COMMUNICATIONS LLC"
     ]
+   }
+  },
+  {
+   "key": "KATZMEDIA",
+   "name": "Katz Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 5,
+    "usd": 9405,
+    "stations": [
+     "KROF"
+    ],
+    "clients": [
+     "m Accountability Project, Inc",
+     "m Louisiana Freedom Fund"
+    ],
+    "first": "2026-01-30",
+    "last": "2026-05-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -7838,160 +8442,6 @@
    }
   },
   {
-   "key": "BRANDONGUICHARDDIGITAL",
-   "name": "Brandon Guichard Digital Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 2,
-    "usd": 8090,
-    "stations": [
-     "WBRZ",
-     "WDSU"
-    ],
-    "clients": [
-     "Holmes/D/OP Crim Dist Court Div",
-     "JUSTICE PAC",
-     "Jewett/D/Congress"
-    ],
-    "first": "2026-10-21",
-    "last": "2026-10-22",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 377011,
-    "media": 0,
-    "rows": 75,
-    "media_cycle": 0,
-    "cycle": 265324,
-    "years": {
-     "2020": 31762,
-     "2021": 33750,
-     "2022": 46175,
-     "2023": 68556,
-     "2025": 165568,
-     "2026": 31200
-    },
-    "committees": 20,
-    "top": [
-     {
-      "f": "1921",
-      "n": "Helena Moreno",
-      "p": "DEM",
-      "usd": 161924,
-      "cycle": 161924
-     },
-     {
-      "f": "5507",
-      "n": "Dustin Granger",
-      "p": "DEM",
-      "usd": 28000,
-      "cycle": 28000
-     },
-     {
-      "f": "4399",
-      "n": "Jeremy LaCombe",
-      "p": "REP",
-      "usd": 36150,
-      "cycle": 15000
-     },
-     {
-      "f": "6149",
-      "n": "Madison O'Malley",
-      "p": "DEM",
-      "usd": 13950,
-      "cycle": 13950
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 10700,
-      "cycle": 10700
-     },
-     {
-      "f": "7779",
-      "n": "Lacy Landrum",
-      "p": "OTH",
-      "usd": 8000,
-      "cycle": 8000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "957",
-      "n": "Byron Lee",
-      "p": "DEM",
-      "usd": 7250,
-      "cycle": 7250
-     },
-     {
-      "f": "2598",
-      "n": "Kimya Holmes",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 17250,
-      "cycle": 4000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 4000,
-      "cycle": 4000
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 23000,
-      "cycle": 0
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 19675,
-      "cycle": 0
-     },
-     {
-      "f": "2345",
-      "n": "Leo J. Palazzo",
-      "p": "REP",
-      "usd": 10500,
-      "cycle": 0
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 7257,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BRANDON GUICHARD DIGITAL GROUP",
-     "BRANDON GUICHARD",
-     "BRANDON GUICHARD DIGITAL"
-    ]
-   }
-  },
-  {
    "key": "GELPIPRODUCTIONSERVICES",
    "name": "Gelpi Production Services",
    "found_by": "filings",
@@ -8143,6 +8593,72 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "ANGIESANDERSAD",
+   "name": "Angie Sanders Ad Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2254,
+    "stations": [
+     "KTVE"
+    ],
+    "clients": [
+     "Mennon Campbell/District Attorney/LA/Rep"
+    ],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 77189,
+    "media": 20281,
+    "rows": 43,
+    "media_cycle": 3795,
+    "cycle": 47171,
+    "years": {
+     "2020": 30018,
+     "2023": 24165,
+     "2025": 1214,
+     "2026": 21792
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "5168",
+      "n": "Mennon Campbell",
+      "p": "REP",
+      "usd": 55576,
+      "cycle": 25558
+     },
+     {
+      "f": "5977",
+      "n": "Sabrina Racer",
+      "p": "REP",
+      "usd": 11953,
+      "cycle": 11953
+     },
+     {
+      "f": "5907",
+      "n": "Rex \"Eddie\" Albritton",
+      "p": "OTH",
+      "usd": 9660,
+      "cycle": 9660
+     }
+    ],
+    "spellings": [
+     "ANGIE SANDERS AD GROUP, LLC",
+     "ANGIE SANDERS AD GROUP",
+     "ANGIE SANDERS",
+     "ANGIE SANDERS AD GROUP LLC"
+    ]
    }
   },
   {
@@ -8308,92 +8824,6 @@
      "WYLD FM",
      "WYLD- FM",
      "WYLD - FM"
-    ]
-   }
-  },
-  {
-   "key": "QUESTCOMMUNICATIONCONSULT",
-   "name": "Quest Communication Consultants",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 4,
-    "priced": 4,
-    "usd": 4429,
-    "stations": [
-     "KARD",
-     "KTVE"
-    ],
-    "clients": [
-     "Robert Cherry/City Marshal/LA/Independent"
-    ],
-    "first": "2026-10-21",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 172824,
-    "media": 57310,
-    "rows": 60,
-    "media_cycle": 0,
-    "cycle": 43524,
-    "years": {
-     "2011": 88302,
-     "2012": 5816,
-     "2013": 2817,
-     "2014": 650,
-     "2015": 14017,
-     "2016": 3003,
-     "2017": 1373,
-     "2019": 12822,
-     "2022": 500,
-     "2023": 16044,
-     "2024": 1437,
-     "2026": 26044
-    },
-    "committees": 5,
-    "top": [
-     {
-      "f": "6910",
-      "n": "James H. Colvin Jr. (JIM)",
-      "p": "OTH",
-      "usd": 26044,
-      "cycle": 26044
-     },
-     {
-      "f": "6199",
-      "n": "Toni Bacon",
-      "p": "REP",
-      "usd": 14147,
-      "cycle": 14147
-     },
-     {
-      "f": "2157",
-      "n": "Jay Russell",
-      "p": "REP",
-      "usd": 118134,
-      "cycle": 3334
-     },
-     {
-      "f": "3696",
-      "n": "Linda Taylor Cook",
-      "p": "IND",
-      "usd": 11000,
-      "cycle": 0
-     },
-     {
-      "f": "4465",
-      "n": "Michael D. Allen",
-      "p": "IND",
-      "usd": 3500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "QUEST COMMUNICATION CONSULTANTS"
     ]
    }
   },
@@ -8904,6 +9334,68 @@
    }
   },
   {
+   "key": "HOLBROOKMEDIA",
+   "name": "Holbrook Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2560,
+    "stations": [
+     "KADN"
+    ],
+    "clients": [
+     "Susan Theall to Reelect Family Court 2026"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 36727,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2004": 350,
+     "2015": 29877,
+     "2019": 6500
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "2296",
+      "n": "Richard A. (Rick) Chargois",
+      "p": "REP",
+      "usd": 29877,
+      "cycle": 0
+     },
+     {
+      "f": "4513",
+      "n": "Terry Daigre",
+      "p": "REP",
+      "usd": 6500,
+      "cycle": 0
+     },
+     {
+      "f": "2264",
+      "n": "Eric Martin",
+      "p": "OTH",
+      "usd": 350,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "HOLBROOK MEDIA"
+    ]
+   }
+  },
+  {
    "key": "MLCWORKS",
    "name": "MLCworks",
    "found_by": "political file",
@@ -9222,29 +9714,6 @@
    }
   },
   {
-   "key": "KATZMEDIA",
-   "name": "Katz Media Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 1705,
-    "stations": [
-     "KROF"
-    ],
-    "clients": [
-     "m Accountability Project, Inc"
-    ],
-    "first": "2026-03-04",
-    "last": "2026-05-06",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "SNAG",
    "name": "snag",
    "found_by": "political file",
@@ -9321,6 +9790,29 @@
      "MOBILE COMMUNICATION SERVICE",
      "MOBILE COMMUNICATION SERVICE (ELAW)"
     ]
+   }
+  },
+  {
+   "key": "WILWATSONAGENCY",
+   "name": "The Wil Watson Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 1,
+    "usd": 600,
+    "stations": [
+     "WYLD"
+    ],
+    "clients": [
+     "Patricia Boyd-Robertson for"
+    ],
+    "first": "2026-01-26",
+    "last": "2026-01-27",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -10971,11 +11463,11 @@
    "name": "Ourso Beychok",
    "found_by": "filings",
    "paid": {
-    "total": 10100023,
+    "total": 10106743,
     "media": 510984,
-    "rows": 1324,
+    "rows": 1325,
     "media_cycle": 0,
-    "cycle": 1374470,
+    "cycle": 1381190,
     "years": {
      "2002": 18826,
      "2003": 305589,
@@ -10999,7 +11491,7 @@
      "2023": 737526,
      "2024": 235935,
      "2025": 60290,
-     "2026": 340719
+     "2026": 347439
     },
     "committees": 139,
     "top": [
@@ -11007,8 +11499,8 @@
       "f": "3700",
       "n": "Education Reform Now Advocacy",
       "p": "OTH",
-      "usd": 2141559,
-      "cycle": 382610
+      "usd": 2148279,
+      "cycle": 389330
      },
      {
       "f": "4013",
@@ -11958,27 +12450,24 @@
    }
   },
   {
-   "key": "CROSSROADSMEDIA",
-   "name": "Crossroads Media",
+   "key": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+   "name": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
    "found_by": "political file",
    "fcc": {
     "docs": 0,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KPXJ",
-     "KTBS"
+     "KSLA"
     ],
     "clients": [],
-    "first": "2026-02-11",
-    "last": "2026-10-19",
+    "first": "2026-10-20",
+    "last": "2026-10-20",
     "away": {
-     "docs": 34,
-     "usd": 963225,
+     "docs": 1,
+     "usd": 0,
      "clients": [
-      "Texans for Greg Abbott",
-      "Griginal Date / Revision",
-      "s for Greg Abbott iHf"
+      "Texans for Greg Abbott - PO Box 308 Austin, TX"
      ]
     }
    },
@@ -12648,11 +13137,11 @@
    "name": "Cyber Media One",
    "found_by": "filings",
    "paid": {
-    "total": 671550,
+    "total": 681050,
     "media": 231120,
-    "rows": 175,
+    "rows": 177,
     "media_cycle": 0,
-    "cycle": 147901,
+    "cycle": 157401,
     "years": {
      "2014": 15743,
      "2015": 81628,
@@ -12663,7 +13152,7 @@
      "2023": 79921,
      "2024": 34432,
      "2025": 600,
-     "2026": 32948
+     "2026": 42448
     },
     "committees": 17,
     "top": [
@@ -12689,6 +13178,13 @@
       "cycle": 23495
      },
      {
+      "f": "7609",
+      "n": "Whitney Germany",
+      "p": "OTH",
+      "usd": 18315,
+      "cycle": 18315
+     },
+     {
       "f": "4562",
       "n": "Ryan Seal",
       "p": "REP",
@@ -12701,13 +13197,6 @@
       "p": "OTH",
       "usd": 10905,
       "cycle": 10905
-     },
-     {
-      "f": "7609",
-      "n": "Whitney Germany",
-      "p": "OTH",
-      "usd": 8815,
-      "cycle": 8815
      },
      {
       "f": "6173",
@@ -13806,11 +14295,11 @@
    "name": "Burning Stick Creative",
    "found_by": "filings",
    "paid": {
-    "total": 798131,
+    "total": 804371,
     "media": 147754,
-    "rows": 139,
+    "rows": 141,
     "media_cycle": 0,
-    "cycle": 23625,
+    "cycle": 29865,
     "years": {
      "2018": 70398,
      "2019": 320511,
@@ -13819,9 +14308,10 @@
      "2022": 10258,
      "2023": 17500,
      "2024": 1204,
-     "2025": 4921
+     "2025": 4921,
+     "2026": 6240
     },
-    "committees": 27,
+    "committees": 28,
     "top": [
      {
       "f": "6355",
@@ -13829,6 +14319,13 @@
       "p": "OTH",
       "usd": 17500,
       "cycle": 17500
+     },
+     {
+      "f": "8111",
+      "n": "James Klock",
+      "p": "OTH",
+      "usd": 6240,
+      "cycle": 6240
      },
      {
       "f": "6461",
@@ -13919,13 +14416,6 @@
       "n": "Stuart Bishop",
       "p": "REP",
       "usd": 25000,
-      "cycle": 0
-     },
-     {
-      "f": "4556",
-      "n": "Kea Sherman",
-      "p": "DEM",
-      "usd": 23950,
       "cycle": 0
      }
     ],
@@ -16315,16 +16805,17 @@
    "name": "BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "004289",
      "WBRZ"
     ],
     "clients": [
      "Julia Letlow for Louisiana"
     ],
-    "first": "2026-10-21",
+    "first": "2026-06-23",
     "last": "2026-10-21",
     "away": {
      "docs": 0,
@@ -16355,6 +16846,29 @@
    }
   },
   {
+   "key": "CNAMEDIAADVENTURES",
+   "name": "C ] N/A Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "Mike Johnson for Loulsiana"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "CNATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHIC",
    "name": "C] N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chic",
    "found_by": "political file",
@@ -16373,6 +16887,53 @@
      "usd": 0,
      "clients": [
       "Talarico for Texas"
+     ]
+    }
+   }
+  },
+  {
+   "key": "CCNABRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
+   "name": "Cc] N/A BrabenderCox 1218 Grandview Ave Pittsburgh",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CROSSROADSMEDIA",
+   "name": "Crossroads Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-02-11",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 34,
+     "usd": 963225,
+     "clients": [
+      "Texans for Greg Abbott",
+      "Griginal Date / Revision",
+      "s for Greg Abbott iHf"
      ]
     }
    }
@@ -16424,22 +16985,45 @@
    }
   },
   {
+   "key": "DRWOODROWWILSON",
+   "name": "Dr, Woodrow Wilson",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "ESM",
    "name": "ESM",
    "found_by": "political file",
    "fcc": {
-    "docs": 0,
+    "docs": 1,
     "priced": 0,
     "usd": 0,
     "stations": [
      "KSLA",
      "KTBS"
     ],
-    "clients": [],
-    "first": "2026-10-23",
+    "clients": [
+     "Alan Seabaugh Campaign"
+    ],
+    "first": "2026-10-19",
     "last": "2026-10-23",
     "away": {
-     "docs": 4,
+     "docs": 7,
      "usd": 0,
      "clients": [
       "Texans for Dan Patrick"
@@ -16498,14 +17082,16 @@
    "name": "Frontier Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
      "WBRZ"
     ],
-    "clients": [],
-    "first": "2026-10-21",
+    "clients": [
+     "RICK FOR LOUISIANA"
+    ],
+    "first": "2026-10-15",
     "last": "2026-10-21",
     "away": {
      "docs": 0,
@@ -16607,6 +17193,27 @@
    }
   },
   {
+   "key": "LNAMOBILECOMMUNICATIONSSERVICE",
+   "name": "L ] N/A Mobile Communications Service",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KDKS"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "LCMEDIA",
    "name": "LC Media",
    "found_by": "political file",
@@ -16649,6 +17256,99 @@
     ],
     "spellings": [
      "LC MEDIA LLC"
+    ]
+   }
+  },
+  {
+   "key": "LOWAEASONADVETTIS6LOCO",
+   "name": "Lowa Eason Advettis6 LoCo",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "cee COMMITTEE TO. ELECT. STAWIES. KLOCK"
+    ],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "MFBMEDIA",
+   "name": "MFB Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [
+     "Wagley for Congress"
+    ],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "MHBMEDIA",
+   "name": "MHB Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WAFB",
+     "WBRZ"
+    ],
+    "clients": [
+     "Conservatives for American Excellence INC"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 10102,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 10102,
+    "years": {
+     "2025": 10102
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "6356",
+      "n": "Louisiana Republican PAC",
+      "p": "REP",
+      "usd": 10102,
+      "cycle": 10102
+     }
+    ],
+    "spellings": [
+     "MHB MEDIA, INC."
     ]
    }
   },
@@ -16699,11 +17399,82 @@
    }
   },
   {
+   "key": "MOBILECOMMUNICATIONSSERVICE",
+   "name": "Mobile Communications Service",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSLA"
+    ],
+    "clients": [
+     "Phelps for Mayor Campaign"
+    ],
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "POL26COMMITTEETOREELECTDASTEW",
+   "name": "Pol26/Committee to Re-Elect DA Stew",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KBTT",
+     "KDKS",
+     "KOKA"
+    ],
+    "clients": [
+     "Sh ny Wee Jo Ve-eloct S\\eoorr",
+     "SN N Wee, Jo Vle-eloct S\\evoery",
+     "an wee lo Vleeloct S\\evoory Sor"
+    ],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "POL26HANHFORCITYCOUNCIL",
+   "name": "Pol26/Hanh for City Council",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLKL"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "RTSG",
    "name": "RTSG",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 3,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -16712,7 +17483,7 @@
     "clients": [
      "Defend and Protect Louisiana"
     ],
-    "first": "2026-09-17",
+    "first": "2026-07-08",
     "last": "2026-09-17",
     "away": {
      "docs": 0,
@@ -16730,15 +17501,18 @@
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KPXJ"
+     "KPXJ",
+     "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-22",
+    "first": "2026-10-19",
     "last": "2026-10-22",
     "away": {
-     "docs": 1,
+     "docs": 2,
      "usd": 0,
-     "clients": []
+     "clients": [
+      "Talarico for Texas"
+     ]
     }
    }
   },
@@ -16788,6 +17562,27 @@
      "clients": [
       "James Talarico For Senate (TX)"
      ]
+    }
+   }
+  },
+  {
+   "key": "VIEWPOINTADS",
+   "name": "Viewpoint Ads",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPLC"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 4,
+     "usd": 0,
+     "clients": []
     }
    }
   },
@@ -16842,11 +17637,34 @@
    }
   },
   {
+   "key": "WWNAKINGFISHCOMMUNICATIONSLUC",
+   "name": "Ww N/A Kingfish Communications, LUC",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "003478"
+    ],
+    "clients": [
+     "Fleming for Louisiana"
+    ],
+    "first": "2026-06-22",
+    "last": "2026-06-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "YES",
    "name": "Yes",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -16865,22 +17683,67 @@
    }
   },
   {
+   "key": "NAAXMEDIA",
+   "name": "[ N/A AxMedia",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NABRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
    "name": "[ N/A BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
+    "docs": 14,
     "priced": 0,
     "usd": 0,
     "stations": [
      "005142",
-     "008048"
+     "008048",
+     "WBRZ"
     ],
     "clients": [
      "Julia Letlow for Louisiana"
     ],
-    "first": "2026-07-29",
-    "last": "2026-10-06",
+    "first": "2026-06-17",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NABUISSONCREATIVE",
+   "name": "[ N/A Buisson Creative",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048"
+    ],
+    "clients": [
+     "The Committee to Elect John Young"
+    ],
+    "first": "2026-06-24",
+    "last": "2026-06-24",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -16893,7 +17756,7 @@
    "name": "[ N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
+    "docs": 5,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -16904,7 +17767,7 @@
      "JAMIE DAVIS FOR U.S. SENATE",
      "Hillar Moore Campaign"
     ],
-    "first": "2026-10-21",
+    "first": "2026-10-16",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -16961,6 +17824,51 @@
    }
   },
   {
+   "key": "NAESM",
+   "name": "[ N/A ESM",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 3,
+     "usd": 0,
+     "clients": [
+      "Texans for Dan Patrick",
+      "Texans for Dan Pattick"
+     ]
+    }
+   }
+  },
+  {
+   "key": "NAEOM",
+   "name": "[ N/A Eom",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NAMEDIAADVENTURES",
    "name": "[ N/A Media AdVentures",
    "found_by": "political file",
@@ -16976,6 +17884,27 @@
     ],
     "first": "2026-10-20",
     "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAMEDLAADVENTURES",
+   "name": "[ N/A Medla Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17004,6 +17933,55 @@
      "docs": 0,
      "usd": 0,
      "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAMOBILECOMMUNICATIONSSERVICE",
+   "name": "[ N/A Mobile Communications Service",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KOKA",
+     "KPXJ"
+    ],
+    "clients": [
+     "Phelps for Mayor Campaign"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHICA",
+   "name": "[ N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chica",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 2,
+     "usd": 0,
+     "clients": [
+      "Talatico for Texas",
+      "Talarico for Texas"
+     ]
     }
    }
   },
@@ -17054,26 +18032,157 @@
    }
   },
   {
-   "key": "NAESM",
-   "name": "[ ]NA Esm",
+   "key": "NIABRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
+   "name": "[ NIA BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 0,
+    "docs": 1,
     "priced": 0,
     "usd": 0,
     "stations": [
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-21",
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAMEDIAADVENTURESING",
+   "name": "[ ] N/A Media Ad Ventures, Ing",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Mike Johnson forLouisianae"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NVAMEDIAADVENTURESTNO",
+   "name": "[ ].NVA Media Ad Ventures, tno",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAMEMOLIC",
+   "name": "[ ]NA memo, Lic",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "INAMESS",
+   "name": "[INA mess",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "The Kristian Earles Campaign"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "INA",
+   "name": "[Ina",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KDKS"
+    ],
+    "clients": [
+     "Jamie Davis for US Senate"
+    ],
+    "first": "2026-10-23",
     "last": "2026-10-23",
     "away": {
-     "docs": 2,
+     "docs": 0,
      "usd": 0,
-     "clients": [
-      "Texans for Dan Patrick",
-      "Texans for Dan Pattick"
-     ]
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LNAMEDIAADVENTURES",
+   "name": "[L ] N/A Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "Mike Johnson for Loulstana"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    }
   },
@@ -17146,6 +18255,29 @@
    }
   },
   {
+   "key": "AAANAMEDIAADVENTURES",
+   "name": "aaa N/A Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KVHP"
+    ],
+    "clients": [
+     "Mike Johnson for Louisiana"
+    ],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "ASNAMCMOJOSHUAMCGEE2635877JOSHMEMO",
    "name": "as} N/A MCMO, LLC Joshua McGee 263-5877 josh@memo.co",
    "found_by": "political file",
@@ -17185,6 +18317,52 @@
      "usd": 0,
      "clients": [
       "Ken Paxton Victory Fund"
+     ]
+    }
+   }
+  },
+  {
+   "key": "FNALCMEDIA1604FAWNLANEHUNTINGDONVALLEY",
+   "name": "f N/A LC Media LLC 1604 Fawn Lane Huntingdon Valley",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Gina Hinojosa Campaign"
+     ]
+    }
+   }
+  },
+  {
+   "key": "RNATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHICA",
+   "name": "r N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chica",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Talatico for Texas"
      ]
     }
    }
@@ -17701,8 +18879,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 7691,
     "cycle": 0,
     "fcc": true
@@ -17797,8 +18975,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 6500,
     "cycle": 0,
     "fcc": true
@@ -18712,6 +19890,13 @@
     "fcc": false
    },
    {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 1240,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 1000,
@@ -18899,6 +20084,13 @@
     "fcc": true
    },
    {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 11165,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 9230,
@@ -19003,6 +20195,13 @@
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 13018,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 6791,
     "cycle": 0,
     "fcc": true
    },
@@ -20306,8 +21505,8 @@
     "fcc": true
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 56323,
     "cycle": 56323,
     "fcc": true
@@ -20329,8 +21528,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 42939,
     "cycle": 7000,
     "fcc": true
@@ -20620,8 +21819,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 5000,
     "cycle": 0,
     "fcc": true
@@ -21018,6 +22217,15 @@
     "fcc": true
    }
   ],
+  "1590": [
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 42792,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1591": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -21105,8 +22313,8 @@
     "fcc": false
    },
    {
-    "k": "CROSSROADSMEDIA",
-    "n": "Crossroads Media",
+    "k": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+    "n": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
     "usd": 291333,
     "cycle": 0,
     "fcc": true
@@ -21337,8 +22545,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 7460,
     "cycle": 4375,
     "fcc": true
@@ -21910,8 +23118,8 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 15940,
-    "cycle": 0,
+    "usd": 16015,
+    "cycle": 75,
     "fcc": true
    },
    {
@@ -21938,8 +23146,8 @@
     "fcc": true
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 70407,
     "cycle": 0,
     "fcc": true
@@ -22023,8 +23231,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 30900,
     "cycle": 0,
     "fcc": true
@@ -22211,10 +23419,19 @@
     "fcc": true
    }
   ],
+  "1755": [
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 15000,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1757": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 2250,
     "cycle": 0,
     "fcc": true
@@ -22372,8 +23589,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 25744,
     "cycle": 0,
     "fcc": true
@@ -22708,6 +23925,13 @@
     "usd": 20348,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 4589,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "GELPIPRODUCTIONSERVICES",
@@ -23131,8 +24355,8 @@
     "fcc": false
    },
    {
-    "k": "CROSSROADSMEDIA",
-    "n": "Crossroads Media",
+    "k": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+    "n": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
     "usd": 1000,
     "cycle": 0,
     "fcc": true
@@ -23634,8 +24858,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 6162,
     "cycle": 0,
     "fcc": true
@@ -23689,6 +24913,13 @@
     "usd": 32647,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 29304,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "CAMCOCONSULT",
@@ -23870,6 +25101,13 @@
     "usd": 5000,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 2000,
+    "cycle": 2000,
+    "fcc": true
    }
   ],
   "2021": [
@@ -24050,8 +25288,8 @@
   ],
   "2052": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 94668,
     "cycle": 0,
     "fcc": true
@@ -24295,6 +25533,15 @@
     "fcc": false
    }
   ],
+  "2089": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 7819,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "2092": [
    {
     "k": "OURSOBEYCHOK",
@@ -24320,6 +25567,15 @@
     "usd": 151810,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2097": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 7635,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2098": [
@@ -24503,6 +25759,15 @@
     "usd": 6000,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2133": [
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 1525,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2135": [
@@ -24690,8 +25955,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 3625,
     "cycle": 0,
     "fcc": true
@@ -24873,6 +26138,15 @@
     "usd": 4331,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2192": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 4650,
+    "cycle": 4650,
+    "fcc": true
    }
   ],
   "2195": [
@@ -25444,6 +26718,13 @@
     "usd": 41375,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "HOLBROOKMEDIA",
+    "n": "Holbrook Media",
+    "usd": 29877,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2297": [
@@ -25959,8 +27240,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 3092,
     "cycle": 0,
     "fcc": true
@@ -26155,8 +27436,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 1964,
     "cycle": 0,
     "fcc": true
@@ -26302,8 +27583,8 @@
   ],
   "2615": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 23524,
     "cycle": 0,
     "fcc": true
@@ -26316,6 +27597,15 @@
     "usd": 8786,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2620": [
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 89781,
+    "cycle": 89781,
+    "fcc": true
    }
   ],
   "2631": [
@@ -26445,8 +27735,8 @@
   ],
   "2666": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 40410,
     "cycle": 0,
     "fcc": true
@@ -26614,10 +27904,10 @@
   ],
   "2701": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
-    "usd": 18967,
-    "cycle": 0,
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
+    "usd": 21294,
+    "cycle": 2327,
     "fcc": true
    },
    {
@@ -27192,8 +28482,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 17210,
     "cycle": 14475,
     "fcc": true
@@ -27307,8 +28597,8 @@
   ],
   "2822": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 61834,
     "cycle": 0,
     "fcc": true
@@ -28371,8 +29661,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 1350,
     "cycle": 0,
     "fcc": true
@@ -28407,8 +29697,8 @@
   ],
   "3121": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 4881,
     "cycle": 0,
     "fcc": true
@@ -28437,8 +29727,8 @@
     "fcc": true
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 5000,
     "cycle": 5000,
     "fcc": true
@@ -29297,6 +30587,15 @@
     "fcc": true
    }
   ],
+  "3378": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 10351,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "3379": [
    {
     "k": "POLITICALFIRM",
@@ -29796,8 +31095,8 @@
   ],
   "3457": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 3012,
     "cycle": 0,
     "fcc": true
@@ -29964,8 +31263,8 @@
   ],
   "3550": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 8896,
     "cycle": 0,
     "fcc": true
@@ -30062,8 +31361,8 @@
   ],
   "3577": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 1749,
     "cycle": 0,
     "fcc": true
@@ -30214,6 +31513,13 @@
     "fcc": false
    },
    {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 2000,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 2000,
@@ -30228,6 +31534,15 @@
     "usd": 68977,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "366": [
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 160687,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3660": [
@@ -30387,8 +31702,8 @@
    {
     "k": "OURSOBEYCHOK",
     "n": "Ourso Beychok",
-    "usd": 2141559,
-    "cycle": 382610,
+    "usd": 2148279,
+    "cycle": 389330,
     "fcc": false
    },
    {
@@ -30670,8 +31985,8 @@
   ],
   "3852": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 7500,
     "cycle": 0,
     "fcc": true
@@ -30736,6 +32051,13 @@
     "fcc": false
    },
    {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 6000,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 3949,
@@ -30752,8 +32074,8 @@
   ],
   "3875": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 33627,
     "cycle": 0,
     "fcc": true
@@ -31004,8 +32326,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 5523,
     "cycle": 0,
     "fcc": true
@@ -31054,8 +32376,8 @@
   ],
   "3952": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 1799,
     "cycle": 0,
     "fcc": true
@@ -31330,8 +32652,8 @@
     "fcc": true
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 17463,
     "cycle": 0,
     "fcc": true
@@ -31822,8 +33144,8 @@
   ],
   "4137": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 1208,
     "cycle": 0,
     "fcc": true
@@ -31838,8 +33160,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 36785,
     "cycle": 36785,
     "fcc": true
@@ -32446,6 +33768,15 @@
     "fcc": false
    }
   ],
+  "4239": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 22530,
+    "cycle": 22530,
+    "fcc": true
+   }
+  ],
   "4242": [
    {
     "k": "QUESTCOMMCONSULT",
@@ -32584,8 +33915,8 @@
   ],
   "4267": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 10550,
     "cycle": 0,
     "fcc": true
@@ -32684,8 +34015,8 @@
   ],
   "4296": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 11577,
     "cycle": 0,
     "fcc": true
@@ -33282,8 +34613,8 @@
   ],
   "4443": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 136735,
     "cycle": 136735,
     "fcc": true
@@ -33536,15 +34867,15 @@
    {
     "k": "GOBIGMEDIA",
     "n": "Go Big Media",
-    "usd": 31711,
-    "cycle": 31711,
+    "usd": 31756,
+    "cycle": 31756,
     "fcc": false
    }
   ],
   "4500": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 104706,
     "cycle": 49350,
     "fcc": true
@@ -33587,6 +34918,13 @@
     "k": "MAGNOLIAMEDIA",
     "n": "Magnolia Media",
     "usd": 10059,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "HOLBROOKMEDIA",
+    "n": "Holbrook Media",
+    "usd": 6500,
     "cycle": 0,
     "fcc": true
    },
@@ -33898,8 +35236,8 @@
   ],
   "4593": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 142061,
     "cycle": 142061,
     "fcc": true
@@ -33914,8 +35252,8 @@
   ],
   "4596": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 41779,
     "cycle": 6516,
     "fcc": true
@@ -33973,8 +35311,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 32625,
     "cycle": 32625,
     "fcc": true
@@ -34430,6 +35768,13 @@
     "usd": 29412,
     "cycle": 29412,
     "fcc": false
+   },
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 2953,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4804": [
@@ -34484,8 +35829,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 2875,
     "cycle": 0,
     "fcc": true
@@ -35392,8 +36737,8 @@
   ],
   "515": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 5548,
     "cycle": 0,
     "fcc": true
@@ -35467,6 +36812,13 @@
   ],
   "5168": [
    {
+    "k": "ANGIESANDERSAD",
+    "n": "Angie Sanders Ad Group",
+    "usd": 55576,
+    "cycle": 25558,
+    "fcc": true
+   },
+   {
     "k": "QUESTCOMMCONSULT",
     "n": "Questcomm Consultants",
     "usd": 1723,
@@ -35526,8 +36878,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 36692,
     "cycle": 0,
     "fcc": true
@@ -35539,6 +36891,15 @@
     "n": "The Political Firm",
     "usd": 91556,
     "cycle": 0,
+    "fcc": false
+   }
+  ],
+  "5209": [
+   {
+    "k": "ROUGAROUCONSULT",
+    "n": "Rougarou Consulting",
+    "usd": 1443,
+    "cycle": 1443,
     "fcc": false
    }
   ],
@@ -35837,8 +37198,8 @@
   ],
   "5304": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 44443,
     "cycle": 44443,
     "fcc": true
@@ -35862,8 +37223,8 @@
     "fcc": false
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 4000,
     "cycle": 4000,
     "fcc": true
@@ -35871,8 +37232,8 @@
   ],
   "5319": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 45064,
     "cycle": 0,
     "fcc": true
@@ -36904,8 +38265,8 @@
   ],
   "5643": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 29240,
     "cycle": 0,
     "fcc": true
@@ -37293,8 +38654,8 @@
   ],
   "5877": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 12704,
     "cycle": 11704,
     "fcc": true
@@ -37434,10 +38795,17 @@
   ],
   "5907": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 34079,
     "cycle": 31472,
+    "fcc": true
+   },
+   {
+    "k": "ANGIESANDERSAD",
+    "n": "Angie Sanders Ad Group",
+    "usd": 9660,
+    "cycle": 9660,
     "fcc": true
    }
   ],
@@ -37651,6 +39019,15 @@
     "fcc": false
    }
   ],
+  "5960": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 30353,
+    "cycle": 30353,
+    "fcc": true
+   }
+  ],
   "5967": [
    {
     "k": "QUESTCOMMCONSULT",
@@ -37731,6 +39108,15 @@
     "usd": 21152,
     "cycle": 21152,
     "fcc": false
+   }
+  ],
+  "5977": [
+   {
+    "k": "ANGIESANDERSAD",
+    "n": "Angie Sanders Ad Group",
+    "usd": 11953,
+    "cycle": 11953,
+    "fcc": true
    }
   ],
   "5979": [
@@ -37858,8 +39244,8 @@
   ],
   "6009": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 12900,
     "cycle": 12900,
     "fcc": true
@@ -38027,8 +39413,8 @@
   ],
   "6058": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 34344,
     "cycle": 34344,
     "fcc": true
@@ -38167,8 +39553,8 @@
   ],
   "6110": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 36543,
     "cycle": 36543,
     "fcc": true
@@ -38210,8 +39596,8 @@
   ],
   "6127": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 21324,
     "cycle": 21324,
     "fcc": true
@@ -38253,8 +39639,8 @@
   ],
   "6157": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 30831,
     "cycle": 30831,
     "fcc": true
@@ -38476,8 +39862,8 @@
   ],
   "6267": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 34748,
     "cycle": 34748,
     "fcc": true
@@ -38791,6 +40177,13 @@
   ],
   "6356": [
    {
+    "k": "MHBMEDIA",
+    "n": "MHB Media",
+    "usd": 10102,
+    "cycle": 10102,
+    "fcc": true
+   },
+   {
     "k": "DEVISESTRATEGY",
     "n": "Devise Strategy Group",
     "usd": 8631,
@@ -38882,8 +40275,8 @@
   ],
   "6416": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 26975,
     "cycle": 26975,
     "fcc": true
@@ -38975,8 +40368,8 @@
   ],
   "6465": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 16300,
     "cycle": 16300,
     "fcc": true
@@ -39009,8 +40402,8 @@
     "fcc": true
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 21403,
     "cycle": 21403,
     "fcc": true
@@ -39034,8 +40427,8 @@
   ],
   "6495": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 51428,
     "cycle": 51428,
     "fcc": true
@@ -39164,6 +40557,13 @@
   ],
   "653": [
    {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 130117,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "ROYFLETCHER",
     "n": "Roy Fletcher",
     "usd": 76028,
@@ -39255,8 +40655,8 @@
   ],
   "6540": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 9975,
     "cycle": 9975,
     "fcc": true
@@ -39305,8 +40705,8 @@
   ],
   "6553": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 3100,
     "cycle": 3100,
     "fcc": true
@@ -39448,8 +40848,8 @@
   ],
   "6594": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 24775,
     "cycle": 24775,
     "fcc": true
@@ -39595,8 +40995,8 @@
   ],
   "6719": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 42338,
     "cycle": 42338,
     "fcc": true
@@ -39780,8 +41180,8 @@
   ],
   "6782": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 26340,
     "cycle": 26340,
     "fcc": true
@@ -40134,6 +41534,15 @@
     "fcc": true
    }
   ],
+  "7104": [
+   {
+    "k": "BULLSEYEMEDIA",
+    "n": "Bull's Eye Media",
+    "usd": 1314,
+    "cycle": 1314,
+    "fcc": true
+   }
+  ],
   "711": [
    {
     "k": "QUESTCOMMUNICATIONS",
@@ -40163,8 +41572,8 @@
   ],
   "7161": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 22335,
     "cycle": 22335,
     "fcc": true
@@ -40498,8 +41907,8 @@
    {
     "k": "CYBERMEDIAONE",
     "n": "Cyber Media One",
-    "usd": 8815,
-    "cycle": 8815,
+    "usd": 18315,
+    "cycle": 18315,
     "fcc": false
    },
    {
@@ -40583,6 +41992,13 @@
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 253022,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 51394,
     "cycle": 0,
     "fcc": true
    }
@@ -40782,8 +42198,8 @@
   ],
   "8036": [
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 11083,
     "cycle": 11083,
     "fcc": true
@@ -40795,6 +42211,22 @@
     "n": "Fire On The Bayou",
     "usd": 6203,
     "cycle": 0,
+    "fcc": false
+   }
+  ],
+  "8111": [
+   {
+    "k": "EASONADVERTISINGAGENCY",
+    "n": "Eason Advertising Agency",
+    "usd": 17736,
+    "cycle": 17736,
+    "fcc": true
+   },
+   {
+    "k": "BURNINGSTICKCREATIVE",
+    "n": "Burning Stick Creative",
+    "usd": 6240,
+    "cycle": 6240,
     "fcc": false
    }
   ],
@@ -41255,6 +42687,13 @@
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 21671,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 11776,
     "cycle": 0,
     "fcc": true
    }
@@ -41777,6 +43216,13 @@
   ],
   "975": [
    {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 41874,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 18406,
@@ -41894,6 +43340,13 @@
     "usd": 6500,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "BUISSONCREATIVE",
+    "n": "Buisson Creative",
+    "usd": 5000,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "992": [
@@ -42033,8 +43486,8 @@
     "fcc": true
    },
    {
-    "k": "CAPITALBUSINESSSERVICES",
-    "n": "Capital Business Services",
+    "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
+    "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 54557,
     "cycle": 4800,
     "fcc": true
@@ -43032,6 +44485,10 @@
    "Ann Murry Keller",
    "OTH"
   ],
+  "1590": [
+   "Timothy Kerner",
+   "REP"
+  ],
   "1591": [
    "Ben Zahn",
    "REP"
@@ -43303,6 +44760,10 @@
   "1754": [
    "Jude Gravois",
    "DEM"
+  ],
+  "1755": [
+   "Stephen Windhorst",
+   "OTH"
   ],
   "1757": [
    "Gerald T. (Jerry) Arbour",
@@ -43804,6 +45265,10 @@
    "Anh Joseph Cao",
    "OTH"
   ],
+  "2089": [
+   "Marshall Montgomery",
+   "REP"
+  ],
   "2092": [
    "Ronnie Jett",
    "DEM"
@@ -43815,6 +45280,10 @@
   "2094": [
    "Holly Boffy",
    "REP"
+  ],
+  "2097": [
+   "Craig P. Spikes",
+   "IND"
   ],
   "2098": [
    "Jerome Hopewell",
@@ -43859,6 +45328,10 @@
   "2132": [
    "Sharon W. Hewitt",
    "REP"
+  ],
+  "2133": [
+   "Mark Spears",
+   "DEM"
   ],
   "2135": [
    "Gregory D. Lord, M.D.",
@@ -43955,6 +45428,10 @@
   "2191": [
    "Chad Lauga",
    "DEM"
+  ],
+  "2192": [
+   "Walter Russell Campbell",
+   "REP"
   ],
   "2195": [
    "Edgar Shannon Cooper",
@@ -44390,6 +45867,10 @@
   ],
   "2617": [
    "Gideon T. Carter, III",
+   "DEM"
+  ],
+  "2620": [
+   "Edwin M. Shorty, Jr.",
    "DEM"
   ],
   "2631": [
@@ -45268,6 +46749,10 @@
    "John E Atkins",
    "REP"
   ],
+  "3378": [
+   "Carol Ross",
+   "REP"
+  ],
   "3379": [
    "Paula Davis",
    "REP"
@@ -45523,6 +47008,10 @@
   "3654": [
    "John Robert Stephens",
    "REP"
+  ],
+  "366": [
+   "Bruce Lizana",
+   "OTH"
   ],
   "3660": [
    "Brenda Babin",
@@ -46119,6 +47608,10 @@
   "4233": [
    "Les Femmes Political Action Committee",
    "OTH"
+  ],
+  "4239": [
+   "Jesse Garrett Regan",
+   "REP"
   ],
   "4242": [
    "Bruce E. Hampton",
@@ -47048,6 +48541,10 @@
    "John F. Watts",
    "REP"
   ],
+  "5209": [
+   "Satrica Williams - Bensadat",
+   "OTH"
+  ],
   "5211": [
    "Rhonda Goode-Douglas",
    "DEM"
@@ -47696,6 +49193,10 @@
    "Robert Wooley",
    "OTH"
   ],
+  "5960": [
+   "Cynthia Simon Spadoni",
+   "REP"
+  ],
   "5967": [
    "Melissa Cumpton Morris",
    "REP"
@@ -47719,6 +49220,10 @@
   "5976": [
    "LIVINGSTON RISING PAC",
    "OTH"
+  ],
+  "5977": [
+   "Sabrina Racer",
+   "REP"
   ],
   "5979": [
    "Gary \"Stitch\" Guillory",
@@ -48392,6 +49897,10 @@
    "Tiffany Delery",
    "OTH"
   ],
+  "7104": [
+   "Wesley K. Elmer",
+   "OTH"
+  ],
   "711": [
    "Steve Rogers",
    "OTH"
@@ -48571,6 +50080,10 @@
   "81": [
    "Paul Sens",
    "DEM"
+  ],
+  "8111": [
+   "James Klock",
+   "OTH"
   ],
   "812": [
    "Joel Robideaux",

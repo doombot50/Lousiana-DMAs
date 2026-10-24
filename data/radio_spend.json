@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-24",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1502917,
- "data_through": "2026-10-22",
+ "rows_scanned": 1503252,
+ "data_through": "2026-10-23",
  "years_covered": [
   2000,
   2026
@@ -10,8 +10,8 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13210656.38,
- "gov_year_share": 0.5455,
+ "total_spend": 13212772.38,
+ "gov_year_share": 0.5454,
  "by_year": {
   "2000": 27912.25,
   "2001": 14308.0,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 144430.81
+  "2026": 146546.81
  },
  "stations": [
   {
@@ -1326,73 +1326,6 @@
    ]
   },
   {
-   "call": "KQKI",
-   "city": "Bayou Vista",
-   "market": "(unrated)",
-   "format": "Country",
-   "category": "Country",
-   "owner": "Local",
-   "bands": [
-    "FM"
-   ],
-   "spend": 154064.55,
-   "rows": 209,
-   "committees": 55,
-   "avg_buy": 737.15,
-   "by_year": {
-    "2002": 752.5,
-    "2003": 2694.5,
-    "2004": 48.0,
-    "2007": 2874.75,
-    "2011": 16664.65,
-    "2012": 765.0,
-    "2014": 4070.0,
-    "2015": 28450.81,
-    "2017": 6751.0,
-    "2018": 16613.0,
-    "2019": 30136.2,
-    "2020": 7212.0,
-    "2021": 1000.0,
-    "2022": 2700.0,
-    "2023": 27962.14,
-    "2024": 2215.0,
-    "2025": 2780.0,
-    "2026": 375.0
-   },
-   "top_committees": [
-    {
-     "name": "Vincent J. St. Blanc III",
-     "party": "REP",
-     "filer": "4610",
-     "amount": 19461.0
-    },
-    {
-     "name": "Robert Allain, III",
-     "party": "REP",
-     "filer": "5795",
-     "amount": 14084.14
-    },
-    {
-     "name": "Natchez Morice",
-     "party": "REP",
-     "filer": "4404",
-     "amount": 8250.0
-    },
-    {
-     "name": "Robert (Bret) Allain",
-     "party": "REP",
-     "filer": "1422",
-     "amount": 8014.31
-    },
-    {
-     "name": "David Hanagriff",
-     "party": "DEM",
-     "filer": "3429",
-     "amount": 7250.0
-    }
-   ]
-  },
-  {
    "call": "KZWA",
    "city": "Lake Charles",
    "market": "Lake Charles",
@@ -1402,10 +1335,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 152843.46,
-   "rows": 177,
+   "spend": 154859.46,
+   "rows": 178,
    "committees": 55,
-   "avg_buy": 863.52,
+   "avg_buy": 870.0,
    "by_year": {
     "2000": 2370.0,
     "2002": 1848.2,
@@ -1428,7 +1361,7 @@
     "2021": 397.0,
     "2022": 1734.2,
     "2023": 9435.6,
-    "2026": 5291.0
+    "2026": 7307.0
    },
    "top_committees": [
     {
@@ -1460,6 +1393,73 @@
      "party": "DEM",
      "filer": "930",
      "amount": 7700.02
+    }
+   ]
+  },
+  {
+   "call": "KQKI",
+   "city": "Bayou Vista",
+   "market": "(unrated)",
+   "format": "Country",
+   "category": "Country",
+   "owner": "Local",
+   "bands": [
+    "FM"
+   ],
+   "spend": 154164.55,
+   "rows": 210,
+   "committees": 56,
+   "avg_buy": 734.12,
+   "by_year": {
+    "2002": 752.5,
+    "2003": 2694.5,
+    "2004": 48.0,
+    "2007": 2874.75,
+    "2011": 16664.65,
+    "2012": 765.0,
+    "2014": 4070.0,
+    "2015": 28450.81,
+    "2017": 6751.0,
+    "2018": 16613.0,
+    "2019": 30136.2,
+    "2020": 7212.0,
+    "2021": 1000.0,
+    "2022": 2700.0,
+    "2023": 27962.14,
+    "2024": 2215.0,
+    "2025": 2780.0,
+    "2026": 475.0
+   },
+   "top_committees": [
+    {
+     "name": "Vincent J. St. Blanc III",
+     "party": "REP",
+     "filer": "4610",
+     "amount": 19461.0
+    },
+    {
+     "name": "Robert Allain, III",
+     "party": "REP",
+     "filer": "5795",
+     "amount": 14084.14
+    },
+    {
+     "name": "Natchez Morice",
+     "party": "REP",
+     "filer": "4404",
+     "amount": 8250.0
+    },
+    {
+     "name": "Robert (Bret) Allain",
+     "party": "REP",
+     "filer": "1422",
+     "amount": 8014.31
+    },
+    {
+     "name": "David Hanagriff",
+     "party": "DEM",
+     "filer": "3429",
+     "amount": 7250.0
     }
    ]
   },
@@ -4264,7 +4264,7 @@
    ]
   }
  ],
- "classified_spend": 11170091.98,
+ "classified_spend": 11172207.98,
  "unclassified_tail": {
   "amount": 2040564.4,
   "stations": 254,
@@ -4273,12 +4273,12 @@
  "categories": [
   {
    "category": "Black-audience",
-   "spend": 3815669.53,
+   "spend": 3817685.53,
    "stations": 19,
-   "rows": 2233,
+   "rows": 2234,
    "committees": 391,
-   "avg_buy": 1708.76,
-   "share": 0.2888
+   "avg_buy": 1708.9,
+   "share": 0.2889
   },
   {
    "category": "News/Talk",
@@ -4287,15 +4287,15 @@
    "rows": 1357,
    "committees": 303,
    "avg_buy": 2642.94,
-   "share": 0.2715
+   "share": 0.2714
   },
   {
    "category": "Country",
-   "spend": 1643618.85,
+   "spend": 1643718.85,
    "stations": 12,
-   "rows": 1309,
-   "committees": 265,
-   "avg_buy": 1255.63,
+   "rows": 1310,
+   "committees": 266,
+   "avg_buy": 1254.75,
    "share": 0.1244
   },
   {
@@ -4359,7 +4359,7 @@
    "rows": 0,
    "committees": 0,
    "avg_buy": 0,
-   "share": 0.1545
+   "share": 0.1544
   }
  ],
  "owners": [
@@ -4371,9 +4371,9 @@
   },
   {
    "owner": "Local",
-   "spend": 2243421.26,
+   "spend": 2245537.26,
    "stations": 23,
-   "share": 0.1698
+   "share": 0.17
   },
   {
    "owner": "Audacy",
@@ -4897,14 +4897,14 @@
   }
  ],
  "caveats": {
-  "classified_share": 0.8455,
+  "classified_share": 0.8456,
   "unclassified_station_shaped": {
    "amount": 2040564.4,
    "calls": 254,
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
   "name_collisions_rejected": {
-   "amount": 9112038.68,
+   "amount": 9112444.68,
    "examples": [
     "WORD",
     "WEST",
