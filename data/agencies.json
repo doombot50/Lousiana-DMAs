@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-24",
  "data_through": "2026-10-22",
  "cycle_from": 2023,
- "documents_read": 1068,
+ "documents_read": 1316,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -169,22 +169,22 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
-    "priced": 4,
-    "usd": 42700,
+    "docs": 8,
+    "priced": 5,
+    "usd": 56640,
     "stations": [
      "008048",
      "WDSU"
     ],
     "clients": [
-     "Burris/R/LA Supreme Court Dist 1",
      "Protect St. Tammany's Future",
      "Echols/R/22 Jud District Court - DivE",
+     "Burris/R/LA Supreme Court Dist 1",
      "Ellie Schroder Campaign",
      "Schroder/R/BESE Dist 1"
     ],
     "first": "2026-05-12",
-    "last": "2026-10-14",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -328,9 +328,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 72,
-    "priced": 62,
-    "usd": 1276278,
+    "docs": 73,
+    "priced": 63,
+    "usd": 1303203,
     "stations": [
      "KLAX",
      "KPXJ",
@@ -344,6 +344,7 @@
      "Accountabllity Project",
      "Maga Energy Project",
      "Electronic Payments Coalition",
+     "Accountabiilty Project",
      "original Date / Revision",
      "Accountablilty Project"
     ],
@@ -388,6 +389,62 @@
    }
   },
   {
+   "key": "TOTALVIDEOPLACEMENTS",
+   "name": "Total Video Placements",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 53,
+    "priced": 50,
+    "usd": 1678475,
+    "stations": [
+     "008048",
+     "KPXJ",
+     "KTBS",
+     "WDSU",
+     "WJBO"
+    ],
+    "clients": [
+     "Louisiana Freedom Fund",
+     "Loulsiana Freedom Fund",
+     "Loulstana Freedom Fund",
+     "Original Date 7 Revision",
+     "Public First Action",
+     "Loulslana Freedom Fund",
+     "Louistana Freedom Fund"
+    ],
+    "first": "2026-01-30",
+    "last": "2026-07-29",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1003,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2004": 1003
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "801",
+      "n": "Steven G. (Buzz) Durio",
+      "p": "REP",
+      "usd": 1003,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "TOTAL VIDEO"
+    ]
+   }
+  },
+  {
    "key": "AXMEDIA",
    "name": "Ax Media",
    "found_by": "political file",
@@ -396,17 +453,18 @@
     "priced": 7,
     "usd": 62778,
     "stations": [
+     "KSLA",
      "KTBS",
      "WDSU"
     ],
     "clients": [
      "Downing/R/LA State Supreme Court Dist 1"
     ],
-    "first": "2026-02-02",
-    "last": "2026-10-16",
+    "first": "2026-01-23",
+    "last": "2026-10-23",
     "away": {
-     "docs": 10,
-     "usd": 166570,
+     "docs": 13,
+     "usd": 174755,
      "clients": [
       "Chris Spencer Campaign",
       "Ken Paxton Victory Fund-Senate",
@@ -549,60 +607,6 @@
    }
   },
   {
-   "key": "TOTALVIDEOPLACEMENTS",
-   "name": "Total Video Placements",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 47,
-    "priced": 45,
-    "usd": 1502185,
-    "stations": [
-     "008048",
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Louisiana Freedom Fund",
-     "Loulsiana Freedom Fund",
-     "Loulstana Freedom Fund",
-     "Original Date 7 Revision",
-     "Public First Action",
-     "Louistana Freedom Fund"
-    ],
-    "first": "2026-02-05",
-    "last": "2026-07-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1003,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2004": 1003
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "801",
-      "n": "Steven G. (Buzz) Durio",
-      "p": "REP",
-      "usd": 1003,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "TOTAL VIDEO"
-    ]
-   }
-  },
-  {
    "key": "AMERICANMEDIAANDADVOCACY",
    "name": "American Media & Advocacy Group",
    "found_by": "filings",
@@ -684,15 +688,17 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 11,
-    "priced": 10,
-    "usd": 178925,
+    "docs": 16,
+    "priced": 11,
+    "usd": 200705,
     "stations": [
      "004321",
+     "008564",
      "KPXJ",
      "KTBS"
     ],
     "clients": [
+     "John E Atkins Campaign",
      "John Atkins-La Public Service Comm.District",
      "Protect Louisiana Values",
      "John Atkins-La Publle Service Comm.District",
@@ -1017,7 +1023,7 @@
    "name": "SRCPmedia",
    "found_by": "political file",
    "fcc": {
-    "docs": 95,
+    "docs": 113,
     "priced": 66,
     "usd": 541100,
     "stations": [
@@ -1141,27 +1147,30 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 28,
-    "priced": 26,
-    "usd": 457570,
+    "docs": 32,
+    "priced": 29,
+    "usd": 483295,
     "stations": [
      "005341",
+     "KARD",
      "KPXJ",
      "KTBS",
+     "KTVE",
      "WDSU"
     ],
     "clients": [
      "Mike Johnson for Louisiana",
      "Scalise/R/Congress",
-     "Mike Johnson for Loulsiana",
      "Mike Johnson for Loulslana",
+     "Mike Johnson for Loulsiana",
+     "Mike Echols/US Congress/LA/Rep",
      "Mike Johnson for Louistana",
      "Mike Johnson for Louislana",
      "Mike Johnson for Loulstana",
      "Scalise for Congress"
     ],
     "first": "2026-04-20",
-    "last": "2026-10-20",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1676,20 +1685,20 @@
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
-    "priced": 9,
-    "usd": 90605,
+    "docs": 12,
+    "priced": 12,
+    "usd": 120345,
     "stations": [
      "WDSU"
     ],
     "clients": [
      "Young/R/LA Public Service Commissioner Dist 1",
-     "Brocato/R/JP 1st Court Div",
      "McMahon/R/JP 24th JDC Judge",
-     "Raines/R/JP First Parish Court, Div"
+     "Brocato/R/JP 1st Court Div",
+     "Raines/R/JP First Parish Court Div"
     ],
     "first": "2026-04-30",
-    "last": "2026-10-16",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1853,9 +1862,9 @@
    "name": "Brabender Cox",
    "found_by": "political file",
    "fcc": {
-    "docs": 17,
-    "priced": 17,
-    "usd": 238175,
+    "docs": 18,
+    "priced": 18,
+    "usd": 256410,
     "stations": [
      "KLAX",
      "KPXJ",
@@ -1871,7 +1880,7 @@
      "Griginal Date 7 Revision"
     ],
     "first": "2026-02-20",
-    "last": "2026-10-14",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -3030,80 +3039,6 @@
    }
   },
   {
-   "key": "CANALPARTNERSMEDIA",
-   "name": "Canal Partners Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 6,
-    "priced": 6,
-    "usd": 45710,
-    "stations": [
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Davis/D/US Senate",
-     "Jamie Davis for US Senate",
-     "Jamle Davis for US Senate"
-    ],
-    "first": "2026-10-14",
-    "last": "2026-10-22",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 396193,
-    "media": 362975,
-    "rows": 10,
-    "media_cycle": 100000,
-    "cycle": 100000,
-    "years": {
-     "2015": 54003,
-     "2018": 238975,
-     "2021": 3215,
-     "2025": 100000
-    },
-    "committees": 4,
-    "top": [
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 100000,
-      "cycle": 100000
-     },
-     {
-      "f": "4332",
-      "n": "Move EBR, Inc.",
-      "p": "OTH",
-      "usd": 238975,
-      "cycle": 0
-     },
-     {
-      "f": "1564",
-      "n": "Dorothy Sue Hill",
-      "p": "DEM",
-      "usd": 54003,
-      "cycle": 0
-     },
-     {
-      "f": "5290",
-      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
-      "p": "OTH",
-      "usd": 3215,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CANAL PARTNERS MEDIA"
-    ]
-   }
-  },
-  {
    "key": "TARGETENTERPRISES",
    "name": "Target Enterprises",
    "found_by": "filings",
@@ -3477,6 +3412,63 @@
     ],
     "spellings": [
      "RMGSGR, LLC"
+    ]
+   }
+  },
+  {
+   "key": "MEDIUMBUYING",
+   "name": "Medium Buying",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 16,
+    "priced": 4,
+    "usd": 127100,
+    "stations": [
+     "002460",
+     "WAFB",
+     "WBRZ",
+     "WJBO"
+    ],
+    "clients": [
+     "Club for Growth"
+    ],
+    "first": "2026-09-18",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 900,
+    "media": 400,
+    "rows": 2,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 900
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "2055",
+      "n": "Jeff Thompson",
+      "p": "REP",
+      "usd": 500,
+      "cycle": 0
+     },
+     {
+      "f": "1777",
+      "n": "Charles F. (Chuck) Wagner, Jr.",
+      "p": "DEM",
+      "usd": 400,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MEDIUM BUYING",
+     "MEDIUM BUYING LLC"
     ]
    }
   },
@@ -4191,6 +4183,77 @@
    }
   },
   {
+   "key": "CANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+   "name": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSLA",
+     "WBRZ"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S. SENATE"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 396193,
+    "media": 362975,
+    "rows": 10,
+    "media_cycle": 100000,
+    "cycle": 100000,
+    "years": {
+     "2015": 54003,
+     "2018": 238975,
+     "2021": 3215,
+     "2025": 100000
+    },
+    "committees": 4,
+    "top": [
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 100000,
+      "cycle": 100000
+     },
+     {
+      "f": "4332",
+      "n": "Move EBR, Inc.",
+      "p": "OTH",
+      "usd": 238975,
+      "cycle": 0
+     },
+     {
+      "f": "1564",
+      "n": "Dorothy Sue Hill",
+      "p": "DEM",
+      "usd": 54003,
+      "cycle": 0
+     },
+     {
+      "f": "5290",
+      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
+      "p": "OTH",
+      "usd": 3215,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CANAL PARTNERS MEDIA"
+    ]
+   }
+  },
+  {
    "key": "JAMESHARTMANANDASSOCIATES",
    "name": "James Hartman & Associates",
    "found_by": "filings",
@@ -4344,7 +4407,7 @@
    "name": "Capital Business Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 14,
     "priced": 3,
     "usd": 10850,
     "stations": [
@@ -4355,8 +4418,8 @@
      "Raise The Bar PAC",
      "Wendy Edwards for Family Court"
     ],
-    "first": "2026-05-22",
-    "last": "2026-10-22",
+    "first": "2026-04-28",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -4785,6 +4848,33 @@
    }
   },
   {
+   "key": "CANALPARTNERSMEDIA",
+   "name": "Canal Partners Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 9,
+    "priced": 9,
+    "usd": 81550,
+    "stations": [
+     "KPXJ",
+     "KTBS",
+     "WDSU"
+    ],
+    "clients": [
+     "Davis/D/US Senate",
+     "Jamle Davis for US Senate",
+     "Jamie Davis for US Senate"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "WINPARTNERS",
    "name": "Win Partners",
    "found_by": "filings",
@@ -4928,6 +5018,41 @@
    }
   },
   {
+   "key": "ELECTRICSYMPHONYMEDIA",
+   "name": "Electric Symphony Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 40,
+    "priced": 12,
+    "usd": 77415,
+    "stations": [
+     "KTBS",
+     "WBRZ",
+     "WJBO"
+    ],
+    "clients": [
+     "Blake Miguez for Congress",
+     "Miguez for Louisiana",
+     "Blake Miguez for Senate",
+     "Alan Seabaugh",
+     "Blake Miguez for U.S. Congress"
+    ],
+    "first": "2026-01-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 23,
+     "usd": 289490,
+     "clients": [
+      "Dan Patrick for Lt Governor",
+      "Josh Bray for Texas Campaign",
+      "Josh Bray for Texas Campalgn",
+      "xans United for a Conservative Majority PA",
+      "Kelley Crisp for District Attorney"
+     ]
+    }
+   }
+  },
+  {
    "key": "POLITICALCOMMUNICATIONSADVERTISING",
    "name": "Political Communications Advertising",
    "found_by": "filings",
@@ -5017,33 +5142,112 @@
    }
   },
   {
-   "key": "ELECTRICSYMPHONYMEDIA",
-   "name": "Electric Symphony Media",
+   "key": "LOUISIANANETWORK",
+   "name": "THE LOUISIANA NETWORK",
    "found_by": "political file",
    "fcc": {
-    "docs": 20,
-    "priced": 10,
-    "usd": 58695,
+    "docs": 23,
+    "priced": 12,
+    "usd": 59795,
     "stations": [
-     "KTBS",
-     "WJBO"
+     "WJBO",
+     "WRNO",
+     "WYNK"
     ],
     "clients": [
-     "Blake Miguez for Congress",
-     "Alan Seabaugh"
+     "Fleming for Louisiana",
+     "Congresswoman Julia Letlow",
+     "Save My Louisiana.Org",
+     "Moms Protecting Children"
     ],
-    "first": "2026-02-02",
-    "last": "2026-10-21",
+    "first": "2026-02-09",
+    "last": "2026-09-16",
     "away": {
-     "docs": 18,
-     "usd": 260590,
-     "clients": [
-      "Dan Patrick for Lt Governor",
-      "Josh Bray for Texas Campaign",
-      "Josh Bray for Texas Campalgn",
-      "Kelley Crisp for District Attorney"
-     ]
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
+   },
+   "paid": {
+    "total": 178010,
+    "media": 0,
+    "rows": 36,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2000": 18190,
+     "2001": 16800,
+     "2002": 37975,
+     "2003": 46720,
+     "2004": 1050,
+     "2005": 13600,
+     "2006": 16750,
+     "2012": 25000,
+     "2020": 1925
+    },
+    "committees": 8,
+    "top": [
+     {
+      "f": "6",
+      "n": "M. J. (Mike) Foster, Jr.",
+      "p": "OTH",
+      "usd": 61600,
+      "cycle": 0
+     },
+     {
+      "f": "658",
+      "n": "Melinda Schwegmann",
+      "p": "OTH",
+      "usd": 29920,
+      "cycle": 0
+     },
+     {
+      "f": "1597",
+      "n": "LA Federation of Teachers PAC",
+      "p": "OTH",
+      "usd": 25000,
+      "cycle": 0
+     },
+     {
+      "f": "595",
+      "n": "Louisiana Association of Educators (LAE PAC)",
+      "p": "OTH",
+      "usd": 24140,
+      "cycle": 0
+     },
+     {
+      "f": "306",
+      "n": "Louisiana Sheriffs' and Deputies' PAC",
+      "p": "OTH",
+      "usd": 18000,
+      "cycle": 0
+     },
+     {
+      "f": "31",
+      "n": "Kathleen Babineaux Blanco",
+      "p": "DEM",
+      "usd": 16750,
+      "cycle": 0
+     },
+     {
+      "f": "179",
+      "n": "Foster L. Campbell, Jr.",
+      "p": "DEM",
+      "usd": 2300,
+      "cycle": 0
+     },
+     {
+      "f": "336",
+      "n": "Business Affairs Research Program",
+      "p": "OTH",
+      "usd": 300,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "LOUISIANA NETWORK INC",
+     "LOUISIANA NETWORK"
+    ]
    }
   },
   {
@@ -5226,61 +5430,6 @@
     "spellings": [
      "PINPOINT MEDIA LLC",
      "PINPOINT MEDIA"
-    ]
-   }
-  },
-  {
-   "key": "MEDIUMBUYING",
-   "name": "Medium Buying",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 13,
-    "priced": 3,
-    "usd": 52500,
-    "stations": [
-     "002460",
-     "WJBO"
-    ],
-    "clients": [
-     "Club for Growth"
-    ],
-    "first": "2026-09-18",
-    "last": "2026-10-21",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 900,
-    "media": 400,
-    "rows": 2,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 900
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "2055",
-      "n": "Jeff Thompson",
-      "p": "REP",
-      "usd": 500,
-      "cycle": 0
-     },
-     {
-      "f": "1777",
-      "n": "Charles F. (Chuck) Wagner, Jr.",
-      "p": "DEM",
-      "usd": 400,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MEDIUM BUYING",
-     "MEDIUM BUYING LLC"
     ]
    }
   },
@@ -5477,175 +5626,6 @@
    }
   },
   {
-   "key": "TAYLORMEDIASERVICES",
-   "name": "Taylor Media Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 6,
-    "priced": 2,
-    "usd": 26100,
-    "stations": [
-     "KRVE",
-     "WYNK"
-    ],
-    "clients": [
-     "Sherman Mack for DA"
-    ],
-    "first": "2026-09-19",
-    "last": "2026-09-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1218601,
-    "media": 22617,
-    "rows": 311,
-    "media_cycle": 8774,
-    "cycle": 336303,
-    "years": {
-     "2002": 2587,
-     "2003": 11609,
-     "2007": 15000,
-     "2009": 3371,
-     "2010": 1134,
-     "2011": 215786,
-     "2012": 104853,
-     "2013": 33632,
-     "2014": 44387,
-     "2015": 225718,
-     "2016": 22357,
-     "2017": 50700,
-     "2018": 21066,
-     "2019": 48571,
-     "2020": 74733,
-     "2021": 1194,
-     "2022": 5601,
-     "2023": 81605,
-     "2024": 48000,
-     "2025": 31226,
-     "2026": 175472
-    },
-    "committees": 41,
-    "top": [
-     {
-      "f": "1475",
-      "n": "Sherman Q. Mack",
-      "p": "REP",
-      "usd": 129035,
-      "cycle": 121535
-     },
-     {
-      "f": "1314",
-      "n": "Blair Edwards",
-      "p": "REP",
-      "usd": 48937,
-      "cycle": 48937
-     },
-     {
-      "f": "1836",
-      "n": "Jeffrey Taylor",
-      "p": "REP",
-      "usd": 155288,
-      "cycle": 32331
-     },
-     {
-      "f": "6488",
-      "n": "Lindon Bennett Magee",
-      "p": "REP",
-      "usd": 30000,
-      "cycle": 30000
-     },
-     {
-      "f": "6534",
-      "n": "Jenny Richardson Fore",
-      "p": "REP",
-      "usd": 28500,
-      "cycle": 28500
-     },
-     {
-      "f": "3679",
-      "n": "Rick Edmonds",
-      "p": "REP",
-      "usd": 30000,
-      "cycle": 15000
-     },
-     {
-      "f": "1706",
-      "n": "Jeffrey F. Wiley",
-      "p": "REP",
-      "usd": 20000,
-      "cycle": 15000
-     },
-     {
-      "f": "2800",
-      "n": "Jean-Paul Coussan",
-      "p": "REP",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "1723",
-      "n": "Eddie J. Lambert",
-      "p": "REP",
-      "usd": 55953,
-      "cycle": 12500
-     },
-     {
-      "f": "5579",
-      "n": "Elizabeth Murrill",
-      "p": "REP",
-      "usd": 10000,
-      "cycle": 10000
-     },
-     {
-      "f": "5876",
-      "n": "Jeff Bergeron",
-      "p": "IND",
-      "usd": 5500,
-      "cycle": 5500
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 2000,
-      "cycle": 2000
-     },
-     {
-      "f": "1722",
-      "n": "Jeff Hughes",
-      "p": "REP",
-      "usd": 103284,
-      "cycle": 0
-     },
-     {
-      "f": "204",
-      "n": "Dale Erdey",
-      "p": "REP",
-      "usd": 70485,
-      "cycle": 0
-     },
-     {
-      "f": "692",
-      "n": "Mack (Bodi) White",
-      "p": "REP",
-      "usd": 62140,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "TAYLOR MEDIA SERVICES",
-     "TAYLOR MEDIA",
-     "TAYLOR MEDIA LLC",
-     "TAYLOR MEDIA SERVICE",
-     "TAYLOR MEDIA, LLC"
-    ]
-   }
-  },
-  {
    "key": "DECIELOMEDIA",
    "name": "De! Cielo Media",
    "found_by": "political file",
@@ -5669,118 +5649,13 @@
    }
   },
   {
-   "key": "LOUISIANANETWORK",
-   "name": "THE LOUISIANA NETWORK",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 11,
-    "priced": 6,
-    "usd": 32585,
-    "stations": [
-     "WRNO"
-    ],
-    "clients": [
-     "Fleming for Louisiana",
-     "Moms Protecting Children"
-    ],
-    "first": "2026-05-08",
-    "last": "2026-09-16",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 178010,
-    "media": 0,
-    "rows": 36,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2000": 18190,
-     "2001": 16800,
-     "2002": 37975,
-     "2003": 46720,
-     "2004": 1050,
-     "2005": 13600,
-     "2006": 16750,
-     "2012": 25000,
-     "2020": 1925
-    },
-    "committees": 8,
-    "top": [
-     {
-      "f": "6",
-      "n": "M. J. (Mike) Foster, Jr.",
-      "p": "OTH",
-      "usd": 61600,
-      "cycle": 0
-     },
-     {
-      "f": "658",
-      "n": "Melinda Schwegmann",
-      "p": "OTH",
-      "usd": 29920,
-      "cycle": 0
-     },
-     {
-      "f": "1597",
-      "n": "LA Federation of Teachers PAC",
-      "p": "OTH",
-      "usd": 25000,
-      "cycle": 0
-     },
-     {
-      "f": "595",
-      "n": "Louisiana Association of Educators (LAE PAC)",
-      "p": "OTH",
-      "usd": 24140,
-      "cycle": 0
-     },
-     {
-      "f": "306",
-      "n": "Louisiana Sheriffs' and Deputies' PAC",
-      "p": "OTH",
-      "usd": 18000,
-      "cycle": 0
-     },
-     {
-      "f": "31",
-      "n": "Kathleen Babineaux Blanco",
-      "p": "DEM",
-      "usd": 16750,
-      "cycle": 0
-     },
-     {
-      "f": "179",
-      "n": "Foster L. Campbell, Jr.",
-      "p": "DEM",
-      "usd": 2300,
-      "cycle": 0
-     },
-     {
-      "f": "336",
-      "n": "Business Affairs Research Program",
-      "p": "OTH",
-      "usd": 300,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "LOUISIANA NETWORK INC",
-     "LOUISIANA NETWORK"
-    ]
-   }
-  },
-  {
    "key": "CARVINCONSULT",
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
-    "priced": 8,
-    "usd": 26400,
+    "docs": 9,
+    "priced": 9,
+    "usd": 28630,
     "stations": [
      "WDSU"
     ],
@@ -5791,7 +5666,7 @@
      "Barthelemy/D/State Senate Dist 3"
     ],
     "first": "2026-02-05",
-    "last": "2026-10-19",
+    "last": "2026-10-23",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -6082,7 +5957,7 @@
    "name": "Littlefield & Associates Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 17,
+    "docs": 21,
     "priced": 2,
     "usd": 27450,
     "stations": [
@@ -6092,7 +5967,7 @@
     "clients": [
      "Cajun PAC II"
     ],
-    "first": "2026-07-31",
+    "first": "2026-05-05",
     "last": "2026-08-25",
     "away": {
      "docs": 0,
@@ -6138,6 +6013,30 @@
     "spellings": [
      "LITTLEFIELD & ASSOCIATES CONSULTING"
     ]
+   }
+  },
+  {
+   "key": "TAYLORMEDIASERVICES",
+   "name": "Taylor Media Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 2,
+    "usd": 26100,
+    "stations": [
+     "KRVE",
+     "WYNK"
+    ],
+    "clients": [
+     "Sherman Mack for DA"
+    ],
+    "first": "2026-09-19",
+    "last": "2026-09-29",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -6369,6 +6268,76 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "FLEXPOINTMEDIA",
+   "name": "FlexPoint Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 15,
+    "priced": 11,
+    "usd": 17860,
+    "stations": [
+     "KLAX",
+     "KPLC",
+     "KPXJ",
+     "KTBS",
+     "WNTZ"
+    ],
+    "clients": [
+     "Firment For Congress",
+     "Michael Gabriel Firment/Congres",
+     "Strong ND Fund"
+    ],
+    "first": "2026-09-11",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 18,
+     "usd": 2273500,
+     "clients": [
+      "Texas Pac",
+      "SOriginal Date 7 Revision"
+     ]
+    }
+   },
+   "paid": {
+    "total": 7756209,
+    "media": 3388477,
+    "rows": 39,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 7756209
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "4383",
+      "n": "Edward L. Rispone",
+      "p": "REP",
+      "usd": 7640459,
+      "cycle": 0
+     },
+     {
+      "f": "4927",
+      "n": "Republican State Leadership Committee - Louisiana",
+      "p": "OTH",
+      "usd": 97012,
+      "cycle": 0
+     },
+     {
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 18739,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FLEXPOINT MEDIA INC",
+     "FLEXPOINT MEDIA INC."
+    ]
    }
   },
   {
@@ -6933,75 +6902,6 @@
    }
   },
   {
-   "key": "FLEXPOINTMEDIA",
-   "name": "FlexPoint Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 12,
-    "priced": 10,
-    "usd": 16125,
-    "stations": [
-     "KLAX",
-     "KPLC",
-     "KPXJ",
-     "KTBS",
-     "WNTZ"
-    ],
-    "clients": [
-     "Firment For Congress",
-     "Michael Gabriel Firment/Congres"
-    ],
-    "first": "2026-09-11",
-    "last": "2026-10-15",
-    "away": {
-     "docs": 17,
-     "usd": 2273500,
-     "clients": [
-      "Texas Pac",
-      "SOriginal Date 7 Revision"
-     ]
-    }
-   },
-   "paid": {
-    "total": 7756209,
-    "media": 3388477,
-    "rows": 39,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 7756209
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "4383",
-      "n": "Edward L. Rispone",
-      "p": "REP",
-      "usd": 7640459,
-      "cycle": 0
-     },
-     {
-      "f": "4927",
-      "n": "Republican State Leadership Committee - Louisiana",
-      "p": "OTH",
-      "usd": 97012,
-      "cycle": 0
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 18739,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FLEXPOINT MEDIA INC",
-     "FLEXPOINT MEDIA INC."
-    ]
-   }
-  },
-  {
    "key": "BRABENDERCOXII",
    "name": "Brabender Cox ii",
    "found_by": "political file",
@@ -7017,6 +6917,27 @@
     ],
     "first": "2026-03-02",
     "last": "2026-03-02",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "VENDOR",
+   "name": "Vendor",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 15025,
+    "stations": [
+     "KPLC"
+    ],
+    "clients": [],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7274,6 +7195,84 @@
    }
   },
   {
+   "key": "JBCOMMUNICATIONS",
+   "name": "JB Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 3,
+    "usd": 9402,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Mary/R/22nd JDC Div"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 133356,
+    "media": 3000,
+    "rows": 38,
+    "media_cycle": 3000,
+    "cycle": 133356,
+    "years": {
+     "2023": 9000,
+     "2024": 44987,
+     "2025": 6535,
+     "2026": 72834
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 53987,
+      "cycle": 53987
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 32669,
+      "cycle": 32669
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 25025,
+      "cycle": 25025
+     },
+     {
+      "f": "7263",
+      "n": "SAL BROCATO",
+      "p": "OTH",
+      "usd": 13925,
+      "cycle": 13925
+     },
+     {
+      "f": "7553",
+      "n": "ALFRED GALINDO",
+      "p": "OTH",
+      "usd": 7750,
+      "cycle": 7750
+     }
+    ],
+    "spellings": [
+     "JB COMMUNICATIONS LLC",
+     "JB COMMUNICATIONS"
+    ]
+   }
+  },
+  {
    "key": "SNEET",
    "name": "sn eet",
    "found_by": "political file",
@@ -7354,6 +7353,29 @@
    }
   },
   {
+   "key": "WOT",
+   "name": "wot",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 10855,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Conrad Cable for Congress"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "GP3MIXMEDIA",
    "name": "GP3 Mix Media",
    "found_by": "political file",
@@ -7374,6 +7396,58 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "ARMADASTRATEGIES",
+   "name": "Armada Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 3,
+    "usd": 10685,
+    "stations": [
+     "KLAX",
+     "KPXJ",
+     "KTBS",
+     "WNTZ"
+    ],
+    "clients": [
+     "Louisiana Growth & Future Fund",
+     "Louisiana Growth and Future Fund"
+    ],
+    "first": "2026-08-31",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 4,
+     "usd": 102770,
+     "clients": [
+      "Lone Star Liberty Pac"
+     ]
+    }
+   },
+   "paid": {
+    "total": 63788,
+    "media": 63788,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2022": 63788
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5914",
+      "n": "Delta Good Hand PAC",
+      "p": "OTH",
+      "usd": 63788,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "ARMADA STRATEGIES"
+    ]
    }
   },
   {
@@ -7420,6 +7494,30 @@
     "spellings": [
      "MEDIACONSULTANT CHERON BRYLSKI"
     ]
+   }
+  },
+  {
+   "key": "MARKETINGBLITZAD",
+   "name": "Marketing Blitz Ad Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 2,
+    "usd": 10000,
+    "stations": [
+     "WQUE",
+     "WYLD"
+    ],
+    "clients": [
+     "Jaimie Davis for US Senate"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -7574,54 +7672,168 @@
    }
   },
   {
-   "key": "ARMADASTRATEGIES",
-   "name": "Armada Strategies",
+   "key": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+   "name": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 8685,
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
     "stations": [
-     "KLAX",
-     "KPXJ",
-     "KTBS",
-     "WNTZ"
+     "WAFB"
     ],
-    "clients": [
-     "Louisiana Growth and Future Fund",
-     "Louisiana Growth & Future Fund"
-    ],
-    "first": "2026-08-31",
-    "last": "2026-10-14",
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
     "away": {
-     "docs": 4,
-     "usd": 102770,
-     "clients": [
-      "Lone Star Liberty Pac"
-     ]
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    },
    "paid": {
-    "total": 63788,
-    "media": 63788,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
+    "total": 1218601,
+    "media": 22617,
+    "rows": 311,
+    "media_cycle": 8774,
+    "cycle": 336303,
     "years": {
-     "2022": 63788
+     "2002": 2587,
+     "2003": 11609,
+     "2007": 15000,
+     "2009": 3371,
+     "2010": 1134,
+     "2011": 215786,
+     "2012": 104853,
+     "2013": 33632,
+     "2014": 44387,
+     "2015": 225718,
+     "2016": 22357,
+     "2017": 50700,
+     "2018": 21066,
+     "2019": 48571,
+     "2020": 74733,
+     "2021": 1194,
+     "2022": 5601,
+     "2023": 81605,
+     "2024": 48000,
+     "2025": 31226,
+     "2026": 175472
     },
-    "committees": 1,
+    "committees": 41,
     "top": [
      {
-      "f": "5914",
-      "n": "Delta Good Hand PAC",
-      "p": "OTH",
-      "usd": 63788,
+      "f": "1475",
+      "n": "Sherman Q. Mack",
+      "p": "REP",
+      "usd": 129035,
+      "cycle": 121535
+     },
+     {
+      "f": "1314",
+      "n": "Blair Edwards",
+      "p": "REP",
+      "usd": 48937,
+      "cycle": 48937
+     },
+     {
+      "f": "1836",
+      "n": "Jeffrey Taylor",
+      "p": "REP",
+      "usd": 155288,
+      "cycle": 32331
+     },
+     {
+      "f": "6488",
+      "n": "Lindon Bennett Magee",
+      "p": "REP",
+      "usd": 30000,
+      "cycle": 30000
+     },
+     {
+      "f": "6534",
+      "n": "Jenny Richardson Fore",
+      "p": "REP",
+      "usd": 28500,
+      "cycle": 28500
+     },
+     {
+      "f": "3679",
+      "n": "Rick Edmonds",
+      "p": "REP",
+      "usd": 30000,
+      "cycle": 15000
+     },
+     {
+      "f": "1706",
+      "n": "Jeffrey F. Wiley",
+      "p": "REP",
+      "usd": 20000,
+      "cycle": 15000
+     },
+     {
+      "f": "2800",
+      "n": "Jean-Paul Coussan",
+      "p": "REP",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "1723",
+      "n": "Eddie J. Lambert",
+      "p": "REP",
+      "usd": 55953,
+      "cycle": 12500
+     },
+     {
+      "f": "5579",
+      "n": "Elizabeth Murrill",
+      "p": "REP",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "5876",
+      "n": "Jeff Bergeron",
+      "p": "IND",
+      "usd": 5500,
+      "cycle": 5500
+     },
+     {
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 2000,
+      "cycle": 2000
+     },
+     {
+      "f": "1722",
+      "n": "Jeff Hughes",
+      "p": "REP",
+      "usd": 103284,
+      "cycle": 0
+     },
+     {
+      "f": "204",
+      "n": "Dale Erdey",
+      "p": "REP",
+      "usd": 70485,
+      "cycle": 0
+     },
+     {
+      "f": "692",
+      "n": "Mack (Bodi) White",
+      "p": "REP",
+      "usd": 62140,
       "cycle": 0
      }
     ],
     "spellings": [
-     "ARMADA STRATEGIES"
+     "TAYLOR MEDIA SERVICES",
+     "TAYLOR MEDIA",
+     "TAYLOR MEDIA LLC",
+     "TAYLOR MEDIA SERVICE",
+     "TAYLOR MEDIA, LLC"
     ]
    }
   },
@@ -7630,14 +7842,16 @@
    "name": "Brandon Guichard Digital Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 2,
     "usd": 8090,
     "stations": [
+     "WBRZ",
      "WDSU"
     ],
     "clients": [
      "Holmes/D/OP Crim Dist Court Div",
+     "JUSTICE PAC",
      "Jewett/D/Congress"
     ],
     "first": "2026-10-21",
@@ -7932,81 +8146,26 @@
    }
   },
   {
-   "key": "JBCOMMUNICATIONS",
-   "name": "JB Communications",
+   "key": "PEOPLEWHOTHINK",
+   "name": "People Who Think",
    "found_by": "political file",
    "fcc": {
     "docs": 2,
-    "priced": 2,
-    "usd": 3358,
+    "priced": 1,
+    "usd": 6000,
     "stations": [
-     "WDSU"
+     "WJBO"
     ],
     "clients": [
-     "Mary/R/22nd JDC Div"
+     "MAGA Energy Project Inc"
     ],
-    "first": "2026-10-14",
-    "last": "2026-10-16",
+    "first": "2026-03-13",
+    "last": "2026-03-14",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
-   },
-   "paid": {
-    "total": 133356,
-    "media": 3000,
-    "rows": 38,
-    "media_cycle": 3000,
-    "cycle": 133356,
-    "years": {
-     "2023": 9000,
-     "2024": 44987,
-     "2025": 6535,
-     "2026": 72834
-    },
-    "committees": 5,
-    "top": [
-     {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
-      "p": "REP",
-      "usd": 53987,
-      "cycle": 53987
-     },
-     {
-      "f": "6646",
-      "n": "Joseph R. McMahon III",
-      "p": "OTH",
-      "usd": 32669,
-      "cycle": 32669
-     },
-     {
-      "f": "7532",
-      "n": "Cameron M. Mary",
-      "p": "OTH",
-      "usd": 25025,
-      "cycle": 25025
-     },
-     {
-      "f": "7263",
-      "n": "SAL BROCATO",
-      "p": "OTH",
-      "usd": 13925,
-      "cycle": 13925
-     },
-     {
-      "f": "7553",
-      "n": "ALFRED GALINDO",
-      "p": "OTH",
-      "usd": 7750,
-      "cycle": 7750
-     }
-    ],
-    "spellings": [
-     "JB COMMUNICATIONS LLC",
-     "JB COMMUNICATIONS"
-    ]
    }
   },
   {
@@ -8149,6 +8308,92 @@
      "WYLD FM",
      "WYLD- FM",
      "WYLD - FM"
+    ]
+   }
+  },
+  {
+   "key": "QUESTCOMMUNICATIONCONSULT",
+   "name": "Quest Communication Consultants",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 4,
+    "usd": 4429,
+    "stations": [
+     "KARD",
+     "KTVE"
+    ],
+    "clients": [
+     "Robert Cherry/City Marshal/LA/Independent"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 172824,
+    "media": 57310,
+    "rows": 60,
+    "media_cycle": 0,
+    "cycle": 43524,
+    "years": {
+     "2011": 88302,
+     "2012": 5816,
+     "2013": 2817,
+     "2014": 650,
+     "2015": 14017,
+     "2016": 3003,
+     "2017": 1373,
+     "2019": 12822,
+     "2022": 500,
+     "2023": 16044,
+     "2024": 1437,
+     "2026": 26044
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6910",
+      "n": "James H. Colvin Jr. (JIM)",
+      "p": "OTH",
+      "usd": 26044,
+      "cycle": 26044
+     },
+     {
+      "f": "6199",
+      "n": "Toni Bacon",
+      "p": "REP",
+      "usd": 14147,
+      "cycle": 14147
+     },
+     {
+      "f": "2157",
+      "n": "Jay Russell",
+      "p": "REP",
+      "usd": 118134,
+      "cycle": 3334
+     },
+     {
+      "f": "3696",
+      "n": "Linda Taylor Cook",
+      "p": "IND",
+      "usd": 11000,
+      "cycle": 0
+     },
+     {
+      "f": "4465",
+      "n": "Michael D. Allen",
+      "p": "IND",
+      "usd": 3500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "QUEST COMMUNICATION CONSULTANTS"
     ]
    }
   },
@@ -8386,6 +8631,112 @@
    }
   },
   {
+   "key": "ORIONDIGITAL",
+   "name": "Orion Digital",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2870,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Barthelemy/D/State Senate Dist 3"
+    ],
+    "first": "2026-01-23",
+    "last": "2026-01-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 145281,
+    "media": 0,
+    "rows": 22,
+    "media_cycle": 0,
+    "cycle": 145281,
+    "years": {
+     "2024": 57559,
+     "2025": 4191,
+     "2026": 83531
+    },
+    "committees": 9,
+    "top": [
+     {
+      "f": "5061",
+      "n": "Vincent F. Wynne, Jr.",
+      "p": "REP",
+      "usd": 56559,
+      "cycle": 56559
+     },
+     {
+      "f": "4096",
+      "n": "William H. Burris",
+      "p": "REP",
+      "usd": 55106,
+      "cycle": 55106
+     },
+     {
+      "f": "4700",
+      "n": "St. George PAC",
+      "p": "OTH",
+      "usd": 26350,
+      "cycle": 26350
+     },
+     {
+      "f": "7366",
+      "n": "Hometown Louisiana Integrity Fund",
+      "p": "OTH",
+      "usd": 2464,
+      "cycle": 2464
+     },
+     {
+      "f": "6559",
+      "n": "Dustin Yates",
+      "p": "REP",
+      "usd": 1500,
+      "cycle": 1500
+     },
+     {
+      "f": "6561",
+      "n": "David Dellucci",
+      "p": "REP",
+      "usd": 1500,
+      "cycle": 1500
+     },
+     {
+      "f": "4565",
+      "n": "Three Rivers PAC",
+      "p": "OTH",
+      "usd": 691,
+      "cycle": 691
+     },
+     {
+      "f": "6826",
+      "n": "JONATHAN T GASPARD",
+      "p": "OTH",
+      "usd": 611,
+      "cycle": 611
+     },
+     {
+      "f": "6583",
+      "n": "Patty Cook",
+      "p": "REP",
+      "usd": 500,
+      "cycle": 500
+     }
+    ],
+    "spellings": [
+     "ORION DIGITAL MEDIA",
+     "ORION DIGITAL",
+     "ORION DIGITAL LLC"
+    ]
+   }
+  },
+  {
    "key": "ALPHAMEDIAANDPUBLICRELATIONS",
    "name": "Alpha Media and Public Relations",
    "found_by": "political file",
@@ -8549,6 +8900,71 @@
      "ALPHA MEDIA LLC",
      "ALPHA MEDIA, LLC",
      "ALPHAMEDIA"
+    ]
+   }
+  },
+  {
+   "key": "MLCWORKS",
+   "name": "MLCworks",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2545,
+    "stations": [
+     "KTAL"
+    ],
+    "clients": [
+     "Louisiana Department of the Treasury"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 5119,
+    "media": 0,
+    "rows": 12,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2015": 1450,
+     "2019": 669,
+     "2020": 800,
+     "2021": 1000,
+     "2022": 1200
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "1484",
+      "n": "John Schroder",
+      "p": "REP",
+      "usd": 2219,
+      "cycle": 0
+     },
+     {
+      "f": "491",
+      "n": "David Vitter",
+      "p": "REP",
+      "usd": 1450,
+      "cycle": 0
+     },
+     {
+      "f": "3314",
+      "n": "Louisiana Citizens for Job Creators Inc.",
+      "p": "OTH",
+      "usd": 1450,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MLC WORKS",
+     "MLCWORKS"
     ]
    }
   },
@@ -8798,6 +9214,29 @@
     ],
     "first": "2026-05-01",
     "last": "2026-05-01",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "KATZMEDIA",
+   "name": "Katz Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 3,
+    "usd": 1705,
+    "stations": [
+     "KROF"
+    ],
+    "clients": [
+     "m Accountability Project, Inc"
+    ],
+    "first": "2026-03-04",
+    "last": "2026-05-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -15849,6 +16288,96 @@
    }
   },
   {
+   "key": "AXMEDLA",
+   "name": "Ax Medla",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-01-30",
+    "last": "2026-01-30",
+    "away": {
+     "docs": 1,
+     "usd": 940,
+     "clients": [
+      "Chris Spencer Campalgn"
+     ]
+    }
+   }
+  },
+  {
+   "key": "BRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
+   "name": "BrabenderCox 1218 Grandview Ave Pittsburgh",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [
+     "Julia Letlow for Louisiana"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CNATHEMATICCAMPALGNSANNBREMER1720WDIVISIONCHICA",
+   "name": "C N/A Thematic Campalgns Ann Bremer (ann@viewpolntads.com) 1720 W Division Chica",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CNATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHIC",
+   "name": "C] N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chic",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Talarico for Texas"
+     ]
+    }
+   }
+  },
+  {
    "key": "CROSSROADSMEDLA",
    "name": "Crossroads Medla",
    "found_by": "political file",
@@ -15867,6 +16396,76 @@
      "usd": 0,
      "clients": [
       "Texans for Greg Abbott"
+     ]
+    }
+   }
+  },
+  {
+   "key": "DEBRASCHOMMERMEDIA",
+   "name": "Debra Schommer Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048"
+    ],
+    "clients": [
+     "Government that Works PAC"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "ESM",
+   "name": "ESM",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSLA",
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 4,
+     "usd": 0,
+     "clients": [
+      "Texans for Dan Patrick"
+     ]
+    }
+   }
+  },
+  {
+   "key": "ELECTRICSYMPHONYMEDLA",
+   "name": "Electric Symphony Medla",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-01-23",
+    "last": "2026-01-23",
+    "away": {
+     "docs": 1,
+     "usd": 6120,
+     "clients": [
+      "nited for a Conservative Majority PA"
      ]
     }
    }
@@ -15895,6 +16494,50 @@
    }
   },
   {
+   "key": "FRONTIERSTRATEGIES",
+   "name": "Frontier Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 94,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2014": 94
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "549",
+      "n": "John C. Reeves",
+      "p": "DEM",
+      "usd": 94,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FRONTIER STRATEGIES"
+    ]
+   }
+  },
+  {
    "key": "GENZ2SOLUTIONS",
    "name": "Genz2 Solutions",
    "found_by": "political file",
@@ -15910,6 +16553,52 @@
     ],
     "first": "2026-07-15",
     "last": "2026-07-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "GROSSROADSMEDLA66GANALCONTERPLAZASULLE558AOXANDRLA",
+   "name": "Grossroads Medla, LLC - 66 Ganal Conter Plaza, Sulle 558, Aoxandrla",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbolt - PO Box 308 Austin, TX"
+     ]
+    }
+   }
+  },
+  {
+   "key": "LNACANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1850ATLANTAGA",
+   "name": "L ] N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1850, Atlanta,.GA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S, SENATE"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -15964,6 +16653,29 @@
    }
   },
   {
+   "key": "MHPMEDIA",
+   "name": "MHP Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [
+     "Conservatives for American Excellence INC"
+    ],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "MAGNOLAMEDIA",
    "name": "Magnola Media",
    "found_by": "political file",
@@ -16004,6 +16716,27 @@
     "last": "2026-09-17",
     "away": {
      "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "THEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHICAGO",
+   "name": "Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chicago",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 1,
      "usd": 0,
      "clients": []
     }
@@ -16054,6 +16787,33 @@
      "usd": 35710,
      "clients": [
       "James Talarico For Senate (TX)"
+     ]
+    }
+   }
+  },
+  {
+   "key": "VIEWPOINTMEDIA",
+   "name": "Viewpoint Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY",
+     "KPXJ"
+    ],
+    "clients": [
+     "Together for School Meals",
+     "Together for Schoo! Meals"
+    ],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 2,
+     "usd": 0,
+     "clients": [
+      "Protect the North Dakota Constitution"
      ]
     }
    }
@@ -16129,6 +16889,101 @@
    }
   },
   {
+   "key": "NACANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+   "name": "[ N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY",
+     "WBRZ"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S. SENATE",
+     "Hillar Moore Campaign"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NACANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTAGA",
+   "name": "[ N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta,.GA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S, SENATE"
+    ],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NACANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1850ATLANTAGA",
+   "name": "[ N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1850, Atlanta,-GA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S. SENATE"
+    ],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAMEDIAADVENTURES",
+   "name": "[ N/A Media AdVentures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "Captain Higgins for Congress"
+    ],
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NAMENTZERMEDIASERVICESJAMIECROSSJCROSSMENTZERMEDIACOM",
    "name": "[ N/A Mentzer Media Services - Jamie Cross - Jcross@mentzermedia.com",
    "found_by": "political file",
@@ -16153,6 +17008,76 @@
    }
   },
   {
+   "key": "NATHEMATICCAMPAIGNSANNBREMERANNVIEWPOINTADSCOM1720WDIVISIONCHICA",
+   "name": "[ N/A Thematic Campaigns Ann Bremer {ann@viewpointads.com) 1720 w Division Chica",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Talarico for Texas"
+     ]
+    }
+   }
+  },
+  {
+   "key": "NAEESM",
+   "name": "[ N/A eEsM",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Dan Patrick"
+     ]
+    }
+   }
+  },
+  {
+   "key": "NAESM",
+   "name": "[ ]NA Esm",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-21",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 2,
+     "usd": 0,
+     "clients": [
+      "Texans for Dan Patrick",
+      "Texans for Dan Pattick"
+     ]
+    }
+   }
+  },
+  {
    "key": "NALITTLEFIELDCONSULT",
    "name": "[] N/A LITTLEFIELD CONSULTING",
    "found_by": "political file",
@@ -16173,6 +17098,117 @@
      "docs": 0,
      "usd": 0,
      "clients": []
+    }
+   }
+  },
+  {
+   "key": "OWEESU",
+   "name": "[owe esu",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Dan Patrick"
+     ]
+    }
+   }
+  },
+  {
+   "key": "WAERSENADVEDRISIME",
+   "name": "[wa ERSen Advedrisime",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [],
+    "first": "2026-10-21",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "ASNAMCMOJOSHUAMCGEE2635877JOSHMEMO",
+   "name": "as} N/A MCMO, LLC Joshua McGee 263-5877 josh@memo.co",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPLC"
+    ],
+    "clients": [],
+    "first": "2026-10-22",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "FNAAXMEDIA",
+   "name": "f N/A AxMedia",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-23",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Ken Paxton Victory Fund"
+     ]
+    }
+   }
+  },
+  {
+   "key": "RTNAGROSSROADSMEDIALLG68CANALCONTERPLAZASULTE555ALEXANDRIA",
+   "name": "rT] N/A Grossroads Media, LLG - 68 Canal Conter Plaza, Sulte 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abboll - PO Box 308 Austin, TX"
+     ]
     }
    }
   }
@@ -17193,8 +18229,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 15000,
     "cycle": 0,
     "fcc": true
@@ -18231,8 +19267,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 48937,
     "cycle": 48937,
     "fcc": true
@@ -18288,8 +19324,8 @@
   ],
   "1329": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 12544,
     "cycle": 0,
     "fcc": true
@@ -18476,8 +19512,8 @@
     "fcc": true
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 16000,
     "cycle": 0,
     "fcc": true
@@ -19263,8 +20299,8 @@
   ],
   "1475": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 129035,
     "cycle": 121535,
     "fcc": true
@@ -19363,6 +20399,13 @@
     "k": "MAGNOLIAMEDIA",
     "n": "Magnolia Media",
     "usd": 24805,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "MLCWORKS",
+    "n": "MLCworks",
+    "usd": 2219,
     "cycle": 0,
     "fcc": true
    },
@@ -19881,8 +20924,8 @@
   ],
   "1564": [
    {
-    "k": "CANALPARTNERSMEDIA",
-    "n": "Canal Partners Media",
+    "k": "CANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+    "n": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
     "usd": 54003,
     "cycle": 0,
     "fcc": true
@@ -20596,8 +21639,8 @@
     "fcc": true
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 8750,
     "cycle": 0,
     "fcc": true
@@ -20767,8 +21810,8 @@
   ],
   "1706": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 20000,
     "cycle": 15000,
     "fcc": true
@@ -20888,8 +21931,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 103284,
     "cycle": 0,
     "fcc": true
@@ -20904,8 +21947,8 @@
   ],
   "1723": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 55953,
     "cycle": 12500,
     "fcc": true
@@ -20987,8 +22030,8 @@
     "fcc": true
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 26100,
     "cycle": 0,
     "fcc": true
@@ -21813,8 +22856,8 @@
   ],
   "1836": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 155288,
     "cycle": 32331,
     "fcc": true
@@ -22950,8 +23993,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 70485,
     "cycle": 0,
     "fcc": true
@@ -23324,8 +24367,8 @@
   ],
   "2108": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 1000,
     "cycle": 0,
     "fcc": true
@@ -23480,8 +24523,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 8700,
     "cycle": 0,
     "fcc": true
@@ -23609,6 +24652,13 @@
    }
   ],
   "2157": [
+   {
+    "k": "QUESTCOMMUNICATIONCONSULT",
+    "n": "Quest Communication Consultants",
+    "usd": 118134,
+    "cycle": 3334,
+    "fcc": true
+   },
    {
     "k": "QUESTCOMMUNICATIONS",
     "n": "QUEST COMMUNICATIONS",
@@ -23973,8 +25023,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 24645,
     "cycle": 0,
     "fcc": true
@@ -25066,8 +26116,8 @@
   ],
   "2560": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 23002,
     "cycle": 0,
     "fcc": true
@@ -25571,8 +26621,8 @@
     "fcc": true
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 15563,
     "cycle": 0,
     "fcc": true
@@ -25614,8 +26664,8 @@
   ],
   "2720": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 3862,
     "cycle": 0,
     "fcc": true
@@ -26005,8 +27055,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -26311,8 +27361,8 @@
   ],
   "2835": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 6500,
     "cycle": 0,
     "fcc": true
@@ -26336,8 +27386,8 @@
   ],
   "2838": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 34417,
     "cycle": 0,
     "fcc": true
@@ -27935,6 +28985,13 @@
     "usd": 1500,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "MLCWORKS",
+    "n": "MLCworks",
+    "usd": 1450,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3318": [
@@ -28428,8 +29485,8 @@
   ],
   "3401": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 6552,
     "cycle": 0,
     "fcc": true
@@ -28552,8 +29609,8 @@
   ],
   "3418": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 40484,
     "cycle": 0,
     "fcc": true
@@ -29276,8 +30333,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 30000,
     "cycle": 15000,
     "fcc": true
@@ -29313,6 +30370,15 @@
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
     "n": "Alpha Media and Public Relations",
     "usd": 2785,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "3696": [
+   {
+    "k": "QUESTCOMMUNICATIONCONSULT",
+    "n": "Quest Communication Consultants",
+    "usd": 11000,
     "cycle": 0,
     "fcc": true
    }
@@ -30257,8 +31323,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 27500,
     "cycle": 0,
     "fcc": true
@@ -30443,8 +31509,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 17500,
     "cycle": 0,
     "fcc": true
@@ -30530,6 +31596,15 @@
     "usd": 9395,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "4096": [
+   {
+    "k": "ORIONDIGITAL",
+    "n": "Orion Digital",
+    "usd": 55106,
+    "cycle": 55106,
+    "fcc": true
    }
   ],
   "4097": [
@@ -31711,8 +32786,8 @@
   ],
   "4332": [
    {
-    "k": "CANALPARTNERSMEDIA",
-    "n": "Canal Partners Media",
+    "k": "CANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+    "n": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
     "usd": 238975,
     "cycle": 0,
     "fcc": true
@@ -32289,6 +33364,15 @@
     "n": "Alpha Media and Public Relations",
     "usd": 28123,
     "cycle": 28123,
+    "fcc": true
+   }
+  ],
+  "4465": [
+   {
+    "k": "QUESTCOMMUNICATIONCONSULT",
+    "n": "Quest Communication Consultants",
+    "usd": 3500,
+    "cycle": 0,
     "fcc": true
    }
   ],
@@ -33106,6 +34190,13 @@
   ],
   "4700": [
    {
+    "k": "ORIONDIGITAL",
+    "n": "Orion Digital",
+    "usd": 26350,
+    "cycle": 26350,
+    "fcc": true
+   },
+   {
     "k": "LR3CONSULT",
     "n": "Lr3 Consulting",
     "usd": 16000,
@@ -33192,8 +34283,8 @@
   ],
   "474": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 49211,
     "cycle": 0,
     "fcc": true
@@ -33534,6 +34625,13 @@
     "usd": 1500,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "MLCWORKS",
+    "n": "MLCworks",
+    "usd": 1450,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4916": [
@@ -33687,8 +34785,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 1687,
     "cycle": 0,
     "fcc": true
@@ -33965,6 +35063,13 @@
     "usd": 143977,
     "cycle": 0,
     "fcc": true
+   },
+   {
+    "k": "ORIONDIGITAL",
+    "n": "Orion Digital",
+    "usd": 56559,
+    "cycle": 56559,
+    "fcc": true
    }
   ],
   "5062": [
@@ -34005,8 +35110,8 @@
   ],
   "5069": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 16000,
     "cycle": 0,
     "fcc": true
@@ -34164,8 +35269,8 @@
   ],
   "5123": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 17846,
     "cycle": 0,
     "fcc": true
@@ -34173,8 +35278,8 @@
   ],
   "5128": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 24056,
     "cycle": 0,
     "fcc": true
@@ -34673,8 +35778,8 @@
   ],
   "5290": [
    {
-    "k": "CANALPARTNERSMEDIA",
-    "n": "Canal Partners Media",
+    "k": "CANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+    "n": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
     "usd": 3215,
     "cycle": 0,
     "fcc": true
@@ -35644,8 +36749,8 @@
     "fcc": true
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 10000,
     "cycle": 10000,
     "fcc": true
@@ -36179,8 +37284,8 @@
   ],
   "5876": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 5500,
     "cycle": 5500,
     "fcc": true
@@ -36594,8 +37699,8 @@
   ],
   "597": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 6500,
     "cycle": 0,
     "fcc": true
@@ -37221,6 +38326,15 @@
     "usd": 20000,
     "cycle": 20000,
     "fcc": false
+   }
+  ],
+  "6199": [
+   {
+    "k": "QUESTCOMMUNICATIONCONSULT",
+    "n": "Quest Communication Consultants",
+    "usd": 14147,
+    "cycle": 14147,
+    "fcc": true
    }
   ],
   "6206": [
@@ -37888,8 +39002,8 @@
   ],
   "6488": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 30000,
     "cycle": 30000,
     "fcc": true
@@ -38089,8 +39203,8 @@
   ],
   "6534": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 28500,
     "cycle": 28500,
     "fcc": true
@@ -38205,6 +39319,13 @@
     "usd": 36000,
     "cycle": 36000,
     "fcc": false
+   },
+   {
+    "k": "ORIONDIGITAL",
+    "n": "Orion Digital",
+    "usd": 1500,
+    "cycle": 1500,
+    "fcc": true
    }
   ],
   "656": [
@@ -38230,6 +39351,13 @@
     "usd": 12500,
     "cycle": 12500,
     "fcc": false
+   },
+   {
+    "k": "ORIONDIGITAL",
+    "n": "Orion Digital",
+    "usd": 1500,
+    "cycle": 1500,
+    "fcc": true
    }
   ],
   "6569": [
@@ -38329,8 +39457,8 @@
   ],
   "6596": [
    {
-    "k": "CANALPARTNERSMEDIA",
-    "n": "Canal Partners Media",
+    "k": "CANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+    "n": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
     "usd": 100000,
     "cycle": 100000,
     "fcc": true
@@ -38908,6 +40036,13 @@
     "usd": 32018,
     "cycle": 32018,
     "fcc": true
+   },
+   {
+    "k": "QUESTCOMMUNICATIONCONSULT",
+    "n": "Quest Communication Consultants",
+    "usd": 26044,
+    "cycle": 26044,
+    "fcc": true
    }
   ],
   "692": [
@@ -38926,8 +40061,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 62140,
     "cycle": 0,
     "fcc": true
@@ -39037,8 +40172,8 @@
   ],
   "717": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 11609,
     "cycle": 0,
     "fcc": true
@@ -39207,6 +40342,13 @@
     "usd": 5000,
     "cycle": 5000,
     "fcc": false
+   },
+   {
+    "k": "ORIONDIGITAL",
+    "n": "Orion Digital",
+    "usd": 2464,
+    "cycle": 2464,
+    "fcc": true
    }
   ],
   "74": [
@@ -40076,8 +41218,8 @@
   ],
   "903": [
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 36550,
     "cycle": 0,
     "fcc": true
@@ -40968,8 +42110,8 @@
     "fcc": false
    },
    {
-    "k": "TAYLORMEDIASERVICES",
-    "n": "Taylor Media Services",
+    "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
+    "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 2000,
     "cycle": 2000,
     "fcc": true
@@ -44418,6 +45560,10 @@
    "Barbara West Carpenter",
    "DEM"
   ],
+  "3696": [
+   "Linda Taylor Cook",
+   "IND"
+  ],
   "3700": [
    "Education Reform Now Advocacy",
    "OTH"
@@ -44761,6 +45907,10 @@
   "4093": [
    "Derrick Edwards",
    "DEM"
+  ],
+  "4096": [
+   "William H. Burris",
+   "REP"
   ],
   "4097": [
    "Judy Moore Vendetto",
@@ -45229,6 +46379,10 @@
   "4454": [
    "Larvadain, III Edward",
    "OTH"
+  ],
+  "4465": [
+   "Michael D. Allen",
+   "IND"
   ],
   "4467": [
    "Phillip Eric Tarver",
@@ -46732,6 +47886,10 @@
   ],
   "6196": [
    "Kim Carver",
+   "REP"
+  ],
+  "6199": [
+   "Toni Bacon",
    "REP"
   ],
   "6206": [

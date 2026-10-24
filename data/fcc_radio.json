@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-10-23T15:54:24Z",
+ "scraped": "2026-10-24T02:11:24Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "34377",
    "root_folder": "f0ae9f95-558c-277a-75dd-b2e28ffe51cb",
    "profile": "am-profile/wwl",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2017": "38eb5549-6323-1e6d-bd47-90c80751145c",
     "2018": "73751ad0-9e0e-9d04-16a4-de57a6bc586f",
@@ -33,6 +33,7 @@
     "Political Files/2026/Federal/US Senate/Bill Cassidy for Senate": "7f48d2d9-1377-715a-a7ea-cd508b55232f",
     "Political Files/2026/Local": "727d389e-6633-ee5b-1b85-bccd0fbb3425",
     "Political Files/2026/Local/Brian Brennan for Kenner City Council": "83908d0a-8afb-6f02-ae08-8a7e5fab59b6",
+    "Political Files/2026/Local/Cameron Mary Judge": "ec21a02f-dee1-4189-e29d-b0532eeaff57",
     "Political Files/2026/Local/Friends of Simone Levine": "861a7ac4-d40b-3026-99e0-ae71399c5771",
     "Political Files/2026/Local/Mike Marsiglia for Judge": "47005f53-fff7-89a5-2a3d-2a1cc4ca5b81",
     "Political Files/2026/Local/Sydney Barthelemy for Senate District 3": "7ba2c824-7919-3daf-1892-70aba516d0bc",
@@ -51,6 +52,33 @@
     "Political Files/2026/Terms and Disclosures/Invoices": "7243f4d2-d5ab-fccf-6e25-9268de5fb29b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Cameron Mary Judge",
+     "name": "3452042-WWL-Cameron Mary Judge-order",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T10:03:33-04:00",
+     "folder_id": "ec21a02f-dee1-4189-e29d-b0532eeaff57",
+     "file_id": "c7e3f920-a007-3cde-7ff4-25c2526bba76",
+     "file_manager_id": "92fdfc80-4c82-45c0-b132-344f59b466d4"
+    },
+    {
+     "path": "Political Files/2026/Local/Cameron Mary Judge",
+     "name": "3452042-WWL-Cameron Mary Judge-NAB p.2",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T10:03:32-04:00",
+     "folder_id": "ec21a02f-dee1-4189-e29d-b0532eeaff57",
+     "file_id": "9bdc3123-712b-5bc4-0d54-609c356fd113",
+     "file_manager_id": "abdc5d7a-4764-46a3-97bd-9d8d5eeec04c"
+    },
+    {
+     "path": "Political Files/2026/Local/Cameron Mary Judge",
+     "name": "3452042-WWL-Cameron Mary Judge-NAB p.1",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T10:03:30-04:00",
+     "folder_id": "ec21a02f-dee1-4189-e29d-b0532eeaff57",
+     "file_id": "ea345403-0882-7238-866b-5be2b96ce10c",
+     "file_manager_id": "65a48d0b-cbaf-4dc3-9897-f4d5403b146d"
+    },
     {
      "path": "Political Files/2026/Local/Mike Marsiglia for Judge",
      "name": "3451234-WWL-Mike Marsiglia for Judge-order",
@@ -735,7 +763,7 @@
    "facility_id": "60707",
    "root_folder": "49864aa4-4269-2f4d-cc27-6bb284bcc2cf",
    "profile": "am-profile/wyld",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "a465475b-29e4-fdd5-d1fc-706f085f0b17",
     "2015": "f67a1ebc-567e-38cb-d239-d19973103ed6",
@@ -753,10 +781,39 @@
    },
    "folders": {
     "Political Files/2026": "66c59055-0476-5222-5b56-f3b802adddbd",
+    "Political Files/2026/Federal": "14412a06-56aa-9fd6-4984-886a88c28782",
+    "Political Files/2026/Federal/US Senate": "d3939790-65ea-6f6d-78e0-d411b00bf745",
     "Political Files/2026/Non-Candidate Issue Ads": "cff52122-ac0d-1567-52d7-c6acc8154648",
     "Political Files/2026/State": "dbbe5c26-b557-75d3-64d8-cafee93cce80"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jamie_davis_for_us_senate_order_confirmation_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T09:53:25-04:00",
+     "folder_id": "d3939790-65ea-6f6d-78e0-d411b00bf745",
+     "file_id": "df2a44fe-e39d-2523-8250-79fa22f8ccda",
+     "file_manager_id": "190ffb0c-ad8a-460d-90b0-4aec03076e9c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jamie_davis_for_us_senate_nab_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T09:52:08-04:00",
+     "folder_id": "d3939790-65ea-6f6d-78e0-d411b00bf745",
+     "file_id": "65f3c00c-917f-0ed8-9c7f-12f1c4c0e2e4",
+     "file_manager_id": "9860821c-3543-4cd6-a5cb-5b1d4543388f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jaimie_davis_for_us_senate_order_confirmation_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T02:30:32-04:00",
+     "folder_id": "d3939790-65ea-6f6d-78e0-d411b00bf745",
+     "file_id": "6e026f1e-47c9-11c0-bb74-b02ca0e22ca0",
+     "file_manager_id": "813e973e-2062-4e78-95f5-9c0bc69d431e"
+    },
     {
      "path": "Political Files/2026/State",
      "name": "candace_newell_for_judge_division_l_order_confirmation_9001412928",
@@ -856,7 +913,7 @@
    "facility_id": "54890",
    "root_folder": "2c634176-7d25-f7b9-6f93-1df6083e7736",
    "profile": "fm-profile/wrno-fm",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "cbf5076c-a386-a661-007f-04219e8a41df",
     "2015": "0b768790-1e57-e958-6b83-ff3eed4ee6c7",
@@ -2394,7 +2451,7 @@
    "facility_id": "11915",
    "root_folder": "593affec-3748-8fab-612a-c0f829ef734c",
    "profile": "fm-profile/wque-fm",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "098af428-b143-6a5d-9c60-c113cd91f997",
     "2015": "5db0f113-dec9-2dcc-b051-38b24f52574e",
@@ -2412,9 +2469,38 @@
    },
    "folders": {
     "Political Files/2026": "f8022aee-e4a2-8d77-c8f7-b6f396b84174",
+    "Political Files/2026/Federal": "09d5f226-f27e-0eb9-2c75-f8972fa264b7",
+    "Political Files/2026/Federal/US Senate": "18fcaa63-cd04-c0e0-3472-0a5b3adbdb7d",
     "Political Files/2026/Non-Candidate Issue Ads": "f14d33bb-a809-4f01-eb84-e3aef4161174"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jamie_davis_for_us_senate_order_confirmation_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T09:53:25-04:00",
+     "folder_id": "18fcaa63-cd04-c0e0-3472-0a5b3adbdb7d",
+     "file_id": "4d47d776-e588-1095-9f75-ec3401908de9",
+     "file_manager_id": "1f989a9f-b3fc-4223-a528-cc7130bd8302"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jamie_davis_for_us_senate_nab_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T09:52:08-04:00",
+     "folder_id": "18fcaa63-cd04-c0e0-3472-0a5b3adbdb7d",
+     "file_id": "ce1ca6fd-b050-46fb-fe45-b5529fcc8d27",
+     "file_manager_id": "eafe8a8d-ac8b-4462-b9a4-ca3a138bc998"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jaimie_davis_for_us_senate_order_confirmation_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T02:30:27-04:00",
+     "folder_id": "18fcaa63-cd04-c0e0-3472-0a5b3adbdb7d",
+     "file_id": "d5d40b70-721e-eeed-85c7-cbc649e5fcc5",
+     "file_manager_id": "d78d6959-19b9-45d9-a8ec-a20bc8ad7420"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "voice_of_the_experienced_order_confirmation_1923743462",
@@ -2523,7 +2609,7 @@
    "facility_id": "12682",
    "root_folder": "5f817903-4735-2b57-e988-4aac3edae047",
    "profile": "am-profile/kpel",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "d022ecb2-8215-4bf2-e3c8-fbc7b8d42d2a",
     "2015": "dbed64b7-5bca-073d-7315-b6c9685b394c",
@@ -2625,7 +2711,7 @@
    "facility_id": "4054",
    "root_folder": "7a26cfff-38dd-e41c-8521-21d394e9d42a",
    "profile": "am-profile/wjbo",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "372007e5-244c-e8d6-662f-3d768451f313",
     "2015": "c51a627d-df94-e1b0-d6ad-49b9aa6edb5c",
@@ -2650,6 +2736,15 @@
     "Political Files/2026/Non-Candidate Issue Ads": "f31077ea-05a1-ca1d-18dd-eb0023da05ce"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "wendy_edwards_for_family_court_judge_order_confirmation_9001413137",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T02:28:32-04:00",
+     "folder_id": "ef5cc10c-fdd1-6a2e-4a65-0f6ab8dd58cd",
+     "file_id": "19659ca0-2812-829b-ca85-d1dbdfd055ad",
+     "file_manager_id": "9c2d8569-3dfe-42ca-bd2e-6408f075ec02"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "wendy_edwards_for_family_court_judge_order_confirmation_9001413137",
@@ -5845,7 +5940,7 @@
    "facility_id": "46983",
    "root_folder": "f5c9ed49-1e9e-0987-42e8-1a5f5ac5a2bb",
    "profile": "am-profile/keel",
-   "scraped_at": "2026-10-23T01:43:32Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "30b2b76d-7e1a-c097-c846-5fefcdecfbe8",
     "2015": "c5764378-5b4e-ecae-effc-22ebef86b221",
@@ -10833,7 +10928,7 @@
    "facility_id": "21854",
    "root_folder": "4d60fd37-d32f-e6b2-9b04-83513b928ab4",
    "profile": "fm-profile/kmxh",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "738acbba-6ea8-90e0-dc57-fa752dc58601",
     "2015": "a6a4602c-0d8d-2852-cf05-948b35fc76f0",
@@ -10861,7 +10956,7 @@
    "facility_id": "52140",
    "root_folder": "6d6179d8-1215-6862-32bb-316b72c5e88a",
    "profile": "fm-profile/kjae",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "75ff7c89-76d1-a682-1ac7-542b9eecf9e7",
     "2015": "f274480f-47d5-1b56-0501-36543e09ae8b",
@@ -10889,7 +10984,7 @@
    "facility_id": "183335",
    "root_folder": "8b585c54-6e16-b09a-d90e-1f566a0cc7c6",
    "profile": "fm-profile/klwb-fm",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "5bebe751-af5a-c479-3f3b-131a2df7c688",
     "2015": "3b5ec2fe-523b-321e-0cbf-ec1fe0a7e4e4",
@@ -10946,7 +11041,7 @@
    "facility_id": "46982",
    "root_folder": "6d023677-4273-2cc5-fc89-2d794e3e58e4",
    "profile": "fm-profile/kxks-fm",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "350611de-ec32-4f63-024e-2fa4f8c7b15a",
     "2015": "47c6b7d2-a8c9-a620-f181-e590361253e5",
@@ -11331,7 +11426,7 @@
    "facility_id": "70233",
    "root_folder": "ba09fc58-2ec5-767e-ccee-e3df128f7f93",
    "profile": "am-profile/kvpi",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "1e929571-f198-ebe5-2d66-88e4394e3ad8",
     "2015": "7445c76c-fc1d-f5af-d33b-f0eb4e810221",
@@ -11428,7 +11523,7 @@
    "facility_id": "342",
    "root_folder": "77174ab8-85a7-2d24-7e6e-fa4911e2f380",
    "profile": "am-profile/ksig",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "650826a9-5d50-b6d8-e9e5-f2f3735c0f3e",
     "2015": "3fe7409d-c505-bcbf-ecc3-0492a51847d7",
@@ -11485,7 +11580,7 @@
    "facility_id": "16436",
    "root_folder": "e87799bc-c920-f81c-322d-9eeec90aeb9b",
    "profile": "fm-profile/kdks-fm",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "8c8d195e-003c-5175-eecb-294215b1370c",
     "2015": "33050e08-1719-260f-16ed-d035b90e220a",
@@ -11503,11 +11598,67 @@
    },
    "folders": {
     "Political Files/2026": "16c34748-230d-3107-f836-8f98b103df33",
+    "Political Files/2026/Federal": "f6122598-cb32-7647-a82b-cb426f12053e",
+    "Political Files/2026/Federal/US Senate": "64908d67-9096-6978-a39a-85cf04586ccf",
     "Political Files/2026/Local": "686f5a68-4464-8a40-cd7b-87775477aab6",
     "Political Files/2026/Non-Candidate Issue Ads": "82990373-08a8-05db-1347-5574857c25d4",
     "Political Files/2026/State": "c26e7446-c50f-1873-4c0c-774a2b27cca7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KDKS KHARMEN DAVIS-TAYLOR FOR SHREVEPORT CITY COURT JUDGE 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:37:47-04:00",
+     "folder_id": "686f5a68-4464-8a40-cd7b-87775477aab6",
+     "file_id": "da593180-e65e-02c6-a819-0a0d0ba2c5c6",
+     "file_manager_id": "c545db9d-7100-4a99-bb09-59f63487ed43"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KDKS HANH WILLIAMS FOR SHREVEPORT CITY COUNCIL 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:11:35-04:00",
+     "folder_id": "686f5a68-4464-8a40-cd7b-87775477aab6",
+     "file_id": "3ed89b3d-99bd-6383-09c5-b99c66e2d4f5",
+     "file_manager_id": "631d8462-303e-4d9c-9ea4-d81732dcf031"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KDKS STORMY GAGE-WATTS FOR SHREVEPORT MAYOR 10-22",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:11:35-04:00",
+     "folder_id": "686f5a68-4464-8a40-cd7b-87775477aab6",
+     "file_id": "f89b727a-900a-205c-1b50-22605f6d42e8",
+     "file_manager_id": "de6bd199-ce60-477f-b762-7a2dee4f5d2e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026KDKS JAMIE DAVIS FOR US SENATE 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:09:17-04:00",
+     "folder_id": "64908d67-9096-6978-a39a-85cf04586ccf",
+     "file_id": "a8503c47-f77b-d27d-dac6-817e25a78668",
+     "file_manager_id": "679f437d-5047-4583-829a-b0e70d138344"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KDKS COMMITTEE TO RE-ELECT DA JAMES STEWART 10-22",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T17:16:33-04:00",
+     "folder_id": "686f5a68-4464-8a40-cd7b-87775477aab6",
+     "file_id": "13aa7f0a-40f5-73f0-927b-d304c5e93bcc",
+     "file_manager_id": "3af3b877-6b25-4bb7-b0f2-c933e34bb9b1"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KDKS COMMITTEE TO RE-ELECT DA JAMES STEWART 10-22 B",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T17:16:33-04:00",
+     "folder_id": "686f5a68-4464-8a40-cd7b-87775477aab6",
+     "file_id": "219a856b-ff50-33f2-ca5b-cc6c72524996",
+     "file_manager_id": "782bb4fa-dd73-4c57-abd6-4cf2da5bf7d7"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "2026KDKS FRIENDS OF CADDO ISSUE 10-15 REVISION",
@@ -12012,7 +12163,7 @@
    "facility_id": "38601",
    "root_folder": "34cfe01d-6f76-2297-f151-a931b0313e1a",
    "profile": "fm-profile/kykz",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "c32e13d8-d93a-d7e1-230f-e217d0ef0c8a",
     "2015": "f856d8d6-1c85-bee4-51c9-d69ae6aa2242",
@@ -12062,7 +12213,7 @@
    "facility_id": "25518",
    "root_folder": "a34c7e64-ef66-968a-1b26-7f8797151b6f",
    "profile": "fm-profile/wdgl",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2018": "54275b03-7742-5916-89c5-c3ba3fd76223",
     "2019": "4201b0c3-60a8-9345-57b0-468fe0ac0d38",
@@ -12244,7 +12395,7 @@
    "facility_id": "63929",
    "root_folder": "80b27045-c1d0-4102-e896-8e1e8851a29a",
    "profile": "fm-profile/kmjj-fm",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "374c4c4a-ffa1-e18a-1397-e5d21cb9515d",
     "2015": "a7c597e5-5e99-02ef-2c35-7df2bb260052",
@@ -12264,10 +12415,47 @@
     "Political Files/2026": "216c1d28-b468-efb3-f497-6329b70db5b3",
     "Political Files/2026/Federal": "a06bb6a1-975f-fe81-e064-89fec7697940",
     "Political Files/2026/Federal/US House": "476c2afb-ca83-2a03-5ceb-6f453e09b11f",
+    "Political Files/2026/Federal/US Senate": "8e33e874-6862-d54e-51d8-9b6c63531ee8",
     "Political Files/2026/Local": "6e32fff6-7887-5f8d-fd3a-2a26f7ab6155",
     "Political Files/2026/Non-Candidate Issue Ads": "48350e5a-9265-9e59-6b3d-ca36e39434d7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1416322-RAVARI N MAYOR OF SHREVEPORT-KMJJ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T18:07:44-04:00",
+     "folder_id": "6e32fff6-7887-5f8d-fd3a-2a26f7ab6155",
+     "file_id": "2b530e4f-39d7-7078-07e5-46932616e00b",
+     "file_manager_id": "a3fcb17e-a297-4822-875b-9bfe81b730a5"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "1416171-DAVIS-TAYLOR D CITY COURT JUDGE-KMJJ-FM",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T16:25:39-04:00",
+     "folder_id": "6e32fff6-7887-5f8d-fd3a-2a26f7ab6155",
+     "file_id": "2978739a-f3f7-567d-dc47-136c07207080",
+     "file_manager_id": "2d9f3607-7a4f-4f79-9bad-c426de4eaa1e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "1412281-CABLE D HOUSE OF REPRESENTATIVES-KMJJ",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T15:46:14-04:00",
+     "folder_id": "476c2afb-ca83-2a03-5ceb-6f453e09b11f",
+     "file_id": "7cc3235c-30c4-654a-2f91-200223670a98",
+     "file_manager_id": "89319e68-f73e-4186-8ce2-077434a7071f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "1416229-DAVIS D US SENATE-KMJJ",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T15:27:54-04:00",
+     "folder_id": "8e33e874-6862-d54e-51d8-9b6c63531ee8",
+     "file_id": "08193438-991d-0651-7535-7b32ac2ede81",
+     "file_manager_id": "dce407ee-2912-4fc0-9928-5855eb188810"
+    },
     {
      "path": "Political Files/2026/Federal/US House",
      "name": "1413594-GROMLICHRHOUSEOFREPS-KMJJ-FM",
@@ -12421,7 +12609,7 @@
    "facility_id": "52433",
    "root_folder": "46df054e-2cb0-35aa-4a5f-12d7656e3982",
    "profile": "am-profile/wgso",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "aa779805-df5c-b78e-b877-0c4e08fc3c72",
     "2015": "8d44707f-6f44-32a4-de50-87ff5af728be",
@@ -12446,6 +12634,24 @@
     "Political Files/2026/State": "93e10b87-80da-8a3a-bdb2-ac671f0b4ce3"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "John Cunningham for JP School Board Insertion Order 102226",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T14:35:05-04:00",
+     "folder_id": "8194765f-b342-f0a6-dd2e-14b7b0d03141",
+     "file_id": "7cc162bc-121f-4279-b7c7-babd73b72043",
+     "file_manager_id": "5cef0db5-dbd8-45f9-bd94-721615a52b57"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "John Cunningham for JP School Board Order Confirmation 102326",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T14:35:05-04:00",
+     "folder_id": "8194765f-b342-f0a6-dd2e-14b7b0d03141",
+     "file_id": "e8978856-21c7-1917-b36f-56a6faaec935",
+     "file_manager_id": "3bae9acb-44f2-4f37-8f93-16d0c472a8c1"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "2020 NAB - Marjanovic ",
@@ -12959,7 +13165,7 @@
    "facility_id": "70022",
    "root_folder": "6843d45b-a5ec-9717-ecc0-e5eeb6c84f92",
    "profile": "fm-profile/wtge",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "36bf5ca9-ea10-a60f-69ad-cd86267b2165",
     "2015": "3d6c77e2-0f29-3d0f-c680-71015d774081",
@@ -13127,7 +13333,7 @@
    "facility_id": "40866",
    "root_folder": "bdee4e18-2451-dcaa-f35f-9ea139c79692",
    "profile": "fm-profile/krve",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "2b3c33a4-d178-5b04-e9e3-c90877560809",
     "2015": "b28fb41b-4391-11e7-2f01-768127e29f51",
@@ -15500,7 +15706,7 @@
    "facility_id": "27468",
    "root_folder": "79367ac0-862e-77c5-d4dd-76cdd5bf44b6",
    "profile": "fm-profile/krvv",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "46bdd06e-b451-9f0a-a7fd-abb0bf600f00",
     "2015": "665ce676-0a5d-3b1f-15c7-3f2941e81500",
@@ -15607,7 +15813,7 @@
    "facility_id": "9222",
    "root_folder": "180488e9-a4c8-f887-df4d-b0213a7a4ad7",
    "profile": "am-profile/koka",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "c44c87f2-9426-526d-cc3a-bce32c6f972f",
     "2015": "4037f555-b961-fa0d-2882-778fa9dad729",
@@ -15625,11 +15831,67 @@
    },
    "folders": {
     "Political Files/2026": "2545686e-5c35-103a-c44f-d58177c419bd",
+    "Political Files/2026/Federal": "d75064a7-bf3e-d1a6-e8ab-a8a2f5deee37",
+    "Political Files/2026/Federal/US Senate": "a596b51c-6119-48fe-5cd0-853cae846dae",
     "Political Files/2026/Local": "51be6105-2392-2597-732b-892bdeb8f23f",
     "Political Files/2026/Non-Candidate Issue Ads": "d56a8e6b-e65d-b444-37d1-9e9179ec51a4",
     "Political Files/2026/State": "4956d5a0-c2f8-8442-f771-d282b1ba7291"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA KHARMEN DAVIS-TAYLOR FOR SHREVEPORT CITY COURT JUDGE 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:38:59-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "c598703d-37c0-9eb7-7fcb-213fc2cfe372",
+     "file_manager_id": "99b7fb1d-2174-473c-90e1-df621010ab54"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA HANH WILLIAMS FOR SHREVEPORT CITY COUNCIL 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:14:03-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "abcaac92-da05-6356-4515-6279521187d5",
+     "file_manager_id": "d9e4d6f7-1d47-4e32-989a-3aaa77ee8820"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA STORMY GAGE-WATTS FOR SHREVEPORT MAYOR-10-22",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:14:03-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "051897b3-3473-6544-2ab5-b1764d826034",
+     "file_manager_id": "45d18251-bc05-49c4-8a40-532c06936853"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "2026KOKA JAMIE DAVIS FOR US SENATE 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:13:13-04:00",
+     "folder_id": "a596b51c-6119-48fe-5cd0-853cae846dae",
+     "file_id": "ae5ec20e-1347-48c5-5cab-f6708e0942fa",
+     "file_manager_id": "bc08cb45-9801-4b4d-be9a-70c5225c8605"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA COMMITTEE TO RE-ELECT DA JAMES STEWART 10-22",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T17:19:05-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "28ac21eb-2f0b-94ae-2ec2-1efbb5b17819",
+     "file_manager_id": "68622712-103c-47ea-a5b1-7753448b8252"
+    },
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KOKA COMMITTEE TO RE-ELECT DA JAMES STEWART 10-22 B",
+     "ext": "pdf",
+     "uploaded": "2026-10-22T17:19:05-04:00",
+     "folder_id": "51be6105-2392-2597-732b-892bdeb8f23f",
+     "file_id": "446da169-9393-85af-fcd2-db936ef458ef",
+     "file_manager_id": "9e6fa790-f7d1-4e0c-b853-6db22f459523"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "2026KOKA HANH WILLIAMS FOR SHREVEPORT CITY COUNCIL DIST A 10-19",
@@ -15900,7 +16162,7 @@
    "facility_id": "4490",
    "root_folder": "5f954d0c-abfc-476f-3ad7-2748bcb63303",
    "profile": "fm-profile/wbrp",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2018": "3463514c-ede0-9b82-43c8-91611aad1cfe",
     "2019": "dfe9c804-9d72-3e0e-0252-680a62f9130c",
@@ -16543,7 +16805,7 @@
    "facility_id": "70279",
    "root_folder": "3583756e-aced-60f5-2cef-98a383804317",
    "profile": "fm-profile/wguo",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "107ccc61-fd5a-1c2d-7159-ce9ee91db11c",
     "2015": "2f01f111-b48f-8da0-ece4-c781dda246bb",
@@ -16571,7 +16833,7 @@
    "facility_id": "52882",
    "root_folder": "a0c3703b-79a6-c9f6-dba4-e9994bd871df",
    "profile": "fm-profile/wnxx",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2018": "a8f8e3b2-8030-4aae-47e2-1400d666c153",
     "2019": "7f108edf-81a9-9e00-51d8-e9ee9e34da0f",
@@ -16691,7 +16953,7 @@
    "facility_id": "13802",
    "root_folder": "8373877d-d9e8-d1f0-86e5-b344a1e086f1",
    "profile": "fm-profile/klkl",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "09998b37-9b06-d91c-9e2e-7d50a4a7164a",
     "2015": "dd00a430-edbe-bf2f-2e6e-870471777b11",
@@ -16715,6 +16977,15 @@
     "Political Files/2026/Non-Candidate Issue Ads": "abf0bf6d-e19f-76cc-9c40-0802ec1f376e"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "2026KLKL HANH WILLIAMS FOR SHREVEPORT CITY COUNCIL 10-23",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T17:15:56-04:00",
+     "folder_id": "0218cf57-795e-e1c0-5790-d58db319f706",
+     "file_id": "05351658-daea-3698-47ca-3b80392bb91e",
+     "file_manager_id": "75dba3f8-2032-44b5-94e0-6e2bcfbafcff"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "2026KLKL FRIENDS OF CADDO ISSUE 10-15",
@@ -16769,7 +17040,7 @@
    "facility_id": "35249",
    "root_folder": "f99fa547-c102-0ff6-bbe1-b45c7d71d202",
    "profile": "am-profile/kmlb",
-   "scraped_at": "2026-10-22T01:42:41Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "1a75ff96-538a-3997-433d-c1eee7be129a",
     "2015": "598f5578-7349-4fc7-ac79-eb1b129eb1b5",
@@ -17092,7 +17363,7 @@
    "facility_id": "52510",
    "root_folder": "a3f3379c-473e-3c07-c488-f2eda0ea72ac",
    "profile": "fm-profile/kzrz",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "ac5e12f8-2bda-60ac-e45a-f5dc719656bd",
     "2015": "6189fa89-9d60-2fdc-3e50-cf228ae3a0a4",
@@ -17118,7 +17389,7 @@
    "facility_id": "56559",
    "root_folder": "4735ac1d-78f7-bad3-05db-17790a77f4fc",
    "profile": "am-profile/kgla",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "7de1498d-347d-e0e3-9686-114e1b1281a0",
     "2015": "a0746d6e-e47a-9c8d-4011-ed6d002df20b",
@@ -17146,7 +17417,7 @@
    "facility_id": "4053",
    "root_folder": "9bb7ee2f-fa01-32d9-422d-fa8760975387",
    "profile": "fm-profile/wfmf",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "5c0c61cb-a965-ac35-bb66-ea6226b43b3c",
     "2015": "682c9a3f-c8f3-d563-146d-fc0a0a6da82a",
@@ -17395,7 +17666,7 @@
    "facility_id": "67746",
    "root_folder": "bf5a28ca-faa1-3a96-36f4-0be94358c5f8",
    "profile": "am-profile/keun",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2016": "3def7a6f-3109-b5a8-f287-c19c5c684ae2",
     "2017": "c0b30f95-bf14-6107-744d-d108392a628d",
@@ -17450,7 +17721,7 @@
    "facility_id": "8169",
    "root_folder": "c6b55acc-733b-1e05-3d77-e2f1fff9331a",
    "profile": "fm-profile/khla",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2014": "e6ce1557-67cd-8e7c-153e-807bd2c5b4e1",
     "2015": "f5796661-b5ac-51e0-1d8f-5c58cda17041",
@@ -17662,7 +17933,7 @@
    "facility_id": "41057",
    "root_folder": "885553e5-c87c-43f1-81fe-9212fba9e544",
    "profile": "fm-profile/ksmb",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2018": "cee675b1-fbfe-3f26-1667-a97d1f53f0cf",
     "2019": "0dca29ed-9b7c-bb9b-3489-f978ab0e1a77",
@@ -17686,7 +17957,7 @@
    "facility_id": "61271",
    "root_folder": "368fb021-b743-7297-2343-1c42164e74d1",
    "profile": "fm-profile/wrqq",
-   "scraped_at": "2026-10-22T15:58:45Z",
+   "scraped_at": "2026-10-24T02:06:37Z",
    "year_folders": {
     "2018": "b286a22b-cb17-ead6-5abf-0cfb8d7416f9",
     "2019": "ed99f005-5faa-ec66-61be-2c551f8bf7b3",
@@ -18606,67 +18877,67 @@
   "KBON": "2026-10-23T15:51:47Z",
   "KBTT": "2026-10-23T01:43:32Z",
   "KBZE": "2026-10-23T15:51:47Z",
-  "KDKS": "2026-10-22T15:58:45Z",
-  "KEEL": "2026-10-23T01:43:32Z",
-  "KEUN": "2026-10-22T15:58:45Z",
+  "KDKS": "2026-10-24T02:06:37Z",
+  "KEEL": "2026-10-24T02:06:37Z",
+  "KEUN": "2026-10-24T02:06:37Z",
   "KFXZ": "2026-10-23T15:51:47Z",
-  "KGLA": "2026-10-22T15:58:45Z",
-  "KHLA": "2026-10-22T15:58:45Z",
-  "KJAE": "2026-10-22T15:58:45Z",
+  "KGLA": "2026-10-24T02:06:37Z",
+  "KHLA": "2026-10-24T02:06:37Z",
+  "KJAE": "2026-10-24T02:06:37Z",
   "KJLO": "2026-10-23T15:51:47Z",
   "KJMG": "2026-10-23T01:43:32Z",
   "KKND": "2026-10-23T01:43:32Z",
   "KLIL": "2026-10-23T15:51:47Z",
-  "KLKL": "2026-10-22T01:42:41Z",
-  "KLWB": "2026-10-22T15:58:45Z",
+  "KLKL": "2026-10-24T02:06:37Z",
+  "KLWB": "2026-10-24T02:06:37Z",
   "KMDL": "2026-10-23T15:51:47Z",
   "KMEZ": "2026-10-23T01:43:32Z",
-  "KMJJ": "2026-10-22T15:58:45Z",
-  "KMLB": "2026-10-22T01:42:41Z",
-  "KMXH": "2026-10-22T15:58:45Z",
+  "KMJJ": "2026-10-24T02:06:37Z",
+  "KMLB": "2026-10-24T02:06:37Z",
+  "KMXH": "2026-10-24T02:06:37Z",
   "KNEK": "2026-10-23T15:51:47Z",
-  "KOKA": "2026-10-22T01:42:41Z",
-  "KPEL": "2026-10-23T01:43:32Z",
+  "KOKA": "2026-10-24T02:06:37Z",
+  "KPEL": "2026-10-24T02:06:37Z",
   "KQKI": "2026-10-23T15:51:47Z",
   "KQXL": "2026-10-23T01:43:32Z",
   "KRMD": "2026-10-23T15:51:47Z",
   "KROF": "2026-10-23T01:43:32Z",
   "KRRQ": "2026-10-23T15:51:47Z",
-  "KRVE": "2026-10-22T15:58:45Z",
-  "KRVV": "2026-10-22T01:42:41Z",
-  "KSIG": "2026-10-22T15:58:45Z",
-  "KSMB": "2026-10-22T15:58:45Z",
+  "KRVE": "2026-10-24T02:06:37Z",
+  "KRVV": "2026-10-24T02:06:37Z",
+  "KSIG": "2026-10-24T02:06:37Z",
+  "KSMB": "2026-10-24T02:06:37Z",
   "KSYB": "2026-10-23T01:43:32Z",
   "KSYL": "2026-10-23T15:51:47Z",
   "KTDY": "2026-10-23T15:51:47Z",
   "KVKI": "2026-10-23T15:51:47Z",
-  "KVPI": "2026-10-22T15:58:45Z",
-  "KXKS": "2026-10-22T15:58:45Z",
-  "KYKZ": "2026-10-22T15:58:45Z",
+  "KVPI": "2026-10-24T02:06:37Z",
+  "KXKS": "2026-10-24T02:06:37Z",
+  "KYKZ": "2026-10-24T02:06:37Z",
   "KZMZ": "2026-10-23T01:43:32Z",
-  "KZRZ": "2026-10-22T15:58:45Z",
+  "KZRZ": "2026-10-24T02:06:37Z",
   "KZWA": "2026-10-23T15:51:47Z",
   "WBOK": "2026-10-23T01:43:32Z",
-  "WBRP": "2026-10-22T01:42:41Z",
-  "WDGL": "2026-10-22T15:58:45Z",
+  "WBRP": "2026-10-24T02:06:37Z",
+  "WDGL": "2026-10-24T02:06:37Z",
   "WEMX": "2026-10-23T15:51:47Z",
   "WEZB": "2026-10-23T01:43:32Z",
-  "WFMF": "2026-10-22T15:58:45Z",
-  "WGSO": "2026-10-22T15:58:45Z",
-  "WGUO": "2026-10-22T01:42:41Z",
-  "WJBO": "2026-10-23T01:43:32Z",
+  "WFMF": "2026-10-24T02:06:37Z",
+  "WGSO": "2026-10-24T02:06:37Z",
+  "WGUO": "2026-10-24T02:06:37Z",
+  "WJBO": "2026-10-24T02:06:37Z",
   "WKBU": "2026-10-23T15:51:47Z",
   "WLMG": "2026-10-23T01:43:32Z",
   "WNOE": "2026-10-23T01:43:32Z",
-  "WNXX": "2026-10-22T01:42:41Z",
-  "WQUE": "2026-10-23T01:43:32Z",
-  "WRNO": "2026-10-23T01:43:32Z",
-  "WRQQ": "2026-10-22T15:58:45Z",
-  "WTGE": "2026-10-22T15:58:45Z",
+  "WNXX": "2026-10-24T02:06:37Z",
+  "WQUE": "2026-10-24T02:06:37Z",
+  "WRNO": "2026-10-24T02:06:37Z",
+  "WRQQ": "2026-10-24T02:06:37Z",
+  "WTGE": "2026-10-24T02:06:37Z",
   "WTIX": "2026-10-23T15:51:47Z",
-  "WWL": "2026-10-23T01:43:32Z",
+  "WWL": "2026-10-24T02:06:37Z",
   "WXOK": "2026-10-23T15:51:47Z",
-  "WYLD": "2026-10-23T01:43:32Z",
+  "WYLD": "2026-10-24T02:06:37Z",
   "WYNK": "2026-10-23T15:51:47Z"
  }
 }
