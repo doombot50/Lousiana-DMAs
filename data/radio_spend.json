@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-25",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1503252,
- "data_through": "2026-10-23",
+ "rows_scanned": 1503311,
+ "data_through": "2026-10-24",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13212772.38,
+ "total_spend": 13213653.38,
  "gov_year_share": 0.5454,
  "by_year": {
   "2000": 27912.25,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 146546.81
+  "2026": 147427.81
  },
  "stations": [
   {
@@ -803,10 +803,10 @@
     "AM",
     "FM"
    ],
-   "spend": 271850.36,
-   "rows": 403,
+   "spend": 272347.36,
+   "rows": 404,
    "committees": 159,
-   "avg_buy": 674.57,
+   "avg_buy": 674.13,
    "by_year": {
     "2002": 813.5,
     "2003": 16212.83,
@@ -830,7 +830,7 @@
     "2023": 48771.51,
     "2024": 1175.0,
     "2025": 555.0,
-    "2026": 1598.36
+    "2026": 2095.36
    },
    "top_committees": [
     {
@@ -3101,10 +3101,10 @@
     "AM",
     "FM"
    ],
-   "spend": 58150.68,
-   "rows": 72,
-   "committees": 26,
-   "avg_buy": 807.65,
+   "spend": 58534.68,
+   "rows": 73,
+   "committees": 27,
+   "avg_buy": 801.84,
    "by_year": {
     "2000": 620.0,
     "2002": 215.0,
@@ -3121,7 +3121,7 @@
     "2020": 2837.76,
     "2022": 125.0,
     "2023": 4617.84,
-    "2026": 1307.3
+    "2026": 1691.3
    },
    "top_committees": [
     {
@@ -4264,7 +4264,7 @@
    ]
   }
  ],
- "classified_spend": 11172207.98,
+ "classified_spend": 11173088.98,
  "unclassified_tail": {
   "amount": 2040564.4,
   "stations": 254,
@@ -4273,11 +4273,11 @@
  "categories": [
   {
    "category": "Black-audience",
-   "spend": 3817685.53,
+   "spend": 3818069.53,
    "stations": 19,
-   "rows": 2234,
-   "committees": 391,
-   "avg_buy": 1708.9,
+   "rows": 2235,
+   "committees": 392,
+   "avg_buy": 1708.31,
    "share": 0.2889
   },
   {
@@ -4314,7 +4314,7 @@
    "rows": 446,
    "committees": 138,
    "avg_buy": 1115.38,
-   "share": 0.0377
+   "share": 0.0376
   },
   {
    "category": "Cajun / Americana",
@@ -4327,11 +4327,11 @@
   },
   {
    "category": "Christian",
-   "spend": 271850.36,
+   "spend": 272347.36,
    "stations": 1,
-   "rows": 403,
+   "rows": 404,
    "committees": 159,
-   "avg_buy": 674.57,
+   "avg_buy": 674.13,
    "share": 0.0206
   },
   {
@@ -4371,7 +4371,7 @@
   },
   {
    "owner": "Local",
-   "spend": 2245537.26,
+   "spend": 2245921.26,
    "stations": 23,
    "share": 0.17
   },
@@ -4385,7 +4385,7 @@
    "owner": "Townsquare Media",
    "spend": 1941637.69,
    "stations": 13,
-   "share": 0.147
+   "share": 0.1469
   },
   {
    "owner": "Cumulus Media",
@@ -4395,7 +4395,7 @@
   },
   {
    "owner": "Agape Broadcasters",
-   "spend": 271850.36,
+   "spend": 272347.36,
    "stations": 1,
    "share": 0.0206
   },

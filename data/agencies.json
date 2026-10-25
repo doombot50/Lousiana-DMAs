@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-25",
- "data_through": "2026-10-23",
+ "data_through": "2026-10-24",
  "cycle_from": 2023,
- "documents_read": 1730,
+ "documents_read": 1942,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -170,7 +170,7 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 17,
+    "docs": 20,
     "priced": 7,
     "usd": 113260,
     "stations": [
@@ -400,10 +400,11 @@
    "name": "Total Video Placements",
    "found_by": "political file",
    "fcc": {
-    "docs": 58,
+    "docs": 63,
     "priced": 53,
     "usd": 1729225,
     "stations": [
+     "005142",
      "008048",
      "KPXJ",
      "KTBS",
@@ -696,126 +697,34 @@
    }
   },
   {
-   "key": "SMARTMEDIA",
-   "name": "Smart Media Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 17,
-    "priced": 11,
-    "usd": 200705,
-    "stations": [
-     "004321",
-     "008564",
-     "KPXJ",
-     "KTBS"
-    ],
-    "clients": [
-     "John E Atkins Campaign",
-     "John Atkins-La Public Service Comm.District",
-     "Protect Louisiana Values",
-     "John Atkins-La Publle Service Comm.District",
-     "John Atkins-La Public Service Comm. Distrlet"
-    ],
-    "first": "2026-02-17",
-    "last": "2026-10-05",
-    "away": {
-     "docs": 8,
-     "usd": 60550,
-     "clients": [
-      "Don Huffines for Texas Comptroller",
-      "n Huilfines for Texas Comptroller",
-      "Don Huffines for Texas Comptroiler"
-     ]
-    }
-   },
-   "paid": {
-    "total": 2071866,
-    "media": 1531633,
-    "rows": 27,
-    "media_cycle": 540532,
-    "cycle": 734357,
-    "years": {
-     "2015": 968858,
-     "2019": 368651,
-     "2023": 515799,
-     "2026": 218558
-    },
-    "committees": 6,
-    "top": [
-     {
-      "f": "1625",
-      "n": "Jeff Landry",
-      "p": "REP",
-      "usd": 500764,
-      "cycle": 500764
-     },
-     {
-      "f": "3375",
-      "n": "John E Atkins",
-      "p": "REP",
-      "usd": 218558,
-      "cycle": 218558
-     },
-     {
-      "f": "6337",
-      "n": "Conservative Louisiana PAC",
-      "p": "OTH",
-      "usd": 15035,
-      "cycle": 15035
-     },
-     {
-      "f": "123",
-      "n": "John Kennedy",
-      "p": "REP",
-      "usd": 967924,
-      "cycle": 0
-     },
-     {
-      "f": "4472",
-      "n": "Timothy Temple",
-      "p": "REP",
-      "usd": 368651,
-      "cycle": 0
-     },
-     {
-      "f": "3814",
-      "n": "Joseph Swider",
-      "p": "DEM",
-      "usd": 933,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "SMART MEDIA GROUP",
-     "SMART MEDIA GROUP LLC",
-     "SMART MEDIA"
-    ]
-   }
-  },
-  {
    "key": "ARSEMENTMEDIA",
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 22,
-    "priced": 16,
-    "usd": 163740,
+    "docs": 31,
+    "priced": 24,
+    "usd": 216225,
     "stations": [
      "004321",
+     "KADN",
+     "KATC",
      "KLFY",
      "WDSU",
      "WVUE"
     ],
     "clients": [
+     "Will Keaty District Judge 15th Dist of LA",
      "Lindsay/D/Orleans Parish Civil District Judge",
      "Friends to Elect Bart Hebert, LLC",
      "Howard/D/Orleans Parish Civil District Court",
+     "Buras for Judge",
      "Marsiglia for Judge",
      "Marsiglia/R/JP Court Judge, Div",
      "Stagni/R/Kenner Council At-Large Div",
      "Campaign to Elect Will Keaty",
+     "Emilia Pardo LA City Court Judge Division",
      "The Committee to Elect Emilia Pardo",
-     "Buras for Judge"
+     "Lindsay for Judge"
     ],
     "first": "2026-04-24",
     "last": "2026-10-23",
@@ -967,6 +876,103 @@
    }
   },
   {
+   "key": "SMARTMEDIA",
+   "name": "Smart Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 17,
+    "priced": 11,
+    "usd": 200705,
+    "stations": [
+     "004321",
+     "008564",
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [
+     "John E Atkins Campaign",
+     "John Atkins-La Public Service Comm.District",
+     "Protect Louisiana Values",
+     "John Atkins-La Publle Service Comm.District",
+     "John Atkins-La Public Service Comm. Distrlet"
+    ],
+    "first": "2026-02-17",
+    "last": "2026-10-05",
+    "away": {
+     "docs": 8,
+     "usd": 60550,
+     "clients": [
+      "Don Huffines for Texas Comptroller",
+      "n Huilfines for Texas Comptroller",
+      "Don Huffines for Texas Comptroiler"
+     ]
+    }
+   },
+   "paid": {
+    "total": 2071866,
+    "media": 1531633,
+    "rows": 27,
+    "media_cycle": 540532,
+    "cycle": 734357,
+    "years": {
+     "2015": 968858,
+     "2019": 368651,
+     "2023": 515799,
+     "2026": 218558
+    },
+    "committees": 6,
+    "top": [
+     {
+      "f": "1625",
+      "n": "Jeff Landry",
+      "p": "REP",
+      "usd": 500764,
+      "cycle": 500764
+     },
+     {
+      "f": "3375",
+      "n": "John E Atkins",
+      "p": "REP",
+      "usd": 218558,
+      "cycle": 218558
+     },
+     {
+      "f": "6337",
+      "n": "Conservative Louisiana PAC",
+      "p": "OTH",
+      "usd": 15035,
+      "cycle": 15035
+     },
+     {
+      "f": "123",
+      "n": "John Kennedy",
+      "p": "REP",
+      "usd": 967924,
+      "cycle": 0
+     },
+     {
+      "f": "4472",
+      "n": "Timothy Temple",
+      "p": "REP",
+      "usd": 368651,
+      "cycle": 0
+     },
+     {
+      "f": "3814",
+      "n": "Joseph Swider",
+      "p": "DEM",
+      "usd": 933,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "SMART MEDIA GROUP",
+     "SMART MEDIA GROUP LLC",
+     "SMART MEDIA"
+    ]
+   }
+  },
+  {
    "key": "HYRIZON",
    "name": "Hyrizon Group",
    "found_by": "political file",
@@ -1040,30 +1046,33 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 39,
-    "priced": 33,
-    "usd": 565660,
+    "docs": 47,
+    "priced": 36,
+    "usd": 576160,
     "stations": [
      "005341",
      "KARD",
+     "KPLC",
      "KPXJ",
      "KSLA",
      "KTBS",
      "KTVE",
+     "KVHP",
      "WDSU",
      "WVUE"
     ],
     "clients": [
      "Mike Johnson for Louisiana",
-     "Scalise/R/Congress",
      "Mike Echols/US Congress/LA/Rep",
+     "Scalise/R/Congress",
      "Mike Johnson for Loulslana",
      "Mike Johnson for Loulsiana",
+     "Echols for LA State Congress",
      "Scalise for Congress",
      "Mike Johnson for Louistana",
+     "Original Date 7Revision",
      "Mike Johnson for Louislana",
-     "Mike Johnson for Loulstana",
-     "Echols for LA State Congress"
+     "Mike Johnson for Loulstana"
     ],
     "first": "2026-04-20",
     "last": "2026-10-23",
@@ -1753,6 +1762,41 @@
    }
   },
   {
+   "key": "BRABENDERCOX",
+   "name": "Brabender Cox",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 25,
+    "priced": 24,
+    "usd": 293565,
+    "stations": [
+     "KADN",
+     "KARD",
+     "KLAX",
+     "KPXJ",
+     "KTBS",
+     "KTVE",
+     "WDSU"
+    ],
+    "clients": [
+     "Letlow for Senate",
+     "Letlow/R/Senate",
+     "Julia Letlow - US Senate (LA)",
+     "Julla Letlow - US Senate (LA)",
+     "Julia Letiow - US Senate (LA)",
+     "Julla Letiow - US Senate (LA)",
+     "Griginal Date 7 Revision"
+    ],
+    "first": "2026-02-20",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "TRADEDESK",
    "name": "The Trade Desk",
    "found_by": "filings",
@@ -1883,37 +1927,6 @@
      "TRADE DESK",
      "TRADEDESK"
     ]
-   }
-  },
-  {
-   "key": "BRABENDERCOX",
-   "name": "Brabender Cox",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 18,
-    "priced": 18,
-    "usd": 256410,
-    "stations": [
-     "KLAX",
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Letlow/R/Senate",
-     "Julia Letlow - US Senate (LA)",
-     "Julla Letlow - US Senate (LA)",
-     "Julia Letiow - US Senate (LA)",
-     "Julla Letiow - US Senate (LA)",
-     "Griginal Date 7 Revision"
-    ],
-    "first": "2026-02-20",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -3443,11 +3456,41 @@
    }
   },
   {
+   "key": "CANALPARTNERSMEDIA",
+   "name": "Canal Partners Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 23,
+    "priced": 21,
+    "usd": 127720,
+    "stations": [
+     "KADN",
+     "KATC",
+     "KPXJ",
+     "KTBS",
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Jamie Davis for US Senate",
+     "Davis/D/US Senate",
+     "Jamle Davis for US Senate"
+    ],
+    "first": "2026-10-02",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "MEDIUMBUYING",
    "name": "Medium Buying",
    "found_by": "political file",
    "fcc": {
-    "docs": 23,
+    "docs": 24,
     "priced": 4,
     "usd": 127100,
     "stations": [
@@ -3930,7 +3973,7 @@
    "name": "Mentzer Media Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 28,
+    "docs": 34,
     "priced": 5,
     "usd": 113600,
     "stations": [
@@ -4214,7 +4257,7 @@
    "name": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
+    "docs": 11,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -4227,7 +4270,7 @@
      "JAMIE DAVIS FOR U.S. SENATE",
      "Hillar Moore Campaign"
     ],
-    "first": "2026-10-13",
+    "first": "2026-10-05",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -4430,6 +4473,29 @@
      "JAMES HARTMAN AND ASSOCIATES LLC",
      "JAMES HARTMAN AND ASSOCIATES, LLC"
     ]
+   }
+  },
+  {
+   "key": "BRABENDERCOXWASHINGTON",
+   "name": "Brabender Cox - Washington",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 90830,
+    "stations": [
+     "WVUE"
+    ],
+    "clients": [
+     "Letlow for Senate"
+    ],
+    "first": "2026-10-05",
+    "last": "2026-10-05",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -4709,33 +4775,6 @@
      "FLETCHER CONSULTANT LLC",
      "FLETCHER CONSULTANTS  LLC"
     ]
-   }
-  },
-  {
-   "key": "CANALPARTNERSMEDIA",
-   "name": "Canal Partners Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 9,
-    "priced": 9,
-    "usd": 81550,
-    "stations": [
-     "KPXJ",
-     "KTBS",
-     "WDSU"
-    ],
-    "clients": [
-     "Davis/D/US Senate",
-     "Jamle Davis for US Senate",
-     "Jamie Davis for US Senate"
-    ],
-    "first": "2026-10-14",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -5048,7 +5087,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 42,
+    "docs": 43,
     "priced": 12,
     "usd": 77415,
     "stations": [
@@ -6170,6 +6209,164 @@
    }
   },
   {
+   "key": "KDMDIGITALSOLUTIONS",
+   "name": "KDM Digital Solutions",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 6,
+    "usd": 33850,
+    "stations": [
+     "KEEL",
+     "KVKI",
+     "KXKS"
+    ],
+    "clients": [
+     "m Alan Seabaugh for District Attorney",
+     "m Hugo Holland for District Judge"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 778106,
+    "media": 0,
+    "rows": 239,
+    "media_cycle": 0,
+    "cycle": 420565,
+    "years": {
+     "2018": 1060,
+     "2019": 24273,
+     "2020": 128727,
+     "2021": 133202,
+     "2022": 70280,
+     "2023": 195392,
+     "2024": 56670,
+     "2025": 60756,
+     "2026": 107747
+    },
+    "committees": 44,
+    "top": [
+     {
+      "f": "1846",
+      "n": "Alan T. Seabaugh",
+      "p": "REP",
+      "usd": 44495,
+      "cycle": 42377
+     },
+     {
+      "f": "4129",
+      "n": "Mark Wright",
+      "p": "REP",
+      "usd": 30870,
+      "cycle": 30870
+     },
+     {
+      "f": "6078",
+      "n": "Jesse Adam Bass",
+      "p": "REP",
+      "usd": 29936,
+      "cycle": 29936
+     },
+     {
+      "f": "5883",
+      "n": "John Fleming",
+      "p": "REP",
+      "usd": 26476,
+      "cycle": 26476
+     },
+     {
+      "f": "6176",
+      "n": "Justin Courtney",
+      "p": "REP",
+      "usd": 24343,
+      "cycle": 24343
+     },
+     {
+      "f": "4441",
+      "n": "Thomas Alexander Pressly IV",
+      "p": "REP",
+      "usd": 23661,
+      "cycle": 23661
+     },
+     {
+      "f": "5444",
+      "n": "Tommy Chandler",
+      "p": "REP",
+      "usd": 94096,
+      "cycle": 22500
+     },
+     {
+      "f": "6059",
+      "n": "Les Blanchard",
+      "p": "REP",
+      "usd": 21290,
+      "cycle": 21290
+     },
+     {
+      "f": "6550",
+      "n": "Craton Cochran",
+      "p": "REP",
+      "usd": 21212,
+      "cycle": 21212
+     },
+     {
+      "f": "3308",
+      "n": "Dodie Horton",
+      "p": "REP",
+      "usd": 22034,
+      "cycle": 20334
+     },
+     {
+      "f": "5446",
+      "n": "Christopher C. Smith",
+      "p": "OTH",
+      "usd": 18892,
+      "cycle": 18892
+     },
+     {
+      "f": "6738",
+      "n": "AMY BRAINARD",
+      "p": "OTH",
+      "usd": 18418,
+      "cycle": 18418
+     },
+     {
+      "f": "4917",
+      "n": "Barry Milligan",
+      "p": "REP",
+      "usd": 47829,
+      "cycle": 17509
+     },
+     {
+      "f": "7604",
+      "n": "Heather Savage Courtney",
+      "p": "OTH",
+      "usd": 15085,
+      "cycle": 15085
+     },
+     {
+      "f": "2276",
+      "n": "Julian Whittington",
+      "p": "REP",
+      "usd": 13758,
+      "cycle": 13758
+     }
+    ],
+    "spellings": [
+     "KDM DIGITAL SOLUTIONS",
+     "KDM DIGITAL SOLUTIONS LLC",
+     "KDM DIGITAL",
+     "KDM DIGITAL SOLUTIONS, LLC"
+    ]
+   }
+  },
+  {
    "key": "QUESTCOMMCONSULT",
    "name": "Questcomm Consultants",
    "found_by": "filings",
@@ -6478,29 +6675,6 @@
      "usd": 0,
      "clients": []
     }
-   },
-   "paid": {
-    "total": 94,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2014": 94
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "549",
-      "n": "John C. Reeves",
-      "p": "DEM",
-      "usd": 94,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FRONTIER STRATEGIES"
-    ]
    }
   },
   {
@@ -6858,6 +7032,163 @@
    }
   },
   {
+   "key": "BRANDONGUICHARDDIGITAL",
+   "name": "Brandon Guichard Digital Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 4,
+    "usd": 22380,
+    "stations": [
+     "WBRZ",
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "JUSTICE PAC",
+     "Roche/D/Judge",
+     "Holmes/D/OP Crim Dist Court Div",
+     "Justin for Public Service Commission",
+     "Jewett/D/Congress"
+    ],
+    "first": "2026-10-06",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 377011,
+    "media": 0,
+    "rows": 75,
+    "media_cycle": 0,
+    "cycle": 265324,
+    "years": {
+     "2020": 31762,
+     "2021": 33750,
+     "2022": 46175,
+     "2023": 68556,
+     "2025": 165568,
+     "2026": 31200
+    },
+    "committees": 20,
+    "top": [
+     {
+      "f": "1921",
+      "n": "Helena Moreno",
+      "p": "DEM",
+      "usd": 161924,
+      "cycle": 161924
+     },
+     {
+      "f": "5507",
+      "n": "Dustin Granger",
+      "p": "DEM",
+      "usd": 28000,
+      "cycle": 28000
+     },
+     {
+      "f": "4399",
+      "n": "Jeremy LaCombe",
+      "p": "REP",
+      "usd": 36150,
+      "cycle": 15000
+     },
+     {
+      "f": "6149",
+      "n": "Madison O'Malley",
+      "p": "DEM",
+      "usd": 13950,
+      "cycle": 13950
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 10700,
+      "cycle": 10700
+     },
+     {
+      "f": "7779",
+      "n": "Lacy Landrum",
+      "p": "OTH",
+      "usd": 8000,
+      "cycle": 8000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "957",
+      "n": "Byron Lee",
+      "p": "DEM",
+      "usd": 7250,
+      "cycle": 7250
+     },
+     {
+      "f": "2598",
+      "n": "Kimya Holmes",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 17250,
+      "cycle": 4000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 4000,
+      "cycle": 4000
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 23000,
+      "cycle": 0
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 19675,
+      "cycle": 0
+     },
+     {
+      "f": "2345",
+      "n": "Leo J. Palazzo",
+      "p": "REP",
+      "usd": 10500,
+      "cycle": 0
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 7257,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BRANDON GUICHARD DIGITAL GROUP",
+     "BRANDON GUICHARD",
+     "BRANDON GUICHARD DIGITAL"
+    ]
+   }
+  },
+  {
    "key": "PIER91",
    "name": "Pier 91",
    "found_by": "political file",
@@ -6964,6 +7295,255 @@
     ],
     "spellings": [
      "HOLBROOK MEDIA"
+    ]
+   }
+  },
+  {
+   "key": "BRAVENEWTELEVISION",
+   "name": "BRAVE NEW TELEVISION",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 900,
+    "stations": [
+     "KJLO",
+     "KMLB"
+    ],
+    "clients": [
+     "ECHOLS FOR CONGRESS"
+    ],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1387818,
+    "media": 487777,
+    "rows": 334,
+    "media_cycle": 17500,
+    "cycle": 405431,
+    "years": {
+     "2014": 4400,
+     "2015": 427022,
+     "2016": 3000,
+     "2017": 61974,
+     "2018": 64348,
+     "2019": 123146,
+     "2020": 286472,
+     "2021": 7275,
+     "2022": 4749,
+     "2023": 144781,
+     "2024": 44666,
+     "2025": 144015,
+     "2026": 71969
+    },
+    "committees": 61,
+    "top": [
+     {
+      "f": "6399",
+      "n": "Foundation PAC",
+      "p": "OTH",
+      "usd": 106477,
+      "cycle": 106477
+     },
+     {
+      "f": "4593",
+      "n": "Randall Delatte",
+      "p": "REP",
+      "usd": 38633,
+      "cycle": 38633
+     },
+     {
+      "f": "992",
+      "n": "LA Conservative Majority PAC (formerly LA Committee for a Republican Majority)",
+      "p": "OTH",
+      "usd": 87488,
+      "cycle": 33786
+     },
+     {
+      "f": "837",
+      "n": "LA Hospital Association PAC (HOSPPAC)",
+      "p": "OTH",
+      "usd": 25312,
+      "cycle": 25312
+     },
+     {
+      "f": "7199",
+      "n": "Protect Louisiana Values",
+      "p": "OTH",
+      "usd": 24600,
+      "cycle": 24600
+     },
+     {
+      "f": "5959",
+      "n": "Roger Wilder",
+      "p": "REP",
+      "usd": 21350,
+      "cycle": 21350
+     },
+     {
+      "f": "5976",
+      "n": "LIVINGSTON RISING PAC",
+      "p": "OTH",
+      "usd": 21152,
+      "cycle": 21152
+     },
+     {
+      "f": "5913",
+      "n": "Kellee Hennessy Dickerson",
+      "p": "REP",
+      "usd": 16531,
+      "cycle": 16531
+     },
+     {
+      "f": "2018",
+      "n": "Michael Echols",
+      "p": "REP",
+      "usd": 15651,
+      "cycle": 15651
+     },
+     {
+      "f": "4538",
+      "n": "Cajun PAC II",
+      "p": "OTH",
+      "usd": 11106,
+      "cycle": 11106
+     },
+     {
+      "f": "608",
+      "n": "Brett Geymann",
+      "p": "REP",
+      "usd": 9091,
+      "cycle": 9091
+     },
+     {
+      "f": "6540",
+      "n": "REBECCA DAVIS LEE",
+      "p": "REP",
+      "usd": 9015,
+      "cycle": 9015
+     },
+     {
+      "f": "1706",
+      "n": "Jeffrey F. Wiley",
+      "p": "REP",
+      "usd": 8175,
+      "cycle": 8175
+     },
+     {
+      "f": "6495",
+      "n": "MATTHEW BELSER",
+      "p": "REP",
+      "usd": 8000,
+      "cycle": 8000
+     },
+     {
+      "f": "1077",
+      "n": "Nancy Landry",
+      "p": "REP",
+      "usd": 7500,
+      "cycle": 7500
+     }
+    ],
+    "spellings": [
+     "BRAVE NEW TELEVISION",
+     "BRAVE NEW TELEVISION LLC",
+     "BRAVENEW TELEVISION"
+    ]
+   }
+  },
+  {
+   "key": "QUESTCOMMUNICATIONCONSULT",
+   "name": "Quest Communication Consultants",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 12,
+    "priced": 12,
+    "usd": 18032,
+    "stations": [
+     "KARD",
+     "KNOE",
+     "KTVE"
+    ],
+    "clients": [
+     "Mike Smith/City Court Judge/LA/Rep",
+     "Adam Cossey/District Judge/LA/NonPart",
+     "Adam Cossey for District Judge",
+     "Robert Cherry/City Marshal/LA/Independent"
+    ],
+    "first": "2026-10-07",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 172824,
+    "media": 57310,
+    "rows": 60,
+    "media_cycle": 0,
+    "cycle": 43524,
+    "years": {
+     "2011": 88302,
+     "2012": 5816,
+     "2013": 2817,
+     "2014": 650,
+     "2015": 14017,
+     "2016": 3003,
+     "2017": 1373,
+     "2019": 12822,
+     "2022": 500,
+     "2023": 16044,
+     "2024": 1437,
+     "2026": 26044
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6910",
+      "n": "James H. Colvin Jr. (JIM)",
+      "p": "OTH",
+      "usd": 26044,
+      "cycle": 26044
+     },
+     {
+      "f": "6199",
+      "n": "Toni Bacon",
+      "p": "REP",
+      "usd": 14147,
+      "cycle": 14147
+     },
+     {
+      "f": "2157",
+      "n": "Jay Russell",
+      "p": "REP",
+      "usd": 118134,
+      "cycle": 3334
+     },
+     {
+      "f": "3696",
+      "n": "Linda Taylor Cook",
+      "p": "IND",
+      "usd": 11000,
+      "cycle": 0
+     },
+     {
+      "f": "4465",
+      "n": "Michael D. Allen",
+      "p": "IND",
+      "usd": 3500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "QUEST COMMUNICATION CONSULTANTS"
     ]
    }
   },
@@ -7176,146 +7756,6 @@
      "HTV",
      "H-TV",
      "H T V"
-    ]
-   }
-  },
-  {
-   "key": "BRAVENEWTELEVISION",
-   "name": "Brave New Television",
-   "found_by": "filings",
-   "paid": {
-    "total": 1387818,
-    "media": 487777,
-    "rows": 334,
-    "media_cycle": 17500,
-    "cycle": 405431,
-    "years": {
-     "2014": 4400,
-     "2015": 427022,
-     "2016": 3000,
-     "2017": 61974,
-     "2018": 64348,
-     "2019": 123146,
-     "2020": 286472,
-     "2021": 7275,
-     "2022": 4749,
-     "2023": 144781,
-     "2024": 44666,
-     "2025": 144015,
-     "2026": 71969
-    },
-    "committees": 61,
-    "top": [
-     {
-      "f": "6399",
-      "n": "Foundation PAC",
-      "p": "OTH",
-      "usd": 106477,
-      "cycle": 106477
-     },
-     {
-      "f": "4593",
-      "n": "Randall Delatte",
-      "p": "REP",
-      "usd": 38633,
-      "cycle": 38633
-     },
-     {
-      "f": "992",
-      "n": "LA Conservative Majority PAC (formerly LA Committee for a Republican Majority)",
-      "p": "OTH",
-      "usd": 87488,
-      "cycle": 33786
-     },
-     {
-      "f": "837",
-      "n": "LA Hospital Association PAC (HOSPPAC)",
-      "p": "OTH",
-      "usd": 25312,
-      "cycle": 25312
-     },
-     {
-      "f": "7199",
-      "n": "Protect Louisiana Values",
-      "p": "OTH",
-      "usd": 24600,
-      "cycle": 24600
-     },
-     {
-      "f": "5959",
-      "n": "Roger Wilder",
-      "p": "REP",
-      "usd": 21350,
-      "cycle": 21350
-     },
-     {
-      "f": "5976",
-      "n": "LIVINGSTON RISING PAC",
-      "p": "OTH",
-      "usd": 21152,
-      "cycle": 21152
-     },
-     {
-      "f": "5913",
-      "n": "Kellee Hennessy Dickerson",
-      "p": "REP",
-      "usd": 16531,
-      "cycle": 16531
-     },
-     {
-      "f": "2018",
-      "n": "Michael Echols",
-      "p": "REP",
-      "usd": 15651,
-      "cycle": 15651
-     },
-     {
-      "f": "4538",
-      "n": "Cajun PAC II",
-      "p": "OTH",
-      "usd": 11106,
-      "cycle": 11106
-     },
-     {
-      "f": "608",
-      "n": "Brett Geymann",
-      "p": "REP",
-      "usd": 9091,
-      "cycle": 9091
-     },
-     {
-      "f": "6540",
-      "n": "REBECCA DAVIS LEE",
-      "p": "REP",
-      "usd": 9015,
-      "cycle": 9015
-     },
-     {
-      "f": "1706",
-      "n": "Jeffrey F. Wiley",
-      "p": "REP",
-      "usd": 8175,
-      "cycle": 8175
-     },
-     {
-      "f": "6495",
-      "n": "MATTHEW BELSER",
-      "p": "REP",
-      "usd": 8000,
-      "cycle": 8000
-     },
-     {
-      "f": "1077",
-      "n": "Nancy Landry",
-      "p": "REP",
-      "usd": 7500,
-      "cycle": 7500
-     }
-    ],
-    "spellings": [
-     "BRAVE NEW TELEVISION",
-     "BRAVE NEW TELEVISION LLC",
-     "BRAVENEW TELEVISION"
     ]
    }
   },
@@ -7652,96 +8092,6 @@
    }
   },
   {
-   "key": "QUESTCOMMUNICATIONCONSULT",
-   "name": "Quest Communication Consultants",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 10,
-    "priced": 10,
-    "usd": 15380,
-    "stations": [
-     "KARD",
-     "KNOE",
-     "KTVE"
-    ],
-    "clients": [
-     "Mike Smith/City Court Judge/LA/Rep",
-     "Adam Cossey/District Judge/LA/NonPart",
-     "Adam Cossey for District Judge",
-     "Robert Cherry/City Marshal/LA/Independent"
-    ],
-    "first": "2026-10-15",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 172824,
-    "media": 57310,
-    "rows": 60,
-    "media_cycle": 0,
-    "cycle": 43524,
-    "years": {
-     "2011": 88302,
-     "2012": 5816,
-     "2013": 2817,
-     "2014": 650,
-     "2015": 14017,
-     "2016": 3003,
-     "2017": 1373,
-     "2019": 12822,
-     "2022": 500,
-     "2023": 16044,
-     "2024": 1437,
-     "2026": 26044
-    },
-    "committees": 5,
-    "top": [
-     {
-      "f": "6910",
-      "n": "James H. Colvin Jr. (JIM)",
-      "p": "OTH",
-      "usd": 26044,
-      "cycle": 26044
-     },
-     {
-      "f": "6199",
-      "n": "Toni Bacon",
-      "p": "REP",
-      "usd": 14147,
-      "cycle": 14147
-     },
-     {
-      "f": "2157",
-      "n": "Jay Russell",
-      "p": "REP",
-      "usd": 118134,
-      "cycle": 3334
-     },
-     {
-      "f": "3696",
-      "n": "Linda Taylor Cook",
-      "p": "IND",
-      "usd": 11000,
-      "cycle": 0
-     },
-     {
-      "f": "4465",
-      "n": "Michael D. Allen",
-      "p": "IND",
-      "usd": 3500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "QUEST COMMUNICATION CONSULTANTS"
-    ]
-   }
-  },
-  {
    "key": "BRABENDERCOXII",
    "name": "Brabender Cox ii",
    "found_by": "political file",
@@ -7869,6 +8219,30 @@
    }
   },
   {
+   "key": "CAPITALBUSINESSSERVICE",
+   "name": "CAPITAL BUSINESS SERVICE",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 4,
+    "priced": 3,
+    "usd": 13723,
+    "stations": [
+     "KJLO",
+     "KMLB"
+    ],
+    "clients": [
+     "RAISE THE BAR"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "SRCOPMEDIA",
    "name": "SRCOP Media",
    "found_by": "political file",
@@ -7889,6 +8263,69 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "CHRISLEWISFORMARSHAL",
+   "name": "Chris Lewis For Marshal",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 13104,
+    "stations": [
+     "KARD",
+     "KTVE"
+    ],
+    "clients": [
+     "Chris Lewis/City Marshal/LA/Ind"
+    ],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 775,
+    "media": 0,
+    "rows": 7,
+    "media_cycle": 0,
+    "cycle": 225,
+    "years": {
+     "2019": 350,
+     "2020": 200,
+     "2023": 225
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "5603",
+      "n": "Hunter W. Lundy",
+      "p": "DEM",
+      "usd": 225,
+      "cycle": 225
+     },
+     {
+      "f": "937",
+      "n": "LA Democrats (formerly Democratic PAC of the Demo. St. Central Comm., DEMOPAC)",
+      "p": "DEM",
+      "usd": 350,
+      "cycle": 0
+     },
+     {
+      "f": "5068",
+      "n": "Ronnie James Williams",
+      "p": "DEM",
+      "usd": 200,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CHRIS LEWIS"
+    ]
    }
   },
   {
@@ -8142,163 +8579,6 @@
    }
   },
   {
-   "key": "KDMDIGITALSOLUTIONS",
-   "name": "KDM Digital Solutions",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 12250,
-    "stations": [
-     "KEEL",
-     "KVKI",
-     "KXKS"
-    ],
-    "clients": [
-     "m Hugo Holland for District Judge"
-    ],
-    "first": "2026-10-16",
-    "last": "2026-10-16",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 778106,
-    "media": 0,
-    "rows": 239,
-    "media_cycle": 0,
-    "cycle": 420565,
-    "years": {
-     "2018": 1060,
-     "2019": 24273,
-     "2020": 128727,
-     "2021": 133202,
-     "2022": 70280,
-     "2023": 195392,
-     "2024": 56670,
-     "2025": 60756,
-     "2026": 107747
-    },
-    "committees": 44,
-    "top": [
-     {
-      "f": "1846",
-      "n": "Alan T. Seabaugh",
-      "p": "REP",
-      "usd": 44495,
-      "cycle": 42377
-     },
-     {
-      "f": "4129",
-      "n": "Mark Wright",
-      "p": "REP",
-      "usd": 30870,
-      "cycle": 30870
-     },
-     {
-      "f": "6078",
-      "n": "Jesse Adam Bass",
-      "p": "REP",
-      "usd": 29936,
-      "cycle": 29936
-     },
-     {
-      "f": "5883",
-      "n": "John Fleming",
-      "p": "REP",
-      "usd": 26476,
-      "cycle": 26476
-     },
-     {
-      "f": "6176",
-      "n": "Justin Courtney",
-      "p": "REP",
-      "usd": 24343,
-      "cycle": 24343
-     },
-     {
-      "f": "4441",
-      "n": "Thomas Alexander Pressly IV",
-      "p": "REP",
-      "usd": 23661,
-      "cycle": 23661
-     },
-     {
-      "f": "5444",
-      "n": "Tommy Chandler",
-      "p": "REP",
-      "usd": 94096,
-      "cycle": 22500
-     },
-     {
-      "f": "6059",
-      "n": "Les Blanchard",
-      "p": "REP",
-      "usd": 21290,
-      "cycle": 21290
-     },
-     {
-      "f": "6550",
-      "n": "Craton Cochran",
-      "p": "REP",
-      "usd": 21212,
-      "cycle": 21212
-     },
-     {
-      "f": "3308",
-      "n": "Dodie Horton",
-      "p": "REP",
-      "usd": 22034,
-      "cycle": 20334
-     },
-     {
-      "f": "5446",
-      "n": "Christopher C. Smith",
-      "p": "OTH",
-      "usd": 18892,
-      "cycle": 18892
-     },
-     {
-      "f": "6738",
-      "n": "AMY BRAINARD",
-      "p": "OTH",
-      "usd": 18418,
-      "cycle": 18418
-     },
-     {
-      "f": "4917",
-      "n": "Barry Milligan",
-      "p": "REP",
-      "usd": 47829,
-      "cycle": 17509
-     },
-     {
-      "f": "7604",
-      "n": "Heather Savage Courtney",
-      "p": "OTH",
-      "usd": 15085,
-      "cycle": 15085
-     },
-     {
-      "f": "2276",
-      "n": "Julian Whittington",
-      "p": "REP",
-      "usd": 13758,
-      "cycle": 13758
-     }
-    ],
-    "spellings": [
-     "KDM DIGITAL SOLUTIONS",
-     "KDM DIGITAL SOLUTIONS LLC",
-     "KDM DIGITAL",
-     "KDM DIGITAL SOLUTIONS, LLC"
-    ]
-   }
-  },
-  {
    "key": "WALKERSTRATEGICSOLUTIONS",
    "name": "Walker Strategic Solutions",
    "found_by": "political file",
@@ -8399,6 +8679,34 @@
    }
   },
   {
+   "key": "KATZMEDIA",
+   "name": "Katz Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 8,
+    "priced": 8,
+    "usd": 12125,
+    "stations": [
+     "KROF",
+     "WBRP",
+     "WNXX"
+    ],
+    "clients": [
+     "m Accountability Project, Inc",
+     "Blake Miguez for congress",
+     "m Louisiana Freedom Fund",
+     "Club For Growth Action"
+    ],
+    "first": "2026-01-30",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "WOT",
    "name": "wot",
    "found_by": "political file",
@@ -8468,162 +8776,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "BRANDONGUICHARDDIGITAL",
-   "name": "Brandon Guichard Digital Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 3,
-    "usd": 10380,
-    "stations": [
-     "WBRZ",
-     "WDSU",
-     "WVUE"
-    ],
-    "clients": [
-     "JUSTICE PAC",
-     "Holmes/D/OP Crim Dist Court Div",
-     "Justin for Public Service Commission",
-     "Jewett/D/Congress"
-    ],
-    "first": "2026-10-12",
-    "last": "2026-10-22",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 377011,
-    "media": 0,
-    "rows": 75,
-    "media_cycle": 0,
-    "cycle": 265324,
-    "years": {
-     "2020": 31762,
-     "2021": 33750,
-     "2022": 46175,
-     "2023": 68556,
-     "2025": 165568,
-     "2026": 31200
-    },
-    "committees": 20,
-    "top": [
-     {
-      "f": "1921",
-      "n": "Helena Moreno",
-      "p": "DEM",
-      "usd": 161924,
-      "cycle": 161924
-     },
-     {
-      "f": "5507",
-      "n": "Dustin Granger",
-      "p": "DEM",
-      "usd": 28000,
-      "cycle": 28000
-     },
-     {
-      "f": "4399",
-      "n": "Jeremy LaCombe",
-      "p": "REP",
-      "usd": 36150,
-      "cycle": 15000
-     },
-     {
-      "f": "6149",
-      "n": "Madison O'Malley",
-      "p": "DEM",
-      "usd": 13950,
-      "cycle": 13950
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 10700,
-      "cycle": 10700
-     },
-     {
-      "f": "7779",
-      "n": "Lacy Landrum",
-      "p": "OTH",
-      "usd": 8000,
-      "cycle": 8000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "957",
-      "n": "Byron Lee",
-      "p": "DEM",
-      "usd": 7250,
-      "cycle": 7250
-     },
-     {
-      "f": "2598",
-      "n": "Kimya Holmes",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 17250,
-      "cycle": 4000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 4000,
-      "cycle": 4000
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 23000,
-      "cycle": 0
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 19675,
-      "cycle": 0
-     },
-     {
-      "f": "2345",
-      "n": "Leo J. Palazzo",
-      "p": "REP",
-      "usd": 10500,
-      "cycle": 0
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 7257,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BRANDON GUICHARD DIGITAL GROUP",
-     "BRANDON GUICHARD",
-     "BRANDON GUICHARD DIGITAL"
-    ]
    }
   },
   {
@@ -8778,30 +8930,6 @@
    }
   },
   {
-   "key": "KATZMEDIA",
-   "name": "Katz Media Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 5,
-    "usd": 9405,
-    "stations": [
-     "KROF"
-    ],
-    "clients": [
-     "m Accountability Project, Inc",
-     "m Louisiana Freedom Fund"
-    ],
-    "first": "2026-01-30",
-    "last": "2026-05-06",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "TARGETEDPLATFORMMEDIA",
    "name": "Targeted Platform Media",
    "found_by": "political file",
@@ -8852,14 +8980,14 @@
    "name": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 0,
     "usd": 0,
     "stations": [
      "WAFB"
     ],
     "clients": [],
-    "first": "2026-10-13",
+    "first": "2026-10-06",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -9122,66 +9250,21 @@
    }
   },
   {
-   "key": "CAPITALBUSINESSSERVICE",
-   "name": "CAPITAL BUSINESS SERVICE",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 6944,
-    "stations": [
-     "KMLB"
-    ],
-    "clients": [
-     "RAISE THE BAR"
-    ],
-    "first": "2026-10-15",
-    "last": "2026-10-15",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
-   "key": "SACFI",
-   "name": "sacfi",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 6940,
-    "stations": [
-     "KPXJ"
-    ],
-    "clients": [
-     "John Fleming/Fieming for Louisiana"
-    ],
-    "first": "2026-06-12",
-    "last": "2026-06-12",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "ANGIESANDERSAD",
    "name": "Angie Sanders Ad Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 2254,
+    "docs": 2,
+    "priced": 2,
+    "usd": 3544,
     "stations": [
+     "KJLO",
      "KTVE"
     ],
     "clients": [
      "Mennon Campbell/District Attorney/LA/Rep"
     ],
-    "first": "2026-10-19",
+    "first": "2026-10-12",
     "last": "2026-10-19",
     "away": {
      "docs": 0,
@@ -9231,6 +9314,29 @@
      "ANGIE SANDERS",
      "ANGIE SANDERS AD GROUP LLC"
     ]
+   }
+  },
+  {
+   "key": "SACFI",
+   "name": "sacfi",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 6940,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "John Fleming/Fieming for Louisiana"
+    ],
+    "first": "2026-06-12",
+    "last": "2026-06-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -10221,6 +10327,55 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "REDRIVERUNITEDAGENCY",
+   "name": "Red River United Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 1440,
+    "stations": [
+     "KEEL"
+    ],
+    "clients": [
+     "m Red River United Agy"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 11860,
+    "media": 0,
+    "rows": 6,
+    "media_cycle": 0,
+    "cycle": 5000,
+    "years": {
+     "2019": 5700,
+     "2020": 910,
+     "2022": 250,
+     "2024": 5000
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "1597",
+      "n": "LA Federation of Teachers PAC",
+      "p": "OTH",
+      "usd": 11860,
+      "cycle": 5000
+     }
+    ],
+    "spellings": [
+     "RED RIVER UNITED"
+    ]
    }
   },
   {
@@ -13023,25 +13178,23 @@
    }
   },
   {
-   "key": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
-   "name": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+   "key": "CROSSROADSMEDIALLG66CANALCENTERPLAZASUITE555ALEXANDRIA",
+   "name": "Crossroads Media, LLG - 66 Canal Center Plaza, Suite 555, Alexandria",
    "found_by": "political file",
    "fcc": {
     "docs": 0,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KSLA"
+     "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-20",
-    "last": "2026-10-20",
+    "first": "2026-10-06",
+    "last": "2026-10-06",
     "away": {
      "docs": 1,
      "usd": 0,
-     "clients": [
-      "Texans for Greg Abbott - PO Box 308 Austin, TX"
-     ]
+     "clients": []
     }
    },
    "paid": {
@@ -17328,6 +17481,50 @@
    }
   },
   {
+   "key": "NAVELOCITYAGENCY",
+   "name": "= N/A Velocity Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Seuzeneau For Sheriff"
+    ],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "ATHY",
+   "name": "Athy",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KOKA"
+    ],
+    "clients": [],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "AXMEDIADIFF",
    "name": "Ax Media diff",
    "found_by": "political file",
@@ -17378,11 +17575,14 @@
    "name": "BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 6,
     "priced": 0,
     "usd": 0,
     "stations": [
      "004289",
+     "KLFY",
+     "KSLA",
+     "WAFB",
      "WBRZ"
     ],
     "clients": [
@@ -17392,6 +17592,27 @@
     "last": "2026-10-21",
     "away": {
      "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CNAESM",
+   "name": "C N/A ESM",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 1,
      "usd": 0,
      "clients": []
     }
@@ -17436,6 +17657,27 @@
     "last": "2026-10-16",
     "away": {
      "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CLNACROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+   "name": "CL] N/A Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "away": {
+     "docs": 1,
      "usd": 0,
      "clients": []
     }
@@ -17514,18 +17756,106 @@
    "name": "Candidate's political party",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "KLIL",
      "WFMF",
      "WJBO"
     ],
     "clients": [
-     "Michael Vincent Campaign"
+     "Michael Vincent Campaign",
+     "The undersigned represents that"
     ],
-    "first": "2026-10-20",
+    "first": "2026-10-13",
     "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CAPITALBUSINESSSEWIEC8",
+   "name": "Cap ital Business se wie C8",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KJLO"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CAPITALBUSINCOSHEMIEE",
+   "name": "Capital Busi NCOS He miee",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KJLO"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CAPITALBUSINOSESEYICEPAI",
+   "name": "Capital Busi NOSE Sey ice pai",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KMLB"
+    ],
+    "clients": [
+     "Bolt tre 5"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CATITALBUSINESSDEMICEGOOOOIETEPETIT",
+   "name": "Cat ital Business de mice Go oo oie te petit",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KJLO"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17576,6 +17906,27 @@
    }
   },
   {
+   "key": "COWS",
+   "name": "Cows",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSYL"
+    ],
+    "clients": [],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "CROSSROADSMEDIA",
    "name": "Crossroads Media",
    "found_by": "political file",
@@ -17597,6 +17948,29 @@
       "Texans for Greg Abbott",
       "Griginal Date / Revision",
       "s for Greg Abbott iHf"
+     ]
+    }
+   }
+  },
+  {
+   "key": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+   "name": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSLA"
+    ],
+    "clients": [],
+    "first": "2026-10-07",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 2,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbott - PO Box 308 Austin, TX"
      ]
     }
    }
@@ -17648,6 +18022,29 @@
    }
   },
   {
+   "key": "DELCIELOPEOPLEWHOTHINK",
+   "name": "Del Cielo / People Who Think",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "005142"
+    ],
+    "clients": [
+     "Maga Energy Project"
+    ],
+    "first": "2026-05-14",
+    "last": "2026-05-14",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "DRWOODROWWILSON",
    "name": "Dr, Woodrow Wilson",
    "found_by": "political file",
@@ -17683,10 +18080,10 @@
     "clients": [
      "Alan Seabaugh Campaign"
     ],
-    "first": "2026-10-09",
+    "first": "2026-10-02",
     "last": "2026-10-23",
     "away": {
-     "docs": 12,
+     "docs": 13,
      "usd": 0,
      "clients": [
       "Texans for Dan Patrick",
@@ -17740,6 +18137,52 @@
    }
   },
   {
+   "key": "FRONTIERSTRATEGIES740AVIGNONDRIVESUITEARIDGELANDMS",
+   "name": "FRONTIER STRATEGIES LLC, 740 AVIGNON DRIVE, SUITE A, RIDGELAND, MS",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [
+     "RICK FOR LOUISIANA"
+    ],
+    "first": "2026-10-08",
+    "last": "2026-10-08",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 94,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2014": 94
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "549",
+      "n": "John C. Reeves",
+      "p": "DEM",
+      "usd": 94,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FRONTIER STRATEGIES"
+    ]
+   }
+  },
+  {
    "key": "FLEXPOINTCAMPAIGNSINFOFLEXPOINTCAMPAIGNSCOM",
    "name": "FlexPoint Campaigns; info@flexpointcampaigns.com",
    "found_by": "political file",
@@ -17768,7 +18211,7 @@
    "name": "Friends of Caddo",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
+    "docs": 7,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -17780,7 +18223,7 @@
     "clients": [
      "Dr. Woodrow Wilson"
     ],
-    "first": "2026-10-12",
+    "first": "2026-10-09",
     "last": "2026-10-15",
     "away": {
      "docs": 0,
@@ -17810,6 +18253,29 @@
     "spellings": [
      "FRIENDS OF CADDO PARISH"
     ]
+   }
+  },
+  {
+   "key": "GEN2SOLUTIONS",
+   "name": "Gen2 Solutions",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048"
+    ],
+    "clients": [
+     "Rick Edmonds for Louisiana"
+    ],
+    "first": "2026-05-19",
+    "last": "2026-05-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -17855,6 +18321,105 @@
      "clients": [
       "Texans for Greg Abbolt - PO Box 308 Austin, TX"
      ]
+    }
+   }
+  },
+  {
+   "key": "JORDANTHOMAS",
+   "name": "Jordan [Thomas",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KEEL"
+    ],
+    "clients": [
+     "Louisiana Tedlerahon of Teadherst Support Personnel"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 430,
+    "media": 0,
+    "rows": 5,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2015": 430
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "3674",
+      "n": "Donovan K. Hudson",
+      "p": "DEM",
+      "usd": 330,
+      "cycle": 0
+     },
+     {
+      "f": "937",
+      "n": "LA Democrats (formerly Democratic PAC of the Demo. St. Central Comm., DEMOPAC)",
+      "p": "DEM",
+      "usd": 100,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "JORDAN THOMAS"
+    ]
+   }
+  },
+  {
+   "key": "LNACROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+   "name": "L N/A Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbott - PO Box 308 Austin, TX"
+     ]
+    }
+   }
+  },
+  {
+   "key": "LNAARSEMENTMEDIA",
+   "name": "L N/A. Arsement Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "The Committee to Elect Emilia Pardo"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    }
   },
@@ -17926,6 +18491,27 @@
    }
   },
   {
+   "key": "LWAEASON",
+   "name": "L ]wa EASON",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLWB"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "LCMEDIA",
    "name": "LC Media",
    "found_by": "political file",
@@ -17980,13 +18566,14 @@
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KSLA"
+     "KSLA",
+     "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-13",
+    "first": "2026-10-05",
     "last": "2026-10-13",
     "away": {
-     "docs": 1,
+     "docs": 2,
      "usd": 0,
      "clients": [
       "Gina Hinojosa Campaign"
@@ -18019,6 +18606,73 @@
    }
   },
   {
+   "key": "LCNAMEDIAADVENTURES",
+   "name": "LC] N/A Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "Mike Johnson for Louisiana"
+    ],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LCNIACROSSROADSMEDIA66CANALCENTERPLAZASULTE566ALEXANDRLAVA",
+   "name": "LC] NIA Crossroads Media, LLC - 66 Canal Center Plaza, Sulte 566, Alexandrla VA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbott - PO Box 308 Austin, TX"
+     ]
+    }
+   }
+  },
+  {
+   "key": "LWAERSENADVERTTISIWG",
+   "name": "L]wa = ERSen Advert TISIWG",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "LELIA",
    "name": "Lelia",
    "found_by": "political file",
@@ -18032,6 +18686,29 @@
     "clients": [],
     "first": "2026-10-17",
     "last": "2026-10-17",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LOWAERSONADVENTSIVEDEC",
+   "name": "Lowa ERSoN Adventsive dec",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "nn COMMITTEE TO ELECT. NAMIES KOCK"
+    ],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18086,11 +18763,55 @@
    }
   },
   {
+   "key": "MAVEEC",
+   "name": "MAV EEC",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KVHP"
+    ],
+    "clients": [
+     "Original Date / Revision"
+    ],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "MAVPRODUCTDESE2026OPENPRIMARY",
+   "name": "MAV-LLC Product Dese.: 2026 Open Primary",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KVHP"
+    ],
+    "clients": [],
+    "first": "2026-10-07",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "MFBMEDIA",
    "name": "MFB Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -18099,7 +18820,7 @@
     "clients": [
      "Wagley for Congress"
     ],
-    "first": "2026-10-19",
+    "first": "2026-10-05",
     "last": "2026-10-19",
     "away": {
      "docs": 0,
@@ -18206,17 +18927,18 @@
    "name": "Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 4,
     "priced": 0,
     "usd": 0,
     "stations": [
      "KDKS",
+     "KEEL",
      "KSLA"
     ],
     "clients": [
      "Phelps for Mayor Campaign"
     ],
-    "first": "2026-10-15",
+    "first": "2026-10-14",
     "last": "2026-10-20",
     "away": {
      "docs": 0,
@@ -18241,6 +18963,27 @@
     ],
     "first": "2026-05-29",
     "last": "2026-05-29",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "POI26CHAUNTAMEROFORSHREVEPORT",
+   "name": "Poi26/Chaunta Mero for Shreveport",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KDKS"
+    ],
+    "clients": [],
+    "first": "2026-10-08",
+    "last": "2026-10-08",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18558,20 +19301,69 @@
     "usd": 0,
     "stations": [
      "003478",
+     "KPXJ",
      "WNOL"
     ],
     "clients": [
      "Hometown Freedom Action Network"
     ],
-    "first": "2026-10-09",
+    "first": "2026-10-08",
     "last": "2026-10-20",
     "away": {
-     "docs": 2,
+     "docs": 3,
      "usd": 0,
      "clients": [
       "Too Extreme for Idaho PAC"
      ]
     }
+   }
+  },
+  {
+   "key": "WILLIAMSCREATIVE",
+   "name": "Williams Creative Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KDKS",
+     "KOKA"
+    ],
+    "clients": [
+     "Pol26/Tom Arceneux for Mayor"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 79824,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 79824,
+    "years": {
+     "2025": 6235,
+     "2026": 73589
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5573",
+      "n": "M. Thomas (\"Tom\") Arceneaux",
+      "p": "REP",
+      "usd": 79824,
+      "cycle": 79824
+     }
+    ],
+    "spellings": [
+     "WILLIAMS CREATIVE GROUP"
+    ]
    }
   },
   {
@@ -18644,32 +19436,11 @@
    }
   },
   {
-   "key": "NAAXMEDIA",
-   "name": "[ N/A AxMedia",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 0,
-    "priced": 0,
-    "usd": 0,
-    "stations": [
-     "KTBS"
-    ],
-    "clients": [],
-    "first": "2026-10-16",
-    "last": "2026-10-16",
-    "away": {
-     "docs": 1,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "NABRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
    "name": "[ N/A BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 22,
+    "docs": 24,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -18680,8 +19451,29 @@
     "clients": [
      "Julia Letlow for Louisiana"
     ],
-    "first": "2026-06-09",
+    "first": "2026-05-14",
     "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NABRABENDERCOX4218GRANDVIEWAVEPITTSBURGH",
+   "name": "[ N/A BrabenderCox 4218 Grandview Ave Pittsburgh",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-06",
+    "last": "2026-10-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18785,6 +19577,29 @@
    }
   },
   {
+   "key": "NACROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
+   "name": "[ N/A Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbott - PO Box 308 Austin, TX"
+     ]
+    }
+   }
+  },
+  {
    "key": "NACROSSROADSMEDIA66CANALCENTERPLAZASULTE555ALEXANDRIA",
    "name": "[ N/A Crossroads Media, LLC - 66 Canal Center Plaza, Sulte 555, Alexandria",
    "found_by": "political file",
@@ -18793,13 +19608,14 @@
     "priced": 0,
     "usd": 0,
     "stations": [
+     "KPXJ",
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-14",
+    "first": "2026-10-06",
     "last": "2026-10-14",
     "away": {
-     "docs": 1,
+     "docs": 2,
      "usd": 0,
      "clients": [
       "Texans for Greg Abbott PO Box 308 Austin, TX"
@@ -18831,6 +19647,27 @@
    }
   },
   {
+   "key": "NACROSSROADSMEDIA66CANALCENTERPJAZASULTE555ALEXANDRIA",
+   "name": "[ N/A Crossroads Media, LLC «66 Canal Center Pjaza, Sulte 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NAESM",
    "name": "[ N/A ESM",
    "found_by": "political file",
@@ -18842,10 +19679,10 @@
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-12",
+    "first": "2026-10-07",
     "last": "2026-10-23",
     "away": {
-     "docs": 4,
+     "docs": 5,
      "usd": 0,
      "clients": [
       "Texans for Dan Patrick",
@@ -18923,22 +19760,25 @@
   },
   {
    "key": "NAMEDIAADVENTURES",
-   "name": "[ N/A Media AdVentures",
+   "name": "[ N/A Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 9,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "008048",
      "KLFY",
+     "KLKL",
      "KPXJ",
      "KTBS"
     ],
     "clients": [
      "Mike Johnson for Louisiana",
+     "Scalise for Congress",
      "Captain Higgins for Congress"
     ],
-    "first": "2026-10-09",
+    "first": "2026-05-19",
     "last": "2026-10-20",
     "away": {
      "docs": 0,
@@ -19020,14 +19860,16 @@
    "name": "[ N/A Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
+    "docs": 6,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "KDKS",
      "KOKA",
      "KPXJ"
     ],
     "clients": [
+     "John Atkins campaign",
      "Phelps for Mayor Campaign",
      "Mero for Mayor campaign"
     ],
@@ -19085,6 +19927,31 @@
      "clients": [
       "Talarico for Texas"
      ]
+    }
+   }
+  },
+  {
+   "key": "NAAXMEDIA",
+   "name": "[ N/A axMedia",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048",
+     "KLFY",
+     "KTBS"
+    ],
+    "clients": [
+     "The Kristian Earles Campaign"
+    ],
+    "first": "2026-05-18",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": []
     }
    }
   },
@@ -19294,7 +20161,7 @@
    "name": "[JNA ese",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -19303,8 +20170,29 @@
     "clients": [
      "Blake Miguez for Louisiana"
     ],
-    "first": "2026-10-19",
+    "first": "2026-10-09",
     "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "JWAANSON",
+   "name": "[Jwa © ANSON",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KFXZ"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -19336,6 +20224,50 @@
    }
   },
   {
+   "key": "LNACANALPARTNERSMEDIA900CIRCLE75PARKWAYSUITE1650ATLANTA",
+   "name": "[L] N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [
+     "Hillar Moore Campaign"
+    ],
+    "first": "2026-10-05",
+    "last": "2026-10-05",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "TWA",
+   "name": "[Twa",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KMLB"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NALITTLEFIELDCONSULT",
    "name": "[] N/A LITTLEFIELD CONSULTING",
    "found_by": "political file",
@@ -19352,6 +20284,29 @@
     ],
     "first": "2026-07-15",
     "last": "2026-09-29",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LAWILLNSCRATEJONPOMEMONTKOADSUEBINSLEEPIDLATINO",
+   "name": "[la Willns Crate Group, Jon Pomemon t Koad, Sue, Bin. SLEEP ID, LATINO",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Scien oe oe LOM AleMeRU FBR TAO"
+    ],
+    "first": "2026-10-08",
+    "last": "2026-10-08",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -20172,10 +21127,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 7500,
     "cycle": 7500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -20440,10 +21395,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 8072,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1101": [
@@ -21238,10 +22193,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 1950,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1195": [
@@ -22110,10 +23065,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "POLITICALFIRM",
@@ -23128,10 +24083,10 @@
   "1523": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 275088,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
@@ -23616,6 +24571,13 @@
     "fcc": true
    },
    {
+    "k": "REDRIVERUNITEDAGENCY",
+    "n": "Red River United Agency",
+    "usd": 11860,
+    "cycle": 5000,
+    "fcc": true
+   },
+   {
     "k": "COUNTERPOINTMESSAGING",
     "n": "Counterpoint Messaging",
     "usd": 4667,
@@ -23646,8 +24608,8 @@
     "fcc": false
    },
    {
-    "k": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
-    "n": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+    "k": "CROSSROADSMEDIALLG66CANALCENTERPLAZASUITE555ALEXANDRIA",
+    "n": "Crossroads Media, LLG - 66 Canal Center Plaza, Suite 555, Alexandria",
     "usd": 291333,
     "cycle": 0,
     "fcc": true
@@ -23851,10 +24813,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3750,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -24384,10 +25346,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 8175,
     "cycle": 8175,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1709": [
@@ -24618,10 +25580,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1733": [
@@ -24950,10 +25912,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 32234,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
@@ -25747,8 +26709,8 @@
     "fcc": false
    },
    {
-    "k": "CROSSROADSMEDIA66CANALCENTERPLAZASUITE555ALEXANDRIA",
-    "n": "Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555, Alexandria",
+    "k": "CROSSROADSMEDIALLG66CANALCENTERPLAZASUITE555ALEXANDRIA",
+    "n": "Crossroads Media, LLG - 66 Canal Center Plaza, Suite 555, Alexandria",
     "usd": 1000,
     "cycle": 0,
     "fcc": true
@@ -26466,10 +27428,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 15651,
     "cycle": 15651,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2019": [
@@ -27389,10 +28351,10 @@
   "2164": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 135939,
     "cycle": 750,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -27853,10 +28815,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 156277,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HTV10",
@@ -28080,10 +29042,10 @@
   "2274": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 16331,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JIMHOGG",
@@ -28277,10 +29239,10 @@
   "2327": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 96735,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HTV",
@@ -28889,10 +29851,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 6500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2566": [
@@ -31325,10 +32287,10 @@
   "3183": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 29282,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3185": [
@@ -31684,10 +32646,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3849,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3299": [
@@ -31782,10 +32744,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LITTLEFIELDCONSULT",
@@ -32468,10 +33430,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3150,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3420": [
@@ -32673,10 +33635,10 @@
   "3468": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 24373,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "HTV",
@@ -32739,10 +33701,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3850,
     "cycle": 3850,
-    "fcc": false
+    "fcc": true
    }
   ],
   "351": [
@@ -32764,10 +33726,10 @@
   "3511": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 45307,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3518": [
@@ -32950,10 +33912,10 @@
   "3585": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 1753,
     "cycle": 1753,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3588": [
@@ -32968,10 +33930,10 @@
   "3622": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 5502,
     "cycle": 5502,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3624": [
@@ -34244,10 +35206,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 2500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4048": [
@@ -34573,10 +35535,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 6250,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4117": [
@@ -34644,10 +35606,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 14950,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4130": [
@@ -34736,10 +35698,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 2150,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4137": [
@@ -35254,10 +36216,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 2850,
     "cycle": 2850,
-    "fcc": false
+    "fcc": true
    }
   ],
   "422": [
@@ -35403,10 +36365,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 29264,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4246": [
@@ -35682,10 +36644,10 @@
   "4314": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 1000,
     "cycle": 1000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4320": [
@@ -36052,10 +37014,10 @@
   "4415": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3174,
     "cycle": 3174,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4419": [
@@ -36209,10 +37171,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3850,
     "cycle": 3850,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ROUGAROUCONSULT",
@@ -36751,10 +37713,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 11106,
     "cycle": 11106,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4543": [
@@ -36935,10 +37897,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 38633,
     "cycle": 38633,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GAGLIANO",
@@ -37302,10 +38264,10 @@
   "4733": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 14800,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4739": [
@@ -37749,10 +38711,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 7500,
     "cycle": 7500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "COMPOSE",
@@ -38216,10 +39178,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5072": [
@@ -38614,10 +39576,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 1500,
     "cycle": 1500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5170": [
@@ -39447,10 +40409,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 6206,
     "cycle": 6206,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5442": [
@@ -39592,10 +40554,10 @@
   "5484": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 1002,
     "cycle": 1002,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5488": [
@@ -39981,6 +40943,13 @@
     "usd": 254889,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "WILLIAMSCREATIVE",
+    "n": "Williams Creative Group",
+    "usd": 79824,
+    "cycle": 79824,
+    "fcc": true
    },
    {
     "k": "KDMDIGITALSOLUTIONS",
@@ -40781,10 +41750,10 @@
   "5913": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 16531,
     "cycle": 16531,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GAGLIANO",
@@ -40948,10 +41917,10 @@
   "5955": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 1500,
     "cycle": 1500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5956": [
@@ -40966,10 +41935,10 @@
   "5959": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 21350,
     "cycle": 21350,
-    "fcc": false
+    "fcc": true
    }
   ],
   "596": [
@@ -41080,10 +42049,10 @@
   "5976": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 21152,
     "cycle": 21152,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5977": [
@@ -41470,10 +42439,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 9091,
     "cycle": 9091,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "GOBIGMEDIA",
@@ -42084,10 +43053,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3500,
     "cycle": 3500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "634": [
@@ -42222,10 +43191,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 3750,
     "cycle": 3750,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6358": [
@@ -42279,10 +43248,10 @@
   "6399": [
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 106477,
     "cycle": 106477,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6404": [
@@ -42474,10 +43443,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 8000,
     "cycle": 8000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "650": [
@@ -42718,10 +43687,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 9015,
     "cycle": 9015,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6541": [
@@ -43744,10 +44713,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 24600,
     "cycle": 24600,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "LITTLEFIELDCONSULT",
@@ -44207,10 +45176,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 4400,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "COMPOSEDIGITALDESIGN",
@@ -44598,10 +45567,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 25312,
     "cycle": 25312,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "FLETCHERCONSULT",
@@ -45566,10 +46535,10 @@
    },
    {
     "k": "BRAVENEWTELEVISION",
-    "n": "Brave New Television",
+    "n": "BRAVE NEW TELEVISION",
     "usd": 87488,
     "cycle": 33786,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "JAMESTOWNASSOCIATES",
