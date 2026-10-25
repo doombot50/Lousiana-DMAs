@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-24",
+ "generated": "2026-10-25",
  "data_through": "2026-10-23",
  "cycle_from": 2023,
- "documents_read": 1524,
+ "documents_read": 1730,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -14,7 +14,7 @@
    "name": "People Who Think / Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
+    "docs": 9,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -24,7 +24,7 @@
     "clients": [
      "Accountability Project, Inc"
     ],
-    "first": "2026-06-22",
+    "first": "2026-06-09",
     "last": "2026-07-28",
     "away": {
      "docs": 0,
@@ -170,9 +170,9 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 13,
-    "priced": 6,
-    "usd": 95615,
+    "docs": 17,
+    "priced": 7,
+    "usd": 113260,
     "stations": [
      "008048",
      "WAFB",
@@ -182,11 +182,11 @@
      "WWL-TV"
     ],
     "clients": [
-     "Protect St. Tammany's Future",
      "Brad Cascio for District Attorney",
+     "Protect St. Tammany's Future",
      "Echols/R/22 Jud District Court - DivE",
-     "Burris/R/LA Supreme Court Dist 1",
      "Echols for Judge",
+     "Burris/R/LA Supreme Court Dist 1",
      "Ellie Schroder Campaign",
      "Schroder/R/BESE Dist 1"
     ],
@@ -457,10 +457,12 @@
    "name": "Ax Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
-    "priced": 7,
-    "usd": 62778,
+    "docs": 14,
+    "priced": 12,
+    "usd": 74958,
     "stations": [
+     "KADN",
+     "KATC",
      "KLFY",
      "KSLA",
      "KTBS",
@@ -473,12 +475,12 @@
     "first": "2026-01-23",
     "last": "2026-10-23",
     "away": {
-     "docs": 16,
+     "docs": 18,
      "usd": 174755,
      "clients": [
       "Chris Spencer Campaign",
       "Ken Paxton For Senate",
-      "Ken Paxton Victory Fund-Senate",
+      "Ken Paxton Victory Fund",
       "encer Campalgn"
      ]
     }
@@ -795,9 +797,9 @@
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 20,
-    "priced": 15,
-    "usd": 144715,
+    "docs": 22,
+    "priced": 16,
+    "usd": 163740,
     "stations": [
      "004321",
      "KLFY",
@@ -806,12 +808,12 @@
     ],
     "clients": [
      "Lindsay/D/Orleans Parish Civil District Judge",
+     "Friends to Elect Bart Hebert, LLC",
      "Howard/D/Orleans Parish Civil District Court",
+     "Marsiglia for Judge",
      "Marsiglia/R/JP Court Judge, Div",
      "Stagni/R/Kenner Council At-Large Div",
-     "Friends to Elect Bart Hebert, LLC",
      "Campaign to Elect Will Keaty",
-     "Marsiglia for Judge",
      "The Committee to Elect Emilia Pardo",
      "Buras for Judge"
     ],
@@ -1034,6 +1036,68 @@
    }
   },
   {
+   "key": "MEDIAADVENTURES",
+   "name": "Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 39,
+    "priced": 33,
+    "usd": 565660,
+    "stations": [
+     "005341",
+     "KARD",
+     "KPXJ",
+     "KSLA",
+     "KTBS",
+     "KTVE",
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Mike Johnson for Louisiana",
+     "Scalise/R/Congress",
+     "Mike Echols/US Congress/LA/Rep",
+     "Mike Johnson for Loulslana",
+     "Mike Johnson for Loulsiana",
+     "Scalise for Congress",
+     "Mike Johnson for Louistana",
+     "Mike Johnson for Louislana",
+     "Mike Johnson for Loulstana",
+     "Echols for LA State Congress"
+    ],
+    "first": "2026-04-20",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 18000,
+    "media": 0,
+    "rows": 3,
+    "media_cycle": 0,
+    "cycle": 18000,
+    "years": {
+     "2026": 18000
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "4919",
+      "n": "Jambalaya PAC",
+      "p": "OTH",
+      "usd": 18000,
+      "cycle": 18000
+     }
+    ],
+    "spellings": [
+     "MEDIA AD VENTURES"
+    ]
+   }
+  },
+  {
    "key": "SRCPMEDIA",
    "name": "SRCPmedia",
    "found_by": "political file",
@@ -1126,68 +1190,6 @@
     ],
     "spellings": [
      "PATRIOT MEDIA GROUP"
-    ]
-   }
-  },
-  {
-   "key": "MEDIAADVENTURES",
-   "name": "Media Ad Ventures",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 36,
-    "priced": 32,
-    "usd": 495700,
-    "stations": [
-     "005341",
-     "KARD",
-     "KPXJ",
-     "KSLA",
-     "KTBS",
-     "KTVE",
-     "WDSU",
-     "WVUE"
-    ],
-    "clients": [
-     "Mike Johnson for Louisiana",
-     "Scalise/R/Congress",
-     "Mike Echols/US Congress/LA/Rep",
-     "Mike Johnson for Loulslana",
-     "Mike Johnson for Loulsiana",
-     "Mike Johnson for Louistana",
-     "Mike Johnson for Louislana",
-     "Mike Johnson for Loulstana",
-     "Echols for LA State Congress",
-     "Scalise for Congress"
-    ],
-    "first": "2026-04-20",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 18000,
-    "media": 0,
-    "rows": 3,
-    "media_cycle": 0,
-    "cycle": 18000,
-    "years": {
-     "2026": 18000
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "4919",
-      "n": "Jambalaya PAC",
-      "p": "OTH",
-      "usd": 18000,
-      "cycle": 18000
-     }
-    ],
-    "spellings": [
-     "MEDIA AD VENTURES"
     ]
    }
   },
@@ -1394,11 +1396,12 @@
    "name": "Kingfish Communications",
    "found_by": "political file",
    "fcc": {
-    "docs": 35,
+    "docs": 43,
     "priced": 22,
     "usd": 295220,
     "stations": [
      "003680",
+     "004289",
      "005142",
      "008048",
      "KALB",
@@ -1410,9 +1413,9 @@
      "WJBO"
     ],
     "clients": [
+     "Fleming for Louisiana",
      "John Fleming for U.S. Senate",
      "Fleming/R/Senate",
-     "John Fleming/Fleming for Louisiana",
      "Moms Protecting Children PAC",
      "SaveOurLouisiana.Org",
      "Fleming for LA",
@@ -1573,9 +1576,9 @@
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 15,
-    "priced": 15,
-    "usd": 146885,
+    "docs": 17,
+    "priced": 17,
+    "usd": 163415,
     "stations": [
      "WDSU",
      "WVUE"
@@ -1584,10 +1587,10 @@
      "Young/R/LA Public Service Commissioner Dist 1",
      "McMahon/R/JP 24th JDC Judge",
      "Brocato/R/JP 1st Court Div",
-     "Raines for Judge",
-     "Raines/R/JP First Parish Court Div",
      "Brocato for Judge",
-     "McMahon for Judge"
+     "McMahon for Judge",
+     "Raines for Judge",
+     "Raines/R/JP First Parish Court Div"
     ],
     "first": "2026-04-30",
     "last": "2026-10-23",
@@ -2124,161 +2127,6 @@
     ],
     "spellings": [
      "CONVERGENCE MEDIA, LLC"
-    ]
-   }
-  },
-  {
-   "key": "VICTORIACOULONCONSULT",
-   "name": "Victoria Coulon Consulting",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 13,
-    "priced": 13,
-    "usd": 51445,
-    "stations": [
-     "WDSU",
-     "WYLD"
-    ],
-    "clients": [
-     "Marjanovic/R/JP 24th JDC - Div",
-     "James/D/Orl Parish Civil District Court Divison N",
-     "Perque/D/Orl Parish Civil Court Div",
-     "Troy Carter/D/Congress",
-     "Candace Newell for Judge Divis"
-    ],
-    "first": "2026-04-30",
-    "last": "2026-10-22",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 734526,
-    "media": 166925,
-    "rows": 127,
-    "media_cycle": 148305,
-    "cycle": 557755,
-    "years": {
-     "2021": 73470,
-     "2022": 103301,
-     "2023": 148107,
-     "2024": 63200,
-     "2025": 222983,
-     "2026": 123465
-    },
-    "committees": 42,
-    "top": [
-     {
-      "f": "5470",
-      "n": "Freddie King III",
-      "p": "DEM",
-      "usd": 105873,
-      "cycle": 74183
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 84580,
-      "cycle": 52460
-     },
-     {
-      "f": "5114",
-      "n": "Diedre Pierce Kelly",
-      "p": "DEM",
-      "usd": 50000,
-      "cycle": 50000
-     },
-     {
-      "f": "5471",
-      "n": "Delisha Boyd",
-      "p": "DEM",
-      "usd": 48270,
-      "cycle": 48270
-     },
-     {
-      "f": "5111",
-      "n": "Marissa Hutabarat",
-      "p": "DEM",
-      "usd": 44305,
-      "cycle": 44305
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 36935,
-      "cycle": 36935
-     },
-     {
-      "f": "2603",
-      "n": "Darren Lombard",
-      "p": "DEM",
-      "usd": 35000,
-      "cycle": 35000
-     },
-     {
-      "f": "4623",
-      "n": "Scott Walker",
-      "p": "REP",
-      "usd": 27501,
-      "cycle": 27501
-     },
-     {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
-      "p": "REP",
-      "usd": 20000,
-      "cycle": 20000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 16280,
-      "cycle": 16280
-     },
-     {
-      "f": "7029",
-      "n": "Shawn Lindsay",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "7515",
-      "n": "Marko Marjanovic",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "1759",
-      "n": "Joseph P. Lopinto, III",
-      "p": "REP",
-      "usd": 11800,
-      "cycle": 11800
-     },
-     {
-      "f": "1195",
-      "n": "Patrick Connick",
-      "p": "REP",
-      "usd": 10000,
-      "cycle": 10000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 9000,
-      "cycle": 9000
-     }
-    ],
-    "spellings": [
-     "VICTORIA COULON CONSULTING",
-     "VICTORIA COULON"
     ]
    }
   },
@@ -2966,6 +2814,156 @@
    }
   },
   {
+   "key": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+   "name": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Marko Marjanovic Campaign"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-14",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 734526,
+    "media": 166925,
+    "rows": 127,
+    "media_cycle": 148305,
+    "cycle": 557755,
+    "years": {
+     "2021": 73470,
+     "2022": 103301,
+     "2023": 148107,
+     "2024": 63200,
+     "2025": 222983,
+     "2026": 123465
+    },
+    "committees": 42,
+    "top": [
+     {
+      "f": "5470",
+      "n": "Freddie King III",
+      "p": "DEM",
+      "usd": 105873,
+      "cycle": 74183
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 84580,
+      "cycle": 52460
+     },
+     {
+      "f": "5114",
+      "n": "Diedre Pierce Kelly",
+      "p": "DEM",
+      "usd": 50000,
+      "cycle": 50000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 48270,
+      "cycle": 48270
+     },
+     {
+      "f": "5111",
+      "n": "Marissa Hutabarat",
+      "p": "DEM",
+      "usd": 44305,
+      "cycle": 44305
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 36935,
+      "cycle": 36935
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 35000,
+      "cycle": 35000
+     },
+     {
+      "f": "4623",
+      "n": "Scott Walker",
+      "p": "REP",
+      "usd": 27501,
+      "cycle": 27501
+     },
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 20000,
+      "cycle": 20000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 16280,
+      "cycle": 16280
+     },
+     {
+      "f": "7029",
+      "n": "Shawn Lindsay",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "7515",
+      "n": "Marko Marjanovic",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "1759",
+      "n": "Joseph P. Lopinto, III",
+      "p": "REP",
+      "usd": 11800,
+      "cycle": 11800
+     },
+     {
+      "f": "1195",
+      "n": "Patrick Connick",
+      "p": "REP",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 9000,
+      "cycle": 9000
+     }
+    ],
+    "spellings": [
+     "VICTORIA COULON CONSULTING",
+     "VICTORIA COULON"
+    ]
+   }
+  },
+  {
    "key": "ZETAGLOBAL",
    "name": "Zeta Global",
    "found_by": "filings",
@@ -3449,7 +3447,7 @@
    "name": "Medium Buying",
    "found_by": "political file",
    "fcc": {
-    "docs": 21,
+    "docs": 23,
     "priced": 4,
     "usd": 127100,
     "stations": [
@@ -3932,7 +3930,7 @@
    "name": "Mentzer Media Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 26,
+    "docs": 28,
     "priced": 5,
     "usd": 113600,
     "stations": [
@@ -3943,7 +3941,7 @@
      "First Principles PAC"
     ],
     "first": "2026-04-13",
-    "last": "2026-07-28",
+    "last": "2026-07-29",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -4216,10 +4214,11 @@
    "name": "Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
+    "docs": 8,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "KLFY",
      "KSLA",
      "WAFB",
      "WBRZ"
@@ -4228,7 +4227,7 @@
      "JAMIE DAVIS FOR U.S. SENATE",
      "Hillar Moore Campaign"
     ],
-    "first": "2026-10-19",
+    "first": "2026-10-13",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -5049,7 +5048,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 41,
+    "docs": 42,
     "priced": 12,
     "usd": 77415,
     "stations": [
@@ -5076,6 +5075,37 @@
       "xans United for a Conservative Majority PA",
       "Kelley Crisp for District Attorney"
      ]
+    }
+   }
+  },
+  {
+   "key": "VICTORIACOULONCONSULT",
+   "name": "Victoria Coulon Consulting",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 18,
+    "priced": 17,
+    "usd": 65060,
+    "stations": [
+     "WDSU",
+     "WVUE",
+     "WYLD"
+    ],
+    "clients": [
+     "Marjanovic/R/JP 24th JDC - Div",
+     "Marjanovic for Judge",
+     "James/D/Orl Parish Civil District Court Divison N",
+     "Perque/D/Orl Parish Civil Court Div",
+     "Troy Carter/D/Congress",
+     "Candace Newell for Judge Divis",
+     "Carter for Congress"
+    ],
+    "first": "2026-04-30",
+    "last": "2026-10-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    }
   },
@@ -5461,44 +5491,21 @@
    }
   },
   {
-   "key": "RIGHTTARGETSTRATEGY",
-   "name": "Right Target Strategy Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 51700,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Moms Protecting Children PAC"
-    ],
-    "first": "2026-05-04",
-    "last": "2026-10-07",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "CARVINCONSULT",
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 11,
-    "priced": 11,
-    "usd": 44605,
+    "docs": 13,
+    "priced": 13,
+    "usd": 51910,
     "stations": [
      "WDSU",
      "WVUE"
     ],
     "clients": [
      "Illing/R/St. Tammany Parish Sheriff",
-     "Cao/R/BESE District 1",
      "Illing for Sheriff",
+     "Cao/R/BESE District 1",
      "Lee for Judge",
      "Lee/R/JP 1st Parish Court Div",
      "Barthelemy/D/State Senate Dist 3"
@@ -5644,6 +5651,29 @@
      "CARVIN CONSULTING GROUP",
      "CARVIN CONSULTANTS, INC."
     ]
+   }
+  },
+  {
+   "key": "RIGHTTARGETSTRATEGY",
+   "name": "Right Target Strategy Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 3,
+    "usd": 51700,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Moms Protecting Children PAC"
+    ],
+    "first": "2026-05-04",
+    "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -5896,6 +5926,33 @@
      "EASON ADVERTISING, LLC",
      "EASON ADVERTISING LLC"
     ]
+   }
+  },
+  {
+   "key": "TAYLORMEDIASERVICES",
+   "name": "Taylor Media Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 8,
+    "priced": 3,
+    "usd": 41100,
+    "stations": [
+     "KRVE",
+     "WBRZ",
+     "WYNK"
+    ],
+    "clients": [
+     "Sherman Mack for DA",
+     "Sherman Mack, Dist. Attorney 21st",
+     "Sherman Mack Campaign"
+    ],
+    "first": "2026-09-19",
+    "last": "2026-10-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -6257,6 +6314,86 @@
    }
   },
   {
+   "key": "JBCOMMUNICATIONS",
+   "name": "JB Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 6,
+    "usd": 26510,
+    "stations": [
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Mary for Judge",
+     "Mary/R/22nd JDC Div"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 133356,
+    "media": 3000,
+    "rows": 38,
+    "media_cycle": 3000,
+    "cycle": 133356,
+    "years": {
+     "2023": 9000,
+     "2024": 44987,
+     "2025": 6535,
+     "2026": 72834
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 53987,
+      "cycle": 53987
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 32669,
+      "cycle": 32669
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 25025,
+      "cycle": 25025
+     },
+     {
+      "f": "7263",
+      "n": "SAL BROCATO",
+      "p": "OTH",
+      "usd": 13925,
+      "cycle": 13925
+     },
+     {
+      "f": "7553",
+      "n": "ALFRED GALINDO",
+      "p": "OTH",
+      "usd": 7750,
+      "cycle": 7750
+     }
+    ],
+    "spellings": [
+     "JB COMMUNICATIONS LLC",
+     "JB COMMUNICATIONS"
+    ]
+   }
+  },
+  {
    "key": "LITTLEFIELDANDASSOCIATESCONSULT",
    "name": "Littlefield & Associates Consulting",
    "found_by": "political file",
@@ -6320,27 +6457,50 @@
    }
   },
   {
-   "key": "TAYLORMEDIASERVICES",
-   "name": "Taylor Media Services",
+   "key": "FRONTIERSTRATEGIES",
+   "name": "Frontier Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
-    "priced": 2,
-    "usd": 26100,
+    "docs": 3,
+    "priced": 1,
+    "usd": 27100,
     "stations": [
-     "KRVE",
-     "WYNK"
+     "WBRZ"
     ],
     "clients": [
-     "Sherman Mack for DA"
+     "Rick Edmonds US Congress",
+     "RICK FOR LOUISIANA"
     ],
-    "first": "2026-09-19",
-    "last": "2026-09-29",
+    "first": "2026-10-13",
+    "last": "2026-10-21",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
+   },
+   "paid": {
+    "total": 94,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2014": 94
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "549",
+      "n": "John C. Reeves",
+      "p": "DEM",
+      "usd": 94,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FRONTIER STRATEGIES"
+    ]
    }
   },
   {
@@ -6367,23 +6527,21 @@
    }
   },
   {
-   "key": "JBCOMMUNICATIONS",
-   "name": "JB Communications",
+   "key": "GAGLIANO",
+   "name": "Gagliano Group (The)",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
-    "priced": 5,
-    "usd": 22675,
+    "docs": 1,
+    "priced": 1,
+    "usd": 21635,
     "stations": [
-     "WDSU",
      "WVUE"
     ],
     "clients": [
-     "Mary/R/22nd JDC Div",
-     "Mary for Judge"
+     "Mack for District Attorney"
     ],
-    "first": "2026-10-14",
-    "last": "2026-10-23",
+    "first": "2026-10-15",
+    "last": "2026-10-15",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -6391,58 +6549,150 @@
     }
    },
    "paid": {
-    "total": 133356,
-    "media": 3000,
-    "rows": 38,
-    "media_cycle": 3000,
-    "cycle": 133356,
+    "total": 2157422,
+    "media": 76446,
+    "rows": 547,
+    "media_cycle": 3855,
+    "cycle": 586387,
     "years": {
-     "2023": 9000,
-     "2024": 44987,
-     "2025": 6535,
-     "2026": 72834
+     "2000": 692,
+     "2001": 2178,
+     "2002": 3399,
+     "2003": 47207,
+     "2007": 2983,
+     "2009": 5668,
+     "2010": 32308,
+     "2011": 224006,
+     "2012": 24041,
+     "2013": 21522,
+     "2014": 235017,
+     "2015": 133654,
+     "2016": 20315,
+     "2017": 25198,
+     "2018": 91742,
+     "2019": 406981,
+     "2020": 159009,
+     "2021": 33261,
+     "2022": 101855,
+     "2023": 286497,
+     "2024": 52570,
+     "2025": 32800,
+     "2026": 214520
     },
-    "committees": 5,
+    "committees": 60,
     "top": [
      {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
+      "f": "1475",
+      "n": "Sherman Q. Mack",
       "p": "REP",
-      "usd": 53987,
-      "cycle": 53987
+      "usd": 277961,
+      "cycle": 125537
      },
      {
-      "f": "6646",
-      "n": "Joseph R. McMahon III",
-      "p": "OTH",
-      "usd": 32669,
-      "cycle": 32669
+      "f": "2108",
+      "n": "Valarie Hodges",
+      "p": "REP",
+      "usd": 71737,
+      "cycle": 71737
      },
      {
-      "f": "7532",
-      "n": "Cameron M. Mary",
-      "p": "OTH",
-      "usd": 25025,
-      "cycle": 25025
+      "f": "6169",
+      "n": "Shane Raymond Mack",
+      "p": "REP",
+      "usd": 69300,
+      "cycle": 69300
      },
      {
-      "f": "7263",
-      "n": "SAL BROCATO",
+      "f": "3359",
+      "n": "Christopher Daigle",
       "p": "OTH",
-      "usd": 13925,
-      "cycle": 13925
+      "usd": 44063,
+      "cycle": 44063
      },
      {
-      "f": "7553",
-      "n": "ALFRED GALINDO",
+      "f": "8088",
+      "n": "Jasper S. Brock",
       "p": "OTH",
-      "usd": 7750,
-      "cycle": 7750
+      "usd": 43800,
+      "cycle": 43800
+     },
+     {
+      "f": "7544",
+      "n": "Cy J. D'Aquila Jr",
+      "p": "OTH",
+      "usd": 43638,
+      "cycle": 43638
+     },
+     {
+      "f": "6544",
+      "n": "Jessica C. Ledet",
+      "p": "REP",
+      "usd": 30600,
+      "cycle": 30600
+     },
+     {
+      "f": "6122",
+      "n": "Kevin Raiford",
+      "p": "REP",
+      "usd": 23387,
+      "cycle": 23387
+     },
+     {
+      "f": "3415",
+      "n": "Robert Carter",
+      "p": "DEM",
+      "usd": 40156,
+      "cycle": 23150
+     },
+     {
+      "f": "3348",
+      "n": "Jeffery Edward Travis",
+      "p": "OTH",
+      "usd": 52109,
+      "cycle": 19067
+     },
+     {
+      "f": "5822",
+      "n": "Christopher Gideon",
+      "p": "REP",
+      "usd": 18725,
+      "cycle": 14725
+     },
+     {
+      "f": "1178",
+      "n": "Bry Layrisson",
+      "p": "REP",
+      "usd": 16803,
+      "cycle": 13820
+     },
+     {
+      "f": "2140",
+      "n": "Jason Ard",
+      "p": "REP",
+      "usd": 66591,
+      "cycle": 9700
+     },
+     {
+      "f": "1314",
+      "n": "Blair Edwards",
+      "p": "REP",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "6474",
+      "n": "Taylor Anthony",
+      "p": "OTH",
+      "usd": 7200,
+      "cycle": 7200
      }
     ],
     "spellings": [
-     "JB COMMUNICATIONS LLC",
-     "JB COMMUNICATIONS"
+     "THE GAGLIANO GROUP",
+     "GAGLIANO GROUP",
+     "THE GAGLIANO GROUP INC",
+     "GAGLIANO GROUP INC.",
+     "THE GAGLIANO GROUP, INC."
     ]
    }
   },
@@ -6655,11 +6905,74 @@
    }
   },
   {
+   "key": "HOLBROOKMEDIA",
+   "name": "Holbrook Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 3,
+    "usd": 19200,
+    "stations": [
+     "KADN",
+     "KATC"
+    ],
+    "clients": [
+     "Susan Theall to Reelect Family Court 2026"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 36727,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2004": 350,
+     "2015": 29877,
+     "2019": 6500
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "2296",
+      "n": "Richard A. (Rick) Chargois",
+      "p": "REP",
+      "usd": 29877,
+      "cycle": 0
+     },
+     {
+      "f": "4513",
+      "n": "Terry Daigre",
+      "p": "REP",
+      "usd": 6500,
+      "cycle": 0
+     },
+     {
+      "f": "2264",
+      "n": "Eric Martin",
+      "p": "OTH",
+      "usd": 350,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "HOLBROOK MEDIA"
+    ]
+   }
+  },
+  {
    "key": "FLEXPOINTMEDIA",
    "name": "FlexPoint Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 17,
+    "docs": 18,
     "priced": 11,
     "usd": 17860,
     "stations": [
@@ -6670,14 +6983,14 @@
      "WNTZ"
     ],
     "clients": [
-     "Firment For Congress",
      "Michael Gabriel Firment/Congres",
+     "Firment For Congress",
      "Strong ND Fund"
     ],
     "first": "2026-09-11",
     "last": "2026-10-23",
     "away": {
-     "docs": 22,
+     "docs": 23,
      "usd": 2273500,
      "clients": [
       "Texas Pac",
@@ -7287,6 +7600,148 @@
    }
   },
   {
+   "key": "ARMADASTRATEGIES",
+   "name": "Armada Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 7,
+    "priced": 4,
+    "usd": 16090,
+    "stations": [
+     "KLAX",
+     "KPXJ",
+     "KTBS",
+     "WNTZ"
+    ],
+    "clients": [
+     "Louisiana Growth & Future Fund",
+     "Louisiana Growth and Future Fund"
+    ],
+    "first": "2026-08-31",
+    "last": "2026-10-21",
+    "away": {
+     "docs": 4,
+     "usd": 102770,
+     "clients": [
+      "Lone Star Liberty Pac"
+     ]
+    }
+   },
+   "paid": {
+    "total": 63788,
+    "media": 63788,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2022": 63788
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5914",
+      "n": "Delta Good Hand PAC",
+      "p": "OTH",
+      "usd": 63788,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "ARMADA STRATEGIES"
+    ]
+   }
+  },
+  {
+   "key": "QUESTCOMMUNICATIONCONSULT",
+   "name": "Quest Communication Consultants",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 10,
+    "priced": 10,
+    "usd": 15380,
+    "stations": [
+     "KARD",
+     "KNOE",
+     "KTVE"
+    ],
+    "clients": [
+     "Mike Smith/City Court Judge/LA/Rep",
+     "Adam Cossey/District Judge/LA/NonPart",
+     "Adam Cossey for District Judge",
+     "Robert Cherry/City Marshal/LA/Independent"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 172824,
+    "media": 57310,
+    "rows": 60,
+    "media_cycle": 0,
+    "cycle": 43524,
+    "years": {
+     "2011": 88302,
+     "2012": 5816,
+     "2013": 2817,
+     "2014": 650,
+     "2015": 14017,
+     "2016": 3003,
+     "2017": 1373,
+     "2019": 12822,
+     "2022": 500,
+     "2023": 16044,
+     "2024": 1437,
+     "2026": 26044
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6910",
+      "n": "James H. Colvin Jr. (JIM)",
+      "p": "OTH",
+      "usd": 26044,
+      "cycle": 26044
+     },
+     {
+      "f": "6199",
+      "n": "Toni Bacon",
+      "p": "REP",
+      "usd": 14147,
+      "cycle": 14147
+     },
+     {
+      "f": "2157",
+      "n": "Jay Russell",
+      "p": "REP",
+      "usd": 118134,
+      "cycle": 3334
+     },
+     {
+      "f": "3696",
+      "n": "Linda Taylor Cook",
+      "p": "IND",
+      "usd": 11000,
+      "cycle": 0
+     },
+     {
+      "f": "4465",
+      "n": "Michael D. Allen",
+      "p": "IND",
+      "usd": 3500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "QUEST COMMUNICATION CONSULTANTS"
+    ]
+   }
+  },
+  {
    "key": "BRABENDERCOXII",
    "name": "Brabender Cox ii",
    "found_by": "political file",
@@ -7687,25 +8142,23 @@
    }
   },
   {
-   "key": "QUESTCOMMUNICATIONCONSULT",
-   "name": "Quest Communication Consultants",
+   "key": "KDMDIGITALSOLUTIONS",
+   "name": "KDM Digital Solutions",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
-    "priced": 8,
-    "usd": 12148,
+    "docs": 3,
+    "priced": 3,
+    "usd": 12250,
     "stations": [
-     "KARD",
-     "KNOE",
-     "KTVE"
+     "KEEL",
+     "KVKI",
+     "KXKS"
     ],
     "clients": [
-     "Mike Smith/City Court Judge/LA/Rep",
-     "Adam Cossey for District Judge",
-     "Robert Cherry/City Marshal/LA/Independent"
+     "m Hugo Holland for District Judge"
     ],
     "first": "2026-10-16",
-    "last": "2026-10-23",
+    "last": "2026-10-16",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7713,65 +8166,235 @@
     }
    },
    "paid": {
-    "total": 172824,
-    "media": 57310,
-    "rows": 60,
+    "total": 778106,
+    "media": 0,
+    "rows": 239,
     "media_cycle": 0,
-    "cycle": 43524,
+    "cycle": 420565,
     "years": {
-     "2011": 88302,
-     "2012": 5816,
-     "2013": 2817,
-     "2014": 650,
-     "2015": 14017,
-     "2016": 3003,
-     "2017": 1373,
-     "2019": 12822,
-     "2022": 500,
-     "2023": 16044,
-     "2024": 1437,
-     "2026": 26044
+     "2018": 1060,
+     "2019": 24273,
+     "2020": 128727,
+     "2021": 133202,
+     "2022": 70280,
+     "2023": 195392,
+     "2024": 56670,
+     "2025": 60756,
+     "2026": 107747
     },
-    "committees": 5,
+    "committees": 44,
     "top": [
      {
-      "f": "6910",
-      "n": "James H. Colvin Jr. (JIM)",
+      "f": "1846",
+      "n": "Alan T. Seabaugh",
+      "p": "REP",
+      "usd": 44495,
+      "cycle": 42377
+     },
+     {
+      "f": "4129",
+      "n": "Mark Wright",
+      "p": "REP",
+      "usd": 30870,
+      "cycle": 30870
+     },
+     {
+      "f": "6078",
+      "n": "Jesse Adam Bass",
+      "p": "REP",
+      "usd": 29936,
+      "cycle": 29936
+     },
+     {
+      "f": "5883",
+      "n": "John Fleming",
+      "p": "REP",
+      "usd": 26476,
+      "cycle": 26476
+     },
+     {
+      "f": "6176",
+      "n": "Justin Courtney",
+      "p": "REP",
+      "usd": 24343,
+      "cycle": 24343
+     },
+     {
+      "f": "4441",
+      "n": "Thomas Alexander Pressly IV",
+      "p": "REP",
+      "usd": 23661,
+      "cycle": 23661
+     },
+     {
+      "f": "5444",
+      "n": "Tommy Chandler",
+      "p": "REP",
+      "usd": 94096,
+      "cycle": 22500
+     },
+     {
+      "f": "6059",
+      "n": "Les Blanchard",
+      "p": "REP",
+      "usd": 21290,
+      "cycle": 21290
+     },
+     {
+      "f": "6550",
+      "n": "Craton Cochran",
+      "p": "REP",
+      "usd": 21212,
+      "cycle": 21212
+     },
+     {
+      "f": "3308",
+      "n": "Dodie Horton",
+      "p": "REP",
+      "usd": 22034,
+      "cycle": 20334
+     },
+     {
+      "f": "5446",
+      "n": "Christopher C. Smith",
       "p": "OTH",
-      "usd": 26044,
-      "cycle": 26044
+      "usd": 18892,
+      "cycle": 18892
      },
      {
-      "f": "6199",
-      "n": "Toni Bacon",
+      "f": "6738",
+      "n": "AMY BRAINARD",
+      "p": "OTH",
+      "usd": 18418,
+      "cycle": 18418
+     },
+     {
+      "f": "4917",
+      "n": "Barry Milligan",
       "p": "REP",
-      "usd": 14147,
-      "cycle": 14147
+      "usd": 47829,
+      "cycle": 17509
      },
      {
-      "f": "2157",
-      "n": "Jay Russell",
+      "f": "7604",
+      "n": "Heather Savage Courtney",
+      "p": "OTH",
+      "usd": 15085,
+      "cycle": 15085
+     },
+     {
+      "f": "2276",
+      "n": "Julian Whittington",
       "p": "REP",
-      "usd": 118134,
-      "cycle": 3334
+      "usd": 13758,
+      "cycle": 13758
+     }
+    ],
+    "spellings": [
+     "KDM DIGITAL SOLUTIONS",
+     "KDM DIGITAL SOLUTIONS LLC",
+     "KDM DIGITAL",
+     "KDM DIGITAL SOLUTIONS, LLC"
+    ]
+   }
+  },
+  {
+   "key": "WALKERSTRATEGICSOLUTIONS",
+   "name": "Walker Strategic Solutions",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 12160,
+    "stations": [
+     "WVUE"
+    ],
+    "clients": [
+     "Roche for Judge"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 117642,
+    "media": 0,
+    "rows": 23,
+    "media_cycle": 0,
+    "cycle": 102642,
+    "years": {
+     "2021": 5000,
+     "2022": 10000,
+     "2023": 22000,
+     "2024": 1000,
+     "2025": 57642,
+     "2026": 22000
+    },
+    "committees": 8,
+    "top": [
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 36392,
+      "cycle": 36392
      },
      {
-      "f": "3696",
-      "n": "Linda Taylor Cook",
-      "p": "IND",
-      "usd": 11000,
-      "cycle": 0
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 27000,
+      "cycle": 27000
      },
      {
-      "f": "4465",
-      "n": "Michael D. Allen",
-      "p": "IND",
-      "usd": 3500,
+      "f": "5854",
+      "n": "Leon Roche",
+      "p": "DEM",
+      "usd": 12000,
+      "cycle": 12000
+     },
+     {
+      "f": "6600",
+      "n": "Michelle M. Woodfork",
+      "p": "DEM",
+      "usd": 11250,
+      "cycle": 11250
+     },
+     {
+      "f": "5170",
+      "n": "Lakeisha Jefferson",
+      "p": "DEM",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "6764",
+      "n": "Greater New Orleans Housing Alliance",
+      "p": "OTH",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "6517",
+      "n": "NOLA First Political Action Committee",
+      "p": "OTH",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "5552",
+      "n": "Ready Kids New Orleans",
+      "p": "OTH",
+      "usd": 15000,
       "cycle": 0
      }
     ],
     "spellings": [
-     "QUEST COMMUNICATION CONSULTANTS"
+     "WALKER STRATEGIC SOLUTIONS"
     ]
    }
   },
@@ -7828,10 +8451,11 @@
    "name": "GP3 Mix Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
+    "docs": 7,
     "priced": 2,
     "usd": 10800,
     "stations": [
+     "008048",
      "WRNO"
     ],
     "clients": [
@@ -7847,63 +8471,11 @@
    }
   },
   {
-   "key": "ARMADASTRATEGIES",
-   "name": "Armada Strategies",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 4,
-    "priced": 3,
-    "usd": 10685,
-    "stations": [
-     "KLAX",
-     "KPXJ",
-     "KTBS",
-     "WNTZ"
-    ],
-    "clients": [
-     "Louisiana Growth & Future Fund",
-     "Louisiana Growth and Future Fund"
-    ],
-    "first": "2026-08-31",
-    "last": "2026-10-21",
-    "away": {
-     "docs": 4,
-     "usd": 102770,
-     "clients": [
-      "Lone Star Liberty Pac"
-     ]
-    }
-   },
-   "paid": {
-    "total": 63788,
-    "media": 63788,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2022": 63788
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "5914",
-      "n": "Delta Good Hand PAC",
-      "p": "OTH",
-      "usd": 63788,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "ARMADA STRATEGIES"
-    ]
-   }
-  },
-  {
    "key": "BRANDONGUICHARDDIGITAL",
    "name": "Brandon Guichard Digital Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
+    "docs": 5,
     "priced": 3,
     "usd": 10380,
     "stations": [
@@ -7912,12 +8484,12 @@
      "WVUE"
     ],
     "clients": [
-     "Holmes/D/OP Crim Dist Court Div",
      "JUSTICE PAC",
+     "Holmes/D/OP Crim Dist Court Div",
      "Justin for Public Service Commission",
      "Jewett/D/Congress"
     ],
-    "first": "2026-10-20",
+    "first": "2026-10-12",
     "last": "2026-10-22",
     "away": {
      "docs": 0,
@@ -8280,14 +8852,14 @@
    "name": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
      "WAFB"
     ],
     "clients": [],
-    "first": "2026-10-23",
+    "first": "2026-10-13",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -9334,68 +9906,6 @@
    }
   },
   {
-   "key": "HOLBROOKMEDIA",
-   "name": "Holbrook Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 2560,
-    "stations": [
-     "KADN"
-    ],
-    "clients": [
-     "Susan Theall to Reelect Family Court 2026"
-    ],
-    "first": "2026-10-15",
-    "last": "2026-10-15",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 36727,
-    "media": 0,
-    "rows": 9,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2004": 350,
-     "2015": 29877,
-     "2019": 6500
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "2296",
-      "n": "Richard A. (Rick) Chargois",
-      "p": "REP",
-      "usd": 29877,
-      "cycle": 0
-     },
-     {
-      "f": "4513",
-      "n": "Terry Daigre",
-      "p": "REP",
-      "usd": 6500,
-      "cycle": 0
-     },
-     {
-      "f": "2264",
-      "n": "Eric Martin",
-      "p": "OTH",
-      "usd": 350,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "HOLBROOK MEDIA"
-    ]
-   }
-  },
-  {
    "key": "MLCWORKS",
    "name": "MLCworks",
    "found_by": "political file",
@@ -9813,6 +10323,69 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "YOUNGPROSENTERTAINMENT",
+   "name": "Young Pros Entertainment",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 596,
+    "stations": [
+     "KDKS"
+    ],
+    "clients": [
+     "Pol26/Friends of Caddo"
+    ],
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 12235,
+    "media": 0,
+    "rows": 5,
+    "media_cycle": 0,
+    "cycle": 9610,
+    "years": {
+     "2020": 1125,
+     "2022": 1500,
+     "2023": 9610
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "4378",
+      "n": "Steven Jackson",
+      "p": "DEM",
+      "usd": 9610,
+      "cycle": 9610
+     },
+     {
+      "f": "2190",
+      "n": "Gregory Tarver",
+      "p": "DEM",
+      "usd": 1500,
+      "cycle": 0
+     },
+     {
+      "f": "5126",
+      "n": "Mary E. Winchell",
+      "p": "DEM",
+      "usd": 1125,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "YOUNG PROS ENT",
+     "YOUNG PROS ENTERTAINMENT LLC"
+    ]
    }
   },
   {
@@ -16805,7 +17378,7 @@
    "name": "BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -16815,7 +17388,7 @@
     "clients": [
      "Julia Letlow for Louisiana"
     ],
-    "first": "2026-06-23",
+    "first": "2026-06-16",
     "last": "2026-10-21",
     "away": {
      "docs": 0,
@@ -16869,6 +17442,51 @@
    }
   },
   {
+   "key": "CLNAFLEXPOINTCAMPAIGNSINFOFLEXPOINTCAMPAIGNSCOM",
+   "name": "CL] N/A FlexPoint Campaigns; info@flexpointcampaigns.com",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WNTZ"
+    ],
+    "clients": [
+     "Firment for Congress"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CRWA",
+   "name": "CRwa",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KEEL",
+     "KXKS"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "CNATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHIC",
    "name": "C] N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chic",
    "found_by": "political file",
@@ -16892,6 +17510,30 @@
    }
   },
   {
+   "key": "CANDIDATESPOLITICALPARTY",
+   "name": "Candidate's political party",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WFMF",
+     "WJBO"
+    ],
+    "clients": [
+     "Michael Vincent Campaign"
+    ],
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "CCNABRABENDERCOX1218GRANDVIEWAVEPITTSBURGH",
    "name": "Cc] N/A BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
@@ -16901,6 +17543,27 @@
     "usd": 0,
     "stations": [
      "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "COJWA",
+   "name": "CoJwa",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSYL"
     ],
     "clients": [],
     "first": "2026-10-16",
@@ -17010,7 +17673,7 @@
    "name": "ESM",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -17020,14 +17683,36 @@
     "clients": [
      "Alan Seabaugh Campaign"
     ],
-    "first": "2026-10-19",
+    "first": "2026-10-09",
     "last": "2026-10-23",
     "away": {
-     "docs": 7,
+     "docs": 12,
      "usd": 0,
      "clients": [
-      "Texans for Dan Patrick"
+      "Texans for Dan Patrick",
+      "Ryan Patrick"
      ]
+    }
+   }
+  },
+  {
+   "key": "EASONADVERTISING",
+   "name": "Eason Advertising",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KRRQ"
+    ],
+    "clients": [],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    }
   },
@@ -17059,17 +17744,18 @@
    "name": "FlexPoint Campaigns; info@flexpointcampaigns.com",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
+    "docs": 6,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "003478"
+     "003478",
+     "WNTZ"
     ],
     "clients": [
      "Firment for Congress"
     ],
     "first": "2026-10-08",
-    "last": "2026-10-13",
+    "last": "2026-10-14",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17078,21 +17764,24 @@
    }
   },
   {
-   "key": "FRONTIERSTRATEGIES",
-   "name": "Frontier Strategies",
+   "key": "FRIENDSOFCADDO",
+   "name": "Friends of Caddo",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 4,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "WBRZ"
+     "KDKS",
+     "KLKL",
+     "KOKA",
+     "KTBS"
     ],
     "clients": [
-     "RICK FOR LOUISIANA"
+     "Dr. Woodrow Wilson"
     ],
-    "first": "2026-10-15",
-    "last": "2026-10-21",
+    "first": "2026-10-12",
+    "last": "2026-10-15",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17100,26 +17789,26 @@
     }
    },
    "paid": {
-    "total": 94,
+    "total": 6500,
     "media": 0,
-    "rows": 1,
+    "rows": 2,
     "media_cycle": 0,
     "cycle": 0,
     "years": {
-     "2014": 94
+     "2018": 6500
     },
     "committees": 1,
     "top": [
      {
-      "f": "549",
-      "n": "John C. Reeves",
-      "p": "DEM",
-      "usd": 94,
+      "f": "3923",
+      "n": "Top of Louisiana",
+      "p": "OTH",
+      "usd": 6500,
       "cycle": 0
      }
     ],
     "spellings": [
-     "FRONTIER STRATEGIES"
+     "FRIENDS OF CADDO PARISH"
     ]
    }
   },
@@ -17214,6 +17903,29 @@
    }
   },
   {
+   "key": "LNATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHI",
+   "name": "L ] N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chi",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Tatarico for Texas"
+     ]
+    }
+   }
+  },
+  {
    "key": "LCMEDIA",
    "name": "LC Media",
    "found_by": "political file",
@@ -17260,6 +17972,74 @@
    }
   },
   {
+   "key": "LCMEDIA1604FAWNLANEHUNTINGDONVALLEY",
+   "name": "LC Media LLC 1604 Fawn Lane Huntingdon Valley",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KSLA"
+    ],
+    "clients": [],
+    "first": "2026-10-13",
+    "last": "2026-10-13",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Gina Hinojosa Campaign"
+     ]
+    }
+   }
+  },
+  {
+   "key": "LCNAFLEXPOINTCAMPAIGNSINFOFLEXPOINTCAMPAIGNSCOM",
+   "name": "LC] N/A FlexPoint Campaigns; info@flexpointcampaigns.com",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WNTZ"
+    ],
+    "clients": [
+     "Firment for Congress",
+     "Fimentfor Congress"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-10-14",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LELIA",
+   "name": "Lelia",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLIL"
+    ],
+    "clients": [],
+    "first": "2026-10-17",
+    "last": "2026-10-17",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "LOWAEASONADVETTIS6LOCO",
    "name": "Lowa Eason Advettis6 LoCo",
    "found_by": "political file",
@@ -17275,6 +18055,29 @@
     ],
     "first": "2026-10-19",
     "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LOWAEPSONADVENTSMELEC",
+   "name": "Lowa Epson Adventsme lec",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "on COMMITPE TO ELECT SRaIeS KLOCK"
+    ],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17403,17 +18206,41 @@
    "name": "Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 0,
     "usd": 0,
     "stations": [
+     "KDKS",
      "KSLA"
     ],
     "clients": [
      "Phelps for Mayor Campaign"
     ],
-    "first": "2026-10-20",
+    "first": "2026-10-15",
     "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NXUM",
+   "name": "Nxum Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008048"
+    ],
+    "clients": [
+     "FELLOWSHIP PAC"
+    ],
+    "first": "2026-05-29",
+    "last": "2026-05-29",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17493,6 +18320,53 @@
    }
   },
   {
+   "key": "STEPWONMARKETING",
+   "name": "STEPWON MARKETING",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KBTT",
+     "KDKS"
+    ],
+    "clients": [
+     "BLACK VOTERS MATTER CAPACITY BUILDING INSTITUTE"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "TINAHOTEROOKMUTIMEDIA",
+   "name": "TINA Hoterook mutiMedia",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "Susan Theall for Judge Campaign Committee"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "THEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHICAGO",
    "name": "Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chicago",
    "found_by": "political file",
@@ -17505,10 +18379,10 @@
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-19",
+    "first": "2026-10-09",
     "last": "2026-10-22",
     "away": {
-     "docs": 2,
+     "docs": 4,
      "usd": 0,
      "clients": [
       "Talarico for Texas"
@@ -17602,15 +18476,76 @@
      "Together for School Meals",
      "Together for Schoo! Meals"
     ],
-    "first": "2026-10-22",
+    "first": "2026-10-09",
     "last": "2026-10-22",
     "away": {
-     "docs": 2,
+     "docs": 3,
      "usd": 0,
      "clients": [
       "Protect the North Dakota Constitution"
      ]
     }
+   }
+  },
+  {
+   "key": "VOTERSORGANIZEDTOEDUCATE",
+   "name": "Voters Organized to Educate",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KQXL",
+     "WEMX"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 140980,
+    "media": 0,
+    "rows": 3,
+    "media_cycle": 0,
+    "cycle": 50,
+    "years": {
+     "2018": 120474,
+     "2020": 20456,
+     "2026": 50
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 50,
+      "cycle": 50
+     },
+     {
+      "f": "4363",
+      "n": "Yes On Two Ballot Committee",
+      "p": "OTH",
+      "usd": 120474,
+      "cycle": 0
+     },
+     {
+      "f": "5395",
+      "n": "Voters Organized to Educate",
+      "p": "OTH",
+      "usd": 20456,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "VOTERS ORGANIZED TO EDUCATE"
+    ]
    }
   },
   {
@@ -17622,17 +18557,20 @@
     "priced": 0,
     "usd": 0,
     "stations": [
-     "003478"
+     "003478",
+     "WNOL"
     ],
     "clients": [
      "Hometown Freedom Action Network"
     ],
-    "first": "2026-10-20",
+    "first": "2026-10-09",
     "last": "2026-10-20",
     "away": {
-     "docs": 0,
+     "docs": 2,
      "usd": 0,
-     "clients": []
+     "clients": [
+      "Too Extreme for Idaho PAC"
+     ]
     }
    }
   },
@@ -17641,7 +18579,7 @@
    "name": "Ww N/A Kingfish Communications, LUC",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -17650,7 +18588,7 @@
     "clients": [
      "Fleming for Louisiana"
     ],
-    "first": "2026-06-22",
+    "first": "2026-06-15",
     "last": "2026-06-22",
     "away": {
      "docs": 0,
@@ -17675,6 +18613,29 @@
     ],
     "first": "2026-10-23",
     "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAARSEMENTMEDIA",
+   "name": "[ N/A Arsement Media Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "Friends to Elect Bart Hebert, LLC"
+    ],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -17708,7 +18669,7 @@
    "name": "[ N/A BrabenderCox 1218 Grandview Ave Pittsburgh",
    "found_by": "political file",
    "fcc": {
-    "docs": 14,
+    "docs": 22,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -17719,7 +18680,7 @@
     "clients": [
      "Julia Letlow for Louisiana"
     ],
-    "first": "2026-06-17",
+    "first": "2026-06-09",
     "last": "2026-10-16",
     "away": {
      "docs": 0,
@@ -17756,7 +18717,7 @@
    "name": "[ N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
+    "docs": 7,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -17767,7 +18728,7 @@
      "JAMIE DAVIS FOR U.S. SENATE",
      "Hillar Moore Campaign"
     ],
-    "first": "2026-10-16",
+    "first": "2026-10-09",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -17824,6 +18785,52 @@
    }
   },
   {
+   "key": "NACROSSROADSMEDIA66CANALCENTERPLAZASULTE555ALEXANDRIA",
+   "name": "[ N/A Crossroads Media, LLC - 66 Canal Center Plaza, Sulte 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-14",
+    "last": "2026-10-14",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbott PO Box 308 Austin, TX"
+     ]
+    }
+   }
+  },
+  {
+   "key": "NACROSSROADSMEDIA68CANALCENTERPLAZASULIE555ALEXANDRIA",
+   "name": "[ N/A Crossroads Media, LLC - 68 Canal Center Plaza, Sulie 555, Alexandria",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-10-14",
+    "last": "2026-10-14",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Greg Abbott - PO Box 308 Austin, TX"
+     ]
+    }
+   }
+  },
+  {
    "key": "NAESM",
    "name": "[ N/A ESM",
    "found_by": "political file",
@@ -17835,10 +18842,10 @@
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-15",
+    "first": "2026-10-12",
     "last": "2026-10-23",
     "away": {
-     "docs": 3,
+     "docs": 4,
      "usd": 0,
      "clients": [
       "Texans for Dan Patrick",
@@ -17869,20 +18876,69 @@
    }
   },
   {
-   "key": "NAMEDIAADVENTURES",
-   "name": "[ N/A Media AdVentures",
+   "key": "NAFLEXPOINTCAMPAIGNSINFOFLEXPOINTCAMPAIGNSCOM",
+   "name": "[ N/A FlexPoint Campaigns; info@flexpointcampaigns.com",
    "found_by": "political file",
    "fcc": {
     "docs": 1,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KLFY"
+     "WNTZ"
     ],
     "clients": [
+     "Firmentfor Congress"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-10-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NALCMEDIA1604FAWNLANEHUNTINGDONVALLEY",
+   "name": "[ N/A LC Media LLC 1604 Fawn Lane Huntingdon Valley",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Gina Hinojosa Campaign"
+     ]
+    }
+   }
+  },
+  {
+   "key": "NAMEDIAADVENTURES",
+   "name": "[ N/A Media AdVentures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY",
+     "KPXJ",
+     "KTBS"
+    ],
+    "clients": [
+     "Mike Johnson for Louisiana",
      "Captain Higgins for Congress"
     ],
-    "first": "2026-10-20",
+    "first": "2026-10-09",
     "last": "2026-10-20",
     "away": {
      "docs": 0,
@@ -17937,11 +18993,34 @@
    }
   },
   {
+   "key": "NAMOBILECOMMUNICATIONSERVICES",
+   "name": "[ N/A Mobile Communication Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [
+     "Ravari for Shreveport"
+    ],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NAMOBILECOMMUNICATIONSSERVICE",
    "name": "[ N/A Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 4,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -17949,9 +19028,10 @@
      "KPXJ"
     ],
     "clients": [
-     "Phelps for Mayor Campaign"
+     "Phelps for Mayor Campaign",
+     "Mero for Mayor campaign"
     ],
-    "first": "2026-10-16",
+    "first": "2026-10-12",
     "last": "2026-10-23",
     "away": {
      "docs": 0,
@@ -17973,10 +19053,10 @@
      "KTBS"
     ],
     "clients": [],
-    "first": "2026-10-19",
+    "first": "2026-10-09",
     "last": "2026-10-19",
     "away": {
-     "docs": 2,
+     "docs": 4,
      "usd": 0,
      "clients": [
       "Talatico for Texas",
@@ -18076,6 +19156,29 @@
    }
   },
   {
+   "key": "NWAESM",
+   "name": "[ ] NWA esm",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Alan Seabaugh Campaign"
+    ],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NVAMEDIAADVENTURESTNO",
    "name": "[ ].NVA Media Ad Ventures, tno",
    "found_by": "political file",
@@ -18089,6 +19192,29 @@
     "clients": [],
     "first": "2026-10-16",
     "last": "2026-10-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "NAMBMEDIA",
+   "name": "[ ]NA MB Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [
+     "Wagley for Congress"
+    ],
+    "first": "2026-10-12",
+    "last": "2026-10-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18156,6 +19282,29 @@
     ],
     "first": "2026-10-23",
     "last": "2026-10-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "JNAESE",
+   "name": "[JNA ese",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "WJBO"
+    ],
+    "clients": [
+     "Blake Miguez for Louisiana"
+    ],
+    "first": "2026-10-19",
+    "last": "2026-10-19",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18255,6 +19404,29 @@
    }
   },
   {
+   "key": "ANAMEDIAADVENTURES",
+   "name": "a N/A Media Ad Ventures",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Mike Johnson for Louisiana"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "AAANAMEDIAADVENTURES",
    "name": "aaa N/A Media Ad Ventures",
    "found_by": "political file",
@@ -18270,6 +19442,27 @@
     ],
     "first": "2026-10-19",
     "last": "2026-10-19",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "AIN",
+   "name": "ain",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-13",
+    "last": "2026-10-13",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18345,6 +19538,27 @@
    }
   },
   {
+   "key": "ICE",
+   "name": "ice",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLIL"
+    ],
+    "clients": [],
+    "first": "2026-10-17",
+    "last": "2026-10-17",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "RNATHEMATICCAMPAIGNSANNBREMER1720WDIVISIONCHICA",
    "name": "r N/A Thematic Campaigns Ann Bremer (ann@viewpointads.com) 1720 W Division Chica",
    "found_by": "political file",
@@ -18363,6 +19577,29 @@
      "usd": 0,
      "clients": [
       "Talatico for Texas"
+     ]
+    }
+   }
+  },
+  {
+   "key": "RNAESM",
+   "name": "r NA ESM",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 0,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-13",
+    "last": "2026-10-13",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans forDan Patrick"
      ]
     }
    }
@@ -18387,6 +19624,29 @@
      "clients": [
       "Texans for Greg Abboll - PO Box 308 Austin, TX"
      ]
+    }
+   }
+  },
+  {
+   "key": "WAERSONADVOWRSIVE",
+   "name": "wa Erson Advowrsive",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "jon GMM TEE TO LECT SAuIesS KLOCK"
+    ],
+    "first": "2026-10-09",
+    "last": "2026-10-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    }
   }
@@ -19479,6 +20739,13 @@
     "usd": 40295,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 1860,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "1123": [
@@ -19685,6 +20952,13 @@
     "usd": 30738,
     "cycle": 0,
     "fcc": true
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 2519,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "1145": [
@@ -19840,6 +21114,15 @@
     "fcc": false
    }
   ],
+  "1178": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 16803,
+    "cycle": 13820,
+    "fcc": true
+   }
+  ],
   "1182": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -19970,8 +21253,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 10000,
     "cycle": 10000,
     "fcc": true
@@ -20313,8 +21596,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 4000,
     "cycle": 4000,
     "fcc": true
@@ -20478,6 +21761,13 @@
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 7500,
+    "cycle": 7500,
+    "fcc": true
    }
   ],
   "1315": [
@@ -20544,6 +21834,15 @@
     "usd": 9500,
     "cycle": 9500,
     "fcc": false
+   }
+  ],
+  "1334": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 3200,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "1340": [
@@ -21171,6 +22470,15 @@
     "fcc": false
    }
   ],
+  "1432": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 26801,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1433": [
    {
     "k": "QUESTCOMMCONSULT",
@@ -21497,6 +22805,13 @@
    }
   ],
   "1475": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 277961,
+    "cycle": 125537,
+    "fcc": true
+   },
    {
     "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
     "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
@@ -22169,6 +23484,15 @@
     "fcc": false
    }
   ],
+  "1575": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 125267,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1577": [
    {
     "k": "OURSOBEYCHOK",
@@ -22206,6 +23530,15 @@
     "usd": 3435,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "1580": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 1450,
+    "cycle": 1000,
+    "fcc": true
    }
   ],
   "1583": [
@@ -22394,6 +23727,15 @@
     "usd": 5322,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "1609": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 9523,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "1610": [
@@ -22696,8 +24038,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 47265,
     "cycle": 0,
     "fcc": true
@@ -22838,11 +24180,27 @@
     "fcc": true
    }
   ],
+  "1667": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 1750,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1671": [
    {
     "k": "VELOCITYAGENCY",
     "n": "Velocity Agency",
     "usd": 167265,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 66400,
     "cycle": 0,
     "fcc": true
    },
@@ -23275,6 +24633,15 @@
     "fcc": false
    }
   ],
+  "1736": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 11875,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1737": [
    {
     "k": "JAMESTOWNASSOCIATES",
@@ -23453,8 +24820,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 11800,
     "cycle": 11800,
     "fcc": true
@@ -24096,6 +25463,13 @@
     "fcc": false
    },
    {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 44495,
+    "cycle": 42377,
+    "fcc": true
+   },
+   {
     "k": "GOBIGMEDIA",
     "n": "Go Big Media",
     "usd": 2000,
@@ -24237,6 +25611,15 @@
     "fcc": false
    }
   ],
+  "1878": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 3999,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1880": [
    {
     "k": "CLAYYOUNGENTERPRISES",
@@ -24308,6 +25691,15 @@
     "usd": 23406,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "1892": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 249892,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "1895": [
@@ -24575,6 +25967,15 @@
     "fcc": true
    }
   ],
+  "1935": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 17057,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "1937": [
    {
     "k": "CAMCOCONSULT",
@@ -24698,8 +26099,8 @@
   ],
   "1962": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 12500,
     "cycle": 0,
     "fcc": true
@@ -24881,6 +26282,13 @@
     "usd": 590582,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 21743,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "FLETCHERROWLEY",
@@ -25195,6 +26603,13 @@
     "usd": 23642,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 12250,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2035": [
@@ -25623,6 +27038,13 @@
   ],
   "2108": [
    {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 71737,
+    "cycle": 71737,
+    "fcc": true
+   },
+   {
     "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
     "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 1000,
@@ -25779,6 +27201,15 @@
     "fcc": false
    }
   ],
+  "2138": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 43352,
+    "cycle": 620,
+    "fcc": true
+   }
+  ],
   "2140": [
    {
     "k": "POLITICALFIRM",
@@ -25786,6 +27217,13 @@
     "usd": 113624,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 66591,
+    "cycle": 9700,
+    "fcc": true
    },
    {
     "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
@@ -25898,6 +27336,15 @@
     "usd": 42002,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "2154": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 8644,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "2155": [
@@ -26127,6 +27574,13 @@
     "k": "MOBILECOMMUNICATIONS",
     "n": "Mobile Communications",
     "usd": 10760,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "YOUNGPROSENTERTAINMENT",
+    "n": "Young Pros Entertainment",
+    "usd": 1500,
     "cycle": 0,
     "fcc": true
    }
@@ -26646,6 +28100,13 @@
     "usd": 123396,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 13758,
+    "cycle": 13758,
+    "fcc": true
    }
   ],
   "2277": [
@@ -26963,6 +28424,15 @@
     "fcc": false
    }
   ],
+  "2382": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 19794,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "2392": [
    {
     "k": "CREATIVECOMMUNICATIONS",
@@ -27066,6 +28536,13 @@
    }
   ],
   "2436": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 27430,
+    "cycle": 6795,
+    "fcc": true
+   },
    {
     "k": "POLITICALFIRM",
     "n": "The Political Firm",
@@ -27397,6 +28874,13 @@
   ],
   "2560": [
    {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 128874,
+    "cycle": 750,
+    "fcc": true
+   },
+   {
     "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
     "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 23002,
@@ -27549,8 +29033,8 @@
   ],
   "2603": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 35000,
     "cycle": 35000,
     "fcc": true
@@ -27617,8 +29101,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 4500,
     "cycle": 4500,
     "fcc": true
@@ -28018,8 +29502,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 16280,
     "cycle": 16280,
     "fcc": true
@@ -29104,6 +30588,15 @@
     "fcc": false
    }
   ],
+  "2921": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 12891,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "2923": [
    {
     "k": "INNOVATIVEADVERTISING",
@@ -29127,6 +30620,13 @@
     "usd": 39649,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 4983,
+    "cycle": 4983,
+    "fcc": true
    }
   ],
   "293": [
@@ -29471,6 +30971,15 @@
     "fcc": true
    }
   ],
+  "3060": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 66798,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "3062": [
    {
     "k": "MUNSON",
@@ -29739,6 +31248,15 @@
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 14028,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "3131": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 72304,
     "cycle": 0,
     "fcc": true
    }
@@ -30215,6 +31733,13 @@
   ],
   "3308": [
    {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 22034,
+    "cycle": 20334,
+    "fcc": true
+   },
+   {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
     "n": "Alpha Media and Public Relations",
     "usd": 1021,
@@ -30432,6 +31957,15 @@
     "fcc": false
    }
   ],
+  "3348": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 52109,
+    "cycle": 19067,
+    "fcc": true
+   }
+  ],
   "3350": [
    {
     "k": "POLITICALFIRM",
@@ -30494,6 +32028,15 @@
     "usd": 82528,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "3359": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 44063,
+    "cycle": 44063,
+    "fcc": true
    }
   ],
   "3360": [
@@ -30860,6 +32403,15 @@
     "usd": 1924,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "3415": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 40156,
+    "cycle": 23150,
+    "fcc": true
    }
   ],
   "3417": [
@@ -31465,6 +33017,13 @@
     "usd": 30932,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 1495,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3646": [
@@ -31807,8 +33366,8 @@
   ],
   "3748": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 9000,
     "cycle": 9000,
     "fcc": true
@@ -32201,6 +33760,15 @@
     "fcc": false
    }
   ],
+  "3923": [
+   {
+    "k": "FRIENDSOFCADDO",
+    "n": "Friends of Caddo",
+    "usd": 6500,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "3926": [
    {
     "k": "CAMCOCONSULT",
@@ -32442,6 +34010,15 @@
     "usd": 125688,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "3994": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 9525,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "3996": [
@@ -33034,6 +34611,15 @@
     "fcc": false
    }
   ],
+  "4128": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 16112,
+    "cycle": 4085,
+    "fcc": true
+   }
+  ],
   "4129": [
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -33041,6 +34627,13 @@
     "usd": 50129,
     "cycle": 3600,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 30870,
+    "cycle": 30870,
+    "fcc": true
    },
    {
     "k": "POLITICALCOMMUNICATIONSADVERTISING",
@@ -33133,6 +34726,13 @@
     "usd": 41141,
     "cycle": 8191,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 3700,
+    "cycle": 3700,
+    "fcc": true
    },
    {
     "k": "BRAVENEWTELEVISION",
@@ -33448,6 +35048,13 @@
     "fcc": false
    },
    {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 36392,
+    "cycle": 36392,
+    "fcc": true
+   },
+   {
     "k": "BRANDONGUICHARDDIGITAL",
     "n": "Brandon Guichard Digital Group",
     "usd": 19675,
@@ -33469,8 +35076,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 8500,
     "cycle": 3500,
     "fcc": true
@@ -33500,6 +35107,15 @@
     "n": "Buisson Creative Strategies",
     "usd": 17834,
     "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "4190": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 47825,
+    "cycle": 3155,
     "fcc": true
    }
   ],
@@ -33745,8 +35361,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 14786,
     "cycle": 0,
     "fcc": true
@@ -33850,6 +35466,13 @@
     "usd": 7964,
     "cycle": 7964,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 2000,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4257": [
@@ -34209,6 +35832,13 @@
     "usd": 200000,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "VOTERSORGANIZEDTOEDUCATE",
+    "n": "Voters Organized to Educate",
+    "usd": 120474,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4372": [
@@ -34242,6 +35872,15 @@
     "n": "Alpha Media and Public Relations",
     "usd": 4307,
     "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "4378": [
+   {
+    "k": "YOUNGPROSENTERTAINMENT",
+    "n": "Young Pros Entertainment",
+    "usd": 9610,
+    "cycle": 9610,
     "fcc": true
    }
   ],
@@ -34319,6 +35958,15 @@
     "usd": 14500,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "4390": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 7835,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4392": [
@@ -34472,6 +36120,15 @@
     "fcc": false
    }
   ],
+  "4421": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 3665,
+    "cycle": 3665,
+    "fcc": true
+   }
+  ],
   "4423": [
    {
     "k": "CARVINSEDER",
@@ -34504,6 +36161,15 @@
     "usd": 18318,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "4427": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 13955,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "443": [
@@ -34585,6 +36251,13 @@
     "n": "Ax Media",
     "usd": 27255,
     "cycle": 27255,
+    "fcc": true
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 23661,
+    "cycle": 23661,
     "fcc": true
    },
    {
@@ -34695,6 +36368,15 @@
     "n": "Alpha Media and Public Relations",
     "usd": 28123,
     "cycle": 28123,
+    "fcc": true
+   }
+  ],
+  "4461": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 14265,
+    "cycle": 764,
     "fcc": true
    }
   ],
@@ -35157,6 +36839,15 @@
     "fcc": false
    }
   ],
+  "456": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 3915,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "4560": [
    {
     "k": "BURNINGSTICKCREATIVE",
@@ -35248,6 +36939,13 @@
     "usd": 38633,
     "cycle": 38633,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 11895,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "4596": [
@@ -35384,8 +37082,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 27501,
     "cycle": 27501,
     "fcc": true
@@ -35628,6 +37326,15 @@
     "fcc": true
    }
   ],
+  "4760": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 43809,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "4771": [
    {
     "k": "CAMCOCONSULT",
@@ -35717,6 +37424,13 @@
     "usd": 100944,
     "cycle": 98444,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 20018,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "AXMEDIA",
@@ -35995,6 +37709,13 @@
     "usd": 62434,
     "cycle": 1140,
     "fcc": true
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 47829,
+    "cycle": 17509,
+    "fcc": true
    }
   ],
   "4919": [
@@ -36080,6 +37801,15 @@
     "fcc": false
    }
   ],
+  "493": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 17388,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "4933": [
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
@@ -36121,6 +37851,15 @@
     "fcc": false
    }
   ],
+  "4945": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 22941,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "497": [
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -36139,8 +37878,8 @@
   ],
   "4975": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 3250,
     "cycle": 0,
     "fcc": true
@@ -36428,6 +38167,13 @@
   ],
   "5063": [
    {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 15500,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "BURNINGSTICKCREATIVE",
     "n": "Burning Stick Creative",
     "usd": 10625,
@@ -36462,11 +38208,27 @@
     "fcc": true
    },
    {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 12124,
+    "cycle": 0,
+    "fcc": true
+   },
+   {
     "k": "BRAVENEWTELEVISION",
     "n": "Brave New Television",
     "usd": 5000,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "5072": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 3000,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "5076": [
@@ -36573,8 +38335,8 @@
   ],
   "5111": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 44305,
     "cycle": 44305,
     "fcc": true
@@ -36589,8 +38351,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 8000,
     "cycle": 8000,
     "fcc": true
@@ -36598,8 +38360,8 @@
   ],
   "5114": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 50000,
     "cycle": 50000,
     "fcc": true
@@ -36617,6 +38379,24 @@
     "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
     "n": "Taylor Media Services -- 225-931-0286 or taylormedia11@gmail.com",
     "usd": 17846,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "5125": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 10405,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "5126": [
+   {
+    "k": "YOUNGPROSENTERTAINMENT",
+    "n": "Young Pros Entertainment",
+    "usd": 1125,
     "cycle": 0,
     "fcc": true
    }
@@ -36696,6 +38476,13 @@
     "usd": 8050,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 8000,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
@@ -36840,6 +38627,13 @@
     "usd": 32174,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 10000,
+    "cycle": 10000,
+    "fcc": true
    }
   ],
   "5171": [
@@ -36869,6 +38663,15 @@
     "fcc": false
    }
   ],
+  "5183": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 33114,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "5198": [
    {
     "k": "POLITICALFIRM",
@@ -36886,6 +38689,13 @@
    }
   ],
   "5201": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 116490,
+    "cycle": 0,
+    "fcc": true
+   },
    {
     "k": "POLITICALFIRM",
     "n": "The Political Firm",
@@ -36930,10 +38740,17 @@
   ],
   "5219": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 36935,
     "cycle": 36935,
+    "fcc": true
+   },
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 27000,
+    "cycle": 27000,
     "fcc": true
    },
    {
@@ -36987,8 +38804,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 6500,
     "cycle": 6500,
     "fcc": true
@@ -37008,6 +38825,15 @@
     "k": "LITTLEFIELDANDASSOCIATESCONSULT",
     "n": "Littlefield & Associates Consulting",
     "usd": 57642,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "5244": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 23755,
     "cycle": 0,
     "fcc": true
    }
@@ -37155,6 +38981,15 @@
     "fcc": true
    }
   ],
+  "5295": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 34567,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "5298": [
    {
     "k": "BERNICONSULT",
@@ -37236,6 +39071,13 @@
     "n": "CAPITAL BUSINESS SERVICES. 4100 S SHERWOOD FOREST BLVD. SUITE 102. BATON ROUGE,",
     "usd": 45064,
     "cycle": 0,
+    "fcc": true
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 2116,
+    "cycle": 2116,
     "fcc": true
    }
   ],
@@ -37460,6 +39302,15 @@
     "fcc": true
    }
   ],
+  "5395": [
+   {
+    "k": "VOTERSORGANIZEDTOEDUCATE",
+    "n": "Voters Organized to Educate",
+    "usd": 20456,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "54": [
    {
     "k": "BULLSEYEMEDIA",
@@ -37602,6 +39453,33 @@
     "fcc": false
    }
   ],
+  "5442": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 43083,
+    "cycle": 12544,
+    "fcc": true
+   }
+  ],
+  "5444": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 94096,
+    "cycle": 22500,
+    "fcc": true
+   }
+  ],
+  "5446": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 18892,
+    "cycle": 18892,
+    "fcc": true
+   }
+  ],
   "5453": [
    {
     "k": "LESTERDUHEANDASSOCIATES",
@@ -37654,8 +39532,8 @@
   ],
   "5470": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 105873,
     "cycle": 74183,
     "fcc": true
@@ -37670,8 +39548,8 @@
   ],
   "5471": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 48270,
     "cycle": 48270,
     "fcc": true
@@ -37840,8 +39718,8 @@
   ],
   "5511": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 19660,
     "cycle": 0,
     "fcc": true
@@ -37863,8 +39741,8 @@
   ],
   "5512": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 84580,
     "cycle": 52460,
     "fcc": true
@@ -37874,6 +39752,15 @@
     "n": "Brandon Guichard Digital Group",
     "usd": 23000,
     "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "5518": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 14590,
+    "cycle": 7319,
     "fcc": true
    }
   ],
@@ -37964,6 +39851,13 @@
     "usd": 152035,
     "cycle": 978,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 1250,
+    "cycle": 1250,
+    "fcc": true
    }
   ],
   "5551": [
@@ -37982,6 +39876,13 @@
     "usd": 171820,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 15000,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "WQUEFM",
@@ -38055,6 +39956,15 @@
     "fcc": true
    }
   ],
+  "5569": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 37805,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
   "5571": [
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -38071,6 +39981,13 @@
     "usd": 254889,
     "cycle": 0,
     "fcc": false
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 19065,
+    "cycle": 0,
+    "fcc": true
    },
    {
     "k": "ALPHAMEDIAANDPUBLICRELATIONS",
@@ -38151,8 +40068,8 @@
   ],
   "5594": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 6500,
     "cycle": 0,
     "fcc": true
@@ -38185,8 +40102,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 3000,
     "cycle": 3000,
     "fcc": true
@@ -38274,8 +40191,8 @@
   ],
   "5691": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 4000,
     "cycle": 0,
     "fcc": true
@@ -38292,8 +40209,8 @@
   ],
   "5699": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 7500,
     "cycle": 7500,
     "fcc": true
@@ -38310,8 +40227,8 @@
   ],
   "5710": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 5270,
     "cycle": 5270,
     "fcc": true
@@ -38328,8 +40245,8 @@
   ],
   "5715": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 2500,
     "cycle": 2500,
     "fcc": true
@@ -38489,6 +40406,15 @@
     "fcc": false
    }
   ],
+  "5822": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 18725,
+    "cycle": 14725,
+    "fcc": true
+   }
+  ],
   "5826": [
    {
     "k": "LR3CONSULT",
@@ -38550,6 +40476,15 @@
     "fcc": false
    }
   ],
+  "5854": [
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 12000,
+    "cycle": 12000,
+    "fcc": true
+   }
+  ],
   "5856": [
    {
     "k": "FLETCHERCONSULT",
@@ -38579,8 +40514,8 @@
   ],
   "5862": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 2000,
     "cycle": 2000,
     "fcc": true
@@ -38643,6 +40578,15 @@
     "fcc": false
    }
   ],
+  "5874": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 4000,
+    "cycle": 4000,
+    "fcc": true
+   }
+  ],
   "5876": [
    {
     "k": "TAYLORMEDIASERVICES2259310286ORTAYLORMEDIA11GMAILCOM",
@@ -38692,6 +40636,13 @@
     "n": "Kingfish Communications",
     "usd": 43000,
     "cycle": 43000,
+    "fcc": true
+   },
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 26476,
+    "cycle": 26476,
     "fcc": true
    },
    {
@@ -38809,6 +40760,15 @@
     "fcc": true
    }
   ],
+  "5911": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 2377,
+    "cycle": 2377,
+    "fcc": true
+   }
+  ],
   "5912": [
    {
     "k": "CYBERMEDIAONE",
@@ -38825,6 +40785,13 @@
     "usd": 16531,
     "cycle": 16531,
     "fcc": false
+   },
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 6028,
+    "cycle": 6028,
+    "fcc": true
    }
   ],
   "5914": [
@@ -38840,6 +40807,15 @@
     "n": "POOLHOUSE",
     "usd": 6230,
     "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "5915": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 2902,
+    "cycle": 2482,
     "fcc": true
    }
   ],
@@ -39420,6 +41396,15 @@
     "fcc": true
    }
   ],
+  "6059": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 21290,
+    "cycle": 21290,
+    "fcc": true
+   }
+  ],
   "606": [
    {
     "k": "CREATIVECOMMUNICATIONS",
@@ -39464,6 +41449,15 @@
     "usd": 12385,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "6078": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 29936,
+    "cycle": 29936,
+    "fcc": true
    }
   ],
   "608": [
@@ -39594,6 +41588,15 @@
     "fcc": false
    }
   ],
+  "6122": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 23387,
+    "cycle": 23387,
+    "fcc": true
+   }
+  ],
   "6127": [
    {
     "k": "CAPITALBUSINESSSERVICES4100SSHERWOODFORESTBLVDSUITE102BATONROUGE",
@@ -39655,6 +41658,15 @@
     "fcc": true
    }
   ],
+  "6169": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 69300,
+    "cycle": 69300,
+    "fcc": true
+   }
+  ],
   "6173": [
    {
     "k": "CYBERMEDIAONE",
@@ -39662,6 +41674,15 @@
     "usd": 8398,
     "cycle": 8398,
     "fcc": false
+   }
+  ],
+  "6176": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 24343,
+    "cycle": 24343,
+    "fcc": true
    }
   ],
   "6177": [
@@ -39876,6 +41897,15 @@
     "usd": 33680,
     "cycle": 33680,
     "fcc": false
+   }
+  ],
+  "6283": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 2825,
+    "cycle": 2825,
+    "fcc": true
    }
   ],
   "6284": [
@@ -40143,8 +42173,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 20000,
     "cycle": 20000,
     "fcc": true
@@ -40384,6 +42414,15 @@
     "fcc": false
    }
   ],
+  "6474": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 7200,
+    "cycle": 7200,
+    "fcc": true
+   }
+  ],
   "6483": [
    {
     "k": "OURSOBEYCHOK",
@@ -40512,10 +42551,26 @@
   ],
   "6517": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 4750,
     "cycle": 4750,
+    "fcc": true
+   },
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 1000,
+    "cycle": 1000,
+    "fcc": true
+   }
+  ],
+  "6518": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 2775,
+    "cycle": 2775,
     "fcc": true
    }
   ],
@@ -40678,6 +42733,24 @@
     "fcc": false
    }
   ],
+  "6544": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 30600,
+    "cycle": 30600,
+    "fcc": true
+   }
+  ],
+  "6550": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 21212,
+    "cycle": 21212,
+    "fcc": true
+   }
+  ],
   "6551": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -40769,8 +42842,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 2750,
     "cycle": 2750,
     "fcc": true
@@ -40823,8 +42896,8 @@
   ],
   "6589": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 4000,
     "cycle": 4000,
     "fcc": true
@@ -40903,6 +42976,13 @@
     "usd": 21840,
     "cycle": 21840,
     "fcc": false
+   },
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 11250,
+    "cycle": 11250,
+    "fcc": true
    }
   ],
   "6646": [
@@ -40968,8 +43048,8 @@
   ],
   "6701": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 3000,
     "cycle": 3000,
     "fcc": true
@@ -41045,6 +43125,15 @@
     "fcc": true
    }
   ],
+  "6738": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 18418,
+    "cycle": 18418,
+    "fcc": true
+   }
+  ],
   "674": [
    {
     "k": "FARWELL",
@@ -41114,8 +43203,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 6000,
     "cycle": 6000,
     "fcc": true
@@ -41152,6 +43241,13 @@
     "n": "Hyrizon Group",
     "usd": 47000,
     "cycle": 47000,
+    "fcc": true
+   },
+   {
+    "k": "WALKERSTRATEGICSOLUTIONS",
+    "n": "Walker Strategic Solutions",
+    "usd": 5000,
+    "cycle": 5000,
     "fcc": true
    }
   ],
@@ -41290,8 +43386,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 4250,
     "cycle": 4250,
     "fcc": true
@@ -41413,6 +43509,15 @@
     "fcc": false
    }
   ],
+  "6904": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 10000,
+    "cycle": 10000,
+    "fcc": true
+   }
+  ],
   "691": [
    {
     "k": "BUYINGTIME",
@@ -41509,6 +43614,24 @@
     "fcc": true
    }
   ],
+  "699": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 45347,
+    "cycle": 0,
+    "fcc": true
+   }
+  ],
+  "7019": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 9000,
+    "cycle": 9000,
+    "fcc": true
+   }
+  ],
   "7029": [
    {
     "k": "ARSEMENTMEDIA",
@@ -41518,8 +43641,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -41527,8 +43650,8 @@
   ],
   "7036": [
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 3000,
     "cycle": 3000,
     "fcc": true
@@ -41673,8 +43796,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 8500,
     "cycle": 8500,
     "fcc": true
@@ -41796,8 +43919,8 @@
     "fcc": false
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 15000,
     "cycle": 15000,
     "fcc": true
@@ -41812,8 +43935,8 @@
     "fcc": true
    },
    {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
+    "k": "VICTORIACOULONCONSULTVICTORIASHORTCOULONICLOUDCOM",
+    "n": "Victoria Coulon Consulting, victoriashortcoulon@icloud.com",
     "usd": 8500,
     "cycle": 8500,
     "fcc": true
@@ -41860,6 +43983,24 @@
     "fcc": false
    }
   ],
+  "7544": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 43638,
+    "cycle": 43638,
+    "fcc": true
+   }
+  ],
+  "7552": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 1899,
+    "cycle": 1899,
+    "fcc": true
+   }
+  ],
   "7553": [
    {
     "k": "JBCOMMUNICATIONS",
@@ -41885,6 +44026,15 @@
     "usd": 4251,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "7604": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 15085,
+    "cycle": 15085,
+    "fcc": true
    }
   ],
   "7607": [
@@ -41925,6 +44075,15 @@
     "n": "Carvin Consulting",
     "usd": 19018,
     "cycle": 19018,
+    "fcc": true
+   }
+  ],
+  "7688": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 12368,
+    "cycle": 12368,
     "fcc": true
    }
   ],
@@ -42205,6 +44364,15 @@
     "fcc": true
    }
   ],
+  "8088": [
+   {
+    "k": "GAGLIANO",
+    "n": "Gagliano Group (The)",
+    "usd": 43800,
+    "cycle": 43800,
+    "fcc": true
+   }
+  ],
   "81": [
    {
     "k": "FIREONBAYOU",
@@ -42251,6 +44419,15 @@
     "usd": 36547,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "8168": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 4836,
+    "cycle": 4836,
+    "fcc": true
    }
   ],
   "8174": [
@@ -42619,6 +44796,15 @@
     "usd": 4000,
     "cycle": 0,
     "fcc": false
+   }
+  ],
+  "885": [
+   {
+    "k": "KDMDIGITALSOLUTIONS",
+    "n": "KDM Digital Solutions",
+    "usd": 5260,
+    "cycle": 0,
+    "fcc": true
    }
   ],
   "886": [
@@ -43917,6 +46103,10 @@
    "William (Will) Torres",
    "OTH"
   ],
+  "1178": [
+   "Bry Layrisson",
+   "REP"
+  ],
   "1182": [
    "Deborah Villio",
    "REP"
@@ -44097,6 +46287,10 @@
    "Melanie Talia",
    "DEM"
   ],
+  "1334": [
+   "Frances Pitman",
+   "REP"
+  ],
   "1340": [
    "Dawn Amacker",
    "REP"
@@ -44240,6 +46434,10 @@
   "1428": [
    "John F. (Andy) Anders",
    "OTH"
+  ],
+  "1432": [
+   "Jeanette Giddens Garrett",
+   "IND"
   ],
   "1433": [
    "James R. (Jim) Fannin",
@@ -44473,6 +46671,10 @@
    "Timothy E. Kelley",
    "OTH"
   ],
+  "1575": [
+   "Charles Glenn Westmoreland",
+   "OTH"
+  ],
   "1577": [
    "Yvette Mansfield Alexander",
    "DEM"
@@ -44480,6 +46682,10 @@
   "1579": [
    "Sherri Smith Cheek",
    "REP"
+  ],
+  "1580": [
+   "Keith P. Hightower",
+   "OTH"
   ],
   "1583": [
    "Ann Murry Keller",
@@ -44520,6 +46726,10 @@
   "1607": [
    "Joseph B. Landry",
    "OTH"
+  ],
+  "1609": [
+   "Etta S. Licciardi",
+   "REP"
   ],
   "1610": [
    "Thomas Daley",
@@ -44619,6 +46829,10 @@
   ],
   "1666": [
    "Jefferson Chamber PAC",
+   "OTH"
+  ],
+  "1667": [
+   "Ray Chutz",
    "OTH"
   ],
   "1671": [
@@ -44723,6 +46937,10 @@
   ],
   "1733": [
    "Rosemary Ledet",
+   "OTH"
+  ],
+  "1736": [
+   "Scott M. Perrilloux",
    "OTH"
   ],
   "1737": [
@@ -44941,6 +47159,10 @@
    "Anthony Marabella",
    "OTH"
   ],
+  "1878": [
+   "Todd W. Hernandez",
+   "REP"
+  ],
   "1880": [
    "Joel M. Boe",
    "REP"
@@ -44960,6 +47182,10 @@
   "1890": [
    "Mark A. Hebert",
    "DEM"
+  ],
+  "1892": [
+   "Daniel Edwards",
+   "OTH"
   ],
   "1895": [
    "Tanner A. Messina, Jr.",
@@ -45028,6 +47254,10 @@
   "1933": [
    "Louisiana Federation for Children PAC",
    "OTH"
+  ],
+  "1935": [
+   "Stephen (Steve) Pugh",
+   "REP"
   ],
   "1937": [
    "Victor E. Jones, Jr.",
@@ -45337,6 +47567,10 @@
    "Gregory D. Lord, M.D.",
    "OTH"
   ],
+  "2138": [
+   "Luther Layton Ricks, Jr.",
+   "OTH"
+  ],
   "2140": [
    "Jason Ard",
    "REP"
@@ -45368,6 +47602,10 @@
   "2153": [
    "Connie Couvillon",
    "DEM"
+  ],
+  "2154": [
+   "Joel Morgan",
+   "REP"
   ],
   "2155": [
    "Michael W. Regan",
@@ -45660,6 +47898,10 @@
   "2381": [
    "Eric M. Chatelain",
    "REP"
+  ],
+  "2382": [
+   "Lila Tritico Hogan",
+   "DEM"
   ],
   "2392": [
    "Connie Bernard",
@@ -46289,6 +48531,10 @@
    "Thomas W. Rogers",
    "REP"
   ],
+  "2921": [
+   "Jeff Johnson",
+   "REP"
+  ],
   "2923": [
    "Brian Trainor",
    "REP"
@@ -46421,6 +48667,10 @@
    "Louisiana Sheriffs' and Deputies' PAC",
    "OTH"
   ],
+  "3060": [
+   "Jamie Morain Zanovec",
+   "REP"
+  ],
   "3062": [
    "Adam J. Haney",
    "REP"
@@ -46487,6 +48737,10 @@
   ],
   "3124": [
    "Vernon J. Wilty, III",
+   "DEM"
+  ],
+  "3131": [
+   "Sydney Picou Walker",
    "DEM"
   ],
   "3146": [
@@ -46705,6 +48959,10 @@
    "Watchdog Political Action Committee",
    "OTH"
   ],
+  "3348": [
+   "Jeffery Edward Travis",
+   "OTH"
+  ],
   "3350": [
    "Phillip DeVillier",
    "REP"
@@ -46720,6 +48978,10 @@
   "3355": [
    "Anthony Bacala",
    "REP"
+  ],
+  "3359": [
+   "Christopher Daigle",
+   "OTH"
   ],
   "3360": [
    "Rykert O. Toledano, Jr.",
@@ -46808,6 +49070,10 @@
   "3413": [
    "Ben Nevers Louisiana Families First (PAC)",
    "OTH"
+  ],
+  "3415": [
+   "Robert Carter",
+   "DEM"
   ],
   "3417": [
    "Tanner Magee",
@@ -47205,6 +49471,10 @@
    "Citizens for Judicial Excellence, Inc.",
    "OTH"
   ],
+  "3923": [
+   "Top of Louisiana",
+   "OTH"
+  ],
   "3926": [
    "John \"Clay\" Hamilton",
    "REP"
@@ -47283,6 +49553,10 @@
   ],
   "3993": [
    "Restore Our Coast PAC",
+   "OTH"
+  ],
+  "3994": [
+   "David Blayne Honeycutt",
    "OTH"
   ],
   "3996": [
@@ -47429,6 +49703,10 @@
    "LA Taxpayer Protection PAC",
    "OTH"
   ],
+  "4128": [
+   "Gary Stanga",
+   "REP"
+  ],
   "4129": [
    "Mark Wright",
    "REP"
@@ -47540,6 +49818,10 @@
   "419": [
    "Rebecca M. Olivier",
    "OTH"
+  ],
+  "4190": [
+   "Nicholas Muscarello",
+   "REP"
   ],
   "4192": [
    "Scott Anslum",
@@ -47765,6 +50047,10 @@
    "Adrian Perkins",
    "DEM"
   ],
+  "4378": [
+   "Steven Jackson",
+   "DEM"
+  ],
   "4383": [
    "Edward L. Rispone",
    "REP"
@@ -47776,6 +50062,10 @@
   "439": [
    "Dale N. Atkins",
    "DEM"
+  ],
+  "4390": [
+   "Ascension Lodging PAC",
+   "OTH"
   ],
   "4392": [
    "Advance Natchitoches PAC",
@@ -47813,6 +50103,10 @@
    "Bishop PAC",
    "OTH"
   ],
+  "4421": [
+   "Tammi Fabre",
+   "REP"
+  ],
   "4423": [
    "Together for Parks Alliance",
    "OTH"
@@ -47824,6 +50118,10 @@
   "4425": [
    "Kristian Poncho",
    "DEM"
+  ],
+  "4427": [
+   "Dennis Aucoin",
+   "REP"
   ],
   "443": [
    "William J. Knight",
@@ -47872,6 +50170,10 @@
   "4454": [
    "Larvadain, III Edward",
    "OTH"
+  ],
+  "4461": [
+   "Brian L. Spillman",
+   "REP"
   ],
   "4465": [
    "Michael D. Allen",
@@ -47991,6 +50293,10 @@
   ],
   "4558": [
    "Guy Murray",
+   "OTH"
+  ],
+  "456": [
+   "Jim Gleason",
    "OTH"
   ],
   "4560": [
@@ -48165,6 +50471,10 @@
    "Thomas Sullivan",
    "REP"
   ],
+  "4760": [
+   "Darrell Fairburn",
+   "DEM"
+  ],
   "4771": [
    "Nicholas Gasper",
    "OTH"
@@ -48285,6 +50595,10 @@
    "Republican State Leadership Committee - Louisiana",
    "OTH"
   ],
+  "493": [
+   "Grace Bennett Gasaway",
+   "DEM"
+  ],
   "4933": [
    "Daryl Joy Walters",
    "DEM"
@@ -48296,6 +50610,10 @@
   "4943": [
    "Matthew Willard",
    "DEM"
+  ],
+  "4945": [
+   "Bradley Michael Behrnes",
+   "REP"
   ],
   "497": [
    "Kenneth J. Fogg",
@@ -48405,6 +50723,10 @@
    "Erika W. Sledge",
    "OTH"
   ],
+  "5072": [
+   "MO PAC",
+   "OTH"
+  ],
   "5076": [
    "DeWayne Larry Williams",
    "DEM"
@@ -48456,6 +50778,14 @@
   "5123": [
    "Aaron Chaisson",
    "REP"
+  ],
+  "5125": [
+   "Susanne Tully",
+   "IND"
+  ],
+  "5126": [
+   "Mary E. Winchell",
+   "DEM"
   ],
   "5128": [
    "Colt Fore",
@@ -48533,6 +50863,10 @@
    "Bobby L. Holmes",
    "DEM"
   ],
+  "5183": [
+   "Paul L. Wood",
+   "REP"
+  ],
   "5198": [
    "Johanna R. Landreneau",
    "REP"
@@ -48579,6 +50913,10 @@
   ],
   "5241": [
    "Roger P. Hamilton Jr",
+   "REP"
+  ],
+  "5244": [
+   "Christopher T. Victory",
    "REP"
   ],
   "5249": [
@@ -48628,6 +50966,10 @@
   "5292": [
    "Charles Cravins",
    "DEM"
+  ],
+  "5295": [
+   "Santi Parks",
+   "REP"
   ],
   "5298": [
    "MOVE BATON ROUGE FORWARD",
@@ -48721,6 +51063,10 @@
    "LA Taxpayer Education Fund",
    "OTH"
   ],
+  "5395": [
+   "Voters Organized to Educate",
+   "OTH"
+  ],
   "54": [
    "Michael Waguespack",
    "OTH"
@@ -48751,6 +51097,18 @@
   ],
   "5441": [
    "Republican Legislative Delegation Campaign Committee, Inc.",
+   "OTH"
+  ],
+  "5442": [
+   "Michael Melerine",
+   "REP"
+  ],
+  "5444": [
+   "Tommy Chandler",
+   "REP"
+  ],
+  "5446": [
+   "Christopher C. Smith",
    "OTH"
   ],
   "5453": [
@@ -48841,6 +51199,10 @@
    "Lesli Harris",
    "DEM"
   ],
+  "5518": [
+   "Brian Hammons",
+   "REP"
+  ],
   "5522": [
    "The Northshore Wins, Inc.",
    "OTH"
@@ -48888,6 +51250,10 @@
   "5567": [
    "Wilbur Stiles",
    "OTH"
+  ],
+  "5569": [
+   "DOUG STINSON",
+   "REP"
   ],
   "5571": [
    "Britain Sledge",
@@ -49029,6 +51395,10 @@
    "Keep the Lights On",
    "OTH"
   ],
+  "5822": [
+   "Christopher Gideon",
+   "REP"
+  ],
   "5826": [
    "One Future PAC",
    "OTH"
@@ -49052,6 +51422,10 @@
   "5852": [
    "Gary Lane Driskell",
    "IND"
+  ],
+  "5854": [
+   "Leon Roche",
+   "DEM"
   ],
   "5856": [
    "Louise Myers Hines",
@@ -49083,6 +51457,10 @@
   ],
   "5872": [
    "One Hundred Percent",
+   "OTH"
+  ],
+  "5874": [
+   "Jeffery S. Ard",
    "OTH"
   ],
   "5876": [
@@ -49137,6 +51515,10 @@
    "Rex \"Eddie\" Albritton",
    "OTH"
   ],
+  "5911": [
+   "Layne Sanders Huckabay",
+   "REP"
+  ],
   "5912": [
    "John Patrick Gurba Sr.",
    "REP"
@@ -49148,6 +51530,10 @@
   "5914": [
    "Delta Good Hand PAC",
    "OTH"
+  ],
+  "5915": [
+   "Dennis Bamburg Jr.",
+   "REP"
   ],
   "5917": [
    "Hugh Andre",
@@ -49309,6 +51695,10 @@
    "Ronald Dean Register, Jr",
    "OTH"
   ],
+  "6059": [
+   "Les Blanchard",
+   "REP"
+  ],
   "606": [
    "Randy Ewing",
    "OTH"
@@ -49316,6 +51706,10 @@
   "607": [
    "Michael Cazes",
    "OTH"
+  ],
+  "6078": [
+   "Jesse Adam Bass",
+   "REP"
   ],
   "608": [
    "Brett Geymann",
@@ -49349,6 +51743,10 @@
    "Kenneth E. Delcambre",
    "OTH"
   ],
+  "6122": [
+   "Kevin Raiford",
+   "REP"
+  ],
   "6127": [
    "Katherine \"Katie\" Coburn",
    "IND"
@@ -49373,8 +51771,16 @@
    "Camille Buras",
    "OTH"
   ],
+  "6169": [
+   "Shane Raymond Mack",
+   "REP"
+  ],
   "6173": [
    "Timothy J Smith",
+   "REP"
+  ],
+  "6176": [
+   "Justin Courtney",
    "REP"
   ],
   "6177": [
@@ -49439,6 +51845,10 @@
   ],
   "6271": [
    "Kenneth Gingles",
+   "REP"
+  ],
+  "6283": [
+   "DeWayne Harmon",
    "REP"
   ],
   "6284": [
@@ -49557,6 +51967,10 @@
    "Cade Cole",
    "REP"
   ],
+  "6474": [
+   "Taylor Anthony",
+   "OTH"
+  ],
   "6483": [
    "Brittany Bryant Jorden",
    "DEM"
@@ -49587,6 +52001,10 @@
   ],
   "6517": [
    "NOLA First Political Action Committee",
+   "OTH"
+  ],
+  "6518": [
+   "Citizens for a Better Hammond",
    "OTH"
   ],
   "652": [
@@ -49640,6 +52058,14 @@
   "6541": [
    "Michael Cochran",
    "OTH"
+  ],
+  "6544": [
+   "Jessica C. Ledet",
+   "REP"
+  ],
+  "6550": [
+   "Craton Cochran",
+   "REP"
   ],
   "6551": [
    "Aimee McCarron",
@@ -49773,6 +52199,10 @@
    "For our Future",
    "OTH"
   ],
+  "6738": [
+   "AMY BRAINARD",
+   "OTH"
+  ],
   "674": [
    "Gordon E. Dove",
    "REP"
@@ -49865,6 +52295,10 @@
    "Michael R. Erwin",
    "DEM"
   ],
+  "6904": [
+   "Joel Girouard",
+   "OTH"
+  ],
   "691": [
    "Lydia Jackson",
    "DEM"
@@ -49888,6 +52322,14 @@
   "6961": [
    "Brian Nicaud",
    "REP"
+  ],
+  "699": [
+   "Phyllis Harrison",
+   "OTH"
+  ],
+  "7019": [
+   "Hugo A. Holland, Jr",
+   "OTH"
   ],
   "7029": [
    "Shawn Lindsay",
@@ -49989,6 +52431,14 @@
    "Michael Smith",
    "OTH"
   ],
+  "7544": [
+   "Cy J. D'Aquila Jr",
+   "OTH"
+  ],
+  "7552": [
+   "STACY SALTZMAN",
+   "OTH"
+  ],
   "7553": [
    "ALFRED GALINDO",
    "OTH"
@@ -49999,6 +52449,10 @@
   ],
   "758": [
    "Emile Bergeron",
+   "OTH"
+  ],
+  "7604": [
+   "Heather Savage Courtney",
    "OTH"
   ],
   "7607": [
@@ -50012,6 +52466,10 @@
   "7611": [
    "JOHN F. LEE",
    "REP"
+  ],
+  "7688": [
+   "Rachel Wiggins Bays",
+   "OTH"
   ],
   "770": [
    "Ann D. Duplessis",
@@ -50077,6 +52535,10 @@
    "Tucker Sharer",
    "OTH"
   ],
+  "8088": [
+   "Jasper S. Brock",
+   "OTH"
+  ],
   "81": [
    "Paul Sens",
    "DEM"
@@ -50088,6 +52550,10 @@
   "812": [
    "Joel Robideaux",
    "REP"
+  ],
+  "8168": [
+   "Clay Carroll",
+   "OTH"
   ],
   "8174": [
    "Consumers First PAC",
@@ -50180,6 +52646,10 @@
   "881": [
    "Irma Muse Dixon",
    "DEM"
+  ],
+  "885": [
+   "LA Republican Party of Caddo Parish",
+   "REP"
   ],
   "886": [
    "Lorenz J. Walker",
