@@ -38,7 +38,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, 'fcc'))
 from build_station_spend import stations_in  # noqa: E402
-from documents import agency_key, same_agency, same_party  # noqa: E402
+from documents import agency_key, canonical_agencies, same_agency, same_party  # noqa: E402
+from summary import order_key  # noqa: E402
 from filings import cache_files, find_cache, norm, party_of, scan  # noqa: E402
 
 D = lambda *p: os.path.join(HERE, 'data', *p)
@@ -58,7 +59,7 @@ CYCLE_YEARS = 4            # "this cycle": the four filing years through this on
 
 def documents():
     try:
-        return json.load(open(D('fcc_documents.json'), encoding='utf-8')).get('documents', {})
+        return canonical_agencies(json.load(open(D('fcc_documents.json'), encoding='utf-8')).get('documents', {}))
     except FileNotFoundError:
         return {}
 
@@ -123,7 +124,7 @@ def fcc_agencies(docs, away=frozenset()):
         # Each order once at its latest revision; invoices only stand in
         # for an order not read (as fcc/summary.py's booked()).
         if d.get('gross') and d['gross'] > 0 and d.get('kind') in ('order', 'invoice') and not d.get('reissue'):
-            key = (d.get('call'), d.get('order_no') or did)
+            key = order_key(d.get('media') or 'tv', d.get('call'), d.get('name'), d, did)
             prev = y['orders'].get(key)
             if d['kind'] == 'order':
                 if not prev or prev[0] != 'order' or up > prev[1]:

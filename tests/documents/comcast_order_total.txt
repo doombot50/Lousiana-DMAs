@@ -1,0 +1,94 @@
+Run Date: Apr 15, 2026                                                      Order Contract                                                         Page 3 of 12
+Order Number:            1108535
+Order No:           1108535                  EDI:            Y                Customer:          001126215 BILL CASSIDY FOR           Sales Office:            NOL New Orleans
+Po:                    63336130                      Ext Order:         63336130                                    SENATE                                           Salesperson:               NOLTDTrent Darbonne
+Contract No:          PL361866                    Ext Client:        371                                                                                         Discount:                  Agency 15 Rep 13
+Reference No:                                        Estimate:         3915                 Bill Address:          National AMP New Orleans                     Revenue Type:             NAT - Political
+Product:               1085                                                                                                                            Invoicing Option:               Threshold
+Contract Start:        04/11/26                                                                                                                              Bill Cycle:                Billing Month
+Contract End:              04/17/26                                                                                                                                                                                                     Payment Terms:
+Last Changed:            04/15/26                                                                                                                                                                                             Notarize Invoice:                N
+Front Load :                 N                                                                                                                                                                                                                         Requires ANACAB:             N
+Invoice Notes:           *POL*#63336130 EST 3915 30s SYS 6979
+Line    Status Reg/Ret Grp/Net   Ad Copy/ Ad      Dates       Weeks No. Of Purchase    Prty = Inv      Revenue Qty     AutoShow M TW TFS S   Total     Rate      $Total   $Dropped
+Copy Group                On/Off Weeks Time           Type     Type     Type     MK Inv                     Ad units
+1      sc   R-NOLI N-NMX RO000099(ST) 04/11/26    04/12/26 = 1) «0    1 User        90 NOLI     NATPOL 2/WK     LA     N NNN NY YY 2     32.00      64.00     (32.00)
+Copy Required 1108535                                             Daypart:
+05:00-09:00
+10     sc   R-NOL|   N-NMX R000099(ST)   04/11/26    04/12/26   17 0    1   User        90 NOLI     NATPOL,   3/WK     LA     N NNN NYY   3     38.00      114.00      0.00
+Copy Required 1108535                                                     Daypart:
+09:00-16:00
+Suspend Start: Apr 16, 2026
+11    sP  R-NOL|  N-FXNC R000099(ST)  04/13/26   04/17/26  17,0   1  User      90 NOLI    NATPOL  6/WK   LA   YY YY YN ON  4   535.00   2,140.00    0.00
+Copy Required 1108535                                             Daypart:
+05:00-09:00
+Suspend Start: Apr 16, 2026
+12     sP    R-NOLI N-NMX RO000099(ST) 04/13/26    04/17/26 = 1) *0    1 User        60 NOLI     NATPOL 4/WK     LA     YYYY YN N. 2     60.00      120.00      0.00
+Copy Required 1108535                                             Daypart:
+20:00-24:00
+Suspend Start: Apr 16, 2026
+13     SP    R-NOL|   N-NMX R000099(ST)   04/13/26    04/17/26   170    1   User        60 NOLI     NATPOL,   4/WK     LA     YY YY YN N   2     55.00      110.00      0.00
+Copy Required 1108535                                                     Daypart:
+16:00-20:00
+Suspend Start: Apr 16, 2026
+14     sP    R-NOL|   N-NMX R000099(ST)   04/13/26    04/17/26   17,0    1   User        60 NOLI     NATPOL   9/WK     LA     YY YY YN N   6     50.00      300.00      0.00
+Copy Required 1108535                                             Daypart:
+09:00-16:00
+15     sc   R-NOL| N-NMX RO000099(ST) 04/11/26    04/12/26 «= 1) 0    1 User        90 NOLI     NATPOL 1/WK     LA     NNNNNY Y 14     48.00      48.00      0.00
+Copy Required 1108535                                             Daypart:
+20:00-24:00
+
+Run Date: Apr 15, 2026                                                      Order Contract                                                         Page 4 of 12
+16   SC R-NOLI N-FXNC ROO009%(ST) 04/11/26  04/12/26 = 1) (0  1 User     90 NOLI   NATPOL  1/WK   LA   NNNNNY Y 14   820.00   820.00  (820.00)
+Copy Required 1108535                                                     Daypart:
+20:00-24:00
+17   AP = RNOLI N-NMX R000099(ST) 04/16/26  04/17/26 «1 «0   1 User     60 NOLI   NATPOL 7/WK   LA   YYYYYN N 7   40.00    280.00    0.00
+Copy Required 1108535                                                     Daypart:
+05:00-09:00
+18   AP RNOLI -N-FXNC RO00099(ST) 04/16/26  04/17/26 «= 1) (0   1 User     90 NOLI   NATPOL 4/WK   LA   YYYYYN N 4   553.00   2,212.00    0.00
+Copy Required 1108535                                             Daypart:
+09:00-16:00
+19   AP -R-NOLI N-FXNC R000099(ST) 04/16/26  04/17/26 «= 1) (0   1 User     90 NOLI   NATPOL 2/WK   LA   YYYYYN N. 2   535.00   1,070.00    0.00
+Copy Required 1108535                                                     Daypart:
+05:00-09:00
+Suspend Start: Apr 16, 2026
+2    SP R-NOLI_ N-NMX ROO0099(ST) 04/13/26  04/17/26 «1 «0   1 User     60 NOLI   NATPOL 6/WK   LA   YYYYYN N. 3   40.00    120.00    0.00
+Copy Required 1108535                                                     Daypart:
+05:00-09:00
+20   AP RANOLI = N-NMX —RO00099(ST) 04/16/26  04/17/26 «= 1) (0  1 User     60 NOLI   NATPOL 7/WK   LA   YYYYYN N 7   60.00    420.00    0.00
+Copy Required 1108535                                             Daypart:
+[...]
+                                                  Daypart:
+20:00-24:00
+5    SC -R-NOLI N-FXNC ROO009A(ST) 04/13/26  04/17/26 «1 «0   1 User     90 NOLI   NATPOL 4/WK   LA   YYYYYN N 4   675.00   2,700.00    0.00
+Copy Required 1108535                                                     Daypart:
+16:00-20:00
+Suspend Start: Apr 16, 2026
+6    SP R-NOLI_ _N-FXNC ROO009%(ST) 04/13/26  04/17/26 «= 1) «0   1 User     90 NOLI   NATPOL 9/WK   LA   YYYYYN N 6   553.00   3,318.00    0.00
+Copy Required 1108535                                             Daypart:
+09:00-16:00
+7   SC RNOLI N-FXNC ROO009A(ST) 04/11/26  04/12/26 «= 1) «0  1 User     90 NOLI   NATPOL _2/WK   LA   NNNNNY YY. 2   426.00   852.00    0.00
+Copy Required 1108535                                             Daypart:
+05:00-09:00
+
+Run Date: Apr 15, 2026                                                                         Order Contract                                                                             Page 5 of 12
+8        sc     R-NOLI N-FXNC R000099(ST) 04/11/26     04/12/26 1) «0      1 User           90 NOLI       NATPOL 3/WK       LA       NNNNNY Y 3      442.00       1,326.00         0.00
+Copy Required 1108535                                             Daypart:
+09:00-16:00
+9        sc     R-NOL| N-FXNC R000099(ST) 04/11/26     04/12/26 1) (0      1 User           90 NOLI       NATPOL 1/WK       LA       NNNNNY Y 14       538.00        538.00         0.00
+Copy Required 1108535                                             Daypart:
+16:00-20:00
+Order Lines Total         73.00                       21,111.00        (852.00)
+Makegoods Totals          0.00                             0.00
+Ad Copy Information:
+Order Number:         1108535
+R000099 Copy Required 1108535 (ST)           Tape No.           Class        Length Weight — Start                     Thru                       Limitations:
+CMD12368      BC26-TV-05H              _                  NONE          30           1        04/11/26 00:00:00        04/17/26 23:59:00          None
+Order Summary :
+OrderNumber: 1108535,
+GROSS
+Billing          Line     Dropped Makegood = Misc Time _—Misc Other                  Agency         Rep        Other                        Pre-       Balance        Non-$0                Makegood       Total
+Period         Charges         Totals       Charges        Charges       Charges          Totals Discount       Discount      Discount        Net Total       Payments              Due         Ad Units $0 Ad Units       Ad Units Ad Units
+Apr 2026      21,111.00      -852.00         0.00         0.00         0.00     20,259.00 3,038.92     2,238.61         0.00      14,981.47          0.00      14,981.47         73.00         0.00         0.00       73.00
+Order Total      21,111.00      -852.00         0.00         0.00         0.00     20,259.00 3,038.92      2,238.61         0.00      14,981.47          0.00      14,981.47         73.00         0.00         0.00       73.00
+Customer Signature:

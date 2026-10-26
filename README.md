@@ -382,19 +382,26 @@ python3 build_agency_spend.py                  # data/agencies.json
   "And:"), WideOrbit and Nexstar invoices (who is billed), KLAX's contracts,
   the NAB request forms (agency only), and radio's iHeartMedia order
   confirmations, WAVSTAR sales orders and the Monroe stations' on-air
-  schedules. About two in five documents are
+  schedules. A document no layout knows that still prints a totals row
+  (Comcast's order contracts, Spectrum's order summaries, an agency's own
+  order) counts as an order under the number it prints, unless it says it is
+  a proposal. About two in five documents are
   scans; those are OCR'd with tesseract. Every layout is tested on a real
   document's text in `tests/documents/`; a field that can't be found is left
   empty, never guessed.
 - **Light on the FCC.** A night reads up to 40 TV documents (80 in the last
   30 days before an election, 120 in the last 10) in 22 minutes, newest
   orders first, plus up to 100 radio and 60 cable, which are mostly text and
-  quick. A document that stalls or fails to download is tried once more two
-  days on, ten a night. The extracted text is kept in the Actions cache, so a
+  quick. Close to an election that is too slow, so a second workflow
+  (`read-documents.yml`) reads only documents, six more times a day between
+  the nightly runs; each folds the other's reads into
+  `data/fcc_documents.json` before it commits (`fcc/merge_documents.py`). A
+  document that stalls or fails to download is tried once more two days on,
+  ten a night. The extracted text is kept in the Actions cache, so a
   parser fix re-reads everything without another download.
 - **Counting dollars.** An order's revisions restate the whole order, so each
-  station order number counts once, at its latest revision (a radio group's
-  order, filed at each of its stations it covers, once in all). An invoice bills
+  station order number counts once, at its latest revision (a cable or radio
+  order, filed at every system or station it covers, once in all). An invoice bills
   part of an order, so invoices count only for an order whose own document
   hasn't been read, and a reissued invoice never twice. Amounts are gross,
   before agency commission. Until every document is read the figures are a

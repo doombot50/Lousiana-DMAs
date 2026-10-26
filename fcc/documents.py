@@ -25,6 +25,7 @@ Every case here is a real document, in tests/documents/.
 parse() never guesses: a field it can't find is None.
 """
 import re
+from collections import Counter, defaultdict
 
 # ---------------------------------------------------------------- amounts
 
@@ -80,6 +81,12 @@ def totals(text):
     n = [v for v in n if v is not None]
     if g and (best is None or max(g) > best[0]):
         best = (max(g), None)
+    # Comcast's older order contract: "Order Total  21,111.00  -852.00 ...",
+    # the line charges, then the spots dropped.
+    if best is None:
+        m = re.search(r'^\s*Order\s+Total\s+([\d,]+\.\d\d)\s+(-?[\d,]+\.\d\d)', text, re.M)
+        if m:
+            best = (amount(m.group(1)) + min(0.0, amount(m.group(2)) or 0.0), None)
     if best and best[1] is None and n:
         cand = [v for v in n if v <= best[0]]
         best = (best[0], max(cand) if cand else None)
@@ -144,7 +151,18 @@ def clean(name):
     if not name:
         return None
     s = re.sub(r'\(\d{2,6}\)', '', name)
-    s = re.sub(r'[#|_~*‘’"“”]+', ' ', s)
+    # A request form's "[ ] N/A" box, OCR'd ahead of the name ("LC] N/A",
+    # "L ]wa", "C NIA").
+    s = re.sub(r'^.{0,6}?(?:\bN\s?/\s?A\b|\bN[IVW]A\b|\]\s?wa\b)[.\s:=-]*', '', s, flags=re.I)
+    # What follows a semicolon is a contact ("FlexPoint Campaigns; info@…").
+    s = re.sub(r'\s*;.*$', '', s)
+    s = re.sub(r'\(?\S+@\S+\)?', ' ', s)
+    # An address after a dash or comma ("Crossroads Media, LLC - 66 Canal
+    # Center Plaza", "Canal Partners Media, 900 Circle 75 Parkway").
+    s = re.sub(r'\s*(?:[-–«,]\s*)\d+\s+[A-Za-z].*$', '', s)
+    s = re.sub(r'[#|_~*‘’"“”\[\]{}©«»—–]+', ' ', s)
+    # The next field's label, run onto the name ("MAV LLC Product Desc.").
+    s = re.sub(r'\s+(?:Product\s+De\w*|Estimate\s+De\w*|Advertiser|Buyer)\b.*$', '', s)
     s = JUNK.sub('', s.strip())
     s = re.sub(r'\s+', ' ', s).strip(' .,:;-/')
     # OCR debris trailing a name: a short token with a symbol or a
@@ -154,6 +172,9 @@ def clean(name):
     # One run to the end (spaces are single by now): a repeated group here
     # took minutes to give up on a long OCR'd row of digits.
     s = re.sub(r' \(?\d[\d ().-]{3,}\d$', '', s).strip(' .,:;-/')
+    # A street address run onto the name ("BrabenderCox 1218 Grandview Ave
+    # Pittsburgh"): a house number of three or more digits, then words.
+    s = re.sub(r' \d{3,6} [A-Za-z].*$', '', s).strip(' .,:;-/')
     while True:
         m = re.search(r'\s+([A-Za-z]{1,2})$', s)
         if not m or m.group(1).upper() in SHORT_OK:
@@ -187,7 +208,7 @@ def layout(text):
         return 'nab'
     if re.search(r'\bINVOICE\b', head) and re.search(r'Invoice\s*#', head):
         return 'invoice'
-    if re.search(r'Contract\s+Agreement\s+Betw', head, re.I):
+    if re.search(r'Contract\s+Agr\w{3,8}\s+Betw', head, re.I):
         return 'contract'
     if re.search(r'Order\s*/\s*Rev', head, re.I):
         return 'order'
@@ -292,8 +313,13 @@ def _agency_of(text, lay, advertiser):
         m = re.search(r'Agency\s+requesting\s+time[^\n]*', text, re.I)
         if m:
             return clean(next_line(text, m.start()))
-    # Anything else (OCR'd orders from other systems): a labelled "Agency:".
-    a = search(r'(?:^|\s{2,})Agency(?:\s+Name)?\s*:\s*(.+?)(?:\s{3,}|$)', text)
+    # Anything else (OCR'd orders from other systems): a labelled "Agency:",
+    # or who Comcast's order contract bills.
+    a = search(r'(?:^|\s)Agency(?:\s+Name)?\s*:\s*(.+?)(?:\s{3,}|$)', text)
+    if not a and lay == 'other':
+        a = search(r'\bBill\s+Address:\s+(.+?)(?:\s{3,}|$)', text)
+        # Comcast's own national sales office, not an agency.
+        a = None if a and re.match(r'National\s+AMP\b', a, re.I) else a
     return clean(a) if a else None
 
 
@@ -302,9 +328,17 @@ def agency_of(text, lay, advertiser):
     the agency's place is the advertiser itself (a candidate as stations
     file one, "Roche/D/Judge"), which means it bought direct."""
     a = _agency_of(text, lay, advertiser)
-    if not a or PARTY_MARK.search(a) or same_party(a, advertiser):
+    if not a or PARTY_MARK.search(a) or same_party(a, advertiser) or CAMPAIGN.search(a):
         return None
     return a
+
+
+# A campaign or a form's answer in the agency's place, not an agency:
+# "Pol26/Hanh for City Council", "Stormy Gage Watts for Mayor", "Political
+# Issue - Direct", "Candidate's political party", "Yes".
+CAMPAIGN = re.compile(r'^Po[l1i]\d*\s*/|\bfor\s+(?:Mayor|Marshal|Judge|Sheriff|Congress|Senate|Governor|DA|'
+                      r'District|City|Council|Parish|State|Louisiana|Shreveport|Re-?elect)\b|'
+                      r'\bCommittee\s+to\b|^Friends\s+of\b|\bDirect$|^Candidate|^Yes$', re.I)
 
 
 def advertiser_of(text, lay):
@@ -357,6 +391,13 @@ def order_no_of(text, lay):
         return search(r'Contract\s*#\s*(\d{4,10})', text)
     if lay == 'invoice':
         return search(r'Order\s*#\s+(\d{4,10}[A-Z]?)\b', text)
+    # Other systems' orders, by the number each prints: Comcast's "Order
+    # Number", Spectrum's "Contract", Gray's agency orders' "Traffic Order #".
+    for pat in (r'Order\s+Number:\s+(\d{5,10})', r'Traffic\s+Order\s*#:?\s*(\d{5,10})',
+                r'\bContract(?:\s+ID)?:\s+(\d{5,10})\b'):
+        no = search(pat, text)
+        if no:
+            return no
     return None
 
 
@@ -371,8 +412,14 @@ def parse(text):
     else:
         gross, net = totals(text) if lay != 'nab' else (None, None)
     fl = re.search(r'(?:Flight\s+Dates|Contract\s+Dates|Order\s+Flight)[: \t]*(?:\n\s*)?(\d\d/\d\d/\d\d)\s*-\s*(\d\d/\d\d/\d\d)', text, re.I)
+    kind = KIND[lay]
+    # A document no layout knows that still prints a totals row is an order
+    # in some other system's form (Comcast's order contracts, Spectrum's
+    # order summaries, an agency's order), unless it says it's a proposal.
+    if kind == 'other' and gross and not re.search(r'\bProposal\b', text[:3000], re.I):
+        kind = 'order'
     return {
-        'kind': KIND[lay], 'layout': lay,
+        'kind': kind, 'layout': lay,
         'gross': gross, 'net': net,
         'agency': agency_of(text, lay, adv),
         'advertiser': adv,
@@ -390,7 +437,7 @@ def parse(text):
 # Ventures (MAV)", "MEDIA AD VENTURES, INC" -> MEDIAADVENTURES); ALIASES
 # joins what the key can't: an acronym, a renamed or sister company. Each
 # entry is a pairing seen in real documents.
-SUFFIXES = re.compile(r'\b(?:L\s?L\s?C|INC|INCORPORATED|CORP|CORPORATION|CO|COMPANY|LTD|LP|LLP|PLLC|THE|GROUP|'
+SUFFIXES = re.compile(r'\b(?:L\s?L\s?[CG]|LIC|INC|INCORPORATED|CORP|CORPORATION|CO|COMPANY|LTD|LP|LLP|PLLC|THE|GROUP|'
                       r'D\s?B\s?A\b.*)\b', re.I)
 AGENCY_ALIASES = {
     'MAV': 'MEDIAADVENTURES',                 # KARD/KTVE bill "MAV LLC"; KPLC "Media Ad Ventures (MAV)"
@@ -409,6 +456,56 @@ def agency_key(name):
     s = re.sub(r'\bCONSULT(?:ING|ANTS?)\b', 'CONSULT', s)   # "Littlefield Consulting" / "Consultants"
     k = re.sub(r'[^A-Z0-9]', '', s)
     return AGENCY_ALIASES.get(k, k)
+
+
+def garbled(name):
+    """Whether a name read once off a scan looks like OCR noise ("tnati",
+    "Cat ital Business de mice Go oo") rather than a firm."""
+    words = re.findall(r'[A-Za-z]+', name or '')
+    return len(agency_key(name)) < 7 or sum(len(w) <= 2 for w in words) * 2 >= len(words)
+
+
+def canonical_agencies(docs):
+    """One spelling per agency across every document read, in place.
+
+    OCR misreads a name a letter at a time ("Total Video Piacements", "Del
+    Clelo Media", "SRCOP Media"), which agency_key can't join: a key within
+    a few letters of a more frequent one (both nine letters or more) is
+    that agency, and every document takes its most frequent spelling. A
+    scanned document's name that matches nothing else and looks garbled
+    ("tnati") is OCR noise, and is dropped."""
+    import difflib
+    names, keys_of = defaultdict(Counter), {}
+    for did, d in docs.items():
+        if d.get('status') == 'read' and d.get('agency'):
+            k = agency_key(d['agency'])
+            if k:
+                names[k][d['agency']] += 1
+                keys_of[did] = k
+    order = sorted(names, key=lambda k: (-sum(names[k].values()), k))
+    canon = {}
+    for i, k in enumerate(order):
+        canon[k] = next((c for c in order[:i] if canon[c] == c and (
+            same_agency(k, c) or (min(len(k), len(c)) >= 9 and
+                                  difflib.SequenceMatcher(None, k, c).ratio() >= 0.88))), k)
+    # A name read once off a scan that begins as a frequent agency does,
+    # ten letters or more ("Capital Busi NCOS He miee"), is that agency.
+    for k in order:
+        if canon[k] == k and sum(names[k].values()) == 1 and len(k) >= 10:
+            c = next((c for c in order if canon[c] == c and c != k and sum(names[c].values()) >= 3
+                      and c[:10] == k[:10]), None)
+            if c:
+                canon[k] = c
+    group = defaultdict(Counter)
+    for k, c in canon.items():
+        group[c].update(names[k])
+    for did, k in keys_of.items():
+        d, c = docs[did], canon[k]
+        if sum(group[c].values()) == 1 and d.get('via') == 'ocr' and garbled(d['agency']):
+            d['agency'] = None
+        else:
+            d['agency'] = group[c].most_common(1)[0][0]
+    return docs
 
 
 def same_agency(a, b):

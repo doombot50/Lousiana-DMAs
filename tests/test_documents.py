@@ -121,6 +121,64 @@ class Radio(unittest.TestCase):
         self.assertEqual((d['gross'], d['advertiser'], d['agency']), (600.0, 'ALVIN SHARP', None))
 
 
+class OtherSystemsOrders(unittest.TestCase):
+    """Orders in forms no layout knows, priced by their totals row."""
+    def test_comcast_order_contract(self):
+        d = doc('comcast_order_contract.txt')     # Comcast, John Fleming
+        self.assertEqual((d['kind'], d['gross'], d['order_no']), ('order', 14500.0, '1185329'))
+        self.assertEqual(d['agency'], 'KINGFISH COMMUNICATIONS')
+
+    def test_comcast_order_total_less_dropped_spots(self):
+        d = doc('comcast_order_total.txt')        # Comcast, Bill Cassidy: 21,111 less 852 dropped
+        self.assertEqual((d['kind'], d['gross'], d['order_no']), ('order', 20259.0, '1108535'))
+        self.assertIsNone(d['agency'])            # "National AMP" is Comcast's own office
+
+    def test_spectrum_order_summary(self):
+        d = doc('spectrum_order_summary.txt')
+        self.assertEqual((d['kind'], d['gross'], d['order_no']), ('order', 304.0, '3355330'))
+
+    def test_a_proposal_is_not_an_order(self):
+        d = doc('spectrum_proposal.txt')
+        self.assertEqual((d['kind'], d['gross']), ('other', 9510.0))
+
+    def test_gray_agency_order(self):
+        d = doc('gray_agency_order_kvhp.txt')     # KVHP, Mike Johnson, MAV's order form
+        self.assertEqual((d['kind'], d['gross'], d['order_no'], d['agency']),
+                         ('order', 11130.0, '4580497', 'MAV LLC'))
+
+
+class AgencySpellings(unittest.TestCase):
+    def test_clean_strips_form_boxes_contacts_and_addresses(self):
+        from documents import clean
+        for raw, want in [('LC] N/A FlexPoint Campaigns; info@flexpointcampaigns.com', 'FlexPoint Campaigns'),
+                          ('[ N/A Canal Partners Media, 900 Circle 75 Parkway, Suite 1650, Atlanta', 'Canal Partners Media'),
+                          ('Crossroads Media, LLC - 66 Canal Center Plaza, Suite 555', 'Crossroads Media, LLC'),
+                          ('BrabenderCox 1218 Grandview Ave Pittsburgh', 'BrabenderCox'),
+                          ('MAV LLC Product Desc.: 2026 Open Primary', 'MAV LLC'),
+                          ('————— MAV LLC', 'MAV LLC'), ('Studio 54 Media', 'Studio 54 Media')]:
+            self.assertEqual(clean(raw), want, raw)
+
+    def test_campaigns_are_not_agencies(self):
+        from documents import agency_of
+        for name in ('Pol26/Hanh for City Council', 'Stormy Gage Watts for Mayor', 'Political Issue - Direct'):
+            self.assertIsNone(agency_of(f'  Agency:  {name}\n', 'other', None), name)
+
+    def test_ocr_misspellings_join_the_agency(self):
+        from documents import canonical_agencies
+        r = lambda a, via='ocr': {'status': 'read', 'agency': a, 'via': via}
+        docs = {str(i): r('Total Video Placements', 'text') for i in range(5)}
+        docs.update({'p': r('Total Video Piacements'), 'c': r('Capital Business Services', 'text'),
+                     'c2': r('Capital Business Services', 'text'), 'c3': r('Capital Business Services', 'text'),
+                     'g': r('Capital Busi NCOS He miee'), 'x': r('tnati'),
+                     'w': r('Walker Strategic Solutions'), 'a': r('Ax Media', 'text'), 'm': r('Max Media', 'text')})
+        canonical_agencies(docs)
+        self.assertEqual(docs['p']['agency'], 'Total Video Placements')
+        self.assertEqual(docs['g']['agency'], 'Capital Business Services')
+        self.assertIsNone(docs['x']['agency'])                     # OCR noise
+        self.assertEqual(docs['w']['agency'], 'Walker Strategic Solutions')  # a real name, read once
+        self.assertEqual((docs['a']['agency'], docs['m']['agency']), ('Ax Media', 'Max Media'))
+
+
 class RequestForms(unittest.TestCase):
     def test_issue_form(self):
         d = doc('nab_issue_ksla.txt')
@@ -218,6 +276,21 @@ class Retries(unittest.TestCase):
             self.assertFalse(retry_due({'status': status, 'read_at': '2026-10-01'}, cutoff), status)
 
 
+class MergeDocuments(unittest.TestCase):
+    """The nightly and the reader both write data/fcc_documents.json."""
+    def test_union_keeps_the_later_read(self):
+        from merge_documents import merge
+        ours = {'documents': {'a': {'read_at': '2026-10-26T02:43Z', 'status': 'read'},
+                              'b': {'read_at': '2026-10-20T11:17Z', 'status': 'too_slow'}}}
+        theirs = {'documents': {'b': {'read_at': '2026-10-26T05:43Z', 'status': 'read'},
+                                'c': {'read_at': '2026-10-26T05:43Z', 'status': 'read'},
+                                'a': {'read_at': '2026-10-25T11:17Z', 'status': 'scan'}}}
+        self.assertEqual(merge(ours, theirs), 2)
+        d = ours['documents']
+        self.assertEqual(sorted(d), ['a', 'b', 'c'])
+        self.assertEqual((d['a']['status'], d['b']['status']), ('read', 'read'))
+
+
 class Booked(unittest.TestCase):
     """A buyer's dollars: each station order once, invoices only for an
     order not read, a reissued invoice never twice."""
@@ -242,6 +315,13 @@ class Booked(unittest.TestCase):
         self.assertEqual((b['ordered'], b['invoiced']), (1500, 1200))
         self.assertEqual(b['read'], 6)
         self.assertEqual(b['ag'], ['SRCP Media Inc'])
+
+    def test_cable_order_filed_in_every_system(self):
+        docs = {s: {'status': 'read', 'kind': 'order', 'order_no': '1185329', 'gross': 14500.0}
+                for s in ('a', 'b', 'c')}
+        rs = [dict(self.row(s, '2026-06-12', sysid, 'cable'), fname=f'Fleming {s}')
+              for s, sysid in (('a', '004321'), ('b', '005341'), ('c', '002460'))]
+        self.assertEqual(booked(rs, docs)['usd'], 14500)
 
     def test_radio_order_filed_at_two_stations(self):
         docs = {'a': {'status': 'read', 'kind': 'order', 'order_no': '9001395062', 'gross': 13050.0},

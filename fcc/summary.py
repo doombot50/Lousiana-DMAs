@@ -64,12 +64,26 @@ def media_labels():
 
 
 def load_documents():
-    """What fcc/read_documents.py read inside the documents, by file id;
-    empty before it has run."""
+    """What fcc/read_documents.py read inside the documents, by file id,
+    each agency under one spelling; empty before it has run."""
+    from documents import canonical_agencies
     try:
-        return load('data', 'fcc_documents.json').get('documents', {})
+        return canonical_agencies(load('data', 'fcc_documents.json').get('documents', {}))
     except FileNotFoundError:
         return {}
+
+
+def order_key(media, call, fname, d, did):
+    """Which order a priced document belongs to, so each counts once. A
+    station's order number is the station's; cable systems and radio groups
+    file one order wherever it runs (every system of a sales market,
+    iHeart's WYNK and KRVE), so theirs is the medium's, and a cable file
+    with no number is one order by its file name."""
+    no = d.get('order_no')
+    if media != 'tv' and no:
+        return (media, no)
+    where = ('name', fname) if media in ('cable', 'dbs') else call
+    return (where, no or did)
 
 
 def booked(rs, docs):
@@ -94,15 +108,7 @@ def booked(rs, docs):
         if d.get('gross') is None or d.get('gross') <= 0:
             continue
         priced += 1
-        # Cable systems file one order in every system of a sales market:
-        # one file name is one order.
-        where = ('name', r['fname']) if r['m'] in ('cable', 'dbs') else r['call']
-        # A radio group's order can cover several of its stations (iHeart's
-        # one order for WYNK and KRVE) and is filed at each: its number,
-        # unique across the group, is the order.
-        if r['m'] == 'radio' and d.get('order_no'):
-            where = 'radio'
-        key = (where, d.get('order_no') or r['id'])
+        key = order_key(r['m'], r['call'], r['fname'], d, r['id'])
         if d['kind'] == 'order':
             if key not in orders or r['up'] > orders[key][0]:
                 orders[key] = (r['up'], d['gross'])

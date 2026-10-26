@@ -1,0 +1,92 @@
+# Read documents — more political-file documents between the nightly runs.
+#
+# The nightly rebuild reads documents as one step of many, twice a day near
+# an election; with thousands unread and an election days away that is too
+# slow. This reads only documents, six more times a day in the hours the
+# nightly leaves free, and commits nothing but data/fcc_documents.json (the
+# pages pick the new reads up at the next nightly build).
+#
+# Both workflows write that file, so each folds the branch's copy into its
+# own before committing (fcc/merge_documents.py) and retries a push that
+# lost a race. The extracted text goes to the same Actions cache as the
+# nightly's.
+
+name: Read documents
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Clear of the nightly's 11:17 and 23:17 runs.
+    - cron: '43 2,5,8,14,17,20 * * *'
+
+concurrency:
+  group: read-documents
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test
+        run: python3 -m unittest discover -s tests
+
+      - name: Install PDF tools
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
+
+      - name: Restore document text
+        uses: actions/cache/restore@v4
+        with:
+          path: .doc_text
+          key: doc-text-${{ github.run_id }}
+          restore-keys: doc-text-
+
+      # TV first and longest; a CDN block stops a reader and keeps its reads.
+      - name: Read political-file documents
+        continue-on-error: true
+        timeout-minutes: 48
+        env:
+          PYTHONUNBUFFERED: '1'
+        run: |
+          timeout 33m python3 fcc/read_documents.py --budget 400 --minutes 28 || echo "TV reader stopped ($?)"
+          timeout 8m python3 fcc/read_documents.py --media cable --budget 120 --minutes 5 || echo "cable reader stopped ($?)"
+          timeout 6m python3 fcc/read_documents.py --media radio --budget 100 --minutes 4 || echo "radio reader stopped ($?)"
+
+      - name: Save document text
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .doc_text
+          key: doc-text-${{ github.run_id }}
+
+      - name: Commit the documents read
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          branch="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3 4; do
+            git fetch -q origin "$branch"
+            python3 fcc/merge_documents.py "origin/$branch"
+            # Only this file: everything else on the branch is the nightly's.
+            git reset -q --mixed "origin/$branch"
+            git add data/fcc_documents.json
+            if git diff --cached --quiet -I'"updated":'; then
+              echo "Nothing new read; nothing to commit."
+              exit 0
+            fi
+            n=$(python3 -c "import json; print(len(json.load(open('data/fcc_documents.json'))['documents']))")
+            git commit -q -m "Read political-file documents: $n in all"
+            git push -q origin "HEAD:$branch" && exit 0
+            echo "Push lost a race; merging again ($attempt)"
+            sleep $((attempt * 10))
+          done
+          exit 1
