@@ -91,6 +91,10 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .agrow{display:grid; grid-template-columns:minmax(0,1fr) 150px 210px; gap:4px 18px; padding:11px 16px; border-top:1px solid var(--hair); align-items:baseline;}
 .agrow:first-child{border-top:0;}
 .agrow.head{font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding-top:6px; padding-bottom:6px;}
+.agsort{all:unset; cursor:pointer; font:inherit; letter-spacing:inherit; text-transform:inherit; color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
+.agsort.num{display:block; text-align:right;}
+.agsort[aria-pressed="true"]{color:var(--ink); text-decoration-style:solid;}
+.agsort:focus-visible{outline:2px solid var(--ink); outline-offset:2px;}
 .agrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:14px;}
 .agrow .num{font-family:"IBM Plex Mono",monospace; font-size:12px; text-align:right; white-space:nowrap; color:var(--ink);}
 .agrow .num small{display:block; font-size:10.5px; color:var(--muted); font-weight:400;}
@@ -279,6 +283,7 @@ __NAV__
   <p class="seclabel">The agencies</p>
   <h2>The money that never reaches a station's ledger</h2>
   <p class="intro" id="agintro"></p>
+  <p class="cap">Click a column heading to sort by it; click again for the default order.</p>
   <div class="pf" id="aglist" style="margin-top:8px"></div>
   <p class="cap" id="agcap"></p>
 </section>
@@ -675,8 +680,19 @@ if(DATA.agencies && DATA.agencies.rows.length){
     `The ledger below counts what committees paid stations <i>directly</i>. Much of the money doesn't go that way: a campaign pays a media-buying agency, the agency pays the stations, and the filings name only the agency. `+
     `Since ${A.from}, Louisiana committees have paid stations <b>${money(A.stations)}</b> directly — and paid the firms below <b>${money(A.media)}</b> for work their reports describe as TV, broadcast, air time or a media buy. `+
     (named.length ? `<b>${named.length}</b> of them are named as the buying agency on orders and invoices in the stations' political files${A.read?`, from the ${fmt(A.read)} documents read so far`:''}, which also says whose time they are buying, including federal campaigns the state filings never see.` : '');
-  const head = `<div class="agrow head"><span>Agency</span><span class="num">State filings, since ${A.from}</span><span class="num fcc">Political files</span></div>`;
-  document.getElementById('aglist').innerHTML = head + A.rows.map(r=>{
+  // Sortable by either column (or name); the build's own order, biggest
+  // media spenders then the political-file agencies, until one is picked.
+  const SORTS = {
+    name: [(a,b)=>a.name.localeCompare(b.name), 'Agency'],
+    paid: [(a,b)=>((b.paid||{}).mediaCycle||0)-((a.paid||{}).mediaCycle||0) || ((b.paid||{}).cycle||0)-((a.paid||{}).cycle||0), `State filings, since ${A.from}`],
+    fcc:  [(a,b)=>((b.fcc||{}).usd||0)-((a.fcc||{}).usd||0) || ((b.fcc||{}).docs||0)-((a.fcc||{}).docs||0), 'Political files'],
+  };
+  let agSort = null;
+  const sortBtn = (k, cls) => `<button type="button" class="agsort${cls?' '+cls:''}" data-k="${k}" aria-pressed="${agSort===k}" title="Sort by ${k==='name'?'name':k==='paid'?'what committees paid the firm for media work':'what the political files show the firm bought'}">${SORTS[k][1]}${agSort===k?' ▾':''}</button>`;
+  const renderAg = () => {
+  const rows = agSort ? A.rows.slice().sort(SORTS[agSort][0]) : A.rows;
+  const head = `<div class="agrow head">${sortBtn('name')}${sortBtn('paid','num')}${sortBtn('fcc','num fcc')}</div>`;
+  document.getElementById('aglist').innerHTML = head + rows.map(r=>{
     const p=r.paid||{}, f=r.fcc;
     const who = [
       p.top && p.top.length ? `Paid by ${p.top.slice(0,4).map(t=>`<a href="${prof(t.f)}" title="${esc(t.n)}'s committee profile">${esc(t.n)}</a> (${money(t.cycle)})`).join(', ')}${p.committees>p.top.length?` and ${p.committees-p.top.length} more since 2000`:''}` : '',
@@ -688,6 +704,16 @@ if(DATA.agencies && DATA.agencies.rows.length){
       <span class="num fcc">${f&&f.usd?money(f.usd):'—'}<small>${f?(f.docs?f.docs+' document'+(f.docs===1?'':'s'):'')+(f.away&&f.away.usd?(f.docs?' · ':'')+'+'+money(f.away.usd)+' out of state':''):''}</small></span>
       ${who?`<span class="who">${who}.</span>`:''}</div>`;
   }).join('');
+  };
+  renderAg();
+  document.getElementById('aglist').addEventListener('click', e=>{
+    const b = e.target.closest('.agsort');
+    if(!b) return;
+    agSort = agSort===b.dataset.k ? null : b.dataset.k;
+    renderAg();
+    const again = document.querySelector(`#aglist .agsort[data-k="${b.dataset.k}"]`);
+    if(again) again.focus();
+  });
   document.getElementById('agcap').textContent =
     `State filings: every payment to the firm under any spelling since ${A.from}; the large figure is the part described as TV, broadcast, air time or a media buy, the small one everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once, for Louisiana's races; what it bought on Louisiana stations for other states' races (Texas's, mostly, on Shreveport's) is shown apart and not counted. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`;
 }
