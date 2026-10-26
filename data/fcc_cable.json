@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-26T03:20:59Z",
+ "scraped": "2026-10-26T17:33:10Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -3039,7 +3039,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -48611,7 +48611,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -50773,7 +50773,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -52669,7 +52669,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -53966,7 +53966,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -54049,6 +54049,24 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "87852d44-84df-a461-e263-19c55dddda0a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "63403161.10008921_NAB_20261026081029714",
+     "ext": "pdf",
+     "uploaded": "2026-10-26T10:10:47-04:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "adb4ffa7-21ad-5b14-4e68-374d5e908ca9",
+     "file_manager_id": "ebe72bdf-6abc-4b76-ae7e-1649f5531e56"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "63403161.10008921_OrderContract_10008921",
+     "ext": "pdf",
+     "uploaded": "2026-10-26T10:05:42-04:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "9bc006cf-2d42-6e5e-155b-cbcd2f28e14b",
+     "file_manager_id": "3750c383-f0c4-480f-9fb2-2f1c2732eda1"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
      "name": "1336192_Order_Contract_20261023032902026",
@@ -103720,7 +103738,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -105657,7 +105675,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -105685,7 +105703,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -105807,7 +105825,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -105835,7 +105853,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -105977,7 +105995,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -106005,7 +106023,7 @@
    "facility_id": "010036",
    "root_folder": "1569c0cf-22e8-5bfe-35c8-aa1751a93e93",
    "profile": "cable-profile/010036",
-   "scraped_at": "2026-10-26T03:18:12Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "37a24c7e-e732-7ebf-e445-782fc93ad929",
     "2015": "f30b4203-8b55-941b-24f0-e7e10eee6ce9",
@@ -106033,7 +106051,7 @@
    "facility_id": "005143",
    "root_folder": "0aadd1d9-9176-4a37-67a8-0b457f583cf8",
    "profile": "cable-profile/005143",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2017": "91a92350-cbba-d47a-c21b-b72f0306ab77",
     "2018": "25db26c6-f423-128b-b09a-57ed4a1f00a8",
@@ -106116,6 +106134,24 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "f8341179-9052-d98e-0f34-5409e7e1d566"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "63403161.10008921_NAB_20261026081029714",
+     "ext": "pdf",
+     "uploaded": "2026-10-26T10:11:19-04:00",
+     "folder_id": "42bed4dc-8d7f-f452-c43c-bbad4805b713",
+     "file_id": "a4fd91c0-d296-2f3b-ed0c-a877c48ab1fa",
+     "file_manager_id": "9e697e39-f06d-4dfe-a12a-70a1b199dc6f"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "63403161.10008921_OrderContract_10008921",
+     "ext": "pdf",
+     "uploaded": "2026-10-26T10:05:52-04:00",
+     "folder_id": "42bed4dc-8d7f-f452-c43c-bbad4805b713",
+     "file_id": "33e648ad-b7f3-4ea4-3df1-ce4a58275775",
+     "file_manager_id": "1817170d-00f3-4723-ba47-7280f979a332"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
      "name": "1336192_Order_Contract_20261023032902026",
@@ -156633,7 +156669,7 @@
    "facility_id": "008277",
    "root_folder": "2832ec99-417b-76ad-1b9f-edc21774de0b",
    "profile": "cable-profile/008277",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "a18e838a-ec38-ea1c-d1b1-2171ce991250",
     "2015": "17bc185a-3e10-a22b-0b78-875ac38be47c",
@@ -156661,7 +156697,7 @@
    "facility_id": "010740",
    "root_folder": "78db5cfe-9e84-bc0d-ffbc-f183d3a456b0",
    "profile": "cable-profile/010740",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "e732cc2c-b053-61bf-d77b-c8c4327e41c7",
     "2015": "b8096ae6-6ef2-25d2-6e19-fd35ddc07e56",
@@ -156911,7 +156947,7 @@
    "facility_id": "007036",
    "root_folder": "497d7643-b970-0bbd-34f2-22ef01c30307",
    "profile": "cable-profile/007036",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "83005020-6e3b-ea2f-ab4d-9259a57550cf",
     "2015": "abbbdefb-fdb2-8043-116a-056e2471ae22",
@@ -157067,7 +157103,7 @@
    "facility_id": "003478",
    "root_folder": "f10c386d-50e2-15da-742b-eec67690a8c2",
    "profile": "cable-profile/003478",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "631b6243-963c-7c7d-9074-5e56b6223b42",
     "2015": "34ffdece-676f-c151-602b-def93572037d",
@@ -157132,6 +157168,15 @@
     "Political Files/2026/State/Monroe-El Dorado/State House/AMP - FIRMENT FOR CONGRESS": "287fa63b-e69b-5a75-cb0b-5077090d60e7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+     "name": "728315_Contract_Revisions_20261026122413",
+     "ext": "pdf",
+     "uploaded": "2026-10-26T12:52:29-04:00",
+     "folder_id": "b1cc12d3-e372-0545-e94e-0089a3be4910",
+     "file_id": "2612301c-e9de-7c2d-7a0b-9b864a6e6064",
+     "file_manager_id": "96d0634b-a233-46eb-8c7a-db84f8aea88f"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/Club for Growth Action",
      "name": "68405988_Order_Contract_20261023082520",
@@ -160381,7 +160426,7 @@
    "facility_id": "004289",
    "root_folder": "cdee00c3-64fb-d199-4d4c-b71dd549a187",
    "profile": "cable-profile/004289",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "7afb2700-6530-4729-cae5-f74e96799b7c",
     "2015": "bbb92733-60e2-8e21-a6d2-e86039043540",
@@ -162655,7 +162700,7 @@
    "facility_id": "008858",
    "root_folder": "d510e6a7-4f45-a0d3-a76c-5a1f573d52d5",
    "profile": "cable-profile/008858",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "997d5c72-4c87-f06a-8178-94aeac54846f",
     "2015": "2f687d40-8d29-ebb3-6ef7-e46b2248fad6",
@@ -162683,7 +162728,7 @@
    "facility_id": "022095",
    "root_folder": "19aabc03-6246-dd44-3b54-c7e3fa0318e4",
    "profile": "cable-profile/022095",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "8f10b9f9-1f5e-4161-11f9-8e2faee2c017",
     "2015": "bbd41ad1-06c8-15be-a0f0-89c62f3cf1fb",
@@ -162711,7 +162756,7 @@
    "facility_id": "008273",
    "root_folder": "b0dbee07-8242-11d0-1d0c-3704b85765ef",
    "profile": "cable-profile/008273",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "d0be6a3e-3a52-b2aa-fa90-cc0bdf31b7ca",
     "2015": "f1905e9a-6684-17ce-1409-70701d415730",
@@ -162739,7 +162784,7 @@
    "facility_id": "015650",
    "root_folder": "ea41c606-547e-a802-a0d8-c11fa743eef0",
    "profile": "cable-profile/015650",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "b6c925cf-f344-5015-992d-19d7dbac98a7",
     "2015": "a6ead5f3-cfc2-4959-2c20-47282575a66a",
@@ -162767,7 +162812,7 @@
    "facility_id": "003084",
    "root_folder": "5bd9755d-b4bc-f5f5-1e8b-9defd8ac2ade",
    "profile": "cable-profile/003084",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "fa79c064-f3b3-63a1-ea2a-ab9e972cc57a",
     "2015": "7e8133cc-d8c2-0331-f552-f9ed6d3f88db",
@@ -162795,7 +162840,7 @@
    "facility_id": "008691",
    "root_folder": "b333af19-3860-a6e6-fea2-b097c8104064",
    "profile": "cable-profile/008691",
-   "scraped_at": "2026-10-26T02:10:48Z",
+   "scraped_at": "2026-10-26T17:30:00Z",
    "year_folders": {
     "2014": "24c8f34b-4570-501a-5b70-e560d6e97588",
     "2015": "2a4bf7fe-30f5-9441-2411-1e7f1f354697",
@@ -165180,40 +165225,40 @@
  "blocked": null,
  "attempted": {
   "002247": "2026-10-26T03:18:12Z",
-  "002460": "2026-10-26T03:18:12Z",
+  "002460": "2026-10-26T17:30:00Z",
   "003002": "2026-10-26T03:18:12Z",
-  "003084": "2026-10-26T02:10:48Z",
+  "003084": "2026-10-26T17:30:00Z",
   "003376": "2026-10-26T03:18:12Z",
-  "003478": "2026-10-26T02:10:48Z",
-  "003680": "2026-10-26T03:18:12Z",
-  "004289": "2026-10-26T02:10:48Z",
-  "004321": "2026-10-26T03:18:12Z",
+  "003478": "2026-10-26T17:30:00Z",
+  "003680": "2026-10-26T17:30:00Z",
+  "004289": "2026-10-26T17:30:00Z",
+  "004321": "2026-10-26T17:30:00Z",
   "004383": "2026-10-26T03:18:12Z",
-  "005142": "2026-10-26T03:18:12Z",
-  "005143": "2026-10-26T02:10:48Z",
-  "005341": "2026-10-26T03:18:12Z",
-  "006379": "2026-10-26T03:18:12Z",
-  "007033": "2026-10-26T03:18:12Z",
-  "007036": "2026-10-26T02:10:48Z",
-  "007052": "2026-10-26T03:18:12Z",
-  "008048": "2026-10-26T03:18:12Z",
-  "008273": "2026-10-26T02:10:48Z",
-  "008277": "2026-10-26T02:10:48Z",
-  "008564": "2026-10-26T03:18:12Z",
+  "005142": "2026-10-26T17:30:00Z",
+  "005143": "2026-10-26T17:30:00Z",
+  "005341": "2026-10-26T17:30:00Z",
+  "006379": "2026-10-26T17:30:00Z",
+  "007033": "2026-10-26T17:30:00Z",
+  "007036": "2026-10-26T17:30:00Z",
+  "007052": "2026-10-26T17:30:00Z",
+  "008048": "2026-10-26T17:30:00Z",
+  "008273": "2026-10-26T17:30:00Z",
+  "008277": "2026-10-26T17:30:00Z",
+  "008564": "2026-10-26T17:30:00Z",
   "008567": "2026-10-26T03:18:12Z",
-  "008691": "2026-10-26T02:10:48Z",
-  "008858": "2026-10-26T02:10:48Z",
+  "008691": "2026-10-26T17:30:00Z",
+  "008858": "2026-10-26T17:30:00Z",
   "008859": "2026-10-26T03:18:12Z",
-  "010036": "2026-10-26T03:18:12Z",
-  "010740": "2026-10-26T02:10:48Z",
+  "010036": "2026-10-26T17:30:00Z",
+  "010740": "2026-10-26T17:30:00Z",
   "011859": "2026-10-26T03:18:12Z",
   "013331": "2026-10-26T03:18:12Z",
   "014241": "2026-10-26T03:18:12Z",
-  "015650": "2026-10-26T02:10:48Z",
-  "016728": "2026-10-26T03:18:12Z",
-  "020573": "2026-10-26T03:18:12Z",
+  "015650": "2026-10-26T17:30:00Z",
+  "016728": "2026-10-26T17:30:00Z",
+  "020573": "2026-10-26T17:30:00Z",
   "021784": "2026-10-26T03:18:12Z",
-  "022095": "2026-10-26T02:10:48Z",
+  "022095": "2026-10-26T17:30:00Z",
   "022352": "2026-10-26T03:18:12Z",
   "022377": "2026-10-26T03:18:12Z"
  }

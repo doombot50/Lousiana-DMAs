@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-26",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1503311,
+ "rows_scanned": 1503652,
  "data_through": "2026-10-24",
  "years_covered": [
   2000,
@@ -10,8 +10,8 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13213653.38,
- "gov_year_share": 0.5454,
+ "total_spend": 13214469.38,
+ "gov_year_share": 0.5453,
  "by_year": {
   "2000": 27912.25,
   "2001": 14308.0,
@@ -4266,7 +4266,7 @@
  ],
  "classified_spend": 11173088.98,
  "unclassified_tail": {
-  "amount": 2040564.4,
+  "amount": 2041380.4,
   "stations": 254,
   "note": "identifiable as radio by an explicit band marker, but not in the verified station reference — a long tail of small stations, the largest about $55K"
  },
@@ -4354,12 +4354,12 @@
   },
   {
    "category": "Unclassified (long tail)",
-   "spend": 2040564.4,
+   "spend": 2041380.4,
    "stations": 254,
    "rows": 0,
    "committees": 0,
    "avg_buy": 0,
-   "share": 0.1544
+   "share": 0.1545
   }
  ],
  "owners": [
@@ -4897,9 +4897,9 @@
   }
  ],
  "caveats": {
-  "classified_share": 0.8456,
+  "classified_share": 0.8455,
   "unclassified_station_shaped": {
-   "amount": 2040564.4,
+   "amount": 2041380.4,
    "calls": 254,
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
