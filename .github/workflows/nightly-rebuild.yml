@@ -194,21 +194,30 @@ jobs:
           python3 build_races_page.py
           python3 build_committees_page.py
 
+      # The document reader (read-documents.yml) may have pushed documents
+      # while this ran: fold its copy of data/fcc_documents.json into ours
+      # and land on top of it, again if a push loses a race.
       - name: Commit if the filings changed
         run: |
-          # A file new tonight (the first data/fcc_documents.json) is untracked,
-          # which git diff doesn't see.
-          if git diff --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -I'"updated":' -- data/ '*.html' \
-             && [ -z "$(git ls-files --others --exclude-standard -- data/)" ]; then
-            echo "No new filings since the last build; nothing to commit."
-            exit 0
-          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
-          git add data/ '*.html'
-          through=$(python3 -c "import json; print(json.load(open('data/station_spend.json'))['data_through'])")
-          git commit -m "Nightly rebuild: filings through $through"
-          git push
+          branch="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3 4; do
+            git fetch -q origin "$branch"
+            python3 fcc/merge_documents.py "origin/$branch"
+            git reset -q --mixed "origin/$branch"
+            git add data/ '*.html'
+            if git diff --cached --quiet -I'"generated":' -I'"scraped":' -I'"fetched":' -I'"updated":'; then
+              echo "No new filings since the last build; nothing to commit."
+              exit 0
+            fi
+            through=$(python3 -c "import json; print(json.load(open('data/station_spend.json'))['data_through'])")
+            git commit -q -m "Nightly rebuild: filings through $through"
+            git push -q origin "HEAD:$branch" && exit 0
+            echo "Push lost a race; merging again ($attempt)"
+            sleep $((attempt * 10))
+          done
+          exit 1
 
       # Each step above keeps the site up when a source falters, which also
       # means nobody hears about it. This opens an issue (GitHub emails the

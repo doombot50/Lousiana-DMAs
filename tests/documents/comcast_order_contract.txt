@@ -1,0 +1,115 @@
+Run Date: Jun 12, 2026                                                        Order Contract                                                            Page 1 of 4
+Order Number:            1185329
+Order No:      1185329         EDI:      N        Customer:     001124184 John Fleming*        Sales Office:      NWA Nw Arkansas
+PO:                                                                  Ext Order:                                                                                                                                     Salesperson:                   NWANNPolitical Central
+Contract No:             PL397976                          Ext Client:                                                                                                                                Discount:                      Agency 15%
+Reference No:                                             Estimate:                                   Bill Address:           KINGFISH COMMUNICATIONS*                 Revenue Type:               NAT - Political
+:                                              icing Option:
+Product:                        10500 Coursey Blvd             Invoicing Option:     Threshold
+:                                                                              Bill Cycle:          ili
+Contract Start:     06/13/26                                                 Ste. 104                         ill Cycle:          Billing Month
+:                                                                        P.   it Terms:
+Contract End:     06/19/26                                           Baton Rouge, LA 70816             ayment Terms:
+Last Changed:            06/12/26                                                                                                                                                                                             Notarize Invoice:                N
+Front Load :                                                                        Requires ANACAB:
+ront Loa     N                                   (225)921-8576              equires       N
+Invoice Notes:          *POL* #397976 30s SYS 8644
+Line   Status Reg/Ret Grp/Net Ad Copy/ Ad    Dates    Weeks No.Of Purchase  Prty Inv    Revenue Qty   Auto Show M TW T FS §S__ Total   Rate    $Total — $Dropped
+Copy Group                On/Off Weeks Time           Type     Type     Type     MK Inv                     Ad units
+1    SC -R-8644.-- N-FXNC RO00102(ST) _ 06/13/26  06/14/26 «1 0   1 User     90 DEFAULT NATPOL 4/WK   LA   NNNNNY Y 4   335.00   1,340.00    0.00
+Copy Required 1185329                                                     Daypart:
+20:00-24:00
+10   SC R-8644. -N-NMX R000102(ST) _ 06/15/26  0619/26 «1 (0   1 User     90 DEFAULT NATPOL 5/WK   LA   YYYY YN N 5   40.00    200.00    0.00
+Copy Required 1185329                                                     Daypart
+05:00-09:00
+14   SC R-8644. -- N-FXNC R000102(ST) 06/15/26  0619/26 = 1/ 0   1 User     90 DEFAULT NATPOL 8/WK   LA   YYYYYN N. 8   300.00   2,400.00    0.00
+Copy Required 1185329                                                     Daypart:
+16:00-20:00
+12   SC R-8644. -N-NMX RO00102(ST) _ 06/13/26  06/14/26 «= 1/ 0   1 User     90 DEFAULT NATPOL 2/WK   LA   NNNNNY Y. 2   40.00    80.00    0.00
+Copy Required 1185329                                                     Daypart:
+05:00-09:00
+13   SC R-8644. - N-FXNC R000102(ST) 06/13/26  06/14/26 «17 0   1 User     90 DEFAULT NATPOL 2/WK   LA   NNNNNY Y. 2   140.00    280.00    0.00
+Copy Required 1185329                                                     Daypart
+05:00-09:00
+14   SC R-8644.  N-FXNC RO00102(ST) 06/15/26  0619/26 «1 0   1 User     90 DEFAULT NATPOL  8/WK   LA   YYYY YN N. 8   210.00   1,680.00    0.00
+Copy Required 1185329                                                     Daypart:
+09:00-16:00
+15   SC R-8644. -N-NMX RO00102(ST) _ 06/15/26  oei9/26 «= 1/ 0   1 User     90 DEFAULT NATPOL 8/WK   LA   YYYY YN N. 8   80.00    640.00    0.00
+Copy Required 1185329                                                     Daypart:
+16:00-20:00
+16   SC R-8644.  N-NMX R000102(ST) 06/13/26  06/14/26 «= 1) 0   1 User     90 DEFAULT NATPOL 4/WK   LA   NNNNNY Y 4   98.00    392.00    0.00
+Copy Required 1185329                                                     Daypart:
+20:00-24:00
+
+Run Date: Jun 12, 2026                                                        Order Contract                                                            Page 2 of 4
+2    SC R-8644.  N-NMX R000102(ST) _ 06/15/26  0619/26 = 1; 0   1 User     90 DEFAULT NATPOL  6/WK   LA   YYYY YN N 6   58.00    348.00    0.00
+Copy Required 1185329                                             Daypart:
+09:00-16:00
+3    SC R-8644. -N-FXNC R000102(ST) _ 06/13/26  06/14/26 «= 1/ 0   1 User     90 DEFAULT NATPOL 5/WK   LA   NNNNNY Y 5   300.00   1,500.00    0.00
+Copy Required 1185329                                                     Daypart:
+16:00-20:00
+4    SC -R-8644. -N-NMX R000102(ST) 06/15/26  06/19/26 «= 1/ 0   1 User     90 DEFAULT NATPOL 6/WK   LA   YYYYYN N 6   98.00    588.00    0.00
+Copy Required 1185329                                                     Daypart:
+20:00-24:00
+5   SC R-8644. = N-NMX R000102(ST) _ 06/13/26  06/14/26 «= 1) 0   1 User     90 DEFAULT NATPOL 4/WK   LA   NNNNNY Y 4   80.00    320.00    0.00
+Copy Required 1185329                                             Daypart
+16:00-20:00
+6   SC R-8644.  N-FXNC RO00102(ST) 06/13/26  06/14/26 «= 1/ 0   1 User     90 DEFAULT NATPOL 4/WK   LA   NNNNNY Y 4   210.00   840.00    0.00
+Copy Required 1185329                                             Daypart:
+09:00-16:00
+7    SC R-8644.  N-FXNC R000102(ST) 06/15/26  0619/26 = 1/ 0   1 User     90 DEFAULT NATPOL 8/WK   LA   YYYY YN N. 8   335.00   2,680.00    0.00
+Copy Required 1185329                                                     Daypart:
+20:00-24:00
+8    SC R-8644-- N-FXNC R000102(ST) —_ 06/15/26  06/19/26 = 1/ 0   1 User     90 
+[...]
+                                                                       Page 3 of 4
+Order Summary :
+Order Number: 1185329
+GROSS
+Billing               Line       Dropped  Makegood       Misc Time Misc Other                         Agency             Rep           Other                                  Pre-          Balance            Non-$0                      Makegood          Total
+Period          Charges          Totals        Charges         Charges        Charges           Totals Discount       Discount       Discount          Net Total        Payments               Due          Ad Units $0 Ad Units       Ad Units Ad Units
+Jun 2026       14,500.00         0.00          0.00          0.00          0.00      14,500.00     2,175.00          0.00          0.00       12,325.00            0.00       12,325.00          85.00          0.00          0.00       85.00
+Order Total          14,500.00              0.00               0.00               0.00               0.00         14,500.00 2,175.00               0.00              0.00          12,325.00                 0.00          12,325.00               85.00               0.00               0.00           85.00
+Customer Signature:
+
+Run Date: Jun 12, 2026                                                                         Order Contract                                                                              Page 4 of 4
+Show Retail / Network Details: Yes                                                            Contract Selection: Internal Communication                                                                    Show Makegood Lines: Yes
+Show Front Load Setting: Yes                                                                        Line Detail Sort: Line Number                                                                              Show Dropped Data: Yes
+Show Customer Signature: Yes                                                                             Page Break for each Order: Yes                                                                                    Date Field: Contract Dates
+Contract Dates: Mar 30, 2026 - Dec 31, 2026
+Customer: 001124184-John Fleming*
+Salesperson: All
+Sales Office: All
+Order(s): SINGLE 1185329
+Region: All
+Retail Unit: All
+Network Group: All
+Network: All
+
+REPORT SUMMARY:
+
+Report Totals:
+
+Line Charges: $14,500.00                                                Ad Units: 85.00
+
+Dropped Totals: 0.00                                                       Make Good Ad Units: 9.00
+
+Makegood Charges: $0.00                                                Total Orders: 1.00
+
+Misc Time Charges: $0.00                                                   Starting Order No: 1185329
+
+Misc Other Charges :     $0.00                                                   Ending Order No: 1185329
+
+Gross Total: $14,500.00
+
+Agency Discounts: $2,175.00
+
+Rep Discounts: $0.00
+
+Other Discounts: $0.00
+
+Net Total: $12,325.00
+
+Prepayments :      $0.00
+
+Balance Due: $12,325.00
