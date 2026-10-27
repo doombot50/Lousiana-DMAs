@@ -285,7 +285,7 @@ __NAV__
   <p class="seclabel">The agencies</p>
   <h2>The money that never reaches a station's ledger</h2>
   <p class="intro" id="agintro"></p>
-  <p class="cap">Click a column heading to sort by it, or "all payments" to sort by everything committees paid the firm. Click again for the default order.</p>
+  <p class="cap">Click a column heading to sort by it, or the line under it to sort by that column's total: everything committees paid the firm, or political-file dollars with other states' races included. Click again for the default order.</p>
   <div class="pf" id="aglist" style="margin-top:8px"></div>
   <p class="cap" id="agcap"></p>
 </section>
@@ -688,19 +688,20 @@ if(DATA.agencies && DATA.agencies.rows.length){
     name: [(a,b)=>a.name.localeCompare(b.name), 'Agency'],
     paid: [(a,b)=>((b.paid||{}).mediaCycle||0)-((a.paid||{}).mediaCycle||0) || ((b.paid||{}).cycle||0)-((a.paid||{}).cycle||0), `State filings, since ${A.from}`],
     fcc:  [(a,b)=>((b.fcc||{}).usd||0)-((a.fcc||{}).usd||0) || ((b.fcc||{}).docs||0)-((a.fcc||{}).docs||0), 'Political files'],
-    // The state column's total: every payment, production and consulting
-    // included. The political files rank by Louisiana's races only; other
-    // states' are shown on each row but would reorder the list around Texas.
+    // Each column's totals: every state payment, and political-file dollars
+    // with other states' races carried on Louisiana stations.
     paidAll: [(a,b)=>((b.paid||{}).cycle||0)-((a.paid||{}).cycle||0), 'all payments'],
+    fccAll:  [(a,b)=>fccAll(b)-fccAll(a), 'incl. other states'],
   };
+  function fccAll(r){ const f=r.fcc||{}; return (f.usd||0)+((f.away||{}).usd||0); }
   let agSort = null;
   const TIPS = {name:'name', paid:'what committees paid the firm for media work', paidAll:'everything committees paid the firm',
-                fcc:"what the political files show the firm bought for Louisiana's races"};
+                fcc:"what the political files show the firm bought for Louisiana's races", fccAll:"what the political files show the firm bought, other states' races included"};
   const sortBtn = (k, cls) => `<button type="button" class="agsort${cls?' '+cls:''}" data-k="${k}" aria-pressed="${agSort===k}" title="Sort by ${TIPS[k]}">${SORTS[k][1]}${agSort===k?' ▾':''}</button>`;
-  const col = (k, k2, cls) => `<span class="${cls}">${sortBtn(k)}${k2?sortBtn(k2,'sub'):''}</span>`;
+  const col = (k, k2, cls) => `<span class="${cls}">${sortBtn(k)}${sortBtn(k2,'sub')}</span>`;
   const renderAg = () => {
   const rows = agSort ? A.rows.slice().sort(SORTS[agSort][0]) : A.rows;
-  const head = `<div class="agrow head">${sortBtn('name')}${col('paid','paidAll','num')}${col('fcc',null,'num fcc')}</div>`;
+  const head = `<div class="agrow head">${sortBtn('name')}${col('paid','paidAll','num')}${col('fcc','fccAll','num fcc')}</div>`;
   document.getElementById('aglist').innerHTML = head + rows.map(r=>{
     const p=r.paid||{}, f=r.fcc;
     const who = [

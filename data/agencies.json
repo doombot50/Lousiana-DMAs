@@ -2,7 +2,7 @@
  "generated": "2026-10-27",
  "data_through": "2026-10-26",
  "cycle_from": 2023,
- "documents_read": 5499,
+ "documents_read": 5779,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -14,7 +14,7 @@
    "name": "People Who Think / Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 125,
+    "docs": 127,
     "priced": 4,
     "usd": 34446,
     "stations": [
@@ -50,10 +50,11 @@
      "Accountability Project, Inc",
      "Accountabllity Project, Inc",
      "MAGA Energy Project Inc",
-     "Accountabillty Project, Inc"
+     "Accountabillty Project, Inc",
+     "Accountabllily Projact, Inc"
     ],
     "first": "2026-02-27",
-    "last": "2026-10-15",
+    "last": "2026-10-27",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -194,95 +195,13 @@
    }
   },
   {
-   "key": "DELCIELOMEDIA",
-   "name": "Del Cielo Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 263,
-    "priced": 219,
-    "usd": 3582529,
-    "stations": [
-     "KADN",
-     "KARD",
-     "KATC",
-     "KLAX",
-     "KLFY",
-     "KMSS",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "KVHP",
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WGNO",
-     "WJBO",
-     "WNOL",
-     "WUPL",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Accountability Project Inc PAC",
-     "Electronic Payments Coalition",
-     "Original Date / Revision",
-     "Accountabllity Project",
-     "Maga Energy Project",
-     "Accountablilty Project",
-     "Buyer",
-     "Accountabillty Project",
-     "Accountabiilty Project"
-    ],
-    "first": "2026-01-20",
-    "last": "2026-10-07",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1176834,
-    "media": 434005,
-    "rows": 9,
-    "media_cycle": 434005,
-    "cycle": 1055775,
-    "years": {
-     "2015": 121060,
-     "2023": 1055775
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "4517",
-      "n": "Louisiana Freedom Fund",
-      "p": "OTH",
-      "usd": 1055775,
-      "cycle": 1055775
-     },
-     {
-      "f": "3278",
-      "n": "Now or Never - Louisiana PAC",
-      "p": "OTH",
-      "usd": 121060,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "DEL CIELO MEDIA LLC"
-    ]
-   }
-  },
-  {
    "key": "TOTALVIDEOPLACEMENTS",
    "name": "Total Video Placements",
    "found_by": "political file",
    "fcc": {
-    "docs": 314,
-    "priced": 185,
-    "usd": 3923860,
+    "docs": 326,
+    "priced": 189,
+    "usd": 4146040,
     "stations": [
      "002460",
      "003478",
@@ -360,6 +279,88 @@
     ],
     "spellings": [
      "TOTAL VIDEO"
+    ]
+   }
+  },
+  {
+   "key": "DELCIELOMEDIA",
+   "name": "Del Cielo Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 265,
+    "priced": 221,
+    "usd": 3636450,
+    "stations": [
+     "KADN",
+     "KARD",
+     "KATC",
+     "KLAX",
+     "KLFY",
+     "KMSS",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KVHP",
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WGNO",
+     "WJBO",
+     "WNOL",
+     "WUPL",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Accountability Project Inc PAC",
+     "Electronic Payments Coalition",
+     "Original Date / Revision",
+     "Accountabllity Project",
+     "Maga Energy Project",
+     "Accountablilty Project",
+     "Buyer",
+     "Accountabillty Project",
+     "Accountabiilty Project"
+    ],
+    "first": "2026-01-20",
+    "last": "2026-10-27",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1176834,
+    "media": 434005,
+    "rows": 9,
+    "media_cycle": 434005,
+    "cycle": 1055775,
+    "years": {
+     "2015": 121060,
+     "2023": 1055775
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "4517",
+      "n": "Louisiana Freedom Fund",
+      "p": "OTH",
+      "usd": 1055775,
+      "cycle": 1055775
+     },
+     {
+      "f": "3278",
+      "n": "Now or Never - Louisiana PAC",
+      "p": "OTH",
+      "usd": 121060,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "DEL CIELO MEDIA LLC"
     ]
    }
   },
@@ -542,9 +543,9 @@
    "name": "SRCPmedia",
    "found_by": "political file",
    "fcc": {
-    "docs": 342,
-    "priced": 178,
-    "usd": 2100723,
+    "docs": 349,
+    "priced": 182,
+    "usd": 2109838,
     "stations": [
      "002460",
      "004289",
@@ -571,6 +572,7 @@
      "WGNO",
      "WJBO",
      "WKBU",
+     "WLMG",
      "WNOE",
      "WRNO",
      "WRQQ",
@@ -588,11 +590,11 @@
      "Cassidy/Republican/US Senate",
      "Bill Cassidy - LA Senate",
      "Original Date / Revision",
+     "Cassidy/D/Senate",
      "BIN Cassidy For U,S. Senate",
      "Blil Cassidy For U.S, Senate",
      "Bill Cassidy Fer U.S. Senate",
-     "Les Williamson",
-     "Les.Willlamson"
+     "Les Williamson"
     ],
     "first": "2026-01-26",
     "last": "2026-08-25",
@@ -676,14 +678,16 @@
      "New Horizons USA PAC"
     ],
     "first": "2026-01-23",
-    "last": "2026-10-23",
+    "last": "2026-10-27",
     "away": {
-     "docs": 33,
-     "usd": 174755,
+     "docs": 55,
+     "usd": 232625,
      "clients": [
+      "Chris Spencer/State Representat Dist1/TX/Rep",
       "Chris Spencer Campaign",
       "Ken Paxton Victory Fund",
       "Ken Paxton For Senate",
+      "Chris Spencer for TX State Rep District 1",
       "encer Campalgn"
      ]
     }
@@ -1021,15 +1025,15 @@
     "first": "2026-02-17",
     "last": "2026-10-26",
     "away": {
-     "docs": 18,
-     "usd": 63630,
+     "docs": 25,
+     "usd": 93055,
      "clients": [
       "Huffines for Comptroller",
+      "Don Huffines/Comptroller/TX/Rep",
       "Don Huffines for Texas Comptroller",
+      "Huffines for TX Comptroller",
       "n Huilfines for Texas Comptroller",
-      "Huffines for Compton a ccnunneeutanncn unt ies wen",
-      "Don Huffines for Texas Comptroiler",
-      "Huffines for TX Comptroller"
+      "Huffines for Compton a ccnunneeutanncn unt ies wen"
      ]
     }
    },
@@ -1350,9 +1354,9 @@
    "name": "Kingfish Communications",
    "found_by": "political file",
    "fcc": {
-    "docs": 155,
-    "priced": 48,
-    "usd": 677254,
+    "docs": 156,
+    "priced": 49,
+    "usd": 678085,
     "stations": [
      "002460",
      "003478",
@@ -1380,6 +1384,7 @@
      "WDSU",
      "WGSO",
      "WJBO",
+     "WLMG",
      "WTIX",
      "WVUE",
      "WWL-TV"
@@ -1395,8 +1400,8 @@
      "m Flemming for Louisiana",
      "John Fleming/US Senate/LA/Rep",
      "Susan Shaw",
-     "SaveOurLouisiana.Org",
-     "Fleming for LA"
+     "Louisiana Radio Network",
+     "SaveOurLouisiana.Org"
     ],
     "first": "2026-02-24",
     "last": "2026-09-16",
@@ -2165,14 +2170,14 @@
     "first": "2026-01-23",
     "last": "2026-10-23",
     "away": {
-     "docs": 39,
-     "usd": 345852,
+     "docs": 76,
+     "usd": 417697,
      "clients": [
-      "Dan Patrick for Lt Governor",
-      "Texans United for a Conservative Majority PAC",
+      "Josh Bray/State Senate Dist1/TX/Rep Invoice",
       "Texans for Dan Patrick/Lt Governor/Rep",
-      "Josh Bray for Texas Campaign",
-      "Josh Bray for Texas Campalgn",
+      "Dan Patrick for Lt Governor",
+      "Kelley Crisp/District Attorney/TX/Rep Invoice",
+      "Texans United for a Conservative Majority PAC",
       "Josh Bray Texas Representative Distrcit 1"
      ]
     }
@@ -2565,6 +2570,29 @@
    }
   },
   {
+   "key": "SRCPMEDIAPOL",
+   "name": "SRCP Media, Inc / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 23,
+    "priced": 19,
+    "usd": 258216,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "Bill Cassidy / R / US SEN / LA"
+    ],
+    "first": "2026-03-02",
+    "last": "2026-06-01",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "MEDIUMBUYING",
    "name": "MEDIUM BUYING",
    "found_by": "political file",
@@ -2840,26 +2868,173 @@
    }
   },
   {
-   "key": "SRCPMEDIAPOL",
-   "name": "SRCP Media, Inc / POL",
+   "key": "CARVINCONSULT",
+   "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 18,
-    "priced": 15,
-    "usd": 190461,
+    "docs": 27,
+    "priced": 18,
+    "usd": 131460,
     "stations": [
+     "005341",
+     "WDSU",
+     "WGNO",
+     "WUPL",
+     "WVUE",
+     "WWL",
      "WWL-TV"
     ],
     "clients": [
-     "Bill Cassidy / R / US SEN / LA"
+     "Illing for Sheriff",
+     "Illing/R/St. Tammany Parish Sheriff",
+     "Cao for LA BESE",
+     "Cao/R/BESE District 1",
+     "Sydney Barthelemy for Senate District 3",
+     "Lee for Judge",
+     "Lee/R/JP 1st Parish Court Div",
+     "Barthelemy/D/State Senate Dist 3"
     ],
-    "first": "2026-04-07",
-    "last": "2026-06-01",
+    "first": "2026-02-05",
+    "last": "2026-10-26",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
+   },
+   "paid": {
+    "total": 653700,
+    "media": 115543,
+    "rows": 124,
+    "media_cycle": 70980,
+    "cycle": 236411,
+    "years": {
+     "2013": 101098,
+     "2014": 32964,
+     "2016": 6991,
+     "2018": 2000,
+     "2020": 250539,
+     "2022": 23698,
+     "2023": 53000,
+     "2025": 44050,
+     "2026": 139361
+    },
+    "committees": 27,
+    "top": [
+     {
+      "f": "7611",
+      "n": "JOHN F. LEE",
+      "p": "REP",
+      "usd": 67560,
+      "cycle": 67560
+     },
+     {
+      "f": "6457",
+      "n": "Holly Friedman",
+      "p": "DEM",
+      "usd": 28050,
+      "cycle": 28050
+     },
+     {
+      "f": "3442",
+      "n": "Scott P. Illing",
+      "p": "REP",
+      "usd": 25011,
+      "cycle": 25011
+     },
+     {
+      "f": "2081",
+      "n": "Anh Joseph Cao",
+      "p": "OTH",
+      "usd": 23851,
+      "cycle": 23851
+     },
+     {
+      "f": "1388",
+      "n": "Arnie Fielkow",
+      "p": "DEM",
+      "usd": 20000,
+      "cycle": 20000
+     },
+     {
+      "f": "6845",
+      "n": "Sidney Barthelemy II",
+      "p": "DEM",
+      "usd": 17939,
+      "cycle": 17939
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 17500,
+      "cycle": 17500
+     },
+     {
+      "f": "5842",
+      "n": "Hunter P. Harris",
+      "p": "OTH",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 15000,
+      "cycle": 8000
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 6000,
+      "cycle": 6000
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5698",
+      "n": "Simone Levine",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 2500,
+      "cycle": 2500
+     },
+     {
+      "f": "2992",
+      "n": "Pat Rooney",
+      "p": "REP",
+      "usd": 141786,
+      "cycle": 0
+     },
+     {
+      "f": "1719",
+      "n": "Terri Love",
+      "p": "DEM",
+      "usd": 98753,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CARVIN CONSULTING, INC.",
+     "CARVIN CONSULTING",
+     "CARVIN CONSULTING INC",
+     "CARVIN CONSULTING INC.",
+     "CARVIN CONSULTING GROUP",
+     "CARVIN CONSULTANTS, INC."
+    ]
    }
   },
   {
@@ -3240,9 +3415,27 @@
    }
   },
   {
-   "key": "FIREONBAYOU",
-   "name": "Fire On The Bayou",
-   "found_by": "filings",
+   "key": "FIREONBAYOUPOL",
+   "name": "Fire on the Bayou / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2870,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "Sydney Barthelemy Jr / D / State Senate / LA"
+    ],
+    "first": "2026-03-02",
+    "last": "2026-03-02",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
    "paid": {
     "total": 865578,
     "media": 267736,
@@ -3657,174 +3850,6 @@
      "CROSS SCREEN MEDIA COMPANY",
      "CROSS SCREEN MEDIA, LLC",
      "CROSS SCREEN MEDIA (DIGITAL)"
-    ]
-   }
-  },
-  {
-   "key": "CARVINCONSULT",
-   "name": "Carvin Consulting",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 25,
-    "priced": 16,
-    "usd": 77130,
-    "stations": [
-     "005341",
-     "WDSU",
-     "WGNO",
-     "WUPL",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Illing for Sheriff",
-     "Illing/R/St. Tammany Parish Sheriff",
-     "Cao for LA BESE",
-     "Cao/R/BESE District 1",
-     "Lee for Judge",
-     "Lee/R/JP 1st Parish Court Div",
-     "Barthelemy/D/State Senate Dist 3"
-    ],
-    "first": "2026-02-05",
-    "last": "2026-10-26",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 653700,
-    "media": 115543,
-    "rows": 124,
-    "media_cycle": 70980,
-    "cycle": 236411,
-    "years": {
-     "2013": 101098,
-     "2014": 32964,
-     "2016": 6991,
-     "2018": 2000,
-     "2020": 250539,
-     "2022": 23698,
-     "2023": 53000,
-     "2025": 44050,
-     "2026": 139361
-    },
-    "committees": 27,
-    "top": [
-     {
-      "f": "7611",
-      "n": "JOHN F. LEE",
-      "p": "REP",
-      "usd": 67560,
-      "cycle": 67560
-     },
-     {
-      "f": "6457",
-      "n": "Holly Friedman",
-      "p": "DEM",
-      "usd": 28050,
-      "cycle": 28050
-     },
-     {
-      "f": "3442",
-      "n": "Scott P. Illing",
-      "p": "REP",
-      "usd": 25011,
-      "cycle": 25011
-     },
-     {
-      "f": "2081",
-      "n": "Anh Joseph Cao",
-      "p": "OTH",
-      "usd": 23851,
-      "cycle": 23851
-     },
-     {
-      "f": "1388",
-      "n": "Arnie Fielkow",
-      "p": "DEM",
-      "usd": 20000,
-      "cycle": 20000
-     },
-     {
-      "f": "6845",
-      "n": "Sidney Barthelemy II",
-      "p": "DEM",
-      "usd": 17939,
-      "cycle": 17939
-     },
-     {
-      "f": "1498",
-      "n": "Ricky Templet",
-      "p": "REP",
-      "usd": 17500,
-      "cycle": 17500
-     },
-     {
-      "f": "5842",
-      "n": "Hunter P. Harris",
-      "p": "OTH",
-      "usd": 10000,
-      "cycle": 10000
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 15000,
-      "cycle": 8000
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 6000,
-      "cycle": 6000
-     },
-     {
-      "f": "2781",
-      "n": "Dominick Impastato",
-      "p": "REP",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "5698",
-      "n": "Simone Levine",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "5471",
-      "n": "Delisha Boyd",
-      "p": "DEM",
-      "usd": 2500,
-      "cycle": 2500
-     },
-     {
-      "f": "2992",
-      "n": "Pat Rooney",
-      "p": "REP",
-      "usd": 141786,
-      "cycle": 0
-     },
-     {
-      "f": "1719",
-      "n": "Terri Love",
-      "p": "DEM",
-      "usd": 98753,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CARVIN CONSULTING, INC.",
-     "CARVIN CONSULTING",
-     "CARVIN CONSULTING INC",
-     "CARVIN CONSULTING INC.",
-     "CARVIN CONSULTING GROUP",
-     "CARVIN CONSULTANTS, INC."
     ]
    }
   },
@@ -5995,9 +6020,9 @@
    "name": "KATZ MEDIA GROUP",
    "found_by": "political file",
    "fcc": {
-    "docs": 34,
-    "priced": 30,
-    "usd": 68785,
+    "docs": 35,
+    "priced": 31,
+    "usd": 75535,
     "stations": [
      "KDKS",
      "KEEL",
@@ -6005,7 +6030,8 @@
      "WBRP",
      "WDGL",
      "WNXX",
-     "WTGE"
+     "WTGE",
+     "WWL"
     ],
     "clients": [
      "Bill Cassidy for US Senate",
@@ -6015,7 +6041,8 @@
      "John E Atkins Campaign",
      "Blake Miguez for congress",
      "Club For Growth Action",
-     "m Cajun PAC II"
+     "m Cajun PAC II",
+     "First Principles PAC"
     ],
     "first": "2026-01-30",
     "last": "2026-10-09",
@@ -7688,6 +7715,169 @@
    }
   },
   {
+   "key": "CARVINSEDERCOMMUNICATIONSPOL",
+   "name": "Carvin Seder Communications / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 11,
+    "priced": 11,
+    "usd": 27055,
+    "stations": [
+     "WUPL",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Joseph Cao / R / Board Of Education / LA",
+     "Sydney Barthelemy Jr / D / State Senate / LA"
+    ],
+    "first": "2026-03-02",
+    "last": "2026-07-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 3830853,
+    "media": 1751792,
+    "rows": 591,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2006": 499865,
+     "2007": 220392,
+     "2009": 269754,
+     "2010": 334141,
+     "2011": 153029,
+     "2012": 72279,
+     "2013": 5000,
+     "2014": 352322,
+     "2015": 264837,
+     "2016": 48794,
+     "2017": 642136,
+     "2018": 452892,
+     "2019": 515413
+    },
+    "committees": 29,
+    "top": [
+     {
+      "f": "255",
+      "n": "Francis C. Heitmeier",
+      "p": "OTH",
+      "usd": 364165,
+      "cycle": 0
+     },
+     {
+      "f": "1390",
+      "n": "Cynthia Lee-Sheng",
+      "p": "REP",
+      "usd": 359586,
+      "cycle": 0
+     },
+     {
+      "f": "1373",
+      "n": "John F. Young, Jr.",
+      "p": "REP",
+      "usd": 260088,
+      "cycle": 0
+     },
+     {
+      "f": "4423",
+      "n": "Together for Parks Alliance",
+      "p": "OTH",
+      "usd": 251298,
+      "cycle": 0
+     },
+     {
+      "f": "4038",
+      "n": "Rachael D. Johnson",
+      "p": "DEM",
+      "usd": 201953,
+      "cycle": 0
+     },
+     {
+      "f": "1397",
+      "n": "Jared Brossett",
+      "p": "DEM",
+      "usd": 193859,
+      "cycle": 0
+     },
+     {
+      "f": "365",
+      "n": "Daniel R. Martiny",
+      "p": "REP",
+      "usd": 185105,
+      "cycle": 0
+     },
+     {
+      "f": "1071",
+      "n": "John D. Georges",
+      "p": "DEM",
+      "usd": 184444,
+      "cycle": 0
+     },
+     {
+      "f": "621",
+      "n": "Claude (Buddy) Leach, Jr.",
+      "p": "DEM",
+      "usd": 182796,
+      "cycle": 0
+     },
+     {
+      "f": "3046",
+      "n": "Johnny Lee",
+      "p": "REP",
+      "usd": 180944,
+      "cycle": 0
+     },
+     {
+      "f": "1795",
+      "n": "Christopher Roberts",
+      "p": "REP",
+      "usd": 160493,
+      "cycle": 0
+     },
+     {
+      "f": "2109",
+      "n": "Nakisha Ervin-Knott",
+      "p": "DEM",
+      "usd": 155287,
+      "cycle": 0
+     },
+     {
+      "f": "1093",
+      "n": "Tiffany Gautier Chase",
+      "p": "DEM",
+      "usd": 145603,
+      "cycle": 0
+     },
+     {
+      "f": "1259",
+      "n": "Physicians & Patients for Insurance Reform",
+      "p": "OTH",
+      "usd": 135700,
+      "cycle": 0
+     },
+     {
+      "f": "1653",
+      "n": "Christopher Bruno",
+      "p": "DEM",
+      "usd": 131227,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CARVIN/SEDER LLC",
+     "CARVIN SEDER LLC",
+     "CARVIN/SEDER L.L.C.",
+     "CARVIN/SEDER",
+     "CARVIN/SEDER COMMUNICATIONS",
+     "CARVIN/SEDER, LLC"
+    ]
+   }
+  },
+  {
    "key": "POOLHOUSEPOL",
    "name": "POOLHOUSE / POL",
    "found_by": "political file",
@@ -7845,167 +8035,6 @@
      "HOLBROOK MULTI-MEDIA INC.",
      "HOLBROOK MULTI MEDIA INC",
      "HOLBROOK MULTI-MEDIA, INC"
-    ]
-   }
-  },
-  {
-   "key": "CARVINSEDERCOMMUNICATIONSPOL",
-   "name": "Carvin Seder Communications / POL",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 8,
-    "priced": 8,
-    "usd": 24975,
-    "stations": [
-     "WWL-TV"
-    ],
-    "clients": [
-     "Joseph Cao / R / Board Of Education / LA"
-    ],
-    "first": "2026-06-01",
-    "last": "2026-07-06",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 3830853,
-    "media": 1751792,
-    "rows": 591,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2006": 499865,
-     "2007": 220392,
-     "2009": 269754,
-     "2010": 334141,
-     "2011": 153029,
-     "2012": 72279,
-     "2013": 5000,
-     "2014": 352322,
-     "2015": 264837,
-     "2016": 48794,
-     "2017": 642136,
-     "2018": 452892,
-     "2019": 515413
-    },
-    "committees": 29,
-    "top": [
-     {
-      "f": "255",
-      "n": "Francis C. Heitmeier",
-      "p": "OTH",
-      "usd": 364165,
-      "cycle": 0
-     },
-     {
-      "f": "1390",
-      "n": "Cynthia Lee-Sheng",
-      "p": "REP",
-      "usd": 359586,
-      "cycle": 0
-     },
-     {
-      "f": "1373",
-      "n": "John F. Young, Jr.",
-      "p": "REP",
-      "usd": 260088,
-      "cycle": 0
-     },
-     {
-      "f": "4423",
-      "n": "Together for Parks Alliance",
-      "p": "OTH",
-      "usd": 251298,
-      "cycle": 0
-     },
-     {
-      "f": "4038",
-      "n": "Rachael D. Johnson",
-      "p": "DEM",
-      "usd": 201953,
-      "cycle": 0
-     },
-     {
-      "f": "1397",
-      "n": "Jared Brossett",
-      "p": "DEM",
-      "usd": 193859,
-      "cycle": 0
-     },
-     {
-      "f": "365",
-      "n": "Daniel R. Martiny",
-      "p": "REP",
-      "usd": 185105,
-      "cycle": 0
-     },
-     {
-      "f": "1071",
-      "n": "John D. Georges",
-      "p": "DEM",
-      "usd": 184444,
-      "cycle": 0
-     },
-     {
-      "f": "621",
-      "n": "Claude (Buddy) Leach, Jr.",
-      "p": "DEM",
-      "usd": 182796,
-      "cycle": 0
-     },
-     {
-      "f": "3046",
-      "n": "Johnny Lee",
-      "p": "REP",
-      "usd": 180944,
-      "cycle": 0
-     },
-     {
-      "f": "1795",
-      "n": "Christopher Roberts",
-      "p": "REP",
-      "usd": 160493,
-      "cycle": 0
-     },
-     {
-      "f": "2109",
-      "n": "Nakisha Ervin-Knott",
-      "p": "DEM",
-      "usd": 155287,
-      "cycle": 0
-     },
-     {
-      "f": "1093",
-      "n": "Tiffany Gautier Chase",
-      "p": "DEM",
-      "usd": 145603,
-      "cycle": 0
-     },
-     {
-      "f": "1259",
-      "n": "Physicians & Patients for Insurance Reform",
-      "p": "OTH",
-      "usd": 135700,
-      "cycle": 0
-     },
-     {
-      "f": "1653",
-      "n": "Christopher Bruno",
-      "p": "DEM",
-      "usd": 131227,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CARVIN/SEDER LLC",
-     "CARVIN SEDER LLC",
-     "CARVIN/SEDER L.L.C.",
-     "CARVIN/SEDER",
-     "CARVIN/SEDER COMMUNICATIONS",
-     "CARVIN/SEDER, LLC"
     ]
    }
   },
@@ -9785,6 +9814,27 @@
    }
   },
   {
+   "key": "RCPMEDI",
+   "name": "RCP Medi",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 9700,
+    "stations": [
+     "WBRZ"
+    ],
+    "clients": [],
+    "first": "2026-03-06",
+    "last": "2026-03-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "WILLIAMSCREATIVE",
    "name": "Williams Creative Group",
    "found_by": "political file",
@@ -10315,9 +10365,9 @@
    "name": "Alpha Media & Public Relations",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
-    "priced": 4,
-    "usd": 5612,
+    "docs": 7,
+    "priced": 5,
+    "usd": 6054,
     "stations": [
      "KQXL",
      "KRRQ",
@@ -13750,8 +13800,8 @@
     "first": "2026-02-10",
     "last": "2026-10-26",
     "away": {
-     "docs": 100,
-     "usd": 1264348,
+     "docs": 109,
+     "usd": 1314348,
      "clients": [
       "Texans for Greg Abbott - PO Box",
       "Texans for Greg Abbott/Governor/TX/Rep",
@@ -18650,6 +18700,29 @@
    }
   },
   {
+   "key": "HERBIERTORAMIREZANDALLAN",
+   "name": "Herbierto Ramirez and Allan",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KEEL"
+    ],
+    "clients": [
+     "Kalshi Inc"
+    ],
+    "first": "2026-10-27",
+    "last": "2026-10-27",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "INAMESS",
    "name": "INA mess",
    "found_by": "political file",
@@ -18927,9 +19000,9 @@
     ],
     "clients": [],
     "first": "2026-09-28",
-    "last": "2026-10-26",
+    "last": "2026-10-27",
     "away": {
-     "docs": 12,
+     "docs": 13,
      "usd": 25750,
      "clients": [
       "Gina Hinojosa Campaign",
@@ -20094,11 +20167,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 18350,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "OURSOBEYCHOK",
@@ -20480,11 +20553,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 10225,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ARSEMENTPRODUCTIONS",
@@ -20854,11 +20927,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 7950,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -22246,11 +22319,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 9500,
     "cycle": 9500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1334": [
@@ -23129,20 +23202,20 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 2500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1456": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 1000,
     "cycle": 1000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1460": [
@@ -23163,11 +23236,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3750,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1464": [
@@ -23241,11 +23314,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 9500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1475": [
@@ -23317,11 +23390,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 18475,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "TEDDLIESTUARTMEDIAPARTNERS",
@@ -24400,11 +24473,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 2500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -24900,11 +24973,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3000,
     "cycle": 3000,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CREATIVEMARKETINGSALES",
@@ -24932,11 +25005,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 2500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -25278,11 +25351,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 32300,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -25568,11 +25641,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 24500,
     "cycle": 24500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ALLERTONAND",
@@ -26343,11 +26416,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "1924": [
@@ -27445,11 +27518,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 6400,
     "cycle": 6400,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2089": [
@@ -29831,11 +29904,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "2681": [
@@ -31126,11 +31199,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 2500,
     "cycle": 2500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "CAMCOCONSULT",
@@ -32909,11 +32982,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 23265,
     "cycle": 23265,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "DENOSEDERPRODUCTIONS",
@@ -33620,11 +33693,11 @@
   ],
   "3635": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 24000,
     "cycle": 24000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "3636": [
@@ -34722,11 +34795,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 31650,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4035": [
@@ -34977,11 +35050,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 10000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4072": [
@@ -35075,11 +35148,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4092": [
@@ -35514,11 +35587,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 40150,
     "cycle": 29150,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4165": [
@@ -35681,11 +35754,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 9700,
     "cycle": 9700,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -35966,11 +36039,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 24764,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -36473,11 +36546,11 @@
   ],
   "4373": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4375": [
@@ -37703,11 +37776,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 34550,
     "cycle": 29050,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -37800,11 +37873,11 @@
   ],
   "4660": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 19880,
     "cycle": 19880,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4662": [
@@ -38479,11 +38552,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3525,
     "cycle": 3525,
-    "fcc": false
+    "fcc": true
    }
   ],
   "4945": [
@@ -38884,11 +38957,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 4000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5079": [
@@ -38952,11 +39025,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 27575,
     "cycle": 27575,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5097": [
@@ -39414,11 +39487,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 18881,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5224": [
@@ -39509,11 +39582,11 @@
   ],
   "5257": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 31550,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5259": [
@@ -39750,11 +39823,11 @@
   ],
   "5320": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 12100,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5322": [
@@ -40040,11 +40113,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5427": [
@@ -40199,11 +40272,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 2500,
     "cycle": 2500,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5471": [
@@ -40385,11 +40458,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 14575,
     "cycle": 14575,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "WQUEFM",
@@ -40976,11 +41049,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 177550,
     "cycle": 112550,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5759": [
@@ -41057,11 +41130,11 @@
   ],
   "5817": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 10000,
     "cycle": 10000,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5821": [
@@ -41252,11 +41325,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 3500,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "5874": [
@@ -41953,11 +42026,11 @@
   ],
   "6030": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 5800,
     "cycle": 5800,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6034": [
@@ -42879,11 +42952,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 32735,
     "cycle": 32735,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -43084,11 +43157,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 19325,
     "cycle": 19325,
-    "fcc": false
+    "fcc": true
    }
   ],
   "6460": [
@@ -43911,11 +43984,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 6500,
     "cycle": 6500,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -44032,11 +44105,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 1350,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "680": [
@@ -44108,11 +44181,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 13550,
     "cycle": 13550,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -44664,11 +44737,11 @@
   ],
   "7515": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 52200,
     "cycle": 52200,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "VICTORIACOULONCONSULT",
@@ -44848,11 +44921,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 15450,
     "cycle": 15450,
-    "fcc": false
+    "fcc": true
    }
   ],
   "7618": [
@@ -44980,11 +45053,11 @@
     "fcc": false
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 8000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    },
    {
     "k": "ALLERTONAND",
@@ -45181,11 +45254,11 @@
   ],
   "81": [
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 6203,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "8111": [
@@ -45736,11 +45809,11 @@
     "fcc": true
    },
    {
-    "k": "FIREONBAYOU",
-    "n": "Fire On The Bayou",
+    "k": "FIREONBAYOUPOL",
+    "n": "Fire on the Bayou / POL",
     "usd": 5000,
     "cycle": 0,
-    "fcc": false
+    "fcc": true
    }
   ],
   "921": [
