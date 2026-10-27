@@ -195,94 +195,6 @@
    }
   },
   {
-   "key": "TOTALVIDEOPLACEMENTS",
-   "name": "Total Video Placements",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 326,
-    "priced": 189,
-    "usd": 4146040,
-    "stations": [
-     "002460",
-     "003478",
-     "004289",
-     "004321",
-     "005142",
-     "007036",
-     "008048",
-     "KADN",
-     "KARD",
-     "KATC",
-     "KEEL",
-     "KEUN",
-     "KLFY",
-     "KMLB",
-     "KMSS",
-     "KNOE",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KSYL",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "KVHP",
-     "WAFB",
-     "WBRP",
-     "WBRZ",
-     "WDSU",
-     "WGNO",
-     "WJBO",
-     "WRNO",
-     "WTIX",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Louisiana Freedom Fund",
-     "Loulsiana Freedom Fund",
-     "Public First Action",
-     "Loulslana Freedom Fund",
-     "Original Date / Revision",
-     "American Soverignty PAC",
-     "Loulstana Freedom Fund",
-     "Loujsiana Freedom Fund",
-     "American Sovereignty",
-     "Louislana Freedom Fund",
-     "Louistana Freedom Fund"
-    ],
-    "first": "2026-01-30",
-    "last": "2026-08-04",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1003,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2004": 1003
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "801",
-      "n": "Steven G. (Buzz) Durio",
-      "p": "REP",
-      "usd": 1003,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "TOTAL VIDEO"
-    ]
-   }
-  },
-  {
    "key": "DELCIELOMEDIA",
    "name": "Del Cielo Media",
    "found_by": "political file",
@@ -361,6 +273,94 @@
     ],
     "spellings": [
      "DEL CIELO MEDIA LLC"
+    ]
+   }
+  },
+  {
+   "key": "TOTALVIDEOPLACEMENTS",
+   "name": "Total Video Placements",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 324,
+    "priced": 188,
+    "usd": 4015465,
+    "stations": [
+     "002460",
+     "003478",
+     "004289",
+     "004321",
+     "005142",
+     "007036",
+     "008048",
+     "KADN",
+     "KARD",
+     "KATC",
+     "KEEL",
+     "KEUN",
+     "KLFY",
+     "KMLB",
+     "KMSS",
+     "KNOE",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KSYL",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KVHP",
+     "WAFB",
+     "WBRP",
+     "WBRZ",
+     "WDSU",
+     "WGNO",
+     "WJBO",
+     "WRNO",
+     "WTIX",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Louisiana Freedom Fund",
+     "Loulsiana Freedom Fund",
+     "Public First Action",
+     "Loulslana Freedom Fund",
+     "Original Date / Revision",
+     "American Soverignty PAC",
+     "Loulstana Freedom Fund",
+     "Loujsiana Freedom Fund",
+     "American Sovereignty",
+     "Louislana Freedom Fund",
+     "Louistana Freedom Fund"
+    ],
+    "first": "2026-01-30",
+    "last": "2026-08-04",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1003,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2004": 1003
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "801",
+      "n": "Steven G. (Buzz) Durio",
+      "p": "REP",
+      "usd": 1003,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "TOTAL VIDEO"
     ]
    }
   },
@@ -7513,9 +7513,9 @@
    "name": "Quest Communication Consultants",
    "found_by": "political file",
    "fcc": {
-    "docs": 21,
-    "priced": 21,
-    "usd": 27929,
+    "docs": 23,
+    "priced": 23,
+    "usd": 29102,
     "stations": [
      "KARD",
      "KNOE",
@@ -7524,8 +7524,8 @@
      "KTVE"
     ],
     "clients": [
-     "Adam Cossey for District Judge",
      "Mike Smith/City Court Judge/LA/Rep",
+     "Adam Cossey for District Judge",
      "Adam Cossey/District Judge/LA/NonPart",
      "Robert Cherry/City Marshal/LA/Independent",
      "Jim Colvin for DA",
@@ -7533,7 +7533,7 @@
      "Jim Clovin/District Attorney/LA/Independent"
     ],
     "first": "2026-07-29",
-    "last": "2026-10-23",
+    "last": "2026-10-27",
     "away": {
      "docs": 0,
      "usd": 0,
