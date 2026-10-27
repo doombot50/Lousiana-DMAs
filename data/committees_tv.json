@@ -737,11 +737,16 @@
 "name": "Hillar Moore",
 "party": "DEM",
 "stations": {
-"WAFB": 1000.0
+"WAFB": 63974.0,
+"WBRL-CD": 953.0,
+"WBRZ": 39351.0,
+"WGMB": 11210.0,
+"WVLA": 5400.0
 },
-"total": 1000.0,
+"total": 120888.0,
 "years": {
-"2012": 1000.0
+"2012": 1000.0,
+"2026": 119888.0
 }
 },
 "13": {
@@ -4960,6 +4965,17 @@
 "2018": 14827.75
 }
 },
+"2893": {
+"name": "Lewis Jones",
+"party": "DEM",
+"stations": {
+"KSLA": 4250.0
+},
+"total": 4250.0,
+"years": {
+"2026": 4250.0
+}
+},
 "2894": {
 "name": "Charles (Greg) Gravel",
 "party": "DEM",
@@ -5517,13 +5533,14 @@
 "name": "James Stewart",
 "party": "DEM",
 "stations": {
-"KTBS": 23806.09
+"KTAL": 2000.0,
+"KTBS": 30501.09
 },
-"total": 23806.09,
+"total": 32501.09,
 "years": {
 "2015": 16106.09,
 "2016": 2000.0,
-"2026": 5700.0
+"2026": 14395.0
 }
 },
 "3189": {
@@ -8964,12 +8981,13 @@
 "name": "Stephanie Bridges",
 "party": "DEM",
 "stations": {
-"WDSU": 4800.0,
+"WDSU": 8050.0,
 "WWL-TV": 4220.0
 },
-"total": 9020.0,
+"total": 12270.0,
 "years": {
-"2023": 9020.0
+"2023": 9020.0,
+"2026": 3250.0
 }
 },
 "5247": {
@@ -10902,6 +10920,43 @@
 "2011": 450.0
 }
 },
+"6826": {
+"name": "JONATHAN T GASPARD",
+"party": "OTH",
+"stations": {
+"KALB": 19150.0
+},
+"total": 19150.0,
+"years": {
+"2026": 19150.0
+}
+},
+"6878": {
+"name": "Michele Moore Echols",
+"party": "OTH",
+"stations": {
+"WDSU": 6875.0,
+"WVUE": 17645.0,
+"WWL-TV": 11135.0
+},
+"total": 35655.0,
+"years": {
+"2026": 35655.0
+}
+},
+"6897": {
+"name": "Michael Jay Marsiglia",
+"party": "OTH",
+"stations": {
+"WDSU": 6757.5,
+"WVUE": 16171.25,
+"WWL-TV": 10739.75
+},
+"total": 33668.5,
+"years": {
+"2026": 33668.5
+}
+},
 "691": {
 "name": "Lydia Jackson",
 "party": "DEM",
@@ -10954,6 +11009,17 @@
 "2026": 434740.0
 }
 },
+"7145": {
+"name": "Emilia Pardo",
+"party": "OTH",
+"stations": {
+"KLFY": 4335.0
+},
+"total": 4335.0,
+"years": {
+"2026": 4335.0
+}
+},
 "717": {
 "name": "Durwin D. Walker",
 "party": "OTH",
@@ -10963,6 +11029,20 @@
 "total": 879.75,
 "years": {
 "2003": 879.75
+}
+},
+"7263": {
+"name": "SAL BROCATO",
+"party": "OTH",
+"stations": {
+"WDSU": 8874.0,
+"WGNO": 1019.0,
+"WVUE": 8044.25,
+"WWL-TV": 9276.75
+},
+"total": 27214.0,
+"years": {
+"2026": 27214.0
 }
 },
 "730": {
@@ -10987,6 +11067,43 @@
 "2003": 425.0
 }
 },
+"7489": {
+"name": "Stormy Gage-Watts",
+"party": "DEM",
+"stations": {
+"KSLA": 5000.0
+},
+"total": 5000.0,
+"years": {
+"2026": 5000.0
+}
+},
+"7515": {
+"name": "Marko Marjanovic",
+"party": "OTH",
+"stations": {
+"WDSU": 9695.0,
+"WVUE": 16450.0,
+"WWL-TV": 7450.0
+},
+"total": 33595.0,
+"years": {
+"2026": 33595.0
+}
+},
+"7532": {
+"name": "Cameron M. Mary",
+"party": "OTH",
+"stations": {
+"WDSU": 1930.0,
+"WVUE": 3835.0,
+"WWL-TV": 1805.0
+},
+"total": 7570.0,
+"years": {
+"2026": 7570.0
+}
+},
 "754": {
 "name": "Lynn Jones",
 "party": "OTH",
@@ -11007,6 +11124,19 @@
 "total": 515.0,
 "years": {
 "2015": 515.0
+}
+},
+"7607": {
+"name": "Protect St. Tammany's Future",
+"party": "OTH",
+"stations": {
+"WDSU": 11450.0,
+"WVUE": 12200.0,
+"WWL-TV": 10450.0
+},
+"total": 34100.0,
+"years": {
+"2026": 34100.0
 }
 },
 "764": {
@@ -11030,6 +11160,19 @@
 "total": 2622.25,
 "years": {
 "2003": 2622.25
+}
+},
+"7717": {
+"name": "L. Jason Cuccia",
+"party": "OTH",
+"stations": {
+"WGNO": 1617.33,
+"WVUE": 1617.33,
+"WWL-TV": 1617.34
+},
+"total": 4852.0,
+"years": {
+"2026": 4852.0
 }
 },
 "775": {
