@@ -271,19 +271,29 @@ DOC_LEAD = re.compile(r'^(?:(?:nab|update|revised|contract|order|invoice|new cre
 DOC_TAIL = re.compile(r"\b(?:nab|invoice|order|contract|revised|network buy|est|spot|rec'?v?d|update|"
                       r"new creative|creative|fpm|pb\s*-?\d+|flight|notice|no charge|\d+\s*sec)\b.*$", re.I)
 FIRST_DATE = re.compile(r'\s\d|\d{1,2}[./-]\d|#')
+SPECTRUM_TAIL = re.compile(r'\s+(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\w*|'
+                           r'alexandria|lake charles|shreveport|shv|monroe|baton rouge|lafayette|'
+                           r'new orleans|mg|pkg|schedule|proposal|rev)\b.*$', re.I)
 
 
 def buyer_from_filename(name, calls=()):
     """A buyer's name read from a document name, or None if nothing sensible
     is left once the dates, order numbers and document words are removed.
     `calls` are station call signs to strip ("KVHP", its sister "MVHP")."""
-    t = re.sub(r'_+', ' ', name).strip()
+    # Spectrum's orders and invoices lead with their numbers and end with a
+    # sales code: "Inv_3268199-68067-Bill_Cassidy_for_US_Senate_VNS__526".
+    t = re.sub(r'^(?:ord|inv)_?\d+-\d+-', '', name.strip(), flags=re.I)
+    t = re.sub(r'(?:_+(?:VNS|\d+))+_*$', '', t)
+    t = re.sub(r'_+', ' ', t).strip()
+    t = re.sub(r'^P R\s+', '', t)                                     # Spectrum: "P_R_John_Fleming…"
     t = re.sub(r'^pol(?:itical)?\s*-\s*', '', t, flags=re.I)       # KLFY: "Pol-Louisiana Freedom Fund_…"
     t = DOC_LEAD.sub('', t)
     t = FIRST_DATE.split(t, 1)[0]
     for c in calls:
         t = re.sub(r'\b' + re.escape(c) + r'\b', ' ', t, flags=re.I)
     t = DOC_TAIL.sub('', t)
+    # Spectrum's proposals: "Fleming for Senate April 17 April 23 Alexandria…".
+    t = SPECTRUM_TAIL.sub('', t)
     t = re.sub(r'[\s\-\u2013,.:]+$', '', re.sub(r'\s+', ' ', t)).strip()
     return t if len(re.sub(r'[^A-Za-z]', '', t)) >= 3 else None
 

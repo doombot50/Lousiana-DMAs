@@ -110,6 +110,19 @@ class FromFilename(unittest.TestCase):
         self.assertEqual(buyer_from_filename('Pol-Louisiana Freedom Fund_10.09.2026_Contract'),
                          'Louisiana Freedom Fund')
 
+    def test_spectrum_orders_invoices_and_proposals(self):
+        # Spectrum files its cable orders and invoices in "Invoices"/"Orders"
+        # folders under the office; the buyer was read as "Ord" and "Inv".
+        self.assertEqual(buyer_from_filename('Inv_3268199-68067-Bill_Cassidy_for_US_Senate_VNS__526'),
+                         'Bill Cassidy for US Senate')
+        self.assertEqual(buyer_from_filename('Ord_3293504-68093-Julia_Letlow_for_Senate_2026'),
+                         'Julia Letlow for Senate')
+        self.assertEqual(buyer_from_filename(
+            'P_R_John_Fleming_for_US_Senate_April_17_April_23_SHV_Rev_04-16-26_117361_Proposal'),
+            'John Fleming for US Senate')
+        self.assertEqual(buyer_from_filename('Fleming_for_Senate_Lake_Charles_MG_Schedule__04-21-26_118134_Proposal'),
+                         'Fleming for Senate')
+
     def test_nothing_left_is_none(self):
         self.assertIsNone(buyer_from_filename('NAB 10-7'))
 
