@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-10-27T19:48:19Z",
+ "scraped": "2026-10-28T02:35:51Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -3075,7 +3075,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -3144,6 +3144,15 @@
    },
    "files": [
     {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1340522_Order_Contract_20261027053801585",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T20:03:06-04:00",
+     "folder_id": "ee6c9ddd-5130-8647-7e60-3bb21de268b8",
+     "file_id": "5d63d93f-d818-1928-0b1f-9fa1704913f8",
+     "file_manager_id": "151bbd12-57fa-4a34-9ab3-8470163c8614"
+    },
+    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
      "name": "1336192_Order_Contract_20261023032902026",
      "ext": "pdf",
@@ -3178,6 +3187,24 @@
      "folder_id": "00a458cd-404e-31f8-31c7-d0632238df59",
      "file_id": "8519fadb-1287-1d5d-a8a9-1ec3792ed531",
      "file_manager_id": "4cd9d917-69b9-4ce0-9a8a-760c7c7782b5"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329371_Order_Contract_20261023121339616",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T14:05:02-04:00",
+     "folder_id": "bda75bbc-21ce-63a1-4430-c98ee5c696d6",
+     "file_id": "337819e3-b9ae-b464-1c84-b03004662378",
+     "file_manager_id": "77c99e0c-6954-4310-853f-380d8af4bddb"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329374_Order_Contract_20261023122133615",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T14:05:02-04:00",
+     "folder_id": "7927447f-9fec-7372-fe67-5b0a767ec3e2",
+     "file_id": "47a7c61f-2ff2-b63c-9231-b1a20fd08f0e",
+     "file_manager_id": "ed3121da-b614-4bf3-9245-5c89dc9a80fe"
     },
     {
      "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
@@ -48647,7 +48674,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -50809,7 +50836,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -52743,7 +52770,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -54040,7 +54067,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -54113,6 +54140,9 @@
     "Political Files/2026/State/Lafayette LA/County District Attorney ": "7ef6cc36-e1dd-cc18-6d22-8539f4467db9",
     "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry": "923e9500-9835-ceeb-7e06-a7df7f237a8f",
     "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+    "Political Files/2026/State/Lafayette LA/District Court Judge": "56da87c9-5aa9-ea72-3941-a8f8fddede83",
+    "Political Files/2026/State/Lafayette LA/District Court Judge/David Way": "ac84fc2e-c3b4-7ab0-a4a5-a72b056bf5eb",
+    "Political Files/2026/State/Lafayette LA/District Court Judge/James Klock": "5012b516-98df-7e7d-87d9-677523ade84c",
     "Political Files/2026/State/New Orleans": "954ed198-aa27-a83c-cde4-4b2c74f50c50",
     "Political Files/2026/State/New Orleans/District Court Judge": "65ccbe96-1062-39e5-ded5-c4f910042eb8",
     "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols": "ae277515-88e2-8fae-86a4-49e4c7d50ede",
@@ -54123,6 +54153,51 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "87852d44-84df-a461-e263-19c55dddda0a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1340522_Order_Contract_20261027053801585",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T20:02:15-04:00",
+     "folder_id": "db2f296c-2f41-e00a-693e-73d5fc356777",
+     "file_id": "c0527452-a63f-2976-cdfa-8619e061e995",
+     "file_manager_id": "6e23a254-313b-427f-8025-e55b18b12566"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/District Court Judge/David Way",
+     "name": "1339701_Order_Contract_20261027052020185",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:04:01-04:00",
+     "folder_id": "ac84fc2e-c3b4-7ab0-a4a5-a72b056bf5eb",
+     "file_id": "081eb810-2cf6-c817-f40e-cf3e7c008088",
+     "file_manager_id": "846fc874-67ad-450b-be03-1e6119aed666"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/District Court Judge/James Klock",
+     "name": "1339700_Order_Contract_20261027052240145",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:03:36-04:00",
+     "folder_id": "5012b516-98df-7e7d-87d9-677523ade84c",
+     "file_id": "e147cac3-9b71-2b21-cf93-e84368c0d52a",
+     "file_manager_id": "2eae8c40-7161-4e51-82fe-3d1ce3ac6c8b"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "1339751_NAB_20261027053009405",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:03:11-04:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "73bb5588-670f-ea88-90b0-2151da504193",
+     "file_manager_id": "efd21a30-78d6-41bd-afc8-fdb1760dec92"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "1339751_Order_Contract_20261027052944261",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:01:56-04:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "b8454055-6ccd-663d-1e46-7cc580e7d888",
+     "file_manager_id": "6d073d9d-34b8-4924-8e18-2f76315dc0eb"
+    },
     {
      "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
      "name": "63403161.10008921_NAB_20261026081029714",
@@ -54275,6 +54350,24 @@
      "folder_id": "56c67288-b82f-e0ff-37b8-cdde7492db78",
      "file_id": "5ff9444c-9827-6ae0-4840-747c6ee61852",
      "file_manager_id": "4750fe01-937f-4bc0-9805-97894117dfd4"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322823_Order_Contract_20261015094620677",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:04:23-04:00",
+     "folder_id": "56c67288-b82f-e0ff-37b8-cdde7492db78",
+     "file_id": "5ff9444c-9827-6ae0-4840-747c6ee61852",
+     "file_manager_id": "4750fe01-937f-4bc0-9805-97894117dfd4"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322829_Order_Contract_20261015093958672",
+     "ext": "pdf",
+     "uploaded": "2026-10-15T11:01:55-04:00",
+     "folder_id": "dbf6212f-7e07-d445-67f4-be96d2c5f972",
+     "file_id": "3b9fa03a-c088-16a5-46d1-fa43af38235f",
+     "file_manager_id": "7915b256-c61a-40c5-9e36-f964bc9cffea"
     },
     {
      "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
@@ -103812,7 +103905,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -105758,7 +105851,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -105786,7 +105879,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -105908,7 +106001,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -105936,7 +106029,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -106078,7 +106171,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -106106,7 +106199,7 @@
    "facility_id": "010036",
    "root_folder": "1569c0cf-22e8-5bfe-35c8-aa1751a93e93",
    "profile": "cable-profile/010036",
-   "scraped_at": "2026-10-27T19:45:33Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "37a24c7e-e732-7ebf-e445-782fc93ad929",
     "2015": "f30b4203-8b55-941b-24f0-e7e10eee6ce9",
@@ -106134,7 +106227,7 @@
    "facility_id": "005143",
    "root_folder": "0aadd1d9-9176-4a37-67a8-0b457f583cf8",
    "profile": "cable-profile/005143",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2017": "91a92350-cbba-d47a-c21b-b72f0306ab77",
     "2018": "25db26c6-f423-128b-b09a-57ed4a1f00a8",
@@ -106207,6 +106300,9 @@
     "Political Files/2026/State/Lafayette LA/County District Attorney ": "df79d2fa-86eb-c09b-af5a-17229aaa7662",
     "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry": "204ff82e-fbd1-92a4-315d-7a519ac30881",
     "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen": "42bed4dc-8d7f-f452-c43c-bbad4805b713",
+    "Political Files/2026/State/Lafayette LA/District Court Judge": "6842e785-b357-3904-6cd0-15975ec9dd7d",
+    "Political Files/2026/State/Lafayette LA/District Court Judge/David Way": "4395eecf-1a08-e448-271d-b4a7f7cf09e7",
+    "Political Files/2026/State/Lafayette LA/District Court Judge/James Klock": "46c46d5e-9590-d742-c872-169f6ff7cfea",
     "Political Files/2026/State/New Orleans": "6f68c81a-beb1-9786-6211-b8427a84438f",
     "Political Files/2026/State/New Orleans/District Court Judge": "447c9e66-3d2c-aa4d-136f-f294aa216411",
     "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols": "a887766f-e447-c566-dc61-664737285946",
@@ -106217,6 +106313,51 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "f8341179-9052-d98e-0f34-5409e7e1d566"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1340522_Order_Contract_20261027053801585",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T20:01:39-04:00",
+     "folder_id": "eee1b5d6-b906-d7cd-7a97-e540e2420378",
+     "file_id": "3b5fe854-5019-c55a-4efa-8d12993cec76",
+     "file_manager_id": "2e8acc2a-a459-43ec-b400-32e0a447bee5"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/District Court Judge/David Way",
+     "name": "1339701_Order_Contract_20261027052020185",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:03:59-04:00",
+     "folder_id": "4395eecf-1a08-e448-271d-b4a7f7cf09e7",
+     "file_id": "b6f4b6e5-515a-2d47-ef42-396d0b48e3b6",
+     "file_manager_id": "7736efcb-62df-478f-af10-c43958e2ac8d"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/District Court Judge/James Klock",
+     "name": "1339700_Order_Contract_20261027052240145",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:03:46-04:00",
+     "folder_id": "46c46d5e-9590-d742-c872-169f6ff7cfea",
+     "file_id": "a9dc3bbe-2054-5cd4-844b-b62986e314dc",
+     "file_manager_id": "2038d243-d507-458e-844c-0508a4750dfc"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "1339751_Order_Contract_20261027052944261",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:03:18-04:00",
+     "folder_id": "42bed4dc-8d7f-f452-c43c-bbad4805b713",
+     "file_id": "6c77e612-fe0b-eb6c-898e-06ac9f16c7e6",
+     "file_manager_id": "eae613c9-6f70-40f4-bea9-437b772efb0c"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "1339751_NAB_20261027053009405",
+     "ext": "pdf",
+     "uploaded": "2026-10-27T19:03:13-04:00",
+     "folder_id": "42bed4dc-8d7f-f452-c43c-bbad4805b713",
+     "file_id": "ce05c69c-25f5-97c5-ddcf-5df061bc0bab",
+     "file_manager_id": "eab6ffb9-47b0-4ad1-96ec-15aae88cf0dc"
+    },
     {
      "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
      "name": "63403161.10008921_NAB_20261026081029714",
@@ -156752,7 +156893,7 @@
    "facility_id": "008277",
    "root_folder": "2832ec99-417b-76ad-1b9f-edc21774de0b",
    "profile": "cable-profile/008277",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "a18e838a-ec38-ea1c-d1b1-2171ce991250",
     "2015": "17bc185a-3e10-a22b-0b78-875ac38be47c",
@@ -156780,7 +156921,7 @@
    "facility_id": "010740",
    "root_folder": "78db5cfe-9e84-bc0d-ffbc-f183d3a456b0",
    "profile": "cable-profile/010740",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "e732cc2c-b053-61bf-d77b-c8c4327e41c7",
     "2015": "b8096ae6-6ef2-25d2-6e19-fd35ddc07e56",
@@ -157030,7 +157171,7 @@
    "facility_id": "007036",
    "root_folder": "497d7643-b970-0bbd-34f2-22ef01c30307",
    "profile": "cable-profile/007036",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "83005020-6e3b-ea2f-ab4d-9259a57550cf",
     "2015": "abbbdefb-fdb2-8043-116a-056e2471ae22",
@@ -157195,7 +157336,7 @@
    "facility_id": "003478",
    "root_folder": "f10c386d-50e2-15da-742b-eec67690a8c2",
    "profile": "cable-profile/003478",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "631b6243-963c-7c7d-9074-5e56b6223b42",
     "2015": "34ffdece-676f-c151-602b-def93572037d",
@@ -160527,7 +160668,7 @@
    "facility_id": "004289",
    "root_folder": "cdee00c3-64fb-d199-4d4c-b71dd549a187",
    "profile": "cable-profile/004289",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "7afb2700-6530-4729-cae5-f74e96799b7c",
     "2015": "bbb92733-60e2-8e21-a6d2-e86039043540",
@@ -162810,7 +162951,7 @@
    "facility_id": "008858",
    "root_folder": "d510e6a7-4f45-a0d3-a76c-5a1f573d52d5",
    "profile": "cable-profile/008858",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "997d5c72-4c87-f06a-8178-94aeac54846f",
     "2015": "2f687d40-8d29-ebb3-6ef7-e46b2248fad6",
@@ -162838,7 +162979,7 @@
    "facility_id": "022095",
    "root_folder": "19aabc03-6246-dd44-3b54-c7e3fa0318e4",
    "profile": "cable-profile/022095",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "8f10b9f9-1f5e-4161-11f9-8e2faee2c017",
     "2015": "bbd41ad1-06c8-15be-a0f0-89c62f3cf1fb",
@@ -162866,7 +163007,7 @@
    "facility_id": "008273",
    "root_folder": "b0dbee07-8242-11d0-1d0c-3704b85765ef",
    "profile": "cable-profile/008273",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "d0be6a3e-3a52-b2aa-fa90-cc0bdf31b7ca",
     "2015": "f1905e9a-6684-17ce-1409-70701d415730",
@@ -162894,7 +163035,7 @@
    "facility_id": "015650",
    "root_folder": "ea41c606-547e-a802-a0d8-c11fa743eef0",
    "profile": "cable-profile/015650",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "b6c925cf-f344-5015-992d-19d7dbac98a7",
     "2015": "a6ead5f3-cfc2-4959-2c20-47282575a66a",
@@ -162922,7 +163063,7 @@
    "facility_id": "003084",
    "root_folder": "5bd9755d-b4bc-f5f5-1e8b-9defd8ac2ade",
    "profile": "cable-profile/003084",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "fa79c064-f3b3-63a1-ea2a-ab9e972cc57a",
     "2015": "7e8133cc-d8c2-0331-f552-f9ed6d3f88db",
@@ -162950,7 +163091,7 @@
    "facility_id": "008691",
    "root_folder": "b333af19-3860-a6e6-fea2-b097c8104064",
    "profile": "cable-profile/008691",
-   "scraped_at": "2026-10-27T16:41:13Z",
+   "scraped_at": "2026-10-28T02:29:12Z",
    "year_folders": {
     "2014": "24c8f34b-4570-501a-5b70-e560d6e97588",
     "2015": "2a4bf7fe-30f5-9441-2411-1e7f1f354697",
@@ -165344,40 +165485,40 @@
  "blocked": null,
  "attempted": {
   "002247": "2026-10-27T19:45:33Z",
-  "002460": "2026-10-27T19:45:33Z",
+  "002460": "2026-10-28T02:29:12Z",
   "003002": "2026-10-27T19:45:33Z",
-  "003084": "2026-10-27T16:41:13Z",
+  "003084": "2026-10-28T02:29:12Z",
   "003376": "2026-10-27T19:45:33Z",
-  "003478": "2026-10-27T16:41:13Z",
-  "003680": "2026-10-27T19:45:33Z",
-  "004289": "2026-10-27T16:41:13Z",
-  "004321": "2026-10-27T19:45:33Z",
+  "003478": "2026-10-28T02:29:12Z",
+  "003680": "2026-10-28T02:29:12Z",
+  "004289": "2026-10-28T02:29:12Z",
+  "004321": "2026-10-28T02:29:12Z",
   "004383": "2026-10-27T19:45:33Z",
-  "005142": "2026-10-27T19:45:33Z",
-  "005143": "2026-10-27T16:41:13Z",
-  "005341": "2026-10-27T19:45:33Z",
-  "006379": "2026-10-27T19:45:33Z",
-  "007033": "2026-10-27T19:45:33Z",
-  "007036": "2026-10-27T16:41:13Z",
-  "007052": "2026-10-27T19:45:33Z",
-  "008048": "2026-10-27T19:45:33Z",
-  "008273": "2026-10-27T16:41:13Z",
-  "008277": "2026-10-27T16:41:13Z",
-  "008564": "2026-10-27T19:45:33Z",
+  "005142": "2026-10-28T02:29:12Z",
+  "005143": "2026-10-28T02:29:12Z",
+  "005341": "2026-10-28T02:29:12Z",
+  "006379": "2026-10-28T02:29:12Z",
+  "007033": "2026-10-28T02:29:12Z",
+  "007036": "2026-10-28T02:29:12Z",
+  "007052": "2026-10-28T02:29:12Z",
+  "008048": "2026-10-28T02:29:12Z",
+  "008273": "2026-10-28T02:29:12Z",
+  "008277": "2026-10-28T02:29:12Z",
+  "008564": "2026-10-28T02:29:12Z",
   "008567": "2026-10-27T19:45:33Z",
-  "008691": "2026-10-27T16:41:13Z",
-  "008858": "2026-10-27T16:41:13Z",
+  "008691": "2026-10-28T02:29:12Z",
+  "008858": "2026-10-28T02:29:12Z",
   "008859": "2026-10-27T19:45:33Z",
-  "010036": "2026-10-27T19:45:33Z",
-  "010740": "2026-10-27T16:41:13Z",
+  "010036": "2026-10-28T02:29:12Z",
+  "010740": "2026-10-28T02:29:12Z",
   "011859": "2026-10-27T19:45:33Z",
   "013331": "2026-10-27T19:45:33Z",
   "014241": "2026-10-27T19:45:33Z",
-  "015650": "2026-10-27T16:41:13Z",
-  "016728": "2026-10-27T19:45:33Z",
-  "020573": "2026-10-27T19:45:33Z",
+  "015650": "2026-10-28T02:29:12Z",
+  "016728": "2026-10-28T02:29:12Z",
+  "020573": "2026-10-28T02:29:12Z",
   "021784": "2026-10-27T19:45:33Z",
-  "022095": "2026-10-27T16:41:13Z",
+  "022095": "2026-10-28T02:29:12Z",
   "022352": "2026-10-27T19:45:33Z",
   "022377": "2026-10-27T19:45:33Z"
  }

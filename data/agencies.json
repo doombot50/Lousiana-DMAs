@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "data_through": "2026-10-26",
  "cycle_from": 2023,
- "documents_read": 5779,
+ "documents_read": 5980,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -14,7 +14,7 @@
    "name": "People Who Think / Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 127,
+    "docs": 129,
     "priced": 4,
     "usd": 34446,
     "stations": [
@@ -195,6 +195,94 @@
    }
   },
   {
+   "key": "TOTALVIDEOPLACEMENTS",
+   "name": "Total Video Placements",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 330,
+    "priced": 191,
+    "usd": 4355960,
+    "stations": [
+     "002460",
+     "003478",
+     "004289",
+     "004321",
+     "005142",
+     "007036",
+     "008048",
+     "KADN",
+     "KARD",
+     "KATC",
+     "KEEL",
+     "KEUN",
+     "KLFY",
+     "KMLB",
+     "KMSS",
+     "KNOE",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KSYL",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KVHP",
+     "WAFB",
+     "WBRP",
+     "WBRZ",
+     "WDSU",
+     "WGNO",
+     "WJBO",
+     "WRNO",
+     "WTIX",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Louisiana Freedom Fund",
+     "Loulsiana Freedom Fund",
+     "Public First Action",
+     "Loulslana Freedom Fund",
+     "Original Date / Revision",
+     "American Soverignty PAC",
+     "Loulstana Freedom Fund",
+     "Loujsiana Freedom Fund",
+     "American Sovereignty",
+     "Louislana Freedom Fund",
+     "Louistana Freedom Fund"
+    ],
+    "first": "2026-01-30",
+    "last": "2026-08-04",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1003,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2004": 1003
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "801",
+      "n": "Steven G. (Buzz) Durio",
+      "p": "REP",
+      "usd": 1003,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "TOTAL VIDEO"
+    ]
+   }
+  },
+  {
    "key": "DELCIELOMEDIA",
    "name": "Del Cielo Media",
    "found_by": "political file",
@@ -277,63 +365,65 @@
    }
   },
   {
-   "key": "TOTALVIDEOPLACEMENTS",
-   "name": "Total Video Placements",
+   "key": "SRCPMEDIA",
+   "name": "SRCPmedia",
    "found_by": "political file",
    "fcc": {
-    "docs": 324,
+    "docs": 357,
     "priced": 188,
-    "usd": 4015465,
+    "usd": 2212058,
     "stations": [
      "002460",
-     "003478",
      "004289",
-     "004321",
      "005142",
-     "007036",
+     "005341",
      "008048",
      "KADN",
      "KARD",
      "KATC",
-     "KEEL",
-     "KEUN",
      "KLFY",
-     "KMLB",
      "KMSS",
      "KNOE",
      "KPLC",
      "KPXJ",
      "KSLA",
-     "KSYL",
      "KTAL",
      "KTBS",
+     "KTDY",
      "KTVE",
-     "KVHP",
      "WAFB",
-     "WBRP",
      "WBRZ",
      "WDSU",
+     "WGMB",
      "WGNO",
      "WJBO",
+     "WKBU",
+     "WLMG",
+     "WNOE",
      "WRNO",
-     "WTIX",
-     "WWL-TV"
+     "WRQQ",
+     "WVLA",
+     "WVUE",
+     "WWL",
+     "WWL-TV",
+     "WYNK"
     ],
     "clients": [
-     "Louisiana Freedom Fund",
-     "Loulsiana Freedom Fund",
-     "Public First Action",
-     "Loulslana Freedom Fund",
+     "Bill Cassidy For U.S. Senate",
+     "Bill Cassidy/US Senate/LA/Rep",
+     "Cassidy for Senate",
+     "Cassidy/R/Senate",
+     "Cassidy/Republican/US Senate",
+     "Bill Cassidy - LA Senate",
      "Original Date / Revision",
-     "American Soverignty PAC",
-     "Loulstana Freedom Fund",
-     "Loujsiana Freedom Fund",
-     "American Sovereignty",
-     "Louislana Freedom Fund",
-     "Louistana Freedom Fund"
+     "Cassidy/D/Senate",
+     "BIN Cassidy For U,S. Senate",
+     "Blil Cassidy For U.S, Senate",
+     "Bill Cassidy Fer U.S. Senate",
+     "Les Williamson"
     ],
-    "first": "2026-01-30",
-    "last": "2026-08-04",
+    "first": "2026-01-26",
+    "last": "2026-08-25",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -341,26 +431,35 @@
     }
    },
    "paid": {
-    "total": 1003,
-    "media": 0,
-    "rows": 1,
+    "total": 199974,
+    "media": 47500,
+    "rows": 3,
     "media_cycle": 0,
     "cycle": 0,
     "years": {
-     "2004": 1003
+     "2017": 152474,
+     "2018": 47500
     },
-    "committees": 1,
+    "committees": 2,
     "top": [
      {
-      "f": "801",
-      "n": "Steven G. (Buzz) Durio",
-      "p": "REP",
-      "usd": 1003,
+      "f": "4131",
+      "n": "Yes On 1 PAC",
+      "p": "OTH",
+      "usd": 152474,
+      "cycle": 0
+     },
+     {
+      "f": "4228",
+      "n": "Jefferson Safe & Strong PAC",
+      "p": "OTH",
+      "usd": 47500,
       "cycle": 0
      }
     ],
     "spellings": [
-     "TOTAL VIDEO"
+     "SRCP MEDIA, INC.",
+     "SRCP MEDIA"
     ]
    }
   },
@@ -369,11 +468,12 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 46,
+    "docs": 47,
     "priced": 13,
     "usd": 193825,
     "stations": [
      "002460",
+     "005142",
      "005341",
      "008048",
      "KALB",
@@ -399,7 +499,7 @@
      "Schroder for BESE"
     ],
     "first": "2026-03-24",
-    "last": "2026-10-23",
+    "last": "2026-10-27",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -539,105 +639,6 @@
    }
   },
   {
-   "key": "SRCPMEDIA",
-   "name": "SRCPmedia",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 349,
-    "priced": 182,
-    "usd": 2109838,
-    "stations": [
-     "002460",
-     "004289",
-     "005142",
-     "005341",
-     "008048",
-     "KADN",
-     "KARD",
-     "KATC",
-     "KLFY",
-     "KMSS",
-     "KNOE",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTDY",
-     "KTVE",
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WGMB",
-     "WGNO",
-     "WJBO",
-     "WKBU",
-     "WLMG",
-     "WNOE",
-     "WRNO",
-     "WRQQ",
-     "WVLA",
-     "WVUE",
-     "WWL",
-     "WWL-TV",
-     "WYNK"
-    ],
-    "clients": [
-     "Bill Cassidy For U.S. Senate",
-     "Bill Cassidy/US Senate/LA/Rep",
-     "Cassidy for Senate",
-     "Cassidy/R/Senate",
-     "Cassidy/Republican/US Senate",
-     "Bill Cassidy - LA Senate",
-     "Original Date / Revision",
-     "Cassidy/D/Senate",
-     "BIN Cassidy For U,S. Senate",
-     "Blil Cassidy For U.S, Senate",
-     "Bill Cassidy Fer U.S. Senate",
-     "Les Williamson"
-    ],
-    "first": "2026-01-26",
-    "last": "2026-08-25",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 199974,
-    "media": 47500,
-    "rows": 3,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2017": 152474,
-     "2018": 47500
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "4131",
-      "n": "Yes On 1 PAC",
-      "p": "OTH",
-      "usd": 152474,
-      "cycle": 0
-     },
-     {
-      "f": "4228",
-      "n": "Jefferson Safe & Strong PAC",
-      "p": "OTH",
-      "usd": 47500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "SRCP MEDIA, INC.",
-     "SRCP MEDIA"
-    ]
-   }
-  },
-  {
    "key": "AXMEDIA",
    "name": "AxMedia",
    "found_by": "political file",
@@ -680,14 +681,14 @@
     "first": "2026-01-23",
     "last": "2026-10-27",
     "away": {
-     "docs": 55,
-     "usd": 232625,
+     "docs": 61,
+     "usd": 279940,
      "clients": [
       "Chris Spencer/State Representat Dist1/TX/Rep",
       "Chris Spencer Campaign",
       "Ken Paxton Victory Fund",
-      "Ken Paxton For Senate",
       "Chris Spencer for TX State Rep District 1",
+      "Ken Paxton For Senate",
       "encer Campalgn"
      ]
     }
@@ -1025,8 +1026,8 @@
     "first": "2026-02-17",
     "last": "2026-10-26",
     "away": {
-     "docs": 25,
-     "usd": 93055,
+     "docs": 26,
+     "usd": 99935,
      "clients": [
       "Huffines for Comptroller",
       "Don Huffines/Comptroller/TX/Rep",
@@ -2170,15 +2171,15 @@
     "first": "2026-01-23",
     "last": "2026-10-23",
     "away": {
-     "docs": 76,
-     "usd": 417697,
+     "docs": 87,
+     "usd": 467307,
      "clients": [
       "Josh Bray/State Senate Dist1/TX/Rep Invoice",
       "Texans for Dan Patrick/Lt Governor/Rep",
       "Dan Patrick for Lt Governor",
+      "Josh Bray Texas Representative Distrcit 1",
       "Kelley Crisp/District Attorney/TX/Rep Invoice",
-      "Texans United for a Conservative Majority PAC",
-      "Josh Bray Texas Representative Distrcit 1"
+      "Texans United for a Conservative Majority PAC"
      ]
     }
    }
@@ -2872,7 +2873,7 @@
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 27,
+    "docs": 28,
     "priced": 18,
     "usd": 131460,
     "stations": [
@@ -2895,7 +2896,7 @@
      "Barthelemy/D/State Senate Dist 3"
     ],
     "first": "2026-02-05",
-    "last": "2026-10-26",
+    "last": "2026-10-27",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -3854,6 +3855,164 @@
    }
   },
   {
+   "key": "VELOCITYAGENCY",
+   "name": "Velocity Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 8,
+    "priced": 6,
+    "usd": 106280,
+    "stations": [
+     "WDSU",
+     "WVUE"
+    ],
+    "clients": [
+     "Seuzeneau/R/St Tammany Sheriff",
+     "Seuzeneau For Sheriff"
+    ],
+    "first": "2026-08-11",
+    "last": "2026-10-27",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1665095,
+    "media": 226930,
+    "rows": 157,
+    "media_cycle": 44044,
+    "cycle": 535268,
+    "years": {
+     "2015": 307335,
+     "2017": 450,
+     "2018": 13736,
+     "2019": 261852,
+     "2020": 469569,
+     "2021": 1020,
+     "2022": 75865,
+     "2023": 279577,
+     "2024": 61028,
+     "2025": 15150,
+     "2026": 179514
+    },
+    "committees": 22,
+    "top": [
+     {
+      "f": "7714",
+      "n": "Daniel Seuzeneau",
+      "p": "OTH",
+      "usd": 168989,
+      "cycle": 168989
+     },
+     {
+      "f": "5988",
+      "n": "Tara Zeller",
+      "p": "REP",
+      "usd": 160964,
+      "cycle": 160964
+     },
+     {
+      "f": "1717",
+      "n": "Wayne J. Landry",
+      "p": "DEM",
+      "usd": 101262,
+      "cycle": 101262
+     },
+     {
+      "f": "6358",
+      "n": "Julious Collin Sims",
+      "p": "DEM",
+      "usd": 58753,
+      "cycle": 58753
+     },
+     {
+      "f": "3905",
+      "n": "St Tammany Chamber PAC",
+      "p": "OTH",
+      "usd": 22500,
+      "cycle": 22500
+     },
+     {
+      "f": "5773",
+      "n": "James Travis",
+      "p": "REP",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 7800,
+      "cycle": 7800
+     },
+     {
+      "f": "680",
+      "n": "Elton Lagasse",
+      "p": "REP",
+      "usd": 213838,
+      "cycle": 0
+     },
+     {
+      "f": "4691",
+      "n": "Vincent J. \"Vinny\" Lobello",
+      "p": "REP",
+      "usd": 192486,
+      "cycle": 0
+     },
+     {
+      "f": "1671",
+      "n": "Richard A. Swartz, Jr.",
+      "p": "REP",
+      "usd": 167265,
+      "cycle": 0
+     },
+     {
+      "f": "5300",
+      "n": "Eric Bopp",
+      "p": "DEM",
+      "usd": 148544,
+      "cycle": 0
+     },
+     {
+      "f": "5061",
+      "n": "Vincent F. Wynne, Jr.",
+      "p": "REP",
+      "usd": 143977,
+      "cycle": 0
+     },
+     {
+      "f": "2182",
+      "n": "Michael O'Brien",
+      "p": "REP",
+      "usd": 92952,
+      "cycle": 0
+     },
+     {
+      "f": "1591",
+      "n": "Ben Zahn",
+      "p": "REP",
+      "usd": 75865,
+      "cycle": 0
+     },
+     {
+      "f": "4582",
+      "n": "Tracey Powell",
+      "p": "REP",
+      "usd": 45916,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "VELOCITY AGENCY",
+     "VELOCITY AGENCY, LLC",
+     "VELOCITY AGENCY LLC"
+    ]
+   }
+  },
+  {
    "key": "ZETAGLOBAL",
    "name": "Zeta Global",
    "found_by": "filings",
@@ -4758,163 +4917,6 @@
     ],
     "spellings": [
      "AI DIGITAL"
-    ]
-   }
-  },
-  {
-   "key": "VELOCITYAGENCY",
-   "name": "Velocity Agency",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 7,
-    "priced": 5,
-    "usd": 76110,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Seuzeneau/R/St Tammany Sheriff",
-     "Seuzeneau For Sheriff"
-    ],
-    "first": "2026-08-11",
-    "last": "2026-10-07",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1665095,
-    "media": 226930,
-    "rows": 157,
-    "media_cycle": 44044,
-    "cycle": 535268,
-    "years": {
-     "2015": 307335,
-     "2017": 450,
-     "2018": 13736,
-     "2019": 261852,
-     "2020": 469569,
-     "2021": 1020,
-     "2022": 75865,
-     "2023": 279577,
-     "2024": 61028,
-     "2025": 15150,
-     "2026": 179514
-    },
-    "committees": 22,
-    "top": [
-     {
-      "f": "7714",
-      "n": "Daniel Seuzeneau",
-      "p": "OTH",
-      "usd": 168989,
-      "cycle": 168989
-     },
-     {
-      "f": "5988",
-      "n": "Tara Zeller",
-      "p": "REP",
-      "usd": 160964,
-      "cycle": 160964
-     },
-     {
-      "f": "1717",
-      "n": "Wayne J. Landry",
-      "p": "DEM",
-      "usd": 101262,
-      "cycle": 101262
-     },
-     {
-      "f": "6358",
-      "n": "Julious Collin Sims",
-      "p": "DEM",
-      "usd": 58753,
-      "cycle": 58753
-     },
-     {
-      "f": "3905",
-      "n": "St Tammany Chamber PAC",
-      "p": "OTH",
-      "usd": 22500,
-      "cycle": 22500
-     },
-     {
-      "f": "5773",
-      "n": "James Travis",
-      "p": "REP",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "7532",
-      "n": "Cameron M. Mary",
-      "p": "OTH",
-      "usd": 7800,
-      "cycle": 7800
-     },
-     {
-      "f": "680",
-      "n": "Elton Lagasse",
-      "p": "REP",
-      "usd": 213838,
-      "cycle": 0
-     },
-     {
-      "f": "4691",
-      "n": "Vincent J. \"Vinny\" Lobello",
-      "p": "REP",
-      "usd": 192486,
-      "cycle": 0
-     },
-     {
-      "f": "1671",
-      "n": "Richard A. Swartz, Jr.",
-      "p": "REP",
-      "usd": 167265,
-      "cycle": 0
-     },
-     {
-      "f": "5300",
-      "n": "Eric Bopp",
-      "p": "DEM",
-      "usd": 148544,
-      "cycle": 0
-     },
-     {
-      "f": "5061",
-      "n": "Vincent F. Wynne, Jr.",
-      "p": "REP",
-      "usd": 143977,
-      "cycle": 0
-     },
-     {
-      "f": "2182",
-      "n": "Michael O'Brien",
-      "p": "REP",
-      "usd": 92952,
-      "cycle": 0
-     },
-     {
-      "f": "1591",
-      "n": "Ben Zahn",
-      "p": "REP",
-      "usd": 75865,
-      "cycle": 0
-     },
-     {
-      "f": "4582",
-      "n": "Tracey Powell",
-      "p": "REP",
-      "usd": 45916,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "VELOCITY AGENCY",
-     "VELOCITY AGENCY, LLC",
-     "VELOCITY AGENCY LLC"
     ]
    }
   },
@@ -6054,6 +6056,167 @@
    }
   },
   {
+   "key": "BRANDONGUICHARDDIGITAL",
+   "name": "Brandon Guichard Digital Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 14,
+    "priced": 7,
+    "usd": 64705,
+    "stations": [
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "JUSTICE PAC",
+     "Justin for Public Service Commission",
+     "Jewett/D/Congress",
+     "Holmes for Judge",
+     "Roche/D/Judge",
+     "Holmes/D/OP Crim Dist Court Div",
+     "Justin/NP/PSC District 1"
+    ],
+    "first": "2026-08-06",
+    "last": "2026-10-27",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 377011,
+    "media": 0,
+    "rows": 75,
+    "media_cycle": 0,
+    "cycle": 265324,
+    "years": {
+     "2020": 31762,
+     "2021": 33750,
+     "2022": 46175,
+     "2023": 68556,
+     "2025": 165568,
+     "2026": 31200
+    },
+    "committees": 20,
+    "top": [
+     {
+      "f": "1921",
+      "n": "Helena Moreno",
+      "p": "DEM",
+      "usd": 161924,
+      "cycle": 161924
+     },
+     {
+      "f": "5507",
+      "n": "Dustin Granger",
+      "p": "DEM",
+      "usd": 28000,
+      "cycle": 28000
+     },
+     {
+      "f": "4399",
+      "n": "Jeremy LaCombe",
+      "p": "REP",
+      "usd": 36150,
+      "cycle": 15000
+     },
+     {
+      "f": "6149",
+      "n": "Madison O'Malley",
+      "p": "DEM",
+      "usd": 13950,
+      "cycle": 13950
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 10700,
+      "cycle": 10700
+     },
+     {
+      "f": "7779",
+      "n": "Lacy Landrum",
+      "p": "OTH",
+      "usd": 8000,
+      "cycle": 8000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "957",
+      "n": "Byron Lee",
+      "p": "DEM",
+      "usd": 7250,
+      "cycle": 7250
+     },
+     {
+      "f": "2598",
+      "n": "Kimya Holmes",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 17250,
+      "cycle": 4000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 4000,
+      "cycle": 4000
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 23000,
+      "cycle": 0
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 19675,
+      "cycle": 0
+     },
+     {
+      "f": "2345",
+      "n": "Leo J. Palazzo",
+      "p": "REP",
+      "usd": 10500,
+      "cycle": 0
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 7257,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BRANDON GUICHARD DIGITAL GROUP",
+     "BRANDON GUICHARD",
+     "BRANDON GUICHARD DIGITAL"
+    ]
+   }
+  },
+  {
    "key": "POLITICALCOMMUNICATIONSADVERTISING",
    "name": "Political Communications Advertising",
    "found_by": "filings",
@@ -6944,166 +7107,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "BRANDONGUICHARDDIGITAL",
-   "name": "Brandon Guichard Digital Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 12,
-    "priced": 6,
-    "usd": 44020,
-    "stations": [
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "JUSTICE PAC",
-     "Justin for Public Service Commission",
-     "Holmes for Judge",
-     "Roche/D/Judge",
-     "Holmes/D/OP Crim Dist Court Div",
-     "Jewett/D/Congress"
-    ],
-    "first": "2026-08-06",
-    "last": "2026-10-26",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 377011,
-    "media": 0,
-    "rows": 75,
-    "media_cycle": 0,
-    "cycle": 265324,
-    "years": {
-     "2020": 31762,
-     "2021": 33750,
-     "2022": 46175,
-     "2023": 68556,
-     "2025": 165568,
-     "2026": 31200
-    },
-    "committees": 20,
-    "top": [
-     {
-      "f": "1921",
-      "n": "Helena Moreno",
-      "p": "DEM",
-      "usd": 161924,
-      "cycle": 161924
-     },
-     {
-      "f": "5507",
-      "n": "Dustin Granger",
-      "p": "DEM",
-      "usd": 28000,
-      "cycle": 28000
-     },
-     {
-      "f": "4399",
-      "n": "Jeremy LaCombe",
-      "p": "REP",
-      "usd": 36150,
-      "cycle": 15000
-     },
-     {
-      "f": "6149",
-      "n": "Madison O'Malley",
-      "p": "DEM",
-      "usd": 13950,
-      "cycle": 13950
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 10700,
-      "cycle": 10700
-     },
-     {
-      "f": "7779",
-      "n": "Lacy Landrum",
-      "p": "OTH",
-      "usd": 8000,
-      "cycle": 8000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "957",
-      "n": "Byron Lee",
-      "p": "DEM",
-      "usd": 7250,
-      "cycle": 7250
-     },
-     {
-      "f": "2598",
-      "n": "Kimya Holmes",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 17250,
-      "cycle": 4000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 4000,
-      "cycle": 4000
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 23000,
-      "cycle": 0
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 19675,
-      "cycle": 0
-     },
-     {
-      "f": "2345",
-      "n": "Leo J. Palazzo",
-      "p": "REP",
-      "usd": 10500,
-      "cycle": 0
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 7257,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BRANDON GUICHARD DIGITAL GROUP",
-     "BRANDON GUICHARD",
-     "BRANDON GUICHARD DIGITAL"
-    ]
    }
   },
   {
@@ -11283,6 +11286,91 @@
    }
   },
   {
+   "key": "WOODFORKANDASSOCIATES",
+   "name": "Woodfork & Associates",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 1,
+    "usd": 1420,
+    "stations": [
+     "KMEZ"
+    ],
+    "clients": [
+     "Barthelemy/D/State Senate-Agency"
+    ],
+    "first": "2026-03-03",
+    "last": "2026-03-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 30097,
+    "media": 0,
+    "rows": 15,
+    "media_cycle": 0,
+    "cycle": 30097,
+    "years": {
+     "2023": 4920,
+     "2025": 485,
+     "2026": 24692
+    },
+    "committees": 6,
+    "top": [
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 8488,
+      "cycle": 8488
+     },
+     {
+      "f": "2598",
+      "n": "Kimya Holmes",
+      "p": "DEM",
+      "usd": 7000,
+      "cycle": 7000
+     },
+     {
+      "f": "6845",
+      "n": "Sidney Barthelemy II",
+      "p": "DEM",
+      "usd": 6000,
+      "cycle": 6000
+     },
+     {
+      "f": "1190",
+      "n": "Shawn Wilson",
+      "p": "DEM",
+      "usd": 4920,
+      "cycle": 4920
+     },
+     {
+      "f": "6712",
+      "n": "SHERYL HOWARD",
+      "p": "DEM",
+      "usd": 3204,
+      "cycle": 3204
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 485,
+      "cycle": 485
+     }
+    ],
+    "spellings": [
+     "WOODFORK & ASSOCIATES",
+     "WOODFORK & ASSOCIATES CONSULTING",
+     "WOODFORK AND ASSOCIATES"
+    ]
+   }
+  },
+  {
    "key": "MOBILECOMMUNICATIONSSERVICE",
    "name": "Mobile Communications Service",
    "found_by": "political file",
@@ -13800,8 +13888,8 @@
     "first": "2026-02-10",
     "last": "2026-10-26",
     "away": {
-     "docs": 109,
-     "usd": 1314348,
+     "docs": 110,
+     "usd": 1327858,
      "clients": [
       "Texans for Greg Abbott - PO Box",
       "Texans for Greg Abbott/Governor/TX/Rep",
@@ -18704,11 +18792,12 @@
    "name": "Herbierto Ramirez and Allan",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KEEL"
+     "KEEL",
+     "KROF"
     ],
     "clients": [
      "Kalshi Inc"
@@ -19002,7 +19091,7 @@
     "first": "2026-09-28",
     "last": "2026-10-27",
     "away": {
-     "docs": 13,
+     "docs": 14,
      "usd": 25750,
      "clients": [
       "Gina Hinojosa Campaign",
@@ -21690,6 +21779,13 @@
     "n": "Alpha Media & Public Relations",
     "usd": 81786,
     "cycle": 76456,
+    "fcc": true
+   },
+   {
+    "k": "WOODFORKANDASSOCIATES",
+    "n": "Woodfork & Associates",
+    "usd": 4920,
+    "cycle": 4920,
     "fcc": true
    },
    {
@@ -29626,6 +29722,13 @@
   ],
   "2598": [
    {
+    "k": "WOODFORKANDASSOCIATES",
+    "n": "Woodfork & Associates",
+    "usd": 7000,
+    "cycle": 7000,
+    "fcc": true
+   },
+   {
     "k": "BRANDONGUICHARDDIGITAL",
     "n": "Brandon Guichard Digital Group",
     "usd": 5000,
@@ -30099,6 +30202,13 @@
     "n": "Victoria Coulon Consulting",
     "usd": 16280,
     "cycle": 16280,
+    "fcc": true
+   },
+   {
+    "k": "WOODFORKANDASSOCIATES",
+    "n": "Woodfork & Associates",
+    "usd": 8488,
+    "cycle": 8488,
     "fcc": true
    },
    {
@@ -43859,6 +43969,13 @@
     "usd": 64245,
     "cycle": 64245,
     "fcc": true
+   },
+   {
+    "k": "WOODFORKANDASSOCIATES",
+    "n": "Woodfork & Associates",
+    "usd": 3204,
+    "cycle": 3204,
+    "fcc": true
    }
   ],
   "6719": [
@@ -44185,6 +44302,13 @@
     "n": "Fire on the Bayou / POL",
     "usd": 13550,
     "cycle": 13550,
+    "fcc": true
+   },
+   {
+    "k": "WOODFORKANDASSOCIATES",
+    "n": "Woodfork & Associates",
+    "usd": 6000,
+    "cycle": 6000,
     "fcc": true
    },
    {
