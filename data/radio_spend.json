@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-28",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506381,
- "data_through": "2026-10-26",
+ "rows_scanned": 1506743,
+ "data_through": "2026-10-27",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13233024.13,
+ "total_spend": 13233209.13,
  "gov_year_share": 0.5446,
  "by_year": {
   "2000": 27912.25,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 164694.31
+  "2026": 164879.31
  },
  "stations": [
   {
@@ -803,10 +803,10 @@
     "AM",
     "FM"
    ],
-   "spend": 272347.36,
-   "rows": 404,
-   "committees": 159,
-   "avg_buy": 674.13,
+   "spend": 272532.36,
+   "rows": 405,
+   "committees": 160,
+   "avg_buy": 672.92,
    "by_year": {
     "2002": 813.5,
     "2003": 16212.83,
@@ -830,7 +830,7 @@
     "2023": 48771.51,
     "2024": 1175.0,
     "2025": 555.0,
-    "2026": 2095.36
+    "2026": 2280.36
    },
    "top_committees": [
     {
@@ -4265,7 +4265,7 @@
    ]
   }
  ],
- "classified_spend": 11190355.48,
+ "classified_spend": 11190540.48,
  "unclassified_tail": {
   "amount": 2042668.65,
   "stations": 254,
@@ -4328,11 +4328,11 @@
   },
   {
    "category": "Christian",
-   "spend": 272347.36,
+   "spend": 272532.36,
    "stations": 1,
-   "rows": 404,
-   "committees": 159,
-   "avg_buy": 674.13,
+   "rows": 405,
+   "committees": 160,
+   "avg_buy": 672.92,
    "share": 0.0206
   },
   {
@@ -4396,7 +4396,7 @@
   },
   {
    "owner": "Agape Broadcasters",
-   "spend": 272347.36,
+   "spend": 272532.36,
    "stations": 1,
    "share": 0.0206
   },
@@ -4905,7 +4905,7 @@
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
   "name_collisions_rejected": {
-   "amount": 9132468.61,
+   "amount": 9132508.61,
    "examples": [
     "WORD",
     "WEST",

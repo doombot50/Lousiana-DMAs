@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-28",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506381,
- "data_through": "2026-10-26",
+ "rows_scanned": 1506743,
+ "data_through": "2026-10-27",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121473786.23,
+ "total_spend": 121488113.68,
  "pace": {
   "weeks": [
    -104,
@@ -790,17 +790,17 @@
      1537066.87,
      1669185.87,
      1669185.87,
-     1669185.87
+     1683513.32
     ]
    }
   ],
   "note": "cumulative TV dollars from every state committee, by week relative to the governor's-race primary; includes the legislative and local races on the same ballots"
  },
  "recent_buyers": {
-  "since": "2025-10-27",
-  "through": "2026-10-26",
-  "total": 1600445.87,
-  "committees": 31,
+  "since": "2025-10-28",
+  "through": "2026-10-27",
+  "total": 1614773.32,
+  "committees": 33,
   "top": [
    {
     "name": "FIRST PRINCIPLES PAC",
@@ -1687,9 +1687,9 @@
    "dma_rank_2024_25": 91,
    "owner": "KTBS, LLC",
    "owner_group": "local",
-   "spend": 6597114.15,
-   "rows": 583,
-   "committees": 136,
+   "spend": 6608878.85,
+   "rows": 584,
+   "committees": 137,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -1714,7 +1714,7 @@
     "2023": 895446.51,
     "2024": 9578.0,
     "2025": 5687.1,
-    "2026": 70935.0
+    "2026": 82699.7
    },
    "top_committees": [
     {
@@ -2021,11 +2021,11 @@
    "dma_rank_2024_25": 177,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 5556579.01,
-   "rows": 542,
-   "committees": 141,
+   "spend": 5559141.76,
+   "rows": 543,
+   "committees": 142,
    "first_year": 2000,
-   "last_year": 2025,
+   "last_year": 2026,
    "by_year": {
     "2000": 20544.5,
     "2002": 8700.0,
@@ -2049,7 +2049,8 @@
     "2022": 79322.0,
     "2023": 552549.95,
     "2024": 43447.75,
-    "2025": 26572.25
+    "2025": 26572.25,
+    "2026": 2562.75
    },
    "top_committees": [
     {
@@ -4126,7 +4127,7 @@
   {
    "name": "Shreveport",
    "rank": 91,
-   "spend": 16174681.59,
+   "spend": 16186446.29,
    "stations": 5,
    "share": 0.1332
   },
@@ -4135,12 +4136,12 @@
    "rank": 142,
    "spend": 7538116.74,
    "stations": 3,
-   "share": 0.0621
+   "share": 0.062
   },
   {
    "name": "Lake Charles",
    "rank": 177,
-   "spend": 6763786.09,
+   "spend": 6766348.84,
    "stations": 3,
    "share": 0.0557
   },
@@ -4155,7 +4156,7 @@
  "owners": [
   {
    "group": "gray",
-   "spend": 57772765.37,
+   "spend": 57775328.12,
    "stations": 10,
    "share": 0.4756
   },
@@ -4163,13 +4164,13 @@
    "group": "nexstar",
    "spend": 36986188.81,
    "stations": 13,
-   "share": 0.3045
+   "share": 0.3044
   },
   {
    "group": "local",
-   "spend": 15589987.39,
+   "spend": 15601752.09,
    "stations": 3,
-   "share": 0.1283
+   "share": 0.1284
   },
   {
    "group": "hearst",

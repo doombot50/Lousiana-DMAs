@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-28",
- "data_through": "2026-10-26",
+ "data_through": "2026-10-27",
  "cycle_from": 2023,
- "documents_read": 5980,
+ "documents_read": 6128,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1929,7 +1929,7 @@
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 43,
+    "docs": 46,
     "priced": 30,
     "usd": 250512,
     "stations": [
@@ -1941,6 +1941,7 @@
      "WGNO",
      "WLMG",
      "WVUE",
+     "WWL",
      "WWL-TV"
     ],
     "clients": [
@@ -1953,12 +1954,12 @@
      "Brocato/R/JP 1st Court Div",
      "Raines for Judge",
      "John Young/Public Service Commissioner/LA/Rep",
+     "Joe McMahon for",
      "Mark Weiser",
-     "Raines/R/JP First Parish Court Div",
-     "Brian Brennan for Kenner City Council"
+     "Raines/R/JP First Parish Court Div"
     ],
     "first": "2026-04-29",
-    "last": "2026-10-26",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2443,18 +2444,18 @@
     }
    },
    "paid": {
-    "total": 740568,
+    "total": 754643,
     "media": 166925,
-    "rows": 129,
+    "rows": 131,
     "media_cycle": 148305,
-    "cycle": 563798,
+    "cycle": 577873,
     "years": {
      "2021": 73470,
      "2022": 103301,
      "2023": 148107,
      "2024": 63200,
      "2025": 222983,
-     "2026": 129508
+     "2026": 143583
     },
     "committees": 43,
     "top": [
@@ -2515,6 +2516,13 @@
       "cycle": 27501
      },
      {
+      "f": "7517",
+      "n": "Jessica Raines",
+      "p": "OTH",
+      "usd": 22575,
+      "cycle": 22575
+     },
+     {
       "f": "6351",
       "n": "JACQUELINE MALONEY",
       "p": "REP",
@@ -2555,13 +2563,6 @@
       "p": "REP",
       "usd": 10000,
       "cycle": 10000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 9000,
-      "cycle": 9000
      }
     ],
     "spellings": [
@@ -5067,7 +5068,7 @@
    "name": "Capital Business Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 24,
+    "docs": 26,
     "priced": 6,
     "usd": 35033,
     "stations": [
@@ -5075,16 +5076,19 @@
      "KMLB",
      "KRVE",
      "WBRZ",
-     "WJBO"
+     "WJBO",
+     "WUPL",
+     "WWL-TV"
     ],
     "clients": [
      "Raise The Bar PAC",
+     "WATCHDOG PAC",
      "Wendy Edwards for Family Court",
      "Bolt tre 5",
      "Baise ttre Bor PAC"
     ],
     "first": "2026-04-21",
-    "last": "2026-10-23",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -9842,12 +9846,13 @@
    "name": "Williams Creative Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
+    "docs": 9,
     "priced": 3,
     "usd": 9575,
     "stations": [
      "KDKS",
      "KEEL",
+     "KLKL",
      "KMSS",
      "KOKA",
      "KTAL",
@@ -9856,10 +9861,12 @@
     "clients": [
      "Tom Arceneaux for Mayor",
      "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
-     "Pol26/Tom Arceneux for Mayor"
+     "Pol26/Tom Arceneux for Mayor",
+     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
+     "Deven tote, Speen t Mrveleppenp Coryota Hon"
     ],
     "first": "2026-09-30",
-    "last": "2026-10-09",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -10361,6 +10368,29 @@
      "ORION DIGITAL LLC",
      "ORION DIGITAL"
     ]
+   }
+  },
+  {
+   "key": "ENTERPNSESTRATEGIES",
+   "name": "Enterpnse Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 1,
+    "usd": 6240,
+    "stations": [
+     "WYLD"
+    ],
+    "clients": [
+     "Camille Buras for Criminal Dis"
+    ],
+    "first": "2026-10-28",
+    "last": "2026-10-28",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -44877,17 +44907,17 @@
   ],
   "7517": [
    {
+    "k": "VICTORIACOULONCONSULT",
+    "n": "Victoria Coulon Consulting",
+    "usd": 22575,
+    "cycle": 22575,
+    "fcc": true
+   },
+   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 9500,
     "cycle": 9500,
-    "fcc": true
-   },
-   {
-    "k": "VICTORIACOULONCONSULT",
-    "n": "Victoria Coulon Consulting",
-    "usd": 8500,
-    "cycle": 8500,
     "fcc": true
    }
   ],
