@@ -204,6 +204,13 @@ function bars(items, color, total){
     <span class="b" style="width:${v/mx*100}%;background:${c||color}"></span>
     <span class="v" style="left:calc(${v/mx*100}% + 6px)">${money(v)}${total?' · '+Math.round(v/total*100)+'%':''}</span></span></div>`).join('');
 }
+// Booked in the political files against reported in the state filings this
+// year, as on the races page: the gap is spending the next report should carry.
+function repLine(P){
+  if(!P||!P.rep||!P.usd||!PF||!PF.repSince) return '';
+  const [st,ag]=P.rep, got=st+ag, gap=P.usd-got;
+  return `<p class="lead">Reported in ${PF.repSince}, through the ${dshort(PF.repThrough)} reports: <b>${money(got)}</b> (${money(st)} to stations, ${money(ag)} to media agencies)${gap>=10000?` · <b>${money(gap)} booked but not yet on reports</b>`:' · the reports have caught up with the bookings read so far'}.</p>`;
+}
 function renderProfile(c){
   const tot=c.tv+c.ra, ys=Object.entries(c.y);
   const best=ys.length?ys.reduce((a,b)=>(b[1][0]+b[1][1])>(a[1][0]+a[1][1])?b:a):null;
@@ -217,7 +224,8 @@ function renderProfile(c){
       <div class="calls">${P.st.map(s=>{const st=`border-left-color:${s.k?`var(${HUE[s.k]})`:'var(--quiet)'}`, cls='callchip'+(s.r?'':' quiet');
         return s.u?`<a class="${cls}" style="${st}" href="${s.u}" rel="noopener" title="Open ${s.c}'s political file for this buyer">${s.c}</a>`:`<span class="${cls}" style="${st}">${s.c}</span>`;}).join('')}</div>
       ${P.usd?`<p class="lead"><b>${money(P.usd)}</b> in the ${P.priced} order${P.priced===1?'':'s'} and invoice${P.priced===1?'':'s'} read so far${P.ag?`, placed by ${P.ag.map(esc).join(', ')}`:''}.</p>`:P.ag?`<p class="lead">Placed by ${P.ag.map(esc).join(', ')}.</p>`:''}
-      <p class="note">Orders, requests and invoices stations post to the FCC within days of a buy; dollars are the gross of the documents read so far (a few dozen a night), each order once, so they are a floor. Faded call signs have nothing in the last ${PF.days} days. Matched to this filer by name; <a href="${TV}#pf=local">all political-file buyers</a>.</p></div>` : '';
+      ${repLine(P)}
+      <p class="note">Orders, requests and invoices stations post to the FCC within days of a buy; dollars are the gross of the documents read so far, each order once, so they are a floor. Reported counts payments to stations and every payment to the committee's media agencies, production included, so the gap errs small; reports lag the stations' files by weeks, so a gap is normal right after a buy. Faded call signs have nothing in the last ${PF.days} days. Matched to this filer by name; <a href="${TV}#pf=local">all political-file buyers</a>.</p></div>` : '';
   const mkts=c.mk.map(([k,v])=>[MKT[k],v,`var(${HUE[k]})`,mapLink(k)]);
   const el=document.getElementById('profile');
   el.innerHTML=`<button type="button" class="back" id="back">← All committees</button>
@@ -226,7 +234,7 @@ function renderProfile(c){
     ${c.race?`<div class="panel bk"><h3>On the ballot</h3><p class="lead"><b>${esc(c.race[2])}</b>, ${dlong(c.race[0])}. <a href="${TV}races.html#${new URLSearchParams({e:c.race[0],r:c.race[1]})}">The race and its candidates' money →</a></p></div>`:''}
     ${bk}
     ${c.ag?`<div class="panel bk"><h3>Media agencies · state filings</h3>
-      <p class="lead">Paid <b>${money(c.ag.reduce((a,x)=>a+x[1],0))}</b> to media firms that buy airtime from stations on a committee's behalf. Whatever they passed on to stations isn't in the station totals${tot?' below':''}, which count only payments made to stations directly.</p>
+      <p class="lead">Paid <b>${money(c.ag.reduce((a,x)=>a+x[1],0))}</b>${c.ag.some(x=>x[2])&&PF&&PF.agFrom?` (${money(c.ag.reduce((a,x)=>a+x[2],0))} of it since ${PF.agFrom})`:''} to media firms that buy airtime from stations on a committee's behalf. Whatever they passed on to stations isn't in the station totals${tot?' below':''}, which count only payments made to stations directly.</p>
       ${bars(c.ag.map(([n,v,cy,f])=>[n+(f?' ·':''),v,'var(--quiet)',null]))}
       <p class="note">Everything the committee paid each firm, under any spelling, since 2000; it can include production and consulting as well as airtime. A dot marks a firm a station's political file names as the buying agency. <a href="${TV}#ag-sec">All agencies</a>.</p></div>`:''}
     ${tot?`<div class="stats">
