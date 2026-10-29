@@ -265,6 +265,44 @@ def airtime(fn, tv, ra):
     return round(yrs(t)), round(yrs(r))
 
 
+def reported(fn, since, tv, ra, ag):
+    """What a committee's state reports show it paid for airtime since
+    `since` (a year): to stations directly, and to media agencies, every
+    payment whatever its description (committees describe them loosely:
+    "Media", "Commercial", "balance on media contract"), so the gap errs
+    small rather than flag spending already reported."""
+    yrs = lambda d: sum(v for y, v in (d or {}).items() if y >= since)
+    stations = yrs((tv.get(fn) or {}).get('years')) + yrs((ra.get(fn) or {}).get('years'))
+    agencies = sum(yrs(a.get('y')) for a in ag.get(fn, []))
+    return round(stations), round(agencies)
+
+
+def coming(F, since, tv, ra, ag, filer_name, limit=15):
+    """The state committees whose political files show more booked airtime
+    than their reports show paid since `since`: spending the next reports
+    should carry. Federal campaigns report to the FEC and are left out."""
+    # One committee, however many names stations file it under.
+    by = {}
+    for x in (F or {}).get('all', []):
+        usd = (x.get('usd') or {}).get('usd') or 0
+        if not x.get('f') or x['b'] in ('Federal', 'Out of state') or not usd:
+            continue
+        r = by.setdefault(x['f'], {'n': filer_name(x['f']) or x['name'], 'f': x['f'], 'b': x['b'],
+                                   'booked': 0, 'latest': '', 'via': []})
+        r['booked'] += usd
+        r['latest'] = max(r['latest'], x['latest'] or '')
+        r['via'] += [a for a in x['usd'].get('ag', []) if a not in r['via']]
+    out = []
+    for r in by.values():
+        r['st'], r['ag'] = reported(r['f'], since, tv, ra, ag)
+        r['gap'] = r['booked'] - r['st'] - r['ag']
+        r['via'] = r['via'][:1]
+        if r['gap'] >= 10000:
+            out.append(r)
+    out.sort(key=lambda r: -r['gap'])
+    return out[:limit]
+
+
 def fcc_index(F):
     """Political-file buyers by filer and by person key, for matching
     candidates. A key two buyers share matches neither."""
@@ -504,6 +542,19 @@ def build(today=None):
                     c['p'] = party[c['f']]
     for e in elections:
         outside_groups(F, e)
+    # Booked against reported: a state candidate's political-file dollars
+    # beside what their reports show paid for airtime this year, to stations
+    # and to media agencies. The difference is spending the next report
+    # should carry.
+    ag = load(D('data', 'agencies.json'), {})
+    since = str(today.year)
+    for e in elections:
+        for r in e['races']:
+            for c in r['c'] + e.get('field', []):
+                if c.get('f') and (c.get('pf') or {}).get('usd'):
+                    c['rep'] = list(reported(c['f'], since, tv, ra, ag.get('by_filer', {})))
+    names = {fn: v[0] for fn, v in ag.get('filers', {}).items()}
+    names.update({fn: e['name'] for fn, e in fin.index.items()})
     wins = fin.wins
     data = {
         'elections': elections,
@@ -513,6 +564,8 @@ def build(today=None):
         'wins': {'tier': {x['tier']: [x['rate'], x['n']] for x in wins.get('by_tier', [])},
                  'all': [wins['overall']['rate'], wins['overall']['n_races']] if wins.get('overall') else None,
                  'span': wins.get('span')} if wins else None,
+        'coming': {'since': since, 'through': ag.get('data_through'),
+                   'rows': coming(F, since, tv, ra, ag.get('by_filer', {}), names.get)},
         'fetched': ballot.get('fetched'),
         'fecFetched': fec.fetched,
         'today': today.isoformat(),

@@ -81,7 +81,13 @@ footer p{margin:0 0 10px; max-width:80ch;}
 .feed .d{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted); padding-top:2px;}
 .feed .who{font-weight:600;}
 .feed .what{color:var(--ink2);}
-.feed button.lnk{font:inherit; color:var(--accent-ink); background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px;}
+.coming{border-left-color:var(--accent-ink);}
+.coming li{grid-template-columns:minmax(0,1fr) auto;}
+.coming .gap{font-family:"IBM Plex Mono",monospace; font-size:12.5px; font-weight:600; text-align:right; white-space:nowrap;}
+.coming .gap small{display:block; font-weight:400; font-size:10.5px; color:var(--muted);}
+.cr .pf .rep{display:block; color:var(--muted); font-size:11.5px; margin-top:2px;}
+.cr .pf .rep b{color:var(--ink);}
+.feed button.lnk{text-align:left; font:inherit; color:var(--accent-ink); background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px;}
 .feed .more{font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); background:none; border:0; padding:6px 0 0; cursor:pointer;}
 
 /* races */
@@ -161,6 +167,7 @@ __NAV__
 <main>
   <div class="elex" id="elex" role="group" aria-label="Election"></div>
   <section class="feed" id="feed" hidden></section>
+  <section class="feed coming" id="coming" hidden></section>
   <div class="ctl">
     <input id="q" type="search" placeholder="Search a candidate, office or parish" aria-label="Search races" autocomplete="off">
     <select id="parish" aria-label="Parish"></select>
@@ -180,7 +187,7 @@ __NAV__
 <footer>
   <p><b>Ballot:</b> the Louisiana Secretary of State's election portal, refreshed nightly. It lists contested races once qualifying closes; candidates elected unopposed at qualifying aren't on it. Votes appear here the morning after an election. A parish race is placed in its parish's TV market; a multi-parish race (Congress, judicial districts, PSC, BESE) is placed in the markets of the stations its candidates are booking, so the market filter finds it only once it's on the air.</p>
   <p><b>Money:</b> raised and spent are each candidate's totals for the {{cycle}} election cycle from their state finance reports, via the <a href="https://finance.charliestephens.xyz/">Louisiana campaign-finance dashboard</a>; cash on hand is the certified figure from the latest annual report. TV and radio are what the candidate's committee reported paying stations this cycle, matched as on the <a href="https://airwaves.charliestephens.xyz/">television</a> and <a href="https://airwaves.charliestephens.xyz/radio.html">radio</a> pages. Candidates are matched to their committee by name, and only when exactly one committee matches; a candidate with no match may simply not have filed a report yet, or may spend below the reporting threshold. Federal candidates report to the FEC, not the state: their raised, spent and cash on hand are the campaign's totals for the two-year federal cycle from the FEC's daily summary of House and Senate campaigns, cash as of the end of its latest report, matched to the ballot by name among the campaigns for the same seat. Federal campaigns pay media buyers rather than stations, so their TV and radio column stays empty; the political files are the record of their airtime.</p>
-  <p><b>Political files:</b> orders, invoices and requests that TV stations, cable systems and radio stations post to the FCC within days of a political ad buy, counted as documents. Dollars ("booked") come from reading the documents themselves, a few dozen a night with the newest orders first, by their text or, for a scan, OCR: the gross of each station order once, at its latest revision, with invoices standing in for an order not yet read. It is a floor that grows as more are read, and the only figure here for federal campaigns' airtime. Plain chips are TV stations, italic ones with a dotted edge are cable systems, double-edged ones radio stations, and DirecTV is satellite (its national file is read for Louisiana's folders only); faded ones have nothing in the last two weeks. The bars are documents a week over the last ten weeks. "Booked through" is the latest flight end written into a document's name, which some stations do and most don't; revisions are documents marked as revised orders; "aired" counts the affidavits and confirmations cable systems and DirecTV file after spots have run, where an order or request comes before. A file a cable system lists once per ad zone, or in every system of a sales market, counts once.</p>
+  <p><b>Political files:</b> orders, invoices and requests that TV stations, cable systems and radio stations post to the FCC within days of a political ad buy, counted as documents. Dollars ("booked") come from reading the documents themselves, a few dozen a night with the newest orders first, by their text or, for a scan, OCR: the gross of each station order once, at its latest revision, with invoices standing in for an order not yet read. It is a floor that grows as more are read, and the only figure here for federal campaigns' airtime. Plain chips are TV stations, italic ones with a dotted edge are cable systems, double-edged ones radio stations, and DirecTV is satellite (its national file is read for Louisiana's folders only); faded ones have nothing in the last two weeks. The bars are documents a week over the last ten weeks. "Booked through" is the latest flight end written into a document's name, which some stations do and most don't; revisions are documents marked as revised orders; "aired" counts the affidavits and confirmations cable systems and DirecTV file after spots have run, where an order or request comes before. A file a cable system lists once per ad zone, or in every system of a sales market, counts once. <b>Booked against reported:</b> under a state candidate's political files, what their finance reports show paid this year for airtime, to stations directly and to the media agencies the political files name or that committees have paid at least $100,000 for media work, every payment to them whatever its description; "not yet on reports" is the booked dollars less that, when it's $10,000 or more. Reports lag the stations' files by weeks, so a gap is expected right after a buy; "Coming to the reports" lists the largest.</p>
   <p><b>Does money win:</b> how often the candidate who spent the most won, across every contested Louisiana race since 2000, from the <a href="https://finance.charliestephens.xyz/does-money-win.html">campaign-finance dashboard's study</a>.</p>
 </footer>
 </div>
@@ -268,13 +275,21 @@ function spark(wk){
 function m(v,label,sub){
   return `<span class="m${v?'':' z'}"><span class="lbl">${label}</span>${v?money(v):'—'}${sub?`<small>${sub}</small>`:''}</span>`;
 }
+// Booked in the political files against reported in the state filings this
+// year: what the gap is, spending the next report should carry.
+function repLine(c){
+  if(!c.rep||!c.pf||!c.pf.usd||!DATA.coming) return '';
+  const got=c.rep[0]+c.rep[1], gap=c.pf.usd-got, C=DATA.coming;
+  const tip=`Reported in ${C.since} through ${dshort(C.through)}: ${money(c.rep[0])} paid to stations, ${money(c.rep[1])} to media agencies (every payment to them, so it can include production)`;
+  return `<span class="rep" title="${esc(tip)}">${money(got)} reported in ${C.since}${gap>=10000?` · <b>${money(gap)} not yet on reports</b>`:''}</span>`;
+}
 function cand(c, e){
   const prof=c.f&&(c.tv||c.ra||c.pf);
   const name=c.f?`<a href="${finLink(c)}" title="${esc(c.n)} on the campaign-finance dashboard: donors, spending, reports">${esc(c.n)}</a>`
             :c.fec?`<a href="${fecLink(c)}" rel="noopener" title="${esc(c.n)} at the FEC: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
   const air=(c.tv||0)+(c.ra||0);
   const p=c.pf;
-  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.usd?`<b title="Gross of the ${p.priced} order${p.priced===1?'':'s'} and invoice${p.priced===1?'':'s'} read so far, each order once: a floor${p.ag&&p.ag.length?'. Placed by '+esc(p.ag.join(', ')):''}">${money(p.usd)}</b> booked · `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}${spark(p.wk)}${p.onAir?`<br><span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:''}${p.aired?` · ${p.aired} aired`:''}${p.revs?` · ${p.revs} revision${p.revs===1?'':'s'}`:''}<span class="calls">${p.st.map(chip).join('')}</span></span>`
+  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.usd?`<b title="Gross of the ${p.priced} order${p.priced===1?'':'s'} and invoice${p.priced===1?'':'s'} read so far, each order once: a floor${p.ag&&p.ag.length?'. Placed by '+esc(p.ag.join(', ')):''}">${money(p.usd)}</b> booked · `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}${spark(p.wk)}${p.onAir?`<br><span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:''}${p.aired?` · ${p.aired} aired`:''}${p.revs?` · ${p.revs} revision${p.revs===1?'':'s'}`:''}${repLine(c)}<span class="calls">${p.st.map(chip).join('')}</span></span>`
           :`<span class="pf"><span class="lbl">Political files</span> <span style="color:var(--baseline)">—</span></span>`;
   const won=c.w&&/elect/i.test(c.w);
   const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes</span>`:'', c.w&&!won?esc(c.w):'',
@@ -343,6 +358,24 @@ function renderFeed(e){
   const mo=document.getElementById('feedmore'); if(mo) mo.addEventListener('click',()=>{el.dataset.all='1'; renderFeed(e);});
 }
 
+/* ---------- booked, not yet reported ---------- */
+function renderComing(e){
+  const el=document.getElementById('coming'), C=DATA.coming;
+  if(!C||!C.rows.length||!e||e.d<DATA.today){ el.hidden=true; return; }
+  const where=f=>{for(const ee of E) if(ee.d>=DATA.today) for(const r of ee.races) if(r.c.some(c=>c.f===f)) return [ee.d,r]; return null;};
+  const li=x=>{
+    const w=where(x.f);
+    const what=w?`<button type="button" class="lnk" data-e="${w[0]}" data-r="${esc(w[1].id)}">${esc(w[1].o)}</button>`:x.b==='Issue'?'issue group':'committee';
+    return `<li><span><span class="who"><a href="${CM}#f=${encodeURIComponent(x.f)}" title="${esc(x.n)}'s committee profile">${esc(x.n)}</a></span> · <span class="what">${what}</span><br>
+      <span class="what">${money(x.booked)} booked${x.via.length?' through '+esc(x.via[0]):''} · ${money(x.st+x.ag)} reported (${money(x.st)} to stations, ${money(x.ag)} to agencies) · latest document ${dshort(x.latest)}</span></span>
+      <span class="gap">${money(x.gap)}<small>not yet reported</small></span></li>`;
+  };
+  el.innerHTML=`<h2>Coming to the reports</h2><p class="sub">State committees whose stations' political files show more airtime booked than their finance reports show paid in ${C.since}, through the latest reports (${dshort(C.through)}): spending the next reports should carry. Booked dollars are a floor; reported counts every payment to the committee's media agencies, production included, so the gap errs small. A gap is normal right after a buy; one that outlasts the next report is worth a look. Federal campaigns report to the FEC and aren't here.</p>
+    <ul>${C.rows.map(li).join('')}</ul>`;
+  el.hidden=false;
+  el.querySelectorAll('button.lnk').forEach(b=>b.addEventListener('click',()=>{S.e=b.dataset.e; S.r=b.dataset.r; S.q=''; S.pa=''; S.m=''; S.t=''; render(true);}));
+}
+
 /* ---------- render ---------- */
 function render(jump){
   writeHash();
@@ -356,6 +389,7 @@ function render(jump){
   const out=document.getElementById('races'), cnt=document.getElementById('count'), field=document.getElementById('field');
   if(!e){ out.innerHTML=''; cnt.textContent=''; field.hidden=true; return; }
   renderFeed(e);
+  renderComing(e);
   if(!e.races.length){
     cnt.textContent='';
     out.innerHTML=`<p class="empty">The Secretary of State hasn't posted the ${dlong(e.d)} ballot yet. ${new Date(e.d).getMonth()===11?'Runoffs are set by the results of the election before it.':'It appears once qualifying closes.'}</p>`;
