@@ -174,6 +174,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T17:46:02Z"
   },
+  "008671ab-9c96-4c33-88ac-5b69e486e2bc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 42493.0,
+   "net": 36119.05,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4582826",
+   "invoice_no": "4582826-1",
+   "flight": [
+    "10/05/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Invoices",
+   "name": "Julia Letlow 4582826-1",
+   "uploaded": "2026-10-29T14:57:18-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "008b8fc9-9c09-4226-85a2-40b6d56447c0": {
    "kind": "request",
    "layout": "nab",
@@ -6473,6 +6497,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "0c06c729-b7ac-4c32-b4e8-36ed3f968399": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21331.0,
+   "net": 18131.35,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4602786",
+   "invoice_no": "4602786-1",
+   "flight": [
+    "10/22/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4602786-1",
+   "uploaded": "2026-10-29T14:56:50-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "0c0ebb13-d953-473d-b5d0-a475e94ab410": {
    "kind": "order",
    "layout": "iheart",
@@ -10399,6 +10447,27 @@
    "uploaded": "2026-03-10T14:04:15-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
+  },
+  "13244f1b-3a36-4ac5-b75a-d608d33f4a35": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 4375.0,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "002460",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+   "name": "BLAKE MIGUEZ FOR LOUISIANA_confirm1343195_sys3996_20261029_150007",
+   "uploaded": "2026-10-29T15:54:23-04:00",
+   "name_kind": "aired",
+   "read_at": "2026-10-29T20:14:17Z"
   },
   "132cd71b-cc71-4c58-90ec-af3ca11186e1": {
    "kind": "order",
@@ -14477,6 +14546,27 @@
    "uploaded": "2026-06-19T13:03:10-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
+  },
+  "1a227470-362a-4120-b255-b1b5a3a4b2d5": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Greatest Hits Early Voting Ends Friday 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "1a2a0105-679c-479e-af4d-810f59506ea2": {
    "kind": "request",
@@ -20016,6 +20106,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
   },
+  "23586a2c-b368-484e-a9cb-d890a1190c6a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12676.0,
+   "net": 10774.6,
+   "agency": "Frontier Strategies, LLC",
+   "advertiser": "Rick Edmonds for Congress",
+   "order_no": "4597530",
+   "invoice_no": "4597530-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds/Invoices",
+   "name": "Rick Edmonds 4597530-1",
+   "uploaded": "2026-10-29T14:55:37-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "235ecc10-2483-49b8-92a8-7b92761021dd": {
    "kind": "order",
    "layout": "other",
@@ -21288,6 +21402,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "25b7e31c-dcfe-4ab8-a9b0-57fec8ba69dc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21000.0,
+   "net": 17850.0,
+   "agency": "Taylor Media Service",
+   "advertiser": "Sherman Q Mack District Attorney 21st",
+   "order_no": "4556758",
+   "invoice_no": "4556758-2",
+   "flight": [
+    "09/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Invoices",
+   "name": "Sherman Q Mack 4556758-2",
+   "uploaded": "2026-10-29T14:59:43-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "25bbf38a-9754-4a69-aac6-4655d506ca32": {
    "kind": "order",
    "layout": "contract",
@@ -22173,6 +22311,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "27ad232f-07db-481c-a6f9-382a8c12321c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 65708.0,
+   "net": 55851.8,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4599342",
+   "invoice_no": "4599342-1",
+   "flight": [
+    "10/17/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4599342-1",
+   "uploaded": "2026-10-29T15:01:07-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "27b0f028-7af8-4992-8bf6-65be173e1c9d": {
    "kind": "request",
    "layout": "nab",
@@ -22625,6 +22787,27 @@
    "uploaded": "2026-05-02T03:48:54-04:00",
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
+  },
+  "289f5e1d-ac8b-445b-abab-c8e48f0604da": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Protecting Communities Election Day is Today 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "28b429d5-b708-472c-a8d8-f389eb8d2aa6": {
    "kind": "order",
@@ -24026,6 +24209,30 @@
    "uploaded": "2026-03-04T17:26:11-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
+  },
+  "2ad2a8dc-fa2a-42a2-8938-4b9ce7a5e671": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4950.0,
+   "net": 4207.5,
+   "agency": "Magnolia Media",
+   "advertiser": "Brad Cascio for District Attorney",
+   "order_no": "4597829",
+   "invoice_no": "4597829-1",
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Brad Cascio/Invoices",
+   "name": "Brad Cascio 4597829-1",
+   "uploaded": "2026-10-29T14:58:55-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "2aebb494-aa7e-42bc-89b9-5cb151fcb3d9": {
    "kind": "order",
@@ -26788,6 +26995,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
   },
+  "30876aaf-f487-451b-b886-60462aeb8aa8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 43196.0,
+   "net": 36716.6,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4593978",
+   "invoice_no": "4593978-1",
+   "flight": [
+    "10/14/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4593978-1",
+   "uploaded": "2026-10-29T14:56:50-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "308aadfb-ef27-4426-8d3d-dc2c72d4b910": {
    "kind": "order",
    "layout": "contract",
@@ -28846,6 +29077,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "34248145-3862-4d88-9368-3bf2be2b752e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 43803.0,
+   "net": 37232.55,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4583165",
+   "invoice_no": "4583165-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4583165-1",
+   "uploaded": "2026-10-29T14:56:51-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "3431e4d8-98fa-43c8-9713-b8197032a3a2": {
    "kind": "order",
    "layout": "other",
@@ -29016,6 +29271,27 @@
    "uploaded": "2026-06-24T17:59:02-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T15:11:16Z"
+  },
+  "3498cd29-dfb3-4915-9099-7cebf4b3c181": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Protecting Communities Election Day is Tuesday30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "34a71ce8-b753-4140-bbeb-61d5ab30a3e0": {
    "kind": "request",
@@ -29343,6 +29619,27 @@
    "uploaded": "2026-03-10T14:00:11-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
+  },
+  "3537afc6-0276-4c9d-b437-be6770e450d3": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "JNA",
+   "advertiser": "Texans for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20556 REV 4",
+   "name": "20261029143539033",
+   "uploaded": "2026-10-29T15:34:33-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "353ad8d9-dad0-4a83-ab3f-1b0d2245c056": {
    "kind": "order",
@@ -30431,6 +30728,30 @@
    "uploaded": "2026-04-27T16:48:58-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:39:04Z"
+  },
+  "37333f59-bdd0-46b6-968e-3e5621d7635a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3375.0,
+   "net": 2868.75,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4558566",
+   "invoice_no": "4558566-2",
+   "flight": [
+    "09/21/26",
+    "10/04/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4558566-2",
+   "uploaded": "2026-10-29T14:56:12-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "373acace-e82d-4382-9e09-eb238ddb87a9": {
    "kind": "request",
@@ -32956,6 +33277,27 @@
    "name_kind": "order",
    "read_at": "2026-10-20T02:14:20Z"
   },
+  "3cecf4d3-8999-44ab-9bef-3a8956fbeb21": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Protecting Communities Early Voting Ends Friday 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "3cf635b5-17e6-4591-a08a-37320bb21cae": {
    "kind": "other",
    "layout": "other",
@@ -33390,6 +33732,27 @@
    "uploaded": "2026-05-14T18:52:46-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
+  },
+  "3dd66f72-2fb6-447b-aabc-e32e24882bc3": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Protecting Communities Election Day is Today 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "3dfcbf2a-aff9-46d9-a9c1-c43bbed653e5": {
    "kind": "invoice",
@@ -36910,6 +37273,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "44c4c3f8-ab9b-4a3e-9083-298b472834ac": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "esm",
+   "advertiser": "Texans for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20009 REV 8",
+   "name": "20261029143645278",
+   "uploaded": "2026-10-29T15:38:27-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "44ccb9b3-24a4-4bad-819f-da7cb2df3a27": {
    "kind": "request",
    "layout": "nab",
@@ -39497,6 +39881,30 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
   },
+  "49bbcdbe-2165-4278-b73f-1dce29309a80": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 34084.0,
+   "net": 28971.4,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4549728",
+   "invoice_no": "4549728-1",
+   "flight": [
+    "09/30/26",
+    "10/06/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4549728-1",
+   "uploaded": "2026-10-29T15:02:54-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "49d050cf-b362-496c-98c3-13b2115df9b1": {
    "kind": "request",
    "layout": "nab",
@@ -41425,6 +41833,30 @@
    "uploaded": "2026-10-15T11:45:18-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T08:34:00Z"
+  },
+  "4db79cf8-9dc5-4386-8f04-1317048c88a2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 24467.0,
+   "net": 20796.95,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4600843",
+   "invoice_no": "4600843-1",
+   "flight": [
+    "10/17/26",
+    "10/28/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4600843-1",
+   "uploaded": "2026-10-29T15:01:07-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "4dc937b3-319f-4ffa-9920-136d0e86dce1": {
    "kind": "invoice",
@@ -45003,6 +45435,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
   },
+  "54208e2f-6876-431b-84fc-9772afb255d6": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence INC",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/PB19",
+   "name": "Conservatives for American Excellence PB19- Fight",
+   "uploaded": "2026-10-29T14:38:29-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "54310cee-2106-4352-aa64-60c594ae2545": {
    "kind": "request",
    "layout": "nab",
@@ -46455,6 +46908,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T08:58:18Z"
   },
+  "56f41515-e58f-4230-b8ee-4b3d1fbf5668": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20365 REV 8",
+   "name": "20261029143610183",
+   "uploaded": "2026-10-29T15:35:12-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "56f57eb6-ee4c-4338-9849-8f00438c0953": {
    "kind": "order",
    "layout": "contract",
@@ -46583,6 +47057,30 @@
    "uploaded": "2026-06-16T13:01:55-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T22:18:47Z"
+  },
+  "578af44f-22a3-4d9a-b5da-bda46efce792": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 31487.0,
+   "net": 26763.95,
+   "agency": "Canal Partners Media",
+   "advertiser": "Hillar Moore for East Baton Rouge DA",
+   "order_no": "4590545",
+   "invoice_no": "4590545-1",
+   "flight": [
+    "10/14/26",
+    "10/20/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Local/District Attorney 19th/Hillar Moore/Invoices",
+   "name": "Hillar Moore 4590545-1",
+   "uploaded": "2026-10-29T14:58:02-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "57942ceb-887c-4317-a988-446444ec9f02": {
    "kind": "other",
@@ -47597,6 +48095,30 @@
    "uploaded": "2026-05-04T14:32:16-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:39:04Z"
+  },
+  "59a7511b-acf5-4f28-87a5-da4a0a680af8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 34503.0,
+   "net": 29327.55,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "4572513",
+   "invoice_no": "4572513-1",
+   "flight": [
+    "09/28/26",
+    "10/04/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Blake Miquez/Invoices",
+   "name": "Blake Miguez 4572513-1",
+   "uploaded": "2026-10-29T14:54:10-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "59a84bca-e863-4ce1-bdb3-bcc1286ed7f7": {
    "kind": "order",
@@ -49153,6 +49675,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
   },
+  "5c86f1cb-9a90-4204-8795-b2550f4ca37f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21405.0,
+   "net": 18194.25,
+   "agency": "Canal Partners Media",
+   "advertiser": "Hillar Moore for East Baton Rouge DA",
+   "order_no": "4600261",
+   "invoice_no": "4600261-1",
+   "flight": [
+    "10/21/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Local/District Attorney 19th/Hillar Moore/Invoices",
+   "name": "Hillar Moore 4600261-1",
+   "uploaded": "2026-10-29T14:58:02-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "5c8924a3-77bf-4278-afe5-b2e9531d142b": {
    "kind": "invoice",
    "layout": "invoice",
@@ -49701,6 +50247,27 @@
    "uploaded": "2026-04-28T10:19:35-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "5dae6a4d-dba6-4e89-a334-5704aa54c76b": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Gina Hinojosa for Texas Governor",
+   "name": "KTAL Gina Hinojosa for Texas Governor AdId Rally 30",
+   "uploaded": "2026-10-29T15:11:10-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "5dbf0009-74e0-4368-add4-89c3efc9a7a7": {
    "kind": "order",
@@ -51847,6 +52414,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
   },
+  "6147a44c-7141-49db-afa4-d1714501cc7f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 27453.0,
+   "net": 23335.05,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4582850",
+   "invoice_no": "4582850-1",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Invoices",
+   "name": "Julia Letlow 4582850-1",
+   "uploaded": "2026-10-29T14:57:18-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "614d5822-308b-49f3-8df7-55c259c8d4ea": {
    "kind": "request",
    "layout": "nab",
@@ -52306,6 +52897,27 @@
    "uploaded": "2026-10-02T09:01:24-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "626d289a-04f8-4cb0-b6b0-2e8930fcd695": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Greatest Hits Election Day is Tuesday 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "62774e21-e880-4b30-8929-7d1cb7d087fd": {
    "kind": "order",
@@ -53177,6 +53789,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:44:04Z"
   },
+  "640bdd6c-18e1-4324-9762-d3f125cbe536": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 11138.0,
+   "net": 9467.3,
+   "agency": "Brandon Guichard Digital Group",
+   "advertiser": "Justice PAC",
+   "order_no": "4604746",
+   "invoice_no": "4604746-1",
+   "flight": [
+    "10/23/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Justice PAC/Invoices",
+   "name": "Justice PAC 4604746-1",
+   "uploaded": "2026-10-29T15:01:53-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "640cdd0e-bc0a-4553-a398-ba06d82c99cf": {
    "kind": "other",
    "layout": "other",
@@ -54000,6 +54636,30 @@
    "uploaded": "2026-04-20T16:36:34-04:00",
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
+  },
+  "65565919-41d0-408d-9cf9-55570a691038": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 27056.0,
+   "net": 22997.6,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4600050",
+   "invoice_no": "4600050-1",
+   "flight": [
+    "10/19/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4600050-1",
+   "uploaded": "2026-10-29T14:56:12-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "65612db3-8a8f-4220-9825-ef075a9d79d3": {
    "kind": "order",
@@ -57556,6 +58216,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "6b2ac00f-dba6-4e7d-a547-86605ab520ad": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "esm",
+   "advertiser": "TexanaforDan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20010 REV 8",
+   "name": "20261029143434594",
+   "uploaded": "2026-10-29T15:26:55-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "6b31494f-2127-4e15-af64-eb92f1aa01c4": {
    "kind": "other",
    "layout": "other",
@@ -59336,6 +60017,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "6efd7430-0b7c-496b-8c4c-39f3c8ad5ef6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13576.0,
+   "net": 11539.6,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "4598874",
+   "invoice_no": "4598874-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Blake Miquez/Invoices",
+   "name": "Blake Miguez 4598874-1",
+   "uploaded": "2026-10-29T14:54:10-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "6f008d82-7922-4b65-8b3c-d731b6f8451a": {
    "kind": "invoice",
    "layout": "invoice",
@@ -60583,6 +61288,30 @@
    "uploaded": "2026-10-22T17:29:35-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
+  },
+  "70d45b27-f176-4eb0-9f74-d198c7206ff3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 29756.0,
+   "net": 25292.6,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4592717",
+   "invoice_no": "4592717-1",
+   "flight": [
+    "10/12/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4592717-1",
+   "uploaded": "2026-10-29T14:56:13-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "70e3c59a-0fce-4f67-b30b-50882a218532": {
    "kind": "other",
@@ -64168,6 +64897,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
   },
+  "77365507-14fe-4301-83d5-799cc2a3c60b": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Greatest Hits Early Voting Ends Friday 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "773cbbe4-cdb9-44b5-8364-545b903f1734": {
    "kind": "request",
    "layout": "nab",
@@ -64467,6 +65217,30 @@
    "uploaded": "2026-10-02T12:41:25-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "781612bb-3ebf-4105-9ca7-916ad4862ef2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21264.0,
+   "net": 18074.4,
+   "agency": "Brandon Guichard Digital Group",
+   "advertiser": "Justice PAC",
+   "order_no": "4594645",
+   "invoice_no": "4594645-1",
+   "flight": [
+    "10/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Justice PAC/Invoices",
+   "name": "Justice PAC 4594645-1",
+   "uploaded": "2026-10-29T15:01:53-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "7829965f-f085-4f43-b78b-0af5d7f6b47d": {
    "kind": "other",
@@ -65805,6 +66579,30 @@
    "uploaded": "2026-01-26T20:56:04-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:34:00Z"
+  },
+  "7a59834b-3203-4b5a-806f-405e32cdb9ec": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 37800.0,
+   "net": 32130.0,
+   "agency": "Magnolia Media",
+   "advertiser": "Louisiana First Victory Fund",
+   "order_no": "4572796",
+   "invoice_no": "4572796-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana First Victory Fund/Invoices",
+   "name": "Louisiana First Victory Fund 4572796-1",
+   "uploaded": "2026-10-29T15:02:17-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "7a5d8a11-f693-4bb6-9307-6ede549628de": {
    "kind": "order",
@@ -69603,6 +70401,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
   },
+  "7fb5a072-dc70-4cc6-9a45-c24593871821": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "JNA esm",
+   "advertiser": "Texans for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20365 REV 9",
+   "name": "20261029143625929",
+   "uploaded": "2026-10-29T15:37:15-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "7fbde045-d156-4348-adcf-b93f8dde4b5c": {
    "kind": "other",
    "layout": "other",
@@ -70472,6 +71291,27 @@
    "uploaded": "2026-03-31T13:24:46-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "812a2fa5-164a-4ef4-b522-0f80fed3f98a": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Tax Cuts  Election Day is Tuesday 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "8131a6b1-c13d-4fe1-aaa2-87987c2f562d": {
    "kind": "order",
@@ -75910,6 +76750,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
   },
+  "8ad037af-cb4e-44d3-bc00-ee1775166bfb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 32404.0,
+   "net": 27543.4,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4575481",
+   "invoice_no": "4575481-1",
+   "flight": [
+    "09/28/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4575481-1",
+   "uploaded": "2026-10-29T14:56:12-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "8ad37ce5-3c47-404f-a5c1-bf06a2a743fc": {
    "kind": "request",
    "layout": "nab",
@@ -79627,6 +80491,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
   },
+  "9216fb87-89b3-47db-91b4-0dc6bc237841": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12676.0,
+   "net": 10774.6,
+   "agency": "Frontier Strategies, LLC",
+   "advertiser": "Rick Edmonds for Congress",
+   "order_no": "4602325",
+   "invoice_no": "4602325-1",
+   "flight": [
+    "10/22/26",
+    "10/23/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds/Invoices",
+   "name": "Rick Edmonds 4602325-1",
+   "uploaded": "2026-10-29T14:55:37-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "921eb854-814c-4673-b790-3aab36f98765": {
    "kind": "order",
    "layout": "contract",
@@ -80719,6 +81607,30 @@
    "uploaded": "2026-02-23T12:27:24-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T21:28:32Z"
+  },
+  "9426ff7b-189a-4b9c-973e-7cb83185ec92": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 18764.0,
+   "net": 15949.4,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4549762",
+   "invoice_no": "4549762-1",
+   "flight": [
+    "10/21/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4549762-1",
+   "uploaded": "2026-10-29T15:02:54-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "94312701-135d-4a4d-8023-4e11f09f8ec5": {
    "kind": "request",
@@ -82366,6 +83278,27 @@
    "uploaded": "2026-09-29T15:32:02-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "972e4e76-add7-400a-a919-5c6efc35924c": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Protecting Communities Election Day is Tuesday30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "9734f5ac-08d2-4f42-ba3f-9b6f0b99ca04": {
    "kind": "order",
@@ -84429,6 +85362,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
   },
+  "9a7a9841-1a7c-41ee-ac8e-4eeb6ff4fe9e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 19297.0,
+   "net": 16402.45,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4603742",
+   "invoice_no": "4603742-1",
+   "flight": [
+    "10/22/26",
+    "10/31/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for Am4603742-1",
+   "uploaded": "2026-10-29T15:01:07-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "9a8e23d4-3eb8-4f92-bcf8-2b10c08e2c1e": {
    "kind": "request",
    "layout": "nab",
@@ -85176,6 +86133,27 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:12:15Z"
   },
+  "9ba91690-58df-437b-997e-0faafd3fe82a": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 7220.0,
+   "net": 6137.0,
+   "agency": "LC Media LLC",
+   "advertiser": "Gina Hinojosa for Governor",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Texas Governor/Gina Hinojosa/Order - 20562 REV 1",
+   "name": "20261029150126854",
+   "uploaded": "2026-10-29T15:46:32-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "9bc4d6c6-bf3c-4545-b332-83e4d7fded10": {
    "kind": "order",
    "layout": "other",
@@ -85430,6 +86408,27 @@
    "uploaded": "2026-02-06T17:18:48-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T22:23:53Z"
+  },
+  "9c50fccd-64fa-4ebc-832e-80e51d9ffda4": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Greatest Hits Election Day is Today 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "9c5feb1d-a526-4661-9cf1-da3dfb16b3fe": {
    "kind": "other",
@@ -86375,6 +87374,30 @@
    "uploaded": "2026-06-18T10:50:30-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T17:46:02Z"
+  },
+  "9ded4b83-d583-4d4b-9078-fcf0817d62d2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 18000.0,
+   "net": 15300.0,
+   "agency": "Magnolia Media",
+   "advertiser": "Brad Cascio for District Attorney",
+   "order_no": "4592312",
+   "invoice_no": "4592312-1",
+   "flight": [
+    "10/12/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Brad Cascio/Invoices",
+   "name": "Brad Cascio 4592312-1",
+   "uploaded": "2026-10-29T14:58:55-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "9df6a924-199b-408b-a6aa-5e5479061d26": {
    "kind": "order",
@@ -90691,6 +91714,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:27:03Z"
   },
+  "a65ecaa3-e407-43e3-8f37-4fe58db6f15f": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Protecting Communities Early Voting Ends Friday 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "a66822fe-88ae-44ab-bccb-403d49deba87": {
    "kind": "other",
    "layout": "other",
@@ -91578,6 +92622,30 @@
    "uploaded": "2026-10-02T11:30:57-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "a7b06d84-65ef-4202-8992-4a5c07818231": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 32551.0,
+   "net": 27668.35,
+   "agency": "Frontier Strategies, LLC",
+   "advertiser": "Rick Edmonds for Congress",
+   "order_no": "4589215",
+   "invoice_no": "4589215-1",
+   "flight": [
+    "10/08/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds/Invoices",
+   "name": "Rick Edmonds 4589215-1",
+   "uploaded": "2026-10-29T14:55:37-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "a7b1639c-697c-4e1e-bd72-92776495b6ed": {
    "kind": "request",
@@ -93050,6 +94118,27 @@
    "uploaded": "2026-02-24T13:02:31-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "aa36004d-0337-41c0-bfc1-bb8aef694efe": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 8365.0,
+   "net": 7110.25,
+   "agency": null,
+   "advertiser": "Gina Hinojosa for Governor",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Texas Governor/Gina Hinojosa/Order - 20383 REV 2",
+   "name": "20261029150138031",
+   "uploaded": "2026-10-29T15:47:01-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "aa39040d-f907-47da-a62f-cf0fbdb1e19f": {
    "kind": "order",
@@ -96010,6 +97099,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
   },
+  "b0234bc7-b3de-4f22-88d7-3e6ad9f88f22": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "ese",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20365 REV 7",
+   "name": "20261029143554821",
+   "uploaded": "2026-10-29T15:36:34-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "b03be6b8-1b16-46c6-8a27-22cf28524331": {
    "kind": "invoice",
    "layout": "invoice",
@@ -96765,6 +97875,30 @@
    "uploaded": "2026-04-28T14:29:32-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "b1c12f26-f636-4f0e-9493-34690e8544d6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8393.0,
+   "net": 7134.05,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4602391",
+   "invoice_no": "4602391-1",
+   "flight": [
+    "10/19/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Invoices",
+   "name": "Julia Letlow 4602391-1",
+   "uploaded": "2026-10-29T14:57:18-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "b1c4c6c9-9a33-45d3-88ef-135c1c426a6d": {
    "kind": "order",
@@ -101467,6 +102601,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
   },
+  "b9857e30-c1a9-447e-bc84-9eb1314380a8": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Texans for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20556 REV 2",
+   "name": "20261029143524248",
+   "uploaded": "2026-10-29T15:33:58-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "b9976218-718a-4a13-ad34-8b83836b5170": {
    "kind": "order",
    "layout": "order",
@@ -102238,6 +103393,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "bb1aaa31-190c-4e08-8114-4ab67a128289": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21600.0,
+   "net": 18360.0,
+   "agency": "Taylor Media Service",
+   "advertiser": "Sherman Q Mack District Attorney 21st",
+   "order_no": "4592473",
+   "invoice_no": "4592473-1",
+   "flight": [
+    "10/12/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Invoices",
+   "name": "Sherman Q Mack 4592473-1",
+   "uploaded": "2026-10-29T14:59:43-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "bb2e3a75-aa5b-427f-8693-0fce9d3d9b73": {
    "kind": "invoice",
    "layout": "invoice",
@@ -102327,6 +103506,27 @@
    "uploaded": "2026-10-02T16:14:49-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
+  },
+  "bb6aad38-3c3f-441d-8603-97625a7ed3d1": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 41625.0,
+   "net": 35381.25,
+   "agency": "Brabender Cox",
+   "advertiser": "Julia Letiow - US Senate (LA)",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Order - 20372 REV 1",
+   "name": "20261029150119981",
+   "uploaded": "2026-10-29T15:44:53-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "bb713c74-151a-465e-b367-3ba237b7d330": {
    "kind": "order",
@@ -103665,6 +104865,27 @@
    "uploaded": "2026-08-10T11:13:00-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T18:05:58Z"
+  },
+  "bd2e1abe-1657-4c2f-88e1-a9b5d5ccb59c": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "ESM",
+   "advertiser": "Toxane for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20009 REV 10",
+   "name": "20261029143658023",
+   "uploaded": "2026-10-29T15:38:59-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "bd3f6307-6ec8-4437-ab5f-91477109cb2d": {
    "kind": "request",
@@ -106663,6 +107884,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
   },
+  "c2655ed3-394e-42a9-bfad-3a4d174cf31e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 17110.0,
+   "net": 14543.5,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4585439",
+   "invoice_no": "4585439-1",
+   "flight": [
+    "10/05/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4585439-1",
+   "uploaded": "2026-10-29T14:56:12-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "c27169b2-e2d4-44ca-97ee-0cc9a896f799": {
    "kind": "other",
    "layout": "other",
@@ -108147,6 +109392,27 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "c5ba80c5-f555-4d49-9d1a-7dee67f51535": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Tax Cuts  Election Day is Today 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "c5c0ab07-f525-4bf1-9be3-535a80cb4a41": {
    "kind": "order",
    "layout": "contract",
@@ -109260,6 +110526,30 @@
    "name_kind": "other",
    "read_at": "2026-10-20T16:19:46Z"
   },
+  "c7651b08-3e67-4a83-86a9-e4a998a1c07c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 31486.0,
+   "net": 26763.1,
+   "agency": "Canal Partners Media",
+   "advertiser": "Hillar Moore for East Baton Rouge DA",
+   "order_no": "4582787",
+   "invoice_no": "4582787-1",
+   "flight": [
+    "10/07/26",
+    "10/13/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Local/District Attorney 19th/Hillar Moore/Invoices",
+   "name": "Hillar Moore 4582787-1",
+   "uploaded": "2026-10-29T14:58:02-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "c76654b5-3116-489a-baa7-d92b357e0cec": {
    "kind": "order",
    "layout": "other",
@@ -109280,6 +110570,27 @@
    "uploaded": "2026-08-10T11:13:17-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T15:59:01Z"
+  },
+  "c76ac3be-1b70-4ce5-ac14-896ae550103b": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "ESM",
+   "advertiser": "Toxans for Dan Pack",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20010 REV 9",
+   "name": "20261029143440728",
+   "uploaded": "2026-10-29T15:35:53-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "c76e8ce8-6079-426b-8438-c96441de70ea": {
    "kind": "order",
@@ -110727,6 +112038,27 @@
    "name_kind": "order",
    "read_at": "2026-10-20T16:15:51Z"
   },
+  "c9f5a35d-424c-4af2-822a-e8f3f32663f6": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Tax Cuts  Election Day is Tuesday 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "ca14722f-b5bb-48a7-b682-c35d3a8dca6c": {
    "kind": "order",
    "layout": "other",
@@ -111448,6 +112780,27 @@
    "uploaded": "2026-07-15T11:49:24-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:38:21Z"
+  },
+  "cb578e17-bbf9-40c9-b550-0ce461ee6938": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Tax Cuts  Election Day is Today 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "cb5947cc-066b-4dd6-bbbf-af2299c9616c": {
    "kind": "request",
@@ -112377,6 +113730,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T08:58:18Z"
   },
+  "cc88aaff-b3d3-44d5-b2fd-d35052901fb5": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "ESM",
+   "advertiser": "Texans for Dan Patrlck",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20009 REV 9",
+   "name": "20261029143651776",
+   "uploaded": "2026-10-29T15:37:45-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "cc8cf2fb-f8cb-42c9-9aec-e1699439e4b3": {
    "kind": "order",
    "layout": "other",
@@ -112736,6 +114110,27 @@
    "uploaded": "2026-09-30T16:49:50-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T02:39:28Z"
+  },
+  "cd537d2d-79e2-4a11-9967-929c2e05a593": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Greatest Hits Election Day is Tuesday 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "cd541503-a697-a608-9099-06293fdd12ba": {
    "status": "failed",
@@ -113846,6 +115241,27 @@
    "uploaded": "2026-05-04T14:51:35-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
+  },
+  "cf1cdeff-4b02-431c-ba02-cdf735e6cfd0": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "LWA axes",
+   "advertiser": "The Kristian Earles Campaign",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KLFY",
+   "path": "Political Files/2026/Local/District Attorney/Kristian Earles - District Attorney",
+   "name": "Pol-Kristian Earles_10.29.2026_NAB-signed",
+   "uploaded": "2026-10-29T15:17:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "cf23896e-8891-4a33-95e7-fe6d4bbd4a33": {
    "kind": "request",
@@ -121036,6 +122452,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "db2a10a2-aea3-4ebe-b196-92016f944d5d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 27075.0,
+   "net": 23013.75,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4549742",
+   "invoice_no": "4549742-1",
+   "flight": [
+    "10/07/26",
+    "10/13/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4549742-1",
+   "uploaded": "2026-10-29T15:02:54-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "db3ca622-2186-4ae6-b974-72f937ef253a": {
    "kind": "order",
    "layout": "contract",
@@ -121227,6 +122667,27 @@
    "uploaded": "2026-04-07T09:51:18-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T17:08:04Z"
+  },
+  "db9d20aa-b8db-411e-b299-6587a541d283": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Greatest Hits Election Day is Today 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "dbabd770-6ecf-4c65-ab90-56d44d835e40": {
    "kind": "invoice",
@@ -124891,6 +126352,27 @@
    "uploaded": "2026-01-23T01:27:44-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
+  },
+  "e2c9ec3b-fe3e-4d6b-98a8-86b64608989b": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "ESM",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20010 REV 10",
+   "name": "20261029143505870",
+   "uploaded": "2026-10-29T15:27:52-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "e2ce7f5f-5950-4f94-87ce-34bca7bc73ae": {
    "kind": "request",
@@ -129757,6 +131239,27 @@
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
   },
+  "ec29ed63-5cd0-4079-be7c-490ce89f0919": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas",
+   "name": "KTAL Texans for Dan Patrick AdId Tax Cuts  Early Voting Ends Friday 30",
+   "uploaded": "2026-10-29T15:10:37-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "ec37df8b-11b7-45a1-9c32-e3f04422046d": {
    "kind": "request",
    "layout": "nab",
@@ -129951,6 +131454,30 @@
    "uploaded": "2026-06-23T17:22:17-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
+  },
+  "eca1e9c4-7473-4456-bbe4-57dd1d308fad": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 34503.0,
+   "net": 29327.55,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "4583744",
+   "invoice_no": "4583744-1",
+   "flight": [
+    "10/05/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Blake Miquez/Invoices",
+   "name": "Blake Miguez 4583744-1",
+   "uploaded": "2026-10-29T14:54:10-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "eca3c16a-3753-4ba9-b41c-8c5cdde44707": {
    "kind": "order",
@@ -130245,6 +131772,30 @@
    "uploaded": "2026-04-02T13:07:35-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "ed1cc0ce-5dd8-4dc2-95e7-3e8ebf05a91b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 27075.0,
+   "net": 23013.75,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4549751",
+   "invoice_no": "4549751-1",
+   "flight": [
+    "10/14/26",
+    "10/20/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4549751-1",
+   "uploaded": "2026-10-29T15:02:54-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "ed3d2fcb-6ad8-47d1-8f53-7fbb33ad0732": {
    "kind": "invoice",
@@ -131091,6 +132642,27 @@
    "uploaded": "2026-02-09T15:23:45-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T22:23:53Z"
+  },
+  "eef1ebf2-cc64-4ae1-9d1f-698b453376cc": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Texans for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20556 REV 3",
+   "name": "20261029143531944",
+   "uploaded": "2026-10-29T15:33:23-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "eefd2547-15d6-4d32-8263-73c43c599abb": {
    "kind": "order",
@@ -132120,6 +133692,27 @@
    "uploaded": "2026-10-09T12:54:30-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
+  },
+  "f08cd316-b321-469e-ba3f-689eebde4b41": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick",
+   "name": "KMSS Texans for Dan Patrick AdId Tax Cuts  Early Voting Ends Friday 30",
+   "uploaded": "2026-10-29T15:08:31-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
   },
   "f09f77cc-8661-41fe-b7ee-bd0a3237b477": {
    "kind": "order",
@@ -138493,6 +140086,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
   },
+  "fd0086bf-651e-4953-9997-9e36e7bb2db4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 34503.0,
+   "net": 29327.55,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "4592182",
+   "invoice_no": "4592182-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Blake Miquez/Invoices",
+   "name": "Blake Miguez 4592182-1",
+   "uploaded": "2026-10-29T14:54:10-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "fd02e0fb-355f-43d6-a644-11424193cd20": {
    "kind": "order",
    "layout": "other",
@@ -139456,6 +141073,27 @@
    "name_kind": "order",
    "read_at": "2026-10-21T01:53:10Z"
   },
+  "fe7ab4d3-224a-4d07-bc2f-844b233841fe": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Arsement Media Group",
+   "advertiser": "The Committee to Elect Emilia Pardo",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KLFY",
+   "path": "Political Files/2026/Local/City Court Judge/Emilia Pardo - City Court Judge",
+   "name": "Pol-Emilia Pardo_10.29.2026_NAB-signed",
+   "uploaded": "2026-10-29T15:16:50-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T20:06:56Z"
+  },
   "fe7b5cd4-8fd7-4b23-9c5d-eeab921fc851": {
    "kind": "other",
    "layout": "other",
@@ -140131,6 +141769,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-29T17:51:47Z",
+ "updated": "2026-10-29T20:14:17Z",
  "blocked": null
 }
