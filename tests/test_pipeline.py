@@ -475,3 +475,19 @@ class Races(unittest.TestCase):
             got = [stations_tonight(8, d, path) for d in ('2026-09-01', '2026-10-12', '2026-10-28', '2026-11-04')]
             self.assertEqual(got, [8, 14, 28, 8])
             self.assertEqual(stations_tonight(8, '2026-10-28', os.path.join(tmp, 'none.json')), 8)
+
+
+class BookedByWeek(unittest.TestCase):
+    def test_weeks_zero_filled_and_summed(self):
+        r = lambda c, k: {'call': c, 'k': k}
+        spent = [('Federal', '2026-10-06', 100, r('WAFB', 'BR')),
+                 ('Issue', '2026-10-08', 50, r('WAFB', 'BR')),
+                 ('State & local', '2026-10-21', 30, r('KTBS', 'SHV')),
+                 ('Out of state', '2026-10-21', 999, r('KTBS', 'SHV')),
+                 ('Federal', None, 7, r('KTBS', 'SHV'))]
+        t = summary.booked_totals(spent, '2026-10-29')
+        self.assertEqual(t['weeks'], [['2026-10-05', 100, 0, 50], ['2026-10-12', 0, 0, 0],
+                                      ['2026-10-19', 0, 30, 0], ['2026-10-26', 0, 0, 0]])
+        self.assertEqual(t['calls'], {'KTBS': 30, 'WAFB': 150})
+        self.assertEqual(t['markets'], {'BR': 150, 'SHV': 30})
+        self.assertIsNone(summary.booked_totals([], '2026-10-29'))
