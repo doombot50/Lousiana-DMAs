@@ -40931,6 +40931,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:36:10Z"
   },
+  "4cc7038d-551b-4226-b63a-bd2bd2aa1909": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WTIX",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "2026 11 02 - raise the bar order",
+   "uploaded": "2026-10-29T13:22:02-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T17:36:05Z"
+  },
   "4cd17218-3509-401c-b332-7fbd4c58ffa2": {
    "kind": "order",
    "layout": "other",
@@ -139984,6 +140005,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-29T17:08:04Z",
+ "updated": "2026-10-29T17:36:21Z",
  "blocked": null
 }
