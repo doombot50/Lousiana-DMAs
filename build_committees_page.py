@@ -21,6 +21,7 @@ its own profile. Stdlib only.
 import json
 import os
 import sys
+from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, *p)
@@ -88,6 +89,16 @@ def build_data():
     except FileNotFoundError:
         ag = {'by_filer': {}, 'filers': {}}
     ag_by = {fn: v for fn, v in ag['by_filer'].items() if sum(a['usd'] for a in v) >= AGENCY_MIN}
+
+    # Booked against reported, as on the races page: what the political files
+    # show booked beside what the reports show paid this year for airtime.
+    from build_races_page import reported
+    since = str(date.today().year)
+    for fn, p in pf.items():
+        if p.get('usd'):
+            p['rep'] = list(reported(fn, since, tv, ra, ag['by_filer']))
+    if pf_meta is not None:
+        pf_meta.update({'repSince': since, 'repThrough': ag.get('data_through'), 'agFrom': ag.get('cycle_from')})
 
     rows = []
     # A filer booking airtime it hasn't reported paying for yet gets a
