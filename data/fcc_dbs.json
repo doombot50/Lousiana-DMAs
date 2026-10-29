@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "dbs",
- "scraped": "2026-10-28T17:23:47Z",
+ "scraped": "2026-10-29T02:48:56Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "DIRECTV",
    "root_folder": "23e667b6-8d7f-f8a8-baf0-bea543cb9364",
    "profile": "dbs-profile/directv",
-   "scraped_at": "2026-10-28T17:23:17Z",
+   "scraped_at": "2026-10-29T02:48:22Z",
    "year_folders": {
     "2016": "cf6bbbbc-5cde-3653-6860-e704bff0977c",
     "2017": "bf9175cf-ce6c-6a82-936c-c1fcf25304a8",
@@ -2508,7 +2508,7 @@
    "facility_id": "DISH",
    "root_folder": "0decff56-6b88-8553-6a6c-d8ea5b8c88cf",
    "profile": "dbs-profile/dish",
-   "scraped_at": "2026-10-28T17:23:17Z",
+   "scraped_at": "2026-10-29T02:48:22Z",
    "year_folders": {
     "2017": "2116e862-6aa0-ef05-8a58-8a8771544205",
     "2018": "dd1fae49-69dc-ec53-067c-d03a7cf913ea",
@@ -2533,7 +2533,7 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "DIRECTV": "2026-10-28T17:23:17Z",
-  "DISH": "2026-10-28T17:23:17Z"
+  "DIRECTV": "2026-10-29T02:48:22Z",
+  "DISH": "2026-10-29T02:48:22Z"
  }
 }

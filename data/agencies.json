@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-28",
- "data_through": "2026-10-27",
+ "generated": "2026-10-29",
+ "data_through": "2026-10-29",
  "cycle_from": 2023,
- "documents_read": 6128,
+ "documents_read": 6335,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -14,7 +14,7 @@
    "name": "People Who Think / Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 129,
+    "docs": 131,
     "priced": 4,
     "usd": 34446,
     "stations": [
@@ -54,7 +54,7 @@
      "Accountabllily Projact, Inc"
     ],
     "first": "2026-02-27",
-    "last": "2026-10-27",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -287,9 +287,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 265,
-    "priced": 221,
-    "usd": 3636450,
+    "docs": 269,
+    "priced": 225,
+    "usd": 3762215,
     "stations": [
      "KADN",
      "KARD",
@@ -325,7 +325,7 @@
      "Accountabiilty Project"
     ],
     "first": "2026-01-20",
-    "last": "2026-10-27",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -679,10 +679,10 @@
      "New Horizons USA PAC"
     ],
     "first": "2026-01-23",
-    "last": "2026-10-27",
+    "last": "2026-10-28",
     "away": {
-     "docs": 61,
-     "usd": 279940,
+     "docs": 62,
+     "usd": 295135,
      "clients": [
       "Chris Spencer/State Representat Dist1/TX/Rep",
       "Chris Spencer Campaign",
@@ -1107,9 +1107,9 @@
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 76,
-    "priced": 42,
-    "usd": 358325,
+    "docs": 77,
+    "priced": 43,
+    "usd": 366650,
     "stations": [
      "004321",
      "KADN",
@@ -1131,13 +1131,13 @@
      "Buras for Judge",
      "Michael Jay Marsiglia Campaign Committee",
      "Howard for Judge",
+     "Marsiglia/R/JP Court Judge, Div",
      "Joe Stagni Campaign Fund",
      "Don Landry DA 15th Judicial District of LA",
-     "Shawn Lindsay Campaign Fund",
-     "Howard/D/Orleans Parish Civil District Court"
+     "Shawn Lindsay Campaign Fund"
     ],
     "first": "2026-04-24",
-    "last": "2026-10-26",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2146,7 +2146,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 85,
+    "docs": 86,
     "priced": 40,
     "usd": 290053,
     "stations": [
@@ -2170,7 +2170,7 @@
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-10-23",
+    "last": "2026-10-28",
     "away": {
      "docs": 87,
      "usd": 467307,
@@ -2190,9 +2190,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 60,
+    "docs": 62,
     "priced": 25,
-    "usd": 185685,
+    "usd": 189685,
     "stations": [
      "002460",
      "KADN",
@@ -2215,11 +2215,11 @@
      "Hillar Moore Campaign",
      "Davis/D/US Senate",
      "Jamle Davis for US Senate",
-     "JUSTICE PAC",
-     "Jamie Davis, US Senate (LA)"
+     "Jamie Davis, US Senate (LA)",
+     "JUSTICE PAC"
     ],
     "first": "2026-10-02",
-    "last": "2026-10-26",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2412,9 +2412,9 @@
    "name": "Victoria Coulon Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 44,
-    "priced": 30,
-    "usd": 115615,
+    "docs": 45,
+    "priced": 31,
+    "usd": 124565,
     "stations": [
      "WDSU",
      "WVUE",
@@ -2431,12 +2431,12 @@
      "Friends of Richard Perque",
      "Perque/D/Orl Parish Civil Court Div",
      "Richard Perque / D / Judge Civil Dist / Div",
+     "Troy Carter/D/Congress",
      "Candace Newell for Judge Divis",
-     "Troy Carter for Congress",
-     "James for Judge"
+     "Troy Carter for Congress"
     ],
     "first": "2026-03-11",
-    "last": "2026-10-26",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2599,7 +2599,7 @@
    "name": "MEDIUM BUYING",
    "found_by": "political file",
    "fcc": {
-    "docs": 39,
+    "docs": 40,
     "priced": 7,
     "usd": 258091,
     "stations": [
@@ -2615,7 +2615,7 @@
      "CLUB FOR GROWTH ACTION"
     ],
     "first": "2026-09-18",
-    "last": "2026-10-26",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -4922,160 +4922,19 @@
    }
   },
   {
-   "key": "MENTZERMEDIASERVICES",
-   "name": "Mentzer Media Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 42,
-    "priced": 7,
-    "usd": 118330,
-    "stations": [
-     "004289",
-     "008048",
-     "KTAL",
-     "KTBS",
-     "WAFB",
-     "WDSU",
-     "WWL-TV"
-    ],
-    "clients": [
-     "First Principles PAC",
-     "Save Our States Action",
-     "FHCC 3PAC Other HD37",
-     "Ashley Moody Victory Committee"
-    ],
-    "first": "2026-04-02",
-    "last": "2026-10-20",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 3667287,
-    "media": 2144757,
-    "rows": 193,
-    "media_cycle": 0,
-    "cycle": 3995,
-    "years": {
-     "2006": 840840,
-     "2007": 352777,
-     "2010": 56228,
-     "2011": 909424,
-     "2012": 250816,
-     "2014": 27750,
-     "2015": 1225458,
-     "2026": 3995
-    },
-    "committees": 12,
-    "top": [
-     {
-      "f": "7125",
-      "n": "FIRST PRINCIPLES PAC",
-      "p": "OTH",
-      "usd": 3995,
-      "cycle": 3995
-     },
-     {
-      "f": "997",
-      "n": "James J (Jim) Donelon",
-      "p": "REP",
-      "usd": 1145653,
-      "cycle": 0
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 733000,
-      "cycle": 0
-     },
-     {
-      "f": "160",
-      "n": "John L. (Jay) Dardenne",
-      "p": "REP",
-      "usd": 730660,
-      "cycle": 0
-     },
-     {
-      "f": "2820",
-      "n": "The Fund for Louisiana's Future",
-      "p": "OTH",
-      "usd": 482051,
-      "cycle": 0
-     },
-     {
-      "f": "2451",
-      "n": "William Morvant",
-      "p": "REP",
-      "usd": 213989,
-      "cycle": 0
-     },
-     {
-      "f": "949",
-      "n": "Bill Cassidy",
-      "p": "REP",
-      "usd": 212800,
-      "cycle": 0
-     },
-     {
-      "f": "1563",
-      "n": "Sid Gautreaux",
-      "p": "REP",
-      "usd": 65000,
-      "cycle": 0
-     },
-     {
-      "f": "1919",
-      "n": "Erich E. Ponti",
-      "p": "REP",
-      "usd": 36826,
-      "cycle": 0
-     },
-     {
-      "f": "2810",
-      "n": "Leanne Truehart, M.D.",
-      "p": "OTH",
-      "usd": 27750,
-      "cycle": 0
-     },
-     {
-      "f": "2799",
-      "n": "Andre Comeaux",
-      "p": "REP",
-      "usd": 10407,
-      "cycle": 0
-     },
-     {
-      "f": "1105",
-      "n": "Wayne Carter",
-      "p": "OTH",
-      "usd": 5157,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MENTZER MEDIA SERVICES INC.",
-     "MENTZER MEDIA",
-     "MENTZER MEDIA SERVICES INC",
-     "MENTZER MEDIA SERVICES"
-    ]
-   }
-  },
-  {
    "key": "CAPITALBUSINESSSERVICES",
    "name": "Capital Business Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 26,
-    "priced": 6,
-    "usd": 35033,
+    "docs": 28,
+    "priced": 7,
+    "usd": 39033,
     "stations": [
      "KJLO",
      "KMLB",
      "KRVE",
      "WBRZ",
+     "WDSU",
      "WJBO",
      "WUPL",
      "WWL-TV"
@@ -5234,6 +5093,148 @@
      "CAPITAL BUSINESS SERVICE, LLC",
      "CAPITAL BUSINESS LLC",
      "CAPITAL BUSINESS SERVICES, L.L.C."
+    ]
+   }
+  },
+  {
+   "key": "MENTZERMEDIASERVICES",
+   "name": "Mentzer Media Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 42,
+    "priced": 7,
+    "usd": 118330,
+    "stations": [
+     "004289",
+     "008048",
+     "KTAL",
+     "KTBS",
+     "WAFB",
+     "WDSU",
+     "WWL-TV"
+    ],
+    "clients": [
+     "First Principles PAC",
+     "Save Our States Action",
+     "FHCC 3PAC Other HD37",
+     "Ashley Moody Victory Committee"
+    ],
+    "first": "2026-04-02",
+    "last": "2026-10-20",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 3667287,
+    "media": 2144757,
+    "rows": 193,
+    "media_cycle": 0,
+    "cycle": 3995,
+    "years": {
+     "2006": 840840,
+     "2007": 352777,
+     "2010": 56228,
+     "2011": 909424,
+     "2012": 250816,
+     "2014": 27750,
+     "2015": 1225458,
+     "2026": 3995
+    },
+    "committees": 12,
+    "top": [
+     {
+      "f": "7125",
+      "n": "FIRST PRINCIPLES PAC",
+      "p": "OTH",
+      "usd": 3995,
+      "cycle": 3995
+     },
+     {
+      "f": "997",
+      "n": "James J (Jim) Donelon",
+      "p": "REP",
+      "usd": 1145653,
+      "cycle": 0
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 733000,
+      "cycle": 0
+     },
+     {
+      "f": "160",
+      "n": "John L. (Jay) Dardenne",
+      "p": "REP",
+      "usd": 730660,
+      "cycle": 0
+     },
+     {
+      "f": "2820",
+      "n": "The Fund for Louisiana's Future",
+      "p": "OTH",
+      "usd": 482051,
+      "cycle": 0
+     },
+     {
+      "f": "2451",
+      "n": "William Morvant",
+      "p": "REP",
+      "usd": 213989,
+      "cycle": 0
+     },
+     {
+      "f": "949",
+      "n": "Bill Cassidy",
+      "p": "REP",
+      "usd": 212800,
+      "cycle": 0
+     },
+     {
+      "f": "1563",
+      "n": "Sid Gautreaux",
+      "p": "REP",
+      "usd": 65000,
+      "cycle": 0
+     },
+     {
+      "f": "1919",
+      "n": "Erich E. Ponti",
+      "p": "REP",
+      "usd": 36826,
+      "cycle": 0
+     },
+     {
+      "f": "2810",
+      "n": "Leanne Truehart, M.D.",
+      "p": "OTH",
+      "usd": 27750,
+      "cycle": 0
+     },
+     {
+      "f": "2799",
+      "n": "Andre Comeaux",
+      "p": "REP",
+      "usd": 10407,
+      "cycle": 0
+     },
+     {
+      "f": "1105",
+      "n": "Wayne Carter",
+      "p": "OTH",
+      "usd": 5157,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MENTZER MEDIA SERVICES INC.",
+     "MENTZER MEDIA",
+     "MENTZER MEDIA SERVICES INC",
+     "MENTZER MEDIA SERVICES"
     ]
    }
   },
@@ -6290,6 +6291,56 @@
     ],
     "spellings": [
      "POLITICAL COMMUNICATIONS ADVERTISING"
+    ]
+   }
+  },
+  {
+   "key": "MHBMEDIA",
+   "name": "MHB Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 12,
+    "priced": 1,
+    "usd": 63600,
+    "stations": [
+     "002460",
+     "WAFB",
+     "WBRZ",
+     "WGMB",
+     "WVLA"
+    ],
+    "clients": [
+     "Conservatives for American Excellence INC"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-10-28",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 10102,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 10102,
+    "years": {
+     "2025": 10102
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "6356",
+      "n": "Louisiana Republican PAC",
+      "p": "REP",
+      "usd": 10102,
+      "cycle": 10102
+     }
+    ],
+    "spellings": [
+     "MHB MEDIA, INC."
     ]
    }
   },
@@ -7678,7 +7729,7 @@
    "name": "Frontier Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
+    "docs": 6,
     "priced": 1,
     "usd": 27100,
     "stations": [
@@ -7690,7 +7741,7 @@
      "Rick Edmonds US Congress"
     ],
     "first": "2026-10-06",
-    "last": "2026-10-21",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -11267,6 +11318,81 @@
    }
   },
   {
+   "key": "MOBILECOMMUNICATIONSSERVICE",
+   "name": "Mobile Communications Service",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 28,
+    "priced": 7,
+    "usd": 1500,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KOKA",
+     "KPXJ",
+     "KRVV",
+     "KSLA",
+     "KTBS"
+    ],
+    "clients": [
+     "Phelps for Mayor Campaign",
+     "John Atkins campaign",
+     "Kharmen Davis-Taylor for Judge",
+     "Tammy Phelps for Mayor",
+     "JOHN ATKINS FOR LA PUBLIC SERVICE COMMISSIONER",
+     "Ravari for Shreveport",
+     "Matt Gromlich for Louisiana",
+     "Siavosh Ravarl",
+     "Mero for Mayor campaign"
+    ],
+    "first": "2026-05-18",
+    "last": "2026-10-28",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 6440,
+    "media": 450,
+    "rows": 5,
+    "media_cycle": 0,
+    "cycle": 5990,
+    "years": {
+     "2014": 450,
+     "2023": 5990
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "6043",
+      "n": "Regina Webb",
+      "p": "DEM",
+      "usd": 4990,
+      "cycle": 4990
+     },
+     {
+      "f": "3394",
+      "n": "John Milkovich",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "2686",
+      "n": "Don Decovan Otis",
+      "p": "DEM",
+      "usd": 450,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MOBILE COMMUNICATIONS SERVICE"
+    ]
+   }
+  },
+  {
    "key": "REDRIVERUNITEDAGENCY",
    "name": "Red River United Agency",
    "found_by": "political file",
@@ -11397,79 +11523,6 @@
      "WOODFORK & ASSOCIATES",
      "WOODFORK & ASSOCIATES CONSULTING",
      "WOODFORK AND ASSOCIATES"
-    ]
-   }
-  },
-  {
-   "key": "MOBILECOMMUNICATIONSSERVICE",
-   "name": "Mobile Communications Service",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 25,
-    "priced": 6,
-    "usd": 1260,
-    "stations": [
-     "KDKS",
-     "KEEL",
-     "KOKA",
-     "KPXJ",
-     "KRVV",
-     "KSLA"
-    ],
-    "clients": [
-     "Phelps for Mayor Campaign",
-     "John Atkins campaign",
-     "Tammy Phelps for Mayor",
-     "JOHN ATKINS FOR LA PUBLIC SERVICE COMMISSIONER",
-     "Ravari for Shreveport",
-     "Matt Gromlich for Louisiana",
-     "Siavosh Ravarl",
-     "Mero for Mayor campaign"
-    ],
-    "first": "2026-05-18",
-    "last": "2026-10-23",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 6440,
-    "media": 450,
-    "rows": 5,
-    "media_cycle": 0,
-    "cycle": 5990,
-    "years": {
-     "2014": 450,
-     "2023": 5990
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "6043",
-      "n": "Regina Webb",
-      "p": "DEM",
-      "usd": 4990,
-      "cycle": 4990
-     },
-     {
-      "f": "3394",
-      "n": "John Milkovich",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 1000
-     },
-     {
-      "f": "2686",
-      "n": "Don Decovan Otis",
-      "p": "DEM",
-      "usd": 450,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MOBILE COMMUNICATIONS SERVICE"
     ]
    }
   },
@@ -18529,7 +18582,7 @@
    "name": "Debra Schommer Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -18539,7 +18592,7 @@
      "Government that Works PAC"
     ],
     "first": "2026-10-23",
-    "last": "2026-10-23",
+    "last": "2026-10-28",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -18964,6 +19017,32 @@
    }
   },
   {
+   "key": "JNAESM",
+   "name": "JNA esm",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "008564",
+     "KTBS"
+    ],
+    "clients": [
+     "Alan Seabaugh Campaign"
+    ],
+    "first": "2026-09-14",
+    "last": "2026-10-28",
+    "away": {
+     "docs": 1,
+     "usd": 0,
+     "clients": [
+      "Texans for Dan Patrick"
+     ]
+    }
+   }
+  },
+  {
    "key": "JAVASACEEDIA",
    "name": "Java saceedia",
    "found_by": "political file",
@@ -19220,56 +19299,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "MHBMEDIA",
-   "name": "MHB Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 9,
-    "priced": 0,
-    "usd": 0,
-    "stations": [
-     "002460",
-     "WAFB",
-     "WBRZ",
-     "WGMB",
-     "WVLA"
-    ],
-    "clients": [
-     "Conservatives for American Excellence INC"
-    ],
-    "first": "2026-10-16",
-    "last": "2026-10-26",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 10102,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 10102,
-    "years": {
-     "2025": 10102
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "6356",
-      "n": "Louisiana Republican PAC",
-      "p": "REP",
-      "usd": 10102,
-      "cycle": 10102
-     }
-    ],
-    "spellings": [
-     "MHB MEDIA, INC."
-    ]
    }
   },
   {
