@@ -306,6 +306,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "00b45a56-1074-417c-ad1e-c12a5fbe5e62": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 700.0,
+   "net": 595.0,
+   "agency": "Mobile Communications",
+   "advertiser": "Tammy Phelps for Mayor",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KPXJ",
+   "path": "Political Files/2026/Local/Mayor of Shreveport/Tammy Phelps/Order - 20597",
+   "name": "20261029163927348",
+   "uploaded": "2026-10-29T17:23:31-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "00b850b0-1d92-4a4e-a35a-af989bc05b86": {
    "kind": "request",
    "layout": "nab",
@@ -2240,6 +2261,27 @@
    "uploaded": "2026-10-20T12:47:33-04:00",
    "name_kind": "other",
    "read_at": "2026-10-20T20:43:17Z"
+  },
+  "04ce2f74-6fbd-4157-aeb2-132b6ce0d832": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Hodges for Sheriff",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Local/St Tammany Parish/Sheriff/Robert Hodges",
+   "name": "WGNO Hodges NAB 10-28-26",
+   "uploaded": "2026-10-29T16:01:05-04:00",
+   "name_kind": "request",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "04cfc30e-7d6f-4807-82e0-ecae8efec58d": {
    "kind": "request",
@@ -6002,6 +6044,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "0affe53c-b378-4c2e-b687-5a077ab29cab": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 16976.0,
+   "net": 14429.6,
+   "agency": "AxMedia",
+   "advertiser": "Ken Paxton for Senate",
+   "order_no": "4581226",
+   "invoice_no": "4581226-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Texas/Ken Paxton for US Senate",
+   "name": "KSLA KEN PAXTON FOR US SENATE EST 9512 -OCT'26 INVOICE #4581226-1",
+   "uploaded": "2026-10-29T18:02:00-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "0b01a0ea-225b-4850-963a-68b52015c833": {
    "kind": "request",
    "layout": "nab",
@@ -6283,6 +6349,30 @@
    "uploaded": "2026-05-29T01:46:48-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
+  },
+  "0b844c6f-12db-4684-839d-7218dbc81b09": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7120.0,
+   "net": 6052.0,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Dan Patrick for Lt. Governor",
+   "order_no": "4592115",
+   "invoice_no": "4592115-1",
+   "flight": [
+    "10/12/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+   "name": "KSLA DAN PATRICK EST 641 -OCT'26 INVOICE #4592115-1",
+   "uploaded": "2026-10-29T17:46:22-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "0b8db750-4471-4f5b-bcd2-8a50a6aea4d7": {
    "kind": "other",
@@ -9182,6 +9272,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "11717c35-af6c-4ee5-89d1-cc8a291ecbda": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2080.0,
+   "net": 1768.0,
+   "agency": "Smart Media Group",
+   "advertiser": "John Atkins for Public Service Commissioner",
+   "order_no": "4575432",
+   "invoice_no": "4575432-1",
+   "flight": [
+    "09/29/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/LA Public Service Commissioner/John Atkins for Public Service Commissioner",
+   "name": "KSLA JOHN ATKINS EST 929C05 -OCT'26 INVOICE #4575432-1",
+   "uploaded": "2026-10-29T17:58:30-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "1173a88e-e89d-4be1-9f90-be552e5c449e": {
    "kind": "order",
    "layout": "contract",
@@ -11101,6 +11215,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "1451034d-7e6b-4814-8a02-33cd078b18c8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": "Thematic Campaigns",
+   "advertiser": "Talarico for Texas",
+   "order_no": "4592251",
+   "invoice_no": "4592251-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Texas/Talarico for Texas",
+   "name": "KSLA TALARICO FOR TEXAS EST 209 -OCT'26 INVOICE #4592251-1",
+   "uploaded": "2026-10-29T18:04:06-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "145269b3-d076-4418-9290-774e13a420f2": {
    "kind": "order",
    "layout": "other",
@@ -12258,6 +12396,30 @@
    "uploaded": "2026-10-15T09:59:30-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
+  },
+  "167978f7-3283-4197-bb27-4931aa82b156": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2368.0,
+   "net": 2012.8,
+   "agency": "Electric Symphony LLC",
+   "advertiser": "Alan Seabaugh for Caddo Parish District Attorney",
+   "order_no": "4593621",
+   "invoice_no": "4593621-1",
+   "flight": [
+    "10/12/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Local/District Attorney/Alan Seabaugh for District Attorney",
+   "name": "KSLA ALAN SEABAUGH EST 653 -OCT'26 INVOICE #4593621-1",
+   "uploaded": "2026-10-29T17:56:07-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "167c32e7-c962-49c9-a80d-ad975b12a8cd": {
    "kind": "invoice",
@@ -19485,6 +19647,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "2228119f-af29-4d5b-8e66-d4951393a135": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 124288.0,
+   "net": 105644.8,
+   "agency": "FlexPoint Media",
+   "advertiser": "Texas PAC",
+   "order_no": "4565716",
+   "invoice_no": "4565716-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC",
+   "name": "KSLA TEXAS PAC EST 9635 -OCT'26 INVOICE #4565716-1",
+   "uploaded": "2026-10-29T17:54:11-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "2249b9df-08b0-4044-8121-43055dff6a6c": {
    "kind": "order",
    "layout": "other",
@@ -21360,6 +21546,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "25ae8831-449c-47e1-9f13-2d5822507eb4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 29456.0,
+   "net": 25037.6,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "Texans for Greg Abbott",
+   "order_no": "4586568",
+   "invoice_no": "4586568-1",
+   "flight": [
+    "10/08/26",
+    "10/14/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+   "name": "KSLA TEXANS FOR GREG ABBOTT EST 8300 -OCT'26 INVOICE #4586568-1",
+   "uploaded": "2026-10-29T17:52:32-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "25b26feb-28cb-455c-9d85-852f331e15b7": {
    "kind": "request",
    "layout": "nab",
@@ -21530,6 +21740,30 @@
    "uploaded": "2026-05-11T16:07:53-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:45:22Z"
+  },
+  "25f79446-0ca8-45e4-8647-10e2cf9d0ab7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 24528.0,
+   "net": 20848.8,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4588331",
+   "invoice_no": "4588331-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana",
+   "name": "KSLA MIKE JOHNSON FOR LA EST 9486 -OCT'26 INVOICE #4588331-1",
+   "uploaded": "2026-10-29T18:04:52-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "25fab7c6-c30f-4010-b7f2-fe5383491793": {
    "kind": "order",
@@ -22334,6 +22568,30 @@
    "uploaded": "2026-10-29T15:01:07-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-29T20:06:56Z"
+  },
+  "27adaee4-3184-41b4-9585-e6e635c99467": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3584.0,
+   "net": 3046.4,
+   "agency": "LC Media LLC",
+   "advertiser": "Gina Hinojosa",
+   "order_no": "4593059",
+   "invoice_no": "4593059-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+   "name": "KSLA GINA HINOJOSA EST 1820 -OCT'26 INVOICE#4593059-1",
+   "uploaded": "2026-10-29T17:50:17-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "27b0f028-7af8-4992-8bf6-65be173e1c9d": {
    "kind": "request",
@@ -25978,6 +26236,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
   },
+  "2db6c659-60eb-4111-be4a-2b31af753452": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1920.0,
+   "net": 1632.0,
+   "agency": "LC Media LLC",
+   "advertiser": "Gina Hinojosa",
+   "order_no": "4584987",
+   "invoice_no": "4584987-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+   "name": "KSLA GINA HINOJOSA EST 1760 -OCT'26 INVOICE#4584987-1",
+   "uploaded": "2026-10-29T17:50:17-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "2dc0209b-feff-4dc8-a5dd-c2f5d578531f": {
    "kind": "request",
    "layout": "nab",
@@ -26907,6 +27189,27 @@
    "uploaded": "2026-07-08T18:02:53-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T22:18:47Z"
+  },
+  "305d87c9-fb5e-4f1d-ae00-da3202dbcc7f": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 4050.0,
+   "net": 3442.5,
+   "agency": "Carvin Consulting Inc",
+   "advertiser": "Lee/R/JP 1st Parish Court Div",
+   "order_no": "4485144",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WDSU",
+   "path": "Political Files/2026/Local/John F Lee",
+   "name": "John Lee 10-29 to 11-3",
+   "uploaded": "2026-10-29T17:33:28-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "3079caaa-d4e6-4b0b-a2a3-38436f68e17d": {
    "kind": "request",
@@ -28266,6 +28569,30 @@
    "uploaded": "2026-06-24T18:10:50-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T15:11:16Z"
+  },
+  "32ba6058-fda1-4673-8ac0-ab3b8314677f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 31968.0,
+   "net": 27172.8,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4582840",
+   "invoice_no": "4582840-1",
+   "flight": [
+    "10/05/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Louisiana/Julia Letlow for US Senate for Louisiana",
+   "name": "KSLA JULIA LETLOW FOR LA SENATE EST 923 -OCT'26 INVOICE #4582840-1",
+   "uploaded": "2026-10-29T18:01:20-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "32e331b8-d71c-44e1-8b51-258240c909de": {
    "kind": "order",
@@ -37051,6 +37378,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
   },
+  "445e9cea-dc18-4b58-bd8c-d8865a49c182": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 2000.0,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "005341",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/READY FOR THE FIGHT",
+   "name": "CPMREADY FOR THE FIGHT_confirm1343190_sys1804_20261029_150007",
+   "uploaded": "2026-10-29T16:10:02-04:00",
+   "name_kind": "aired",
+   "read_at": "2026-10-29T22:46:05Z"
+  },
   "4465174d-5272-4870-8aab-6b5be92957fc": {
    "kind": "order",
    "layout": "contract",
@@ -41813,6 +42161,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "4daa1355-a10b-4027-ab32-ba878af352a5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 83392.0,
+   "net": 70883.2,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "Texans for Greg Abbott",
+   "order_no": "4562631",
+   "invoice_no": "4562631-1",
+   "flight": [
+    "10/06/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+   "name": "KSLA TEXANS FOR GREG ABBOTT EST 8260 -OCT'26 INVOICE #4562631-1",
+   "uploaded": "2026-10-29T17:52:32-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "4dab9f0c-559d-47f9-8db9-d726512c7d38": {
    "kind": "request",
    "layout": "nab",
@@ -44100,6 +44472,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
   },
+  "52004c14-bb61-481c-87db-46e7c64575fa": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 124288.0,
+   "net": 105644.8,
+   "agency": "FlexPoint Media",
+   "advertiser": "Texas PAC",
+   "order_no": "4565913",
+   "invoice_no": "4565913-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC",
+   "name": "KSLA TEXAS PAC EST 9634 -OCT'26 INVOICE #4565913-1",
+   "uploaded": "2026-10-29T17:54:11-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "52063804-cca8-4e2d-8739-80ff280dc924": {
    "kind": "other",
    "layout": "other",
@@ -45759,6 +46155,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T15:48:03Z"
   },
+  "54dc5f5e-9be6-495e-8ca0-aae28bbdddcd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 22224.0,
+   "net": 18890.4,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4588342",
+   "invoice_no": "4588342-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana",
+   "name": "KSLA MIKE JOHNSON FOR LA EST 9487 -OCT'26 INVOICE #4588342-1",
+   "uploaded": "2026-10-29T18:04:52-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "54e0d914-fa9e-4a74-9c9f-225bb0a4c2ae": {
    "kind": "order",
    "layout": "order",
@@ -46023,6 +46443,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "556b6e7e-c3d0-4369-a4e5-bb966c409bfb": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "AxMedia",
+   "advertiser": "Three Rivers PAC",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Three Rivers PAC",
+   "name": "Three Rivers PAC NAB signed 102926",
+   "uploaded": "2026-10-29T18:01:34-04:00",
+   "name_kind": "request",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "5574e9ab-6642-4fd4-874b-c2b756254cb7": {
    "kind": "order",
    "layout": "other",
@@ -46220,6 +46661,30 @@
    "uploaded": "2026-03-05T10:27:01-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "55cefcb5-1a08-4778-8f98-3b6a2cd15a0c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 33856.0,
+   "net": 28777.6,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Dan Patrick for Lt. Governor",
+   "order_no": "4548931",
+   "invoice_no": "4548931-2",
+   "flight": [
+    "09/16/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+   "name": "KSLA DAN PATRICK EST 591 -OCT'26 INVOICE #4548931-2",
+   "uploaded": "2026-10-29T17:46:22-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "55d45e2e-b83d-43cd-9867-c51639ede201": {
    "kind": "order",
@@ -46949,6 +47414,30 @@
    "uploaded": "2026-10-20T16:46:45-04:00",
    "name_kind": "order",
    "read_at": "2026-10-21T16:10:47Z"
+  },
+  "572e1117-946e-42e5-aad2-8814cfc3fde5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5440.0,
+   "net": 4624.0,
+   "agency": "Smart Media Group",
+   "advertiser": "John Atkins for Public Service Commissioner",
+   "order_no": "4576267",
+   "invoice_no": "4576267-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/LA Public Service Commissioner/John Atkins for Public Service Commissioner",
+   "name": "KSLA JOHN ATKINS EST C13C19 -OCT'26 INVOICE #4576267-1",
+   "uploaded": "2026-10-29T17:58:30-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "57303140-dbb4-4667-8ceb-f29f5da437e5": {
    "kind": "order",
@@ -48660,6 +49149,27 @@
    "uploaded": "2026-03-07T03:19:32-05:00",
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
+  },
+  "5a8d91ab-690e-4387-b65e-47e51c0e666f": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "SN N Wee, Yo Yle-eloct+ S\\eosory",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KBTT",
+   "path": "Political Files/2026/Local",
+   "name": "2026KBTT COMMITTEE TO RE-ELECT DA JAMES STEWART 10-28",
+   "uploaded": "2026-10-29T17:02:44-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T22:45:25Z"
   },
   "5a97100c-f6d5-4d34-9e29-c622c7871d08": {
    "kind": "order",
@@ -50703,6 +51213,30 @@
    "uploaded": "2026-05-06T17:51:36-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
+  },
+  "5e5fc47c-8f8e-4f44-886a-96802e352620": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1984.0,
+   "net": 1686.4,
+   "agency": "LC Media LLC",
+   "advertiser": "Gina Hinojosa",
+   "order_no": "4600100",
+   "invoice_no": "4600100-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+   "name": "KSLA GINA HINOJOSA EST 1860 -OCT'26 INVOICE#4600100-1",
+   "uploaded": "2026-10-29T17:50:17-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "5e62e726-3269-4559-80ff-2553809d9482": {
    "kind": "order",
@@ -54853,6 +55387,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T19:51:32Z"
   },
+  "65ba2a57-5eeb-4a4c-8dd8-e06a4276640f": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Hadges for Sheriff",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WDSU",
+   "path": "Political Files/2026/Local/Robert Hodges",
+   "name": "Robert Hodges NAB 10-28",
+   "uploaded": "2026-10-29T17:32:02-04:00",
+   "name_kind": "request",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "65bd95a6-b2d1-43b6-81b1-530988b79237": {
    "kind": "other",
    "layout": "other",
@@ -55116,6 +55671,30 @@
    "uploaded": "2026-10-16T09:56:54-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
+  },
+  "664ab1fb-b1d1-4deb-be2e-6dda1b248a36": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 33680.0,
+   "net": 28628.0,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "Texans for Greg Abbott",
+   "order_no": "4569942",
+   "invoice_no": "4569942-1",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+   "name": "KSLA TEXANS FOR GREG ABBOTT EST 8266 -OCT'26 INVOICE #4569942-1",
+   "uploaded": "2026-10-29T17:52:32-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "6661ea0a-45ec-4a4c-a40e-69407a4a95f2": {
    "kind": "other",
@@ -55545,6 +56124,30 @@
    "uploaded": "2026-03-31T13:12:47-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "67243793-8724-42d1-afc6-3c266d5dece4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13712.0,
+   "net": 11655.2,
+   "agency": "Williams Creative Group",
+   "advertiser": "Tom Arceneaux for Shreveport Mayor",
+   "order_no": "4581254",
+   "invoice_no": "4581254-1",
+   "flight": [
+    "10/05/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux for Shreveport Mayor",
+   "name": "KSLA TOM ARCENEAUX FOR SHV MAYOR -OCT'26 INVOICE #4581254-1",
+   "uploaded": "2026-10-29T17:55:06-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "672a297e-e059-45f9-9d47-5df9278604d9": {
    "kind": "order",
@@ -59053,6 +59656,30 @@
    "name_kind": "other",
    "read_at": "2026-10-23T16:15:32Z"
   },
+  "6d02468e-b12f-46cf-86a8-146d715ad0e3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 28336.0,
+   "net": 24085.6,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "Texans for Greg Abbott",
+   "order_no": "4577136",
+   "invoice_no": "4577136-1",
+   "flight": [
+    "10/01/26",
+    "10/07/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+   "name": "KSLA TEXANS FOR GREG ABBOTT EST 8269 -OCT'26 INVOICE #4577136-1",
+   "uploaded": "2026-10-29T17:52:32-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "6d13da6e-666f-4a6a-b2c7-163d19724722": {
    "kind": "order",
    "layout": "order",
@@ -59782,6 +60409,30 @@
    "uploaded": "2026-07-06T10:57:42-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
+  },
+  "6e6c4d0b-cd25-4ee4-9a99-707e26ed12fc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 640.0,
+   "net": 544.0,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Dan Patrick for Lt. Governor",
+   "order_no": "4582232",
+   "invoice_no": "4582232-1",
+   "flight": [
+    "10/04/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+   "name": "KSLA DAN PATRICK EST 616 -OCT'26 INVOICE #4582232-1",
+   "uploaded": "2026-10-29T17:46:21-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "6e7e1a0f-5c63-422a-82a2-75ddd6d73c68": {
    "kind": "other",
@@ -64333,6 +64984,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "76453863-aca4-4771-b663-e6b23a1fdfbe": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 13000.0,
+   "net": 11050.0,
+   "agency": "Smart Media Group LLC (VA)",
+   "advertiser": "Hodges/R/St Tammany Sheriff",
+   "order_no": "4484931",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WDSU",
+   "path": "Political Files/2026/Local/Robert Hodges",
+   "name": "Robert Hodges 10-28 to 11-3",
+   "uploaded": "2026-10-29T17:32:02-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "7657e107-24a4-4c80-8afe-385a1e10c544": {
    "kind": "request",
    "layout": "nab",
@@ -64479,6 +65151,27 @@
    "uploaded": "2026-03-06T11:30:54-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
+  },
+  "767eb822-7ebc-48d3-9177-fe9f9ccb6380": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "AxMedia",
+   "advertiser": "Three Rivers PAC",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Three Rivers PAC",
+   "name": "WGNO Three Rivers PAC NAB 10-29-26",
+   "uploaded": "2026-10-29T15:56:57-04:00",
+   "name_kind": "request",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "767ed733-91c8-4170-b731-b29693d697a3": {
    "kind": "order",
@@ -65049,6 +65742,30 @@
    "uploaded": "2026-03-12T10:49:48-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "778faf94-9779-4ac2-8c4a-cafb46fea79d": {
+   "kind": "order",
+   "layout": "order",
+   "gross": 10855.0,
+   "net": 9226.75,
+   "agency": "Eason Advertising LLC",
+   "advertiser": null,
+   "order_no": "4591959",
+   "invoice_no": null,
+   "flight": [
+    "10/12/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KATC",
+   "path": "Political Files/2026/Local/The Committee to elect David Way for District Judge",
+   "name": "KATC-COMMITTEE TO ELECT DAVID WAY",
+   "uploaded": "2026-10-29T18:11:26-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "77920d90-d946-43e6-ba93-57e207ba1313": {
    "kind": "request",
@@ -69705,6 +70422,27 @@
    "name_kind": "order",
    "read_at": "2026-10-20T20:13:18Z"
   },
+  "7ec5010e-2fc4-45c9-84af-4d6ff4861106": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Lowa Epson AdvetTSIUG, LEC",
+   "advertiser": "co COMMITPE TO. ELECT. JAMES KLOCK",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KLFY",
+   "path": "Political Files/2026/Local/City Court Judge/James Klock - City Court Judge",
+   "name": "Pol-James Klock_10.29.2026_NAB-signed",
+   "uploaded": "2026-10-29T16:43:18-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "7ed3d2dd-34e8-4ab4-8540-bf724bbefb28": {
    "kind": "other",
    "layout": "other",
@@ -72752,6 +73490,30 @@
    "uploaded": "2026-07-13T17:58:19-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "83cda400-ef37-4758-bdb9-934f15cb604c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 83648.0,
+   "net": 71100.8,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4580114",
+   "invoice_no": "4580114-1",
+   "flight": [
+    "10/05/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana",
+   "name": "KSLA MIKE JOHNSON FOR LA EST 9485 -OCT'26 INVOICE #4580114-1",
+   "uploaded": "2026-10-29T18:04:52-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "83d14b6c-4553-42ed-a7be-9b76a5718b1b": {
    "kind": "other",
@@ -78046,6 +78808,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "8d367e38-3458-4ac9-b609-277341ef9dba": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 17460.0,
+   "net": 14841.0,
+   "agency": "Smart Media Group LLC (VA)",
+   "advertiser": "Hilferty/R/Public Service Commissioner",
+   "order_no": "4485008",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WDSU",
+   "path": "Political Files/2026/Local/Stephanie Hilferty",
+   "name": "Stephanie Hilferty 10-30 to 11-3",
+   "uploaded": "2026-10-29T17:36:01-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "8d36b9a0-7dcf-4de7-8ea8-e795799ad944": {
    "kind": "order",
    "layout": "other",
@@ -78255,6 +79038,30 @@
    "uploaded": "2026-02-11T09:59:26-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:34:00Z"
+  },
+  "8dd72fbb-19e0-48a2-8f0b-8797899480a4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2784.0,
+   "net": 2366.4,
+   "agency": null,
+   "advertiser": null,
+   "order_no": "4596513",
+   "invoice_no": "4596513-1",
+   "flight": [
+    "10/16/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Local/District Attorney/Committee to Re-Elect Stewart for Caddo Parish DA",
+   "name": "KSLA STEWART FOR CADDO PARISH DA OCT'26 INVOICE #4596513-1",
+   "uploaded": "2026-10-29T17:56:42-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "8dd84283-a16f-4fb3-84ad-63ba5e96f2de": {
    "kind": "invoice",
@@ -78751,6 +79558,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "8f0866b7-0ff2-43f8-92bd-5b66e1ac855f": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 31325.0,
+   "net": 26626.25,
+   "agency": "Del Cielo Media",
+   "advertiser": "Accountability Project, Inc",
+   "order_no": "4484237",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WDSU",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project",
+   "name": "Accountability Project 10-28 to 11-3",
+   "uploaded": "2026-10-29T17:29:50-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "8f0ab5f7-1b42-4e3c-a4c8-fa0aaec1fce8": {
    "kind": "order",
    "layout": "iheart",
@@ -79050,6 +79878,30 @@
    "uploaded": "2026-04-10T16:23:55-04:00",
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
+  },
+  "8fa8ed61-6834-43ca-9888-4f532ca32fff": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 17536.0,
+   "net": 14905.6,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Dan Patrick for Lt. Governor",
+   "order_no": "4554744",
+   "invoice_no": "4554744-2",
+   "flight": [
+    "09/21/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+   "name": "KSLA DAN PATRICK EST 601 -OCT'26 INVOICE #4554744-2",
+   "uploaded": "2026-10-29T17:46:21-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "8fb1eefb-03de-41df-a064-7d12e0bedd01": {
    "kind": "request",
@@ -79782,6 +80634,27 @@
    "uploaded": "2026-05-29T01:54:57-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T19:51:32Z"
+  },
+  "90c602bb-6bc8-49b5-9d06-8202d4c97a0c": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 290.0,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "005341",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/GOVERNMENT THAT WORKS",
+   "name": "GOVERNMENT THAT WORKS PAC - LOU_confirm1342552_sys1804_20261029_150007",
+   "uploaded": "2026-10-29T16:04:21-04:00",
+   "name_kind": "aired",
+   "read_at": "2026-10-29T22:46:05Z"
   },
   "90cb8c2a-2919-4f3f-b4d7-fa2a3f44a794": {
    "kind": "request",
@@ -85026,6 +85899,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "99e2d5db-def8-4beb-bb8d-fcc09a4ef022": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KZWA",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Power Coalition for Equity  Justice - KZWA-FM Invoice 526",
+   "name": "Revised Power Coalition For Equity& Justice ORDER -2",
+   "uploaded": "2026-10-29T16:41:05-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:45:25Z"
+  },
   "99e41e6f-140e-4ab4-a5ee-758b71b1f908": {
    "kind": "order",
    "layout": "other",
@@ -89515,6 +90409,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
   },
+  "a1d353f1-e999-41e4-8d0e-4e37ddcda70b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9296.0,
+   "net": 7901.6,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4602939",
+   "invoice_no": "4602939-1",
+   "flight": [
+    "10/22/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Louisiana/Jamie Davis for US Senate",
+   "name": "KSLA JAMIE DAVIS EST 14576 -OCT'26 INVOICE#4602939-1",
+   "uploaded": "2026-10-29T17:59:49-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "a1dc02b8-d587-423f-b801-a615dc9b0528": {
    "kind": "order",
    "layout": "contract",
@@ -90006,6 +90924,27 @@
    "uploaded": "2026-07-08T15:54:38-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:40:20Z"
+  },
+  "a2e9b5f8-1c12-4d85-8b7b-6216b7bfb8cc": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KZWA",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Power Coalition for Equity  Justice - KZWA-FM Invoice 526",
+   "name": "Power Coalition For Equity& Justice ORDER -1",
+   "uploaded": "2026-10-29T16:41:05-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:45:25Z"
   },
   "a2ee334e-5317-4225-bd8d-848df47a574a": {
    "kind": "order",
@@ -97009,6 +97948,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T02:19:37Z"
   },
+  "b001fd10-96fe-464d-b12a-7c3b315db2f6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 27456.0,
+   "net": 23337.6,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "Texans for Greg Abbott",
+   "order_no": "4586718",
+   "invoice_no": "4586718-1",
+   "flight": [
+    "10/15/26",
+    "10/21/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+   "name": "KSLA TEXANS FOR GREG ABBOTT EST 8301 -OCT'26 INVOICE #4586718-1",
+   "uploaded": "2026-10-29T17:52:32-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "b006e054-ee09-4fe0-8334-0bd578293bb7": {
    "kind": "invoice",
    "layout": "invoice",
@@ -97443,6 +98406,30 @@
    "uploaded": "2026-02-25T17:01:47-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T07:05:00Z"
+  },
+  "b0f22d1e-2e12-4923-8555-81acd70b2a13": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 16480.0,
+   "net": 14008.0,
+   "agency": "AxMedia",
+   "advertiser": "Ken Paxton Victory Fund",
+   "order_no": "4581228",
+   "invoice_no": "4581228-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Texas/Ken Paxton Victory Fund",
+   "name": "KSLA KEN PAXTON VICTORY FUND EST 9511 -OCT'26 INVOICE #4581228-1",
+   "uploaded": "2026-10-29T18:02:24-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "b0f2dcda-f1eb-42d7-8ba3-ef7d5ac4864f": {
    "kind": "order",
@@ -98008,6 +98995,30 @@
    "uploaded": "2026-07-01T12:21:00-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "b1e6ef4f-4d6b-49cc-ba8f-c9d944578e99": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 49136.0,
+   "net": 41765.6,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "Texans for Greg Abbott",
+   "order_no": "4548718",
+   "invoice_no": "4548718-2",
+   "flight": [
+    "09/22/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+   "name": "KSLA TEXANS FOR GREG ABBOTT EST 8222 -OCT'26 INVOICE #4548718-2",
+   "uploaded": "2026-10-29T17:52:32-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "b2258986-4020-42a9-ab9a-0630fef5d422": {
    "kind": "request",
@@ -104239,6 +105250,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
   },
+  "bc6e5c1e-66fa-44db-8fa6-330e965317af": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 0.0,
+   "net": 0.0,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4598624",
+   "invoice_no": "4598624-1",
+   "flight": [
+    "10/25/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana",
+   "name": "KSLA MIKE JOHNSON FOR LA EST 9698 -OCT'26 INVOICE #4598624-1",
+   "uploaded": "2026-10-29T18:04:52-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "bc71736d-0706-4572-a406-3f93df761d7c": {
    "kind": "request",
    "layout": "nab",
@@ -105799,6 +106834,27 @@
    "name_kind": "order",
    "read_at": "2026-10-21T16:37:20Z"
   },
+  "bef02334-7944-4d4b-8b9f-c8ebfe17fe40": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Mobile Communications Service",
+   "advertiser": "Phelps for Mayor Campaign",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KPXJ",
+   "path": "Political Files/2026/Local/Mayor of Shreveport/Tammy Phelps/PB - 20597",
+   "name": "20261029163934902",
+   "uploaded": "2026-10-29T17:24:04-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "bef808e3-34a1-4c0c-ba83-3b1b900861be": {
    "kind": "request",
    "layout": "nab",
@@ -105948,6 +107004,27 @@
    "uploaded": "2026-04-21T17:34:16-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:49:24Z"
+  },
+  "bf231442-e1b3-4133-9042-b5f899bd20bc": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Lowa ERSen AUER TISING, COO",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KLFY",
+   "path": "Political Files/2026/Local/District Judge/David Way - District Judge",
+   "name": "Pol-David Way_10.29.2026_NAB-signed",
+   "uploaded": "2026-10-29T16:47:17-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "bf253e72-94e5-485b-9d0f-71f54a7f34e5": {
    "kind": "order",
@@ -110136,6 +111213,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
   },
+  "c6c685a2-0f1e-4507-be4e-005dcbf3d216": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Smart Media Group",
+   "advertiser": "Hilferty for Public Service Commissioner",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WDSU",
+   "path": "Political Files/2026/Local/Stephanie Hilferty",
+   "name": "Stephanie Hilferty NAB 10-28",
+   "uploaded": "2026-10-29T17:36:01-04:00",
+   "name_kind": "request",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "c6c75ae8-fb1a-45d7-808b-604b2f435a70": {
    "kind": "order",
    "layout": "order",
@@ -111011,6 +112109,30 @@
    "uploaded": "2026-10-07T11:16:18-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:55:01Z"
+  },
+  "c84eac9b-da36-4f45-8dfe-b201d1ac23a6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3280.0,
+   "net": 2788.0,
+   "agency": "LC Media LLC",
+   "advertiser": "Gina Hinojosa",
+   "order_no": "4577141",
+   "invoice_no": "4577141-1",
+   "flight": [
+    "09/29/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+   "name": "KSLA GINA HINOJOSA EST 1754 -OCT'26 INVOICE#4577141-1",
+   "uploaded": "2026-10-29T17:50:18-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "c851b4de-3e99-4fdf-aace-4a82b464e925": {
    "kind": "request",
@@ -113444,6 +114566,27 @@
    "uploaded": "2026-03-06T12:21:37-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
+  },
+  "cc1f6a60-e30b-4d4a-b2d2-56cd507212d2": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Debra Schommer Media Group",
+   "advertiser": "Government that Works PAC",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "cable",
+   "call": "008048",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Government That Works PAC",
+   "name": "1342552_NAB_20261029040519890",
+   "uploaded": "2026-10-29T18:01:51-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-29T22:46:05Z"
   },
   "cc239b0e-7da4-488f-8f31-cafc0ec48b8d": {
    "kind": "invoice",
@@ -121666,6 +122809,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T15:02:04Z"
   },
+  "d9e566e9-de2c-4b1e-b6a0-c6d0a657299c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2080.0,
+   "net": 1768.0,
+   "agency": "Smart Media Group",
+   "advertiser": "John Atkins for Public Service Commissioner",
+   "order_no": "4576211",
+   "invoice_no": "4576211-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/LA Public Service Commissioner/John Atkins for Public Service Commissioner",
+   "name": "KSLA JOHN ATKINS EST C06C12 -OCT'26 INVOICE #4576211-1",
+   "uploaded": "2026-10-29T17:58:30-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "d9f10313-686b-402d-b04a-265be4761c97": {
    "kind": "order",
    "layout": "other",
@@ -124360,6 +125527,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
   },
+  "dee47ae0-5514-4737-a42b-b62a809d22ad": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5360.0,
+   "net": 4556.0,
+   "agency": "Smart Media Group",
+   "advertiser": "John Atkins for Public Service Commissioner",
+   "order_no": "4576277",
+   "invoice_no": "4576277-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/LA Public Service Commissioner/John Atkins for Public Service Commissioner",
+   "name": "KSLA JOHN ATKINS EST C20C26 -OCT'26 INVOICE #4576277-1",
+   "uploaded": "2026-10-29T17:58:30-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "dee56aba-3227-42bc-a97b-e9a53b4ced81": {
    "kind": "order",
    "layout": "other",
@@ -125440,6 +126631,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
   },
+  "e1343597-9420-42cc-a2d6-f73a6ef3f3ad": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3360.0,
+   "net": 2856.0,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Dan Patrick for Lt. Governor",
+   "order_no": "4592010",
+   "invoice_no": "4592010-1",
+   "flight": [
+    "10/11/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+   "name": "KSLA DAN PATRICK EST 639 -OCT'26 INVOICE #4592010-1",
+   "uploaded": "2026-10-29T17:46:22-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "e13b9d56-ebd1-412e-9952-9ecb00612624": {
    "kind": "order",
    "layout": "contract",
@@ -125460,6 +126675,30 @@
    "uploaded": "2026-03-20T11:00:19-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
+  },
+  "e14574ad-c874-4399-bf65-5d10e5a97b91": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12752.0,
+   "net": 10839.2,
+   "agency": "Thematic Campaigns",
+   "advertiser": "Talarico for Texas",
+   "order_no": "4593122",
+   "invoice_no": "4593122-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Texas/Talarico for Texas",
+   "name": "KSLA TALARICO FOR TEXAS EST 210 -OCT'26 INVOICE #4593122-1",
+   "uploaded": "2026-10-29T18:04:06-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "e1495d98-cff5-4181-bee9-a7365f822093": {
    "kind": "other",
@@ -127958,6 +129197,30 @@
    "uploaded": "2026-03-02T13:12:40-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
+  },
+  "e54f74d8-605b-4c0d-8bcf-fad8ad199f47": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6656.0,
+   "net": 5657.6,
+   "agency": "Thematic Campaigns",
+   "advertiser": "Talarico for Texas",
+   "order_no": "4599561",
+   "invoice_no": "4599561-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Texas/Talarico for Texas",
+   "name": "KSLA TALARICO FOR TEXAS EST 211 -OCT'26 INVOICE #4599561-1",
+   "uploaded": "2026-10-29T18:04:06-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
   },
   "e5708ec6-fcd2-49e2-b996-f3237e695570": {
    "kind": "order",
@@ -139138,6 +140401,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T02:39:28Z"
   },
+  "facc4ffe-29f4-4194-a441-cf46083a2c36": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21360.0,
+   "net": 18156.0,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4582860",
+   "invoice_no": "4582860-1",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KSLA",
+   "path": "Political Files/2026/Federal/US Senate/Louisiana/Julia Letlow for US Senate for Louisiana",
+   "name": "KSLA JULIA LETLOW FOR LA SENATE EST 924 -OCT'26 INVOICE #4582860-1",
+   "uploaded": "2026-10-29T18:01:12-04:00",
+   "name_kind": "invoice",
+   "read_at": "2026-10-29T22:40:50Z"
+  },
   "faf10f91-7f02-4360-9a72-e784de0f775c": {
    "kind": "request",
    "layout": "nab",
@@ -141769,6 +143056,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-29T20:14:17Z",
+ "updated": "2026-10-29T22:46:05Z",
  "blocked": null
 }
