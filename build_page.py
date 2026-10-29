@@ -206,6 +206,24 @@ def build_data():
             'top': [{'n': t['name'], 'a': round(t['amount'])} for t in s['top_committees'][:5]],
         })
 
+    # What the stations' political files show booked this cycle, by station
+    # and market (TV) and by week (every medium): beside the filings, never
+    # added to them, since a state candidate's direct buy is in both.
+    by_call = {s['call']: BY_NAME[s['dma']] for s in spend['stations']}
+    fcc = fcc_summary(by_call)
+    bk = (fcc or {}).get('booked') or {}
+    for st in stations:
+        st['bk'] = bk.get('calls', {}).get(st['call'], 0)
+    for d in dmas:
+        d['bk'] = bk.get('markets', {}).get(d['k'], 0)
+    every = fcc_summary(by_call, media=('tv', 'cable', 'radio', 'dbs'))
+    cycle = None
+    if every and every.get('booked'):
+        cycle = {'weeks': every['booked']['weeks'], 'total': every['usd']['total'],
+                 'byBucket': every['usd']['byBucket'], 'priced': every['usd']['priced'],
+                 'docs': every['usd']['docs'], 'scraped': every['scraped'],
+                 'tv': fcc['usd']['total'] if fcc else 0}
+
     per_year = defaultdict(float)
     for s in spend['stations']:
         for y, v in s['by_year'].items():
@@ -233,7 +251,8 @@ def build_data():
         'yearsCovered': spend['years_covered'], 'yearsMissing': spend['years_missing'],
         'rowsScanned': spend['rows_scanned'],
         'bench': benchmarks(spend, la_hh),
-        'fcc': fcc_summary({s['call']: BY_NAME[s['dma']] for s in spend['stations']}),
+        'fcc': fcc,
+        'cycle': cycle,
         'agencies': agencies(spend),
         'pace': {'from': spend['pace']['weeks'][0], 'to': spend['pace']['weeks'][1],
                  'cycles': [{'y': c['year'], 'primary': c['primary'], 'done': c['complete'],

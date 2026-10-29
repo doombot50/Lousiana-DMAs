@@ -73,6 +73,32 @@ def load_documents():
         return {}
 
 
+def booked_totals(spent, scraped):
+    """The dollars counted for Louisiana's buyers, by the week they were
+    filed (Monday first; federal, state & local, issue) and by station and
+    market: the same orders, each once, that the buyers' totals count."""
+    if not spent:
+        return None
+    monday = lambda d: (date.fromisoformat(d) - timedelta(days=date.fromisoformat(d).weekday())).isoformat()
+    weeks = defaultdict(lambda: [0.0, 0.0, 0.0])
+    col = {'Federal': 0, 'State & local': 1, 'Issue': 2}
+    calls, markets = defaultdict(float), defaultdict(float)
+    for b, up, g, r in spent:
+        if not up or b not in col:
+            continue
+        weeks[monday(up)][col[b]] += g
+        calls[r['call']] += g
+        if r['k']:
+            markets[r['k']] += g
+    first, last = min(weeks), monday(scraped)
+    out, d = [], date.fromisoformat(first)
+    while d.isoformat() <= last:
+        out.append([d.isoformat()] + [round(v) for v in weeks.get(d.isoformat(), [0, 0, 0])])
+        d += timedelta(days=7)
+    return {'weeks': out, 'calls': {c: round(v) for c, v in sorted(calls.items())},
+            'markets': {k: round(v) for k, v in sorted(markets.items())}}
+
+
 def order_key(media, call, fname, d, did):
     """Which order a priced document belongs to, so each counts once. A
     station's order number is the station's; cable systems and radio groups
@@ -86,7 +112,7 @@ def order_key(media, call, fname, d, did):
     return (where, no or did)
 
 
-def booked(rs, docs):
+def booked(rs, docs, lines=None):
     """The dollars a buyer's documents show, from those read so far.
 
     An order's revisions restate the whole order, so each station order
@@ -94,7 +120,9 @@ def booked(rs, docs):
     order, so invoices count only for an order whose own document hasn't
     been read (each invoice once: a reissue repeats one). Gross, before
     agency commission: what the buyer pays. Returns None when none of the
-    buyer's documents has been read."""
+    buyer's documents has been read. With `lines`, each dollar counted is
+    appended to it as (date filed, gross, row), for totals by week, station
+    and market that count exactly what the buyers' totals do."""
     orders, invoices = {}, defaultdict(dict)
     agencies = defaultdict(Counter)
     read = priced = 0
@@ -111,12 +139,16 @@ def booked(rs, docs):
         key = order_key(r['m'], r['call'], r['fname'], d, r['id'])
         if d['kind'] == 'order':
             if key not in orders or r['up'] > orders[key][0]:
-                orders[key] = (r['up'], d['gross'])
+                orders[key] = (r['up'], d['gross'], r)
         elif d['kind'] == 'invoice' and not d.get('reissue'):
-            invoices[key][d.get('invoice_no') or r['id']] = d['gross']
+            invoices[key][d.get('invoice_no') or r['id']] = (d['gross'], r)
     if not read:
         return None
-    ordered = sum(g for _, g in orders.values())
+    if lines is not None:
+        lines += [(up, g, r) for up, g, r in orders.values()]
+        lines += [(r['up'], g, r) for k, v in invoices.items() if k not in orders for g, r in v.values()]
+    invoices = {k: {i: g for i, (g, _) in v.items()} for k, v in invoices.items()}
+    ordered = sum(g for _, g, _ in orders.values())
     invoiced = sum(sum(v.values()) for v in invoices.values())
     usd = ordered + sum(sum(v.values()) for k, v in invoices.items() if k not in orders)
     ag = sorted(((sum(c.values()), c.most_common(1)[0][0]) for k, c in agencies.items() if k), reverse=True)
@@ -237,6 +269,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
 
     documents = load_documents()
     buyers = []
+    spent = []          # (bucket, date filed, gross, row) for every dollar counted
     for (b, target), rs in groups.items():
         # Each document once, dated by its first listing.
         uniq = list({r['dk']: r for r in sorted(rs, key=lambda r: r['up'], reverse=True)}.values())
@@ -272,6 +305,10 @@ def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
         for r in sorted(rs, key=lambda r: r['up']):
             if r['link'] and (r['deep'] or not links.get(r['call'], (None, False))[1]):
                 links[r['call']] = (r['link'], r['deep'])
+        ln = []
+        money = booked(uniq, documents, ln)
+        if b != 'Out of state':
+            spent += [(b, up, g, r) for up, g, r in ln]
         buyers.append({
             'name': re.sub(r'\s+campaign$', '', name, flags=re.I), 'b': b, 'office': tidy_caps(offices.most_common(1)[0][0]) if offices else None,
             'state': Counter(r['state'] for r in rs if r['state']).most_common(1)[0][0]
@@ -296,7 +333,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
             'fresh': [list(x) for x in fresh],
             'f': match_filer(sorted({clean_name(r['name']) for r in rs}), fidx, person=b != 'Issue')
                  if b in ('State & local', 'Issue') else None,
-            **({'usd': money} if (money := booked(uniq, documents)) else {}),
+            **({'usd': money} if money else {}),
         })
     # Busiest this fortnight first, then the most recently active.
     buyers.sort(key=lambda x: (x['recent'], x['latest']), reverse=True)
@@ -337,6 +374,7 @@ def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
                 'total': sum(x['usd']['usd'] for x in home if 'usd' in x),
                 'byBucket': {k: sum(x['usd']['usd'] for x in home if 'usd' in x and x['b'] == k)
                              for k in ('Federal', 'State & local', 'Issue')}},
+        'booked': booked_totals(spent, scraped),
         'buyers': home[:FCC_ROWS] + away[:FCC_ROWS // 2],
         **({'all': home, 'freshSince': fresh_since} if full else {}),
         **({'awayIds': sorted({r['id'] for r in rows if r['b'] == 'Out of state' and r['id']})} if ids else {}),
