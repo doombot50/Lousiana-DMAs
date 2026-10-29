@@ -146,7 +146,8 @@ def builder(args, files):
     this_year = int(time.strftime('%Y'))
 
     paid = defaultdict(lambda: {'total': 0.0, 'media': 0.0, 'media_cycle': 0.0, 'rows': 0, 'years': defaultdict(float),
-                                'by': defaultdict(lambda: [0.0, 0.0, 0.0]), 'names': Counter()})
+                                'by': defaultdict(lambda: [0.0, 0.0, 0.0]), 'names': Counter(),
+                                'year_by': defaultdict(lambda: defaultdict(float))})
     fname = defaultdict(Counter)
     fparty = defaultdict(Counter)
     match = {}
@@ -186,6 +187,7 @@ def builder(args, files):
             p['by'][fn][0] += amt
             p['by'][fn][1] += amt if yr > this_year - CYCLE_YEARS else 0
             p['by'][fn][2] += amt if media and yr > this_year - CYCLE_YEARS else 0
+            p['year_by'][fn][yr] += amt
             if r.get('candidate'):
                 fname[fn][r['candidate']] += 1
             if r.get('party'):
@@ -238,7 +240,13 @@ def builder(args, files):
             for fn, v in (paid.get(r['key'], {}).get('by') or {}).items():
                 if v[0] >= 1000:
                     by_filer[fn].append({'k': r['key'], 'n': r['name'], 'usd': round(v[0]), 'cycle': round(v[1]),
-                                         'media': round(v[2]), 'fcc': 'fcc' in r})
+                                         'media': round(v[2]), 'fcc': 'fcc' in r,
+                                         # Every payment by year, for the races page to set
+                                         # beside what the committee's political files show it
+                                         # booked: committees describe agency payments loosely
+                                         # ("Media", "Commercial", "balance on contract").
+                                         'y': {str(y): round(a) for y, a in sorted(
+                                             paid[r['key']]['year_by'][fn].items()) if a >= 1}})
         for v in by_filer.values():
             v.sort(key=lambda x: -x['usd'])
         out = {

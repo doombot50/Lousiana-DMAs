@@ -159,6 +159,32 @@ class OutsideGroups(unittest.TestCase):
                                'sb': []})   # "page 1" is a word; Kim Page isn't buying airtime
 
 
+class BookedAgainstReported(unittest.TestCase):
+    """A committee's political-file dollars beside what its reports show
+    paid this year, to stations and to media agencies."""
+    def test_reported_counts_stations_and_every_agency_payment(self):
+        from build_races_page import reported
+        tv = {'9': {'years': {'2025': 5000, '2026': 3000}}}
+        ra = {'9': {'years': {'2026': 1000}}}
+        ag = {'9': [{'n': 'Arsement Media Group', 'y': {'2025': 7000, '2026': 60000}},
+                    {'n': 'Smart Media Group', 'y': {'2026': 15000}}]}
+        self.assertEqual(reported('9', '2026', tv, ra, ag), (4000, 75000))
+        self.assertEqual(reported('8', '2026', tv, ra, ag), (0, 0))
+
+    def test_coming_lists_unreported_bookings_once_per_committee(self):
+        from build_races_page import coming
+        buyer = lambda name, f, b, usd: {'name': name, 'f': f, 'b': b, 'latest': '2026-10-28',
+                                         'usd': {'usd': usd, 'ag': ['Arsement Media Group']}}
+        F = {'all': [buyer('Don Landry', '7', 'State & local', 45000),
+                     buyer('Donald D. Landry', '7', 'State & local', 41000),   # another station's name
+                     buyer('Joe Stagni', '8', 'State & local', 49000),         # already reported
+                     buyer('Julia Letlow', None, 'Federal', 900000)]}          # reports to the FEC
+        ag = {'7': [{'y': {'2026': 19500}}], '8': [{'y': {'2026': 82000}}]}
+        rows = coming(F, '2026', {}, {}, ag, {'7': 'Donald D. Landry'}.get)
+        self.assertEqual([(r['n'], r['booked'], r['ag'], r['gap']) for r in rows],
+                         [('Donald D. Landry', 86000, 19500, 66500)])
+
+
 class SpendMatching(unittest.TestCase):
     """The TV and radio builders on synthetic filing rows."""
 
