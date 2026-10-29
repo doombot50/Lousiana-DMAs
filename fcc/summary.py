@@ -190,6 +190,12 @@ def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
     # sister station MVHP appears in its file names too.
     calls = {s['call'].split('-')[0] for s in load('data', 'stations.json')}
     calls |= {'MVHP'}
+    # Radio stations write their own call sign into names too ("michael
+    # vincent WBRP").
+    try:
+        calls |= {s['call'] for s in load('data', 'radio_stations.json')}
+    except FileNotFoundError:
+        pass
     rows = []
     for medium, st in entries:
         for f in st['files']:
@@ -199,10 +205,17 @@ def fcc_summary(markets_by_call, full=False, media=('tv',), ids=False):
                 buyer = dbs_buyer(buyer)
             if not level:
                 continue
+            # A buyer folder named with the station's own call sign first
+            # ("WWL-Joe McMahon for Judge") is named for the buyer after it.
+            if buyer:
+                own = re.escape(st['call'].split('-')[0])
+                buyer = re.sub(r'^' + own + r'(?:-(?:AM|FM|TV))?\s*[-\u2013:]\s*', '', buyer, flags=re.I) or buyer
             # No buyer folder (the Lake Charles stations file straight into
             # the office folder): read the buyer from the document's name.
             from_name = None if buyer else buyer_from_filename(f['name'] or '', calls)
-            name = buyer or from_name or office or 'Filed without a buyer folder'
+            # A document whose name doesn't say who bought it is not the
+            # office's buyer: it says so, rather than listing "US House".
+            name = buyer or from_name or 'Buyer not named in the file'
             # Another state's race carried on a Louisiana station (East Texas
             # on Shreveport's, network issue buys on sub-channels) is kept
             # apart, so it doesn't count as Louisiana spending.

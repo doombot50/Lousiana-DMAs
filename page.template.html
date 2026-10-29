@@ -8,6 +8,9 @@
   --no:#2a78d6; --shv:#1baf7a; --br:#eda100; --laf:#e87ba4; --mon:#eb6834; --lkc:#008300; --alx:#4a3aa7;
   --accent:#2a78d6; --accent-ink:#1c5cab; --quiet:#c3c2b7;
   --dem:#2a78d6; --rep:#e34948; --oth:#c3c2b7;
+  /* Neutral steps for anything that is neither a market nor a party:
+     race level, owner group, source. Identity comes from the legend. */
+  --n1:#3b3a37; --n2:#7a7871; --n3:#c9c7be; --n4:#e3e2db;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -17,6 +20,7 @@
     --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
     --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46;
     --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+    --n1:#e8e7e1; --n2:#9b9a92; --n3:#5c5b56; --n4:#383835;
   }
 }
 :root[data-theme="dark"]{
@@ -25,7 +29,8 @@
   --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
   --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
   --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46;
-    --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+  --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+  --n1:#e8e7e1; --n2:#9b9a92; --n3:#5c5b56; --n4:#383835;
 }
 *{box-sizing:border-box}
 body{background:var(--page); color:var(--ink); font:16px/1.55 "Source Serif 4",Georgia,serif; margin:0;}
@@ -71,8 +76,8 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pbase{stroke:var(--baseline); stroke-width:1;}
 .pline{fill:none; stroke-linejoin:round; stroke-linecap:round;}
 .pend{font-family:"IBM Plex Mono",monospace; font-size:10px; fill:var(--muted);}
-.pend.now{font-size:11px; font-weight:600; fill:var(--accent-ink); paint-order:stroke; stroke:var(--surface); stroke-width:5px; stroke-linejoin:round;}
-.pnow{stroke:var(--accent); stroke-width:1; stroke-dasharray:3 3;}
+.pend.now{font-size:11px; font-weight:600; fill:var(--ink); paint-order:stroke; stroke:var(--surface); stroke-width:5px; stroke-linejoin:round;}
+.pnow{stroke:var(--ink2); stroke-width:1; stroke-dasharray:3 3;}
 .pace-hit{fill:transparent; cursor:crosshair;}
 .cyckey{display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:14px; font-family:Archivo,system-ui,sans-serif; font-size:12.5px; color:var(--ink2);}
 .cyckey i{display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; vertical-align:-1px;}
@@ -94,22 +99,6 @@ section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.0
 .pfrow .when b{color:var(--ink);}
 .pfrow .calls{grid-column:1/-1; display:flex; flex-wrap:wrap; gap:4px;}
 .pfrow .usd{color:var(--ink); font-weight:600;}
-.agrow{display:grid; grid-template-columns:minmax(0,1fr) 150px 210px; gap:4px 18px; padding:11px 16px; border-top:1px solid var(--hair); align-items:baseline;}
-.agrow:first-child{border-top:0;}
-.agrow.head{font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding-top:6px; padding-bottom:6px;}
-.agsort{all:unset; cursor:pointer; font:inherit; letter-spacing:inherit; text-transform:inherit; color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
-.agrow .num .agsort{display:block; text-align:right; white-space:normal;}
-.agrow.head .num{white-space:normal; display:flex; flex-direction:column; align-items:flex-end;}
-.agsort.sub{display:block; margin-top:3px; font-weight:400; letter-spacing:.04em; text-transform:none; font-size:10.5px;}
-.agsort[aria-pressed="true"]{color:var(--ink); text-decoration-style:solid;}
-.agsort:focus-visible{outline:2px solid var(--ink); outline-offset:2px;}
-.agrow .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:14px;}
-.agrow .num{font-family:"IBM Plex Mono",monospace; font-size:12px; text-align:right; white-space:nowrap; color:var(--ink);}
-.agrow .num small{display:block; font-size:10.5px; color:var(--muted); font-weight:400;}
-.agrow .who{grid-column:1/-1; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2); line-height:1.5;}
-.agrow .who a{color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
-@media (max-width:560px){ .agrow{grid-template-columns:minmax(0,1fr) auto;} .agrow .num.fcc{grid-column:2;} }
-.agrow .num small{white-space:normal;}
 a.callchip{text-decoration:none;}
 a.callchip:hover{color:var(--ink); background:var(--hair);}
 .callchip{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2);}
@@ -118,6 +107,77 @@ a.callchip:hover{color:var(--ink); background:var(--hair);}
 .pfmore{display:block; width:100%; padding:11px; border:0; border-top:1px solid var(--hair); background:none; font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); cursor:pointer;}
 .subhead{font-size:15px; font-weight:700; margin:34px 0 0; letter-spacing:.01em;}
 .pval{font-family:"IBM Plex Mono",monospace; font-size:10.5px; font-weight:600; fill:var(--ink);}
+.pkey{display:flex; gap:16px; flex-wrap:wrap; margin:0 0 6px; font-family:Archivo,system-ui,sans-serif; font-size:11.5px; color:var(--ink2);}
+.pkey span{display:flex; align-items:center; gap:6px;}
+.pkey i{width:10px; height:10px; border-radius:2px; display:inline-block;}
+
+/* in-page contents, pinned under the header once scrolled past it */
+.toc{position:sticky; top:0; z-index:6; display:flex; align-items:center; gap:2px; margin:30px -20px 0; padding:8px 20px; background:var(--page); border-bottom:1px solid var(--hair); overflow-x:auto; scrollbar-width:none; white-space:nowrap; font-family:Archivo,system-ui,sans-serif;}
+.toc::-webkit-scrollbar{display:none;}
+.toc a{font-size:12px; font-weight:600; color:var(--ink2); text-decoration:none; padding:5px 9px; border-radius:999px; flex:none;}
+.toc a:hover{background:var(--hair); color:var(--ink);}
+.toc a[aria-current="true"]{background:var(--ink); color:var(--page);}
+.toc a:focus-visible{outline:2px solid var(--accent); outline-offset:1px;}
+.toclbl{font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); padding:0 6px 0 2px; flex:none;}
+.toclbl.now{margin-left:10px; padding-left:12px; border-left:1px solid var(--hair);}
+section,.group{scroll-margin-top:52px;}
+.nowlink{display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-top:14px; padding:11px 16px; border:1px solid var(--hair); border-left:3px solid var(--ink); background:var(--surface); color:var(--ink2); text-decoration:none; font-family:Archivo,system-ui,sans-serif; font-size:13.5px;}
+.nowlink b{color:var(--ink);}
+.nowlink .go{margin-left:auto; font-weight:700; color:var(--accent-ink); white-space:nowrap;}
+.nowlink:hover .go{text-decoration:underline;}
+
+/* the "now" half of the page opens with its own heading */
+.group{margin-top:96px; padding-top:28px; border-top:3px solid var(--ink);}
+.grouph{font-size:clamp(30px,4.6vw,44px); font-weight:900; letter-spacing:-.015em; margin:6px 0 0;}
+.group + section{margin-top:44px;}
+.recon{margin-top:22px;}
+.recon div{color:var(--page);}
+.recon div.lt{color:var(--ink);}
+
+.pacegrid{display:grid; grid-template-columns:minmax(0,1.55fr) minmax(0,1fr); gap:12px; margin-top:26px;}
+.pacegrid .pulse{margin-top:0; padding:14px 14px 8px;}
+@media(max-width:760px){.pacegrid{grid-template-columns:1fr;}}
+.paneltitle{margin:0 0 6px; font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--ink2);}
+.chiprow{display:flex; flex-wrap:wrap; justify-content:space-between; gap:6px 18px; margin-top:22px;}
+.chiprow .chips{margin:0;}
+#benchchartwrap{margin-top:14px;}
+.slopelbl{font-family:Archivo,system-ui,sans-serif; font-size:11.5px; font-weight:600; fill:var(--ink);}
+.slopelbl .v{font-family:"IBM Plex Mono",monospace; font-weight:500; fill:var(--ink2);}
+.slopestart{font-family:"IBM Plex Mono",monospace; font-size:10.5px; fill:var(--ink2);}
+
+/* agencies: what the state filings show paid, against what the political files show bought */
+.agb{display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr) minmax(0,1fr); column-gap:14px; align-items:center;}
+.agb.head{padding:8px 16px 6px; border-bottom:1px solid var(--hair); font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); align-items:end;}
+.agb.head .l{text-align:right;}
+.agrowb{border-top:1px solid var(--hair);}
+.agrowb:first-of-type{border-top:0;}
+.agrowb > button{all:unset; display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr) minmax(0,1fr); column-gap:14px; align-items:center; box-sizing:border-box; width:100%; padding:7px 16px; cursor:pointer;}
+.agsort{all:unset; cursor:pointer; font:inherit; letter-spacing:inherit; text-transform:inherit; color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
+.agsort[aria-pressed="true"]{color:var(--ink); text-decoration-style:solid;}
+.agsort:focus-visible{outline:2px solid var(--ink); outline-offset:2px;}
+.agrowb > button:hover{background:var(--page);}
+.agrowb > button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
+.agrowb .nm{font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:13.5px; display:flex; align-items:center; gap:6px; min-width:0;}
+.agrowb .nm span{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.agrowb .nm::before{content:'›'; color:var(--muted); font-weight:700; transition:transform .12s; display:inline-block; width:8px; flex:none;}
+.agrowb[data-open] .nm::before{transform:rotate(90deg);}
+.agz{position:relative; height:18px;}
+.agz i{position:absolute; top:2px; bottom:2px; min-width:2px;}
+.agz.l i{right:0; border-radius:3px 0 0 3px; background:var(--n1);}
+.agz.r i{left:0; border-radius:0 3px 3px 0; background:var(--n2);}
+.agz.l{border-right:1px solid var(--baseline);}
+.agz.r{border-left:1px solid var(--baseline);}
+.agz b{position:absolute; top:50%; transform:translateY(-50%); font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:600; color:var(--ink); white-space:nowrap;}
+.agz b.none{color:var(--muted); font-weight:400;}
+.agmore{padding:2px 16px 12px 30px; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2); line-height:1.5;}
+.agmore a{color:inherit; text-decoration:underline dotted var(--baseline); text-underline-offset:3px;}
+.agmore .figs{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted); margin-bottom:3px;}
+.agkey{display:flex; gap:16px; flex-wrap:wrap; margin-top:14px; font-family:Archivo,system-ui,sans-serif; font-size:11.5px; color:var(--ink2);}
+.agkey span{display:flex; align-items:center; gap:6px;} .agkey i{width:10px; height:10px; border-radius:2px;}
+@media (max-width:620px){
+  .agb, .agrowb > button{grid-template-columns:minmax(0,1fr) minmax(0,1fr); row-gap:4px;}
+  .agb .nm, .agb.head .hn{grid-column:1/-1;}
+}
 
 /* map + panel */
 .mappanel{display:grid; grid-template-columns:minmax(0,1.35fr) minmax(300px,1fr); gap:28px; margin-top:26px; align-items:start;}
@@ -175,6 +235,7 @@ a.call:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
 
 /* ownership */
 .split{display:flex; gap:2px; margin-top:26px; height:34px; border-radius:3px; overflow:hidden;}
+.split div.lt{color:var(--ink);}
 .split div{display:flex; align-items:center; justify-content:center; font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:600; color:var(--page); min-width:0; overflow:hidden; white-space:nowrap;}
 .splitcap{display:flex; gap:18px; flex-wrap:wrap; margin-top:8px; font-family:Archivo,system-ui,sans-serif; font-size:12px; color:var(--ink2);}
 .splitcap span{display:flex; align-items:center; gap:6px;}
@@ -184,14 +245,17 @@ a.call:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
 .bench tbody th .sw{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:7px;}
 .bench tr.total th, .bench tr.total td{font-weight:600; border-top:2px solid var(--baseline);}
 .bench td.hi{color:var(--ink); font-weight:600;}
-.bench td .tint{position:absolute; inset:3px 3px; border-radius:2px; background:var(--accent); z-index:0;}
+.bench td .tint{position:absolute; inset:3px 3px; border-radius:2px; background:var(--ink2); z-index:0;}
 .bench td span{position:relative; z-index:1;}
 .matrixwrap{overflow-x:auto; margin-top:22px; border:1px solid var(--hair); background:var(--surface);}
 table.matrix{border-collapse:collapse; width:100%; min-width:760px;}
 .matrix th,.matrix td{border-top:1px solid var(--hair); padding:10px; vertical-align:top; text-align:left;}
 .matrix thead th{border-top:none; font-family:Archivo,system-ui,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--ink2); padding-bottom:8px;}
 .matrix thead th small{display:block; font-family:"IBM Plex Mono",monospace; font-weight:400; letter-spacing:0; text-transform:none; color:var(--muted); margin-top:2px;}
-.matrix tbody th{font-family:Archivo,system-ui,sans-serif; font-size:13.5px; font-weight:600; white-space:nowrap; padding-right:14px;}
+.matrix tbody th{font-family:Archivo,system-ui,sans-serif; font-size:13.5px; font-weight:600; padding-right:14px; min-width:120px;}
+.matrix.own td{padding:9px 6px;}
+.matrix.own td .chip{display:block; width:max-content; margin:0 0 3px;}
+.matrix.own thead th{padding-left:6px; padding-right:6px;}
 .matrix tbody th small{display:block; font-weight:400; font-size:11.5px; color:var(--muted); font-family:"IBM Plex Mono",monospace;}
 .chip{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:11.5px; padding:2px 6px 2px 5px; border-left:3px solid var(--baseline); background:var(--page); margin:1px 2px 1px 0; white-space:nowrap;}
 .chip sup{color:var(--muted);}
@@ -211,6 +275,8 @@ table.matrix{border-collapse:collapse; width:100%; min-width:760px;}
 .mkthead{display:flex; align-items:baseline; gap:8px; padding:14px 0 6px;}
 .mkthead .nm{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:13px; letter-spacing:.05em; text-transform:uppercase;}
 .mkthead .rk{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted);}
+.mkthead .tomap{margin-left:auto; font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:600; color:var(--muted); text-decoration:none;}
+.mkthead .tomap:hover{color:var(--accent-ink); text-decoration:underline;}
 .brow{display:grid; grid-template-columns:var(--lblw) 1fr; align-items:center; min-height:26px;}
 .brow .lbl{display:flex; align-items:baseline; gap:8px; padding-right:12px; min-width:0;}
 .brow .lbl .call{font-size:13px; white-space:nowrap;}
@@ -250,12 +316,21 @@ __NAV__
 <header>
   <p class="eyebrow">A spin-off of <a href="https://factions.charliestephens.xyz/vendor-factions.html">Louisiana's vendor factions</a></p>
   <h1>Louisiana Airwaves</h1>
-  <p class="dek">Louisiana political committees have paid the state's television stations <b id="hero">{{tv_total}}</b> since {{tv_since}}. This is where that money went: which of the <b>seven Nielsen markets</b> it bought, which stations banked it, and — after a year of consolidation — which companies now collect it. The surprise is that the biggest station group by <em>count</em> is not the biggest by <em>revenue</em>.</p>
+  <p class="dek">Louisiana political committees have paid the state's television stations <b id="hero">{{tv_total}}</b> since {{tv_since}}. This is where that money went: which of the <b>seven Nielsen markets</b> it bought, which stations banked it, and — after a year of consolidation — which companies now collect it. The surprise is that the biggest station group by <em>count</em> is not the biggest by <em>revenue</em>.<span id="agcaveat"></span></p>
   <p class="asof">Filings through __THROUGH__ · rebuilt nightly from the state's disclosure data</p>
   <div class="freq" id="freq" aria-hidden="true"></div>
   <div class="freqcap"><span>Seven markets, to scale by TV households</span><span class="mono" id="freqtotal"></span></div>
   <div class="stats" id="stats"></div>
+  <a class="nowlink" id="nowlink" href="#now" hidden></a>
 </header>
+
+<nav class="toc" id="toc" aria-label="On this page">
+  <span class="toclbl">Since 2000</span>
+  <a href="#pulse-sec">Pulse</a><a href="#markets">Map</a><a href="#index">Per household</a><a href="#bench-sec">Benchmarks</a><a href="#owners">Owners</a><a href="#buys">Ledger</a><a href="#buyers-sec">Buyers</a>
+  <span class="toclbl now" id="toclblnow">Now</span>
+  <a href="#cyc-sec" data-now>2026 bookings</a><a href="#pf-sec" data-now>Political file</a><a href="#ag-sec" data-now>Agencies</a><a href="#pace-sec">2027 pace</a>
+  <a href="#method">Method</a>
+</nav>
 
 <section id="pulse-sec">
   <p class="seclabel">The pulse</p>
@@ -263,46 +338,6 @@ __NAV__
   <p class="intro">Plotted by year, the money has a heartbeat: the state's <b>governor's races</b> — {{gov_years}} — account for <b id="govshare">most</b> of every dollar ever paid to these stations. The {{peak_race}} alone moved <b>{{peak_amount}}</b>, more than the {{quiet_years}} quietest years combined.</p>
   <div class="pulse"><svg id="pulse" role="img" aria-label="Annual television spending by Louisiana political committees, __SPAN_WORDS__, with governor-race years marked"></svg></div>
   <p class="cap" id="pulsecap"></p>
-</section>
-
-<section id="pace-sec">
-  <p class="seclabel">The 2027 pace</p>
-  <h2>A year out, the money hasn't arrived</h2>
-  <p class="intro" id="paceintro"></p>
-  <div class="pulse"><svg id="pace" role="img" aria-label="Cumulative television spending by week before each governor's primary since 2003, with the 2027 cycle to date highlighted"></svg></div>
-  <p class="cap" id="pacecap"></p>
-  <h3 class="subhead">Who is buying television now</h3>
-  <p class="intro" id="recentintro"></p>
-  <div class="chart buyers" id="recentlist"></div>
-  <p class="cap">State-filed committees only. Federal races (U.S. House and Senate) report to the FEC and are not in these filings. A buy shows up here only once the committee files the report that covers it, which can lag the airtime by weeks.</p>
-</section>
-
-<section id="pf-sec" hidden>
-  <p class="seclabel">The political file</p>
-  <h2>What the stations say is being bought</h2>
-  <p class="intro" id="pfintro"></p>
-  <div class="chips" id="pfchips" role="group" aria-label="Filter by level"></div>
-  <p class="cap" style="margin-top:10px">Click a name for the candidate's state committee profile, a call sign for that station's political file for the buyer.</p>
-  <div class="pf" id="pflist" style="margin-top:8px"></div>
-  <p class="cap" id="pfcap"></p>
-</section>
-
-<section id="cyc-sec" hidden>
-  <p class="seclabel">The 2026 air war</p>
-  <h2>Week by week, what the political files say was booked</h2>
-  <p class="intro" id="cycintro"></p>
-  <div class="cyckey" id="cyckey"></div>
-  <div class="pulse"><svg id="cyc" role="img" aria-label="Political-ad dollars booked on Louisiana stations each week of 2026, from the stations' FCC political files, stacked by federal races, state and local races, and issue ads"></svg></div>
-  <p class="cap" id="cyccap"></p>
-</section>
-
-<section id="ag-sec" hidden>
-  <p class="seclabel">The agencies</p>
-  <h2>The money that never reaches a station's ledger</h2>
-  <p class="intro" id="agintro"></p>
-  <p class="cap">Click a column heading to sort by it, or "all payments" to sort by everything committees paid the firm. Click again for the default order.</p>
-  <div class="pf" id="aglist" style="margin-top:8px"></div>
-  <p class="cap" id="agcap"></p>
 </section>
 
 <section id="markets">
@@ -330,8 +365,9 @@ __NAV__
   <p class="seclabel">Cycle benchmarks</p>
   <h2>What a governor's race has spent, market by market</h2>
   <p class="intro" id="benchintro"></p>
-  <div class="chips" id="benchmode" role="group" aria-label="Show as"></div>
-  <div class="matrixwrap"><table class="matrix bench" id="bench"></table></div>
+  <div class="chiprow"><div class="chips" id="benchmode" role="group" aria-label="Measure"></div><div class="chips" id="benchview" role="group" aria-label="Show as"></div></div>
+  <div class="pulse" id="benchchartwrap"><svg id="benchchart" role="img" aria-label="Each market's TV money in every governor's-race year since 2003"></svg></div>
+  <div class="matrixwrap" id="benchtablewrap" hidden><table class="matrix bench" id="bench"></table></div>
   <p class="cap" id="benchcap"></p>
 </section>
 
@@ -341,7 +377,7 @@ __NAV__
   <p class="intro">Twelve months of deals redrew this ledger. <b>Nexstar</b> owns or operates <b>{{nex_n}}</b> of the {{stations_n}} stations{{nex_most}} but collects <b>{{nex_share}}</b> of the money. <b>Gray Media</b> holds {{gray_n}} and collects <b>{{gray_share}}</b>, because its {{gray_n}} include the news-leading CBS or NBC affiliate in six of seven markets. Station count measures reach; revenue measures which newscast the ads actually run inside.</p>
   <div class="split" id="split"></div>
   <div class="splitcap" id="splitcap"></div>
-  <div class="matrixwrap"><table class="matrix" id="matrix"></table></div>
+  <div class="matrixwrap"><table class="matrix own" id="matrix"></table></div>
   <div class="dealnotes">
     <p><span class="d">MAR 19 2026</span>Nexstar closed its $6.2B purchase of Tegna — WWL-TV and WUPL in New Orleans — then a preliminary injunction won by DirecTV and eight state attorneys general froze integration in April. WUPL's divestiture was reported pending. Marked&nbsp;<b>*</b>.</p>
     <p><span class="d">MAY 15 2026</span>Gray and Scripps completed a five-market station swap; KATC Lafayette joined Gray.</p>
@@ -353,7 +389,7 @@ __NAV__
 <section id="buys">
   <p class="seclabel">The ledger</p>
   <h2>Every station, every dollar</h2>
-  <p class="intro">Total paid to each station by Louisiana political committees, __SPAN__. Within every market the order is the same as the newsroom pecking order: the CBS or NBC leader takes the top line, and the CW and low-power outlets divide what is left. <b>WWL-TV</b> leads the state at <b>$15.3M</b>; <b>WBRL-CD</b>, at the other end, has taken <b>$27K</b> since 2000.</p>
+  <p class="intro">Total paid to each station by Louisiana political committees, __SPAN__. Within every market the order is the same as the newsroom pecking order: the CBS or NBC leader takes the top line, and the CW and low-power outlets divide what is left. <b>{{lead_call}}</b> leads the state at <b>{{lead_amount}}</b>; <b>{{tail_call}}</b>, at the other end, has taken <b>{{tail_amount}}</b> since {{tv_since}}.</p>
   <div class="chart" id="chart"></div>
   <p class="cap">Hover a station for its network, owner, and biggest buyers. Amounts are nominal dollars, not inflation-adjusted. The smaller "in '26" figure (in the tooltip on a phone or a long bar) is what the station's own 2026 political file shows booked so far, federal races and issue ads included; it comes from a separate source and is not part of the total.</p>
 </section>
@@ -364,6 +400,60 @@ __NAV__
   <p class="intro">Two governors dominate the whole century of filings. <b>{{b1_name}}</b> spent <b>{{b1_amount}}</b> on television across {{b1_stations}} of the {{n_stations}} stations; <b>{{b2_name}}</b> spent <b>{{b2_amount}}</b>. Behind them sit the outside groups that fought the 2019 and 2023 races — the <b>RGA's Right Direction PAC</b>, <b>Gumbo PAC</b>, and <b>The Fund for Louisiana's Future</b> — {{outside_reach}}.</p>
   <div class="chart buyers" id="buyerlist"></div>
   <p class="cap">Committee spending across all 30 stations. Party is the filing's own label, except that Louisiana files most PACs and some candidates as <span class="mono">OTH</span>, which says nothing about which side bought the airtime. Where a filer's alignment is public record the label is corrected — the RGA's PAC to Republican; Gumbo PAC, Walter Boasso and Buddy Leach to Democratic; Jay Dardenne to Republican. A filing that states a party is left alone unless public reporting shows it is wrong: Blair Downing Edwards, a Republican 2026 Supreme Court candidate whose committee files as Democratic, is shown as Republican. Every correction is listed in <span class="mono">filings.py</span>.</p>
+</section>
+
+<div class="group" id="now">
+  <p class="seclabel">2026–27</p>
+  <h2 class="grouph">The air war now</h2>
+  <p class="intro" id="nowintro">Everything above comes from the committees' own finance reports, which show what state and local campaigns paid, weeks after the fact. The sections below add a second record: the stations' FCC political files, which show what is being booked within days, for every race on the ballot, federal ones included, and for issue ads.</p>
+  <div id="recon" hidden>
+    <div class="split recon" id="reconbar"></div>
+    <div class="splitcap" id="reconcap"></div>
+    <p class="cap" id="reconnote"></p>
+  </div>
+</div>
+
+<section id="cyc-sec" hidden>
+  <p class="seclabel">The 2026 air war</p>
+  <h2>Week by week, what the political files say was booked</h2>
+  <p class="intro" id="cycintro"></p>
+  <div class="cyckey" id="cyckey"></div>
+  <div class="pulse"><svg id="cyc" role="img" aria-label="Political-ad dollars booked on Louisiana stations each week of 2026, from the stations' FCC political files, stacked by federal races, state and local races, and issue ads"></svg></div>
+  <p class="cap" id="cyccap"></p>
+</section>
+
+<section id="pf-sec" hidden>
+  <p class="seclabel">The political file</p>
+  <h2>What the stations say is being bought</h2>
+  <p class="intro" id="pfintro"></p>
+  <div class="chips" id="pfchips" role="group" aria-label="Filter by level"></div>
+  <p class="cap" style="margin-top:10px">Click a name for the candidate's state committee profile, a call sign for that station's political file for the buyer.</p>
+  <div class="pf" id="pflist" style="margin-top:8px"></div>
+  <p class="cap" id="pfcap"></p>
+</section>
+
+<section id="ag-sec" hidden>
+  <p class="seclabel">The agencies</p>
+  <h2>The money that never reaches a station's ledger</h2>
+  <p class="intro" id="agintro"></p>
+  <p class="cap">Click a firm for who paid it and whose time it bought; click a column heading to sort by it, or "all payments" to sort by everything committees paid the firm.</p>
+  <div class="pf" id="aglist" style="margin-top:8px"></div>
+  <p class="cap" id="agcap"></p>
+</section>
+
+<section id="pace-sec">
+  <p class="seclabel">The 2027 pace</p>
+  <h2>A year out, the money hasn't arrived</h2>
+  <p class="intro" id="paceintro"></p>
+  <div class="pacegrid">
+    <div class="pulse"><p class="paneltitle">The whole cycle</p><svg id="pace" role="img" aria-label="Cumulative television spending by week before each governor's primary since 2003, with the 2027 cycle to date highlighted"></svg></div>
+    <div class="pulse"><p class="paneltitle" id="pacezoomtitle">Zoomed in on the weeks so far</p><svg id="pacezoom" role="img" aria-label="The same cumulative spending, zoomed in on the weeks before the primary that the 2027 cycle has reached"></svg></div>
+  </div>
+  <p class="cap" id="pacecap"></p>
+  <h3 class="subhead">Who is buying television now</h3>
+  <p class="intro" id="recentintro"></p>
+  <div class="chart buyers" id="recentlist"></div>
+  <p class="cap">State-filed committees only. Federal races (U.S. House and Senate) report to the FEC and are not in these filings. A buy shows up here only once the committee files the report that covers it, which can lag the airtime by weeks.</p>
 </section>
 
 <section id="method">
@@ -412,6 +502,7 @@ const fmt = n => n.toLocaleString('en-US');
 const money = n => n>=1e6 ? '$'+(n/1e6).toFixed(n>=1e7?1:2)+'M'
                : n>=1e3 ? '$'+Math.round(n/1e3)+'K' : '$'+n;
 const moneyFull = n => '$'+Math.round(n).toLocaleString('en-US');
+const words = n => n<=20 ? ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'][n] : String(n);
 const prof = f => 'https://airwaves.charliestephens.xyz/committees.html#f='+encodeURIComponent(f);
 
 /* header numbers */
@@ -447,13 +538,49 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   const gray = DATA.owners.find(o=>o.grp==='gray'), nex = DATA.owners.find(o=>o.grp==='nexstar');
   const shv = DMA.SHV;
   const tiles = [
-    ['$'+(DATA.total/1e6).toFixed(0)+'M', 'paid to Louisiana TV stations by political committees, __SPAN__'],
+    ['$'+(DATA.total/1e6).toFixed(0)+'M', 'paid directly to Louisiana TV stations by political committees, __SPAN__'],
     ['30', 'stations carrying that money, across 7 Nielsen markets'],
     [gray.share+'<small>%</small>', `of the money goes to Gray Media — with ${gray.n} stations to Nexstar's ${nex.n}`],
     ['$'+shv.pphLA.toFixed(0), `per Louisiana TV household in Shreveport, against $${DATA.avgPPHLA.toFixed(2)} statewide — ${Math.round((1-shv.laShare)*100)}% of its audience is in Texas and Arkansas`],
   ];
   document.getElementById('stats').innerHTML = tiles.map(([v,l])=>
     `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+}
+
+/* what the headline total leaves out, and the way down to this year */
+if(DATA.agencies && DATA.agencies.media){
+  const A=DATA.agencies, r=A.media/A.stations;
+  const than = r>=0.9 && r<=1.1 ? 'as much as' : r>1.1 ? 'more than' : `${Math.round(r*100)}% of`;
+  document.getElementById('agcaveat').innerHTML =
+    ` That total counts only payments made to a station directly: since ${A.from}, committees have also paid media-buying firms <b>${money(A.media)}</b> for TV and media work — ${than} the ${money(A.stations)} they paid stations — and the filings don't say which stations that money reached (<a href="#ag-sec">the agencies</a>).`;
+}
+if(DATA.cycle && DATA.cycle.total){
+  const C=DATA.cycle, ws=C.weeks, last4=ws.slice(-4).reduce((a,w)=>a+w[1]+w[2]+w[3],0);
+  const l=document.getElementById('nowlink');
+  l.hidden=false;
+  l.innerHTML=`<span><b>${C.scraped.slice(0,4)}:</b> the stations' political files show <b>${money(C.total)}</b> booked so far, <b>${money(last4)}</b> of it in the last four weeks</span><span class="go">The air war now ↓</span>`;
+}
+
+/* in-page contents: mark the section in view */
+{
+  const links=[...document.querySelectorAll('#toc a')];
+  const byId=Object.fromEntries(links.map(a=>[a.getAttribute('href').slice(1),a]));
+  const seen=new Map();
+  const io=new IntersectionObserver(es=>{
+    for(const e of es) seen.set(e.target.id, e.isIntersecting);
+    const first=links.find(a=>seen.get(a.getAttribute('href').slice(1)));
+    for(const a of links) if(a!==first) a.removeAttribute('aria-current');
+    if(first){ first.setAttribute('aria-current','true'); const t=document.getElementById('toc'); if(t.scrollWidth>t.clientWidth) t.scrollTo({left:first.offsetLeft-60, behavior:'smooth'}); }
+  },{rootMargin:'-56px 0px -55% 0px'});
+  // Sections that never fill in (no political-file data yet) drop out.
+  requestAnimationFrame(()=>{
+    for(const [id,a] of Object.entries(byId)){
+      const el=document.getElementById(id);
+      if(!el || el.hidden){ a.remove(); continue; }
+      io.observe(el);
+    }
+    if(!document.querySelector('#toc a[data-now]')) document.getElementById('toclblnow').textContent='Next';
+  });
 }
 
 /* ---------- pulse: annual spend ---------- */
@@ -477,7 +604,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   for(const y of ys){
     const h = Math.max(1.5, y0-yOf(y.v));
     const r = add('rect',{x:xOf(y.y)-bw/2, y:y0-h, width:bw, height:h, rx:1.5,
-      fill: y.gov ? 'var(--accent)' : 'var(--quiet)'}, 'pbar');
+      fill: y.gov ? 'var(--n1)' : 'var(--n3)'}, 'pbar');
     r.addEventListener('mousemove', e=>tip(e, `<b>${y.y}</b>${y.gov?' · governor\'s race':''}<br>${moneyFull(y.v)} on TV`));
     r.addEventListener('mouseleave', hideTip);
     if(y.gov){
@@ -489,8 +616,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
       t.textContent = "'"+String(y.y).slice(2);
     }
   }
-  const g=add('text',{x:xOf(2015), y:T-10,'text-anchor':'middle'},'pgov');
-  g.textContent='GOVERNOR’S RACE YEARS IN BLUE';
+  svg.insertAdjacentHTML('beforebegin', `<div class="pkey"><span><i style="background:var(--n1)"></i>Governor's race year</span><span><i style="background:var(--n3)"></i>Other years</span></div>`);
   document.getElementById('pulsecap').textContent =
     `Annual totals, __SPAN__. 2008 is missing from the upstream data release (see method). `+
     `Off-year spending is real but small: legislative, sheriff and school-board races buy far less television.`;
@@ -503,6 +629,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
   const nowI = cur.c.length-1, nowW = F+nowI, weeksOut = -nowW;
   const at = c => c.c[Math.min(nowI, c.c.length-1)];
   const fin = c => c.c[c.c.length-1];
+  const last=P.to;
   const dfmt = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
   const by = y => past.find(c=>c.y===y);
   const shares = past.map(c=>at(c)/fin(c)*100).sort((a,b)=>a-b);
@@ -514,51 +641,68 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
     `Over the two years before that point, committees have put <b>${money(now)}</b> into television. That is ${cmp(now,at(c19))} 2019 at the same distance from its primary (${money(at(c19))}) and ${cmp(now,at(c23))} 2023 (${money(at(c23))}). `+
     `None of that predicts the total: in the last ${past.length} races a median of just <b>${Math.round(median)}%</b> of the money had been spent this far out. The surge comes in the final thirteen weeks.`;
 
-  // On a phone, lay the chart out narrower rather than shrinking 940px of it.
-  const svg=document.getElementById('pace');
-  const narrow = svg.parentElement.clientWidth < 600;
-  const W=narrow?460:940, H=narrow?340:320, L=narrow?40:52, R=78, T=22, B=34;
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  const add=(t,a,cls)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(cls)e.setAttribute('class',cls); svg.appendChild(e); return e;};
-  const top = Math.ceil(Math.max(...P.cycles.map(fin))/10e6)*10e6;
-  const x0=L, x1=W-R, y0=H-B, y1=T, last=P.to;
-  const xOf = w => x0 + (w-F)/(last-F)*(x1-x0);
-  const yOf = v => y0 - v/top*(y0-y1);
-  for(let v=0; v<=top; v+=10e6){
-    add('line',{x1:x0,x2:x1,y1:yOf(v),y2:yOf(v)}, v===0?'pbase':'pgrid');
-    add('text',{x:x0-8,y:yOf(v)+3.5,'text-anchor':'end'},'ptick').textContent = v?'$'+v/1e6+'M':'$0';
-  }
-  for(const w of narrow ? [-104,-52,0] : [-104,-78,-52,-26,-13,0]){
-    if(w) add('line',{x1:xOf(w),x2:xOf(w),y1:y1,y2:y0},'pgrid');
-    add('text',{x:xOf(w),y:y0+15,'text-anchor':w===-104?'start':'middle'},'ptick').textContent = w ? (-w)+(narrow?' wks':' wks out') : 'PRIMARY';
-  }
-  add('line',{x1:xOf(0),x2:xOf(0),y1:y1,y2:y0},'pbase');
-  const path = c => c.c.map((v,i)=>(i?'L':'M')+xOf(F+i).toFixed(1)+' '+yOf(v).toFixed(1)).join('');
+  // Two panels on the same lines: the whole cycle, where the surge dwarfs
+  // everything before it, and a zoom on the weeks 2027 has reached, where
+  // the comparison the copy makes can actually be seen.
   const recent = new Set([2019,2023]);
-  const labels=[];
-  for(const c of past){
-    const hi=recent.has(c.y);
-    add('path',{d:path(c), stroke:hi?'var(--ink2)':'var(--quiet)', 'stroke-width':hi?1.75:1.25},'pline');
-    labels.push({y:yOf(fin(c)), t:`'${String(c.y).slice(2)} ${money(fin(c))}`});
+  function drawPace(svg, wTo, zoom){
+    const W=Math.max(300, Math.round(svg.parentElement.clientWidth-28)), H=zoom?300:300, L=46, R=zoom?66:72, T=12, B=30;
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const add=(t,a,cls)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(cls)e.setAttribute('class',cls); svg.appendChild(e); return e;};
+    const n=wTo-F, upTo=c=>c.c.slice(0, n+1);
+    const mxv=Math.max(...P.cycles.map(c=>Math.max(...upTo(c))));
+    const step=[250e3,500e3,1e6,2e6,5e6,10e6].find(s=>mxv/s<=4)||20e6;
+    const top=Math.ceil(mxv/step)*step;
+    const x0=L, x1=W-R, y0=H-B, y1=T;
+    const xOf = w => x0 + (w-F)/(wTo-F)*(x1-x0);
+    const yOf = v => y0 - v/top*(y0-y1);
+    const tick = v => v>=1e6 ? '$'+(+(v/1e6).toFixed(1))+'M' : v ? '$'+v/1e3+'K' : '$0';
+    for(let v=0; v<=top; v+=step){
+      add('line',{x1:x0,x2:x1,y1:yOf(v),y2:yOf(v)}, v===0?'pbase':'pgrid');
+      add('text',{x:x0-8,y:yOf(v)+3.5,'text-anchor':'end'},'ptick').textContent = tick(v);
+    }
+    const narrow = W<520;
+    const ticks = (zoom ? (narrow ? [-104,-52] : [-104,-78,-52,-26]) : narrow ? [-104,-52,0] : W<720 ? [-104,-52,-26,0] : [-104,-78,-52,-26,-13,0]).filter(w=>w<=wTo);
+    for(const w of ticks){
+      if(w>F) add('line',{x1:xOf(w),x2:xOf(w),y1:y1,y2:y0},'pgrid');
+      add('text',{x:xOf(w),y:y0+15,'text-anchor':w===F?'start':w===0?'end':'middle'},'ptick').textContent = w ? (-w)+(narrow?' wks':' wks out') : 'PRIMARY';
+    }
+    if(!zoom) add('line',{x1:xOf(0),x2:xOf(0),y1:y1,y2:y0},'pbase');
+    const path = c => upTo(c).map((v,i)=>(i?'L':'M')+xOf(F+i).toFixed(1)+' '+yOf(v).toFixed(1)).join('');
+    const labels=[];
+    for(const c of past){
+      const hi=recent.has(c.y), v=upTo(c)[upTo(c).length-1];
+      add('path',{d:path(c), stroke:hi?'var(--n2)':'var(--n3)', 'stroke-width':hi?1.75:1.25},'pline');
+      if(zoom ? hi : true) labels.push({y:yOf(v), t:`'${String(c.y).slice(2)} ${money(v)}`});
+    }
+    labels.sort((a,b)=>a.y-b.y);
+    for(let i=1;i<labels.length;i++) labels[i].y=Math.max(labels[i].y, labels[i-1].y+11);
+    for(const l of labels) add('text',{x:x1+6,y:l.y+3.5},'pend').textContent=l.t;
+    add('line',{x1:xOf(nowW),x2:xOf(nowW),y1:y1,y2:y0},'pnow');
+    add('path',{d:path(cur), stroke:'var(--ink)', 'stroke-width':3},'pline');
+    add('circle',{cx:xOf(nowW), cy:yOf(now), r:4.5, fill:'var(--ink)', stroke:'var(--surface)', 'stroke-width':2});
+    const lt=add('text',{x:xOf(nowW)+(zoom?-8:8), y:Math.min(yOf(now)-12, y0-30), 'text-anchor':zoom?'end':'start'},'pend now');
+    lt.textContent=`${cur.y} so far · ${money(now)}`;
+    // A plate behind the label, so gridlines don't show between its words.
+    const bb=lt.getBBox(), plate=document.createElementNS(NS,'rect');
+    for(const [k,v] of Object.entries({x:bb.x-3,y:bb.y-1,width:bb.width+6,height:bb.height+2,rx:2,fill:'var(--surface)'})) plate.setAttribute(k,v);
+    svg.insertBefore(plate, lt);
+    const hit=add('rect',{x:x0,y:y1,width:x1-x0,height:y0-y1},'pace-hit');
+    hit.addEventListener('mousemove', e=>{
+      const r=svg.getBoundingClientRect(), sx=(e.clientX-r.left)/r.width*W;
+      const i=Math.max(0, Math.min(wTo-F, Math.round((sx-x0)/(x1-x0)*(wTo-F)))), w=F+i;
+      const rows=[...P.cycles].reverse().filter(c=>i<c.c.length)
+        .map(c=>`${c.y}${c.done?'':' (so far)'} — ${money(c.c[i])}`).join('<br>');
+      tip(e, `<b>${w<0 ? (-w)+' weeks before' : w===0 ? 'Primary week' : w+' weeks after'} the primary</b><br>${rows}`);
+    });
+    hit.addEventListener('mouseleave', hideTip);
   }
-  // end labels, nudged apart so close finishes don't overprint
-  labels.sort((a,b)=>a.y-b.y);
-  for(let i=1;i<labels.length;i++) labels[i].y=Math.max(labels[i].y, labels[i-1].y+11);
-  for(const l of labels) add('text',{x:x1+6,y:l.y+3.5},'pend').textContent=l.t;
-  add('line',{x1:xOf(nowW),x2:xOf(nowW),y1:y1,y2:y0},'pnow');
-  add('path',{d:path(cur), stroke:'var(--accent)', 'stroke-width':3},'pline');
-  add('circle',{cx:xOf(nowW), cy:yOf(now), r:4, fill:'var(--accent)'});
-  const lt=add('text',{x:xOf(nowW)+8, y:Math.min(yOf(now)-14, y0-40)},'pend now');
-  lt.textContent=`${cur.y} so far · ${money(now)}`;
-  const hit=add('rect',{x:x0,y:y1,width:x1-x0,height:y0-y1},'pace-hit');
-  hit.addEventListener('mousemove', e=>{
-    const r=svg.getBoundingClientRect(), sx=(e.clientX-r.left)/r.width*W;
-    const i=Math.max(0, Math.min(last-F, Math.round((sx-x0)/(x1-x0)*(last-F)))), w=F+i;
-    const rows=[...P.cycles].reverse().filter(c=>i<c.c.length)
-      .map(c=>`${c.y}${c.done?'':' (so far)'} — ${money(c.c[i])}`).join('<br>');
-    tip(e, `<b>${w<0 ? (-w)+' weeks before' : w===0 ? 'Primary week' : w+' weeks after'} the primary</b><br>${rows}`);
-  });
-  hit.addEventListener('mouseleave', hideTip);
+  drawPace(document.getElementById('pace'), last, false);
+  // The zoom runs a few weeks past today, so the lines show where the old
+  // cycles went next.
+  const zTo = Math.min(-1, nowW+8);
+  drawPace(document.getElementById('pacezoom'), zTo, true);
+  document.getElementById('pacezoomtitle').textContent = `Zoomed in: ${-F} to ${-zTo} weeks out`;
   document.getElementById('pacecap').textContent =
     `Cumulative dollars paid to the 30 stations by every state committee, by week relative to each governor's primary, from two years out through the runoff. `+
     `The same ballots carry legislative and local races, so their buys are in these lines too. Nominal dollars. `+
@@ -598,22 +742,26 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
     `while <b>Lafayette's has gone from ${sh(laf,0).toFixed(0)}% to ${sh(laf,n-1).toFixed(0)}%</b>. `+
     `In real terms the biggest air war was ${Y[peak]}, at ${money(real(tot[peak],peak))}; ${Y[n-1]} spent ${money(real(tot[n-1],n-1))}.`;
   const MODES=[['share','Share of state'],['real',B.base+' dollars'],['hh','Per Louisiana TV household']];
-  let mode='share';
-  const chips=document.getElementById('benchmode');
+  const VIEWS=[['chart','Chart'],['table','Table']];
+  let mode='share', view='chart';
+  const chips=document.getElementById('benchmode'), vchips=document.getElementById('benchview');
   for(const [k,l] of MODES){
     const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
     b.addEventListener('click',()=>{mode=k; draw();}); chips.appendChild(b);
   }
+  for(const [k,l] of VIEWS){
+    const b=document.createElement('button'); b.type='button'; b.textContent=l; b.dataset.k=k;
+    b.addEventListener('click',()=>{view=k; draw();}); vchips.appendChild(b);
+  }
   const val=(r,i)=> mode==='share' ? r.v[i]/tot[i]*100 : mode==='real' ? real(r.v[i],i) : real(r.v[i],i)/r.hh;
   const fmtv=v=> mode==='share' ? v.toFixed(1)+'%' : mode==='real' ? money(Math.round(v)) : '$'+v.toFixed(2);
-  function draw(){
-    for(const b of chips.children) b.setAttribute('aria-pressed',String(b.dataset.k===mode));
+  function table(){
     const all=B.rows.flatMap(r=>Y.map((_,i)=>val(r,i))), mx=Math.max(...all);
     let h=`<thead><tr><th>Market</th>${Y.map(y=>`<th>${y}</th>`).join('')}</tr></thead><tbody>`;
     for(const r of B.rows){
       h+=`<tr><th><span class="sw" style="background:${cv(r.k)}"></span>${r.name}</th>`+Y.map((_,i)=>{
         const v=val(r,i);
-        return `<td><i class="tint" style="opacity:${(v/mx*0.32).toFixed(3)}"></i><span>${fmtv(v)}</span></td>`;
+        return `<td><i class="tint" style="opacity:${(v/mx*0.22).toFixed(3)}"></i><span>${fmtv(v)}</span></td>`;
       }).join('')+'</tr>';
     }
     const totRow = mode==='share' ? Y.map(()=> '100%')
@@ -621,6 +769,64 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
       : Y.map((_,i)=>'$'+(real(tot[i],i)/DATA.totLA).toFixed(2));
     h+=`<tr class="total"><th>Statewide</th>${totRow.map(t=>`<td><span>${t}</span></td>`).join('')}</tr></tbody>`;
     document.getElementById('bench').innerHTML=h;
+  }
+  // One line per market across the governor's races. In shares, the two
+  // markets the copy is about are drawn heavier; the rest stay in their
+  // colours, lighter, so every line can still be followed.
+  function chart(){
+    const svg=document.getElementById('benchchart');
+    svg.innerHTML='';
+    const W=Math.max(300, Math.round(svg.parentElement.clientWidth-40)), narrow=W<560;
+    const H=narrow?300:330, L=narrow?40:52, R=narrow?92:178, T=14, BM=28;
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const add=(t,a,cls,parent)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(cls)e.setAttribute('class',cls); (parent||svg).appendChild(e); return e;};
+    const mxv=Math.max(...B.rows.flatMap(r=>Y.map((_,i)=>val(r,i))));
+    const step = mode==='share' ? 10 : mode==='real' ? [2e6,5e6,10e6].find(s=>mxv/s<=5) : [5,10,20].find(s=>mxv/s<=5);
+    const top=Math.ceil(mxv/step)*step;
+    const x0=L, x1=W-R, y0=H-BM, y1=T;
+    const xOf=i=>x0+i/(n-1)*(x1-x0), yOf=v=>y0-v/top*(y0-y1);
+    const tick=v=> mode==='share' ? v+'%' : mode==='real' ? (v?'$'+v/1e6+'M':'$0') : '$'+v;
+    for(let v=0; v<=top; v+=step){
+      add('line',{x1:x0,x2:x1,y1:yOf(v),y2:yOf(v)}, v===0?'pbase':'pgrid');
+      add('text',{x:x0-8,y:yOf(v)+3.5,'text-anchor':'end'},'ptick').textContent=tick(v);
+    }
+    Y.forEach((y,i)=>add('text',{x:xOf(i),y:y0+16,'text-anchor':'middle'},'ptick').textContent=y);
+    const focus = mode==='share' ? new Set(['SHV','LAF']) : null;
+    const order=[...B.rows].sort((a,b)=>(focus&&focus.has(a.k)?1:0)-(focus&&focus.has(b.k)?1:0));
+    const labels=[];
+    for(const r of order){
+      const on=!focus||focus.has(r.k);
+      add('path',{d:Y.map((_,i)=>(i?'L':'M')+xOf(i).toFixed(1)+' '+yOf(val(r,i)).toFixed(1)).join(''),
+        stroke:cv(r.k), 'stroke-width':on?3:1.75, 'stroke-opacity':on?1:.5},'pline');
+      Y.forEach((_,i)=>add('circle',{cx:xOf(i),cy:yOf(val(r,i)),r:on?4:3,fill:cv(r.k),'fill-opacity':on?1:.6,stroke:'var(--surface)','stroke-width':1.5}));
+      labels.push({y:yOf(val(r,n-1)), r, on});
+    }
+    labels.sort((a,b)=>a.y-b.y);
+    for(let i=1;i<labels.length;i++) labels[i].y=Math.max(labels[i].y, labels[i-1].y+13);
+    const over=labels.length?labels[labels.length-1].y-(y0-2):0;
+    if(over>0) for(const l of labels) l.y-=over;
+    for(const l of labels){
+      const t=add('text',{x:x1+10,y:l.y+4,'fill-opacity':l.on?1:.75},'slopelbl');
+      // On a phone, the market's short code (the map's tabs use the same).
+      t.innerHTML=`${narrow?l.r.k:l.r.name} <tspan class="v">${fmtv(val(l.r,n-1))}</tspan>`;
+    }
+    // Where the copy's two markets started, labelled at the first cycle.
+    if(focus) for(const r of B.rows.filter(r=>focus.has(r.k)))
+      add('text',{x:xOf(0)+7,y:yOf(val(r,0))-8},'slopestart').textContent=fmtv(val(r,0));
+    // A column per cycle for the tooltip.
+    Y.forEach((y,i)=>{
+      const hit=add('rect',{x:xOf(i)-(x1-x0)/(n-1)/2,y:y1,width:(x1-x0)/(n-1),height:y0-y1},'cyc-hit');
+      hit.addEventListener('mousemove',e=>tip(e,`<b>${y}</b><br>`+[...B.rows].sort((a,b)=>val(b,i)-val(a,i))
+        .map(r=>`${r.name} — ${fmtv(val(r,i))}`).join('<br>')));
+      hit.addEventListener('mouseleave',hideTip);
+    });
+  }
+  function draw(){
+    for(const b of chips.children) b.setAttribute('aria-pressed',String(b.dataset.k===mode));
+    for(const b of vchips.children) b.setAttribute('aria-pressed',String(b.dataset.k===view));
+    document.getElementById('benchchartwrap').hidden = view!=='chart';
+    document.getElementById('benchtablewrap').hidden = view!=='table';
+    table(); chart();
   }
   draw();
   document.getElementById('benchcap').textContent =
@@ -635,7 +841,7 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
 if(DATA.cycle && DATA.cycle.weeks.length){
   const C = DATA.cycle, ELECTION = '2026-11-03';
   document.getElementById('cyc-sec').hidden = false;
-  const KEYS = [['Federal','var(--accent)'],['State & local','var(--br)'],['Issue','var(--alx)']];
+  const KEYS = [['Federal','var(--n1)'],['State & local','var(--n2)'],['Issue','var(--n3)']];
   const LBL = {'Federal':'Federal races','State & local':'State & local races','Issue':'Issue ads'};
   const dshort = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
   const addDays = (iso,n) => { const d=new Date(iso+'T12:00'); d.setDate(d.getDate()+n); return d.toISOString().slice(0,10); };
@@ -648,9 +854,29 @@ if(DATA.cycle && DATA.cycle.weeks.length){
   const peak = filled.reduce((a,w)=>tot(w)>tot(a)?w:a);
   const pct = k => Math.round((C.byBucket[k]||0)/C.total*100);
   document.getElementById('cycintro').innerHTML =
-    `Reading ${fmt(C.priced)} orders and invoices out of the stations' political files, Louisiana TV, cable, radio and satellite outlets have booked <b>${money(C.total)}</b> in political airtime this year — `+
-    `<b>${money(C.byBucket['Federal']||0)}</b> for federal races (${pct('Federal')}%), <b>${money(C.byBucket['State & local']||0)}</b> for state and local races (${pct('State & local')}%) and <b>${money(C.byBucket['Issue']||0)}</b> in issue ads (${pct('Issue')}%). `+
-    `The four weeks to ${dshort(C.scraped)} alone account for <b>${money(last4)}</b>; the busiest so far was the week of ${dshort(peak.d)}, at ${money(tot(peak))}.`;
+    `The ${money(C.total)} booked so far this year, placed by the week each order or invoice was posted to a station's file. `+
+    `The four weeks to ${dshort(C.scraped)} alone account for <b>${money(last4)}</b>, ${Math.round(last4/C.total*100)}% of the year so far; the busiest week was ${dshort(peak.d)}, at <b>${money(tot(peak))}</b>.`;
+  // The booked total split by what a state report can and can't check.
+  const RC = C.recon;
+  if(RC){
+    document.getElementById('recon').hidden = false;
+    const parts = KEYS.map(([k,c])=>({k, c, v:C.byBucket[k]||0}));
+    // A segment carries its figure only where it fits; the key below has them all.
+    const barW = document.getElementById('reconbar').clientWidth;
+    document.getElementById('reconbar').innerHTML = parts.map(p=>
+      `<div class="${p.k==='Issue'?'lt':''}" style="flex:${p.v};background:${p.c}" title="${LBL[p.k]}: ${moneyFull(p.v)}">${p.v/C.total*barW>=64?money(p.v):''}</div>`).join('');
+    document.getElementById('reconcap').innerHTML = parts.map(p=>
+      `<span><i style="background:${p.c}"></i>${LBL[p.k]} — <b>${money(p.v)}</b> · ${pct(p.k)}%</span>`).join('');
+    const never = (C.byBucket['Federal']||0)+(C.byBucket['Issue']||0);
+    document.getElementById('nowintro').innerHTML +=
+      ` This year the political files show <b>${money(C.total)}</b> booked across Louisiana's TV, cable, radio and satellite outlets. <b>${Math.round(never/C.total*100)}%</b> of it is federal races and issue ads, which no Louisiana finance report will ever carry.`;
+    document.getElementById('reconnote').innerHTML =
+      `The state and local slice, ${money(C.byBucket['State & local']||0)}, is the part the two records share. ${RC.committees} state committees are matched to ${money(RC.booked)} of it`+
+      (RC.unmatched ? ` (the other ${money(RC.unmatched)} is booked under names that don't match a single state filer)` : '')+
+      `; their own reports already show <b>${money(RC.reported)}</b> paid for airtime in ${RC.since}, to stations and media agencies`+
+      (RC.reported>RC.booked ? `, more than the files show booked, since the documents read so far are a floor` : '')+
+      `, and only <b>${money(RC.pending)}</b> of what they have booked is not yet in a report. The <a href="https://airwaves.charliestephens.xyz/races.html">races page</a> lists them.`;
+  }
   document.getElementById('cyckey').innerHTML = KEYS.map(([k,c])=>`<span><i style="background:${c}"></i>${LBL[k]}</span>`).join('');
 
   const svg=document.getElementById('cyc');
@@ -683,7 +909,7 @@ if(DATA.cycle && DATA.cycle.weeks.length){
     w.v.forEach((v,j)=>{
       if(!v) return;
       const h=y0-yOf(v);
-      add('rect',{x:x0+i*bw+pad, y:y-h, width:bw-2*pad, height:h, fill:KEYS[j][1]});
+      add('rect',{x:x0+i*bw+pad, y:y-h, width:bw-2*pad, height:h, fill:KEYS[j][1], stroke:'var(--surface)', 'stroke-width':1});
       y-=h;
     });
   });
@@ -767,53 +993,82 @@ if(DATA.fcc){
 /* ---------- agencies ---------- */
 if(DATA.agencies && DATA.agencies.rows.length){
   const A = DATA.agencies;
+  const paid = r => (r.paid||{}).mediaCycle||0, pfu = r => (r.fcc||{}).usd||0;
   document.getElementById('ag-sec').hidden = false;
   const esc = t => String(t).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const named = A.rows.filter(r=>r.fcc);
   document.getElementById('agintro').innerHTML =
-    `The ledger below counts what committees paid stations <i>directly</i>. Much of the money doesn't go that way: a campaign pays a media-buying agency, the agency pays the stations, and the filings name only the agency. `+
+    `The ledger above counts what committees paid stations <i>directly</i>. Much of the money doesn't go that way: a campaign pays a media-buying agency, the agency pays the stations, and the filings name only the agency. `+
     `Since ${A.from}, Louisiana committees have paid stations <b>${money(A.stations)}</b> directly — and paid the firms below <b>${money(A.media)}</b> for work their reports describe as TV, broadcast, air time or a media buy. `+
-    (named.length ? `<b>${named.length}</b> of them are named as the buying agency on orders and invoices in the stations' political files${A.read?`, from the ${fmt(A.read)} documents read so far`:''}, which also says whose time they are buying, including federal campaigns the state filings never see.` : '');
-  // Sortable by either column (or name); the build's own order, biggest
-  // media spenders then the political-file agencies, until one is picked.
+    (named.length ? `<b>${named.length}</b> of them are named as the buying agency on orders and invoices in the stations' political files${A.read?`, from the ${fmt(A.read)} documents read so far`:''}, which also says whose time they are buying, including federal campaigns the state filings never see. `+
+      split() : '');
+  function split(){
+    const onlyState = A.rows.filter(r=>paid(r) && !pfu(r)).length, onlyPf = A.rows.filter(r=>pfu(r) && !paid(r)).length;
+    return onlyState && onlyPf ? `Side by side, the two records split the firms: ${words(onlyState)} show up only in the state filings, and ${words(onlyPf)} only in the political files, buying for federal campaigns and issue groups no state report covers.` : '';
+  }
   const SORTS = {
     name: [(a,b)=>a.name.localeCompare(b.name), 'Agency'],
-    paid: [(a,b)=>((b.paid||{}).mediaCycle||0)-((a.paid||{}).mediaCycle||0) || ((b.paid||{}).cycle||0)-((a.paid||{}).cycle||0), `State filings, since ${A.from}`],
-    fcc:  [(a,b)=>((b.fcc||{}).usd||0)-((a.fcc||{}).usd||0) || ((b.fcc||{}).docs||0)-((a.fcc||{}).docs||0), 'Political files'],
+    paid: [(a,b)=>paid(b)-paid(a) || ((b.paid||{}).cycle||0)-((a.paid||{}).cycle||0), `State filings, since ${A.from}`],
+    fcc:  [(a,b)=>pfu(b)-pfu(a) || ((b.fcc||{}).docs||0)-((a.fcc||{}).docs||0), 'Political files'],
     // The state column's total: every payment, production and consulting
     // included. The political files rank by Louisiana's races only; other
     // states' are shown on each row but would reorder the list around Texas.
     paidAll: [(a,b)=>((b.paid||{}).cycle||0)-((a.paid||{}).cycle||0), 'all payments'],
+    // By default, the bigger of the two records, so both kinds of firm lead.
+    both: [(a,b)=>Math.max(paid(b),pfu(b))-Math.max(paid(a),pfu(a))],
   };
-  let agSort = null;
+  let agSort = null, agAll = false;
+  const open = new Set();
   const TIPS = {name:'name', paid:'what committees paid the firm for media work', paidAll:'everything committees paid the firm',
                 fcc:"what the political files show the firm bought for Louisiana's races"};
   const sortBtn = (k, cls) => `<button type="button" class="agsort${cls?' '+cls:''}" data-k="${k}" aria-pressed="${agSort===k}" title="Sort by ${TIPS[k]}">${SORTS[k][1]}${agSort===k?' ▾':''}</button>`;
-  const col = (k, k2, cls) => `<span class="${cls}">${sortBtn(k)}${k2?sortBtn(k2,'sub'):''}</span>`;
+  // One scale for both sides: they are both dollars.
+  const mx = Math.max(...A.rows.map(r=>Math.max(paid(r),pfu(r))))/0.74;
+  const bar = (v, side) => v
+    ? `<i style="width:${(v/mx*100).toFixed(1)}%"></i><b style="${side}:calc(${(v/mx*100).toFixed(1)}% + 6px)">${money(v)}</b>`
+    : `<b class="none" style="${side}:6px">—</b>`;
+  const ROWS = 10;
   const renderAg = () => {
-  const rows = agSort ? A.rows.slice().sort(SORTS[agSort][0]) : A.rows;
-  const head = `<div class="agrow head">${sortBtn('name')}${col('paid','paidAll','num')}${col('fcc',null,'num fcc')}</div>`;
-  document.getElementById('aglist').innerHTML = head + rows.map(r=>{
-    const p=r.paid||{}, f=r.fcc;
-    const who = [
-      p.top && p.top.length ? `Paid by ${p.top.slice(0,4).map(t=>`<a href="${prof(t.f)}" title="${esc(t.n)}'s committee profile">${esc(t.n)}</a> (${money(t.cycle)})`).join(', ')}${p.committees>p.top.length?` and ${p.committees-p.top.length} more since 2000`:''}` : '',
-      f && f.clients.length ? `Buying for ${f.clients.slice(0,4).map(esc).join(', ')} at ${f.stations.slice(0,6).join(', ')}${f.stations.length>6?'…':''}` : '',
-      f && f.away ? `Also ${f.away.usd?money(f.away.usd)+' ':''}for other states' races carried on Louisiana stations${f.away.clients.length?' ('+f.away.clients.slice(0,3).map(esc).join(', ')+')':''}, not counted here` : '',
-    ].filter(Boolean).join('. ');
-    return `<div class="agrow"><span class="nm">${esc(r.name)}${f?'<span class="btag" title="Named as the buying agency in a station\'s political file">POLITICAL FILE</span>':''}</span>
-      <span class="num">${p.mediaCycle?money(p.mediaCycle):'—'}<small>${p.cycle?money(p.cycle)+' in all':'no state payments'}</small></span>
-      <span class="num fcc">${f&&f.usd?money(f.usd):'—'}<small>${f?(f.docs?f.docs+' document'+(f.docs===1?'':'s'):'')+(f.away&&f.away.usd?(f.docs?' · ':'')+'+'+money(f.away.usd)+' out of state':''):''}</small></span>
-      ${who?`<span class="who">${who}.</span>`:''}</div>`;
-  }).join('');
+    const sorted = A.rows.slice().sort(SORTS[agSort||'both'][0]);
+    const rows = agAll ? sorted : sorted.slice(0, ROWS);
+    const head = `<div class="agb head"><span class="hn">${sortBtn('name')}</span><span class="l">${sortBtn('paid')} · ${sortBtn('paidAll','')}</span><span>${sortBtn('fcc')}</span></div>`;
+    let h = head + rows.map(r=>{
+      const p=r.paid||{}, f=r.fcc, isOpen=open.has(r.name);
+      const who = [
+        p.top && p.top.length ? `Paid by ${p.top.slice(0,4).map(t=>`<a href="${prof(t.f)}" title="${esc(t.n)}'s committee profile">${esc(t.n)}</a> (${money(t.cycle)})`).join(', ')}${p.committees>p.top.length?` and ${p.committees-p.top.length} more since 2000`:''}` : '',
+        f && f.clients.length ? `Buying for ${f.clients.slice(0,4).map(esc).join(', ')} at ${f.stations.slice(0,6).join(', ')}${f.stations.length>6?'…':''}` : '',
+        f && f.away ? `Also ${f.away.usd?money(f.away.usd)+' ':''}for other states' races carried on Louisiana stations${f.away.clients.length?' ('+f.away.clients.slice(0,3).map(esc).join(', ')+')':''}, not counted here` : '',
+      ].filter(Boolean).join('. ');
+      const figs = [p.cycle ? `${money(p.cycle)} in all state payments since ${A.from}` : 'no state payments',
+                    f ? `${f.docs} political-file document${f.docs===1?'':'s'}` : 'not named in a political file'].join(' · ');
+      return `<div class="agrowb"${isOpen?' data-open':''}><button type="button" class="agb" data-n="${esc(r.name)}" aria-expanded="${isOpen}">
+          <span class="nm"><span>${esc(r.name)}</span></span>
+          <span class="agz l">${bar(paid(r),'right')}</span>
+          <span class="agz r">${bar(pfu(r),'left')}</span></button>
+        ${isOpen?`<div class="agmore"><div class="figs">${figs}</div>${who?who+'.':''}</div>`:''}</div>`;
+    }).join('');
+    if(!agAll && sorted.length>ROWS) h+=`<button type="button" class="pfmore" id="agmorebtn">Show all ${sorted.length} firms</button>`;
+    document.getElementById('aglist').innerHTML = h;
   };
+  document.getElementById('aglist').insertAdjacentHTML('beforebegin',
+    `<div class="agkey"><span><i style="background:var(--n1)"></i>Paid for media work in the state filings, since ${A.from}</span><span><i style="background:var(--n2)"></i>Bought for Louisiana's races, per the political files</span></div>`);
   renderAg();
   document.getElementById('aglist').addEventListener('click', e=>{
+    if(e.target.closest('a')) return;
+    if(e.target.id==='agmorebtn'){ agAll=true; renderAg(); return; }
     const b = e.target.closest('.agsort');
-    if(!b) return;
-    agSort = agSort===b.dataset.k ? null : b.dataset.k;
-    renderAg();
-    const again = document.querySelector(`#aglist .agsort[data-k="${b.dataset.k}"]`);
-    if(again) again.focus();
+    if(b){
+      agSort = agSort===b.dataset.k ? null : b.dataset.k;
+      renderAg();
+      const again = document.querySelector(`#aglist .agsort[data-k="${b.dataset.k}"]`);
+      if(again) again.focus();
+      return;
+    }
+    const row = e.target.closest('button.agb');
+    if(row && !row.classList.contains('head')){
+      const n=row.dataset.n; open.has(n)?open.delete(n):open.add(n); renderAg();
+      const again=[...document.querySelectorAll('#aglist button.agb')].find(x=>x.dataset.n===n); if(again) again.focus();
+    }
   });
   document.getElementById('agcap').textContent =
     `State filings: every payment to the firm under any spelling since ${A.from}; the large figure is the part described as TV, broadcast, air time or a media buy, the small one everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once, for Louisiana's races; what it bought on Louisiana stations for other states' races (Texas's, mostly, on Shreveport's) is shown apart and not counted. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`;
@@ -958,9 +1213,12 @@ function select(k, quiet){
 /* ---------- ownership ---------- */
 {
   const LBL={gray:'Gray Media',nexstar:'Nexstar',local:'Family-owned',hearst:'Hearst',other:'Independent'};
-  const COL={gray:'var(--no)',nexstar:'var(--mon)',local:'var(--shv)',hearst:'var(--alx)',other:'var(--baseline)'};
+  // Owners are neither markets nor parties, so they take the neutral steps.
+  const COL={gray:'var(--n1)',nexstar:'var(--n2)',local:'var(--n3)',hearst:'var(--n4)',
+             other:'repeating-linear-gradient(45deg,var(--n3) 0 2px,var(--n4) 2px 5px)'};
+  const LT=new Set(['local','hearst','other']);
   document.getElementById('split').innerHTML = DATA.owners.map(o=>
-    `<div style="flex:${o.spend};background:${COL[o.grp]}" title="${LBL[o.grp]}: ${moneyFull(o.spend)}">${o.share>=6?o.share+'%':''}</div>`).join('');
+    `<div class="${LT.has(o.grp)?'lt':''}" style="flex:${o.spend};background:${COL[o.grp]}" title="${LBL[o.grp]}: ${moneyFull(o.spend)}">${o.share>=6?o.share+'%':''}</div>`).join('');
   document.getElementById('splitcap').innerHTML = DATA.owners.map(o=>
     `<span><i style="background:${COL[o.grp]}"></i>${LBL[o.grp]} — <b>${moneyFull(o.spend)}</b> · ${o.n} station${o.n>1?'s':''}</span>`).join('');
 
@@ -999,7 +1257,7 @@ function select(k, quiet){
     <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${t/SCALE*100}%"></i>`).join('')}</div>`;
   for(const d of [...DATA.dmas].sort((a,b)=>b.spend-a.spend)){
     const sts=DATA.stations.filter(s=>s.k===d.k).sort((a,b)=>b.spend-a.spend);
-    h+=`<div><div class="mkthead"><span class="nm">${d.name}</span><span class="rk">#${d.rank} · ${moneyFull(d.spend)}${d.bk?` · <span title="Booked in the market's 2026 political files">${money(d.bk)} booked in '26</span>`:''}</span></div>`;
+    h+=`<div><div class="mkthead"><span class="nm">${d.name}</span><span class="rk">#${d.rank} · ${moneyFull(d.spend)}${d.bk?` · <span title="Booked in the market's 2026 political files">${money(d.bk)} booked in '26</span>`:''}</span><a class="tomap" href="#m=${d.k}" data-k="${d.k}">on the map ↑</a></div>`;
     for(const s of sts){
       const w=s.spend/SCALE*100;
       h+=`<div class="brow" data-call="${s.call}"><div class="lbl"><span class="call">${s.call}</span><span class="sub">${s.net} · ${s.owner}</span></div>
@@ -1009,6 +1267,10 @@ function select(k, quiet){
     h+='</div>';
   }
   chart.innerHTML=h+'</div>';
+  chart.addEventListener('click', e=>{
+    const a=e.target.closest('.tomap'); if(!a) return;
+    e.preventDefault(); select(a.dataset.k); document.getElementById('markets').scrollIntoView({behavior:'smooth'});
+  });
   for(const row of chart.querySelectorAll('.brow')){
     const s=DATA.stations.find(x=>x.call===row.dataset.call);
     const tops=s.top.map(t=>`${t.n} ${money(t.a)}`).join('<br>');

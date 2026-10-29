@@ -112,8 +112,8 @@ footer p{margin:0 0 10px; max-width:80ch;}
 .coming li{grid-template-columns:minmax(0,1fr) auto;}
 .coming .gap{font-family:"IBM Plex Mono",monospace; font-size:12.5px; font-weight:600; text-align:right; white-space:nowrap;}
 .coming .gap small{display:block; font-weight:400; font-size:10.5px; color:var(--muted);}
-.cr .pf .rep{display:block; color:var(--muted); font-size:11.5px; margin-top:2px;}
-.cr .pf .rep b{color:var(--ink);}
+.cr .pfx .rep{color:var(--muted);}
+.cr .pfx .rep b{color:var(--ink);}
 .feed button.lnk{text-align:left; font:inherit; color:var(--accent-ink); background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px;}
 .feed .more{font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); background:none; border:0; padding:6px 0 0; cursor:pointer;}
 
@@ -128,7 +128,14 @@ footer p{margin:0 0 10px; max-width:80ch;}
 .mk{font-family:"IBM Plex Mono",monospace; font-size:10.5px; padding:1px 5px; border-radius:2px; border-left:3px solid; background:var(--page); color:var(--ink2); text-decoration:none;}
 a.mk:hover{color:var(--ink); background:var(--hair);}
 .cands{border-top:1px solid var(--hair);}
-.cr{display:grid; grid-template-columns:minmax(0,1.7fr) repeat(4,minmax(0,.75fr)) minmax(0,1.3fr); gap:10px; padding:8px 16px; border-top:1px solid var(--hair); align-items:start;}
+.cr{display:grid; grid-template-columns:minmax(0,1.7fr) repeat(4,minmax(0,.72fr)) minmax(0,1.15fr); gap:4px 10px; padding:8px 16px; border-top:1px solid var(--hair); align-items:start;}
+.cr .pfx{grid-column:1/-1; display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 12px; font:12px Archivo,system-ui,sans-serif; color:var(--ink2);}
+.cr .pfx .facts{flex:0 1 auto; min-width:0;}
+.cr .pfx .calls{margin-top:0;}
+.cabx{display:contents;}
+.cabx[hidden]{display:none;}
+button.callchip.more{cursor:pointer; border-top:0; border-right:0; border-bottom:0; font:inherit; font-family:"IBM Plex Mono",monospace; font-size:10px; color:var(--ink2); border-left-color:var(--ink2);}
+button.callchip.more:hover{background:var(--hair); color:var(--ink);}
 .cr:first-child{border-top:0;}
 .cr.head{font:700 10px Archivo,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); padding-top:7px; padding-bottom:7px; align-items:end;}
 .cr .nm{font:600 14px/1.35 Archivo,system-ui,sans-serif; display:flex; gap:6px; align-items:center; flex-wrap:wrap; min-width:0;}
@@ -148,7 +155,7 @@ a.callchip:hover{color:var(--ink); background:var(--hair);}
 .callchip.radio{border-left-style:double; border-left-width:4px;}
 .callchip.dbs{border-left-color:var(--ink2)!important; text-transform:none;}
 .spark{display:inline-block; vertical-align:-2px; margin-left:4px;}
-.spark rect{fill:var(--accent);} .spark rect.z{fill:var(--hair);}
+.spark rect{fill:var(--ink2);} .spark rect.z{fill:var(--hair);}
 .onair{color:var(--ink); font-weight:600;}
 .mlegend{font:11.5px Archivo,system-ui,sans-serif; color:var(--muted); margin-top:6px; display:flex; gap:12px; flex-wrap:wrap;}
 .cr.win .nm::after{content:"✓ " attr(data-w); font:600 11px Archivo,system-ui,sans-serif; color:var(--accent-ink);}
@@ -295,6 +302,21 @@ function chip(s){ // [call, url, live, market, medium]
   const st=`border-left-color:${s[3]?`var(${HUE[s[3]]})`:'var(--quiet)'}`, cls='callchip'+(s[4]&&s[4]!=='tv'?' '+s[4]:'')+(s[2]?'':' quiet');
   return s[1]?`<a class="${cls}" style="${st}" href="${s[1]}" rel="noopener" title="${s[0]} (${MEDIUM[s[4]||'tv']}): its FCC political file for this buyer">${s[0]}</a>`:`<span class="${cls}" style="${st}" title="${MEDIUM[s[4]||'tv']}">${s[0]}</span>`;
 }
+// A buyer's stations: TV, radio and satellite chips in full; cable systems,
+// which can run to a dozen for one order, folded into one chip that opens.
+function chips(st){
+  const cab=st.filter(s=>s[4]==='cable'), rest=st.filter(s=>s[4]!=='cable');
+  if(cab.length<=2) return `<span class="calls">${st.map(chip).join('')}</span>`;
+  const live=cab.filter(s=>s[2]).length;
+  const label=`+${cab.length} cable${live&&live<cab.length?` (${live} recent)`:''}`;
+  return `<span class="calls">${rest.map(chip).join('')}<button type="button" class="callchip cable more" aria-expanded="false" data-label="${label}" title="${esc(cab.map(s=>s[0]).join(', '))}">${label}</button><span class="cabx" hidden>${cab.map(chip).join('')}</span></span>`;
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button.more'); if(!b) return;
+  const x=b.nextElementSibling, open=x.hidden;
+  x.hidden=!open; b.setAttribute('aria-expanded',String(open));
+  b.textContent=open?'fewer cable':b.dataset.label;
+});
 // Documents a week over the last ten weeks, oldest first.
 function spark(wk){
   if(!wk||!wk.some(Boolean)) return '';
@@ -318,8 +340,13 @@ function cand(c, e){
             :c.fec?`<a href="${fecLink(c)}" rel="noopener" title="${esc(c.n)} at the FEC: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
   const air=(c.tv||0)+(c.ra||0);
   const p=c.pf;
-  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.usd?`<b title="Gross of the ${p.priced} order${p.priced===1?'':'s'} and invoice${p.priced===1?'':'s'} read so far, each order once: a floor${p.ag&&p.ag.length?'. Placed by '+esc(p.ag.join(', ')):''}">${money(p.usd)}</b> booked · `:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}${spark(p.wk)}${p.onAir?`<br><span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:''}${p.aired?` · ${p.aired} aired`:''}${p.revs?` · ${p.revs} revision${p.revs===1?'':'s'}`:''}${repLine(c)}<span class="calls">${p.st.map(chip).join('')}</span></span>`
+  // The column carries the headline (booked, documents, the weekly bars);
+  // the detail runs full width under the row, where the call signs have room.
+  const pf=p?`<span class="pf">${p.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${p.usd?`<b title="Gross of the ${p.priced} order${p.priced===1?'':'s'} and invoice${p.priced===1?'':'s'} read so far, each order once: a floor${p.ag&&p.ag.length?'. Placed by '+esc(p.ag.join(', ')):''}">${money(p.usd)}</b> booked<br>`:''}${p.recent?`<b>${p.recent}</b> doc${p.recent===1?'':'s'} in ${FCC.days} days`:`${p.docs} doc${p.docs===1?'':'s'}, latest ${dshort(p.latest)}`}${spark(p.wk)}</span>`
           :`<span class="pf"><span class="lbl">Political files</span> <span style="color:var(--baseline)">—</span></span>`;
+  const facts=p?[p.onAir?`<span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:'',
+                 p.aired?`${p.aired} aired`:'', p.revs?`${p.revs} revision${p.revs===1?'':'s'}`:'', repLine(c)].filter(Boolean):[];
+  const pfx=p?`<span class="pfx">${facts.length?`<span class="facts">${facts.join(' · ')}</span>`:''}${chips(p.st)}</span>`:'';
   const won=c.w&&/elect/i.test(c.w);
   const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes</span>`:'', c.w&&!won?esc(c.w):'',
              c.inc?'won this seat in '+(+e.d.slice(0,4)-4):'', c.last?`last ran for ${esc(c.last[0])}, ${c.last[1]}${c.last[2]?' ('+esc(c.last[2].toLowerCase())+')':''}`:'', c.b>=1000?`includes loans of ${money(c.b)}`:'',
@@ -328,7 +355,7 @@ function cand(c, e){
   return `<div class="cr${won?' win':''}"${won?` data-w="${esc(c.w)}"`:''}>
     <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}</span>
     ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?(c.fec?'as of '+dshort(c.coh[1]):c.coh[1]+' report'):'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
-    ${pf}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
+    ${pf}${pfx}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
 }
 function footnote(r){
   if(!W||r.t==='Federal') return '';
@@ -346,7 +373,7 @@ function outside(r){
   if(!r.out||!r.out.length) return '';
   return `<div class="og"><p class="oglabel">Outside groups on the air</p>${r.out.map(g=>`<div class="ogrow">
       <span class="nm">${esc(g.n)} <span class="cue">${esc(g.cue)}</span></span>
-      <span class="pf">${g.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${g.recent?`<b>${g.recent}</b> doc${g.recent===1?'':'s'} in ${FCC.days} days`:`${g.docs} doc${g.docs===1?'':'s'}, latest ${dshort(g.latest)}`}${spark(g.wk)}${g.onAir?` · <span class="onair">booked through ${dshort(g.onAir[1])}</span>`:''}${g.aired?` · ${g.aired} aired`:''}<span class="calls">${g.st.map(chip).join('')}</span></span></div>`).join('')}
+      <span class="pf">${g.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${g.recent?`<b>${g.recent}</b> doc${g.recent===1?'':'s'} in ${FCC.days} days`:`${g.docs} doc${g.docs===1?'':'s'}, latest ${dshort(g.latest)}`}${spark(g.wk)}${g.onAir?` · <span class="onair">booked through ${dshort(g.onAir[1])}</span>`:''}${g.aired?` · ${g.aired} aired`:''}${chips(g.st)}</span></div>`).join('')}
     <p class="ognote">Issue ads don't name a candidate in the political file's folders; these are tied to the race by a district written into their documents or the name of a candidate in the race in their ad titles. Which side an ad takes isn't recorded.</p></div>`;
 }
 function card(r, e){

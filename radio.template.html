@@ -114,13 +114,15 @@ a.nm:hover{color:var(--accent-ink); text-decoration:underline; text-underline-of
 .fhead .fn{font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:13.5px;}
 .fhead .fs{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted);}
 .fswatch{width:10px; height:10px; border-radius:2px; flex:none;}
-table.st{border-collapse:collapse; width:100%;}
+/* Fixed columns, so every format's table lines up with the others. */
+table.st{border-collapse:collapse; width:100%; table-layout:fixed; min-width:600px;}
+.st col.c{width:118px;} .st col.o{width:24%;} .st col.n{width:92px;} .st col.m{width:96px;}
 .st td{border-top:1px solid var(--hair); padding:8px 10px; font-size:13px; vertical-align:top;}
 .st td:first-child{padding-left:18px;}
 .st td:last-child{padding-right:18px;}
 .st .c{font-family:"IBM Plex Mono",monospace; font-weight:600; white-space:nowrap;}
 .st .f{color:var(--ink2); font-family:Archivo,system-ui,sans-serif; font-size:12.5px;}
-.st .o{color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-size:12px; white-space:nowrap;}
+.st .o{color:var(--muted); font-family:Archivo,system-ui,sans-serif; font-size:12px;}
 .st .n{font-family:"IBM Plex Mono",monospace; text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums;}
 .tblwrap{overflow-x:auto;}
 .nowrow{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 14px; padding:9px 0; border-top:1px solid var(--hair); font:13.5px/1.4 Archivo,system-ui,sans-serif;}
@@ -401,7 +403,7 @@ document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toL
     if(!sts.length) continue;
     h+=`<div class="fgroup"><div class="fhead"><span class="fswatch" style="background:${cv(b.k)}"></span>
       <span class="fn">${b.label}</span><span class="fs">${sts.length} stations · ${full(b.spend)}</span></div>
-      <div class="tblwrap"><table class="st"><tbody>`;
+      <div class="tblwrap"><table class="st"><colgroup><col class="c"><col><col class="o"><col class="n"><col class="m"></colgroup><tbody>`;
     for(const s of sts){
       h+=`<tr><td class="c">${s.call}${s.bands.length?`<span style="color:var(--muted);font-weight:400"> ${s.bands.join('/')}</span>`:''}</td>
         <td class="f">${s.format}<br><span class="o">${s.city}</span></td>

@@ -237,6 +237,8 @@ ALIASES = {
     'mike echols': 'michael echols',
     'michael gabriel firment': 'gabe firment',
     'mike marsiglia': 'michael marsiglia',
+    # WQUE and WYLD (iHeart, New Orleans) name his documents "jaimie_davis".
+    'jaimie davis': 'jamie davis',
 }
 
 
@@ -257,6 +259,9 @@ FOR_OFFICE = re.compile(
 OFFICE_TAIL = re.compile(
     r'^(\S+\s+\S+(?:\s+\S+)??)\s+(?:(?:la|louisiana|us|tx)\s+)?'
     r'(?:district judge|district attorney|city court|judge|da|ag|sheriff|mayor|congress)\b.*$', re.I)
+# ...or a parish's court written after a full name: "Camille Buras Orleans
+# Parish Criminal District Ct". Not after "Citizens for", which names a group.
+PARISH_TAIL = re.compile(r"^((?!\S+\s+(?:for|of|the)\b)\S+\s+\S+)\s+(?:st\.?\s+)?\S+\s+parish\b.*$", re.I)
 # "Texans for Greg Abbott", "Citizens for…": the supporters, not the buyer's name.
 SUPPORTERS = re.compile(r'^(texans|arkansans|louisianans|louisianians|citizens|people|friends)\s+for\s+', re.I)
 CHANNEL = re.compile(r'\s*-\s*(cw|my\w*|ion)\s*$', re.I)
@@ -287,6 +292,7 @@ def buyer_from_filename(name, calls=()):
     t = re.sub(r'_+', ' ', t).strip()
     t = re.sub(r'^P R\s+', '', t)                                     # Spectrum: "P_R_John_Fleming…"
     t = re.sub(r'^pol(?:itical)?\s*-\s*', '', t, flags=re.I)       # KLFY: "Pol-Louisiana Freedom Fund_…"
+    t = re.sub(r'^\d{4}[\s.-]\d{1,2}[\s.-]\d{1,2}\s*-\s*', '', t)        # WTIX: "2026 10 19 - raise the bar order"
     t = DOC_LEAD.sub('', t)
     t = FIRST_DATE.split(t, 1)[0]
     for c in calls:
@@ -314,7 +320,8 @@ def clean_name(buyer, issue=False):
         prev, k = k, OFFICE_SUFFIX.sub('', k)
     k = FOR_OFFICE.sub('', k)
     k = OFFICE_TAIL.sub(r'\1', k)
-    k = re.sub(r'\s+campaign$', '', re.sub(r'^the\s+', '', k.strip(), flags=re.I), flags=re.I)
+    k = PARISH_TAIL.sub(r'\1', k)
+    k = re.sub(r'\s+campaign$', '', re.sub(r'^the\s+', '', k.strip(' -\u2013'), flags=re.I), flags=re.I)
     k = re.sub(r'\b(\w+)\s+\1\b', r'\1', k, flags=re.I)     # KPLC: "Ron Richard Richard"
     return k.strip() or buyer
 
@@ -339,14 +346,21 @@ def buyer_key(buyer, alias=True):
 
 
 KEEP_CAPS = {'US', 'LA', 'PAC', 'DA', 'JP', 'II', 'III', 'TX', 'AR', 'MS', 'LLC'}
+SMALL_WORDS = {'for', 'of', 'the', 'and', 'to', 'a', 'in', 'on'}
 
 
 def tidy_caps(name):
-    """Title-case a name a station typed in capitals ("CAMILLE BURAS")."""
-    if not name or not name.isupper():
+    """Title-case a name a station typed in capitals ("CAMILLE BURAS"), or
+    in lower case, as iHeart's document names are ("club_for_growth")."""
+    if not name or not (name.isupper() or name.islower()):
         return name
-    return re.sub(r"[A-Z][A-Z'.]*", lambda m: m.group(0) if m.group(0) in KEEP_CAPS
-                  else m.group(0).capitalize(), name)
+
+    def word(m):
+        w = m.group(0)
+        if w.upper() in KEEP_CAPS:
+            return w.upper()
+        return w.lower() if m.start() and w.lower() in SMALL_WORDS else w.capitalize()
+    return re.sub(r"[A-Za-z][A-Za-z'.]*", word, name)
 
 
 def bucket(level):
