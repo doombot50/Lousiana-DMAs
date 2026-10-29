@@ -146,7 +146,7 @@ def builder(args, files):
     this_year = int(time.strftime('%Y'))
 
     paid = defaultdict(lambda: {'total': 0.0, 'media': 0.0, 'media_cycle': 0.0, 'rows': 0, 'years': defaultdict(float),
-                                'by': defaultdict(lambda: [0.0, 0.0]), 'names': Counter()})
+                                'by': defaultdict(lambda: [0.0, 0.0, 0.0]), 'names': Counter()})
     fname = defaultdict(Counter)
     fparty = defaultdict(Counter)
     match = {}
@@ -185,6 +185,7 @@ def builder(args, files):
         if fn:
             p['by'][fn][0] += amt
             p['by'][fn][1] += amt if yr > this_year - CYCLE_YEARS else 0
+            p['by'][fn][2] += amt if media and yr > this_year - CYCLE_YEARS else 0
             if r.get('candidate'):
                 fname[fn][r['candidate']] += 1
             if r.get('party'):
@@ -237,7 +238,7 @@ def builder(args, files):
             for fn, v in (paid.get(r['key'], {}).get('by') or {}).items():
                 if v[0] >= 1000:
                     by_filer[fn].append({'k': r['key'], 'n': r['name'], 'usd': round(v[0]), 'cycle': round(v[1]),
-                                         'fcc': 'fcc' in r})
+                                         'media': round(v[2]), 'fcc': 'fcc' in r})
         for v in by_filer.values():
             v.sort(key=lambda x: -x['usd'])
         out = {
