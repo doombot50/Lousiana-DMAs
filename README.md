@@ -19,27 +19,26 @@ current word.
 
 ## What it shows
 
-- **The pulse** — annual totals. **78% of every dollar** lands in a
+The page reads in two halves, with a pinned contents bar to jump between
+sections. **Since 2000** is the history, from the committees' own finance
+reports. **The air war now** is this cycle, where the stations' FCC political
+files join the reports. A link under the headline numbers goes straight to
+the second half.
+
+**Since 2000**
+
+- **The headline** — $121M paid *directly* to stations, and what that leaves
+  out: since 2023 committees have paid media-buying firms about as much again
+  ($20.4M against $20.1M), and the filings don't say which stations that
+  money reached.
+- **The pulse** — annual totals. **77% of every dollar** lands in a
   governor's-race year (2003, 2007, 2011, 2015, 2019, 2023). The 2019
   Edwards–Rispone runoff alone moved $26.4M.
-- **The 2027 pace** — cumulative TV dollars week by week before each
-  governor's primary since 2003, with the 2027 cycle to date drawn over them
-  (primary October 9, 2027, per the Secretary of State's calendar). A year
-  out, 2027 sits level with 2019 and behind 2023; in past races a median of
-  just 7% of the money had been spent this far out. Below it, **who is buying
-  television now**: the top committees over the trailing twelve months of
-  filings, with each one's latest buy.
-- **The political file** — what the stations themselves say is being
-  bought, from their FCC public inspection files: every buyer with documents
-  in the current cycle, which stations carry them, and how many were posted
-  in the last two weeks, filterable to federal, state & local, or issue ads.
-  Stations must post orders within days, so this runs weeks ahead of the
-  state finance reports, and it is the only public record here of federal
-  races. Counts are documents, not dollars.
 - **The map** — the seven markets drawn whole: the 64 parishes in full color
   by DMA (New Orleans №50 nationally, down to Alexandria №183), and the
   markets' 25 Texas, Arkansas and Mississippi counties in a lighter shade.
-  Click a market for its stations and totals.
+  Click a market for its stations and totals; each market in the ledger links
+  back to it.
 - **Where the money over-weights** — spending per *Louisiana* TV household.
   Nielsen counts a market's households whole, and 46% of Shreveport's are in
   Texas and Arkansas, so over the whole market Shreveport looks like the
@@ -47,23 +46,60 @@ current word.
   side it is the most heavily bought market in the state (~$80 against ~$69);
   Monroe–El Dorado (13% Arkansas) is the one market below average either
   way. The section's prose is written from the data, so it moves with it.
-- **Cycle benchmarks** — each market's TV money in every governor's-race
-  year since 2003, as a share of the state, in 2024 dollars (BLS CPI-U, from
-  `data/cpi.json`), or per Louisiana TV household. Shreveport's share has halved, from
-  23% in 2003 to 11% in 2023, while Lafayette's went from 11% to 18%; in real
-  terms 2015 and 2019 were the biggest air wars (~$32M each) and 2023 spent
-  half that. These are payments to stations, not ad rates: the filings don't
-  say how many spots a payment bought.
+- **Cycle benchmarks** — a line per market across every governor's-race year
+  since 2003, as a share of the state, in 2024 dollars (BLS CPI-U, from
+  `data/cpi.json`), or per Louisiana TV household, with the numbers as a
+  table on a toggle. In shares, Shreveport's fall from 23% in 2003 to 11% in
+  2023 and Lafayette's rise from 11% to 18% are drawn heavier; in real terms
+  2015 and 2019 were the biggest air wars (~$32M each) and 2023 spent half
+  that. These are payments to stations, not ad rates: the filings don't say
+  how many spots a payment bought.
 - **Ownership** — the count/revenue inversion: **Nexstar owns or operates 13
-  of the 30 stations but collects 30.5% of the money, while Gray's 10 collect
+  of the 30 stations but collects 30.4% of the money, while Gray's 10 collect
   47.6%**, because Gray's ten include the news-leading CBS or NBC affiliate in
   six of seven markets.
-- **The ledger** — every station by dollars. WWL-TV leads at $15.3M; WBRL-CD
-  has taken $27K in twenty-six years.
+- **The ledger** — every station by dollars, each with what its own 2026
+  political file shows booked beside it. WWL-TV leads at $15.4M; WBRL-CD has
+  taken $27K in twenty-six years.
 - **The buyers** — John Bel Edwards ($11.3M across 29 stations) and Bobby
   Jindal ($8.6M) lead, followed by the outside groups that fought 2019 and
   2023: the RGA's Right Direction PAC, Gumbo PAC, and The Fund for Louisiana's
   Future.
+
+**The air war now**
+
+- **Two records, reconciled** — this year's political files show $31.3M
+  booked across TV, cable, radio and satellite, split by race level. 90% of
+  it is federal races and issue ads, which no state finance report carries;
+  for the state and local slice, the matched committees' own reports already
+  show more paid for airtime than the files show booked, and only ~$143K
+  booked is not yet reported (the races page lists who).
+- **The 2026 air war** — those bookings week by week, by race level.
+- **The political file** — what the stations themselves say is being
+  bought: every buyer with documents in the current cycle, which stations
+  carry them, and how many were posted in the last two weeks, filterable to
+  federal, state & local, or issue ads. Stations must post orders within
+  days, so this runs weeks ahead of the state finance reports, and it is the
+  only public record here of federal races.
+- **The agencies** — each media-buying firm drawn twice on one dollar scale:
+  what committees paid it for media work in the state filings, and what the
+  political files show it bought. The two records split the firms: some only
+  ever appear in state reports, others buy only for federal campaigns and
+  issue groups. The ten biggest show by default; click a firm for who paid it
+  and whose time it bought.
+- **The 2027 pace** — cumulative TV dollars week by week before each
+  governor's primary since 2003, with the 2027 cycle to date drawn over them
+  (primary October 9, 2027, per the Secretary of State's calendar), beside a
+  panel zoomed in on the weeks 2027 has reached, where the comparison can be
+  seen: a year out, 2027 sits level with 2019 and behind 2023; in past races
+  a median of just 8% of the money had been spent this far out. Below it,
+  **who is buying television now**: the top committees over the trailing
+  twelve months of filings, with each one's latest buy.
+
+**Colour.** The seven market colours mean markets and red and blue mean
+party, everywhere on the page. Anything that is neither (a race level, an
+owner group, a source, governor's-race years) is drawn in neutral greys,
+and a legend says which is which.
 
 ## Run it
 
@@ -166,7 +202,9 @@ until the nightly radio scrape has run.
 `committees.html` profiles every committee that has paid a TV or radio
 station since 2000 (about 1,300): totals on each medium, spending by year,
 TV by market and station, radio by format and station. It is a searchable
-list; `committees.html#f=<filer number>` opens one profile, so profiles can
+list, each row with a small bar chart of the committee's TV and radio
+spending by year (on its own scale, so it shows when, while the columns
+beside it show how much); `committees.html#f=<filer number>` opens one profile, so profiles can
 be linked to directly. The two spend builders write the per-committee detail
 (`data/committees_tv.json`, `data/committees_radio.json`), using exactly the
 station matching their own pages use, and `build_committees_page.py`
@@ -216,9 +254,11 @@ search. Each race card shows, per candidate:
   per-filer totals;
 - **TV and radio** the candidate's committee has paid stations this cycle,
   from the same matching as the TV and radio pages;
-- **the political files**: documents stations posted for the candidate, in
-  the last two weeks, at which stations (each linking to its FCC folder), and
-  a NEW tag for the last three days;
+- **the political files**: dollars booked and documents stations posted for
+  the candidate in the last two weeks, in the row; on a full-width line under
+  it, flight dates, revisions, booked against reported, and the stations
+  (each linking to its FCC folder), with a candidate's cable systems folded
+  into one "+N cable" chip that opens; and a NEW tag for the last three days;
 - **does money win?**: the spending leader's edge over the runner-up, and
   how often a leader with that edge has won a contested Louisiana race since
   2000, from the dashboard's [study](https://finance.charliestephens.xyz/does-money-win.html).

@@ -62,7 +62,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 .chips button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--page);}
 .count{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted); margin:16px 0 8px;}
 .list{border:1px solid var(--hair); background:var(--surface);}
-.row{display:grid; grid-template-columns:minmax(0,1fr) 92px 92px; gap:12px; align-items:center; padding:10px 16px; border-top:1px solid var(--hair); text-decoration:none; color:inherit;}
+.row{display:grid; grid-template-columns:minmax(0,1fr) 120px 92px 92px; gap:12px; align-items:center; padding:10px 16px; border-top:1px solid var(--hair); text-decoration:none; color:inherit;}
 .row:first-child{border-top:0;}
 .row:hover{background:var(--page);}
 .row:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
@@ -74,7 +74,11 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 .row .m{font-family:"IBM Plex Mono",monospace; font-size:12px; text-align:right; color:var(--ink2);}
 .row .m.z{color:var(--hair);}
 .more{display:block; width:100%; padding:12px; border:0; border-top:1px solid var(--hair); background:none; font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); cursor:pointer;}
-@media(max-width:560px){.bl{grid-template-columns:104px 1fr;} .row{grid-template-columns:minmax(0,1fr) 74px 66px; padding:10px 12px;} .row .yr{display:none;}}
+.row .when{display:block; line-height:0;}
+.row .when svg{display:block;}
+.row .when rect{fill:var(--ink2);} .row .when line{stroke:var(--hair);}
+.row.head .when{font:inherit; line-height:inherit; display:flex; justify-content:space-between; font-family:"IBM Plex Mono",monospace; font-weight:400; letter-spacing:0;}
+@media(max-width:560px){.bl{grid-template-columns:104px 1fr;} .row{grid-template-columns:minmax(0,1fr) 74px 66px; padding:10px 12px;} .row .yr, .row .when{display:none;}}
 
 /* profile */
 .back{font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); background:none; border:0; padding:0; cursor:pointer; margin-top:30px;}
@@ -181,16 +185,27 @@ if(PF){
 }
 const q=document.getElementById('q');
 q.addEventListener('input',()=>{limit=50; renderList();});
+// When a committee bought: TV and radio by year, first year of filings to last, on its own
+// scale, so the shape shows timing; the columns beside it give the size.
+const ALLY=DATA.flatMap(c=>Object.keys(c.y||{}).map(Number));
+const Y0=Math.min(...ALLY), Y1=Math.max(...ALLY);
+function yspark(c){
+  const ys=c.y||{}, vals=[]; for(let y=Y0;y<=Y1;y++){ const v=ys[y]; vals.push(v?v[0]+v[1]:0); }
+  const mx=Math.max(...vals); if(!mx) return '';
+  const bw=120/vals.length, h=16;
+  const busy=vals.map((v,i)=>[Y0+i,v]).filter(([,v])=>v).map(([y,v])=>`${y}: ${money(v)}`).join(', ');
+  return `<svg width="120" height="${h}" role="img" aria-label="By year: ${busy}"><title>${busy}</title><line x1="0" x2="120" y1="${h-.5}" y2="${h-.5}"/>${vals.map((v,i)=>v?`<rect x="${(i*bw+.5).toFixed(1)}" y="${(h-Math.max(1.5,v/mx*h)).toFixed(1)}" width="${(bw-1).toFixed(1)}" height="${Math.max(1.5,v/mx*h).toFixed(1)}"/>`:'').join('')}</svg>`;
+}
 function renderList(){
   for(const b of chips.children) b.setAttribute('aria-pressed',String(b.id==='bkchip'?booking:b.dataset.k===party));
   const words=fold(q.value).split(/\s+/).filter(Boolean);
   const rows=DATA.filter(c=>(party==='all'||c.p===party)&&(!booking||(c.pf&&c.pf.recent))&&words.every(w=>c.k.includes(w)));
   document.getElementById('count').textContent=
     `${rows.length.toLocaleString('en-US')} committee${rows.length===1?'':'s'}`+(rows.length>limit?` · showing the top ${limit} by spending`:'');
-  let h='<div class="row head"><span>Committee</span><span class="m">TV</span><span class="m">Radio</span></div>';
+  let h=`<div class="row head"><span>Committee</span><span class="when" title="TV and radio spending by year, each committee on its own scale"><span>'${String(Y0).slice(2)}</span><span>'${String(Y1).slice(2)}</span></span><span class="m">TV</span><span class="m">Radio</span></div>`;
   h+=rows.slice(0,limit).map(c=>`<a class="row" href="#f=${encodeURIComponent(c.f)}">
     <span class="nm"><span>${esc(c.n)}</span><span class="ptag ${c.p}">${c.p}</span>${c.pf&&c.pf.recent?'<span class="btag" title="Booking TV time now, per the FCC political files">BOOKING</span>':''}<span class="yr">${yspan(c)}</span></span>
-    <span class="m${c.tv?'':' z'}">${c.tv?money(c.tv):'—'}</span><span class="m${c.ra?'':' z'}">${c.ra?money(c.ra):'—'}</span></a>`).join('');
+    <span class="when">${yspark(c)}</span><span class="m${c.tv?'':' z'}">${c.tv?money(c.tv):'—'}</span><span class="m${c.ra?'':' z'}">${c.ra?money(c.ra):'—'}</span></a>`).join('');
   if(rows.length>limit) h+=`<button type="button" class="more" id="more">Show ${Math.min(100,rows.length-limit)} more</button>`;
   document.getElementById('list').innerHTML=h;
   const m=document.getElementById('more'); if(m) m.addEventListener('click',()=>{limit+=100; renderList();});

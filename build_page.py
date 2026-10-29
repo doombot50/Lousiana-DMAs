@@ -61,6 +61,7 @@ def facts(spend):
             break
         acc, quiet = acc + v, quiet + 1
     n_st = len(spend['stations'])
+    ranked = sorted(spend['stations'], key=lambda s: -s['spend'])
     own = {o['group']: o for o in spend['owners']}
     nex, gray = own['nexstar'], own['gray']
     b1, b2 = spend['top_buyers'][:2]
@@ -76,6 +77,8 @@ def facts(spend):
         'nex_n': words(nex['stations']), 'gray_n': words(gray['stations']), 'stations_n': words(n_st),
         'nex_most': ' — the most of any group —' if nex['stations'] == max(o['stations'] for o in own.values()) else '',
         'nex_share': f"{nex['share'] * 100:.1f}%", 'gray_share': f"{gray['share'] * 100:.1f}%",
+        'lead_call': ranked[0]['call'], 'lead_amount': money(ranked[0]['spend']),
+        'tail_call': ranked[-1]['call'], 'tail_amount': money(ranked[-1]['spend']),
         'b1_name': b1['name'], 'b1_amount': money(b1['amount']), 'b1_stations': b1['stations'],
         'b2_name': b2['name'], 'b2_amount': money(b2['amount']), 'n_stations': n_st,
         'outside_reach': (f'each buying between {reach[0]} and {reach[-1]} of the {n_st} stations'
@@ -216,13 +219,14 @@ def build_data():
         st['bk'] = bk.get('calls', {}).get(st['call'], 0)
     for d in dmas:
         d['bk'] = bk.get('markets', {}).get(d['k'], 0)
-    every = fcc_summary(by_call, media=('tv', 'cable', 'radio', 'dbs'))
+    every = fcc_summary(by_call, full=True, media=('tv', 'cable', 'radio', 'dbs'))
     cycle = None
     if every and every.get('booked'):
         cycle = {'weeks': every['booked']['weeks'], 'total': every['usd']['total'],
                  'byBucket': every['usd']['byBucket'], 'priced': every['usd']['priced'],
                  'docs': every['usd']['docs'], 'scraped': every['scraped'],
-                 'tv': fcc['usd']['total'] if fcc else 0}
+                 'tv': fcc['usd']['total'] if fcc else 0,
+                 'recon': reconcile(every, spend['data_through'][:4])}
 
     per_year = defaultdict(float)
     for s in spend['stations']:
@@ -267,6 +271,35 @@ def build_data():
         'ambig': round(sum(spend['caveats']['ambiguous_bare_call'].values())),
         'combined': round(spend['caveats']['combined_buys']['amount']),
     }
+
+
+def reconcile(every, since):
+    """This year's state and local bookings in the political files against
+    what the same committees' state reports show paid for airtime (to
+    stations and media agencies, as the races page counts it). Federal races
+    and issue ads never reach a state report, so only this slice of the
+    booked total can be checked against one."""
+    from build_races_page import reported
+    tv = json.load(open(D('data', 'committees_tv.json'), encoding='utf-8'))
+    ra = json.load(open(D('data', 'committees_radio.json'), encoding='utf-8'))
+    try:
+        ag = json.load(open(D('data', 'agencies.json'), encoding='utf-8')).get('by_filer', {})
+    except FileNotFoundError:
+        ag = {}
+    booked, unmatched = defaultdict(float), 0.0
+    for x in every.get('all', []):
+        usd = (x.get('usd') or {}).get('usd') or 0
+        if x['b'] != 'State & local' or not usd:
+            continue
+        if x.get('f'):
+            booked[x['f']] += usd
+        else:
+            unmatched += usd
+    rep = {f: sum(reported(f, since, tv, ra, ag)) for f in booked}
+    return {'committees': len(booked), 'booked': round(sum(booked.values())), 'unmatched': round(unmatched),
+            'reported': round(sum(rep.values())),
+            'pending': round(sum(max(0, b - rep[f]) for f, b in booked.items())),
+            'since': since}
 
 
 AGENCY_ROWS = 25

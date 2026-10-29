@@ -92,13 +92,19 @@ class DisplayNames(unittest.TestCase):
                            ('Emilia Pardo LA City Court Judge D', 'Emilia Pardo'),
                            ('Pol- James Klock', 'James Klock'),
                            ('The Kristain Earles Campaign', 'Kristain Earles'),
-                           ('Ron Richard Richard for Lake Charles City Court Judge', 'Ron Richard')]:
+                           ('Ron Richard Richard for Lake Charles City Court Judge', 'Ron Richard'),
+                           ('Camille Buras Orleans Parish Criminal District Ct', 'Camille Buras'),
+                           ('People of St Bernard Parish', 'People of St Bernard Parish'),
+                           ('Ron Richard -', 'Ron Richard')]:
             self.assertEqual(clean_name(raw), shown, raw)
 
     def test_capitals(self):
         self.assertEqual(tidy_caps('CAMILLE BURAS'), 'Camille Buras')
         self.assertEqual(tidy_caps('ORLEANS PARISH DA'), 'Orleans Parish DA')
         self.assertEqual(tidy_caps('Julia Letlow'), 'Julia Letlow')
+        # iHeart's document names are all lower case.
+        self.assertEqual(tidy_caps('club for growth'), 'Club for Growth')
+        self.assertEqual(tidy_caps('raise the bar pac'), 'Raise the Bar PAC')
 
 
 class FromFilename(unittest.TestCase):
@@ -125,6 +131,10 @@ class FromFilename(unittest.TestCase):
 
     def test_nothing_left_is_none(self):
         self.assertIsNone(buyer_from_filename('NAB 10-7'))
+        # WTIX dates its documents first.
+        self.assertEqual(buyer_from_filename('2026 10 19 - raise the bar order'), 'raise the bar')
+        # Radio stations write their call sign into the name.
+        self.assertEqual(buyer_from_filename('michael vincent WBRP', ('WBRP',)), 'michael vincent')
 
 
 class Classify(unittest.TestCase):
