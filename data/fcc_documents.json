@@ -13135,6 +13135,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "176792d9-1059-41a7-9766-2faf416df07a": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Texans for Dan Patrick",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/PB - 20611",
+   "name": "20261030114332537",
+   "uploaded": "2026-10-30T12:43:34-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T17:12:43Z"
+  },
   "1767af5f-d6af-4667-b965-979133e7aa67": {
    "kind": "other",
    "layout": "other",
@@ -81610,6 +81631,30 @@
    "name_kind": "other",
    "read_at": "2026-10-27T19:53:16Z"
   },
+  "922b23e3-67b5-4218-9976-19035edd7df7": {
+   "kind": "order",
+   "layout": "order",
+   "gross": 600.0,
+   "net": 510.0,
+   "agency": "Hulsen Media Services",
+   "advertiser": "POL/Jacques Roy/Mayor of Alexandrite",
+   "order_no": "5452027",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WNTZ",
+   "path": "Political Files/2026/Local",
+   "name": "Jacques Roy Mayor est 4740 10.30.26",
+   "uploaded": "2026-10-30T12:27:07-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T17:12:43Z"
+  },
   "923d6e01-10ec-4d4a-9238-56db30c7c361": {
    "kind": "order",
    "layout": "other",
@@ -105738,6 +105783,27 @@
    "uploaded": "2026-05-04T09:58:10-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T08:34:00Z"
+  },
+  "bcbd9de4-f901-4fc9-875e-8d6b2197248d": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 2290.0,
+   "net": 1946.5,
+   "agency": null,
+   "advertiser": "Dan Patrick for Lt Governor",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTBS",
+   "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20611",
+   "name": "20261030114320575",
+   "uploaded": "2026-10-30T12:42:45-04:00",
+   "name_kind": "order",
+   "read_at": "2026-10-30T17:12:43Z"
   },
   "bcc3161f-7067-446d-8ced-1a2ff76d5829": {
    "kind": "request",
@@ -136384,6 +136450,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
   },
+  "f2e0bbe8-5432-426b-9a32-0341e91aa9ff": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Hulsen Media Services",
+   "advertiser": "seeques Roy forMayor",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WNTZ",
+   "path": "Political Files/2026/Local",
+   "name": "jacques Roy NAB est 4740",
+   "uploaded": "2026-10-30T12:27:07-04:00",
+   "name_kind": "request",
+   "read_at": "2026-10-30T17:12:43Z"
+  },
   "f2e3dd14-9949-4dbb-a00e-5bbc5f532f54": {
    "kind": "invoice",
    "layout": "invoice",
@@ -143347,6 +143434,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-30T16:31:55Z",
+ "updated": "2026-10-30T17:13:41Z",
  "blocked": null
 }
