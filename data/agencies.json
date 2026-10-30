@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-29",
+ "generated": "2026-10-30",
  "data_through": "2026-10-29",
  "cycle_from": 2023,
- "documents_read": 6598,
+ "documents_read": 6603,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -11143,7 +11143,7 @@
    "name": "Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 30,
+    "docs": 32,
     "priced": 8,
     "usd": 2200,
     "stations": [

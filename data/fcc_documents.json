@@ -60560,6 +60560,30 @@
    "name_kind": "request",
    "read_at": "2026-10-27T02:43:16Z"
   },
+  "6eb28203-ac89-4854-8b70-c01d1f158bf0": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA COMMITTEE TO RE-ELECT DA JAMES STEWART 10-28",
+   "uploaded": "2026-10-29T17:05:20-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T02:56:10Z"
+  },
   "6ece4a7d-8817-4cdf-9369-64d72d9f63b2": {
    "kind": "request",
    "layout": "nab",
@@ -69057,6 +69081,30 @@
    "uploaded": "2026-05-04T11:33:23-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "7d010b16-1e7c-4b78-891e-c8289cacd61f": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Tabatha Taylor Campaign",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "40/29/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026 KOKA TABATHA TAYLOR FOR SHREVEPORT CITY COUNCIL DIST A  10-28",
+   "uploaded": "2026-10-28T16:11:35-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T02:56:10Z"
   },
   "7d03560f-a6fb-4141-8905-6085827ca0b6": {
    "kind": "request",
@@ -86073,6 +86121,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "9a1cddbd-55f2-4e9e-bed0-a8a6fad2f426": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Mobile Communications Service",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA TAMMY PHELPS FOR SHREVEPORT MAYOR 10-29",
+   "uploaded": "2026-10-29T17:05:19-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T02:56:10Z"
+  },
   "9a28b1d4-72e1-4672-880e-50f864372f91": {
    "kind": "order",
    "layout": "other",
@@ -100417,6 +100489,30 @@
    "uploaded": "2026-04-24T17:31:05-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:49:24Z"
+  },
+  "b421201c-3a94-4593-a6ae-a02e9878f1be": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Mobile Communications Service",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "40/31/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS TAMMY PHELPS FOR SHREVEPORT MAYOR 10-29",
+   "uploaded": "2026-10-29T17:04:01-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T02:56:10Z"
   },
   "b4301ee7-4853-4707-baa8-4b6c79796cbb": {
    "kind": "order",
@@ -128450,6 +128546,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-28T17:24:41Z"
   },
+  "e439f3c2-6bf1-4080-ab18-119dc51fe6ad": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS COMMITTEE TO RE-ELECT DA JAMES STEWART 10-28",
+   "uploaded": "2026-10-29T17:04:01-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T02:56:10Z"
+  },
   "e43c6fde-b0fd-437d-8b11-319f85828ab7": {
    "kind": "request",
    "layout": "nab",
@@ -143056,6 +143173,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-29T22:46:05Z",
+ "updated": "2026-10-30T02:57:40Z",
  "blocked": null
 }
