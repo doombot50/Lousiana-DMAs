@@ -27,8 +27,8 @@ the second half.
 
 **Since 2000**
 
-- **The headline** — $121M paid *directly* to stations, and what that leaves
-  out: since 2023 committees have paid media-buying firms about as much again
+- **The headline** — $121M paid *directly* to stations, and, in a line under
+  the stat tiles, what that leaves out: since 2023 committees have paid media-buying firms about as much again
   ($20.4M against $20.1M), and the filings don't say which stations that
   money reached.
 - **The pulse** — annual totals. **77% of every dollar** lands in a
@@ -99,7 +99,15 @@ the second half.
 **Colour.** The seven market colours mean markets and red and blue mean
 party, everywhere on the page. Anything that is neither (a race level, an
 owner group, a source, governor's-race years) is drawn in neutral greys,
-and a legend says which is which.
+and a legend says which is which; issue ads, the largest share of this
+year's bookings, are hatched rather than the palest grey, so they don't read
+as the smallest.
+
+**Captions and method.** Each chart carries a one-line caption; the full
+working (how the political files are counted, the agencies' two records,
+booked against reported, the benchmarks' inflation and household figures,
+party corrections) is in *Notes on each section*, a fold-out in the method
+section that a caption's "method" link opens.
 
 ## Run it
 

@@ -126,6 +126,8 @@ a.callchip:hover{color:var(--ink); background:var(--hair);}
 .toclbl{font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); padding:0 6px 0 2px; flex:none;}
 .toclbl.now{margin-left:10px; padding-left:12px; border-left:1px solid var(--hair);}
 section,.group{scroll-margin-top:52px;}
+.caveat{margin:12px 0 0; font-family:Archivo,system-ui,sans-serif; font-size:13px; line-height:1.5; color:var(--ink2); max-width:80ch;}
+.caveat b{color:var(--ink);}
 .nowlink{display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-top:14px; padding:11px 16px; border:1px solid var(--hair); border-left:3px solid var(--ink); background:var(--surface); color:var(--ink2); text-decoration:none; font-family:Archivo,system-ui,sans-serif; font-size:13.5px;}
 .nowlink b{color:var(--ink);}
 .nowlink .go{margin-left:auto; font-weight:700; color:var(--accent-ink); white-space:nowrap;}
@@ -136,8 +138,7 @@ section,.group{scroll-margin-top:52px;}
 .grouph{font-size:clamp(30px,4.6vw,44px); font-weight:900; letter-spacing:-.015em; margin:6px 0 0;}
 .group + section{margin-top:44px;}
 .recon{margin-top:22px;}
-.recon div{color:var(--page);}
-.recon div.lt{color:var(--ink);}
+.recon .plate{background:var(--surface); color:var(--ink); padding:1px 5px; border-radius:2px;}
 
 .pacegrid{display:grid; grid-template-columns:minmax(0,1.55fr) minmax(0,1fr); gap:12px; margin-top:26px;}
 .pacegrid .pulse{margin-top:0; padding:14px 14px 8px;}
@@ -308,6 +309,10 @@ a.nm:hover{color:var(--accent-ink); text-decoration:underline; text-underline-of
 
 .method{max-width:68ch; font-size:14.5px; color:var(--ink2);}
 .method p{margin:10px 0;}
+.notes{margin-top:22px; border-top:1px solid var(--hair); border-bottom:1px solid var(--hair); padding:10px 0;}
+.notes summary{cursor:pointer; font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:15px; color:var(--ink);}
+.notes summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.notes p{margin:10px 0;}
 .method h3{font-size:15px; font-weight:700; margin-top:22px; color:var(--ink);}
 .srcs{list-style:none; padding:0; margin:10px 0 0; font-size:13px;}
 .srcs li{margin:4px 0; padding-left:14px; text-indent:-14px;}
@@ -321,11 +326,12 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
 <header>
   <p class="eyebrow">A spin-off of <a href="https://factions.charliestephens.xyz/vendor-factions.html">Louisiana's vendor factions</a></p>
   <h1>Louisiana Airwaves</h1>
-  <p class="dek">Louisiana political committees have paid the state's television stations <b id="hero">$121 million</b> since 2000. This is where that money went: which of the <b>seven Nielsen markets</b> it bought, which stations banked it, and — after a year of consolidation — which companies now collect it. The surprise is that the biggest station group by <em>count</em> is not the biggest by <em>revenue</em>.<span id="agcaveat"></span></p>
+  <p class="dek">Louisiana political committees have paid the state's television stations <b id="hero">$121 million</b> since 2000. This is where that money went: which of the <b>seven Nielsen markets</b> it bought, which stations banked it, and — after a year of consolidation — which companies now collect it. The surprise is that the biggest station group by <em>count</em> is not the biggest by <em>revenue</em>.</p>
   <p class="asof">Filings through October 29, 2026 · rebuilt nightly from the state's disclosure data</p>
   <div class="freq" id="freq" aria-hidden="true"></div>
   <div class="freqcap"><span>Seven markets, to scale by TV households</span><span class="mono" id="freqtotal"></span></div>
   <div class="stats" id="stats"></div>
+  <p class="caveat" id="agcaveat" hidden></p>
   <a class="nowlink" id="nowlink" href="#now" hidden></a>
 </header>
 
@@ -404,7 +410,7 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
   <h2>Who paid for the air war</h2>
   <p class="intro">Two governors dominate the whole century of filings. <b>John Bel Edwards</b> spent <b>$11.3M</b> on television across 29 of the 30 stations; <b>Bobby Jindal</b> spent <b>$8.57M</b>. Behind them sit the outside groups that fought the 2019 and 2023 races — the <b>RGA's Right Direction PAC</b>, <b>Gumbo PAC</b>, and <b>The Fund for Louisiana's Future</b> — each buying between 23 and 27 of the 30 stations.</p>
   <div class="chart buyers" id="buyerlist"></div>
-  <p class="cap">Committee spending across all 30 stations. Party is the filing's own label, except that Louisiana files most PACs and some candidates as <span class="mono">OTH</span>, which says nothing about which side bought the airtime. Where a filer's alignment is public record the label is corrected — the RGA's PAC to Republican; Gumbo PAC, Walter Boasso and Buddy Leach to Democratic; Jay Dardenne to Republican. A filing that states a party is left alone unless public reporting shows it is wrong: Blair Downing Edwards, a Republican 2026 Supreme Court candidate whose committee files as Democratic, is shown as Republican. Every correction is listed in <span class="mono">filings.py</span>.</p>
+  <p class="cap">Committee spending across all 30 stations. Party is the filing's own label, corrected where a filer's alignment is public record (<a href="#method">method</a>).</p>
 </section>
 
 <div class="group" id="now">
@@ -471,6 +477,15 @@ footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font
     <p><b>Combined buys.</b> <b id="combined"></b> sits in rows naming two co-owned stations at once (<span class="mono">KARD-TV KTVE-TV</span>, <span class="mono">WGMB WVLA-TV</span>); those amounts are split evenly rather than assigned to whichever sorts first.</p>
     <p><b>One gap:</b> the <b>2008</b> expenditure file is absent from the upstream data release, so 2008 is missing from every figure on this page. It was an off-cycle year — the off-years either side drew $992K in 2006 and $528K in 2009 — so the effect on the totals is small, but it is not zero.</p>
     <p>Parish boundaries are U.S. Census cartographic files; parish-to-DMA assignment was computed by point-in-polygon against Nielsen DMA boundaries and cross-checked against published market lists. Ownership is as reported through September 2026.</p>
+    <details class="notes" id="notes">
+      <summary>Notes on each section: how each chart's figures are counted</summary>
+      <p data-note="bench" hidden></p>
+      <p data-note="party"><b>Party labels.</b> Party is the filing's own label, except that Louisiana files most PACs and some candidates as <span class="mono">OTH</span>, which says nothing about which side bought the airtime. Where a filer's alignment is public record the label is corrected — the RGA's PAC to Republican; Gumbo PAC, Walter Boasso and Buddy Leach to Democratic; Jay Dardenne to Republican. A filing that states a party is left alone unless public reporting shows it is wrong: Blair Downing Edwards, a Republican 2026 Supreme Court candidate whose committee files as Democratic, is shown as Republican. Every correction is listed in <span class="mono">filings.py</span>.</p>
+      <p data-note="recon" hidden></p>
+      <p data-note="cyc" hidden></p>
+      <p data-note="pf" hidden></p>
+      <p data-note="ag" hidden></p>
+    </details>
     <h3>Sources</h3>
     <ul class="srcs">
       <li>› Spending: <a href="https://www.ethics.la.gov/">Louisiana Ethics Administration</a> campaign expenditure filings, 2000–2026</li>
@@ -552,12 +567,23 @@ document.getElementById('combined').textContent = moneyFull(DATA.combined);
     `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
 }
 
+// The full working behind a chart lives in the method section; the chart
+// keeps a one-line caption.
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href="#method"]'); if(a) document.getElementById('notes').open=true;
+});
+function note(k, title, html){
+  const el=document.querySelector(`#method [data-note="${k}"]`);
+  el.innerHTML=`<b>${title}.</b> `+html; el.hidden=false;
+}
+
 /* what the headline total leaves out, and the way down to this year */
 if(DATA.agencies && DATA.agencies.media){
   const A=DATA.agencies, r=A.media/A.stations;
   const than = r>=0.9 && r<=1.1 ? 'as much as' : r>1.1 ? 'more than' : `${Math.round(r*100)}% of`;
-  document.getElementById('agcaveat').innerHTML =
-    ` That total counts only payments made to a station directly: since ${A.from}, committees have also paid media-buying firms <b>${money(A.media)}</b> for TV and media work — ${than} the ${money(A.stations)} they paid stations — and the filings don't say which stations that money reached (<a href="#ag-sec">the agencies</a>).`;
+  const c=document.getElementById('agcaveat');
+  c.hidden=false;
+  c.innerHTML=`<b>Not in that total:</b> since ${A.from}, committees have also paid media-buying firms ${money(A.media)} for TV and media work, ${than} the ${money(A.stations)} they paid stations directly. The filings don't say which stations it reached. <a href="#ag-sec">The agencies ↓</a>`;
 }
 if(DATA.cycle && DATA.cycle.total){
   const C=DATA.cycle, ws=C.weeks, last4=ws.slice(-4).reduce((a,w)=>a+w[1]+w[2]+w[3],0);
@@ -834,11 +860,11 @@ if(DATA.cycle && DATA.cycle.total){
     table(); chart();
   }
   draw();
-  document.getElementById('benchcap').textContent =
-    `TV dollars paid in each governor's-race calendar year by every state committee, legislative and local races on the same ballot included. `+
+  note('bench', 'Cycle benchmarks', `TV dollars paid in each governor's-race calendar year by every state committee, legislative and local races on the same ballot included. `+
     `Restated in ${B.base} dollars with the BLS consumer price index (CPI-U annual averages). `+
     `Per-household figures divide by today's Louisiana TV households (2024–25 Nielsen, Louisiana side only; see the market map), since earlier counts aren't in this data, so they compare markets within a cycle better than one cycle against another. `+
-    `These are payments to stations, not ad rates: the filings don't say how many spots a payment bought.`;
+    `These are payments to stations, not ad rates: the filings don't say how many spots a payment bought.`);
+  document.getElementById('benchcap').innerHTML = `Payments to stations in each governor's-race calendar year, every race on that ballot included. Payments, not ad rates (<a href="#method">method</a>).`;
 }
 
 /* ---------- political file (FCC) ---------- */
@@ -846,7 +872,12 @@ if(DATA.cycle && DATA.cycle.total){
 if(DATA.cycle && DATA.cycle.weeks.length){
   const C = DATA.cycle, ELECTION = '2026-11-03';
   document.getElementById('cyc-sec').hidden = false;
-  const KEYS = [['Federal','var(--n1)'],['State & local','var(--n2)'],['Issue','var(--n3)']];
+  // Issue ads, the biggest share, are hatched rather than the palest grey, so
+  // they don't read as the least of it. CSS fills (keys, the split bar) use
+  // the gradient; the SVG bars use the same hatch as a pattern.
+  const HATCH = 'repeating-linear-gradient(45deg,var(--n1) 0 1.5px,var(--n3) 1.5px 5px)';
+  const KEYS = [['Federal','var(--n1)'],['State & local','var(--n2)'],['Issue',HATCH]];
+  const SVGFILL = ['var(--n1)','var(--n2)','url(#hatch)'];
   const LBL = {'Federal':'Federal races','State & local':'State & local races','Issue':'Issue ads'};
   const dshort = iso => new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
   const addDays = (iso,n) => { const d=new Date(iso+'T12:00'); d.setDate(d.getDate()+n); return d.toISOString().slice(0,10); };
@@ -869,18 +900,18 @@ if(DATA.cycle && DATA.cycle.weeks.length){
     // A segment carries its figure only where it fits; the key below has them all.
     const barW = document.getElementById('reconbar').clientWidth;
     document.getElementById('reconbar').innerHTML = parts.map(p=>
-      `<div class="${p.k==='Issue'?'lt':''}" style="flex:${p.v};background:${p.c}" title="${LBL[p.k]}: ${moneyFull(p.v)}">${p.v/C.total*barW>=64?money(p.v):''}</div>`).join('');
+      `<div style="flex:${p.v};background:${p.c}" title="${LBL[p.k]}: ${moneyFull(p.v)}">${p.v/C.total*barW>=64?`<span class="plate">${money(p.v)}</span>`:''}</div>`).join('');
     document.getElementById('reconcap').innerHTML = parts.map(p=>
       `<span><i style="background:${p.c}"></i>${LBL[p.k]} — <b>${money(p.v)}</b> · ${pct(p.k)}%</span>`).join('');
     const never = (C.byBucket['Federal']||0)+(C.byBucket['Issue']||0);
     document.getElementById('nowintro').innerHTML +=
       ` This year the political files show <b>${money(C.total)}</b> booked across Louisiana's TV, cable, radio and satellite outlets. <b>${Math.round(never/C.total*100)}%</b> of it is federal races and issue ads, which no Louisiana finance report will ever carry.`;
+    note('recon', 'Booked against reported',
+      `Of this year's ${money(C.byBucket['State & local']||0)} booked for state and local races, ${money(RC.booked)} is matched to ${RC.committees} state committees by name (first name and surname, or a PAC's whole name, and only where exactly one filer fits)`+
+      (RC.unmatched ? `; the other ${money(RC.unmatched)} is booked under names that don't match a single filer, so it can't be checked` : '')+
+      `. "Reported" is what each committee's ${RC.since} reports show paid to stations and to every media agency it paid, whatever the payment's description, ${money(RC.reported)} in all; a committee's booked dollars beyond that are "not yet reported", so the figure errs small. Booked dollars are themselves a floor, since the documents are still being read, which is why reported can run ahead of booked.`);
     document.getElementById('reconnote').innerHTML =
-      `The state and local slice, ${money(C.byBucket['State & local']||0)}, is the part the two records share. ${RC.committees} state committees are matched to ${money(RC.booked)} of it`+
-      (RC.unmatched ? ` (the other ${money(RC.unmatched)} is booked under names that don't match a single state filer)` : '')+
-      `; their own reports already show <b>${money(RC.reported)}</b> paid for airtime in ${RC.since}, to stations and media agencies`+
-      (RC.reported>RC.booked ? `, more than the files show booked, since the documents read so far are a floor` : '')+
-      `, and only <b>${money(RC.pending)}</b> of what they have booked is not yet in a report. The <a href="https://airwaves.charliestephens.xyz/races.html">races page</a> lists them.`;
+      `The ${money(C.byBucket['State & local']||0)} for state and local races is the slice a state report can check. Of the ${money(RC.booked)} booked by committees matched to a state filer, all but <b>${money(RC.pending)}</b> already shows up in their own reports; the <a href="https://airwaves.charliestephens.xyz/races.html">races page</a> lists who has yet to report it. How the two are matched is under <a href="#method">method</a>.`;
   }
   document.getElementById('cyckey').innerHTML = KEYS.map(([k,c])=>`<span><i style="background:${c}"></i>${LBL[k]}</span>`).join('');
 
@@ -888,6 +919,7 @@ if(DATA.cycle && DATA.cycle.weeks.length){
   const narrow = svg.parentElement.clientWidth < 600;
   const W=narrow?460:940, H=narrow?300:300, L=narrow?40:52, R=narrow?12:20, T=22, B=34;
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = `<defs><pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" style="fill:var(--n3)"/><rect width="1.5" height="5" style="fill:var(--n1)"/></pattern></defs>`;
   const add=(t,a,cls)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(cls)e.setAttribute('class',cls); svg.appendChild(e); return e;};
   const mxv = Math.max(...weeks.map(tot));
   const step = [250e3,500e3,1e6,2e6,5e6].find(s=>mxv/s<=5) || 10e6;
@@ -914,7 +946,7 @@ if(DATA.cycle && DATA.cycle.weeks.length){
     w.v.forEach((v,j)=>{
       if(!v) return;
       const h=y0-yOf(v);
-      add('rect',{x:x0+i*bw+pad, y:y-h, width:bw-2*pad, height:h, fill:KEYS[j][1], stroke:'var(--surface)', 'stroke-width':1});
+      add('rect',{x:x0+i*bw+pad, y:y-h, width:bw-2*pad, height:h, fill:SVGFILL[j], stroke:'var(--surface)', 'stroke-width':1});
       y-=h;
     });
   });
@@ -932,11 +964,11 @@ if(DATA.cycle && DATA.cycle.weeks.length){
       : `<b>Week of ${dshort(w.d)}</b><br>Not yet filed`));
     hit.addEventListener('mouseleave', hideTip);
   });
-  document.getElementById('cyccap').textContent =
-    `Each order or invoice is placed in the week its station posted it to the political file, which runs close to when the buy is made; most documents do not state their flight dates in a form we can read. `+
+  note('cyc', 'Bookings by week', `Each order or invoice is placed in the week its station posted it to the political file, which runs close to when the buy is made; most documents do not state their flight dates in a form we can read. `+
     `An order filed at several cable systems counts once. The newest week is still filling in. `+
     `These are the dollars on the documents read so far, so they are a floor, and they cover every Louisiana-market TV, cable, radio and satellite outlet, not only the 30 broadcast stations in the totals elsewhere on this page. `+
-    `They are a separate source from the committees' finance reports and are never added to those totals: a state candidate's buy shows up in both, weeks apart.`;
+    `They are a separate source from the committees' finance reports and are never added to those totals: a state candidate's buy shows up in both, weeks apart.`);
+  document.getElementById('cyccap').innerHTML = `Each document placed in the week it was posted. Dollars read so far, a floor; a separate record from the finance reports, never added to them (<a href="#method">method</a>).`;
 }
 
 if(DATA.fcc){
@@ -985,14 +1017,14 @@ if(DATA.fcc){
     const m=document.getElementById('pfmore'); if(m) m.addEventListener('click',()=>{showAll=true; render();});
   }
   render();
-  document.getElementById('pfcap').textContent =
-    `From the FCC public inspection files of ${F.stations} stations. To keep the load on the FCC's site light, a few stations are re-read each night`+(F.oldest<F.scraped?`, so the oldest here is as of ${dshort(F.oldest)}`:'')+`. Counts are documents — requests, orders, invoices. `+
+  note('pf', 'The political file', `From the FCC public inspection files of ${F.stations} stations. To keep the load on the FCC's site light, a few stations are re-read each night`+(F.oldest<F.scraped?`, so the oldest here is as of ${dshort(F.oldest)}`:'')+`. Counts are documents — requests, orders, invoices. `+
     (F.usd && F.usd.docs ? `Dollars are the gross of the orders and invoices read so far (${fmt(F.usd.docs)} documents, text or OCR): each station order once, at its latest revision, and invoices only for an order whose own document hasn't been read, so a figure grows as more are read and is a floor, not a total. ` : '')+
     (F.byName.length ? `${F.byName.join(' and ')} file${F.byName.length>1?'':'s'} documents without a folder per buyer, so there the buyer is read from each document's name. ` : '')+
     `Stations name buyers their own way ("Cassidy-R for US Senate", "Bill Cassidy"); names are merged across stations only where the match is unambiguous. Faded call signs have documents earlier in the cycle but none in the last ${F.days} days. `+
     (F.noFile.length ? `${F.noFile.join(', ')} ${F.noFile.length>1?'are':'is a'} low-power station${F.noFile.length>1?'s':''} exempt from the online file. ` : '')+
     (F.stale.length ? `${F.stale.join(', ')} ${F.stale.length>1?'have':'has'} not been refreshed in over a week. ` : '')+
-    `Each call sign opens that station's political file for the buyer; a state candidate's or PAC's name opens its committee profile, matched to its state filer by name. Federal candidates report to the FEC, not the state, so they have none.`;
+    `Each call sign opens that station's political file for the buyer; a state candidate's or PAC's name opens its committee profile, matched to its state filer by name. Federal candidates report to the FEC, not the state, so they have none.`);
+  document.getElementById('pfcap').innerHTML = `Counts are documents; dollars are what the orders and invoices read so far add up to, a floor. Faded call signs have nothing in the last ${F.days} days (<a href="#method">method</a>).`;
 }
 
 /* ---------- agencies ---------- */
@@ -1075,8 +1107,8 @@ if(DATA.agencies && DATA.agencies.rows.length){
       const again=[...document.querySelectorAll('#aglist button.agb')].find(x=>x.dataset.n===n); if(again) again.focus();
     }
   });
-  document.getElementById('agcap').textContent =
-    `State filings: every payment to the firm under any spelling since ${A.from}; the large figure is the part described as TV, broadcast, air time or a media buy, the small one everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once, for Louisiana's races; what it bought on Louisiana stations for other states' races (Texas's, mostly, on Shreveport's) is shown apart and not counted. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`;
+  note('ag', 'The agencies', `State filings: every payment to the firm under any spelling since ${A.from}; the bar is the part described as TV, broadcast, air time or a media buy, and an opened row also gives everything, which can include production and consulting. Firms are listed when a station's political file names them as the buying agency, or when committees paid them at least $100,000 for described media work since 2000; companies that sell time themselves (cable, satellite and station groups) are left out. Political files: the gross of the orders and invoices read so far that name the firm as agency, each order once, for Louisiana's races; what it bought on Louisiana stations for other states' races (Texas's, mostly, on Shreveport's) is noted in an opened row and not counted. A federal campaign's agency shows political-file orders and no state payments: federal committees report to the FEC.`);
+  document.getElementById('agcap').innerHTML = `State filings: payments since ${A.from} committees described as TV, broadcast, air time or a media buy. Political files: orders and invoices naming the firm as agency, for Louisiana's races (<a href="#method">method</a>).`;
 }
 
 /* ---------- map ---------- */

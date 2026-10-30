@@ -99,6 +99,7 @@ footer p{margin:0 0 10px; max-width:80ch;}
 .count{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted); margin:16px 0 8px;}
 
 /* feed */
+@media(max-width:600px){.feed .sub .why{display:none;}}
 .feed{border:1px solid var(--hair); border-left:3px solid var(--new); background:var(--surface); padding:14px 18px 12px; margin-top:26px;}
 .feed h2{font-size:13px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--ink2);}
 .feed .sub{font:12.5px Archivo,system-ui,sans-serif; color:var(--muted); margin:4px 0 10px;}
@@ -422,12 +423,16 @@ function renderComing(e){
   const li=x=>{
     const w=where(x.f);
     const what=w?`<button type="button" class="lnk" data-e="${w[0]}" data-r="${esc(w[1].id)}">${esc(w[1].o)}</button>`:x.b==='Issue'?'issue group':'committee';
+    const split=`${money(x.st)} to stations, ${money(x.ag)} to agencies`;
     return `<li><span><span class="who"><a href="${CM}#f=${encodeURIComponent(x.f)}" title="${esc(x.n)}'s committee profile">${esc(x.n)}</a></span> · <span class="what">${what}</span><br>
-      <span class="what">${money(x.booked)} booked${x.via.length?' through '+esc(x.via[0]):''} · ${money(x.st+x.ag)} reported (${money(x.st)} to stations, ${money(x.ag)} to agencies) · latest document ${dshort(x.latest)}</span></span>
+      <span class="what">${money(x.booked)} booked${x.via.length?' through '+esc(x.via[0]):''} · <span title="${split}">${money(x.st+x.ag)} reported</span> · latest ${dshort(x.latest)}</span></span>
       <span class="gap">${money(x.gap)}<small>not yet reported</small></span></li>`;
   };
-  el.innerHTML=`<h2>Coming to the reports</h2><p class="sub">State committees whose stations' political files show more airtime booked than their finance reports show paid in ${C.since}, through the latest reports (${dshort(C.through)}): spending the next reports should carry. Booked dollars are a floor; reported counts every payment to the committee's media agencies, production included, so the gap errs small. A gap is normal right after a buy; one that outlasts the next report is worth a look. Federal campaigns report to the FEC and aren't here.</p>
-    <ul>${C.rows.map(li).join('')}</ul>`;
+  // A phone shows the three largest; the rest are a tap away.
+  const show=el.dataset.all?C.rows:C.rows.slice(0,innerWidth<600?3:6);
+  el.innerHTML=`<h2>Coming to the reports</h2><p class="sub">State committees whose political files show more airtime booked in ${C.since} than their finance reports show paid, through the latest reports (${dshort(C.through)}). A gap is normal right after a buy; one that outlasts the next report is worth a look. <span class="why">Booked dollars are a floor; reported counts every payment to the committee's media agencies, production included, so the gap errs small. Federal campaigns report to the FEC and aren't here.</span></p>
+    <ul>${show.map(li).join('')}</ul>${C.rows.length>show.length?`<button type="button" class="more" id="comingmore">Show all ${C.rows.length}</button>`:''}`;
+  const mo=document.getElementById('comingmore'); if(mo) mo.addEventListener('click',()=>{el.dataset.all='1'; renderComing(e);});
   el.hidden=false;
   el.querySelectorAll('button.lnk').forEach(b=>b.addEventListener('click',()=>{S.e=b.dataset.e; S.r=b.dataset.r; S.q=''; S.pa=''; S.m=''; S.t=''; render(true);}));
 }
