@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-30",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506798,
+ "rows_scanned": 1506823,
  "data_through": "2026-10-29",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121488113.68,
+ "total_spend": 121526584.68,
  "pace": {
   "weeks": [
    -104,
@@ -790,7 +790,7 @@
      1537066.87,
      1669185.87,
      1669185.87,
-     1683513.32
+     1721984.32
     ]
    }
   ],
@@ -799,8 +799,8 @@
  "recent_buyers": {
   "since": "2025-10-30",
   "through": "2026-10-29",
-  "total": 1614773.32,
-  "committees": 33,
+  "total": 1653244.32,
+  "committees": 35,
   "top": [
    {
     "name": "FIRST PRINCIPLES PAC",
@@ -896,9 +896,9 @@
    "dma_rank_2024_25": 50,
    "owner": "Tegna · Nexstar",
    "owner_group": "nexstar",
-   "spend": 15403215.38,
-   "rows": 1279,
-   "committees": 290,
+   "spend": 15422072.63,
+   "rows": 1281,
+   "committees": 292,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -927,7 +927,7 @@
     "2023": 1477098.58,
     "2024": 119047.85,
     "2025": 378989.52,
-    "2026": 273229.34
+    "2026": 292086.59
    },
    "top_committees": [
     {
@@ -1237,9 +1237,9 @@
    "dma_rank_2024_25": 50,
    "owner": "Hearst Television",
    "owner_group": "hearst",
-   "spend": 10202289.32,
-   "rows": 1106,
-   "committees": 280,
+   "spend": 10217274.82,
+   "rows": 1108,
+   "committees": 282,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -1267,7 +1267,7 @@
     "2023": 1652153.79,
     "2024": 144480.25,
     "2025": 313772.47,
-    "2026": 315588.37
+    "2026": 330573.87
    },
    "top_committees": [
     {
@@ -2244,9 +2244,9 @@
    "dma_rank_2024_25": 50,
    "owner": "Nexstar Media",
    "owner_group": "nexstar",
-   "spend": 2644516.35,
-   "rows": 849,
-   "committees": 203,
+   "spend": 2649144.6,
+   "rows": 850,
+   "committees": 204,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2274,7 +2274,7 @@
     "2023": 301683.13,
     "2024": 55282.49,
     "2025": 14878.0,
-    "2026": 49166.83
+    "2026": 53795.08
    },
    "top_committees": [
     {
@@ -4106,16 +4106,16 @@
   {
    "name": "New Orleans",
    "rank": 50,
-   "spend": 40758102.2,
+   "spend": 40796573.2,
    "stations": 7,
-   "share": 0.3355
+   "share": 0.3357
   },
   {
    "name": "Baton Rouge",
    "rank": 95,
    "spend": 24736089.29,
    "stations": 5,
-   "share": 0.2036
+   "share": 0.2035
   },
   {
    "name": "Lafayette",
@@ -4158,13 +4158,13 @@
    "group": "gray",
    "spend": 57775328.12,
    "stations": 10,
-   "share": 0.4756
+   "share": 0.4754
   },
   {
    "group": "nexstar",
-   "spend": 36986188.81,
+   "spend": 37009674.31,
    "stations": 13,
-   "share": 0.3044
+   "share": 0.3045
   },
   {
    "group": "local",
@@ -4174,9 +4174,9 @@
   },
   {
    "group": "hearst",
-   "spend": 10202289.32,
+   "spend": 10217274.82,
    "stations": 1,
-   "share": 0.084
+   "share": 0.0841
   },
   {
    "group": "other",

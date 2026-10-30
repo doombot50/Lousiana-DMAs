@@ -33274,6 +33274,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "3bd3f493-5881-4bd6-a7fd-3dd4913725d8": {
+   "kind": "order",
+   "layout": "order",
+   "gross": 25075.0,
+   "net": 21313.75,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis, US Senate (LA)",
+   "order_no": "23140",
+   "invoice_no": null,
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis - US Senate - D",
+   "name": "Jamie Davis - US Senate 10.27-11.3 #1 REVISION 3",
+   "uploaded": "2026-10-30T12:08:50-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:29:55Z"
+  },
   "3bdd98a2-428e-424f-bfc7-e59040db7e22": {
    "kind": "invoice",
    "layout": "invoice",
@@ -33384,6 +33408,27 @@
    "uploaded": "2026-02-06T12:02:35-05:00",
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
+  },
+  "3c3295ce-5257-4b90-9d4b-5472ff856ee9": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Holbrook Multi Media",
+   "advertiser": "Susan Theall for Judge Campaign Committee",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KLFY",
+   "path": "Political Files/2026/Local/Family Court Judge/Susan Theall- Family Court Judge",
+   "name": "Pol-Susan Theall_10.30.2026_NAB-signed",
+   "uploaded": "2026-10-30T09:54:05-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:29:55Z"
   },
   "3c42fe6e-9c55-4e13-b4d6-75016e8b7aae": {
    "kind": "order",
@@ -34542,6 +34587,30 @@
    "uploaded": "2026-02-02T15:47:54-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
+  },
+  "3f16e245-bc11-42c2-8d7e-2dc4bb127789": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Canal Partners Media",
+   "advertiser": "JAMIE DAVIS FOR U.S. SENATE",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis - US Senate - D",
+   "name": "Jamie Davis - US Senate 10.31-11.3",
+   "uploaded": "2026-10-30T12:08:50-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:29:55Z"
   },
   "3f250afb-9363-4370-ae4f-832d5f75d4e7": {
    "kind": "other",
@@ -67663,6 +67732,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:44:04Z"
   },
+  "7ac46e21-f6f9-4027-a4df-e99167604c5c": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KBON",
+   "path": "Political Files/2026/Local",
+   "name": "Lauren Heinen - Political 2027",
+   "uploaded": "2026-10-30T12:00:36-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:30:47Z"
+  },
   "7ac65463-e8cf-45f5-9238-ee13a8cefdc1": {
    "kind": "other",
    "layout": "other",
@@ -76648,6 +76738,27 @@
    "name_kind": "request",
    "read_at": "2026-10-26T08:34:00Z"
   },
+  "894b3323-8250-418d-9a5e-b0465d8bd7d9": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Local",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KBON",
+   "path": "Political Files/2026/Local",
+   "name": "Caleb Lege - Political 2027",
+   "uploaded": "2026-10-30T12:00:36-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:30:47Z"
+  },
   "894f0d42-bcb6-4bb1-a981-f30c059b781f": {
    "kind": "order",
    "layout": "contract",
@@ -83272,6 +83383,27 @@
    "uploaded": "2026-05-06T17:39:45-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "95c95be4-20cb-4ca1-ab51-60d506c2a43b": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 910.0,
+   "net": null,
+   "agency": "oO Local",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KBON",
+   "path": "Political Files/2026/Local",
+   "name": "Daniel Sparks - Politcal 2027",
+   "uploaded": "2026-10-30T12:00:36-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:30:47Z"
   },
   "95ca41be-9ccf-41db-9dc4-4e86060f609d": {
    "kind": "order",
@@ -113724,6 +113856,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:27:27Z"
   },
+  "cacda13c-39a2-466c-8570-a7efd0f53854": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 910.0,
+   "net": null,
+   "agency": "oO Local",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KBON",
+   "path": "Political Files/2026/Local",
+   "name": "Dale Thibodeaux - Political 2027",
+   "uploaded": "2026-10-30T12:00:36-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:30:47Z"
+  },
   "cacf80bf-6f70-4c7e-9431-74d472934745": {
    "kind": "invoice",
    "layout": "invoice",
@@ -139531,6 +139684,27 @@
    "name_kind": "other",
    "read_at": "2026-10-22T02:24:21Z"
   },
+  "f877fdbd-5197-4042-831a-f902a3b3de4a": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KBON",
+   "path": "Political Files/2026/Local",
+   "name": "Kurt Thomas - Political 2027",
+   "uploaded": "2026-10-30T12:00:36-04:00",
+   "name_kind": "other",
+   "read_at": "2026-10-30T16:30:47Z"
+  },
   "f87bf8a0-7209-483b-9eae-63e564eba861": {
    "kind": "invoice",
    "layout": "invoice",
@@ -143173,6 +143347,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-30T02:57:40Z",
+ "updated": "2026-10-30T16:31:55Z",
  "blocked": null
 }

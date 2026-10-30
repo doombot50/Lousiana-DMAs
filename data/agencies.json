@@ -2,7 +2,7 @@
  "generated": "2026-10-30",
  "data_through": "2026-10-29",
  "cycle_from": 2023,
- "documents_read": 6603,
+ "documents_read": 6611,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1764,7 +1764,7 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 69,
+    "docs": 71,
     "priced": 32,
     "usd": 391689,
     "stations": [
@@ -1788,13 +1788,13 @@
      "JAMIE DAVIS FOR U.S. SENATE",
      "Hillar Moore Campaign",
      "Davis/D/US Senate",
+     "Jamie Davis, US Senate (LA)",
      "Hillar Moore for East Baton Rouge DA",
      "Jamle Davis for US Senate",
-     "Jamie Davis, US Senate (LA)",
      "JUSTICE PAC"
     ],
     "first": "2026-10-02",
-    "last": "2026-10-29",
+    "last": "2026-10-30",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2106,11 +2106,11 @@
     }
    },
    "paid": {
-    "total": 9908225,
+    "total": 9922299,
     "media": 2341188,
-    "rows": 2822,
+    "rows": 2826,
     "media_cycle": 148430,
-    "cycle": 1533571,
+    "cycle": 1547645,
     "years": {
      "2000": 22813,
      "2001": 24656,
@@ -2137,7 +2137,7 @@
      "2023": 936326,
      "2024": 391979,
      "2025": 56112,
-     "2026": 149154
+     "2026": 163228
     },
     "committees": 178,
     "top": [
@@ -2219,6 +2219,13 @@
       "cycle": 40850
      },
      {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 40358,
+      "cycle": 40358
+     },
+     {
       "f": "6177",
       "n": "Vincent E. Cox III",
       "p": "REP",
@@ -2238,13 +2245,6 @@
       "p": "REP",
       "usd": 104724,
       "cycle": 35296
-     },
-     {
-      "f": "1373",
-      "n": "John F. Young, Jr.",
-      "p": "REP",
-      "usd": 31405,
-      "cycle": 30655
      }
     ],
     "spellings": [
@@ -7969,8 +7969,26 @@
   },
   {
    "key": "HOLBROOKMULTIMEDIA",
-   "name": "Holbrook Multi-Media",
-   "found_by": "filings",
+   "name": "Holbrook Multi Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KLFY"
+    ],
+    "clients": [
+     "Susan Theall for Judge Campaign Committee"
+    ],
+    "first": "2026-10-30",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
    "paid": {
     "total": 326659,
     "media": 110108,
@@ -11372,6 +11390,27 @@
     ],
     "first": "2026-10-07",
     "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "OOLOCAL",
+   "name": "oO Local",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 1820,
+    "stations": [
+     "KBON"
+    ],
+    "clients": [],
+    "first": "2026-10-30",
+    "last": "2026-10-30",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -21195,11 +21234,11 @@
   "1079": [
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 11812,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2015": 11812
     }
@@ -21554,11 +21593,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 22369,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2018": 11619,
      "2019": 10750
@@ -23093,11 +23132,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 5871,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2015": 5871
     }
@@ -25586,11 +25625,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 74900,
     "cycle": 8500,
     "media": 8500,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2017": 66400,
      "2023": 8500
@@ -26251,11 +26290,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 8500,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2019": 8500
     }
@@ -27152,11 +27191,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 6164,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2014": 6164
     }
@@ -35661,11 +35700,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 4000,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2015": 4000
     }
@@ -39768,11 +39807,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 10189,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2015": 10189
     }
@@ -40056,11 +40095,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 17861,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2015": 5861,
      "2019": 12000
@@ -41571,11 +41610,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 4150,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2017": 4150
     }
@@ -45472,11 +45511,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 6750,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2019": 6750
     }
@@ -46594,11 +46633,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 5000,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2019": 5000
     }
@@ -46991,11 +47030,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 6750,
     "cycle": 0,
     "media": 0,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2019": 6750
     }
@@ -51065,11 +51104,11 @@
    },
    {
     "k": "HOLBROOKMULTIMEDIA",
-    "n": "Holbrook Multi-Media",
+    "n": "Holbrook Multi Media",
     "usd": 141593,
     "cycle": 56920,
     "media": 16500,
-    "fcc": false,
+    "fcc": true,
     "y": {
      "2017": 52173,
      "2020": 32500,
@@ -57400,6 +57439,17 @@
   ],
   "6646": [
    {
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
+    "usd": 40358,
+    "cycle": 40358,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 40358
+    }
+   },
+   {
     "k": "JBCOMMUNICATIONS",
     "n": "JB Communications",
     "usd": 32669,
@@ -57409,17 +57459,6 @@
     "y": {
      "2025": 6535,
      "2026": 26134
-    }
-   },
-   {
-    "k": "BUISSONCREATIVESTRATEGIES",
-    "n": "Buisson Creative Strategies",
-    "usd": 28638,
-    "cycle": 28638,
-    "media": 0,
-    "fcc": true,
-    "y": {
-     "2026": 28638
     }
    }
   ],
@@ -58926,12 +58965,12 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 9500,
-    "cycle": 9500,
+    "usd": 11854,
+    "cycle": 11854,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 9500
+     "2026": 11854
     }
    }
   ],
