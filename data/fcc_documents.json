@@ -40710,15 +40710,26 @@
    "read_at": "2026-10-21T16:10:47Z"
   },
   "4aa23ab0-64d8-4ed7-aa49-fd43d3eb387d": {
-   "status": "failed",
-   "error": "https://publicfiles.fcc.gov/api/manager/download/dd9e8e04-9a2e-2312-3289-27f4e1f7d17d/4aa23ab0-64d8-4ed7-aa49-fd43d3eb387d.pdf: HTTP Error 503: Service Unavailable",
+   "kind": "order",
+   "layout": "other",
+   "gross": 15020.0,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": "1090160",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "tries": 2,
    "media": "cable",
    "call": "005341",
    "path": "Political Files/2026/Federal/US Senate/-Bill Cassidy-Senate",
    "name": "BILL CASSIDY FOR SENATE_AFF1090160_SYS 6979",
    "uploaded": "2026-05-18T10:50:00-04:00",
    "name_kind": "aired",
-   "read_at": "2026-10-29T02:54:30Z"
+   "read_at": "2026-10-31T00:02:15Z"
   },
   "4aa86bcd-9c1b-4eda-9e5d-be7a828dcbe3": {
    "kind": "order",
@@ -143434,6 +143445,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-10-30T17:13:41Z",
+ "updated": "2026-10-31T00:02:30Z",
  "blocked": null
 }
