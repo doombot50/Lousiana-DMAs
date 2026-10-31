@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-31",
- "data_through": "2026-10-29",
+ "data_through": "2026-10-30",
  "cycle_from": 2023,
- "documents_read": 6662,
+ "documents_read": 6690,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -2167,11 +2167,11 @@
     }
    },
    "paid": {
-    "total": 9922299,
+    "total": 9927521,
     "media": 2341188,
-    "rows": 2826,
+    "rows": 2829,
     "media_cycle": 148430,
-    "cycle": 1547645,
+    "cycle": 1552867,
     "years": {
      "2000": 22813,
      "2001": 24656,
@@ -2198,7 +2198,7 @@
      "2023": 936326,
      "2024": 391979,
      "2025": 56112,
-     "2026": 163228
+     "2026": 168450
     },
     "committees": 178,
     "top": [
@@ -7720,6 +7720,68 @@
    }
   },
   {
+   "key": "WILLIAMSCREATIVE",
+   "name": "Williams Creative Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 18,
+    "priced": 6,
+    "usd": 27802,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KLKL",
+     "KMSS",
+     "KOKA",
+     "KSLA",
+     "KTAL",
+     "KVKI",
+     "KXKS"
+    ],
+    "clients": [
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
+     "m Downtown Shreveport Development Corporation",
+     "m Tom Arceneaux for Mayor",
+     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+     "Pol26/Tom Arceneux for Mayor",
+     "Tom Arceneaux for Shreveport Mayor",
+     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
+     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 79824,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 79824,
+    "years": {
+     "2025": 6235,
+     "2026": 73589
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5573",
+      "n": "M. Thomas (\"Tom\") Arceneaux",
+      "p": "REP",
+      "usd": 79824,
+      "cycle": 79824
+     }
+    ],
+    "spellings": [
+     "WILLIAMS CREATIVE GROUP"
+    ]
+   }
+  },
+  {
    "key": "LITTLEFIELDANDASSOCIATESCONSULT",
    "name": "Littlefield & Associates Consulting",
    "found_by": "political file",
@@ -8145,67 +8207,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "WILLIAMSCREATIVE",
-   "name": "Williams Creative Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 12,
-    "priced": 5,
-    "usd": 24487,
-    "stations": [
-     "KDKS",
-     "KEEL",
-     "KLKL",
-     "KMSS",
-     "KOKA",
-     "KSLA",
-     "KTAL",
-     "KVKI"
-    ],
-    "clients": [
-     "Tom Arceneaux for Mayor",
-     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
-     "Pol26/Tom Arceneux for Mayor",
-     "Tom Arceneaux for Shreveport Mayor",
-     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
-     "Deven tote, Speen t Mrveleppenp Coryota Hon",
-     "m Downtown Shreveport Development Corporation",
-     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K"
-    ],
-    "first": "2026-09-30",
-    "last": "2026-10-30",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 79824,
-    "media": 0,
-    "rows": 9,
-    "media_cycle": 0,
-    "cycle": 79824,
-    "years": {
-     "2025": 6235,
-     "2026": 73589
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "5573",
-      "n": "M. Thomas (\"Tom\") Arceneaux",
-      "p": "REP",
-      "usd": 79824,
-      "cycle": 79824
-     }
-    ],
-    "spellings": [
-     "WILLIAMS CREATIVE GROUP"
-    ]
    }
   },
   {
@@ -11167,7 +11168,7 @@
    "name": "Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 32,
+    "docs": 33,
     "priced": 8,
     "usd": 2200,
     "stations": [
@@ -11191,7 +11192,7 @@
      "Mero for Mayor campaign"
     ],
     "first": "2026-05-18",
-    "last": "2026-10-29",
+    "last": "2026-10-30",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -11717,11 +11718,13 @@
    "name": "Anderson Advertising-AZ",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 3,
     "priced": 1,
     "usd": 1070,
     "stations": [
-     "KVKI"
+     "KEEL",
+     "KVKI",
+     "KXKS"
     ],
     "clients": [
      "m Committee to Elect Conrad Cable"
@@ -18813,6 +18816,27 @@
    }
   },
   {
+   "key": "ELECTERICHATFIELDJUSTICOFPEACEWARD7",
+   "name": "Elect Eric Hatfield Justic of the Peace Ward 7",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KXKS"
+    ],
+    "clients": [],
+    "first": "2026-10-30",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "EMAANSESANDERSFLA",
    "name": "Ema Anse Sanders fla Group",
    "found_by": "political file",
@@ -20177,19 +20201,20 @@
    "name": "aff",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
+    "docs": 4,
     "priced": 0,
     "usd": 0,
     "stations": [
      "016728",
      "KEEL",
-     "KVKI"
+     "KVKI",
+     "KXKS"
     ],
     "clients": [
      "TOM hkieEsuy. Foe mayor"
     ],
     "first": "2026-09-04",
-    "last": "2026-10-02",
+    "last": "2026-10-30",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -59015,12 +59040,12 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 11854,
-    "cycle": 11854,
+    "usd": 17076,
+    "cycle": 17076,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 11854
+     "2026": 17076
     }
    }
   ],
