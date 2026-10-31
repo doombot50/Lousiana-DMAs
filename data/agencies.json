@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-30",
+ "generated": "2026-10-31",
  "data_through": "2026-10-29",
  "cycle_from": 2023,
- "documents_read": 6615,
+ "documents_read": 6662,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -14,7 +14,7 @@
    "name": "People Who Think / Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 131,
+    "docs": 135,
     "priced": 4,
     "usd": 34446,
     "stations": [
@@ -36,6 +36,7 @@
      "KSYL",
      "KTAL",
      "KTBS",
+     "KVHP",
      "WAFB",
      "WBRL-CD",
      "WBRP",
@@ -54,7 +55,7 @@
      "Accountabllily Projact, Inc"
     ],
     "first": "2026-02-27",
-    "last": "2026-10-28",
+    "last": "2026-10-30",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1764,9 +1765,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 71,
-    "priced": 32,
-    "usd": 391689,
+    "docs": 76,
+    "priced": 33,
+    "usd": 392089,
     "stations": [
      "002460",
      "KADN",
@@ -1874,6 +1875,66 @@
     ],
     "spellings": [
      "VCREEK"
+    ]
+   }
+  },
+  {
+   "key": "MEDIUMBUYING",
+   "name": "MEDIUM BUYING",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 45,
+    "priced": 12,
+    "usd": 439689,
+    "stations": [
+     "002460",
+     "WAFB",
+     "WBRP",
+     "WBRZ",
+     "WGMB",
+     "WJBO",
+     "WVLA"
+    ],
+    "clients": [
+     "CLUB FOR GROWTH ACTION"
+    ],
+    "first": "2026-09-18",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 900,
+    "media": 400,
+    "rows": 2,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 900
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "2055",
+      "n": "Jeff Thompson",
+      "p": "REP",
+      "usd": 500,
+      "cycle": 0
+     },
+     {
+      "f": "1777",
+      "n": "Charles F. (Chuck) Wagner, Jr.",
+      "p": "DEM",
+      "usd": 400,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MEDIUM BUYING",
+     "MEDIUM BUYING LLC"
     ]
    }
   },
@@ -2254,66 +2315,6 @@
      "BUISSON CREATIVE STRATEGIES LLC",
      "BUISSON CREATIVE STRATEGIES, L.L.C.",
      "BUISSON CREATIVE STRATEGIES L.L.C."
-    ]
-   }
-  },
-  {
-   "key": "MEDIUMBUYING",
-   "name": "MEDIUM BUYING",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 44,
-    "priced": 11,
-    "usd": 365089,
-    "stations": [
-     "002460",
-     "WAFB",
-     "WBRP",
-     "WBRZ",
-     "WGMB",
-     "WJBO",
-     "WVLA"
-    ],
-    "clients": [
-     "CLUB FOR GROWTH ACTION"
-    ],
-    "first": "2026-09-18",
-    "last": "2026-10-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 900,
-    "media": 400,
-    "rows": 2,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 900
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "2055",
-      "n": "Jeff Thompson",
-      "p": "REP",
-      "usd": 500,
-      "cycle": 0
-     },
-     {
-      "f": "1777",
-      "n": "Charles F. (Chuck) Wagner, Jr.",
-      "p": "DEM",
-      "usd": 400,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MEDIUM BUYING",
-     "MEDIUM BUYING LLC"
     ]
    }
   },
@@ -8151,9 +8152,9 @@
    "name": "Williams Creative Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 10,
-    "priced": 4,
-    "usd": 23287,
+    "docs": 12,
+    "priced": 5,
+    "usd": 24487,
     "stations": [
      "KDKS",
      "KEEL",
@@ -8170,10 +8171,12 @@
      "Pol26/Tom Arceneux for Mayor",
      "Tom Arceneaux for Shreveport Mayor",
      "Deven tote Shrevlpert weveloprwems Corporatio C O86",
-     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+     "Deven tote, Speen t Mrveleppenp Coryota Hon",
+     "m Downtown Shreveport Development Corporation",
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K"
     ],
     "first": "2026-09-30",
-    "last": "2026-10-29",
+    "last": "2026-10-30",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -10451,6 +10454,32 @@
    }
   },
   {
+   "key": "HULSENMEDIASERVICES",
+   "name": "Hulsen Media Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 4,
+    "usd": 6255,
+    "stations": [
+     "KLAX",
+     "WNTZ"
+    ],
+    "clients": [
+     "Jacques Roy for Mayor",
+     "Jacques Roy/Mayor of Alexandrite",
+     "seeques Roy forMayor"
+    ],
+    "first": "2026-09-23",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "ENTERPNSESTRATEGIES",
    "name": "Enterpnse Strategies",
    "found_by": "political file",
@@ -10784,32 +10813,6 @@
      "WYLD- FM",
      "WYLD - FM"
     ]
-   }
-  },
-  {
-   "key": "HULSENMEDIASERVICES",
-   "name": "Hulsen Media Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 4,
-    "priced": 3,
-    "usd": 4225,
-    "stations": [
-     "KLAX",
-     "WNTZ"
-    ],
-    "clients": [
-     "Jacques Roy for Mayor",
-     "Jacques Roy/Mayor of Alexandrite",
-     "seeques Roy forMayor"
-    ],
-    "first": "2026-09-23",
-    "last": "2026-10-30",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -11707,6 +11710,29 @@
      "LEGRAND AND ASSOCIATES",
      "LEGRAND & ASSOC"
     ]
+   }
+  },
+  {
+   "key": "ANDERSONADVERTISINGAZ",
+   "name": "Anderson Advertising-AZ",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 1070,
+    "stations": [
+     "KVKI"
+    ],
+    "clients": [
+     "m Committee to Elect Conrad Cable"
+    ],
+    "first": "2026-10-30",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -19848,9 +19874,9 @@
      "Talarico for Texas"
     ],
     "first": "2026-10-09",
-    "last": "2026-10-29",
+    "last": "2026-10-30",
     "away": {
-     "docs": 16,
+     "docs": 17,
      "usd": 23008,
      "clients": [
       "Talarico for Texas",
@@ -20075,6 +20101,27 @@
      "clients": [
       "Too Extreme for Idaho PAC"
      ]
+    }
+   }
+  },
+  {
+   "key": "WILIAMSCREATEGREN",
+   "name": "Wiliams Create Gren",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [],
+    "first": "2026-10-30",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
     }
    }
   },
