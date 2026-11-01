@@ -120464,6 +120464,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
   },
+  "d32e32ed-4114-4420-ab20-a3aa05b835b7": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Marketing Blitz Ad Group LLC",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WQUE",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "jaimie_davis_for_us_senate_nab",
+   "uploaded": "2026-11-01T11:36:37-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-01T17:18:53Z"
+  },
   "d335392b-b6e1-44f5-9d37-aa091eed576b": {
    "kind": "order",
    "layout": "other",
@@ -145260,6 +145281,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-01T02:32:16Z",
+ "updated": "2026-11-01T17:19:11Z",
  "blocked": null
 }
