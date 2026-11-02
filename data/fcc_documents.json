@@ -52422,6 +52422,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "5ef56e2b-c04c-44ad-8ea9-1bcc19e4d548": {
+   "kind": "order",
+   "layout": "order",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "003478",
+   "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+   "name": "728315_Invoice_20261101084140",
+   "uploaded": "2026-11-01T11:55:26-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-02T02:48:12Z"
+  },
   "5ef5cc01-e605-441c-b2f6-09a2dd3cfb17": {
    "kind": "invoice",
    "layout": "invoice",
@@ -145281,6 +145302,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-01T17:19:11Z",
+ "updated": "2026-11-02T02:48:12Z",
  "blocked": null
 }
