@@ -152,8 +152,10 @@ def election(day):
     if mp is not None:
         found += races(mp, fetch(f'{blob}/Votes_Multiparish.htm'))
     pe = fetch(f'{blob}/ParishesInElection.htm')
-    pids = [str(p.get('ParishValue')).zfill(2) for p in
-            as_list(((pe or {}).get('ParishesInElection') or {}).get('Parish'))]
+    # The portal lists a parish once per ballot it has in the election, so
+    # the same parish can come back several times; fetch each once.
+    pids = list(dict.fromkeys(str(p.get('ParishValue')).zfill(2) for p in
+                              as_list(((pe or {}).get('ParishesInElection') or {}).get('Parish'))))
     for pid in pids:
         parish = PARISHES[int(pid) - 1] if pid.isdigit() and 0 < int(pid) <= 64 else None
         found += races(fetch(f'{blob}/RacesCandidates/ByParish_{pid}.htm'),
@@ -161,7 +163,14 @@ def election(day):
         time.sleep(0.1)
     if mp is None and not pids:
         return None
-    return found
+    return dedupe(found)
+
+
+def dedupe(found):
+    """One copy of each race: a race listed twice (a parish repeated in the
+    portal's list) would otherwise be counted, and shown, twice."""
+    seen = set()
+    return [r for r in found if r['id'] not in seen and not seen.add(r['id'])]
 
 
 def main(argv=None):

@@ -491,3 +491,37 @@ class BookedByWeek(unittest.TestCase):
         self.assertEqual(t['calls'], {'KTBS': 30, 'WAFB': 150})
         self.assertEqual(t['markets'], {'BR': 150, 'SHV': 30})
         self.assertIsNone(summary.booked_totals([], '2026-10-29'))
+
+
+class BallotDuplicates(unittest.TestCase):
+    """The portal lists a parish once per ballot it has in an election, so
+    until November 2026 every parish race was fetched, counted and shown three
+    times (2,327 "races" on a ballot of 833)."""
+
+    def test_repeated_parish_fetched_once(self):
+        import fetch_ballot
+        seen = []
+        files = {
+            '20261103/ParishesInElection.htm': {'ParishesInElection': {'Parish': [
+                {'ParishValue': '52'}, {'ParishValue': '52'}, {'ParishValue': '52'}]}},
+            '20261103/RacesCandidates/ByParish_52.htm': {'Races': {'Race': [
+                {'ID': '70164', 'SpecificTitle': 'Sheriff', 'NumberToElect': '1',
+                 'Choice': [{'ID': '1', 'Desc': 'Robert Hodges (REP)'}]}]}},
+        }
+
+        def fake(blob, timeout=30):
+            seen.append(blob)
+            return files.get(blob)
+        real, fetch_ballot.fetch = fetch_ballot.fetch, fake
+        real_sleep, fetch_ballot.time.sleep = fetch_ballot.time.sleep, lambda s: None
+        try:
+            races = fetch_ballot.election(date(2026, 11, 3))
+        finally:
+            fetch_ballot.fetch, fetch_ballot.time.sleep = real, real_sleep
+        self.assertEqual([r['office'] for r in races], ['St. Tammany Parish Sheriff'])
+        self.assertEqual(seen.count('20261103/RacesCandidates/ByParish_52.htm'), 1)
+
+    def test_dedupe_keeps_order(self):
+        from fetch_ballot import dedupe
+        rs = [{'id': 'a'}, {'id': 'b'}, {'id': 'a'}, {'id': 'c'}, {'id': 'b'}]
+        self.assertEqual([r['id'] for r in dedupe(rs)], ['a', 'b', 'c'])

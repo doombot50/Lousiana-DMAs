@@ -377,8 +377,11 @@ def advantage(rows, wins):
 
 
 def ballot_races(election, fin, tv, ra, pf, used, fec=None):
-    out = []
+    out, seen = [], set()
     for r in election['races']:
+        if r['id'] in seen:     # a race the portal listed twice
+            continue
+        seen.add(r['id'])
         t = tier(r['office'])
         rows = [candidate(c, t == 'Federal', fin, tv, ra, pf, used, fec, r['office']) for c in r['candidates']]
         out.append({'id': r['id'], 'o': r['office'], 'pa': r.get('parish'), 't': t,
@@ -612,6 +615,10 @@ def main():
     for name in publish(D('races.template.html'), blob, spend, 'races', D('races.html'),
                         D('races.artifact.html'), DESCRIPTION, URL,
                         title='Louisiana Airwaves — Races', icon='&#128499;', facts=facts(data)):
+        print(f'  {os.path.basename(name)}  {os.path.getsize(name):,} bytes')
+    # The results desk (desk.html) cards the same races.
+    import build_desk_page
+    for name in build_desk_page.write(data, spend, CYCLE):
         print(f'  {os.path.basename(name)}  {os.path.getsize(name):,} bytes')
 
 

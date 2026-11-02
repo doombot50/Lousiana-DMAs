@@ -327,6 +327,32 @@ the candidate committees raising the most this cycle that aren't tied to any
 race (people to watch at qualifying). When the Secretary of State posts the
 2027 ballot, the tab switches to it with no code change.
 
+## The results desk
+
+`desk.html` is a working page for election night, outside the tab bar. Pick
+a race (they're listed most money first, with chips for Congress, PSC and
+BESE, DAs, sheriffs, mayors and judges), mark the winner, the two in a
+runoff, or who leads, type vote shares if you have them, and it draws a
+1200×675 card: each candidate's money raised and spent this cycle, their
+airtime, and a line on whether the bigger spender won, against how often a
+leader with that edge has won since 2000. **Share image** opens the phone's
+share sheet with the PNG (and copies the caption, which is written from the
+card and can be edited); **Download PNG** saves it. A *Scorecard of the
+night* card tallies the bigger spender's record across every race called.
+
+The page holds no results; the call is whoever made it, and an optional
+"Called by" line puts that on the card. Calls are kept in the browser
+(`localStorage`), so the list marks which races are done. `desk.html#r=<race
+id>` opens one race. Its data is the races page's, cut down to what a card
+shows, so `build_races_page.py` writes it in the same run
+(`build_desk_page.py` alone also works); edit `desk.template.html`.
+
+**On the air** on a card is the political files' booked dollars where at
+least half of a candidate's orders give a figure, else what they reported
+paying stations this cycle, else the number of ad orders stations posted.
+That keeps a federal campaign with a handful of priced orders from looking
+like it spent almost nothing on TV.
+
 ## Rebuild the spending data
 
 `build_spend.py` recomputes every dollar figure from the raw filings, running
