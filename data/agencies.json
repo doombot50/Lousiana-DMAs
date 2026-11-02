@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-02",
- "data_through": "2026-10-30",
+ "data_through": "2026-10-31",
  "cycle_from": 2023,
- "documents_read": 6704,
+ "documents_read": 6723,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -644,7 +644,7 @@
    "name": "AxMedia",
    "found_by": "political file",
    "fcc": {
-    "docs": 66,
+    "docs": 67,
     "priced": 38,
     "usd": 243786,
     "stations": [
@@ -681,7 +681,7 @@
      "New Horizons USA PAC"
     ],
     "first": "2026-01-23",
-    "last": "2026-10-29",
+    "last": "2026-11-02",
     "away": {
      "docs": 64,
      "usd": 328591,
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 198,
-    "priced": 117,
-    "usd": 1320993,
+    "docs": 199,
+    "priced": 118,
+    "usd": 1322883,
     "stations": [
      "005341",
      "008048",
@@ -879,12 +879,12 @@
      "Echols for LA State Congress",
      "Scalise/R/Congress",
      "Mike Johnson for Loulsiana",
-     "Steve Scalise / R / US HOUSE / LA",
      "Mike Echols / US House / R / LA",
+     "Steve Scalise / R / US HOUSE / LA",
      "Mike Johnson for Loulslana"
     ],
     "first": "2026-03-09",
-    "last": "2026-10-29",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1765,7 +1765,7 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 76,
+    "docs": 77,
     "priced": 33,
     "usd": 392089,
     "stations": [
@@ -1795,7 +1795,7 @@
      "JUSTICE PAC"
     ],
     "first": "2026-10-02",
-    "last": "2026-10-30",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2129,7 +2129,7 @@
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 46,
+    "docs": 48,
     "priced": 30,
     "usd": 250512,
     "stations": [
@@ -2159,7 +2159,7 @@
      "Raines/R/JP First Parish Court Div"
     ],
     "first": "2026-04-29",
-    "last": "2026-10-28",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2167,11 +2167,11 @@
     }
    },
    "paid": {
-    "total": 9927521,
+    "total": 9950643,
     "media": 2341188,
-    "rows": 2829,
+    "rows": 2832,
     "media_cycle": 148430,
-    "cycle": 1552867,
+    "cycle": 1575989,
     "years": {
      "2000": 22813,
      "2001": 24656,
@@ -2198,7 +2198,7 @@
      "2023": 936326,
      "2024": 391979,
      "2025": 56112,
-     "2026": 168450
+     "2026": 191572
     },
     "committees": 178,
     "top": [
@@ -2252,6 +2252,13 @@
       "cycle": 69562
      },
      {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 55908,
+      "cycle": 55908
+     },
+     {
       "f": "1374",
       "n": "Hans J. Liljeberg",
       "p": "REP",
@@ -2278,13 +2285,6 @@
       "p": "REP",
       "usd": 70674,
       "cycle": 40850
-     },
-     {
-      "f": "6646",
-      "n": "Joseph R. McMahon III",
-      "p": "OTH",
-      "usd": 40358,
-      "cycle": 40358
      },
      {
       "f": "6177",
@@ -2905,7 +2905,7 @@
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 29,
+    "docs": 30,
     "priced": 19,
     "usd": 135510,
     "stations": [
@@ -2928,7 +2928,7 @@
      "Barthelemy/D/State Senate Dist 3"
     ],
     "first": "2026-02-05",
-    "last": "2026-10-29",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -4091,7 +4091,7 @@
    "name": "Velocity Agency",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
+    "docs": 9,
     "priced": 6,
     "usd": 106280,
     "stations": [
@@ -4103,7 +4103,7 @@
      "Seuzeneau For Sheriff"
     ],
     "first": "2026-08-11",
-    "last": "2026-10-27",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7326,150 +7326,23 @@
    }
   },
   {
-   "key": "MCSADAGENCYMOBILECOMMUNICATIONSSERVICE",
-   "name": "MCS Ad Agency - Mobile Communications Service",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 1,
-    "usd": 220,
-    "stations": [
-     "KTAL"
-    ],
-    "clients": [
-     "Matt Gromlich/Congress District4/LA/Dem"
-    ],
-    "first": "2026-05-05",
-    "last": "2026-06-03",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 64226,
-    "media": 36190,
-    "rows": 32,
-    "media_cycle": 33690,
-    "cycle": 60607,
-    "years": {
-     "2017": 1000,
-     "2018": 600,
-     "2020": 1000,
-     "2021": 520,
-     "2022": 500,
-     "2023": 50117,
-     "2026": 10490
-    },
-    "committees": 12,
-    "top": [
-     {
-      "f": "2884",
-      "n": "Sam L. Jenkins, Jr.",
-      "p": "DEM",
-      "usd": 40622,
-      "cycle": 40622
-     },
-     {
-      "f": "3375",
-      "n": "John E Atkins",
-      "p": "REP",
-      "usd": 6490,
-      "cycle": 6490
-     },
-     {
-      "f": "3392",
-      "n": "Terence Vinson",
-      "p": "DEM",
-      "usd": 5600,
-      "cycle": 5000
-     },
-     {
-      "f": "5450",
-      "n": "Emma Luster Shepard",
-      "p": "DEM",
-      "usd": 3840,
-      "cycle": 3840
-     },
-     {
-      "f": "4964",
-      "n": "Tammy Phelps",
-      "p": "DEM",
-      "usd": 3000,
-      "cycle": 3000
-     },
-     {
-      "f": "7600",
-      "n": "Chaunta Leterese Mero",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 1000
-     },
-     {
-      "f": "2330",
-      "n": "Barbara Norton",
-      "p": "DEM",
-      "usd": 480,
-      "cycle": 480
-     },
-     {
-      "f": "2638",
-      "n": "Lyndon B. Johnson",
-      "p": "DEM",
-      "usd": 175,
-      "cycle": 175
-     },
-     {
-      "f": "4102",
-      "n": "Darius Z. Kimble",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 0
-     },
-     {
-      "f": "5262",
-      "n": "J. Antonio Florence",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 0
-     },
-     {
-      "f": "5536",
-      "n": "Darrin Dixon",
-      "p": "DEM",
-      "usd": 520,
-      "cycle": 0
-     },
-     {
-      "f": "3188",
-      "n": "James Stewart",
-      "p": "DEM",
-      "usd": 500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MCS AD AGENCY"
-    ]
-   }
-  },
-  {
    "key": "GAGLIANO",
    "name": "Gagliano Group (The)",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 28570,
+    "docs": 3,
+    "priced": 3,
+    "usd": 30370,
     "stations": [
-     "WVUE"
+     "WVUE",
+     "WWL-TV"
     ],
     "clients": [
-     "Mack for District Attorney"
+     "Mack for District Attorney",
+     "Sherman Mack / R / District Attorney / LA"
     ],
     "first": "2026-09-21",
-    "last": "2026-10-15",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7621,6 +7494,135 @@
      "THE GAGLIANO GROUP INC",
      "GAGLIANO GROUP INC.",
      "THE GAGLIANO GROUP, INC."
+    ]
+   }
+  },
+  {
+   "key": "MCSADAGENCYMOBILECOMMUNICATIONSSERVICE",
+   "name": "MCS Ad Agency - Mobile Communications Service",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 1,
+    "usd": 220,
+    "stations": [
+     "KTAL"
+    ],
+    "clients": [
+     "Matt Gromlich/Congress District4/LA/Dem"
+    ],
+    "first": "2026-05-05",
+    "last": "2026-06-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 64226,
+    "media": 36190,
+    "rows": 32,
+    "media_cycle": 33690,
+    "cycle": 60607,
+    "years": {
+     "2017": 1000,
+     "2018": 600,
+     "2020": 1000,
+     "2021": 520,
+     "2022": 500,
+     "2023": 50117,
+     "2026": 10490
+    },
+    "committees": 12,
+    "top": [
+     {
+      "f": "2884",
+      "n": "Sam L. Jenkins, Jr.",
+      "p": "DEM",
+      "usd": 40622,
+      "cycle": 40622
+     },
+     {
+      "f": "3375",
+      "n": "John E Atkins",
+      "p": "REP",
+      "usd": 6490,
+      "cycle": 6490
+     },
+     {
+      "f": "3392",
+      "n": "Terence Vinson",
+      "p": "DEM",
+      "usd": 5600,
+      "cycle": 5000
+     },
+     {
+      "f": "5450",
+      "n": "Emma Luster Shepard",
+      "p": "DEM",
+      "usd": 3840,
+      "cycle": 3840
+     },
+     {
+      "f": "4964",
+      "n": "Tammy Phelps",
+      "p": "DEM",
+      "usd": 3000,
+      "cycle": 3000
+     },
+     {
+      "f": "7600",
+      "n": "Chaunta Leterese Mero",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "2330",
+      "n": "Barbara Norton",
+      "p": "DEM",
+      "usd": 480,
+      "cycle": 480
+     },
+     {
+      "f": "2638",
+      "n": "Lyndon B. Johnson",
+      "p": "DEM",
+      "usd": 175,
+      "cycle": 175
+     },
+     {
+      "f": "4102",
+      "n": "Darius Z. Kimble",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 0
+     },
+     {
+      "f": "5262",
+      "n": "J. Antonio Florence",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 0
+     },
+     {
+      "f": "5536",
+      "n": "Darrin Dixon",
+      "p": "DEM",
+      "usd": 520,
+      "cycle": 0
+     },
+     {
+      "f": "3188",
+      "n": "James Stewart",
+      "p": "DEM",
+      "usd": 500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MCS AD AGENCY"
     ]
    }
   },
@@ -7842,6 +7844,34 @@
     "spellings": [
      "LITTLEFIELD & ASSOCIATES CONSULTING"
     ]
+   }
+  },
+  {
+   "key": "MARKETINGBLITZAD",
+   "name": "Marketing Blitz Ad Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 9,
+    "priced": 3,
+    "usd": 27445,
+    "stations": [
+     "KNEK",
+     "KRRQ",
+     "WQUE",
+     "WYLD"
+    ],
+    "clients": [
+     "Jaimie Davis for US Senate",
+     "Davis/D/Senate",
+     "Jamie Davis for US Senate"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-11-02",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -10198,34 +10228,6 @@
    }
   },
   {
-   "key": "MARKETINGBLITZAD",
-   "name": "Marketing Blitz Ad Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 8,
-    "priced": 2,
-    "usd": 7445,
-    "stations": [
-     "KNEK",
-     "KRRQ",
-     "WQUE",
-     "WYLD"
-    ],
-    "clients": [
-     "Jaimie Davis for US Senate",
-     "Davis/D/Senate",
-     "Jamie Davis for US Senate"
-    ],
-    "first": "2026-10-23",
-    "last": "2026-11-01",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "GELPIPRODUCTIONSERVICES",
    "name": "Gelpi Production Services",
    "found_by": "filings",
@@ -11732,6 +11734,29 @@
     ],
     "first": "2026-10-30",
     "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "BRIDGENEXTPOL",
+   "name": "Bridgenext / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 600,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "Americans for Safe and Effective Medicines"
+    ],
+    "first": "2026-11-02",
+    "last": "2026-11-02",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -20019,9 +20044,9 @@
     ],
     "clients": [],
     "first": "2026-10-23",
-    "last": "2026-10-23",
+    "last": "2026-11-02",
     "away": {
-     "docs": 4,
+     "docs": 5,
      "usd": 0,
      "clients": []
     }
@@ -20112,6 +20137,7 @@
     "usd": 0,
     "stations": [
      "003478",
+     "KPLC",
      "KPXJ",
      "WNOL"
     ],
@@ -20119,9 +20145,9 @@
      "Hometown Freedom Action Network"
     ],
     "first": "2026-10-08",
-    "last": "2026-10-20",
+    "last": "2026-11-02",
     "away": {
-     "docs": 3,
+     "docs": 5,
      "usd": 0,
      "clients": [
       "Too Extreme for Idaho PAC"
@@ -57517,12 +57543,12 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 40358,
-    "cycle": 40358,
+    "usd": 55908,
+    "cycle": 55908,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 40358
+     "2026": 55908
     }
    },
    {
@@ -59028,6 +59054,17 @@
   ],
   "7517": [
    {
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
+    "usd": 24648,
+    "cycle": 24648,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 24648
+    }
+   },
+   {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
     "usd": 22575,
@@ -59036,17 +59073,6 @@
     "fcc": true,
     "y": {
      "2026": 22575
-    }
-   },
-   {
-    "k": "BUISSONCREATIVESTRATEGIES",
-    "n": "Buisson Creative Strategies",
-    "usd": 17076,
-    "cycle": 17076,
-    "media": 0,
-    "fcc": true,
-    "y": {
-     "2026": 17076
     }
    }
   ],
