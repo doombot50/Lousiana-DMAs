@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-03",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506921,
- "data_through": "2026-10-31",
+ "rows_scanned": 1506948,
+ "data_through": "2026-11-02",
  "years_covered": [
   2000,
   2026
@@ -10,8 +10,8 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13233209.13,
- "gov_year_share": 0.5446,
+ "total_spend": 13234509.13,
+ "gov_year_share": 0.5445,
  "by_year": {
   "2000": 27912.25,
   "2001": 14308.0,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 164879.31
+  "2026": 165179.31
  },
  "stations": [
   {
@@ -2421,10 +2421,10 @@
    "bands": [
     "AM"
    ],
-   "spend": 87088.03,
-   "rows": 116,
-   "committees": 69,
-   "avg_buy": 750.76,
+   "spend": 87388.03,
+   "rows": 117,
+   "committees": 70,
+   "avg_buy": 746.91,
    "by_year": {
     "2003": 200.0,
     "2009": 204.0,
@@ -2441,7 +2441,8 @@
     "2020": 3068.0,
     "2021": 2268.0,
     "2022": 900.0,
-    "2023": 12832.0
+    "2023": 12832.0,
+    "2026": 300.0
    },
    "top_committees": [
     {
@@ -4265,9 +4266,9 @@
    ]
   }
  ],
- "classified_spend": 11190540.48,
+ "classified_spend": 11190840.48,
  "unclassified_tail": {
-  "amount": 2042668.65,
+  "amount": 2043668.65,
   "stations": 254,
   "note": "identifiable as radio by an explicit band marker, but not in the verified station reference — a long tail of small stations, the largest about $55K"
  },
@@ -4283,11 +4284,11 @@
   },
   {
    "category": "News/Talk",
-   "spend": 3586474.33,
+   "spend": 3586774.33,
    "stations": 11,
-   "rows": 1357,
-   "committees": 303,
-   "avg_buy": 2642.94,
+   "rows": 1358,
+   "committees": 304,
+   "avg_buy": 2641.22,
    "share": 0.271
   },
   {
@@ -4355,7 +4356,7 @@
   },
   {
    "category": "Unclassified (long tail)",
-   "spend": 2042668.65,
+   "spend": 2043668.65,
    "stations": 254,
    "rows": 0,
    "committees": 0,
@@ -4372,7 +4373,7 @@
   },
   {
    "owner": "Local",
-   "spend": 2250407.76,
+   "spend": 2250707.76,
    "stations": 23,
    "share": 0.1701
   },
@@ -4900,7 +4901,7 @@
  "caveats": {
   "classified_share": 0.8456,
   "unclassified_station_shaped": {
-   "amount": 2042668.65,
+   "amount": 2043668.65,
    "calls": 254,
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },

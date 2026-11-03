@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-03",
- "data_through": "2026-10-31",
+ "data_through": "2026-11-02",
  "cycle_from": 2023,
- "documents_read": 6741,
+ "documents_read": 6829,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -370,9 +370,9 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 50,
-    "priced": 16,
-    "usd": 254575,
+    "docs": 52,
+    "priced": 18,
+    "usd": 276620,
     "stations": [
      "002460",
      "005142",
@@ -392,16 +392,16 @@
      "Protect St. Tammany's Future",
      "Louisiana First Victory Fund",
      "Ellie Schroder Campaign",
+     "Michele Moore Echols / R / Judicial / LA",
      "Echols/R/22 Jud District Court - DivE",
      "Echols for Judge",
      "Burris for LA Supreme Court",
      "Ellie Schroder / R / Board of Education / LA",
      "Burris/R/LA Supreme Court Dist 1",
-     "William H. Burris / R / Superior Court / LA",
-     "Schroder for BESE"
+     "William H. Burris / R / Superior Court / LA"
     ],
     "first": "2026-03-24",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 199,
-    "priced": 118,
-    "usd": 1322883,
+    "docs": 206,
+    "priced": 125,
+    "usd": 1345458,
     "stations": [
      "005341",
      "008048",
@@ -875,16 +875,16 @@
      "Mike Echols/US Congress/LA/Rep",
      "Mike Johnson/Congress/LA/Rep",
      "Scalise for Congress",
+     "Mike Echols / US House / R / LA",
      "Original Date / Revision",
      "Echols for LA State Congress",
+     "Steve Scalise / R / US HOUSE / LA",
      "Scalise/R/Congress",
      "Mike Johnson for Loulsiana",
-     "Mike Echols / US House / R / LA",
-     "Steve Scalise / R / US HOUSE / LA",
      "Mike Johnson for Loulslana"
     ],
     "first": "2026-03-09",
-    "last": "2026-11-02",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -969,9 +969,9 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 58,
-    "priced": 32,
-    "usd": 299360,
+    "docs": 59,
+    "priced": 33,
+    "usd": 304955,
     "stations": [
      "003478",
      "004321",
@@ -997,12 +997,12 @@
      "Hilferty/R/Public Service Commissioner",
      "Protect Louisiana Values",
      "John E Atkins Campalgn",
+     "Stephanie Hilferty / R / Public Serv Comm/ LA",
      "Huffines br Comptroller",
-     "John Atkins-La Publle Service Comm.District",
-     "John Atkins-La Public Service Comm. Distrlet"
+     "John Atkins-La Publle Service Comm.District"
     ],
     "first": "2026-02-17",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
      "docs": 26,
      "usd": 99935,
@@ -1081,41 +1081,13 @@
    }
   },
   {
-   "key": "ACCESSMEDIASERVICES",
-   "name": "Access Media Services",
-   "found_by": "filings",
-   "paid": {
-    "total": 1098508,
-    "media": 1098508,
-    "rows": 11,
-    "media_cycle": 1098508,
-    "cycle": 1098508,
-    "years": {
-     "2023": 1098508
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "6034",
-      "n": "RGA (Republican Governors Association) Right Direction PAC",
-      "p": "REP",
-      "usd": 1098508,
-      "cycle": 1098508
-     }
-    ],
-    "spellings": [
-     "ACCESS MEDIA SERVICES"
-    ]
-   }
-  },
-  {
    "key": "BRABENDERCOX",
    "name": "BrabenderCox",
    "found_by": "political file",
    "fcc": {
-    "docs": 210,
-    "priced": 97,
-    "usd": 1096397,
+    "docs": 212,
+    "priced": 99,
+    "usd": 1140007,
     "stations": [
      "002460",
      "003478",
@@ -1155,8 +1127,8 @@
      "Julia Letlow for LA Senate",
      "Julia Letlow/US Senate/LA/Rep",
      "Letlow for Senate",
-     "Letlow/R/Senate",
      "Julia Letlow / R / US Senate / LA",
+     "Letlow/R/Senate",
      "Original Date / Revision",
      "Julia Letiow - US Senate (LA)",
      "Julla Letlow - US Senate (LA)",
@@ -1165,7 +1137,7 @@
      "Julla Letiow - US Senate (LA)"
     ],
     "first": "2026-02-06",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1174,13 +1146,41 @@
    }
   },
   {
+   "key": "ACCESSMEDIASERVICES",
+   "name": "Access Media Services",
+   "found_by": "filings",
+   "paid": {
+    "total": 1098508,
+    "media": 1098508,
+    "rows": 11,
+    "media_cycle": 1098508,
+    "cycle": 1098508,
+    "years": {
+     "2023": 1098508
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "6034",
+      "n": "RGA (Republican Governors Association) Right Direction PAC",
+      "p": "REP",
+      "usd": 1098508,
+      "cycle": 1098508
+     }
+    ],
+    "spellings": [
+     "ACCESS MEDIA SERVICES"
+    ]
+   }
+  },
+  {
    "key": "ARSEMENTMEDIA",
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 78,
-    "priced": 43,
-    "usd": 366650,
+    "docs": 89,
+    "priced": 52,
+    "usd": 426691,
     "stations": [
      "004321",
      "KADN",
@@ -1194,6 +1194,7 @@
      "WWL-TV"
     ],
     "clients": [
+     "Shawn Lindsay / D / Orleans Parish Judge / LA",
      "Friends to Elect Bart Hebert, LLC",
      "Will Keaty District Judge 15th Dist of LA",
      "Campaign to Elect Will Keaty",
@@ -1202,13 +1203,12 @@
      "The Committee to Elect Emilia Pardo",
      "Buras for Judge",
      "Michael Jay Marsiglia Campaign Committee",
+     "Camile Buras / D / Judge Orleans Parish / LA",
      "Howard for Judge",
-     "Marsiglia/R/JP Court Judge, Div",
-     "Joe Stagni Campaign Fund",
-     "Don Landry DA 15th Judicial District of LA"
+     "Marsiglia/R/JP Court Judge, Div"
     ],
     "first": "2026-04-24",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1765,6 +1765,96 @@
    }
   },
   {
+   "key": "CANALPARTNERSMEDIA",
+   "name": "Canal Partners Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 82,
+    "priced": 36,
+    "usd": 411124,
+    "stations": [
+     "002460",
+     "KADN",
+     "KATC",
+     "KLFY",
+     "KPXJ",
+     "KSLA",
+     "KTBS",
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WGMB",
+     "WGNO",
+     "WVLA",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S. SENATE",
+     "Hillar Moore Campaign",
+     "Davis/D/US Senate",
+     "Jamie Davis, US Senate (LA)",
+     "Hillar Moore for East Baton Rouge DA",
+     "Jamle Davis for US Senate",
+     "JUSTICE PAC"
+    ],
+    "first": "2026-10-02",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 396193,
+    "media": 362975,
+    "rows": 10,
+    "media_cycle": 100000,
+    "cycle": 100000,
+    "years": {
+     "2015": 54003,
+     "2018": 238975,
+     "2021": 3215,
+     "2025": 100000
+    },
+    "committees": 4,
+    "top": [
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 100000,
+      "cycle": 100000
+     },
+     {
+      "f": "4332",
+      "n": "Move EBR, Inc.",
+      "p": "OTH",
+      "usd": 238975,
+      "cycle": 0
+     },
+     {
+      "f": "1564",
+      "n": "Dorothy Sue Hill",
+      "p": "DEM",
+      "usd": 54003,
+      "cycle": 0
+     },
+     {
+      "f": "5290",
+      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
+      "p": "OTH",
+      "usd": 3215,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CANAL PARTNERS MEDIA"
+    ]
+   }
+  },
+  {
    "key": "PATRIOTMEDIA",
    "name": "Patriot Media Group",
    "found_by": "filings",
@@ -1817,96 +1907,6 @@
     ],
     "spellings": [
      "TECHNICOLOR POLITICAL"
-    ]
-   }
-  },
-  {
-   "key": "CANALPARTNERSMEDIA",
-   "name": "Canal Partners Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 77,
-    "priced": 33,
-    "usd": 392089,
-    "stations": [
-     "002460",
-     "KADN",
-     "KATC",
-     "KLFY",
-     "KPXJ",
-     "KSLA",
-     "KTBS",
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WGMB",
-     "WGNO",
-     "WVLA",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "JAMIE DAVIS FOR U.S. SENATE",
-     "Hillar Moore Campaign",
-     "Davis/D/US Senate",
-     "Jamie Davis, US Senate (LA)",
-     "Hillar Moore for East Baton Rouge DA",
-     "Jamle Davis for US Senate",
-     "JUSTICE PAC"
-    ],
-    "first": "2026-10-02",
-    "last": "2026-11-02",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 396193,
-    "media": 362975,
-    "rows": 10,
-    "media_cycle": 100000,
-    "cycle": 100000,
-    "years": {
-     "2015": 54003,
-     "2018": 238975,
-     "2021": 3215,
-     "2025": 100000
-    },
-    "committees": 4,
-    "top": [
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 100000,
-      "cycle": 100000
-     },
-     {
-      "f": "4332",
-      "n": "Move EBR, Inc.",
-      "p": "OTH",
-      "usd": 238975,
-      "cycle": 0
-     },
-     {
-      "f": "1564",
-      "n": "Dorothy Sue Hill",
-      "p": "DEM",
-      "usd": 54003,
-      "cycle": 0
-     },
-     {
-      "f": "5290",
-      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
-      "p": "OTH",
-      "usd": 3215,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CANAL PARTNERS MEDIA"
     ]
    }
   },
@@ -2342,6 +2342,170 @@
    }
   },
   {
+   "key": "VICTORIACOULONCONSULT",
+   "name": "Victoria Coulon Consulting",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 57,
+    "priced": 39,
+    "usd": 156645,
+    "stations": [
+     "WDSU",
+     "WVUE",
+     "WWL-TV",
+     "WYLD"
+    ],
+    "clients": [
+     "Marjanovic/R/JP 24th JDC - Div",
+     "Marko Marjanovic / R / Judge Jeff Parish / LA",
+     "Marjanovic for Judge",
+     "ELROY JAMES / D / JUDGE CIVIL / DIV",
+     "James/D/Orl Parish Civil District Court Divison N",
+     "Troy Carter / D / Congress / LA",
+     "Candace Newell for Judge Divis",
+     "Raise the Bar PAC",
+     "Marko Marjanovic Campaign",
+     "Friends of Richard Perque",
+     "Perque/D/Orl Parish Civil Court Div",
+     "Richard Perque / D / Judge Civil Dist / Div"
+    ],
+    "first": "2026-03-11",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 754643,
+    "media": 166925,
+    "rows": 131,
+    "media_cycle": 148305,
+    "cycle": 577873,
+    "years": {
+     "2021": 73470,
+     "2022": 103301,
+     "2023": 148107,
+     "2024": 63200,
+     "2025": 222983,
+     "2026": 143583
+    },
+    "committees": 43,
+    "top": [
+     {
+      "f": "5470",
+      "n": "Freddie King III",
+      "p": "DEM",
+      "usd": 105873,
+      "cycle": 74183
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 84580,
+      "cycle": 52460
+     },
+     {
+      "f": "5114",
+      "n": "Diedre Pierce Kelly",
+      "p": "DEM",
+      "usd": 50000,
+      "cycle": 50000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 48270,
+      "cycle": 48270
+     },
+     {
+      "f": "5111",
+      "n": "Marissa Hutabarat",
+      "p": "DEM",
+      "usd": 44305,
+      "cycle": 44305
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 36935,
+      "cycle": 36935
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 35000,
+      "cycle": 35000
+     },
+     {
+      "f": "4623",
+      "n": "Scott Walker",
+      "p": "REP",
+      "usd": 27501,
+      "cycle": 27501
+     },
+     {
+      "f": "7517",
+      "n": "Jessica Raines",
+      "p": "OTH",
+      "usd": 22575,
+      "cycle": 22575
+     },
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 20000,
+      "cycle": 20000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 16280,
+      "cycle": 16280
+     },
+     {
+      "f": "7029",
+      "n": "Shawn Lindsay",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "7515",
+      "n": "Marko Marjanovic",
+      "p": "OTH",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "1759",
+      "n": "Joseph P. Lopinto, III",
+      "p": "REP",
+      "usd": 11800,
+      "cycle": 11800
+     },
+     {
+      "f": "1195",
+      "n": "Patrick Connick",
+      "p": "REP",
+      "usd": 10000,
+      "cycle": 10000
+     }
+    ],
+    "spellings": [
+     "VICTORIA COULON CONSULTING",
+     "VICTORIA COULON"
+    ]
+   }
+  },
+  {
    "key": "MFBMEDIA",
    "name": "MFB Media",
    "found_by": "political file",
@@ -2499,170 +2663,6 @@
    }
   },
   {
-   "key": "VICTORIACOULONCONSULT",
-   "name": "Victoria Coulon Consulting",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 47,
-    "priced": 32,
-    "usd": 127665,
-    "stations": [
-     "WDSU",
-     "WVUE",
-     "WWL-TV",
-     "WYLD"
-    ],
-    "clients": [
-     "Marjanovic/R/JP 24th JDC - Div",
-     "Marjanovic for Judge",
-     "ELROY JAMES / D / JUDGE CIVIL / DIV",
-     "James/D/Orl Parish Civil District Court Divison N",
-     "Candace Newell for Judge Divis",
-     "Raise the Bar PAC",
-     "Marko Marjanovic Campaign",
-     "Friends of Richard Perque",
-     "Perque/D/Orl Parish Civil Court Div",
-     "Richard Perque / D / Judge Civil Dist / Div",
-     "Troy Carter/D/Congress",
-     "Troy Carter for Congress"
-    ],
-    "first": "2026-03-11",
-    "last": "2026-10-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 754643,
-    "media": 166925,
-    "rows": 131,
-    "media_cycle": 148305,
-    "cycle": 577873,
-    "years": {
-     "2021": 73470,
-     "2022": 103301,
-     "2023": 148107,
-     "2024": 63200,
-     "2025": 222983,
-     "2026": 143583
-    },
-    "committees": 43,
-    "top": [
-     {
-      "f": "5470",
-      "n": "Freddie King III",
-      "p": "DEM",
-      "usd": 105873,
-      "cycle": 74183
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 84580,
-      "cycle": 52460
-     },
-     {
-      "f": "5114",
-      "n": "Diedre Pierce Kelly",
-      "p": "DEM",
-      "usd": 50000,
-      "cycle": 50000
-     },
-     {
-      "f": "5471",
-      "n": "Delisha Boyd",
-      "p": "DEM",
-      "usd": 48270,
-      "cycle": 48270
-     },
-     {
-      "f": "5111",
-      "n": "Marissa Hutabarat",
-      "p": "DEM",
-      "usd": 44305,
-      "cycle": 44305
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 36935,
-      "cycle": 36935
-     },
-     {
-      "f": "2603",
-      "n": "Darren Lombard",
-      "p": "DEM",
-      "usd": 35000,
-      "cycle": 35000
-     },
-     {
-      "f": "4623",
-      "n": "Scott Walker",
-      "p": "REP",
-      "usd": 27501,
-      "cycle": 27501
-     },
-     {
-      "f": "7517",
-      "n": "Jessica Raines",
-      "p": "OTH",
-      "usd": 22575,
-      "cycle": 22575
-     },
-     {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
-      "p": "REP",
-      "usd": 20000,
-      "cycle": 20000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 16280,
-      "cycle": 16280
-     },
-     {
-      "f": "7029",
-      "n": "Shawn Lindsay",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "7515",
-      "n": "Marko Marjanovic",
-      "p": "OTH",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "1759",
-      "n": "Joseph P. Lopinto, III",
-      "p": "REP",
-      "usd": 11800,
-      "cycle": 11800
-     },
-     {
-      "f": "1195",
-      "n": "Patrick Connick",
-      "p": "REP",
-      "usd": 10000,
-      "cycle": 10000
-     }
-    ],
-    "spellings": [
-     "VICTORIA COULON CONSULTING",
-     "VICTORIA COULON"
-    ]
-   }
-  },
-  {
    "key": "SRCPMEDIAPOL",
    "name": "SRCP Media, Inc / POL",
    "found_by": "political file",
@@ -2690,21 +2690,23 @@
    "name": "Bull's Eye Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 7,
-    "priced": 7,
-    "usd": 76412,
+    "docs": 8,
+    "priced": 8,
+    "usd": 83237,
     "stations": [
      "005341",
      "WDSU",
-     "WVUE"
+     "WVUE",
+     "WWL-TV"
     ],
     "clients": [
      "New Horizons USA",
      "Newell for Judge",
-     "Newell/D/Orl Parish Civil Dist Court, Div"
+     "Newell/D/Orl Parish Civil Dist Court, Div",
+     "Candace N. Newell / D / Judge Orleans / LA"
     ],
     "first": "2026-06-09",
-    "last": "2026-10-20",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2905,9 +2907,9 @@
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 30,
-    "priced": 19,
-    "usd": 135510,
+    "docs": 49,
+    "priced": 36,
+    "usd": 156435,
     "stations": [
      "005341",
      "WDSU",
@@ -2918,7 +2920,9 @@
      "WWL-TV"
     ],
     "clients": [
+     "Scott Illing / R / Sheriff / LA",
      "Illing for Sheriff",
+     "John F Lee / R / Judge / LA",
      "Illing/R/St. Tammany Parish Sheriff",
      "Cao for LA BESE",
      "Cao/R/BESE District 1",
@@ -2928,7 +2932,7 @@
      "Barthelemy/D/State Senate Dist 3"
     ],
     "first": "2026-02-05",
-    "last": "2026-11-02",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -3967,143 +3971,26 @@
    }
   },
   {
-   "key": "CROSSSCREENMEDIA",
-   "name": "Cross Screen Media",
-   "found_by": "filings",
-   "paid": {
-    "total": 813916,
-    "media": 235911,
-    "rows": 25,
-    "media_cycle": 157511,
-    "cycle": 315046,
-    "years": {
-     "2017": 216437,
-     "2019": 276312,
-     "2020": 6120,
-     "2023": 176010,
-     "2024": 133154,
-     "2026": 5882
-    },
-    "committees": 13,
-    "top": [
-     {
-      "f": "2800",
-      "n": "Jean-Paul Coussan",
-      "p": "REP",
-      "usd": 97258,
-      "cycle": 97258
-     },
-     {
-      "f": "2223",
-      "n": "Clay Schexnayder",
-      "p": "REP",
-      "usd": 95000,
-      "cycle": 95000
-     },
-     {
-      "f": "2022",
-      "n": "Michael (Mike) Cooper",
-      "p": "REP",
-      "usd": 51598,
-      "cycle": 51598
-     },
-     {
-      "f": "4802",
-      "n": "Joshua Slavone Guillory",
-      "p": "OTH",
-      "usd": 29412,
-      "cycle": 29412
-     },
-     {
-      "f": "4604",
-      "n": "KELLY BALFOUR",
-      "p": "REP",
-      "usd": 20841,
-      "cycle": 20841
-     },
-     {
-      "f": "6358",
-      "n": "Julious Collin Sims",
-      "p": "DEM",
-      "usd": 15055,
-      "cycle": 15055
-     },
-     {
-      "f": "6826",
-      "n": "JONATHAN T GASPARD",
-      "p": "OTH",
-      "usd": 5882,
-      "cycle": 5882
-     },
-     {
-      "f": "4131",
-      "n": "Yes On 1 PAC",
-      "p": "OTH",
-      "usd": 216437,
-      "cycle": 0
-     },
-     {
-      "f": "4419",
-      "n": "Dr. Ralph Abraham",
-      "p": "REP",
-      "usd": 134355,
-      "cycle": 0
-     },
-     {
-      "f": "5023",
-      "n": "Make Louisiana Great Again",
-      "p": "OTH",
-      "usd": 116957,
-      "cycle": 0
-     },
-     {
-      "f": "1102",
-      "n": "Michael G. (Mike) Strain",
-      "p": "REP",
-      "usd": 25000,
-      "cycle": 0
-     },
-     {
-      "f": "1162",
-      "n": "Stephen F. Carter",
-      "p": "REP",
-      "usd": 4920,
-      "cycle": 0
-     },
-     {
-      "f": "5045",
-      "n": "Daniel M. Landry III",
-      "p": "OTH",
-      "usd": 1200,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CROSS SCREEN MEDIA",
-     "CROSS SCREEN MEDIA COMPANY",
-     "CROSS SCREEN MEDIA, LLC",
-     "CROSS SCREEN MEDIA (DIGITAL)"
-    ]
-   }
-  },
-  {
    "key": "VELOCITYAGENCY",
    "name": "Velocity Agency",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
-    "priced": 6,
-    "usd": 106280,
+    "docs": 12,
+    "priced": 9,
+    "usd": 120105,
     "stations": [
      "WDSU",
-     "WVUE"
+     "WUPL",
+     "WVUE",
+     "WWL-TV"
     ],
     "clients": [
      "Seuzeneau/R/St Tammany Sheriff",
-     "Seuzeneau For Sheriff"
+     "Seuzeneau For Sheriff",
+     "Daniel Seuzeneau / R / Sheriff StTammany / LA"
     ],
     "first": "2026-08-11",
-    "last": "2026-11-02",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -4241,6 +4128,126 @@
      "VELOCITY AGENCY",
      "VELOCITY AGENCY, LLC",
      "VELOCITY AGENCY LLC"
+    ]
+   }
+  },
+  {
+   "key": "CROSSSCREENMEDIA",
+   "name": "Cross Screen Media",
+   "found_by": "filings",
+   "paid": {
+    "total": 813916,
+    "media": 235911,
+    "rows": 25,
+    "media_cycle": 157511,
+    "cycle": 315046,
+    "years": {
+     "2017": 216437,
+     "2019": 276312,
+     "2020": 6120,
+     "2023": 176010,
+     "2024": 133154,
+     "2026": 5882
+    },
+    "committees": 13,
+    "top": [
+     {
+      "f": "2800",
+      "n": "Jean-Paul Coussan",
+      "p": "REP",
+      "usd": 97258,
+      "cycle": 97258
+     },
+     {
+      "f": "2223",
+      "n": "Clay Schexnayder",
+      "p": "REP",
+      "usd": 95000,
+      "cycle": 95000
+     },
+     {
+      "f": "2022",
+      "n": "Michael (Mike) Cooper",
+      "p": "REP",
+      "usd": 51598,
+      "cycle": 51598
+     },
+     {
+      "f": "4802",
+      "n": "Joshua Slavone Guillory",
+      "p": "OTH",
+      "usd": 29412,
+      "cycle": 29412
+     },
+     {
+      "f": "4604",
+      "n": "KELLY BALFOUR",
+      "p": "REP",
+      "usd": 20841,
+      "cycle": 20841
+     },
+     {
+      "f": "6358",
+      "n": "Julious Collin Sims",
+      "p": "DEM",
+      "usd": 15055,
+      "cycle": 15055
+     },
+     {
+      "f": "6826",
+      "n": "JONATHAN T GASPARD",
+      "p": "OTH",
+      "usd": 5882,
+      "cycle": 5882
+     },
+     {
+      "f": "4131",
+      "n": "Yes On 1 PAC",
+      "p": "OTH",
+      "usd": 216437,
+      "cycle": 0
+     },
+     {
+      "f": "4419",
+      "n": "Dr. Ralph Abraham",
+      "p": "REP",
+      "usd": 134355,
+      "cycle": 0
+     },
+     {
+      "f": "5023",
+      "n": "Make Louisiana Great Again",
+      "p": "OTH",
+      "usd": 116957,
+      "cycle": 0
+     },
+     {
+      "f": "1102",
+      "n": "Michael G. (Mike) Strain",
+      "p": "REP",
+      "usd": 25000,
+      "cycle": 0
+     },
+     {
+      "f": "1162",
+      "n": "Stephen F. Carter",
+      "p": "REP",
+      "usd": 4920,
+      "cycle": 0
+     },
+     {
+      "f": "5045",
+      "n": "Daniel M. Landry III",
+      "p": "OTH",
+      "usd": 1200,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CROSS SCREEN MEDIA",
+     "CROSS SCREEN MEDIA COMPANY",
+     "CROSS SCREEN MEDIA, LLC",
+     "CROSS SCREEN MEDIA (DIGITAL)"
     ]
    }
   },
@@ -5506,6 +5513,32 @@
      "POOLHOUSE",
      "POOL HOUSE"
     ]
+   }
+  },
+  {
+   "key": "BUISSONCREATIVEPOL",
+   "name": "Buisson Creative / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 10,
+    "priced": 10,
+    "usd": 97790,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "John Young / R / Public Service Comm / LA",
+     "Sal Brocato / R / Judge Jefferson Parish / LA",
+     "Jessica Raines / R / Judge First Parish / LA",
+     "Joe McMahon / R / Judge 24th Jefferson Crt/LA"
+    ],
+    "first": "2026-06-01",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -6900,6 +6933,178 @@
    }
   },
   {
+   "key": "GAGLIANO",
+   "name": "Gagliano Group, The",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 5,
+    "usd": 53305,
+    "stations": [
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Sherman Mack / R / District Attorney / LA",
+     "Mack for District Attorney"
+    ],
+    "first": "2026-09-21",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 2263365,
+    "media": 76446,
+    "rows": 551,
+    "media_cycle": 3855,
+    "cycle": 692330,
+    "years": {
+     "2000": 692,
+     "2001": 2178,
+     "2002": 3399,
+     "2003": 47207,
+     "2007": 2983,
+     "2009": 5668,
+     "2010": 32308,
+     "2011": 224006,
+     "2012": 24041,
+     "2013": 21522,
+     "2014": 235017,
+     "2015": 133654,
+     "2016": 20315,
+     "2017": 25198,
+     "2018": 91742,
+     "2019": 406981,
+     "2020": 159009,
+     "2021": 33261,
+     "2022": 101855,
+     "2023": 286497,
+     "2024": 52570,
+     "2025": 32800,
+     "2026": 320463
+    },
+    "committees": 60,
+    "top": [
+     {
+      "f": "1475",
+      "n": "Sherman Q. Mack",
+      "p": "REP",
+      "usd": 383904,
+      "cycle": 231480
+     },
+     {
+      "f": "2108",
+      "n": "Valarie Hodges",
+      "p": "REP",
+      "usd": 71737,
+      "cycle": 71737
+     },
+     {
+      "f": "6169",
+      "n": "Shane Raymond Mack",
+      "p": "REP",
+      "usd": 69300,
+      "cycle": 69300
+     },
+     {
+      "f": "3359",
+      "n": "Christopher Daigle",
+      "p": "OTH",
+      "usd": 44063,
+      "cycle": 44063
+     },
+     {
+      "f": "8088",
+      "n": "Jasper S. Brock",
+      "p": "OTH",
+      "usd": 43800,
+      "cycle": 43800
+     },
+     {
+      "f": "7544",
+      "n": "Cy J. D'Aquila Jr",
+      "p": "OTH",
+      "usd": 43638,
+      "cycle": 43638
+     },
+     {
+      "f": "6544",
+      "n": "Jessica C. Ledet",
+      "p": "REP",
+      "usd": 30600,
+      "cycle": 30600
+     },
+     {
+      "f": "6122",
+      "n": "Kevin Raiford",
+      "p": "REP",
+      "usd": 23387,
+      "cycle": 23387
+     },
+     {
+      "f": "3415",
+      "n": "Robert Carter",
+      "p": "DEM",
+      "usd": 40156,
+      "cycle": 23150
+     },
+     {
+      "f": "3348",
+      "n": "Jeffery Edward Travis",
+      "p": "OTH",
+      "usd": 52109,
+      "cycle": 19067
+     },
+     {
+      "f": "5822",
+      "n": "Christopher Gideon",
+      "p": "REP",
+      "usd": 18725,
+      "cycle": 14725
+     },
+     {
+      "f": "1178",
+      "n": "Bry Layrisson",
+      "p": "REP",
+      "usd": 16803,
+      "cycle": 13820
+     },
+     {
+      "f": "2140",
+      "n": "Jason Ard",
+      "p": "REP",
+      "usd": 66591,
+      "cycle": 9700
+     },
+     {
+      "f": "1314",
+      "n": "Blair Edwards",
+      "p": "REP",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "6474",
+      "n": "Taylor Anthony",
+      "p": "OTH",
+      "usd": 7200,
+      "cycle": 7200
+     }
+    ],
+    "spellings": [
+     "THE GAGLIANO GROUP",
+     "GAGLIANO GROUP",
+     "THE GAGLIANO GROUP INC",
+     "GAGLIANO GROUP INC.",
+     "THE GAGLIANO GROUP, INC."
+    ]
+   }
+  },
+  {
    "key": "SALESREGION",
    "name": "Sales Region",
    "found_by": "political file",
@@ -7199,47 +7404,25 @@
    }
   },
   {
-   "key": "AXMEDIAPOL",
-   "name": "AxMedia / POL",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 14,
-    "priced": 14,
-    "usd": 45577,
-    "stations": [
-     "WUPL",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Blair Downing Edwards / R / Supreme Court"
-    ],
-    "first": "2026-05-04",
-    "last": "2026-06-01",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "JBCOMMUNICATIONS",
    "name": "JB Communications",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
-    "priced": 7,
-    "usd": 36448,
+    "docs": 12,
+    "priced": 10,
+    "usd": 44818,
     "stations": [
      "WDSU",
-     "WVUE"
+     "WVUE",
+     "WWL-TV"
     ],
     "clients": [
      "Mary for Judge",
+     "Cameron Mary / R / Judge / LA",
      "Mary/R/22nd JDC Div"
     ],
     "first": "2026-10-14",
-    "last": "2026-10-26",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7303,198 +7486,27 @@
    }
   },
   {
-   "key": "BUISSONCREATIVEPOL",
-   "name": "Buisson Creative / POL",
+   "key": "AXMEDIAPOL",
+   "name": "AxMedia / POL",
    "found_by": "political file",
    "fcc": {
-    "docs": 4,
-    "priced": 4,
-    "usd": 36735,
+    "docs": 14,
+    "priced": 14,
+    "usd": 45577,
     "stations": [
+     "WUPL",
      "WWL-TV"
     ],
     "clients": [
-     "John Young / R / Public Service Comm / LA"
+     "Blair Downing Edwards / R / Supreme Court"
     ],
-    "first": "2026-06-01",
-    "last": "2026-07-06",
+    "first": "2026-05-04",
+    "last": "2026-06-01",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "GAGLIANO",
-   "name": "Gagliano Group (The)",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 3,
-    "usd": 30370,
-    "stations": [
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Mack for District Attorney",
-     "Sherman Mack / R / District Attorney / LA"
-    ],
-    "first": "2026-09-21",
-    "last": "2026-11-02",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 2263365,
-    "media": 76446,
-    "rows": 551,
-    "media_cycle": 3855,
-    "cycle": 692330,
-    "years": {
-     "2000": 692,
-     "2001": 2178,
-     "2002": 3399,
-     "2003": 47207,
-     "2007": 2983,
-     "2009": 5668,
-     "2010": 32308,
-     "2011": 224006,
-     "2012": 24041,
-     "2013": 21522,
-     "2014": 235017,
-     "2015": 133654,
-     "2016": 20315,
-     "2017": 25198,
-     "2018": 91742,
-     "2019": 406981,
-     "2020": 159009,
-     "2021": 33261,
-     "2022": 101855,
-     "2023": 286497,
-     "2024": 52570,
-     "2025": 32800,
-     "2026": 320463
-    },
-    "committees": 60,
-    "top": [
-     {
-      "f": "1475",
-      "n": "Sherman Q. Mack",
-      "p": "REP",
-      "usd": 383904,
-      "cycle": 231480
-     },
-     {
-      "f": "2108",
-      "n": "Valarie Hodges",
-      "p": "REP",
-      "usd": 71737,
-      "cycle": 71737
-     },
-     {
-      "f": "6169",
-      "n": "Shane Raymond Mack",
-      "p": "REP",
-      "usd": 69300,
-      "cycle": 69300
-     },
-     {
-      "f": "3359",
-      "n": "Christopher Daigle",
-      "p": "OTH",
-      "usd": 44063,
-      "cycle": 44063
-     },
-     {
-      "f": "8088",
-      "n": "Jasper S. Brock",
-      "p": "OTH",
-      "usd": 43800,
-      "cycle": 43800
-     },
-     {
-      "f": "7544",
-      "n": "Cy J. D'Aquila Jr",
-      "p": "OTH",
-      "usd": 43638,
-      "cycle": 43638
-     },
-     {
-      "f": "6544",
-      "n": "Jessica C. Ledet",
-      "p": "REP",
-      "usd": 30600,
-      "cycle": 30600
-     },
-     {
-      "f": "6122",
-      "n": "Kevin Raiford",
-      "p": "REP",
-      "usd": 23387,
-      "cycle": 23387
-     },
-     {
-      "f": "3415",
-      "n": "Robert Carter",
-      "p": "DEM",
-      "usd": 40156,
-      "cycle": 23150
-     },
-     {
-      "f": "3348",
-      "n": "Jeffery Edward Travis",
-      "p": "OTH",
-      "usd": 52109,
-      "cycle": 19067
-     },
-     {
-      "f": "5822",
-      "n": "Christopher Gideon",
-      "p": "REP",
-      "usd": 18725,
-      "cycle": 14725
-     },
-     {
-      "f": "1178",
-      "n": "Bry Layrisson",
-      "p": "REP",
-      "usd": 16803,
-      "cycle": 13820
-     },
-     {
-      "f": "2140",
-      "n": "Jason Ard",
-      "p": "REP",
-      "usd": 66591,
-      "cycle": 9700
-     },
-     {
-      "f": "1314",
-      "n": "Blair Edwards",
-      "p": "REP",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "6474",
-      "n": "Taylor Anthony",
-      "p": "OTH",
-      "usd": 7200,
-      "cycle": 7200
-     }
-    ],
-    "spellings": [
-     "THE GAGLIANO GROUP",
-     "GAGLIANO GROUP",
-     "THE GAGLIANO GROUP INC",
-     "GAGLIANO GROUP INC.",
-     "THE GAGLIANO GROUP, INC."
-    ]
    }
   },
   {
@@ -9811,6 +9823,31 @@
     "spellings": [
      "WALKER STRATEGIC SOLUTIONS"
     ]
+   }
+  },
+  {
+   "key": "GUICHARDADVERTISINGPOL",
+   "name": "Guichard Advertising / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 4,
+    "usd": 11505,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "Chris Justin / U / Commissioner Dist 1 / LA",
+     "Lauren Jewett / D / US House / LA",
+     "Kimya M. Holmes / D / Judge Orleans / LA"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -22258,7 +22295,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 1860,
     "cycle": 0,
     "media": 0,
@@ -22591,7 +22628,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 2519,
     "cycle": 0,
     "media": 0,
@@ -22851,7 +22888,7 @@
   "1178": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 16803,
     "cycle": 13820,
     "media": 0,
@@ -23889,7 +23926,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 7500,
     "cycle": 7500,
     "media": 0,
@@ -25569,7 +25606,7 @@
   "1475": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 383904,
     "cycle": 231480,
     "media": 0,
@@ -26683,7 +26720,7 @@
   "1575": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 125267,
     "cycle": 0,
     "media": 0,
@@ -27096,7 +27133,7 @@
   "1609": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 9523,
     "cycle": 0,
     "media": 0,
@@ -27850,7 +27887,7 @@
   "1667": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 1750,
     "cycle": 0,
     "media": 0,
@@ -27876,7 +27913,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 66400,
     "cycle": 0,
     "media": 0,
@@ -28581,7 +28618,7 @@
   "1736": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 11875,
     "cycle": 0,
     "media": 0,
@@ -30168,7 +30205,7 @@
   "1878": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 3999,
     "cycle": 0,
     "media": 0,
@@ -30295,7 +30332,7 @@
   "1892": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 249892,
     "cycle": 0,
     "media": 0,
@@ -30749,7 +30786,7 @@
   "1935": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 17057,
     "cycle": 0,
     "media": 0,
@@ -31276,7 +31313,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 21743,
     "cycle": 0,
     "media": 0,
@@ -31794,7 +31831,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 12250,
     "cycle": 0,
     "media": 0,
@@ -32480,7 +32517,7 @@
   "2108": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 71737,
     "cycle": 71737,
     "media": 0,
@@ -32748,7 +32785,7 @@
   "2138": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 43352,
     "cycle": 620,
     "media": 0,
@@ -32779,7 +32816,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 66591,
     "cycle": 9700,
     "media": 0,
@@ -32963,7 +33000,7 @@
   "2154": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 8644,
     "cycle": 0,
     "media": 0,
@@ -34688,7 +34725,7 @@
   "2382": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 19794,
     "cycle": 0,
     "media": 0,
@@ -34863,7 +34900,7 @@
   "2436": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 27430,
     "cycle": 6795,
     "media": 2900,
@@ -35389,7 +35426,7 @@
   "2560": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 128874,
     "cycle": 750,
     "media": 0,
@@ -38133,7 +38170,7 @@
   "2921": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 12891,
     "cycle": 0,
     "media": 0,
@@ -38720,7 +38757,7 @@
   "3060": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 66798,
     "cycle": 0,
     "media": 0,
@@ -39171,7 +39208,7 @@
   "3131": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 72304,
     "cycle": 0,
     "media": 0,
@@ -40308,7 +40345,7 @@
   "3348": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 52109,
     "cycle": 19067,
     "media": 0,
@@ -40428,7 +40465,7 @@
   "3359": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 44063,
     "cycle": 44063,
     "media": 0,
@@ -41046,7 +41083,7 @@
   "3415": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 40156,
     "cycle": 23150,
     "media": 0,
@@ -41992,7 +42029,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 1495,
     "cycle": 0,
     "media": 0,
@@ -43494,7 +43531,7 @@
   "3994": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 9525,
     "cycle": 0,
     "media": 0,
@@ -44484,7 +44521,7 @@
   "4128": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 16112,
     "cycle": 4085,
     "media": 0,
@@ -44670,7 +44707,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 3700,
     "cycle": 3700,
     "media": 0,
@@ -45271,7 +45308,7 @@
   "4190": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 47825,
     "cycle": 3155,
     "media": 955,
@@ -46604,7 +46641,7 @@
   "4390": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 7835,
     "cycle": 0,
     "media": 0,
@@ -46856,7 +46893,7 @@
   "4421": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 3665,
     "cycle": 3665,
     "media": 0,
@@ -46920,7 +46957,7 @@
   "4427": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 13955,
     "cycle": 0,
     "media": 0,
@@ -47241,7 +47278,7 @@
   "4461": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 14265,
     "cycle": 764,
     "media": 0,
@@ -47990,7 +48027,7 @@
   "456": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 3915,
     "cycle": 0,
     "media": 0,
@@ -48157,7 +48194,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 11895,
     "cycle": 0,
     "media": 0,
@@ -48749,7 +48786,7 @@
   "4760": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 43809,
     "cycle": 0,
     "media": 0,
@@ -48899,7 +48936,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 20018,
     "cycle": 0,
     "media": 0,
@@ -49491,7 +49528,7 @@
   "493": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 17388,
     "cycle": 0,
     "media": 0,
@@ -49575,7 +49612,7 @@
   "4945": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 22941,
     "cycle": 0,
     "media": 0,
@@ -50130,7 +50167,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 12124,
     "cycle": 0,
     "media": 0,
@@ -50396,7 +50433,7 @@
   "5125": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 10405,
     "cycle": 0,
     "media": 0,
@@ -50865,7 +50902,7 @@
   "5201": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 116490,
     "cycle": 0,
     "media": 0,
@@ -53535,7 +53572,7 @@
   "5822": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 18725,
     "cycle": 14725,
     "media": 0,
@@ -53802,7 +53839,7 @@
   "5874": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 4000,
     "cycle": 4000,
     "media": 0,
@@ -54121,7 +54158,7 @@
    },
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 6028,
     "cycle": 6028,
     "media": 0,
@@ -55371,7 +55408,7 @@
   "6122": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 23387,
     "cycle": 23387,
     "media": 0,
@@ -55475,7 +55512,7 @@
   "6169": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 69300,
     "cycle": 69300,
     "media": 0,
@@ -55853,7 +55890,7 @@
   "6283": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 2825,
     "cycle": 2825,
     "media": 0,
@@ -56680,7 +56717,7 @@
   "6474": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 7200,
     "cycle": 7200,
     "media": 0,
@@ -56914,7 +56951,7 @@
   "6518": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 2775,
     "cycle": 2775,
     "media": 0,
@@ -57156,7 +57193,7 @@
   "6544": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 30600,
     "cycle": 30600,
     "media": 0,
@@ -58578,7 +58615,7 @@
   "699": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 45347,
     "cycle": 0,
     "media": 0,
@@ -59142,7 +59179,7 @@
   "7544": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 43638,
     "cycle": 43638,
     "media": 0,
@@ -59812,7 +59849,7 @@
   "8088": [
    {
     "k": "GAGLIANO",
-    "n": "Gagliano Group (The)",
+    "n": "Gagliano Group, The",
     "usd": 43800,
     "cycle": 43800,
     "media": 0,

@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-03T04:01:17Z",
+ "scraped": "2026-11-03T18:31:25Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -3425,7 +3425,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -5580,7 +5580,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -5598,6 +5598,7 @@
     "Political Files/2026/Federal": "5a7e095e-c36f-ee48-69b4-121e2031b211",
     "Political Files/2026/Federal/US House": "62e7f7d3-990c-feab-b73a-b52b246d3183",
     "Political Files/2026/Federal/US House/Carter-D for LA Dist 2": "05152bc2-4cbb-fcf2-7b40-1fa56544bfaf",
+    "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Invoices": "bc61598b-b9a1-6fd4-e997-4ee35839c7da",
     "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/NAB": "e9fcb4de-4789-49c7-da3c-50494d9ddb91",
     "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Orders": "10e2f0e8-58d5-d263-6242-c305a84466ec",
     "Political Files/2026/Federal/US House/Echols-R for LA Dist 5": "ab924950-8fc2-15f2-1466-8b455b78615b",
@@ -5605,6 +5606,7 @@
     "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/NAB": "06bc3a0a-1d6f-e3bb-4d0f-a023df4805e5",
     "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Orders": "804b38c1-49da-b8cf-4f3f-7bea9e59eea8",
     "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1": "2cc3c6ad-0b53-377e-54df-354e4e74d4ad",
+    "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Invoices": "bb7ac330-5c65-c576-11f1-5db4924c440c",
     "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/NAB": "332edf4b-a81b-f277-8dbd-89c64cf9a4a2",
     "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Orders": "5b7b98ab-5199-ac1a-08df-bbbb27289bdc",
     "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1": "97f79ff1-9af5-5e6a-1d82-42c9952d3391",
@@ -5638,9 +5640,11 @@
     "Political Files/2026/Local/Cuccia-R for Judge/NAB": "1ef9a271-0377-147c-399e-9b433bebf63d",
     "Political Files/2026/Local/Cuccia-R for Judge/Order": "53514347-5da9-1da2-8041-625fff8faeda",
     "Political Files/2026/Local/Hodges-R for St Tammany Sheriff": "9d187743-f448-7d50-fcff-05da1d3b22e2",
+    "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Invoices": "796040dc-c7b2-de6a-4675-0c95166b7ad6",
     "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/NAB": "f5aa9694-f1fa-386c-481e-869f91c163e3",
     "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Orders": "cf9b163f-ccdf-aad4-79ac-9d2b5a84fffc",
     "Political Files/2026/Local/Holmes-D for Crim Court Section D": "135c4674-b00f-a408-0cb5-78c2e5aea35b",
+    "Political Files/2026/Local/Holmes-D for Crim Court Section D/Invoices": "8702ef94-7f16-af54-b2c0-f29bb8dadb33",
     "Political Files/2026/Local/Holmes-D for Crim Court Section D/NAB": "b27dc0b3-8b77-90df-8295-b8a7d03e6d66",
     "Political Files/2026/Local/Holmes-D for Crim Court Section D/Orders": "e8d683d9-820f-5f8b-b9b9-91fe051d3a2b",
     "Political Files/2026/Local/Howard-D for Civil Dist Court": "4e39fcff-3551-42a1-251f-771117fbd6a4",
@@ -5650,6 +5654,7 @@
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders": "5f3bd6e9-81e9-eeed-44b8-c8433c404723",
     "Political Files/2026/Local/James-D for Civil Dist Court Div N": "25c65e61-c950-5826-f809-ae721a2aaf02",
     "Political Files/2026/Local/Lee-R for Court Div B": "ce9d80ba-9c06-2604-1e44-2e54e36e161c",
+    "Political Files/2026/Local/Lee-R for Court Div B/Invoices": "44a7012e-0daa-a641-6635-c6293f978343",
     "Political Files/2026/Local/Lee-R for Court Div B/NAB": "48328dc4-613e-bbce-dbf6-4dd59cb231cb",
     "Political Files/2026/Local/Lee-R for Court Div B/Orders": "1e7a5c0b-a6d6-42f2-bf12-828b03ddb97f",
     "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M": "c09a3694-87b8-e776-72f3-837b228cc84f",
@@ -5687,6 +5692,7 @@
     "Political Files/2026/Local/Michele Echols for Court Div E/NAB": "07d2aa77-5026-bd8f-847a-a3e2c328830a",
     "Political Files/2026/Local/Michele Echols for Court Div E/Orders": "e79ca067-314c-2b03-83ff-dace3fd37b3f",
     "Political Files/2026/Local/Newell-D for OP Civil Court Dist L": "1564116c-204e-141f-5177-7a1b005bc55d",
+    "Political Files/2026/Local/Newell-D for OP Civil Court Dist L/Invoices": "98ff9de2-b05e-0821-d94d-9c5a6285ea99",
     "Political Files/2026/Local/Newell-D for OP Civil Court Dist L/NAB": "129d6b1e-04f1-add0-726b-308539d354aa",
     "Political Files/2026/Local/Newell-D for OP Civil Court Dist L/Orders": "4bf14e69-0f19-bbc3-5491-3f20407c5d07",
     "Political Files/2026/Local/Perque-D for Civil Dist Court Div M": "19edd97d-abae-9857-c226-5b2d95e75f93",
@@ -5694,6 +5700,7 @@
     "Political Files/2026/Local/Powell-R for Judge/NAB": "0a8fc6b4-9e5b-1f9b-877a-019d1c3e18ab",
     "Political Files/2026/Local/Powell-R for Judge/Orders": "9c1c7856-d7af-9405-c737-f50b10039364",
     "Political Files/2026/Local/Raines-R for Court Div B": "37a63ad4-a00f-1217-ee60-4c6500713769",
+    "Political Files/2026/Local/Raines-R for Court Div B/Invoices": "2af7b454-a000-d11e-ae09-e4c054b743a7",
     "Political Files/2026/Local/Raines-R for Court Div B/NAB": "da0c86fa-b6c7-b38b-cb4f-aec9f4aae702",
     "Political Files/2026/Local/Raines-R for Court Div B/Orders": "468c67c1-14b6-70d3-e4f1-4f4933f72d39",
     "Political Files/2026/Local/Roche-D for OP Crim Court Sect H": "97ae9f6d-a556-7a39-fa06-1703b04b9925",
@@ -5701,6 +5708,7 @@
     "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/NAB": "b0cf01f3-202c-fff8-81bc-25b8bd6bf6ec",
     "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/Orders": "62cc3dd1-7a5f-c42a-f65b-d1abb791f483",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff": "0b6f575b-6d4c-cb7b-517f-da272a62c993",
+    "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices": "028a9e6b-8a34-1989-bc6c-072384a747d8",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/NAB": "92e262a7-15b4-39f9-4e5d-228169266a88",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Orders": "aad6c4dc-f8cb-3938-1b68-c9b4458bb9e8",
     "Political Files/2026/Local/Spears-D for School Board": "0d1563b4-064c-81e1-07c0-f60a9e577e26",
@@ -5744,9 +5752,11 @@
     "Political Files/2026/State/LA State Supreme Court": "a8ab8d45-2c71-53f8-4d3b-27ab65c99290",
     "Political Files/2026/State/Public Service Commissioner": "a6eb858a-49b8-da08-761e-e4b4812a1ab5",
     "Political Files/2026/State/Public Service Commissioner/Hilferty-F for PSC Dist 1": "62028817-478c-bf58-79a3-85de71d0ca68",
+    "Political Files/2026/State/Public Service Commissioner/Hilferty-F for PSC Dist 1/Invoices": "cb2c4d1b-ab66-99bc-4c8a-397893100262",
     "Political Files/2026/State/Public Service Commissioner/Hilferty-F for PSC Dist 1/NAB": "72b6c28f-d7b1-9ba1-3c92-b0e290b6c9e4",
     "Political Files/2026/State/Public Service Commissioner/Hilferty-F for PSC Dist 1/Orders": "d71e0753-a2bf-982c-6067-68ba9b9bed6f",
     "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1": "19da4565-0533-fcb2-2023-efce774001b3",
+    "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1/Invoices": "7b76e6a3-cb8c-94b9-430b-8f204bfee126",
     "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1/NAB": "53b20453-8229-29c2-ea49-2911c2d0c00b",
     "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1/Orders": "09b728f1-0a71-c557-6d8d-b50b36e7788c",
     "Political Files/2026/State/Public Service Commissioner/Young-R for PSC Dist 1": "bcf49fd9-45a2-5984-ef43-074305925155",
@@ -5757,6 +5767,708 @@
     "Political Files/2026/Terms and Disclosures": "6be32221-c7d0-a1b9-c161-6431cefe2f3c"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Invoices",
+     "name": "WWL Jewett Inv 3351548-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:11:30-05:00",
+     "folder_id": "bb7ac330-5c65-c576-11f1-5db4924c440c",
+     "file_id": "06eee66d-3d06-d3f8-d4a9-891115db5ac3",
+     "file_manager_id": "e635b53d-ae1a-4397-a0aa-e612daf9625c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/Invoices",
+     "name": "WWL Letlow Inv 3344952-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:11:07-05:00",
+     "folder_id": "de096069-8774-1cd6-46fa-3903ce6b618f",
+     "file_id": "669a8a54-f577-f457-cbe0-9641049bd42a",
+     "file_manager_id": "0fe7c693-747a-4f61-a415-1a05d285da35"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/Invoices",
+     "name": "WWL Letlow Inv 3344954-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:11:07-05:00",
+     "folder_id": "de096069-8774-1cd6-46fa-3903ce6b618f",
+     "file_id": "89eef242-d0af-cd5d-9b2a-ec734db829ef",
+     "file_manager_id": "6fc70d06-244c-47c5-a9bf-bac5033c772e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+     "name": "WWL Jamie Davis Inv 3345141-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:10:43-05:00",
+     "folder_id": "84932c11-8ab2-9c24-5c0c-3653321f55d2",
+     "file_id": "0e50f8be-616a-700f-4ffb-28c8a79cc32b",
+     "file_manager_id": "023a3ff5-7f2b-41d4-828f-77c0ec82876b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+     "name": "WWL Jamie Davis Inv 3345141-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:10:43-05:00",
+     "folder_id": "84932c11-8ab2-9c24-5c0c-3653321f55d2",
+     "file_id": "fe6a3724-0927-8abc-f7c3-39d2b23844db",
+     "file_manager_id": "79f0968f-3066-4a8f-878d-9e6c61b27856"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+     "name": "WWL Jamie Davis Inv 3348837-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:10:43-05:00",
+     "folder_id": "84932c11-8ab2-9c24-5c0c-3653321f55d2",
+     "file_id": "3d14b545-d8b3-309a-ce48-8ce27a6a3241",
+     "file_manager_id": "d4a9fc28-764f-47af-86aa-a994e589d68f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+     "name": "WWL Jamie Davis Inv 3351896-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:10:43-05:00",
+     "folder_id": "84932c11-8ab2-9c24-5c0c-3653321f55d2",
+     "file_id": "88528562-0a1f-d761-f2c1-ae070f5e923f",
+     "file_manager_id": "0ad520f7-ee3c-43f8-8b72-1933e693d2eb"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+     "name": "WWL Jamie Davis Inv 3351896-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:10:43-05:00",
+     "folder_id": "84932c11-8ab2-9c24-5c0c-3653321f55d2",
+     "file_id": "70bbb24f-68c3-e1f4-f2e0-83097e2e53c2",
+     "file_manager_id": "7f1384ad-07aa-4214-907d-ddf4074c6d3f"
+    },
+    {
+     "path": "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1/Invoices",
+     "name": "WWL Justin Inv 3350563-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:09:57-05:00",
+     "folder_id": "7b76e6a3-cb8c-94b9-430b-8f204bfee126",
+     "file_id": "14eaa0bc-7472-f178-6e80-da5b49a47566",
+     "file_manager_id": "8a164728-b651-477f-8cf9-cc7f461c752a"
+    },
+    {
+     "path": "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1/Invoices",
+     "name": "WWL Justin Inv 3351774-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:09:57-05:00",
+     "folder_id": "7b76e6a3-cb8c-94b9-430b-8f204bfee126",
+     "file_id": "6147add2-ad4f-f3de-d61d-b40a64816cd0",
+     "file_manager_id": "6fee6f71-f3b4-4f9a-a579-c899505c9114"
+    },
+    {
+     "path": "Political Files/2026/State/Public Service Commissioner/Justin-F for PSC Dist 1/Invoices",
+     "name": "WWL Justin Inv 3351774-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:09:57-05:00",
+     "folder_id": "7b76e6a3-cb8c-94b9-430b-8f204bfee126",
+     "file_id": "2d5236e4-230c-a778-02c2-9fa9f17b5422",
+     "file_manager_id": "dac4b1eb-fa08-4e02-8b04-87209cf2a259"
+    },
+    {
+     "path": "Political Files/2026/Local/Newell-D for OP Civil Court Dist L/Invoices",
+     "name": "WWL Newell Inv 3351266-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:09:32-05:00",
+     "folder_id": "98ff9de2-b05e-0821-d94d-9c5a6285ea99",
+     "file_id": "68f1d598-33da-1e30-a681-aa59d2d53c5e",
+     "file_manager_id": "f7b03233-6b02-4f6f-97c3-9c2a982cadab"
+    },
+    {
+     "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+     "name": "WWL Mary Inv 3349334-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:09:03-05:00",
+     "folder_id": "c79c6e34-7655-10e1-a00e-fd65f8e3c83e",
+     "file_id": "41e1767e-58ac-0d46-e8c4-b74da6ea1cdf",
+     "file_manager_id": "0de0247e-00b3-4771-b8d7-cdd3fa761255"
+    },
+    {
+     "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+     "name": "WWL Mary Inv 3351172-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:09:00-05:00",
+     "folder_id": "c79c6e34-7655-10e1-a00e-fd65f8e3c83e",
+     "file_id": "9eb6ed8b-a4d8-ace2-4665-d6dc3d9c5207",
+     "file_manager_id": "5ba5111e-0d83-4482-80e6-1fa055f5bd76"
+    },
+    {
+     "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+     "name": "WWL Mary Inv 3350605-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:08:57-05:00",
+     "folder_id": "c79c6e34-7655-10e1-a00e-fd65f8e3c83e",
+     "file_id": "a99d3065-bb26-a8de-c666-9d70dfaa6eac",
+     "file_manager_id": "31e72447-be6f-4008-a242-16e4170bc177"
+    },
+    {
+     "path": "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Invoices",
+     "name": "WWL Buras Inv 3345116-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:08:26-05:00",
+     "folder_id": "00c7ae0e-cc10-99a3-9950-cd46fe7f1563",
+     "file_id": "00344a17-4673-65d1-452c-b23a464b01a1",
+     "file_manager_id": "859684b1-cd17-473a-9aeb-6e1fe045a8e7"
+    },
+    {
+     "path": "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Invoices",
+     "name": "WWL Buras Inv 3350550-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:08:26-05:00",
+     "folder_id": "00c7ae0e-cc10-99a3-9950-cd46fe7f1563",
+     "file_id": "06201135-5d61-4a74-f985-8442779ec3ef",
+     "file_manager_id": "bb101281-e566-43c6-8de9-3f033dbd8579"
+    },
+    {
+     "path": "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Invoices",
+     "name": "WWL Buras Inv 3352684-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:08:26-05:00",
+     "folder_id": "00c7ae0e-cc10-99a3-9950-cd46fe7f1563",
+     "file_id": "366bd9a3-d7c5-ea2b-bdd8-117a79872aef",
+     "file_manager_id": "10c717da-134b-4d3e-b0ed-292d0204cd84"
+    },
+    {
+     "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+     "name": "WWL Seuzeneau Inv 3348713-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:07:57-05:00",
+     "folder_id": "028a9e6b-8a34-1989-bc6c-072384a747d8",
+     "file_id": "8b2b4fa9-5c31-6a34-dfd8-da15ab15e4f2",
+     "file_manager_id": "25527fad-4527-422b-9357-50eaef2fca57"
+    },
+    {
+     "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+     "name": "WWL Seuzeneau Inv 3348734-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:07:57-05:00",
+     "folder_id": "028a9e6b-8a34-1989-bc6c-072384a747d8",
+     "file_id": "de218133-3cc4-e1ab-704c-a9ad7147dba4",
+     "file_manager_id": "4b7a48c9-707f-4673-90e6-26a4e0d6f12b"
+    },
+    {
+     "path": "Political Files/2026/Local/Raines-R for Court Div B/Invoices",
+     "name": "WWL Raines Inv 3350705-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:07:23-05:00",
+     "folder_id": "2af7b454-a000-d11e-ae09-e4c054b743a7",
+     "file_id": "84a07d19-41c9-a9bd-9ed9-fcc0adfc3d01",
+     "file_manager_id": "e8966a4c-0760-495e-bdbb-09df96428f33"
+    },
+    {
+     "path": "Political Files/2026/Local/Raines-R for Court Div B/Invoices",
+     "name": "WWL Raines Inv 3353163-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:07:23-05:00",
+     "folder_id": "2af7b454-a000-d11e-ae09-e4c054b743a7",
+     "file_id": "64a1f8c4-1624-2356-f29f-2827ba42776c",
+     "file_manager_id": "aad3e608-7892-47e9-898b-e5a87aa9afcf"
+    },
+    {
+     "path": "Political Files/2026/Local/McMahon-R for Court Div f/Invoices",
+     "name": "WWL McMahon Inv 3348118-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:06:48-05:00",
+     "folder_id": "fca86c7e-7421-134b-4422-89f670caca7c",
+     "file_id": "23507a29-e353-0e87-683d-85844dfa895c",
+     "file_manager_id": "fa7da0f8-6048-4d3d-b5da-517e627b2255"
+    },
+    {
+     "path": "Political Files/2026/Local/McMahon-R for Court Div f/Invoices",
+     "name": "WWL McMahon Inv 3350674-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:06:48-05:00",
+     "folder_id": "fca86c7e-7421-134b-4422-89f670caca7c",
+     "file_id": "93d41888-69c5-e841-ce01-6f8760047728",
+     "file_manager_id": "af819b0a-1218-4721-9964-5ca418f64809"
+    },
+    {
+     "path": "Political Files/2026/Local/Lee-R for Court Div B/Invoices",
+     "name": "WWL Lee Inv 3350047-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:06:28-05:00",
+     "folder_id": "44a7012e-0daa-a641-6635-c6293f978343",
+     "file_id": "6cf24970-640e-c0df-e5cd-90de4239f121",
+     "file_manager_id": "bb1a8bbf-3a31-4f8b-9a69-e8602f4a64a6"
+    },
+    {
+     "path": "Political Files/2026/Local/Lee-R for Court Div B/Invoices",
+     "name": "WWL Lee Inv 3350076-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:06:28-05:00",
+     "folder_id": "44a7012e-0daa-a641-6635-c6293f978343",
+     "file_id": "1ead6e0c-c37d-f184-eec2-eb4acc12dff5",
+     "file_manager_id": "0f05cfd6-1f04-4522-a45f-24424d742054"
+    },
+    {
+     "path": "Political Files/2026/Local/Lee-R for Court Div B/Invoices",
+     "name": "WWL Lee Inv 3350081-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:06:28-05:00",
+     "folder_id": "44a7012e-0daa-a641-6635-c6293f978343",
+     "file_id": "6a790b1f-d2c1-a3db-0197-86bd41d38978",
+     "file_manager_id": "f908a4b5-6d42-48dd-b31b-4635d03095e3"
+    },
+    {
+     "path": "Political Files/2026/Local/Holmes-D for Crim Court Section D/Invoices",
+     "name": "WWL Holmes Inv 3351554-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:55-05:00",
+     "folder_id": "8702ef94-7f16-af54-b2c0-f29bb8dadb33",
+     "file_id": "1cc25d9b-c446-6434-b39a-63854d21813f",
+     "file_manager_id": "f3a1bf79-a062-400f-9d50-3170950d6b7e"
+    },
+    {
+     "path": "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/Invoices",
+     "name": "WWL Roche Inv 3347655-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:30-05:00",
+     "folder_id": "c80f2696-8cf7-d437-c6a2-b45aa5ca576b",
+     "file_id": "2b937241-fc1e-6fdf-fb90-481a5b8de2a5",
+     "file_manager_id": "1382e8a3-790a-4be5-9556-12f6c913889d"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3347050-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "5bc29579-9162-7a47-9aef-11ff2edc3b15",
+     "file_manager_id": "b257fc86-ca0d-4997-9ce6-2312a2093570"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3347050-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "55181b01-12ab-64e7-8801-4a831cce18e1",
+     "file_manager_id": "34bd542c-17f8-403a-a7fb-e67cc25c75c1"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3348559-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "243d96a6-87a7-940b-ba03-7a49da79cb4b",
+     "file_manager_id": "b9fa14be-618d-4cec-8ed0-05566554f2b0"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3349476-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "40437f66-2f4c-9582-6078-23f2940969a9",
+     "file_manager_id": "689078b9-d91e-4d70-a5a5-c5bd39a1881e"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3351060-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "4fd7d4e1-8326-4d2c-f5e7-9b55f3af8c1f",
+     "file_manager_id": "d3df722a-86ce-4582-8495-bb796634ef68"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3352694-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "6132f4d5-f92d-9acb-dd94-26b86ff2ad8a",
+     "file_manager_id": "4c7c321f-872d-4fbc-8aab-25b5e944c860"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "WWL Marjanovic Inv 3352694-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:05:10-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "c6ed6e70-a475-1968-938e-2a23a8da1eaa",
+     "file_manager_id": "5fc5523f-814c-4f91-bd3d-bd93c187c89c"
+    },
+    {
+     "path": "Political Files/2026/Local/Michele Echols for Court Div E/Invoices",
+     "name": "WWL MicheleEcholsInv3347059-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:04:31-05:00",
+     "folder_id": "f0197d27-7280-fae6-1582-fe58b93ac566",
+     "file_id": "0c28de49-a209-5991-ab6e-137123a36b23",
+     "file_manager_id": "525640b2-de0c-4173-86b0-139176e3dc97"
+    },
+    {
+     "path": "Political Files/2026/Local/Michele Echols for Court Div E/Invoices",
+     "name": "WWL MicheleEcholsInv3349977-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:04:31-05:00",
+     "folder_id": "f0197d27-7280-fae6-1582-fe58b93ac566",
+     "file_id": "60dce296-b914-9e2f-ff69-9834668b990a",
+     "file_manager_id": "5b42681e-63b0-4e1d-84f9-b916273d9ae3"
+    },
+    {
+     "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+     "name": "WWL Marsiglia Inv 3347027-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:04:10-05:00",
+     "folder_id": "78b71a52-b518-6077-928e-3102822c7d68",
+     "file_id": "17c1c490-0635-c0a3-7875-3b87bde9fa7e",
+     "file_manager_id": "80feebdb-bfa4-4ec7-9ef8-d1f7da156082"
+    },
+    {
+     "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+     "name": "WWL Marsiglia Inv 3350651-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:04:10-05:00",
+     "folder_id": "78b71a52-b518-6077-928e-3102822c7d68",
+     "file_id": "499165f3-cbec-096a-8846-6aff03e0b6af",
+     "file_manager_id": "5e88734c-dfdd-4409-8702-4bba192b129c"
+    },
+    {
+     "path": "Political Files/2026/Local/Brocato-F for Court Div A/Invoices",
+     "name": "WWL Brocato Inv 3348452-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:35-05:00",
+     "folder_id": "93c316fa-88be-e050-025d-95c9f2d6c114",
+     "file_id": "803baa4c-b392-d5fb-da6c-db06e5423727",
+     "file_manager_id": "a53d20a4-b24c-40bc-81b3-971074455be0"
+    },
+    {
+     "path": "Political Files/2026/Local/Brocato-F for Court Div A/Invoices",
+     "name": "WWL Brocato Inv 3350665-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:32-05:00",
+     "folder_id": "93c316fa-88be-e050-025d-95c9f2d6c114",
+     "file_id": "f8d9b54e-9745-a5f8-9c6c-a8feb3a915f5",
+     "file_manager_id": "9eff14c3-0c60-4ced-9f4b-329815d7c7c0"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3346956-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:08-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "b1878b59-fb1a-e81b-2509-68f7b1211907",
+     "file_manager_id": "22dec560-e468-4257-8adc-ee2583b58687"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3346956A-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:08-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "4597adc1-5281-40c8-7317-dc8a15636d40",
+     "file_manager_id": "258066ed-0a4c-4583-9da0-917e49418825"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3348440-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:08-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "1f9e7742-f27f-a971-1d52-c6b4eb0f1c37",
+     "file_manager_id": "19c21ee1-13a7-45ac-a797-8af0bcb228fe"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3348446-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:08-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "b46ae27d-d249-c415-1485-d09f2f5bee77",
+     "file_manager_id": "cb4c85ba-bf1b-4c20-ad19-0b30ea8a58c8"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3346956-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "a50549dc-9b1d-00b4-407b-ce8cc019c849",
+     "file_manager_id": "3ec6a2b8-7fcf-4e20-9cac-7d0b5b0a1755"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3346956A-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "03b75235-7848-4b88-1bce-b79178ebda50",
+     "file_manager_id": "03c770c7-f1b3-4697-a021-b10205b9e44e"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3346956B-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "93584ef0-aca6-977d-5975-64315572f079",
+     "file_manager_id": "cfaf8b8e-f7d9-46f2-b9a6-aa80d5673ee0"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3348448-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "d68a2ae7-23a0-be82-880b-c0293bfa19e5",
+     "file_manager_id": "cb5af8c3-4d2a-40d0-8bdf-a0da85f448c5"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3350586-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "b39a1211-c611-5a78-5a13-a6855a32443e",
+     "file_manager_id": "29118612-5970-4125-8532-737039a63a3b"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3350589-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "631294d8-2dd4-abd7-9c84-e0809f8aa2f0",
+     "file_manager_id": "0b2cdac2-e1ba-4e22-8df2-94d233e78244"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3350591-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "7c4410b9-7098-20cf-842b-776345f997a9",
+     "file_manager_id": "52d2b3a6-998a-41c7-a7ca-3efe28f26a54"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WWL Illing Inv3353115-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:03:07-05:00",
+     "folder_id": "512ecaf9-2bf0-725e-8d63-e0497c4cc9eb",
+     "file_id": "603ab0c0-d604-09ba-c5cb-00aff813acea",
+     "file_manager_id": "d6b3d9a7-f268-4bb2-9288-cc70088ae4a3"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "WWL Lindsay Inv 3346463-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:02:37-05:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "6de69f7a-6665-b74c-0da1-efb3646ba984",
+     "file_manager_id": "ca468482-68f9-476e-87cf-f6e860a36a9b"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "WWL Lindsay Inv 3347422-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:02:37-05:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "e5a55493-138e-8e11-1fde-4746a3eb6a90",
+     "file_manager_id": "fa2c1655-1ab7-4a6b-af29-3972a73d4e80"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "WWL Lindsay Inv 3347422-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:02:37-05:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "cc3cde7a-7608-e5bc-7f10-16a41e6f114c",
+     "file_manager_id": "585ae07e-083c-4b68-9783-b7415971a7fd"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "WWL Lindsay Inv 3352446-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:02:37-05:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "a36c50a0-be39-0386-5f54-f9d83a47ff7e",
+     "file_manager_id": "69307efd-9c30-4208-b515-d53f0bfc6de3"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "WWL Lindsay Inv 3352446-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:02:37-05:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "437ce64f-a0d7-9b08-e499-a113e22cfb83",
+     "file_manager_id": "4040d027-3a8b-4a8a-946c-47e6ed94c285"
+    },
+    {
+     "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+     "name": "WWL Lindsay Inv 3353603-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:02:37-05:00",
+     "folder_id": "7d595723-cfd5-acb7-5abe-fa914b500722",
+     "file_id": "df3e8c80-a11e-0503-436a-ff0da5acd5e6",
+     "file_manager_id": "82d2de89-6910-45dc-bac9-36828c95cc59"
+    },
+    {
+     "path": "Political Files/2026/Local/Mack-R for 21st District DA/Invoices",
+     "name": "WWL Mack Inv 3334973-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:01:46-05:00",
+     "folder_id": "4732e15d-6963-22c0-67aa-f72eaa501e70",
+     "file_id": "384ed9f8-f9ac-1d55-73c6-f4f70a3a1c73",
+     "file_manager_id": "e741efb0-5232-40df-8f34-a4c4f81fa56f"
+    },
+    {
+     "path": "Political Files/2026/Local/Mack-R for 21st District DA/Invoices",
+     "name": "WWL Mack Inv 3348524-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:01:46-05:00",
+     "folder_id": "4732e15d-6963-22c0-67aa-f72eaa501e70",
+     "file_id": "66e8197e-f307-f314-2ecd-afcda8469a49",
+     "file_manager_id": "1b534715-01ba-48b4-be57-14ea18d4df73"
+    },
+    {
+     "path": "Political Files/2026/Local/Mack-R for 21st District DA/Invoices",
+     "name": "WWL Mack Inv 3348524-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:01:46-05:00",
+     "folder_id": "4732e15d-6963-22c0-67aa-f72eaa501e70",
+     "file_id": "25cdb5b7-6654-ccb0-26ad-6078219af6db",
+     "file_manager_id": "365f2735-52ea-46ba-86ae-6d4858bc96c0"
+    },
+    {
+     "path": "Political Files/2026/State/Public Service Commissioner/Hilferty-F for PSC Dist 1/Invoices",
+     "name": "WWL Hilferty Inv 3353184-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T12:01:09-05:00",
+     "folder_id": "cb2c4d1b-ab66-99bc-4c8a-397893100262",
+     "file_id": "3154ef5a-8192-0a73-458c-b16a8698516c",
+     "file_manager_id": "be318e12-badc-41db-b5c1-3ee1025e4f93"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Invoices",
+     "name": "WWL Mike Echols Inv 3347937-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:59:18-05:00",
+     "folder_id": "17c16e95-ac96-3ffd-af82-09dd11537618",
+     "file_id": "90fa49a3-c000-0538-51c8-96218f8ff3e6",
+     "file_manager_id": "39c86667-3b67-4e3d-b95c-4ff6726ec989"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Invoices",
+     "name": "WWL Mike Echols Inv 3352810-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:59:14-05:00",
+     "folder_id": "17c16e95-ac96-3ffd-af82-09dd11537618",
+     "file_id": "80860cf9-70f4-5a70-13d1-a9bac86eb5d6",
+     "file_manager_id": "0e9d4b0b-6c60-469e-bf26-5a1a41c5a074"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Invoices",
+     "name": "WWL Mike Echols Inv 3345101-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:59:11-05:00",
+     "folder_id": "17c16e95-ac96-3ffd-af82-09dd11537618",
+     "file_id": "e07468cb-afc5-00ec-b0d9-884581e25b32",
+     "file_manager_id": "01255b78-3e0f-4bc2-8d4f-ef58efc877e5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Echols-R for LA Dist 5/Invoices",
+     "name": "WWL Mike Echols Inv 3350479-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:59:08-05:00",
+     "folder_id": "17c16e95-ac96-3ffd-af82-09dd11537618",
+     "file_id": "5d666a62-a09a-50c0-934e-6a1d5762034b",
+     "file_manager_id": "66686e8c-6ed9-42ba-b046-70cca9f7b50a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+     "name": "WWL Scalise Inv 3345911-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:58:45-05:00",
+     "folder_id": "4996cb53-46c4-f00a-31b6-4c7bc02103ad",
+     "file_id": "a03cd6da-bd14-2bed-dc70-349e642474c9",
+     "file_manager_id": "e5e19b7f-744e-42f1-a819-d4a459daeb40"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+     "name": "WWL Scalise Inv 3345913-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:58:45-05:00",
+     "folder_id": "4996cb53-46c4-f00a-31b6-4c7bc02103ad",
+     "file_id": "376c4f04-e292-66bf-db82-63d7bc29c771",
+     "file_manager_id": "98ac9132-bcd9-4d4b-adb8-0f161c141c67"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Invoices",
+     "name": "WWL Carter Inv 3348501-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:58:02-05:00",
+     "folder_id": "bc61598b-b9a1-6fd4-e997-4ee35839c7da",
+     "file_id": "dc5fecde-f3af-8652-b883-b616fbc7e587",
+     "file_manager_id": "8ca9ac8b-14ec-455e-84e9-709930b9b54d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Invoices",
+     "name": "WWL Carter Inv 3351191-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:58:02-05:00",
+     "folder_id": "bc61598b-b9a1-6fd4-e997-4ee35839c7da",
+     "file_id": "4b687288-4c21-0c8c-5983-b67aa1ee61b4",
+     "file_manager_id": "4beeb9b7-0a76-4d04-b70a-a550236b1e75"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Invoices",
+     "name": "WWL Carter Inv 3351191-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:58:02-05:00",
+     "folder_id": "bc61598b-b9a1-6fd4-e997-4ee35839c7da",
+     "file_id": "9b1e495f-8273-67e7-cd84-7d1ca247036a",
+     "file_manager_id": "37139893-640f-4075-a143-b5d9644a4bd4"
+    },
+    {
+     "path": "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Invoices",
+     "name": "Hodges LUR rebates wk of 102626",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:03:56-05:00",
+     "folder_id": "796040dc-c7b2-de6a-4675-0c95166b7ad6",
+     "file_id": "ca442d23-a1d4-866f-cf0f-7c5ca6dcaa86",
+     "file_manager_id": "e511ca54-0e4b-4496-afcb-e9a3e6a31744"
+    },
+    {
+     "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+     "name": "Marsiglia LUR Rebates wk of 102626",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:03:35-05:00",
+     "folder_id": "78b71a52-b518-6077-928e-3102822c7d68",
+     "file_id": "093858ef-83e3-69aa-041a-01082d82dbd6",
+     "file_manager_id": "acfd087f-cea5-40a1-a93d-d11be431e8ff"
+    },
+    {
+     "path": "Political Files/2026/Local/Newell-D for OP Civil Court Dist L/Invoices",
+     "name": "Newell LUR rebates wk of 102626",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:03:09-05:00",
+     "folder_id": "98ff9de2-b05e-0821-d94d-9c5a6285ea99",
+     "file_id": "06f96bf6-4fac-3560-a42b-7f74d67139d4",
+     "file_manager_id": "877099d7-7e0e-4eac-8a5d-68157fb4fac3"
+    },
+    {
+     "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+     "name": "Marjanovic LUR rebates wk of 102626",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:02:44-05:00",
+     "folder_id": "f0455eba-ea65-6370-33b3-0203bbc02489",
+     "file_id": "785ae7c6-635a-cb96-f463-bce653c4ea78",
+     "file_manager_id": "78122634-0947-434a-a89f-15627ec22d11"
+    },
+    {
+     "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+     "name": "Mary LUR Rebates wk of 102626",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:02:00-05:00",
+     "folder_id": "c79c6e34-7655-10e1-a00e-fd65f8e3c83e",
+     "file_id": "8ebc0227-bbcd-a2df-764a-b8c7b566ed3b",
+     "file_manager_id": "bbe7933f-c20b-4308-8b44-104d8e094f41"
+    },
     {
      "path": "Political Files/2026/Local/Mack-R for 21st District DA/Invoices",
      "name": "WWL Mack Inv 3334957-1",
@@ -9726,7 +10438,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -12154,7 +12866,7 @@
    "facility_id": "13938",
    "root_folder": "fc8f8266-9929-cdf7-1999-ae430f14a725",
    "profile": "tv-profile/wupl",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2015": "f1603605-cb81-4311-203a-f87b390db1d3",
     "2017": "7621df02-232b-c1e4-5026-ae45e370e409",
@@ -12196,9 +12908,11 @@
     "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/NAB": "01beb268-bd81-91fd-d7fd-03ced8db6b08",
     "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Orders": "260d90c0-9a8e-4f9e-9c15-ad0fca0af322",
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff": "f2055f84-0965-89aa-9a9f-c5e419dd4825",
+    "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices": "184c1e3e-2818-a776-d2c2-93555957754d",
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff/NAB": "d4135ebe-fe96-f3aa-dc07-f5fb95d9ed75",
     "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders": "cdfdea5a-862e-0026-99c0-7c6a2df1b67b",
     "Political Files/2026/Local/Lee-R for JP Court Div B": "10984362-f42b-badf-34bd-262407b70cec",
+    "Political Files/2026/Local/Lee-R for JP Court Div B/Invoices": "edcaa2d2-7842-f6ba-7c98-b7050a7dbb94",
     "Political Files/2026/Local/Lee-R for JP Court Div B/NAB": "38beeee2-c1c2-ab5f-a410-1cc2b38c008c",
     "Political Files/2026/Local/Lee-R for JP Court Div B/Orders": "aad92180-62d5-0974-6d13-6b3246aca227",
     "Political Files/2026/Local/Lopez-R for School Board": "541b2598-e94d-f504-8087-8e6df25c6a11",
@@ -12226,6 +12940,7 @@
     "Political Files/2026/Local/Raines-R for Court Div B/NAB": "cb51da2f-a3c3-cf85-8681-0c42a78fe310",
     "Political Files/2026/Local/Raines-R for Court Div B/Orders": "3bc3cdc0-ffc3-c95f-aac4-91ae5a9018c7",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff": "0b9022f5-5219-2df3-438f-6ee359561af4",
+    "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices": "713452b5-aafe-d2f1-de09-0e67018f05d2",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/NAB": "42236375-752a-f945-4ce6-ca69f539a1bf",
     "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Orders": "e903a457-b1d9-a90d-3366-7e63ffe3060c",
     "Political Files/2026/Local/Spears-D for School Board": "d0caee1c-e4c1-fadb-73a7-5e6d766d6c0a",
@@ -12250,6 +12965,60 @@
     "Political Files/2026/Terms and Disclosures": "0eb7e955-67ee-ed7e-73bc-19b71d69f46b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+     "name": "WUPL Seuzeneau Inv 3348734-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:56:57-05:00",
+     "folder_id": "713452b5-aafe-d2f1-de09-0e67018f05d2",
+     "file_id": "4b7d55f8-4774-7919-4357-6caccb5893f2",
+     "file_manager_id": "2d9e9051-94a2-4f03-b078-cf152924bd49"
+    },
+    {
+     "path": "Political Files/2026/Local/Lee-R for JP Court Div B/Invoices",
+     "name": "WUPL Lee Inv 3350076-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:56:29-05:00",
+     "folder_id": "edcaa2d2-7842-f6ba-7c98-b7050a7dbb94",
+     "file_id": "75ebfd8c-38ea-0128-88de-c8ea895c27e6",
+     "file_manager_id": "1547762f-88b9-44c6-91f6-f971f2b248b5"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WUPL Illing Inv 3346956B-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:56:05-05:00",
+     "folder_id": "184c1e3e-2818-a776-d2c2-93555957754d",
+     "file_id": "6f85ae7c-bc46-3c67-f0b1-8ae46a74e5be",
+     "file_manager_id": "02198481-bad7-45d7-91e4-0f3cdb75fbd4"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WUPL Illing Inv 3348446-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:56:05-05:00",
+     "folder_id": "184c1e3e-2818-a776-d2c2-93555957754d",
+     "file_id": "350266ce-d7d8-89be-14c5-0d105e8e1ff9",
+     "file_manager_id": "64b05279-e327-4e36-bafb-aa63619914b8"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+     "name": "WUPL Illing Inv 3350589-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:56:05-05:00",
+     "folder_id": "184c1e3e-2818-a776-d2c2-93555957754d",
+     "file_id": "f59812a3-3db2-6495-ba84-ad2d2f70bb4a",
+     "file_manager_id": "ebde4910-90b1-40fd-8038-beb2d6a7301e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+     "name": "WUPL Scalise Inv 3345911-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T11:55:31-05:00",
+     "folder_id": "3b889402-184c-c785-3e1f-92df5ef30329",
+     "file_id": "7355a803-ee62-d084-cb66-a5c7e4333265",
+     "file_manager_id": "5b0520c6-590a-4237-8b31-6cd4ce757946"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/NAB",
      "name": "Jewett NAB signed 101926",
@@ -12585,6 +13354,24 @@
     },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
+     "name": "WUPL Illing 3353116",
+     "ext": "pdf",
+     "uploaded": "2026-10-23T14:42:37-04:00",
+     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
+     "file_id": "bd121ade-f6bb-febf-e758-bdc5d4151c9b",
+     "file_manager_id": "8682b3b7-aa5c-41b7-a74a-c5c6776e2f9f"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
+     "name": "WUPL Illing 3350589",
+     "ext": "pdf",
+     "uploaded": "2026-10-19T10:58:39-04:00",
+     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
+     "file_id": "a7ad0022-5129-a23e-f480-31b38bde4325",
+     "file_manager_id": "9dd87475-5b18-4159-95ab-30149c6dd86b"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
      "name": "WUPL Illing 3350589",
      "ext": "pdf",
      "uploaded": "2026-10-19T10:58:39-04:00",
@@ -12600,6 +13387,15 @@
      "folder_id": "8df41959-e26a-6e7d-323f-f1aa810bbde5",
      "file_id": "8c6fb677-ccdb-452b-1a76-4bc9913395c5",
      "file_manager_id": "ed00c3ef-010d-427f-88a1-85f3ff5f400f"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
+     "name": "WUPL Illing 3350589",
+     "ext": "pdf",
+     "uploaded": "2026-10-16T16:25:54-04:00",
+     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
+     "file_id": "c29dd060-fbd6-b603-1b35-42e95b23ebef",
+     "file_manager_id": "827e1a30-767c-4a37-a97a-37a7eb5e1f15"
     },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
@@ -12699,6 +13495,33 @@
      "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
      "file_id": "4d0bfbf1-782e-e942-84a3-63c6711d2fba",
      "file_manager_id": "7892a5c7-4f49-4dff-ab5f-78011efeaf04"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
+     "name": "WUPL Illing 3346956B",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T12:05:38-04:00",
+     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
+     "file_id": "59298ef8-2b73-9f0d-07cd-eac75d520a50",
+     "file_manager_id": "6f56adb7-fee1-4615-bff5-82f2ad0bcfb5"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
+     "name": "WUPL Illing 3348446",
+     "ext": "pdf",
+     "uploaded": "2026-10-12T12:05:38-04:00",
+     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
+     "file_id": "4d0bfbf1-782e-e942-84a3-63c6711d2fba",
+     "file_manager_id": "7892a5c7-4f49-4dff-ab5f-78011efeaf04"
+    },
+    {
+     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
+     "name": "WUPL Illing 3346956B",
+     "ext": "pdf",
+     "uploaded": "2026-10-07T15:33:41-04:00",
+     "folder_id": "cdfdea5a-862e-0026-99c0-7c6a2df1b67b",
+     "file_id": "8413b64e-364b-31a8-9c89-8224096d88ba",
+     "file_manager_id": "9d85d59f-17a8-4b16-954a-73735011aae2"
     },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
@@ -13375,7 +14198,7 @@
    "facility_id": "54280",
    "root_folder": "c0882dd8-4018-5d1d-de87-45728b37efcc",
    "profile": "tv-profile/wnol-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "3bcc5f7e-979a-dbb4-05a4-69cddf905cd2",
     "2018": "8f764d8d-cab5-287e-2e6c-930b6ecc5543",
@@ -14087,7 +14910,7 @@
    "facility_id": "18819",
    "root_folder": "3b3f087e-2252-72e8-0100-209bd3534851",
    "profile": "tv-profile/wlae-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2012": "b4286e7f-60bc-dffa-af95-338032627d18",
     "2013": "25979cc0-a290-908d-fab5-727c1f089e53",
@@ -14117,7 +14940,7 @@
    "facility_id": "589",
    "root_folder": "cdc91283-1e5a-b75e-2ad2-aa19cb822ebd",
    "profile": "tv-profile/wafb",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "427856e2-4249-1395-ac75-515b47dd99bf",
     "2018": "9622ae40-f309-8ffd-c21f-8f7d8d1ea584",
@@ -17868,7 +18691,7 @@
    "facility_id": "38616",
    "root_folder": "e7b17d62-7092-2fac-19d3-86391be87b48",
    "profile": "tv-profile/wbrz-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "59f0e199-f0a4-a3a9-0f26-2e194e2aa680",
     "2018": "edbeb72d-c0c1-838f-8e41-1860fe3eb605",
@@ -20543,7 +21366,7 @@
    "facility_id": "70021",
    "root_folder": "4c3899ce-a1b4-75b8-f141-0ef22e4dcde8",
    "profile": "tv-profile/wvla-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2015": "0775bb15-1bdc-248e-5fbb-417544a134fd",
     "2017": "f6854619-0b70-88f1-8f5c-d65ddcaa3d29",
@@ -22745,7 +23568,7 @@
    "facility_id": "12520",
    "root_folder": "cd9cc7d7-41e2-81ce-26ec-da3e530f17aa",
    "profile": "tv-profile/wgmb-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "35ad5814-c815-5b93-f71f-0c6a7bd0206d",
     "2018": "1c8bcdf6-e74c-0ee1-03ac-a7dad45e3b71",
@@ -24720,7 +25543,7 @@
    "facility_id": "24976",
    "root_folder": "a146d1bc-3544-e8b6-814b-ecd38c265a62",
    "profile": "tv-profile/wbrl-cd",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2018": "14a0bf1e-d465-870b-7247-1ab28226555b",
     "2019": "789bf9f1-7cbc-d252-b4ac-25a24543e1f4",
@@ -25209,7 +26032,7 @@
    "facility_id": "35652",
    "root_folder": "1f09d425-ebf2-ac3b-ac66-e21e9f0d29b5",
    "profile": "tv-profile/ktbs-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "5d48fdc4-598f-ced1-d930-348ba57ab492",
     "2018": "ab97ab3d-0af9-1b15-71ed-fe2a74956731",
@@ -30969,7 +31792,7 @@
    "facility_id": "70482",
    "root_folder": "d199c42f-0c80-38bd-7e45-eb2cbd824d95",
    "profile": "tv-profile/ksla",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "158fbf22-b91d-c99c-593d-e341b1311546",
     "2018": "19c3b1b9-8df3-0d98-2751-cf6acf62c22a",
@@ -35293,7 +36116,7 @@
    "facility_id": "35648",
    "root_folder": "1d2faa8f-dcdf-c3ae-30b6-318a597f63f6",
    "profile": "tv-profile/ktal-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2015": "1290354b-37ed-2506-6327-71a65f3f62d1",
     "2017": "9f8a4ff0-b532-2a09-f783-b7c653fdd2f6",
@@ -40529,7 +41352,7 @@
    "facility_id": "12525",
    "root_folder": "8e93018b-e543-90b5-cc23-f40ab090b8f1",
    "profile": "tv-profile/kmss-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "011f22e4-c809-e471-a979-09ede48e3665",
     "2018": "45749cb3-e592-3f45-adfa-714a2df86d17",
@@ -44112,7 +44935,7 @@
    "facility_id": "81507",
    "root_folder": "45e8e38c-6f5e-a398-1391-4c30782c1ba2",
    "profile": "tv-profile/kpxj",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "57488a89-2d49-2c54-a64e-735c5e56e738",
     "2018": "b9f0fdd6-d253-b0de-60e7-ed6352b922c8",
@@ -47098,7 +47921,7 @@
    "facility_id": "33471",
    "root_folder": "ba750660-00ba-44ff-3e1d-8bd512e6caf1",
    "profile": "tv-profile/katc",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "65a68f9d-910d-9253-02dd-dbd81014b13b",
     "2018": "37d6049a-0dbc-dfd8-51d8-096a3aaf2e4f",
@@ -50089,7 +50912,7 @@
    "facility_id": "35059",
    "root_folder": "897e717c-c665-e9f9-cc1e-c4bbdb2aa3a1",
    "profile": "tv-profile/klfy-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "1ae3e6af-2c1e-09e8-8025-7f46f61bf27c",
     "2018": "a0c6359b-88c1-6581-88f6-ab34189d913d",
@@ -52232,7 +53055,7 @@
    "facility_id": "33261",
    "root_folder": "50121c5f-0768-c8cc-38e2-f0ff3c3b001f",
    "profile": "tv-profile/kadn-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2014": "1fa666b2-7ce8-334f-6290-190da5d32431",
     "2015": "fc6694ff-c901-7496-9f7d-9fa96893c6a6",
@@ -54556,7 +55379,7 @@
    "facility_id": "48975",
    "root_folder": "c96465a1-4b00-57c1-eaa2-444c27864256",
    "profile": "tv-profile/knoe-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2015": "9d19dfab-85d2-7a49-54f2-7e96bb03f41f",
     "2017": "5207134f-9eab-77dc-9e70-4c30db7bb52b",
@@ -58258,7 +59081,7 @@
    "facility_id": "35692",
    "root_folder": "6ccb985d-b32e-a6d1-6b62-04c24d877f2e",
    "profile": "tv-profile/ktve",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2018": "e3f9498d-ec81-99bb-5714-1348a5213d1e",
     "2019": "1c3d4528-0289-c08a-20ce-74b048259b13",
@@ -58998,7 +59821,7 @@
    "facility_id": "3658",
    "root_folder": "6aeadbe8-7885-28c3-3de9-7fe3217df95c",
    "profile": "tv-profile/kard",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2018": "624ee5c0-d284-8503-08e3-4adddd65668d",
     "2019": "e686e71c-c813-05ac-d41e-7e0222ad3c69",
@@ -59755,7 +60578,7 @@
    "facility_id": "13994",
    "root_folder": "3a7cbc6a-9d9c-fd49-2381-081f274c4aa9",
    "profile": "tv-profile/kplc",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "76c1d6da-c5a7-92b5-ecbe-b16a7d44a376",
     "2018": "cee6cef1-dcea-0704-0aa1-a9239d22df40",
@@ -60930,7 +61753,7 @@
    "facility_id": "35852",
    "root_folder": "b912fb7c-0956-9efc-0d7f-75df566a3877",
    "profile": "tv-profile/kvhp",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2012": "b608a943-41f6-692e-e617-dd1b1bf27975",
     "2013": "ef516e5e-b9e2-4341-26e2-1d4e6c271d00",
@@ -62333,7 +63156,7 @@
    "facility_id": "51598",
    "root_folder": "4c72836f-58bb-6e20-9264-886b97ad6941",
    "profile": "tv-profile/kalb-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2017": "0afb61f3-b48f-5fb4-32c5-8912057349c7",
     "2018": "6eb72ab6-a9d5-542a-0522-ab4b38dbe3d8",
@@ -63833,7 +64656,7 @@
    "facility_id": "52907",
    "root_folder": "05f00a78-2e38-ca9b-9fdb-20f7062a9793",
    "profile": "tv-profile/klax-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2018": "5185c466-8e76-1ef8-2bc3-2e500088489f",
     "2019": "1cc958b0-3405-760b-74b4-761d1bbb8c01",
@@ -64365,7 +65188,7 @@
    "facility_id": "16539",
    "root_folder": "7ea29a0e-4a15-e0d6-30d2-9ff42870feda",
    "profile": "tv-profile/wntz-tv",
-   "scraped_at": "2026-11-03T03:57:55Z",
+   "scraped_at": "2026-11-03T18:25:57Z",
    "year_folders": {
     "2015": "499fa776-206c-b2ee-13a1-c5f507d7430c",
     "2017": "ab224572-9c77-adba-46ef-43d52bc7ab10",
@@ -64775,33 +65598,33 @@
  ],
  "blocked": null,
  "attempted": {
-  "KADN": "2026-11-03T03:57:55Z",
-  "KALB": "2026-11-03T03:57:55Z",
-  "KARD": "2026-11-03T03:57:55Z",
-  "KATC": "2026-11-03T03:57:55Z",
-  "KLAX": "2026-11-03T03:57:55Z",
-  "KLFY": "2026-11-03T03:57:55Z",
-  "KMSS": "2026-11-03T03:57:55Z",
-  "KNOE": "2026-11-03T03:57:55Z",
-  "KPLC": "2026-11-03T03:57:55Z",
-  "KPXJ": "2026-11-03T03:57:55Z",
-  "KSLA": "2026-11-03T03:57:55Z",
-  "KTAL": "2026-11-03T03:57:55Z",
-  "KTBS": "2026-11-03T03:57:55Z",
-  "KTVE": "2026-11-03T03:57:55Z",
-  "KVHP": "2026-11-03T03:57:55Z",
-  "WAFB": "2026-11-03T03:57:55Z",
-  "WBRL-CD": "2026-11-03T03:57:55Z",
-  "WBRZ": "2026-11-03T03:57:55Z",
-  "WDSU": "2026-11-03T03:57:55Z",
-  "WGMB": "2026-11-03T03:57:55Z",
-  "WGNO": "2026-11-03T03:57:55Z",
-  "WLAE": "2026-11-03T03:57:55Z",
-  "WNOL": "2026-11-03T03:57:55Z",
-  "WNTZ": "2026-11-03T03:57:55Z",
-  "WUPL": "2026-11-03T03:57:55Z",
-  "WVLA": "2026-11-03T03:57:55Z",
-  "WVUE": "2026-11-03T03:57:55Z",
-  "WWL-TV": "2026-11-03T03:57:55Z"
+  "KADN": "2026-11-03T18:25:57Z",
+  "KALB": "2026-11-03T18:25:57Z",
+  "KARD": "2026-11-03T18:25:57Z",
+  "KATC": "2026-11-03T18:25:57Z",
+  "KLAX": "2026-11-03T18:25:57Z",
+  "KLFY": "2026-11-03T18:25:57Z",
+  "KMSS": "2026-11-03T18:25:57Z",
+  "KNOE": "2026-11-03T18:25:57Z",
+  "KPLC": "2026-11-03T18:25:57Z",
+  "KPXJ": "2026-11-03T18:25:57Z",
+  "KSLA": "2026-11-03T18:25:57Z",
+  "KTAL": "2026-11-03T18:25:57Z",
+  "KTBS": "2026-11-03T18:25:57Z",
+  "KTVE": "2026-11-03T18:25:57Z",
+  "KVHP": "2026-11-03T18:25:57Z",
+  "WAFB": "2026-11-03T18:25:57Z",
+  "WBRL-CD": "2026-11-03T18:25:57Z",
+  "WBRZ": "2026-11-03T18:25:57Z",
+  "WDSU": "2026-11-03T18:25:57Z",
+  "WGMB": "2026-11-03T18:25:57Z",
+  "WGNO": "2026-11-03T18:25:57Z",
+  "WLAE": "2026-11-03T18:25:57Z",
+  "WNOL": "2026-11-03T18:25:57Z",
+  "WNTZ": "2026-11-03T18:25:57Z",
+  "WUPL": "2026-11-03T18:25:57Z",
+  "WVLA": "2026-11-03T18:25:57Z",
+  "WVUE": "2026-11-03T18:25:57Z",
+  "WWL-TV": "2026-11-03T18:25:57Z"
  }
 }

@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-03",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506921,
- "data_through": "2026-10-31",
+ "rows_scanned": 1506948,
+ "data_through": "2026-11-02",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121526584.68,
+ "total_spend": 121532534.68,
  "pace": {
   "weeks": [
    -104,
@@ -790,17 +790,17 @@
      1537066.87,
      1669185.87,
      1669185.87,
-     1721984.32,
-     1721984.32
+     1727934.32,
+     1727934.32
     ]
    }
   ],
   "note": "cumulative TV dollars from every state committee, by week relative to the governor's-race primary; includes the legislative and local races on the same ballots"
  },
  "recent_buyers": {
-  "since": "2025-11-01",
-  "through": "2026-10-31",
-  "total": 1653244.32,
+  "since": "2025-11-03",
+  "through": "2026-11-02",
+  "total": 1659194.32,
   "committees": 35,
   "top": [
    {
@@ -2359,9 +2359,9 @@
    "dma_rank_2024_25": 91,
    "owner": "Nexstar Media",
    "owner_group": "nexstar",
-   "spend": 2612431.06,
-   "rows": 331,
-   "committees": 63,
+   "spend": 2615236.06,
+   "rows": 332,
+   "committees": 64,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2383,7 +2383,7 @@
     "2023": 291110.5,
     "2024": 1999.71,
     "2025": 1700.0,
-    "2026": 26902.25
+    "2026": 29707.25
    },
    "top_committees": [
     {
@@ -3010,9 +3010,9 @@
    "dma_rank_2024_25": 91,
    "owner": "Mission Bcstg · op. Nexstar",
    "owner_group": "nexstar",
-   "spend": 745652.14,
-   "rows": 205,
-   "committees": 47,
+   "spend": 748797.14,
+   "rows": 206,
+   "committees": 48,
    "first_year": 2003,
    "last_year": 2026,
    "by_year": {
@@ -3029,7 +3029,7 @@
     "2019": 163962.39,
     "2020": 17087.5,
     "2023": 62363.5,
-    "2026": 2286.5
+    "2026": 5431.5
    },
    "top_committees": [
     {
@@ -4123,12 +4123,12 @@
    "rank": 124,
    "spend": 18854902.48,
    "stations": 4,
-   "share": 0.1552
+   "share": 0.1551
   },
   {
    "name": "Shreveport",
    "rank": 91,
-   "spend": 16186446.29,
+   "spend": 16192396.29,
    "stations": 5,
    "share": 0.1332
   },
@@ -4163,9 +4163,9 @@
   },
   {
    "group": "nexstar",
-   "spend": 37009674.31,
+   "spend": 37015624.31,
    "stations": 13,
-   "share": 0.3045
+   "share": 0.3046
   },
   {
    "group": "local",
@@ -4367,7 +4367,7 @@
    "WWL-TV": 1546029.74
   },
   "ambiguous_bare_call": {
-   "KTAL": 865675.93,
+   "KTAL": 868480.93,
    "WWL-TV": 4417799.81
   },
   "combined_buys": {
