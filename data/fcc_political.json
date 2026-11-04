@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-03T18:31:25Z",
+ "scraped": "2026-11-04T18:41:59Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -39,6 +39,7 @@
     "Political Files/2026/Federal/US Senate/John Fleming": "e22c1439-34e1-5f83-f51e-fe50d97def02",
     "Political Files/2026/Federal/US Senate/Julie Letlow": "c37d67a3-7f17-6c18-ce5d-4db73a67c6f1",
     "Political Files/2026/Local": "5530cba6-6f88-ecbf-5a94-a2495ed12f16",
+    "Political Files/2026/Local/Amanda Trosclair": "f8446d03-0705-9495-7b13-9d7cfa99b6f0",
     "Political Files/2026/Local/Cameron Mary": "dbd73dc3-762d-31a5-db34-5655e08626c9",
     "Political Files/2026/Local/Camille Buras": "dfa9c4ed-acd3-cf84-6fd3-1234ec3955de",
     "Political Files/2026/Local/Candace Newell": "fd692e46-ddfe-f74f-4cc5-a181761a9f5b",
@@ -81,11 +82,282 @@
     "Political Files/2026/Non-Candidate Issue Ads/Protect St Tammanys Future": "4d716115-0f2e-0abb-99c4-0152e4a01bbe",
     "Political Files/2026/Non-Candidate Issue Ads/Raise the Bar PAC": "22fbd3a7-7e14-081e-5475-569b4191a099",
     "Political Files/2026/Non-Candidate Issue Ads/Save My Louisiana": "da52f593-d0f0-9621-818b-3e84bb14fb3b",
+    "Political Files/2026/Non-Candidate Issue Ads/Three Rivers PAC": "a3e5c2aa-427f-92a7-cda8-23ecaf704c18",
     "Political Files/2026/Non-Candidate Issue Ads/Vieux Carre Property Owners Residents Assoc": "5c23905b-2f04-ccfe-54dc-8a309ee80f55",
     "Political Files/2026/Non-Candidate Issue Ads/WATCHDOG PAC": "d9275f63-0daf-415c-ae37-227757ecbafe",
     "Political Files/2026/State": "cce1dd58-e007-2b03-412c-8c4072310944"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic 10-31 to 11-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T12:35:55-05:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "1103c21f-d9da-1305-1b2f-af145f110450",
+     "file_manager_id": "5e96bcf7-2329-4c97-b86c-b476e80b321c"
+    },
+    {
+     "path": "Political Files/2026/Local/Marko Marjanovic",
+     "name": "Marko Marjanovic NAB 10-30",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T12:35:55-05:00",
+     "folder_id": "41aaceb0-512e-e2e8-afd9-8eddd8daa073",
+     "file_id": "2e8c4921-9bc1-6218-32b7-6331c1ff4f42",
+     "file_manager_id": "df10eb06-d5fe-4a61-b576-dca7c7436266"
+    },
+    {
+     "path": "Political Files/2026/Local/Scott Illing",
+     "name": "Scott Illing 10-26 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T12:35:16-05:00",
+     "folder_id": "66550627-3a1d-98c4-ae60-7adb6a742aca",
+     "file_id": "b6134284-d1cd-1718-dc63-be401006647d",
+     "file_manager_id": "0624ca63-b84d-42cb-a0e5-43255850a3ae"
+    },
+    {
+     "path": "Political Files/2026/Local/Scott Illing",
+     "name": "Scott Illing NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T12:35:16-05:00",
+     "folder_id": "66550627-3a1d-98c4-ae60-7adb6a742aca",
+     "file_id": "0581b4fe-b229-38a3-3217-5611e3215ef9",
+     "file_manager_id": "b022c246-319b-43a4-a9f2-d499ac8ce602"
+    },
+    {
+     "path": "Political Files/2026/Local/Michael Marsiglia",
+     "name": "Michael Marsiglia 11-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T12:34:38-05:00",
+     "folder_id": "562d1876-9c5e-f91e-4f67-881b49c00624",
+     "file_id": "b51dbc58-b6b3-d71b-89af-81976a543a1a",
+     "file_manager_id": "c6721623-5fef-4ce8-af6f-bb7cfc75944b"
+    },
+    {
+     "path": "Political Files/2026/Local/Michael Marsiglia",
+     "name": "Michael Marsiglia NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T12:34:38-05:00",
+     "folder_id": "562d1876-9c5e-f91e-4f67-881b49c00624",
+     "file_id": "b15cc8b7-5514-10b3-2fce-a5a67f78b244",
+     "file_manager_id": "afbd6a59-0fa4-4b85-a574-16d03f06e7b4"
+    },
+    {
+     "path": "Political Files/2026/Local/Jessica Raines",
+     "name": "Jessica Raines 10-31 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:07-05:00",
+     "folder_id": "13dc5857-47aa-1206-fd8e-cb406631f44e",
+     "file_id": "80dec6b4-a339-63c2-0f95-25a68d9000e1",
+     "file_manager_id": "5b5885de-bdae-460e-88d0-2fc2fadcae03"
+    },
+    {
+     "path": "Political Files/2026/Local/Jessica Raines",
+     "name": "Jessica Raines NAB 10-30",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:07-05:00",
+     "folder_id": "13dc5857-47aa-1206-fd8e-cb406631f44e",
+     "file_id": "c28f2aa8-609d-51ca-2fc5-35f9f3dee5b6",
+     "file_manager_id": "8fa1232c-315f-43dd-8af0-7756c0dc807f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "Jamie Davis 10-31 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:35:20-05:00",
+     "folder_id": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+     "file_id": "f3be82a9-75c5-a747-d357-cce7cbade4ce",
+     "file_manager_id": "edd9799c-e497-4b57-b5ee-a1cac03af6d1"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "Jamie Davis 10-31 to 11-3 est 15145",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:35:20-05:00",
+     "folder_id": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+     "file_id": "f244f737-a097-8cc0-4781-6d3cf1e04d7f",
+     "file_manager_id": "0d0dec84-5fab-4edf-a962-8765799a708c"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "Jamie Davis NAB 10-30",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:35:20-05:00",
+     "folder_id": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+     "file_id": "58e11697-8e11-0967-45c8-d1f796113aa4",
+     "file_manager_id": "f5095b16-419a-48bb-8e0e-37090ebd1503"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "Jamie Davis NAB 10-30 4485806",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:35:20-05:00",
+     "folder_id": "38936cb3-1025-57dc-b383-61dd5eadfb19",
+     "file_id": "150ded8d-d94c-4f47-2504-0f319f56eda5",
+     "file_manager_id": "7ee617c7-7372-44f0-b6f9-152e1b31ffb9"
+    },
+    {
+     "path": "Political Files/2026/Local/Stephanie Hilferty",
+     "name": "Stephanie Hilferty 10-24 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:33:21-05:00",
+     "folder_id": "d2fe4693-c8f0-00ba-01d0-124131d6d675",
+     "file_id": "c324d83c-8bbe-f815-5ff7-ca27c52ad0cd",
+     "file_manager_id": "3f9c8801-15f0-4810-91d2-b4b9fc6e6a0d"
+    },
+    {
+     "path": "Political Files/2026/Local/Stephanie Hilferty",
+     "name": "Stephanie Hilferty NAB 10-30",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:33:21-05:00",
+     "folder_id": "d2fe4693-c8f0-00ba-01d0-124131d6d675",
+     "file_id": "8f4d15ff-2a0d-78d3-d2a7-4281e23994d5",
+     "file_manager_id": "ae5cc447-c4cc-4ff7-8c92-efb4a75a944b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Lauren Jewett",
+     "name": "Lauren Jewett 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:32:06-05:00",
+     "folder_id": "18a9f39f-49b1-6b7c-ac92-5589b3f34455",
+     "file_id": "5973c20a-9dd7-1145-627b-0a583f729398",
+     "file_manager_id": "12c6f19c-8efe-4b06-bd1b-b64e4e6ab82d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Lauren Jewett",
+     "name": "Lauren Jewett NAB 11-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:32:06-05:00",
+     "folder_id": "18a9f39f-49b1-6b7c-ac92-5589b3f34455",
+     "file_id": "a4edf45c-cd2c-13a5-e1f7-1dfa76c2272c",
+     "file_manager_id": "d6204444-0fad-47fa-89bf-743de0f64d23"
+    },
+    {
+     "path": "Political Files/2026/Local/Kimya Holmes",
+     "name": "Kimya Holmes 10-30 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:30:06-05:00",
+     "folder_id": "d1894ba0-dba0-9370-db6f-e0f40ffe35b1",
+     "file_id": "df756533-e15e-4bde-2f8a-78564f146fcb",
+     "file_manager_id": "b140fadd-278d-45f7-a21d-d5dec172b663"
+    },
+    {
+     "path": "Political Files/2026/Local/Kimya Holmes",
+     "name": "Kimya Holmes 10-31 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:30:06-05:00",
+     "folder_id": "d1894ba0-dba0-9370-db6f-e0f40ffe35b1",
+     "file_id": "bb8e1528-a8c4-46da-ca17-803996f1a18b",
+     "file_manager_id": "8d57a32b-0a1a-4229-bf8b-f18e6ba715ab"
+    },
+    {
+     "path": "Political Files/2026/Local/Kimya Holmes",
+     "name": "Kimya Holmes NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:30:06-05:00",
+     "folder_id": "d1894ba0-dba0-9370-db6f-e0f40ffe35b1",
+     "file_id": "68f4302c-734e-e3f5-046e-6bbf2517071d",
+     "file_manager_id": "cf720612-15cc-4b6a-8ed7-a2238399dc9d"
+    },
+    {
+     "path": "Political Files/2026/Local/Kimya Holmes",
+     "name": "Kimya Holmes NAB 10-30",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:30:06-05:00",
+     "folder_id": "d1894ba0-dba0-9370-db6f-e0f40ffe35b1",
+     "file_id": "0e9e7fdb-3717-950e-7300-c8fa71ab2b84",
+     "file_manager_id": "39d7b7d1-9c46-493e-96f9-75502df82e43"
+    },
+    {
+     "path": "Political Files/2026/Local/Cameron Mary",
+     "name": "Cameron Mary 10-30 to 11-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:28:26-05:00",
+     "folder_id": "dbd73dc3-762d-31a5-db34-5655e08626c9",
+     "file_id": "88811e3b-bf73-d159-b46e-320b1a70df1b",
+     "file_manager_id": "b9e44598-ab15-487d-83bf-867281ad6c17"
+    },
+    {
+     "path": "Political Files/2026/Local/Cameron Mary",
+     "name": "Cameron Mary NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:28:26-05:00",
+     "folder_id": "dbd73dc3-762d-31a5-db34-5655e08626c9",
+     "file_id": "4f62edfb-963b-8c53-2aa5-e83b2c9cb293",
+     "file_manager_id": "1c2b5ace-0f8b-4bae-bbf6-b053d6c6c3a8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Steve Scalise",
+     "name": "Steve Scalise 10-26 to 11-8",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:26:45-05:00",
+     "folder_id": "fbfaf1a8-c914-3066-4ecd-5095ae396b88",
+     "file_id": "20c2bac3-f217-6565-a2f0-675f585bd6c6",
+     "file_manager_id": "8f9ba60a-ba60-41b8-a708-f6a53839ff49"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Steve Scalise",
+     "name": "Steve Scalise NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:26:45-05:00",
+     "folder_id": "fbfaf1a8-c914-3066-4ecd-5095ae396b88",
+     "file_id": "d971439a-ab06-1ec1-627e-78f199436e38",
+     "file_manager_id": "4a68a7b0-1ded-4436-bf38-30c4a2f5c1d7"
+    },
+    {
+     "path": "Political Files/2026/Local/Shawn Lindsay",
+     "name": "Shawn Lindsay 10-30 to 11-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:25:55-05:00",
+     "folder_id": "a3c5744b-ceab-a859-8003-e26292c2470d",
+     "file_id": "aa79fdeb-2b43-53b0-f0fa-737490aed5e0",
+     "file_manager_id": "3c7ed67a-950a-4b2e-be3c-f6fe41fcf2e1"
+    },
+    {
+     "path": "Political Files/2026/Local/Shawn Lindsay",
+     "name": "Shawn Lindsay NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:25:55-05:00",
+     "folder_id": "a3c5744b-ceab-a859-8003-e26292c2470d",
+     "file_id": "85be26f4-f12a-2297-f169-9ab2286e013b",
+     "file_manager_id": "4e07c381-b895-4523-a192-0b56d5d3b841"
+    },
+    {
+     "path": "Political Files/2026/Local/Amanda Trosclair",
+     "name": "Amanda Trosclair 10-30 to 11-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:24:40-05:00",
+     "folder_id": "f8446d03-0705-9495-7b13-9d7cfa99b6f0",
+     "file_id": "2b14a3b0-4dc4-3be9-c2f8-14f4fec7fc48",
+     "file_manager_id": "44d53b9b-002a-44c0-8374-99e343591a45"
+    },
+    {
+     "path": "Political Files/2026/Local/Amanda Trosclair",
+     "name": "Amanda Trosclair NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:24:40-05:00",
+     "folder_id": "f8446d03-0705-9495-7b13-9d7cfa99b6f0",
+     "file_id": "b55d2bd8-6155-c606-d9e7-cdb1a6a8138b",
+     "file_manager_id": "2ce080ef-49ed-49bf-b383-03680cceafaf"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Three Rivers PAC",
+     "name": "Three Rivers PAC 10-26 to 11-8",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:23:24-05:00",
+     "folder_id": "a3e5c2aa-427f-92a7-cda8-23ecaf704c18",
+     "file_id": "8b3aed38-764b-7eb7-fc5f-7cc062432b2f",
+     "file_manager_id": "6df964ec-487a-4961-b226-117e06b18197"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Three Rivers PAC",
+     "name": "Three Rivers PAC NAB 10-29",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:23:24-05:00",
+     "folder_id": "a3e5c2aa-427f-92a7-cda8-23ecaf704c18",
+     "file_id": "c9d2cdb2-c27a-1971-d019-1db9045a57b3",
+     "file_manager_id": "647ae73f-0f95-4f44-ab94-068d088166bb"
+    },
     {
      "path": "Political Files/2026/Local/Stephanie Hilferty",
      "name": "Stephanie Hilferty 10-30 to 11-3",
@@ -3425,7 +3697,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -5580,7 +5852,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -10438,7 +10710,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -12866,7 +13138,7 @@
    "facility_id": "13938",
    "root_folder": "fc8f8266-9929-cdf7-1999-ae430f14a725",
    "profile": "tv-profile/wupl",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2015": "f1603605-cb81-4311-203a-f87b390db1d3",
     "2017": "7621df02-232b-c1e4-5026-ae45e370e409",
@@ -13354,24 +13626,6 @@
     },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
-     "name": "WUPL Illing 3353116",
-     "ext": "pdf",
-     "uploaded": "2026-10-23T14:42:37-04:00",
-     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
-     "file_id": "bd121ade-f6bb-febf-e758-bdc5d4151c9b",
-     "file_manager_id": "8682b3b7-aa5c-41b7-a74a-c5c6776e2f9f"
-    },
-    {
-     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
-     "name": "WUPL Illing 3350589",
-     "ext": "pdf",
-     "uploaded": "2026-10-19T10:58:39-04:00",
-     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
-     "file_id": "a7ad0022-5129-a23e-f480-31b38bde4325",
-     "file_manager_id": "9dd87475-5b18-4159-95ab-30149c6dd86b"
-    },
-    {
-     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
      "name": "WUPL Illing 3350589",
      "ext": "pdf",
      "uploaded": "2026-10-19T10:58:39-04:00",
@@ -13387,15 +13641,6 @@
      "folder_id": "8df41959-e26a-6e7d-323f-f1aa810bbde5",
      "file_id": "8c6fb677-ccdb-452b-1a76-4bc9913395c5",
      "file_manager_id": "ed00c3ef-010d-427f-88a1-85f3ff5f400f"
-    },
-    {
-     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
-     "name": "WUPL Illing 3350589",
-     "ext": "pdf",
-     "uploaded": "2026-10-16T16:25:54-04:00",
-     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
-     "file_id": "c29dd060-fbd6-b603-1b35-42e95b23ebef",
-     "file_manager_id": "827e1a30-767c-4a37-a97a-37a7eb5e1f15"
     },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
@@ -13495,33 +13740,6 @@
      "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
      "file_id": "4d0bfbf1-782e-e942-84a3-63c6711d2fba",
      "file_manager_id": "7892a5c7-4f49-4dff-ab5f-78011efeaf04"
-    },
-    {
-     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
-     "name": "WUPL Illing 3346956B",
-     "ext": "pdf",
-     "uploaded": "2026-10-12T12:05:38-04:00",
-     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
-     "file_id": "59298ef8-2b73-9f0d-07cd-eac75d520a50",
-     "file_manager_id": "6f56adb7-fee1-4615-bff5-82f2ad0bcfb5"
-    },
-    {
-     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
-     "name": "WUPL Illing 3348446",
-     "ext": "pdf",
-     "uploaded": "2026-10-12T12:05:38-04:00",
-     "folder_id": "c4da84a4-8b96-8617-113d-c68cce2a9c27",
-     "file_id": "4d0bfbf1-782e-e942-84a3-63c6711d2fba",
-     "file_manager_id": "7892a5c7-4f49-4dff-ab5f-78011efeaf04"
-    },
-    {
-     "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
-     "name": "WUPL Illing 3346956B",
-     "ext": "pdf",
-     "uploaded": "2026-10-07T15:33:41-04:00",
-     "folder_id": "cdfdea5a-862e-0026-99c0-7c6a2df1b67b",
-     "file_id": "8413b64e-364b-31a8-9c89-8224096d88ba",
-     "file_manager_id": "9d85d59f-17a8-4b16-954a-73735011aae2"
     },
     {
      "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Orders",
@@ -14198,7 +14416,7 @@
    "facility_id": "54280",
    "root_folder": "c0882dd8-4018-5d1d-de87-45728b37efcc",
    "profile": "tv-profile/wnol-tv",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2017": "3bcc5f7e-979a-dbb4-05a4-69cddf905cd2",
     "2018": "8f764d8d-cab5-287e-2e6c-930b6ecc5543",
@@ -14910,7 +15128,7 @@
    "facility_id": "18819",
    "root_folder": "3b3f087e-2252-72e8-0100-209bd3534851",
    "profile": "tv-profile/wlae-tv",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2012": "b4286e7f-60bc-dffa-af95-338032627d18",
     "2013": "25979cc0-a290-908d-fab5-727c1f089e53",
@@ -14940,7 +15158,7 @@
    "facility_id": "589",
    "root_folder": "cdc91283-1e5a-b75e-2ad2-aa19cb822ebd",
    "profile": "tv-profile/wafb",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-04T18:40:09Z",
    "year_folders": {
     "2017": "427856e2-4249-1395-ac75-515b47dd99bf",
     "2018": "9622ae40-f309-8ffd-c21f-8f7d8d1ea584",
@@ -15028,6 +15246,15 @@
     "Political Files/2026/Terms and Disclosures": "ec5e912a-f7f8-7af0-2b8b-342ddc1a0c73"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miquez/Orders",
+     "name": "Blake Miguez 4617315",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T13:53:59-05:00",
+     "folder_id": "57e52077-5f06-0946-d493-939da879c874",
+     "file_id": "4ff532ed-3251-5436-915f-8380e93a051e",
+     "file_manager_id": "eace080f-497b-4cf0-aae2-a27190587bf8"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
      "name": "Club for Growth 4610562-1",
@@ -65613,18 +65840,18 @@
   "KTBS": "2026-11-03T18:25:57Z",
   "KTVE": "2026-11-03T18:25:57Z",
   "KVHP": "2026-11-03T18:25:57Z",
-  "WAFB": "2026-11-03T18:25:57Z",
+  "WAFB": "2026-11-04T18:40:09Z",
   "WBRL-CD": "2026-11-03T18:25:57Z",
   "WBRZ": "2026-11-03T18:25:57Z",
-  "WDSU": "2026-11-03T18:25:57Z",
+  "WDSU": "2026-11-04T18:40:09Z",
   "WGMB": "2026-11-03T18:25:57Z",
-  "WGNO": "2026-11-03T18:25:57Z",
-  "WLAE": "2026-11-03T18:25:57Z",
-  "WNOL": "2026-11-03T18:25:57Z",
+  "WGNO": "2026-11-04T18:40:09Z",
+  "WLAE": "2026-11-04T18:40:09Z",
+  "WNOL": "2026-11-04T18:40:09Z",
   "WNTZ": "2026-11-03T18:25:57Z",
-  "WUPL": "2026-11-03T18:25:57Z",
+  "WUPL": "2026-11-04T18:40:09Z",
   "WVLA": "2026-11-03T18:25:57Z",
-  "WVUE": "2026-11-03T18:25:57Z",
-  "WWL-TV": "2026-11-03T18:25:57Z"
+  "WVUE": "2026-11-04T18:40:09Z",
+  "WWL-TV": "2026-11-04T18:40:09Z"
  }
 }

@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-03",
+ "generated": "2026-11-04",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506948,
+ "rows_scanned": 1507021,
  "data_through": "2026-11-02",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121532534.68,
+ "total_spend": 121536559.43,
  "pace": {
   "weeks": [
    -104,
@@ -1688,8 +1688,8 @@
    "dma_rank_2024_25": 91,
    "owner": "KTBS, LLC",
    "owner_group": "local",
-   "spend": 6608878.85,
-   "rows": 584,
+   "spend": 6612903.6,
+   "rows": 585,
    "committees": 137,
    "first_year": 2000,
    "last_year": 2026,
@@ -1715,7 +1715,7 @@
     "2023": 895446.51,
     "2024": 9578.0,
     "2025": 5687.1,
-    "2026": 82699.7
+    "2026": 86724.45
    },
    "top_committees": [
     {
@@ -4128,9 +4128,9 @@
   {
    "name": "Shreveport",
    "rank": 91,
-   "spend": 16192396.29,
+   "spend": 16196421.04,
    "stations": 5,
-   "share": 0.1332
+   "share": 0.1333
   },
   {
    "name": "Monroe–El Dorado",
@@ -4169,7 +4169,7 @@
   },
   {
    "group": "local",
-   "spend": 15601752.09,
+   "spend": 15605776.84,
    "stations": 3,
    "share": 0.1284
   },
