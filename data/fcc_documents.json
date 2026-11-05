@@ -7609,6 +7609,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
   },
+  "0d5c66b7-7d7b-4e66-80bc-0a41918a8e5e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 24490.0,
+   "net": 20816.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5410061",
+   "invoice_no": "5410061-1",
+   "flight": [
+    "10/06/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8260 October Invoice5410061-1",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "0d5cb430-bd24-4c71-9ba5-5f0721f73d7c": {
    "kind": "other",
    "layout": "other",
@@ -9946,6 +9970,30 @@
    "uploaded": "2026-05-18T10:40:17-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T02:54:30Z"
+  },
+  "11ad9140-da90-44c7-9758-48ad48bac81b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9410.0,
+   "net": 7998.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5394608",
+   "invoice_no": "5394608-2",
+   "flight": [
+    "09/09/26",
+    "09/29/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KTAL Texas Pac Est 9506 October Invoice5394608-2",
+   "uploaded": "2026-11-03T17:38:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "11b161e8-7995-4fc2-8567-e1f734f10adc": {
    "kind": "order",
@@ -14797,6 +14845,30 @@
    "uploaded": "2026-02-07T16:28:03-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
+  },
+  "19219e61-3da9-47d7-b790-89b83f36fd9f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3850.0,
+   "net": 3272.5,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5435356",
+   "invoice_no": "5435356-1",
+   "flight": [
+    "10/12/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 657 October invoice5435356-1",
+   "uploaded": "2026-11-05T12:23:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "192765c4-e194-48a6-8c34-ceb428369457": {
    "kind": "invoice",
@@ -22470,6 +22542,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "25b299ce-375a-4852-a19e-8135ffcf240d": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 17410.0,
+   "net": 14798.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley - US Representaive 6th Congressional Dist - R",
+   "name": "Stephen Wagley - US Rep. 6th Congressional Dist - 9.29-10.5 INVOICE",
+   "uploaded": "2026-11-05T13:17:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "25b517df-3233-469c-be2a-d5bcc2777d3a": {
    "kind": "request",
    "layout": "nab",
@@ -25892,6 +25985,27 @@
    "uploaded": "2026-06-02T13:29:09-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
+  },
+  "2b5cca3f-0796-467d-96f8-c514d37ccd85": {
+   "kind": "order",
+   "layout": "wavstar",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Brent Hawkins For",
+   "order_no": "00209709",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KZWA",
+   "path": "Political Files/2026/Local/Brent Hawkins - 14th JDC Magistrate Judge - 2026",
+   "name": "Brent Hawkins Political Form and Sales Ad 113",
+   "uploaded": "2026-11-03T18:36:56-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-05T18:56:12Z"
   },
   "2b645a51-ae69-4874-85db-bffb72e0543c": {
    "kind": "order",
@@ -29668,6 +29782,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "329daf3e-422c-4b8d-84f1-24eb0022c47e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3500.0,
+   "net": 2975.0,
+   "agency": "LC Media LLC",
+   "advertiser": "POL/Gina Hinojosa/Governor/TX/Dem",
+   "order_no": "5418216",
+   "invoice_no": "5418216-1",
+   "flight": [
+    "09/29/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Gina Hinojosa for Texas Governor/Invoices",
+   "name": "KTAL Gina Hinojosa Est 1754 October Invoice5418216-1",
+   "uploaded": "2026-11-03T17:39:46-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "32ade16c-a70a-4bea-b0f7-446273f12e94": {
    "kind": "order",
    "layout": "contract",
@@ -32786,6 +32924,27 @@
    "uploaded": "2026-10-22T17:42:53-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
+  },
+  "37d5c746-264e-40c5-b81d-5d14149f0d4c": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 74600.0,
+   "net": 63410.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+   "name": "Club for Growth - 10.7-10.13 INVOICE",
+   "uploaded": "2026-11-04T13:31:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "37d5d295-d352-4e94-bf6b-2498c13bf517": {
    "kind": "request",
@@ -40177,6 +40336,30 @@
    "name_kind": "other",
    "read_at": "2026-10-23T02:07:26Z"
   },
+  "462ae395-4252-4c4b-9c85-35479fd0fc4f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9025.0,
+   "net": 7671.25,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5427902",
+   "invoice_no": "5427902-1",
+   "flight": [
+    "10/15/26",
+    "10/21/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8301 October Invoice5427902-1",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "4644cd55-f406-4d68-b18a-47fd3d6ca4c1": {
    "kind": "request",
    "layout": "nab",
@@ -41235,6 +41418,30 @@
    "uploaded": "2026-09-21T15:53:08-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
+  },
+  "483d24ac-164e-4c5b-8bf3-9f1748e38397": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5400.0,
+   "net": 4590.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5396559",
+   "invoice_no": "5396559-2",
+   "flight": [
+    "09/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL Texans for Dan Patrick Est 593 October Invoice5396559-2",
+   "uploaded": "2026-11-03T17:39:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "48417640-431c-427c-a943-a0b796e1b8d2": {
    "kind": "order",
@@ -44757,6 +44964,30 @@
    "uploaded": "2026-10-21T11:45:06-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T22:23:53Z"
+  },
+  "4eb083ba-c548-48c1-87e2-c9ea9e265677": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3390.0,
+   "net": 2881.5,
+   "agency": "LC Media LLC",
+   "advertiser": "POL/Gina Hinojosa/Governor/TX/Dem",
+   "order_no": "5440026",
+   "invoice_no": "5440026-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Gina Hinojosa for Texas Governor/Invoices",
+   "name": "KTAL Gina Hinojosea Est 1860 October Invoice5440026-1",
+   "uploaded": "2026-11-03T17:39:46-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "4eb8c2f5-6eaa-4bf1-acfe-93dc39f1d28e": {
    "kind": "request",
@@ -50128,6 +50359,27 @@
    "uploaded": "2026-05-15T13:51:16-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T07:10:08Z"
+  },
+  "586cbed0-a443-4b10-99be-32afcb347521": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 10250.0,
+   "net": 8712.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds - US Representative 6th Congressional Dist",
+   "name": "Rick Edmonds - US Representative, 6th Congressional Dist 10.22-10.24 INVOICE",
+   "uploaded": "2026-11-04T14:35:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "587118a1-a52b-446b-994d-2a3106e5ae97": {
    "kind": "request",
@@ -56086,6 +56338,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
   },
+  "62ac10ed-149b-4198-8103-e552dbb63fd7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 45010.0,
+   "net": 38258.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5412937",
+   "invoice_no": "5412937-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KTAL Texas Pac Est 9635 October Invoice5412937-1",
+   "uploaded": "2026-11-03T17:38:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "62b19b18-8f98-45b0-a215-6f361bcf3793": {
    "kind": "other",
    "layout": "other",
@@ -58562,6 +58838,27 @@
    "uploaded": "2026-02-23T12:27:24-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T21:28:32Z"
+  },
+  "66b47e9f-d765-4d0e-a7df-513d8f3e1948": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 2480.0,
+   "net": 2108.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley - US Representaive 6th Congressional Dist - R",
+   "name": "Stephen Wagley - US Rep. 6th Congressional Dist 9.22-9.28 INVOICE",
+   "uploaded": "2026-11-05T13:17:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "66b59d8f-fcad-4d28-be13-1bd228d1c13d": {
    "kind": "order",
@@ -68406,6 +68703,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "772f4a6c-6a81-466f-8aa7-1d16256231e5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 10630.0,
+   "net": 9035.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5415149",
+   "invoice_no": "5415149-1",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8266 October Invoice5415149-1",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "772fa2e8-d371-454e-9615-1369be2dc08e": {
    "kind": "request",
    "layout": "nab",
@@ -70953,6 +71274,27 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
   },
+  "7b484153-af60-4a84-b14e-cb4dbeb2c6e1": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 27100.0,
+   "net": 23035.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds - US Representative 6th Congressional Dist",
+   "name": "Rick Edmonds - US Representative, 6th Congressional Dist - 10.9-10.19 INVOICE",
+   "uploaded": "2026-11-04T14:35:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "7b510f91-0d9b-493e-88a0-a68b0aea023a": {
    "kind": "other",
    "layout": "other",
@@ -71270,6 +71612,30 @@
    "uploaded": "2026-10-26T10:38:43-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T17:37:54Z"
+  },
+  "7bcb082d-ffe2-4d1f-af61-b5eeeb4dea3a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7870.0,
+   "net": 6689.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5394682",
+   "invoice_no": "5394682-2",
+   "flight": [
+    "09/09/26",
+    "09/29/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KTAL Texas Pac Est 9507 October Invoice5394682-2",
+   "uploaded": "2026-11-03T17:38:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "7bccf7f9-b948-4680-92f5-b1ca17d9b265": {
    "kind": "request",
@@ -72047,6 +72413,30 @@
    "uploaded": "2026-10-28T12:24:17-04:00",
    "name_kind": "other",
    "read_at": "2026-10-28T17:24:41Z"
+  },
+  "7d1453f7-485f-45cc-b919-6098a0b97fa8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9315.0,
+   "net": 7917.75,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5432872",
+   "invoice_no": "5432872-1",
+   "flight": [
+    "10/12/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL Texans for Dan Patrick Est 641 October Invoice5432872-1",
+   "uploaded": "2026-11-03T17:39:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "7d15d796-72da-49f0-9681-1bdd420d2d20": {
    "kind": "request",
@@ -81687,6 +82077,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "8c406f16-9095-4dc6-9c50-63f29fe691f6": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 74600.0,
+   "net": 63410.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+   "name": "Club for Growth 10.14-10.20 INVOICE",
+   "uploaded": "2026-11-04T13:31:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "8c459596-badd-4a78-9972-e445f5ff2254": {
    "kind": "order",
    "layout": "other",
@@ -87550,6 +87961,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T20:13:21Z"
   },
+  "97030599-0cbe-4cd2-ba82-a8a7a82465fa": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 21700.0,
+   "net": 18445.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+   "name": "Club for Growth PAC 9.23-9.29 INVOICE",
+   "uploaded": "2026-11-04T13:31:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "97041930-6038-4ad5-b528-25251e394883": {
    "kind": "request",
    "layout": "nab",
@@ -91844,6 +92276,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-29T20:06:56Z"
   },
+  "9df669d8-c9b7-4527-ac1c-26abeb24a1ad": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4105.0,
+   "net": 3489.25,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5426009",
+   "invoice_no": "5426009-1",
+   "flight": [
+    "10/05/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL texans for Dan Patrick Est 626 October Invoice5426009-1",
+   "uploaded": "2026-11-03T17:39:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "9df6a924-199b-408b-a6aa-5e5479061d26": {
    "kind": "order",
    "layout": "other",
@@ -93210,6 +93666,27 @@
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
   },
+  "a052a29a-26e0-4481-ad41-9473a354c257": {
+   "kind": "order",
+   "layout": "wavstar",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "WGe BON",
+   "order_no": "00209631",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KZWA",
+   "path": "Political Files/2026/Local/Ron Richard - City Court Judge - 2026",
+   "name": "Ron Richard Political Form and Sales Ad 113",
+   "uploaded": "2026-11-03T18:37:41-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-05T18:56:12Z"
+  },
   "a057d11e-15ce-4d51-b386-b41e0598131a": {
    "kind": "order",
    "layout": "other",
@@ -94025,6 +94502,27 @@
    "uploaded": "2026-10-07T18:39:48-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
+  },
+  "a1c33f11-aabc-44a6-9172-30a7aa03b789": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 19675.0,
+   "net": 16723.75,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Local/District Attorney - 19th Judicial District/Hillar Moore - District Attorney - 19th Dist",
+   "name": "Hillar Moore - District Attorney - 19th Dist 10-14-10.20 INVOICE",
+   "uploaded": "2026-11-04T14:31:40-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "a1c635fd-5b17-42eb-9107-51cd94f7cd52": {
    "kind": "request",
@@ -98333,6 +98831,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
   },
+  "a97b0685-51c5-4d55-af11-c860790c1510": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1900.0,
+   "net": 1615.0,
+   "agency": "LC Media LLC",
+   "advertiser": "POL/Gina Hinojosa/Governor/TX/Dem",
+   "order_no": "5426349",
+   "invoice_no": "5426349-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Gina Hinojosa for Texas Governor/Invoices",
+   "name": "KTAL Gina Hinojosa Est 1760 October Invoice5426349-1",
+   "uploaded": "2026-11-03T17:39:46-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "a98e1166-01c7-4380-8240-881e8e600b0e": {
    "kind": "request",
    "layout": "nab",
@@ -101562,6 +102084,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
   },
+  "afb191e2-e267-49f9-bd0f-36691103a6b7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 0.0,
+   "net": 0.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5394355",
+   "invoice_no": "5394355-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott  Est 587 October Invoice5394355-1",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "afcab5b7-1eb0-4f39-9d40-e5de92f3cbc6": {
    "kind": "request",
    "layout": "nab",
@@ -101988,6 +102534,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
   },
+  "b06aff4a-31c0-4396-a17c-ae9cfe5a4cf1": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 11050.0,
+   "net": 9392.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5397666",
+   "invoice_no": "5397666-2",
+   "flight": [
+    "09/22/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8222 October Invoice5397666-2",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "b0794803-e7e6-48a5-abfd-d14a28da6dc5": {
    "kind": "invoice",
    "layout": "invoice",
@@ -102290,6 +102860,27 @@
    "uploaded": "2026-05-13T17:34:24-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:45:22Z"
+  },
+  "b10837f3-6259-4d31-9c15-cb45665e5641": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 74600.0,
+   "net": 63410.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+   "name": "Club for Growth PAC 9.30-10.6 INVOICE",
+   "uploaded": "2026-11-04T13:31:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "b10d3e9e-be04-4644-b1b6-de3b3424f240": {
    "kind": "order",
@@ -105297,6 +105888,30 @@
    "uploaded": "2026-05-21T15:46:31-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
+  },
+  "b5bbc0e6-0977-41d5-b9f9-5dac76ef5a96": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9035.0,
+   "net": 7679.75,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5427841",
+   "invoice_no": "5427841-1",
+   "flight": [
+    "10/08/26",
+    "10/14/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8300 October Invoice5427841-1",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "b5c05a95-9bec-4726-b3e5-4bd4e07e869d": {
    "kind": "request",
@@ -109158,6 +109773,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
   },
+  "bc379f69-b4ae-48f3-a488-922beb68ac2c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13200.0,
+   "net": 11220.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5396556",
+   "invoice_no": "5396556-2",
+   "flight": [
+    "09/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL Texans for Dan Patrick Est 591 October Invoice5396556-2",
+   "uploaded": "2026-11-03T17:39:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "bc37c356-59b5-43ef-9dc0-c61cece18780": {
    "kind": "invoice",
    "layout": "invoice",
@@ -112080,6 +112719,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
   },
+  "c05c894e-d9c5-49ad-8259-58da5db01d8c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9035.0,
+   "net": 7679.75,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5420704",
+   "invoice_no": "5420704-1",
+   "flight": [
+    "10/01/26",
+    "10/07/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8269 October Invoice5420704-1",
+   "uploaded": "2026-11-03T17:40:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "c0726285-d042-472f-ad0b-1e1aada2ff08": {
    "kind": "request",
    "layout": "nab",
@@ -113456,6 +114119,30 @@
    "uploaded": "2026-05-16T12:30:49-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
+  },
+  "c30d4919-5c81-4a7b-81a3-c0438bf9604e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 15650.0,
+   "net": 13302.5,
+   "agency": "Williams Creative Group",
+   "advertiser": "POL/Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+   "order_no": "5395256",
+   "invoice_no": "5395256-2",
+   "flight": [
+    "09/18/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Tom Arceneaux for Mayor-Shreveport LA/Invoices",
+   "name": "KTAL Tom Arceneaux October Invoice5395256-2",
+   "uploaded": "2026-11-03T17:37:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "c312b12d-9f93-4058-818d-1c5a3ab2ea0f": {
    "kind": "order",
@@ -121751,6 +122438,27 @@
    "name_kind": "other",
    "read_at": "2026-10-22T02:24:21Z"
   },
+  "d05b348e-c6dd-4c46-b90e-8d2bc454fbd0": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 100000.0,
+   "net": 85000.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+   "name": "Club for Growth 10.24.26 only INVOICE",
+   "uploaded": "2026-11-04T13:31:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "d05ea305-236d-47b2-8ef1-76f3e639b4c4": {
    "kind": "request",
    "layout": "nab",
@@ -128367,6 +129075,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
   },
+  "db413361-906f-41ed-85d9-9cf88eb2d3fd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 420.0,
+   "net": 357.0,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Tammy Phelps/Mayor of Shreveport/LA/Dem",
+   "order_no": "5438793",
+   "invoice_no": "5438793-1",
+   "flight": [
+    "10/17/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Tammy Phelps-Shreveport Mayor/Invoices",
+   "name": "KTAL Tammy Phelps October Invoice5438793-1",
+   "uploaded": "2026-11-03T17:37:34-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "db48d6c3-4c23-4f05-ab95-46d04c01743b": {
    "kind": "other",
    "layout": "other",
@@ -129014,6 +129746,30 @@
    "uploaded": "2026-06-01T16:21:29-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
+  },
+  "dc6d6c69-cefb-43d3-bca0-ed29ed28979d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 45800.0,
+   "net": 38930.0,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5412678",
+   "invoice_no": "5412678-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KTAL Texas Pac Est 9634 October Invoice5412678-1",
+   "uploaded": "2026-11-03T17:38:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "dc785aef-2102-4702-b2c1-5f5bbebf1f8b": {
    "kind": "invoice",
@@ -130532,6 +131288,30 @@
    "uploaded": "2026-07-10T12:05:17-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
+  },
+  "df9ac185-f4c0-472d-8cb6-e2acb1074524": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Miguez for Louisiana",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "11/04/26",
+    "11/08/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative, 6th Congressional Dist 11.4-11.8",
+   "uploaded": "2026-11-03T14:46:24-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "df9dfab1-6af6-42d3-880a-36be88685943": {
    "kind": "order",
@@ -132922,6 +133702,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
   },
+  "e38b98f7-8153-4858-a2f3-eb9cff7af06d": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 20890.0,
+   "net": 17756.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley - US Representaive 6th Congressional Dist - R",
+   "name": "Stephen Wagley - US Rep. 6th Congressional Dist 10.6-10.12 INVOICE",
+   "uploaded": "2026-11-05T13:17:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "e399e615-eb04-4189-b450-4b485291cda0": {
    "kind": "order",
    "layout": "other",
@@ -133005,6 +133806,30 @@
    "uploaded": "2026-10-19T20:28:41-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
+  },
+  "e3b6b1a1-66a5-43bb-9af0-150432c6cba5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 480.0,
+   "net": 408.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5424692",
+   "invoice_no": "5424692-1",
+   "flight": [
+    "09/28/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL Texans for Dan Patrick Est 616 October Invoice5424692-1",
+   "uploaded": "2026-11-03T17:39:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "e3cd5bb5-53cf-4fef-bfbc-9a09cc90b2d6": {
    "kind": "order",
@@ -134935,6 +135760,30 @@
    "uploaded": "2026-10-08T16:22:27-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:55:01Z"
+  },
+  "e70ccc4f-806e-49a1-ab19-9350e09ccef0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7580.0,
+   "net": 6443.0,
+   "agency": "LC Media LLC",
+   "advertiser": "POL/Gina Hinojosa/Governor/TX/Dem",
+   "order_no": "5433525",
+   "invoice_no": "5433525-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Gina Hinojosa for Texas Governor/Invoices",
+   "name": "KTAL Gina Hinojosa Est 1820 October Invoice5433525-1",
+   "uploaded": "2026-11-03T17:39:46-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "e71dc2ef-ae17-469f-b662-ed15c865d23c": {
    "kind": "request",
@@ -139779,6 +140628,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "effbf87e-aa2c-4ddf-a821-2eb712091ce0": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 19675.0,
+   "net": 16723.75,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Local/District Attorney - 19th Judicial District/Hillar Moore - District Attorney - 19th Dist",
+   "name": "Hillar Moore - District Attorney 19th Dist. 10.7-10.13 INVOICE",
+   "uploaded": "2026-11-04T14:31:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "f0040efe-f946-4431-ab63-1107f05beb6d": {
    "kind": "order",
    "layout": "other",
@@ -142425,6 +143295,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
   },
+  "f4743076-094b-4f30-8989-f5cf8f35b5c1": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 9050.0,
+   "net": 7692.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds - US Representative 6th Congressional Dist",
+   "name": "Rick Edmonds - US Representative, 6th Congressional Dist 10.20-10.21 INVOICE",
+   "uploaded": "2026-11-04T14:35:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "f475b32e-a49a-4de6-8d06-7c56163ba2a0": {
    "kind": "order",
    "layout": "other",
@@ -143715,6 +144606,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:28:24Z"
   },
+  "f71f9c40-a9fb-431d-bbf7-587cb93a0f53": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 24215.0,
+   "net": 20582.75,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley - US Representaive 6th Congressional Dist - R",
+   "name": "Stephen Wagley - US Rep. 6th Congressional Dist 10.13-10.19 INVOICE",
+   "uploaded": "2026-11-05T13:17:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "f728b38f-60ef-4ecc-9cc7-0a9a561415c6": {
    "kind": "invoice",
    "layout": "invoice",
@@ -144215,6 +145127,27 @@
    "uploaded": "2026-05-14T17:58:07-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "f7d2409d-056d-4ebc-adb8-5d705af2a31b": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 31200.0,
+   "net": 26520.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana First Victory Fund",
+   "name": "Louisiana First Victory Fund 9.29-10.12 INVOICE",
+   "uploaded": "2026-11-04T13:51:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
   },
   "f7e7fbc4-4634-479d-b890-106792a895e8": {
    "kind": "request",
@@ -147771,6 +148704,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:37:54Z"
   },
+  "fe497803-5afb-495d-a167-f2b55290e646": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4350.0,
+   "net": 3697.5,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5435367",
+   "invoice_no": "5435367-1",
+   "flight": [
+    "10/12/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL Texans for Dan PAtrick Est 657 October Invoice5435367-1",
+   "uploaded": "2026-11-03T17:39:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T18:50:41Z"
+  },
   "fe5d63c1-3055-4c6e-84f0-ccffa5561c54": {
    "kind": "other",
    "layout": "other",
@@ -148551,6 +149508,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-04T18:46:52Z",
+ "updated": "2026-11-05T18:56:45Z",
  "blocked": null
 }

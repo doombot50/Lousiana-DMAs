@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-11-04T18:43:48Z",
+ "scraped": "2026-11-05T18:49:37Z",
  "years": [
   2026,
   2027
@@ -9765,7 +9765,7 @@
    "facility_id": "12674",
    "root_folder": "ee006e3e-9b24-964f-b807-d0bea6065bf5",
    "profile": "fm-profile/ktdy",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "5fbdf594-6a34-7034-2589-ffa1693107f1",
     "2015": "00641e98-842e-7d89-1e40-9e308dd96432",
@@ -10023,7 +10023,7 @@
    "facility_id": "47402",
    "root_folder": "14503b97-f8d4-f991-37c0-efc8375f3c24",
    "profile": "fm-profile/wynk-fm",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "69afb846-ded3-3464-aadf-49a6cc871703",
     "2015": "979a71b5-fa23-35d3-ad50-cc79cd695969",
@@ -10651,7 +10651,7 @@
    "facility_id": "3422",
    "root_folder": "347f4fbb-08fe-edd2-c560-db492d687aa5",
    "profile": "fm-profile/kzwa",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "1b7370ce-c0ef-9fcf-dc65-69717d1eccb4",
     "2015": "6dc29083-6efd-efa2-365b-913b10db8821",
@@ -10683,6 +10683,24 @@
     "Political Files/2026/Non-Candidate Issue Ads/Power Coalition for Equity  Justice - KZWA-FM Invoice 526": "483ae5ed-57a6-edac-c0a6-e33f4001fcaf"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Ron Richard - City Court Judge - 2026",
+     "name": "Ron Richard Political Form and Sales Ad 113",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T18:37:41-05:00",
+     "folder_id": "dd43606e-519f-981e-ef5c-dffddfad12e0",
+     "file_id": "fe515c06-f860-2dd8-ed42-7816e7a279d4",
+     "file_manager_id": "a052a29a-26e0-4481-ad41-9473a354c257"
+    },
+    {
+     "path": "Political Files/2026/Local/Brent Hawkins - 14th JDC Magistrate Judge - 2026",
+     "name": "Brent Hawkins Political Form and Sales Ad 113",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T18:36:56-05:00",
+     "folder_id": "dbb07b4d-9d79-d5ba-ed60-a4a19781f950",
+     "file_id": "17b6d23b-d2f6-67db-7531-8eb267ed3610",
+     "file_manager_id": "2b5cca3f-0796-467d-96f8-c514d37ccd85"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Power Coalition for Equity  Justice - KZWA-FM Invoice 526",
      "name": "Power Coalition For Equity& Justice ORDER -1",
@@ -10917,7 +10935,7 @@
    "facility_id": "64675",
    "root_folder": "450a2c3e-dfbc-bd60-faf5-7d0a1f67149b",
    "profile": "fm-profile/kqki-fm",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "54919287-f678-6396-3d65-c3da2d0d955d",
     "2015": "26b0b43a-5dfd-77e4-b0fd-7f623b6374a3",
@@ -11133,7 +11151,7 @@
    "facility_id": "58931",
    "root_folder": "9d092d1f-0b73-92bd-32e4-5f5fbacd7484",
    "profile": "fm-profile/wemx",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2018": "cebd8cbb-fd04-cb0a-2551-c3af18a1e413",
     "2019": "6a09cf47-d5f4-fcaf-e572-dbcbc66087b1",
@@ -11433,7 +11451,7 @@
    "facility_id": "1305",
    "root_folder": "6fa5cfa2-ab40-e381-3538-b98d39c742a6",
    "profile": "am-profile/krmd",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "4fee8c9e-bf34-d82c-d632-74a16093889b",
     "2015": "248604ff-473f-425b-7229-629fa64de283",
@@ -11461,7 +11479,7 @@
    "facility_id": "11606",
    "root_folder": "8142b74b-c409-13dc-f779-76f97e6caf31",
    "profile": "am-profile/wxok",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2018": "5d29202a-4fbc-96f5-a0fc-696999dc5d4f",
     "2019": "59326ab7-45e3-0c7c-d9da-d56d0333bd02",
@@ -11707,7 +11725,7 @@
    "facility_id": "52434",
    "root_folder": "8afd8730-3401-83dd-991a-ce99b40a7af4",
    "profile": "fm-profile/wkbu",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2017": "3a78327f-4f94-3ce9-fc58-d582bd8f2219",
     "2018": "59d233af-5873-a280-63d8-eb1cf7f39499",
@@ -11837,7 +11855,7 @@
    "facility_id": "41054",
    "root_folder": "ad29251b-2867-d10e-29d3-94256bcee35a",
    "profile": "am-profile/kfxz",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "a3533337-4ff7-d863-260a-a3ecf945e2b9",
     "2015": "84ec7675-db87-99bc-da8c-9d0114ca0692",
@@ -14999,7 +15017,7 @@
    "facility_id": "9750",
    "root_folder": "13657063-875e-7c49-e9d4-d776143fa881",
    "profile": "am-profile/ksyl",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-05T18:48:25Z",
    "year_folders": {
     "2014": "76107b99-876d-1883-148d-c8acfd1ba8ac",
     "2015": "be8692f0-7fa9-5fd7-aafb-06b07736f70d",
@@ -20658,7 +20676,7 @@
   "KDKS": "2026-11-03T18:34:10Z",
   "KEEL": "2026-11-03T18:34:10Z",
   "KEUN": "2026-11-03T18:34:10Z",
-  "KFXZ": "2026-11-03T04:04:23Z",
+  "KFXZ": "2026-11-05T18:48:25Z",
   "KGLA": "2026-11-03T18:34:10Z",
   "KHLA": "2026-11-03T18:34:10Z",
   "KJAE": "2026-11-03T18:34:10Z",
@@ -20676,9 +20694,9 @@
   "KNEK": "2026-11-04T18:42:40Z",
   "KOKA": "2026-11-03T18:34:10Z",
   "KPEL": "2026-11-03T18:34:10Z",
-  "KQKI": "2026-11-03T04:04:23Z",
+  "KQKI": "2026-11-05T18:48:25Z",
   "KQXL": "2026-11-04T18:42:40Z",
-  "KRMD": "2026-11-03T04:04:23Z",
+  "KRMD": "2026-11-05T18:48:25Z",
   "KROF": "2026-11-03T04:04:23Z",
   "KRRQ": "2026-11-03T04:04:23Z",
   "KRVE": "2026-11-03T18:34:10Z",
@@ -20686,25 +20704,25 @@
   "KSIG": "2026-11-03T18:34:10Z",
   "KSMB": "2026-11-03T18:34:10Z",
   "KSYB": "2026-11-03T04:04:23Z",
-  "KSYL": "2026-11-03T04:04:23Z",
-  "KTDY": "2026-11-03T04:04:23Z",
+  "KSYL": "2026-11-05T18:48:25Z",
+  "KTDY": "2026-11-05T18:48:25Z",
   "KVKI": "2026-11-03T04:04:23Z",
   "KVPI": "2026-11-03T18:34:10Z",
   "KXKS": "2026-11-03T18:34:10Z",
   "KYKZ": "2026-11-03T18:34:10Z",
   "KZMZ": "2026-11-03T04:04:23Z",
   "KZRZ": "2026-11-03T18:34:10Z",
-  "KZWA": "2026-11-03T04:04:23Z",
+  "KZWA": "2026-11-05T18:48:25Z",
   "WBOK": "2026-11-04T18:42:40Z",
   "WBRP": "2026-11-03T18:34:10Z",
   "WDGL": "2026-11-03T18:34:10Z",
-  "WEMX": "2026-11-03T04:04:23Z",
+  "WEMX": "2026-11-05T18:48:25Z",
   "WEZB": "2026-11-03T04:04:23Z",
   "WFMF": "2026-11-03T18:34:10Z",
   "WGSO": "2026-11-03T18:34:10Z",
   "WGUO": "2026-11-03T18:34:10Z",
   "WJBO": "2026-11-03T18:34:10Z",
-  "WKBU": "2026-11-03T04:04:23Z",
+  "WKBU": "2026-11-05T18:48:25Z",
   "WLMG": "2026-11-04T18:42:40Z",
   "WNOE": "2026-11-04T18:42:40Z",
   "WNXX": "2026-11-03T18:34:10Z",
@@ -20714,8 +20732,8 @@
   "WTGE": "2026-11-03T18:34:10Z",
   "WTIX": "2026-11-03T04:04:23Z",
   "WWL": "2026-11-03T18:34:10Z",
-  "WXOK": "2026-11-03T04:04:23Z",
+  "WXOK": "2026-11-05T18:48:25Z",
   "WYLD": "2026-11-03T18:34:10Z",
-  "WYNK": "2026-11-03T04:04:23Z"
+  "WYNK": "2026-11-05T18:48:25Z"
  }
 }

@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-04",
- "data_through": "2026-11-02",
+ "generated": "2026-11-05",
+ "data_through": "2026-11-03",
  "cycle_from": 2023,
- "documents_read": 6846,
+ "documents_read": 6888,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1943,7 +1943,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 91,
+    "docs": 92,
     "priced": 45,
     "usd": 409506,
     "stations": [
@@ -1960,21 +1960,21 @@
     "clients": [
      "Blake Miguez for Congress",
      "Blake Miguez/US House/LA/Rep",
-     "Blake Miguez for Louisiana",
+     "Miguez for Louisiana",
      "Blake Miguez US Congress",
      "Alan Seabaugh for Caddo Parish District Attorney",
      "Blake Miguez for Senate",
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-10-29",
+    "last": "2026-11-05",
     "away": {
-     "docs": 92,
-     "usd": 529819,
+     "docs": 100,
+     "usd": 570519,
      "clients": [
+      "Texans for Dan Patrick/Lt Governor/Rep",
       "Josh Bray/State Senate Dist1/TX/Rep Invoice",
       "Dan Patrick for Lt. Governor",
-      "Texans for Dan Patrick/Lt Governor/Rep",
       "Josh Bray Texas Representative Distrcit 1",
       "Kelley Crisp/District Attorney/TX/Rep Invoice",
       "Texans United for a Conservative Majority PAC"
@@ -2167,11 +2167,11 @@
     }
    },
    "paid": {
-    "total": 9950643,
+    "total": 9961715,
     "media": 2341188,
-    "rows": 2832,
+    "rows": 2835,
     "media_cycle": 148430,
-    "cycle": 1575989,
+    "cycle": 1587061,
     "years": {
      "2000": 22813,
      "2001": 24656,
@@ -2198,7 +2198,7 @@
      "2023": 936326,
      "2024": 391979,
      "2025": 56112,
-     "2026": 191572
+     "2026": 202645
     },
     "committees": 178,
     "top": [
@@ -2255,8 +2255,8 @@
       "f": "6646",
       "n": "Joseph R. McMahon III",
       "p": "OTH",
-      "usd": 55908,
-      "cycle": 55908
+      "usd": 56506,
+      "cycle": 56506
      },
      {
       "f": "1374",
@@ -7510,21 +7510,84 @@
    }
   },
   {
+   "key": "WILLIAMSCREATIVE",
+   "name": "Williams Creative Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 19,
+    "priced": 6,
+    "usd": 43452,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KLKL",
+     "KMSS",
+     "KOKA",
+     "KSLA",
+     "KTAL",
+     "KVKI",
+     "KXKS"
+    ],
+    "clients": [
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
+     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+     "m Downtown Shreveport Development Corporation",
+     "m Tom Arceneaux for Mayor",
+     "Pol26/Tom Arceneux for Mayor",
+     "Tom Arceneaux for Shreveport Mayor",
+     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
+     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 79824,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 79824,
+    "years": {
+     "2025": 6235,
+     "2026": 73589
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5573",
+      "n": "M. Thomas (\"Tom\") Arceneaux",
+      "p": "REP",
+      "usd": 79824,
+      "cycle": 79824
+     }
+    ],
+    "spellings": [
+     "WILLIAMS CREATIVE GROUP"
+    ]
+   }
+  },
+  {
    "key": "MCSADAGENCYMOBILECOMMUNICATIONSSERVICE",
    "name": "MCS Ad Agency - Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
-    "priced": 1,
-    "usd": 220,
+    "docs": 3,
+    "priced": 2,
+    "usd": 640,
     "stations": [
      "KTAL"
     ],
     "clients": [
-     "Matt Gromlich/Congress District4/LA/Dem"
+     "Matt Gromlich/Congress District4/LA/Dem",
+     "Tammy Phelps/Mayor of Shreveport/LA/Dem"
     ],
     "first": "2026-05-05",
-    "last": "2026-06-03",
+    "last": "2026-11-03",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7730,68 +7793,6 @@
     ],
     "spellings": [
      "QUEST COMMUNICATION CONSULTANTS"
-    ]
-   }
-  },
-  {
-   "key": "WILLIAMSCREATIVE",
-   "name": "Williams Creative Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 18,
-    "priced": 6,
-    "usd": 27802,
-    "stations": [
-     "KDKS",
-     "KEEL",
-     "KLKL",
-     "KMSS",
-     "KOKA",
-     "KSLA",
-     "KTAL",
-     "KVKI",
-     "KXKS"
-    ],
-    "clients": [
-     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
-     "m Downtown Shreveport Development Corporation",
-     "m Tom Arceneaux for Mayor",
-     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
-     "Pol26/Tom Arceneux for Mayor",
-     "Tom Arceneaux for Shreveport Mayor",
-     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
-     "Deven tote, Speen t Mrveleppenp Coryota Hon"
-    ],
-    "first": "2026-09-30",
-    "last": "2026-10-30",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 79824,
-    "media": 0,
-    "rows": 9,
-    "media_cycle": 0,
-    "cycle": 79824,
-    "years": {
-     "2025": 6235,
-     "2026": 73589
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "5573",
-      "n": "M. Thomas (\"Tom\") Arceneaux",
-      "p": "REP",
-      "usd": 79824,
-      "cycle": 79824
-     }
-    ],
-    "spellings": [
-     "WILLIAMS CREATIVE GROUP"
     ]
    }
   },
@@ -8330,10 +8331,10 @@
      "Fimentfor Congress"
     ],
     "first": "2026-02-24",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
-     "docs": 47,
-     "usd": 3186876,
+     "docs": 51,
+     "usd": 3294966,
      "clients": [
       "Texas PAC",
       "Californians For Voter",
@@ -14114,10 +14115,10 @@
     ],
     "clients": [],
     "first": "2026-02-10",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
-     "docs": 116,
-     "usd": 1579314,
+     "docs": 122,
+     "usd": 1652579,
      "clients": [
       "Texans for Greg Abbott",
       "Texans for Greg Abboll - PO Box",
@@ -19384,17 +19385,19 @@
     "usd": 0,
     "stations": [
      "KSLA",
+     "KTAL",
      "KTBS"
     ],
     "clients": [],
     "first": "2026-09-28",
-    "last": "2026-10-29",
+    "last": "2026-11-03",
     "away": {
-     "docs": 19,
-     "usd": 43738,
+     "docs": 23,
+     "usd": 60108,
      "clients": [
       "Gina Hinojosa Campaign",
-      "Gina Hinojosa for Governor"
+      "Gina Hinojosa for Governor",
+      "Gina Hinojosa/Governor/TX/Dem"
      ]
     }
    },
@@ -57603,12 +57606,12 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 55908,
-    "cycle": 55908,
+    "usd": 56506,
+    "cycle": 56506,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 55908
+     "2026": 56506
     }
    },
    {
@@ -59116,12 +59119,12 @@
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
-    "usd": 24648,
-    "cycle": 24648,
+    "usd": 35122,
+    "cycle": 35122,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 24648
+     "2026": 35122
     }
    },
    {
