@@ -2742,6 +2742,30 @@
    "name_kind": "other",
    "read_at": "2026-10-29T17:06:19Z"
   },
+  "055cdd59-5d4b-4759-8dc6-cbf493f9fcdb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 810.0,
+   "net": 688.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5394582",
+   "invoice_no": "5394582-2",
+   "flight": [
+    "09/09/26",
+    "09/29/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KMSS Texas Pac Est 9507 October Invoice5394582-2",
+   "uploaded": "2026-11-03T17:23:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "057119be-25bd-47f3-89c1-ab5a3e7bc761": {
    "kind": "request",
    "layout": "nab",
@@ -4624,6 +4648,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
   },
+  "0844ccde-6580-43f1-b17c-014e0db3fc6b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3000.0,
+   "net": 2550.0,
+   "agency": "Smart Media Group",
+   "advertiser": "POL/John Atkins/Public Service Commissioner/LA/Rep",
+   "order_no": "5419729",
+   "invoice_no": "5419729-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/John Atkins-Public Services Commissioner -District 5/Invoices",
+   "name": "KTAL John Atkins Est C13C19 October Invoice5419729-1",
+   "uploaded": "2026-11-03T17:36:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "085275eb-2005-407d-9ea9-9c0247d8bd48": {
    "kind": "order",
    "layout": "contract",
@@ -5313,6 +5361,30 @@
    "uploaded": "2026-04-10T10:55:13-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "092f0539-ead2-4d0a-9931-334d6ba78fd5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 15880.0,
+   "net": 13498.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5429846",
+   "invoice_no": "5429846-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KTAL Mike Johnson Est 9486 October Invoice5429846-1",
+   "uploaded": "2026-11-03T17:30:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "0940b7c9-9ff6-4a7a-b94f-bd8026d33eec": {
    "kind": "order",
@@ -14179,6 +14251,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "180876ee-56df-4084-9fa9-ac3eb22faca9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 200.0,
+   "net": 170.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5425170",
+   "invoice_no": "5425170-1",
+   "flight": [
+    "09/28/26",
+    "10/04/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 622 October Invoice5425170-1",
+   "uploaded": "2026-11-03T17:25:15-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "180e22ab-df82-49ca-bb78-cfe70dbadfe9": {
    "kind": "request",
    "layout": "nab",
@@ -14983,6 +15079,30 @@
    "uploaded": "2026-09-18T15:39:44-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
+  },
+  "196de02f-95b6-4f65-8e33-6dc9eb987baf": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13030.0,
+   "net": 11075.5,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5422491",
+   "invoice_no": "5422491-1",
+   "flight": [
+    "10/05/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KMSS Mike Johnson Est 9485 October Invoice5422491-1",
+   "uploaded": "2026-11-03T17:19:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "196ec2d5-77b5-4e59-8e42-a1d82f8f92ab": {
    "kind": "order",
@@ -17212,6 +17332,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
   },
+  "1cf45d22-f4ed-4705-881d-8cb2bfaf6d19": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 750.0,
+   "net": 637.5,
+   "agency": "BrabenderCox",
+   "advertiser": "POL/Julia Letlow/US Senate/LA/Rep",
+   "order_no": "5425110",
+   "invoice_no": "5425110-1",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow- United Sates Senate-Louisiana/Invoices",
+   "name": "KMSS Julia Letlow Est 924 October Invoice5425110-1",
+   "uploaded": "2026-11-03T17:21:01-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "1cf78da5-3106-4b02-a9f2-ad620aa5f362": {
    "kind": "order",
    "layout": "other",
@@ -18902,6 +19046,30 @@
    "uploaded": "2026-09-03T15:10:52-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
+  },
+  "1fe9a332-9bd9-4b4a-890d-0dce8d4040f9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13380.0,
+   "net": 11373.0,
+   "agency": "BrabenderCox",
+   "advertiser": "POL/Julia Letlow/US Senate/LA/Rep",
+   "order_no": "5425184",
+   "invoice_no": "5425184-1",
+   "flight": [
+    "10/05/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow- United Sates Senate-Louisiana/Invoices",
+   "name": "KTAL Julia Letlow Est 923 October Invoice5425184-1",
+   "uploaded": "2026-11-03T17:32:37-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "1fecea54-18f7-4ee8-a1e6-5cf5e0d35e08": {
    "kind": "order",
@@ -22803,6 +22971,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:53:09Z"
   },
+  "2603b994-e65b-48e5-8ecd-06184657206d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 810.0,
+   "net": 688.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5394511",
+   "invoice_no": "5394511-2",
+   "flight": [
+    "09/09/26",
+    "09/29/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KMSS Texas Pac Est 9506 October Invoice5394511-2",
+   "uploaded": "2026-11-03T17:23:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "261493fd-d33b-482c-a034-480bcdf8f4ad": {
    "kind": "request",
    "layout": "nab",
@@ -25034,6 +25226,30 @@
    "uploaded": "2026-07-01T18:04:58-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
+  },
+  "2a524f21-2e6f-4c2d-95ff-f774da39d4b6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7770.0,
+   "net": 6604.5,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5442542",
+   "invoice_no": "5442542-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis-United States Senate-Louisiana/Invoices",
+   "name": "KTAL Jamie Davis Est 14576 October Invoice5442542-1",
+   "uploaded": "2026-11-03T17:32:03-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "2a5b112c-bd1e-4c4c-85b5-bb53b8e5a971": {
    "kind": "invoice",
@@ -33202,6 +33418,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "38424944-188a-499a-8e2f-24beb593833f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 480.0,
+   "net": 408.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5424686",
+   "invoice_no": "5424686-1",
+   "flight": [
+    "09/28/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 616 October Invoice5424686-1",
+   "uploaded": "2026-11-03T17:25:15-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "384b37a3-362e-43cb-8ca7-91b260a665f1": {
    "kind": "request",
    "layout": "nab",
@@ -33507,6 +33747,30 @@
    "uploaded": "2026-05-04T17:46:12-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "389b6490-9219-48b4-a09c-450c6ca7c3bb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14390.0,
+   "net": 12231.5,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5434050",
+   "invoice_no": "5434050-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-United States Senate-Texas/Invoices",
+   "name": "KTAL James Talarico Est 210 October Invoice5434050-1",
+   "uploaded": "2026-11-03T17:31:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "38a8ee44-ca7e-4960-a7f5-174c42b85a54": {
    "kind": "request",
@@ -34098,6 +34362,30 @@
    "uploaded": "2026-07-20T15:53:29-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:36:10Z"
+  },
+  "39e3c4a0-e81d-47b6-beef-a99cd9a36e13": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3950.0,
+   "net": 3357.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5427734",
+   "invoice_no": "5427734-1",
+   "flight": [
+    "10/08/26",
+    "10/14/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8300 October Invoice5427734-1",
+   "uploaded": "2026-11-03T17:25:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "3a075bf2-a964-46d4-8c39-9e9794f18a0f": {
    "kind": "request",
@@ -35233,6 +35521,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
   },
+  "3cd6b2bc-02c4-4c72-8ae2-5075764b68e9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7660.0,
+   "net": 6511.0,
+   "agency": "Ax Media",
+   "advertiser": "POL/Ken Paxton/US Senate/TX/Rep",
+   "order_no": "5438901",
+   "invoice_no": "5438901-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Ken Paxton- United States Senate-Texas/Invoices",
+   "name": "KTAL Ken Paxton Est 9512 October Invoice5438901-1",
+   "uploaded": "2026-11-03T17:33:10-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "3cd75b08-2473-4979-91ce-0c4696949714": {
    "kind": "order",
    "layout": "contract",
@@ -36039,6 +36351,30 @@
    "uploaded": "2026-08-04T22:24:25-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T01:58:07Z"
+  },
+  "3eb84d94-e693-41db-bd05-b8a9784e94de": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2600.0,
+   "net": 2210.0,
+   "agency": "Smart Media Group",
+   "advertiser": "POL/John Atkins/Public Service Commissioner/LA/Rep",
+   "order_no": "5419721",
+   "invoice_no": "5419721-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/John Atkins-Public Services Commissioner -District 5/Invoices",
+   "name": "KTAL John Atkins Est C06C12 October Invoice5419721-1",
+   "uploaded": "2026-11-03T17:36:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "3eba3e04-8b79-459c-b187-c3f563dc6210": {
    "kind": "order",
@@ -37065,6 +37401,30 @@
    "uploaded": "2026-02-26T14:56:29-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "4015f2ee-6bc4-446a-a9a3-cd72d382e817": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 10830.0,
+   "net": 9205.5,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5429901",
+   "invoice_no": "5429901-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KTAL Mike Johnson Est 9487 October Invoice5429901-1",
+   "uploaded": "2026-11-03T17:30:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "401630fe-cbb5-4135-be73-bce9629e806d": {
    "kind": "order",
@@ -40855,6 +41215,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
   },
+  "47218ebe-2b12-47b4-914e-38c0a52f4f33": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2000.0,
+   "net": 1700.0,
+   "agency": "Campaign to Re-elect James Stewart DA",
+   "advertiser": "POL/James Stewart Sr/District Attorney/LA /Dem",
+   "order_no": "5432964",
+   "invoice_no": "5432964-1",
+   "flight": [
+    "10/13/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/James Stewart Sr-District Attorney-Caddo Parish/Invoices",
+   "name": "KTAL James Stewart October Invoice5432964-1",
+   "uploaded": "2026-11-03T17:35:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "4727c9bd-1c9d-4608-a941-49465e395c07": {
    "kind": "order",
    "layout": "order",
@@ -42839,6 +43223,30 @@
    "uploaded": "2026-04-03T16:12:02-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "4afc3c11-9ae1-4df5-87af-3f8ca6ba54cd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3660.0,
+   "net": 3111.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5429709",
+   "invoice_no": "5429709-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KMSS Mike Johnson Est 9486  October Invoice5429709-1",
+   "uploaded": "2026-11-03T17:19:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "4afe7b6f-4a40-49fa-9e74-93464ea2eb60": {
    "kind": "request",
@@ -47102,6 +47510,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-03T18:39:00Z"
   },
+  "52612b2e-7fd0-44a4-8a9e-bfc6c1b29379": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3030.0,
+   "net": 2575.5,
+   "agency": "Smart Media Group",
+   "advertiser": "POL/John Atkins/Public Service Commissioner/LA/Rep",
+   "order_no": "5419737",
+   "invoice_no": "5419737-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/John Atkins-Public Services Commissioner -District 5/Invoices",
+   "name": "KTAL John Atkins Est C20C26 October Invoice5419737-1",
+   "uploaded": "2026-11-03T17:36:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "5261e096-4810-4f83-825f-b6f6e386c668": {
    "kind": "other",
    "layout": "other",
@@ -49081,6 +49513,30 @@
    "uploaded": "2026-06-15T11:18:20-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T17:27:34Z"
+  },
+  "55df9ae0-13ac-476b-bddc-4cb732be7e2e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1000.0,
+   "net": 850.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5396558",
+   "invoice_no": "5396558-2",
+   "flight": [
+    "09/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 593 October Invoice5396558-2",
+   "uploaded": "2026-11-03T17:25:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "55e322e9-bba7-47d6-922a-cf3bde1e62ef": {
    "kind": "order",
@@ -52284,6 +52740,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T20:38:39Z"
   },
+  "5b9b06e1-3fce-4eba-a01b-3f1e95eb5211": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6700.0,
+   "net": 5695.0,
+   "agency": "BrabenderCox",
+   "advertiser": "POL/Julia Letlow/US Senate/LA/Rep",
+   "order_no": "5425098",
+   "invoice_no": "5425098-1",
+   "flight": [
+    "10/05/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow- United Sates Senate-Louisiana/Invoices",
+   "name": "KMSS Julia Letlow Est 923 October Invoice5425098-1",
+   "uploaded": "2026-11-03T17:21:01-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "5ba5111e-0d83-4482-80e6-1fa055f5bd76": {
    "kind": "invoice",
    "layout": "invoice",
@@ -55056,6 +55536,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:58:07Z"
   },
+  "601d317e-c5d0-4da5-975b-665ff7cd87b6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3780.0,
+   "net": 3213.0,
+   "agency": "Anderson Advertising & Public Relations",
+   "advertiser": "POL/Conrad Cable/Congress/LA/Dem",
+   "order_no": "5432271",
+   "invoice_no": "5432271-1",
+   "flight": [
+    "10/12/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Conrad Cable- US House - Louisiana/Invoices",
+   "name": "KMSS Conrad Cable  October Invoice5432271-1",
+   "uploaded": "2026-11-03T17:19:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "602af7c0-8fbe-4cf9-9dd9-c6cff9c066de": {
    "kind": "other",
    "layout": "other",
@@ -55944,6 +56448,30 @@
    "uploaded": "2026-02-26T16:11:41-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T21:28:32Z"
+  },
+  "61b6447c-6961-4eb7-9487-f6eb5378a18c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2950.0,
+   "net": 2507.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5420493",
+   "invoice_no": "5420493-1",
+   "flight": [
+    "10/01/26",
+    "10/07/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8269 October Invoice5420493-1",
+   "uploaded": "2026-11-03T17:25:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "61b73ccc-30d2-4d62-8225-cb0207884bd9": {
    "kind": "request",
@@ -57779,6 +58307,30 @@
    "uploaded": "2026-05-07T15:38:27-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
+  },
+  "64f3ce61-f279-4d6f-bd50-480062b42f20": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 410.0,
+   "net": 348.5,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Tammy Phelps/Mayor of Shreveport/LA/Dem",
+   "order_no": "5441085",
+   "invoice_no": "5441085-1",
+   "flight": [
+    "10/22/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Tammy Phelps-Shreveport Mayor/Invoices",
+   "name": "KTAL Tammy Phelps October Invoice5441085-1",
+   "uploaded": "2026-11-03T17:37:34-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "65030fc3-5333-46c6-8c80-97eb51a0066d": {
    "kind": "request",
@@ -61730,6 +62282,30 @@
    "uploaded": "2026-06-24T13:27:04-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
+  },
+  "6b0a3b2e-7f49-4d35-9247-8d6a4c154354": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8690.0,
+   "net": 7386.5,
+   "agency": "Anderson Advertising & Public Relations",
+   "advertiser": "POL/Conrad Cable/Congress/LA/Dem",
+   "order_no": "5432370",
+   "invoice_no": "5432370-1",
+   "flight": [
+    "10/12/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Conrad Cable- US House - Louisiana/Invoices",
+   "name": "KTAL Conrad Cable October Invoice5432370-1",
+   "uploaded": "2026-11-03T17:30:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "6b0d624d-03c0-4b3e-91b0-65b81eb53652": {
    "kind": "request",
@@ -69288,6 +69864,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "783fd5b4-b079-4f78-b334-8d3503089d7e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7315.0,
+   "net": 6217.75,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5439308",
+   "invoice_no": "5439308-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-United States Senate-Texas/Invoices",
+   "name": "KTAL James Talarico Est 211 October Invoice5439308-1",
+   "uploaded": "2026-11-03T17:31:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "785aac19-9032-47a6-afc1-ac1172e3c4aa": {
    "kind": "order",
    "layout": "other",
@@ -75689,6 +76289,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
   },
+  "81491f63-93be-4b79-8fa0-e363943bedf9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4370.0,
+   "net": 3714.5,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5434018",
+   "invoice_no": "5434018-1",
+   "flight": [
+    "10/13/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-Unitec States Senate-Texas/Invoices",
+   "name": "KMSS James Talarico Est 210 October Invoice5434018-1",
+   "uploaded": "2026-11-03T17:20:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "8155fd2a-1006-490e-a718-455842b41c2f": {
    "kind": "request",
    "layout": "nab",
@@ -76051,6 +76675,30 @@
    "uploaded": "2026-07-23T10:12:56-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T22:18:47Z"
+  },
+  "825116e0-8155-4b5d-a42e-14ada71320c9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6120.0,
+   "net": 5202.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5422522",
+   "invoice_no": "5422522-1",
+   "flight": [
+    "09/28/26",
+    "10/04/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KMSS Mike Johnson Est 9484 October Invoice5422522-1",
+   "uploaded": "2026-11-03T17:19:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "825ba4eb-595f-4f2d-b772-7ddbfaebbd82": {
    "kind": "request",
@@ -79505,6 +80153,30 @@
    "uploaded": "2026-01-30T12:47:48-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T17:37:54Z"
+  },
+  "8800d4df-4b24-4c51-ba1a-ca24e65bfb4e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2400.0,
+   "net": 2040.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5439321",
+   "invoice_no": "5439321-1",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KTAL Mike Johnson Est  9698 October Invoice5439321-1",
+   "uploaded": "2026-11-03T17:30:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "880369ac-2830-41eb-8461-8b102d59c81e": {
    "kind": "request",
@@ -83231,6 +83903,30 @@
    "uploaded": "2026-04-16T12:57:34-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:49:24Z"
+  },
+  "8e869f20-d8b5-4b42-b412-165187c56fd3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 150.0,
+   "net": 127.5,
+   "agency": "Ax Media",
+   "advertiser": "POL/KenPaxtonVictory Fund/KenPaxtonUSSenate/TX/Rep",
+   "order_no": "5423427",
+   "invoice_no": "5423427-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Ken Paxton Victory Fund-Ken Paxton US Sentate-Texas/Invoices",
+   "name": "KMSS Ken Paxton Victory Fund Est 9513 October Invoice5423427-1",
+   "uploaded": "2026-11-03T17:22:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "8e9c2ecd-cd1b-4b2a-8297-4921f624bd45": {
    "kind": "order",
@@ -89600,6 +90296,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
   },
+  "999bd239-910c-49be-92e2-479489232a0d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 220.0,
+   "net": 187.0,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5442444",
+   "invoice_no": "5442444-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis-United States Senate-Louisiana/Invoices",
+   "name": "KMSS Jamie Davis Est 14576 October Invoice5442444-1",
+   "uploaded": "2026-11-03T17:20:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "999d4767-ae4a-4532-aedd-82691af7ee3e": {
    "kind": "request",
    "layout": "nab",
@@ -92144,6 +92864,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "9dc7ae85-33e4-4c02-aecc-c0fd356fe86a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 10310.0,
+   "net": 8763.5,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5422565",
+   "invoice_no": "5422565-1",
+   "flight": [
+    "09/28/26",
+    "10/04/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KTAL Mike Johnson Est 9484 October Invoice5422565-1",
+   "uploaded": "2026-11-03T17:30:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "9dcc496b-769c-4408-98d9-59bfd28d6787": {
    "kind": "order",
    "layout": "order",
@@ -92252,6 +92996,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T17:46:02Z"
   },
+  "9de540b1-3182-4ecd-a5e1-6ba5f74f40e3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3540.0,
+   "net": 3009.0,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5397593",
+   "invoice_no": "5397593-2",
+   "flight": [
+    "09/22/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8222 October Invoice5397593-2",
+   "uploaded": "2026-11-03T17:25:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "9ded4b83-d583-4d4b-9078-fcf0817d62d2": {
    "kind": "invoice",
    "layout": "invoice",
@@ -92320,6 +93088,30 @@
    "uploaded": "2026-05-18T10:27:07-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:34:54Z"
+  },
+  "9e108d23-4f6b-4ac1-ad3b-0b2aafe05a42": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 400.0,
+   "net": 340.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5437140",
+   "invoice_no": "5437140-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 668 October Invoice5437140-1",
+   "uploaded": "2026-11-03T17:25:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "9e160168-38ac-4426-afb5-9f41f4a4765e": {
    "kind": "order",
@@ -92728,6 +93520,30 @@
    "uploaded": "2026-05-20T17:52:17-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
+  },
+  "9eb10c54-a968-4d63-a154-3442e8ed9894": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2600.0,
+   "net": 2210.0,
+   "agency": "Smart Media Group",
+   "advertiser": "POL/John Atkins/Public Service Commissioner/LA/Rep",
+   "order_no": "5418550",
+   "invoice_no": "5418550-1",
+   "flight": [
+    "09/29/26",
+    "10/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/John Atkins-Public Services Commissioner -District 5/Invoices",
+   "name": "KTAL John Atkins Est 929C05 October Invoice5418550-1",
+   "uploaded": "2026-11-03T17:36:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "9eba62f4-b00b-43d4-9894-a70b9048eb83": {
    "kind": "order",
@@ -95360,6 +96176,30 @@
    "uploaded": "2026-10-26T10:42:37-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T17:37:54Z"
+  },
+  "a362c3b8-6cd5-4768-8050-976fc824850d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2840.0,
+   "net": 2414.0,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5415109",
+   "invoice_no": "5415109-1",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8266 October Invoice5415109-1",
+   "uploaded": "2026-11-03T17:25:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "a362f792-ca28-46b2-aeba-5a0b13c2e945": {
    "kind": "order",
@@ -98140,6 +98980,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:27:03Z"
   },
+  "a8278273-8393-4033-8c54-c06709c1cda9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2970.0,
+   "net": 2524.5,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5439294",
+   "invoice_no": "5439294-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-Unitec States Senate-Texas/Invoices",
+   "name": "KMSS James Talarico Est 211 October Invoice5439294-1",
+   "uploaded": "2026-11-03T17:20:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "a83b9a27-f70b-4f4a-a0d0-f7c3b83f51de": {
    "kind": "invoice",
    "layout": "invoice",
@@ -98532,6 +99396,30 @@
    "uploaded": "2026-03-27T17:10:33-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
+  },
+  "a909d150-78e5-4002-9469-908272ca617e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7660.0,
+   "net": 6511.0,
+   "agency": "Ax Media",
+   "advertiser": "POL/KenPaxtonVictory Fund/KenPaxtonUSSenate/TX/Rep",
+   "order_no": "5423447",
+   "invoice_no": "5423447-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Ken Paxton Victory Fund-Ken Paxton US Sentate-Texas/Invoices",
+   "name": "KTAL Ken Paxton Victory Fund Est 9511 October Invoice5423447-1",
+   "uploaded": "2026-11-03T17:33:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "a90cbc22-0f6e-47ba-b85c-a6ff2689fdfe": {
    "kind": "request",
@@ -99151,6 +100039,30 @@
    "uploaded": "2026-05-18T11:12:05-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "aa06c983-f5cf-4356-8cd8-f99979b2fa66": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 200.0,
+   "net": 170.0,
+   "agency": "Ax Media",
+   "advertiser": "POL/Ken Paxton/US Senate/TX/Rep",
+   "order_no": "5438898",
+   "invoice_no": "5438898-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Ken Paxton- United States Senate-Texas/Invoices",
+   "name": "KMSS Ken Paxton Est 9512 October Invoice5438898-1",
+   "uploaded": "2026-11-03T17:21:35-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "aa06ff0f-adf2-4fed-bda8-62baa0697b90": {
    "kind": "request",
@@ -99971,6 +100883,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
   },
+  "aba4b161-84ce-40d4-b9cb-3a1f54cd6dc4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 700.0,
+   "net": 595.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5429746",
+   "invoice_no": "5429746-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KMSS Mike Johnson Est 9487  October Invoice5429746-1",
+   "uploaded": "2026-11-03T17:19:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "abadf970-eaa6-424a-b008-5dc8810c006e": {
    "kind": "request",
    "layout": "nab",
@@ -100121,6 +101057,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:28:24Z"
   },
+  "abfbe211-3016-4780-ba27-228b57cea840": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4150.0,
+   "net": 3527.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5427875",
+   "invoice_no": "5427875-1",
+   "flight": [
+    "10/15/26",
+    "10/21/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8301 October Invoice5427875-1",
+   "uploaded": "2026-11-03T17:25:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "ac0aa022-9446-4c2e-a535-f18195bcb557": {
    "kind": "order",
    "layout": "other",
@@ -100204,6 +101164,30 @@
    "uploaded": "2026-04-16T14:31:15-04:00",
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
+  },
+  "ac2e3183-b66d-4ed0-82ad-7f5c5a96b290": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 165.0,
+   "net": 140.25,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5425969",
+   "invoice_no": "5425969-1",
+   "flight": [
+    "10/05/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 626 October Invoice5425969-1",
+   "uploaded": "2026-11-03T17:25:15-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "ac2e6a8d-1dbd-4f29-b293-19e9b96d414d": {
    "kind": "order",
@@ -106728,6 +107712,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
   },
+  "b7229e04-bc76-45f8-bc3c-8f0102d736cb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4800.0,
+   "net": 4080.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5439318",
+   "invoice_no": "5439318-1",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KMSS Mike Johnson Est 9698 October Invoice5439318-1",
+   "uploaded": "2026-11-03T17:19:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "b725ccd6-05a6-4a87-90ef-e146c79f62ef": {
    "kind": "invoice",
    "layout": "invoice",
@@ -108635,6 +109643,30 @@
    "uploaded": "2026-05-21T15:56:24-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
+  },
+  "ba2d3d29-4718-477d-815d-99e96afae32a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13230.0,
+   "net": 11245.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5412610",
+   "invoice_no": "5412610-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KMSS Texas Pac Est 9635 October Invoice5412610-1",
+   "uploaded": "2026-11-03T17:23:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "ba3aba1d-a7a2-482e-9542-ec2287e66c3e": {
    "kind": "invoice",
@@ -112938,6 +113970,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
   },
+  "c0e558eb-f1e1-49d2-a30b-08bcbc9facfd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1645.0,
+   "net": 1398.25,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5432828",
+   "invoice_no": "5432828-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-Unitec States Senate-Texas/Invoices",
+   "name": "KMSS James Talarico Est 209 October Invoice5432828-1",
+   "uploaded": "2026-11-03T17:20:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "c0ee8610-2e7d-4b35-8e56-2c439116dea0": {
    "kind": "request",
    "layout": "nab",
@@ -114015,6 +115071,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "c2c4075c-ccb0-4c87-a1cf-067a8d36dcd7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5690.0,
+   "net": 4836.5,
+   "agency": "Ax Media",
+   "advertiser": "POL/KenPaxtonVictory Fund/KenPaxtonUSSenate/TX/Rep",
+   "order_no": "5423492",
+   "invoice_no": "5423492-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Ken Paxton Victory Fund-Ken Paxton US Sentate-Texas/Invoices",
+   "name": "KTAL Ken Paxton Victory Fund Est 9513 October Invoice5423492-1",
+   "uploaded": "2026-11-03T17:33:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "c2e9f2bc-287c-45db-9d96-9f2a0fe12ce8": {
    "kind": "request",
    "layout": "nab",
@@ -114430,6 +115510,30 @@
    "uploaded": "2026-09-29T16:12:39-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T20:13:18Z"
+  },
+  "c3c10e89-9126-411c-9584-c1045e583914": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 155.0,
+   "net": 131.75,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Chaunta Mero/Mayor of Shreveport/LA/Dem",
+   "order_no": "5433573",
+   "invoice_no": "5433573-1",
+   "flight": [
+    "10/19/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Chaunta Mero-Shreveport Mayor/Invoices",
+   "name": "KTAL Chaunta Mero October Invoice5433573-1",
+   "uploaded": "2026-11-03T17:34:28-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "c3c37436-41ed-421a-99bd-743da42cb394": {
    "kind": "invoice",
@@ -122156,6 +123260,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:28:24Z"
   },
+  "cfea84e3-6346-4e3c-bab9-c314111b8a83": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13130.0,
+   "net": 11160.5,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5410073",
+   "invoice_no": "5410073-1",
+   "flight": [
+    "10/06/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8260 October Invoice5410073-1",
+   "uploaded": "2026-11-03T17:25:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "cfeed7f0-dd3e-413a-bbb7-c4a15824bfb8": {
    "kind": "request",
    "layout": "nab",
@@ -122197,6 +123325,30 @@
    "uploaded": "2026-08-25T22:49:02-04:00",
    "name_kind": "order",
    "read_at": "2026-10-21T02:20:26Z"
+  },
+  "d0021d3c-6502-4bfb-b69f-e26766f7a813": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 230.0,
+   "net": 195.5,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Tammy Phelps/Mayor of Shreveport/LA/Dem",
+   "order_no": "5449353",
+   "invoice_no": "5449353-1",
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Tammy Phelps-Shreveport Mayor/Invoices",
+   "name": "KTAL Tammy Phelps October Invoice5449353-1",
+   "uploaded": "2026-11-03T17:37:34-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "d00fc891-4e93-494e-9d58-eb886a4292d6": {
    "kind": "request",
@@ -123133,6 +124285,30 @@
    "uploaded": "2026-04-13T17:19:53-04:00",
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
+  },
+  "d195feea-446e-46e3-b963-f4bffc7bce3c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 30490.0,
+   "net": 25916.5,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5422579",
+   "invoice_no": "5422579-1",
+   "flight": [
+    "10/05/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KTAL Mike Johnson Est 9485 October Invoice5422579-1",
+   "uploaded": "2026-11-03T17:30:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "d1970eaf-050d-41bd-8dc8-21f99e5d4c62": {
    "kind": "order",
@@ -128538,6 +129714,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:44:04Z"
   },
+  "da710f24-8a38-47d5-953f-23878f6741a1": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1500.0,
+   "net": 1275.0,
+   "agency": "Williams Creative Group",
+   "advertiser": "POL/Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+   "order_no": "5395191",
+   "invoice_no": "5395191-2",
+   "flight": [
+    "09/18/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Local/Tom Arceneaux for Mayor-Shreveport LA/Invoices",
+   "name": "KMSS Tom Arceneaux October Invoice5395191-2",
+   "uploaded": "2026-11-03T17:24:13-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "da7c295c-c234-488f-b00f-a414671409e6": {
    "kind": "order",
    "layout": "contract",
@@ -129920,6 +131120,30 @@
    "uploaded": "2026-10-16T09:38:53-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T17:44:19Z"
+  },
+  "dcbd075b-42ab-42d5-b6dd-7984b05fe482": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 465.0,
+   "net": 395.25,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5432745",
+   "invoice_no": "5432745-1",
+   "flight": [
+    "10/12/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 641 October Invoice5432745-1",
+   "uploaded": "2026-11-03T17:25:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "dcbf88b8-c8a3-45a1-b47b-3c3f010633a6": {
    "kind": "order",
@@ -132441,6 +133665,30 @@
    "uploaded": "2026-04-17T16:15:25-04:00",
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
+  },
+  "e191093a-a192-47ac-978a-97c2167c7b82": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7025.0,
+   "net": 5971.25,
+   "agency": "BrabenderCox",
+   "advertiser": "POL/Julia Letlow/US Senate/LA/Rep",
+   "order_no": "5425415",
+   "invoice_no": "5425415-1",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow- United Sates Senate-Louisiana/Invoices",
+   "name": "KTAL Julia Letlow Est 924 October Invoice5425415-1",
+   "uploaded": "2026-11-03T17:32:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "e1a998cf-05a4-459c-8718-6585d2c385f3": {
    "kind": "invoice",
@@ -135206,6 +136454,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T08:58:18Z"
   },
+  "e60cf386-59d0-44d1-a778-817db4e3e5f2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 13130.0,
+   "net": 11160.5,
+   "agency": "FlexPoint Media",
+   "advertiser": "POL/Texas PAC",
+   "order_no": "5412480",
+   "invoice_no": "5412480-1",
+   "flight": [
+    "09/29/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Texas PAC/Invoices",
+   "name": "KMSS Texas Pac Est 9634 October Invoice5412480-1",
+   "uploaded": "2026-11-03T17:23:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "e617d4e9-ac2c-4e9d-9171-7ba7087a00e8": {
    "kind": "request",
    "layout": "nab",
@@ -137927,6 +139199,30 @@
    "uploaded": "2026-03-06T14:24:48-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "eb2b54ac-191f-49ad-b961-301eaefd719f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 200.0,
+   "net": 170.0,
+   "agency": "Ax Media",
+   "advertiser": "POL/KenPaxtonVictory Fund/KenPaxtonUSSenate/TX/Rep",
+   "order_no": "5423367",
+   "invoice_no": "5423367-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Ken Paxton Victory Fund-Ken Paxton US Sentate-Texas/Invoices",
+   "name": "KMSS Ken Paxton Victory Fund Est 9511 October Invoice5423367-1",
+   "uploaded": "2026-11-03T17:22:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
   },
   "eb2d20e9-fc6e-429e-b888-50e990375230": {
    "kind": "order",
@@ -149187,6 +150483,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "ff51c413-9bb7-41a4-b82f-279505db3541": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2375.0,
+   "net": 2018.75,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5432894",
+   "invoice_no": "5432894-1",
+   "flight": [
+    "10/06/26",
+    "10/12/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-United States Senate-Texas/Invoices",
+   "name": "KTAL James Talarico Est  209 October Invoice5432894-1",
+   "uploaded": "2026-11-03T17:31:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-05T21:13:04Z"
+  },
   "ff6077be-6a55-43c9-b6e9-bee43df0f7d6": {
    "kind": "request",
    "layout": "nab",
@@ -149508,6 +150828,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-05T18:56:45Z",
+ "updated": "2026-11-05T21:18:09Z",
  "blocked": null
 }
