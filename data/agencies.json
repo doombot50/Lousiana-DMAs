@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-05",
- "data_through": "2026-11-03",
+ "generated": "2026-11-06",
+ "data_through": "2026-11-05",
  "cycle_from": 2023,
- "documents_read": 6888,
+ "documents_read": 6959,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -370,7 +370,7 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 52,
+    "docs": 54,
     "priced": 18,
     "usd": 276620,
     "stations": [
@@ -388,9 +388,9 @@
     ],
     "clients": [
      "Brad Cascio for District Attorney",
+     "Louisiana First Victory Fund",
      "End Predator Abuse PAC",
      "Protect St. Tammany's Future",
-     "Louisiana First Victory Fund",
      "Ellie Schroder Campaign",
      "Michele Moore Echols / R / Judicial / LA",
      "Echols/R/22 Jud District Court - DivE",
@@ -401,7 +401,7 @@
      "William H. Burris / R / Superior Court / LA"
     ],
     "first": "2026-03-24",
-    "last": "2026-11-03",
+    "last": "2026-11-05",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -683,15 +683,15 @@
     "first": "2026-01-23",
     "last": "2026-11-04",
     "away": {
-     "docs": 64,
-     "usd": 328591,
+     "docs": 70,
+     "usd": 350151,
      "clients": [
       "Chris Spencer/State Representat Dist1/TX/Rep",
       "Chris Spencer Campaign",
       "Ken Paxton Victory Fund",
       "Chris Spencer for TX State Rep District 1",
       "Ken Paxton For Senate",
-      "encer Campalgn"
+      "Ken Paxton/US Senate/TX/Rep"
      ]
     }
    },
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 207,
-    "priced": 126,
-    "usd": 1357038,
+    "docs": 217,
+    "priced": 136,
+    "usd": 1455258,
     "stations": [
      "005341",
      "008048",
@@ -871,9 +871,9 @@
     ],
     "clients": [
      "Mike Johnson for Louisiana",
+     "Mike Johnson/Congress/LA/Rep",
      "Echols for Congress",
      "Mike Echols/US Congress/LA/Rep",
-     "Mike Johnson/Congress/LA/Rep",
      "Scalise for Congress",
      "Mike Echols / US House / R / LA",
      "Original Date / Revision",
@@ -965,16 +965,82 @@
    }
   },
   {
+   "key": "BRABENDERCOX",
+   "name": "BrabenderCox",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 216,
+    "priced": 103,
+    "usd": 1167862,
+    "stations": [
+     "002460",
+     "003478",
+     "004289",
+     "004321",
+     "005142",
+     "005341",
+     "008048",
+     "KADN",
+     "KALB",
+     "KARD",
+     "KATC",
+     "KLAX",
+     "KLFY",
+     "KMSS",
+     "KNOE",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KSYL",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "WAFB",
+     "WBRP",
+     "WBRZ",
+     "WDSU",
+     "WGMB",
+     "WGNO",
+     "WNTZ",
+     "WVLA",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Julia Letlow for Louisiana",
+     "Julia Letlow for LA Senate",
+     "Julia Letlow/US Senate/LA/Rep",
+     "Letlow for Senate",
+     "Julia Letlow / R / US Senate / LA",
+     "Letlow/R/Senate",
+     "Original Date / Revision",
+     "Julia Letiow - US Senate (LA)",
+     "Julla Letlow - US Senate (LA)",
+     "Shea Britain",
+     "Letlow/Republican/US Senate",
+     "Julla Letiow - US Senate (LA)"
+    ],
+    "first": "2026-02-06",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "SMARTMEDIA",
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 60,
-    "priced": 33,
-    "usd": 311115,
+    "docs": 66,
+    "priced": 37,
+    "usd": 322345,
     "stations": [
      "003478",
      "004321",
+     "005142",
      "008564",
      "KDKS",
      "KPXJ",
@@ -990,19 +1056,19 @@
     "clients": [
      "John E Atkins Campaign",
      "Bill Cassidy for US Senate for Louisiana",
+     "John Atkins/Public Service Commissioner/LA/Rep",
      "John Atkins for Public Service Commissioner",
      "John Atkins-La Public Service Comm.District",
+     "Protect Louisiana Values",
      "Hilferty for Public Service Commissioner",
      "Hilferty/R/Public Service Commissioner",
      "Hodges/R/St Tammany Sheriff",
-     "Protect Louisiana Values",
      "John E Atkins Campalgn",
      "Stephanie Hilferty / R / Public Serv Comm/ LA",
-     "Huffines br Comptroller",
-     "John Atkins-La Publle Service Comm.District"
+     "Huffines br Comptroller"
     ],
     "first": "2026-02-17",
-    "last": "2026-11-04",
+    "last": "2026-11-05",
     "away": {
      "docs": 26,
      "usd": 99935,
@@ -1078,71 +1144,6 @@
      "SMART MEDIA GROUP LLC",
      "SMART MEDIA"
     ]
-   }
-  },
-  {
-   "key": "BRABENDERCOX",
-   "name": "BrabenderCox",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 212,
-    "priced": 99,
-    "usd": 1140007,
-    "stations": [
-     "002460",
-     "003478",
-     "004289",
-     "004321",
-     "005142",
-     "005341",
-     "008048",
-     "KADN",
-     "KALB",
-     "KARD",
-     "KATC",
-     "KLAX",
-     "KLFY",
-     "KMSS",
-     "KNOE",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KSYL",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "WAFB",
-     "WBRP",
-     "WBRZ",
-     "WDSU",
-     "WGMB",
-     "WGNO",
-     "WNTZ",
-     "WVLA",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Julia Letlow for Louisiana",
-     "Julia Letlow for LA Senate",
-     "Julia Letlow/US Senate/LA/Rep",
-     "Letlow for Senate",
-     "Julia Letlow / R / US Senate / LA",
-     "Letlow/R/Senate",
-     "Original Date / Revision",
-     "Julia Letiow - US Senate (LA)",
-     "Julla Letlow - US Senate (LA)",
-     "Shea Britain",
-     "Letlow/Republican/US Senate",
-     "Julla Letiow - US Senate (LA)"
-    ],
-    "first": "2026-02-06",
-    "last": "2026-11-03",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -1709,7 +1710,7 @@
    "name": "MEDIUM BUYING",
    "found_by": "political file",
    "fcc": {
-    "docs": 48,
+    "docs": 49,
     "priced": 15,
     "usd": 568070,
     "stations": [
@@ -1725,7 +1726,7 @@
      "Club for Growth"
     ],
     "first": "2026-09-18",
-    "last": "2026-11-02",
+    "last": "2026-11-05",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1769,16 +1770,18 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 84,
-    "priced": 38,
-    "usd": 440299,
+    "docs": 86,
+    "priced": 40,
+    "usd": 448289,
     "stations": [
      "002460",
      "KADN",
      "KATC",
      "KLFY",
+     "KMSS",
      "KPXJ",
      "KSLA",
+     "KTAL",
      "KTBS",
      "WAFB",
      "WBRZ",
@@ -1969,8 +1972,8 @@
     "first": "2026-01-23",
     "last": "2026-11-05",
     "away": {
-     "docs": 100,
-     "usd": 570519,
+     "docs": 106,
+     "usd": 573229,
      "clients": [
       "Texans for Dan Patrick/Lt Governor/Rep",
       "Josh Bray/State Senate Dist1/TX/Rep Invoice",
@@ -5618,10 +5621,11 @@
    "name": "POOLHOUSE",
    "found_by": "political file",
    "fcc": {
-    "docs": 15,
+    "docs": 16,
     "priced": 4,
     "usd": 97820,
     "stations": [
+     "002460",
      "005341",
      "008048",
      "WAFB",
@@ -5636,7 +5640,7 @@
      "ClearPath Action Fund"
     ],
     "first": "2026-03-20",
-    "last": "2026-07-27",
+    "last": "2026-11-05",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -6482,150 +6486,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "QUESTCOMMCONSULT",
-   "name": "Questcomm Consultants",
-   "found_by": "filings",
-   "paid": {
-    "total": 1411073,
-    "media": 541874,
-    "rows": 332,
-    "media_cycle": 59855,
-    "cycle": 370226,
-    "years": {
-     "2010": 12408,
-     "2011": 276349,
-     "2014": 32350,
-     "2015": 259639,
-     "2016": 28163,
-     "2017": 35463,
-     "2018": 201254,
-     "2019": 122682,
-     "2020": 2856,
-     "2021": 18762,
-     "2022": 50922,
-     "2023": 135296,
-     "2024": 2256,
-     "2025": 15140,
-     "2026": 217533
-    },
-    "committees": 37,
-    "top": [
-     {
-      "f": "7557",
-      "n": "Adam Cossey",
-      "p": "OTH",
-      "usd": 115521,
-      "cycle": 115521
-     },
-     {
-      "f": "4602",
-      "n": "Dana Benson",
-      "p": "IND",
-      "usd": 57852,
-      "cycle": 57852
-     },
-     {
-      "f": "5990",
-      "n": "Marc David Mashaw",
-      "p": "OTH",
-      "usd": 53235,
-      "cycle": 53235
-     },
-     {
-      "f": "1800",
-      "n": "Jay B. McCallum",
-      "p": "REP",
-      "usd": 73440,
-      "cycle": 42400
-     },
-     {
-      "f": "6787",
-      "n": "Staci Albritton Mitchell",
-      "p": "REP",
-      "usd": 31662,
-      "cycle": 31662
-     },
-     {
-      "f": "5337",
-      "n": "Yumeaka Robinson Washington",
-      "p": "IND",
-      "usd": 15544,
-      "cycle": 15544
-     },
-     {
-      "f": "7543",
-      "n": "Michael Smith",
-      "p": "OTH",
-      "usd": 15280,
-      "cycle": 15280
-     },
-     {
-      "f": "3123",
-      "n": "John F. K. Belton",
-      "p": "IND",
-      "usd": 68775,
-      "cycle": 12388
-     },
-     {
-      "f": "6720",
-      "n": "Cindy Poston Lavespere",
-      "p": "OTH",
-      "usd": 6694,
-      "cycle": 6694
-     },
-     {
-      "f": "6573",
-      "n": "Neal Glenn Harwell",
-      "p": "OTH",
-      "usd": 5572,
-      "cycle": 5572
-     },
-     {
-      "f": "5967",
-      "n": "Melissa Cumpton Morris",
-      "p": "REP",
-      "usd": 4280,
-      "cycle": 4280
-     },
-     {
-      "f": "1999",
-      "n": "Jefferson Bryan (Jeff) Joyce",
-      "p": "OTH",
-      "usd": 12305,
-      "cycle": 3314
-     },
-     {
-      "f": "1672",
-      "n": "Francis C. Thompson",
-      "p": "REP",
-      "usd": 2504,
-      "cycle": 2504
-     },
-     {
-      "f": "5168",
-      "n": "Mennon Campbell",
-      "p": "REP",
-      "usd": 1723,
-      "cycle": 1723
-     },
-     {
-      "f": "1546",
-      "n": "John Michael Guidry",
-      "p": "DEM",
-      "usd": 1500,
-      "cycle": 1500
-     }
-    ],
-    "spellings": [
-     "QUESTCOMM CONSULTANTS",
-     "QUEST COMM CONSULTANTS",
-     "QUEST COMM CONSULTANTS INC.",
-     "QUESTCOMM CONSULTANT",
-     "QUEST COMM CONSULTANT"
-    ]
    }
   },
   {
@@ -7514,9 +7374,9 @@
    "name": "Williams Creative Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 19,
+    "docs": 20,
     "priced": 6,
-    "usd": 43452,
+    "usd": 44952,
     "stations": [
      "KDKS",
      "KEEL",
@@ -7529,8 +7389,8 @@
      "KXKS"
     ],
     "clients": [
-     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
      "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
      "m Downtown Shreveport Development Corporation",
      "m Tom Arceneaux for Mayor",
      "Pol26/Tom Arceneux for Mayor",
@@ -7572,19 +7432,164 @@
    }
   },
   {
+   "key": "QUESTCOMMCONSULT",
+   "name": "Questcomm Consultants",
+   "found_by": "filings",
+   "paid": {
+    "total": 1348052,
+    "media": 517557,
+    "rows": 320,
+    "media_cycle": 35537,
+    "cycle": 307204,
+    "years": {
+     "2010": 12408,
+     "2011": 276349,
+     "2014": 32350,
+     "2015": 259639,
+     "2016": 28163,
+     "2017": 35463,
+     "2018": 201254,
+     "2019": 122682,
+     "2020": 2856,
+     "2021": 18762,
+     "2022": 50922,
+     "2023": 135296,
+     "2024": 2256,
+     "2025": 15140,
+     "2026": 154511
+    },
+    "committees": 37,
+    "top": [
+     {
+      "f": "4602",
+      "n": "Dana Benson",
+      "p": "IND",
+      "usd": 57852,
+      "cycle": 57852
+     },
+     {
+      "f": "5990",
+      "n": "Marc David Mashaw",
+      "p": "OTH",
+      "usd": 53235,
+      "cycle": 53235
+     },
+     {
+      "f": "7557",
+      "n": "Adam Cossey",
+      "p": "OTH",
+      "usd": 52499,
+      "cycle": 52499
+     },
+     {
+      "f": "1800",
+      "n": "Jay B. McCallum",
+      "p": "REP",
+      "usd": 73440,
+      "cycle": 42400
+     },
+     {
+      "f": "6787",
+      "n": "Staci Albritton Mitchell",
+      "p": "REP",
+      "usd": 31662,
+      "cycle": 31662
+     },
+     {
+      "f": "5337",
+      "n": "Yumeaka Robinson Washington",
+      "p": "IND",
+      "usd": 15544,
+      "cycle": 15544
+     },
+     {
+      "f": "7543",
+      "n": "Michael Smith",
+      "p": "OTH",
+      "usd": 15280,
+      "cycle": 15280
+     },
+     {
+      "f": "3123",
+      "n": "John F. K. Belton",
+      "p": "IND",
+      "usd": 68775,
+      "cycle": 12388
+     },
+     {
+      "f": "6720",
+      "n": "Cindy Poston Lavespere",
+      "p": "OTH",
+      "usd": 6694,
+      "cycle": 6694
+     },
+     {
+      "f": "6573",
+      "n": "Neal Glenn Harwell",
+      "p": "OTH",
+      "usd": 5572,
+      "cycle": 5572
+     },
+     {
+      "f": "5967",
+      "n": "Melissa Cumpton Morris",
+      "p": "REP",
+      "usd": 4280,
+      "cycle": 4280
+     },
+     {
+      "f": "1999",
+      "n": "Jefferson Bryan (Jeff) Joyce",
+      "p": "OTH",
+      "usd": 12305,
+      "cycle": 3314
+     },
+     {
+      "f": "1672",
+      "n": "Francis C. Thompson",
+      "p": "REP",
+      "usd": 2504,
+      "cycle": 2504
+     },
+     {
+      "f": "5168",
+      "n": "Mennon Campbell",
+      "p": "REP",
+      "usd": 1723,
+      "cycle": 1723
+     },
+     {
+      "f": "1546",
+      "n": "John Michael Guidry",
+      "p": "DEM",
+      "usd": 1500,
+      "cycle": 1500
+     }
+    ],
+    "spellings": [
+     "QUESTCOMM CONSULTANTS",
+     "QUEST COMM CONSULTANTS",
+     "QUEST COMM CONSULTANTS INC.",
+     "QUESTCOMM CONSULTANT",
+     "QUEST COMM CONSULTANT"
+    ]
+   }
+  },
+  {
    "key": "MCSADAGENCYMOBILECOMMUNICATIONSSERVICE",
    "name": "MCS Ad Agency - Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 3,
-    "priced": 2,
-    "usd": 640,
+    "docs": 6,
+    "priced": 5,
+    "usd": 1435,
     "stations": [
      "KTAL"
     ],
     "clients": [
+     "Tammy Phelps/Mayor of Shreveport/LA/Dem",
      "Matt Gromlich/Congress District4/LA/Dem",
-     "Tammy Phelps/Mayor of Shreveport/LA/Dem"
+     "Chaunta Mero/Mayor of Shreveport/LA/Dem"
     ],
     "first": "2026-05-05",
     "last": "2026-11-03",
@@ -8333,8 +8338,8 @@
     "first": "2026-02-24",
     "last": "2026-11-03",
     "away": {
-     "docs": 51,
-     "usd": 3294966,
+     "docs": 55,
+     "usd": 3322946,
      "clients": [
       "Texas PAC",
       "Californians For Voter",
@@ -9664,6 +9669,30 @@
      "ALLERTON & COMPANY, LLC",
      "ALLERTON AND CO."
     ]
+   }
+  },
+  {
+   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
+   "name": "Anderson Advertising & Public Relations",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 12470,
+    "stations": [
+     "KMSS",
+     "KTAL"
+    ],
+    "clients": [
+     "Conrad Cable/Congress/LA/Dem"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -11277,6 +11306,29 @@
     "spellings": [
      "MOBILE COMMUNICATIONS SERVICE"
     ]
+   }
+  },
+  {
+   "key": "CAMPAIGNTOREELECTJAMESSTEWARTDA",
+   "name": "Campaign to Re-elect James Stewart DA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 2000,
+    "stations": [
+     "KTAL"
+    ],
+    "clients": [
+     "James Stewart Sr/District Attorney/LA /Dem"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -14117,8 +14169,8 @@
     "first": "2026-02-10",
     "last": "2026-11-03",
     "away": {
-     "docs": 122,
-     "usd": 1652579,
+     "docs": 128,
+     "usd": 1683139,
      "clients": [
       "Texans for Greg Abbott",
       "Texans for Greg Abboll - PO Box",
@@ -18795,6 +18847,27 @@
    }
   },
   {
+   "key": "EASONAOVERTISINGLEC",
+   "name": "EASON AOVERTISING, LEC",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "004321"
+    ],
+    "clients": [],
+    "first": "2026-11-06",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "ERSENADVERTTISIWG",
    "name": "ERSen Advert TISIWG",
    "found_by": "political file",
@@ -19978,21 +20051,24 @@
     "usd": 0,
     "stations": [
      "KLFY",
+     "KMSS",
      "KPLC",
      "KPXJ",
      "KSLA",
+     "KTAL",
      "KTBS"
     ],
     "clients": [
      "Talarico for Texas"
     ],
     "first": "2026-10-09",
-    "last": "2026-10-30",
+    "last": "2026-11-03",
     "away": {
-     "docs": 17,
-     "usd": 23008,
+     "docs": 23,
+     "usd": 56073,
      "clients": [
       "Talarico for Texas",
+      "James Talarico/US Senate/TX/Dem",
       "Talatico for Texas",
       "Tatarico for Texas"
      ]
@@ -59245,12 +59321,12 @@
    {
     "k": "QUESTCOMMCONSULT",
     "n": "Questcomm Consultants",
-    "usd": 115521,
-    "cycle": 115521,
-    "media": 53733,
+    "usd": 52499,
+    "cycle": 52499,
+    "media": 29416,
     "fcc": false,
     "y": {
-     "2026": 115521
+     "2026": 52499
     }
    }
   ],

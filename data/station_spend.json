@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1507066,
- "data_through": "2026-11-03",
+ "rows_scanned": 1507257,
+ "data_through": "2026-11-05",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121536559.43,
+ "total_spend": 121538464.43,
  "pace": {
   "weeks": [
    -104,
@@ -777,31 +777,31 @@
      1196523.0,
      1196523.0,
      1196523.0,
-     1229394.0,
-     1229394.0,
-     1235306.5,
-     1265306.5,
-     1265306.5,
-     1265306.5,
-     1265306.5,
-     1314335.25,
-     1318585.25,
-     1454159.75,
-     1537066.87,
-     1669185.87,
-     1669185.87,
-     1727934.32,
-     1727934.32
+     1231299.0,
+     1231299.0,
+     1237211.5,
+     1267211.5,
+     1267211.5,
+     1267211.5,
+     1267211.5,
+     1316240.25,
+     1320490.25,
+     1456064.75,
+     1538971.87,
+     1671090.87,
+     1671090.87,
+     1729839.32,
+     1729839.32
     ]
    }
   ],
   "note": "cumulative TV dollars from every state committee, by week relative to the governor's-race primary; includes the legislative and local races on the same ballots"
  },
  "recent_buyers": {
-  "since": "2025-11-04",
-  "through": "2026-11-03",
-  "total": 1640714.32,
-  "committees": 35,
+  "since": "2025-11-06",
+  "through": "2026-11-05",
+  "total": 1633644.32,
+  "committees": 36,
   "top": [
    {
     "name": "FIRST PRINCIPLES PAC",
@@ -2135,9 +2135,9 @@
    "dma_rank_2024_25": 142,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 5253815.65,
-   "rows": 503,
-   "committees": 96,
+   "spend": 5254515.65,
+   "rows": 504,
+   "committees": 97,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2161,7 +2161,7 @@
     "2021": 5882.0,
     "2023": 874548.25,
     "2024": 6630.0,
-    "2026": 5134.0
+    "2026": 5834.0
    },
    "top_committees": [
     {
@@ -2467,9 +2467,9 @@
    "dma_rank_2024_25": 142,
    "owner": "Mission Bcstg · op. Nexstar",
    "owner_group": "nexstar",
-   "spend": 1685157.43,
-   "rows": 374,
-   "committees": 71,
+   "spend": 1685882.43,
+   "rows": 375,
+   "committees": 72,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2490,7 +2490,7 @@
     "2019": 353717.86,
     "2020": 34334.25,
     "2023": 157382.21,
-    "2026": 2949.5
+    "2026": 3674.5
    },
    "top_committees": [
     {
@@ -3113,11 +3113,11 @@
    "dma_rank_2024_25": 142,
    "owner": "Nexstar Media",
    "owner_group": "nexstar",
-   "spend": 599143.66,
-   "rows": 269,
-   "committees": 51,
+   "spend": 599623.66,
+   "rows": 270,
+   "committees": 52,
    "first_year": 2002,
-   "last_year": 2025,
+   "last_year": 2026,
    "by_year": {
     "2002": 1039.12,
     "2003": 7524.55,
@@ -3135,7 +3135,8 @@
     "2019": 152991.87,
     "2020": 32160.0,
     "2023": 98540.75,
-    "2025": 500.0
+    "2025": 500.0,
+    "2026": 480.0
    },
    "top_committees": [
     {
@@ -4135,7 +4136,7 @@
   {
    "name": "Monroe–El Dorado",
    "rank": 142,
-   "spend": 7538116.74,
+   "spend": 7540021.74,
    "stations": 3,
    "share": 0.062
   },
@@ -4157,13 +4158,13 @@
  "owners": [
   {
    "group": "gray",
-   "spend": 57775328.12,
+   "spend": 57776028.12,
    "stations": 10,
    "share": 0.4754
   },
   {
    "group": "nexstar",
-   "spend": 37015624.31,
+   "spend": 37016829.31,
    "stations": 13,
    "share": 0.3046
   },

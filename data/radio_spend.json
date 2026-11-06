@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1507066,
- "data_through": "2026-11-03",
+ "rows_scanned": 1507257,
+ "data_through": "2026-11-05",
  "years_covered": [
   2000,
   2026
@@ -4906,7 +4906,7 @@
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
   "name_collisions_rejected": {
-   "amount": 9132608.61,
+   "amount": 9138098.39,
    "examples": [
     "WORD",
     "WEST",
