@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-06",
+ "generated": "2026-11-07",
  "data_through": "2026-11-05",
  "cycle_from": 2023,
- "documents_read": 6959,
+ "documents_read": 6978,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 217,
-    "priced": 136,
-    "usd": 1455258,
+    "docs": 219,
+    "priced": 137,
+    "usd": 1497633,
     "stations": [
      "005341",
      "008048",
@@ -881,10 +881,10 @@
      "Steve Scalise / R / US HOUSE / LA",
      "Scalise/R/Congress",
      "Mike Johnson for Loulsiana",
-     "Mike Johnson for Loulslana"
+     "Steve Scalise/Congress/LA/Rep"
     ],
     "first": "2026-03-09",
-    "last": "2026-11-04",
+    "last": "2026-11-05",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -969,9 +969,9 @@
    "name": "BrabenderCox",
    "found_by": "political file",
    "fcc": {
-    "docs": 216,
-    "priced": 103,
-    "usd": 1167862,
+    "docs": 218,
+    "priced": 105,
+    "usd": 1176712,
     "stations": [
      "002460",
      "003478",
@@ -1021,7 +1021,7 @@
      "Julla Letiow - US Senate (LA)"
     ],
     "first": "2026-02-06",
-    "last": "2026-11-03",
+    "last": "2026-11-04",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1770,9 +1770,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 86,
-    "priced": 40,
-    "usd": 448289,
+    "docs": 89,
+    "priced": 43,
+    "usd": 448914,
     "stations": [
      "002460",
      "KADN",
@@ -1796,7 +1796,7 @@
      "JAMIE DAVIS FOR U.S. SENATE",
      "Hillar Moore Campaign",
      "Davis/D/US Senate",
-     "Jamie Davis, US Senate (LA)",
+     "Jamie Davis/US Senate/LA/Dem",
      "Hillar Moore for East Baton Rouge DA",
      "Jamle Davis for US Senate",
      "JUSTICE PAC"
@@ -1942,199 +1942,13 @@
    }
   },
   {
-   "key": "ELECTRICSYMPHONYMEDIA",
-   "name": "Electric Symphony Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 92,
-    "priced": 45,
-    "usd": 409506,
-    "stations": [
-     "KARD",
-     "KMSS",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "WAFB",
-     "WBRZ",
-     "WJBO"
-    ],
-    "clients": [
-     "Blake Miguez for Congress",
-     "Blake Miguez/US House/LA/Rep",
-     "Miguez for Louisiana",
-     "Blake Miguez US Congress",
-     "Alan Seabaugh for Caddo Parish District Attorney",
-     "Blake Miguez for Senate",
-     "Blake Miguez for U.S. Congress"
-    ],
-    "first": "2026-01-23",
-    "last": "2026-11-05",
-    "away": {
-     "docs": 106,
-     "usd": 573229,
-     "clients": [
-      "Texans for Dan Patrick/Lt Governor/Rep",
-      "Josh Bray/State Senate Dist1/TX/Rep Invoice",
-      "Dan Patrick for Lt. Governor",
-      "Josh Bray Texas Representative Distrcit 1",
-      "Kelley Crisp/District Attorney/TX/Rep Invoice",
-      "Texans United for a Conservative Majority PAC"
-     ]
-    }
-   }
-  },
-  {
-   "key": "GOBIGMEDIA",
-   "name": "Go Big Media",
-   "found_by": "filings",
-   "paid": {
-    "total": 5145537,
-    "media": 670006,
-    "rows": 497,
-    "media_cycle": 405205,
-    "cycle": 2454757,
-    "years": {
-     "2015": 303179,
-     "2016": 81671,
-     "2017": 88224,
-     "2018": 151480,
-     "2019": 1630686,
-     "2020": 52048,
-     "2021": 257868,
-     "2022": 125624,
-     "2023": 2316685,
-     "2024": 50,
-     "2025": 55414,
-     "2026": 82608
-    },
-    "committees": 50,
-    "top": [
-     {
-      "f": "6295",
-      "n": "Louisiana Kids Matter Action Fund",
-      "p": "OTH",
-      "usd": 1303819,
-      "cycle": 1303819
-     },
-     {
-      "f": "5949",
-      "n": "Reboot Louisiana PAC",
-      "p": "OTH",
-      "usd": 441205,
-      "cycle": 441205
-     },
-     {
-      "f": "4802",
-      "n": "Joshua Slavone Guillory",
-      "p": "OTH",
-      "usd": 207184,
-      "cycle": 184299
-     },
-     {
-      "f": "2022",
-      "n": "Michael (Mike) Cooper",
-      "p": "REP",
-      "usd": 106831,
-      "cycle": 106831
-     },
-     {
-      "f": "5998",
-      "n": "RICHIE EDMONDS",
-      "p": "REP",
-      "usd": 76381,
-      "cycle": 76381
-     },
-     {
-      "f": "5557",
-      "n": "Jordan Faircloth",
-      "p": "REP",
-      "usd": 96389,
-      "cycle": 55201
-     },
-     {
-      "f": "3679",
-      "n": "Rick Edmonds",
-      "p": "REP",
-      "usd": 46872,
-      "cycle": 46872
-     },
-     {
-      "f": "3440",
-      "n": "Scott McKnight",
-      "p": "REP",
-      "usd": 40055,
-      "cycle": 39755
-     },
-     {
-      "f": "4223",
-      "n": "Robert \"Bobby\" Webre",
-      "p": "REP",
-      "usd": 39278,
-      "cycle": 39278
-     },
-     {
-      "f": "4472",
-      "n": "Timothy Temple",
-      "p": "REP",
-      "usd": 34194,
-      "cycle": 34194
-     },
-     {
-      "f": "4495",
-      "n": "Kevin M. Berken",
-      "p": "REP",
-      "usd": 31756,
-      "cycle": 31756
-     },
-     {
-      "f": "2223",
-      "n": "Clay Schexnayder",
-      "p": "REP",
-      "usd": 25800,
-      "cycle": 25800
-     },
-     {
-      "f": "3996",
-      "n": "Louisiana Federation for Children Action Fund",
-      "p": "OTH",
-      "usd": 1089844,
-      "cycle": 18588
-     },
-     {
-      "f": "6118",
-      "n": "RSLC PAC",
-      "p": "REP",
-      "usd": 13359,
-      "cycle": 13359
-     },
-     {
-      "f": "1099",
-      "n": "Robert Kyle Ardoin",
-      "p": "REP",
-      "usd": 10305,
-      "cycle": 10305
-     }
-    ],
-    "spellings": [
-     "GO BIG MEDIA",
-     "GO BIG MEDIA INC.",
-     "GO BIG MEDIA, INC.",
-     "GOBIG MEDIA",
-     "GO BIG MEDIA INC",
-     "GO BIG MEDIA LLC"
-    ]
-   }
-  },
-  {
    "key": "BUISSONCREATIVESTRATEGIES",
    "name": "Buisson Creative Strategies",
    "found_by": "political file",
    "fcc": {
-    "docs": 49,
-    "priced": 31,
-    "usd": 254947,
+    "docs": 51,
+    "priced": 33,
+    "usd": 265537,
     "stations": [
      "004289",
      "005341",
@@ -2318,6 +2132,192 @@
      "BUISSON CREATIVE STRATEGIES LLC",
      "BUISSON CREATIVE STRATEGIES, L.L.C.",
      "BUISSON CREATIVE STRATEGIES L.L.C."
+    ]
+   }
+  },
+  {
+   "key": "ELECTRICSYMPHONYMEDIA",
+   "name": "Electric Symphony Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 95,
+    "priced": 46,
+    "usd": 413106,
+    "stations": [
+     "KARD",
+     "KMSS",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "WAFB",
+     "WBRZ",
+     "WJBO"
+    ],
+    "clients": [
+     "Blake Miguez for Congress",
+     "Blake Miguez/US House/LA/Rep",
+     "Miguez for Louisiana",
+     "Blake Miguez US Congress",
+     "Alan Seabaugh for Caddo Parish District Attorney",
+     "Blake Miguez for Senate",
+     "Blake Miguez for U.S. Congress"
+    ],
+    "first": "2026-01-23",
+    "last": "2026-11-05",
+    "away": {
+     "docs": 106,
+     "usd": 573229,
+     "clients": [
+      "Texans for Dan Patrick/Lt Governor/Rep",
+      "Josh Bray/State Senate Dist1/TX/Rep Invoice",
+      "Dan Patrick for Lt. Governor",
+      "Josh Bray Texas Representative Distrcit 1",
+      "Kelley Crisp/District Attorney/TX/Rep Invoice",
+      "Texans United for a Conservative Majority PAC"
+     ]
+    }
+   }
+  },
+  {
+   "key": "GOBIGMEDIA",
+   "name": "Go Big Media",
+   "found_by": "filings",
+   "paid": {
+    "total": 5145537,
+    "media": 670006,
+    "rows": 497,
+    "media_cycle": 405205,
+    "cycle": 2454757,
+    "years": {
+     "2015": 303179,
+     "2016": 81671,
+     "2017": 88224,
+     "2018": 151480,
+     "2019": 1630686,
+     "2020": 52048,
+     "2021": 257868,
+     "2022": 125624,
+     "2023": 2316685,
+     "2024": 50,
+     "2025": 55414,
+     "2026": 82608
+    },
+    "committees": 50,
+    "top": [
+     {
+      "f": "6295",
+      "n": "Louisiana Kids Matter Action Fund",
+      "p": "OTH",
+      "usd": 1303819,
+      "cycle": 1303819
+     },
+     {
+      "f": "5949",
+      "n": "Reboot Louisiana PAC",
+      "p": "OTH",
+      "usd": 441205,
+      "cycle": 441205
+     },
+     {
+      "f": "4802",
+      "n": "Joshua Slavone Guillory",
+      "p": "OTH",
+      "usd": 207184,
+      "cycle": 184299
+     },
+     {
+      "f": "2022",
+      "n": "Michael (Mike) Cooper",
+      "p": "REP",
+      "usd": 106831,
+      "cycle": 106831
+     },
+     {
+      "f": "5998",
+      "n": "RICHIE EDMONDS",
+      "p": "REP",
+      "usd": 76381,
+      "cycle": 76381
+     },
+     {
+      "f": "5557",
+      "n": "Jordan Faircloth",
+      "p": "REP",
+      "usd": 96389,
+      "cycle": 55201
+     },
+     {
+      "f": "3679",
+      "n": "Rick Edmonds",
+      "p": "REP",
+      "usd": 46872,
+      "cycle": 46872
+     },
+     {
+      "f": "3440",
+      "n": "Scott McKnight",
+      "p": "REP",
+      "usd": 40055,
+      "cycle": 39755
+     },
+     {
+      "f": "4223",
+      "n": "Robert \"Bobby\" Webre",
+      "p": "REP",
+      "usd": 39278,
+      "cycle": 39278
+     },
+     {
+      "f": "4472",
+      "n": "Timothy Temple",
+      "p": "REP",
+      "usd": 34194,
+      "cycle": 34194
+     },
+     {
+      "f": "4495",
+      "n": "Kevin M. Berken",
+      "p": "REP",
+      "usd": 31756,
+      "cycle": 31756
+     },
+     {
+      "f": "2223",
+      "n": "Clay Schexnayder",
+      "p": "REP",
+      "usd": 25800,
+      "cycle": 25800
+     },
+     {
+      "f": "3996",
+      "n": "Louisiana Federation for Children Action Fund",
+      "p": "OTH",
+      "usd": 1089844,
+      "cycle": 18588
+     },
+     {
+      "f": "6118",
+      "n": "RSLC PAC",
+      "p": "REP",
+      "usd": 13359,
+      "cycle": 13359
+     },
+     {
+      "f": "1099",
+      "n": "Robert Kyle Ardoin",
+      "p": "REP",
+      "usd": 10305,
+      "cycle": 10305
+     }
+    ],
+    "spellings": [
+     "GO BIG MEDIA",
+     "GO BIG MEDIA INC.",
+     "GO BIG MEDIA, INC.",
+     "GOBIG MEDIA",
+     "GO BIG MEDIA INC",
+     "GO BIG MEDIA LLC"
     ]
    }
   },
@@ -2693,12 +2693,13 @@
    "name": "Bull's Eye Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
-    "priced": 8,
-    "usd": 83237,
+    "docs": 9,
+    "priced": 9,
+    "usd": 84007,
     "stations": [
      "005341",
      "WDSU",
+     "WGNO",
      "WVUE",
      "WWL-TV"
     ],
@@ -2706,10 +2707,11 @@
      "New Horizons USA",
      "Newell for Judge",
      "Newell/D/Orl Parish Civil Dist Court, Div",
+     "Candace Newell/Judicial Court Judge/LA/Dem",
      "Candace N. Newell / D / Judge Orleans / LA"
     ],
     "first": "2026-06-09",
-    "last": "2026-11-03",
+    "last": "2026-11-04",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2850,41 +2852,13 @@
    }
   },
   {
-   "key": "AXADVOCACY",
-   "name": "Axadvocacy",
-   "found_by": "filings",
-   "paid": {
-    "total": 250000,
-    "media": 234000,
-    "rows": 3,
-    "media_cycle": 234000,
-    "cycle": 250000,
-    "years": {
-     "2026": 250000
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "8205",
-      "n": "Keep Louisiana Affordable",
-      "p": "OTH",
-      "usd": 250000,
-      "cycle": 250000
-     }
-    ],
-    "spellings": [
-     "AXADVOCACY"
-    ]
-   }
-  },
-  {
    "key": "CARVINCONSULT",
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 50,
-    "priced": 37,
-    "usd": 162015,
+    "docs": 52,
+    "priced": 38,
+    "usd": 163738,
     "stations": [
      "005341",
      "WDSU",
@@ -2904,10 +2878,11 @@
      "Sydney Barthelemy for Senate District 3",
      "Lee/R/JP 1st Parish Court Div",
      "Lee for Judge",
+     "John F Lee/1st Parish Court/DivB/LA/Rep",
      "Barthelemy/D/State Senate Dist 3"
     ],
     "first": "2026-02-05",
-    "last": "2026-11-04",
+    "last": "2026-11-05",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -3046,6 +3021,34 @@
      "CARVIN CONSULTING INC.",
      "CARVIN CONSULTING GROUP",
      "CARVIN CONSULTANTS, INC."
+    ]
+   }
+  },
+  {
+   "key": "AXADVOCACY",
+   "name": "Axadvocacy",
+   "found_by": "filings",
+   "paid": {
+    "total": 250000,
+    "media": 234000,
+    "rows": 3,
+    "media_cycle": 234000,
+    "cycle": 250000,
+    "years": {
+     "2026": 250000
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "8205",
+      "n": "Keep Louisiana Affordable",
+      "p": "OTH",
+      "usd": 250000,
+      "cycle": 250000
+     }
+    ],
+    "spellings": [
+     "AXADVOCACY"
     ]
    }
   },
@@ -5310,13 +5313,14 @@
    "name": "Brandon Guichard Digital Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 19,
-    "priced": 12,
-    "usd": 107557,
+    "docs": 20,
+    "priced": 13,
+    "usd": 107907,
     "stations": [
      "WAFB",
      "WBRZ",
      "WDSU",
+     "WGNO",
      "WVUE",
      "WWL-TV"
     ],
@@ -5327,7 +5331,8 @@
      "Justin for Public Service Commission",
      "Holmes for Judge",
      "Roche/D/Judge",
-     "Justin/NP/PSC District 1"
+     "Justin/NP/PSC District 1",
+     "Lauren Jewett/US Congress/LA/Dem Invoice"
     ],
     "first": "2026-08-06",
     "last": "2026-11-04",
@@ -18746,6 +18751,27 @@
     ],
     "first": "2026-05-15",
     "last": "2026-05-15",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "COSACACNINCOMMUNICA",
+   "name": "Cosa Cacnin Communica",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "005341"
+    ],
+    "clients": [],
+    "first": "2026-11-05",
+    "last": "2026-11-05",
     "away": {
      "docs": 0,
      "usd": 0,

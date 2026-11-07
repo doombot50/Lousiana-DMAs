@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-06T17:58:23Z",
+ "scraped": "2026-11-07T16:52:41Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-11-04T18:40:09Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -3697,7 +3697,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-11-04T18:40:09Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -5852,7 +5852,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-11-04T18:40:09Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -10710,7 +10710,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-11-04T18:40:09Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -10737,6 +10737,7 @@
     "Political Files/2026/Local": "a85d2cb0-74de-3c13-0d07-f8a7ba294e4b",
     "Political Files/2026/Local/Jefferson Parish": "2ae8fb2d-fc79-88d7-ab39-5a0a0b410874",
     "Political Files/2026/Local/Jefferson Parish/24th Judicial District Court Division F": "12f9fc3e-908d-a694-1c19-9db667b6c30b",
+    "Political Files/2026/Local/Jefferson Parish/24th Judicial District Court Division F/Joe McMahon": "abae687c-f8be-9137-46bd-c4f4a91f2e72",
     "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division A": "60d9cfab-65c6-53ff-3a44-3a18474a9de8",
     "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division A/Sal Brocato": "61bc7916-40fa-a77b-2e9b-64f35dadd25e",
     "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division B": "f0333e68-f8fb-3a97-4e43-ed78991b18f4",
@@ -10762,6 +10763,105 @@
     "Political Files/2026/State": "83318994-cd0f-6ccd-33e5-da307dd20115"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division B/John Lee",
+     "name": "WGNO Lee 5437642 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:34:23-05:00",
+     "folder_id": "244d14bf-d5ce-4e10-e56e-57c582d889f8",
+     "file_id": "85bf156b-2ce3-5b6b-5651-faaee4ae1bcc",
+     "file_manager_id": "ba5be343-88ae-40e5-bd75-cf236c885e3f"
+    },
+    {
+     "path": "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division A/Sal Brocato",
+     "name": "WGNO Brocato 5433700 invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:33:14-05:00",
+     "folder_id": "61bc7916-40fa-a77b-2e9b-64f35dadd25e",
+     "file_id": "21a3e591-88de-a812-916b-cc69fbb131f4",
+     "file_manager_id": "4aa07c3d-b36e-4f29-bf14-f22ebbe99a25"
+    },
+    {
+     "path": "Political Files/2026/Local/Orleans Parish/Judge Civil District Court Division L/Candace Newell",
+     "name": "WGNO Newell 5441897 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:28:08-05:00",
+     "folder_id": "75ff1513-57d2-c0c6-c6bd-c674166c6583",
+     "file_id": "c96aae17-b289-8b84-0906-8d2fa3c0ebc2",
+     "file_manager_id": "e69630b2-f0b4-4395-b3b6-a937f4f31ebe"
+    },
+    {
+     "path": "Political Files/2026/Local/Jefferson Parish/24th Judicial District Court Division F/Joe McMahon",
+     "name": "WGNO McMahon 5432911 invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:25:23-05:00",
+     "folder_id": "abae687c-f8be-9137-46bd-c4f4a91f2e72",
+     "file_id": "c06ae676-d0e4-1e02-37f3-fcb37cc97caf",
+     "file_manager_id": "8b60c2d1-7045-4c4d-98f0-0080bdf89951"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+     "name": "WGNO Letlow 5425306 invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:23:44-05:00",
+     "folder_id": "ddfa4766-bd01-d950-6288-13706a95de8b",
+     "file_id": "c941afe0-87a4-9a07-e977-a14809e15fc7",
+     "file_manager_id": "7193a90e-049a-4052-b0e5-f4bbea47a371"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+     "name": "WGNO Letlow 5425398 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:23:43-05:00",
+     "folder_id": "ddfa4766-bd01-d950-6288-13706a95de8b",
+     "file_id": "9d74a194-d22c-6729-5690-085a059735cc",
+     "file_manager_id": "d41ecf7a-5399-4c8f-8d61-5a77673e88e3"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "WGNO Davis 5425428 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:20:48-05:00",
+     "folder_id": "a3d51ecc-2029-3343-3e8e-f338b32fd20e",
+     "file_id": "ad15a9d1-64d9-3627-f34d-49ab1911824b",
+     "file_manager_id": "907e0d9d-b154-4723-b1b7-bb91f4d9c6b5"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "WGNO Davis 5434642 invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:20:48-05:00",
+     "folder_id": "a3d51ecc-2029-3343-3e8e-f338b32fd20e",
+     "file_id": "02320e57-91b3-5c0c-a181-b22477343993",
+     "file_manager_id": "7aa9a70e-2a47-4135-a697-59ee27d9ddf4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+     "name": "WGNO Davis 5442661 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:20:48-05:00",
+     "folder_id": "a3d51ecc-2029-3343-3e8e-f338b32fd20e",
+     "file_id": "8ad8c677-81c0-2bbc-d84c-dc74ea29ae91",
+     "file_manager_id": "14f89592-195a-4070-8d34-57140f268c42"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/1st Congressional District/Steve Scalise",
+     "name": "WGNO Scalise 5427587 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:15:44-05:00",
+     "folder_id": "1d57c41c-f910-f01f-d7f4-6f1c170a0c5a",
+     "file_id": "07dd32f0-adb3-0ea1-b8d1-ea8f2480ae2f",
+     "file_manager_id": "833d5659-13dd-4eb6-8c68-64ecda571ac7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/1st Congressional District/Lauren Jewett",
+     "name": "WGNO Jewett 5443030 Oct invoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:12:45-05:00",
+     "folder_id": "010d3f24-e38d-8cf2-4fe5-d4aaf830d400",
+     "file_id": "889402b2-b229-93c4-0fc1-ca82caa4f598",
+     "file_manager_id": "e5055d05-88fe-4b52-8811-86ffda0c806c"
+    },
     {
      "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
      "name": "WGNO Davis 5452252 order",
@@ -62872,7 +62972,7 @@
    "facility_id": "35852",
    "root_folder": "b912fb7c-0956-9efc-0d7f-75df566a3877",
    "profile": "tv-profile/kvhp",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2012": "b608a943-41f6-692e-e617-dd1b1bf27975",
     "2013": "ef516e5e-b9e2-4341-26e2-1d4e6c271d00",
@@ -64275,7 +64375,7 @@
    "facility_id": "51598",
    "root_folder": "4c72836f-58bb-6e20-9264-886b97ad6941",
    "profile": "tv-profile/kalb-tv",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2017": "0afb61f3-b48f-5fb4-32c5-8912057349c7",
     "2018": "6eb72ab6-a9d5-542a-0522-ab4b38dbe3d8",
@@ -64308,6 +64408,168 @@
     "Political Files/2026/Non-Candidate Issue Ads/Save Our Louisiana": "1888e08a-c368-a634-3fc1-3c40b46c34a0"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Oscar Dantzler Jr for Congress",
+     "name": "Oscar Dantzler KALB 4607567-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:14:52-05:00",
+     "folder_id": "8f991cdf-fc52-c6ae-cf19-65952c770b97",
+     "file_id": "abbc4ead-32cb-e348-8580-36c981d65bb3",
+     "file_manager_id": "6894eb72-f53c-4623-9a79-29f22143d31a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Oscar Dantzler Jr for Congress",
+     "name": "Oscar Dantzler KALB 4612234-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:14:52-05:00",
+     "folder_id": "8f991cdf-fc52-c6ae-cf19-65952c770b97",
+     "file_id": "517b2e8a-219b-4118-6795-9897a69b62c0",
+     "file_manager_id": "35864119-e032-48ae-b437-78a80ea4f125"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Oscar Dantzler Jr for Congress",
+     "name": "Oscar Dantzler NALB 4612242-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:14:52-05:00",
+     "folder_id": "8f991cdf-fc52-c6ae-cf19-65952c770b97",
+     "file_id": "308b0623-7268-2335-5068-a3d5a65fc2c3",
+     "file_manager_id": "5bb9d299-f5a9-4709-836a-b01b98a223a6"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Misti Cordell for Congress",
+     "name": "Misti Cordell KALB 4575736-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:14:19-05:00",
+     "folder_id": "6b9de34a-723b-5670-ec5e-54ed7717d374",
+     "file_id": "2714d25d-5057-bf74-7d26-358ce2cd9df9",
+     "file_manager_id": "cb03584a-7880-445b-bb4d-c0e1323f463b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Echols for Congress",
+     "name": "Michael Echols KALB 4605107-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:13:58-05:00",
+     "folder_id": "d6971930-bfcc-5461-6ecb-1d95b65ba86d",
+     "file_id": "3fedcb5b-c94d-7e80-9c17-8684f6251151",
+     "file_manager_id": "08f04e33-98e6-46c5-a999-5c706eb422ea"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana Growth and Future Fund",
+     "name": "La Growth & Future Fund KALB 4593545-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:13:20-05:00",
+     "folder_id": "5d1f8cb0-e6fa-4609-a48d-0b6ed1cd9901",
+     "file_id": "9a5a5d3c-0f4b-8ea9-a3c3-1ac83ad0d1d5",
+     "file_manager_id": "f5a13192-b698-45a0-b727-e1ccf4dc7a8b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana Growth and Future Fund",
+     "name": "La Growth & Future Fund KALB 4604735-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:13:20-05:00",
+     "folder_id": "5d1f8cb0-e6fa-4609-a48d-0b6ed1cd9901",
+     "file_id": "f7edbeb6-74eb-3c49-f14a-27799d731634",
+     "file_manager_id": "f098e954-372d-4d9d-b294-661e4c59fda7"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana Growth and Future Fund",
+     "name": "La Growth & Future Fund NALB 4604775-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:13:20-05:00",
+     "folder_id": "5d1f8cb0-e6fa-4609-a48d-0b6ed1cd9901",
+     "file_id": "2bfa1202-f912-2112-7ea0-5e8b8f84362c",
+     "file_manager_id": "55ac76a9-ad68-45dc-81c7-a9c331275679"
+    },
+    {
+     "path": "Political Files/2026/Local/Jonathan Gaspard for Avoyelles District Attorney",
+     "name": "Jonathan Gaspard KALB 4595614-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:12:46-05:00",
+     "folder_id": "346d2728-7528-d5f7-b88e-fef8687095a4",
+     "file_id": "07aa1ef2-68db-c070-bbb8-2f7e64fec8c8",
+     "file_manager_id": "95e1085a-a795-4ddd-82b6-47c43c09a758"
+    },
+    {
+     "path": "Political Files/2026/Local/Jacques Roy for Mayor",
+     "name": "Jacques Roy KALB 4600732-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:12:15-05:00",
+     "folder_id": "00ccf93d-edb3-15d3-a3fb-4a7d2e061de5",
+     "file_id": "182c3370-3376-d554-058c-3df51ad77f9f",
+     "file_manager_id": "0ed279e5-f307-44d1-866b-f42f55242f4f"
+    },
+    {
+     "path": "Political Files/2026/Local/Jacques Roy for Mayor",
+     "name": "Jacques Roy KALB 4613065-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:12:15-05:00",
+     "folder_id": "00ccf93d-edb3-15d3-a3fb-4a7d2e061de5",
+     "file_id": "c62d76c1-d960-97bd-e424-935aad7f603f",
+     "file_manager_id": "a84560b2-6967-4022-a2ea-2eff7b1a2790"
+    },
+    {
+     "path": "Political Files/2026/Local/Jacques Roy for Mayor",
+     "name": "Jacques Roy NALB 4613107-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:12:15-05:00",
+     "folder_id": "00ccf93d-edb3-15d3-a3fb-4a7d2e061de5",
+     "file_id": "4bfca66f-d18f-aeb1-85fc-b10a69ae9922",
+     "file_manager_id": "bc1b79b5-6bff-4308-b72d-31933321c545"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Gabe Firment for Congress",
+     "name": "Gabe Firment KALB 4596703-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:11:36-05:00",
+     "folder_id": "ccc78a93-2088-e6c4-31ff-e31f76efb0d5",
+     "file_id": "bd0c8b31-0dad-6676-e438-ae8534e59eaa",
+     "file_manager_id": "00b648d0-a099-4bbc-b3a6-f1ad5d112d5d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Gabe Firment for Congress",
+     "name": "Gabe Firment KALB 4591852-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:11:35-05:00",
+     "folder_id": "ccc78a93-2088-e6c4-31ff-e31f76efb0d5",
+     "file_id": "dfce60f1-c9ae-b77e-9062-71d252165b28",
+     "file_manager_id": "16fd7284-72cb-4f7f-ae54-7a6ca271a72d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Gabe Firment for Congress",
+     "name": "Gabe Firment KALB 4591860-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:11:35-05:00",
+     "folder_id": "ccc78a93-2088-e6c4-31ff-e31f76efb0d5",
+     "file_id": "2222bc6e-50cc-c5a1-7b1e-e95f348b590c",
+     "file_manager_id": "7ae3f255-18dd-4461-b9cf-7a5542955a8f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Gabe Firment for Congress",
+     "name": "Gabe Firment NALB 4591776-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:11:35-05:00",
+     "folder_id": "ccc78a93-2088-e6c4-31ff-e31f76efb0d5",
+     "file_id": "b287939b-8dd0-90aa-454d-3e2658f14328",
+     "file_manager_id": "9c53a366-ab20-423d-b8b1-ba5df8552098"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Gabe Firment for Congress",
+     "name": "Gabe Firment NALB 4591875-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:11:35-05:00",
+     "folder_id": "ccc78a93-2088-e6c4-31ff-e31f76efb0d5",
+     "file_id": "1dd0c828-4871-fe11-d283-1c25a4a62194",
+     "file_manager_id": "06b8a874-a9d3-4472-88fc-e50f7ced467f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Gabe Firment for Congress",
+     "name": "Gabe Firment NALB 4596762-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T15:11:35-05:00",
+     "folder_id": "ccc78a93-2088-e6c4-31ff-e31f76efb0d5",
+     "file_id": "b4c955f8-3876-eb88-bd1d-0e311b00f987",
+     "file_manager_id": "7543a57f-c24e-4645-b4ec-efb7b321313b"
+    },
     {
      "path": "Political Files/2026/Local/Jacques Roy for Mayor",
      "name": "Jacques Roy for Mayor KALB 4613065",
@@ -65775,7 +66037,7 @@
    "facility_id": "52907",
    "root_folder": "05f00a78-2e38-ca9b-9fdb-20f7062a9793",
    "profile": "tv-profile/klax-tv",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2018": "5185c466-8e76-1ef8-2bc3-2e500088489f",
     "2019": "1cc958b0-3405-760b-74b4-761d1bbb8c01",
@@ -66307,7 +66569,7 @@
    "facility_id": "16539",
    "root_folder": "7ea29a0e-4a15-e0d6-30d2-9ff42870feda",
    "profile": "tv-profile/wntz-tv",
-   "scraped_at": "2026-11-03T18:25:57Z",
+   "scraped_at": "2026-11-07T16:50:43Z",
    "year_folders": {
     "2015": "499fa776-206c-b2ee-13a1-c5f507d7430c",
     "2017": "ab224572-9c77-adba-46ef-43d52bc7ab10",
@@ -66718,10 +66980,10 @@
  "blocked": null,
  "attempted": {
   "KADN": "2026-11-06T17:57:29Z",
-  "KALB": "2026-11-03T18:25:57Z",
+  "KALB": "2026-11-07T16:50:43Z",
   "KARD": "2026-11-06T17:57:29Z",
   "KATC": "2026-11-06T17:57:29Z",
-  "KLAX": "2026-11-03T18:25:57Z",
+  "KLAX": "2026-11-07T16:50:43Z",
   "KLFY": "2026-11-06T17:57:29Z",
   "KMSS": "2026-11-05T18:44:03Z",
   "KNOE": "2026-11-06T17:57:29Z",
@@ -66731,19 +66993,19 @@
   "KTAL": "2026-11-05T18:44:03Z",
   "KTBS": "2026-11-05T18:44:03Z",
   "KTVE": "2026-11-06T17:57:29Z",
-  "KVHP": "2026-11-03T18:25:57Z",
+  "KVHP": "2026-11-07T16:50:43Z",
   "WAFB": "2026-11-04T18:40:09Z",
   "WBRL-CD": "2026-11-05T18:44:03Z",
   "WBRZ": "2026-11-05T18:44:03Z",
-  "WDSU": "2026-11-04T18:40:09Z",
+  "WDSU": "2026-11-07T16:50:43Z",
   "WGMB": "2026-11-05T18:44:03Z",
-  "WGNO": "2026-11-04T18:40:09Z",
+  "WGNO": "2026-11-07T16:50:43Z",
   "WLAE": "2026-11-04T18:40:09Z",
   "WNOL": "2026-11-04T18:40:09Z",
-  "WNTZ": "2026-11-03T18:25:57Z",
+  "WNTZ": "2026-11-07T16:50:43Z",
   "WUPL": "2026-11-04T18:40:09Z",
   "WVLA": "2026-11-05T18:44:03Z",
-  "WVUE": "2026-11-04T18:40:09Z",
-  "WWL-TV": "2026-11-04T18:40:09Z"
+  "WVUE": "2026-11-07T16:50:43Z",
+  "WWL-TV": "2026-11-07T16:50:43Z"
  }
 }

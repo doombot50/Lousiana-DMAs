@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-11-06T18:00:08Z",
+ "scraped": "2026-11-07T16:53:40Z",
  "years": [
   2026,
   2027
@@ -110683,7 +110683,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-11-03T18:31:25Z",
+   "scraped_at": "2026-11-07T16:52:41Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -110708,6 +110708,7 @@
     "Political Files/2026/Local": "e62190c9-5545-17a4-5dbc-8b47e2ea6e68",
     "Political Files/2026/Local/Cmte to Elect Luke Lancaster": "e858533c-6a36-5dd9-6ee3-7a9a494464ae",
     "Political Files/2026/Local/Comm to Elect Candace Newell": "415e8b88-794a-e501-0686-a9dd3c579ec2",
+    "Political Files/2026/Local/Committee to Elect Joseph Cao": "5e799a05-6598-c442-2030-1c220ae6a468",
     "Political Files/2026/Local/Committee to Elect Sal Brocato": "438bba8f-0561-358d-210c-c0123be88b00",
     "Political Files/2026/Local/ELLIE SHRODER BESE DIST 1": "0059a25f-e24d-7d31-c875-3f8f70e0355b",
     "Political Files/2026/Local/JOHN YOUNG": "b9937436-d308-e180-6893-493ace14e2a4",
@@ -110732,6 +110733,51 @@
     "Political Files/2026/Non-Candidate Issue Ads/READY FOR THE FIGHT": "c1879867-f46e-a391-0389-bf727eec369b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "Mike Marsiglia NAB SYS 0222_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T17:04:16-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "d1a2447a-baf3-9d79-ffe0-e8d502c3e136",
+     "file_manager_id": "35566f6b-8543-441e-a7cf-1a0dd7cef473"
+    },
+    {
+     "path": "Political Files/2026/Local/JOSEPH CAO",
+     "name": "Joseph Cao-NAB-SYS 0222 SYS 1758 SYS 1757_070826_1700_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T17:02:33-05:00",
+     "folder_id": "d135b7e9-18a3-ec55-a051-684138e107ce",
+     "file_id": "c2d7ca0e-01a4-fdfc-0249-a8ee202840e4",
+     "file_manager_id": "b1614b8c-51c8-4b58-aff3-f18edc7a0273"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CLEARPATH ACTION FUND",
+     "name": "CLEARPATH ACTION FUND - NAB - SYS 2119 SYS 3996 SYS 6979_041526_1447_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:52:27-05:00",
+     "folder_id": "42ea0815-066c-c982-ef90-ba7b3acbfd8c",
+     "file_id": "01b604b3-6d3d-8290-f70a-974a279a1b34",
+     "file_manager_id": "9a8a6db3-56d1-445a-a6d6-f96b6508e732"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise for Congress",
+     "name": "SCALISE FOR CONGRESS_NAB_SYS6979_110426_1703",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:48:58-05:00",
+     "folder_id": "30780c7e-55da-3a1f-3e97-07cde5456c97",
+     "file_id": "660438e7-b926-45ca-26cb-916662f7b110",
+     "file_manager_id": "9de9c601-7b7b-44e1-92fc-acf40f9bbd22"
+    },
+    {
+     "path": "Political Files/2026/Local/Committee to Elect Joseph Cao",
+     "name": "JOSEPH CAO-NAB-SYS 0222 SYS 1758 SYS 1757_070926_1700_110426_1703",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:21:32-05:00",
+     "folder_id": "5e799a05-6598-c442-2030-1c220ae6a468",
+     "file_id": "c4ada58a-29fc-a274-9555-b9d7e1db0d54",
+     "file_manager_id": "d998349a-8954-4a1d-b49c-31fdad76de95"
+    },
     {
      "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
      "name": "MIKE MARSIGLIA_confirm1346725_sys0222_20261030_151615",
@@ -112676,7 +112722,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-11-03T18:31:25Z",
+   "scraped_at": "2026-11-07T16:52:41Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -112704,7 +112750,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-11-03T18:31:25Z",
+   "scraped_at": "2026-11-07T16:52:41Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -112826,7 +112872,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-11-03T18:31:25Z",
+   "scraped_at": "2026-11-07T16:52:41Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -112854,7 +112900,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-11-03T18:31:25Z",
+   "scraped_at": "2026-11-07T16:52:41Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -112996,7 +113042,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-11-03T18:31:25Z",
+   "scraped_at": "2026-11-07T16:52:41Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -172529,17 +172575,17 @@
   "003084": "2026-11-05T18:47:45Z",
   "003376": "2026-11-03T18:31:25Z",
   "003478": "2026-11-04T18:41:59Z",
-  "003680": "2026-11-03T18:31:25Z",
+  "003680": "2026-11-07T16:52:41Z",
   "004289": "2026-11-04T18:41:59Z",
   "004321": "2026-11-06T17:58:23Z",
   "004383": "2026-11-03T18:31:25Z",
   "005142": "2026-11-06T17:58:23Z",
   "005143": "2026-11-04T18:41:59Z",
-  "005341": "2026-11-03T18:31:25Z",
-  "006379": "2026-11-03T18:31:25Z",
-  "007033": "2026-11-03T18:31:25Z",
+  "005341": "2026-11-07T16:52:41Z",
+  "006379": "2026-11-07T16:52:41Z",
+  "007033": "2026-11-07T16:52:41Z",
   "007036": "2026-11-04T18:41:59Z",
-  "007052": "2026-11-03T18:31:25Z",
+  "007052": "2026-11-07T16:52:41Z",
   "008048": "2026-11-06T17:58:23Z",
   "008273": "2026-11-05T18:47:45Z",
   "008277": "2026-11-04T18:41:59Z",
@@ -172554,7 +172600,7 @@
   "013331": "2026-11-03T18:31:25Z",
   "014241": "2026-11-03T18:31:25Z",
   "015650": "2026-11-05T18:47:45Z",
-  "016728": "2026-11-03T18:31:25Z",
+  "016728": "2026-11-07T16:52:41Z",
   "020573": "2026-11-06T17:58:23Z",
   "021784": "2026-11-03T18:31:25Z",
   "022095": "2026-11-05T18:47:45Z",

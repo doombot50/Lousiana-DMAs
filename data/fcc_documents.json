@@ -12370,6 +12370,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-26T18:05:58Z"
   },
+  "14f89592-195a-4070-8d34-57140f268c42": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 175.0,
+   "net": 148.75,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5442661",
+   "invoice_no": "5442661-1",
+   "flight": [
+    "10/22/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+   "name": "WGNO Davis 5442661 Oct invoice",
+   "uploaded": "2026-11-04T15:20:48-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "1502717c-40fb-4e0d-8661-f2102d8de3fd": {
    "kind": "request",
    "layout": "nab",
@@ -18659,6 +18683,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:27:27Z"
   },
+  "1f3c145e-1559-435d-b6f9-11a006726219": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "blake_miguez_for_congress_nab_1100692514",
+   "uploaded": "2026-11-03T17:24:39-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-07T16:56:59Z"
+  },
   "1f55ac2a-9476-434a-bab4-a6e8eb20b664": {
    "kind": "request",
    "layout": "nab",
@@ -20870,6 +20915,27 @@
    "uploaded": "2026-10-20T02:29:27-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T16:15:51Z"
+  },
+  "22776579-4830-4ff5-abec-b97743edacc1": {
+   "kind": "order",
+   "layout": "iheart",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "1100692514",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "blake_miguez_for_congress_order_confirmation_1100692514",
+   "uploaded": "2026-11-03T17:25:33-05:00",
+   "name_kind": "order",
+   "read_at": "2026-11-07T16:56:59Z"
   },
   "227d4fa1-aaaf-4514-a9ce-df049ed1cac2": {
    "kind": "request",
@@ -27594,6 +27660,27 @@
    "uploaded": "2026-10-02T12:39:07-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "2d971d96-c4a7-4321-8776-ecf1e04de1f3": {
+   "kind": "order",
+   "layout": "iheart",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "1100692514",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "blake_miguez_for_congress_order_confirmation_1100692514",
+   "uploaded": "2026-11-05T04:15:31-05:00",
+   "name_kind": "order",
+   "read_at": "2026-11-07T16:56:59Z"
   },
   "2d9e9051-94a2-4f03-b078-cf152924bd49": {
    "kind": "invoice",
@@ -43136,6 +43223,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "4aa07c3d-b36e-4f29-bf14-f22ebbe99a25": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5295.0,
+   "net": 4500.75,
+   "agency": "Buisson Creative Strategies",
+   "advertiser": "POL/Sal Brocato/1st Parish Court DivA/LA/Rep",
+   "order_no": "5433700",
+   "invoice_no": "5433700-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division A/Sal Brocato",
+   "name": "WGNO Brocato 5433700 invoice",
+   "uploaded": "2026-11-04T15:33:14-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "4aa20975-eab0-4612-8261-57ee02a1d544": {
    "kind": "order",
    "layout": "contract",
@@ -54287,6 +54398,27 @@
    "uploaded": "2026-10-16T16:12:45-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T01:44:04Z"
+  },
+  "5e1b96fa-90ad-4962-a95e-9f37ab064282": {
+   "kind": "order",
+   "layout": "iheart",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "1100692514",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "blake_miguez_for_congress_order_confirmation_1100692514",
+   "uploaded": "2026-11-04T04:29:10-05:00",
+   "name_kind": "order",
+   "read_at": "2026-11-07T16:56:59Z"
   },
   "5e1c7657-c479-4b47-8725-d3ec88559bc2": {
    "kind": "order",
@@ -66073,6 +66205,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
   },
+  "7193a90e-049a-4052-b0e5-f4bbea47a371": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6600.0,
+   "net": 5610.0,
+   "agency": "BrabenderCox",
+   "advertiser": "POL/Julia Letlow/US Senate/LA/Rep",
+   "order_no": "5425306",
+   "invoice_no": "5425306-1",
+   "flight": [
+    "10/06/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+   "name": "WGNO Letlow 5425306 invoice",
+   "uploaded": "2026-11-04T15:23:44-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "719b2206-b4aa-45c8-984b-379c07236a25": {
    "kind": "order",
    "layout": "other",
@@ -71546,6 +71702,30 @@
    "uploaded": "2026-06-17T02:33:34-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
+  },
+  "7aa9a70e-2a47-4135-a697-59ee27d9ddf4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 200.0,
+   "net": 170.0,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5434642",
+   "invoice_no": "5434642-1",
+   "flight": [
+    "10/14/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+   "name": "WGNO Davis 5434642 invoice",
+   "uploaded": "2026-11-04T15:20:48-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
   },
   "7ab236a7-1359-4bad-9bcc-7b2d08afe4e6": {
    "kind": "request",
@@ -77282,6 +77462,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "833d5659-13dd-4eb6-8c68-64ecda571ac7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 42375.0,
+   "net": 36018.75,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Steve Scalise/Congress/LA/Rep",
+   "order_no": "5427587",
+   "invoice_no": "5427587-1",
+   "flight": [
+    "10/05/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US House/1st Congressional District/Steve Scalise",
+   "name": "WGNO Scalise 5427587 Oct invoice",
+   "uploaded": "2026-11-04T15:15:44-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "833dbb46-1457-4983-9faf-2ac949a64139": {
    "kind": "order",
    "layout": "contract",
@@ -82455,6 +82659,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T01:53:37Z"
   },
+  "8b60c2d1-7045-4c4d-98f0-0080bdf89951": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5295.0,
+   "net": 4500.75,
+   "agency": "Buisson Creative Strategies",
+   "advertiser": "POL/Joe McMahon/Judicial Court Judge Dist24/LA/Rep",
+   "order_no": "5432911",
+   "invoice_no": "5432911-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Local/Jefferson Parish/24th Judicial District Court Division F/Joe McMahon",
+   "name": "WGNO McMahon 5432911 invoice",
+   "uploaded": "2026-11-04T15:25:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "8b9ec9e1-f986-40fc-860e-3cae6263fc86": {
    "kind": "order",
    "layout": "contract",
@@ -85238,6 +85466,30 @@
    "uploaded": "2026-04-06T12:38:18-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "907e0d9d-b154-4723-b1b7-bb91f4d9c6b5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 250.0,
+   "net": 212.5,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5425428",
+   "invoice_no": "5425428-1",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis",
+   "name": "WGNO Davis 5425428 Oct invoice",
+   "uploaded": "2026-11-04T15:20:48-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
   },
   "90830ad0-57fb-4f7f-b23d-9084249dd629": {
    "kind": "order",
@@ -93229,6 +93481,27 @@
    "uploaded": "2026-11-03T17:25:52-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-05T21:13:04Z"
+  },
+  "9de9c601-7b7b-44e1-92fc-acf40f9bbd22": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Media Ad Ventures, Inc",
+   "advertiser": "Scalise for Congress",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "005341",
+   "path": "Political Files/2026/Federal/US House/Scalise for Congress",
+   "name": "SCALISE FOR CONGRESS_NAB_SYS6979_110426_1703",
+   "uploaded": "2026-11-05T16:48:58-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-07T16:57:41Z"
   },
   "9ded4b83-d583-4d4b-9078-fcf0817d62d2": {
    "kind": "invoice",
@@ -104244,6 +104517,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
   },
+  "b1614b8c-51c8-4b58-aff3-f18edc7a0273": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Carvin Consulting Inc",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "cable",
+   "call": "005341",
+   "path": "Political Files/2026/Local/JOSEPH CAO",
+   "name": "Joseph Cao-NAB-SYS 0222 SYS 1758 SYS 1757_070826_1700_110426_1702",
+   "uploaded": "2026-11-05T17:02:33-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-07T16:57:41Z"
+  },
   "b16f09aa-dd77-4f01-a92d-eee6aa97797c": {
    "kind": "order",
    "layout": "contract",
@@ -109964,6 +110258,30 @@
    "uploaded": "2026-04-09T11:03:13-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T07:05:00Z"
+  },
+  "ba5be343-88ae-40e5-bd75-cf236c885e3f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1722.5,
+   "net": 1464.13,
+   "agency": "Carvin Consulting Inc",
+   "advertiser": "POL/John F Lee/1st Parish Court/DivB/LA/Rep",
+   "order_no": "5437642",
+   "invoice_no": "5437642-1",
+   "flight": [
+    "10/16/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Local/Jefferson Parish/Judge 1st Parish Court Division B/John Lee",
+   "name": "WGNO Lee 5437642 Oct invoice",
+   "uploaded": "2026-11-04T15:34:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
   },
   "ba7f2674-e488-4fd9-ac1d-ffc58336dc96": {
    "kind": "request",
@@ -126024,6 +126342,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
   },
+  "d41ecf7a-5399-4c8f-8d61-5a77673e88e3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2250.0,
+   "net": 1912.5,
+   "agency": "BrabenderCox",
+   "advertiser": "POL/Julia Letlow/US Senate/LA/Rep",
+   "order_no": "5425398",
+   "invoice_no": "5425398-1",
+   "flight": [
+    "10/19/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow",
+   "name": "WGNO Letlow 5425398 Oct invoice",
+   "uploaded": "2026-11-04T15:23:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "d42b4cd5-a310-4d75-8d9a-ad7059a32850": {
    "kind": "request",
    "layout": "nab",
@@ -129413,6 +129755,27 @@
    "uploaded": "2026-08-28T09:21:42-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:36:10Z"
+  },
+  "d998349a-8954-4a1d-b49c-31fdad76de95": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Cosa Cacnin Communica",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "cable",
+   "call": "005341",
+   "path": "Political Files/2026/Local/Committee to Elect Joseph Cao",
+   "name": "JOSEPH CAO-NAB-SYS 0222 SYS 1758 SYS 1757_070926_1700_110426_1703",
+   "uploaded": "2026-11-05T16:21:32-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-07T16:57:41Z"
   },
   "d99d3a32-6d17-496a-90b6-9159d3610797": {
    "kind": "order",
@@ -136367,6 +136730,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "e5055d05-88fe-4b52-8811-86ffda0c806c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 350.0,
+   "net": 297.5,
+   "agency": "Brandon Guichard Advertising",
+   "advertiser": "POL/Lauren Jewett/US Congress/LA/Dem Invoice",
+   "order_no": "5443030",
+   "invoice_no": "5443030-1",
+   "flight": [
+    "10/25/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Federal/US House/1st Congressional District/Lauren Jewett",
+   "name": "WGNO Jewett 5443030 Oct invoice",
+   "uploaded": "2026-11-04T15:12:45-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
+  },
   "e50f721e-45bd-44b5-b276-8b3dcbedb549": {
    "kind": "invoice",
    "layout": "invoice",
@@ -137134,6 +137521,30 @@
    "uploaded": "2026-10-28T00:13:59-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-28T17:24:41Z"
+  },
+  "e69630b2-f0b4-4395-b3b6-a937f4f31ebe": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 770.0,
+   "net": 654.5,
+   "agency": "Bull's Eye Media - New Orleans",
+   "advertiser": "POL/Candace Newell/Judicial Court Judge/LA/Dem",
+   "order_no": "5441897",
+   "invoice_no": "5441897-1",
+   "flight": [
+    "10/19/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Local/Orleans Parish/Judge Civil District Court Division L/Candace Newell",
+   "name": "WGNO Newell 5441897 Oct invoice",
+   "uploaded": "2026-11-04T15:28:08-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:55:51Z"
   },
   "e6975a8a-6e89-4035-baee-00a0a093e3e6": {
    "kind": "request",
@@ -151120,6 +151531,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:52:27Z"
   },
+  "ffd88318-d798-494f-88af-4f8d405576f3": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Candace Newell for Judge Divis",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WYLD",
+   "path": "Political Files/2026/State",
+   "name": "candace_newell_for_judge_division_l_invoice_8824547714_9001417259",
+   "uploaded": "2026-11-05T17:51:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-07T16:56:59Z"
+  },
   "ffdb86a0-625a-46c6-95a9-e2a9325301f3": {
    "kind": "order",
    "layout": "contract",
@@ -151164,6 +151596,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-06T18:02:53Z",
+ "updated": "2026-11-07T16:57:41Z",
  "blocked": null
 }

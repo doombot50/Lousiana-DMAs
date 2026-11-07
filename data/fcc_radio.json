@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-11-06T18:01:25Z",
+ "scraped": "2026-11-07T16:54:54Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "34377",
    "root_folder": "f0ae9f95-558c-277a-75dd-b2e28ffe51cb",
    "profile": "am-profile/wwl",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2017": "38eb5549-6323-1e6d-bd47-90c80751145c",
     "2018": "73751ad0-9e0e-9d04-16a4-de57a6bc586f",
@@ -956,7 +956,7 @@
    "facility_id": "60707",
    "root_folder": "49864aa4-4269-2f4d-cc27-6bb284bcc2cf",
    "profile": "am-profile/wyld",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "a465475b-29e4-fdd5-d1fc-706f085f0b17",
     "2015": "f67a1ebc-567e-38cb-d239-d19973103ed6",
@@ -981,6 +981,15 @@
     "Political Files/2026/State": "dbbe5c26-b557-75d3-64d8-cafee93cce80"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State",
+     "name": "candace_newell_for_judge_division_l_invoice_8824547714_9001417259",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T17:51:59-05:00",
+     "folder_id": "dbbe5c26-b557-75d3-64d8-cafee93cce80",
+     "file_id": "d5e84359-05cc-7ba3-0686-db8610278c83",
+     "file_manager_id": "ffd88318-d798-494f-88af-4f8d405576f3"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "southern_poverty_law_center_issue_nab_multi",
@@ -1179,7 +1188,7 @@
    "facility_id": "54890",
    "root_folder": "2c634176-7d25-f7b9-6f93-1df6083e7736",
    "profile": "fm-profile/wrno-fm",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "cbf5076c-a386-a661-007f-04219e8a41df",
     "2015": "0b768790-1e57-e958-6b83-ff3eed4ee6c7",
@@ -2726,7 +2735,7 @@
    "facility_id": "11915",
    "root_folder": "593affec-3748-8fab-612a-c0f829ef734c",
    "profile": "fm-profile/wque-fm",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "098af428-b143-6a5d-9c60-c113cd91f997",
     "2015": "5db0f113-dec9-2dcc-b051-38b24f52574e",
@@ -2929,7 +2938,7 @@
    "facility_id": "12682",
    "root_folder": "5f817903-4735-2b57-e988-4aac3edae047",
    "profile": "am-profile/kpel",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "d022ecb2-8215-4bf2-e3c8-fbc7b8d42d2a",
     "2015": "dbed64b7-5bca-073d-7315-b6c9685b394c",
@@ -3031,7 +3040,7 @@
    "facility_id": "4054",
    "root_folder": "7a26cfff-38dd-e41c-8521-21d394e9d42a",
    "profile": "am-profile/wjbo",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "372007e5-244c-e8d6-662f-3d768451f313",
     "2015": "c51a627d-df94-e1b0-d6ad-49b9aa6edb5c",
@@ -3056,6 +3065,42 @@
     "Political Files/2026/Non-Candidate Issue Ads": "f31077ea-05a1-ca1d-18dd-eb0023da05ce"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "blake_miguez_for_congress_order_confirmation_1100692514",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T04:15:31-05:00",
+     "folder_id": "58712e4b-0fde-f3d0-a89f-9bd25e589109",
+     "file_id": "0458b2b0-2fe8-6a3b-8914-63e570d352b8",
+     "file_manager_id": "2d971d96-c4a7-4321-8776-ecf1e04de1f3"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "blake_miguez_for_congress_order_confirmation_1100692514",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T04:29:10-05:00",
+     "folder_id": "58712e4b-0fde-f3d0-a89f-9bd25e589109",
+     "file_id": "cbc48559-5d0c-8bcd-e78f-113fe3333c97",
+     "file_manager_id": "5e1b96fa-90ad-4962-a95e-9f37ab064282"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "blake_miguez_for_congress_order_confirmation_1100692514",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T17:25:33-05:00",
+     "folder_id": "58712e4b-0fde-f3d0-a89f-9bd25e589109",
+     "file_id": "00c7010c-0ff0-9f4f-f5bd-3408e4051e98",
+     "file_manager_id": "22776579-4830-4ff5-abec-b97743edacc1"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House",
+     "name": "blake_miguez_for_congress_nab_1100692514",
+     "ext": "pdf",
+     "uploaded": "2026-11-03T17:24:39-05:00",
+     "folder_id": "58712e4b-0fde-f3d0-a89f-9bd25e589109",
+     "file_id": "fd6ea15e-3866-8581-a93b-a4fa2d330142",
+     "file_manager_id": "1f3c145e-1559-435d-b6f9-11a006726219"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "club_for_growth_invoice_5524516255_1100687480",
@@ -6341,7 +6386,7 @@
    "facility_id": "46983",
    "root_folder": "f5c9ed49-1e9e-0987-42e8-1a5f5ac5a2bb",
    "profile": "am-profile/keel",
-   "scraped_at": "2026-11-03T18:34:10Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "30b2b76d-7e1a-c097-c846-5fefcdecfbe8",
     "2015": "c5764378-5b4e-ecae-effc-22ebef86b221",
@@ -20207,7 +20252,7 @@
    "facility_id": "58395",
    "root_folder": "73f37756-aff0-c921-8c07-9bc2db6e6fac",
    "profile": "fm-profile/kknd",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2017": "69b1583e-a867-453c-9d4a-42c11b2a3676",
     "2018": "766b51f3-0d57-f065-9aad-c000c451ccbd",
@@ -20243,7 +20288,7 @@
    "facility_id": "63199",
    "root_folder": "b04198bf-97fd-3c54-d021-d2585edb0743",
    "profile": "fm-profile/kzmz",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "3569fa2c-6e37-0766-31af-54600dbde581",
     "2015": "e0f8d3e4-226b-79c7-5305-3e56797a4097",
@@ -20323,7 +20368,7 @@
    "facility_id": "275",
    "root_folder": "1ced3265-613d-b949-8eaa-6def2abdff76",
    "profile": "am-profile/krof",
-   "scraped_at": "2026-11-03T04:04:23Z",
+   "scraped_at": "2026-11-07T16:53:40Z",
    "year_folders": {
     "2014": "93debe9d-eee0-9d68-ed8b-7d87e8fb1e81",
     "2015": "eae1ce53-4086-f819-83e6-c4685dec3041",
@@ -20701,7 +20746,7 @@
   "KBTT": "2026-11-06T18:00:08Z",
   "KBZE": "2026-11-04T18:42:40Z",
   "KDKS": "2026-11-03T18:34:10Z",
-  "KEEL": "2026-11-03T18:34:10Z",
+  "KEEL": "2026-11-07T16:53:40Z",
   "KEUN": "2026-11-03T18:34:10Z",
   "KFXZ": "2026-11-05T18:48:25Z",
   "KGLA": "2026-11-03T18:34:10Z",
@@ -20709,7 +20754,7 @@
   "KJAE": "2026-11-03T18:34:10Z",
   "KJLO": "2026-11-06T18:00:08Z",
   "KJMG": "2026-11-06T18:00:08Z",
-  "KKND": "2026-11-03T04:04:23Z",
+  "KKND": "2026-11-07T16:53:40Z",
   "KLIL": "2026-11-06T18:00:08Z",
   "KLKL": "2026-11-03T18:34:10Z",
   "KLWB": "2026-11-03T18:34:10Z",
@@ -20720,11 +20765,11 @@
   "KMXH": "2026-11-03T18:34:10Z",
   "KNEK": "2026-11-04T18:42:40Z",
   "KOKA": "2026-11-03T18:34:10Z",
-  "KPEL": "2026-11-03T18:34:10Z",
+  "KPEL": "2026-11-07T16:53:40Z",
   "KQKI": "2026-11-05T18:48:25Z",
   "KQXL": "2026-11-04T18:42:40Z",
   "KRMD": "2026-11-05T18:48:25Z",
-  "KROF": "2026-11-03T04:04:23Z",
+  "KROF": "2026-11-07T16:53:40Z",
   "KRRQ": "2026-11-06T18:00:08Z",
   "KRVE": "2026-11-03T18:34:10Z",
   "KRVV": "2026-11-03T18:34:10Z",
@@ -20737,7 +20782,7 @@
   "KVPI": "2026-11-03T18:34:10Z",
   "KXKS": "2026-11-03T18:34:10Z",
   "KYKZ": "2026-11-03T18:34:10Z",
-  "KZMZ": "2026-11-03T04:04:23Z",
+  "KZMZ": "2026-11-07T16:53:40Z",
   "KZRZ": "2026-11-03T18:34:10Z",
   "KZWA": "2026-11-05T18:48:25Z",
   "WBOK": "2026-11-04T18:42:40Z",
@@ -20748,19 +20793,19 @@
   "WFMF": "2026-11-03T18:34:10Z",
   "WGSO": "2026-11-03T18:34:10Z",
   "WGUO": "2026-11-03T18:34:10Z",
-  "WJBO": "2026-11-03T18:34:10Z",
+  "WJBO": "2026-11-07T16:53:40Z",
   "WKBU": "2026-11-05T18:48:25Z",
   "WLMG": "2026-11-04T18:42:40Z",
   "WNOE": "2026-11-04T18:42:40Z",
   "WNXX": "2026-11-03T18:34:10Z",
-  "WQUE": "2026-11-03T18:34:10Z",
-  "WRNO": "2026-11-03T18:34:10Z",
+  "WQUE": "2026-11-07T16:53:40Z",
+  "WRNO": "2026-11-07T16:53:40Z",
   "WRQQ": "2026-11-03T18:34:10Z",
   "WTGE": "2026-11-03T18:34:10Z",
   "WTIX": "2026-11-06T18:00:08Z",
-  "WWL": "2026-11-03T18:34:10Z",
+  "WWL": "2026-11-07T16:53:40Z",
   "WXOK": "2026-11-05T18:48:25Z",
-  "WYLD": "2026-11-03T18:34:10Z",
+  "WYLD": "2026-11-07T16:53:40Z",
   "WYNK": "2026-11-05T18:48:25Z"
  }
 }
