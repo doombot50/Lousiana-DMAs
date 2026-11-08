@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-07",
+ "generated": "2026-11-08",
  "data_through": "2026-11-05",
  "cycle_from": 2023,
- "documents_read": 6978,
+ "documents_read": 7018,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -288,9 +288,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 270,
-    "priced": 226,
-    "usd": 3793540,
+    "docs": 271,
+    "priced": 227,
+    "usd": 3899060,
     "stations": [
      "KADN",
      "KARD",
@@ -326,7 +326,7 @@
      "Accountabiilty Project"
     ],
     "first": "2026-01-20",
-    "last": "2026-10-29",
+    "last": "2026-11-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -370,9 +370,9 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 54,
+    "docs": 56,
     "priced": 18,
-    "usd": 276620,
+    "usd": 290870,
     "stations": [
      "002460",
      "005142",
@@ -401,7 +401,7 @@
      "William H. Burris / R / Superior Court / LA"
     ],
     "first": "2026-03-24",
-    "last": "2026-11-05",
+    "last": "2026-11-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -969,9 +969,9 @@
    "name": "BrabenderCox",
    "found_by": "political file",
    "fcc": {
-    "docs": 218,
+    "docs": 220,
     "priced": 105,
-    "usd": 1176712,
+    "usd": 1226442,
     "stations": [
      "002460",
      "003478",
@@ -1021,7 +1021,7 @@
      "Julla Letiow - US Senate (LA)"
     ],
     "first": "2026-02-06",
-    "last": "2026-11-04",
+    "last": "2026-11-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1358,6 +1358,98 @@
    }
   },
   {
+   "key": "CANALPARTNERSMEDIA",
+   "name": "Canal Partners Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 97,
+    "priced": 48,
+    "usd": 655395,
+    "stations": [
+     "002460",
+     "KADN",
+     "KATC",
+     "KLFY",
+     "KMSS",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WGMB",
+     "WGNO",
+     "WVLA",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "JAMIE DAVIS FOR U.S. SENATE",
+     "Hillar Moore Campaign",
+     "Davis/D/US Senate",
+     "Jamie Davis/US Senate/LA/Dem",
+     "Hillar Moore for East Baton Rouge DA",
+     "Jamle Davis for US Senate",
+     "JUSTICE PAC"
+    ],
+    "first": "2026-10-02",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 396193,
+    "media": 362975,
+    "rows": 10,
+    "media_cycle": 100000,
+    "cycle": 100000,
+    "years": {
+     "2015": 54003,
+     "2018": 238975,
+     "2021": 3215,
+     "2025": 100000
+    },
+    "committees": 4,
+    "top": [
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 100000,
+      "cycle": 100000
+     },
+     {
+      "f": "4332",
+      "n": "Move EBR, Inc.",
+      "p": "OTH",
+      "usd": 238975,
+      "cycle": 0
+     },
+     {
+      "f": "1564",
+      "n": "Dorothy Sue Hill",
+      "p": "DEM",
+      "usd": 54003,
+      "cycle": 0
+     },
+     {
+      "f": "5290",
+      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
+      "p": "OTH",
+      "usd": 3215,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "CANAL PARTNERS MEDIA"
+    ]
+   }
+  },
+  {
    "key": "KINGFISHCOMMUNICATIONS",
    "name": "Kingfish Communications",
    "found_by": "political file",
@@ -1560,6 +1652,66 @@
    }
   },
   {
+   "key": "MEDIUMBUYING",
+   "name": "MEDIUM BUYING",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 54,
+    "priced": 16,
+    "usd": 688325,
+    "stations": [
+     "002460",
+     "WAFB",
+     "WBRP",
+     "WBRZ",
+     "WGMB",
+     "WJBO",
+     "WVLA"
+    ],
+    "clients": [
+     "Club for Growth"
+    ],
+    "first": "2026-09-18",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 900,
+    "media": 400,
+    "rows": 2,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 900
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "2055",
+      "n": "Jeff Thompson",
+      "p": "REP",
+      "usd": 500,
+      "cycle": 0
+     },
+     {
+      "f": "1777",
+      "n": "Charles F. (Chuck) Wagner, Jr.",
+      "p": "DEM",
+      "usd": 400,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MEDIUM BUYING",
+     "MEDIUM BUYING LLC"
+    ]
+   }
+  },
+  {
    "key": "STRATEGICMEDIAPLACEMENT",
    "name": "Strategic Media Placement",
    "found_by": "political file",
@@ -1706,158 +1858,6 @@
    }
   },
   {
-   "key": "MEDIUMBUYING",
-   "name": "MEDIUM BUYING",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 49,
-    "priced": 15,
-    "usd": 568070,
-    "stations": [
-     "002460",
-     "WAFB",
-     "WBRP",
-     "WBRZ",
-     "WGMB",
-     "WJBO",
-     "WVLA"
-    ],
-    "clients": [
-     "Club for Growth"
-    ],
-    "first": "2026-09-18",
-    "last": "2026-11-05",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 900,
-    "media": 400,
-    "rows": 2,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 900
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "2055",
-      "n": "Jeff Thompson",
-      "p": "REP",
-      "usd": 500,
-      "cycle": 0
-     },
-     {
-      "f": "1777",
-      "n": "Charles F. (Chuck) Wagner, Jr.",
-      "p": "DEM",
-      "usd": 400,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MEDIUM BUYING",
-     "MEDIUM BUYING LLC"
-    ]
-   }
-  },
-  {
-   "key": "CANALPARTNERSMEDIA",
-   "name": "Canal Partners Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 89,
-    "priced": 43,
-    "usd": 448914,
-    "stations": [
-     "002460",
-     "KADN",
-     "KATC",
-     "KLFY",
-     "KMSS",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WGMB",
-     "WGNO",
-     "WVLA",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "JAMIE DAVIS FOR U.S. SENATE",
-     "Hillar Moore Campaign",
-     "Davis/D/US Senate",
-     "Jamie Davis/US Senate/LA/Dem",
-     "Hillar Moore for East Baton Rouge DA",
-     "Jamle Davis for US Senate",
-     "JUSTICE PAC"
-    ],
-    "first": "2026-10-02",
-    "last": "2026-11-04",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 396193,
-    "media": 362975,
-    "rows": 10,
-    "media_cycle": 100000,
-    "cycle": 100000,
-    "years": {
-     "2015": 54003,
-     "2018": 238975,
-     "2021": 3215,
-     "2025": 100000
-    },
-    "committees": 4,
-    "top": [
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 100000,
-      "cycle": 100000
-     },
-     {
-      "f": "4332",
-      "n": "Move EBR, Inc.",
-      "p": "OTH",
-      "usd": 238975,
-      "cycle": 0
-     },
-     {
-      "f": "1564",
-      "n": "Dorothy Sue Hill",
-      "p": "DEM",
-      "usd": 54003,
-      "cycle": 0
-     },
-     {
-      "f": "5290",
-      "n": "PAC FOR JUSTICE INDEPENDENT EXPENDITURES-ONLY COMMITTEE (formerly PAC FOR JUSTICE)",
-      "p": "OTH",
-      "usd": 3215,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "CANAL PARTNERS MEDIA"
-    ]
-   }
-  },
-  {
    "key": "PATRIOTMEDIA",
    "name": "Patriot Media Group",
    "found_by": "filings",
@@ -1911,6 +1911,100 @@
     "spellings": [
      "TECHNICOLOR POLITICAL"
     ]
+   }
+  },
+  {
+   "key": "MHBMEDIA",
+   "name": "MHB Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 23,
+    "priced": 8,
+    "usd": 470080,
+    "stations": [
+     "002460",
+     "WAFB",
+     "WBRZ",
+     "WGMB",
+     "WVLA"
+    ],
+    "clients": [
+     "Conservatives for American Excellence INC"
+    ],
+    "first": "2026-10-16",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 10102,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 10102,
+    "years": {
+     "2025": 10102
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "6356",
+      "n": "Louisiana Republican PAC",
+      "p": "REP",
+      "usd": 10102,
+      "cycle": 10102
+     }
+    ],
+    "spellings": [
+     "MHB MEDIA, INC."
+    ]
+   }
+  },
+  {
+   "key": "ELECTRICSYMPHONYMEDIA",
+   "name": "Electric Symphony Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 97,
+    "priced": 48,
+    "usd": 457360,
+    "stations": [
+     "KARD",
+     "KMSS",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "WAFB",
+     "WBRZ",
+     "WJBO"
+    ],
+    "clients": [
+     "Blake Miguez for Congress",
+     "Blake Miguez/US House/LA/Rep",
+     "Miguez for Louisiana",
+     "Blake Miguez US Congress",
+     "Alan Seabaugh for Caddo Parish District Attorney",
+     "Blake Miguez for Senate",
+     "Blake Miguez for U.S. Congress"
+    ],
+    "first": "2026-01-23",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 106,
+     "usd": 573229,
+     "clients": [
+      "Texans for Dan Patrick/Lt Governor/Rep",
+      "Josh Bray/State Senate Dist1/TX/Rep Invoice",
+      "Dan Patrick for Lt. Governor",
+      "Josh Bray Texas Representative Distrcit 1",
+      "Kelley Crisp/District Attorney/TX/Rep Invoice",
+      "Texans United for a Conservative Majority PAC"
+     ]
+    }
    }
   },
   {
@@ -2136,50 +2230,6 @@
    }
   },
   {
-   "key": "ELECTRICSYMPHONYMEDIA",
-   "name": "Electric Symphony Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 95,
-    "priced": 46,
-    "usd": 413106,
-    "stations": [
-     "KARD",
-     "KMSS",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "WAFB",
-     "WBRZ",
-     "WJBO"
-    ],
-    "clients": [
-     "Blake Miguez for Congress",
-     "Blake Miguez/US House/LA/Rep",
-     "Miguez for Louisiana",
-     "Blake Miguez US Congress",
-     "Alan Seabaugh for Caddo Parish District Attorney",
-     "Blake Miguez for Senate",
-     "Blake Miguez for U.S. Congress"
-    ],
-    "first": "2026-01-23",
-    "last": "2026-11-05",
-    "away": {
-     "docs": 106,
-     "usd": 573229,
-     "clients": [
-      "Texans for Dan Patrick/Lt Governor/Rep",
-      "Josh Bray/State Senate Dist1/TX/Rep Invoice",
-      "Dan Patrick for Lt. Governor",
-      "Josh Bray Texas Representative Distrcit 1",
-      "Kelley Crisp/District Attorney/TX/Rep Invoice",
-      "Texans United for a Conservative Majority PAC"
-     ]
-    }
-   }
-  },
-  {
    "key": "GOBIGMEDIA",
    "name": "Go Big Media",
    "found_by": "filings",
@@ -2337,6 +2387,30 @@
     "clients": [],
     "first": "2026-02-11",
     "last": "2026-06-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "MFBMEDIA",
+   "name": "MFB Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 21,
+    "priced": 11,
+    "usd": 328406,
+    "stations": [
+     "WAFB",
+     "WBRZ"
+    ],
+    "clients": [
+     "Wagley for Congress"
+    ],
+    "first": "2026-09-03",
+    "last": "2026-11-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2506,30 +2580,6 @@
      "VICTORIA COULON CONSULTING",
      "VICTORIA COULON"
     ]
-   }
-  },
-  {
-   "key": "MFBMEDIA",
-   "name": "MFB Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 19,
-    "priced": 10,
-    "usd": 279326,
-    "stations": [
-     "WAFB",
-     "WBRZ"
-    ],
-    "clients": [
-     "Wagley for Congress"
-    ],
-    "first": "2026-09-03",
-    "last": "2026-10-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -3081,6 +3131,180 @@
    }
   },
   {
+   "key": "TAYLORMEDIASERVICES",
+   "name": "Taylor Media Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 23,
+    "priced": 5,
+    "usd": 95850,
+    "stations": [
+     "KRVE",
+     "WAFB",
+     "WBRZ",
+     "WYNK"
+    ],
+    "clients": [
+     "Sherman Mack for DA",
+     "Sherman Q Mack District Attorney 21st",
+     "Sherman Mack Campaign",
+     "Sherman Mack, Dist. Attorney 21st"
+    ],
+    "first": "2026-09-18",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1371131,
+    "media": 112617,
+    "rows": 315,
+    "media_cycle": 98774,
+    "cycle": 488833,
+    "years": {
+     "2002": 2587,
+     "2003": 11609,
+     "2007": 15000,
+     "2009": 3371,
+     "2010": 1134,
+     "2011": 215786,
+     "2012": 104853,
+     "2013": 33632,
+     "2014": 44387,
+     "2015": 225718,
+     "2016": 22357,
+     "2017": 50700,
+     "2018": 21066,
+     "2019": 48571,
+     "2020": 74733,
+     "2021": 1194,
+     "2022": 5601,
+     "2023": 81605,
+     "2024": 48000,
+     "2025": 31226,
+     "2026": 328002
+    },
+    "committees": 41,
+    "top": [
+     {
+      "f": "1475",
+      "n": "Sherman Q. Mack",
+      "p": "REP",
+      "usd": 276565,
+      "cycle": 269065
+     },
+     {
+      "f": "1314",
+      "n": "Blair Edwards",
+      "p": "REP",
+      "usd": 48937,
+      "cycle": 48937
+     },
+     {
+      "f": "6488",
+      "n": "Lindon Bennett Magee",
+      "p": "REP",
+      "usd": 35000,
+      "cycle": 35000
+     },
+     {
+      "f": "1836",
+      "n": "Jeffrey Taylor",
+      "p": "REP",
+      "usd": 155288,
+      "cycle": 32331
+     },
+     {
+      "f": "6534",
+      "n": "Jenny Richardson Fore",
+      "p": "REP",
+      "usd": 28500,
+      "cycle": 28500
+     },
+     {
+      "f": "3679",
+      "n": "Rick Edmonds",
+      "p": "REP",
+      "usd": 30000,
+      "cycle": 15000
+     },
+     {
+      "f": "1706",
+      "n": "Jeffrey F. Wiley",
+      "p": "REP",
+      "usd": 20000,
+      "cycle": 15000
+     },
+     {
+      "f": "2800",
+      "n": "Jean-Paul Coussan",
+      "p": "REP",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "1723",
+      "n": "Eddie J. Lambert",
+      "p": "REP",
+      "usd": 55953,
+      "cycle": 12500
+     },
+     {
+      "f": "5579",
+      "n": "Elizabeth Murrill",
+      "p": "REP",
+      "usd": 10000,
+      "cycle": 10000
+     },
+     {
+      "f": "5876",
+      "n": "Jeff Bergeron",
+      "p": "IND",
+      "usd": 5500,
+      "cycle": 5500
+     },
+     {
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 2000,
+      "cycle": 2000
+     },
+     {
+      "f": "1722",
+      "n": "Jeff Hughes",
+      "p": "REP",
+      "usd": 103284,
+      "cycle": 0
+     },
+     {
+      "f": "204",
+      "n": "Dale Erdey",
+      "p": "REP",
+      "usd": 70485,
+      "cycle": 0
+     },
+     {
+      "f": "692",
+      "n": "Mack (Bodi) White",
+      "p": "REP",
+      "usd": 62140,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "TAYLOR MEDIA SERVICES",
+     "TAYLOR MEDIA",
+     "TAYLOR MEDIA LLC",
+     "TAYLOR MEDIA SERVICE",
+     "TAYLOR MEDIA, LLC"
+    ]
+   }
+  },
+  {
    "key": "DEVISESTRATEGY",
    "name": "Devise Strategy Group",
    "found_by": "filings",
@@ -3618,230 +3842,6 @@
    }
   },
   {
-   "key": "TAYLORMEDIASERVICES",
-   "name": "Taylor Media Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 20,
-    "priced": 4,
-    "usd": 75900,
-    "stations": [
-     "KRVE",
-     "WAFB",
-     "WBRZ",
-     "WYNK"
-    ],
-    "clients": [
-     "Sherman Mack for DA",
-     "Sherman Mack Campaign",
-     "Sherman Q Mack District Attorney 21st",
-     "Sherman Mack, Dist. Attorney 21st"
-    ],
-    "first": "2026-09-18",
-    "last": "2026-10-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1371131,
-    "media": 112617,
-    "rows": 315,
-    "media_cycle": 98774,
-    "cycle": 488833,
-    "years": {
-     "2002": 2587,
-     "2003": 11609,
-     "2007": 15000,
-     "2009": 3371,
-     "2010": 1134,
-     "2011": 215786,
-     "2012": 104853,
-     "2013": 33632,
-     "2014": 44387,
-     "2015": 225718,
-     "2016": 22357,
-     "2017": 50700,
-     "2018": 21066,
-     "2019": 48571,
-     "2020": 74733,
-     "2021": 1194,
-     "2022": 5601,
-     "2023": 81605,
-     "2024": 48000,
-     "2025": 31226,
-     "2026": 328002
-    },
-    "committees": 41,
-    "top": [
-     {
-      "f": "1475",
-      "n": "Sherman Q. Mack",
-      "p": "REP",
-      "usd": 276565,
-      "cycle": 269065
-     },
-     {
-      "f": "1314",
-      "n": "Blair Edwards",
-      "p": "REP",
-      "usd": 48937,
-      "cycle": 48937
-     },
-     {
-      "f": "6488",
-      "n": "Lindon Bennett Magee",
-      "p": "REP",
-      "usd": 35000,
-      "cycle": 35000
-     },
-     {
-      "f": "1836",
-      "n": "Jeffrey Taylor",
-      "p": "REP",
-      "usd": 155288,
-      "cycle": 32331
-     },
-     {
-      "f": "6534",
-      "n": "Jenny Richardson Fore",
-      "p": "REP",
-      "usd": 28500,
-      "cycle": 28500
-     },
-     {
-      "f": "3679",
-      "n": "Rick Edmonds",
-      "p": "REP",
-      "usd": 30000,
-      "cycle": 15000
-     },
-     {
-      "f": "1706",
-      "n": "Jeffrey F. Wiley",
-      "p": "REP",
-      "usd": 20000,
-      "cycle": 15000
-     },
-     {
-      "f": "2800",
-      "n": "Jean-Paul Coussan",
-      "p": "REP",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "1723",
-      "n": "Eddie J. Lambert",
-      "p": "REP",
-      "usd": 55953,
-      "cycle": 12500
-     },
-     {
-      "f": "5579",
-      "n": "Elizabeth Murrill",
-      "p": "REP",
-      "usd": 10000,
-      "cycle": 10000
-     },
-     {
-      "f": "5876",
-      "n": "Jeff Bergeron",
-      "p": "IND",
-      "usd": 5500,
-      "cycle": 5500
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 2000,
-      "cycle": 2000
-     },
-     {
-      "f": "1722",
-      "n": "Jeff Hughes",
-      "p": "REP",
-      "usd": 103284,
-      "cycle": 0
-     },
-     {
-      "f": "204",
-      "n": "Dale Erdey",
-      "p": "REP",
-      "usd": 70485,
-      "cycle": 0
-     },
-     {
-      "f": "692",
-      "n": "Mack (Bodi) White",
-      "p": "REP",
-      "usd": 62140,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "TAYLOR MEDIA SERVICES",
-     "TAYLOR MEDIA",
-     "TAYLOR MEDIA LLC",
-     "TAYLOR MEDIA SERVICE",
-     "TAYLOR MEDIA, LLC"
-    ]
-   }
-  },
-  {
-   "key": "MHBMEDIA",
-   "name": "MHB Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 16,
-    "priced": 4,
-    "usd": 173072,
-    "stations": [
-     "002460",
-     "WAFB",
-     "WBRZ",
-     "WGMB",
-     "WVLA"
-    ],
-    "clients": [
-     "Conservatives for American Excellence INC"
-    ],
-    "first": "2026-10-16",
-    "last": "2026-10-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 10102,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 10102,
-    "years": {
-     "2025": 10102
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "6356",
-      "n": "Louisiana Republican PAC",
-      "p": "REP",
-      "usd": 10102,
-      "cycle": 10102
-     }
-    ],
-    "spellings": [
-     "MHB MEDIA, INC."
-    ]
-   }
-  },
-  {
    "key": "PUSHDIGITAL",
    "name": "Push Digital",
    "found_by": "filings",
@@ -4254,6 +4254,169 @@
      "CROSS SCREEN MEDIA COMPANY",
      "CROSS SCREEN MEDIA, LLC",
      "CROSS SCREEN MEDIA (DIGITAL)"
+    ]
+   }
+  },
+  {
+   "key": "BRANDONGUICHARDDIGITAL",
+   "name": "Brandon Guichard Digital Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 22,
+    "priced": 13,
+    "usd": 150270,
+    "stations": [
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WGNO",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Justice PAC",
+     "Jewett/D/Congress",
+     "Holmes/D/OP Crim Dist Court Div",
+     "Justin for Public Service Commission",
+     "Holmes for Judge",
+     "Roche/D/Judge",
+     "Justin/NP/PSC District 1",
+     "Lauren Jewett/US Congress/LA/Dem Invoice"
+    ],
+    "first": "2026-08-06",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 377011,
+    "media": 0,
+    "rows": 75,
+    "media_cycle": 0,
+    "cycle": 265324,
+    "years": {
+     "2020": 31762,
+     "2021": 33750,
+     "2022": 46175,
+     "2023": 68556,
+     "2025": 165568,
+     "2026": 31200
+    },
+    "committees": 20,
+    "top": [
+     {
+      "f": "1921",
+      "n": "Helena Moreno",
+      "p": "DEM",
+      "usd": 161924,
+      "cycle": 161924
+     },
+     {
+      "f": "5507",
+      "n": "Dustin Granger",
+      "p": "DEM",
+      "usd": 28000,
+      "cycle": 28000
+     },
+     {
+      "f": "4399",
+      "n": "Jeremy LaCombe",
+      "p": "REP",
+      "usd": 36150,
+      "cycle": 15000
+     },
+     {
+      "f": "6149",
+      "n": "Madison O'Malley",
+      "p": "DEM",
+      "usd": 13950,
+      "cycle": 13950
+     },
+     {
+      "f": "5219",
+      "n": "Elroy James",
+      "p": "DEM",
+      "usd": 10700,
+      "cycle": 10700
+     },
+     {
+      "f": "7779",
+      "n": "Lacy Landrum",
+      "p": "OTH",
+      "usd": 8000,
+      "cycle": 8000
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "957",
+      "n": "Byron Lee",
+      "p": "DEM",
+      "usd": 7250,
+      "cycle": 7250
+     },
+     {
+      "f": "2598",
+      "n": "Kimya Holmes",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 17250,
+      "cycle": 4000
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 4000,
+      "cycle": 4000
+     },
+     {
+      "f": "5512",
+      "n": "Lesli Harris",
+      "p": "DEM",
+      "usd": 23000,
+      "cycle": 0
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 19675,
+      "cycle": 0
+     },
+     {
+      "f": "2345",
+      "n": "Leo J. Palazzo",
+      "p": "REP",
+      "usd": 10500,
+      "cycle": 0
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 7257,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "BRANDON GUICHARD DIGITAL GROUP",
+     "BRANDON GUICHARD",
+     "BRANDON GUICHARD DIGITAL"
     ]
    }
   },
@@ -5309,169 +5472,6 @@
    }
   },
   {
-   "key": "BRANDONGUICHARDDIGITAL",
-   "name": "Brandon Guichard Digital Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 20,
-    "priced": 13,
-    "usd": 107907,
-    "stations": [
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WGNO",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Jewett/D/Congress",
-     "Justice PAC",
-     "Holmes/D/OP Crim Dist Court Div",
-     "Justin for Public Service Commission",
-     "Holmes for Judge",
-     "Roche/D/Judge",
-     "Justin/NP/PSC District 1",
-     "Lauren Jewett/US Congress/LA/Dem Invoice"
-    ],
-    "first": "2026-08-06",
-    "last": "2026-11-04",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 377011,
-    "media": 0,
-    "rows": 75,
-    "media_cycle": 0,
-    "cycle": 265324,
-    "years": {
-     "2020": 31762,
-     "2021": 33750,
-     "2022": 46175,
-     "2023": 68556,
-     "2025": 165568,
-     "2026": 31200
-    },
-    "committees": 20,
-    "top": [
-     {
-      "f": "1921",
-      "n": "Helena Moreno",
-      "p": "DEM",
-      "usd": 161924,
-      "cycle": 161924
-     },
-     {
-      "f": "5507",
-      "n": "Dustin Granger",
-      "p": "DEM",
-      "usd": 28000,
-      "cycle": 28000
-     },
-     {
-      "f": "4399",
-      "n": "Jeremy LaCombe",
-      "p": "REP",
-      "usd": 36150,
-      "cycle": 15000
-     },
-     {
-      "f": "6149",
-      "n": "Madison O'Malley",
-      "p": "DEM",
-      "usd": 13950,
-      "cycle": 13950
-     },
-     {
-      "f": "5219",
-      "n": "Elroy James",
-      "p": "DEM",
-      "usd": 10700,
-      "cycle": 10700
-     },
-     {
-      "f": "7779",
-      "n": "Lacy Landrum",
-      "p": "OTH",
-      "usd": 8000,
-      "cycle": 8000
-     },
-     {
-      "f": "2727",
-      "n": "Richard Perque",
-      "p": "DEM",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "957",
-      "n": "Byron Lee",
-      "p": "DEM",
-      "usd": 7250,
-      "cycle": 7250
-     },
-     {
-      "f": "2598",
-      "n": "Kimya Holmes",
-      "p": "DEM",
-      "usd": 5000,
-      "cycle": 5000
-     },
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 17250,
-      "cycle": 4000
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 4000,
-      "cycle": 4000
-     },
-     {
-      "f": "5512",
-      "n": "Lesli Harris",
-      "p": "DEM",
-      "usd": 23000,
-      "cycle": 0
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 19675,
-      "cycle": 0
-     },
-     {
-      "f": "2345",
-      "n": "Leo J. Palazzo",
-      "p": "REP",
-      "usd": 10500,
-      "cycle": 0
-     },
-     {
-      "f": "1315",
-      "n": "Arthur L. Hunter",
-      "p": "DEM",
-      "usd": 7257,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "BRANDON GUICHARD DIGITAL GROUP",
-     "BRANDON GUICHARD",
-     "BRANDON GUICHARD DIGITAL"
-    ]
-   }
-  },
-  {
    "key": "POLITICALFIRM",
    "name": "The Political Firm",
    "found_by": "filings",
@@ -5709,6 +5709,56 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "FRONTIERSTRATEGIES",
+   "name": "Frontier Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 10,
+    "priced": 5,
+    "usd": 97416,
+    "stations": [
+     "002460",
+     "WAFB",
+     "WBRZ"
+    ],
+    "clients": [
+     "RICK FOR LOUISIANA",
+     "Rick Edmonds for Congress",
+     "Rick Edmonds US Congress"
+    ],
+    "first": "2026-10-06",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 94,
+    "media": 0,
+    "rows": 1,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2014": 94
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "549",
+      "n": "John C. Reeves",
+      "p": "DEM",
+      "usd": 94,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FRONTIER STRATEGIES"
+    ]
    }
   },
   {
@@ -5990,56 +6040,6 @@
      "CHANNEL ONE DIGITAL, INC",
      "CHANNEL ONE DIGITAL INC.",
      "CHANNEL ONE DIGITAL, INC."
-    ]
-   }
-  },
-  {
-   "key": "FRONTIERSTRATEGIES",
-   "name": "Frontier Strategies",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 9,
-    "priced": 4,
-    "usd": 85003,
-    "stations": [
-     "002460",
-     "WAFB",
-     "WBRZ"
-    ],
-    "clients": [
-     "RICK FOR LOUISIANA",
-     "Rick Edmonds for Congress",
-     "Rick Edmonds US Congress"
-    ],
-    "first": "2026-10-06",
-    "last": "2026-10-29",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 94,
-    "media": 0,
-    "rows": 1,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2014": 94
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "549",
-      "n": "John C. Reeves",
-      "p": "DEM",
-      "usd": 94,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FRONTIER STRATEGIES"
     ]
    }
   },

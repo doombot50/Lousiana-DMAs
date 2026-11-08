@@ -411,6 +411,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:52:27Z"
   },
+  "00e20ee4-209b-445e-a4bf-5afae51f30f0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4613.0,
+   "net": 3921.05,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "4610531",
+   "invoice_no": "4610531-1",
+   "flight": [
+    "11/02/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Blake Miquez/Invoices",
+   "name": "Blake Miguez 4610531-1",
+   "uploaded": "2026-11-06T10:43:45-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "00f179db-ae4c-44db-8550-1c927f4c3b3e": {
    "kind": "request",
    "layout": "nab",
@@ -602,6 +626,30 @@
    "uploaded": "2026-04-24T16:00:23-04:00",
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
+  },
+  "013fad2b-d307-4784-9f6f-7aa639c7147a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 63600.0,
+   "net": 54060.0,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4603755",
+   "invoice_no": "4603755-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4603755-1",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "01725653-92a4-477c-b1b9-51f87a709220": {
    "kind": "invoice",
@@ -19065,6 +19113,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
   },
+  "1fd30204-0514-4191-9a09-76fe2e828948": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8311.0,
+   "net": 7064.35,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4549762",
+   "invoice_no": "4549762-2",
+   "flight": [
+    "10/21/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4549762-2",
+   "uploaded": "2026-11-06T10:49:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "1fd8f882-2aae-4e0b-9ae6-cf68f24bfa4e": {
    "kind": "order",
    "layout": "order",
@@ -19799,6 +19871,30 @@
    "uploaded": "2026-02-26T16:33:27-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
+  },
+  "209d8894-c654-44a6-8510-9c95082d0516": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12413.0,
+   "net": 10551.05,
+   "agency": "Frontier Strategies, LLC",
+   "advertiser": "Rick Edmonds for Congress",
+   "order_no": "4606553",
+   "invoice_no": "4606553-1",
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Rick Edmonds/Invoices",
+   "name": "Rick Edmonds 4606553-1",
+   "uploaded": "2026-11-06T10:44:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "20a308f7-1fd3-42ce-90e3-5a6c339bee88": {
    "kind": "request",
@@ -21171,6 +21267,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
   },
+  "22c483f8-1ccf-4237-9056-d18bd79e3009": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8665.0,
+   "net": 7365.25,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4597691",
+   "invoice_no": "4597691-2",
+   "flight": [
+    "10/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4597691-2",
+   "uploaded": "2026-11-06T10:49:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "22d503df-3aad-46c1-9ab8-9d6f0eab26be": {
    "kind": "other",
    "layout": "other",
@@ -22505,6 +22625,30 @@
    "uploaded": "2026-06-22T09:08:30-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "25136803-5246-4987-a53f-6560051b769e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 39641.0,
+   "net": 33694.85,
+   "agency": "Electric Symphony Media (ESM)",
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "4605708",
+   "invoice_no": "4605708-1",
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Blake Miquez/Invoices",
+   "name": "Blake Miguez 4605708-1",
+   "uploaded": "2026-11-06T10:43:45-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "2539bc51-be72-4c66-aff1-4a2b267a859d": {
    "kind": "order",
@@ -26904,6 +27048,30 @@
    "uploaded": "2026-06-10T12:25:32-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
+  },
+  "2c7807ae-2e57-4ab5-afa0-29c7add0e745": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 63650.0,
+   "net": 54102.5,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4599425",
+   "invoice_no": "4599425-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4599425-1",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "2c87083e-cdeb-4493-8e7c-01c9460c1f37": {
    "kind": "order",
@@ -31845,6 +32013,30 @@
    "uploaded": "2026-04-15T12:33:30-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:49:24Z"
+  },
+  "35a356c2-be07-4150-9116-176140e78721": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8728.0,
+   "net": 7418.8,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4603742",
+   "invoice_no": "4603742-2",
+   "flight": [
+    "10/22/26",
+    "10/31/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4603742-2",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "35ae31a1-58f1-4a93-b4ad-7014d819b4ba": {
    "kind": "request",
@@ -39334,6 +39526,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
   },
+  "43fb98ee-2206-4c79-a73e-c2408baeade0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 26330.0,
+   "net": 22380.5,
+   "agency": "Brandon Guichard Digital Group",
+   "advertiser": "Justice PAC",
+   "order_no": "4604746",
+   "invoice_no": "4604746-2",
+   "flight": [
+    "10/23/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Justice PAC/Invoices",
+   "name": "Justice PAC 4604746-2",
+   "uploaded": "2026-11-06T10:51:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "4401eaea-34ba-4899-aae7-42b759636fa5": {
    "kind": "request",
    "layout": "nab",
@@ -43115,6 +43331,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
   },
+  "4a4ed42c-d45a-4795-a96f-b485a21e5542": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 62125.0,
+   "net": 52806.25,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4600863",
+   "invoice_no": "4600863-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4600863-1",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "4a58e9f8-7729-43b8-b7de-ac4b48cf1d16": {
    "kind": "order",
    "layout": "contract",
@@ -44466,6 +44706,30 @@
    "uploaded": "2026-05-13T12:58:45-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:45:22Z"
+  },
+  "4cba13cf-e921-4298-9f63-b0af76a7b447": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2550.0,
+   "net": 2167.5,
+   "agency": "Magnolia Media",
+   "advertiser": "Brad Cascio for District Attorney",
+   "order_no": "4597829",
+   "invoice_no": "4597829-2",
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Brad Cascio/Invoices",
+   "name": "Brad Cascio 4597829-2",
+   "uploaded": "2026-11-06T10:47:26-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "4cbdb95e-d891-41a0-b670-624c9091f00e": {
    "kind": "other",
@@ -53388,6 +53652,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
   },
+  "5c4b8a81-a21f-47a1-884d-d7cfdd2dd442": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 14750.0,
+   "net": 12537.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative, 6th Congressional Dist 10.12-10.18 INVOICE",
+   "uploaded": "2026-11-05T15:33:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "5c4bfa3a-15e8-40fe-8e41-abacc162589e": {
    "kind": "invoice",
    "layout": "invoice",
@@ -56862,6 +57147,30 @@
    "uploaded": "2026-10-06T11:55:14-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "6241a09d-3600-461d-8ff4-36b44b727d65": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12014.0,
+   "net": 10211.9,
+   "agency": "Canal Partners Media",
+   "advertiser": "Hillar Moore for East Baton Rouge DA",
+   "order_no": "4600261",
+   "invoice_no": "4600261-2",
+   "flight": [
+    "10/21/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Local/District Attorney 19th/Hillar Moore/Invoices",
+   "name": "Hillar Moore 4600261-2",
+   "uploaded": "2026-11-06T10:46:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "624948fb-679b-4dd5-b410-1768b3117f63": {
    "kind": "request",
@@ -63883,6 +64192,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
   },
+  "6ddce8dc-ff69-4317-b5aa-6d3d5d28ebf4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9000.0,
+   "net": 7650.0,
+   "agency": "Taylor Media Service",
+   "advertiser": "Sherman Q Mack District Attorney 21st",
+   "order_no": "4604764",
+   "invoice_no": "4604764-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Invoices",
+   "name": "Sherman Q Mack 4604764-1",
+   "uploaded": "2026-11-06T10:47:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "6de5f80b-219a-4713-99bb-2f2aa3026e87": {
    "kind": "request",
    "layout": "nab",
@@ -65932,6 +66265,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
   },
+  "71043e90-def6-4c38-afe3-351955cd3553": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 31616.0,
+   "net": 26873.6,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4582850",
+   "invoice_no": "4582850-2",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Invoices",
+   "name": "Julie Letlow 4582850-2",
+   "uploaded": "2026-11-06T10:46:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "7106a63d-c471-49e6-ba5b-811182f8fc37": {
    "kind": "invoice",
    "layout": "invoice",
@@ -67638,6 +67995,30 @@
    "uploaded": "2026-07-15T11:49:09-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:38:21Z"
+  },
+  "73f0e374-7d06-4ae3-983f-557b91462d79": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 28915.0,
+   "net": 24577.75,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4612811",
+   "invoice_no": "4612811-1",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4612811-1",
+   "uploaded": "2026-11-06T10:45:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "73f1c0af-bb56-40bc-b4c9-2bc3be880b2d": {
    "kind": "order",
@@ -74750,6 +75131,27 @@
    "name_kind": "order",
    "read_at": "2026-10-20T20:13:18Z"
   },
+  "7ebc8a88-ad31-4c37-b8fa-14a5fa8bbaf4": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 17850.0,
+   "net": 15172.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative, 6th Congressional Dist 10.19-10.25 INVOICE",
+   "uploaded": "2026-11-05T15:33:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "7ec5010e-2fc4-45c9-84af-4d6ff4861106": {
    "kind": "request",
    "layout": "nab",
@@ -80640,6 +81042,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
   },
+  "882d0700-34e8-4f47-9cd6-fe55a2ac766f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6023.0,
+   "net": 5119.55,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4600050",
+   "invoice_no": "4600050-2",
+   "flight": [
+    "10/19/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4600050-2",
+   "uploaded": "2026-11-06T10:44:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "8838b34f-19ac-49ef-8ad5-c9b948a7dbdc": {
    "kind": "order",
    "layout": "other",
@@ -81269,6 +81695,30 @@
    "uploaded": "2026-06-12T13:14:21-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
+  },
+  "8933c2b6-1a16-447e-84fe-a551c77a6f96": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 26665.0,
+   "net": 22665.25,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4613690",
+   "invoice_no": "4613690-1",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4613690-1",
+   "uploaded": "2026-11-06T10:45:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "89391479-6b37-445b-a39d-8b8ce09dbd87": {
    "kind": "invoice",
@@ -82467,6 +82917,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T02:14:20Z"
   },
+  "8b012007-66c3-47a3-bebc-053860671dec": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7350.0,
+   "net": 6247.5,
+   "agency": "Taylor Media Service",
+   "advertiser": "Sherman Q Mack District Attorney 21st",
+   "order_no": "4556758",
+   "invoice_no": "4556758-3",
+   "flight": [
+    "09/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Invoices",
+   "name": "Sherman Q Mack 4556758-3",
+   "uploaded": "2026-11-06T10:47:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "8b047a31-9d4a-4206-8048-7274d8ac546a": {
    "kind": "order",
    "layout": "other",
@@ -82487,6 +82961,27 @@
    "uploaded": "2026-06-15T11:44:48-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T08:58:18Z"
+  },
+  "8b20011e-e3aa-40f8-a09a-2e95a1321ebd": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 24050.0,
+   "net": 20442.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow - US Senate - R",
+   "name": "Julia Letlow - US Senate 10.6-10.18 INVOICE",
+   "uploaded": "2026-11-05T15:35:31-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "8b25c2b3-8b7b-45f8-8154-a17701f5f3a9": {
    "kind": "order",
@@ -83270,6 +83765,30 @@
    "uploaded": "2026-10-15T09:47:37-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
+  },
+  "8c816589-025c-423f-9c6a-285b4a0d6080": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 16033.0,
+   "net": 13628.05,
+   "agency": "Brandon Guichard Digital Group",
+   "advertiser": "Justice PAC",
+   "order_no": "4594645",
+   "invoice_no": "4594645-2",
+   "flight": [
+    "10/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Justice PAC/Invoices",
+   "name": "Justice PAC 4594645-2",
+   "uploaded": "2026-11-06T10:51:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "8c84f620-3c23-417c-b0aa-0d0077b9aeb8": {
    "kind": "request",
@@ -88231,6 +88750,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "95a414d8-269d-438e-9787-c92e94e3b0f9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4728.0,
+   "net": 4018.8,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4600843",
+   "invoice_no": "4600843-2",
+   "flight": [
+    "10/17/26",
+    "10/28/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4600843-2",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "95b2d148-a538-46ed-a58b-c28ecb945f51": {
    "kind": "invoice",
    "layout": "invoice",
@@ -88968,6 +89511,30 @@
    "uploaded": "2026-09-30T16:13:19-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "96cccdff-6c34-4491-9aad-6e6842c72dfa": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": "Taylor Media Service",
+   "advertiser": "Sherman Q Mack District Attorney 21st",
+   "order_no": "4592473",
+   "invoice_no": "4592473-2",
+   "flight": [
+    "10/12/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Invoices",
+   "name": "Sherman Q Mack 4592473-2",
+   "uploaded": "2026-11-06T10:47:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "96d6cf23-d8b9-475a-88c6-b7458d908788": {
    "kind": "request",
@@ -90481,6 +91048,27 @@
    "uploaded": "2026-04-17T15:54:09-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T17:08:04Z"
+  },
+  "99320949-4b5e-443e-a548-f3aa41f7fa93": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 14750.0,
+   "net": 12537.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative, 6th Congressional Dist 10.5-10.11 INVOICE",
+   "uploaded": "2026-11-05T15:33:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "994e1e28-4f28-4fa1-978c-393f96151665": {
    "kind": "order",
@@ -96615,6 +97203,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "a35906e6-7104-4916-bf29-598611355659": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 43057.0,
+   "net": 36598.45,
+   "agency": "MFB Media",
+   "advertiser": "Wagley for Congress",
+   "order_no": "4607175",
+   "invoice_no": "4607175-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US House/Stephen Wagley/Invoices",
+   "name": "Wagley for Congress 4607175-1",
+   "uploaded": "2026-11-06T10:44:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "a361e4d3-1544-4f5a-baec-02c3447b53e7": {
    "kind": "invoice",
    "layout": "invoice",
@@ -98244,6 +98856,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
   },
+  "a670c68e-5eba-487e-9831-52f907b7dacb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 29004.0,
+   "net": 24653.4,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4604855",
+   "invoice_no": "4604855-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4604855-1",
+   "uploaded": "2026-11-06T10:45:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "a678824b-c5e1-41ae-aeae-6c7bcd8565a6": {
    "kind": "order",
    "layout": "schedule",
@@ -99681,6 +100317,30 @@
    "uploaded": "2026-09-30T12:24:20-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "a88b4050-2f19-47d1-bb66-551d8c7070b4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 86075.0,
+   "net": 73163.75,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4610260",
+   "invoice_no": "4610260-1",
+   "flight": [
+    "10/27/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4610260-1",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "a890eb2a-1125-497a-8169-6fdd4d32601f": {
    "kind": "other",
@@ -103692,6 +104352,30 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:12:15Z"
   },
+  "aff3b3b1-be35-43e0-9edf-c23094a543be": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 27075.0,
+   "net": 23013.75,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4549770",
+   "invoice_no": "4549770-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4549770-1",
+   "uploaded": "2026-11-06T10:49:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "aff60a67-e39d-467f-ae9e-d004b8a72ee5": {
    "kind": "request",
    "layout": "nab",
@@ -106789,6 +107473,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
   },
+  "b4c3425a-1050-4069-8b05-69775c93cc2a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 11700.0,
+   "net": 9945.0,
+   "agency": "Magnolia Media",
+   "advertiser": "Brad Cascio for District Attorney",
+   "order_no": "4592312",
+   "invoice_no": "4592312-2",
+   "flight": [
+    "10/12/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/State/District Attorney 21st/Brad Cascio/Invoices",
+   "name": "Brad Cascio 4592312-2",
+   "uploaded": "2026-11-06T10:47:26-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "b4c3cb0c-5003-4afa-b9bf-8aa13a7b32e0": {
    "kind": "order",
    "layout": "contract",
@@ -108194,6 +108902,30 @@
    "uploaded": "2026-10-30T15:43:01-04:00",
    "name_kind": "other",
    "read_at": "2026-10-31T02:46:09Z"
+  },
+  "b714f8b0-c16d-419d-a660-19c8029f8bbe": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 68024.0,
+   "net": 57820.4,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4610562",
+   "invoice_no": "4610562-2",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4610562-2",
+   "uploaded": "2026-11-06T10:49:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "b7166cae-f321-49ba-92c4-d62f25b41301": {
    "kind": "request",
@@ -110369,6 +111101,30 @@
    "uploaded": "2026-02-27T11:01:50-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "ba924318-516a-488b-bd2d-9366eb994631": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9023.0,
+   "net": 7669.55,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4583165",
+   "invoice_no": "4583165-2",
+   "flight": [
+    "10/20/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4583165-2",
+   "uploaded": "2026-11-06T10:45:35-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "ba93bc8e-e076-4b1c-8772-b38a5e112454": {
    "kind": "request",
@@ -116750,6 +117506,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
   },
+  "c4f85090-e123-4fd4-9214-9ce7c2137329": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 54851.0,
+   "net": 46623.35,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4583179",
+   "invoice_no": "4583179-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4583179-1",
+   "uploaded": "2026-11-06T10:45:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "c4fe66ef-c3e6-4984-a3c0-6e6ad6f29f8a": {
    "kind": "order",
    "layout": "contract",
@@ -121816,6 +122596,30 @@
    "uploaded": "2026-05-04T16:37:56-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
+  },
+  "ccdba80d-3da2-49b7-ac65-076b12a6a24c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 105520.0,
+   "net": 89692.0,
+   "agency": "Del Cielo Media",
+   "advertiser": "Accountability Project, Inc",
+   "order_no": "4607512",
+   "invoice_no": "4607512-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc/Invoices",
+   "name": "Accountability Project 4607512-1",
+   "uploaded": "2026-11-06T10:48:40-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "ccdbab98-565b-455a-abad-9e1adb3e77de": {
    "kind": "request",
@@ -131019,6 +131823,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "db599c80-a217-4f5f-9b10-e9cc9e12dbe8": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 17375.0,
+   "net": 14768.75,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis - US Senate - D",
+   "name": "Jamie Davis - US Senate 10.14-10.19 INVOICE",
+   "uploaded": "2026-11-05T15:37:08-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "db5ea1ef-e77b-4124-b159-495895bf76ce": {
    "kind": "request",
    "layout": "nab",
@@ -131562,6 +132387,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
   },
+  "dc2c419a-bf96-4333-b1e9-a3670330a84b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8102.0,
+   "net": 6886.7,
+   "agency": "MHB Media",
+   "advertiser": "Conservatives for American Excellence",
+   "order_no": "4599342",
+   "invoice_no": "4599342-2",
+   "flight": [
+    "10/17/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence/Invoices",
+   "name": "Conservatives for American Excellence 4599342-2",
+   "uploaded": "2026-11-06T10:49:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "dc2de7d8-72f1-4f5c-895a-33d2f6fd3ed9": {
    "kind": "order",
    "layout": "contract",
@@ -131714,6 +132563,30 @@
    "uploaded": "2026-02-24T15:25:29-05:00",
    "name_kind": "request",
    "read_at": "2026-10-27T08:55:01Z"
+  },
+  "dc890858-13aa-4442-bf67-12e65311d9f7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9848.0,
+   "net": 8370.8,
+   "agency": "Canal Partners Media",
+   "advertiser": "Jamie Davis for US Senate",
+   "order_no": "4602786",
+   "invoice_no": "4602786-2",
+   "flight": [
+    "10/22/26",
+    "10/26/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Invoices",
+   "name": "Jamie Davis 4602786-2",
+   "uploaded": "2026-11-06T10:45:35-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "dc97c179-10ad-4940-bb2d-d86753a6c8ff": {
    "kind": "request",
@@ -135691,6 +136564,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:09:16Z"
   },
+  "e39c1448-ea2c-4256-b0cb-e269b6162ce8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 36161.0,
+   "net": 30736.85,
+   "agency": "Canal Partners Media",
+   "advertiser": "Hillar Moore for East Baton Rouge DA",
+   "order_no": "4605467",
+   "invoice_no": "4605467-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Local/District Attorney 19th/Hillar Moore/Invoices",
+   "name": "Hillar Moore 4605467-1",
+   "uploaded": "2026-11-06T10:46:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "e3a352b5-0cfe-4632-92af-69d704483798": {
    "kind": "request",
    "layout": "nab",
@@ -138679,6 +139576,30 @@
    "uploaded": "2026-07-09T09:27:18-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
+  },
+  "e88fdf2a-6c2a-4f0c-9b22-38bcd2664b06": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8180.0,
+   "net": 6953.0,
+   "agency": "Medium Buying LLC",
+   "advertiser": "Club for Growth",
+   "order_no": "4600955",
+   "invoice_no": "4600955-2",
+   "flight": [
+    "10/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/Invoices",
+   "name": "Club for Growth 4600955-2",
+   "uploaded": "2026-11-06T10:49:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
   },
   "e892b821-1b8e-488c-8af4-3bdcf9f0d58e": {
    "kind": "other",
@@ -150792,6 +151713,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T15:02:04Z"
   },
+  "fe5e11fa-293c-42c9-8ef0-004c7cc1f432": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 18114.0,
+   "net": 15396.9,
+   "agency": "Brabender Cox Mihalke/Pittsburgh",
+   "advertiser": "Julia Letlow for LA Senate",
+   "order_no": "4602391",
+   "invoice_no": "4602391-2",
+   "flight": [
+    "10/19/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Federal/US Senate/Julia Letlow/Invoices",
+   "name": "Julie Letlow 4602391-2",
+   "uploaded": "2026-11-06T10:46:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T17:07:59Z"
+  },
   "fe723e9f-6548-4ee1-96d8-38ca56fde456": {
    "kind": "other",
    "layout": "other",
@@ -151596,6 +152541,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-07T16:57:41Z",
+ "updated": "2026-11-08T17:12:29Z",
  "blocked": null
 }
