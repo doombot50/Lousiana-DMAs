@@ -5191,6 +5191,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
   },
+  "08eac6c4-610b-4d4c-ac21-fa7464000c65": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 14750.0,
+   "net": 12537.5,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative,  6th Congressional Dist. 9.28-10.4 INVOICE",
+   "uploaded": "2026-11-05T15:33:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-08T19:06:04Z"
+  },
   "08ebb2f7-0831-47d0-9741-e1e2864a5af6": {
    "kind": "order",
    "layout": "other",
@@ -152541,6 +152562,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-08T17:12:29Z",
+ "updated": "2026-11-08T19:07:00Z",
  "blocked": null
 }
