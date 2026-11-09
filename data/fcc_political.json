@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-08T17:05:09Z",
+ "scraped": "2026-11-09T21:29:26Z",
  "years": [
   2026,
   2027
@@ -26890,7 +26890,7 @@
    "facility_id": "35652",
    "root_folder": "1f09d425-ebf2-ac3b-ac66-e21e9f0d29b5",
    "profile": "tv-profile/ktbs-tv",
-   "scraped_at": "2026-11-05T18:44:03Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2017": "5d48fdc4-598f-ced1-d930-348ba57ab492",
     "2018": "ab97ab3d-0af9-1b15-71ed-fe2a74956731",
@@ -27011,6 +27011,7 @@
     "Political Files/2026/Federal/US Senate/James Talarico/PB - 20519 REV 1": "cedc5d43-06fa-899a-73c9-7a8b6d5b18b2",
     "Political Files/2026/Federal/US Senate/James Talarico/PB - 20522": "00b526c9-1965-3ecf-cdba-dc2489b181fe",
     "Political Files/2026/Federal/US Senate/Jamie Davis": "53f2dd33-6ab0-a950-3420-76650ce3f21d",
+    "Political Files/2026/Federal/US Senate/Jamie Davis/Order -  20619 REV 1": "0b340888-4687-5859-dc43-d13581804881",
     "Political Files/2026/Federal/US Senate/Jamie Davis/Order - 20541": "e1a7f9db-2ff8-5d17-a380-ac4dd827febf",
     "Political Files/2026/Federal/US Senate/Jamie Davis/Order - 20544 REV 1": "45b32d04-202e-9713-f9a3-83a1a4909f92",
     "Political Files/2026/Federal/US Senate/Jamie Davis/Order - 20554": "8ab7af12-449e-8981-9879-f84f16b96b21",
@@ -27148,6 +27149,7 @@
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 18968 REV 2": "eff26452-de38-71ec-43dd-0dc583599488",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20584": "081ec697-fa3d-0ad5-dcb9-3c97b58cee5c",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20584 REV 1": "7762280c-f8f1-e7f3-ff71-5f7f50eabad5",
+    "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20584 REV 2": "87d1ca93-97d4-42bf-98b0-1db243b12653",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17338": "cb72f894-3704-f07c-9473-4b3cdc26aa6a",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17472": "28b13caf-0b1e-09fa-4352-fc0204f410c3",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17633": "9363f9bc-1a0f-6a3f-86ea-55fda4043b96",
@@ -27297,6 +27299,7 @@
     "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 19344": "49cf030b-32ff-853b-1323-ad8585028e04",
     "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20009": "5b7072fa-b6f2-abd9-7c1c-682fd417c3b5",
     "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20009 REV 1": "7914bbcd-334b-594d-7516-1043fde1e86d",
+    "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20009 REV 2": "ec814559-72d8-036c-9a7b-fb932624d9a7",
     "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20010": "eb15fdfa-0a4a-7bf4-9b3e-d3b7e83a6d3a",
     "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20010 REV 1": "961f9b5e-1f67-e5a5-4ba0-88ccbfab32f4",
     "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20365": "1651b827-2311-325c-d0b8-64befee60e3e",
@@ -27529,6 +27532,33 @@
     "Political Files/2026/State/Texas State Representative/Josh Bray/PB - 17328": "d9fa19b5-c6ce-355f-79b3-9285019376e1"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Lieutenant Governor of Texas/Dan Patrick/Order - 20009 REV 2",
+     "name": "20261106093708168",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T10:38:04-05:00",
+     "folder_id": "ec814559-72d8-036c-9a7b-fb932624d9a7",
+     "file_id": "66d1347e-e734-65b0-89ea-06a9b51c756b",
+     "file_manager_id": "79894253-d34e-4c2e-bfb2-b5ae2480535a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20584 REV 2",
+     "name": "20261106093653101",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T10:36:01-05:00",
+     "folder_id": "87d1ca93-97d4-42bf-98b0-1db243b12653",
+     "file_id": "93e78915-1d37-1114-09d4-c67027a892e3",
+     "file_manager_id": "502a2c16-282a-40da-96d1-e7c5e8109cc4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Jamie Davis/Order -  20619 REV 1",
+     "name": "20261106093719529",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T10:34:28-05:00",
+     "folder_id": "0b340888-4687-5859-dc43-d13581804881",
+     "file_id": "dac88fc9-f62e-d515-ba34-4b765585230f",
+     "file_manager_id": "96f43f8c-c58f-4756-b579-24f43c9b720f"
+    },
     {
      "path": "Political Files/2026/Local/Shreveport City Court Judge/Trinicia Leonard/PB - 20642",
      "name": "20261102170213525",
@@ -32650,7 +32680,7 @@
    "facility_id": "70482",
    "root_folder": "d199c42f-0c80-38bd-7e45-eb2cbd824d95",
    "profile": "tv-profile/ksla",
-   "scraped_at": "2026-11-05T18:44:03Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2017": "158fbf22-b91d-c99c-593d-e341b1311546",
     "2018": "19c3b1b9-8df3-0d98-2751-cf6acf62c22a",
@@ -32717,6 +32747,303 @@
     "Political Files/2026/Terms and Disclosures": "0f4526ed-667b-d1b2-24fe-4f1820724fdc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+     "name": "KSLA Texans for Greg Abbott Est 8266 Nov'26 Invoice #4569942-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:05:51-05:00",
+     "folder_id": "6d9ab274-7536-a323-6b9b-13835f3eda81",
+     "file_id": "bb5c8534-c8a4-227e-43a1-2cab8976367b",
+     "file_manager_id": "69c62421-48e6-44be-9cd7-b0ad37479686"
+    },
+    {
+     "path": "Political Files/2026/State/TX Governor/Texans for Greg Abbott",
+     "name": "KSLA Texans for Greg Abbott Est 8362 Nov'26 Invoice #4607288-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:05:51-05:00",
+     "folder_id": "6d9ab274-7536-a323-6b9b-13835f3eda81",
+     "file_id": "f785f15b-c0cd-e673-f69a-8c921b2ce089",
+     "file_manager_id": "d73720f8-4d9f-4344-b619-0f3b4f3bfdaa"
+    },
+    {
+     "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+     "name": "KSLA Gina Hinojosa Est 1860 Nov'26 Invoice #4600100-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:04:56-05:00",
+     "folder_id": "03e5c5fa-074c-2cb6-34d0-1c0455ec2a17",
+     "file_id": "dc85abd2-f489-1263-da9a-8281135df568",
+     "file_manager_id": "190fc360-2dd7-4085-a7a6-c23448aa7b38"
+    },
+    {
+     "path": "Political Files/2026/State/TX Governor/Gina Hinojosa for Governor",
+     "name": "KSLA Gina Hinojosa Est 1941 Nov'26 Invoice #4607323-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:04:56-05:00",
+     "folder_id": "03e5c5fa-074c-2cb6-34d0-1c0455ec2a17",
+     "file_id": "db79ce78-fe65-6461-d98c-30efd5eb1be8",
+     "file_manager_id": "dbedaa6b-9a90-4c9e-833b-f7a274c0ad75"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "KSLA Dan Patrick Est 591 Nov'26 Invoice #4548931-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:03:51-05:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "b4967b7d-f043-7619-8522-62fa62622d90",
+     "file_manager_id": "3e008347-4781-4aec-9ff2-8c4e6475f37f"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "KSLA Dan Patrick Est 601 Nov'26 Invoice #4554744-3",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:03:51-05:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "df436f58-6086-9fcc-22a4-ba3b1b9005fe",
+     "file_manager_id": "81ec3034-16be-45e2-b8c7-8120ae6ab387"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "KSLA Dan Patrick Est 616 Nov'26 Invoice #4582232-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:03:51-05:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "59ba4e31-89dd-374e-9ea1-5b3efceae978",
+     "file_manager_id": "6f72bbb2-5b88-42d2-9864-3115e6471ba8"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "KSLA Dan Patrick Est 696 Nov'26 Invoice #4605659-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:03:51-05:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "d9f2d13d-2500-ebda-6234-74963ca7368d",
+     "file_manager_id": "ff7d512a-426b-407c-8ed8-00b78c204e9b"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "KSLA Dan Patrick Est 730 Nov'26 Invoice #4613415-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:03:51-05:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "9d492a9c-eb96-49d4-8dff-606ca031d4ab",
+     "file_manager_id": "59b9cefc-e8b4-4bb7-a27a-3824d95d48db"
+    },
+    {
+     "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
+     "name": "KSLA Dan Patrick Est 639 Nov'26 Invoice #4592010-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T17:03:50-05:00",
+     "folder_id": "3866278e-6688-f6d5-df2a-cba53df85183",
+     "file_id": "ecb8da73-2600-ee37-160f-8775d2e1ee1e",
+     "file_manager_id": "636a1ff7-4a38-4b5d-8f24-fe2f7bc785e4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Louisiana/Jamie Davis for US Senate",
+     "name": "KSLA Jamie Davis Est 14576 Nov'26 Invoice #4602939-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:58:09-05:00",
+     "folder_id": "77b5f87b-9ea7-1947-f3ee-a505ffa64c79",
+     "file_id": "d34d19bd-e67f-8b60-2ae8-1deb4354e7d4",
+     "file_manager_id": "bf94fcb6-71b2-4d32-9375-0a74ca9fba8c"
+    },
+    {
+     "path": "Political Files/2026/State/LA Public Service Commissioner/John Atkins for Public Service Commissioner",
+     "name": "KSLA John Atkins Est C20C26 Nov'26 Invoice #4576277-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:56:57-05:00",
+     "folder_id": "f15d1847-a73b-b3d3-6281-085f7dce532b",
+     "file_id": "d653185f-603b-896c-7223-23905138c595",
+     "file_manager_id": "aa7d5b23-3984-4531-a8f1-f7160cb0bd35"
+    },
+    {
+     "path": "Political Files/2026/State/LA Public Service Commissioner/John Atkins for Public Service Commissioner",
+     "name": "KSLA John Atkins Est C27N03 Nov'26 Invoice #4576364-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:56:57-05:00",
+     "folder_id": "f15d1847-a73b-b3d3-6281-085f7dce532b",
+     "file_id": "39b8e4a2-fcbc-cb7a-e25e-4a9078db916e",
+     "file_manager_id": "8aa33f0c-f3a9-4291-9dd2-37411267cba2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Louisiana/Jamie Davis for US Senate",
+     "name": "KSLA Jamie Davis Est 14577 Nov'26 Invoice #4604932-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:55:33-05:00",
+     "folder_id": "77b5f87b-9ea7-1947-f3ee-a505ffa64c79",
+     "file_id": "d1fd6397-de72-b21f-9461-2a46610f209e",
+     "file_manager_id": "a5c6bf79-1394-41cc-af14-29a20d8d6c6b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Louisiana/Jamie Davis for US Senate",
+     "name": "KSLA Jamie Davis Est 15145 Nov'26 Invoice #4614078-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:55:33-05:00",
+     "folder_id": "77b5f87b-9ea7-1947-f3ee-a505ffa64c79",
+     "file_id": "6eda8b00-02db-a006-4aff-a93b259cdb05",
+     "file_manager_id": "fb6d2ece-c76f-4282-9418-e3c50974e39f"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Louisiana/Julia Letlow for US Senate for Louisiana",
+     "name": "KSLA Julia Letlow Est 924 Nov'26 Invoice #4582860-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:54:35-05:00",
+     "folder_id": "bd9a7003-01e1-ff81-8aaf-3fdf648f4e7b",
+     "file_id": "ba07763e-b45c-fabf-ce7b-1c62c0a49c9e",
+     "file_manager_id": "350aa9d7-df27-454b-9290-83bb587ef4cc"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Texas/Talarico for Texas",
+     "name": "KSLA Talarico for Texas Est 211 Nov'26 Invoice #4599561-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:53:38-05:00",
+     "folder_id": "c3e0abda-96ec-0ce6-fbe2-d00811f5540a",
+     "file_id": "f34b8257-45cd-889d-e0d2-f625ef57b2e2",
+     "file_manager_id": "c37bf221-b98d-45b4-acb7-f86edc3084ef"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Texas/Talarico for Texas",
+     "name": "KSLA Talarico for Texas Est 212 Nov'26 Invoice #4600583-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:53:38-05:00",
+     "folder_id": "c3e0abda-96ec-0ce6-fbe2-d00811f5540a",
+     "file_id": "3ea5829a-16be-2242-aea6-48138d444590",
+     "file_manager_id": "ff0ec873-7b25-43f0-8b2c-0c9e2730f550"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Texas/Ken Paxton Victory Fund",
+     "name": "KSLA Ken Paxton Victory Fund Est 9513 Nov'26 Invoice#4581220-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:51:33-05:00",
+     "folder_id": "84367e72-0e0e-ce2c-68a2-7a52d649c360",
+     "file_id": "9735b9b1-937c-12ec-522a-3d8427380af2",
+     "file_manager_id": "5d6ddd76-560c-4396-aefa-184bbe4a43ce"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana",
+     "name": "KSLA Mike Johnson Est 9488 Nov'26 Invoice #4588345-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:50:04-05:00",
+     "folder_id": "2fc34087-341d-5ae0-7794-4a6187cf15be",
+     "file_id": "1f62f96f-9f4e-ee2c-0a49-0fca16dda520",
+     "file_manager_id": "9c8e22bf-f101-4f7a-b374-557937d869ea"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/4th District Congress/Mike Johnson for Louisiana",
+     "name": "KSLA Mike Johnson Est 9898 Nov'26 Invoice #4598624-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:50:04-05:00",
+     "folder_id": "2fc34087-341d-5ae0-7794-4a6187cf15be",
+     "file_id": "49c82178-d61f-863d-3091-244b9685a9ca",
+     "file_manager_id": "93aac284-0f8a-4091-8547-432a0e965b1e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/4th District Congress/Conrad Cable for Congress",
+     "name": "KSLA Conrad Cable Nov'26 Invoice #4590317A-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:48:57-05:00",
+     "folder_id": "1029ad89-6eff-ee92-0605-a36d882217ca",
+     "file_id": "2b9f49cb-f8bb-a94a-c841-1c744001840c",
+     "file_manager_id": "c46fe6fa-e1a5-4903-874d-eb4a689880ed"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/4th District Congress/Conrad Cable for Congress",
+     "name": "KSLA Conrad Cable Nov'26 Invoice #4613682-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:48:57-05:00",
+     "folder_id": "1029ad89-6eff-ee92-0605-a36d882217ca",
+     "file_id": "743435c2-a8f8-ae4b-5d20-14002d1c40b9",
+     "file_manager_id": "f46b9584-526c-4fe7-8542-33c2b31effdb"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/4th District Congress/Conrad Cable for Congress",
+     "name": "KSLA Conrad Cable Oct'26 Invoice #4590317A-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:48:57-05:00",
+     "folder_id": "1029ad89-6eff-ee92-0605-a36d882217ca",
+     "file_id": "0954ea9a-6570-0496-fbc4-07f334c7c0cc",
+     "file_manager_id": "c1374383-e00d-4fba-b94c-940705d958ea"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport City Court Judge Division D/Kharmen Davis-Taylor",
+     "name": "KSLA Kharmen Taylor Nov'26 Invoice #4607539-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:46:56-05:00",
+     "folder_id": "2def24c5-cf05-f427-78a8-9b1340802c4c",
+     "file_id": "67b17cf7-335e-727a-7495-9d3df6fc6672",
+     "file_manager_id": "6a805652-aa61-4a5a-9875-ae2aaaa83f94"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport City Court Judge Division D/Kharmen Davis-Taylor",
+     "name": "KSLA Kharmen Taylor Oct'26 Invoice #4607539-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:46:56-05:00",
+     "folder_id": "2def24c5-cf05-f427-78a8-9b1340802c4c",
+     "file_id": "f7354062-7c35-d1cb-5904-8383d4a3a7af",
+     "file_manager_id": "f4539a46-89e1-46fe-ac96-dee31c47e5e8"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tammy Phelps for Shreveport Mayor",
+     "name": "KSLA Tammy Phelps Nov'26 Invoice#4610951-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:45:46-05:00",
+     "folder_id": "82d1e28b-d678-0578-82d7-4a4236e7e982",
+     "file_id": "3beebe3e-cb5a-2276-d3bd-8d605a56813c",
+     "file_manager_id": "cb9d2149-6c4c-42b9-8ed5-095503cdf482"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tammy Phelps for Shreveport Mayor",
+     "name": "KSLA Tammy Phelps Oct'26 Invoice#4600796-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:45:46-05:00",
+     "folder_id": "82d1e28b-d678-0578-82d7-4a4236e7e982",
+     "file_id": "60e6fc49-3a00-ffff-d54b-370a95877216",
+     "file_manager_id": "1765c3f1-d3de-402b-956b-e2cdf097c64f"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tammy Phelps for Shreveport Mayor",
+     "name": "KSLA Tammy Phelps Oct'26 Invoice#4610951-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:45:46-05:00",
+     "folder_id": "82d1e28b-d678-0578-82d7-4a4236e7e982",
+     "file_id": "643fd247-f4d5-2306-b871-faf02287009c",
+     "file_manager_id": "fcf5fc7b-0c91-44ac-af78-aa85fa07aa1a"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux for Shreveport Mayor",
+     "name": "KSLA Tom Arceneaux Nov'26 Invoice #4581254-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:44:09-05:00",
+     "folder_id": "e4ca411d-0388-a70a-ee0f-43f8a93732d7",
+     "file_id": "7c50dfb1-10a7-03f5-0e05-68205da7b9b1",
+     "file_manager_id": "fecbcc30-ca97-4845-86a2-d11f654dd256"
+    },
+    {
+     "path": "Political Files/2026/Local/District Attorney/Committee to Re-Elect Stewart for Caddo Parish DA",
+     "name": "KSLA Stewart fo Caddo DA Nov'26 Invoice #4596513-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:43:01-05:00",
+     "folder_id": "fadb2707-0c0b-7915-06ba-3f06b7afa8ed",
+     "file_id": "c8c7d557-e5a2-8a91-36a2-0a763c53e868",
+     "file_manager_id": "8b5f7b10-9e49-4dfe-9ca7-ab48878f26eb"
+    },
+    {
+     "path": "Political Files/2026/Local/District Attorney/Alan Seabaugh for District Attorney",
+     "name": "KSLA Alan Seabaugh Est 653 Nov'26 Invoice#4593621-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:42:08-05:00",
+     "folder_id": "ae5cd3d5-6d86-6000-cf81-973f086a4f99",
+     "file_id": "c7052d4c-c206-1353-2135-73784d98d92b",
+     "file_manager_id": "2beff723-c79e-4e04-bbd2-377cded2b16d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc",
+     "name": "KSLA Accountability Project Inc Est C28N03 Nov'26 Invoice #4609246-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:39:10-05:00",
+     "folder_id": "1aba30aa-026d-e65e-333f-2edabe1dcdfe",
+     "file_id": "24af193c-ee05-833e-86d2-e04b13cb16f7",
+     "file_manager_id": "94eda9a9-9d2b-402e-a571-026d0d75693e"
+    },
     {
      "path": "Political Files/2026/State/TX Lt Governor/Dan Patrick",
      "name": "Dan Patrick Lt Gov PB19 Cuts Tuesday",
@@ -36974,7 +37301,7 @@
    "facility_id": "35648",
    "root_folder": "1d2faa8f-dcdf-c3ae-30b6-318a597f63f6",
    "profile": "tv-profile/ktal-tv",
-   "scraped_at": "2026-11-05T18:44:03Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2015": "1290354b-37ed-2506-6327-71a65f3f62d1",
     "2017": "9f8a4ff0-b532-2a09-f783-b7c653fdd2f6",
@@ -42636,7 +42963,7 @@
    "facility_id": "12525",
    "root_folder": "8e93018b-e543-90b5-cc23-f40ab090b8f1",
    "profile": "tv-profile/kmss-tv",
-   "scraped_at": "2026-11-05T18:44:03Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2017": "011f22e4-c809-e471-a979-09ede48e3665",
     "2018": "45749cb3-e592-3f45-adfa-714a2df86d17",
@@ -46523,7 +46850,7 @@
    "facility_id": "81507",
    "root_folder": "45e8e38c-6f5e-a398-1391-4c30782c1ba2",
    "profile": "tv-profile/kpxj",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2017": "57488a89-2d49-2c54-a64e-735c5e56e738",
     "2018": "b9f0fdd6-d253-b0de-60e7-ed6352b922c8",
@@ -46656,6 +46983,7 @@
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 18965": "95a5a975-7176-c781-0e02-8d78a3630085",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20585": "90c3518d-79bd-eae1-8cd2-b3fe2ae5f7df",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20585 REV 1": "89accb39-b44c-e48e-a40f-a850c387a555",
+    "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20585 REV 2": "b17c8816-54fe-c386-9396-69f105f072e2",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17473": "fa972315-8d62-026d-c9dd-34283814bc20",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17632": "6828edb0-8cff-b0e6-3db8-73561582bad8",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17632 REV 1": "a13c9c71-43b7-2f3f-b58a-772a792637ae",
@@ -46755,6 +47083,15 @@
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20573": "a7c7a68d-e4a2-0468-9ffb-38f257b21026"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 20585 REV 2",
+     "name": "20261106160442983",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T16:46:36-05:00",
+     "folder_id": "b17c8816-54fe-c386-9396-69f105f072e2",
+     "file_id": "f7448ebd-749c-0126-d3ec-d78d916816a9",
+     "file_manager_id": "50561690-7c3c-45d7-8ee4-d78baf37cb2b"
+    },
     {
      "path": "Political Files/2026/Local/Caddo School Board District 8/Emma Shepard/Order - 20621 REV 1",
      "name": "20261030160251843",
@@ -49069,6 +49406,15 @@
      "file_manager_id": "ddcef12d-df74-41c0-8a16-871a6bea24b0"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/PB - 17632 REV 1",
+     "name": "20260320125158081",
+     "ext": "pdf",
+     "uploaded": "2026-03-20T16:25:42-04:00",
+     "folder_id": "4b6761e9-0352-8e02-8e95-8d38def8057f",
+     "file_id": "62570ac3-466c-bb1c-27ba-3f9bd20d03bf",
+     "file_manager_id": "ddcef12d-df74-41c0-8a16-871a6bea24b0"
+    },
+    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Order - 17632 REV 1",
      "name": "20260320125149769",
      "ext": "pdf",
@@ -49509,7 +49855,7 @@
    "facility_id": "33471",
    "root_folder": "ba750660-00ba-44ff-3e1d-8bd512e6caf1",
    "profile": "tv-profile/katc",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2017": "65a68f9d-910d-9253-02dd-dbd81014b13b",
     "2018": "37d6049a-0dbc-dfd8-51d8-096a3aaf2e4f",
@@ -52500,7 +52846,7 @@
    "facility_id": "35059",
    "root_folder": "897e717c-c665-e9f9-cc1e-c4bbdb2aa3a1",
    "profile": "tv-profile/klfy-tv",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2017": "1ae3e6af-2c1e-09e8-8025-7f46f61bf27c",
     "2018": "a0c6359b-88c1-6581-88f6-ab34189d913d",
@@ -54643,7 +54989,7 @@
    "facility_id": "33261",
    "root_folder": "50121c5f-0768-c8cc-38e2-f0ff3c3b001f",
    "profile": "tv-profile/kadn-tv",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-09T21:26:55Z",
    "year_folders": {
     "2014": "1fa666b2-7ce8-334f-6290-190da5d32431",
     "2015": "fc6694ff-c901-7496-9f7d-9fa96893c6a6",
@@ -67348,19 +67694,19 @@
  ],
  "blocked": null,
  "attempted": {
-  "KADN": "2026-11-06T17:57:29Z",
+  "KADN": "2026-11-09T21:26:55Z",
   "KALB": "2026-11-07T16:50:43Z",
   "KARD": "2026-11-06T17:57:29Z",
-  "KATC": "2026-11-06T17:57:29Z",
+  "KATC": "2026-11-09T21:26:55Z",
   "KLAX": "2026-11-07T16:50:43Z",
-  "KLFY": "2026-11-06T17:57:29Z",
-  "KMSS": "2026-11-05T18:44:03Z",
+  "KLFY": "2026-11-09T21:26:55Z",
+  "KMSS": "2026-11-09T21:26:55Z",
   "KNOE": "2026-11-06T17:57:29Z",
   "KPLC": "2026-11-06T17:57:29Z",
-  "KPXJ": "2026-11-06T17:57:29Z",
-  "KSLA": "2026-11-05T18:44:03Z",
-  "KTAL": "2026-11-05T18:44:03Z",
-  "KTBS": "2026-11-05T18:44:03Z",
+  "KPXJ": "2026-11-09T21:26:55Z",
+  "KSLA": "2026-11-09T21:26:55Z",
+  "KTAL": "2026-11-09T21:26:55Z",
+  "KTBS": "2026-11-09T21:26:55Z",
   "KTVE": "2026-11-06T17:57:29Z",
   "KVHP": "2026-11-07T16:50:43Z",
   "WAFB": "2026-11-08T17:02:56Z",

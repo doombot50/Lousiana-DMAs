@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-08",
- "data_through": "2026-11-05",
+ "generated": "2026-11-09",
+ "data_through": "2026-11-09",
  "cycle_from": 2023,
- "documents_read": 7018,
+ "documents_read": 7059,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -196,6 +196,88 @@
    }
   },
   {
+   "key": "DELCIELOMEDIA",
+   "name": "Del Cielo Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 273,
+    "priced": 229,
+    "usd": 3942735,
+    "stations": [
+     "KADN",
+     "KARD",
+     "KATC",
+     "KLAX",
+     "KLFY",
+     "KMSS",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KVHP",
+     "WAFB",
+     "WBRZ",
+     "WDSU",
+     "WGNO",
+     "WJBO",
+     "WNOL",
+     "WUPL",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Accountability Project Inc PAC",
+     "Electronic Payments Coalition",
+     "Original Date / Revision",
+     "Accountabllity Project",
+     "Maga Energy Project",
+     "Accountablilty Project",
+     "Buyer",
+     "Accountabillty Project",
+     "Accountabiilty Project"
+    ],
+    "first": "2026-01-20",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1176834,
+    "media": 434005,
+    "rows": 9,
+    "media_cycle": 434005,
+    "cycle": 1055775,
+    "years": {
+     "2015": 121060,
+     "2023": 1055775
+    },
+    "committees": 2,
+    "top": [
+     {
+      "f": "4517",
+      "n": "Louisiana Freedom Fund",
+      "p": "OTH",
+      "usd": 1055775,
+      "cycle": 1055775
+     },
+     {
+      "f": "3278",
+      "n": "Now or Never - Louisiana PAC",
+      "p": "OTH",
+      "usd": 121060,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "DEL CIELO MEDIA LLC"
+    ]
+   }
+  },
+  {
    "key": "TOTALVIDEOPLACEMENTS",
    "name": "Total Video Placements",
    "found_by": "political file",
@@ -280,88 +362,6 @@
     ],
     "spellings": [
      "TOTAL VIDEO"
-    ]
-   }
-  },
-  {
-   "key": "DELCIELOMEDIA",
-   "name": "Del Cielo Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 271,
-    "priced": 227,
-    "usd": 3899060,
-    "stations": [
-     "KADN",
-     "KARD",
-     "KATC",
-     "KLAX",
-     "KLFY",
-     "KMSS",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "KVHP",
-     "WAFB",
-     "WBRZ",
-     "WDSU",
-     "WGNO",
-     "WJBO",
-     "WNOL",
-     "WUPL",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Accountability Project Inc PAC",
-     "Electronic Payments Coalition",
-     "Original Date / Revision",
-     "Accountabllity Project",
-     "Maga Energy Project",
-     "Accountablilty Project",
-     "Buyer",
-     "Accountabillty Project",
-     "Accountabiilty Project"
-    ],
-    "first": "2026-01-20",
-    "last": "2026-11-06",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1176834,
-    "media": 434005,
-    "rows": 9,
-    "media_cycle": 434005,
-    "cycle": 1055775,
-    "years": {
-     "2015": 121060,
-     "2023": 1055775
-    },
-    "committees": 2,
-    "top": [
-     {
-      "f": "4517",
-      "n": "Louisiana Freedom Fund",
-      "p": "OTH",
-      "usd": 1055775,
-      "cycle": 1055775
-     },
-     {
-      "f": "3278",
-      "n": "Now or Never - Louisiana PAC",
-      "p": "OTH",
-      "usd": 121060,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "DEL CIELO MEDIA LLC"
     ]
    }
   },
@@ -681,10 +681,10 @@
      "New Horizons USA PAC"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-04",
+    "last": "2026-11-06",
     "away": {
-     "docs": 70,
-     "usd": 350151,
+     "docs": 71,
+     "usd": 364887,
      "clients": [
       "Chris Spencer/State Representat Dist1/TX/Rep",
       "Chris Spencer Campaign",
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 219,
-    "priced": 137,
-    "usd": 1497633,
+    "docs": 221,
+    "priced": 139,
+    "usd": 1531249,
     "stations": [
      "005341",
      "008048",
@@ -884,7 +884,7 @@
      "Steve Scalise/Congress/LA/Rep"
     ],
     "first": "2026-03-09",
-    "last": "2026-11-05",
+    "last": "2026-11-06",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -969,9 +969,9 @@
    "name": "BrabenderCox",
    "found_by": "political file",
    "fcc": {
-    "docs": 220,
+    "docs": 221,
     "priced": 105,
-    "usd": 1226442,
+    "usd": 1253978,
     "stations": [
      "002460",
      "003478",
@@ -1034,9 +1034,9 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 66,
-    "priced": 37,
-    "usd": 322345,
+    "docs": 68,
+    "priced": 38,
+    "usd": 333049,
     "stations": [
      "003478",
      "004321",
@@ -1056,8 +1056,8 @@
     "clients": [
      "John E Atkins Campaign",
      "Bill Cassidy for US Senate for Louisiana",
-     "John Atkins/Public Service Commissioner/LA/Rep",
      "John Atkins for Public Service Commissioner",
+     "John Atkins/Public Service Commissioner/LA/Rep",
      "John Atkins-La Public Service Comm.District",
      "Protect Louisiana Values",
      "Hilferty for Public Service Commissioner",
@@ -1068,7 +1068,7 @@
      "Huffines br Comptroller"
     ],
     "first": "2026-02-17",
-    "last": "2026-11-05",
+    "last": "2026-11-06",
     "away": {
      "docs": 26,
      "usd": 99935,
@@ -1362,9 +1362,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 97,
-    "priced": 48,
-    "usd": 655395,
+    "docs": 101,
+    "priced": 50,
+    "usd": 685379,
     "stations": [
      "002460",
      "KADN",
@@ -1385,7 +1385,7 @@
      "WWL-TV"
     ],
     "clients": [
-     "JAMIE DAVIS FOR U.S. SENATE",
+     "Jamie Davis for US Senate",
      "Hillar Moore Campaign",
      "Davis/D/US Senate",
      "Jamie Davis/US Senate/LA/Dem",
@@ -1968,9 +1968,9 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 97,
+    "docs": 98,
     "priced": 48,
-    "usd": 457360,
+    "usd": 459568,
     "stations": [
      "KARD",
      "KMSS",
@@ -1994,8 +1994,8 @@
     "first": "2026-01-23",
     "last": "2026-11-06",
     "away": {
-     "docs": 106,
-     "usd": 573229,
+     "docs": 112,
+     "usd": 600173,
      "clients": [
       "Texans for Dan Patrick/Lt Governor/Rep",
       "Josh Bray/State Senate Dist1/TX/Rep Invoice",
@@ -3159,11 +3159,11 @@
     }
    },
    "paid": {
-    "total": 1371131,
+    "total": 1378631,
     "media": 112617,
-    "rows": 315,
+    "rows": 316,
     "media_cycle": 98774,
-    "cycle": 488833,
+    "cycle": 496333,
     "years": {
      "2002": 2587,
      "2003": 11609,
@@ -3183,7 +3183,7 @@
      "2021": 1194,
      "2022": 5601,
      "2023": 81605,
-     "2024": 48000,
+     "2024": 55500,
      "2025": 31226,
      "2026": 328002
     },
@@ -3225,6 +3225,13 @@
       "cycle": 28500
      },
      {
+      "f": "2800",
+      "n": "Jean-Paul Coussan",
+      "p": "REP",
+      "usd": 22500,
+      "cycle": 22500
+     },
+     {
       "f": "3679",
       "n": "Rick Edmonds",
       "p": "REP",
@@ -3236,13 +3243,6 @@
       "n": "Jeffrey F. Wiley",
       "p": "REP",
       "usd": 20000,
-      "cycle": 15000
-     },
-     {
-      "f": "2800",
-      "n": "Jean-Paul Coussan",
-      "p": "REP",
-      "usd": 15000,
       "cycle": 15000
      },
      {
@@ -5476,11 +5476,11 @@
    "name": "The Political Firm",
    "found_by": "filings",
    "paid": {
-    "total": 12493715,
-    "media": 2510432,
-    "rows": 2442,
-    "media_cycle": 102946,
-    "cycle": 2116702,
+    "total": 12520429,
+    "media": 2516552,
+    "rows": 2450,
+    "media_cycle": 109066,
+    "cycle": 2143416,
     "years": {
      "2006": 175561,
      "2007": 750890,
@@ -5499,7 +5499,7 @@
      "2021": 140987,
      "2022": 608585,
      "2023": 1038555,
-     "2024": 269551,
+     "2024": 296265,
      "2025": 156890,
      "2026": 651707
     },
@@ -5590,6 +5590,13 @@
       "cycle": 53405
      },
      {
+      "f": "2800",
+      "n": "Jean-Paul Coussan",
+      "p": "REP",
+      "usd": 60485,
+      "cycle": 53193
+     },
+     {
       "f": "3081",
       "n": "Erick Knezek",
       "p": "REP",
@@ -5602,13 +5609,6 @@
       "p": "REP",
       "usd": 45382,
       "cycle": 45382
-     },
-     {
-      "f": "4254",
-      "n": "Robert Mills",
-      "p": "REP",
-      "usd": 107260,
-      "cycle": 43758
      }
     ],
     "spellings": [
@@ -7100,6 +7100,68 @@
    }
   },
   {
+   "key": "WILLIAMSCREATIVE",
+   "name": "Williams Creative Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 21,
+    "priced": 6,
+    "usd": 53672,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KLKL",
+     "KMSS",
+     "KOKA",
+     "KSLA",
+     "KTAL",
+     "KVKI",
+     "KXKS"
+    ],
+    "clients": [
+     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
+     "m Downtown Shreveport Development Corporation",
+     "Tom Arceneaux for Shreveport Mayor",
+     "m Tom Arceneaux for Mayor",
+     "Pol26/Tom Arceneux for Mayor",
+     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
+     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 79824,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 79824,
+    "years": {
+     "2025": 6235,
+     "2026": 73589
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5573",
+      "n": "M. Thomas (\"Tom\") Arceneaux",
+      "p": "REP",
+      "usd": 79824,
+      "cycle": 79824
+     }
+    ],
+    "spellings": [
+     "WILLIAMS CREATIVE GROUP"
+    ]
+   }
+  },
+  {
    "key": "GEN2SOLUTIONS",
    "name": "Gen2 Solutions",
    "found_by": "political file",
@@ -7375,65 +7437,29 @@
    }
   },
   {
-   "key": "WILLIAMSCREATIVE",
-   "name": "Williams Creative Group",
+   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
+   "name": "Anderson Advertising & Public Relations",
    "found_by": "political file",
    "fcc": {
-    "docs": 20,
-    "priced": 6,
-    "usd": 44952,
+    "docs": 5,
+    "priced": 4,
+    "usd": 41318,
     "stations": [
-     "KDKS",
-     "KEEL",
-     "KLKL",
      "KMSS",
-     "KOKA",
      "KSLA",
-     "KTAL",
-     "KVKI",
-     "KXKS"
+     "KTAL"
     ],
     "clients": [
-     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
-     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
-     "m Downtown Shreveport Development Corporation",
-     "m Tom Arceneaux for Mayor",
-     "Pol26/Tom Arceneux for Mayor",
-     "Tom Arceneaux for Shreveport Mayor",
-     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
-     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+     "Conrad Cable for Congress",
+     "Conrad Cable/Congress/LA/Dem"
     ],
-    "first": "2026-09-30",
-    "last": "2026-11-03",
+    "first": "2026-11-03",
+    "last": "2026-11-06",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
-   },
-   "paid": {
-    "total": 79824,
-    "media": 0,
-    "rows": 9,
-    "media_cycle": 0,
-    "cycle": 79824,
-    "years": {
-     "2025": 6235,
-     "2026": 73589
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "5573",
-      "n": "M. Thomas (\"Tom\") Arceneaux",
-      "p": "REP",
-      "usd": 79824,
-      "cycle": 79824
-     }
-    ],
-    "spellings": [
-     "WILLIAMS CREATIVE GROUP"
-    ]
    }
   },
   {
@@ -9677,30 +9703,6 @@
    }
   },
   {
-   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
-   "name": "Anderson Advertising & Public Relations",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 12470,
-    "stations": [
-     "KMSS",
-     "KTAL"
-    ],
-    "clients": [
-     "Conrad Cable/Congress/LA/Dem"
-    ],
-    "first": "2026-11-03",
-    "last": "2026-11-03",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "STRATEGICMEDIASERVICES",
    "name": "Strategic Media Services",
    "found_by": "political file",
@@ -10892,6 +10894,82 @@
    }
   },
   {
+   "key": "MOBILECOMMUNICATIONSSERVICE",
+   "name": "Mobile Communications Service",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 36,
+    "priced": 10,
+    "usd": 3992,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KOKA",
+     "KPXJ",
+     "KRVV",
+     "KSLA",
+     "KTBS"
+    ],
+    "clients": [
+     "Phelps for Mayor Campaign",
+     "Tammy Phelps for Shreveport Mayor",
+     "John Atkins campaign",
+     "Tammy Phelps for Mayor",
+     "Kharmen Davis-Taylor for Judge",
+     "JOHN ATKINS FOR LA PUBLIC SERVICE COMMISSIONER",
+     "Ravari for Shreveport",
+     "Matt Gromlich for Louisiana",
+     "Siavosh Ravarl",
+     "Mero for Mayor campaign"
+    ],
+    "first": "2026-05-18",
+    "last": "2026-11-06",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 6440,
+    "media": 450,
+    "rows": 5,
+    "media_cycle": 0,
+    "cycle": 5990,
+    "years": {
+     "2014": 450,
+     "2023": 5990
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "6043",
+      "n": "Regina Webb",
+      "p": "DEM",
+      "usd": 4990,
+      "cycle": 4990
+     },
+     {
+      "f": "3394",
+      "n": "John Milkovich",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "2686",
+      "n": "Don Decovan Otis",
+      "p": "DEM",
+      "usd": 450,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MOBILE COMMUNICATIONS SERVICE"
+    ]
+   }
+  },
+  {
    "key": "QUESTCOMMUNICATIONS",
    "name": "QUEST COMMUNICATIONS",
    "found_by": "political file",
@@ -11235,81 +11313,6 @@
     "spellings": [
      "MLC WORKS",
      "MLCWORKS"
-    ]
-   }
-  },
-  {
-   "key": "MOBILECOMMUNICATIONSSERVICE",
-   "name": "Mobile Communications Service",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 33,
-    "priced": 8,
-    "usd": 2200,
-    "stations": [
-     "KDKS",
-     "KEEL",
-     "KOKA",
-     "KPXJ",
-     "KRVV",
-     "KSLA",
-     "KTBS"
-    ],
-    "clients": [
-     "Phelps for Mayor Campaign",
-     "John Atkins campaign",
-     "Tammy Phelps for Mayor",
-     "Kharmen Davis-Taylor for Judge",
-     "JOHN ATKINS FOR LA PUBLIC SERVICE COMMISSIONER",
-     "Ravari for Shreveport",
-     "Matt Gromlich for Louisiana",
-     "Siavosh Ravarl",
-     "Mero for Mayor campaign"
-    ],
-    "first": "2026-05-18",
-    "last": "2026-10-30",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 6440,
-    "media": 450,
-    "rows": 5,
-    "media_cycle": 0,
-    "cycle": 5990,
-    "years": {
-     "2014": 450,
-     "2023": 5990
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "6043",
-      "n": "Regina Webb",
-      "p": "DEM",
-      "usd": 4990,
-      "cycle": 4990
-     },
-     {
-      "f": "3394",
-      "n": "John Milkovich",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 1000
-     },
-     {
-      "f": "2686",
-      "n": "Don Decovan Otis",
-      "p": "DEM",
-      "usd": 450,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "MOBILE COMMUNICATIONS SERVICE"
     ]
    }
   },
@@ -14172,10 +14175,10 @@
     ],
     "clients": [],
     "first": "2026-02-10",
-    "last": "2026-11-03",
+    "last": "2026-11-06",
     "away": {
-     "docs": 128,
-     "usd": 1683139,
+     "docs": 130,
+     "usd": 1761475,
      "clients": [
       "Texans for Greg Abbott",
       "Texans for Greg Abboll - PO Box",
@@ -19489,10 +19492,10 @@
     ],
     "clients": [],
     "first": "2026-09-28",
-    "last": "2026-11-03",
+    "last": "2026-11-06",
     "away": {
-     "docs": 23,
-     "usd": 60108,
+     "docs": 25,
+     "usd": 63852,
      "clients": [
       "Gina Hinojosa Campaign",
       "Gina Hinojosa for Governor",
@@ -20088,10 +20091,10 @@
      "Talarico for Texas"
     ],
     "first": "2026-10-09",
-    "last": "2026-11-03",
+    "last": "2026-11-06",
     "away": {
-     "docs": 23,
-     "usd": 56073,
+     "docs": 25,
+     "usd": 67145,
      "clients": [
       "Talarico for Texas",
       "James Talarico/US Senate/TX/Dem",
@@ -37068,24 +37071,24 @@
    {
     "k": "POLITICALFIRM",
     "n": "The Political Firm",
-    "usd": 33771,
-    "cycle": 26479,
-    "media": 1800,
+    "usd": 60485,
+    "cycle": 53193,
+    "media": 7920,
     "fcc": false,
     "y": {
      "2019": 7292,
-     "2024": 26479
+     "2024": 53193
     }
    },
    {
     "k": "TAYLORMEDIASERVICES",
     "n": "Taylor Media Services",
-    "usd": 15000,
-    "cycle": 15000,
+    "usd": 22500,
+    "cycle": 22500,
     "media": 0,
     "fcc": true,
     "y": {
-     "2024": 15000
+     "2024": 22500
     }
    },
    {
