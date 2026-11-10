@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "data_through": "2026-11-09",
  "cycle_from": 2023,
- "documents_read": 7059,
+ "documents_read": 7064,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -8289,60 +8289,13 @@
    }
   },
   {
-   "key": "PIER91",
-   "name": "Pier 91",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 21780,
-    "stations": [
-     "KRVE",
-     "WJBO"
-    ],
-    "clients": [
-     "Louisiana Connects"
-    ],
-    "first": "2026-09-09",
-    "last": "2026-09-09",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
-   "key": "GP3MEDIAMIX",
-   "name": "GP3 Media Mix",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 20300,
-    "stations": [
-     "WDSU"
-    ],
-    "clients": [
-     "Fair Rates First"
-    ],
-    "first": "2026-05-04",
-    "last": "2026-05-04",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "FLEXPOINTMEDIA",
    "name": "FlexPoint Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 36,
-    "priced": 12,
-    "usd": 19595,
+    "docs": 38,
+    "priced": 13,
+    "usd": 22435,
     "stations": [
      "003478",
      "KALB",
@@ -8354,6 +8307,7 @@
      "KSLA",
      "KTAL",
      "KTBS",
+     "KTVE",
      "KXKS",
      "WNOL",
      "WNTZ"
@@ -8367,7 +8321,7 @@
      "Fimentfor Congress"
     ],
     "first": "2026-02-24",
-    "last": "2026-11-03",
+    "last": "2026-11-09",
     "away": {
      "docs": 55,
      "usd": 3322946,
@@ -8418,6 +8372,53 @@
      "FLEXPOINT MEDIA INC",
      "FLEXPOINT MEDIA INC."
     ]
+   }
+  },
+  {
+   "key": "PIER91",
+   "name": "Pier 91",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 21780,
+    "stations": [
+     "KRVE",
+     "WJBO"
+    ],
+    "clients": [
+     "Louisiana Connects"
+    ],
+    "first": "2026-09-09",
+    "last": "2026-09-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "GP3MEDIAMIX",
+   "name": "GP3 Media Mix",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 20300,
+    "stations": [
+     "WDSU"
+    ],
+    "clients": [
+     "Fair Rates First"
+    ],
+    "first": "2026-05-04",
+    "last": "2026-05-04",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {

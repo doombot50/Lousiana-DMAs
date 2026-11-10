@@ -1413,6 +1413,27 @@
    "name_kind": "order",
    "read_at": "2026-10-20T20:13:18Z"
   },
+  "029feb6f-ade5-41d1-84e4-720b6032c668": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "FlexPoint Campaigns",
+   "advertiser": "Firment for Congress",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KTVE",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment NAB 11.9.26",
+   "uploaded": "2026-11-09T15:12:53-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-10T18:45:22Z"
+  },
   "02e576ee-2e8b-4c6a-8efc-6f4664a765c6": {
    "kind": "invoice",
    "layout": "invoice",
@@ -5886,6 +5907,27 @@
    "uploaded": "2026-06-17T02:35:46-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
+  },
+  "0a2f429c-b3f6-4012-94e1-acbfa6704073": {
+   "kind": "order",
+   "layout": "order",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "003478",
+   "path": "Political Files/2026/State/Monroe-El Dorado/District Judge/CMTE ELECT ADAM COSSEY-LA",
+   "name": "727986_Invoice_20261106084425",
+   "uploaded": "2026-11-06T12:09:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-10T18:46:07Z"
   },
   "0a317eb4-d576-40d6-8b3f-6bb82fc4f91a": {
    "kind": "request",
@@ -43559,6 +43601,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
   },
+  "4a603707-3c9d-4aa3-b420-23de4b516de3": {
+   "kind": "order",
+   "layout": "order",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "003478",
+   "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+   "name": "728315_Invoice_20261106085008",
+   "uploaded": "2026-11-06T12:09:10-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-10T18:46:07Z"
+  },
   "4a65d9c6-4fa8-4fb3-80cf-f3ef78b8e6a7": {
    "kind": "order",
    "layout": "contract",
@@ -48895,6 +48958,27 @@
    "uploaded": "2026-10-23T15:05:54-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
+  },
+  "5369f157-13f9-4db3-9d1c-54eecf71a8d4": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 2840.0,
+   "net": 2414.0,
+   "agency": "Flexpoint Campaigns",
+   "advertiser": "POL/Michael Gabriel Firment/Congress/LA/Rep 11/09/26",
+   "order_no": "5459381",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTVE",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment KTVE 11.9.26",
+   "uploaded": "2026-11-09T15:12:53-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-10T18:45:22Z"
   },
   "536e22ef-b931-4d50-bf03-0a644b81fb77": {
    "kind": "order",
@@ -143799,6 +143883,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:49:24Z"
   },
+  "ef26046a-664a-41bb-9637-ab2b39188060": {
+   "kind": "order",
+   "layout": "order",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "003478",
+   "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+   "name": "727868_Invoice_20261106084233",
+   "uploaded": "2026-11-06T12:09:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-10T18:46:07Z"
+  },
   "ef307231-36f9-4007-ab34-fb5fe0f05511": {
    "kind": "order",
    "layout": "schedule",
@@ -153501,6 +153606,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-09T21:37:01Z",
+ "updated": "2026-11-10T18:46:07Z",
  "blocked": null
 }

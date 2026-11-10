@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-09T21:29:26Z",
+ "scraped": "2026-11-10T18:41:50Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-11-07T16:50:43Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -3697,7 +3697,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-11-07T16:50:43Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -5852,7 +5852,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-11-07T16:50:43Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -10710,7 +10710,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-11-07T16:50:43Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -57313,7 +57313,7 @@
    "facility_id": "48975",
    "root_folder": "c96465a1-4b00-57c1-eaa2-444c27864256",
    "profile": "tv-profile/knoe-tv",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2015": "9d19dfab-85d2-7a49-54f2-7e96bb03f41f",
     "2017": "5207134f-9eab-77dc-9e70-4c30db7bb52b",
@@ -61015,7 +61015,7 @@
    "facility_id": "35692",
    "root_folder": "6ccb985d-b32e-a6d1-6b62-04c24d877f2e",
    "profile": "tv-profile/ktve",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2018": "e3f9498d-ec81-99bb-5714-1348a5213d1e",
     "2019": "1c3d4528-0289-c08a-20ce-74b048259b13",
@@ -61047,12 +61047,31 @@
     "Political Files/2026/Non-Candidate Issue Ads/Fellowship PAC": "ae14dddc-457a-01e3-3316-f8603a79a115",
     "Political Files/2026/Non-Candidate Issue Ads/Louisiana Freedom Fund": "44076de2-9556-9332-3229-f4dddae60074",
     "Political Files/2026/State": "8cf2e7f8-7cf0-6374-9c89-c2d265518a90",
+    "Political Files/2026/State/Gabe Firment": "b951ceeb-7aea-e9e8-1d2c-cdf6155d8652",
     "Political Files/2026/State/Julia Letlow": "fe874c99-3ee6-0290-ff2f-edd127c8218f",
     "Political Files/2026/State/Mike Echols": "3cc9f30b-fd40-f730-b214-a699562bcc55",
     "Political Files/2026/State/Mike Johnson": "28ad39a3-d791-6641-f395-048bed7c039c",
     "Political Files/2026/State/Misti Cordell": "384f2dea-4d7b-9382-997a-0055c8301cfb"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Gabe Firment",
+     "name": "Gabe Firment KTVE 11.9.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T15:12:53-05:00",
+     "folder_id": "b951ceeb-7aea-e9e8-1d2c-cdf6155d8652",
+     "file_id": "c33c3933-21fe-daa8-98b5-c0423056734b",
+     "file_manager_id": "5369f157-13f9-4db3-9d1c-54eecf71a8d4"
+    },
+    {
+     "path": "Political Files/2026/State/Gabe Firment",
+     "name": "Gabe Firment NAB 11.9.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T15:12:53-05:00",
+     "folder_id": "b951ceeb-7aea-e9e8-1d2c-cdf6155d8652",
+     "file_id": "bae34596-c263-ca98-686c-70195edf179d",
+     "file_manager_id": "029feb6f-ade5-41d1-84e4-720b6032c668"
+    },
     {
      "path": "Political Files/2026/Local/Mike Smith",
      "name": "Mike Smith NAB 10.28.26",
@@ -61755,7 +61774,7 @@
    "facility_id": "3658",
    "root_folder": "6aeadbe8-7885-28c3-3de9-7fe3217df95c",
    "profile": "tv-profile/kard",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2018": "624ee5c0-d284-8503-08e3-4adddd65668d",
     "2019": "e686e71c-c813-05ac-d41e-7e0222ad3c69",
@@ -62512,7 +62531,7 @@
    "facility_id": "13994",
    "root_folder": "3a7cbc6a-9d9c-fd49-2381-081f274c4aa9",
    "profile": "tv-profile/kplc",
-   "scraped_at": "2026-11-06T17:57:29Z",
+   "scraped_at": "2026-11-10T18:40:50Z",
    "year_folders": {
     "2017": "76c1d6da-c5a7-92b5-ecbe-b16a7d44a376",
     "2018": "cee6cef1-dcea-0704-0aa1-a9239d22df40",
@@ -67696,31 +67715,31 @@
  "attempted": {
   "KADN": "2026-11-09T21:26:55Z",
   "KALB": "2026-11-07T16:50:43Z",
-  "KARD": "2026-11-06T17:57:29Z",
+  "KARD": "2026-11-10T18:40:50Z",
   "KATC": "2026-11-09T21:26:55Z",
   "KLAX": "2026-11-07T16:50:43Z",
   "KLFY": "2026-11-09T21:26:55Z",
   "KMSS": "2026-11-09T21:26:55Z",
-  "KNOE": "2026-11-06T17:57:29Z",
-  "KPLC": "2026-11-06T17:57:29Z",
+  "KNOE": "2026-11-10T18:40:50Z",
+  "KPLC": "2026-11-10T18:40:50Z",
   "KPXJ": "2026-11-09T21:26:55Z",
   "KSLA": "2026-11-09T21:26:55Z",
   "KTAL": "2026-11-09T21:26:55Z",
   "KTBS": "2026-11-09T21:26:55Z",
-  "KTVE": "2026-11-06T17:57:29Z",
+  "KTVE": "2026-11-10T18:40:50Z",
   "KVHP": "2026-11-07T16:50:43Z",
   "WAFB": "2026-11-08T17:02:56Z",
   "WBRL-CD": "2026-11-08T17:02:56Z",
   "WBRZ": "2026-11-08T17:02:56Z",
-  "WDSU": "2026-11-07T16:50:43Z",
+  "WDSU": "2026-11-10T18:40:50Z",
   "WGMB": "2026-11-08T17:02:56Z",
-  "WGNO": "2026-11-07T16:50:43Z",
+  "WGNO": "2026-11-10T18:40:50Z",
   "WLAE": "2026-11-08T17:02:56Z",
   "WNOL": "2026-11-08T17:02:56Z",
   "WNTZ": "2026-11-07T16:50:43Z",
   "WUPL": "2026-11-08T17:02:56Z",
   "WVLA": "2026-11-08T17:02:56Z",
-  "WVUE": "2026-11-07T16:50:43Z",
-  "WWL-TV": "2026-11-07T16:50:43Z"
+  "WVUE": "2026-11-10T18:40:50Z",
+  "WWL-TV": "2026-11-10T18:40:50Z"
  }
 }
