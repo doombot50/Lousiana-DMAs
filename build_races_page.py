@@ -438,6 +438,31 @@ def scaffold(day, fin, tv, ra, pf, used, taken):
     return races, field
 
 
+def runoff_races(prev):
+    """The runoffs an election's results set, before the Secretary of State
+    posts the runoff's own ballot: each race with candidates the results
+    mark "Runoff", carrying those candidates' rows (money, airtime, political
+    files) and their first-round votes as `pv` [votes, votes cast in the
+    race]. A race needs two candidates still in it."""
+    out = []
+    for r in prev['races']:
+        through = [c for c in r['c'] if c.get('w') == 'Runoff']
+        if len(through) < 2:
+            continue
+        cast = sum(c.get('v') or 0 for c in r['c'])
+        rows = [{**{k: v for k, v in c.items() if k not in ('v', 'w')}, 'pv': [c.get('v') or 0, cast]}
+                for c in through]
+        seats = max(1, r['el'] - sum(1 for c in r['c'] if c.get('w') == 'Elected'))
+        out.append({'id': r['id'], 'o': r['o'], 'pa': r['pa'], 't': r['t'], 'k': r['k'], 'el': seats, 'c': rows})
+    return out
+
+
+def is_coming(e, today):
+    """An election still ahead with races to show: a posted ballot, or the
+    runoffs the election before it set."""
+    return (e['posted'] or e.get('runoff')) and e['d'] >= today
+
+
 ORDINAL = {1: '1st', 2: '2nd', 3: '3rd'}
 EXPLICIT = [(re.compile(r'\bLA[\s_-]*CD[\s_-]*0?(\d)\b', re.I),
              lambda m: f"U. S. Representative -- {ORDINAL.get(int(m.group(1)), m.group(1) + 'th')} Congressional District"),
@@ -451,7 +476,7 @@ def outside_groups(F, election):
     Scalise", "Liberal Letlow": stations name the creative). A surname counts
     only when one such candidate on the ballot has it, so a plain word
     ("Page") or a namesake can't tie a group to the wrong race."""
-    if not F or not election.get('posted'):
+    if not F or not (election.get('posted') or election.get('runoff')):
         return
     by_office = {}
     for r in election['races']:
@@ -487,11 +512,19 @@ def outside_groups(F, election):
             r['out'].sort(key=lambda g: (-g['recent'], -g['docs'], g['n']))
 
 
-def feed(F, elections):
+def feed(F, elections, today):
     """Political-file documents posted in the last few days, newest first,
     each tied to the race its buyer is running in, where there is one."""
-    where = {c['pf']['bn']: [e['d'], r['id']] for e in elections for r in e['races']
-             for c in r['c'] if 'pf' in c}
+    # A buyer on more than one ballot links to the next one coming, else to
+    # the latest one past.
+    ahead = sorted((e for e in elections if e['d'] >= today), key=lambda e: e['d'])
+    behind = sorted((e for e in elections if e['d'] < today), key=lambda e: e['d'], reverse=True)
+    where = {}
+    for e in ahead + behind:
+        for r in e['races']:
+            for c in r['c']:
+                if 'pf' in c:
+                    where.setdefault(c['pf']['bn'], [e['d'], r['id']])
     out = []
     for x in (F or {}).get('all', []):
         for up, call, kind in x['fresh']:
@@ -516,11 +549,14 @@ def build(today=None):
         for fn, c in src.items():
             party.setdefault(fn, c.get('party'))
 
-    used, taken, elections = set(), set(), []
+    # `used` keeps one political-file buyer from landing on two candidates
+    # of one election; it starts over for each, so a candidate on a primary
+    # and its runoff carries their bookings on both.
+    taken, elections = set(), []
     for e in ballot['elections']:
         day = date.fromisoformat(e['date'])
         if e.get('posted'):
-            races = ballot_races(e, fin, tv, ra, pf, used, fec)
+            races = ballot_races(e, fin, tv, ra, pf, set(), fec)
             for r in races:
                 taken |= {c['f'] for c in r['c'] if c.get('f')}
             elections.append({'d': e['date'], 'posted': True, 'races': races})
@@ -532,9 +568,20 @@ def build(today=None):
     for e in elections:
         day = date.fromisoformat(e['d'])
         if not e['posted'] and day > today and day.month == 10 and day.year % 4 == 3:
-            e['races'], e['field'] = scaffold(day, fin, tv, ra, pf, used, taken)
+            e['races'], e['field'] = scaffold(day, fin, tv, ra, pf, set(), taken)
             e['scaffold'] = True
             break
+    # A runoff's ballot is set by the election before it, days or weeks
+    # before the Secretary of State posts it: until then, build it from the
+    # candidates those results sent to a runoff.
+    for prev, e in zip(elections, elections[1:]):
+        gap = (date.fromisoformat(e['d']) - date.fromisoformat(prev['d'])).days
+        if not e['posted'] and prev['posted'] and prev['d'] < today.isoformat() and gap <= 60:
+            if (races := runoff_races(prev)):
+                e['races'], e['runoff'] = races, prev['d']
+                for r in races:
+                    if (a := advantage(r['c'], fin.wins)):
+                        r['adv'] = a
     for e in elections:
         for r in e['races']:
             for c in r['c'] + e.get('field', []):
@@ -558,7 +605,7 @@ def build(today=None):
     wins = fin.wins
     data = {
         'elections': elections,
-        'feed': feed(F, elections),
+        'feed': feed(F, elections, today.isoformat()),
         'fcc': {'scraped': F['scraped'], 'freshSince': F['freshSince'], 'days': F['days'],
                 'media': F['media'], 'weeks': F['weeks']} if F else None,
         'wins': {'tier': {x['tier']: [x['rate'], x['n']] for x in wins.get('by_tier', [])},
@@ -574,8 +621,8 @@ def build(today=None):
 
 
 def facts(data):
-    posted = [e for e in data['elections'] if e['posted'] and e['d'] >= data['today']]
-    nxt = posted[0] if posted else None
+    coming_up = [e for e in data['elections'] if is_coming(e, data['today'])]
+    nxt = coming_up[0] if coming_up else None
     cycle = CYCLE.replace('-', '–')
     if not nxt:
         return {'lede': 'No ballot is posted for a coming election yet.', 'cycle': cycle}
@@ -583,18 +630,26 @@ def facts(data):
     nc = sum(len(r['c']) for r in rs)
     money = sum(1 for r in rs for c in r['c'] if c.get('r'))
     ads = sum(1 for r in rs for c in r['c'] if c.get('pf') or c.get('tv') or c.get('ra'))
-    when = date.fromisoformat(nxt['d']).strftime('%B %-d')
+    day = lambda d: date.fromisoformat(d).strftime('%B %-d')
+    when = day(nxt['d'])
+    buying = (f'{money:,} of the candidates have reported raising money this cycle, and {words(ads)} '
+              f'have bought or booked TV or radio time.')
+    if nxt.get('runoff'):
+        fed = sum(1 for r in rs if r['t'] == 'Federal')
+        return {'lede': f'The {day(nxt["runoff"])} election is over, and its results are on its tab. '
+                        f'<b>{len(rs):,} races</b> went to a {when} runoff'
+                        + (f', {words(fed)} of them for Congress' if fed else '')
+                        + f', with <b>{nc:,} candidates</b> still in them. {buying}', 'cycle': cycle}
     return {'lede': f'<b>{len(rs):,} contested races</b> and <b>{nc:,} candidates</b> are on the {when} ballot. '
-                    f'{money:,} of the candidates have reported raising money this cycle, and {words(ads)} '
-                    f'have bought or booked TV or radio time.', 'cycle': cycle}
+                    f'{buying}', 'cycle': cycle}
 
 
 def filer_races(data):
     """filer -> [election date, race id, office] for every matched candidate
-    on a posted ballot that hasn't happened yet."""
+    on a coming ballot: one that's posted, or a runoff the last results set."""
     out = {}
     for e in data['elections']:
-        if e['posted'] and e['d'] >= data['today']:
+        if is_coming(e, data['today']):
             for r in e['races']:
                 for c in r['c']:
                     if c.get('f'):
