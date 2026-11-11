@@ -320,6 +320,17 @@ refreshes the file, and the **FEC** workflow runs it when the script
 changes; fec.gov, like the Secretary of State's portal, isn't reachable from
 every network.
 
+**After an election.** Once an election's results are in, its cards lead with
+the outcome: a line saying who won and by how much (or who is in the runoff),
+an ELECTED, RUNOFF or DEFEATED tag on each candidate, and each one's share of
+the vote in single-seat races. The runoff's own tab doesn't wait for the
+Secretary of State to post that ballot: `runoff_races` builds it from the
+candidates the results mark "Runoff", with their first-round votes, and the
+page opens on it as the next election; the posted ballot replaces it when
+it's up. The TV page's copy about this year's bookings turns from a running
+count ("booked so far") to a record once the political files run past
+election day.
+
 **Before qualifying.** The October 2027 ballot won't exist until qualifying
 in summer 2027. Until then its tab lists the offices contested in fall 2023,
 each with the candidate who won it and their money so far this cycle, plus
