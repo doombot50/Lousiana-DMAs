@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-10",
- "data_through": "2026-11-09",
+ "generated": "2026-11-11",
+ "data_through": "2026-11-10",
  "cycle_from": 2023,
- "documents_read": 7064,
+ "documents_read": 7088,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -63,11 +63,11 @@
     }
    },
    "paid": {
-    "total": 16185802,
+    "total": 16210797,
     "media": 7107645,
-    "rows": 1188,
+    "rows": 1189,
     "media_cycle": 5125141,
-    "cycle": 10645298,
+    "cycle": 10670293,
     "years": {
      "2017": 64480,
      "2018": 251392,
@@ -78,7 +78,7 @@
      "2023": 9411336,
      "2024": 91239,
      "2025": 279774,
-     "2026": 862949
+     "2026": 887944
     },
     "committees": 46,
     "top": [
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 221,
-    "priced": 139,
-    "usd": 1531249,
+    "docs": 223,
+    "priced": 140,
+    "usd": 1531439,
     "stations": [
      "005341",
      "008048",
@@ -876,15 +876,15 @@
      "Mike Echols/US Congress/LA/Rep",
      "Scalise for Congress",
      "Mike Echols / US House / R / LA",
+     "Steve Scalise / R / US HOUSE / LA",
      "Original Date / Revision",
      "Echols for LA State Congress",
-     "Steve Scalise / R / US HOUSE / LA",
      "Scalise/R/Congress",
      "Mike Johnson for Loulsiana",
      "Steve Scalise/Congress/LA/Rep"
     ],
     "first": "2026-03-09",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1034,9 +1034,9 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 68,
-    "priced": 38,
-    "usd": 333049,
+    "docs": 70,
+    "priced": 39,
+    "usd": 333149,
     "stations": [
      "003478",
      "004321",
@@ -1050,6 +1050,7 @@
      "KVHP",
      "KXKS",
      "WDSU",
+     "WUPL",
      "WVUE",
      "WWL-TV"
     ],
@@ -1060,15 +1061,15 @@
      "John Atkins/Public Service Commissioner/LA/Rep",
      "John Atkins-La Public Service Comm.District",
      "Protect Louisiana Values",
+     "Robert Hodges / R / Sheriff / LA",
      "Hilferty for Public Service Commissioner",
      "Hilferty/R/Public Service Commissioner",
      "Hodges/R/St Tammany Sheriff",
      "John E Atkins Campalgn",
-     "Stephanie Hilferty / R / Public Serv Comm/ LA",
-     "Huffines br Comptroller"
+     "Stephanie Hilferty / R / Public Serv Comm/ LA"
     ],
     "first": "2026-02-17",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
      "docs": 26,
      "usd": 99935,
@@ -2078,11 +2079,11 @@
     }
    },
    "paid": {
-    "total": 9961715,
+    "total": 9966275,
     "media": 2341188,
-    "rows": 2835,
+    "rows": 2836,
     "media_cycle": 148430,
-    "cycle": 1587061,
+    "cycle": 1591621,
     "years": {
      "2000": 22813,
      "2001": 24656,
@@ -2109,9 +2110,9 @@
      "2023": 936326,
      "2024": 391979,
      "2025": 56112,
-     "2026": 202645
+     "2026": 207205
     },
-    "committees": 178,
+    "committees": 179,
     "top": [
      {
       "f": "5061",
@@ -2906,9 +2907,9 @@
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 52,
-    "priced": 38,
-    "usd": 163738,
+    "docs": 54,
+    "priced": 39,
+    "usd": 163955,
     "stations": [
      "005341",
      "WDSU",
@@ -2932,7 +2933,7 @@
      "Barthelemy/D/State Senate Dist 3"
     ],
     "first": "2026-02-05",
-    "last": "2026-11-05",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -3981,9 +3982,9 @@
    "name": "Velocity Agency",
    "found_by": "political file",
    "fcc": {
-    "docs": 12,
+    "docs": 13,
     "priced": 9,
-    "usd": 120105,
+    "usd": 120670,
     "stations": [
      "WDSU",
      "WUPL",
@@ -3991,12 +3992,12 @@
      "WWL-TV"
     ],
     "clients": [
+     "Daniel Seuzeneau / R / Sheriff StTammany / LA",
      "Seuzeneau/R/St Tammany Sheriff",
-     "Seuzeneau For Sheriff",
-     "Daniel Seuzeneau / R / Sheriff StTammany / LA"
+     "Seuzeneau For Sheriff"
     ],
     "first": "2026-08-11",
-    "last": "2026-11-03",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -9868,10 +9869,11 @@
    "name": "Guichard Advertising / POL",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
-    "priced": 4,
-    "usd": 11505,
+    "docs": 6,
+    "priced": 5,
+    "usd": 11680,
     "stations": [
+     "WUPL",
      "WWL-TV"
     ],
     "clients": [
@@ -9880,7 +9882,7 @@
      "Kimya M. Holmes / D / Judge Orleans / LA"
     ],
     "first": "2026-11-03",
-    "last": "2026-11-03",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -10299,6 +10301,163 @@
      "O'CARROLL GROUP",
      "O'CARROLL GROUP(PETER O'CARROLL ADVERTISING, INC.)",
      "THE O'CARROLL GROUP"
+    ]
+   }
+  },
+  {
+   "key": "BROWNPUBLICRELATIONSPOL",
+   "name": "Brown Public Relations LLC / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 15,
+    "priced": 1,
+    "usd": 180,
+    "stations": [
+     "WUPL"
+    ],
+    "clients": [
+     "Alliance for Good Government"
+    ],
+    "first": "2026-11-10",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 875966,
+    "media": 59294,
+    "rows": 234,
+    "media_cycle": 7350,
+    "cycle": 366290,
+    "years": {
+     "2017": 25490,
+     "2018": 34183,
+     "2019": 202284,
+     "2020": 78975,
+     "2021": 98863,
+     "2022": 69881,
+     "2023": 144834,
+     "2024": 13572,
+     "2025": 79470,
+     "2026": 128414
+    },
+    "committees": 160,
+    "top": [
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 39885,
+      "cycle": 20180
+     },
+     {
+      "f": "6600",
+      "n": "Michelle M. Woodfork",
+      "p": "DEM",
+      "usd": 16287,
+      "cycle": 16287
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 16287,
+      "cycle": 16287
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 12101,
+      "cycle": 12101
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 12101,
+      "cycle": 12101
+     },
+     {
+      "f": "7517",
+      "n": "Jessica Raines",
+      "p": "OTH",
+      "usd": 12008,
+      "cycle": 12008
+     },
+     {
+      "f": "5698",
+      "n": "Simone Levine",
+      "p": "DEM",
+      "usd": 11295,
+      "cycle": 11295
+     },
+     {
+      "f": "3731",
+      "n": "Stephanie Hilferty",
+      "p": "REP",
+      "usd": 19140,
+      "cycle": 11205
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 10861,
+      "cycle": 10861
+     },
+     {
+      "f": "1796",
+      "n": "Arita Bohannan",
+      "p": "REP",
+      "usd": 21497,
+      "cycle": 10770
+     },
+     {
+      "f": "1374",
+      "n": "Hans J. Liljeberg",
+      "p": "REP",
+      "usd": 34482,
+      "cycle": 10295
+     },
+     {
+      "f": "4943",
+      "n": "Matthew Willard",
+      "p": "DEM",
+      "usd": 10015,
+      "cycle": 10015
+     },
+     {
+      "f": "1813",
+      "n": "Juana Marine-Lombard",
+      "p": "DEM",
+      "usd": 12569,
+      "cycle": 9542
+     },
+     {
+      "f": "2044",
+      "n": "Randy Smith",
+      "p": "REP",
+      "usd": 18326,
+      "cycle": 8977
+     },
+     {
+      "f": "1456",
+      "n": "Erroll G. Williams",
+      "p": "DEM",
+      "usd": 17184,
+      "cycle": 8835
+     }
+    ],
+    "spellings": [
+     "BROWN PUBLIC RELATIONS",
+     "BROWN PUBLIC RELATIONS LLC",
+     "BROWN PUBLIC RELATIONS, LLC",
+     "BROWN PUBLIC RELATIONS, L.L.C.",
+     "BROWN PUBLIC RELATIONS (ALLIANCE FOR GOOD GOV.)"
     ]
    }
   },
@@ -20754,6 +20913,18 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 14061,
+    "cycle": 7452,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 6609,
+     "2025": 7452
+    }
+   },
+   {
     "k": "OURSOBEYCHOK",
     "n": "Ourso Beychok",
     "usd": 1000,
@@ -22041,6 +22212,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 10000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 10000
+    }
+   },
+   {
     "k": "KINGFISHCOMMUNICATIONS",
     "n": "Kingfish Communications",
     "usd": 9900,
@@ -22380,6 +22562,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 13107,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 13107
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 6000,
@@ -22634,6 +22827,17 @@
     "fcc": false,
     "y": {
      "2007": 3155
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2427,
+    "cycle": 2427,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2427
     }
    }
   ],
@@ -23252,6 +23456,17 @@
     "fcc": true,
     "y": {
      "2023": 10000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6342,
+    "cycle": 6342,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 6342
     }
    },
    {
@@ -24266,12 +24481,13 @@
    {
     "k": "PEOPLEWHOTHINKDELCIELOMEDIA",
     "n": "People Who Think / Del Cielo Media",
-    "usd": 54382,
-    "cycle": 0,
+    "usd": 79377,
+    "cycle": 24995,
     "media": 0,
     "fcc": true,
     "y": {
-     "2019": 54382
+     "2019": 54382,
+     "2026": 24995
     }
    },
    {
@@ -24457,6 +24673,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 9518,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 9518
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 7000,
@@ -24501,6 +24728,18 @@
     "y": {
      "2023": 51365,
      "2024": 172
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 34482,
+    "cycle": 10295,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 24187,
+     "2023": 10295
     }
    },
    {
@@ -24830,6 +25069,17 @@
     "y": {
      "2021": 60055
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2542,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 2542
+    }
    }
   ],
   "1399": [
@@ -24842,6 +25092,17 @@
     "fcc": false,
     "y": {
      "2009": 3450
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2417,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 2417
     }
    }
   ],
@@ -25517,6 +25778,19 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 17666,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 3435,
+     "2021": 6609,
+     "2022": 7622
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 8582,
@@ -25563,6 +25837,18 @@
    }
   ],
   "1456": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 17184,
+    "cycle": 8835,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 8349,
+     "2025": 8835
+    }
+   },
    {
     "k": "FIREONBAYOUPOL",
     "n": "Fire on the Bayou / POL",
@@ -25625,6 +25911,17 @@
     "fcc": false,
     "y": {
      "2015": 2000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1068,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1068
     }
    }
   ],
@@ -26101,6 +26398,17 @@
     "y": {
      "2023": 15000,
      "2025": 2500
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 12101,
+    "cycle": 12101,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 12101
     }
    },
    {
@@ -26951,6 +27259,19 @@
     }
    }
   ],
+  "1590": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 9208,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 9208
+    }
+   }
+  ],
   "1591": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -27245,6 +27566,17 @@
     "fcc": false,
     "y": {
      "2016": 3350
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2421,
+    "cycle": 2421,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2421
     }
    }
   ],
@@ -27770,6 +28102,17 @@
     "y": {
      "2020": 3500
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3324,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3324
+    }
    }
   ],
   "1654": [
@@ -27816,6 +28159,17 @@
     "fcc": true,
     "y": {
      "2022": 17015
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 12733,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 12733
     }
    },
    {
@@ -28244,6 +28598,17 @@
      "2023": 5900,
      "2025": 13000,
      "2026": 5500
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8113,
+    "cycle": 8113,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 8113
     }
    },
    {
@@ -28868,6 +29233,18 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 9229,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 5474,
+     "2020": 3755
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 3495,
@@ -29041,6 +29418,17 @@
     "y": {
      "2023": 11800
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5095,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 5095
+    }
    }
   ],
   "1760": [
@@ -29135,6 +29523,18 @@
     "fcc": true,
     "y": {
      "2015": 733000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 39885,
+    "cycle": 20180,
+    "media": 6514,
+    "fcc": true,
+    "y": {
+     "2019": 19705,
+     "2023": 20180
     }
    },
    {
@@ -29390,6 +29790,17 @@
     "y": {
      "2016": 3281
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3024
+    }
    }
   ],
   "1777": [
@@ -29546,6 +29957,17 @@
     "fcc": false,
     "y": {
      "2014": 6558
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5474,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 5474
     }
    }
   ],
@@ -29706,6 +30128,18 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 21497,
+    "cycle": 10770,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 10727,
+     "2023": 10770
+    }
+   },
+   {
     "k": "ALLERTONAND",
     "n": "ALLERTON & COMPANY",
     "usd": 4000,
@@ -29862,6 +30296,18 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 12569,
+    "cycle": 9542,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3027,
+     "2026": 9542
+    }
+   },
+   {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
     "usd": 6042,
@@ -29902,6 +30348,17 @@
      "2018": 150,
      "2019": 18365,
      "2023": 13135
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 8000
     }
    }
   ],
@@ -30754,6 +31211,17 @@
      "2010": 13896,
      "2017": 13088,
      "2018": 6750
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6609,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 6609
     }
    },
    {
@@ -32094,6 +32562,18 @@
      "2016": 12738,
      "2017": 6600
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 18326,
+    "cycle": 8977,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 9349,
+     "2023": 8977
+    }
    }
   ],
   "2047": [
@@ -32195,6 +32675,20 @@
     "fcc": false,
     "y": {
      "2019": 90167
+    }
+   }
+  ],
+  "2062": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1128,
+    "cycle": 330,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 798,
+     "2023": 330
     }
    }
   ],
@@ -33373,6 +33867,17 @@
      "2015": 79652,
      "2019": 13301
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5701,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 5701
+    }
    }
   ],
   "2183": [
@@ -33591,6 +34096,17 @@
     "y": {
      "2011": 3315
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2859,
+    "cycle": 2859,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 2859
+    }
    }
   ],
   "2197": [
@@ -33641,6 +34157,17 @@
     "fcc": false,
     "y": {
      "2011": 6000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3024
     }
    },
    {
@@ -34813,6 +35340,20 @@
     }
    }
   ],
+  "2371": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8542,
+    "cycle": 2449,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 6093,
+     "2025": 2449
+    }
+   }
+  ],
   "2378": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -34840,6 +35381,17 @@
     "y": {
      "2011": 2000,
      "2012": 3000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3024
     }
    },
    {
@@ -34964,6 +35516,17 @@
     "y": {
      "2018": 44405,
      "2019": 10000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3024
     }
    }
   ],
@@ -35148,6 +35711,30 @@
      "2022": 3850,
      "2023": 4000,
      "2025": 7500
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1070,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 1070
+    }
+   }
+  ],
+  "2487": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6789,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 6789
     }
    }
   ],
@@ -35423,6 +36010,17 @@
     "y": {
      "2012": 2388,
      "2021": 8970
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5670,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 5670
     }
    },
    {
@@ -35853,6 +36451,17 @@
     "fcc": false,
     "y": {
      "2012": 17599
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 16287,
+    "cycle": 16287,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2025": 16287
     }
    }
   ],
@@ -36299,6 +36908,17 @@
     "y": {
      "2014": 5500
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2931,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2931
+    }
    }
   ],
   "2698": [
@@ -36455,6 +37075,17 @@
     "y": {
      "2013": 4500
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2928,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2928
+    }
    }
   ],
   "2725": [
@@ -36529,6 +37160,18 @@
     "y": {
      "2025": 5000,
      "2026": 11280
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 9866,
+    "cycle": 7230,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 2636,
+     "2026": 7230
     }
    },
    {
@@ -36733,6 +37376,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 14023,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 14023
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 7500,
@@ -36822,6 +37476,17 @@
     "fcc": true,
     "y": {
      "2017": 15544
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 12101,
+    "cycle": 12101,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 12101
     }
    },
    {
@@ -36942,6 +37607,18 @@
     "y": {
      "2021": 10000,
      "2022": 8008
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 7202,
+    "cycle": 3459,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3743,
+     "2026": 3459
     }
    }
   ],
@@ -37669,6 +38346,17 @@
     "y": {
      "2014": 4140,
      "2022": 8784
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3743,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3743
     }
    },
    {
@@ -38411,6 +39099,17 @@
      "2023": 16775,
      "2024": 5000
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4837,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 4837
+    }
    }
   ],
   "2940": [
@@ -38513,6 +39212,17 @@
     "fcc": true,
     "y": {
      "2020": 141786
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3836,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3836
     }
    }
   ],
@@ -39335,6 +40045,18 @@
     "y": {
      "2020": 14028
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8524,
+    "cycle": 5303,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3221,
+     "2026": 5303
+    }
    }
   ],
   "3131": [
@@ -39490,6 +40212,20 @@
     "fcc": false,
     "y": {
      "2001": 71610
+    }
+   }
+  ],
+  "3192": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4490,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 1525,
+     "2022": 2965
     }
    }
   ],
@@ -39723,6 +40459,17 @@
      "2004": 11500,
      "2006": 5000,
      "2010": 6500
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8089,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 8089
     }
    },
    {
@@ -40631,6 +41378,17 @@
     "y": {
      "2015": 2000
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1882,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1882
+    }
    }
   ],
   "3363": [
@@ -41070,6 +41828,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 9347,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 9347
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 4000,
@@ -41131,6 +41900,17 @@
     "fcc": true,
     "y": {
      "2021": 5250
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4324,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 4324
     }
    }
   ],
@@ -42684,6 +43464,31 @@
      "2025": 282,
      "2026": 59
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 19140,
+    "cycle": 11205,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 7935,
+     "2023": 11205
+    }
+   }
+  ],
+  "3734": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2522,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2522
+    }
    }
   ],
   "3748": [
@@ -42696,6 +43501,18 @@
     "fcc": true,
     "y": {
      "2025": 9000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5071,
+    "cycle": 3235,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1836,
+     "2025": 3235
     }
    },
    {
@@ -43583,6 +44400,19 @@
     }
    }
   ],
+  "3974": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3197,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3197
+    }
+   }
+  ],
   "3978": [
    {
     "k": "OURSOBEYCHOK",
@@ -43670,6 +44500,19 @@
     "fcc": true,
     "y": {
      "2016": 9525
+    }
+   }
+  ],
+  "3995": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6366,
+    "cycle": 6366,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 6366
     }
    }
   ],
@@ -43952,6 +44795,17 @@
     "fcc": false,
     "y": {
      "2019": 36203
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1596,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1596
     }
    }
   ],
@@ -44283,6 +45137,18 @@
     "y": {
      "2021": 10000
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8337,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 2244,
+     "2021": 6093
+    }
    }
   ],
   "4072": [
@@ -44336,6 +45202,19 @@
     }
    }
   ],
+  "4078": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1906,
+    "cycle": 1906,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 1906
+    }
+   }
+  ],
   "4082": [
    {
     "k": "OURSOBEYCHOK",
@@ -44375,6 +45254,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3435,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 3435
+    }
+   },
+   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 1000,
@@ -44401,6 +45291,17 @@
    }
   ],
   "4088": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 12303,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 12303
+    }
+   },
    {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
@@ -44433,6 +45334,19 @@
     "fcc": true,
     "y": {
      "2021": 5000
+    }
+   }
+  ],
+  "4090": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5509,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 5509
     }
    }
   ],
@@ -44713,6 +45627,17 @@
     "y": {
      "2017": 14000,
      "2019": 950
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1503,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1503
     }
    }
   ],
@@ -45079,6 +46004,17 @@
     "y": {
      "2001": 6500
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6439,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 6439
+    }
    }
   ],
   "4161": [
@@ -45244,6 +46180,19 @@
     "fcc": true,
     "y": {
      "2018": 48556
+    }
+   }
+  ],
+  "4180": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1957,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1957
     }
    }
   ],
@@ -45420,6 +46369,17 @@
      "2022": 2194,
      "2023": 2000,
      "2026": 3000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3129,
+    "cycle": 3129,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 3129
     }
    }
   ],
@@ -45626,6 +46586,19 @@
     }
    }
   ],
+  "4214": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2421,
+    "cycle": 2421,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2421
+    }
+   }
+  ],
   "4215": [
    {
     "k": "POLITICALFIRM",
@@ -45716,6 +46689,17 @@
      "2024": 2412,
      "2025": 661,
      "2026": 415
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3350,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 3350
     }
    }
   ],
@@ -46104,6 +47088,18 @@
     "fcc": true,
     "y": {
      "2018": 15616
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4837,
+    "cycle": 3502,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 1335,
+     "2023": 3502
     }
    }
   ],
@@ -46650,6 +47646,20 @@
     }
    }
   ],
+  "4379": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1745,
+    "cycle": 872,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 873,
+     "2026": 872
+    }
+   }
+  ],
   "4383": [
    {
     "k": "FLEXPOINTMEDIA",
@@ -46767,6 +47777,17 @@
     "fcc": false,
     "y": {
      "2002": 14500
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4587,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 4587
     }
    }
   ],
@@ -47125,6 +48146,17 @@
      "2019": 31232,
      "2023": 80298
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3627,
+    "cycle": 3627,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 3627
+    }
    }
   ],
   "4433": [
@@ -47464,6 +48496,19 @@
     }
    }
   ],
+  "4471": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2093,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 2093
+    }
+   }
+  ],
   "4472": [
    {
     "k": "SMARTMEDIA",
@@ -47570,6 +48615,20 @@
     }
    }
   ],
+  "4476": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3663,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1836,
+     "2020": 1827
+    }
+   }
+  ],
   "4478": [
    {
     "k": "HTV10",
@@ -47619,6 +48678,19 @@
      "2023": 63417,
      "2024": 5000,
      "2025": 4205
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6565,
+    "cycle": 885,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1574,
+     "2022": 4106,
+     "2023": 885
     }
    }
   ],
@@ -48287,6 +49359,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3173,
+    "cycle": 3173,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 3173
+    }
+   },
+   {
     "k": "ORIONDIGITAL",
     "n": "Orion Digital",
     "usd": 3056,
@@ -48476,6 +49559,19 @@
     "fcc": false,
     "y": {
      "2019": 34750
+    }
+   }
+  ],
+  "4611": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5234,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 5234
     }
    }
   ],
@@ -48811,6 +49907,17 @@
     "y": {
      "2019": 51686,
      "2020": 3250
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 11030,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 11030
     }
    }
   ],
@@ -49172,6 +50279,19 @@
     }
    }
   ],
+  "4803": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5545,
+    "cycle": 5545,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 5545
+    }
+   }
+  ],
   "4804": [
    {
     "k": "JAMESHARTMANANDASSOCIATES",
@@ -49224,6 +50344,32 @@
     }
    }
   ],
+  "4823": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1703,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1703
+    }
+   }
+  ],
+  "4846": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1050,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1050
+    }
+   }
+  ],
   "4853": [
    {
     "k": "JAMESTOWNASSOCIATES",
@@ -49234,6 +50380,17 @@
     "fcc": false,
     "y": {
      "2019": 1890
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1300,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1300
     }
    }
   ],
@@ -49488,6 +50645,19 @@
     }
    }
   ],
+  "4915": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 2000
+    }
+   }
+  ],
   "4916": [
    {
     "k": "OURSOBEYCHOK",
@@ -49707,6 +50877,17 @@
    }
   ],
   "4943": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 10015,
+    "cycle": 10015,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2025": 10015
+    }
+   },
    {
     "k": "WYLDFM",
     "n": "Wyld-Fm",
@@ -50549,6 +51730,19 @@
     }
    }
   ],
+  "5117": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3024
+    }
+   }
+  ],
   "5123": [
    {
     "k": "TAYLORMEDIASERVICES",
@@ -51082,6 +52276,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2931,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2931
+    }
+   },
+   {
     "k": "WYLDFM",
     "n": "Wyld-Fm",
     "usd": 1770,
@@ -51090,6 +52295,19 @@
     "fcc": false,
     "y": {
      "2020": 1770
+    }
+   }
+  ],
+  "5212": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2889,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2889
     }
    }
   ],
@@ -51143,6 +52361,19 @@
     }
    }
   ],
+  "5220": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2806,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2806
+    }
+   }
+  ],
   "5221": [
    {
     "k": "SDTPRODUCTIONS",
@@ -51178,6 +52409,18 @@
     "fcc": true,
     "y": {
      "2020": 49184
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3036,
+    "cycle": 836,
+    "media": 836,
+    "fcc": true,
+    "y": {
+     "2020": 2200,
+     "2026": 836
     }
    }
   ],
@@ -51430,6 +52673,19 @@
     "fcc": false,
     "y": {
      "2020": 3000
+    }
+   }
+  ],
+  "5280": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3024
     }
    }
   ],
@@ -51725,6 +52981,19 @@
     }
    }
   ],
+  "5328": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3130,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3130
+    }
+   }
+  ],
   "5330": [
    {
     "k": "BULLSEYEMEDIA",
@@ -51800,6 +53069,19 @@
     "fcc": false,
     "y": {
      "2020": 5000
+    }
+   }
+  ],
+  "5349": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2615,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2615
     }
    }
   ],
@@ -52103,6 +53385,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 10981,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 10981
+    }
+   },
+   {
     "k": "FIREONBAYOUPOL",
     "n": "Fire on the Bayou / POL",
     "usd": 3500,
@@ -52167,6 +53460,19 @@
     "fcc": false,
     "y": {
      "2021": 18762
+    }
+   }
+  ],
+  "5439": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4972,
+    "cycle": 4972,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 4972
     }
    }
   ],
@@ -52353,6 +53659,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 10053,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 10053
+    }
+   },
+   {
     "k": "FIREONBAYOUPOL",
     "n": "Fire on the Bayou / POL",
     "usd": 2500,
@@ -52374,6 +53691,17 @@
     "fcc": true,
     "y": {
      "2025": 48270
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5355,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 5355
     }
    },
    {
@@ -52978,6 +54306,17 @@
     "y": {
      "2022": 19138
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3193,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3193
+    }
    }
   ],
   "5567": [
@@ -53378,6 +54717,19 @@
     }
    }
   ],
+  "5683": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 4815,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 4815
+    }
+   }
+  ],
   "5691": [
    {
     "k": "VICTORIACOULONCONSULT",
@@ -53389,9 +54741,32 @@
     "y": {
      "2022": 4000
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3990,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3990
+    }
    }
   ],
   "5698": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 11295,
+    "cycle": 11295,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 1632,
+     "2026": 9663
+    }
+   },
    {
     "k": "CARVINCONSULT",
     "n": "Carvin Consulting",
@@ -53518,6 +54893,32 @@
     }
    }
   ],
+  "5727": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 7625,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 7625
+    }
+   }
+  ],
+  "5733": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2410,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 2410
+    }
+   }
+  ],
   "5740": [
    {
     "k": "BUISSONCREATIVESTRATEGIES",
@@ -53530,6 +54931,17 @@
      "2022": 7940,
      "2023": 2133,
      "2024": 660
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3024,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 3024
     }
    }
   ],
@@ -53829,6 +55241,17 @@
     "y": {
      "2026": 18200
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6900,
+    "cycle": 6900,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 6900
+    }
    }
   ],
   "5856": [
@@ -53978,6 +55401,19 @@
     "fcc": true,
     "y": {
      "2023": 4000
+    }
+   }
+  ],
+  "5875": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5433,
+    "cycle": 5433,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 5433
     }
    }
   ],
@@ -54338,6 +55774,19 @@
     }
    }
   ],
+  "5916": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3295,
+    "cycle": 3295,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 3295
+    }
+   }
+  ],
   "5917": [
    {
     "k": "ARSEMENTMEDIA",
@@ -54359,6 +55808,19 @@
     "fcc": false,
     "y": {
      "2022": 15000
+    }
+   }
+  ],
+  "5920": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3836,
+    "cycle": 3836,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 3836
     }
    }
   ],
@@ -55639,6 +57101,17 @@
     "y": {
      "2026": 77600
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1555,
+    "cycle": 1555,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 1555
+    }
    }
   ],
   "6169": [
@@ -55705,6 +57178,17 @@
     "y": {
      "2023": 36240,
      "2024": 12500
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3832,
+    "cycle": 3832,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 3832
     }
    }
   ],
@@ -55878,6 +57362,17 @@
    }
   ],
   "6214": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3627,
+    "cycle": 3627,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 3627
+    }
+   },
    {
     "k": "DEVISESTRATEGY",
     "n": "Devise Strategy Group",
@@ -56315,6 +57810,19 @@
     }
    }
   ],
+  "6333": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1008,
+    "cycle": 1008,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 1008
+    }
+   }
+  ],
   "6337": [
    {
     "k": "SMARTMEDIA",
@@ -56486,6 +57994,17 @@
     "fcc": true,
     "y": {
      "2024": 20000
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3004,
+    "cycle": 3004,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 3004
     }
    }
   ],
@@ -56948,6 +58467,19 @@
     }
    }
   ],
+  "6496": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 5540,
+    "cycle": 5540,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 5540
+    }
+   }
+  ],
   "650": [
    {
     "k": "WHITBECKADVERTISING",
@@ -57351,6 +58883,17 @@
   ],
   "6551": [
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 7266,
+    "cycle": 7266,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2025": 7266
+    }
+   },
+   {
     "k": "BUISSONCREATIVESTRATEGIES",
     "n": "Buisson Creative Strategies",
     "usd": 1250,
@@ -57444,6 +58987,17 @@
     "fcc": false,
     "y": {
      "2015": 2864
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1655,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 1655
     }
    }
   ],
@@ -57697,6 +59251,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 16287,
+    "cycle": 16287,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2025": 16287
+    }
+   },
+   {
     "k": "WALKERSTRATEGICSOLUTIONS",
     "n": "Walker Strategic Solutions",
     "usd": 11250,
@@ -57731,6 +59296,17 @@
      "2025": 6535,
      "2026": 26134
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 10861,
+    "cycle": 10861,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 10861
+    }
    }
   ],
   "6677": [
@@ -57760,6 +59336,17 @@
    }
   ],
   "6692": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 7644,
+    "cycle": 7644,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2025": 7644
+    }
+   },
    {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
@@ -57839,6 +59426,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 7230,
+    "cycle": 7230,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 7230
+    }
+   },
+   {
     "k": "WOODFORKANDASSOCIATES",
     "n": "Woodfork & Associates",
     "usd": 3204,
@@ -57885,6 +59483,19 @@
     "fcc": false,
     "y": {
      "2026": 6694
+    }
+   }
+  ],
+  "6723": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2185,
+    "cycle": 2185,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2185
     }
    }
   ],
@@ -58371,6 +59982,17 @@
     "y": {
      "2026": 4250
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2856,
+    "cycle": 2856,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2856
+    }
    }
   ],
   "6854": [
@@ -58630,6 +60252,19 @@
     "fcc": true,
     "y": {
      "2026": 26044
+    }
+   }
+  ],
+  "6913": [
+   {
+    "k": "BUISSONCREATIVESTRATEGIES",
+    "n": "Buisson Creative Strategies",
+    "usd": 4560,
+    "cycle": 4560,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 4560
     }
    }
   ],
@@ -59086,6 +60721,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3473,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3473
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 1000,
@@ -59118,6 +60764,19 @@
     "fcc": false,
     "y": {
      "2003": 10000
+    }
+   }
+  ],
+  "7302": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2463,
+    "cycle": 2463,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2463
     }
    }
   ],
@@ -59168,6 +60827,19 @@
     "fcc": false,
     "y": {
      "2003": 559600
+    }
+   }
+  ],
+  "7438": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2634,
+    "cycle": 2634,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2634
     }
    }
   ],
@@ -59243,6 +60915,17 @@
     "y": {
      "2026": 22575
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 12008,
+    "cycle": 12008,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 12008
+    }
    }
   ],
   "7532": [
@@ -59266,6 +60949,17 @@
     "fcc": true,
     "y": {
      "2026": 7800
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2883,
+    "cycle": 2883,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2883
     }
    }
   ],
@@ -59482,6 +61176,17 @@
     "y": {
      "2026": 15450
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 6722,
+    "cycle": 6722,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 6722
+    }
    }
   ],
   "7618": [
@@ -59571,6 +61276,19 @@
     "fcc": false,
     "y": {
      "2003": 10765
+    }
+   }
+  ],
+  "7777": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 2326,
+    "cycle": 2326,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 2326
     }
    }
   ],
@@ -59885,6 +61603,19 @@
     "fcc": true,
     "y": {
      "2020": 1587
+    }
+   }
+  ],
+  "7933": [
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 8073,
+    "cycle": 8073,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 8073
     }
    }
   ],
@@ -60457,6 +62188,17 @@
     "y": {
      "2004": 7772
     }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3231,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3231
+    }
    }
   ],
   "85": [
@@ -60604,6 +62346,17 @@
     "fcc": false,
     "y": {
      "2020": 6057
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 3324,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3324
     }
    }
   ],
@@ -60939,6 +62692,18 @@
     "fcc": false,
     "y": {
      "2015": 2935
+    }
+   },
+   {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 1432,
+    "cycle": 1432,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 1192,
+     "2026": 240
     }
    }
   ],
@@ -62323,6 +64088,17 @@
     }
    },
    {
+    "k": "BROWNPUBLICRELATIONSPOL",
+    "n": "Brown Public Relations LLC / POL",
+    "usd": 10000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 10000
+    }
+   },
+   {
     "k": "NALB",
     "n": "Nalb",
     "usd": 3442,
@@ -63236,6 +65012,10 @@
    "Ann Murry Keller",
    "OTH"
   ],
+  "1590": [
+   "Timothy Kerner",
+   "REP"
+  ],
   "1591": [
    "Ben Zahn",
    "REP"
@@ -64000,6 +65780,10 @@
    "Jeff Thompson",
    "REP"
   ],
+  "2062": [
+   "Larry Rolling, Jr.",
+   "REP"
+  ],
   "2066": [
    "Donna Collins-Lewis",
    "DEM"
@@ -64448,6 +66232,10 @@
    "Silas Geralds",
    "DEM"
   ],
+  "2371": [
+   "Eugene J. Green",
+   "DEM"
+  ],
   "2378": [
    "Michele Renee Morel",
    "REP"
@@ -64519,6 +66307,10 @@
   "2483": [
    "Lee \"Clay\" Madden",
    "OTH"
+  ],
+  "2487": [
+   "Seth Bloom",
+   "DEM"
   ],
   "2496": [
    "Guy E. Bradberry",
@@ -65356,6 +67148,10 @@
    "David J. Boneno",
    "OTH"
   ],
+  "3192": [
+   "Ricky Johnson",
+   "DEM"
+  ],
   "3193": [
    "Kristian Earles",
    "OTH"
@@ -65920,6 +67716,10 @@
    "Stephanie Hilferty",
    "REP"
   ],
+  "3734": [
+   "John A. Brown Sr.",
+   "DEM"
+  ],
   "3748": [
    "Jason Hughes",
    "DEM"
@@ -66100,6 +67900,10 @@
    "James \"Jim\" Mora",
    "DEM"
   ],
+  "3974": [
+   "Ethan Ashley",
+   "DEM"
+  ],
   "3978": [
    "Advance Point Coupee",
    "OTH"
@@ -66123,6 +67927,10 @@
   "3994": [
    "David Blayne Honeycutt",
    "OTH"
+  ],
+  "3995": [
+   "Gregory W. Carroll",
+   "DEM"
   ],
   "3996": [
    "Louisiana Federation for Children Action Fund",
@@ -66216,6 +68024,10 @@
    "Angele Davis",
    "REP"
   ],
+  "4078": [
+   "Danny Riehm",
+   "REP"
+  ],
   "4082": [
    "Lonny Edward Guidroz",
    "DEM"
@@ -66231,6 +68043,10 @@
   "4088": [
    "Jay H. Banks",
    "DEM"
+  ],
+  "4090": [
+   "Jay Adair",
+   "OTH"
   ],
   "4092": [
    "Suzanne deMahy",
@@ -66368,6 +68184,10 @@
    "Kenneth Charles Bordes",
    "OTH"
   ],
+  "4180": [
+   "Mark R. Johnson",
+   "REP"
+  ],
   "4181": [
    "Tonya S. Lurry",
    "IND"
@@ -66431,6 +68251,10 @@
   "421": [
    "Thomas J. Kliebert, Jr.",
    "OTH"
+  ],
+  "4214": [
+   "Kristi K McKinney",
+   "REP"
   ],
   "4215": [
    "Daryl Terry",
@@ -66628,6 +68452,10 @@
    "Steven Jackson",
    "DEM"
   ],
+  "4379": [
+   "Deleger Dunn",
+   "OTH"
+  ],
   "4383": [
    "Edward L. Rispone",
    "REP"
@@ -66764,9 +68592,17 @@
    "Vincent Joseph Liuzza, III",
    "REP"
   ],
+  "4471": [
+   "Richard Nelson",
+   "REP"
+  ],
   "4472": [
    "Timothy Temple",
    "REP"
+  ],
+  "4476": [
+   "Carlos Luis Zervigon",
+   "DEM"
   ],
   "4478": [
    "Blayne Bergeron",
@@ -66936,6 +68772,10 @@
    "Charles A. Smith",
    "REP"
   ],
+  "4611": [
+   "Bryan D. Haggerty",
+   "REP"
+  ],
   "4613": [
    "W. Thomas Barrett, III",
    "REP"
@@ -67084,6 +68924,10 @@
    "Joshua Slavone Guillory",
    "OTH"
   ],
+  "4803": [
+   "Mack Cormier",
+   "DEM"
+  ],
   "4804": [
    "Lance R Broussard",
    "REP"
@@ -67095,6 +68939,14 @@
   "4820": [
    "Mark Pitre",
    "REP"
+  ],
+  "4823": [
+   "William R. \"Trey\" Mustian",
+   "DEM"
+  ],
+  "4846": [
+   "Dr. John Martin",
+   "OTH"
   ],
   "4853": [
    "William Wallis",
@@ -67151,6 +69003,10 @@
   "491": [
    "David Vitter",
    "REP"
+  ],
+  "4915": [
+   "Jameel L. Shaheer",
+   "DEM"
   ],
   "4916": [
    "Brandon Keller",
@@ -67356,6 +69212,10 @@
    "Diedre Pierce Kelly",
    "DEM"
   ],
+  "5117": [
+   "Nandi Campbell",
+   "DEM"
+  ],
   "5123": [
    "Aaron Chaisson",
    "REP"
@@ -67464,6 +69324,10 @@
    "Rhonda Goode-Douglas",
    "DEM"
   ],
+  "5212": [
+   "Ranord J. Darensburg",
+   "DEM"
+  ],
   "5216": [
    "Derwyn Bunton",
    "DEM"
@@ -67471,6 +69335,10 @@
   "5219": [
    "Elroy James",
    "DEM"
+  ],
+  "5220": [
+   "Meghan Garvey",
+   "IND"
   ],
   "5221": [
    "Jennifer Medley",
@@ -67530,6 +69398,10 @@
   ],
   "5277": [
    "Kevin D. Thompson",
+   "DEM"
+  ],
+  "5280": [
+   "Charles Gary Wainwright",
    "DEM"
   ],
   "5282": [
@@ -67600,6 +69472,10 @@
    "Joseph C. Green, Jr.",
    "OTH"
   ],
+  "5328": [
+   "Jancarlo J. Romero",
+   "DEM"
+  ],
   "5330": [
    "Lynelle Johnson",
    "REP"
@@ -67619,6 +69495,10 @@
   "5340": [
    "Cody M. Martin",
    "REP"
+  ],
+  "5349": [
+   "Grisela A. Jackson",
+   "DEM"
   ],
   "5369": [
    "PEOPLE FOR A GREAT LOUISIANA",
@@ -67675,6 +69555,10 @@
   "5437": [
    "James Smith",
    "DEM"
+  ],
+  "5439": [
+   "Cheryl Tanner",
+   "REP"
   ],
   "5441": [
    "Republican Legislative Delegation Campaign Committee, Inc.",
@@ -67896,6 +69780,10 @@
    "Nathaniel Rust",
    "OTH"
   ],
+  "5683": [
+   "James H. Kytle",
+   "REP"
+  ],
   "5691": [
    "Bobbie Smith",
    "DEM"
@@ -67930,6 +69818,14 @@
   ],
   "5725": [
    "Mario Carlos Chavez",
+   "REP"
+  ],
+  "5727": [
+   "Leila Eames",
+   "DEM"
+  ],
+  "5733": [
+   "Eric Moore",
    "REP"
   ],
   "5740": [
@@ -68048,6 +69944,10 @@
    "Jeffery S. Ard",
    "OTH"
   ],
+  "5875": [
+   "David Jefferson Dye",
+   "DEM"
+  ],
   "5876": [
    "Jeff Bergeron",
    "IND"
@@ -68120,9 +70020,17 @@
    "Dennis Bamburg Jr.",
    "REP"
   ],
+  "5916": [
+   "Thomas Williams",
+   "OTH"
+  ],
   "5917": [
    "Hugh Andre",
    "REP"
+  ],
+  "5920": [
+   "Donaldo R. Batiste",
+   "DEM"
   ],
   "5921": [
    "David Christopher Eaton",
@@ -68468,6 +70376,10 @@
    "Walter J. Boasso",
    "DEM"
   ],
+  "6333": [
+   "Michael Smith",
+   "OTH"
+  ],
   "6337": [
    "Conservative Louisiana PAC",
    "OTH"
@@ -68579,6 +70491,10 @@
   "6495": [
    "MATTHEW BELSER",
    "REP"
+  ],
+  "6496": [
+   "Chan Tucker",
+   "DEM"
   ],
   "650": [
    "Thad Minaldi",
@@ -68784,6 +70700,10 @@
    "Cindy Poston Lavespere",
    "OTH"
   ],
+  "6723": [
+   "Eugene Green III",
+   "DEM"
+  ],
   "6724": [
    "Ellie Schroder",
    "REP"
@@ -68904,6 +70824,10 @@
    "James H. Colvin Jr. (JIM)",
    "OTH"
   ],
+  "6913": [
+   "Jonathan David Witman",
+   "REP"
+  ],
   "692": [
    "Mack (Bodi) White",
    "REP"
@@ -68992,6 +70916,10 @@
    "Glenn Weber",
    "OTH"
   ],
+  "7302": [
+   "WARREN MCKENNA III",
+   "OTH"
+  ],
   "7316": [
    "Louisiana Coalition for Fair Schools",
    "OTH"
@@ -69002,6 +70930,10 @@
   ],
   "74": [
    "Suzanne Haik Terrell",
+   "REP"
+  ],
+  "7438": [
+   "Amanda Reed Martin",
    "REP"
   ],
   "750": [
@@ -69100,6 +71032,10 @@
    "Keith Rabalais",
    "OTH"
   ],
+  "7777": [
+   "Brandi Lopez",
+   "OTH"
+  ],
   "7779": [
    "Lacy Landrum",
    "OTH"
@@ -69139,6 +71075,10 @@
   "793": [
    "La Independent Federation of Electors",
    "OTH"
+  ],
+  "7933": [
+   "Kristi Boissiere August",
+   "DEM"
   ],
   "8": [
    "Ronnie C. Harris",

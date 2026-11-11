@@ -435,6 +435,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-08T17:07:59Z"
   },
+  "00f09b83-cba8-4646-ae86-57f6c11c4649": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Bussey-D for Constable/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:21:50-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "00f179db-ae4c-44db-8550-1c927f4c3b3e": {
    "kind": "request",
    "layout": "nab",
@@ -1109,6 +1133,30 @@
    "uploaded": "2026-04-06T12:46:03-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "02390bd9-1419-4f87-aa8c-c8f940723894": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 175.0,
+   "net": 148.75,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Lauren Jewett / D / US House / LA",
+   "order_no": "3356547",
+   "invoice_no": "3356547-1",
+   "flight": [
+    "11/01/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Invoices",
+   "name": "WUPL Jewett Inv 3356547-1",
+   "uploaded": "2026-11-10T16:14:14-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "023a3ff5-7f2b-41d4-828f-77c0ec82876b": {
    "kind": "invoice",
@@ -7642,6 +7690,30 @@
    "name_kind": "other",
    "read_at": "2026-10-23T02:07:26Z"
   },
+  "0d005701-24a7-4ae8-800f-c8125423246f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Powell-R for Judge/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:19:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "0d0705d1-85bf-4568-875d-4518bc4bb18f": {
    "kind": "order",
    "layout": "contract",
@@ -8271,6 +8343,30 @@
    "uploaded": "2026-05-14T16:11:42-04:00",
    "name_kind": "order",
    "read_at": "2026-10-21T01:53:10Z"
+  },
+  "0e1e9908-f5ff-479f-b6dd-5492a155d777": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 35.0,
+   "net": 29.75,
+   "agency": "Smart Media Group Inc / POL",
+   "advertiser": "POL/ Robert Hodges / R / Sheriff / LA",
+   "order_no": "3354779",
+   "invoice_no": "3354779-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Invoices",
+   "name": "WUPL Hodges Inv 3354779-1",
+   "uploaded": "2026-11-10T16:16:54-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "0e27e50b-b19a-4daf-9fa0-f369a0fde507": {
    "kind": "order",
@@ -20925,6 +21021,30 @@
    "name_kind": "other",
    "read_at": "2026-10-27T20:04:19Z"
   },
+  "221aaa1b-8b03-4ce6-9507-9d5d4cb4f65a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Lopez-R for School Board/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:19:37-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "221d24fa-8ee1-4903-8abf-7c9ad6aa877a": {
    "kind": "other",
    "layout": "other",
@@ -22611,6 +22731,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "24b72635-ed0f-4d35-acdb-77a8ba6429b2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:18:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "24c448c3-f41b-4040-be1f-49104c2ed9b0": {
    "kind": "other",
    "layout": "other",
@@ -24050,6 +24194,30 @@
    "uploaded": "2026-02-02T16:48:24-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
+  },
+  "279e1566-5fe3-4fd5-979e-a60da74ef3e4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 60.0,
+   "net": 51.0,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ Scott Illing / R / Sheriff / LA",
+   "order_no": "3353116",
+   "invoice_no": "3353116-1",
+   "flight": [
+    "10/26/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+   "name": "WUPL Illing Inv 3353116-1",
+   "uploaded": "2026-11-10T16:15:32-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "279f64bd-2ab4-442d-bfb7-2a7129bfb072": {
    "kind": "request",
@@ -26913,6 +27081,30 @@
    "uploaded": "2026-11-06T16:42:08-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-09T21:32:28Z"
+  },
+  "2bf255fb-9c7a-41fb-a9df-b3454a27ae67": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Moore-R for School Board/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:20:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "2bfcac40-d499-4d32-92e1-ecfd44e4e052": {
    "kind": "invoice",
@@ -34864,6 +35056,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:36:10Z"
   },
+  "39df0ec9-f7ad-45a5-be66-3aab6db1dc55": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/State/LA State House/Caroll-D for LA House/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:20:27-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "39e3c4a0-e81d-47b6-beef-a99cd9a36e13": {
    "kind": "invoice",
    "layout": "invoice",
@@ -35169,6 +35385,30 @@
    "uploaded": "2026-05-11T02:12:13-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
+  },
+  "3ab97c4f-9a4c-47d2-8718-82d003f12436": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Cuccia-D for Judge/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:18:27-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "3acde8a4-ce61-47e4-89b6-0369474cea8e": {
    "kind": "order",
@@ -43382,6 +43622,30 @@
    "name_kind": "other",
    "read_at": "2026-10-21T16:42:09Z"
   },
+  "49f88b08-5d01-4230-9c15-320979a003aa": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Raines-R for Court Div B/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:21:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "49fe9e1e-fb67-4aa6-8742-1b698e0c7f9d": {
    "kind": "order",
    "layout": "contract",
@@ -50306,6 +50570,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
   },
+  "55e69fa7-dbf6-4b0b-bd02-9766a936c49a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/McMahon-R for Court Div F/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:20:48-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "5602348b-576f-4e08-b3dd-d73ce46e2b09": {
    "kind": "order",
    "layout": "contract",
@@ -56909,6 +57197,30 @@
    "uploaded": "2026-06-01T16:23:41-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:52:27Z"
+  },
+  "610e7543-8d3c-4e5e-a98f-dd65795ee745": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Wilty-D for JP/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:22:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "6113a7ae-4333-401c-8db8-f00f43c8735a": {
    "kind": "order",
@@ -70659,6 +70971,30 @@
    "name_kind": "other",
    "read_at": "2026-10-28T02:40:57Z"
   },
+  "77cca37b-e361-43fe-9ad6-4d1be77f7433": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 565.0,
+   "net": 480.25,
+   "agency": "Velocity Agency LLC / POL",
+   "advertiser": "POL/ Daniel Seuzeneau / R / Sheriff StTammany / LA",
+   "order_no": "3348734",
+   "invoice_no": "3348734-2",
+   "flight": [
+    "10/19/26",
+    "11/06/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+   "name": "WUPL Seuzeneau Inv 3348734-2",
+   "uploaded": "2026-11-10T16:16:01-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "77ccf271-09df-40df-8524-7bd9d3be0e3c": {
    "kind": "order",
    "layout": "contract",
@@ -73571,6 +73907,30 @@
    "uploaded": "2026-10-21T13:33:24-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
+  },
+  "7c0d887a-a5de-43e2-8b45-0649035624d8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 50.0,
+   "net": 42.5,
+   "agency": "Media Ad Ventures / POL",
+   "advertiser": "POL/ Steve Scalise / R / US HOUSE / LA",
+   "order_no": "3355311",
+   "invoice_no": "3355311-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+   "name": "WUPL Scalise Inv 3355311-1",
+   "uploaded": "2026-11-10T16:15:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "7c2e567c-f858-40b5-82ad-542e3d8cd8f6": {
    "kind": "order",
@@ -87054,6 +87414,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:36:10Z"
   },
+  "915065c3-7a3e-4511-906d-ccc958b94fdc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 65.0,
+   "net": 55.25,
+   "agency": "Smart Media Group Inc / POL",
+   "advertiser": "POL/ Robert Hodges / R / Sheriff / LA",
+   "order_no": "3354779",
+   "invoice_no": "3354779-2",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Invoices",
+   "name": "WUPL Hodges Inv 3354779-2",
+   "uploaded": "2026-11-10T16:16:54-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "91914013-6b86-46d0-babf-e3c48ec48f7d": {
    "kind": "order",
    "layout": "other",
@@ -91343,6 +91727,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-03T18:39:00Z"
   },
+  "98b0273e-f57e-4801-8933-6dc20f9a5c65": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 140.0,
+   "net": 119.0,
+   "agency": "Media Ad Ventures / POL",
+   "advertiser": "POL/ Steve Scalise / R / US HOUSE / LA",
+   "order_no": "3345911",
+   "invoice_no": "3345911-2",
+   "flight": [
+    "10/05/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+   "name": "WUPL Scalise Inv 3345911-2",
+   "uploaded": "2026-11-10T16:15:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "98b6a044-6976-4ca2-96fd-0b4c66553852": {
    "kind": "order",
    "layout": "other",
@@ -95102,6 +95510,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T15:02:04Z"
   },
+  "9e760f68-c563-4553-bd17-474c599089f7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Martin-R for School Board/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:19:53-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "9e885c11-d772-4282-bcff-dc24735c4c28": {
    "kind": "order",
    "layout": "other",
@@ -98798,6 +99230,30 @@
    "uploaded": "2026-08-11T20:50:06-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:27:27Z"
+  },
+  "a4fcdd11-0c8a-42f8-9e06-46e88346bc36": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Spears-D for School Board/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:21:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "a5041b75-5810-481b-8398-b574e446540a": {
    "kind": "request",
@@ -104618,6 +105074,30 @@
    "uploaded": "2026-05-05T17:09:49-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "aee9fa31-5b85-47df-a62b-d63cbd7b5313": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Brocato-R for Court Div A/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:21:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "af1163f6-8db5-4388-9359-9b6c5d9588fd": {
    "kind": "other",
@@ -113624,6 +114104,30 @@
    "uploaded": "2026-10-16T15:26:18-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T17:17:19Z"
+  },
+  "bd1be21f-4624-4768-98dd-9b9fb36c9d3c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 157.5,
+   "net": 133.88,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ John F Lee / R / Judge / LA",
+   "order_no": "3350076",
+   "invoice_no": "3350076-2",
+   "flight": [
+    "10/16/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Lee-R for JP Court Div B/Invoices",
+   "name": "WUPL Lee Inv 3350076-2",
+   "uploaded": "2026-11-10T16:16:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "bd23efbf-b4bd-48d3-a3d1-1c3c5936d550": {
    "kind": "request",
@@ -124745,6 +125249,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
   },
+  "cedd33cd-48c4-45dc-8da1-1195819e9df6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:17:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
+  },
   "ceeac101-5076-4374-b345-cc395418190e": {
    "kind": "order",
    "layout": "order",
@@ -126985,6 +127513,30 @@
    "uploaded": "2026-03-25T18:20:54-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "d276458a-0c29-42b0-896f-01a715cae209": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 180.0,
+   "net": 153.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353404",
+   "invoice_no": "3353404-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WUPL",
+   "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+   "name": "WUPL AGG Inv 3353404-1",
+   "uploaded": "2026-11-10T16:19:01-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:47:12Z"
   },
   "d28fac9f-075e-468d-a426-c3b1cc3a76c9": {
    "kind": "order",
@@ -136161,6 +136713,27 @@
    "uploaded": "2026-09-30T17:11:34-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "e1ba7de3-8c58-4460-ad37-5a957b8b5b83": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sherman Mack for DA",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WYNK",
+   "path": "Political Files/2026/Local",
+   "name": "sherman_mack_for_da_invoice_8824562876_9001395062",
+   "uploaded": "2026-11-10T17:59:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-11T18:49:09Z"
   },
   "e1bb363f-a038-4743-b092-ff56fb2bd442": {
    "kind": "request",
@@ -153606,6 +154179,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-10T18:46:07Z",
+ "updated": "2026-11-11T18:49:24Z",
  "blocked": null
 }

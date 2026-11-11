@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-11-10T18:44:21Z",
+ "scraped": "2026-11-11T18:46:24Z",
  "years": [
   2026,
   2027
@@ -9092,7 +9092,7 @@
    "facility_id": "10917",
    "root_folder": "1428d3cc-56a7-d3de-d8fe-439107719b34",
    "profile": "am-profile/wbok",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "5dd310b5-844b-146a-d5de-51d28b866cf7",
     "2015": "796d5c0f-1504-fe7c-8ee2-90b8a8dc1ad5",
@@ -9120,7 +9120,7 @@
    "facility_id": "56098",
    "root_folder": "e36f84bb-c0ce-398e-9830-75c8f7d67e15",
    "profile": "fm-profile/kajn-fm",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "338393c3-1ebc-2dbe-a99d-194d4718145c",
     "2015": "e688b684-57f8-88c2-626e-47047ef4491c",
@@ -9148,7 +9148,7 @@
    "facility_id": "34376",
    "root_folder": "b128f92b-b29c-a692-5dd2-b4f005574d2d",
    "profile": "fm-profile/wlmg",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2017": "ca4f4e7e-b787-b8e7-37bf-74dbc8e42184",
     "2018": "c14e7a0e-e5d3-6be4-8bb6-4eb3e4a5f1d6",
@@ -9374,7 +9374,7 @@
    "facility_id": "59289",
    "root_folder": "1e6fcc3d-ed9a-bf5e-91b2-3f32dd2ae950",
    "profile": "fm-profile/kmdl",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "5e1570fe-fd2e-f295-5509-0b88b8bc70ad",
     "2015": "ed2ac383-e7dd-09ac-4cd6-35186fc24118",
@@ -9632,7 +9632,7 @@
    "facility_id": "60867",
    "root_folder": "5e3f76f3-ebf0-46c9-3174-493d08581d07",
    "profile": "fm-profile/kbon",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "196a7c0d-499e-0a54-5268-f676673fe844",
     "2015": "3c348312-8be1-efa7-84a4-425cf95a06c0",
@@ -9707,7 +9707,7 @@
    "facility_id": "15801",
    "root_folder": "b0bb9061-bd56-e7a3-98ee-095d25cd0682",
    "profile": "am-profile/knek",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2018": "e33ba627-70b5-9954-a6b5-d8e600a7ce3e",
     "2019": "7a9e3275-1a3c-1b8a-ed83-0886bc22bba7",
@@ -9791,7 +9791,7 @@
    "facility_id": "40580",
    "root_folder": "ecd6a63b-011f-5420-8b31-735e83a3b188",
    "profile": "fm-profile/kbze",
-   "scraped_at": "2026-11-04T18:42:40Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "54b179fa-b954-65a6-dfd5-aeb779649aa4",
     "2015": "8a94f2f3-fd7f-52dc-0ac1-2ea438eacc2b",
@@ -9819,7 +9819,7 @@
    "facility_id": "12674",
    "root_folder": "ee006e3e-9b24-964f-b807-d0bea6065bf5",
    "profile": "fm-profile/ktdy",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "5fbdf594-6a34-7034-2589-ffa1693107f1",
     "2015": "00641e98-842e-7d89-1e40-9e308dd96432",
@@ -10077,7 +10077,7 @@
    "facility_id": "47402",
    "root_folder": "14503b97-f8d4-f991-37c0-efc8375f3c24",
    "profile": "fm-profile/wynk-fm",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "69afb846-ded3-3464-aadf-49a6cc871703",
     "2015": "979a71b5-fa23-35d3-ad50-cc79cd695969",
@@ -10102,6 +10102,15 @@
     "Political Files/2026/Non-Candidate Issue Ads": "b68c2770-3863-2bc7-9a27-7cb467b374ad"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "sherman_mack_for_da_invoice_8824562876_9001395062",
+     "ext": "pdf",
+     "uploaded": "2026-11-10T17:59:30-05:00",
+     "folder_id": "bb9614cd-d2d6-15b7-754c-4270691b9ba4",
+     "file_id": "a5181f55-b18a-84d5-c9fa-c9fa4c4c6878",
+     "file_manager_id": "e1ba7de3-8c58-4460-ad37-5a957b8b5b83"
+    },
     {
      "path": "Political Files/2026/Federal/US House",
      "name": "michael_mebruer_for_congress_order_confirmation_9001419160_revised",
@@ -10705,7 +10714,7 @@
    "facility_id": "3422",
    "root_folder": "347f4fbb-08fe-edd2-c560-db492d687aa5",
    "profile": "fm-profile/kzwa",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-11T18:45:14Z",
    "year_folders": {
     "2014": "1b7370ce-c0ef-9fcf-dc65-69717d1eccb4",
     "2015": "6dc29083-6efd-efa2-365b-913b10db8821",
@@ -20776,11 +20785,11 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "KAJN": "2026-11-04T18:42:40Z",
+  "KAJN": "2026-11-11T18:45:14Z",
   "KAOK": "2026-11-06T18:00:08Z",
-  "KBON": "2026-11-04T18:42:40Z",
+  "KBON": "2026-11-11T18:45:14Z",
   "KBTT": "2026-11-06T18:00:08Z",
-  "KBZE": "2026-11-04T18:42:40Z",
+  "KBZE": "2026-11-11T18:45:14Z",
   "KDKS": "2026-11-08T17:05:50Z",
   "KEEL": "2026-11-07T16:53:40Z",
   "KEUN": "2026-11-10T18:43:07Z",
@@ -20794,12 +20803,12 @@
   "KLIL": "2026-11-06T18:00:08Z",
   "KLKL": "2026-11-09T21:30:09Z",
   "KLWB": "2026-11-08T17:05:50Z",
-  "KMDL": "2026-11-04T18:42:40Z",
+  "KMDL": "2026-11-11T18:45:14Z",
   "KMEZ": "2026-11-10T18:43:07Z",
   "KMJJ": "2026-11-08T17:05:50Z",
   "KMLB": "2026-11-09T21:30:09Z",
   "KMXH": "2026-11-08T17:05:50Z",
-  "KNEK": "2026-11-04T18:42:40Z",
+  "KNEK": "2026-11-11T18:45:14Z",
   "KOKA": "2026-11-09T21:30:09Z",
   "KPEL": "2026-11-07T16:53:40Z",
   "KQKI": "2026-11-05T18:48:25Z",
@@ -20813,15 +20822,15 @@
   "KSMB": "2026-11-10T18:43:07Z",
   "KSYB": "2026-11-06T18:00:08Z",
   "KSYL": "2026-11-05T18:48:25Z",
-  "KTDY": "2026-11-05T18:48:25Z",
+  "KTDY": "2026-11-11T18:45:14Z",
   "KVKI": "2026-11-06T18:00:08Z",
   "KVPI": "2026-11-08T17:05:50Z",
   "KXKS": "2026-11-08T17:05:50Z",
   "KYKZ": "2026-11-08T17:05:50Z",
   "KZMZ": "2026-11-07T16:53:40Z",
   "KZRZ": "2026-11-10T18:43:07Z",
-  "KZWA": "2026-11-05T18:48:25Z",
-  "WBOK": "2026-11-04T18:42:40Z",
+  "KZWA": "2026-11-11T18:45:14Z",
+  "WBOK": "2026-11-11T18:45:14Z",
   "WBRP": "2026-11-09T21:30:09Z",
   "WDGL": "2026-11-08T17:05:50Z",
   "WEMX": "2026-11-05T18:48:25Z",
@@ -20831,7 +20840,7 @@
   "WGUO": "2026-11-09T21:30:09Z",
   "WJBO": "2026-11-07T16:53:40Z",
   "WKBU": "2026-11-05T18:48:25Z",
-  "WLMG": "2026-11-04T18:42:40Z",
+  "WLMG": "2026-11-11T18:45:14Z",
   "WNOE": "2026-11-10T18:43:07Z",
   "WNXX": "2026-11-09T21:30:09Z",
   "WQUE": "2026-11-07T16:53:40Z",
@@ -20842,6 +20851,6 @@
   "WWL": "2026-11-07T16:53:40Z",
   "WXOK": "2026-11-05T18:48:25Z",
   "WYLD": "2026-11-07T16:53:40Z",
-  "WYNK": "2026-11-05T18:48:25Z"
+  "WYNK": "2026-11-11T18:45:14Z"
  }
 }
