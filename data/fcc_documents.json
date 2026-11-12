@@ -1785,6 +1785,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
   },
+  "0379bf2e-f270-4f68-8811-7d2277fc4ff7": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Wendy Edwards for Family Court",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Local",
+   "name": "wendy_edwards_for_family_court_judge_invoice_8824564169_9001413137",
+   "uploaded": "2026-11-10T20:00:21-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "037a6236-c76b-4397-8dec-f7a22182f173": {
    "kind": "order",
    "layout": "iheart",
@@ -2561,6 +2582,30 @@
    "uploaded": "2026-11-02T16:40:57-05:00",
    "name_kind": "aired",
    "read_at": "2026-11-03T04:11:50Z"
+  },
+  "04b29b16-922c-4cee-981c-fd63863c2de9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/WIlty-D for JP/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:45:28-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "04ce2f74-6fbd-4157-aeb2-132b6ce0d832": {
    "kind": "request",
@@ -3831,6 +3876,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "06e81cca-7aa0-41a1-ab10-60b7d03f420a": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/Tom Arceneaux For Shreveport",
+   "name": "Proposal 11_05_26 05_43 PM",
+   "uploaded": "2026-11-09T12:32:13-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "06fb98d8-d293-4126-b60d-ea98f0f9d065": {
    "kind": "order",
    "layout": "other",
@@ -4924,6 +4990,30 @@
    "name_kind": "order",
    "read_at": "2026-10-28T02:40:57Z"
   },
+  "086b9463-70c2-4a08-a9f0-0eeb9ac7144e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 430.0,
+   "net": 365.5,
+   "agency": "MCS Advertising - Shreveport",
+   "advertiser": "Phelps for Mayor Campaign Agy",
+   "order_no": "6964235",
+   "invoice_no": "6964235-1",
+   "flight": [
+    "10/19/26",
+    "10/23/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/Tammy Phelps Campaign For Mayor",
+   "name": "6964235-1.PhelpsForMayor.Oct2.Invoice",
+   "uploaded": "2026-11-09T12:35:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "08708cef-ad42-4f10-a5f0-f7f70a2e9852": {
    "kind": "order",
    "layout": "iheart",
@@ -5916,6 +6006,30 @@
    "uploaded": "2026-04-28T15:37:44-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
+  },
+  "0a0222c9-189c-4752-99f0-94f8243c409a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9742.0,
+   "net": 8280.7,
+   "agency": "Bull's Eye Media / POL",
+   "advertiser": "POL/ Candace N. Newell / D / Judge Orleans / LA",
+   "order_no": "3351266",
+   "invoice_no": "3351266-2",
+   "flight": [
+    "10/19/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Newell-D for OP Civil Court Dist L/Invoices",
+   "name": "WWL Newell Inv 3351266-2",
+   "uploaded": "2026-11-10T16:28:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "0a0823e9-a03c-4e98-abf0-622713fd31a9": {
    "kind": "request",
@@ -13588,6 +13702,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
   },
+  "1675a6e1-3938-40c3-966d-b68828f1a590": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "FlexPoint Campaigns",
+   "advertiser": "Firment for Congress",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KNOE",
+   "path": "Political Files/2026/Federal/US House/Firment for Congress",
+   "name": "Firment for Congress NAB",
+   "uploaded": "2026-11-11T10:16:24-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "167978f7-3283-4197-bb27-4931aa82b156": {
    "kind": "invoice",
    "layout": "invoice",
@@ -15310,6 +15445,30 @@
    "name_kind": "other",
    "read_at": "2026-10-23T02:07:26Z"
   },
+  "18bb759e-3a66-40b5-a688-e93bd36c780c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14650.0,
+   "net": 12452.5,
+   "agency": "KDM Digital Solutions",
+   "advertiser": "Hugo Holland for District Judge",
+   "order_no": "6989256",
+   "invoice_no": "6989256-1",
+   "flight": [
+    "10/20/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/Hugo Holland for District Judge",
+   "name": "6989256-1.HugoHollandDistJudge.OCTInvoice",
+   "uploaded": "2026-11-09T12:33:13-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "18bb8140-2c37-44dd-ba0a-23f64e425292": {
    "kind": "request",
    "layout": "nab",
@@ -16054,6 +16213,30 @@
    "uploaded": "2026-07-13T17:49:47-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "19f15c59-3811-461a-b8ce-c2d854d84ed7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7350.0,
+   "net": 6247.5,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Lauren Jewett / D / US House / LA",
+   "order_no": "3354601",
+   "invoice_no": "3354601-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Invoices",
+   "name": "WWL Jewett Inv 3354601-1",
+   "uploaded": "2026-11-10T16:33:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "19f43ef5-4731-425c-9f4f-3ab216d274c3": {
    "kind": "request",
@@ -17090,6 +17273,30 @@
    "uploaded": "2026-06-01T11:06:50-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "1b72e7f5-5d99-4119-8875-c8aaaf054cfd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Lopez-R for School Board/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:39:55-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "1b814416-c7a8-4d03-bde7-d23654d7ee43": {
    "kind": "order",
@@ -18333,6 +18540,30 @@
    "uploaded": "2026-03-02T13:20:24-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
+  },
+  "1da9f053-f536-4912-b3e4-16b7a339bd5a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US House/Carter-D for LA Dist 2/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:43:45-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "1dac0be0-56f8-49c3-bd16-c4c93fc741df": {
    "kind": "request",
@@ -21639,6 +21870,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "227e532d-4d08-4140-8e29-956b3260077a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9430.0,
+   "net": 8015.5,
+   "agency": "Canal Partners Media / POL",
+   "advertiser": "POL/ Jamie Davis/ D/ US Senate/ LA",
+   "order_no": "3345130",
+   "invoice_no": "3345130-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+   "name": "WWL Davis Inv 3345130-1",
+   "uploaded": "2026-11-10T16:31:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "228908d7-7eda-440d-b719-ed129f12ea69": {
    "kind": "order",
    "layout": "wavstar",
@@ -21875,6 +22130,30 @@
    "uploaded": "2026-11-06T10:49:07-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-08T17:07:59Z"
+  },
+  "22cd5579-a7ec-4b80-b637-477eb0348e74": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 48835.0,
+   "net": 41509.75,
+   "agency": "Del Cielo Media / POL",
+   "advertiser": "ISS/ Accountability Project Inc",
+   "order_no": "3353847",
+   "invoice_no": "3353847-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/Invoices",
+   "name": "WWL Acct Proj Inv 3353847-1",
+   "uploaded": "2026-11-10T16:25:37-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "22d503df-3aad-46c1-9ab8-9d6f0eab26be": {
    "kind": "other",
@@ -22845,6 +23124,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
   },
+  "24893b33-14f8-41ad-9d44-3574571a138c": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 998.0,
+   "net": 848.3,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS TOM ARCENEUX FOR MAYOR INVOICE",
+   "uploaded": "2026-11-12T11:15:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "2489db47-4b03-4262-bb5a-507a98d5df42": {
    "kind": "order",
    "layout": "order",
@@ -23108,6 +23408,27 @@
    "uploaded": "2026-11-10T16:18:41-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-11T18:47:12Z"
+  },
+  "24bfacc6-afb4-43cc-9da6-1d9c0ec2e8b3": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 10500.0,
+   "net": 8925.0,
+   "agency": null,
+   "advertiser": "Club for Growth",
+   "order_no": "38768912",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "club_for_growth_invoice_5524569831_1100682001",
+   "uploaded": "2026-11-11T09:13:21-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "24c448c3-f41b-4040-be1f-49104c2ed9b0": {
    "kind": "other",
@@ -26697,6 +27018,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
   },
+  "2aefa5d0-4c29-4ceb-bdc0-a2e9c327343c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 31575.0,
+   "net": 26838.75,
+   "agency": "Smart Media Group Inc / POL",
+   "advertiser": "POL/ Stephanie Hilferty / R / Public Serv Comm/ LA",
+   "order_no": "3353184",
+   "invoice_no": "3353184-2",
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/State/Public Service Commissioner/Hilferty-R for PSC Dist 1/Invoices",
+   "name": "WWL Hilferty Inv 3353184-2",
+   "uploaded": "2026-11-10T16:29:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "2af20f1b-ddc3-4658-9648-efe754c9eacb": {
    "kind": "order",
    "layout": "other",
@@ -28278,6 +28623,30 @@
    "uploaded": "2026-05-06T12:23:05-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "2d15900f-92d5-4aaa-a0b0-fd49aa7171e1": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2690.0,
+   "net": 2286.5,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Kimya M. Holmes / D / Judge Orleans / LA",
+   "order_no": "3356335",
+   "invoice_no": "3356335-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Holmes-D for Crim Court Section D/Invoices",
+   "name": "WWL Holmes Inv 3356335-1",
+   "uploaded": "2026-11-10T16:33:27-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "2d20da72-4684-4949-82ed-cef7c4537d0d": {
    "kind": "order",
@@ -31603,6 +31972,30 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
   },
+  "3394b5ad-c6ab-4327-a4ed-caf2759be738": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8720.0,
+   "net": 7412.0,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ Scott Illing / R / Sheriff / LA",
+   "order_no": "3355489",
+   "invoice_no": "3355489-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+   "name": "WWL Illing Inv 3355489-1",
+   "uploaded": "2026-11-10T16:37:01-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "3396ba6f-30bc-4930-9065-8e38aa6a12a9": {
    "kind": "order",
    "layout": "order",
@@ -32962,6 +33355,27 @@
    "name_kind": "order",
    "read_at": "2026-10-20T16:15:51Z"
   },
+  "35cf2dc4-19be-46f5-9731-b05f9b4291cd": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Michael Vincent Campaign",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Local",
+   "name": "michael_vincent_campaign_invoice_8824564037_9001411393",
+   "uploaded": "2026-11-10T19:56:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "35d92be3-ad4d-4d16-9d8b-7d58da0751a7": {
    "kind": "request",
    "layout": "nab",
@@ -33597,6 +34011,30 @@
    "uploaded": "2026-10-12T16:33:51-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "36a62783-b630-4aaa-9c83-0de386643321": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7155.0,
+   "net": 6081.75,
+   "agency": "Smart Media Group Inc / POL",
+   "advertiser": "POL/ Stephanie Hilferty / R / Public Serv Comm/ LA",
+   "order_no": "3353184",
+   "invoice_no": "3353184-3",
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/State/Public Service Commissioner/Hilferty-R for PSC Dist 1/Invoices",
+   "name": "WWL Hilferty Inv 3353184-3",
+   "uploaded": "2026-11-10T16:29:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "36b4f6b5-24bf-4371-a806-e856e35eb872": {
    "kind": "request",
@@ -36613,6 +37051,30 @@
    "name_kind": "other",
    "read_at": "2026-10-30T16:29:55Z"
   },
+  "3c337f0a-e1a9-4755-b485-8a9985030d20": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 16185.0,
+   "net": 13757.25,
+   "agency": "Buisson Creative / POL",
+   "advertiser": "POL/ Sal Brocato / R / Judge Jefferson Parish / LA",
+   "order_no": "3353132",
+   "invoice_no": "3353132-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Brocato-F for Court Div A/Invoices",
+   "name": "WWL Brocato Inv 3353132-1",
+   "uploaded": "2026-11-10T16:36:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "3c42fe6e-9c55-4e13-b4d6-75016e8b7aae": {
    "kind": "order",
    "layout": "contract",
@@ -37222,6 +37684,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:40:20Z"
   },
+  "3d7219ad-17e0-4f6b-9ad7-93db83d0b8cd": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "affy",
+   "advertiser": "TOM Ateeweau. fee",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS TOM ARCENEAUX FOR SHREVEPORT MAYOR 11-12",
+   "uploaded": "2026-11-12T12:16:11-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "3d77db11-b278-495f-b273-6f1ff8084840": {
    "kind": "other",
    "layout": "other",
@@ -37582,6 +38065,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "3e66c799-3c1b-4d4c-bac4-127f2535cec0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 11655.0,
+   "net": 9906.75,
+   "agency": "Arsement Media Group / POL",
+   "advertiser": "POL/ Mike Marsiglia / R / Judge First Parish / LA",
+   "order_no": "3350651",
+   "invoice_no": "3350651-2",
+   "flight": [
+    "10/18/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+   "name": "WWL Marsiglia Inv 3350651-2",
+   "uploaded": "2026-11-10T16:35:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "3e7213a3-e669-4bc2-b252-76d1417d751a": {
    "kind": "request",
    "layout": "nab",
@@ -37710,6 +38217,27 @@
    "uploaded": "2026-08-04T22:24:25-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T01:58:07Z"
+  },
+  "3eb81db2-84b3-473a-8584-a2f3eb5f2ea9": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 7050.0,
+   "net": 5992.5,
+   "agency": null,
+   "advertiser": "Southern Poverty Law Cent",
+   "order_no": "38877096",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WQUE",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "southern_poverty_law_center_issue_invoice_5524575471_1923776913",
+   "uploaded": "2026-11-10T21:56:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "3eb84d94-e693-41db-bd05-b8a9784e94de": {
    "kind": "invoice",
@@ -39175,6 +39703,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
   },
+  "40fc3c6e-cc30-484f-9cd7-47e8ab7ab60f": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KNOE",
+   "path": "Political Files/2026/Local/Robert Cherry for Monroe City Marshall",
+   "name": "Cherry NAB",
+   "uploaded": "2026-11-11T10:39:31-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "410854fa-117f-45ac-b0dd-22d7248c9e14": {
    "kind": "other",
    "layout": "other",
@@ -40195,6 +40744,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
   },
+  "42f084e9-004e-4c69-958e-42333217d4d1": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5080.0,
+   "net": 4318.0,
+   "agency": "Arsement Media Group / POL",
+   "advertiser": "POL/ Shawn Lindsay / D / Orleans Parish Judge / LA",
+   "order_no": "3355264",
+   "invoice_no": "3355264-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Lindsay-D for Civil Dist Court Div M/Invoices",
+   "name": "WWL Lindsay Inv 3355264-1",
+   "uploaded": "2026-11-10T16:37:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "42f881d2-5e7a-44ea-b214-8bf4e37cbd44": {
    "kind": "invoice",
    "layout": "invoice",
@@ -40630,6 +41203,27 @@
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
   },
+  "44164530-cd8d-42d8-875e-97815b0e043b": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 10500.0,
+   "net": 8925.0,
+   "agency": null,
+   "advertiser": "Club for Growth",
+   "order_no": "38768912",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "club_for_growth_invoice_5524569831_1100682001",
+   "uploaded": "2026-11-10T17:57:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "44165f54-d769-4653-8e8c-1eee040c0d6a": {
    "kind": "order",
    "layout": "contract",
@@ -41034,6 +41628,30 @@
    "uploaded": "2026-02-20T17:19:46-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
+  },
+  "446c8d27-e753-41ec-8005-9daa771c6753": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:30:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "4473576d-597f-4d6c-8297-dc580646ca57": {
    "kind": "order",
@@ -41634,6 +42252,30 @@
    "uploaded": "2026-10-05T11:02:58-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T20:05:46Z"
+  },
+  "456d31c4-5cc3-4c07-8ba5-bcecae716b91": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Raines-R for Court Div B/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:31:44-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "457cf853-a251-456f-84df-04e72bb09cdc": {
    "kind": "invoice",
@@ -42880,6 +43522,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "477fb039-3618-42f4-ba97-42155a8f2145": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 5250.0,
+   "net": 4462.5,
+   "agency": null,
+   "advertiser": "Club for Growth",
+   "order_no": "38840253",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "club_for_growth_invoice_5524570877_1100687480",
+   "uploaded": "2026-11-10T19:56:58-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "478c46a6-3d4f-409e-aa47-86fb6da3cd6c": {
    "kind": "other",
    "layout": "other",
@@ -43915,6 +44578,30 @@
    "uploaded": "2026-11-02T14:13:40-05:00",
    "name_kind": "other",
    "read_at": "2026-11-02T20:58:33Z"
+  },
+  "497665ef-4348-4b1d-b3a8-34bef5831ef2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12800.0,
+   "net": 10880.0,
+   "agency": "Canal Partners Media / POL",
+   "advertiser": "POL/ Jamie Davis/ D/ US Senate/ LA",
+   "order_no": "3355817",
+   "invoice_no": "3355817-1",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+   "name": "WWL Davis Inv 3355817-1",
+   "uploaded": "2026-11-10T16:31:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "497ed6c8-9436-4236-ac9d-35c9513e97ae": {
    "kind": "order",
@@ -48107,6 +48794,30 @@
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
   },
+  "50f36d18-1939-46f5-a2d7-fc101fa3ef87": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Moore-R for School Board/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:42:54-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "50f78d34-ccc7-4188-a69c-9888965b8ea8": {
    "kind": "other",
    "layout": "other",
@@ -51449,6 +52160,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "562d560b-ecb8-4413-b2cb-411d816a8e84": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 199.5,
+   "net": 169.58,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ John F Lee / R / Judge / LA",
+   "order_no": "3350081",
+   "invoice_no": "3350081-2",
+   "flight": [
+    "10/16/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Lee-R for Court Div B/Invoices",
+   "name": "WWL Lee Inv 3350081-2",
+   "uploaded": "2026-11-10T16:33:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "563d7432-0545-4aba-ae7c-507522c35c3c": {
    "kind": "order",
    "layout": "iheart",
@@ -54072,6 +54807,27 @@
    "name_kind": "other",
    "read_at": "2026-10-23T16:15:32Z"
   },
+  "5b2928a8-002e-49f5-9f0f-481e8fe41b5c": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS TAMMY PHELPS FOR SHREVEPORT MAYOR INVOICE",
+   "uploaded": "2026-11-12T11:15:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "5b332c8e-0bfb-4626-b110-f6100d87f784": {
    "kind": "request",
    "layout": "nab",
@@ -54725,6 +55481,30 @@
    "uploaded": "2026-02-11T14:45:44-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
+  },
+  "5be00c2f-6c08-4c47-a94f-2e0f92afb8a8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14650.0,
+   "net": 12452.5,
+   "agency": "KDM Digital Solutions",
+   "advertiser": "Hugo Holland for District Judge",
+   "order_no": "6989256",
+   "invoice_no": "6989256-1",
+   "flight": [
+    "10/20/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KXKS",
+   "path": "Political Files/2026/Local/Hugo Holland for District Judge",
+   "name": "6989256-1.HugoHollandDistJudge.OCTInvoice",
+   "uploaded": "2026-11-09T12:38:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "5be3b357-dcba-4a0e-a667-e14dbebc51fd": {
    "kind": "order",
@@ -55445,6 +56225,30 @@
    "uploaded": "2026-04-15T12:02:15-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "5d52441a-c573-4b80-824a-86db073061e9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8755.0,
+   "net": 7441.75,
+   "agency": "Arsement Media Group / POL",
+   "advertiser": "POL/ Camile Buras / D / Judge Orleans Parish / LA",
+   "order_no": "3350550",
+   "invoice_no": "3350550-2",
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Buras-D for OP Crim Court Judge/Invoices",
+   "name": "WWL Buras Inv 3350550-2",
+   "uploaded": "2026-11-10T16:27:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "5d59a37d-3f85-43b9-9d1c-e491226c08d5": {
    "kind": "request",
@@ -56979,6 +57783,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-26T22:18:47Z"
   },
+  "5fa835eb-6040-4c9d-937f-4a06d4b9b3d0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4700.0,
+   "net": 3995.0,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Chris Justin / U / Commissioner Dist 1 / LA",
+   "order_no": "3354364",
+   "invoice_no": "3354364-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/State/Public Service Commissioner/Justin-I for PSC Dist 1/Invoices",
+   "name": "WWL Justin Inv 3354364-1",
+   "uploaded": "2026-11-10T16:28:35-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "5fa94325-007e-4cb7-b3e5-617e162de0de": {
    "kind": "order",
    "layout": "contract",
@@ -57395,6 +58223,30 @@
    "uploaded": "2026-09-28T10:37:12-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "602e542f-1dc6-48ea-9cf7-698d25748dfc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3325.0,
+   "net": 2826.25,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Lauren Jewett / D / US House / LA",
+   "order_no": "3351548",
+   "invoice_no": "3351548-2",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Invoices",
+   "name": "WWL Jewett Inv 3351548-2",
+   "uploaded": "2026-11-10T16:33:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "603bf352-5d69-4a82-b6fc-2047a4d11ecd": {
    "kind": "order",
@@ -58151,6 +59003,30 @@
    "uploaded": "2026-06-15T11:15:27-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T17:27:34Z"
+  },
+  "615f42dc-ac25-4a3d-83d2-a031a649fe2b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 15535.0,
+   "net": 13204.75,
+   "agency": "Velocity Agency LLC / POL",
+   "advertiser": "POL/ Daniel Seuzeneau / R / Sheriff StTammany / LA",
+   "order_no": "3348713",
+   "invoice_no": "3348713-2",
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+   "name": "WWL Seuzeneau Inv 3348713-2",
+   "uploaded": "2026-11-10T16:30:17-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "61929074-d0c1-4d8d-995b-4c6a59d3eca2": {
    "kind": "order",
@@ -61341,6 +62217,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
   },
+  "66d27e23-2538-4582-a5a2-ceea1d3ad5f2": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 7050.0,
+   "net": 5992.5,
+   "agency": null,
+   "advertiser": "Southern Poverty Law Cent",
+   "order_no": "38877096",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WQUE",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "southern_poverty_law_center_issue_invoice_5524575471_1923776913",
+   "uploaded": "2026-11-10T20:24:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "66e52b34-5fc1-4723-8ebb-cc61aa24d498": {
    "kind": "request",
    "layout": "nab",
@@ -62971,6 +63868,30 @@
    "uploaded": "2026-04-20T16:07:15-04:00",
    "name_kind": "request",
    "read_at": "2026-10-27T08:55:01Z"
+  },
+  "690eec8a-8bd8-4d5e-86d0-8393704f8703": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6900.0,
+   "net": 5865.0,
+   "agency": "Buisson Creative / POL",
+   "advertiser": "POL/ Jessica Raines / R / Judge First Parish / LA",
+   "order_no": "3356074",
+   "invoice_no": "3356074-1",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Raines-R for Court Div B/Invoices",
+   "name": "WWL Raines Inv 3356074-1",
+   "uploaded": "2026-11-10T16:31:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "691113d1-94ed-4b3a-8cce-7689ed9e9eb1": {
    "kind": "order",
@@ -64872,6 +65793,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "6c34c57c-de8f-4416-a753-e4b833bc4c03": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Brocato-F for Court Div A/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:36:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "6c37188f-edda-48ed-a8ad-11cb2d9b954e": {
    "kind": "order",
    "layout": "other",
@@ -65646,6 +66591,30 @@
    "uploaded": "2026-01-29T14:37:47-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T22:23:53Z"
+  },
+  "6decab85-51c9-4fbd-ade3-d149ca51d0fe": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7480.0,
+   "net": 6358.0,
+   "agency": "Canal Partners Media / POL",
+   "advertiser": "POL/ Jamie Davis/ D/ US Senate/ LA",
+   "order_no": "3352779",
+   "invoice_no": "3352779-1",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+   "name": "WWL Davis Inv 3352779-1",
+   "uploaded": "2026-11-10T16:31:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "6df4be54-2043-438f-8733-95e5a2265d4d": {
    "kind": "order",
@@ -68406,6 +69375,30 @@
    "uploaded": "2026-10-06T10:52:01-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "721c1205-8084-4ef0-bd93-00d11948c947": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Cuccia-R for Judge/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:39:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "724a73b7-8021-4811-9b03-46d25b9ccd04": {
    "kind": "request",
@@ -71471,6 +72464,27 @@
    "uploaded": "2026-10-29T15:10:37-04:00",
    "name_kind": "other",
    "read_at": "2026-10-29T20:06:56Z"
+  },
+  "7738ae29-ed58-4d9b-9fec-7697b9e65a3a": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS HANH FOR CITY COUNCIL INVOICE",
+   "uploaded": "2026-11-12T11:15:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "773cbbe4-cdb9-44b5-8364-545b903f1734": {
    "kind": "request",
@@ -74628,6 +75642,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "7c012989-c0b6-47b6-a167-3ccb4661e299": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 17411.0,
+   "net": 16353.5,
+   "agency": null,
+   "advertiser": "James Stewart for Caddo District Attorney",
+   "order_no": "6897529",
+   "invoice_no": "6897529-2",
+   "flight": [
+    "09/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/James Stewart for Caddo DA",
+   "name": "6897529-2.JamesStewartForDA.OctInvoice",
+   "uploaded": "2026-11-09T12:36:12-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "7c0375f9-59ea-4e68-9f5d-978b6a3aee2f": {
    "kind": "order",
    "layout": "order",
@@ -75395,6 +76433,30 @@
    "uploaded": "2026-05-11T17:33:11-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:45:22Z"
+  },
+  "7d260edc-3503-4f75-9c5f-e31f2b4acee5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5440.0,
+   "net": 4624.0,
+   "agency": null,
+   "advertiser": "John Paul Young for Mayor",
+   "order_no": "6911169",
+   "invoice_no": "6911169-2",
+   "flight": [
+    "09/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/John-Paul Young for Mayor",
+   "name": "6911169-2.JPYForMayor.OctInvoice",
+   "uploaded": "2026-11-09T12:33:56-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "7d284adb-0e10-4bd8-99f9-bace059cfa6f": {
    "kind": "invoice",
@@ -77887,6 +78949,27 @@
    "uploaded": "2026-07-01T12:18:03-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "80666e52-6391-47e6-93fe-d5014dfa4405": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sherman Mack for DA",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KRVE",
+   "path": "Political Files/2026/Local",
+   "name": "sherman_mack_for_da_invoice_8824562876_9001395062",
+   "uploaded": "2026-11-10T17:59:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "80679552-0a1d-4374-be3c-afd5492ca37f": {
    "kind": "order",
@@ -80738,6 +81821,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
   },
+  "84bb3bec-9711-4f26-8e1e-e81c1d45bb46": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6295.0,
+   "net": 5350.75,
+   "agency": "Media Ad Ventures / POL",
+   "advertiser": "POL/ Steve Scalise / R / US HOUSE / LA",
+   "order_no": "3355318",
+   "invoice_no": "3355318-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+   "name": "WWL Scalise Inv 3355318-1",
+   "uploaded": "2026-11-10T16:37:54-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "84bc4093-a886-4809-afcd-8b33eef0355c": {
    "kind": "order",
    "layout": "order",
@@ -82667,6 +83774,27 @@
    "uploaded": "2026-10-19T13:05:39-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T22:23:53Z"
+  },
+  "88107166-2c32-45ff-a69f-d56bc9ee3594": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "fWwa",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KNOE",
+   "path": "Political Files/2026/Federal/US House/Oscar Dantzler",
+   "name": "oscar-dantzler-nab-20261016-210944976-pdf-1",
+   "uploaded": "2026-11-11T10:22:18-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "882401a7-46c3-4cf2-b9c5-e521e2d28633": {
    "kind": "invoice",
@@ -84852,6 +85980,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "8b4ce96e-e47c-4932-8319-bbbd59671754": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "FlexPoint Campaigns",
+   "advertiser": "Firment for Congress",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "KARD",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment NAB 11.9.26",
+   "uploaded": "2026-11-11T09:27:39-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "8b5a448d-452b-474d-8646-5f6ac5e7c66b": {
    "kind": "order",
    "layout": "contract",
@@ -85920,6 +87069,27 @@
    "name_kind": "request",
    "read_at": "2026-10-27T02:43:16Z"
   },
+  "8d165631-e84f-4497-9b55-ccafc46913db": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 2320.0,
+   "net": 1972.0,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "2026KDKS BLACK VOTERS MATTER CAPACITY BLDG INSTITUTE ISSUE INVOICE",
+   "uploaded": "2026-11-12T11:18:08-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "8d1f9454-6b75-48f6-9bc6-446c9b1576bd": {
    "kind": "request",
    "layout": "nab",
@@ -86129,6 +87299,30 @@
    "uploaded": "2026-04-16T18:23:42-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "8d7e2a7f-df16-4c23-af22-47daf8df3bc3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5545.0,
+   "net": 4713.25,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Lauren Jewett / D / US House / LA",
+   "order_no": "3356544",
+   "invoice_no": "3356544-1",
+   "flight": [
+    "11/01/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US House/Jewett-D for LA Dist 1/Invoices",
+   "name": "WWL Jewett Inv 3356544-1",
+   "uploaded": "2026-11-10T16:33:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "8db77ef5-1877-4ee0-b52c-63a64d24a766": {
    "kind": "request",
@@ -90538,6 +91732,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
   },
+  "959a3b6f-8d17-4185-85dc-8895fcd44ad8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4262.5,
+   "net": 3623.13,
+   "agency": "JB Communications, LLC / POL",
+   "advertiser": "POL/ Cameron Mary / R / Judge / LA",
+   "order_no": "3353063",
+   "invoice_no": "3353063-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+   "name": "WWL Mary Inv 3353063-1",
+   "uploaded": "2026-11-10T16:27:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "959fdbc8-36f9-4562-aa0a-c4d1d27557f2": {
    "kind": "order",
    "layout": "order",
@@ -93341,6 +94559,27 @@
    "name_kind": "other",
    "read_at": "2026-10-24T15:02:04Z"
   },
+  "99b80672-2dcb-42db-9302-0d7104323f80": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Ban unr, Pobbic Relations",
+   "advertiser": "Pho CUieaee fp Dernk Aovernmerct",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Moore-R for School Board/NAB",
+   "name": "Alliance for Good Govt NAB signed 102326",
+   "uploaded": "2026-11-10T16:43:10-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "99bb3fe9-c676-4fe3-bb61-c921837ed597": {
    "kind": "order",
    "layout": "other",
@@ -93754,6 +94993,27 @@
    "uploaded": "2026-09-22T12:28:25-04:00",
    "name_kind": "other",
    "read_at": "2026-10-21T16:42:09Z"
+  },
+  "9a362f67-2b4d-46f6-a7fd-ca90f6e3f2dd": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Jaimie Davis for US Senate",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WQUE",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "jaimie_davis_for_us_senate_invoice_8824564243_9001413832",
+   "uploaded": "2026-11-10T19:56:26-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "9a3b3f40-002e-490d-bc35-2985a65afe63": {
    "kind": "invoice",
@@ -94816,6 +96076,30 @@
    "uploaded": "2026-10-02T09:49:07-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "9bfd4e6e-6b63-4e2d-ba88-4b2898e41dcd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2600.0,
+   "net": 2210.0,
+   "agency": "Smart Media Group Inc / POL",
+   "advertiser": "POL/ Robert Hodges / R / Sheriff / LA",
+   "order_no": "3354782",
+   "invoice_no": "3354782-2",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Invoices",
+   "name": "WWL Hodges Inv 3354782-2",
+   "uploaded": "2026-11-10T16:36:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "9c01ef90-de0c-4a0b-8ac1-0eb411d231f5": {
    "kind": "request",
@@ -98244,6 +99528,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:28:24Z"
   },
+  "a15a0861-7762-4732-9c18-ae10f5471adf": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1600.0,
+   "net": 1360.0,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ John F Lee / R / Judge / LA",
+   "order_no": "3355105",
+   "invoice_no": "3355105-1",
+   "flight": [
+    "10/29/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Lee-R for Court Div B/Invoices",
+   "name": "WWL Lee Inv 3355105-1",
+   "uploaded": "2026-11-10T16:33:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "a15ae7e5-22af-41c4-8fb1-7cf35b277640": {
    "kind": "order",
    "layout": "other",
@@ -99084,6 +100392,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
   },
+  "a2eef028-2453-428a-a037-71534b74451c": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026 KDKS BILLY ANDERSON FOR SHREVEPORT CITY COUNCIL INVOICE",
+   "uploaded": "2026-11-12T11:15:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "a2fbfb48-bc1a-4f44-9291-3f9e61898c80": {
    "kind": "order",
    "layout": "order",
@@ -99233,6 +100562,30 @@
    "uploaded": "2026-05-21T15:56:13-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:22:18Z"
+  },
+  "a34781c6-44ef-45c1-a08b-5f1e7cb11809": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8815.0,
+   "net": 7492.75,
+   "agency": "Smart Media Group Inc / POL",
+   "advertiser": "POL/ Robert Hodges / R / Sheriff / LA",
+   "order_no": "3354782",
+   "invoice_no": "3354782-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Hodges-R for St Tammany Sheriff/Invoices",
+   "name": "WWL Hodges Inv 3354782-1",
+   "uploaded": "2026-11-10T16:36:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "a34b1cba-7bc8-4374-a7cc-c92559734a01": {
    "kind": "order",
@@ -99828,6 +101181,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T07:10:08Z"
   },
+  "a43822ee-c31f-48ac-a139-be8592ed454d": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": null,
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "38878969",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "blake_miguez_for_congress_invoice_5524567607_1100692514",
+   "uploaded": "2026-11-10T19:44:26-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "a43f4ee2-b523-4deb-a735-dd52b503826b": {
    "kind": "order",
    "layout": "other",
@@ -100085,6 +101459,30 @@
    "uploaded": "2026-05-29T01:55:08-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T19:51:32Z"
+  },
+  "a4958d87-8981-4dd3-8522-7f3de583e66e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9195.0,
+   "net": 7815.75,
+   "agency": "Media Ad Ventures / POL",
+   "advertiser": "POL/ Steve Scalise / R / US HOUSE / LA",
+   "order_no": "3345913",
+   "invoice_no": "3345913-2",
+   "flight": [
+    "10/05/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US House/Scalise-R for LA Dist 1/Invoices",
+   "name": "WWL Scalise Inv 3345913-2",
+   "uploaded": "2026-11-10T16:37:54-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "a499afdb-4cd5-488d-8f71-9ebca66a93dd": {
    "kind": "invoice",
@@ -100916,6 +102314,30 @@
    "uploaded": "2026-06-01T11:15:50-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "a6476e41-d2d7-475f-86c8-b9dbddda42ca": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4260.0,
+   "net": 3621.0,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ Scott Illing / R / Sheriff / LA",
+   "order_no": "3353118",
+   "invoice_no": "3353118-1",
+   "flight": [
+    "10/26/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Illing-R for St Tammany Sheriff/Invoices",
+   "name": "WWL Illing Inv 3353118-1",
+   "uploaded": "2026-11-10T16:37:01-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "a64f137d-1562-4a05-b3f9-330e81ad7e1d": {
    "kind": "other",
@@ -102799,6 +104221,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "a90e7a7a-918e-48a8-b947-38fa764c0620": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 20345.0,
+   "net": 17293.25,
+   "agency": "KDM Digital Solutions",
+   "advertiser": "Alan Seabaugh for District Attorney",
+   "order_no": "6961013",
+   "invoice_no": "6961013-1",
+   "flight": [
+    "10/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/Alan Seabaugh for District Attorney",
+   "name": "6961013-1.AlanSeabaughForDA.OctInvoice",
+   "uploaded": "2026-11-09T12:35:03-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "a9200741-f1b9-4459-8bf1-fb51023a19ff": {
    "kind": "order",
    "layout": "contract",
@@ -103034,6 +104480,27 @@
    "name_kind": "other",
    "read_at": "2026-10-20T20:43:17Z"
   },
+  "a95de948-b16d-40b8-a1ce-05da3e7fed78": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 298.0,
+   "net": 253.3,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "2026KDKS JAMIE DAVIS FOR US SENATE INVOICE",
+   "uploaded": "2026-11-12T11:19:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "a963ba0e-755b-44f5-834e-9ff36d2962c7": {
    "kind": "request",
    "layout": "nab",
@@ -103267,6 +104734,30 @@
    "uploaded": "2026-02-05T11:30:04-05:00",
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
+  },
+  "a9aa0329-23ee-43f0-85ef-0d8f147d34fd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Bussey-D for Constable/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:45:44-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "a9b22ed4-1edc-4a3d-a1b7-ec2703e34822": {
    "kind": "order",
@@ -104005,6 +105496,30 @@
    "uploaded": "2026-08-11T09:37:55-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
+  },
+  "ab07038c-6e3c-45f3-bba0-9afd8557f079": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/McMahon-R for Court Div f/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:32:26-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "ab11efc8-a004-458a-a81f-bb402b1ae0ac": {
    "kind": "order",
@@ -105862,6 +107377,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
   },
+  "ae8564d9-e38b-4ea5-aa20-8219d42ed369": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6312.5,
+   "net": 5365.63,
+   "agency": "Carvin Consulting / POL",
+   "advertiser": "POL/ John F Lee / R / Judge / LA",
+   "order_no": "3350047",
+   "invoice_no": "3350047-2",
+   "flight": [
+    "10/16/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Lee-R for Court Div B/Invoices",
+   "name": "WWL Lee Inv 3350047-2",
+   "uploaded": "2026-11-10T16:33:05-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "ae8a5f99-3ed6-43d5-bf0c-9f4242a465aa": {
    "kind": "order",
    "layout": "contract",
@@ -107402,6 +108941,30 @@
    "uploaded": "2026-04-06T13:48:25-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
+  },
+  "b13f313f-1817-43c9-8c15-f10f72ca8bd0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3800.0,
+   "net": 3230.0,
+   "agency": "JB Communications, LLC / POL",
+   "advertiser": "POL/ Cameron Mary / R / Judge / LA",
+   "order_no": "3355512",
+   "invoice_no": "3355512-1",
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Mary-R for Court Div E/Invoices",
+   "name": "WWL Mary Inv 3355512-1",
+   "uploaded": "2026-11-10T16:27:09-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "b140c1f7-8b76-4130-b83a-9f96612e6b61": {
    "kind": "invoice",
@@ -109401,6 +110964,30 @@
    "uploaded": "2026-10-29T17:04:01-04:00",
    "name_kind": "other",
    "read_at": "2026-10-30T02:56:10Z"
+  },
+  "b4262200-8d96-425b-8014-adddcd294893": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/State/LA State House/Caroll-D for LA House/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:38:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "b428e80d-d68c-4787-9495-4a3ed88db001": {
    "kind": "order",
@@ -111438,6 +113025,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:44:04Z"
   },
+  "b74150b8-e5f0-447c-9962-d45e2defdec6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7475.0,
+   "net": 6353.75,
+   "agency": null,
+   "advertiser": "POL/ Leon Roche / D / Judge Orleans Parish / LA",
+   "order_no": "3347655",
+   "invoice_no": "3347655-2",
+   "flight": [
+    "10/08/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Roche-D for OP Crim Court Sect H/Invoices",
+   "name": "WWL Roche Inv 3347655-2",
+   "uploaded": "2026-11-10T16:34:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "b7569e0e-6059-4c57-9e46-c603b1ef5610": {
    "kind": "order",
    "layout": "other",
@@ -111794,6 +113405,30 @@
    "uploaded": "2026-10-26T11:02:51-04:00",
    "name_kind": "order",
    "read_at": "2026-10-26T17:37:54Z"
+  },
+  "b7f81e68-a656-45f0-8670-4c7bcd15e132": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 110.0,
+   "net": 93.5,
+   "agency": "MCS Advertising - Shreveport",
+   "advertiser": "Phelps for Mayor Campaign Agy",
+   "order_no": "7031337",
+   "invoice_no": "7031337-1",
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/Tammy Phelps Campaign For Mayor",
+   "name": "7031337-1.PhelpsForMayor.OctInvoice",
+   "uploaded": "2026-11-09T12:35:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "b811d96a-b2c6-46a8-a1e5-6e48d3393153": {
    "kind": "order",
@@ -116277,6 +117912,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
   },
+  "bec67f68-8242-44de-a7d7-2ebe6a2f45e0": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 1780.0,
+   "net": 1513.0,
+   "agency": "Flexpoint Campaigns",
+   "advertiser": "POL/Michael Gabriel Firment/Congress/LA/Rep 11/09/26",
+   "order_no": "5459325",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KARD",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment KARD 11.9.26",
+   "uploaded": "2026-11-11T09:27:39-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "bec68faa-422c-4cec-8976-ea499c0e4c93": {
    "kind": "invoice",
    "layout": "invoice",
@@ -117725,6 +119381,30 @@
    "uploaded": "2026-11-03T17:20:05-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-05T21:13:04Z"
+  },
+  "c0e7ec8b-04d5-4449-a6c3-bb1a8a456615": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2980.0,
+   "net": 2533.0,
+   "agency": "BrabenderCox Mihalke/ POL",
+   "advertiser": "POL/ Julia Letlow / R / US Senate / LA",
+   "order_no": "3344954",
+   "invoice_no": "3344954-2",
+   "flight": [
+    "10/19/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US Senate/Letlow-R for US Senate/Invoices",
+   "name": "WWL Letlow Inv 3344954-2",
+   "uploaded": "2026-11-10T16:31:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "c0ee8610-2e7d-4b35-8e56-2c439116dea0": {
    "kind": "request",
@@ -122225,6 +123905,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "c878a26b-654d-4402-8ea4-49bf5f7c02e0": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 3600.0,
+   "net": 3060.0,
+   "agency": null,
+   "advertiser": "Blake Miguez for Congress",
+   "order_no": "38878969",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "blake_miguez_for_congress_invoice_5524567607_1100692514",
+   "uploaded": "2026-11-10T17:55:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "c880eaa2-dd74-4cf3-b643-618982f9cda6": {
    "kind": "request",
    "layout": "nab",
@@ -122575,6 +124276,30 @@
    "uploaded": "2026-06-15T11:36:55-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T08:58:18Z"
+  },
+  "c90ffd95-6a30-4c55-a55a-8e11e6aada75": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 6890.0,
+   "net": 5856.5,
+   "agency": "Arsement Media Group / POL",
+   "advertiser": "POL/ Mike Marsiglia / R / Judge First Parish / LA",
+   "order_no": "3354298",
+   "invoice_no": "3354298-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+   "name": "WWL Marsiglia Inv 3354298-1",
+   "uploaded": "2026-11-10T16:35:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "c910769c-f99f-486f-bdef-2a6409c28974": {
    "kind": "order",
@@ -124373,6 +126098,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
   },
+  "cbb42937-9847-4e75-bed8-25f449d85cf9": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS COMMITTEE TO RE-ELECT DA STEWART INVOICE",
+   "uploaded": "2026-11-12T11:15:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "cbbb72d7-dae1-4ebb-8aae-f752bbcf42ce": {
    "kind": "order",
    "layout": "contract",
@@ -126107,6 +127853,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "ce13766d-4bc2-463e-bedb-778707e35dff": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1800.0,
+   "net": 1530.0,
+   "agency": null,
+   "advertiser": "Gary Brooks Campaign",
+   "order_no": "6940152",
+   "invoice_no": "6940152-1",
+   "flight": [
+    "10/05/26",
+    "10/16/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KEEL",
+   "path": "Political Files/2026/Local/Gary Brooks Campaign",
+   "name": "6940152-1.GaryBrooks.OctInvoice",
+   "uploaded": "2026-11-09T12:35:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "ce14715c-0a6d-46e2-bcfc-9d4d9c12a4d1": {
    "kind": "request",
    "layout": "nab",
@@ -126799,6 +128569,30 @@
    "uploaded": "2026-02-09T16:01:04-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T17:37:54Z"
+  },
+  "cf3b3a61-a292-4d0f-aff9-4664cd1218b3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Martin-R for School Board/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:41:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "cf3ed0be-427b-409e-9180-2aaca91ac164": {
    "kind": "order",
@@ -129510,6 +131304,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:54:17Z"
   },
+  "d37fb888-7508-4bab-8e22-977b3916d87d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8185.0,
+   "net": 6957.25,
+   "agency": "Victoria Coulon Consulting / POL",
+   "advertiser": "POL/ Marko Marjanovic / R / Judge Jeff Parish / LA",
+   "order_no": "3354406",
+   "invoice_no": "3354406-1",
+   "flight": [
+    "10/27/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Marjanovic-R for Court Div F/Invoices",
+   "name": "WWL Marjanovic Inv 3354406-1",
+   "uploaded": "2026-11-10T16:34:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "d397ce58-309a-4574-9787-2fc6a15597e6": {
    "kind": "order",
    "layout": "other",
@@ -130466,6 +132284,30 @@
    "uploaded": "2026-07-08T13:58:19-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "d4e7d77d-46c8-4a53-86b5-91f0c25bfd06": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3450.0,
+   "net": 2932.5,
+   "agency": "Arsement Media Group / POL",
+   "advertiser": "POL/ Mike Marsiglia / R / Judge First Parish / LA",
+   "order_no": "3355362",
+   "invoice_no": "3355362-1",
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+   "name": "WWL Marsiglia Inv 3355362-1",
+   "uploaded": "2026-11-10T16:35:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "d4f3ab9f-6bfc-4251-8137-f053cfe65775": {
    "kind": "request",
@@ -131859,6 +133701,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "d7210ff9-a0ff-439b-9871-e2b4dc028657": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4490.0,
+   "net": 3816.5,
+   "agency": "Arsement Media Group / POL",
+   "advertiser": "POL/ Mike Marsiglia / R / Judge First Parish / LA",
+   "order_no": "3355215",
+   "invoice_no": "3355215-1",
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Marsiglia-R for Court Div A/Invoices",
+   "name": "WWL Marsiglia Inv 3355215-1",
+   "uploaded": "2026-11-10T16:35:42-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "d7286bd6-e2dc-4dc1-8c9b-35df2bad91ba": {
    "kind": "invoice",
    "layout": "invoice",
@@ -132149,6 +134015,30 @@
    "uploaded": "2026-09-30T17:15:34-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "d7dcd842-1cd4-4717-9aee-eb817e6b063a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 20345.0,
+   "net": 17293.25,
+   "agency": "KDM Digital Solutions",
+   "advertiser": "Alan Seabaugh for District Attorney",
+   "order_no": "6961013",
+   "invoice_no": "6961013-1",
+   "flight": [
+    "10/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KXKS",
+   "path": "Political Files/2026/Local/Alan Seabaugh for District Attorney",
+   "name": "6961013-1.AlanSeabaughForDA.OctInvoice",
+   "uploaded": "2026-11-09T12:37:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "d7e15690-d939-4a04-a0ec-252d13f213d6": {
    "kind": "order",
@@ -132953,6 +134843,30 @@
    "uploaded": "2026-08-06T10:39:56-04:00",
    "name_kind": "order",
    "read_at": "2026-10-22T02:19:37Z"
+  },
+  "d91b6210-37b8-49ad-820d-bbb47c89df6e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 8065.0,
+   "net": 6855.25,
+   "agency": "Magnolia Media / POL",
+   "advertiser": "POL/ Michele Moore Echols / R / Judicial / LA",
+   "order_no": "3349977",
+   "invoice_no": "3349977-2",
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Michele Echols for Court Div E/Invoices",
+   "name": "WWL Michele Echols I3349977-2",
+   "uploaded": "2026-11-10T16:35:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "d91b76d1-5b3e-445b-aff2-cad9675d4367": {
    "kind": "request",
@@ -134196,6 +136110,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "dabf4f20-61aa-4e18-9599-bde0677bec84": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WQUE",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "let_it_resound_nab_network_214751",
+   "uploaded": "2026-11-12T08:59:07-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "dac19af7-e706-4706-b8cd-ec5e35e1f212": {
    "kind": "order",
    "layout": "other",
@@ -134456,6 +136391,27 @@
    "uploaded": "2026-06-03T13:14:56-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "db1928be-3e42-4bab-9f15-2c4272078bd4": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KDKS",
+   "path": "Political Files/2026/Local",
+   "name": "2026KDKS GARY BROOKS FOR CITY COUNCIL DIST B INVOICE",
+   "uploaded": "2026-11-12T11:16:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "db1a39f1-1388-48be-b1e7-9a584d2589bd": {
    "kind": "order",
@@ -142214,6 +144170,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
   },
+  "e81a4ea7-68ef-46f5-978b-4bfe2393e6c1": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3475.0,
+   "net": 2953.75,
+   "agency": "Guichard Advertising / POL",
+   "advertiser": "POL/ Kimya M. Holmes / D / Judge Orleans / LA",
+   "order_no": "3351554",
+   "invoice_no": "3351554-2",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Holmes-D for Crim Court Section D/Invoices",
+   "name": "WWL Holmes Inv 3351554-2",
+   "uploaded": "2026-11-10T16:33:27-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "e81bd03d-cb81-4fe6-8e0f-e4df48427380": {
    "kind": "request",
    "layout": "nab",
@@ -144735,6 +146715,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "ecd49514-a361-4231-befb-7ac55d38aab6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 16400.0,
+   "net": 13940.0,
+   "agency": "Canal Partners Media / POL",
+   "advertiser": "POL/ Jamie Davis/ D/ US Senate/ LA",
+   "order_no": "3356133",
+   "invoice_no": "3356133-1",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Federal/US Senate/Davis-D for US Senate/Invoices",
+   "name": "WWL Davis Inv 3356133-1",
+   "uploaded": "2026-11-10T16:31:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "ece3b99e-3d54-4604-92bf-73a806d84a28": {
    "kind": "order",
    "layout": "order",
@@ -145563,6 +147567,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
   },
+  "eeb8413a-d10a-4c35-84d7-91054d805530": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 9580.0,
+   "net": 8143.0,
+   "agency": "Velocity Agency LLC / POL",
+   "advertiser": "POL/ Daniel Seuzeneau / R / Sheriff StTammany / LA",
+   "order_no": "3353798",
+   "invoice_no": "3353798-1",
+   "flight": [
+    "10/27/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Seuzeneau-F for St Tammany Sheriff/Invoices",
+   "name": "WWL Seuzeneau Inv 3353798-1",
+   "uploaded": "2026-11-10T16:30:17-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "eeb8719b-97c5-4b21-8525-6dccdb90df43": {
    "kind": "order",
    "layout": "other",
@@ -146192,6 +148220,27 @@
    "uploaded": "2026-06-29T17:04:44-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:40:20Z"
+  },
+  "ef66473a-df6f-4702-8e75-966e6dcd7d90": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Jaimie Davis for US Senate",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WQUE",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "jaimie_davis_for_us_senate_invoice_8824564752_9001419442",
+   "uploaded": "2026-11-10T20:13:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
   },
   "ef6f5731-06da-408c-bdc3-22ec4a683516": {
    "kind": "order",
@@ -148233,6 +150282,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-26T18:05:58Z"
   },
+  "f2f18b46-fb48-4ecd-af74-c4218d376c35": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Spears-D for School Board/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:44:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
   "f2f5602d-5b36-4863-9af9-a6a3499c777e": {
    "kind": "order",
    "layout": "order",
@@ -148280,6 +150353,30 @@
    "uploaded": "2026-04-10T14:49:11-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "f2fc3eff-581d-4a96-a32f-844d413b1281": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 14400.0,
+   "net": 12240.0,
+   "agency": "Brown Public Relations LLC / POL",
+   "advertiser": "ISS/ Alliance for Good Government",
+   "order_no": "3353393",
+   "invoice_no": "3353393-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/Powell-R for Judge/Invoices",
+   "name": "WWL AGG Inv 3353393-1",
+   "uploaded": "2026-11-10T16:39:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
   },
   "f300620e-53be-47a2-8e13-db981a56d451": {
    "kind": "order",
@@ -155668,6 +157765,51 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T19:51:32Z"
   },
+  "ffc3919d-8022-4cb7-b0b8-3ca0c04745d4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 15910.0,
+   "net": 13523.5,
+   "agency": "Buisson Creative / POL",
+   "advertiser": "POL/ Joe McMahon / R / Judge 24th Jefferson Crt/LA",
+   "order_no": "3353151",
+   "invoice_no": "3353151-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WWL-TV",
+   "path": "Political Files/2026/Local/McMahon-R for Court Div f/Invoices",
+   "name": "WWL McMahon Inv 3353151-1",
+   "uploaded": "2026-11-10T16:32:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:07:04Z"
+  },
+  "ffc68462-c9ed-4245-81e3-ae8accb9d75d": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 5250.0,
+   "net": 4462.5,
+   "agency": null,
+   "advertiser": "Club for Growth",
+   "order_no": "38840253",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WJBO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "club_for_growth_invoice_5524570877_1100687480",
+   "uploaded": "2026-11-10T19:24:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-12T19:12:26Z"
+  },
   "ffce0ef0-b077-450b-9d59-df6b595aeeb9": {
    "kind": "order",
    "layout": "contract",
@@ -155775,6 +157917,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-12T04:10:28Z",
+ "updated": "2026-11-12T19:16:21Z",
  "blocked": null
 }

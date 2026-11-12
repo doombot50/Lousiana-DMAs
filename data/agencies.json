@@ -2,7 +2,7 @@
  "generated": "2026-11-12",
  "data_through": "2026-11-10",
  "cycle_from": 2023,
- "documents_read": 7155,
+ "documents_read": 7248,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -200,9 +200,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 275,
-    "priced": 231,
-    "usd": 3969585,
+    "docs": 276,
+    "priced": 232,
+    "usd": 4018420,
     "stations": [
      "KADN",
      "KARD",
@@ -370,9 +370,9 @@
    "name": "Magnolia Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 56,
+    "docs": 57,
     "priced": 18,
-    "usd": 290870,
+    "usd": 298935,
     "stations": [
      "002460",
      "005142",
@@ -401,7 +401,7 @@
      "William H. Burris / R / Superior Court / LA"
     ],
     "first": "2026-03-24",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 226,
-    "priced": 141,
-    "usd": 1556259,
+    "docs": 228,
+    "priced": 142,
+    "usd": 1571749,
     "stations": [
      "005341",
      "008048",
@@ -875,8 +875,8 @@
      "Echols for Congress",
      "Mike Echols/US Congress/LA/Rep",
      "Scalise for Congress",
-     "Mike Echols / US House / R / LA",
      "Steve Scalise / R / US HOUSE / LA",
+     "Mike Echols / US House / R / LA",
      "Original Date / Revision",
      "Echols for LA State Congress",
      "Scalise/R/Congress",
@@ -969,9 +969,9 @@
    "name": "BrabenderCox",
    "found_by": "political file",
    "fcc": {
-    "docs": 223,
+    "docs": 224,
     "priced": 105,
-    "usd": 1265998,
+    "usd": 1268978,
     "stations": [
      "002460",
      "003478",
@@ -1034,9 +1034,9 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 72,
-    "priced": 40,
-    "usd": 337789,
+    "docs": 76,
+    "priced": 41,
+    "usd": 387934,
     "stations": [
      "003478",
      "004321",
@@ -1059,14 +1059,14 @@
      "Bill Cassidy for US Senate for Louisiana",
      "John Atkins/Public Service Commissioner/LA/Rep",
      "John Atkins for Public Service Commissioner",
-     "John Atkins-La Public Service Comm.District",
-     "Protect Louisiana Values",
      "Robert Hodges / R / Sheriff / LA",
+     "John Atkins-La Public Service Comm.District",
+     "Stephanie Hilferty / R / Public Serv Comm/ LA",
+     "Protect Louisiana Values",
      "Hilferty for Public Service Commissioner",
      "Hilferty/R/Public Service Commissioner",
      "Hodges/R/St Tammany Sheriff",
-     "John E Atkins Campalgn",
-     "Stephanie Hilferty / R / Public Serv Comm/ LA"
+     "John E Atkins Campalgn"
     ],
     "first": "2026-02-17",
     "last": "2026-11-10",
@@ -1152,9 +1152,9 @@
    "name": "Arsement Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 91,
-    "priced": 54,
-    "usd": 434346,
+    "docs": 97,
+    "priced": 58,
+    "usd": 474666,
     "stations": [
      "004321",
      "KADN",
@@ -1169,20 +1169,20 @@
     ],
     "clients": [
      "Shawn Lindsay / D / Orleans Parish Judge / LA",
+     "Mike Marsiglia / R / Judge First Parish / LA",
      "Friends to Elect Bart Hebert, LLC",
      "Will Keaty District Judge 15th Dist of LA",
      "Lindsay/D/Orleans Parish Civil District Judge",
      "Campaign to Elect Will Keaty",
      "Friends of Don Landry",
+     "Camile Buras / D / Judge Orleans Parish / LA",
      "Marsiglia/R/JP Court Judge, Div",
      "The Committee to Elect Emilia Pardo",
      "Buras for Judge",
-     "Michael Jay Marsiglia Campaign Committee",
-     "Camile Buras / D / Judge Orleans Parish / LA",
-     "Howard for Judge"
+     "Michael Jay Marsiglia Campaign Committee"
     ],
     "first": "2026-04-24",
-    "last": "2026-11-04",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1363,9 +1363,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 107,
-    "priced": 54,
-    "usd": 705134,
+    "docs": 111,
+    "priced": 58,
+    "usd": 751244,
     "stations": [
      "002460",
      "KADN",
@@ -1388,8 +1388,8 @@
     "clients": [
      "Jamie Davis for US Senate",
      "Jamie Davis/US Senate/LA/Dem",
+     "Jamie Davis/ D/ US Senate/ LA",
      "Hillar Moore Campaign",
-     "Davis/D/US Senate",
      "Hillar Moore for East Baton Rouge DA",
      "Jamle Davis for US Senate",
      "JUSTICE PAC"
@@ -2424,9 +2424,9 @@
    "name": "Victoria Coulon Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 58,
-    "priced": 40,
-    "usd": 162085,
+    "docs": 59,
+    "priced": 41,
+    "usd": 170270,
     "stations": [
      "WDSU",
      "WVUE",
@@ -2448,7 +2448,7 @@
      "Richard Perque / D / Judge Civil Dist / Div"
     ],
     "first": "2026-03-11",
-    "last": "2026-11-04",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2717,36 +2717,13 @@
    }
   },
   {
-   "key": "SRCPMEDIAPOL",
-   "name": "SRCP Media, Inc / POL",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 23,
-    "priced": 19,
-    "usd": 258216,
-    "stations": [
-     "WWL-TV"
-    ],
-    "clients": [
-     "Bill Cassidy / R / US SEN / LA"
-    ],
-    "first": "2026-03-02",
-    "last": "2026-06-01",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "BULLSEYEMEDIA",
    "name": "Bull's Eye Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 9,
+    "docs": 10,
     "priced": 9,
-    "usd": 84007,
+    "usd": 93749,
     "stations": [
      "005341",
      "WDSU",
@@ -2756,13 +2733,13 @@
     ],
     "clients": [
      "New Horizons USA",
+     "Candace N. Newell / D / Judge Orleans / LA",
      "Newell for Judge",
      "Newell/D/Orl Parish Civil Dist Court, Div",
-     "Candace Newell/Judicial Court Judge/LA/Dem",
-     "Candace N. Newell / D / Judge Orleans / LA"
+     "Candace Newell/Judicial Court Judge/LA/Dem"
     ],
     "first": "2026-06-09",
-    "last": "2026-11-04",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -2903,13 +2880,36 @@
    }
   },
   {
+   "key": "SRCPMEDIAPOL",
+   "name": "SRCP Media, Inc / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 23,
+    "priced": 19,
+    "usd": 258216,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "Bill Cassidy / R / US SEN / LA"
+    ],
+    "first": "2026-03-02",
+    "last": "2026-06-01",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "CARVINCONSULT",
    "name": "Carvin Consulting",
    "found_by": "political file",
    "fcc": {
-    "docs": 54,
-    "priced": 39,
-    "usd": 163955,
+    "docs": 59,
+    "priced": 42,
+    "usd": 185047,
     "stations": [
      "005341",
      "WDSU",
@@ -2921,9 +2921,9 @@
     ],
     "clients": [
      "Scott Illing / R / Sheriff / LA",
+     "John F Lee / R / Judge / LA",
      "Illing/R/St. Tammany Parish Sheriff",
      "Illing for Sheriff",
-     "John F Lee / R / Judge / LA",
      "Cao for LA BESE",
      "Cao/R/BESE District 1",
      "Sydney Barthelemy for Senate District 3",
@@ -3302,6 +3302,167 @@
      "TAYLOR MEDIA LLC",
      "TAYLOR MEDIA SERVICE",
      "TAYLOR MEDIA, LLC"
+    ]
+   }
+  },
+  {
+   "key": "VELOCITYAGENCY",
+   "name": "Velocity Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 15,
+    "priced": 10,
+    "usd": 145785,
+    "stations": [
+     "WDSU",
+     "WUPL",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Daniel Seuzeneau / R / Sheriff StTammany / LA",
+     "Seuzeneau/R/St Tammany Sheriff",
+     "Seuzeneau For Sheriff"
+    ],
+    "first": "2026-08-11",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 1665095,
+    "media": 226930,
+    "rows": 157,
+    "media_cycle": 44044,
+    "cycle": 535268,
+    "years": {
+     "2015": 307335,
+     "2017": 450,
+     "2018": 13736,
+     "2019": 261852,
+     "2020": 469569,
+     "2021": 1020,
+     "2022": 75865,
+     "2023": 279577,
+     "2024": 61028,
+     "2025": 15150,
+     "2026": 179514
+    },
+    "committees": 22,
+    "top": [
+     {
+      "f": "7714",
+      "n": "Daniel Seuzeneau",
+      "p": "OTH",
+      "usd": 168989,
+      "cycle": 168989
+     },
+     {
+      "f": "5988",
+      "n": "Tara Zeller",
+      "p": "REP",
+      "usd": 160964,
+      "cycle": 160964
+     },
+     {
+      "f": "1717",
+      "n": "Wayne J. Landry",
+      "p": "DEM",
+      "usd": 101262,
+      "cycle": 101262
+     },
+     {
+      "f": "6358",
+      "n": "Julious Collin Sims",
+      "p": "DEM",
+      "usd": 58753,
+      "cycle": 58753
+     },
+     {
+      "f": "3905",
+      "n": "St Tammany Chamber PAC",
+      "p": "OTH",
+      "usd": 22500,
+      "cycle": 22500
+     },
+     {
+      "f": "5773",
+      "n": "James Travis",
+      "p": "REP",
+      "usd": 15000,
+      "cycle": 15000
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 7800,
+      "cycle": 7800
+     },
+     {
+      "f": "680",
+      "n": "Elton Lagasse",
+      "p": "REP",
+      "usd": 213838,
+      "cycle": 0
+     },
+     {
+      "f": "4691",
+      "n": "Vincent J. \"Vinny\" Lobello",
+      "p": "REP",
+      "usd": 192486,
+      "cycle": 0
+     },
+     {
+      "f": "1671",
+      "n": "Richard A. Swartz, Jr.",
+      "p": "REP",
+      "usd": 167265,
+      "cycle": 0
+     },
+     {
+      "f": "5300",
+      "n": "Eric Bopp",
+      "p": "DEM",
+      "usd": 148544,
+      "cycle": 0
+     },
+     {
+      "f": "5061",
+      "n": "Vincent F. Wynne, Jr.",
+      "p": "REP",
+      "usd": 143977,
+      "cycle": 0
+     },
+     {
+      "f": "2182",
+      "n": "Michael O'Brien",
+      "p": "REP",
+      "usd": 92952,
+      "cycle": 0
+     },
+     {
+      "f": "1591",
+      "n": "Ben Zahn",
+      "p": "REP",
+      "usd": 75865,
+      "cycle": 0
+     },
+     {
+      "f": "4582",
+      "n": "Tracey Powell",
+      "p": "REP",
+      "usd": 45916,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "VELOCITY AGENCY",
+     "VELOCITY AGENCY, LLC",
+     "VELOCITY AGENCY LLC"
     ]
    }
   },
@@ -3978,167 +4139,6 @@
    }
   },
   {
-   "key": "VELOCITYAGENCY",
-   "name": "Velocity Agency",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 13,
-    "priced": 9,
-    "usd": 120670,
-    "stations": [
-     "WDSU",
-     "WUPL",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Daniel Seuzeneau / R / Sheriff StTammany / LA",
-     "Seuzeneau/R/St Tammany Sheriff",
-     "Seuzeneau For Sheriff"
-    ],
-    "first": "2026-08-11",
-    "last": "2026-11-10",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 1665095,
-    "media": 226930,
-    "rows": 157,
-    "media_cycle": 44044,
-    "cycle": 535268,
-    "years": {
-     "2015": 307335,
-     "2017": 450,
-     "2018": 13736,
-     "2019": 261852,
-     "2020": 469569,
-     "2021": 1020,
-     "2022": 75865,
-     "2023": 279577,
-     "2024": 61028,
-     "2025": 15150,
-     "2026": 179514
-    },
-    "committees": 22,
-    "top": [
-     {
-      "f": "7714",
-      "n": "Daniel Seuzeneau",
-      "p": "OTH",
-      "usd": 168989,
-      "cycle": 168989
-     },
-     {
-      "f": "5988",
-      "n": "Tara Zeller",
-      "p": "REP",
-      "usd": 160964,
-      "cycle": 160964
-     },
-     {
-      "f": "1717",
-      "n": "Wayne J. Landry",
-      "p": "DEM",
-      "usd": 101262,
-      "cycle": 101262
-     },
-     {
-      "f": "6358",
-      "n": "Julious Collin Sims",
-      "p": "DEM",
-      "usd": 58753,
-      "cycle": 58753
-     },
-     {
-      "f": "3905",
-      "n": "St Tammany Chamber PAC",
-      "p": "OTH",
-      "usd": 22500,
-      "cycle": 22500
-     },
-     {
-      "f": "5773",
-      "n": "James Travis",
-      "p": "REP",
-      "usd": 15000,
-      "cycle": 15000
-     },
-     {
-      "f": "7532",
-      "n": "Cameron M. Mary",
-      "p": "OTH",
-      "usd": 7800,
-      "cycle": 7800
-     },
-     {
-      "f": "680",
-      "n": "Elton Lagasse",
-      "p": "REP",
-      "usd": 213838,
-      "cycle": 0
-     },
-     {
-      "f": "4691",
-      "n": "Vincent J. \"Vinny\" Lobello",
-      "p": "REP",
-      "usd": 192486,
-      "cycle": 0
-     },
-     {
-      "f": "1671",
-      "n": "Richard A. Swartz, Jr.",
-      "p": "REP",
-      "usd": 167265,
-      "cycle": 0
-     },
-     {
-      "f": "5300",
-      "n": "Eric Bopp",
-      "p": "DEM",
-      "usd": 148544,
-      "cycle": 0
-     },
-     {
-      "f": "5061",
-      "n": "Vincent F. Wynne, Jr.",
-      "p": "REP",
-      "usd": 143977,
-      "cycle": 0
-     },
-     {
-      "f": "2182",
-      "n": "Michael O'Brien",
-      "p": "REP",
-      "usd": 92952,
-      "cycle": 0
-     },
-     {
-      "f": "1591",
-      "n": "Ben Zahn",
-      "p": "REP",
-      "usd": 75865,
-      "cycle": 0
-     },
-     {
-      "f": "4582",
-      "n": "Tracey Powell",
-      "p": "REP",
-      "usd": 45916,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "VELOCITY AGENCY",
-     "VELOCITY AGENCY, LLC",
-     "VELOCITY AGENCY LLC"
-    ]
-   }
-  },
-  {
    "key": "CROSSSCREENMEDIA",
    "name": "Cross Screen Media",
    "found_by": "filings",
@@ -4717,6 +4717,32 @@
      "CAPTIVATE MINDS MARKETING LLC",
      "CAPTIVATE MINDS, LLC"
     ]
+   }
+  },
+  {
+   "key": "BUISSONCREATIVEPOL",
+   "name": "Buisson Creative / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 13,
+    "priced": 13,
+    "usd": 136785,
+    "stations": [
+     "WWL-TV"
+    ],
+    "clients": [
+     "John Young / R / Public Service Comm / LA",
+     "Sal Brocato / R / Judge Jefferson Parish / LA",
+     "Jessica Raines / R / Judge First Parish / LA",
+     "Joe McMahon / R / Judge 24th Jefferson Crt/LA"
+    ],
+    "first": "2026-06-01",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -5687,32 +5713,6 @@
    }
   },
   {
-   "key": "BUISSONCREATIVEPOL",
-   "name": "Buisson Creative / POL",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 10,
-    "priced": 10,
-    "usd": 97790,
-    "stations": [
-     "WWL-TV"
-    ],
-    "clients": [
-     "John Young / R / Public Service Comm / LA",
-     "Sal Brocato / R / Judge Jefferson Parish / LA",
-     "Jessica Raines / R / Judge First Parish / LA",
-     "Joe McMahon / R / Judge 24th Jefferson Crt/LA"
-    ],
-    "first": "2026-06-01",
-    "last": "2026-11-03",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "FRONTIERSTRATEGIES",
    "name": "Frontier Strategies",
    "found_by": "political file",
@@ -6557,6 +6557,88 @@
    }
   },
   {
+   "key": "JBCOMMUNICATIONS",
+   "name": "JB Communications",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 15,
+    "priced": 13,
+    "usd": 55442,
+    "stations": [
+     "WDSU",
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Cameron Mary / R / Judge / LA",
+     "Mary for Judge",
+     "Mary/R/22nd JDC Div"
+    ],
+    "first": "2026-10-14",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 138656,
+    "media": 3000,
+    "rows": 41,
+    "media_cycle": 3000,
+    "cycle": 138656,
+    "years": {
+     "2023": 9000,
+     "2024": 44987,
+     "2025": 6535,
+     "2026": 78134
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6351",
+      "n": "JACQUELINE MALONEY",
+      "p": "REP",
+      "usd": 53987,
+      "cycle": 53987
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 32669,
+      "cycle": 32669
+     },
+     {
+      "f": "7532",
+      "n": "Cameron M. Mary",
+      "p": "OTH",
+      "usd": 25025,
+      "cycle": 25025
+     },
+     {
+      "f": "7263",
+      "n": "SAL BROCATO",
+      "p": "OTH",
+      "usd": 18225,
+      "cycle": 18225
+     },
+     {
+      "f": "7553",
+      "n": "ALFRED GALINDO",
+      "p": "OTH",
+      "usd": 8750,
+      "cycle": 8750
+     }
+    ],
+    "spellings": [
+     "JB COMMUNICATIONS LLC",
+     "JB COMMUNICATIONS"
+    ]
+   }
+  },
+  {
    "key": "COMPOSE",
    "name": "Compose",
    "found_by": "filings",
@@ -7216,88 +7298,6 @@
    }
   },
   {
-   "key": "JBCOMMUNICATIONS",
-   "name": "JB Communications",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 13,
-    "priced": 11,
-    "usd": 47380,
-    "stations": [
-     "WDSU",
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Mary for Judge",
-     "Mary/R/22nd JDC Div",
-     "Cameron Mary / R / Judge / LA"
-    ],
-    "first": "2026-10-14",
-    "last": "2026-11-04",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 138656,
-    "media": 3000,
-    "rows": 41,
-    "media_cycle": 3000,
-    "cycle": 138656,
-    "years": {
-     "2023": 9000,
-     "2024": 44987,
-     "2025": 6535,
-     "2026": 78134
-    },
-    "committees": 5,
-    "top": [
-     {
-      "f": "6351",
-      "n": "JACQUELINE MALONEY",
-      "p": "REP",
-      "usd": 53987,
-      "cycle": 53987
-     },
-     {
-      "f": "6646",
-      "n": "Joseph R. McMahon III",
-      "p": "OTH",
-      "usd": 32669,
-      "cycle": 32669
-     },
-     {
-      "f": "7532",
-      "n": "Cameron M. Mary",
-      "p": "OTH",
-      "usd": 25025,
-      "cycle": 25025
-     },
-     {
-      "f": "7263",
-      "n": "SAL BROCATO",
-      "p": "OTH",
-      "usd": 18225,
-      "cycle": 18225
-     },
-     {
-      "f": "7553",
-      "n": "ALFRED GALINDO",
-      "p": "OTH",
-      "usd": 8750,
-      "cycle": 8750
-     }
-    ],
-    "spellings": [
-     "JB COMMUNICATIONS LLC",
-     "JB COMMUNICATIONS"
-    ]
-   }
-  },
-  {
    "key": "ROUGAROUCONSULT",
    "name": "Rougarou Consulting",
    "found_by": "filings",
@@ -7456,6 +7456,32 @@
     ],
     "first": "2026-05-04",
     "last": "2026-06-01",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "GUICHARDADVERTISINGPOL",
+   "name": "Guichard Advertising / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 12,
+    "priced": 9,
+    "usd": 38765,
+    "stations": [
+     "WUPL",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Lauren Jewett / D / US House / LA",
+     "Chris Justin / U / Commissioner Dist 1 / LA",
+     "Kimya M. Holmes / D / Judge Orleans / LA"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7746,7 +7772,7 @@
    "name": "KDM Digital Solutions",
    "found_by": "political file",
    "fcc": {
-    "docs": 8,
+    "docs": 12,
     "priced": 5,
     "usd": 34100,
     "stations": [
@@ -7756,7 +7782,7 @@
     ],
     "clients": [
      "m Alan Seabaugh for District Attorney",
-     "m Hugo Holland for District Judge"
+     "Hugo Holland for District Judge"
     ],
     "first": "2026-10-09",
     "last": "2026-11-09",
@@ -8455,15 +8481,17 @@
    "name": "FlexPoint Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 38,
-    "priced": 13,
-    "usd": 22435,
+    "docs": 41,
+    "priced": 14,
+    "usd": 24215,
     "stations": [
      "003478",
      "KALB",
+     "KARD",
      "KLAX",
      "KLFY",
      "KMSS",
+     "KNOE",
      "KPLC",
      "KPXJ",
      "KSLA",
@@ -8483,7 +8511,7 @@
      "Fimentfor Congress"
     ],
     "first": "2026-02-24",
-    "last": "2026-11-09",
+    "last": "2026-11-11",
     "away": {
      "docs": 55,
      "usd": 3322946,
@@ -8533,6 +8561,164 @@
     "spellings": [
      "FLEXPOINT MEDIA INC",
      "FLEXPOINT MEDIA INC."
+    ]
+   }
+  },
+  {
+   "key": "BROWNPUBLICRELATIONSPOL",
+   "name": "Brown Public Relations LLC / POL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 29,
+    "priced": 2,
+    "usd": 14580,
+    "stations": [
+     "WUPL",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Alliance for Good Government"
+    ],
+    "first": "2026-11-10",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 875966,
+    "media": 59294,
+    "rows": 234,
+    "media_cycle": 7350,
+    "cycle": 366290,
+    "years": {
+     "2017": 25490,
+     "2018": 34183,
+     "2019": 202284,
+     "2020": 78975,
+     "2021": 98863,
+     "2022": 69881,
+     "2023": 144834,
+     "2024": 13572,
+     "2025": 79470,
+     "2026": 128414
+    },
+    "committees": 160,
+    "top": [
+     {
+      "f": "1763",
+      "n": "William (Billy) Nungesser",
+      "p": "REP",
+      "usd": 39885,
+      "cycle": 20180
+     },
+     {
+      "f": "6600",
+      "n": "Michelle M. Woodfork",
+      "p": "DEM",
+      "usd": 16287,
+      "cycle": 16287
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 16287,
+      "cycle": 16287
+     },
+     {
+      "f": "2781",
+      "n": "Dominick Impastato",
+      "p": "REP",
+      "usd": 12101,
+      "cycle": 12101
+     },
+     {
+      "f": "1498",
+      "n": "Ricky Templet",
+      "p": "REP",
+      "usd": 12101,
+      "cycle": 12101
+     },
+     {
+      "f": "7517",
+      "n": "Jessica Raines",
+      "p": "OTH",
+      "usd": 12008,
+      "cycle": 12008
+     },
+     {
+      "f": "5698",
+      "n": "Simone Levine",
+      "p": "DEM",
+      "usd": 11295,
+      "cycle": 11295
+     },
+     {
+      "f": "3731",
+      "n": "Stephanie Hilferty",
+      "p": "REP",
+      "usd": 19140,
+      "cycle": 11205
+     },
+     {
+      "f": "6646",
+      "n": "Joseph R. McMahon III",
+      "p": "OTH",
+      "usd": 10861,
+      "cycle": 10861
+     },
+     {
+      "f": "1796",
+      "n": "Arita Bohannan",
+      "p": "REP",
+      "usd": 21497,
+      "cycle": 10770
+     },
+     {
+      "f": "1374",
+      "n": "Hans J. Liljeberg",
+      "p": "REP",
+      "usd": 34482,
+      "cycle": 10295
+     },
+     {
+      "f": "4943",
+      "n": "Matthew Willard",
+      "p": "DEM",
+      "usd": 10015,
+      "cycle": 10015
+     },
+     {
+      "f": "1813",
+      "n": "Juana Marine-Lombard",
+      "p": "DEM",
+      "usd": 12569,
+      "cycle": 9542
+     },
+     {
+      "f": "2044",
+      "n": "Randy Smith",
+      "p": "REP",
+      "usd": 18326,
+      "cycle": 8977
+     },
+     {
+      "f": "1456",
+      "n": "Erroll G. Williams",
+      "p": "DEM",
+      "usd": 17184,
+      "cycle": 8835
+     }
+    ],
+    "spellings": [
+     "BROWN PUBLIC RELATIONS",
+     "BROWN PUBLIC RELATIONS LLC",
+     "BROWN PUBLIC RELATIONS, LLC",
+     "BROWN PUBLIC RELATIONS, L.L.C.",
+     "BROWN PUBLIC RELATIONS (ALLIANCE FOR GOOD GOV.)"
     ]
    }
   },
@@ -9868,32 +10054,6 @@
    }
   },
   {
-   "key": "GUICHARDADVERTISINGPOL",
-   "name": "Guichard Advertising / POL",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 6,
-    "priced": 5,
-    "usd": 11680,
-    "stations": [
-     "WUPL",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Chris Justin / U / Commissioner Dist 1 / LA",
-     "Lauren Jewett / D / US House / LA",
-     "Kimya M. Holmes / D / Judge Orleans / LA"
-    ],
-    "first": "2026-11-03",
-    "last": "2026-11-10",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "GP3MIXMEDIA",
    "name": "GP3 MIX MEDIA",
    "found_by": "political file",
@@ -10458,163 +10618,6 @@
      "O'CARROLL GROUP",
      "O'CARROLL GROUP(PETER O'CARROLL ADVERTISING, INC.)",
      "THE O'CARROLL GROUP"
-    ]
-   }
-  },
-  {
-   "key": "BROWNPUBLICRELATIONSPOL",
-   "name": "Brown Public Relations LLC / POL",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 15,
-    "priced": 1,
-    "usd": 180,
-    "stations": [
-     "WUPL"
-    ],
-    "clients": [
-     "Alliance for Good Government"
-    ],
-    "first": "2026-11-10",
-    "last": "2026-11-10",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 875966,
-    "media": 59294,
-    "rows": 234,
-    "media_cycle": 7350,
-    "cycle": 366290,
-    "years": {
-     "2017": 25490,
-     "2018": 34183,
-     "2019": 202284,
-     "2020": 78975,
-     "2021": 98863,
-     "2022": 69881,
-     "2023": 144834,
-     "2024": 13572,
-     "2025": 79470,
-     "2026": 128414
-    },
-    "committees": 160,
-    "top": [
-     {
-      "f": "1763",
-      "n": "William (Billy) Nungesser",
-      "p": "REP",
-      "usd": 39885,
-      "cycle": 20180
-     },
-     {
-      "f": "6600",
-      "n": "Michelle M. Woodfork",
-      "p": "DEM",
-      "usd": 16287,
-      "cycle": 16287
-     },
-     {
-      "f": "2603",
-      "n": "Darren Lombard",
-      "p": "DEM",
-      "usd": 16287,
-      "cycle": 16287
-     },
-     {
-      "f": "2781",
-      "n": "Dominick Impastato",
-      "p": "REP",
-      "usd": 12101,
-      "cycle": 12101
-     },
-     {
-      "f": "1498",
-      "n": "Ricky Templet",
-      "p": "REP",
-      "usd": 12101,
-      "cycle": 12101
-     },
-     {
-      "f": "7517",
-      "n": "Jessica Raines",
-      "p": "OTH",
-      "usd": 12008,
-      "cycle": 12008
-     },
-     {
-      "f": "5698",
-      "n": "Simone Levine",
-      "p": "DEM",
-      "usd": 11295,
-      "cycle": 11295
-     },
-     {
-      "f": "3731",
-      "n": "Stephanie Hilferty",
-      "p": "REP",
-      "usd": 19140,
-      "cycle": 11205
-     },
-     {
-      "f": "6646",
-      "n": "Joseph R. McMahon III",
-      "p": "OTH",
-      "usd": 10861,
-      "cycle": 10861
-     },
-     {
-      "f": "1796",
-      "n": "Arita Bohannan",
-      "p": "REP",
-      "usd": 21497,
-      "cycle": 10770
-     },
-     {
-      "f": "1374",
-      "n": "Hans J. Liljeberg",
-      "p": "REP",
-      "usd": 34482,
-      "cycle": 10295
-     },
-     {
-      "f": "4943",
-      "n": "Matthew Willard",
-      "p": "DEM",
-      "usd": 10015,
-      "cycle": 10015
-     },
-     {
-      "f": "1813",
-      "n": "Juana Marine-Lombard",
-      "p": "DEM",
-      "usd": 12569,
-      "cycle": 9542
-     },
-     {
-      "f": "2044",
-      "n": "Randy Smith",
-      "p": "REP",
-      "usd": 18326,
-      "cycle": 8977
-     },
-     {
-      "f": "1456",
-      "n": "Erroll G. Williams",
-      "p": "DEM",
-      "usd": 17184,
-      "cycle": 8835
-     }
-    ],
-    "spellings": [
-     "BROWN PUBLIC RELATIONS",
-     "BROWN PUBLIC RELATIONS LLC",
-     "BROWN PUBLIC RELATIONS, LLC",
-     "BROWN PUBLIC RELATIONS, L.L.C.",
-     "BROWN PUBLIC RELATIONS (ALLIANCE FOR GOOD GOV.)"
     ]
    }
   },
@@ -12312,6 +12315,53 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "MCSADVERTISINGSHREVEPORT",
+   "name": "MCS Advertising - Shreveport",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 540,
+    "stations": [
+     "KEEL"
+    ],
+    "clients": [
+     "Phelps for Mayor Campaign Agy"
+    ],
+    "first": "2026-11-09",
+    "last": "2026-11-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 14775,
+    "media": 0,
+    "rows": 7,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2015": 13975,
+     "2019": 800
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "1394",
+      "n": "George Eric Hatfield",
+      "p": "OTH",
+      "usd": 14775,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MCS ADVERTISING"
+    ]
    }
   },
   {
@@ -18860,25 +18910,17 @@
     }
    },
    "paid": {
-    "total": 15925,
+    "total": 1150,
     "media": 1150,
-    "rows": 10,
+    "rows": 3,
     "media_cycle": 0,
     "cycle": 0,
     "years": {
-     "2015": 14475,
-     "2016": 650,
-     "2019": 800
+     "2015": 500,
+     "2016": 650
     },
-    "committees": 3,
+    "committees": 2,
     "top": [
-     {
-      "f": "1394",
-      "n": "George Eric Hatfield",
-      "p": "OTH",
-      "usd": 14775,
-      "cycle": 0
-     },
      {
       "f": "3927",
       "n": "Carlos Prudhomme",
@@ -18895,7 +18937,6 @@
      }
     ],
     "spellings": [
-     "MCS ADVERTISING",
      "MCS ADVERTISING AGENCY"
     ]
    }
@@ -19020,7 +19061,7 @@
    "name": "Ban unr, Pobtic Relations",
    "found_by": "political file",
    "fcc": {
-    "docs": 29,
+    "docs": 30,
     "priced": 0,
     "usd": 0,
     "stations": [
@@ -19031,7 +19072,7 @@
      "Pho CUieaee fp Dernk Aovernmerct"
     ],
     "first": "2026-10-26",
-    "last": "2026-10-26",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -20771,6 +20812,27 @@
     "clients": [],
     "first": "2026-06-16",
     "last": "2026-06-16",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "FWWA",
+   "name": "fWwa",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KNOE"
+    ],
+    "clients": [],
+    "first": "2026-10-16",
+    "last": "2026-11-11",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -25166,8 +25228,8 @@
   ],
   "1394": [
    {
-    "k": "MCSADVERTISINGAGENCY",
-    "n": "MCS ADVERTISING AGENCY",
+    "k": "MCSADVERTISINGSHREVEPORT",
+    "n": "MCS Advertising - Shreveport",
     "usd": 14775,
     "cycle": 0,
     "media": 0,
