@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "data_through": "2026-11-10",
  "cycle_from": 2023,
- "documents_read": 7088,
+ "documents_read": 7155,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -200,9 +200,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 273,
-    "priced": 229,
-    "usd": 3942735,
+    "docs": 275,
+    "priced": 231,
+    "usd": 3969585,
     "stations": [
      "KADN",
      "KARD",
@@ -238,7 +238,7 @@
      "Accountabiilty Project"
     ],
     "first": "2026-01-20",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -681,10 +681,10 @@
      "New Horizons USA PAC"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
-     "docs": 71,
-     "usd": 364887,
+     "docs": 73,
+     "usd": 365327,
      "clients": [
       "Chris Spencer/State Representat Dist1/TX/Rep",
       "Chris Spencer Campaign",
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 223,
-    "priced": 140,
-    "usd": 1531439,
+    "docs": 226,
+    "priced": 141,
+    "usd": 1556259,
     "stations": [
      "005341",
      "008048",
@@ -969,9 +969,9 @@
    "name": "BrabenderCox",
    "found_by": "political file",
    "fcc": {
-    "docs": 221,
+    "docs": 223,
     "priced": 105,
-    "usd": 1253978,
+    "usd": 1265998,
     "stations": [
      "002460",
      "003478",
@@ -1021,7 +1021,7 @@
      "Julla Letiow - US Senate (LA)"
     ],
     "first": "2026-02-06",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1034,9 +1034,9 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 70,
-    "priced": 39,
-    "usd": 333149,
+    "docs": 72,
+    "priced": 40,
+    "usd": 337789,
     "stations": [
      "003478",
      "004321",
@@ -1057,8 +1057,8 @@
     "clients": [
      "John E Atkins Campaign",
      "Bill Cassidy for US Senate for Louisiana",
-     "John Atkins for Public Service Commissioner",
      "John Atkins/Public Service Commissioner/LA/Rep",
+     "John Atkins for Public Service Commissioner",
      "John Atkins-La Public Service Comm.District",
      "Protect Louisiana Values",
      "Robert Hodges / R / Sheriff / LA",
@@ -1363,9 +1363,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 101,
-    "priced": 50,
-    "usd": 685379,
+    "docs": 107,
+    "priced": 54,
+    "usd": 705134,
     "stations": [
      "002460",
      "KADN",
@@ -1387,15 +1387,15 @@
     ],
     "clients": [
      "Jamie Davis for US Senate",
+     "Jamie Davis/US Senate/LA/Dem",
      "Hillar Moore Campaign",
      "Davis/D/US Senate",
-     "Jamie Davis/US Senate/LA/Dem",
      "Hillar Moore for East Baton Rouge DA",
      "Jamle Davis for US Senate",
      "JUSTICE PAC"
     ],
     "first": "2026-10-02",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1993,10 +1993,10 @@
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
-     "docs": 112,
-     "usd": 600173,
+     "docs": 123,
+     "usd": 614643,
      "clients": [
       "Texans for Dan Patrick/Lt Governor/Rep",
       "Josh Bray/State Senate Dist1/TX/Rep Invoice",
@@ -6372,6 +6372,68 @@
    }
   },
   {
+   "key": "WILLIAMSCREATIVE",
+   "name": "Williams Creative Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 25,
+    "priced": 8,
+    "usd": 68432,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KLKL",
+     "KMSS",
+     "KOKA",
+     "KSLA",
+     "KTAL",
+     "KVKI",
+     "KXKS"
+    ],
+    "clients": [
+     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
+     "m Downtown Shreveport Development Corporation",
+     "Tom Arceneaux for Shreveport Mayor",
+     "m Tom Arceneaux for Mayor",
+     "Pol26/Tom Arceneux for Mayor",
+     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
+     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 79824,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 79824,
+    "years": {
+     "2025": 6235,
+     "2026": 73589
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5573",
+      "n": "M. Thomas (\"Tom\") Arceneaux",
+      "p": "REP",
+      "usd": 79824,
+      "cycle": 79824
+     }
+    ],
+    "spellings": [
+     "WILLIAMS CREATIVE GROUP"
+    ]
+   }
+  },
+  {
    "key": "POLITICALCOMMUNICATIONSADVERTISING",
    "name": "Political Communications Advertising",
    "found_by": "filings",
@@ -7101,65 +7163,29 @@
    }
   },
   {
-   "key": "WILLIAMSCREATIVE",
-   "name": "Williams Creative Group",
+   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
+   "name": "Anderson Advertising & Public Relations",
    "found_by": "political file",
    "fcc": {
-    "docs": 21,
+    "docs": 9,
     "priced": 6,
-    "usd": 53672,
+    "usd": 55008,
     "stations": [
-     "KDKS",
-     "KEEL",
-     "KLKL",
      "KMSS",
-     "KOKA",
      "KSLA",
-     "KTAL",
-     "KVKI",
-     "KXKS"
+     "KTAL"
     ],
     "clients": [
-     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
-     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
-     "m Downtown Shreveport Development Corporation",
-     "Tom Arceneaux for Shreveport Mayor",
-     "m Tom Arceneaux for Mayor",
-     "Pol26/Tom Arceneux for Mayor",
-     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
-     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+     "Conrad Cable/Congress/LA/Dem",
+     "Conrad Cable for Congress"
     ],
-    "first": "2026-09-30",
-    "last": "2026-11-06",
+    "first": "2026-11-03",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
-   },
-   "paid": {
-    "total": 79824,
-    "media": 0,
-    "rows": 9,
-    "media_cycle": 0,
-    "cycle": 79824,
-    "years": {
-     "2025": 6235,
-     "2026": 73589
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "5573",
-      "n": "M. Thomas (\"Tom\") Arceneaux",
-      "p": "REP",
-      "usd": 79824,
-      "cycle": 79824
-     }
-    ],
-    "spellings": [
-     "WILLIAMS CREATIVE GROUP"
-    ]
    }
   },
   {
@@ -7438,29 +7464,137 @@
    }
   },
   {
-   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
-   "name": "Anderson Advertising & Public Relations",
+   "key": "MCSADAGENCYMOBILECOMMUNICATIONSSERVICE",
+   "name": "MCS Ad Agency - Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 5,
-    "priced": 4,
-    "usd": 41318,
+    "docs": 10,
+    "priced": 8,
+    "usd": 2385,
     "stations": [
      "KMSS",
-     "KSLA",
      "KTAL"
     ],
     "clients": [
-     "Conrad Cable for Congress",
-     "Conrad Cable/Congress/LA/Dem"
+     "Tammy Phelps/Mayor of Shreveport/LA/Dem",
+     "Kharmen Davis-Taylor/City Court Judge/LA/Dem",
+     "Matt Gromlich/Congress District4/LA/Dem",
+     "Siavosh Ravari/Mayor of Shreveport/LA/Ind",
+     "Chaunta Mero/Mayor of Shreveport/LA/Dem"
     ],
-    "first": "2026-11-03",
-    "last": "2026-11-06",
+    "first": "2026-05-05",
+    "last": "2026-11-10",
     "away": {
      "docs": 0,
      "usd": 0,
      "clients": []
     }
+   },
+   "paid": {
+    "total": 64226,
+    "media": 36190,
+    "rows": 32,
+    "media_cycle": 33690,
+    "cycle": 60607,
+    "years": {
+     "2017": 1000,
+     "2018": 600,
+     "2020": 1000,
+     "2021": 520,
+     "2022": 500,
+     "2023": 50117,
+     "2026": 10490
+    },
+    "committees": 12,
+    "top": [
+     {
+      "f": "2884",
+      "n": "Sam L. Jenkins, Jr.",
+      "p": "DEM",
+      "usd": 40622,
+      "cycle": 40622
+     },
+     {
+      "f": "3375",
+      "n": "John E Atkins",
+      "p": "REP",
+      "usd": 6490,
+      "cycle": 6490
+     },
+     {
+      "f": "3392",
+      "n": "Terence Vinson",
+      "p": "DEM",
+      "usd": 5600,
+      "cycle": 5000
+     },
+     {
+      "f": "5450",
+      "n": "Emma Luster Shepard",
+      "p": "DEM",
+      "usd": 3840,
+      "cycle": 3840
+     },
+     {
+      "f": "4964",
+      "n": "Tammy Phelps",
+      "p": "DEM",
+      "usd": 3000,
+      "cycle": 3000
+     },
+     {
+      "f": "7600",
+      "n": "Chaunta Leterese Mero",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 1000
+     },
+     {
+      "f": "2330",
+      "n": "Barbara Norton",
+      "p": "DEM",
+      "usd": 480,
+      "cycle": 480
+     },
+     {
+      "f": "2638",
+      "n": "Lyndon B. Johnson",
+      "p": "DEM",
+      "usd": 175,
+      "cycle": 175
+     },
+     {
+      "f": "4102",
+      "n": "Darius Z. Kimble",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 0
+     },
+     {
+      "f": "5262",
+      "n": "J. Antonio Florence",
+      "p": "DEM",
+      "usd": 1000,
+      "cycle": 0
+     },
+     {
+      "f": "5536",
+      "n": "Darrin Dixon",
+      "p": "DEM",
+      "usd": 520,
+      "cycle": 0
+     },
+     {
+      "f": "3188",
+      "n": "James Stewart",
+      "p": "DEM",
+      "usd": 500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "MCS AD AGENCY"
+    ]
    }
   },
   {
@@ -7608,23 +7742,24 @@
    }
   },
   {
-   "key": "MCSADAGENCYMOBILECOMMUNICATIONSSERVICE",
-   "name": "MCS Ad Agency - Mobile Communications Service",
+   "key": "KDMDIGITALSOLUTIONS",
+   "name": "KDM Digital Solutions",
    "found_by": "political file",
    "fcc": {
-    "docs": 6,
+    "docs": 8,
     "priced": 5,
-    "usd": 1435,
+    "usd": 34100,
     "stations": [
-     "KTAL"
+     "KEEL",
+     "KVKI",
+     "KXKS"
     ],
     "clients": [
-     "Tammy Phelps/Mayor of Shreveport/LA/Dem",
-     "Matt Gromlich/Congress District4/LA/Dem",
-     "Chaunta Mero/Mayor of Shreveport/LA/Dem"
+     "m Alan Seabaugh for District Attorney",
+     "m Hugo Holland for District Judge"
     ],
-    "first": "2026-05-05",
-    "last": "2026-11-03",
+    "first": "2026-10-09",
+    "last": "2026-11-09",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7632,109 +7767,135 @@
     }
    },
    "paid": {
-    "total": 64226,
-    "media": 36190,
-    "rows": 32,
-    "media_cycle": 33690,
-    "cycle": 60607,
+    "total": 790937,
+    "media": 0,
+    "rows": 249,
+    "media_cycle": 0,
+    "cycle": 433395,
     "years": {
-     "2017": 1000,
-     "2018": 600,
-     "2020": 1000,
-     "2021": 520,
-     "2022": 500,
-     "2023": 50117,
-     "2026": 10490
+     "2018": 1060,
+     "2019": 24273,
+     "2020": 128727,
+     "2021": 133202,
+     "2022": 70280,
+     "2023": 195392,
+     "2024": 56670,
+     "2025": 60756,
+     "2026": 120577
     },
-    "committees": 12,
+    "committees": 44,
     "top": [
      {
-      "f": "2884",
-      "n": "Sam L. Jenkins, Jr.",
-      "p": "DEM",
-      "usd": 40622,
-      "cycle": 40622
-     },
-     {
-      "f": "3375",
-      "n": "John E Atkins",
+      "f": "1846",
+      "n": "Alan T. Seabaugh",
       "p": "REP",
-      "usd": 6490,
-      "cycle": 6490
+      "usd": 49927,
+      "cycle": 47809
      },
      {
-      "f": "3392",
-      "n": "Terence Vinson",
-      "p": "DEM",
-      "usd": 5600,
-      "cycle": 5000
+      "f": "4129",
+      "n": "Mark Wright",
+      "p": "REP",
+      "usd": 30870,
+      "cycle": 30870
      },
      {
-      "f": "5450",
-      "n": "Emma Luster Shepard",
-      "p": "DEM",
-      "usd": 3840,
-      "cycle": 3840
+      "f": "6078",
+      "n": "Jesse Adam Bass",
+      "p": "REP",
+      "usd": 29936,
+      "cycle": 29936
      },
      {
-      "f": "4964",
-      "n": "Tammy Phelps",
-      "p": "DEM",
-      "usd": 3000,
-      "cycle": 3000
+      "f": "5883",
+      "n": "John Fleming",
+      "p": "REP",
+      "usd": 26476,
+      "cycle": 26476
      },
      {
-      "f": "7600",
-      "n": "Chaunta Leterese Mero",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 1000
+      "f": "6176",
+      "n": "Justin Courtney",
+      "p": "REP",
+      "usd": 24343,
+      "cycle": 24343
      },
      {
-      "f": "2330",
-      "n": "Barbara Norton",
-      "p": "DEM",
-      "usd": 480,
-      "cycle": 480
+      "f": "4441",
+      "n": "Thomas Alexander Pressly IV",
+      "p": "REP",
+      "usd": 23661,
+      "cycle": 23661
      },
      {
-      "f": "2638",
-      "n": "Lyndon B. Johnson",
-      "p": "DEM",
-      "usd": 175,
-      "cycle": 175
+      "f": "5444",
+      "n": "Tommy Chandler",
+      "p": "REP",
+      "usd": 94096,
+      "cycle": 22500
      },
      {
-      "f": "4102",
-      "n": "Darius Z. Kimble",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 0
+      "f": "6059",
+      "n": "Les Blanchard",
+      "p": "REP",
+      "usd": 21290,
+      "cycle": 21290
      },
      {
-      "f": "5262",
-      "n": "J. Antonio Florence",
-      "p": "DEM",
-      "usd": 1000,
-      "cycle": 0
+      "f": "6550",
+      "n": "Craton Cochran",
+      "p": "REP",
+      "usd": 21212,
+      "cycle": 21212
      },
      {
-      "f": "5536",
-      "n": "Darrin Dixon",
-      "p": "DEM",
-      "usd": 520,
-      "cycle": 0
+      "f": "3308",
+      "n": "Dodie Horton",
+      "p": "REP",
+      "usd": 22034,
+      "cycle": 20334
      },
      {
-      "f": "3188",
-      "n": "James Stewart",
-      "p": "DEM",
-      "usd": 500,
-      "cycle": 0
+      "f": "5446",
+      "n": "Christopher C. Smith",
+      "p": "OTH",
+      "usd": 18892,
+      "cycle": 18892
+     },
+     {
+      "f": "6738",
+      "n": "AMY BRAINARD",
+      "p": "OTH",
+      "usd": 18418,
+      "cycle": 18418
+     },
+     {
+      "f": "4917",
+      "n": "Barry Milligan",
+      "p": "REP",
+      "usd": 47829,
+      "cycle": 17509
+     },
+     {
+      "f": "7604",
+      "n": "Heather Savage Courtney",
+      "p": "OTH",
+      "usd": 15085,
+      "cycle": 15085
+     },
+     {
+      "f": "2276",
+      "n": "Julian Whittington",
+      "p": "REP",
+      "usd": 13758,
+      "cycle": 13758
      }
     ],
     "spellings": [
-     "MCS AD AGENCY"
+     "KDM DIGITAL SOLUTIONS",
+     "KDM DIGITAL SOLUTIONS LLC",
+     "KDM DIGITAL",
+     "KDM DIGITAL SOLUTIONS, LLC"
     ]
    }
   },
@@ -8420,164 +8581,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "KDMDIGITALSOLUTIONS",
-   "name": "KDM Digital Solutions",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 6,
-    "priced": 4,
-    "usd": 19450,
-    "stations": [
-     "KEEL",
-     "KVKI",
-     "KXKS"
-    ],
-    "clients": [
-     "m Alan Seabaugh for District Attorney",
-     "m Hugo Holland for District Judge"
-    ],
-    "first": "2026-10-09",
-    "last": "2026-10-16",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 790937,
-    "media": 0,
-    "rows": 249,
-    "media_cycle": 0,
-    "cycle": 433395,
-    "years": {
-     "2018": 1060,
-     "2019": 24273,
-     "2020": 128727,
-     "2021": 133202,
-     "2022": 70280,
-     "2023": 195392,
-     "2024": 56670,
-     "2025": 60756,
-     "2026": 120577
-    },
-    "committees": 44,
-    "top": [
-     {
-      "f": "1846",
-      "n": "Alan T. Seabaugh",
-      "p": "REP",
-      "usd": 49927,
-      "cycle": 47809
-     },
-     {
-      "f": "4129",
-      "n": "Mark Wright",
-      "p": "REP",
-      "usd": 30870,
-      "cycle": 30870
-     },
-     {
-      "f": "6078",
-      "n": "Jesse Adam Bass",
-      "p": "REP",
-      "usd": 29936,
-      "cycle": 29936
-     },
-     {
-      "f": "5883",
-      "n": "John Fleming",
-      "p": "REP",
-      "usd": 26476,
-      "cycle": 26476
-     },
-     {
-      "f": "6176",
-      "n": "Justin Courtney",
-      "p": "REP",
-      "usd": 24343,
-      "cycle": 24343
-     },
-     {
-      "f": "4441",
-      "n": "Thomas Alexander Pressly IV",
-      "p": "REP",
-      "usd": 23661,
-      "cycle": 23661
-     },
-     {
-      "f": "5444",
-      "n": "Tommy Chandler",
-      "p": "REP",
-      "usd": 94096,
-      "cycle": 22500
-     },
-     {
-      "f": "6059",
-      "n": "Les Blanchard",
-      "p": "REP",
-      "usd": 21290,
-      "cycle": 21290
-     },
-     {
-      "f": "6550",
-      "n": "Craton Cochran",
-      "p": "REP",
-      "usd": 21212,
-      "cycle": 21212
-     },
-     {
-      "f": "3308",
-      "n": "Dodie Horton",
-      "p": "REP",
-      "usd": 22034,
-      "cycle": 20334
-     },
-     {
-      "f": "5446",
-      "n": "Christopher C. Smith",
-      "p": "OTH",
-      "usd": 18892,
-      "cycle": 18892
-     },
-     {
-      "f": "6738",
-      "n": "AMY BRAINARD",
-      "p": "OTH",
-      "usd": 18418,
-      "cycle": 18418
-     },
-     {
-      "f": "4917",
-      "n": "Barry Milligan",
-      "p": "REP",
-      "usd": 47829,
-      "cycle": 17509
-     },
-     {
-      "f": "7604",
-      "n": "Heather Savage Courtney",
-      "p": "OTH",
-      "usd": 15085,
-      "cycle": 15085
-     },
-     {
-      "f": "2276",
-      "n": "Julian Whittington",
-      "p": "REP",
-      "usd": 13758,
-      "cycle": 13758
-     }
-    ],
-    "spellings": [
-     "KDM DIGITAL SOLUTIONS",
-     "KDM DIGITAL SOLUTIONS LLC",
-     "KDM DIGITAL",
-     "KDM DIGITAL SOLUTIONS, LLC"
-    ]
    }
   },
   {
@@ -9915,6 +9918,160 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "CAPTURECONNECTMEDIA",
+   "name": "Capture Connect Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 1355,
+    "stations": [
+     "WEMX",
+     "WXOK"
+    ],
+    "clients": [
+     "Justice PAC"
+    ],
+    "first": "2026-11-11",
+    "last": "2026-11-11",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 849402,
+    "media": 9411,
+    "rows": 170,
+    "media_cycle": 9411,
+    "cycle": 340033,
+    "years": {
+     "2017": 10415,
+     "2019": 6038,
+     "2020": 135381,
+     "2021": 201326,
+     "2022": 156209,
+     "2023": 101208,
+     "2024": 34327,
+     "2025": 115636,
+     "2026": 88863
+    },
+    "committees": 46,
+    "top": [
+     {
+      "f": "5511",
+      "n": "Oliver Thomas",
+      "p": "DEM",
+      "usd": 181289,
+      "cycle": 68166
+     },
+     {
+      "f": "6851",
+      "n": "Kenneth Barnes",
+      "p": "OTH",
+      "usd": 53456,
+      "cycle": 53456
+     },
+     {
+      "f": "5470",
+      "n": "Freddie King III",
+      "p": "DEM",
+      "usd": 30720,
+      "cycle": 30720
+     },
+     {
+      "f": "5753",
+      "n": "NoLaToya",
+      "p": "OTH",
+      "usd": 27182,
+      "cycle": 27182
+     },
+     {
+      "f": "6517",
+      "n": "NOLA First Political Action Committee",
+      "p": "OTH",
+      "usd": 25165,
+      "cycle": 25165
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 26021,
+      "cycle": 22750
+     },
+     {
+      "f": "5111",
+      "n": "Marissa Hutabarat",
+      "p": "DEM",
+      "usd": 61842,
+      "cycle": 21100
+     },
+     {
+      "f": "5854",
+      "n": "Leon Roche",
+      "p": "DEM",
+      "usd": 16500,
+      "cycle": 16500
+     },
+     {
+      "f": "6848",
+      "n": "Kenya Rounds",
+      "p": "DEM",
+      "usd": 11782,
+      "cycle": 11782
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 18257,
+      "cycle": 10500
+     },
+     {
+      "f": "5114",
+      "n": "Diedre Pierce Kelly",
+      "p": "DEM",
+      "usd": 10900,
+      "cycle": 8900
+     },
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 7125,
+      "cycle": 7125
+     },
+     {
+      "f": "6062",
+      "n": "Andrea Manuel",
+      "p": "DEM",
+      "usd": 6200,
+      "cycle": 6200
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 9856,
+      "cycle": 6000
+     },
+     {
+      "f": "6192",
+      "n": "Sharon Latten Clark",
+      "p": "OTH",
+      "usd": 6000,
+      "cycle": 6000
+     }
+    ],
+    "spellings": [
+     "CAPTURE CONNECT MEDIA",
+     "CAPTURE CONNECT"
+    ]
    }
   },
   {
@@ -11360,6 +11517,29 @@
    }
   },
   {
+   "key": "CAMPAIGNTOREELECTJAMESSTEWARTDA",
+   "name": "Campaign to Re-elect James Stewart DA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 1,
+    "usd": 3800,
+    "stations": [
+     "KTAL"
+    ],
+    "clients": [
+     "James Stewart Sr/District Attorney/LA /Dem"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "NXUM",
    "name": "Nxum Group",
    "found_by": "political file",
@@ -11477,21 +11657,23 @@
    }
   },
   {
-   "key": "CAMPAIGNTOREELECTJAMESSTEWARTDA",
-   "name": "Campaign to Re-elect James Stewart DA",
+   "key": "STEPWONMARKETING",
+   "name": "STEPWON MARKETING",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 3,
     "priced": 1,
-    "usd": 2000,
+    "usd": 1980,
     "stations": [
-     "KTAL"
+     "KBTT",
+     "KDKS",
+     "WEMX"
     ],
     "clients": [
-     "James Stewart Sr/District Attorney/LA /Dem"
+     "BLACK VOTERS MATTER CAPACITY BUILDING INSTITUTE"
     ],
-    "first": "2026-11-03",
-    "last": "2026-11-03",
+    "first": "2026-10-15",
+    "last": "2026-11-11",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -11760,6 +11942,70 @@
    }
   },
   {
+   "key": "YOUNGPROSENTERTAINMENT",
+   "name": "Young Pros Entertainment",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 1436,
+    "stations": [
+     "KDKS",
+     "KVKI"
+    ],
+    "clients": [
+     "Friends of Caddo"
+    ],
+    "first": "2026-10-20",
+    "last": "2026-11-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 12235,
+    "media": 0,
+    "rows": 5,
+    "media_cycle": 0,
+    "cycle": 9610,
+    "years": {
+     "2020": 1125,
+     "2022": 1500,
+     "2023": 9610
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "4378",
+      "n": "Steven Jackson",
+      "p": "DEM",
+      "usd": 9610,
+      "cycle": 9610
+     },
+     {
+      "f": "2190",
+      "n": "Gregory Tarver",
+      "p": "DEM",
+      "usd": 1500,
+      "cycle": 0
+     },
+     {
+      "f": "5126",
+      "n": "Mary E. Winchell",
+      "p": "DEM",
+      "usd": 1125,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "YOUNG PROS ENT",
+     "YOUNG PROS ENTERTAINMENT LLC"
+    ]
+   }
+  },
+  {
    "key": "WOODFORKANDASSOCIATES",
    "name": "Woodfork & Associates",
    "found_by": "political file",
@@ -11975,6 +12221,29 @@
    }
   },
   {
+   "key": "RADMANMEDIA",
+   "name": "RadMan Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 1,
+    "usd": 1140,
+    "stations": [
+     "WWL"
+    ],
+    "clients": [
+     "Whitney Germany for Judge"
+    ],
+    "first": "2026-11-09",
+    "last": "2026-11-09",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "ANDERSONADVERTISINGAZ",
    "name": "Anderson Advertising-AZ",
    "found_by": "political file",
@@ -12043,69 +12312,6 @@
      "usd": 0,
      "clients": []
     }
-   }
-  },
-  {
-   "key": "YOUNGPROSENTERTAINMENT",
-   "name": "Young Pros Entertainment",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 1,
-    "priced": 1,
-    "usd": 596,
-    "stations": [
-     "KDKS"
-    ],
-    "clients": [
-     "Pol26/Friends of Caddo"
-    ],
-    "first": "2026-10-20",
-    "last": "2026-10-20",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 12235,
-    "media": 0,
-    "rows": 5,
-    "media_cycle": 0,
-    "cycle": 9610,
-    "years": {
-     "2020": 1125,
-     "2022": 1500,
-     "2023": 9610
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "4378",
-      "n": "Steven Jackson",
-      "p": "DEM",
-      "usd": 9610,
-      "cycle": 9610
-     },
-     {
-      "f": "2190",
-      "n": "Gregory Tarver",
-      "p": "DEM",
-      "usd": 1500,
-      "cycle": 0
-     },
-     {
-      "f": "5126",
-      "n": "Mary E. Winchell",
-      "p": "DEM",
-      "usd": 1125,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "YOUNG PROS ENT",
-     "YOUNG PROS ENTERTAINMENT LLC"
-    ]
    }
   },
   {
@@ -14335,10 +14541,10 @@
     ],
     "clients": [],
     "first": "2026-02-10",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
-     "docs": 130,
-     "usd": 1761475,
+     "docs": 134,
+     "usd": 1791020,
      "clients": [
       "Texans for Greg Abbott",
       "Texans for Greg Abboll - PO Box",
@@ -19652,14 +19858,14 @@
     ],
     "clients": [],
     "first": "2026-09-28",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
-     "docs": 25,
-     "usd": 63852,
+     "docs": 27,
+     "usd": 68057,
      "clients": [
       "Gina Hinojosa Campaign",
-      "Gina Hinojosa for Governor",
-      "Gina Hinojosa/Governor/TX/Dem"
+      "Gina Hinojosa/Governor/TX/Dem",
+      "Gina Hinojosa for Governor"
      ]
     }
    },
@@ -20135,30 +20341,6 @@
    }
   },
   {
-   "key": "STEPWONMARKETING",
-   "name": "STEPWON MARKETING",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 0,
-    "usd": 0,
-    "stations": [
-     "KBTT",
-     "KDKS"
-    ],
-    "clients": [
-     "BLACK VOTERS MATTER CAPACITY BUILDING INSTITUTE"
-    ],
-    "first": "2026-10-15",
-    "last": "2026-10-15",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "STANDTOGETHERCOMMUNICATIONS",
    "name": "Stand Together Communications",
    "found_by": "political file",
@@ -20231,8 +20413,8 @@
    }
   },
   {
-   "key": "THEMATICCAMPAIGNSANNBREMER",
-   "name": "Thematic Campaigns Ann Bremer",
+   "key": "THEMATICCAMPAIGNS",
+   "name": "Thematic Campaigns",
    "found_by": "political file",
    "fcc": {
     "docs": 1,
@@ -20251,39 +20433,16 @@
      "Talarico for Texas"
     ],
     "first": "2026-10-09",
-    "last": "2026-11-06",
+    "last": "2026-11-10",
     "away": {
-     "docs": 25,
-     "usd": 67145,
+     "docs": 35,
+     "usd": 136400,
      "clients": [
       "Talarico for Texas",
       "James Talarico/US Senate/TX/Dem",
-      "Talatico for Texas",
-      "Tatarico for Texas"
-     ]
-    }
-   }
-  },
-  {
-   "key": "THEMATICCAMPAINGS",
-   "name": "Thematic Campaings",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 0,
-    "priced": 0,
-    "usd": 0,
-    "stations": [
-     "KPXJ",
-     "KTBS"
-    ],
-    "clients": [],
-    "first": "2026-10-09",
-    "last": "2026-10-19",
-    "away": {
-     "docs": 6,
-     "usd": 48525,
-     "clients": [
       "James Talarico For Senate (TX)",
+      "Talatico for Texas",
+      "Tatarico for Texas",
       "dames Talarico For Senate (TX)"
      ]
     }
@@ -27346,6 +27505,19 @@
     }
    }
   ],
+  "1595": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 7097,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 7097
+    }
+   }
+  ],
   "1597": [
    {
     "k": "KINGFISHCOMMUNICATIONS",
@@ -28112,6 +28284,17 @@
     "fcc": true,
     "y": {
      "2020": 3324
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 2271,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2271
     }
    }
   ],
@@ -29222,6 +29405,18 @@
     }
    },
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 65352,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 50352,
+     "2021": 15000
+    }
+   },
+   {
     "k": "BERNICONSULT",
     "n": "Berni Consulting",
     "usd": 57800,
@@ -30316,6 +30511,17 @@
     "fcc": true,
     "y": {
      "2026": 6042
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 4100,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 4100
     }
    }
   ],
@@ -36463,6 +36669,18 @@
     "y": {
      "2025": 16287
     }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 9856,
+    "cycle": 6000,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 3856,
+     "2025": 6000
+    }
    }
   ],
   "2604": [
@@ -41881,6 +42099,17 @@
     }
    },
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 20121,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 20121
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 12000,
@@ -43480,6 +43709,17 @@
   ],
   "3734": [
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 6842,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 6842
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 2522,
@@ -43492,6 +43732,18 @@
    }
   ],
   "3748": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 26021,
+    "cycle": 22750,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 3271,
+     "2025": 22750
+    }
+   },
    {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
@@ -46301,6 +46553,20 @@
     }
    },
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 18257,
+    "cycle": 10500,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 7757,
+     "2023": 5000,
+     "2024": 2500,
+     "2025": 3000
+    }
+   },
+   {
     "k": "CARVINCONSULT",
     "n": "Carvin Consulting",
     "usd": 15000,
@@ -47223,6 +47489,18 @@
     "y": {
      "2018": 17890
     }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 1325,
+    "cycle": 350,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 975,
+     "2024": 350
+    }
    }
   ],
   "4286": [
@@ -47286,6 +47564,19 @@
     "fcc": true,
     "y": {
      "2019": 11577
+    }
+   }
+  ],
+  "4298": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 2767,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 2767
     }
    }
   ],
@@ -51671,6 +51962,19 @@
   ],
   "5111": [
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 61842,
+    "cycle": 21100,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 38816,
+     "2021": 1925,
+     "2023": 21100
+    }
+   },
+   {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
     "usd": 44305,
@@ -51716,6 +52020,18 @@
     "fcc": true,
     "y": {
      "2023": 50000
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 10900,
+    "cycle": 8900,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2000,
+     "2023": 8900
     }
    },
    {
@@ -52147,6 +52463,17 @@
     "y": {
      "2023": 10000
     }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 2700,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2700
+    }
    }
   ],
   "5171": [
@@ -52309,6 +52636,17 @@
     "y": {
      "2020": 2889
     }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 2500,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 2500
+    }
    }
   ],
   "5216": [
@@ -52424,6 +52762,19 @@
     }
    }
   ],
+  "5227": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 9250,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 9250
+    }
+   }
+  ],
   "5233": [
    {
     "k": "ROUGAROUCONSULT",
@@ -52458,6 +52809,17 @@
     "fcc": true,
     "y": {
      "2024": 6500
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 6250,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 6250
     }
    }
   ],
@@ -53659,6 +54021,17 @@
     }
    },
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 30720,
+    "cycle": 30720,
+    "media": 4130,
+    "fcc": true,
+    "y": {
+     "2025": 30720
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 10053,
@@ -53691,6 +54064,17 @@
     "fcc": true,
     "y": {
      "2025": 48270
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 12100,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 12100
     }
    },
    {
@@ -53739,6 +54123,17 @@
     "fcc": true,
     "y": {
      "2025": 12000
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 9600,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 9600
     }
    }
   ],
@@ -53885,6 +54280,19 @@
     }
    }
   ],
+  "5506": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 26239,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 26239
+    }
+   }
+  ],
   "5507": [
    {
     "k": "ARSEMENTMEDIA",
@@ -53947,6 +54355,20 @@
    }
   ],
   "5511": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 181289,
+    "cycle": 68166,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 103123,
+     "2022": 10000,
+     "2023": 15000,
+     "2025": 53166
+    }
+   },
    {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
@@ -54143,6 +54565,17 @@
     "y": {
      "2021": 9599
     }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 7817,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 7817
+    }
    }
   ],
   "5548": [
@@ -54207,6 +54640,17 @@
     "y": {
      "2021": 5000,
      "2022": 10000
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 7000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 7000
     }
    },
    {
@@ -54781,6 +55225,18 @@
   ],
   "5699": [
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 14917,
+    "cycle": 4500,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 10417,
+     "2023": 4500
+    }
+   },
+   {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
     "usd": 7500,
@@ -54805,6 +55261,20 @@
     }
    }
   ],
+  "5707": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 2600,
+    "cycle": 800,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 1800,
+     "2024": 800
+    }
+   }
+  ],
   "5710": [
    {
     "k": "VICTORIACOULONCONSULT",
@@ -54815,6 +55285,30 @@
     "fcc": true,
     "y": {
      "2024": 5270
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 2000,
+    "cycle": 2000,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 2000
+    }
+   }
+  ],
+  "5711": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 13308,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 13308
     }
    }
   ],
@@ -54895,6 +55389,18 @@
   ],
   "5727": [
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 9612,
+    "cycle": 912,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 8700,
+     "2024": 912
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 7625,
@@ -54968,6 +55474,17 @@
     "y": {
      "2022": 65000,
      "2023": 112550
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 27182,
+    "cycle": 27182,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 27182
     }
    }
   ],
@@ -55240,6 +55757,17 @@
     "fcc": true,
     "y": {
      "2026": 18200
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 16500,
+    "cycle": 16500,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 16500
     }
    },
    {
@@ -55812,6 +56340,17 @@
    }
   ],
   "5920": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 4600,
+    "cycle": 4600,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 4600
+    }
+   },
    {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
@@ -56765,6 +57304,19 @@
     }
    }
   ],
+  "6062": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 6200,
+    "cycle": 6200,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 6200
+    }
+   }
+  ],
   "607": [
    {
     "k": "POLITICALFIRM",
@@ -57202,6 +57754,19 @@
     "fcc": true,
     "y": {
      "2024": 1477
+    }
+   }
+  ],
+  "6192": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 6000,
+    "cycle": 6000,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 6000
     }
    }
   ],
@@ -58590,6 +59155,17 @@
   ],
   "6517": [
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 25165,
+    "cycle": 25165,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 25165
+    }
+   },
+   {
     "k": "VICTORIACOULONCONSULT",
     "n": "Victoria Coulon Consulting",
     "usd": 4750,
@@ -59198,6 +59774,17 @@
     "fcc": true,
     "y": {
      "2025": 34200
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 7125,
+    "cycle": 7125,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 7125
     }
    }
   ],
@@ -59992,6 +60579,32 @@
     "fcc": true,
     "y": {
      "2026": 2856
+    }
+   }
+  ],
+  "6848": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 11782,
+    "cycle": 11782,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 11782
+    }
+   }
+  ],
+  "6851": [
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 53456,
+    "cycle": 53456,
+    "media": 5281,
+    "fcc": true,
+    "y": {
+     "2026": 53456
     }
    }
   ],
@@ -61560,6 +62173,17 @@
     }
    },
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 83140,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 83140
+    }
+   },
+   {
     "k": "CARVINCONSULT",
     "n": "Carvin Consulting",
     "usd": 18698,
@@ -61733,6 +62357,17 @@
     "y": {
      "2014": 2000,
      "2020": 4203
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 3202,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 3202
     }
    }
   ],
@@ -62235,6 +62870,17 @@
     "y": {
      "2002": 30526,
      "2003": 5000
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 10415,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 10415
     }
    },
    {
@@ -62848,6 +63494,17 @@
     }
    },
    {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 13650,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 13650
+    }
+   },
+   {
     "k": "BURNINGSTICKCREATIVE",
     "n": "Burning Stick Creative",
     "usd": 10000,
@@ -63276,6 +63933,17 @@
     "fcc": true,
     "y": {
      "2023": 7250
+    }
+   },
+   {
+    "k": "CAPTURECONNECTMEDIA",
+    "n": "Capture Connect Media",
+    "usd": 4501,
+    "cycle": 4501,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 4501
     }
    },
    {
@@ -65026,6 +65694,10 @@
   ],
   "1594": [
    "Rickey Hardy",
+   "DEM"
+  ],
+  "1595": [
+   "Charlene Larche-Mason",
    "DEM"
   ],
   "1597": [
@@ -68380,6 +69052,10 @@
    "Heather Cloud",
    "REP"
   ],
+  "4298": [
+   "Action New Orleans PAC",
+   "OTH"
+  ],
   "4304": [
    "Beverly Brooks Thompson",
    "DEM"
@@ -69348,6 +70024,10 @@
    "Michael J. Hall",
    "DEM"
   ],
+  "5227": [
+   "Marcus DeLarge",
+   "DEM"
+  ],
   "5233": [
    "Moses J. Williams",
    "DEM"
@@ -69648,6 +70328,10 @@
    "Jeremy Stine",
    "REP"
   ],
+  "5506": [
+   "Rella Zapletal",
+   "DEM"
+  ],
   "5507": [
    "Dustin Granger",
    "DEM"
@@ -69800,9 +70484,17 @@
    "Adam Kwentua",
    "DEM"
   ],
+  "5707": [
+   "Derek T. Russ",
+   "DEM"
+  ],
   "5710": [
    "True Leadership PAC",
    "OTH"
+  ],
+  "5711": [
+   "Geoffrey L. Gates",
+   "DEM"
   ],
   "5712": [
    "Caleb S. Kleinpeter",
@@ -70200,6 +70892,10 @@
    "Randy Ewing",
    "OTH"
   ],
+  "6062": [
+   "Andrea Manuel",
+   "DEM"
+  ],
   "607": [
    "Michael Cazes",
    "OTH"
@@ -70291,6 +70987,10 @@
   "6189": [
    "Reddex Washington Jr.",
    "DEM"
+  ],
+  "6192": [
+   "Sharon Latten Clark",
+   "OTH"
   ],
   "6196": [
    "Kim Carver",
@@ -70775,6 +71475,14 @@
   "6845": [
    "Sidney Barthelemy II",
    "DEM"
+  ],
+  "6848": [
+   "Kenya Rounds",
+   "DEM"
+  ],
+  "6851": [
+   "Kenneth Barnes",
+   "OTH"
   ],
   "6854": [
    "Angela H. \"Angie\" Wagar",

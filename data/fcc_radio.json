@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "radio",
- "scraped": "2026-11-11T18:46:24Z",
+ "scraped": "2026-11-12T04:03:57Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "34377",
    "root_folder": "f0ae9f95-558c-277a-75dd-b2e28ffe51cb",
    "profile": "am-profile/wwl",
-   "scraped_at": "2026-11-07T16:53:40Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2017": "38eb5549-6323-1e6d-bd47-90c80751145c",
     "2018": "73751ad0-9e0e-9d04-16a4-de57a6bc586f",
@@ -56,6 +56,15 @@
     "Political Files/2026/Terms and Disclosures/Invoices": "7243f4d2-d5ab-fccf-6e25-9268de5fb29b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Terms and Disclosures/Invoices",
+     "name": "WWLFM-Political Inv 102026",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T16:43:40-05:00",
+     "folder_id": "7243f4d2-d5ab-fccf-6e25-9268de5fb29b",
+     "file_id": "456e1321-c7e0-c7d3-5213-e3748afc3b5b",
+     "file_manager_id": "c3775633-a847-4398-8d5c-9b110bf5685b"
+    },
     {
      "path": "Political Files/2026/Local/Camille Buras Orleans Parish Criminal District Ct",
      "name": "3457843-WWL-Camille Buras Orleans Parish Criminal District Ct -order rev",
@@ -956,7 +965,7 @@
    "facility_id": "60707",
    "root_folder": "49864aa4-4269-2f4d-cc27-6bb284bcc2cf",
    "profile": "am-profile/wyld",
-   "scraped_at": "2026-11-07T16:53:40Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "a465475b-29e4-fdd5-d1fc-706f085f0b17",
     "2015": "f67a1ebc-567e-38cb-d239-d19973103ed6",
@@ -981,6 +990,24 @@
     "Political Files/2026/State": "dbbe5c26-b557-75d3-64d8-cafee93cce80"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local",
+     "name": "camille_buras_for_criminal_district_court_judge_invoice_8824564391_9001416171",
+     "ext": "pdf",
+     "uploaded": "2026-11-10T19:57:14-05:00",
+     "folder_id": "c3e6f33e-49b1-4d6c-658a-d97989c901a0",
+     "file_id": "a9d46336-d48e-8575-9e05-c6cb29da378a",
+     "file_manager_id": "d6722cbb-ce13-4c07-8969-e9eab174fae8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate",
+     "name": "jaimie_davis_for_us_senate_invoice_8824564243_9001413832",
+     "ext": "pdf",
+     "uploaded": "2026-11-10T19:56:26-05:00",
+     "folder_id": "d3939790-65ea-6f6d-78e0-d411b00bf745",
+     "file_id": "2f21caa2-8a8d-c48a-d8d6-951a177fa86c",
+     "file_manager_id": "c6909615-488e-4afd-9114-c4ea3f0cb50b"
+    },
     {
      "path": "Political Files/2026/State",
      "name": "candace_newell_for_judge_division_l_invoice_8824547714_9001417259",
@@ -1188,7 +1215,7 @@
    "facility_id": "54890",
    "root_folder": "2c634176-7d25-f7b9-6f93-1df6083e7736",
    "profile": "fm-profile/wrno-fm",
-   "scraped_at": "2026-11-07T16:53:40Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "cbf5076c-a386-a661-007f-04219e8a41df",
     "2015": "0b768790-1e57-e958-6b83-ff3eed4ee6c7",
@@ -10998,7 +11025,7 @@
    "facility_id": "64675",
    "root_folder": "450a2c3e-dfbc-bd60-faf5-7d0a1f67149b",
    "profile": "fm-profile/kqki-fm",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "54919287-f678-6396-3d65-c3da2d0d955d",
     "2015": "26b0b43a-5dfd-77e4-b0fd-7f623b6374a3",
@@ -11025,6 +11052,15 @@
     "Political Files/2026/Local/SLADE SANDERS FOR MAYOR OF CITY OF PATTERSON": "1c14a261-fc00-4517-ee6c-3f52cbd40c98"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/CAPTAIN HIGGINS FOR LOUISIANA CONGRESSIONAL DISTRICT 3",
+     "name": "CAPTAIN HIGGINS FOR LOUISIANA CONGRESSIONAL DISTRICT 3 INVOICE 1",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T10:44:35-05:00",
+     "folder_id": "62ed0e25-a192-d294-0f09-c4308c6ac519",
+     "file_id": "69eedf4b-ea58-b540-b317-47dea80b40ae",
+     "file_manager_id": "0d8bc35c-5985-4a3c-89ed-a7a86b969bd0"
+    },
     {
      "path": "Political Files/2026/Federal/US House/CAPTAIN HIGGINS FOR LOUISIANA CONGRESSIONAL DISTRICT 3",
      "name": "CAPTAIN HIGGINS FOR LOUISIANA CONGRESSIONAL DISTRICT 3 NAB FORM",
@@ -11214,7 +11250,7 @@
    "facility_id": "58931",
    "root_folder": "9d092d1f-0b73-92bd-32e4-5f5fbacd7484",
    "profile": "fm-profile/wemx",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2018": "cebd8cbb-fd04-cb0a-2551-c3af18a1e413",
     "2019": "6a09cf47-d5f4-fcaf-e572-dbcbc66087b1",
@@ -11235,6 +11271,42 @@
     "Political Files/2026/Terms and Disclosures": "35e9c825-7ef7-8664-7eea-36839e458041"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1641718-Power Coalition for Equity & Justice-Direct-WEMX-FM-INVOICE OCT 2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-11T16:07:57-05:00",
+     "folder_id": "57cb7ee0-9489-0521-7088-5fcd21511bf3",
+     "file_id": "2adb21f3-ac81-3b06-232f-2d65654eaa2e",
+     "file_manager_id": "5c520237-3a72-4e40-9986-e5a2881837aa"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1646975-Black Voters Matter Capacity Building Institute-WMEX-FM-INVOICE OCT 2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-11T16:07:57-05:00",
+     "folder_id": "57cb7ee0-9489-0521-7088-5fcd21511bf3",
+     "file_id": "adbf82f8-5ef2-f039-f49f-b851bd863db9",
+     "file_manager_id": "b217f4bf-65ba-473e-90db-6cd0709949d5"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1647140-Justice PAC-WEMX-FM-INVOICE OCT 2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-11T16:07:57-05:00",
+     "folder_id": "57cb7ee0-9489-0521-7088-5fcd21511bf3",
+     "file_id": "4fa27f72-c275-cb6c-b9fe-a829579b168a",
+     "file_manager_id": "042b3b76-1d0d-43d8-a3f4-c98550d26b1b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1647514B-Voters Organized to Educate-WEMX-FM-INVOICE OCT 2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-11T16:07:57-05:00",
+     "folder_id": "57cb7ee0-9489-0521-7088-5fcd21511bf3",
+     "file_id": "ed521ef9-f84f-6da8-f3d6-ead034c3c21f",
+     "file_manager_id": "87fba059-b1f9-4c30-8858-d59d246e70d9"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads",
      "name": "1652097-Justice PAC-WEMX-FM",
@@ -11514,7 +11586,7 @@
    "facility_id": "1305",
    "root_folder": "6fa5cfa2-ab40-e381-3538-b98d39c742a6",
    "profile": "am-profile/krmd",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "4fee8c9e-bf34-d82c-d632-74a16093889b",
     "2015": "248604ff-473f-425b-7229-629fa64de283",
@@ -11542,7 +11614,7 @@
    "facility_id": "11606",
    "root_folder": "8142b74b-c409-13dc-f779-76f97e6caf31",
    "profile": "am-profile/wxok",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2018": "5d29202a-4fbc-96f5-a0fc-696999dc5d4f",
     "2019": "59326ab7-45e3-0c7c-d9da-d56d0333bd02",
@@ -11563,6 +11635,24 @@
     "Political Files/2026/Terms and Disclosures": "28cdda15-1eab-0834-2d96-30a55207bc11"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "161727-Power Coalition for Equity & Justice-Direct-WXOK-AM-INVOICE OCT 2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-11T16:06:31-05:00",
+     "folder_id": "1a8441ae-e200-cf77-e739-f8c897bd4a54",
+     "file_id": "ee40f4bb-7582-71e5-8979-95c107fa2e48",
+     "file_manager_id": "14973c4c-fab6-49db-b428-0e3b320cc5ac"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads",
+     "name": "1647107-Justic PAC-WXOK-AM-INVOICE OCT 2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-11T16:06:31-05:00",
+     "folder_id": "1a8441ae-e200-cf77-e739-f8c897bd4a54",
+     "file_id": "c8669d1d-e203-c46f-66a4-b2cd503ad9e5",
+     "file_manager_id": "1686c6aa-2a91-4019-9e92-11cfb160f531"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "1652177-Moore-WXOK-AM",
@@ -11788,7 +11878,7 @@
    "facility_id": "52434",
    "root_folder": "8afd8730-3401-83dd-991a-ce99b40a7af4",
    "profile": "fm-profile/wkbu",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2017": "3a78327f-4f94-3ce9-fc58-d582bd8f2219",
     "2018": "59d233af-5873-a280-63d8-eb1cf7f39499",
@@ -11918,7 +12008,7 @@
    "facility_id": "41054",
    "root_folder": "ad29251b-2867-d10e-29d3-94256bcee35a",
    "profile": "am-profile/kfxz",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "a3533337-4ff7-d863-260a-a3ecf945e2b9",
     "2015": "84ec7675-db87-99bc-da8c-9d0114ca0692",
@@ -15080,7 +15170,7 @@
    "facility_id": "9750",
    "root_folder": "13657063-875e-7c49-e9d4-d776143fa881",
    "profile": "am-profile/ksyl",
-   "scraped_at": "2026-11-05T18:48:25Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "76107b99-876d-1883-148d-c8acfd1ba8ac",
     "2015": "be8692f0-7fa9-5fd7-aafb-06b07736f70d",
@@ -15450,7 +15540,7 @@
    "facility_id": "48632",
    "root_folder": "21540095-3d95-735e-2bf9-0ca6b395e375",
    "profile": "fm-profile/kjlo-fm",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "c6ad5ac8-914b-bad7-f990-0fc6196d58bd",
     "2015": "44af8572-964d-2d76-218a-236e6597e13d",
@@ -15628,7 +15718,7 @@
    "facility_id": "36227",
    "root_folder": "a5929b9a-b261-7510-5c54-4412c6fad212",
    "profile": "fm-profile/krrq",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2018": "55e2c0d9-dc72-6da1-df56-0ef6f065014d",
     "2019": "4316a936-f15d-eed3-2168-50708257d0d3",
@@ -15728,7 +15818,7 @@
    "facility_id": "19560",
    "root_folder": "d784ddba-85b6-42f7-7822-8e73af021a9f",
    "profile": "fm-profile/kvki-fm",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "c8570be8-d34b-ba64-2671-bcbd458b723d",
     "2015": "57043981-bd25-68f5-68fd-b4c6ce435acb",
@@ -15762,6 +15852,87 @@
     "Political Files/2026/Non-Candidate Issue Ads/Say Yes to DSDC": "cc271ccd-f5b1-0c7c-f64a-43c32b7224e4"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Committee To Elect Conrad Cable",
+     "name": "7033841-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-10T13:38:18-05:00",
+     "folder_id": "cde7a6d0-28e2-b4a0-9ce2-308324dc67bd",
+     "file_id": "9de8d59e-0235-4eb6-74b3-53ed0de0b82e",
+     "file_manager_id": "c05ca701-5a03-4296-afbc-ac3b6c038508"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/FriendsOfCaddoVoteYes",
+     "name": "6988569-2",
+     "ext": "pdf",
+     "uploaded": "2026-11-10T13:37:51-05:00",
+     "folder_id": "a158474b-2ec1-ef4d-fa59-38f4b598f534",
+     "file_id": "db09753a-c719-e066-3abf-20658703dcc3",
+     "file_manager_id": "e961f0a6-7c36-4900-87ec-c3e32b787575"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Say Yes to DSDC",
+     "name": "7033842-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-10T13:24:02-05:00",
+     "folder_id": "cc271ccd-f5b1-0c7c-f64a-43c32b7224e4",
+     "file_id": "36888626-3f87-f58a-fe07-04373db50a8e",
+     "file_manager_id": "c99537cb-3783-46e7-90a7-29f0e2974180"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/FriendsOfCaddoVoteYes",
+     "name": "6988569-1.FriendsOfCaddo.OctInvoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T12:46:55-05:00",
+     "folder_id": "a158474b-2ec1-ef4d-fa59-38f4b598f534",
+     "file_id": "e8b4de6e-4386-999a-6fdf-976ae5c3b89e",
+     "file_manager_id": "1a743a47-5351-4a58-be41-265321963680"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "7064179-1",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T12:43:56-05:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "ad1ec242-cbeb-19e0-96bd-bd253cff62c3",
+     "file_manager_id": "aea72349-c926-41c4-84bf-5c8b176cd1a1"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "Arceneaux.RunOffCampaign.11062026",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T12:43:56-05:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "9b7ad559-ac35-9f84-3913-217168e16468",
+     "file_manager_id": "3eaf9743-9722-49f5-af48-549d2b028ff5"
+    },
+    {
+     "path": "Political Files/2026/Local/ArceneauxForShreveport",
+     "name": "Proposal 11_05_26 05_43 PM",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T12:43:56-05:00",
+     "folder_id": "135b5bc0-d84e-adf9-1235-f081b86da044",
+     "file_id": "071d9de3-c46d-0fba-b91d-fb3009e9b47d",
+     "file_manager_id": "1b1ba11c-c6bd-4d28-93ae-35621d418c99"
+    },
+    {
+     "path": "Political Files/2026/Local/Hugo Holland For District Judge",
+     "name": "6989256-1.HugoHollandDistJudge.OCTInvoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T12:42:26-05:00",
+     "folder_id": "086ae88c-92bb-6e90-d262-d5fd18b37d78",
+     "file_id": "43436a5a-66d9-e93c-4992-ec7dd4cbdf86",
+     "file_manager_id": "a5560c8f-427a-4ed7-8eda-3983c29c6ebf"
+    },
+    {
+     "path": "Political Files/2026/Local/Alan Seabaugh for District Attorney",
+     "name": "6961013-1.AlanSeabaughForDA.OctInvoice",
+     "ext": "pdf",
+     "uploaded": "2026-11-09T12:41:50-05:00",
+     "folder_id": "e3a41344-c8f9-21d4-1b6c-24e16a1ab6e1",
+     "file_id": "d53fe111-6f1e-dc04-c441-7edd7e502571",
+     "file_manager_id": "8fa34fd6-f8e4-4b71-aa17-2883efda4234"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Committee To Elect Conrad Cable",
      "name": "CommitteeToElectConradCable.Confirmations",
@@ -16086,7 +16257,7 @@
    "facility_id": "8164",
    "root_folder": "8e664d80-3785-0cd4-8b68-b98e1135be50",
    "profile": "fm-profile/klil",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "f48f82ef-91b9-9e87-9581-48a7b1c012df",
     "2015": "6e813e8c-5db2-5844-b484-7ea242f9b801",
@@ -16624,7 +16795,7 @@
    "facility_id": "8382",
    "root_folder": "4ed270ce-7a07-679b-ab20-4e007c902633",
    "profile": "fm-profile/wtix-fm",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2018": "d5861ddd-577e-942c-a664-a4e6ed738d22",
     "2019": "0ae3859b-86cd-a01a-759f-234a90fee559",
@@ -16977,7 +17148,7 @@
    "facility_id": "67330",
    "root_folder": "1fffd821-c414-b4a1-7993-129cf680685b",
    "profile": "am-profile/kaok",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "58db9ee7-7ebc-a6c1-d594-cec74964688f",
     "2015": "9521ad92-708e-25a3-1129-ff5be4479609",
@@ -19995,7 +20166,7 @@
    "facility_id": "20346",
    "root_folder": "838364ab-b32a-c5d5-423d-579856247ed4",
    "profile": "fm-profile/wezb",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2017": "2df8d4ed-2c77-e750-2352-d63de578af9a",
     "2018": "41a45330-e77f-9814-55ae-5edf6f969477",
@@ -20099,7 +20270,7 @@
    "facility_id": "15095",
    "root_folder": "e142023f-6a78-c3d0-f067-49a6e1fac52e",
    "profile": "fm-profile/kjmg",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "b5af1f13-40d2-f199-27f2-730a432ac4d5",
     "2015": "aa8c57c4-65a6-f60b-f547-065fc7a1ebcb",
@@ -20127,7 +20298,7 @@
    "facility_id": "9221",
    "root_folder": "7b0b4e4d-92e4-3803-b7ab-2db050e8f68d",
    "profile": "fm-profile/kbtt",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "5bc16c51-dcee-c88e-3c73-592287a1bc96",
     "2015": "4075ece4-dc0b-93e8-d9e6-07ac6aea596c",
@@ -20269,7 +20440,7 @@
    "facility_id": "49016",
    "root_folder": "aa1207a6-72cf-48cc-75a7-cb530291dcb0",
    "profile": "am-profile/ksyb",
-   "scraped_at": "2026-11-06T18:00:08Z",
+   "scraped_at": "2026-11-12T04:01:02Z",
    "year_folders": {
     "2014": "0cf7ea7c-2907-079f-77ba-d295fb854dec",
     "2015": "e4edc85a-c565-47d1-c506-2848f2083ef7",
@@ -20786,21 +20957,21 @@
  "blocked": null,
  "attempted": {
   "KAJN": "2026-11-11T18:45:14Z",
-  "KAOK": "2026-11-06T18:00:08Z",
+  "KAOK": "2026-11-12T04:01:02Z",
   "KBON": "2026-11-11T18:45:14Z",
-  "KBTT": "2026-11-06T18:00:08Z",
+  "KBTT": "2026-11-12T04:01:02Z",
   "KBZE": "2026-11-11T18:45:14Z",
   "KDKS": "2026-11-08T17:05:50Z",
   "KEEL": "2026-11-07T16:53:40Z",
   "KEUN": "2026-11-10T18:43:07Z",
-  "KFXZ": "2026-11-05T18:48:25Z",
+  "KFXZ": "2026-11-12T04:01:02Z",
   "KGLA": "2026-11-10T18:43:07Z",
   "KHLA": "2026-11-10T18:43:07Z",
   "KJAE": "2026-11-08T17:05:50Z",
-  "KJLO": "2026-11-06T18:00:08Z",
-  "KJMG": "2026-11-06T18:00:08Z",
+  "KJLO": "2026-11-12T04:01:02Z",
+  "KJMG": "2026-11-12T04:01:02Z",
   "KKND": "2026-11-07T16:53:40Z",
-  "KLIL": "2026-11-06T18:00:08Z",
+  "KLIL": "2026-11-12T04:01:02Z",
   "KLKL": "2026-11-09T21:30:09Z",
   "KLWB": "2026-11-08T17:05:50Z",
   "KMDL": "2026-11-11T18:45:14Z",
@@ -20811,19 +20982,19 @@
   "KNEK": "2026-11-11T18:45:14Z",
   "KOKA": "2026-11-09T21:30:09Z",
   "KPEL": "2026-11-07T16:53:40Z",
-  "KQKI": "2026-11-05T18:48:25Z",
+  "KQKI": "2026-11-12T04:01:02Z",
   "KQXL": "2026-11-10T18:43:07Z",
-  "KRMD": "2026-11-05T18:48:25Z",
+  "KRMD": "2026-11-12T04:01:02Z",
   "KROF": "2026-11-07T16:53:40Z",
-  "KRRQ": "2026-11-06T18:00:08Z",
+  "KRRQ": "2026-11-12T04:01:02Z",
   "KRVE": "2026-11-09T21:30:09Z",
   "KRVV": "2026-11-09T21:30:09Z",
   "KSIG": "2026-11-08T17:05:50Z",
   "KSMB": "2026-11-10T18:43:07Z",
-  "KSYB": "2026-11-06T18:00:08Z",
-  "KSYL": "2026-11-05T18:48:25Z",
+  "KSYB": "2026-11-12T04:01:02Z",
+  "KSYL": "2026-11-12T04:01:02Z",
   "KTDY": "2026-11-11T18:45:14Z",
-  "KVKI": "2026-11-06T18:00:08Z",
+  "KVKI": "2026-11-12T04:01:02Z",
   "KVPI": "2026-11-08T17:05:50Z",
   "KXKS": "2026-11-08T17:05:50Z",
   "KYKZ": "2026-11-08T17:05:50Z",
@@ -20833,24 +21004,24 @@
   "WBOK": "2026-11-11T18:45:14Z",
   "WBRP": "2026-11-09T21:30:09Z",
   "WDGL": "2026-11-08T17:05:50Z",
-  "WEMX": "2026-11-05T18:48:25Z",
-  "WEZB": "2026-11-06T18:00:08Z",
+  "WEMX": "2026-11-12T04:01:02Z",
+  "WEZB": "2026-11-12T04:01:02Z",
   "WFMF": "2026-11-10T18:43:07Z",
   "WGSO": "2026-11-09T21:30:09Z",
   "WGUO": "2026-11-09T21:30:09Z",
   "WJBO": "2026-11-07T16:53:40Z",
-  "WKBU": "2026-11-05T18:48:25Z",
+  "WKBU": "2026-11-12T04:01:02Z",
   "WLMG": "2026-11-11T18:45:14Z",
   "WNOE": "2026-11-10T18:43:07Z",
   "WNXX": "2026-11-09T21:30:09Z",
   "WQUE": "2026-11-07T16:53:40Z",
-  "WRNO": "2026-11-07T16:53:40Z",
+  "WRNO": "2026-11-12T04:01:02Z",
   "WRQQ": "2026-11-10T18:43:07Z",
   "WTGE": "2026-11-09T21:30:09Z",
-  "WTIX": "2026-11-06T18:00:08Z",
-  "WWL": "2026-11-07T16:53:40Z",
-  "WXOK": "2026-11-05T18:48:25Z",
-  "WYLD": "2026-11-07T16:53:40Z",
+  "WTIX": "2026-11-12T04:01:02Z",
+  "WWL": "2026-11-12T04:01:02Z",
+  "WXOK": "2026-11-12T04:01:02Z",
+  "WYLD": "2026-11-12T04:01:02Z",
   "WYNK": "2026-11-11T18:45:14Z"
  }
 }
