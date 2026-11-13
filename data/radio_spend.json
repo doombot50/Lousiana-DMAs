@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-13",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1507814,
+ "rows_scanned": 1507853,
  "data_through": "2026-11-10",
  "years_covered": [
   2000,
@@ -10,8 +10,8 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13234509.13,
- "gov_year_share": 0.5445,
+ "total_spend": 13236509.13,
+ "gov_year_share": 0.5444,
  "by_year": {
   "2000": 27912.25,
   "2001": 14308.0,
@@ -4268,7 +4268,7 @@
  ],
  "classified_spend": 11190840.48,
  "unclassified_tail": {
-  "amount": 2043668.65,
+  "amount": 2045668.65,
   "stations": 254,
   "note": "identifiable as radio by an explicit band marker, but not in the verified station reference — a long tail of small stations, the largest about $55K"
  },
@@ -4280,7 +4280,7 @@
    "rows": 2241,
    "committees": 393,
    "avg_buy": 1709.44,
-   "share": 0.2895
+   "share": 0.2894
   },
   {
    "category": "News/Talk",
@@ -4325,7 +4325,7 @@
    "rows": 766,
    "committees": 147,
    "avg_buy": 493.27,
-   "share": 0.0286
+   "share": 0.0285
   },
   {
    "category": "Christian",
@@ -4356,12 +4356,12 @@
   },
   {
    "category": "Unclassified (long tail)",
-   "spend": 2043668.65,
+   "spend": 2045668.65,
    "stations": 254,
    "rows": 0,
    "committees": 0,
    "avg_buy": 0,
-   "share": 0.1544
+   "share": 0.1545
   }
  ],
  "owners": [
@@ -4375,13 +4375,13 @@
    "owner": "Local",
    "spend": 2250707.76,
    "stations": 23,
-   "share": 0.1701
+   "share": 0.17
   },
   {
    "owner": "Audacy",
    "spend": 1942340.49,
    "stations": 4,
-   "share": 0.1468
+   "share": 0.1467
   },
   {
    "owner": "Townsquare Media",
@@ -4417,7 +4417,7 @@
    "owner": "Guaranty Broadcasting",
    "spend": 107868.65,
    "stations": 2,
-   "share": 0.0082
+   "share": 0.0081
   },
   {
    "owner": "Crocodile Broadcasting",
@@ -4899,9 +4899,9 @@
   }
  ],
  "caveats": {
-  "classified_share": 0.8456,
+  "classified_share": 0.8455,
   "unclassified_station_shaped": {
-   "amount": 2043668.65,
+   "amount": 2045668.65,
    "calls": 254,
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },

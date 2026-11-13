@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-13T03:31:20Z",
+ "scraped": "2026-11-13T18:33:45Z",
  "years": [
   2026,
   2027
@@ -5852,7 +5852,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -11226,7 +11226,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -13754,7 +13754,7 @@
    "facility_id": "13938",
    "root_folder": "fc8f8266-9929-cdf7-1999-ae430f14a725",
    "profile": "tv-profile/wupl",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2015": "f1603605-cb81-4311-203a-f87b390db1d3",
     "2017": "7621df02-232b-c1e4-5026-ae45e370e409",
@@ -15255,7 +15255,7 @@
    "facility_id": "54280",
    "root_folder": "c0882dd8-4018-5d1d-de87-45728b37efcc",
    "profile": "tv-profile/wnol-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2017": "3bcc5f7e-979a-dbb4-05a4-69cddf905cd2",
     "2018": "8f764d8d-cab5-287e-2e6c-930b6ecc5543",
@@ -15967,7 +15967,7 @@
    "facility_id": "18819",
    "root_folder": "3b3f087e-2252-72e8-0100-209bd3534851",
    "profile": "tv-profile/wlae-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2012": "b4286e7f-60bc-dffa-af95-338032627d18",
     "2013": "25979cc0-a290-908d-fab5-727c1f089e53",
@@ -15997,7 +15997,7 @@
    "facility_id": "589",
    "root_folder": "cdc91283-1e5a-b75e-2ad2-aa19cb822ebd",
    "profile": "tv-profile/wafb",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2017": "427856e2-4249-1395-ac75-515b47dd99bf",
     "2018": "9622ae40-f309-8ffd-c21f-8f7d8d1ea584",
@@ -58697,7 +58697,7 @@
    "facility_id": "48975",
    "root_folder": "c96465a1-4b00-57c1-eaa2-444c27864256",
    "profile": "tv-profile/knoe-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2015": "9d19dfab-85d2-7a49-54f2-7e96bb03f41f",
     "2017": "5207134f-9eab-77dc-9e70-4c30db7bb52b",
@@ -58747,6 +58747,24 @@
     "Political Files/2026/State/John E Atkins Campaign": "32f34a75-d346-89f8-fdab-46d1f3695c85"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Firment for Congress",
+     "name": "Firment 4627425",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T12:44:05-05:00",
+     "folder_id": "d8fe2b9f-aefc-80b2-e5d0-ea14a3bf222d",
+     "file_id": "1371f4aa-ee06-593c-cd1e-ec5101b38d93",
+     "file_manager_id": "190bc44e-504d-48f4-ae60-6ede6929af0e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Firment for Congress",
+     "name": "Firment 4627440",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T12:44:05-05:00",
+     "folder_id": "d8fe2b9f-aefc-80b2-e5d0-ea14a3bf222d",
+     "file_id": "73007e5f-2334-bb6d-e458-8dde03f0ec81",
+     "file_manager_id": "ff77438a-9a6c-45a9-b32b-d3eea1cb8b14"
+    },
     {
      "path": "Political Files/2026/Local/Mike Smith for Ruston City Court Judge",
      "name": "Mike Smith 46226293",
@@ -62824,7 +62842,7 @@
    "facility_id": "35692",
    "root_folder": "6ccb985d-b32e-a6d1-6b62-04c24d877f2e",
    "profile": "tv-profile/ktve",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2018": "e3f9498d-ec81-99bb-5714-1348a5213d1e",
     "2019": "1c3d4528-0289-c08a-20ce-74b048259b13",
@@ -62863,6 +62881,24 @@
     "Political Files/2026/State/Misti Cordell": "384f2dea-4d7b-9382-997a-0055c8301cfb"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Gabe Firment",
+     "name": "Gabe Firment KTVE 11.13.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T13:02:18-05:00",
+     "folder_id": "b951ceeb-7aea-e9e8-1d2c-cdf6155d8652",
+     "file_id": "3d8568d5-5c7d-c99b-a0cb-81cb20e04c2d",
+     "file_manager_id": "7310ddab-44d2-4a5e-b700-fd051b9d2b90"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Smith",
+     "name": "Mike Smith KTVE 11.12.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T13:01:57-05:00",
+     "folder_id": "6dc86d7b-8c6f-5f1f-7985-da13d6fa32e1",
+     "file_id": "2cd123a6-9df9-2450-68a8-15a2fed1de54",
+     "file_manager_id": "7c6da2d5-bab2-40ef-b0f7-51fd00a0b6ab"
+    },
     {
      "path": "Political Files/2026/State/Gabe Firment",
      "name": "Gabe Firment KTVE 11.9.26",
@@ -63583,7 +63619,7 @@
    "facility_id": "3658",
    "root_folder": "6aeadbe8-7885-28c3-3de9-7fe3217df95c",
    "profile": "tv-profile/kard",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2018": "624ee5c0-d284-8503-08e3-4adddd65668d",
     "2019": "e686e71c-c813-05ac-d41e-7e0222ad3c69",
@@ -63621,6 +63657,24 @@
     "Political Files/2026/State/Misti Cordell": "a198decc-3cb3-2224-571a-49ab527cada6"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Gabe Firment",
+     "name": "Gabe Firment KARD 11.13.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T13:03:37-05:00",
+     "folder_id": "8326f467-8a6c-a31c-000e-daeb143a4217",
+     "file_id": "9edb4287-fac5-a77f-99d1-30046c5c858e",
+     "file_manager_id": "1f833901-3360-446b-bfbf-551349dd6fd0"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Smith",
+     "name": "Mike Smith KARD 11.12.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T13:03:19-05:00",
+     "folder_id": "334d88dc-74ba-e554-f637-6d38b6319ff4",
+     "file_id": "d9f4bb13-a41a-953f-343a-82c02d29eddb",
+     "file_manager_id": "b0cd35fd-1f37-4075-b54b-fb731f57c706"
+    },
     {
      "path": "Political Files/2026/State/Gabe Firment",
      "name": "Gabe Firment KARD 11.9.26",
@@ -64359,7 +64413,7 @@
    "facility_id": "13994",
    "root_folder": "3a7cbc6a-9d9c-fd49-2381-081f274c4aa9",
    "profile": "tv-profile/kplc",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2017": "76c1d6da-c5a7-92b5-ecbe-b16a7d44a376",
     "2018": "cee6cef1-dcea-0704-0aa1-a9239d22df40",
@@ -65534,7 +65588,7 @@
    "facility_id": "35852",
    "root_folder": "b912fb7c-0956-9efc-0d7f-75df566a3877",
    "profile": "tv-profile/kvhp",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2012": "b608a943-41f6-692e-e617-dd1b1bf27975",
     "2013": "ef516e5e-b9e2-4341-26e2-1d4e6c271d00",
@@ -66937,7 +66991,7 @@
    "facility_id": "51598",
    "root_folder": "4c72836f-58bb-6e20-9264-886b97ad6941",
    "profile": "tv-profile/kalb-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2017": "0afb61f3-b48f-5fb4-32c5-8912057349c7",
     "2018": "6eb72ab6-a9d5-542a-0522-ab4b38dbe3d8",
@@ -68599,7 +68653,7 @@
    "facility_id": "52907",
    "root_folder": "05f00a78-2e38-ca9b-9fdb-20f7062a9793",
    "profile": "tv-profile/klax-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2018": "5185c466-8e76-1ef8-2bc3-2e500088489f",
     "2019": "1cc958b0-3405-760b-74b4-761d1bbb8c01",
@@ -69131,7 +69185,7 @@
    "facility_id": "16539",
    "root_folder": "7ea29a0e-4a15-e0d6-30d2-9ff42870feda",
    "profile": "tv-profile/wntz-tv",
-   "scraped_at": "2026-11-12T18:54:12Z",
+   "scraped_at": "2026-11-13T18:30:56Z",
    "year_folders": {
     "2015": "499fa776-206c-b2ee-13a1-c5f507d7430c",
     "2017": "ab224572-9c77-adba-46ef-43d52bc7ab10",
@@ -69542,32 +69596,32 @@
  "blocked": null,
  "attempted": {
   "KADN": "2026-11-13T03:28:12Z",
-  "KALB": "2026-11-12T18:54:12Z",
-  "KARD": "2026-11-12T18:54:12Z",
+  "KALB": "2026-11-13T18:30:56Z",
+  "KARD": "2026-11-13T18:30:56Z",
   "KATC": "2026-11-13T03:28:12Z",
-  "KLAX": "2026-11-12T18:54:12Z",
+  "KLAX": "2026-11-13T18:30:56Z",
   "KLFY": "2026-11-13T03:28:12Z",
   "KMSS": "2026-11-13T03:28:12Z",
-  "KNOE": "2026-11-12T18:54:12Z",
-  "KPLC": "2026-11-12T18:54:12Z",
+  "KNOE": "2026-11-13T18:30:56Z",
+  "KPLC": "2026-11-13T18:30:56Z",
   "KPXJ": "2026-11-13T03:28:12Z",
   "KSLA": "2026-11-13T03:28:12Z",
   "KTAL": "2026-11-13T03:28:12Z",
   "KTBS": "2026-11-13T03:28:12Z",
-  "KTVE": "2026-11-12T18:54:12Z",
-  "KVHP": "2026-11-12T18:54:12Z",
-  "WAFB": "2026-11-12T18:54:12Z",
+  "KTVE": "2026-11-13T18:30:56Z",
+  "KVHP": "2026-11-13T18:30:56Z",
+  "WAFB": "2026-11-13T18:30:56Z",
   "WBRL-CD": "2026-11-13T03:28:12Z",
   "WBRZ": "2026-11-13T03:28:12Z",
   "WDSU": "2026-11-13T03:28:12Z",
   "WGMB": "2026-11-13T03:28:12Z",
-  "WGNO": "2026-11-12T18:54:12Z",
-  "WLAE": "2026-11-12T18:54:12Z",
-  "WNOL": "2026-11-12T18:54:12Z",
-  "WNTZ": "2026-11-12T18:54:12Z",
-  "WUPL": "2026-11-12T18:54:12Z",
+  "WGNO": "2026-11-13T18:30:56Z",
+  "WLAE": "2026-11-13T18:30:56Z",
+  "WNOL": "2026-11-13T18:30:56Z",
+  "WNTZ": "2026-11-13T18:30:56Z",
+  "WUPL": "2026-11-13T18:30:56Z",
   "WVLA": "2026-11-13T03:28:12Z",
   "WVUE": "2026-11-13T03:28:12Z",
-  "WWL-TV": "2026-11-12T18:54:12Z"
+  "WWL-TV": "2026-11-13T18:30:56Z"
  }
 }

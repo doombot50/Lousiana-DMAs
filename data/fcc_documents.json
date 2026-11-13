@@ -105,6 +105,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
   },
+  "006b07f7-f18c-4f12-9015-9a097876a5d6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1067.0,
+   "net": 906.95,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1643547",
+   "invoice_no": null,
+   "flight": [
+    "10/06/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1643547-Moore-D_District Attorney-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "006c81ca-70dc-4967-8527-1da207d9fb36": {
    "kind": "invoice",
    "layout": "invoice",
@@ -9707,6 +9731,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-03T18:39:00Z"
   },
+  "0ff37c1e-b9b2-4ce5-a643-cb45f82a9de1": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 480.0,
+   "net": 408.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1652177",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1652177-Moore_D_District Attorney-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "0ff4fb96-77aa-43bf-aa59-84e53e3b36ab": {
    "kind": "order",
    "layout": "contract",
@@ -10855,6 +10903,30 @@
    "uploaded": "2026-09-21T02:13:34-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T16:15:51Z"
+  },
+  "11f27070-dcae-47c1-97e5-ef17f686175f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 646.0,
+   "net": 549.1,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1643680",
+   "invoice_no": null,
+   "flight": [
+    "10/06/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1643680-Moore_D_District Attorney-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "11f3b049-b029-44df-920c-63c5cfece527": {
    "kind": "order",
@@ -15767,6 +15839,54 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
   },
+  "18f62d80-884d-4bf9-b48d-9032ab7343fd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 550.0,
+   "net": 467.5,
+   "agency": "StepWon Marketing",
+   "advertiser": "Black Voters Matter Capacity Building Institute",
+   "order_no": "1646975",
+   "invoice_no": null,
+   "flight": [
+    "10/16/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1646975-Black Voters Matter Capacity Building Institute-WEMXFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:19:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
+  "18f6cf51-80a0-45cf-ae97-434224b12ad2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 120.0,
+   "net": 102.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1649933",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1649933-Moore_D_District Attorney-WEMXFM INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:10:55-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "190fc360-2dd7-4085-a7a6-c23448aa7b38": {
    "kind": "invoice",
    "layout": "invoice",
@@ -19931,6 +20051,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "1f833901-3360-446b-bfbf-551349dd6fd0": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 4240.0,
+   "net": 3604.0,
+   "agency": "Flexpoint Campaigns",
+   "advertiser": "POL/Michael Gabriel Firment/Congress/LA/Rep 11/13/26",
+   "order_no": "5463405",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KARD",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment KARD 11.13.26",
+   "uploaded": "2026-11-13T13:03:37-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:45:44Z"
+  },
   "1f84e071-b4ec-438c-9917-5c3b835a3793": {
    "kind": "other",
    "layout": "other",
@@ -21416,6 +21557,27 @@
    "uploaded": "2026-03-02T15:49:00-05:00",
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
+  },
+  "215eef71-f771-45de-8956-330f86643988": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Louisiana Housing Corporation",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "WRNO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "louisiana_housing_corporation_nab_multi",
+   "uploaded": "2026-11-13T09:04:25-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "2178d9ab-b7cc-40a4-98d4-f8462a1aeaaa": {
    "kind": "order",
@@ -37453,6 +37615,30 @@
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
   },
+  "3bfbaaab-ec7c-4c81-9f5f-0abf3122f86e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 320.0,
+   "net": 272.0,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1647107",
+   "invoice_no": null,
+   "flight": [
+    "10/15/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647107-Justice PAC-WXOKAM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:17:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "3c188088-8f9e-4848-b1df-4a54e4bc5130": {
    "kind": "invoice",
    "layout": "invoice",
@@ -38214,6 +38400,30 @@
    "uploaded": "2026-02-06T11:11:34-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T17:37:54Z"
+  },
+  "3d8256d4-5ec1-4f63-80e9-2a99da84d6b7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 656.0,
+   "net": 557.6,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1645878",
+   "invoice_no": null,
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1645878-Moore_D_District Attorney-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "3d87186e-48cf-4485-9aa5-a036e4d56425": {
    "kind": "order",
@@ -42097,6 +42307,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
   },
+  "44669335-954f-4ba4-b8b1-1f81d34ed6b5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sabine/D/Judge",
+   "order_no": "1639047",
+   "invoice_no": null,
+   "flight": [
+    "09/23/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1639047-Sabine_D_Judge-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "446c8d27-e753-41ec-8005-9daa771c6753": {
    "kind": "invoice",
    "layout": "invoice",
@@ -45728,6 +45962,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T01:46:54Z"
   },
+  "4a6c445b-0385-4739-84da-9b19c90e12df": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 923.0,
+   "net": 784.55,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650342",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650342-Davis_D_Senate-WEMXFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:12:21-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "4a814c9f-64b0-41fd-ab7a-8a9b8181f75c": {
    "kind": "invoice",
    "layout": "invoice",
@@ -46424,6 +46682,27 @@
    "uploaded": "2026-02-02T16:28:13-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:34:00Z"
+  },
+  "4b8b77a1-0ff8-4501-aaf1-9c2fbfe23058": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WRNO",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "let_it_resound_nab_network_214751",
+   "uploaded": "2026-11-12T08:59:07-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "4b91261f-7d55-498f-89bc-aff973a62193": {
    "kind": "order",
@@ -47742,6 +48021,30 @@
    "uploaded": "2026-02-16T11:36:19-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
+  },
+  "4de34ec2-2b82-4cdb-b9c1-d8ff3ffe06d7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2440.0,
+   "net": 2074.0,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1652097",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1652097-Justice PAC-WEMXFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:19:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "4de682f3-128c-4b80-9d76-16d163f5b42a": {
    "kind": "order",
@@ -49363,6 +49666,30 @@
    "uploaded": "2026-10-23T19:36:03-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
+  },
+  "50da9fa6-187c-459e-9e0e-ce7983f7e560": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 36.0,
+   "net": 30.6,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650331",
+   "invoice_no": null,
+   "flight": [
+    "10/25/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650331-Davis_D_Senate-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:08:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "50e13b75-63fd-47bd-82f8-852cbfcd5d09": {
    "kind": "invoice",
@@ -56334,6 +56661,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
   },
+  "5c4832de-3c45-4ec9-bb68-431b5704fdc3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1030.0,
+   "net": 875.5,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1648036",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1648036-Moore_D_District Attorney-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "5c4b8a81-a21f-47a1-884d-d7cfdd2dd442": {
    "kind": "order",
    "layout": "other",
@@ -59911,6 +60262,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:44:04Z"
   },
+  "61c7c3bc-882d-4d3e-90e5-54dfa38df324": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Louisiana Housing Corporation",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "WYNK",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "louisiana_housing_corporation_nab_multi",
+   "uploaded": "2026-11-13T09:04:21-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "61d717b2-67b4-42d3-8d82-c69959aa74dc": {
    "kind": "invoice",
    "layout": "invoice",
@@ -61754,6 +62126,30 @@
    "uploaded": "2026-11-03T17:37:34-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-05T21:13:04Z"
+  },
+  "64fdeff2-232f-4113-b267-686bab867a29": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2700.0,
+   "net": 2295.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1648024",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1648024-Moore_D_District Attorney-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:50-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "65030fc3-5333-46c6-8c80-97eb51a0066d": {
    "kind": "request",
@@ -63804,6 +64200,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
   },
+  "6819d7f0-d438-43b8-a28f-b8cce520235d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Allen/D/Judge",
+   "order_no": "1648249",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1648249-Allen_D_Judge-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "681bf0d2-e794-4e51-b9eb-b4c41d1fb63c": {
    "kind": "order",
    "layout": "other",
@@ -64757,6 +65177,30 @@
    "uploaded": "2026-02-20T15:41:47-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "69509a93-53b3-4066-85bc-7f1b5829c0e2": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1641718",
+   "invoice_no": null,
+   "flight": [
+    "10/05/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1641718-Power Coalition for Equity & Justice-Direct-WEMXFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:19:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "6968867f-01ac-4be5-bf34-18be66875dfd": {
    "kind": "other",
@@ -67253,6 +67697,27 @@
    "uploaded": "2026-05-22T11:29:11-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:40:20Z"
+  },
+  "6db05073-d4f1-4daa-9bf9-58f454506214": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Louisiana Housing Corporation",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "WWL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana Housing Corporation",
+   "name": "3471172-WWL-Louisiana Housing Corporation-NAB",
+   "uploaded": "2026-11-13T10:02:00-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "6dc7e538-42e0-440e-992f-fee228de0e59": {
    "kind": "request",
@@ -70888,6 +71353,27 @@
    "name_kind": "other",
    "read_at": "2026-10-24T02:38:21Z"
   },
+  "7310ddab-44d2-4a5e-b700-fd051b9d2b90": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 4485.0,
+   "net": 3812.25,
+   "agency": "Flexpoint Campaigns",
+   "advertiser": "POL/Michael Gabriel Firment/Congress/LA/Rep 11/13/26",
+   "order_no": "5463431",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTVE",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment KTVE 11.13.26",
+   "uploaded": "2026-11-13T13:02:18-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:45:44Z"
+  },
   "73197c43-a0dc-4044-9c63-18ea5c2fb501": {
    "kind": "order",
    "layout": "other",
@@ -74469,6 +74955,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:37:54Z"
   },
+  "792ba8b8-cdc8-439f-a37d-0caf69fbc05f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 300.0,
+   "net": 255.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1647035",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1647035-Decuir_D_Judge-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "793f975f-7b7f-45dd-977a-575307390c8d": {
    "kind": "request",
    "layout": "nab",
@@ -76176,6 +76686,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:54:17Z"
   },
+  "7b86eb88-711e-406d-aedc-b150dd1a714e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Caine/D/Justice of the Peace",
+   "order_no": "1648511",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1648511-Caine_D_Justice of the Peace-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "7b88a222-fee5-43fc-9614-1e5ce5ac63ca": {
    "kind": "order",
    "layout": "contract",
@@ -76868,6 +77402,27 @@
    "uploaded": "2026-06-18T17:02:47-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "7c6da2d5-bab2-40ef-b0f7-51fd00a0b6ab": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 360.0,
+   "net": 306.0,
+   "agency": "Quest Communication Consultants",
+   "advertiser": "POL/Mike Smith/City Court Judge/LA/Rep",
+   "order_no": "5462252",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTVE",
+   "path": "Political Files/2026/Local/Mike Smith",
+   "name": "Mike Smith KTVE 11.12.26",
+   "uploaded": "2026-11-13T13:01:57-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:45:44Z"
   },
   "7c6ffe08-8eb2-4a8f-9f5b-8f52864c541e": {
    "kind": "request",
@@ -85281,6 +85836,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
   },
+  "88b5a96e-6c71-4d69-9782-f5340ebc0241": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2038.0,
+   "net": 1732.3,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1647007",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "10/31/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1647007-Decuir_D_Judge-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "88b65e12-cdf0-4b78-8590-4583b0abf437": {
    "kind": "request",
    "layout": "nab",
@@ -86481,6 +87060,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "8a9a3e42-a3e4-4456-b70c-a58334896b54": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1122.0,
+   "net": 953.7,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1652167",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1652167-Moore_D_District Attorney-WEMXFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:10:56-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "8a9afd27-15af-4500-9cce-b1accc676772": {
    "kind": "order",
    "layout": "wavstar",
@@ -86588,6 +87191,30 @@
    "uploaded": "2026-09-17T17:31:18-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
+  },
+  "8ab643aa-305d-41db-b08d-2affb1bd1559": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2580.0,
+   "net": 2193.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1649933",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1649933-Moore_D_District Attorney-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:50-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "8ab8c9eb-e847-41f2-ac4b-e597950a5aff": {
    "kind": "order",
@@ -92386,6 +93013,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
   },
+  "94a550ee-0cb9-40f8-be68-0e97528f89ee": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Allen/D/Judge",
+   "order_no": "1648249",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1648249-Allen_D_Judge-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "94be5e82-20c8-45fd-9b4d-25d3f1e0842b": {
    "kind": "request",
    "layout": "nab",
@@ -97960,6 +98611,30 @@
    "uploaded": "2026-03-23T12:57:31-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T07:05:00Z"
+  },
+  "9d5ce849-6a24-4cfb-8019-c2b3dbaab4de": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Caine/D/Justice of the Peace",
+   "order_no": "1648498",
+   "invoice_no": null,
+   "flight": [
+    "10/21/26",
+    "10/24/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1648498-Caine_D_Justice of the Peace-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "9d628f6d-db8a-45cb-b89b-12eb1f216ab3": {
    "kind": "invoice",
@@ -107640,6 +108315,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
   },
+  "acad43f7-34b1-4454-82ec-84bfe83a58fd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 897.0,
+   "net": 762.45,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1652126",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1652126-Justice PAC-WXOKAM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:17:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "acb12c68-15b2-499a-8a95-130a6ec76053": {
    "kind": "request",
    "layout": "nab",
@@ -108284,6 +108983,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
   },
+  "ad8bd437-9afc-4bf1-ab4f-81cb2a1f0a67": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 958.0,
+   "net": 814.3,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1649941",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1649941-Moore_D_District Attorney-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "adb345ab-527a-4c70-be92-e00c321c7d69": {
    "status": "too_big",
    "bytes": 11147223,
@@ -108384,6 +109107,30 @@
    "uploaded": "2026-06-03T17:52:39-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "adee3a80-4c33-4eb0-a62e-2b76720665b4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1641727",
+   "invoice_no": null,
+   "flight": [
+    "10/05/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1641727-Power Coalition for Equity & Justice-Direct-WXOKAM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:17:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "adf9a097-ab69-4dbb-9861-a98e90889ae2": {
    "kind": "order",
@@ -110000,6 +110747,27 @@
    "uploaded": "2026-06-15T11:29:06-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T17:27:34Z"
+  },
+  "b0cd35fd-1f37-4075-b54b-fb731f57c706": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 240.0,
+   "net": 204.0,
+   "agency": "Quest Communication Consultants",
+   "advertiser": "POL/Mike Smith/City Court Judge/LA/Rep",
+   "order_no": "5462264",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KARD",
+   "path": "Political Files/2026/Local/Mike Smith",
+   "name": "Mike Smith KARD 11.12.26",
+   "uploaded": "2026-11-13T13:03:19-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T18:45:44Z"
   },
   "b0d7d94f-6e21-4b7c-8a42-c1af30581b4b": {
    "kind": "request",
@@ -117252,6 +118020,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "bc006573-75bb-42c9-93ac-851208e56c24": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 72.0,
+   "net": 61.2,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1649941",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1649941-Moore_D_District Attorney-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "bc0899f5-39ff-4d78-8cf9-d45fe52b2464": {
    "kind": "request",
    "layout": "nab",
@@ -121500,6 +122292,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
   },
+  "c1fa63e4-5c01-430d-bb29-49388245c855": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 870.0,
+   "net": 739.5,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1647140",
+   "invoice_no": null,
+   "flight": [
+    "10/15/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647140-Justice PAC-WEMXFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:19:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "c20dd3f9-4cbd-4a2f-bc6f-f8009ac2d7e3": {
    "kind": "order",
    "layout": "contract",
@@ -122407,6 +123223,30 @@
    "uploaded": "2026-03-02T11:41:12-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
+  },
+  "c3c3a1ca-6ddf-4dd4-9246-202ecc2b2430": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Voters Organized to Educate",
+   "order_no": "1647514B",
+   "invoice_no": null,
+   "flight": [
+    "10/17/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647514B-Voters Organized to Educate-WEMXFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:19:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "c3c76942-3989-4ee6-ac48-43a3d9d73432": {
    "kind": "other",
@@ -125864,6 +126704,30 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
   },
+  "c931f18e-8045-47fb-b319-220c7a362d15": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 300.0,
+   "net": 255.0,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650346",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650346-Davis_D_Senate-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:08:58-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "c9360a67-a963-4abd-a4e9-52ec10271dc9": {
    "kind": "order",
    "layout": "other",
@@ -126220,6 +127084,30 @@
    "uploaded": "2026-01-09T15:47:22-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T22:23:53Z"
+  },
+  "c9b9356a-a3eb-4607-ac43-b40373c6a1c7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2152.0,
+   "net": 1829.2,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1645876",
+   "invoice_no": null,
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1645876-Moore_D_District Attorney-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:50-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "c9c0ac2b-f3d6-4fe1-9f61-503d25e31724": {
    "kind": "order",
@@ -127793,6 +128681,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
   },
+  "cbf6cd51-ce89-4c2a-b2ce-deecb8d4c6d3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 18.0,
+   "net": 15.3,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1647010",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1647010-Decuir_D-Judge-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "cbf96170-c5d7-41ce-ba58-a208f6b0c00f": {
    "kind": "order",
    "layout": "order",
@@ -128701,6 +129613,30 @@
    "uploaded": "2026-09-30T16:49:50-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T02:39:28Z"
+  },
+  "cd5165d1-e786-434d-ac98-2d76bbd7d98a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 875.0,
+   "net": 743.75,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1647029",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1647029-Decuir_D_Judge-WEMXFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:10:56-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "cd537d2d-79e2-4a11-9967-929c2e05a593": {
    "kind": "other",
@@ -138057,6 +138993,30 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
   },
+  "db1d2b6e-637d-4986-bf98-e8500720a3be": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Caine/D/Justice of the Peace",
+   "order_no": "1648511",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1648511-Caine_D_Justice of the Peace-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:58-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "db1dfa80-e837-4408-93d7-04642bab55a1": {
    "kind": "request",
    "layout": "nab",
@@ -138122,6 +139082,30 @@
    "uploaded": "2026-10-29T15:02:54-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-29T20:06:56Z"
+  },
+  "db311a4d-f4dd-4b75-9ae0-cd1d0b6d1aef": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1410.0,
+   "net": 1198.5,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650325",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650325-Davis_D_Senate-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:14:55-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "db3ca622-2186-4ae6-b974-72f937ef253a": {
    "kind": "order",
@@ -145472,6 +146456,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
   },
+  "e7a3398c-52fb-47cc-86d3-e610c1384a9e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sabine/D/Judge",
+   "order_no": "1639047",
+   "invoice_no": null,
+   "flight": [
+    "09/23/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1639047-Sabine_D_Judge-WXOKAM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:01:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "e7b0621a-e480-487c-8540-f50fa922ea9d": {
    "kind": "order",
    "layout": "other",
@@ -148871,6 +149879,30 @@
    "uploaded": "2026-10-26T16:41:23-04:00",
    "name_kind": "order",
    "read_at": "2026-10-27T02:27:03Z"
+  },
+  "edd8e005-4fd5-4b4f-a0b9-f71776b0a666": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 618.0,
+   "net": 525.3,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1647010",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Local",
+   "name": "1647010-Decuir_D_Judge-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:20:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "edd9799c-e497-4b57-b5ee-a1cac03af6d1": {
    "kind": "order",
@@ -153924,6 +154956,30 @@
    "name_kind": "other",
    "read_at": "2026-10-23T16:15:32Z"
   },
+  "f5dd7d44-d95e-402c-97c9-1956dc1b2258": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Allen/D/Judge",
+   "order_no": "1648251",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WEMX",
+   "path": "Political Files/2026/Local",
+   "name": "1648251-Allen_D_Judge-WEMX-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:13:50-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
+  },
   "f5e6ea98-aac6-4ce2-a9cb-035fbedf1571": {
    "kind": "request",
    "layout": "nab",
@@ -155771,6 +156827,30 @@
    "uploaded": "2026-02-06T16:28:11-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:34:00Z"
+  },
+  "f8bfa22a-b870-4030-9a55-3e5c5b7b7e8a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 556.0,
+   "net": 472.6,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650331",
+   "invoice_no": null,
+   "flight": [
+    "10/25/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650331-Davis_D_Senate-WXOK-AM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:21:30-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T18:46:12Z"
   },
   "f8c1accf-aeab-4239-a6b6-304a7d1b08ac": {
    "kind": "order",
@@ -159750,6 +160830,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-13T03:44:01Z",
+ "updated": "2026-11-13T18:49:39Z",
  "blocked": null
 }

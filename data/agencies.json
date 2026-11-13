@@ -2,7 +2,7 @@
  "generated": "2026-11-13",
  "data_through": "2026-11-10",
  "cycle_from": 2023,
- "documents_read": 7326,
+ "documents_read": 7372,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1969,7 +1969,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 98,
+    "docs": 101,
     "priced": 48,
     "usd": 459568,
     "stations": [
@@ -1981,19 +1981,23 @@
      "KTVE",
      "WAFB",
      "WBRZ",
-     "WJBO"
+     "WJBO",
+     "WRNO",
+     "WWL",
+     "WYNK"
     ],
     "clients": [
      "Blake Miguez for Congress",
      "Blake Miguez/US House/LA/Rep",
      "Miguez for Louisiana",
      "Blake Miguez US Congress",
+     "Louisiana Housing Corporation",
      "Alan Seabaugh for Caddo Parish District Attorney",
      "Blake Miguez for Senate",
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-12",
+    "last": "2026-11-13",
     "away": {
      "docs": 126,
      "usd": 615078,
@@ -7299,6 +7303,182 @@
    }
   },
   {
+   "key": "OURSOBEYCHOK",
+   "name": "Ourso Beychok",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 30,
+    "priced": 26,
+    "usd": 50621,
+    "stations": [
+     "KQXL",
+     "WEMX",
+     "WXOK"
+    ],
+    "clients": [
+     "Moore/D/District Attorney",
+     "Decuir/D/Judge",
+     "Geaux Forward PAC"
+    ],
+    "first": "2026-07-09",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 11034460,
+    "media": 520984,
+    "rows": 1413,
+    "media_cycle": 0,
+    "cycle": 1438221,
+    "years": {
+     "2002": 18826,
+     "2003": 305589,
+     "2004": 49646,
+     "2005": 20732,
+     "2006": 26050,
+     "2007": 453556,
+     "2009": 85285,
+     "2010": 346313,
+     "2011": 700554,
+     "2012": 153009,
+     "2013": 13925,
+     "2014": 423667,
+     "2015": 1509069,
+     "2016": 397250,
+     "2017": 628796,
+     "2018": 557101,
+     "2019": 2153098,
+     "2020": 1046723,
+     "2021": 160411,
+     "2022": 546640,
+     "2023": 737526,
+     "2024": 235935,
+     "2025": 60290,
+     "2026": 404470
+    },
+    "committees": 153,
+    "top": [
+     {
+      "f": "3700",
+      "n": "Education Reform Now Advocacy",
+      "p": "OTH",
+      "usd": 2148279,
+      "cycle": 389330
+     },
+     {
+      "f": "4013",
+      "n": "Napoleon PAC",
+      "p": "OTH",
+      "usd": 711448,
+      "cycle": 316436
+     },
+     {
+      "f": "7250",
+      "n": "Defend and Protect Louisiana",
+      "p": "OTH",
+      "usd": 141650,
+      "cycle": 141650
+     },
+     {
+      "f": "194",
+      "n": "Sharon Weston Broome",
+      "p": "DEM",
+      "usd": 214454,
+      "cycle": 77925
+     },
+     {
+      "f": "6483",
+      "n": "Brittany Bryant Jorden",
+      "p": "DEM",
+      "usd": 70960,
+      "cycle": 70960
+     },
+     {
+      "f": "1287",
+      "n": "Hillar Moore",
+      "p": "DEM",
+      "usd": 72483,
+      "cycle": 56380
+     },
+     {
+      "f": "5369",
+      "n": "PEOPLE FOR A GREAT LOUISIANA",
+      "p": "OTH",
+      "usd": 138950,
+      "cycle": 46450
+     },
+     {
+      "f": "2226",
+      "n": "Edward Price",
+      "p": "DEM",
+      "usd": 227219,
+      "cycle": 44950
+     },
+     {
+      "f": "6114",
+      "n": "Bryan Jefferson",
+      "p": "DEM",
+      "usd": 43646,
+      "cycle": 43646
+     },
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 34200,
+      "cycle": 34200
+     },
+     {
+      "f": "2884",
+      "n": "Sam L. Jenkins, Jr.",
+      "p": "DEM",
+      "usd": 33973,
+      "cycle": 33973
+     },
+     {
+      "f": "6741",
+      "n": "Ed Murray",
+      "p": "DEM",
+      "usd": 33457,
+      "cycle": 33457
+     },
+     {
+      "f": "6796",
+      "n": "Chasity Verret Martinez",
+      "p": "DEM",
+      "usd": 33436,
+      "cycle": 33436
+     },
+     {
+      "f": "1528",
+      "n": "Jacques Roy",
+      "p": "DEM",
+      "usd": 125018,
+      "cycle": 26278
+     },
+     {
+      "f": "7508",
+      "n": "Geaux Forward PAC",
+      "p": "OTH",
+      "usd": 23892,
+      "cycle": 23892
+     }
+    ],
+    "spellings": [
+     "OURSO BEYCHOK",
+     "OURSO BEYCHOK INC.",
+     "OURSO BEYCHOK, INC.",
+     "OURSO BEYCHOK INC",
+     "OURSO BEYCHOK JOHNSON",
+     "OURSO BEYCHOK  INC."
+    ]
+   }
+  },
+  {
    "key": "ROUGAROUCONSULT",
    "name": "Rougarou Consulting",
    "found_by": "filings",
@@ -7465,6 +7645,38 @@
    }
   },
   {
+   "key": "MARKETINGBLITZAD",
+   "name": "Marketing Blitz Ad Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 20,
+    "priced": 10,
+    "usd": 39117,
+    "stations": [
+     "KMEZ",
+     "KNEK",
+     "KQXL",
+     "KRRQ",
+     "WEMX",
+     "WQUE",
+     "WXOK",
+     "WYLD"
+    ],
+    "clients": [
+     "Davis/D/Senate",
+     "Jaimie Davis for US Senate",
+     "Jamie Davis for US Senate"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "GUICHARDADVERTISINGPOL",
    "name": "Guichard Advertising / POL",
    "found_by": "political file",
@@ -7622,36 +7834,6 @@
     "spellings": [
      "MCS AD AGENCY"
     ]
-   }
-  },
-  {
-   "key": "MARKETINGBLITZAD",
-   "name": "Marketing Blitz Ad Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 15,
-    "priced": 6,
-    "usd": 35892,
-    "stations": [
-     "KMEZ",
-     "KNEK",
-     "KQXL",
-     "KRRQ",
-     "WQUE",
-     "WYLD"
-    ],
-    "clients": [
-     "Davis/D/Senate",
-     "Jaimie Davis for US Senate",
-     "Jamie Davis for US Senate"
-    ],
-    "first": "2026-10-23",
-    "last": "2026-11-12",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -7957,177 +8139,90 @@
    }
   },
   {
-   "key": "OURSOBEYCHOK",
-   "name": "Ourso Beychok",
+   "key": "FLEXPOINTMEDIA",
+   "name": "FlexPoint Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 13,
-    "priced": 12,
-    "usd": 33189,
+    "docs": 43,
+    "priced": 16,
+    "usd": 32940,
     "stations": [
-     "KQXL",
-     "WEMX"
+     "003478",
+     "KALB",
+     "KARD",
+     "KLAX",
+     "KLFY",
+     "KMSS",
+     "KNOE",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KXKS",
+     "WNOL",
+     "WNTZ"
     ],
     "clients": [
-     "Moore/D/District Attorney",
-     "Geaux Forward PAC",
-     "Decuir/D/Judge"
+     "Firment for Congress",
+     "Michael Gabriel Firment/Congres",
+     "Americans for Open Government",
+     "Strong ND Fund",
+     "AFC Victory Fund",
+     "Fimentfor Congress"
     ],
-    "first": "2026-07-09",
-    "last": "2026-11-12",
+    "first": "2026-02-24",
+    "last": "2026-11-13",
     "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
+     "docs": 55,
+     "usd": 3322946,
+     "clients": [
+      "Texas PAC",
+      "Californians For Voter",
+      "FRAPS gos ae Site Mandel by dave taller",
+      "SOriginal Date 7 Revision",
+      "Firaiteds Sy fNameSure handel by doyeetille",
+      "FlowPont Meds Lae Sure hounded byd Joyeetillerr"
+     ]
     }
    },
    "paid": {
-    "total": 11034460,
-    "media": 520984,
-    "rows": 1413,
+    "total": 7756209,
+    "media": 3388477,
+    "rows": 39,
     "media_cycle": 0,
-    "cycle": 1438221,
+    "cycle": 0,
     "years": {
-     "2002": 18826,
-     "2003": 305589,
-     "2004": 49646,
-     "2005": 20732,
-     "2006": 26050,
-     "2007": 453556,
-     "2009": 85285,
-     "2010": 346313,
-     "2011": 700554,
-     "2012": 153009,
-     "2013": 13925,
-     "2014": 423667,
-     "2015": 1509069,
-     "2016": 397250,
-     "2017": 628796,
-     "2018": 557101,
-     "2019": 2153098,
-     "2020": 1046723,
-     "2021": 160411,
-     "2022": 546640,
-     "2023": 737526,
-     "2024": 235935,
-     "2025": 60290,
-     "2026": 404470
+     "2019": 7756209
     },
-    "committees": 153,
+    "committees": 3,
     "top": [
      {
-      "f": "3700",
-      "n": "Education Reform Now Advocacy",
+      "f": "4383",
+      "n": "Edward L. Rispone",
+      "p": "REP",
+      "usd": 7640459,
+      "cycle": 0
+     },
+     {
+      "f": "4927",
+      "n": "Republican State Leadership Committee - Louisiana",
       "p": "OTH",
-      "usd": 2148279,
-      "cycle": 389330
+      "usd": 97012,
+      "cycle": 0
      },
      {
-      "f": "4013",
-      "n": "Napoleon PAC",
-      "p": "OTH",
-      "usd": 711448,
-      "cycle": 316436
-     },
-     {
-      "f": "7250",
-      "n": "Defend and Protect Louisiana",
-      "p": "OTH",
-      "usd": 141650,
-      "cycle": 141650
-     },
-     {
-      "f": "194",
-      "n": "Sharon Weston Broome",
-      "p": "DEM",
-      "usd": 214454,
-      "cycle": 77925
-     },
-     {
-      "f": "6483",
-      "n": "Brittany Bryant Jorden",
-      "p": "DEM",
-      "usd": 70960,
-      "cycle": 70960
-     },
-     {
-      "f": "1287",
-      "n": "Hillar Moore",
-      "p": "DEM",
-      "usd": 72483,
-      "cycle": 56380
-     },
-     {
-      "f": "5369",
-      "n": "PEOPLE FOR A GREAT LOUISIANA",
-      "p": "OTH",
-      "usd": 138950,
-      "cycle": 46450
-     },
-     {
-      "f": "2226",
-      "n": "Edward Price",
-      "p": "DEM",
-      "usd": 227219,
-      "cycle": 44950
-     },
-     {
-      "f": "6114",
-      "n": "Bryan Jefferson",
-      "p": "DEM",
-      "usd": 43646,
-      "cycle": 43646
-     },
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 34200,
-      "cycle": 34200
-     },
-     {
-      "f": "2884",
-      "n": "Sam L. Jenkins, Jr.",
-      "p": "DEM",
-      "usd": 33973,
-      "cycle": 33973
-     },
-     {
-      "f": "6741",
-      "n": "Ed Murray",
-      "p": "DEM",
-      "usd": 33457,
-      "cycle": 33457
-     },
-     {
-      "f": "6796",
-      "n": "Chasity Verret Martinez",
-      "p": "DEM",
-      "usd": 33436,
-      "cycle": 33436
-     },
-     {
-      "f": "1528",
-      "n": "Jacques Roy",
-      "p": "DEM",
-      "usd": 125018,
-      "cycle": 26278
-     },
-     {
-      "f": "7508",
-      "n": "Geaux Forward PAC",
-      "p": "OTH",
-      "usd": 23892,
-      "cycle": 23892
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 18739,
+      "cycle": 0
      }
     ],
     "spellings": [
-     "OURSO BEYCHOK",
-     "OURSO BEYCHOK INC.",
-     "OURSO BEYCHOK, INC.",
-     "OURSO BEYCHOK INC",
-     "OURSO BEYCHOK JOHNSON",
-     "OURSO BEYCHOK  INC."
+     "FLEXPOINT MEDIA INC",
+     "FLEXPOINT MEDIA INC."
     ]
    }
   },
@@ -8136,9 +8231,9 @@
    "name": "Quest Communication Consultants",
    "found_by": "political file",
    "fcc": {
-    "docs": 25,
-    "priced": 25,
-    "usd": 30625,
+    "docs": 27,
+    "priced": 27,
+    "usd": 31225,
     "stations": [
      "KARD",
      "KNOE",
@@ -8156,7 +8251,7 @@
      "Jim Clovin/District Attorney/LA/Independent"
     ],
     "first": "2026-07-29",
-    "last": "2026-10-29",
+    "last": "2026-11-13",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -8655,94 +8750,6 @@
    }
   },
   {
-   "key": "FLEXPOINTMEDIA",
-   "name": "FlexPoint Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 41,
-    "priced": 14,
-    "usd": 24215,
-    "stations": [
-     "003478",
-     "KALB",
-     "KARD",
-     "KLAX",
-     "KLFY",
-     "KMSS",
-     "KNOE",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "KXKS",
-     "WNOL",
-     "WNTZ"
-    ],
-    "clients": [
-     "Firment for Congress",
-     "Michael Gabriel Firment/Congres",
-     "Americans for Open Government",
-     "Strong ND Fund",
-     "AFC Victory Fund",
-     "Fimentfor Congress"
-    ],
-    "first": "2026-02-24",
-    "last": "2026-11-11",
-    "away": {
-     "docs": 55,
-     "usd": 3322946,
-     "clients": [
-      "Texas PAC",
-      "Californians For Voter",
-      "FRAPS gos ae Site Mandel by dave taller",
-      "SOriginal Date 7 Revision",
-      "Firaiteds Sy fNameSure handel by doyeetille",
-      "FlowPont Meds Lae Sure hounded byd Joyeetillerr"
-     ]
-    }
-   },
-   "paid": {
-    "total": 7756209,
-    "media": 3388477,
-    "rows": 39,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 7756209
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "4383",
-      "n": "Edward L. Rispone",
-      "p": "REP",
-      "usd": 7640459,
-      "cycle": 0
-     },
-     {
-      "f": "4927",
-      "n": "Republican State Leadership Committee - Louisiana",
-      "p": "OTH",
-      "usd": 97012,
-      "cycle": 0
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 18739,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FLEXPOINT MEDIA INC",
-     "FLEXPOINT MEDIA INC."
-    ]
-   }
-  },
-  {
    "key": "BROWNPUBLICRELATIONSPOL",
    "name": "Brown Public Relations LLC / POL",
    "found_by": "political file",
@@ -8945,6 +8952,161 @@
      "usd": 0,
      "clients": []
     }
+   }
+  },
+  {
+   "key": "CAPTURECONNECTMEDIA",
+   "name": "Capture Connect Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 9,
+    "priced": 6,
+    "usd": 10572,
+    "stations": [
+     "KQXL",
+     "WEMX",
+     "WXOK"
+    ],
+    "clients": [
+     "Justice PAC"
+    ],
+    "first": "2026-11-11",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 849402,
+    "media": 9411,
+    "rows": 170,
+    "media_cycle": 9411,
+    "cycle": 340033,
+    "years": {
+     "2017": 10415,
+     "2019": 6038,
+     "2020": 135381,
+     "2021": 201326,
+     "2022": 156209,
+     "2023": 101208,
+     "2024": 34327,
+     "2025": 115636,
+     "2026": 88863
+    },
+    "committees": 46,
+    "top": [
+     {
+      "f": "5511",
+      "n": "Oliver Thomas",
+      "p": "DEM",
+      "usd": 181289,
+      "cycle": 68166
+     },
+     {
+      "f": "6851",
+      "n": "Kenneth Barnes",
+      "p": "OTH",
+      "usd": 53456,
+      "cycle": 53456
+     },
+     {
+      "f": "5470",
+      "n": "Freddie King III",
+      "p": "DEM",
+      "usd": 30720,
+      "cycle": 30720
+     },
+     {
+      "f": "5753",
+      "n": "NoLaToya",
+      "p": "OTH",
+      "usd": 27182,
+      "cycle": 27182
+     },
+     {
+      "f": "6517",
+      "n": "NOLA First Political Action Committee",
+      "p": "OTH",
+      "usd": 25165,
+      "cycle": 25165
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 26021,
+      "cycle": 22750
+     },
+     {
+      "f": "5111",
+      "n": "Marissa Hutabarat",
+      "p": "DEM",
+      "usd": 61842,
+      "cycle": 21100
+     },
+     {
+      "f": "5854",
+      "n": "Leon Roche",
+      "p": "DEM",
+      "usd": 16500,
+      "cycle": 16500
+     },
+     {
+      "f": "6848",
+      "n": "Kenya Rounds",
+      "p": "DEM",
+      "usd": 11782,
+      "cycle": 11782
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 18257,
+      "cycle": 10500
+     },
+     {
+      "f": "5114",
+      "n": "Diedre Pierce Kelly",
+      "p": "DEM",
+      "usd": 10900,
+      "cycle": 8900
+     },
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 7125,
+      "cycle": 7125
+     },
+     {
+      "f": "6062",
+      "n": "Andrea Manuel",
+      "p": "DEM",
+      "usd": 6200,
+      "cycle": 6200
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 9856,
+      "cycle": 6000
+     },
+     {
+      "f": "6192",
+      "n": "Sharon Latten Clark",
+      "p": "OTH",
+      "usd": 6000,
+      "cycle": 6000
+     }
+    ],
+    "spellings": [
+     "CAPTURE CONNECT MEDIA",
+     "CAPTURE CONNECT"
+    ]
    }
   },
   {
@@ -9647,161 +9809,6 @@
      "WQUE-FM",
      "WQUE FM",
      "WQUE- FM"
-    ]
-   }
-  },
-  {
-   "key": "CAPTURECONNECTMEDIA",
-   "name": "Capture Connect Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 4,
-    "usd": 6045,
-    "stations": [
-     "KQXL",
-     "WEMX",
-     "WXOK"
-    ],
-    "clients": [
-     "Justice PAC"
-    ],
-    "first": "2026-11-11",
-    "last": "2026-11-12",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 849402,
-    "media": 9411,
-    "rows": 170,
-    "media_cycle": 9411,
-    "cycle": 340033,
-    "years": {
-     "2017": 10415,
-     "2019": 6038,
-     "2020": 135381,
-     "2021": 201326,
-     "2022": 156209,
-     "2023": 101208,
-     "2024": 34327,
-     "2025": 115636,
-     "2026": 88863
-    },
-    "committees": 46,
-    "top": [
-     {
-      "f": "5511",
-      "n": "Oliver Thomas",
-      "p": "DEM",
-      "usd": 181289,
-      "cycle": 68166
-     },
-     {
-      "f": "6851",
-      "n": "Kenneth Barnes",
-      "p": "OTH",
-      "usd": 53456,
-      "cycle": 53456
-     },
-     {
-      "f": "5470",
-      "n": "Freddie King III",
-      "p": "DEM",
-      "usd": 30720,
-      "cycle": 30720
-     },
-     {
-      "f": "5753",
-      "n": "NoLaToya",
-      "p": "OTH",
-      "usd": 27182,
-      "cycle": 27182
-     },
-     {
-      "f": "6517",
-      "n": "NOLA First Political Action Committee",
-      "p": "OTH",
-      "usd": 25165,
-      "cycle": 25165
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 26021,
-      "cycle": 22750
-     },
-     {
-      "f": "5111",
-      "n": "Marissa Hutabarat",
-      "p": "DEM",
-      "usd": 61842,
-      "cycle": 21100
-     },
-     {
-      "f": "5854",
-      "n": "Leon Roche",
-      "p": "DEM",
-      "usd": 16500,
-      "cycle": 16500
-     },
-     {
-      "f": "6848",
-      "n": "Kenya Rounds",
-      "p": "DEM",
-      "usd": 11782,
-      "cycle": 11782
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 18257,
-      "cycle": 10500
-     },
-     {
-      "f": "5114",
-      "n": "Diedre Pierce Kelly",
-      "p": "DEM",
-      "usd": 10900,
-      "cycle": 8900
-     },
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 7125,
-      "cycle": 7125
-     },
-     {
-      "f": "6062",
-      "n": "Andrea Manuel",
-      "p": "DEM",
-      "usd": 6200,
-      "cycle": 6200
-     },
-     {
-      "f": "2603",
-      "n": "Darren Lombard",
-      "p": "DEM",
-      "usd": 9856,
-      "cycle": 6000
-     },
-     {
-      "f": "6192",
-      "n": "Sharon Latten Clark",
-      "p": "OTH",
-      "usd": 6000,
-      "cycle": 6000
-     }
-    ],
-    "spellings": [
-     "CAPTURE CONNECT MEDIA",
-     "CAPTURE CONNECT"
     ]
    }
   },
@@ -11227,6 +11234,32 @@
    }
   },
   {
+   "key": "STEPWONMARKETING",
+   "name": "StepWon Marketing",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 2,
+    "usd": 5530,
+    "stations": [
+     "KBTT",
+     "KDKS",
+     "KQXL",
+     "WEMX"
+    ],
+    "clients": [
+     "Black Voters Matter Capacity Building Institute"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "WYLDFM",
    "name": "Wyld-Fm",
    "found_by": "filings",
@@ -11367,32 +11400,6 @@
      "WYLD- FM",
      "WYLD - FM"
     ]
-   }
-  },
-  {
-   "key": "STEPWONMARKETING",
-   "name": "StepWon Marketing",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 2,
-    "usd": 4980,
-    "stations": [
-     "KBTT",
-     "KDKS",
-     "KQXL",
-     "WEMX"
-    ],
-    "clients": [
-     "Black Voters Matter Capacity Building Institute"
-    ],
-    "first": "2026-10-15",
-    "last": "2026-11-12",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
