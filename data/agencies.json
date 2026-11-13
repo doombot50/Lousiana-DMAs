@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "data_through": "2026-11-10",
  "cycle_from": 2023,
- "documents_read": 7248,
+ "documents_read": 7326,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -200,9 +200,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 276,
+    "docs": 277,
     "priced": 232,
-    "usd": 4018420,
+    "usd": 4019210,
     "stations": [
      "KADN",
      "KARD",
@@ -238,7 +238,7 @@
      "Accountabiilty Project"
     ],
     "first": "2026-01-20",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 228,
-    "priced": 142,
-    "usd": 1571749,
+    "docs": 230,
+    "priced": 143,
+    "usd": 1575574,
     "stations": [
      "005341",
      "008048",
@@ -884,7 +884,7 @@
      "Steve Scalise/Congress/LA/Rep"
     ],
     "first": "2026-03-09",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1034,9 +1034,9 @@
    "name": "Smart Media Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 76,
+    "docs": 77,
     "priced": 41,
-    "usd": 387934,
+    "usd": 388004,
     "stations": [
      "003478",
      "004321",
@@ -1069,7 +1069,7 @@
      "John E Atkins Campalgn"
     ],
     "first": "2026-02-17",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
      "docs": 26,
      "usd": 99935,
@@ -1363,9 +1363,9 @@
    "name": "Canal Partners Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 111,
+    "docs": 115,
     "priced": 58,
-    "usd": 751244,
+    "usd": 751894,
     "stations": [
      "002460",
      "KADN",
@@ -1395,7 +1395,7 @@
      "JUSTICE PAC"
     ],
     "first": "2026-10-02",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -1993,10 +1993,10 @@
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
-     "docs": 123,
-     "usd": 614643,
+     "docs": 126,
+     "usd": 615078,
      "clients": [
       "Texans for Dan Patrick/Lt Governor/Rep",
       "Josh Bray/State Senate Dist1/TX/Rep Invoice",
@@ -5361,10 +5361,11 @@
    "name": "Mentzer Media Services",
    "found_by": "political file",
    "fcc": {
-    "docs": 42,
+    "docs": 43,
     "priced": 7,
     "usd": 118330,
     "stations": [
+     "002460",
      "004289",
      "008048",
      "KTAL",
@@ -5380,7 +5381,7 @@
      "Ashley Moody Victory Committee"
     ],
     "first": "2026-04-02",
-    "last": "2026-10-20",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -5912,6 +5913,44 @@
    }
   },
   {
+   "key": "KATZMEDIA",
+   "name": "KATZ MEDIA GROUP",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 43,
+    "priced": 37,
+    "usd": 90810,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KROF",
+     "WBRP",
+     "WDGL",
+     "WNXX",
+     "WTGE",
+     "WWL"
+    ],
+    "clients": [
+     "Bill Cassidy for US Senate",
+     "Electronic Payments Coalition",
+     "Blake Miguez for congress",
+     "Accountability Project, Inc",
+     "Club For Growth Action",
+     "m Louisiana Freedom Fund",
+     "John E Atkins Campaign",
+     "m Cajun PAC II",
+     "First Principles PAC"
+    ],
+    "first": "2026-01-30",
+    "last": "2026-11-10",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "CHANNELONEDIGITAL",
    "name": "Channel One Digital",
    "found_by": "filings",
@@ -6331,44 +6370,6 @@
      "WIN PARTNERS  LLC",
      "WIN PARTNERS, LLC"
     ]
-   }
-  },
-  {
-   "key": "KATZMEDIA",
-   "name": "KATZ MEDIA GROUP",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 35,
-    "priced": 31,
-    "usd": 75535,
-    "stations": [
-     "KDKS",
-     "KEEL",
-     "KROF",
-     "WBRP",
-     "WDGL",
-     "WNXX",
-     "WTGE",
-     "WWL"
-    ],
-    "clients": [
-     "Bill Cassidy for US Senate",
-     "Accountability Project, Inc",
-     "Electronic Payments Coalition",
-     "m Louisiana Freedom Fund",
-     "John E Atkins Campaign",
-     "Blake Miguez for congress",
-     "Club For Growth Action",
-     "m Cajun PAC II",
-     "First Principles PAC"
-    ],
-    "first": "2026-01-30",
-    "last": "2026-10-09",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -7494,9 +7495,9 @@
    "name": "MCS Ad Agency - Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 10,
+    "docs": 13,
     "priced": 8,
-    "usd": 2385,
+    "usd": 2540,
     "stations": [
      "KMSS",
      "KTAL"
@@ -7509,7 +7510,7 @@
      "Chaunta Mero/Mayor of Shreveport/LA/Dem"
     ],
     "first": "2026-05-05",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7621,6 +7622,36 @@
     "spellings": [
      "MCS AD AGENCY"
     ]
+   }
+  },
+  {
+   "key": "MARKETINGBLITZAD",
+   "name": "Marketing Blitz Ad Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 15,
+    "priced": 6,
+    "usd": 35892,
+    "stations": [
+     "KMEZ",
+     "KNEK",
+     "KQXL",
+     "KRRQ",
+     "WQUE",
+     "WYLD"
+    ],
+    "clients": [
+     "Davis/D/Senate",
+     "Jaimie Davis for US Senate",
+     "Jamie Davis for US Senate"
+    ],
+    "first": "2026-10-23",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -7926,6 +7957,181 @@
    }
   },
   {
+   "key": "OURSOBEYCHOK",
+   "name": "Ourso Beychok",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 13,
+    "priced": 12,
+    "usd": 33189,
+    "stations": [
+     "KQXL",
+     "WEMX"
+    ],
+    "clients": [
+     "Moore/D/District Attorney",
+     "Geaux Forward PAC",
+     "Decuir/D/Judge"
+    ],
+    "first": "2026-07-09",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 11034460,
+    "media": 520984,
+    "rows": 1413,
+    "media_cycle": 0,
+    "cycle": 1438221,
+    "years": {
+     "2002": 18826,
+     "2003": 305589,
+     "2004": 49646,
+     "2005": 20732,
+     "2006": 26050,
+     "2007": 453556,
+     "2009": 85285,
+     "2010": 346313,
+     "2011": 700554,
+     "2012": 153009,
+     "2013": 13925,
+     "2014": 423667,
+     "2015": 1509069,
+     "2016": 397250,
+     "2017": 628796,
+     "2018": 557101,
+     "2019": 2153098,
+     "2020": 1046723,
+     "2021": 160411,
+     "2022": 546640,
+     "2023": 737526,
+     "2024": 235935,
+     "2025": 60290,
+     "2026": 404470
+    },
+    "committees": 153,
+    "top": [
+     {
+      "f": "3700",
+      "n": "Education Reform Now Advocacy",
+      "p": "OTH",
+      "usd": 2148279,
+      "cycle": 389330
+     },
+     {
+      "f": "4013",
+      "n": "Napoleon PAC",
+      "p": "OTH",
+      "usd": 711448,
+      "cycle": 316436
+     },
+     {
+      "f": "7250",
+      "n": "Defend and Protect Louisiana",
+      "p": "OTH",
+      "usd": 141650,
+      "cycle": 141650
+     },
+     {
+      "f": "194",
+      "n": "Sharon Weston Broome",
+      "p": "DEM",
+      "usd": 214454,
+      "cycle": 77925
+     },
+     {
+      "f": "6483",
+      "n": "Brittany Bryant Jorden",
+      "p": "DEM",
+      "usd": 70960,
+      "cycle": 70960
+     },
+     {
+      "f": "1287",
+      "n": "Hillar Moore",
+      "p": "DEM",
+      "usd": 72483,
+      "cycle": 56380
+     },
+     {
+      "f": "5369",
+      "n": "PEOPLE FOR A GREAT LOUISIANA",
+      "p": "OTH",
+      "usd": 138950,
+      "cycle": 46450
+     },
+     {
+      "f": "2226",
+      "n": "Edward Price",
+      "p": "DEM",
+      "usd": 227219,
+      "cycle": 44950
+     },
+     {
+      "f": "6114",
+      "n": "Bryan Jefferson",
+      "p": "DEM",
+      "usd": 43646,
+      "cycle": 43646
+     },
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 34200,
+      "cycle": 34200
+     },
+     {
+      "f": "2884",
+      "n": "Sam L. Jenkins, Jr.",
+      "p": "DEM",
+      "usd": 33973,
+      "cycle": 33973
+     },
+     {
+      "f": "6741",
+      "n": "Ed Murray",
+      "p": "DEM",
+      "usd": 33457,
+      "cycle": 33457
+     },
+     {
+      "f": "6796",
+      "n": "Chasity Verret Martinez",
+      "p": "DEM",
+      "usd": 33436,
+      "cycle": 33436
+     },
+     {
+      "f": "1528",
+      "n": "Jacques Roy",
+      "p": "DEM",
+      "usd": 125018,
+      "cycle": 26278
+     },
+     {
+      "f": "7508",
+      "n": "Geaux Forward PAC",
+      "p": "OTH",
+      "usd": 23892,
+      "cycle": 23892
+     }
+    ],
+    "spellings": [
+     "OURSO BEYCHOK",
+     "OURSO BEYCHOK INC.",
+     "OURSO BEYCHOK, INC.",
+     "OURSO BEYCHOK INC",
+     "OURSO BEYCHOK JOHNSON",
+     "OURSO BEYCHOK  INC."
+    ]
+   }
+  },
+  {
    "key": "QUESTCOMMUNICATIONCONSULT",
    "name": "Quest Communication Consultants",
    "found_by": "political file",
@@ -8081,34 +8287,6 @@
     "spellings": [
      "LITTLEFIELD & ASSOCIATES CONSULTING"
     ]
-   }
-  },
-  {
-   "key": "MARKETINGBLITZAD",
-   "name": "Marketing Blitz Ad Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 9,
-    "priced": 3,
-    "usd": 27445,
-    "stations": [
-     "KNEK",
-     "KRRQ",
-     "WQUE",
-     "WYLD"
-    ],
-    "clients": [
-     "Jaimie Davis for US Senate",
-     "Davis/D/Senate",
-     "Jamie Davis for US Senate"
-    ],
-    "first": "2026-10-23",
-    "last": "2026-11-02",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -9473,6 +9651,161 @@
    }
   },
   {
+   "key": "CAPTURECONNECTMEDIA",
+   "name": "Capture Connect Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 4,
+    "usd": 6045,
+    "stations": [
+     "KQXL",
+     "WEMX",
+     "WXOK"
+    ],
+    "clients": [
+     "Justice PAC"
+    ],
+    "first": "2026-11-11",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 849402,
+    "media": 9411,
+    "rows": 170,
+    "media_cycle": 9411,
+    "cycle": 340033,
+    "years": {
+     "2017": 10415,
+     "2019": 6038,
+     "2020": 135381,
+     "2021": 201326,
+     "2022": 156209,
+     "2023": 101208,
+     "2024": 34327,
+     "2025": 115636,
+     "2026": 88863
+    },
+    "committees": 46,
+    "top": [
+     {
+      "f": "5511",
+      "n": "Oliver Thomas",
+      "p": "DEM",
+      "usd": 181289,
+      "cycle": 68166
+     },
+     {
+      "f": "6851",
+      "n": "Kenneth Barnes",
+      "p": "OTH",
+      "usd": 53456,
+      "cycle": 53456
+     },
+     {
+      "f": "5470",
+      "n": "Freddie King III",
+      "p": "DEM",
+      "usd": 30720,
+      "cycle": 30720
+     },
+     {
+      "f": "5753",
+      "n": "NoLaToya",
+      "p": "OTH",
+      "usd": 27182,
+      "cycle": 27182
+     },
+     {
+      "f": "6517",
+      "n": "NOLA First Political Action Committee",
+      "p": "OTH",
+      "usd": 25165,
+      "cycle": 25165
+     },
+     {
+      "f": "3748",
+      "n": "Jason Hughes",
+      "p": "DEM",
+      "usd": 26021,
+      "cycle": 22750
+     },
+     {
+      "f": "5111",
+      "n": "Marissa Hutabarat",
+      "p": "DEM",
+      "usd": 61842,
+      "cycle": 21100
+     },
+     {
+      "f": "5854",
+      "n": "Leon Roche",
+      "p": "DEM",
+      "usd": 16500,
+      "cycle": 16500
+     },
+     {
+      "f": "6848",
+      "n": "Kenya Rounds",
+      "p": "DEM",
+      "usd": 11782,
+      "cycle": 11782
+     },
+     {
+      "f": "4183",
+      "n": "Royce Duplessis",
+      "p": "DEM",
+      "usd": 18257,
+      "cycle": 10500
+     },
+     {
+      "f": "5114",
+      "n": "Diedre Pierce Kelly",
+      "p": "DEM",
+      "usd": 10900,
+      "cycle": 8900
+     },
+     {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 7125,
+      "cycle": 7125
+     },
+     {
+      "f": "6062",
+      "n": "Andrea Manuel",
+      "p": "DEM",
+      "usd": 6200,
+      "cycle": 6200
+     },
+     {
+      "f": "2603",
+      "n": "Darren Lombard",
+      "p": "DEM",
+      "usd": 9856,
+      "cycle": 6000
+     },
+     {
+      "f": "6192",
+      "n": "Sharon Latten Clark",
+      "p": "OTH",
+      "usd": 6000,
+      "cycle": 6000
+     }
+    ],
+    "spellings": [
+     "CAPTURE CONNECT MEDIA",
+     "CAPTURE CONNECT"
+    ]
+   }
+  },
+  {
    "key": "ANGIESANDERSAD",
    "name": "Angie Sanders Ad Group",
    "found_by": "political file",
@@ -9545,180 +9878,6 @@
      "ANGIE SANDERS AD GROUP",
      "ANGIE SANDERS",
      "ANGIE SANDERS AD GROUP LLC"
-    ]
-   }
-  },
-  {
-   "key": "OURSOBEYCHOK",
-   "name": "Ourso Beychok",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 5,
-    "usd": 13260,
-    "stations": [
-     "KQXL",
-     "WEMX"
-    ],
-    "clients": [
-     "Geaux Forward PAC",
-     "Decuir/D/Judge"
-    ],
-    "first": "2026-07-09",
-    "last": "2026-10-07",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 11034460,
-    "media": 520984,
-    "rows": 1413,
-    "media_cycle": 0,
-    "cycle": 1438221,
-    "years": {
-     "2002": 18826,
-     "2003": 305589,
-     "2004": 49646,
-     "2005": 20732,
-     "2006": 26050,
-     "2007": 453556,
-     "2009": 85285,
-     "2010": 346313,
-     "2011": 700554,
-     "2012": 153009,
-     "2013": 13925,
-     "2014": 423667,
-     "2015": 1509069,
-     "2016": 397250,
-     "2017": 628796,
-     "2018": 557101,
-     "2019": 2153098,
-     "2020": 1046723,
-     "2021": 160411,
-     "2022": 546640,
-     "2023": 737526,
-     "2024": 235935,
-     "2025": 60290,
-     "2026": 404470
-    },
-    "committees": 153,
-    "top": [
-     {
-      "f": "3700",
-      "n": "Education Reform Now Advocacy",
-      "p": "OTH",
-      "usd": 2148279,
-      "cycle": 389330
-     },
-     {
-      "f": "4013",
-      "n": "Napoleon PAC",
-      "p": "OTH",
-      "usd": 711448,
-      "cycle": 316436
-     },
-     {
-      "f": "7250",
-      "n": "Defend and Protect Louisiana",
-      "p": "OTH",
-      "usd": 141650,
-      "cycle": 141650
-     },
-     {
-      "f": "194",
-      "n": "Sharon Weston Broome",
-      "p": "DEM",
-      "usd": 214454,
-      "cycle": 77925
-     },
-     {
-      "f": "6483",
-      "n": "Brittany Bryant Jorden",
-      "p": "DEM",
-      "usd": 70960,
-      "cycle": 70960
-     },
-     {
-      "f": "1287",
-      "n": "Hillar Moore",
-      "p": "DEM",
-      "usd": 72483,
-      "cycle": 56380
-     },
-     {
-      "f": "5369",
-      "n": "PEOPLE FOR A GREAT LOUISIANA",
-      "p": "OTH",
-      "usd": 138950,
-      "cycle": 46450
-     },
-     {
-      "f": "2226",
-      "n": "Edward Price",
-      "p": "DEM",
-      "usd": 227219,
-      "cycle": 44950
-     },
-     {
-      "f": "6114",
-      "n": "Bryan Jefferson",
-      "p": "DEM",
-      "usd": 43646,
-      "cycle": 43646
-     },
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 34200,
-      "cycle": 34200
-     },
-     {
-      "f": "2884",
-      "n": "Sam L. Jenkins, Jr.",
-      "p": "DEM",
-      "usd": 33973,
-      "cycle": 33973
-     },
-     {
-      "f": "6741",
-      "n": "Ed Murray",
-      "p": "DEM",
-      "usd": 33457,
-      "cycle": 33457
-     },
-     {
-      "f": "6796",
-      "n": "Chasity Verret Martinez",
-      "p": "DEM",
-      "usd": 33436,
-      "cycle": 33436
-     },
-     {
-      "f": "1528",
-      "n": "Jacques Roy",
-      "p": "DEM",
-      "usd": 125018,
-      "cycle": 26278
-     },
-     {
-      "f": "7508",
-      "n": "Geaux Forward PAC",
-      "p": "OTH",
-      "usd": 23892,
-      "cycle": 23892
-     }
-    ],
-    "spellings": [
-     "OURSO BEYCHOK",
-     "OURSO BEYCHOK INC.",
-     "OURSO BEYCHOK, INC.",
-     "OURSO BEYCHOK INC",
-     "OURSO BEYCHOK JOHNSON",
-     "OURSO BEYCHOK  INC."
     ]
    }
   },
@@ -10081,160 +10240,6 @@
    }
   },
   {
-   "key": "CAPTURECONNECTMEDIA",
-   "name": "Capture Connect Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 2,
-    "usd": 1355,
-    "stations": [
-     "WEMX",
-     "WXOK"
-    ],
-    "clients": [
-     "Justice PAC"
-    ],
-    "first": "2026-11-11",
-    "last": "2026-11-11",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 849402,
-    "media": 9411,
-    "rows": 170,
-    "media_cycle": 9411,
-    "cycle": 340033,
-    "years": {
-     "2017": 10415,
-     "2019": 6038,
-     "2020": 135381,
-     "2021": 201326,
-     "2022": 156209,
-     "2023": 101208,
-     "2024": 34327,
-     "2025": 115636,
-     "2026": 88863
-    },
-    "committees": 46,
-    "top": [
-     {
-      "f": "5511",
-      "n": "Oliver Thomas",
-      "p": "DEM",
-      "usd": 181289,
-      "cycle": 68166
-     },
-     {
-      "f": "6851",
-      "n": "Kenneth Barnes",
-      "p": "OTH",
-      "usd": 53456,
-      "cycle": 53456
-     },
-     {
-      "f": "5470",
-      "n": "Freddie King III",
-      "p": "DEM",
-      "usd": 30720,
-      "cycle": 30720
-     },
-     {
-      "f": "5753",
-      "n": "NoLaToya",
-      "p": "OTH",
-      "usd": 27182,
-      "cycle": 27182
-     },
-     {
-      "f": "6517",
-      "n": "NOLA First Political Action Committee",
-      "p": "OTH",
-      "usd": 25165,
-      "cycle": 25165
-     },
-     {
-      "f": "3748",
-      "n": "Jason Hughes",
-      "p": "DEM",
-      "usd": 26021,
-      "cycle": 22750
-     },
-     {
-      "f": "5111",
-      "n": "Marissa Hutabarat",
-      "p": "DEM",
-      "usd": 61842,
-      "cycle": 21100
-     },
-     {
-      "f": "5854",
-      "n": "Leon Roche",
-      "p": "DEM",
-      "usd": 16500,
-      "cycle": 16500
-     },
-     {
-      "f": "6848",
-      "n": "Kenya Rounds",
-      "p": "DEM",
-      "usd": 11782,
-      "cycle": 11782
-     },
-     {
-      "f": "4183",
-      "n": "Royce Duplessis",
-      "p": "DEM",
-      "usd": 18257,
-      "cycle": 10500
-     },
-     {
-      "f": "5114",
-      "n": "Diedre Pierce Kelly",
-      "p": "DEM",
-      "usd": 10900,
-      "cycle": 8900
-     },
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 7125,
-      "cycle": 7125
-     },
-     {
-      "f": "6062",
-      "n": "Andrea Manuel",
-      "p": "DEM",
-      "usd": 6200,
-      "cycle": 6200
-     },
-     {
-      "f": "2603",
-      "n": "Darren Lombard",
-      "p": "DEM",
-      "usd": 9856,
-      "cycle": 6000
-     },
-     {
-      "f": "6192",
-      "n": "Sharon Latten Clark",
-      "p": "OTH",
-      "usd": 6000,
-      "cycle": 6000
-     }
-    ],
-    "spellings": [
-     "CAPTURE CONNECT MEDIA",
-     "CAPTURE CONNECT"
-    ]
-   }
-  },
-  {
    "key": "MEDIACONSULT",
    "name": "Media Consultants",
    "found_by": "political file",
@@ -10455,6 +10460,180 @@
     ],
     "spellings": [
      "TARGETED PLATFORM MEDIA, LLC"
+    ]
+   }
+  },
+  {
+   "key": "ENTERPRISESTRATEGIES",
+   "name": "Enterprise Strategies",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 2,
+    "usd": 8190,
+    "stations": [
+     "KMEZ",
+     "WYLD"
+    ],
+    "clients": [
+     "Buras/D/Judge",
+     "Camille Buras for Criminal Dis"
+    ],
+    "first": "2026-10-28",
+    "last": "2026-11-11",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 966303,
+    "media": 30330,
+    "rows": 350,
+    "media_cycle": 0,
+    "cycle": 42161,
+    "years": {
+     "2001": 7452,
+     "2002": 29922,
+     "2003": 121102,
+     "2004": 4000,
+     "2006": 1500,
+     "2007": 8995,
+     "2009": 5682,
+     "2010": 147919,
+     "2011": 81584,
+     "2012": 39649,
+     "2013": 13332,
+     "2014": 70414,
+     "2015": 33406,
+     "2016": 12733,
+     "2017": 55513,
+     "2018": 48889,
+     "2019": 168918,
+     "2020": 36803,
+     "2021": 21493,
+     "2022": 14836,
+     "2023": 3668,
+     "2024": 1094,
+     "2025": 27844,
+     "2026": 9554
+    },
+    "committees": 77,
+    "top": [
+     {
+      "f": "793",
+      "n": "La Independent Federation of Electors",
+      "p": "OTH",
+      "usd": 133064,
+      "cycle": 12736
+     },
+     {
+      "f": "1315",
+      "n": "Arthur L. Hunter",
+      "p": "DEM",
+      "usd": 30217,
+      "cycle": 9000
+     },
+     {
+      "f": "6600",
+      "n": "Michelle M. Woodfork",
+      "p": "DEM",
+      "usd": 7338,
+      "cycle": 7338
+     },
+     {
+      "f": "2727",
+      "n": "Richard Perque",
+      "p": "DEM",
+      "usd": 5000,
+      "cycle": 5000
+     },
+     {
+      "f": "5471",
+      "n": "Delisha Boyd",
+      "p": "DEM",
+      "usd": 2886,
+      "cycle": 1860
+     },
+     {
+      "f": "1625",
+      "n": "Jeff Landry",
+      "p": "REP",
+      "usd": 17567,
+      "cycle": 1355
+     },
+     {
+      "f": "2816",
+      "n": "Martin K. Maley, Sr.",
+      "p": "OTH",
+      "usd": 2723,
+      "cycle": 1350
+     },
+     {
+      "f": "5579",
+      "n": "Elizabeth Murrill",
+      "p": "REP",
+      "usd": 877,
+      "cycle": 877
+     },
+     {
+      "f": "2244",
+      "n": "Edmond D. Jordan",
+      "p": "DEM",
+      "usd": 1256,
+      "cycle": 832
+     },
+     {
+      "f": "6873",
+      "n": "ANGELA ROBERTS",
+      "p": "DEM",
+      "usd": 587,
+      "cycle": 587
+     },
+     {
+      "f": "6465",
+      "n": "Toni Falterman Menard",
+      "p": "REP",
+      "usd": 544,
+      "cycle": 544
+     },
+     {
+      "f": "4538",
+      "n": "Cajun PAC II",
+      "p": "OTH",
+      "usd": 4838,
+      "cycle": 460
+     },
+     {
+      "f": "6036",
+      "n": "Grover Harrison, III",
+      "p": "IND",
+      "usd": 146,
+      "cycle": 146
+     },
+     {
+      "f": "6054",
+      "n": "Haus Cordray",
+      "p": "IND",
+      "usd": 75,
+      "cycle": 75
+     },
+     {
+      "f": "1986",
+      "n": "Caroline Fayard",
+      "p": "DEM",
+      "usd": 97427,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "ENTERPRISE STRATEGIES",
+     "ENTERPRISE",
+     "ENTERPRISE STRATEGIES LLC",
+     "THE ENTERPRISE",
+     "ENTERPRISE STRATEGIE",
+     "ENTERPRISE STRATEGIES, LLC"
     ]
    }
   },
@@ -10878,29 +11057,6 @@
    }
   },
   {
-   "key": "ENTERPNSESTRATEGIES",
-   "name": "Enterpnse Strategies",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 1,
-    "usd": 6240,
-    "stations": [
-     "WYLD"
-    ],
-    "clients": [
-     "Camille Buras for Criminal Dis"
-    ],
-    "first": "2026-10-28",
-    "last": "2026-10-28",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "ALPHAMEDIAANDPUBLICRELATIONS",
    "name": "Alpha Media & Public Relations",
    "found_by": "political file",
@@ -11214,6 +11370,55 @@
    }
   },
   {
+   "key": "STEPWONMARKETING",
+   "name": "StepWon Marketing",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 2,
+    "usd": 4980,
+    "stations": [
+     "KBTT",
+     "KDKS",
+     "KQXL",
+     "WEMX"
+    ],
+    "clients": [
+     "Black Voters Matter Capacity Building Institute"
+    ],
+    "first": "2026-10-15",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "CAMPAIGNTOREELECTJAMESSTEWARTDA",
+   "name": "Campaign to Re-elect James Stewart DA",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 3,
+    "priced": 1,
+    "usd": 4000,
+    "stations": [
+     "KTAL"
+    ],
+    "clients": [
+     "James Stewart Sr/District Attorney/LA /Dem"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-12",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "MOBILECOMMUNICATIONSSERVICE",
    "name": "Mobile Communications Service",
    "found_by": "political file",
@@ -11520,29 +11725,6 @@
    }
   },
   {
-   "key": "CAMPAIGNTOREELECTJAMESSTEWARTDA",
-   "name": "Campaign to Re-elect James Stewart DA",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 2,
-    "priced": 1,
-    "usd": 3800,
-    "stations": [
-     "KTAL"
-    ],
-    "clients": [
-     "James Stewart Sr/District Attorney/LA /Dem"
-    ],
-    "first": "2026-11-03",
-    "last": "2026-11-10",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "NXUM",
    "name": "Nxum Group",
    "found_by": "political file",
@@ -11587,6 +11769,27 @@
     ],
     "first": "2026-06-22",
     "last": "2026-06-22",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "PITCHMARKETSTRATEGIESANDPUBLICRELATIONS",
+   "name": "Pitch Market Strategies & Public Relations",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 2560,
+    "stations": [
+     "KQXL"
+    ],
+    "clients": [],
+    "first": "2026-11-12",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -11657,31 +11860,6 @@
      "MLC WORKS",
      "MLCWORKS"
     ]
-   }
-  },
-  {
-   "key": "STEPWONMARKETING",
-   "name": "STEPWON MARKETING",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 3,
-    "priced": 1,
-    "usd": 1980,
-    "stations": [
-     "KBTT",
-     "KDKS",
-     "WEMX"
-    ],
-    "clients": [
-     "BLACK VOTERS MATTER CAPACITY BUILDING INSTITUTE"
-    ],
-    "first": "2026-10-15",
-    "last": "2026-11-11",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
    }
   },
   {
@@ -14591,10 +14769,10 @@
     ],
     "clients": [],
     "first": "2026-02-10",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
-     "docs": 134,
-     "usd": 1791020,
+     "docs": 137,
+     "usd": 1791585,
      "clients": [
       "Texans for Greg Abbott",
       "Texans for Greg Abboll - PO Box",
@@ -20474,10 +20652,10 @@
      "Talarico for Texas"
     ],
     "first": "2026-10-09",
-    "last": "2026-11-10",
+    "last": "2026-11-12",
     "away": {
-     "docs": 35,
-     "usd": 136400,
+     "docs": 36,
+     "usd": 136500,
      "clients": [
       "Talarico for Texas",
       "James Talarico/US Senate/TX/Dem",
@@ -20770,6 +20948,31 @@
     ],
     "first": "2026-09-04",
     "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "AFFY",
+   "name": "affy",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KDKS",
+     "KOKA"
+    ],
+    "clients": [
+     "TOM Ateeweau. fee",
+     "TOM Attensaue foe AN 0"
+    ],
+    "first": "2026-11-12",
+    "last": "2026-11-12",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -22151,6 +22354,18 @@
      "2017": 40445,
      "2018": 6000,
      "2019": 4000
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 13550,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 8550,
+     "2019": 5000
     }
    },
    {
@@ -24506,6 +24721,18 @@
   ],
   "1315": [
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 30217,
+    "cycle": 9000,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 21217,
+     "2025": 9000
+    }
+   },
+   {
     "k": "BRANDONGUICHARDDIGITAL",
     "n": "Brandon Guichard Digital Group",
     "usd": 7257,
@@ -25292,6 +25519,19 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 37508,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2014": 14863,
+     "2018": 20698,
+     "2019": 1948
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 2542,
@@ -25621,6 +25861,17 @@
     "y": {
      "2017": 75404,
      "2018": 3030
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 10574,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2010": 10574
     }
    },
    {
@@ -26192,6 +26443,18 @@
     "fcc": true,
     "y": {
      "2011": 52125
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 20375,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 15375,
+     "2019": 5000
     }
    },
    {
@@ -27415,6 +27678,17 @@
     "y": {
      "2020": 6400
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1355,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 1355
+    }
    }
   ],
   "1579": [
@@ -28012,6 +28286,21 @@
     "fcc": false,
     "y": {
      "2015": 17829
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 17567,
+    "cycle": 1355,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2015": 13453,
+     "2018": 54,
+     "2020": 513,
+     "2021": 2193,
+     "2023": 1355
     }
    },
    {
@@ -29783,6 +30072,18 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 40250,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2011": 40000,
+     "2015": 250
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 39885,
@@ -30027,6 +30328,17 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 6000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2014": 6000
+    }
+   },
+   {
     "k": "TEDDLIEMEDIAPARTNERS",
     "n": "Teddlie Media Partners",
     "usd": 5000,
@@ -30130,6 +30442,19 @@
      "2011": 34641,
      "2012": 21484,
      "2013": 15000
+    }
+   }
+  ],
+  "1779": [
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 5160,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2009": 5160
     }
    }
   ],
@@ -31780,6 +32105,17 @@
     "y": {
      "2010": 5000
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 4040,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2010": 4040
+    }
    }
   ],
   "1942": [
@@ -32177,6 +32513,17 @@
     "fcc": false,
     "y": {
      "2010": 590582
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 97427,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2010": 97427
     }
    },
    {
@@ -33421,6 +33768,21 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 6341,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2012": 207,
+     "2013": 711,
+     "2014": 2968,
+     "2015": 1765,
+     "2016": 689
+    }
+   },
+   {
     "k": "TAYLORMEDIASERVICES",
     "n": "Taylor Media Services",
     "usd": 1000,
@@ -33455,6 +33817,19 @@
     "fcc": false,
     "y": {
      "2011": 35860
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 18000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2014": 5500,
+     "2015": 10000,
+     "2022": 2500
     }
    },
    {
@@ -33584,6 +33959,18 @@
     "fcc": false,
     "y": {
      "2011": 155898
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 28780,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2011": 23780,
+     "2016": 5000
     }
    },
    {
@@ -33718,6 +34105,17 @@
     "y": {
      "2011": 56891,
      "2023": 9700
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 10155,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2011": 10155
     }
    },
    {
@@ -34181,6 +34579,17 @@
     "fcc": true,
     "y": {
      "2015": 4315
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1163,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2011": 1163
     }
    }
   ],
@@ -34816,6 +35225,20 @@
     "y": {
      "2015": 1435
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1256,
+    "cycle": 832,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2015": 301,
+     "2018": 123,
+     "2023": 282,
+     "2024": 550
+    }
    }
   ],
   "2257": [
@@ -35318,6 +35741,19 @@
     }
    }
   ],
+  "2310": [
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1500,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2011": 1500
+    }
+   }
+  ],
   "2316": [
    {
     "k": "INNOVATIVEADVERTISING",
@@ -35389,6 +35825,21 @@
     "fcc": false,
     "y": {
      "2011": 5000
+    }
+   }
+  ],
+  "2321": [
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1112,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2011": 797,
+     "2012": 277,
+     "2021": 38
     }
    }
   ],
@@ -36622,6 +37073,17 @@
     "y": {
      "2012": 63698
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 10337,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2012": 10337
+    }
    }
   ],
   "2595": [
@@ -37475,6 +37937,17 @@
     "y": {
      "2026": 7500
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 5000,
+    "cycle": 5000,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 5000
+    }
    }
   ],
   "2731": [
@@ -37529,6 +38002,17 @@
    }
   ],
   "2739": [
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 12058,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2013": 12058
+    }
+   },
    {
     "k": "CARVINCONSULT",
     "n": "Carvin Consulting",
@@ -38281,6 +38765,18 @@
     "y": {
      "2015": 14000
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 2723,
+    "cycle": 1350,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2022": 1374,
+     "2023": 1350
+    }
    }
   ],
   "2818": [
@@ -38587,6 +39083,19 @@
     }
    }
   ],
+  "2840": [
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 2489,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2014": 2489
+    }
+   }
+  ],
   "285": [
    {
     "k": "CABLETIME",
@@ -38690,6 +39199,17 @@
     "y": {
      "2000": 162355,
      "2010": 104640
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 19590,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2010": 19590
     }
    },
    {
@@ -40182,6 +40702,17 @@
      "2009": 920,
      "2010": 300
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 7568,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2003": 7568
+    }
    }
   ],
   "310": [
@@ -40724,6 +41255,18 @@
     "y": {
      "2021": 37819,
      "2022": 60000
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 57665,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2002": 29922,
+     "2014": 27743
     }
    },
    {
@@ -41593,6 +42136,17 @@
      "2018": 6500,
      "2019": 662395,
      "2020": 2500
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 92805,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 92805
     }
    },
    {
@@ -45088,6 +45642,18 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 40490,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 35490,
+     "2022": 5000
+    }
+   },
+   {
     "k": "ARSEMENTMEDIA",
     "n": "Arsement Media Group",
     "usd": 15000,
@@ -45133,6 +45699,17 @@
     "fcc": false,
     "y": {
      "2001": 42342
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 7452,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2001": 7452
     }
    }
   ],
@@ -48133,6 +48710,18 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 9000,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 1000,
+     "2018": 8000
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 4587,
@@ -49456,6 +50045,19 @@
     "fcc": true,
     "y": {
      "2025": 11106
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 4838,
+    "cycle": 460,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 4050,
+     "2022": 327,
+     "2023": 460
     }
    }
   ],
@@ -50976,6 +51578,17 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1636,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2015": 1636
+    }
+   },
+   {
     "k": "JAMESHARTMANANDASSOCIATES",
     "n": "James Hartman & Associates",
     "usd": 1500,
@@ -52119,6 +52732,17 @@
     "y": {
      "2020": 3024
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1775,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 1775
+    }
    }
   ],
   "5123": [
@@ -52834,6 +53458,19 @@
     "fcc": true,
     "y": {
      "2020": 9250
+    }
+   }
+  ],
+  "5231": [
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1152,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2020": 1152
     }
    }
   ],
@@ -54148,6 +54785,18 @@
     "fcc": true,
     "y": {
      "2021": 5355
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 2886,
+    "cycle": 1860,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2021": 1026,
+     "2025": 1860
     }
    },
    {
@@ -57932,6 +58581,17 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 60970,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2003": 60970
+    }
+   },
+   {
     "k": "ROBERTBERNINGPRODUCTIONS",
     "n": "Robert Berning Productions",
     "usd": 55709,
@@ -58548,6 +59208,17 @@
     "y": {
      "2013": 51059,
      "2014": 38457
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 45498,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2003": 45498
     }
    },
    {
@@ -59920,6 +60591,17 @@
     "y": {
      "2025": 11250
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 7338,
+    "cycle": 7338,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2025": 7338
+    }
    }
   ],
   "6646": [
@@ -60478,6 +61160,19 @@
     "fcc": false,
     "y": {
      "2015": 6400
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 2521,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2015": 912,
+     "2017": 489,
+     "2019": 1120
     }
    },
    {
@@ -62281,6 +62976,34 @@
   ],
   "793": [
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 133064,
+    "cycle": 12736,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2003": 6955,
+     "2004": 4000,
+     "2006": 1500,
+     "2007": 7870,
+     "2010": 16254,
+     "2011": 3950,
+     "2012": 7276,
+     "2014": 10570,
+     "2015": 4350,
+     "2016": 6950,
+     "2017": 7735,
+     "2018": 3525,
+     "2019": 11231,
+     "2020": 9181,
+     "2021": 13345,
+     "2022": 5636,
+     "2025": 8770,
+     "2026": 3967
+    }
+   },
+   {
     "k": "BRANDONGUICHARDDIGITAL",
     "n": "Brandon Guichard Digital Group",
     "usd": 1587,
@@ -62977,6 +63700,17 @@
     "y": {
      "2002": 4500
     }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 1949,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2017": 1949
+    }
    }
   ],
   "863": [
@@ -63301,6 +64035,17 @@
      "2007": 35000,
      "2011": 28275,
      "2012": 47605
+    }
+   },
+   {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 21112,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2012": 21112
     }
    },
    {
@@ -64806,6 +65551,17 @@
     }
    },
    {
+    "k": "ENTERPRISESTRATEGIES",
+    "n": "Enterprise Strategies",
+    "usd": 50975,
+    "cycle": 0,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2019": 50975
+    }
+   },
+   {
     "k": "CREATIVEMARKETINGSALES",
     "n": "Creative Marketing Sales",
     "usd": 18695,
@@ -66090,6 +66846,10 @@
    "Robert A Johnson",
    "DEM"
   ],
+  "1779": [
+   "Lynda Davis",
+   "OTH"
+  ],
   "178": [
    "Gale Roque",
    "OTH"
@@ -66902,6 +67662,10 @@
    "Riser PAC",
    "OTH"
   ],
+  "2310": [
+   "Randal L. Gaines",
+   "DEM"
+  ],
   "2316": [
    "Louis Fitzmorris",
    "IND"
@@ -66916,6 +67680,10 @@
   ],
   "2320": [
    "Donald Hodge",
+   "DEM"
+  ],
+  "2321": [
+   "Kenny Ray Cox",
    "DEM"
   ],
   "2322": [
@@ -67497,6 +68265,10 @@
   "284": [
    "Dale Sittig",
    "OTH"
+  ],
+  "2840": [
+   "Jerry Hodnett",
+   "REP"
   ],
   "285": [
    "Leon E. Roy, III",
@@ -70088,6 +70860,10 @@
   ],
   "5227": [
    "Marcus DeLarge",
+   "DEM"
+  ],
+  "5231": [
+   "Dina Johnson",
    "DEM"
   ],
   "5233": [

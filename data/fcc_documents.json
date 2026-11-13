@@ -891,6 +891,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T01:53:37Z"
   },
+  "01b9eccb-f4e1-47e7-9e82-63daca5f3a30": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 200.0,
+   "net": 170.0,
+   "agency": "Campaign to Re-elect James Stewart DA",
+   "advertiser": "POL/James Stewart Sr/District Attorney/LA /Dem",
+   "order_no": "5432964",
+   "invoice_no": "5432964-3",
+   "flight": [
+    "10/13/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/James Stewart Sr-District Attorney-Caddo Parish/Invoices",
+   "name": "KTAL James Stewart Nov Invoice5432964-3",
+   "uploaded": "2026-11-12T14:03:47-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "01d21f11-7c9d-4dea-a972-5690470bcbb7": {
    "kind": "invoice",
    "layout": "invoice",
@@ -1397,6 +1421,30 @@
    "uploaded": "2026-05-29T01:46:44-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
+  },
+  "028d086a-3a0c-43f2-ad8b-904ca2610491": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 640.0,
+   "net": 544.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Blake Miguez for congress",
+   "order_no": "25878",
+   "invoice_no": "25878-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Miguez WBRP 25878-1",
+   "uploaded": "2026-11-10T09:03:53-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "0293ae70-0122-439e-9ec7-3d639a05e041": {
    "kind": "order",
@@ -3596,6 +3644,30 @@
    "uploaded": "2026-11-10T15:39:19-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-12T04:04:54Z"
+  },
+  "067311c3-a176-474c-94b6-58b93a08b019": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Caine/D/Justice of the Peace",
+   "order_no": "1648489",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "10/31/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1648489-Caine_D_Justice of the Peace-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "067594f4-c86a-400a-9df3-146cce6a929c": {
    "kind": "order",
@@ -6181,6 +6253,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "0a4bca89-4e1b-433c-9ea6-d7a3f7dfe037": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Michael Vincent Campaign",
+   "order_no": "25886A",
+   "invoice_no": "25886A-1",
+   "flight": [
+    "10/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Local",
+   "name": "Michael Vincent WBRP 25886A-1",
+   "uploaded": "2026-11-10T09:57:13-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "0a5985f7-23a8-404c-a5c3-73d9baf1c934": {
    "kind": "order",
    "layout": "other",
@@ -8595,6 +8691,30 @@
    "uploaded": "2026-09-17T17:30:52-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T20:13:18Z"
+  },
+  "0e3b7a08-8ea3-4510-86ff-533a8a573e6a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sabine/D/Judge",
+   "order_no": "1647595",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1647595-Sabine_D_Judge-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:04:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "0e4e1eb8-06d3-41cc-94f9-e9c706fab799": {
    "kind": "order",
@@ -14356,6 +14476,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:39:04Z"
   },
+  "173d29e9-b6a5-4960-bb9d-769b61343f0a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1950.0,
+   "net": 1657.5,
+   "agency": "Enterprise Strategies",
+   "advertiser": "Buras/D/Judge",
+   "order_no": "1651416",
+   "invoice_no": null,
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMEZ",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1651416-Buras-D-Judge-KMEZFM-Invoice",
+   "uploaded": "2026-11-11T16:22:34-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "1748faaf-1062-4d1e-9349-676b62b8bedb": {
    "kind": "order",
    "layout": "other",
@@ -15381,6 +15525,30 @@
    "uploaded": "2026-10-07T02:25:03-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T20:05:46Z"
+  },
+  "1887602a-e504-4054-9f8a-c4ff74d634e6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1643702",
+   "invoice_no": null,
+   "flight": [
+    "10/07/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMEZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1643702-Power Coalition for Equity & Justice-Direct-KMEZFM-Invoice",
+   "uploaded": "2026-11-11T16:15:27-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "1899fdd2-86bb-4f1d-880a-3a92a32ede9c": {
    "kind": "order",
@@ -17953,6 +18121,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T07:10:08Z"
   },
+  "1c819410-4414-46e6-8201-bfd79fbb307c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Guillard/D/Family Court Judge Div",
+   "order_no": "1648592",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WRQQ",
+   "path": "Political Files/2026/Local",
+   "name": "1648592-Guillard_D_Family Court Judge Div D-WQQFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T08:30:14-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "1c8fd4e8-f2f2-47e3-93d9-d89c64de088d": {
    "kind": "request",
    "layout": "nab",
@@ -18040,6 +18232,30 @@
    "name_kind": "other",
    "read_at": "2026-11-01T02:31:14Z"
   },
+  "1cb1ff1c-bf8a-4a06-9531-60337af4013b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 400.0,
+   "net": 340.0,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5415149",
+   "invoice_no": "5415149-3",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8266 Nov Invoice5415149-3",
+   "uploaded": "2026-11-12T14:07:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "1cb348db-8f1c-4796-8008-6e141c89ede1": {
    "kind": "other",
    "layout": "other",
@@ -18081,6 +18297,27 @@
    "uploaded": "2026-03-02T14:10:49-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "1cbb0a27-6927-425c-a039-6aae88eb7bd9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 866.0,
+   "net": 736.1,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": false,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA TOM ARCENEUX FOR MAYOR INVOICE",
+   "uploaded": "2026-11-12T11:41:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "1cc103df-67c9-4898-acb9-2907d1c224c9": {
    "kind": "order",
@@ -18234,6 +18471,30 @@
    "uploaded": "2026-05-18T10:27:35-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:34:54Z"
+  },
+  "1d0e4bbc-10c4-43be-92aa-49097bb8dcce": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4187.0,
+   "net": 3558.95,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1648011",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1648011-Moore_D_District Attorney-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "1d1149ff-8947-47ba-997a-7f9a1a69ea47": {
    "kind": "order",
@@ -22020,6 +22281,30 @@
    "name_kind": "other",
    "read_at": "2026-10-22T16:43:37Z"
   },
+  "22b2d112-e59f-4eb4-a5cc-7a02905ec0f8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1190.0,
+   "net": 1011.5,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1647125",
+   "invoice_no": null,
+   "flight": [
+    "10/15/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647125-Justice PAC-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-11T16:09:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "22b4d8e3-1876-4e16-af93-11073008cf23": {
    "kind": "order",
    "layout": "other",
@@ -23493,6 +23778,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T19:51:32Z"
   },
+  "24dd7ffc-94d7-43aa-b29b-d0e5b60d14e0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1050.0,
+   "net": 892.5,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1647125",
+   "invoice_no": null,
+   "flight": [
+    "10/15/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647125-Justice PAC-KQXLFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:16:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "24f65c1d-ef75-4419-be88-57c09da5350a": {
    "kind": "order",
    "layout": "order",
@@ -24410,6 +24719,27 @@
    "uploaded": "2026-08-05T01:17:26-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T01:58:07Z"
+  },
+  "267373dc-e38b-4cd0-894b-000094b598db": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026 KOKA BILLY ANDERSON FOR SHREVEPORT CITY COUNCIL INVOICE",
+   "uploaded": "2026-11-12T11:41:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "2676cd9a-cc80-4c7b-9590-655d2f17f450": {
    "kind": "order",
@@ -29254,6 +29584,27 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "2eb5ed28-9f28-4d6c-a801-f65e15eeb643": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 2100.0,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KLKL",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "2026KLKL MIKE JOHNSON FOR US HOUSE OF REPRESENTATIVES INVOICE",
+   "uploaded": "2026-11-12T11:34:29-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "2ebb02a6-c73b-40aa-bdd3-8cf4320aa0c1": {
    "kind": "order",
    "layout": "order",
@@ -31090,6 +31441,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-03T18:39:00Z"
   },
+  "32252c72-00ee-412a-a5bf-bcdca397e88e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2676.0,
+   "net": 2274.6,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650309",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1650309-Davis_D_Senate-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "3225c465-f472-4b06-af0e-18e770cdabfc": {
    "kind": "order",
    "layout": "other",
@@ -31971,6 +32346,30 @@
    "uploaded": "2026-03-06T10:40:56-05:00",
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
+  },
+  "33909127-c6c5-44f4-9986-e21221a1d71f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 320.0,
+   "net": 272.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1649922",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1649922-Moore_D_District Attorney-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:04:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "3394b5ad-c6ab-4327-a4ed-caf2759be738": {
    "kind": "invoice",
@@ -34165,6 +34564,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "36e65597-05f5-460f-8ab2-255a59439008": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 620.0,
+   "net": 527.0,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650625",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMEZ",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650625-Davis-D-Senate-KMEZFM-invoice2",
+   "uploaded": "2026-11-11T16:22:34-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "36e65e60-8e7e-47aa-b98a-69c7b7565767": {
    "kind": "other",
    "layout": "other",
@@ -35509,6 +35932,27 @@
    "name_kind": "other",
    "read_at": "2026-10-24T15:11:16Z"
   },
+  "39098cbc-51b6-4f5d-8709-544b25ba3853": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Mentzer Media Services",
+   "advertiser": "Save Our States Action",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "002460",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/SAVE OUR STATES ACTION",
+   "name": "Save Our States NAB SYS 3996",
+   "uploaded": "2026-11-12T14:54:17-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-13T03:44:01Z"
+  },
   "390b464a-dd82-42d0-85b8-ca9a6a63ec39": {
    "kind": "order",
    "layout": "other",
@@ -36063,6 +36507,30 @@
    "uploaded": "2026-11-03T17:25:52-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-05T21:13:04Z"
+  },
+  "39e65fdd-fd57-4859-b5df-e9939559d64c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 350.0,
+   "net": 297.5,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5452377",
+   "invoice_no": "5452377-2",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis-United States Senate-Louisiana/Invoices",
+   "name": "KTAL Jamie Davis Est 15145 Nov Invoice5452377-2",
+   "uploaded": "2026-11-12T14:01:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "3a075bf2-a964-46d4-8c39-9e9794f18a0f": {
    "kind": "request",
@@ -44558,6 +45026,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-26T15:59:01Z"
   },
+  "4969f4ea-5e0c-4d69-ba8f-c9130cc287e5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 960.0,
+   "net": 816.0,
+   "agency": "Pitch Market Strategies & Public Relations, LLC",
+   "advertiser": null,
+   "order_no": "1653082",
+   "invoice_no": null,
+   "flight": [
+    "11/01/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1653082-Committee to Elect Ken Fabre-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:04:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "496f194c-5490-499b-ae05-aa387fcf00b8": {
    "kind": "other",
    "layout": "other",
@@ -44602,6 +45094,30 @@
    "uploaded": "2026-11-10T16:31:02-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-12T19:07:04Z"
+  },
+  "4978a709-9ec7-4bb3-b5a6-73a8f30207ae": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 30.0,
+   "net": 25.5,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5444563",
+   "invoice_no": "5444563-2",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis-United States Senate-Louisiana/Invoices",
+   "name": "KMSS Jamie Davis Est 14577 Nov Invoice5444563-2",
+   "uploaded": "2026-11-12T13:56:45-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "497ed6c8-9436-4236-ac9d-35c9513e97ae": {
    "kind": "order",
@@ -45145,6 +45661,30 @@
    "uploaded": "2026-05-29T01:50:01-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
+  },
+  "4a5ed470-8ede-4fcb-9c8a-bc27599e0018": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1100.0,
+   "net": 935.0,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650340",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650340-Davis_D_Senate-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:07:03-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "4a603707-3c9d-4aa3-b420-23de4b516de3": {
    "kind": "order",
@@ -46738,6 +47278,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T21:28:32Z"
   },
+  "4d21b7c7-ae59-4688-ad34-6120a28f87bd": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2928.0,
+   "net": 2488.8,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1643515",
+   "invoice_no": null,
+   "flight": [
+    "10/06/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1643515-Moore_D_District Attorney-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "4d318676-3527-46a7-b91b-1ce0c6795110": {
    "kind": "order",
    "layout": "other",
@@ -46890,6 +47454,30 @@
    "uploaded": "2026-10-07T11:23:47-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:25:46Z"
+  },
+  "4d5e7464-4f03-4f07-93af-54e5a98e074f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 70.0,
+   "net": 59.5,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Tammy Phelps/Mayor of Shreveport/LA/Dem",
+   "order_no": "5449353",
+   "invoice_no": "5449353-3",
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Tammy Phelps-Shreveport Mayor/Invoices",
+   "name": "KTAL Tammy Phelps Nov Invoice5449353-3",
+   "uploaded": "2026-11-12T14:02:51-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "4d6cef7d-3305-49bc-a77c-8d678695cb3f": {
    "kind": "request",
@@ -48094,6 +48682,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
   },
+  "4f53175f-cc2d-4215-aa50-0f2f0cfec3ab": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2676.0,
+   "net": 2274.6,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650309",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650309-Davis_D_Senate-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:12:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "4f57b80c-4073-4620-b9ee-9135bd1be94f": {
    "kind": "order",
    "layout": "other",
@@ -48751,6 +49363,30 @@
    "uploaded": "2026-10-23T19:36:03-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
+  },
+  "50e13b75-63fd-47bd-82f8-852cbfcd5d09": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2450.0,
+   "net": 2082.5,
+   "agency": "Capture Connect Media",
+   "advertiser": "Justice PAC",
+   "order_no": "1652085",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1652085-Justice PAC-KQXLFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:16:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "50e1417b-21e9-4d9e-905b-112b8389a7ca": {
    "kind": "order",
@@ -53071,6 +53707,30 @@
    "uploaded": "2026-10-26T23:57:47-04:00",
    "name_kind": "order",
    "read_at": "2026-10-27T17:01:03Z"
+  },
+  "5803c31a-2f21-458c-8d6d-d904369d0bb0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Guillard/D/Family Court Judge Div",
+   "order_no": "1648586",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1648586-Guillard_D_Family Court Judge Div D-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "582767f3-3e95-469a-914f-a365a6a9403e": {
    "kind": "request",
@@ -62583,6 +63243,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "674a665d-08c3-4690-882d-6522d72b8ab8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 240.0,
+   "net": 204.0,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5444594",
+   "invoice_no": "5444594-2",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis-United States Senate-Louisiana/Invoices",
+   "name": "KTAL Jamie Davis Est 14577 Nov Invoice5444594-2",
+   "uploaded": "2026-11-12T14:01:41-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "674a6d1d-a9b8-4c14-9f29-040b4dc48e6b": {
    "kind": "invoice",
    "layout": "invoice",
@@ -63545,6 +64229,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-03T18:39:00Z"
   },
+  "68944150-4d70-4039-8b95-b04e7336fa5c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 840.0,
+   "net": 714.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1647023",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1647023-Decuir_D_Judge-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:04:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "68960273-5082-4d1e-a207-1d998fd59b85": {
    "kind": "request",
    "layout": "nab",
@@ -63937,6 +64645,30 @@
    "uploaded": "2026-04-02T16:27:56-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "691c1d6b-c294-497c-881b-6cd4e3e81f50": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1920.0,
+   "net": 1632.0,
+   "agency": "StepWon Marketing",
+   "advertiser": "Black Voters Matter Capacity Building Institute",
+   "order_no": "1646973",
+   "invoice_no": null,
+   "flight": [
+    "10/16/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1646973-Black Voter Matter Capacity Building Institute-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-11T16:09:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "6921b0d4-1814-4ab3-a9bf-05d252307eaf": {
    "kind": "other",
@@ -64598,6 +65330,30 @@
    "uploaded": "2026-11-02T20:05:02-05:00",
    "name_kind": "other",
    "read_at": "2026-11-03T04:10:06Z"
+  },
+  "6a3d3af4-926a-4166-b708-187733d9155c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Signater/D/School Board",
+   "order_no": "1641710",
+   "invoice_no": null,
+   "flight": [
+    "10/03/26",
+    "10/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1641710-Signater_D_School Board-KQXL-FM-INVOICE OCT2026",
+   "uploaded": "2026-11-12T04:08:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "6a575169-1250-4582-968e-6ef4d16eba62": {
    "kind": "order",
@@ -66282,6 +67038,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T17:08:04Z"
   },
+  "6d5cde47-528b-4cc4-b369-bfca29346ffb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 40.0,
+   "net": 34.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5451997",
+   "invoice_no": "5451997-2",
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 730 Nov Invoice5451997-2",
+   "uploaded": "2026-11-12T13:58:28-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "6d620848-6533-4620-a1e5-0e5caa44356a": {
    "kind": "order",
    "layout": "other",
@@ -67771,6 +68551,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "6fa91f34-aa00-4aa9-871f-a0bb0ae70f98": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1080.0,
+   "net": 918.0,
+   "agency": "StepWon Marketing",
+   "advertiser": "Black Voters Matter Capacity Building Institute",
+   "order_no": "1646973",
+   "invoice_no": null,
+   "flight": [
+    "10/16/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1646973-Black Voters Matter Capacity Building Institute-KQXLFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:16:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "6fb26c62-8c59-408e-8193-f96615df28a6": {
    "kind": "invoice",
    "layout": "invoice",
@@ -68560,6 +69364,30 @@
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
   },
+  "70d23bc3-28f1-493d-8105-0aafb057829b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 65.0,
+   "net": 55.25,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5415109",
+   "invoice_no": "5415109-3",
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KMSS Texans for Greg Abbott Est 8266 Nov Invoice5415109-3",
+   "uploaded": "2026-11-12T13:59:06-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "70d45b27-f176-4eb0-9f74-d198c7206ff3": {
    "kind": "invoice",
    "layout": "invoice",
@@ -69246,6 +70074,27 @@
    "uploaded": "2026-02-26T10:46:24-05:00",
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
+  },
+  "71e5d2c7-0d12-4c8f-8668-2de424c94710": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA HANH FOR CITY COUNCIL INVOICE",
+   "uploaded": "2026-11-12T11:41:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "71f7c905-737b-4b9f-ab8c-caf1e3d06fd9": {
    "kind": "order",
@@ -72141,6 +72990,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "76b9912f-7276-4aa1-9ff7-32bd245dcf0e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sabine/D/Judge",
+   "order_no": "1647595",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1647595-Sabine_D_Judge-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "76b9992a-1ebc-4430-ae28-3c0a1d9d6b46": {
    "kind": "order",
    "layout": "contract",
@@ -72224,6 +73097,30 @@
    "uploaded": "2026-05-18T14:07:25-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:34:54Z"
+  },
+  "76e84cac-ea2d-4ed5-b92f-aaaa9dc097dc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Guillard/D/Family Court Judge Div",
+   "order_no": "1648592",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WRQQ",
+   "path": "Political Files/2026/Local",
+   "name": "1648592-Guillard_D_Family Court Judge Div D-WRQQ-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:18:13-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "76ef2fed-3006-43d1-bf39-75175b52fb9f": {
    "kind": "other",
@@ -75642,6 +76539,30 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "7bfc1794-c503-4830-b7c9-f8677f9931d3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1643702",
+   "invoice_no": null,
+   "flight": [
+    "10/07/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMEZ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1643702-Power Coalition for Equity & Justice-Direct-KMEZFM-Invoice (2)",
+   "uploaded": "2026-11-11T16:22:55-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "7c012989-c0b6-47b6-a167-3ccb4661e299": {
    "kind": "invoice",
    "layout": "invoice",
@@ -76760,6 +77681,30 @@
    "uploaded": "2026-05-02T12:34:29-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:09:16Z"
+  },
+  "7d6bba36-32ec-4ff1-9d2a-6e7580469c6d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 4800.0,
+   "net": 4080.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Club For Growth Action",
+   "order_no": "25765",
+   "invoice_no": "25765-1",
+   "flight": [
+    "10/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "Club For Growth wbrp  25765-1",
+   "uploaded": "2026-11-10T09:01:44-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "7d71fa51-d6a9-4e16-a84b-86eb8b77bc80": {
    "kind": "invoice",
@@ -78904,6 +79849,30 @@
    "uploaded": "2026-06-02T13:09:10-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "8034e630-2bf0-4aa6-91f2-15fe4b407d23": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3867.0,
+   "net": 3286.95,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1649922",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1649922-Moore_D_District Attorney-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:10:50-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "80511439-b6ae-4418-a951-b482e9f403bb": {
    "kind": "request",
@@ -82712,6 +83681,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
   },
+  "862efe69-4cb8-43e9-bf55-6a1e86bb92a0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 35.0,
+   "net": 29.75,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5396558",
+   "invoice_no": "5396558-4",
+   "flight": [
+    "09/14/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/State/Texans For Dan Patrick/Invoices",
+   "name": "KMSS Texans for Dan Patrick Est 593 Nov Invoice5396558-4",
+   "uploaded": "2026-11-12T13:58:28-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "863ab83c-0a22-4f85-a688-42984ade96ad": {
    "kind": "order",
    "layout": "contract",
@@ -83251,6 +84244,30 @@
    "uploaded": "2026-10-15T12:19:21-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "87590b14-8fa6-4f4c-b778-072c48dd7b03": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Voters Organized to Educate",
+   "order_no": "1647514A",
+   "invoice_no": null,
+   "flight": [
+    "10/17/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647514A-Voters Organized to Educate-KQXLFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T14:16:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "8760ac40-7a69-44e3-9230-c456847a597e": {
    "kind": "order",
@@ -83910,6 +84927,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
   },
+  "8841e1cc-848f-4c80-a211-fd3114d9e645": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 70.0,
+   "net": 59.5,
+   "agency": "Smart Media Group",
+   "advertiser": "POL/John Atkins/Public Service Commissioner/LA/Rep",
+   "order_no": "5419747",
+   "invoice_no": "5419747-2",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/John Atkins-Public Services Commissioner -District 5/Invoices/Nov Invoices",
+   "name": "KTAL John Atkins Est C27N03 Nov Invoice5419747-2",
+   "uploaded": "2026-11-12T14:06:49-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "8846b9f5-f1a0-4586-bba1-ec0a43c1eae7": {
    "kind": "request",
    "layout": "nab",
@@ -84413,6 +85454,27 @@
    "uploaded": "2026-10-23T19:36:29-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T02:12:15Z"
+  },
+  "88e3d335-a0a7-41d6-9f59-c222d1209350": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Dajuanna Moore",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WFMF",
+   "path": "Political Files/2026/Local",
+   "name": "dajuana_moore_for_justice_of_the_peace_invoice_8824563926_9001409901",
+   "uploaded": "2026-11-10T19:56:54-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "88e86178-16d8-461d-98fa-95a62a821b77": {
    "kind": "request",
@@ -85287,6 +86349,30 @@
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
   },
+  "8a5bce47-b0a2-44fb-abf9-1b1f8f71dc5d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 790.0,
+   "net": 671.5,
+   "agency": "Del Cielo Media",
+   "advertiser": "POL/Accountability Project Inc PAC",
+   "order_no": "5448577",
+   "invoice_no": "5448577-2",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc PAC/Invoices",
+   "name": "KTAL Accountability Project Nov Invoice5448577-2",
+   "uploaded": "2026-11-12T14:07:21-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "8a61a5f0-dcff-4a8a-a624-44d33ea38565": {
    "kind": "order",
    "layout": "other",
@@ -85592,6 +86678,27 @@
    "uploaded": "2026-10-29T14:56:12-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-29T20:06:56Z"
+  },
+  "8ad32c36-3608-42e7-bb37-57dcecfce58e": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA TAMMY PHELPS FOR SHREVEPORT MAYOR INVOICE",
+   "uploaded": "2026-11-12T11:41:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "8ad37ce5-3c47-404f-a5c1-bf06a2a743fc": {
    "kind": "request",
@@ -91189,6 +92296,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:49:45Z"
   },
+  "9474ea02-b12c-4bc7-96f1-840679600c0c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Signater/D/School Board",
+   "order_no": "1648894",
+   "invoice_no": null,
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1648894-Signater_D_School Board-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:04:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "947a6f30-ff21-4230-8b8e-1f07a0226c53": {
    "kind": "request",
    "layout": "nab",
@@ -94193,6 +95324,27 @@
    "name_kind": "invoice",
    "read_at": "2026-11-08T17:07:59Z"
   },
+  "9932c9e1-cc07-4162-8809-f430b98b8c01": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Michael Vincent Campaign",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WFMF",
+   "path": "Political Files/2026/Local",
+   "name": "michael_vincent_campaign_invoice_8824564037_9001411393",
+   "uploaded": "2026-11-10T19:56:22-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "994e1e28-4f28-4fa1-978c-393f96151665": {
    "kind": "order",
    "layout": "other",
@@ -96055,6 +97207,30 @@
    "uploaded": "2026-04-10T12:40:12-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
+  },
+  "9bee052f-ebd2-479d-b95b-9e2d76e766bc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 280.0,
+   "net": 238.0,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5429940",
+   "invoice_no": "5429940-2",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KTAL Mike Johnson Est 9488 Nov Invoice5429940-2",
+   "uploaded": "2026-11-12T14:02:18-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "9bf93b21-bd32-4c31-9c7b-12ad9fab579f": {
    "kind": "request",
@@ -98254,6 +99430,30 @@
    "uploaded": "2026-02-05T09:12:40-05:00",
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
+  },
+  "9f678384-002d-42ad-90b2-cbda1c505ac5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Sabine/D/Judge",
+   "order_no": "1642663",
+   "invoice_no": null,
+   "flight": [
+    "10/03/26",
+    "10/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1642663-Sabine_D_Judge-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "9f6bce00-f085-49bf-a5d5-8cd0b4222aa9": {
    "kind": "request",
@@ -100872,6 +102072,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
   },
+  "a38cb4ec-0f58-4823-9052-fd7a3700a777": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3672.0,
+   "net": 3121.2,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1645874",
+   "invoice_no": null,
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1645874-Moore_D_District Attorney-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "a38eb062-02f8-4dba-abc6-7a0c63f8e10d": {
    "kind": "invoice",
    "layout": "invoice",
@@ -101700,6 +102924,30 @@
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
   },
+  "a50d008e-a8e5-49c2-8319-279e1e938ef7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1600.0,
+   "net": 1360.0,
+   "agency": "Pitch Market Strategies & Public Relations, LLC",
+   "advertiser": null,
+   "order_no": "1648173",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1648173-Committee to Elect Ken Fabre-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:25-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "a516ed87-6bb3-4ed2-a64e-e7be901a6c9e": {
    "kind": "request",
    "layout": "nab",
@@ -102206,6 +103454,30 @@
    "uploaded": "2026-11-06T16:55:33-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-09T21:32:28Z"
+  },
+  "a5d8056f-1c6c-4549-a1d7-936bd16ff85e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 900.0,
+   "net": 765.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Club For Growth Action",
+   "order_no": "25873",
+   "invoice_no": "25873-1",
+   "flight": [
+    "10/21/26",
+    "11/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "Club For Growth WBRP  25873-1",
+   "uploaded": "2026-11-10T09:01:44-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "a5e778b4-26ee-4286-aec3-489aaf42b1a1": {
    "kind": "order",
@@ -103292,6 +104564,30 @@
    "uploaded": "2026-05-18T10:27:35-04:00",
    "name_kind": "other",
    "read_at": "2026-10-25T15:34:54Z"
+  },
+  "a794df7f-b232-40f7-810f-b9db9cce6097": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 640.0,
+   "net": 544.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Blake Miguez for congress",
+   "order_no": "25835",
+   "invoice_no": "25835-1",
+   "flight": [
+    "10/05/26",
+    "10/09/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Miguez WBRP25835-1",
+   "uploaded": "2026-11-10T09:03:53-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "a796e833-d4c2-4a48-96ab-5e6a0b5eb525": {
    "kind": "order",
@@ -105778,6 +107074,27 @@
    "uploaded": "2026-10-20T17:04:35-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
+  },
+  "ab98eb50-a1c1-485b-a135-0f0ad9f9a9f4": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA GARY BROOKS FOR CITY COUNCIL DIST B INVOICE",
+   "uploaded": "2026-11-12T11:41:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "aba4b161-84ce-40d4-b9cb-3a1f54cd6dc4": {
    "kind": "invoice",
@@ -113070,6 +114387,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:52:27Z"
   },
+  "b768bba5-5ea3-4b9a-ac8d-be455c8b8332": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1215.0,
+   "net": 1032.75,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650625",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMEZ",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650625-Davis-D-Senate-KMEZFM-Invoice",
+   "uploaded": "2026-11-11T16:16:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "b76d982d-088c-4e7e-b734-11420e6319fd": {
    "kind": "order",
    "layout": "other",
@@ -117536,6 +118877,30 @@
    "uploaded": "2026-07-07T16:09:44-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T17:01:03Z"
+  },
+  "be13212f-a310-42a4-bc79-722a0e1273d5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 360.0,
+   "net": 306.0,
+   "agency": "Electric Symphony Media",
+   "advertiser": "POL/Texans for Dan Patrick/Lt Governor/Rep",
+   "order_no": "5452029",
+   "invoice_no": "5452029-2",
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
+   "name": "KTAL Texans for Dan Patrick Est 730 Nov Invoice 5452029-2",
+   "uploaded": "2026-11-12T14:08:23-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "be31760a-26b8-4579-9292-72c9c8196b00": {
    "kind": "invoice",
@@ -122219,6 +123584,30 @@
    "name_kind": "other",
    "read_at": "2026-10-23T02:07:26Z"
   },
+  "c5de69f3-87f4-4530-94c3-1add6eeb0bee": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 455.0,
+   "net": 386.75,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Electronic Payments Coalition",
+   "order_no": "25851",
+   "invoice_no": "25851-1",
+   "flight": [
+    "10/15/26",
+    "10/23/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "EPC WBRP 25851-1",
+   "uploaded": "2026-11-10T09:01:44-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "c5e2d667-3e47-4659-9110-0186917f27c0": {
    "kind": "other",
    "layout": "other",
@@ -124343,6 +125732,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:28:24Z"
   },
+  "c92691bf-52c4-4802-a0e9-15e9b140f902": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1641724",
+   "invoice_no": null,
+   "flight": [
+    "10/05/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1641724-Power Coalition for Equity & Justice-Direct-KQXLFM-INVOICE 2026",
+   "uploaded": "2026-11-12T14:16:19-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "c929e620-a309-4aa5-8d92-c72ad1162449": {
    "kind": "order",
    "layout": "other",
@@ -124829,6 +126242,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T02:54:30Z"
   },
+  "c9c21059-6e91-4cac-87fa-104955b2c205": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Voters Organized to Educate",
+   "order_no": "1647514A",
+   "invoice_no": null,
+   "flight": [
+    "10/17/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1647514A-Voters Organized to Educate-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-11T16:09:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "c9c25d06-6c3c-4208-a7be-1c0f174b187a": {
    "kind": "order",
    "layout": "contract",
@@ -125110,6 +126547,30 @@
    "uploaded": "2026-10-27T17:14:09-04:00",
    "name_kind": "other",
    "read_at": "2026-10-28T02:40:57Z"
+  },
+  "ca508673-0b46-4383-a0ac-5f588516322f": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 560.0,
+   "net": 476.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Blake Miguez for congress",
+   "order_no": "25853",
+   "invoice_no": "25853-1",
+   "flight": [
+    "10/12/26",
+    "10/16/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Miguez WBRP 25853-1",
+   "uploaded": "2026-11-10T09:03:53-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "ca50f1c5-3d6a-403c-848c-25128dff7446": {
    "kind": "request",
@@ -127748,6 +129209,30 @@
    "name_kind": "other",
    "read_at": "2026-11-09T21:36:18Z"
   },
+  "cded22ff-0ec5-4981-a614-3c090f425b05": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 3545.0,
+   "net": 3013.25,
+   "agency": "MAV LLC",
+   "advertiser": "POL/Mike Johnson/Congress/LA/Rep",
+   "order_no": "5429779",
+   "invoice_no": "5429779-1",
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US House/Mike Johnson- US House - Louisiana/Invoices",
+   "name": "KMSS Mike Johnson Est 9488  Nov Invoice5429779-1",
+   "uploaded": "2026-11-12T13:57:21-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "cdf53181-af64-4097-9ccc-ffbc72626efd": {
    "kind": "order",
    "layout": "contract",
@@ -127831,6 +129316,30 @@
    "uploaded": "2026-10-19T15:23:42-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
+  },
+  "cdffe998-b830-41e7-b346-9f77f2e13dae": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 70.0,
+   "net": 59.5,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Kharmen Davis-Taylor/City Court Judge/LA/Dem",
+   "order_no": "5448951",
+   "invoice_no": "5448951-2",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Local/Kharmen Davis Taylor-Shreveport City Judge-LA/Invoices",
+   "name": "KTAL Kharmenn Taylor Davis Nov Invoice5448951-2",
+   "uploaded": "2026-11-12T14:03:18-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "ce0644c6-c530-4c57-a9b9-576464bcfcaf": {
    "kind": "request",
@@ -128002,6 +129511,30 @@
    "uploaded": "2026-09-23T14:41:36-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
+  },
+  "ce512025-6741-47f4-95c5-142e985a28b8": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1641724",
+   "invoice_no": null,
+   "flight": [
+    "10/05/26",
+    "11/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1641724-Power Coalition for Equity & Justice-Direct-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-11T16:09:04-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "ce57db41-c344-4a6c-9560-d8690703b050": {
    "kind": "invoice",
@@ -131262,6 +132795,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "d3623223-8ec6-456c-9291-beb0b5869c62": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1755.0,
+   "net": 1491.75,
+   "agency": "Ourso Beychok",
+   "advertiser": "Moore/D/District Attorney",
+   "order_no": "1652156",
+   "invoice_no": null,
+   "flight": [
+    "11/02/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1652156-Moore_D_District Attorney-KQXLFM-INVOICE NOV2026",
+   "uploaded": "2026-11-12T12:04:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "d367227f-c727-4c95-a42e-c10a4a2b80b1": {
    "kind": "request",
    "layout": "nab",
@@ -132008,6 +133565,27 @@
    "uploaded": "2026-10-09T11:36:08-04:00",
    "name_kind": "order",
    "read_at": "2026-10-19T19:38:45Z"
+  },
+  "d48fa409-3908-46c0-8002-195e98d11600": {
+   "kind": "order",
+   "layout": "schedule",
+   "gross": 1050.0,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": "10048-00005",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KRVV",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Pat Moore KRVV Political File 11-6",
+   "uploaded": "2026-11-10T10:16:24-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "d49d2334-dc04-451d-9d2e-91d801589339": {
    "kind": "request",
@@ -134910,6 +136488,30 @@
    "name_kind": "other",
    "read_at": "2026-10-20T16:19:46Z"
   },
+  "d92640ab-6f12-43d6-b0a9-e90253df389e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 100.0,
+   "net": 85.0,
+   "agency": "Crossroads Media LLC",
+   "advertiser": "POL/Texans for Greg Abbott/Governor/TX/Rep",
+   "order_no": "5447010",
+   "invoice_no": "5447010-2",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
+   "name": "KTAL Texans for Greg Abbott Est 8362 Nov Invoice5447010-2",
+   "uploaded": "2026-11-12T14:07:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "d926f70e-4f1d-45cb-a673-8aa479f3a159": {
    "kind": "order",
    "layout": "order",
@@ -136025,6 +137627,27 @@
    "uploaded": "2026-09-03T11:52:56-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T15:27:27Z"
+  },
+  "da9220d3-dfc0-41ed-8cc6-c116be71a571": {
+   "kind": "order",
+   "layout": "other",
+   "gross": 192.0,
+   "net": 163.2,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "2026KOKA JAMIE DAVIS FOR US SENATE INVOICE",
+   "uploaded": "2026-11-12T11:39:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "daa2697e-ef0f-4603-8298-c7c5806d3ce0": {
    "kind": "request",
@@ -139242,6 +140865,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:13:21Z"
   },
+  "e06599bf-8b17-474d-bf24-e6cff0ecef37": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 100.0,
+   "net": 85.0,
+   "agency": "Thematic Campaigns",
+   "advertiser": "POL/James Talarico/US Senate/TX/Dem",
+   "order_no": "5440844",
+   "invoice_no": "5440844-2",
+   "flight": [
+    "10/27/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTAL",
+   "path": "Political Files/2026/Federal/US Senate/James Talarico-United States Senate-Texas/Invoices",
+   "name": "KTAL James Talarico Est 212 Nov Invoice5440844-2",
+   "uploaded": "2026-11-12T14:01:13-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
+  },
   "e068b5a5-28c1-4cd1-adfb-a70388054cd6": {
    "kind": "other",
    "layout": "other",
@@ -139742,6 +141389,30 @@
    "uploaded": "2026-05-15T14:17:39-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:25:32Z"
+  },
+  "e119677a-6fc7-4cf4-a344-b010fd877493": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 15.0,
+   "net": 12.75,
+   "agency": "MCS Ad Agency - Mobile Communications Service",
+   "advertiser": "POL/Kharmen Davis-Taylor/City Court Judge/LA/Dem",
+   "order_no": "5448901",
+   "invoice_no": "5448901-2",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Local/Kharmen Davis Taylor-Shreveport City Judge-LA/Invoices",
+   "name": "KMSS Kharmen Taylor Davis Nov Invoice5448901-2",
+   "uploaded": "2026-11-12T13:57:48-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "e11f040e-d044-446c-b7b5-088d2acb84ae": {
    "kind": "order",
@@ -144257,6 +145928,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T01:53:09Z"
   },
+  "e8497db3-67f7-49a4-99bf-9be8fec09744": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7200.0,
+   "net": 6120.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Club For Growth Action",
+   "order_no": "25763",
+   "invoice_no": "25763-2",
+   "flight": [
+    "09/24/26",
+    "10/13/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "Club For Growth WBRP  25763-2",
+   "uploaded": "2026-11-10T09:01:44-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "e8524613-0d7c-403e-8193-10cb7a826033": {
    "kind": "order",
    "layout": "order",
@@ -144544,6 +146239,27 @@
    "uploaded": "2026-10-20T11:23:15-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T14:45:02Z"
+  },
+  "e89e4857-d310-4b23-b60b-045146d181f2": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "affy",
+   "advertiser": "TOM Attensaue foe AN 0",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA TOM ARCENEAUX FOR SHREVEPORT MAYOR 11-12",
+   "uploaded": "2026-11-12T12:17:52-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "e8b0d2c4-8322-4804-b355-40c95de30c2a": {
    "kind": "request",
@@ -147414,6 +149130,27 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "ee681bed-5599-45ac-b686-7f4a88ed714e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": false,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KOKA",
+   "path": "Political Files/2026/Local",
+   "name": "2026KOKA COMMITTEE TO RE-ELECT DA STEWART INVOICE",
+   "uploaded": "2026-11-12T11:41:02-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "ee73d250-b42a-42bc-80ab-6db9aae86134": {
    "kind": "request",
    "layout": "nab",
@@ -149273,6 +151010,30 @@
    "uploaded": "2026-04-29T18:21:24-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
+  },
+  "f1049ea5-af6e-4260-9749-5a29dcd8b991": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 640.0,
+   "net": 544.0,
+   "agency": "KATZ MEDIA GROUP",
+   "advertiser": "Blake Miguez for congress",
+   "order_no": "25788",
+   "invoice_no": "25788-1",
+   "flight": [
+    "09/29/26",
+    "10/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "WBRP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Miguez WBRP 25788-1",
+   "uploaded": "2026-11-10T09:03:53-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-13T03:38:34Z"
   },
   "f10e0280-6d87-4213-98e9-c833470d61ac": {
    "kind": "other",
@@ -151680,6 +153441,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T02:39:28Z"
   },
+  "f4c43c83-7270-4231-ab84-c0b3f1ab7a4b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 2360.0,
+   "net": 2006.0,
+   "agency": "Ourso Beychok",
+   "advertiser": "Decuir/D/Judge",
+   "order_no": "1646995",
+   "invoice_no": null,
+   "flight": [
+    "10/19/26",
+    "10/31/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Local",
+   "name": "1646995-Decuir_D_Judge-KQXL-FM-INVOICE OCT 2026",
+   "uploaded": "2026-11-12T04:08:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "f4c9a0a1-da6c-4b31-bcc1-e39e175fd9d6": {
    "kind": "other",
    "layout": "other",
@@ -153833,6 +155618,30 @@
    "uploaded": "2026-10-30T12:00:36-04:00",
    "name_kind": "other",
    "read_at": "2026-10-30T16:30:47Z"
+  },
+  "f87b609c-2c8a-4bb5-8e56-d66feef17bd3": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 30.0,
+   "net": 25.5,
+   "agency": "Canal Partners Media",
+   "advertiser": "POL/Jamie Davis/US Senate/LA/Dem",
+   "order_no": "5452330",
+   "invoice_no": "5452330-2",
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KMSS",
+   "path": "Political Files/2026/Federal/US Senate/Jamie Davis-United States Senate-Louisiana/Invoices",
+   "name": "KMSS Jamie Davis Est 15145 Nov Invoice5452330-2",
+   "uploaded": "2026-11-12T13:56:45-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:36:55Z"
   },
   "f87bf8a0-7209-483b-9eae-63e564eba861": {
    "kind": "invoice",
@@ -157281,6 +159090,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
   },
+  "feecbf45-fac0-49d5-99df-376b8000b20d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 160.0,
+   "net": 136.0,
+   "agency": "Marketing Blitz Ad Group, LLC",
+   "advertiser": "Davis/D/Senate",
+   "order_no": "1650309",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/01/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1650309-Davis_D_Senate-KQXLFM-INVOICE NOV 2026",
+   "uploaded": "2026-11-12T12:07:03-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-13T03:38:34Z"
+  },
   "fef92303-1ca8-409e-be85-b393dae51774": {
    "kind": "order",
    "layout": "order",
@@ -157917,6 +159750,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-12T19:16:21Z",
+ "updated": "2026-11-13T03:44:01Z",
  "blocked": null
 }
