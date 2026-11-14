@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "dbs",
- "scraped": "2026-11-13T18:45:21Z",
+ "scraped": "2026-11-14T03:31:34Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "DIRECTV",
    "root_folder": "23e667b6-8d7f-f8a8-baf0-bea543cb9364",
    "profile": "dbs-profile/directv",
-   "scraped_at": "2026-11-13T18:44:51Z",
+   "scraped_at": "2026-11-14T03:30:55Z",
    "year_folders": {
     "2016": "cf6bbbbc-5cde-3653-6860-e704bff0977c",
     "2017": "bf9175cf-ce6c-6a82-936c-c1fcf25304a8",
@@ -60,6 +60,42 @@
     "Political Files/2026/State/West Viriginia/Judge HL Kirkpatrick WV Supreme Court of Appeals": "e8fdcb07-62bb-bdba-8e3b-6af2b82e77dc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Louisiana/Steve Scalise LA CD1",
+     "name": "SCALISE FOR CONGRESS_OCT_AFF1314092_SYS 6979",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T19:07:08-05:00",
+     "folder_id": "c2061619-26c3-ad41-fdcd-cc76700ae3c6",
+     "file_id": "6353d6b9-ef8b-b27c-f0a6-fd2b531cea5b",
+     "file_manager_id": "dcc35085-66ce-4bfe-a4c5-41b24a384c03"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana/Hillar Moore IIIEast Baton Rouge Parish District Attorney",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1321488_SYS 9971",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:57:01-05:00",
+     "folder_id": "afecb7cb-da65-5461-bacc-39b8851dc89f",
+     "file_id": "e51c920a-a5d3-8516-4c44-0c6845c300ca",
+     "file_manager_id": "dae23570-af65-4eac-ab21-742dc209c13a"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana/Hillar Moore IIIEast Baton Rouge Parish District Attorney",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1312860_SYS 9971",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:57:00-05:00",
+     "folder_id": "afecb7cb-da65-5461-bacc-39b8851dc89f",
+     "file_id": "cb4c200c-3f85-d51e-3d7d-cd8b8bd612e4",
+     "file_manager_id": "058fd449-0463-411b-92ad-da19afe3ab07"
+    },
+    {
+     "path": "Political Files/2026/Local/Louisiana/Hillar Moore IIIEast Baton Rouge Parish District Attorney",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1330091_SYS 9971",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:57:00-05:00",
+     "folder_id": "afecb7cb-da65-5461-bacc-39b8851dc89f",
+     "file_id": "d2601642-ab48-25b4-bc30-36f954fa3ca4",
+     "file_manager_id": "ff8a6599-9b83-41d6-8bde-0c97e4266d36"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Louisiana/Steve Scalise LA CD1",
      "name": "SCALISE FOR CONGRESS_NAB_SYS6979_110426_1703",
@@ -2526,7 +2562,7 @@
    "facility_id": "DISH",
    "root_folder": "0decff56-6b88-8553-6a6c-d8ea5b8c88cf",
    "profile": "dbs-profile/dish",
-   "scraped_at": "2026-11-13T18:44:51Z",
+   "scraped_at": "2026-11-14T03:30:55Z",
    "year_folders": {
     "2017": "2116e862-6aa0-ef05-8a58-8a8771544205",
     "2018": "dd1fae49-69dc-ec53-067c-d03a7cf913ea",
@@ -2551,7 +2587,7 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "DIRECTV": "2026-11-13T18:44:51Z",
-  "DISH": "2026-11-13T18:44:51Z"
+  "DIRECTV": "2026-11-14T03:30:55Z",
+  "DISH": "2026-11-14T03:30:55Z"
  }
 }

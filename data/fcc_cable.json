@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-11-13T18:42:01Z",
+ "scraped": "2026-11-14T03:28:05Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -56,6 +56,7 @@
     "Political Files/2026/Non-Candidate Issue Ads/END PREDATOR ABUSE": "1aaebf1f-8f9b-af25-4b1b-4f76c4354403",
     "Political Files/2026/Non-Candidate Issue Ads/FIRST PRINCIPLES PAC": "3e4ea04a-57e3-2aa0-186f-a07500a8733b",
     "Political Files/2026/Non-Candidate Issue Ads/First Five Action": "9cdc2f17-8b29-bc00-9170-ac1a79e77f58",
+    "Political Files/2026/Non-Candidate Issue Ads/LA Conn Proj": "b2726b40-1fe0-1995-27db-8ae9036698ac",
     "Political Files/2026/Non-Candidate Issue Ads/LA First Victory Fund": "de75859c-93b4-3c36-edbb-b9a76f163597",
     "Political Files/2026/Non-Candidate Issue Ads/Louisiana Freedom Fund": "5023fbd3-b83d-03e3-cdfb-544f3c048b71",
     "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
@@ -69,6 +70,204 @@
     "Political Files/2026/State/Blair Downing": "8e29b69f-2097-3ec0-3f7b-4541361e65cc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Hillar Moore for DA",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1312918_SYS 0021",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:29:29-05:00",
+     "folder_id": "86bb0ca1-b2c8-e7e7-1d68-cecf5d6e8ba1",
+     "file_id": "c096b861-efac-e271-7295-d1e760965753",
+     "file_manager_id": "683413a5-6c20-490d-8c65-3edf902691e0"
+    },
+    {
+     "path": "Political Files/2026/Local/Hillar Moore for DA",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1321487_SYS 0021",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:29:28-05:00",
+     "folder_id": "86bb0ca1-b2c8-e7e7-1d68-cecf5d6e8ba1",
+     "file_id": "6afa72bf-d8c4-ec94-de27-1f80d0b14090",
+     "file_manager_id": "1a6b32d3-9f72-42ce-996f-b3b4159cdf0a"
+    },
+    {
+     "path": "Political Files/2026/Local/Hillar Moore for DA",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1330092_SYS 0021",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:29:28-05:00",
+     "folder_id": "86bb0ca1-b2c8-e7e7-1d68-cecf5d6e8ba1",
+     "file_id": "40931145-b343-775a-8dda-d82f2db38ef6",
+     "file_manager_id": "cd724907-4dfb-435c-9850-f7a1e004127c"
+    },
+    {
+     "path": "Political Files/2026/Local/Brad Cascio for DA",
+     "name": "BRAD CASCIO FOR DA - LOU_OCT_AFF1313299_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:24:11-05:00",
+     "folder_id": "01bdad42-1a29-9c50-ed2c-c37f2c1fc9e1",
+     "file_id": "701c9e46-6e40-4053-f9a4-f39d0678e65e",
+     "file_manager_id": "5005c390-938a-4589-9ed8-b5ba3b2f2c22"
+    },
+    {
+     "path": "Political Files/2026/Local/Brad Cascio for DA",
+     "name": "BRAD CASCIO FOR DA - LOU_OCT_AFF1313302_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:24:11-05:00",
+     "folder_id": "01bdad42-1a29-9c50-ed2c-c37f2c1fc9e1",
+     "file_id": "ebd0a49e-a50e-3d2d-9454-9ecfbddbb87e",
+     "file_manager_id": "c09d8f8d-1901-441d-921b-fa9f7fe22757"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack for DA",
+     "name": "SHERMAN MACK FOR DA_OCT_AFF1293847_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:23:22-05:00",
+     "folder_id": "853ad5e1-0103-13bc-4335-a71c02e43570",
+     "file_id": "b90d84b6-7570-e756-57dd-1804d8ca6508",
+     "file_manager_id": "b1c5bcd9-15ae-40eb-a9b8-8f287a694b72"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack for DA",
+     "name": "SHERMAN MACK FOR DA_OCT_AFF1293848_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:23:22-05:00",
+     "folder_id": "853ad5e1-0103-13bc-4335-a71c02e43570",
+     "file_id": "d5b34f45-eac6-29b6-6063-6ee01f9de816",
+     "file_manager_id": "ecb4e679-a552-4b2a-af99-d7a26e27d9be"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack for DA",
+     "name": "SHERMAN MACK FOR DA_OCT_AFF1293850_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:23:22-05:00",
+     "folder_id": "853ad5e1-0103-13bc-4335-a71c02e43570",
+     "file_id": "f4c35c96-c2b7-9a0a-45ff-519483ae936d",
+     "file_manager_id": "435e11ed-5801-44f7-9427-609901ea3c85"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/LA First Victory Fund",
+     "name": "LA FIRST VICTORY FUND_OCT_AFF1305800_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:21:34-05:00",
+     "folder_id": "de75859c-93b4-3c36-edbb-b9a76f163597",
+     "file_id": "93ba2967-ff41-6229-a6fc-95ad8a2541d5",
+     "file_manager_id": "d812dfd2-5a86-4334-b2ee-92cca7ea5c79"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmonds for Louisiana",
+     "name": "RICK EDMONDS FOR LOUISIANA NCC_OCT_AFF1313718_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:21:09-05:00",
+     "folder_id": "d86831c9-c54f-2f51-0e6d-c63f8e27af7d",
+     "file_id": "82221d5a-1ed9-4c58-8392-9a7061ea559f",
+     "file_manager_id": "a3ea6b97-29ba-4f6f-921f-78d6ab2571b8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmonds for Louisiana",
+     "name": "RICK EDMONDS FOR LOUISIANA NCC_OCT_AFF1322644_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:21:09-05:00",
+     "folder_id": "d86831c9-c54f-2f51-0e6d-c63f8e27af7d",
+     "file_id": "dc617216-e457-ea30-ee02-7b952badd93f",
+     "file_manager_id": "365385f5-57d7-4e7a-8721-97103c147d64"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_OCT_AFF1296745_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:19:49-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "9aa82e4c-a5c4-cac8-f3a2-4684253d12c0",
+     "file_manager_id": "8752355c-8439-48ff-96de-28bff2430a58"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_OCT_AFF1340196_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:19:49-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "db6cf3ec-50cc-c748-6ddd-06a68d485546",
+     "file_manager_id": "ae43d98c-2ee8-424a-82da-5b2039e97df0"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence",
+     "name": "CONSERVATIVES FOR AM. EXC. LOU_OCT_AFF1330275_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:18:50-05:00",
+     "folder_id": "93f93fc0-b942-e419-015d-494639df6145",
+     "file_id": "1d25dbd1-c662-fa04-d4b7-f6442e2a7cb9",
+     "file_manager_id": "559b7fff-a737-4f62-b259-830c0558da47"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence",
+     "name": "CONSERVATIVES FOR AM. EXC. LOU_OCT_AFF1336072_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:18:50-05:00",
+     "folder_id": "93f93fc0-b942-e419-015d-494639df6145",
+     "file_id": "6ce99e4a-f294-f71d-9c24-d24dc7146219",
+     "file_manager_id": "8f236a68-01d5-42e9-9fa2-c9596c356cfe"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/LA Conn Proj",
+     "name": "LA CONN PROJ 204032223-LOU_OCT_AFF1276135_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:17:56-05:00",
+     "folder_id": "b2726b40-1fe0-1995-27db-8ae9036698ac",
+     "file_id": "4e6f37fe-f74a-487d-e0dd-007b3b89934e",
+     "file_manager_id": "91284640-bb19-4d22-8488-99c31cc0863e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1313027_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:15:40-05:00",
+     "folder_id": "e6833ebb-fefc-8991-0b24-64cc6c0fd5a9",
+     "file_id": "280677a3-98a3-60a4-a4df-a7a33632704c",
+     "file_manager_id": "31f7526c-9c50-4dd9-ae0c-aca3353428e4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1325889_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:15:40-05:00",
+     "folder_id": "e6833ebb-fefc-8991-0b24-64cc6c0fd5a9",
+     "file_id": "4600dc58-227d-332f-5e6b-92c6ad2f13d8",
+     "file_manager_id": "af6362d0-db39-4392-a456-42959e45f10e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1304489_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "1ace3dfd-cfbd-7381-9f71-21967e70dded",
+     "file_manager_id": "accecff6-6e9d-4785-94a0-3edd19020319"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1312646_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "70f19536-e1e6-1062-fa53-b616f380e356",
+     "file_manager_id": "0d2a7ac1-fa3d-4590-8b12-24dbab18a45b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1321812_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "61a8850c-f9db-2b99-38e7-d341afe72683",
+     "file_manager_id": "4be37f31-db3c-4f9c-812c-a2367a9b98ba"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1329211_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "972ad531-41c2-187e-4536-daa418297644",
+     "file_manager_id": "985d8728-ff8a-42e5-81a3-3347239e53a8"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/SAVE OUR STATES ACTION",
      "name": "Save Our States NAB SYS 3996",
@@ -3183,7 +3382,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -165199,7 +165398,7 @@
    "facility_id": "008859",
    "root_folder": "e6e82b2f-5f52-dcb6-24b3-db9892f3b8c7",
    "profile": "cable-profile/008859",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "b409b0e9-e184-148f-37fb-c74ffab1792d",
     "2015": "463410f1-38de-7a68-3915-8fa6bfe7f3cf",
@@ -165227,7 +165426,7 @@
    "facility_id": "011859",
    "root_folder": "3b09de7a-f0ea-0c09-ee43-6f8b599aaec9",
    "profile": "cable-profile/011859",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "795cc9b3-331d-e394-30dc-f7d06d791312",
     "2015": "d3276ab7-cacb-db71-2d0e-ed0182c67c1d",
@@ -165255,7 +165454,7 @@
    "facility_id": "021784",
    "root_folder": "7a2ca2d1-7fe0-922a-f7bd-f5d60356b09c",
    "profile": "cable-profile/021784",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "77f830a0-05a9-d18d-3c5d-e60b8a0fe7b8",
     "2015": "7d2dcfab-597f-6425-3831-63e67b49247e",
@@ -165283,7 +165482,7 @@
    "facility_id": "003002",
    "root_folder": "9b53ba83-f024-1eb1-08f1-b2a2d9fbd5a2",
    "profile": "cable-profile/003002",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "5a2fce5a-a3eb-e879-14db-d7e240a5c972",
     "2015": "71187659-756e-7b6b-34cd-5825948db3c7",
@@ -165311,7 +165510,7 @@
    "facility_id": "013331",
    "root_folder": "ee6803f6-ee38-af14-4c58-98926abd167b",
    "profile": "cable-profile/013331",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "895ce967-4f67-8960-a06c-495975ae59f3",
     "2015": "c813abc4-bf12-1c55-2173-af910626f9c8",
@@ -165495,7 +165694,7 @@
    "facility_id": "014241",
    "root_folder": "bf7cf25c-b839-dbe6-8a09-883a9a826589",
    "profile": "cable-profile/014241",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "f7b587b6-46ff-01e1-2957-b9e515e6d99b",
     "2015": "73d7566c-2867-92f0-6598-4ca2cae748b8",
@@ -165523,7 +165722,7 @@
    "facility_id": "022377",
    "root_folder": "ff844076-790e-e736-aeac-7e795699af78",
    "profile": "cable-profile/022377",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "c161c065-a4a1-9f9e-2b51-81d8d6a3105d",
     "2015": "124fb855-412c-dd6f-12db-b552c4d24a41",
@@ -166290,7 +166489,7 @@
    "facility_id": "002247",
    "root_folder": "9be1dba7-f066-518a-0007-350a098c2d3b",
    "profile": "cable-profile/002247",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "2a6e7e67-56e1-012b-427f-c60e6e93219f",
     "2015": "c15bd8d1-ea83-efd3-0088-8b426bf7f030",
@@ -166318,7 +166517,7 @@
    "facility_id": "003376",
    "root_folder": "35696673-0532-826d-bbd0-fd86dd2fc8bd",
    "profile": "cable-profile/003376",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "43b2d375-2eeb-32fd-0adf-25a7ca6e7956",
     "2015": "8c65513f-be4f-13b9-657c-c93558ac377b",
@@ -166346,7 +166545,7 @@
    "facility_id": "004383",
    "root_folder": "079ce57f-f911-f7ec-3041-e2933f22bc71",
    "profile": "cable-profile/004383",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "423b6c9d-5251-407a-adc3-ad4dff61186f",
     "2015": "634829d0-474e-9216-6ee8-101cfd127bee",
@@ -166374,7 +166573,7 @@
    "facility_id": "008567",
    "root_folder": "e9d841d0-c257-facd-08d6-92308ea4f926",
    "profile": "cable-profile/008567",
-   "scraped_at": "2026-11-12T19:00:02Z",
+   "scraped_at": "2026-11-14T03:26:03Z",
    "year_folders": {
     "2014": "e3586980-e355-8b41-38c3-6ae23c953c37",
     "2015": "65efd0da-acfc-ff5a-a285-8376c2401386",
@@ -167578,25 +167777,21 @@
    "stale": false
   }
  ],
- "failed": [
-  "020573",
-  "004321",
-  "008564"
- ],
+ "failed": [],
  "unmatched": [],
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "002247": "2026-11-12T19:00:02Z",
-  "002460": "2026-11-13T03:31:20Z",
-  "003002": "2026-11-12T19:00:02Z",
+  "002247": "2026-11-14T03:26:03Z",
+  "002460": "2026-11-14T03:26:03Z",
+  "003002": "2026-11-14T03:26:03Z",
   "003084": "2026-11-13T03:31:20Z",
-  "003376": "2026-11-12T19:00:02Z",
+  "003376": "2026-11-14T03:26:03Z",
   "003478": "2026-11-13T03:31:20Z",
   "003680": "2026-11-13T18:33:45Z",
   "004289": "2026-11-13T03:31:20Z",
   "004321": "2026-11-13T18:33:45Z",
-  "004383": "2026-11-12T19:00:02Z",
+  "004383": "2026-11-14T03:26:03Z",
   "005142": "2026-11-13T18:33:45Z",
   "005143": "2026-11-13T18:33:45Z",
   "005341": "2026-11-13T18:33:45Z",
@@ -167604,25 +167799,25 @@
   "007033": "2026-11-13T18:33:45Z",
   "007036": "2026-11-13T03:31:20Z",
   "007052": "2026-11-13T18:33:45Z",
-  "008048": "2026-11-13T03:31:20Z",
+  "008048": "2026-11-14T03:26:03Z",
   "008273": "2026-11-13T03:31:20Z",
   "008277": "2026-11-13T03:31:20Z",
   "008564": "2026-11-13T18:33:45Z",
-  "008567": "2026-11-12T19:00:02Z",
+  "008567": "2026-11-14T03:26:03Z",
   "008691": "2026-11-13T18:33:45Z",
   "008858": "2026-11-13T03:31:20Z",
-  "008859": "2026-11-12T19:00:02Z",
+  "008859": "2026-11-14T03:26:03Z",
   "010036": "2026-11-13T18:33:45Z",
   "010740": "2026-11-13T03:31:20Z",
-  "011859": "2026-11-12T19:00:02Z",
-  "013331": "2026-11-12T19:00:02Z",
-  "014241": "2026-11-12T19:00:02Z",
+  "011859": "2026-11-14T03:26:03Z",
+  "013331": "2026-11-14T03:26:03Z",
+  "014241": "2026-11-14T03:26:03Z",
   "015650": "2026-11-13T03:31:20Z",
   "016728": "2026-11-13T18:33:45Z",
   "020573": "2026-11-13T18:33:45Z",
-  "021784": "2026-11-12T19:00:02Z",
+  "021784": "2026-11-14T03:26:03Z",
   "022095": "2026-11-13T03:31:20Z",
   "022352": "2026-11-13T03:31:20Z",
-  "022377": "2026-11-12T19:00:02Z"
+  "022377": "2026-11-14T03:26:03Z"
  }
 }
