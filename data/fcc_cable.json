@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-11-14T03:28:05Z",
+ "scraped": "2026-11-14T17:08:22Z",
  "years": [
   2026,
   2027
@@ -49011,7 +49011,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-11-12T03:58:35Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -51382,7 +51382,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-11-12T03:58:35Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -51417,6 +51417,141 @@
     "Political Files/2026/State/Campaign to Elect Will Keaty": "780b467a-bb6d-9820-f133-b22eac2e0d69"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Friends to Elect Bart Hebert",
+     "name": "FRIENDS TO ELECT BART HEBERT LA_OCT_AFF1322327_SYS 1983",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:34:33-05:00",
+     "folder_id": "ec5f1f30-a098-3b6a-f39e-bedf5a677057",
+     "file_id": "70e34526-b313-505f-25d6-b262a25a8ba5",
+     "file_manager_id": "7f73abae-c4e3-4935-81b4-9097caa1fdd0"
+    },
+    {
+     "path": "Political Files/2026/Local/Friends to Elect Bart Hebert",
+     "name": "FRIENDS TO ELECT BART HEBERT LA_OCT_AFF1322328_SYS 1983",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:34:33-05:00",
+     "folder_id": "ec5f1f30-a098-3b6a-f39e-bedf5a677057",
+     "file_id": "6c695a20-0193-73f8-9edc-8b1fe9d33017",
+     "file_manager_id": "483d0358-90b3-4c86-9aa3-7390b2eea2a6"
+    },
+    {
+     "path": "Political Files/2026/State/Campaign to Elect Will Keaty",
+     "name": "CAMPAIGN TO ELECT WILL KEATY_OCT_AFF1312570_SYS 1984",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:21:34-05:00",
+     "folder_id": "780b467a-bb6d-9820-f133-b22eac2e0d69",
+     "file_id": "2090acee-969f-1313-b016-7fda503c1f6c",
+     "file_manager_id": "447d4702-8050-4702-8aa8-0b83c72ab22e"
+    },
+    {
+     "path": "Political Files/2026/State/Campaign to Elect Will Keaty",
+     "name": "CAMPAIGN TO ELECT WILL KEATY_OCT_AFF1312578_SYS 1984",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:21:34-05:00",
+     "folder_id": "780b467a-bb6d-9820-f133-b22eac2e0d69",
+     "file_id": "7a103fc6-fbb1-7ead-4eb0-8945e30a73ea",
+     "file_manager_id": "b7d69594-96af-4e4a-b2db-268df76aa3c2"
+    },
+    {
+     "path": "Political Files/2026/State/Campaign to Elect Will Keaty",
+     "name": "CAMPAIGN TO ELECT WILL KEATY_OCT_AFF1328880_SYS 1984",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:21:34-05:00",
+     "folder_id": "780b467a-bb6d-9820-f133-b22eac2e0d69",
+     "file_id": "2fe153a6-9483-535a-1237-4b6dc715e493",
+     "file_manager_id": "65acf4d1-941c-4d53-a856-4f6c35060dad"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1313059_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:10:49-05:00",
+     "folder_id": "139ac43f-5448-8f71-326e-4e2f2ec7a890",
+     "file_id": "68e8cc32-9354-c832-cec2-78f36a42d640",
+     "file_manager_id": "b7c91af7-ef9b-4ad0-bcb3-b682ca9f64fa"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1325903_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:10:49-05:00",
+     "folder_id": "139ac43f-5448-8f71-326e-4e2f2ec7a890",
+     "file_id": "f0c53fc1-75f9-018f-cf90-8199aed81870",
+     "file_manager_id": "cbfc8c82-2cb3-4870-ab98-88c59920824b"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1305769_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "5d37c39d-2aa0-47d6-8c5b-c1ef1fa1342b",
+     "file_manager_id": "d813ad68-e97d-44e3-8079-0d4a9da8b750"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1307253_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "debcc77a-0dc6-fb21-3f37-41f7b09067c8",
+     "file_manager_id": "7e395b82-16d6-49fb-afe4-dcf014d575ab"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1321711_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "61c10f7f-35cf-aa2d-40ff-b8c7b2d8f9a4",
+     "file_manager_id": "987502de-33ab-4640-a2b3-0cd655131723"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1329976_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "773f7c31-9c53-d732-3453-14183f3d26f1",
+     "file_manager_id": "7af0904b-f4da-4341-b624-363c2fc153a1"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1305768_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "7c6393e2-6288-9160-19b5-fb95a67cb26c",
+     "file_manager_id": "4f791353-201d-4abc-9b62-e71741b6ab97"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1307255_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "6ad2608b-d4b3-46af-8a78-3a1bf2a7cc82",
+     "file_manager_id": "44aed7ec-31d5-4c48-921a-f15a8825b38e"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1321710_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "2efb63cc-f274-6dd9-d3c1-336400f7479e",
+     "file_manager_id": "b1778d24-9f38-4825-b46e-5d9a490d6e81"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1329679_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "7e6ac117-0896-f342-9628-20949ac5e90d",
+     "file_manager_id": "c73dd4bb-2c08-40b7-9386-2e3493b4c893"
+    },
     {
      "path": "Political Files/2026/Local/David Way For Judge",
      "name": "David Way_NAB_SYS 8644",
@@ -158998,7 +159133,7 @@
    "facility_id": "008277",
    "root_folder": "2832ec99-417b-76ad-1b9f-edc21774de0b",
    "profile": "cable-profile/008277",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "a18e838a-ec38-ea1c-d1b1-2171ce991250",
     "2015": "17bc185a-3e10-a22b-0b78-875ac38be47c",
@@ -159026,7 +159161,7 @@
    "facility_id": "010740",
    "root_folder": "78db5cfe-9e84-bc0d-ffbc-f183d3a456b0",
    "profile": "cable-profile/010740",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "e732cc2c-b053-61bf-d77b-c8c4327e41c7",
     "2015": "b8096ae6-6ef2-25d2-6e19-fd35ddc07e56",
@@ -159276,7 +159411,7 @@
    "facility_id": "007036",
    "root_folder": "497d7643-b970-0bbd-34f2-22ef01c30307",
    "profile": "cable-profile/007036",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "83005020-6e3b-ea2f-ab4d-9259a57550cf",
     "2015": "abbbdefb-fdb2-8043-116a-056e2471ae22",
@@ -159460,7 +159595,7 @@
    "facility_id": "003478",
    "root_folder": "f10c386d-50e2-15da-742b-eec67690a8c2",
    "profile": "cable-profile/003478",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "631b6243-963c-7c7d-9074-5e56b6223b42",
     "2015": "34ffdece-676f-c151-602b-def93572037d",
@@ -159526,6 +159661,60 @@
     "Political Files/2026/State/Monroe-El Dorado/State House/AMP - FIRMENT FOR CONGRESS": "287fa63b-e69b-5a75-cb0b-5077090d60e7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+     "name": "728316_Invoice_20261113084017",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:05:02-05:00",
+     "folder_id": "b1cc12d3-e372-0545-e94e-0089a3be4910",
+     "file_id": "83e54c13-289d-893b-0c27-476e7825feb3",
+     "file_manager_id": "8eea5fca-d62b-494c-8af0-342199e06969"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Monroe-El Dorado/PCA - JULIA LETLOW FOR LA",
+     "name": "728236_Invoice_20261113083732",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:59-05:00",
+     "folder_id": "48efd1f1-a351-97bf-42b5-bc9a1eeb87a3",
+     "file_id": "0b511d77-8ef7-d022-2c43-c64a2d339ff9",
+     "file_manager_id": "96233131-7f9b-4c3f-8080-ef585a2cfd85"
+    },
+    {
+     "path": "Political Files/2026/State/Monroe-El Dorado/District Judge/JANET FLOYD FOR JUDGE-LA",
+     "name": "728216_Invoice_20261113083730",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:57-05:00",
+     "folder_id": "e4063a48-1c14-e67a-8b42-209c7363c341",
+     "file_id": "0eec87f4-c958-df1d-6117-10211f4bc682",
+     "file_manager_id": "9ae0c4f4-75a6-49ee-a3bb-7f78a3271802"
+    },
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Miscellaneous Local Races/CHRIS LEWIS CAMPAIGN-LA",
+     "name": "727870_Invoice_20261113083323",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:54-05:00",
+     "folder_id": "463e75e5-e36d-03d6-f27c-4a9a15c1eade",
+     "file_id": "f30aa547-8342-b947-6e81-7e57ab52273a",
+     "file_manager_id": "a48e8ac1-ba3a-420e-9ba9-c414cf543f53"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727867_Invoice_20261113083321",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:51-05:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "e4f95d91-ab1a-46e1-a816-ddc65fab7c0d",
+     "file_manager_id": "8b690d3b-b9b8-4bd7-9b92-ed4f94d326a0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - CORDELL FOR CONGRESS",
+     "name": "726837_Invoice_20261113082757",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:46-05:00",
+     "folder_id": "8d93884a-7202-23fd-c32c-2dee93e1b1b8",
+     "file_id": "e3a28dc4-d4fb-cd80-13af-c3371b0ee1a4",
+     "file_manager_id": "a09bb445-0977-4daa-97e0-d4a6d75f506d"
+    },
     {
      "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
      "name": "728315_Invoice_20261106085008",
@@ -162928,7 +163117,7 @@
    "facility_id": "004289",
    "root_folder": "cdee00c3-64fb-d199-4d4c-b71dd549a187",
    "profile": "cable-profile/004289",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "7afb2700-6530-4729-cae5-f74e96799b7c",
     "2015": "bbb92733-60e2-8e21-a6d2-e86039043540",
@@ -165230,7 +165419,7 @@
    "facility_id": "008858",
    "root_folder": "d510e6a7-4f45-a0d3-a76c-5a1f573d52d5",
    "profile": "cable-profile/008858",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "997d5c72-4c87-f06a-8178-94aeac54846f",
     "2015": "2f687d40-8d29-ebb3-6ef7-e46b2248fad6",
@@ -165258,7 +165447,7 @@
    "facility_id": "022095",
    "root_folder": "19aabc03-6246-dd44-3b54-c7e3fa0318e4",
    "profile": "cable-profile/022095",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "8f10b9f9-1f5e-4161-11f9-8e2faee2c017",
     "2015": "bbd41ad1-06c8-15be-a0f0-89c62f3cf1fb",
@@ -165286,7 +165475,7 @@
    "facility_id": "008273",
    "root_folder": "b0dbee07-8242-11d0-1d0c-3704b85765ef",
    "profile": "cable-profile/008273",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "d0be6a3e-3a52-b2aa-fa90-cc0bdf31b7ca",
     "2015": "f1905e9a-6684-17ce-1409-70701d415730",
@@ -165314,7 +165503,7 @@
    "facility_id": "015650",
    "root_folder": "ea41c606-547e-a802-a0d8-c11fa743eef0",
    "profile": "cable-profile/015650",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "b6c925cf-f344-5015-992d-19d7dbac98a7",
     "2015": "a6ead5f3-cfc2-4959-2c20-47282575a66a",
@@ -165342,7 +165531,7 @@
    "facility_id": "003084",
    "root_folder": "5bd9755d-b4bc-f5f5-1e8b-9defd8ac2ade",
    "profile": "cable-profile/003084",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "fa79c064-f3b3-63a1-ea2a-ab9e972cc57a",
     "2015": "7e8133cc-d8c2-0331-f552-f9ed6d3f88db",
@@ -167754,7 +167943,7 @@
    "facility_id": "022352",
    "root_folder": "e690a879-3fcc-1cfc-0fff-d8487d6bb612",
    "profile": "cable-profile/022352",
-   "scraped_at": "2026-11-13T03:31:20Z",
+   "scraped_at": "2026-11-14T17:06:03Z",
    "year_folders": {
     "2014": "926e4127-94ee-dea9-3a6e-0c503c9c31f8",
     "2015": "6a44a346-37c7-9c0d-a7fd-f6df8d97724b",
@@ -167785,39 +167974,39 @@
   "002247": "2026-11-14T03:26:03Z",
   "002460": "2026-11-14T03:26:03Z",
   "003002": "2026-11-14T03:26:03Z",
-  "003084": "2026-11-13T03:31:20Z",
+  "003084": "2026-11-14T17:06:03Z",
   "003376": "2026-11-14T03:26:03Z",
-  "003478": "2026-11-13T03:31:20Z",
+  "003478": "2026-11-14T17:06:03Z",
   "003680": "2026-11-13T18:33:45Z",
-  "004289": "2026-11-13T03:31:20Z",
-  "004321": "2026-11-13T18:33:45Z",
+  "004289": "2026-11-14T17:06:03Z",
+  "004321": "2026-11-14T17:06:03Z",
   "004383": "2026-11-14T03:26:03Z",
   "005142": "2026-11-13T18:33:45Z",
   "005143": "2026-11-13T18:33:45Z",
   "005341": "2026-11-13T18:33:45Z",
   "006379": "2026-11-13T18:33:45Z",
   "007033": "2026-11-13T18:33:45Z",
-  "007036": "2026-11-13T03:31:20Z",
+  "007036": "2026-11-14T17:06:03Z",
   "007052": "2026-11-13T18:33:45Z",
   "008048": "2026-11-14T03:26:03Z",
-  "008273": "2026-11-13T03:31:20Z",
-  "008277": "2026-11-13T03:31:20Z",
+  "008273": "2026-11-14T17:06:03Z",
+  "008277": "2026-11-14T17:06:03Z",
   "008564": "2026-11-13T18:33:45Z",
   "008567": "2026-11-14T03:26:03Z",
   "008691": "2026-11-13T18:33:45Z",
-  "008858": "2026-11-13T03:31:20Z",
+  "008858": "2026-11-14T17:06:03Z",
   "008859": "2026-11-14T03:26:03Z",
   "010036": "2026-11-13T18:33:45Z",
-  "010740": "2026-11-13T03:31:20Z",
+  "010740": "2026-11-14T17:06:03Z",
   "011859": "2026-11-14T03:26:03Z",
   "013331": "2026-11-14T03:26:03Z",
   "014241": "2026-11-14T03:26:03Z",
-  "015650": "2026-11-13T03:31:20Z",
+  "015650": "2026-11-14T17:06:03Z",
   "016728": "2026-11-13T18:33:45Z",
-  "020573": "2026-11-13T18:33:45Z",
+  "020573": "2026-11-14T17:06:03Z",
   "021784": "2026-11-14T03:26:03Z",
-  "022095": "2026-11-13T03:31:20Z",
-  "022352": "2026-11-13T03:31:20Z",
+  "022095": "2026-11-14T17:06:03Z",
+  "022352": "2026-11-14T17:06:03Z",
   "022377": "2026-11-14T03:26:03Z"
  }
 }
