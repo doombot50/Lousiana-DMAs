@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-11-14T17:08:22Z",
+ "scraped": "2026-11-15T02:51:15Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-11-14T03:26:03Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -3382,7 +3382,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-11-14T03:26:03Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -53478,7 +53478,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-11-12T03:58:35Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -56118,7 +56118,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -105995,7 +105995,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -106045,6 +106045,60 @@
     "Political Files/2026/Non-Candidate Issue Ads/READY FOR THE FIGHT": "c1879867-f46e-a391-0389-bf727eec369b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise for Congress",
+     "name": "SCALISE FOR CONGRESS_OCT_AFF1314092_SYS 6979",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:13:34-05:00",
+     "folder_id": "30780c7e-55da-3a1f-3e97-07cde5456c97",
+     "file_id": "417e0afb-02b5-59d4-2c80-631847057f90",
+     "file_manager_id": "c1803d3b-8eec-463d-a7d7-95a4e7daaf61"
+    },
+    {
+     "path": "Political Files/2026/Local/Joe McMahon for Judge",
+     "name": "JOE MCMAHON FOR JUDGE_OCT_AFF1322733_SYS 0222 1758",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:05:07-05:00",
+     "folder_id": "95b7a31a-961c-53b2-9902-25a3f9973662",
+     "file_id": "40554ab1-5340-87a8-35b4-883bc504cc62",
+     "file_manager_id": "52afd88b-ce47-4518-a594-06a7df520aaf"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "MIKE MARSIGLIA_OCT_AFF1319185_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:04:33-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "8a0efb22-7dbb-2c33-1d48-929a2f8f984c",
+     "file_manager_id": "e81cbaa4-5848-4c87-9a61-2e91d8d37227"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "MIKE MARSIGLIA_OCT_AFF1329315_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:04:33-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "e6edf61d-ba73-dce7-1b00-5c6e844d22b3",
+     "file_manager_id": "b8fcdb85-c9c0-42c6-841c-7af00fbc87f0"
+    },
+    {
+     "path": "Political Files/2026/Local/Comm to Elect Candace Newell",
+     "name": "COMM TO ELECT CANDACE NEWELL_OCT_AFF1330186_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:03:40-05:00",
+     "folder_id": "415e8b88-794a-e501-0686-a9dd3c579ec2",
+     "file_id": "f5937693-c8f4-ff96-058e-5c97885b24db",
+     "file_manager_id": "ca3df16a-bd35-4acc-b204-67f07de3173b"
+    },
+    {
+     "path": "Political Files/2026/Local/Committee to Elect Sal Brocato",
+     "name": "SAL BROCATO_OCT_AFF1322784_SYS 0222 1758",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:02:57-05:00",
+     "folder_id": "438bba8f-0561-358d-210c-c0123be88b00",
+     "file_id": "1623ccc5-7961-ed39-dde0-3c38ff7107b8",
+     "file_manager_id": "a2e24eef-dfe4-4eaf-b69d-af77f977269c"
+    },
     {
      "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
      "name": "Mike Marsiglia NAB SYS 0222_110426_1702",
@@ -108034,7 +108088,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -108062,7 +108116,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -108184,7 +108238,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -108212,7 +108266,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -108354,7 +108408,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -108382,7 +108436,7 @@
    "facility_id": "010036",
    "root_folder": "1569c0cf-22e8-5bfe-35c8-aa1751a93e93",
    "profile": "cable-profile/010036",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "37a24c7e-e732-7ebf-e445-782fc93ad929",
     "2015": "f30b4203-8b55-941b-24f0-e7e10eee6ce9",
@@ -108410,7 +108464,7 @@
    "facility_id": "005143",
    "root_folder": "0aadd1d9-9176-4a37-67a8-0b457f583cf8",
    "profile": "cable-profile/005143",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2017": "91a92350-cbba-d47a-c21b-b72f0306ab77",
     "2018": "25db26c6-f423-128b-b09a-57ed4a1f00a8",
@@ -165559,7 +165613,7 @@
    "facility_id": "008691",
    "root_folder": "b333af19-3860-a6e6-fea2-b097c8104064",
    "profile": "cable-profile/008691",
-   "scraped_at": "2026-11-13T18:33:45Z",
+   "scraped_at": "2026-11-15T02:49:33Z",
    "year_folders": {
     "2014": "24c8f34b-4570-501a-5b70-e560d6e97588",
     "2015": "2a4bf7fe-30f5-9441-2411-1e7f1f354697",
@@ -167972,37 +168026,37 @@
  "blocked": null,
  "attempted": {
   "002247": "2026-11-14T03:26:03Z",
-  "002460": "2026-11-14T03:26:03Z",
+  "002460": "2026-11-15T02:49:33Z",
   "003002": "2026-11-14T03:26:03Z",
   "003084": "2026-11-14T17:06:03Z",
   "003376": "2026-11-14T03:26:03Z",
   "003478": "2026-11-14T17:06:03Z",
-  "003680": "2026-11-13T18:33:45Z",
+  "003680": "2026-11-15T02:49:33Z",
   "004289": "2026-11-14T17:06:03Z",
   "004321": "2026-11-14T17:06:03Z",
   "004383": "2026-11-14T03:26:03Z",
-  "005142": "2026-11-13T18:33:45Z",
-  "005143": "2026-11-13T18:33:45Z",
-  "005341": "2026-11-13T18:33:45Z",
-  "006379": "2026-11-13T18:33:45Z",
-  "007033": "2026-11-13T18:33:45Z",
+  "005142": "2026-11-15T02:49:33Z",
+  "005143": "2026-11-15T02:49:33Z",
+  "005341": "2026-11-15T02:49:33Z",
+  "006379": "2026-11-15T02:49:33Z",
+  "007033": "2026-11-15T02:49:33Z",
   "007036": "2026-11-14T17:06:03Z",
-  "007052": "2026-11-13T18:33:45Z",
-  "008048": "2026-11-14T03:26:03Z",
+  "007052": "2026-11-15T02:49:33Z",
+  "008048": "2026-11-15T02:49:33Z",
   "008273": "2026-11-14T17:06:03Z",
   "008277": "2026-11-14T17:06:03Z",
-  "008564": "2026-11-13T18:33:45Z",
+  "008564": "2026-11-15T02:49:33Z",
   "008567": "2026-11-14T03:26:03Z",
-  "008691": "2026-11-13T18:33:45Z",
+  "008691": "2026-11-15T02:49:33Z",
   "008858": "2026-11-14T17:06:03Z",
   "008859": "2026-11-14T03:26:03Z",
-  "010036": "2026-11-13T18:33:45Z",
+  "010036": "2026-11-15T02:49:33Z",
   "010740": "2026-11-14T17:06:03Z",
   "011859": "2026-11-14T03:26:03Z",
   "013331": "2026-11-14T03:26:03Z",
   "014241": "2026-11-14T03:26:03Z",
   "015650": "2026-11-14T17:06:03Z",
-  "016728": "2026-11-13T18:33:45Z",
+  "016728": "2026-11-15T02:49:33Z",
   "020573": "2026-11-14T17:06:03Z",
   "021784": "2026-11-14T03:26:03Z",
   "022095": "2026-11-14T17:06:03Z",
