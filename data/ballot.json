@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-16T02:51:38Z",
+"fetched": "2026-11-16T21:01:48Z",
 "source": "Louisiana Secretary of State, voterportal.sos.la.gov election results",
 "elections": [
 {
@@ -20462,8 +20462,2953 @@
 },
 {
 "date": "2026-12-12",
-"posted": false,
-"races": []
+"posted": true,
+"races": [
+{
+"id": "mp:71423",
+"office": "U. S. Representative -- 5th Congressional District",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Gabe Firment",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Patricia Pat Moore",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71424",
+"office": "U. S. Representative -- 6th Congressional District",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Chauna Banks",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Blake Miguez",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:70170",
+"office": "State Senator -- 14th Senatorial District",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Cleo Fields",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Joel Porter",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71331",
+"office": "District Judge -- 12th Judicial District Court, Division B",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Barry Laiche",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Elizabeth Williams",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71332",
+"office": "District Judge -- 18th Judicial District Court, ES 1, Div. C",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Lori White",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Victor Woods, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71333",
+"office": "District Judge -- 22nd Judicial District Court, Division G",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Ben Clayton",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Amanda A. Trosclair",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71334",
+"office": "District Judge -- 27th Judicial District Court, ES 1, Div. C",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Charlee Renaud Lear",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Ogden L. Pitre",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71335",
+"office": "District Judge -- 30th Judicial District Court, Division C",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Lisa Nelson",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Cindy Poston Lavespere",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71329",
+"office": "District Attorney -- 2nd Judicial District Court",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Colby Bowman",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Rick Warren",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71330",
+"office": "District Attorney -- 31st Judicial District Court",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Lauren Heinen",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Richard Ric Oustalet, Jr.",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71303",
+"office": "City Judge, City Court -- Election Dist. 2, Div. D, City of Shreveport",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Kharmen Davis-Taylor",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Sheva Sims",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71352",
+"office": "Mayor -- City of Shreveport",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Tom Arceneaux",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Stormy Gage Watts",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "mp:71321",
+"office": "Councilman -- District F, City of Shreveport",
+"parish": null,
+"elect": 1,
+"candidates": [
+{
+"name": "Billy Roy Anderson, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Lester Smith",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Acadia:71385",
+"office": "Acadia Parish Member of School Board -- District 3",
+"parish": "Acadia",
+"elect": 1,
+"candidates": [
+{
+"name": "James Jimbo Armentor",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tonya Breaux",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Allen:71362",
+"office": "Mayor -- Town of Kinder",
+"parish": "Allen",
+"elect": 1,
+"candidates": [
+{
+"name": "Wayland Lafargue",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Angie Weatherford Van Norman",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Allen:71299",
+"office": "Chief of Police -- Village of Reeves",
+"parish": "Allen",
+"elect": 1,
+"candidates": [
+{
+"name": "Waylin Bertrand",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mick Estay",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Allen:71317",
+"office": "Council Member -- District 2, Town of Kinder",
+"parish": "Allen",
+"elect": 1,
+"candidates": [
+{
+"name": "Brian Courville",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Maria C. Dewees",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Ascension:71375",
+"office": "Ascension Parish Member of School Board -- District 1",
+"parish": "Ascension",
+"elect": 1,
+"candidates": [
+{
+"name": "Vera Jones",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Michael Wright",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Ascension:71393",
+"office": "Ascension Parish Member of School Board -- District 6, Seat B",
+"parish": "Ascension",
+"elect": 1,
+"candidates": [
+{
+"name": "Sandra Denham-Lightfoot",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Bart Himel",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Assumption:71418",
+"office": "Assumption Parish Member of School Board -- Ward 1",
+"parish": "Assumption",
+"elect": 1,
+"candidates": [
+{
+"name": "Andrea Peaches Johnson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Patrick Lawless",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Assumption:71336",
+"office": "Assumption Parish Justice of the Peace -- 1st Justice of the Peace Ward",
+"parish": "Assumption",
+"elect": 1,
+"candidates": [
+{
+"name": "Lakisha Knockum Harris",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Daryl Ovide",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Avoyelles:71365",
+"office": "Mayor -- Town of Mansura",
+"parish": "Avoyelles",
+"elect": 1,
+"candidates": [
+{
+"name": "Sterling Hayes, Sr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Kenneth Pickett, Sr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Beauregard:71307",
+"office": "Beauregard Parish Constable -- Justice of the Peace District 4",
+"parish": "Beauregard",
+"elect": 1,
+"candidates": [
+{
+"name": "Tony Deville",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Danny Reeves",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Bienville:71420",
+"office": "Bienville Parish Police Juror -- District 2",
+"parish": "Bienville",
+"elect": 1,
+"candidates": [
+{
+"name": "Jerrica Roberson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Triveria Vernon Roberson",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Bienville:71353",
+"office": "Mayor -- Town of Arcadia",
+"parish": "Bienville",
+"elect": 1,
+"candidates": [
+{
+"name": "O'landis Bubba Millican",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Joseph Pruitt, Jr.",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Bienville:71316",
+"office": "Council Member -- District 3, Town of Arcadia",
+"parish": "Bienville",
+"elect": 1,
+"candidates": [
+{
+"name": "Michelle Thomas Abney",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jesse Eugene Smith",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Caddo:71381",
+"office": "Caddo Parish Member of School Board -- District 2",
+"parish": "Caddo",
+"elect": 1,
+"candidates": [
+{
+"name": "Marvkevea Campbell",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Kenneth J. Coutee",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Caddo:71388",
+"office": "Caddo Parish Member of School Board -- District 5",
+"parish": "Caddo",
+"elect": 1,
+"candidates": [
+{
+"name": "Courtney N. Harris",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Karla A. McCulloch",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Caddo:71392",
+"office": "Caddo Parish Member of School Board -- District 6",
+"parish": "Caddo",
+"elect": 1,
+"candidates": [
+{
+"name": "Dana Fergins-Hawthorne",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Cleveland Mouton III",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Caddo:71405",
+"office": "Caddo Parish Member of School Board -- District 12",
+"parish": "Caddo",
+"elect": 1,
+"candidates": [
+{
+"name": "Larry Wilson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Sheila Crosby Wimberly",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Calcasieu:71359",
+"office": "Mayor -- Town of Iowa",
+"parish": "Calcasieu",
+"elect": 1,
+"candidates": [
+{
+"name": "Jordan Manela",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brian Shakey Schexnayder",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Caldwell:71407",
+"office": "Caldwell Parish Member of School Board -- District 4",
+"parish": "Caldwell",
+"elect": 1,
+"candidates": [
+{
+"name": "Tamela Tammy King",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Laura Roquemore",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Caldwell:71367",
+"office": "Mayor -- Village of Grayson",
+"parish": "Caldwell",
+"elect": 1,
+"candidates": [
+{
+"name": "Hannah Masoner Sinclair",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Wanda Stowe",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Catahoula:71378",
+"office": "Catahoula Parish Member of School Board -- District 2",
+"parish": "Catahoula",
+"elect": 1,
+"candidates": [
+{
+"name": "Christopher Ahmed",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Larry Gadson, Jr.",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Claiborne:71421",
+"office": "Selectman -- District 1, Town of Homer",
+"parish": "Claiborne",
+"elect": 1,
+"candidates": [
+{
+"name": "Barbara Morris",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Kuwayna Frazier Williams",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Concordia:71402",
+"office": "Concordia Parish Member of School Board -- District 1, Place A",
+"parish": "Concordia",
+"elect": 1,
+"candidates": [
+{
+"name": "Ernetria Netria Banks",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Glenn Henderson",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "De Soto:71374",
+"office": "De Soto Parish Member of School Board -- District 1",
+"parish": "De Soto",
+"elect": 1,
+"candidates": [
+{
+"name": "Kennie W. Barkley",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brent Gibson",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "De Soto:71403",
+"office": "De Soto Parish Member of School Board -- District 10",
+"parish": "De Soto",
+"elect": 1,
+"candidates": [
+{
+"name": "Roddrick Mr. No No Davis",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Clinton Fuller",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71379",
+"office": "East Baton Rouge Parish Member of School Board -- District 2",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Tristan J. George",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Vereta Lee",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71382",
+"office": "East Baton Rouge Parish Member of School Board -- District 3",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Thomasina Joseph",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Carla Powell",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71387",
+"office": "Member of School Board -- District 3, City of Baker",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Joyce Burges",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Gerald Gee Collins II",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71391",
+"office": "Member of School Board -- District 5, City of Baker",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Sherri Hill Collins",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brenda G. Jackson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71394",
+"office": "East Baton Rouge Parish Member of School Board -- District 7",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Hannah Amoroso",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Michael Vincent",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71342",
+"office": "East Baton Rouge Parish Justice of the Peace -- Justice of the Peace, District 4",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Taneshia Flowers",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "C. Denise Marcelle",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71343",
+"office": "East Baton Rouge Parish Justice of the Peace -- Justice of the Peace, District 5",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Franchesca Rich Brandon",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "J. Andrew Murrell",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71344",
+"office": "East Baton Rouge Parish Justice of the Peace -- Justice of the Peace, District 6",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Toni Higginbotham",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jen Racca",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71315",
+"office": "East Baton Rouge Parish Constable -- Justice of the Peace, District 3",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Sheila Freeman",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Gordon Hutchinson, Jr.",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71348",
+"office": "Mayor -- City of Central",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Aaron Moak",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Lon Vicknair",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71294",
+"office": "Chief of Police -- City of Central",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Roger Corcoran",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Larry Lew Walters, Jr.",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Baton Rouge:71322",
+"office": "Councilman -- District 2, City of Zachary",
+"parish": "East Baton Rouge",
+"elect": 1,
+"candidates": [
+{
+"name": "Devyn Baker, Sr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "John LeBlanc",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Carroll:71383",
+"office": "East Carroll Parish Member of School Board -- District 3",
+"parish": "East Carroll",
+"elect": 1,
+"candidates": [
+{
+"name": "Sharon Foster",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Travis Red Jackson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Carroll:71363",
+"office": "Mayor -- Town of Lake Providence",
+"parish": "East Carroll",
+"elect": 1,
+"candidates": [
+{
+"name": "Jason Condrey",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tony A. Hampton",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Carroll:71298",
+"office": "Chief of Police -- Town of Lake Providence",
+"parish": "East Carroll",
+"elect": 1,
+"candidates": [
+{
+"name": "Eugene Styron",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Michael Threats",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Carroll:71290",
+"office": "Aldermen -- Town of Lake Providence",
+"parish": "East Carroll",
+"elect": 1,
+"candidates": [
+{
+"name": "Charlene Dorsey Bailey",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Patrick Shane Henderson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Karl Magee",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "James Oscar Thornton V",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Feliciana:71308",
+"office": "East Feliciana Parish Constable -- Justice of the Peace District 2",
+"parish": "East Feliciana",
+"elect": 1,
+"candidates": [
+{
+"name": "Clifton Cliff Morris",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Kimmi Sellers",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "East Feliciana:71360",
+"office": "Mayor -- Town of Jackson",
+"parish": "East Feliciana",
+"elect": 1,
+"candidates": [
+{
+"name": "Dane Brown",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Rafe Stewart",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Evangeline:71366",
+"office": "Mayor -- Village of Chataignier",
+"parish": "Evangeline",
+"elect": 1,
+"candidates": [
+{
+"name": "Justin Darbonne",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Henry James Watson",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Evangeline:71279",
+"office": "Alderman -- District 2, Town of Mamou",
+"parish": "Evangeline",
+"elect": 1,
+"candidates": [
+{
+"name": "Darrel Bellard",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brook Chapman",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Iberville:71373",
+"office": "Iberville Parish Member of School Board -- At large",
+"parish": "Iberville",
+"elect": 1,
+"candidates": [
+{
+"name": "Becky Sue Bickham Landry",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Demetrius Franklin",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Iberville:71416",
+"office": "Iberville Parish Member of School Board -- District C",
+"parish": "Iberville",
+"elect": 1,
+"candidates": [
+{
+"name": "Ursula F. Harris",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Cindy Wille Prouty",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Iberville:71311",
+"office": "Iberville Parish Constable -- Justice of the Peace Ward 2",
+"parish": "Iberville",
+"elect": 1,
+"candidates": [
+{
+"name": "Stephenia Sue Jackson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Robert Tircuit",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Iberville:71314",
+"office": "Iberville Parish Constable -- Justice of the Peace Ward 5",
+"parish": "Iberville",
+"elect": 1,
+"candidates": [
+{
+"name": "Brent Carline",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Hayden Morales",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jackson:71395",
+"office": "Jackson Parish Member of School Board -- District 7",
+"parish": "Jackson",
+"elect": 1,
+"candidates": [
+{
+"name": "Ryan Leach",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Angie Robinson",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jackson:71368",
+"office": "Mayor -- Village of Hodge",
+"parish": "Jackson",
+"elect": 1,
+"candidates": [
+{
+"name": "Martha Buchan",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Gerald Thomas Palmer",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jackson:71288",
+"office": "Alderman at Large -- Town of Jonesboro",
+"parish": "Jackson",
+"elect": 1,
+"candidates": [
+{
+"name": "Nita Cooper Hayes",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Nia Evans Watkins",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jackson:71284",
+"office": "Alderman -- District C, Town of Jonesboro",
+"parish": "Jackson",
+"elect": 1,
+"candidates": [
+{
+"name": "Katrina Bradford",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Robert Hunter",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jackson:71292",
+"office": "Aldermen -- Village of Hodge",
+"parish": "Jackson",
+"elect": 1,
+"candidates": [
+{
+"name": "Linda Kirkendoff",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Willard Willis",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jefferson:71410",
+"office": "Jefferson Parish Member of School Board -- District 5",
+"parish": "Jefferson",
+"elect": 1,
+"candidates": [
+{
+"name": "Simeon Dickerson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Dionne Nichols-Condoll",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jefferson Davis:71398",
+"office": "Jefferson Davis Parish Member of School Board -- District 9",
+"parish": "Jefferson Davis",
+"elect": 1,
+"candidates": [
+{
+"name": "Malcolm Mac Bertrand",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brandon Kelley",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Jefferson Davis:71356",
+"office": "Mayor -- Town of Elton",
+"parish": "Jefferson Davis",
+"elect": 1,
+"candidates": [
+{
+"name": "Marilynn Broussard Moore",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mike Pierrotti",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Lafayette:71301",
+"office": "City Judge -- City Court, Division B, City of Lafayette",
+"parish": "Lafayette",
+"elect": 1,
+"candidates": [
+{
+"name": "James Klock",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Emilia Pardo",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Lafayette:71347",
+"office": "Mayor -- City of Carencro",
+"parish": "Lafayette",
+"elect": 1,
+"candidates": [
+{
+"name": "Charlotte Stemmans Clavier",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Eric Knight",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Lincoln:71300",
+"office": "City Judge -- City Court, City of Ruston",
+"parish": "Lincoln",
+"elect": 1,
+"candidates": [
+{
+"name": "Addison Add Goff",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mike Smith",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Livingston:71349",
+"office": "Mayor -- City of Denham Springs",
+"parish": "Livingston",
+"elect": 1,
+"candidates": [
+{
+"name": "Jim Gilbert",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Ben Harris",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Madison:71384",
+"office": "Madison Parish Member of School Board -- District 3",
+"parish": "Madison",
+"elect": 1,
+"candidates": [
+{
+"name": "Artis Brown",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Eddie Fountain, Sr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Morehouse:71380",
+"office": "Morehouse Parish Member of School Board -- District 2",
+"parish": "Morehouse",
+"elect": 1,
+"candidates": [
+{
+"name": "Charles Bradford",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Willie Wet Robinson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Natchitoches:71396",
+"office": "Natchitoches Parish Member of School Board -- District 8",
+"parish": "Natchitoches",
+"elect": 1,
+"candidates": [
+{
+"name": "Chris Bush",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Linda Davidson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Natchitoches:71296",
+"office": "Chief of Police -- Town of Campti",
+"parish": "Natchitoches",
+"elect": 1,
+"candidates": [
+{
+"name": "Rickey Armstead",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Quatashia Shae Phillips",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Ouachita:71415",
+"office": "Member of School Board -- District 7, City of Monroe",
+"parish": "Ouachita",
+"elect": 1,
+"candidates": [
+{
+"name": "Jennifer Newman",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brenda Shelling",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Ouachita:71340",
+"office": "Ouachita Parish Justice of the Peace -- Justice of the Peace Ward 2",
+"parish": "Ouachita",
+"elect": 1,
+"candidates": [
+{
+"name": "Mark Booth",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brenda Roy",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Plaquemines:71419",
+"office": "Plaquemines Parish President",
+"parish": "Plaquemines",
+"elect": 1,
+"candidates": [
+{
+"name": "W. Keith Hinkley",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Benedict Benny Rousselle",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Plaquemines:71369",
+"office": "Plaquemines Parish Member of Parish Council -- District 4",
+"parish": "Plaquemines",
+"elect": 1,
+"candidates": [
+{
+"name": "David R. Clark",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Scott R. Rousselle",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Plaquemines:71370",
+"office": "Plaquemines Parish Member of Parish Council -- District 6",
+"parish": "Plaquemines",
+"elect": 1,
+"candidates": [
+{
+"name": "Rick Jackson",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Lloyd Ronnie Newsom, Jr.",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Plaquemines:71371",
+"office": "Plaquemines Parish Member of Parish Council -- District 7",
+"parish": "Plaquemines",
+"elect": 1,
+"candidates": [
+{
+"name": "Nerissa A. Antoine",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jessie Isidore, Jr.",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Plaquemines:71372",
+"office": "Plaquemines Parish Member of Parish Council -- District 9",
+"parish": "Plaquemines",
+"elect": 1,
+"candidates": [
+{
+"name": "Cody Bulot",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Meda J. Prout",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Plaquemines:71338",
+"office": "Plaquemines Parish Justice of the Peace -- Justice of the Peace Ward 6",
+"parish": "Plaquemines",
+"elect": 1,
+"candidates": [
+{
+"name": "Mary Fay Legnon",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Wilbert J. Willie Wilcox, Jr.",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Pointe Coupee:71318",
+"office": "Council Member at Large -- City of New Roads",
+"parish": "Pointe Coupee",
+"elect": 1,
+"candidates": [
+{
+"name": "Cleotha Johnigan, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Shael Stringer",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71417",
+"office": "Rapides Parish Member of School Board -- District D",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Thomas D. Sands",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Frances Tennie",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71310",
+"office": "Rapides Parish Constable -- Justice of the Peace Ward 11",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Tommy J. Deville",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Troy Verheyden",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71313",
+"office": "Rapides Parish Constable -- Justice of the Peace Ward 4, 1st Just. Court",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Randell Randy Bordelon",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Michael D. Vallery",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71345",
+"office": "Mayor -- City of Alexandria",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Malcolm Larvadain",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jacques Roy",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71364",
+"office": "Mayor -- Town of Lecompte",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Albert Butch Butler",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Herman Greg Williams",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71285",
+"office": "Alderman -- Seat A, Town of Ball",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Glenda Bolen",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Carroll Ward",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71286",
+"office": "Alderman -- Seat D, Town of Ball",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Kimberley Krischke",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Danny Winn",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Rapides:71289",
+"office": "Aldermen -- Town of Glenmora",
+"parish": "Rapides",
+"elect": 1,
+"candidates": [
+{
+"name": "Willie Moore",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Howard Shaw, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Red River:71409",
+"office": "Red River Parish Member of School Board -- District 4",
+"parish": "Red River",
+"elect": 1,
+"candidates": [
+{
+"name": "Sharon Jenkins",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Alan Miller",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Richland:71354",
+"office": "Mayor -- Town of Delhi",
+"parish": "Richland",
+"elect": 1,
+"candidates": [
+{
+"name": "Perry Smith",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jesse Washington",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Richland:71283",
+"office": "Alderman -- District B, Town of Delhi",
+"parish": "Richland",
+"elect": 1,
+"candidates": [
+{
+"name": "Larry Houston",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Bernard McDowell",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Helena:71406",
+"office": "St. Helena Parish Member of School Board -- District 3",
+"parish": "St. Helena",
+"elect": 1,
+"candidates": [
+{
+"name": "Shelia Haywood",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mittie C. Muse",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Helena:71408",
+"office": "St. Helena Parish Member of School Board -- District 4",
+"parish": "St. Helena",
+"elect": 1,
+"candidates": [
+{
+"name": "Towana Jackson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jennifer McMorris",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Helena:71411",
+"office": "St. Helena Parish Member of School Board -- District 5",
+"parish": "St. Helena",
+"elect": 1,
+"candidates": [
+{
+"name": "Betsy Ehret",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Benny L. Warner",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Helena:71312",
+"office": "St. Helena Parish Constable -- Justice of the Peace Ward 3",
+"parish": "St. Helena",
+"elect": 1,
+"candidates": [
+{
+"name": "Jerome Forbes, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Sam Topps",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. James:71412",
+"office": "St. James Parish Member of School Board -- District 6",
+"parish": "St. James",
+"elect": 1,
+"candidates": [
+{
+"name": "Brad A. Batiste",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tori E. Bazile",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. James:71293",
+"office": "Aldermen at Large -- Town of Gramercy",
+"parish": "St. James",
+"elect": 1,
+"candidates": [
+{
+"name": "Craig B. Calcagno",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Christopher Tip Hymel",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. James:71278",
+"office": "Alderman -- District 1, Town of Gramercy",
+"parish": "St. James",
+"elect": 1,
+"candidates": [
+{
+"name": "Freddie Allen, Sr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Craig James",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. John the Baptist:71377",
+"office": "St. John the Baptist Parish Member of School Board -- District 1",
+"parish": "St. John the Baptist",
+"elect": 1,
+"candidates": [
+{
+"name": "Charo Bossier-Holden",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Devrin Jondrik Harper",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71306",
+"office": "City Marshal -- City Court, City of Opelousas",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Paul Mouton",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Easton Shelvin",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71376",
+"office": "St. Landry Parish Member of School Board -- District 1",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Richard Lewis III",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Rachel A. Richard",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71386",
+"office": "St. Landry Parish Member of School Board -- District 3",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Janice Henry",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Keith J. Scott",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71404",
+"office": "St. Landry Parish Member of School Board -- District 10",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "James Ronald Guillory",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Elsie M. Semien",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71351",
+"office": "Mayor -- City of Opelousas",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Julius Alsandor",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Kenon Lamb",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71357",
+"office": "Mayor -- Town of Grand Coteau",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Milton Arceneaux",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Patrick Richard",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71295",
+"office": "Chief of Police -- City of Opelousas",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Graig Twin LeBlanc",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Yolanda Lewis",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71297",
+"office": "Chief of Police -- Town of Grand Coteau",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Wilton Guidry",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Brad Randell",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71287",
+"office": "Alderman at Large -- City of Opelousas",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Jacqueline Angelle Martin",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Marvin Tyrone Richard",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71280",
+"office": "Alderman -- District 3, Town of Sunset",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Lydia Boxie",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Janie Guilbeau",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71281",
+"office": "Alderman -- District A, City of Opelousas",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "John Guilbeaux",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Rachel Reed",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Landry:71282",
+"office": "Alderman -- District B, City of Opelousas",
+"parish": "St. Landry",
+"elect": 1,
+"candidates": [
+{
+"name": "Delita Rubin Broussard",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Charles Ray Tyler, Sr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Martin:71337",
+"office": "St. Martin Parish Justice of the Peace -- Justice of the Peace Ward 2",
+"parish": "St. Martin",
+"elect": 1,
+"candidates": [
+{
+"name": "Syntara Fontenette",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mendy Girouard",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Mary:71339",
+"office": "St. Mary Parish Justice of the Peace -- Justice of the Peace Ward 8",
+"parish": "St. Mary",
+"elect": 1,
+"candidates": [
+{
+"name": "Shawn Canty",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Nicole Cherry Landry",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Mary:71319",
+"office": "Council Member(s) -- City of Patterson",
+"parish": "St. Mary",
+"elect": 1,
+"candidates": [
+{
+"name": "Jeffery S. Lawrence",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Dawn Rentrop",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Tammany:71422",
+"office": "St. Tammany Parish Sheriff",
+"parish": "St. Tammany",
+"elect": 1,
+"candidates": [
+{
+"name": "Robert Hodges",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Daniel Seuzeneau",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Tammany:71302",
+"office": "St. Tammany Parish City Judge -- City Court, East St. Tammany",
+"parish": "St. Tammany",
+"elect": 1,
+"candidates": [
+{
+"name": "d'Andrea McMooain Chatman",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tracey Turgeau Powell",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Tammany:71390",
+"office": "St. Tammany Parish Member of School Board -- District 5",
+"parish": "St. Tammany",
+"elect": 1,
+"candidates": [
+{
+"name": "Charles Brandon Harrell",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tammy Harwell Penton",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "St. Tammany:71323",
+"office": "Councilman -- District A, City of Covington",
+"parish": "St. Tammany",
+"elect": 1,
+"candidates": [
+{
+"name": "Maisha Harrell-Bijou",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Alva Drionne Smith",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Tangipahoa:71304",
+"office": "City Marshal -- City Court, City of Hammond",
+"parish": "Tangipahoa",
+"elect": 1,
+"candidates": [
+{
+"name": "Pat Farris",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Becky Jackson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Tangipahoa:71350",
+"office": "Mayor -- City of Hammond",
+"parish": "Tangipahoa",
+"elect": 1,
+"candidates": [
+{
+"name": "Lacy Landrum",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tracy Washington Wells",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Tangipahoa:71361",
+"office": "Mayor -- Town of Kentwood",
+"parish": "Tangipahoa",
+"elect": 1,
+"candidates": [
+{
+"name": "Irma Thompson Gordon",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Michael Mike Hall",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Tangipahoa:71320",
+"office": "Council Member(s) -- Town of Kentwood",
+"parish": "Tangipahoa",
+"elect": 1,
+"candidates": [
+{
+"name": "Deanna Burton",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Paul Stewart",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Tensas:71341",
+"office": "Tensas Parish Justice of the Peace -- Justice of the Peace Ward 2",
+"parish": "Tensas",
+"elect": 1,
+"candidates": [
+{
+"name": "Thelma Bradford",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Eric Walker",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Terrebonne:71305",
+"office": "City Marshal -- City Court, City of Houma",
+"parish": "Terrebonne",
+"elect": 1,
+"candidates": [
+{
+"name": "Herbert Fitch",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Lonnie Lusco",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Terrebonne:71414",
+"office": "Terrebonne Parish Member of School Board -- District 7",
+"parish": "Terrebonne",
+"elect": 1,
+"candidates": [
+{
+"name": "Shawny Marmande Burgard",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mandy Verret",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Union:71401",
+"office": "Union Parish Member of School Board -- District 1",
+"parish": "Union",
+"elect": 1,
+"candidates": [
+{
+"name": "Sharon Dixson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Heather Parson",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Vermilion:71358",
+"office": "Mayor -- Town of Gueydan",
+"parish": "Vermilion",
+"elect": 1,
+"candidates": [
+{
+"name": "Efrem Zim Livingston",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jason Suire",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Vernon:71413",
+"office": "Vernon Parish Member of School Board -- District 6",
+"parish": "Vernon",
+"elect": 1,
+"candidates": [
+{
+"name": "Curtis Clay",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "William Lewis, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Washington:71346",
+"office": "Mayor -- City of Bogalusa",
+"parish": "Washington",
+"elect": 1,
+"candidates": [
+{
+"name": "Michael Corey O'Ree",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Tyrin Z. Truong",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Washington:71328",
+"office": "Councilmen at Large -- City of Bogalusa",
+"parish": "Washington",
+"elect": 1,
+"candidates": [
+{
+"name": "Melvin Chester Abram",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Suzanne Belton",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Penny Douglas",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Judson Teddy Drummond",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Washington:71324",
+"office": "Councilman -- District B, City of Bogalusa",
+"parish": "Washington",
+"elect": 1,
+"candidates": [
+{
+"name": "Kyle Knight",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Cory K. Peters",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Washington:71326",
+"office": "Councilman -- District C, City of Bogalusa",
+"parish": "Washington",
+"elect": 1,
+"candidates": [
+{
+"name": "Desirae Pittman",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Shelby Temples",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Webster:71389",
+"office": "Webster Parish Member of School Board -- District 5",
+"parish": "Webster",
+"elect": 1,
+"candidates": [
+{
+"name": "Yolanda Shaw Palmer",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Mike Wilkes",
+"party": "REP",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Webster:71397",
+"office": "Webster Parish Member of School Board -- District 8",
+"parish": "Webster",
+"elect": 1,
+"candidates": [
+{
+"name": "Glenda Sherrill Broughton",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Miss Chris Broussard",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Webster:71399",
+"office": "Webster Parish Member of School Board -- District 9",
+"parish": "Webster",
+"elect": 1,
+"candidates": [
+{
+"name": "Lloyd Davis, Jr.",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Belinda Neloms Evans",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Webster:71325",
+"office": "Councilman -- District B, City of Minden",
+"parish": "Webster",
+"elect": 1,
+"candidates": [
+{
+"name": "Anthony A. D. Douglas",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Terika Reek Walker",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Webster:71327",
+"office": "Councilman -- District C, City of Minden",
+"parish": "Webster",
+"elect": 1,
+"candidates": [
+{
+"name": "Janice Louise Keener",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Latasha Anderson Mitchell",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "West Carroll:71291",
+"office": "Aldermen -- Village of Epps",
+"parish": "West Carroll",
+"elect": 1,
+"candidates": [
+{
+"name": "Ashley Herrington",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "Jayme Hogan",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+}
+]
+},
+{
+"id": "Winn:71309",
+"office": "Winn Parish Constable -- Justice of the Peace Ward 8",
+"parish": "Winn",
+"elect": 1,
+"candidates": [
+{
+"name": "Brett Lang",
+"party": "IND",
+"votes": 0,
+"outcome": ""
+},
+{
+"name": "William Walker",
+"party": "DEM",
+"votes": 0,
+"outcome": ""
+}
+]
+}
+]
 },
 {
 "date": "2027-10-09",
