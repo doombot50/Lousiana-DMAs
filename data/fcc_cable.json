@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-11-16T21:06:57Z",
+ "scraped": "2026-11-17T05:12:32Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-11-16T02:53:15Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -3382,7 +3382,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-11-16T02:53:15Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -3453,6 +3453,78 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "41492af5-a4b8-0aca-58b1-ad0cd4ad7914"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329374_Invoice_20261116122017322",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:34-05:00",
+     "folder_id": "7927447f-9fec-7372-fe67-5b0a767ec3e2",
+     "file_id": "afef12a1-2120-c955-f8d3-cf160b59babe",
+     "file_manager_id": "45c09342-9f7b-4c4e-aac9-43eecc70b2d9"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329371_Invoice_20261116121747091",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:16-05:00",
+     "folder_id": "7927447f-9fec-7372-fe67-5b0a767ec3e2",
+     "file_id": "d5d3ee28-4df5-971c-8ab9-7a0e8fe1b417",
+     "file_manager_id": "28cf57ea-97fa-4988-b61a-db0a63969c5c"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330419_Invoice_20261116111213079",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:34-05:00",
+     "folder_id": "ee6c9ddd-5130-8647-7e60-3bb21de268b8",
+     "file_id": "f1215c0a-5eda-a7a8-30e6-2c0922cfce68",
+     "file_manager_id": "674a2d09-631f-40ca-bc48-402c3492666f"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330365_Invoice_20261116111116879",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:30-05:00",
+     "folder_id": "ee6c9ddd-5130-8647-7e60-3bb21de268b8",
+     "file_id": "9b887f5c-e1c3-4141-a52a-3cb895dfba32",
+     "file_manager_id": "ad9a106d-047f-417f-b013-6d82fe9c3bf9"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322829_Invoice_20261116095941245",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:02:14-05:00",
+     "folder_id": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
+     "file_id": "d495f2ea-eac7-c50e-9e57-dd417666229c",
+     "file_manager_id": "eff40bb3-62f7-4354-928c-1ad8325227c9"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322823_Invoice_20261116100503098",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:01:41-05:00",
+     "folder_id": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
+     "file_id": "5882a3a5-d754-78be-b1a8-8ac56c1edfeb",
+     "file_manager_id": "8a4eb3c5-f722-4eea-9e6a-24725e1dba12"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Steve Scalise",
+     "name": "1314092_Invoice_20261116085023887",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T10:03:16-05:00",
+     "folder_id": "eb93bf28-8ed5-0488-d6de-e160b998f162",
+     "file_id": "513dd3db-aec5-37e2-cee8-78f5e8e439d3",
+     "file_manager_id": "cff549db-bd70-4832-a943-9189c996f051"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
+     "name": "1336192_Invoice_20261116084404826",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T09:03:23-05:00",
+     "folder_id": "9a58d887-3821-1cd0-f8c5-355767ae6faa",
+     "file_id": "06d6b234-7bf8-8725-a443-33399ef0cb46",
+     "file_manager_id": "40148cd4-515d-4e48-8ff5-5d8f808a7cb7"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/CPMReady for the Fight",
      "name": "1343190_Order_Contract_20261029035155362",
@@ -3643,6 +3715,15 @@
      "file_manager_id": "27dcceb8-e2c2-4d4c-865a-df12ae127367"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1096339_Order_Contract_20260810013104717",
+     "ext": "pdf",
+     "uploaded": "2026-08-10T15:11:25-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "cf59fdad-e260-1861-87e1-346a942244dd",
+     "file_manager_id": "27dcceb8-e2c2-4d4c-865a-df12ae127367"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Julia Letlow",
      "name": "1054681_Order_Contract_20260810013354224",
      "ext": "pdf",
@@ -3698,6 +3779,24 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63327565.1072097_Order_Contract_20260810011457559",
+     "ext": "pdf",
+     "uploaded": "2026-08-10T15:04:10-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "dd8289ba-3121-34b0-9d3a-49af2a61b235",
+     "file_manager_id": "8bb34982-c312-4402-959c-f19b65951733"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63325694.1061863_Order_Contract_20260810011659975",
+     "ext": "pdf",
+     "uploaded": "2026-08-10T15:03:31-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "1a3c8483-13b5-cb0e-b7dd-2172fedd4dab",
+     "file_manager_id": "51c5c819-f010-4666-8260-749725461057"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63325694.1061863_Order_Contract_20260810011659975",
      "ext": "pdf",
      "uploaded": "2026-08-10T15:03:31-04:00",
@@ -3713,6 +3812,15 @@
      "folder_id": "f62a64d2-364e-543f-4ae3-31bc0b14a7a9",
      "file_id": "d1f4622b-ac08-458e-7701-8f92c6939294",
      "file_manager_id": "486a97af-1817-4f65-9788-a191633a9e34"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63324663.1054845_Order_Contract_20260810011815253",
+     "ext": "pdf",
+     "uploaded": "2026-08-10T15:03:30-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "fec86523-5c0c-16a2-d60f-3d31094efc11",
+     "file_manager_id": "ce327ed2-df5a-42c6-b102-ce9676f01e26"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -3968,12 +4076,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63324663.1054845_Invoice_20260729044901009",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T18:15:53-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "7e298044-df94-be7b-d2cd-b912f26f51ff",
+     "file_manager_id": "7b74a3c8-895e-4924-b9d7-9d1a49d884eb"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63324663.1054845_NAB_20260729044857932",
      "ext": "pdf",
      "uploaded": "2026-07-29T18:10:17-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "392fae1e-26e8-8119-2e47-6cf7b3efe670",
      "file_manager_id": "24403de4-8d70-47fa-8dc1-1f8af236ba46"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63324663.1054845_NAB_20260729044857932",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T18:10:17-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "392fae1e-26e8-8119-2e47-6cf7b3efe670",
+     "file_manager_id": "24403de4-8d70-47fa-8dc1-1f8af236ba46"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63327565.1072097_Invoice_20260729044640455",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T18:09:49-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "98cf1bce-e8fa-a9ff-1ab9-59ea8ba52c27",
+     "file_manager_id": "f2ebe9ac-5b70-458d-999a-0e57845df5f1"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -3995,12 +4130,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63327565.1072097_NAB_20260729044634367",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T18:09:40-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "0d423844-7877-fb30-ef52-0974697ec6c8",
+     "file_manager_id": "668b4353-7ee5-4629-8ee3-410cdaedcfbd"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63325694.1061863_Invoice_20260729044438479",
      "ext": "pdf",
      "uploaded": "2026-07-29T18:01:26-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "8182eda1-5ed3-eca3-ecdf-844623e370aa",
      "file_manager_id": "f934ce4f-cca6-4629-a05f-0bab525f3c95"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63325694.1061863_Invoice_20260729044438479",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T18:01:26-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "8182eda1-5ed3-eca3-ecdf-844623e370aa",
+     "file_manager_id": "f934ce4f-cca6-4629-a05f-0bab525f3c95"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63325694.1061863_NAB_20260729044447110",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T18:01:25-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "94de1a49-b8d4-45df-9ea8-6d71419db2c7",
+     "file_manager_id": "2f090e4c-6971-41a1-8390-814ed9355f9c"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -4030,6 +4192,15 @@
      "file_manager_id": "5aa060fd-6d73-47a6-a193-c8f4826a0cfd"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1096339_NAB_20260729030118766",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T17:02:19-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "e8e5c7bf-abf0-ae1d-12e2-157366b7a693",
+     "file_manager_id": "5aa060fd-6d73-47a6-a193-c8f4826a0cfd"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Julia Letlow",
      "name": "1096265_Invoice_20260729030501480",
      "ext": "pdf",
@@ -4037,6 +4208,15 @@
      "folder_id": "f62a64d2-364e-543f-4ae3-31bc0b14a7a9",
      "file_id": "89875c4b-8b7e-cc1b-7b56-a0d7382ed8a7",
      "file_manager_id": "c0399c3d-162e-4a8c-ab5a-cfdb51b832aa"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1096339_Invoice_20260729030200459",
+     "ext": "pdf",
+     "uploaded": "2026-07-29T17:02:17-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "6a4a7b94-7724-4d7c-d036-ff3353353e29",
+     "file_manager_id": "7382a34a-6ca5-4373-a779-db61da773f07"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -16738,6 +16918,15 @@
      "file_manager_id": "49e586a2-e81d-4799-b2a2-2852fad763f8"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T18:02:54-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "c317ff4a-c1a1-b396-d37c-c008313878a5",
+     "file_manager_id": "49e586a2-e81d-4799-b2a2-2852fad763f8"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63316283.1009600_Invoice_20260708023927917",
      "ext": "pdf",
@@ -16754,6 +16943,24 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "9093f317-1020-8d99-72ee-562d0df19208",
      "file_manager_id": "069109b0-8e5c-476d-a1d8-e98963101f9b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T18:02:53-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "069ee168-9750-f263-6dbd-29acf0fba6d6",
+     "file_manager_id": "fd434c54-bcf8-4f1e-a7c4-a0931abac9c1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T18:02:53-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "c8c42d49-717d-53bc-038c-1fa73ebfccf5",
+     "file_manager_id": "89560d89-a0ff-4a9b-b09f-97605493869f"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -16828,6 +17035,15 @@
      "file_manager_id": "4fdd7f32-8285-4b75-b5ca-d389d07ec3b5"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T18:02:16-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "196a50c9-8da4-64e3-5c75-2a58df81efe0",
+     "file_manager_id": "4fdd7f32-8285-4b75-b5ca-d389d07ec3b5"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63316283.1009599_Invoice_20260708023949073",
      "ext": "pdf",
@@ -16871,6 +17087,15 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "327a5d47-a7c6-a8c6-f3b8-7490de8611aa",
      "file_manager_id": "92e07cc4-f031-4b02-a247-aab3f8ea666a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T18:01:54-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "d00c3759-fb63-b8dd-329f-f911021d6167",
+     "file_manager_id": "e947fa32-525e-4a53-84e0-c25387361976"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -16961,6 +17186,15 @@
      "folder_id": "f6035b9a-18f8-fdf0-06dc-e0df9ddc7b69",
      "file_id": "11988449-94b9-b125-8959-a35e0316a0e1",
      "file_manager_id": "137dbdbb-f679-43a9-ad64-29e95c4f4b73"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:47:59-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "fc71892a-7fbc-e0d5-170f-f4715ab265ca",
+     "file_manager_id": "678216dc-0564-4116-9eb1-6e39b6c7aa95"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -17083,6 +17317,24 @@
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63317335.1019555_Invoice_20260708024121156",
      "ext": "pdf",
+     "uploaded": "2026-07-08T17:44:05-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "71b3dbf6-7b53-690f-1871-37d1c9d40b35",
+     "file_manager_id": "ceabfa06-fe33-45fc-8fb6-7c2afbb48120"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:44:01-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "701f22bb-9619-9daf-8e95-1d869c90d739",
+     "file_manager_id": "559caa67-4458-4c20-bbf6-fc2920f182a2"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
      "uploaded": "2026-07-08T17:44:01-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "701f22bb-9619-9daf-8e95-1d869c90d739",
@@ -17096,6 +17348,15 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "1c883ce8-80b8-3584-3c9a-37018d25edb9",
      "file_manager_id": "b90af245-2732-4ec0-90c6-55fae679de6e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:43:51-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "4934c2ae-62a5-107a-35b0-8b855f19f867",
+     "file_manager_id": "593087c2-3c28-404e-babc-853372ca5ad7"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -17189,12 +17450,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:42:39-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "76622c11-1313-7f18-6ae8-55a83e097bdb",
+     "file_manager_id": "1b5e9f65-e782-4845-8e14-2932d0fb51ce"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63317333.1019558_Invoice_20260708025058203",
      "ext": "pdf",
      "uploaded": "2026-07-08T17:42:38-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "346c0a87-ae14-af2f-b1aa-2e7dcc56ae05",
      "file_manager_id": "9276e52e-2b4d-4ca2-9fd4-69ad513464ec"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:42:38-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "346c0a87-ae14-af2f-b1aa-2e7dcc56ae05",
+     "file_manager_id": "9276e52e-2b4d-4ca2-9fd4-69ad513464ec"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:42:36-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "993bafc1-f455-a57a-d4ed-7c67386d38a1",
+     "file_manager_id": "12ff449a-4e12-40b3-ac1a-2d94ff728da1"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -17458,6 +17746,15 @@
      "file_manager_id": "2c0769cd-a37d-4059-871b-3fdd16b5d1c2"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:34:30-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "c2842032-b5da-39bc-581c-464807c5e06f",
+     "file_manager_id": "2c0769cd-a37d-4059-871b-3fdd16b5d1c2"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/John Fleming",
      "name": "1145171_Invoice_20260708025743085",
      "ext": "pdf",
@@ -17474,6 +17771,24 @@
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "ac163024-87bf-b3b8-930c-15e512fb0ce4",
      "file_manager_id": "3715e61b-0f2c-4d9c-9722-c2179ac2b24e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:34:13-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "ac163024-87bf-b3b8-930c-15e512fb0ce4",
+     "file_manager_id": "3715e61b-0f2c-4d9c-9722-c2179ac2b24e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:34:09-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "7fba0aec-bd9a-6067-8a98-036907e7c4b0",
+     "file_manager_id": "4d9e0d7a-4627-40cd-9457-7ac42efeb1a7"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -17548,6 +17863,15 @@
      "file_manager_id": "dbf29826-b925-4ee6-b18e-477e9b82bf62"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:32:48-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "b26d5850-0bd5-95f1-4e6a-c26b25cb1458",
+     "file_manager_id": "dbf29826-b925-4ee6-b18e-477e9b82bf62"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63316943.1018082_Invoice_20260708025213072",
      "ext": "pdf",
@@ -17591,6 +17915,15 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "0592bf25-a383-4a65-823a-4dd09e3526e1",
      "file_manager_id": "1931510c-69d3-4543-93bc-f9d4714ff05e"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:31:34-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "088c46d7-be70-f12b-2c12-315c0ef2603e",
+     "file_manager_id": "9918fb70-85d9-46e3-b7ff-b56670b775c5"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -17717,6 +18050,24 @@
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "4b271b27-3912-8c59-23fa-3b4c10771298",
      "file_manager_id": "afa167e6-408d-4fc7-9031-580a57fddf22"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:30:02-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "4b271b27-3912-8c59-23fa-3b4c10771298",
+     "file_manager_id": "afa167e6-408d-4fc7-9031-580a57fddf22"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:29:48-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "f71b602b-2c73-66b4-d502-088fcee0beed",
+     "file_manager_id": "aba54906-7d87-4518-9b09-a4e9aae82df8"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -17899,6 +18250,15 @@
      "file_manager_id": "44d882ba-c7da-4fe5-8dda-964827afe867"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:21:27-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "c2baedb0-3366-9775-bbfc-070a995ef9c2",
+     "file_manager_id": "44d882ba-c7da-4fe5-8dda-964827afe867"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63316942.1018111_Invoice_20260708025146609",
      "ext": "pdf",
@@ -17906,6 +18266,15 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "4d490172-2639-62ff-89c6-9bcf351161b3",
      "file_manager_id": "7535e5f2-0693-438f-ac4f-b1065f22a13f"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:21:08-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "f3dd4453-f3b5-4e8f-a26c-f729084f64f1",
+     "file_manager_id": "88499b5d-01b5-4c77-8130-aca093dc31dc"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -18019,10 +18388,37 @@
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63317335.1019555_Invoice_20260708024121156",
      "ext": "pdf",
+     "uploaded": "2026-07-08T17:20:43-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "b8a02841-8178-ea28-3401-6d2b93d90587",
+     "file_manager_id": "a7c92ae4-0515-43ad-a219-4651720b2aad"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
      "uploaded": "2026-07-08T17:20:38-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "6f1c040e-a2e5-b82d-a90a-47e41dc4179c",
      "file_manager_id": "ad885355-d1c8-4823-8418-77a18f935660"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:20:38-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "6f1c040e-a2e5-b82d-a90a-47e41dc4179c",
+     "file_manager_id": "ad885355-d1c8-4823-8418-77a18f935660"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T17:19:50-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "b3089897-d903-10f9-3e33-08f194fc7e14",
+     "file_manager_id": "ae7a1e47-876f-4907-a922-d496ebd88663"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -18469,6 +18865,24 @@
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63317335.1019555_Invoice_20260708024121156",
      "ext": "pdf",
+     "uploaded": "2026-07-08T16:36:31-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "a6afd7b1-dd04-911f-5acc-1686141cde83",
+     "file_manager_id": "740eda06-8528-4ce9-b2fb-d29d2768f54f"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:36:23-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "94902f92-a900-18bc-8789-a67150f97e5b",
+     "file_manager_id": "ebc51daf-28ac-403a-ac4e-8d2a6e6e5589"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
      "uploaded": "2026-07-08T16:36:23-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "94902f92-a900-18bc-8789-a67150f97e5b",
@@ -18482,6 +18896,24 @@
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "5f54cbc6-42f7-6ba4-ee43-32d8c6c2809c",
      "file_manager_id": "f37a8f04-881a-4b16-bfd7-e8714ec0aef1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:36:18-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "5f54cbc6-42f7-6ba4-ee43-32d8c6c2809c",
+     "file_manager_id": "f37a8f04-881a-4b16-bfd7-e8714ec0aef1"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:36:16-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "8f04a4af-1944-e0ec-6b1f-3b62de599b63",
+     "file_manager_id": "6387670a-6bb6-4e4c-88c6-6842ae628418"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -18511,6 +18943,15 @@
      "file_manager_id": "acc5cf37-53fd-4777-bc7b-0980bc37786f"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:35:14-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "651490c2-4f14-00c1-26c1-ce9ffb55a12b",
+     "file_manager_id": "acc5cf37-53fd-4777-bc7b-0980bc37786f"
+    },
+    {
      "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Rick Edmonds",
      "name": "63339402.370283_Invoice_20260708025717948",
      "ext": "pdf",
@@ -18518,6 +18959,15 @@
      "folder_id": "977fcbc9-4886-6e5b-1002-a08341a8206d",
      "file_id": "04c7c207-8697-de5b-a99e-a308ad5eddd6",
      "file_manager_id": "d594b916-9de1-4756-91e5-783b7c30ddea"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:34:54-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "1f95eed5-c61c-cba4-2faf-f6f944d3421a",
+     "file_manager_id": "9a123211-ea3f-49d2-886e-9a41c4dddd98"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -18691,6 +19141,15 @@
      "file_manager_id": "1543769b-8a2a-40bd-95aa-83b909ab9cfe"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:27:09-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "48fdad1b-da45-411b-99b4-9d9e2bcaf907",
+     "file_manager_id": "1543769b-8a2a-40bd-95aa-83b909ab9cfe"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63318903.1027506_Invoice_20260708024040639",
      "ext": "pdf",
@@ -18772,6 +19231,15 @@
      "file_manager_id": "9285f15c-ca1e-4743-a634-eddc60ca6bb2"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:23:39-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "f377478e-9371-0fd5-dc22-4b54c2cd7a40",
+     "file_manager_id": "9285f15c-ca1e-4743-a634-eddc60ca6bb2"
+    },
+    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Protect and Defend Louisiana",
      "name": "1109160_NAB_20260708025359796",
      "ext": "pdf",
@@ -18818,6 +19286,24 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:21:40-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "f68940df-0c65-1658-dfdc-3d954cd6807b",
+     "file_manager_id": "8a66cac1-22c0-462b-96ee-1ef3993687d8"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:21:35-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "e38a32ce-d6ef-d262-939a-6c4f6d74813d",
+     "file_manager_id": "00dd80de-b0d2-4cdc-84d2-06c263171107"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63317333.1019558_Invoice_20260708025058203",
      "ext": "pdf",
      "uploaded": "2026-07-08T16:21:35-04:00",
@@ -18844,6 +19330,15 @@
      "file_manager_id": "a8dd2112-6617-4ce8-a193-5829bbe408e1"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:18:31-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "759a9dad-2149-68d8-bbdc-5b6f8b9ca167",
+     "file_manager_id": "a8dd2112-6617-4ce8-a193-5829bbe408e1"
+    },
+    {
      "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Rick Edmonds",
      "name": "63339402.370283_Invoice_20260708025717948",
      "ext": "pdf",
@@ -18851,6 +19346,15 @@
      "folder_id": "977fcbc9-4886-6e5b-1002-a08341a8206d",
      "file_id": "270ee7cd-4c42-a21b-ce65-31ff84dafcf8",
      "file_manager_id": "9e1ed921-b195-4213-81ec-973b17edbbdd"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Invoice_20260708025058203",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:17:25-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "6230e64a-51b3-361e-f6d9-62d0fd7dc624",
+     "file_manager_id": "746c2bc0-3dc3-4149-99e7-cf0d757a2e51"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -18970,6 +19474,15 @@
      "file_manager_id": "232ebbda-6625-420b-8d8a-f79b302c0c9d"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:07:24-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "ef8cf79d-1bee-b927-d1a5-5c709e1a9f55",
+     "file_manager_id": "232ebbda-6625-420b-8d8a-f79b302c0c9d"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63318903.1027506_Invoice_20260708024040639",
      "ext": "pdf",
@@ -19015,6 +19528,15 @@
      "file_manager_id": "5e7acf5b-d2f9-41d7-a4d9-139fa6d0fa6e"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:07:11-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "e41b45ab-e743-5a0c-85d9-57f541138a57",
+     "file_manager_id": "5e7acf5b-d2f9-41d7-a4d9-139fa6d0fa6e"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63316283.1009600_Invoice_20260708023927917",
      "ext": "pdf",
@@ -19040,6 +19562,15 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "49ae354b-08a7-c1d3-ae13-6d4c709f42ec",
      "file_manager_id": "b9ebf974-5559-47d7-a190-dc7ee491727d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Invoice_20260708024121156",
+     "ext": "pdf",
+     "uploaded": "2026-07-08T16:05:20-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "aba9c7f1-77ca-6fbe-cbbc-cbc1ff7b7340",
+     "file_manager_id": "76c94d75-667c-4c10-98a4-9e4ccb7d3ad7"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -43936,6 +44467,15 @@
      "file_manager_id": "40ef1e86-0c9f-42d7-a26c-e2928f6a2a7c"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1122725_Invoice_20260615040206368",
+     "ext": "pdf",
+     "uploaded": "2026-06-15T18:05:39-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "7f54e6ad-bcb4-adf1-9ff0-d00c2a117a6e",
+     "file_manager_id": "40ef1e86-0c9f-42d7-a26c-e2928f6a2a7c"
+    },
+    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Accountability Project Inc",
      "name": "1136069_Invoice_20260615040435557",
      "ext": "pdf",
@@ -43961,6 +44501,15 @@
      "folder_id": "7f14778a-5ce9-7583-7a0f-c03a2d73b83f",
      "file_id": "1c47c230-700d-e9ff-9b1f-795b7da371b1",
      "file_manager_id": "f017c04d-e956-42f9-9a9d-285f142de0a9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1141948_Invoice_20260615040247109",
+     "ext": "pdf",
+     "uploaded": "2026-06-15T18:04:03-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "ab26c814-e57b-3108-ddfe-caf2b9e1ccbd",
+     "file_manager_id": "06278115-5a48-479b-b0f6-30aaa117a112"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -46619,6 +47168,24 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332168.1090456_Invoice_20260601024615093",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:23:08-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "25e591e2-d060-c0c1-f09a-030594427c5f",
+     "file_manager_id": "00d74fd9-b80c-4b7c-8496-bd5302c33652"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1122725_Invoice_20260601024741531",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:23:03-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "8a995e75-1cf1-2bf1-ae59-ea2c7eda8133",
+     "file_manager_id": "9639a4d6-ed5b-4b41-8ce8-536ee54ad3d8"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "1122725_Invoice_20260601024741531",
      "ext": "pdf",
      "uploaded": "2026-06-01T16:23:03-04:00",
@@ -46646,6 +47213,24 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1112678_Invoice_20260601024515379",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:23:01-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "fbd2057b-c2cb-65d9-5ec5-4b47464088b6",
+     "file_manager_id": "47d82924-1ce6-4ab2-88ed-1638589c80c5"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63329575.1078712_Invoice_20260601025234565",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:23:00-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "bcaa7c7c-992f-d9f2-1313-ae9637d9b13b",
+     "file_manager_id": "ad8ab5fb-200a-4866-9d73-5bf7d80f434a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63329575.1078712_Invoice_20260601025234565",
      "ext": "pdf",
      "uploaded": "2026-06-01T16:23:00-04:00",
@@ -46664,12 +47249,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63329573.1081572_Invoice_20260601025638669",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:22:59-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "5dc2586e-1494-c2be-d70d-15ba71126d36",
+     "file_manager_id": "b79eb436-b2d3-4576-a49f-6faae06e5208"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63332170.1090458_Invoice_20260601024951017",
      "ext": "pdf",
      "uploaded": "2026-06-01T16:22:58-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "b2ea5f96-d203-2e66-954a-2400d37164fb",
      "file_manager_id": "fe3189c3-76fb-458a-a722-801480a049af"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332170.1090458_Invoice_20260601024951017",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:22:58-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "b2ea5f96-d203-2e66-954a-2400d37164fb",
+     "file_manager_id": "fe3189c3-76fb-458a-a722-801480a049af"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63318863.1027472_Invoice_20260601025514173",
+     "ext": "pdf",
+     "uploaded": "2026-06-01T16:22:42-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "13a0e7de-1d31-45b1-909a-5338a9fce59a",
+     "file_manager_id": "89dec39c-9831-4a68-ad3c-ec0beaae67ad"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -47122,6 +47734,15 @@
      "file_manager_id": "a6be7e33-cf22-414e-9477-5f3e7c0876f2"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63336040.1108474_Invoice_20260515071956888",
+     "ext": "pdf",
+     "uploaded": "2026-05-15T09:02:01-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "2377931e-32fb-7e7d-0d2e-debda7793cf3",
+     "file_manager_id": "a6be7e33-cf22-414e-9477-5f3e7c0876f2"
+    },
+    {
      "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Rick Edmonds",
      "name": "1116595_Invoice_20260515073100847",
      "ext": "pdf",
@@ -47177,12 +47798,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1141948_NAB_20260514115327",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T14:15:54-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "ae963ce8-55f4-a25a-da9a-185b4b1c91ff",
+     "file_manager_id": "7f0aada5-d01e-4485-ba70-413eb05304e4"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "1112678_NAB_20260514115327",
      "ext": "pdf",
      "uploaded": "2026-05-14T14:14:12-04:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "a8208610-e783-4730-6d4f-92ab4b482e8a",
      "file_manager_id": "f3c935d5-91e8-4166-95fc-bd833c00c06c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1112678_NAB_20260514115327",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T14:14:12-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "a8208610-e783-4730-6d4f-92ab4b482e8a",
+     "file_manager_id": "f3c935d5-91e8-4166-95fc-bd833c00c06c"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1122725_NAB_20260514115327",
+     "ext": "pdf",
+     "uploaded": "2026-05-14T14:03:46-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "04a4c6bd-5249-a3a4-ef8b-1982b415bc26",
+     "file_manager_id": "b4cda841-4085-4071-82a0-5b05c56b8dc9"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -47590,6 +48238,15 @@
      "file_manager_id": "2d5eca53-48d8-4a5e-a022-0c83dbac4fbd"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1141948_Order_Contract_20260511100103498",
+     "ext": "pdf",
+     "uploaded": "2026-05-11T12:02:47-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "1872cf65-d4ae-b2ea-4b53-ebd1473fe968",
+     "file_manager_id": "2d5eca53-48d8-4a5e-a022-0c83dbac4fbd"
+    },
+    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Moms Protecting Children PAC",
      "name": "1142633_NAB_20260511104019141",
      "ext": "pdf",
@@ -47986,6 +48643,15 @@
      "file_manager_id": "e887656a-d8cc-4d09-b042-26478d9856cf"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1122725_Order_Contract_20260428105531721",
+     "ext": "pdf",
+     "uploaded": "2026-04-28T13:02:06-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "15432dda-589f-781a-0c52-4df68793d620",
+     "file_manager_id": "e887656a-d8cc-4d09-b042-26478d9856cf"
+    },
+    {
      "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Blake Miguez",
      "name": "1125964_Order_Contract_20260428095356505",
      "ext": "pdf",
@@ -48166,6 +48832,15 @@
      "file_manager_id": "035a8b5b-46a2-44fa-908a-65c29e66a05c"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63336040.1108474_NAB_20260421033822677",
+     "ext": "pdf",
+     "uploaded": "2026-04-21T18:01:33-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "4549002c-bf87-261b-95e7-bad8d9d0cdb6",
+     "file_manager_id": "3798e557-5026-455f-a432-1fa7020df4f8"
+    },
+    {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Accountability Project Inc",
      "name": "63336136.1108546_Order_Contract_20260421033628508",
      "ext": "pdf",
@@ -48245,6 +48920,15 @@
      "folder_id": "94431212-d5be-a5c0-3b99-903dedb5a114",
      "file_id": "77be2966-ef43-ce4d-9a34-04e9c55ac707",
      "file_manager_id": "a9805a4e-6b74-4d3a-8eaa-7684e20cad12"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63336040.1108474_Order_Contract_20260421033825323",
+     "ext": "pdf",
+     "uploaded": "2026-04-21T18:01:28-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "343837f3-f58f-93ba-dca6-32fcff89db29",
+     "file_manager_id": "9163d6f7-85b6-46d7-b95e-6e5d042b6616"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -48337,6 +49021,15 @@
      "file_manager_id": "26ed123f-4e0d-4809-9755-0e5a87b90439"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332168.1090456_Invoice_20260420110917691",
+     "ext": "pdf",
+     "uploaded": "2026-04-20T16:01:36-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "9230513d-0407-6262-8ab3-031386b7c0c3",
+     "file_manager_id": "26ed123f-4e0d-4809-9755-0e5a87b90439"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/John Fleming",
      "name": "1112949_Order_Contract_20260420104542420",
      "ext": "pdf",
@@ -48344,6 +49037,15 @@
      "folder_id": "01913d72-5058-1cce-4b4a-47948dbf7f2b",
      "file_id": "ace2d350-3220-b077-4250-15d317da5e4d",
      "file_manager_id": "36b83de3-a5b4-4864-ba18-09a78fbd1328"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "1112678_Order_Contract_20260420104205495",
+     "ext": "pdf",
+     "uploaded": "2026-04-20T16:01:31-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "abaa4a51-24fb-8297-228a-35ece2ca2bfb",
+     "file_manager_id": "801e8ef2-fab5-4987-8d8c-4a6bd6a8c3aa"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -48499,6 +49201,24 @@
      "file_manager_id": "2927519e-af82-4abd-b732-052c3eb52735"
     },
     {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332168.1090456_NAB_20260327021836403",
+     "ext": "pdf",
+     "uploaded": "2026-03-27T16:01:24-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "d95f6d44-6478-e2ad-e4fd-a5a602bee509",
+     "file_manager_id": "92eff078-afa0-449c-834f-522726990fbb"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332168.1090456_Order_Contract_20260327021839928",
+     "ext": "pdf",
+     "uploaded": "2026-03-27T16:01:24-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "09e47732-13d6-a468-2116-25ad9e12dba9",
+     "file_manager_id": "2927519e-af82-4abd-b732-052c3eb52735"
+    },
+    {
      "path": "Political Files/2026/Federal/US Senate/New Orleans/US Senate/Bill Cassidy",
      "name": "63331981.1090183_NAB_20260327022354475",
      "ext": "pdf",
@@ -48515,6 +49235,24 @@
      "folder_id": "e2daac97-8d0f-92cc-bd74-1cbc45ba3a0e",
      "file_id": "21aa7ddd-fcea-3360-8bd7-22f991e1e097",
      "file_manager_id": "16a5e882-ff52-4cf6-9f99-979a80978140"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332170.1090458_NAB_20260327022135833",
+     "ext": "pdf",
+     "uploaded": "2026-03-27T16:01:23-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "5fbdf5d1-0996-8aed-0f9e-2d64c51d269c",
+     "file_manager_id": "e0cc78ba-b0d9-4f82-9f7d-8fa5e2e8a917"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63332170.1090458_Order_Contract_20260327022133184",
+     "ext": "pdf",
+     "uploaded": "2026-03-27T16:01:23-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "eb06dbf0-2999-b0b8-2f31-58d500ddb491",
+     "file_manager_id": "8bff1b4e-6fa1-4f00-a52b-9836e1078f26"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -48617,6 +49355,24 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63329575.1078712_Order_Contract_20260320112754192",
+     "ext": "pdf",
+     "uploaded": "2026-03-20T13:01:28-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "8cca9860-00cf-27ba-4023-c570752fe83b",
+     "file_manager_id": "0aefc5bd-e8d4-4d08-807a-fbb4a2a36d00"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63329575.1078712_NAB_20260320112751638",
+     "ext": "pdf",
+     "uploaded": "2026-03-20T13:01:23-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "a830a95b-4201-67cb-3931-fd0b64cd84b1",
+     "file_manager_id": "1ef7ba71-996e-47f5-b492-3a04087aca93"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63329575.1078712_NAB_20260320112751638",
      "ext": "pdf",
      "uploaded": "2026-03-20T13:01:23-04:00",
@@ -48632,6 +49388,24 @@
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "bc03e416-6439-852b-f0b0-a159d3dcc5cf",
      "file_manager_id": "8d2bf72f-04d2-48dd-9fa4-f426dbd1913b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63329573.1081572_NAB_20260320075116489",
+     "ext": "pdf",
+     "uploaded": "2026-03-20T09:01:39-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "bc03e416-6439-852b-f0b0-a159d3dcc5cf",
+     "file_manager_id": "8d2bf72f-04d2-48dd-9fa4-f426dbd1913b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63329573.1081572_Order_Contract_20260320075121799",
+     "ext": "pdf",
+     "uploaded": "2026-03-20T09:01:30-04:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "498d2399-9c0e-c5f3-846d-be42680f6afb",
+     "file_manager_id": "0573b1d1-2250-4c33-917b-391bc51ab147"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -48851,12 +49625,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63318863.1027472_Order_Contract_20260206035241571",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T16:05:22-05:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "849bf7c7-5b8a-35b3-18de-75c1db0d20d8",
+     "file_manager_id": "ca287eac-aebd-47ef-b8f1-deed277d13d8"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63318863.1027472_NAB_20260206035238889",
      "ext": "pdf",
      "uploaded": "2026-02-06T16:05:18-05:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "02d1a3a1-838a-ff5d-4219-904f85d34f92",
      "file_manager_id": "255ae6ef-331a-40ab-b39d-21f458d28dfe"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63318863.1027472_NAB_20260206035238889",
+     "ext": "pdf",
+     "uploaded": "2026-02-06T16:05:18-05:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "02d1a3a1-838a-ff5d-4219-904f85d34f92",
+     "file_manager_id": "255ae6ef-331a-40ab-b39d-21f458d28dfe"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_Order_Contract_20260202110449034",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T12:08:38-05:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "fc5953cc-ec91-d022-a502-d6ff89942d2a",
+     "file_manager_id": "beb51823-66b7-4b9b-8fa1-9a752adfe918"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -48914,12 +49715,39 @@
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317333.1019558_NAB_20260202110452193",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T12:03:58-05:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "e5bf6c04-8bda-4592-c268-e8a00193789e",
+     "file_manager_id": "4214c9ef-51d0-40a8-aa10-44edd1e48f12"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
      "name": "63317335.1019555_Order_Contract_20260202105834333",
      "ext": "pdf",
      "uploaded": "2026-02-02T11:05:20-05:00",
      "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
      "file_id": "460a8e0d-e3a4-6d3e-f216-f407433f78c6",
      "file_manager_id": "f643acd3-4b50-4f8d-8ce0-4730a05055f3"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_Order_Contract_20260202105834333",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T11:05:20-05:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "460a8e0d-e3a4-6d3e-f216-f407433f78c6",
+     "file_manager_id": "f643acd3-4b50-4f8d-8ce0-4730a05055f3"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
+     "name": "63317335.1019555_NAB_20260202105839852",
+     "ext": "pdf",
+     "uploaded": "2026-02-02T11:03:43-05:00",
+     "folder_id": "4331d68a-f241-ebd9-16ee-f8e07be732c8",
+     "file_id": "afb5c89f-e6f4-9ca3-427b-1fadedc4e7e2",
+     "file_manager_id": "b4787814-bcbc-49a9-8d09-5bee04c4b992"
     },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Louisiana Freedom Fund",
@@ -170339,7 +171167,7 @@
    "facility_id": "008859",
    "root_folder": "e6e82b2f-5f52-dcb6-24b3-db9892f3b8c7",
    "profile": "cable-profile/008859",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "b409b0e9-e184-148f-37fb-c74ffab1792d",
     "2015": "463410f1-38de-7a68-3915-8fa6bfe7f3cf",
@@ -170367,7 +171195,7 @@
    "facility_id": "011859",
    "root_folder": "3b09de7a-f0ea-0c09-ee43-6f8b599aaec9",
    "profile": "cable-profile/011859",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "795cc9b3-331d-e394-30dc-f7d06d791312",
     "2015": "d3276ab7-cacb-db71-2d0e-ed0182c67c1d",
@@ -170395,7 +171223,7 @@
    "facility_id": "021784",
    "root_folder": "7a2ca2d1-7fe0-922a-f7bd-f5d60356b09c",
    "profile": "cable-profile/021784",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "77f830a0-05a9-d18d-3c5d-e60b8a0fe7b8",
     "2015": "7d2dcfab-597f-6425-3831-63e67b49247e",
@@ -170423,7 +171251,7 @@
    "facility_id": "003002",
    "root_folder": "9b53ba83-f024-1eb1-08f1-b2a2d9fbd5a2",
    "profile": "cable-profile/003002",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "5a2fce5a-a3eb-e879-14db-d7e240a5c972",
     "2015": "71187659-756e-7b6b-34cd-5825948db3c7",
@@ -170451,7 +171279,7 @@
    "facility_id": "013331",
    "root_folder": "ee6803f6-ee38-af14-4c58-98926abd167b",
    "profile": "cable-profile/013331",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "895ce967-4f67-8960-a06c-495975ae59f3",
     "2015": "c813abc4-bf12-1c55-2173-af910626f9c8",
@@ -170635,7 +171463,7 @@
    "facility_id": "014241",
    "root_folder": "bf7cf25c-b839-dbe6-8a09-883a9a826589",
    "profile": "cable-profile/014241",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "f7b587b6-46ff-01e1-2957-b9e515e6d99b",
     "2015": "73d7566c-2867-92f0-6598-4ca2cae748b8",
@@ -170663,7 +171491,7 @@
    "facility_id": "022377",
    "root_folder": "ff844076-790e-e736-aeac-7e795699af78",
    "profile": "cable-profile/022377",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "c161c065-a4a1-9f9e-2b51-81d8d6a3105d",
     "2015": "124fb855-412c-dd6f-12db-b552c4d24a41",
@@ -171430,7 +172258,7 @@
    "facility_id": "002247",
    "root_folder": "9be1dba7-f066-518a-0007-350a098c2d3b",
    "profile": "cable-profile/002247",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "2a6e7e67-56e1-012b-427f-c60e6e93219f",
     "2015": "c15bd8d1-ea83-efd3-0088-8b426bf7f030",
@@ -171458,7 +172286,7 @@
    "facility_id": "003376",
    "root_folder": "35696673-0532-826d-bbd0-fd86dd2fc8bd",
    "profile": "cable-profile/003376",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "43b2d375-2eeb-32fd-0adf-25a7ca6e7956",
     "2015": "8c65513f-be4f-13b9-657c-c93558ac377b",
@@ -171486,7 +172314,7 @@
    "facility_id": "004383",
    "root_folder": "079ce57f-f911-f7ec-3041-e2933f22bc71",
    "profile": "cable-profile/004383",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "423b6c9d-5251-407a-adc3-ad4dff61186f",
     "2015": "634829d0-474e-9216-6ee8-101cfd127bee",
@@ -171514,7 +172342,7 @@
    "facility_id": "008567",
    "root_folder": "e9d841d0-c257-facd-08d6-92308ea4f926",
    "profile": "cable-profile/008567",
-   "scraped_at": "2026-11-15T17:44:01Z",
+   "scraped_at": "2026-11-17T05:10:28Z",
    "year_folders": {
     "2014": "e3586980-e355-8b41-38c3-6ae23c953c37",
     "2015": "65efd0da-acfc-ff5a-a285-8376c2401386",
@@ -172723,16 +173551,16 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "002247": "2026-11-15T17:44:01Z",
-  "002460": "2026-11-16T02:53:15Z",
-  "003002": "2026-11-15T17:44:01Z",
+  "002247": "2026-11-17T05:10:28Z",
+  "002460": "2026-11-17T05:10:28Z",
+  "003002": "2026-11-17T05:10:28Z",
   "003084": "2026-11-16T02:53:15Z",
-  "003376": "2026-11-15T17:44:01Z",
+  "003376": "2026-11-17T05:10:28Z",
   "003478": "2026-11-16T02:53:15Z",
   "003680": "2026-11-16T21:03:29Z",
   "004289": "2026-11-16T02:53:15Z",
   "004321": "2026-11-16T21:03:29Z",
-  "004383": "2026-11-15T17:44:01Z",
+  "004383": "2026-11-17T05:10:28Z",
   "005142": "2026-11-16T21:03:29Z",
   "005143": "2026-11-16T21:03:29Z",
   "005341": "2026-11-16T21:03:29Z",
@@ -172740,25 +173568,25 @@
   "007033": "2026-11-16T21:03:29Z",
   "007036": "2026-11-16T02:53:15Z",
   "007052": "2026-11-16T21:03:29Z",
-  "008048": "2026-11-16T02:53:15Z",
+  "008048": "2026-11-17T05:10:28Z",
   "008273": "2026-11-16T02:53:15Z",
   "008277": "2026-11-16T02:53:15Z",
   "008564": "2026-11-16T21:03:29Z",
-  "008567": "2026-11-15T17:44:01Z",
+  "008567": "2026-11-17T05:10:28Z",
   "008691": "2026-11-16T21:03:29Z",
   "008858": "2026-11-16T02:53:15Z",
-  "008859": "2026-11-15T17:44:01Z",
+  "008859": "2026-11-17T05:10:28Z",
   "010036": "2026-11-16T21:03:29Z",
   "010740": "2026-11-16T02:53:15Z",
-  "011859": "2026-11-15T17:44:01Z",
-  "013331": "2026-11-15T17:44:01Z",
-  "014241": "2026-11-15T17:44:01Z",
+  "011859": "2026-11-17T05:10:28Z",
+  "013331": "2026-11-17T05:10:28Z",
+  "014241": "2026-11-17T05:10:28Z",
   "015650": "2026-11-16T02:53:15Z",
   "016728": "2026-11-16T21:03:29Z",
   "020573": "2026-11-16T21:03:29Z",
-  "021784": "2026-11-15T17:44:01Z",
+  "021784": "2026-11-17T05:10:28Z",
   "022095": "2026-11-16T02:53:15Z",
   "022352": "2026-11-16T02:53:15Z",
-  "022377": "2026-11-15T17:44:01Z"
+  "022377": "2026-11-17T05:10:28Z"
  }
 }
