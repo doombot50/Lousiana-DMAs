@@ -6953,6 +6953,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T07:10:08Z"
   },
+  "0b097c66-7b11-4ead-8a42-7538283cca4b": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 258.0,
+   "net": 219.3,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Atkins/R/Public Service Commission",
+   "order_no": "1399669",
+   "invoice_no": null,
+   "flight": [
+    "08/28/26",
+    "09/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1399669-AtkinsRPublicServComm-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "0b10c59f-9e5a-4883-b9ed-6ed48e1dfc1f": {
    "kind": "invoice",
    "layout": "invoice",
@@ -8799,6 +8823,27 @@
    "uploaded": "2026-11-10T16:16:54-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-11T18:47:12Z"
+  },
+  "0e266661-baab-4ca3-a6e8-73e06e33dcac": {
+   "kind": "order",
+   "layout": "order",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KLIL",
+   "path": "Political Files/2026/Local/Elizabeth Williams Judge runoff",
+   "name": "WILLIAMS ROFF KLIL1",
+   "uploaded": "2026-11-17T09:41:37-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "0e27e50b-b19a-4daf-9fa0-f369a0fde507": {
    "kind": "order",
@@ -15148,6 +15193,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T19:51:32Z"
   },
+  "17bbfb21-0907-4ab8-ab1c-73896d749da9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 170.0,
+   "net": 144.5,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Davis-Taylor/D/City Court Judge",
+   "order_no": "1411540",
+   "invoice_no": null,
+   "flight": [
+    "10/16/26",
+    "10/19/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1411540-DavisTaylorDCityCourtJudge-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:57:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "17c1fdf7-e725-4ecd-b177-1a78e88b9af0": {
    "kind": "invoice",
    "layout": "invoice",
@@ -16075,6 +16144,30 @@
    "uploaded": "2026-11-12T12:10:55-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-13T18:46:12Z"
+  },
+  "190cfc76-dec3-4ce9-b513-b9f9c79224c0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5955.0,
+   "net": 5061.75,
+   "agency": "Anderson Advertising",
+   "advertiser": "Cable/D/House of Representatives",
+   "order_no": "1412281",
+   "invoice_no": null,
+   "flight": [
+    "10/26/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "1412281-CableDHouseofReps-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:46:35-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "190fc360-2dd7-4085-a7a6-c23448aa7b38": {
    "kind": "invoice",
@@ -25962,6 +26055,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
   },
+  "27fc4478-39db-4299-884f-f52d636617a5": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 484.0,
+   "net": 411.4,
+   "agency": "Williams Creative Group Inc",
+   "advertiser": "Arceneaux/R/Mayor",
+   "order_no": "1400863",
+   "invoice_no": null,
+   "flight": [
+    "09/07/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1400863-ArceneauxRMayor-KMJJ-FM-INVOICE1",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "2810620b-6cce-4376-93b4-34f26fc43923": {
    "kind": "request",
    "layout": "nab",
@@ -32238,6 +32355,27 @@
    "uploaded": "2026-06-15T11:04:10-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T02:52:27Z"
+  },
+  "3244184c-235f-4c9f-ab94-055b4652bc51": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KLIL",
+   "path": "Political Files/2026/Local/Elizabeth Williams Judge runoff",
+   "name": "WILLIAMS ROFF AG KL",
+   "uploaded": "2026-11-17T09:41:37-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "325574bd-c066-484d-963a-f9bd511223e8": {
    "kind": "order",
@@ -46634,6 +46772,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-10T18:46:07Z"
   },
+  "4a62d146-9f8a-4e7b-9969-b03ce33ce6a9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 259.0,
+   "net": 220.15,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Phelps/D/Mayor",
+   "order_no": "1401810",
+   "invoice_no": null,
+   "flight": [
+    "09/04/26",
+    "09/05/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1401810-PhelpsDMayor-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "4a65d9c6-4fa8-4fb3-80cf-f3ef78b8e6a7": {
    "kind": "order",
    "layout": "contract",
@@ -51547,6 +51709,30 @@
    "uploaded": "2026-10-15T17:25:03-04:00",
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
+  },
+  "524b813a-d0c8-4456-a4e5-48b98add80c6": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Stewart/D/District Attorney",
+   "order_no": "1414821",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1414821-StewartDDistrictAttorney-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:57:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "524cfe9e-63f5-4970-be73-dd8f0e7faa3a": {
    "kind": "request",
@@ -57585,6 +57771,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T01:53:37Z"
   },
+  "5c3285cd-96d9-495e-9210-71d3e49719df": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 80.0,
+   "net": 68.0,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Phelps/D/Mayor",
+   "order_no": "1417761",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1417761-PhelpsDMayor-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "5c36b4a8-3912-402b-bdbc-541301945b9f": {
    "kind": "order",
    "layout": "other",
@@ -61314,6 +61524,30 @@
    "uploaded": "2026-06-26T15:47:42-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T20:13:18Z"
+  },
+  "620e7bc6-5e33-48c1-ae9f-819bae68cf25": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 200.0,
+   "net": 170.0,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Davis-Taylor/D/City Court Judge",
+   "order_no": "1396102",
+   "invoice_no": null,
+   "flight": [
+    "08/17/26",
+    "08/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1396102-DavisTaylorDCityCourtJudge-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "622cbaba-53d4-4730-895c-a214ce332aca": {
    "kind": "other",
@@ -70105,6 +70339,30 @@
    "name_kind": "aired",
    "read_at": "2026-10-27T21:31:41Z"
   },
+  "6f9cd728-0ea6-4b84-8e80-ac0033ab6caf": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 943.0,
+   "net": 801.55,
+   "agency": "Marketing Blitz Ad Group",
+   "advertiser": "Davis/D/US Senate",
+   "order_no": "1416229",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1416229-DavisDUSSenate-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:47:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "6fa8d5f2-8f6d-4620-92d0-c0671b137dfe": {
    "kind": "invoice",
    "layout": "invoice",
@@ -74850,6 +75108,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T02:19:37Z"
   },
+  "771db270-e454-4a03-8e32-eeae352398d7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 285.0,
+   "net": 242.25,
+   "agency": null,
+   "advertiser": "Smith/D/City Council-LA",
+   "order_no": "1415552",
+   "invoice_no": null,
+   "flight": [
+    "10/31/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1415552-SmithDCityCouncil-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T14:00:17-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "772bcf3e-7d3e-4cf7-96c8-f05a5b529a05": {
    "kind": "order",
    "layout": "other",
@@ -76938,6 +77220,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-29T20:06:56Z"
   },
+  "7a5c2aef-e65c-45f5-9fbd-2fb92b6a2938": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 80.0,
+   "net": 68.0,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Phelps/D/Mayor",
+   "order_no": "1417761",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1417761-PhelpsDMayor-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "7a5d8a11-f693-4bb6-9307-6ede549628de": {
    "kind": "order",
    "layout": "contract",
@@ -77321,6 +77627,30 @@
    "uploaded": "2026-10-30T12:00:36-04:00",
    "name_kind": "other",
    "read_at": "2026-10-30T16:30:47Z"
+  },
+  "7ac4796a-87b7-440d-aea8-919399c51972": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1900.0,
+   "net": 1615.0,
+   "agency": "Williams Creative Group Inc",
+   "advertiser": "Arceneaux/R/Mayor",
+   "order_no": "1400863",
+   "invoice_no": null,
+   "flight": [
+    "09/07/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1400863-ArceneauxRMayor-KMJJ-FM-INVOICE2",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "7ac65463-e8cf-45f5-9238-ee13a8cefdc1": {
    "kind": "other",
@@ -79412,6 +79742,30 @@
    "uploaded": "2026-06-16T12:18:55-04:00",
    "name_kind": "aired",
    "read_at": "2026-10-28T08:58:18Z"
+  },
+  "7d4ba020-48a3-49e7-99ac-597c89488adb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 640.0,
+   "net": 544.0,
+   "agency": null,
+   "advertiser": "Smith/D/City Council-LA",
+   "order_no": "1413909",
+   "invoice_no": null,
+   "flight": [
+    "10/16/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1413909-SmithDCityCouncil-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:57:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "7d558ce5-e6d5-4f2f-ba5f-b16c9424dd51": {
    "kind": "request",
@@ -84428,6 +84782,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T16:13:24Z"
   },
+  "842b3943-1123-4f9e-9d9d-acc04959892c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Stewart/D/District Attorney",
+   "order_no": "1414821",
+   "invoice_no": null,
+   "flight": [
+    "10/20/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1414821-StewartDDistrictAttorney-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:57:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "8443e8d1-bd2a-4ccd-8253-e21f4f6f1509": {
    "kind": "request",
    "layout": "nab",
@@ -84688,6 +85066,30 @@
    "uploaded": "2026-05-22T14:27:20-04:00",
    "name_kind": "order",
    "read_at": "2026-10-21T01:53:10Z"
+  },
+  "84a14b0a-ac87-46b9-9021-cb5954cb470a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1144.0,
+   "net": 972.4,
+   "agency": "Williams Creative Group Inc",
+   "advertiser": "Arceneaux/R/Mayor",
+   "order_no": "1400863",
+   "invoice_no": null,
+   "flight": [
+    "09/07/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1400863-ArceneauxRMayor-KMJJ-FM-INVOICE",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "84b45794-bdfc-4fc4-818f-ef1ec35b93d5": {
    "kind": "order",
@@ -86820,6 +87222,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "8824c658-3e8c-4e53-ba2d-e69519846139": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 131.0,
+   "net": 111.35,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Atkins/R/Public Service Commission",
+   "order_no": "1399669",
+   "invoice_no": null,
+   "flight": [
+    "08/28/26",
+    "09/02/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1399669-AtkinsRPublicServComm-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:55:38-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "882a2faa-920c-47a3-930a-731821e2d80c": {
    "kind": "order",
    "layout": "order",
@@ -87170,6 +87596,30 @@
    "uploaded": "2026-03-03T16:16:56-05:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T19:53:16Z"
+  },
+  "88883d0b-da8c-48cf-8c0b-58bf927a05b7": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1050.0,
+   "net": 892.5,
+   "agency": "My Shining Stars",
+   "advertiser": "Friends of Caddo-Agency",
+   "order_no": "1413919",
+   "invoice_no": null,
+   "flight": [
+    "10/15/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1413919-FriendsofCaddo-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:51:59-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "888912f0-13ad-4e12-afe5-d655ec5c7284": {
    "kind": "order",
@@ -89513,6 +89963,30 @@
    "uploaded": "2026-05-16T03:52:24-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
+  },
+  "8bf71123-96fd-49cd-a673-3d453cadcefa": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 268.0,
+   "net": 227.8,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Phelps/D/Mayor",
+   "order_no": "1414107",
+   "invoice_no": null,
+   "flight": [
+    "10/17/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1414107-PhelpsDMayor-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:57:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "8bf7c324-195d-4a91-bd81-3dc79b80cb48": {
    "kind": "invoice",
@@ -95428,6 +95902,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T16:15:51Z"
   },
+  "96079f8f-04e0-49e2-aef6-04ba71067002": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 989.0,
+   "net": 840.65,
+   "agency": null,
+   "advertiser": "Gromlich/D/House of Representatives",
+   "order_no": "1413594",
+   "invoice_no": null,
+   "flight": [
+    "10/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "1413594-GromlichDHouseofReps-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:46:07-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "960ad1c3-9ae7-484c-9667-609575c482ce": {
    "kind": "invoice",
    "layout": "invoice",
@@ -96483,6 +96981,30 @@
    "uploaded": "2026-05-11T16:10:12-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T03:05:28Z"
+  },
+  "977b75f8-11f2-441b-8381-14bb1e204e2d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 120.0,
+   "net": 102.0,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Mero/D/Mayor",
+   "order_no": "1411812",
+   "invoice_no": null,
+   "flight": [
+    "10/10/26",
+    "10/31/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1411812-MeroDMayor-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:57:57-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "97885af3-ee04-4807-826a-67ca07ea3e2d": {
    "kind": "order",
@@ -114688,6 +115210,30 @@
    "name_kind": "other",
    "read_at": "2026-10-25T15:10:25Z"
   },
+  "b3af8372-d080-4077-ada3-3d0e7ffaaba0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1435.0,
+   "net": 1219.75,
+   "agency": "Marketing Blitz Ad Group",
+   "advertiser": "Davis/D/US Senate",
+   "order_no": "1416229",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Federal/US Senate",
+   "name": "1416229-DavisDUSSenate-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:47:36-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "b3b0c42b-4045-4b48-aa2d-fcfb93815a23": {
    "kind": "order",
    "layout": "other",
@@ -117278,6 +117824,30 @@
    "uploaded": "2026-10-13T15:36:17-04:00",
    "name_kind": "other",
    "read_at": "2026-10-20T20:43:17Z"
+  },
+  "b77ee944-4ec8-44c8-bb2d-8fd0730cec5d": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 549.0,
+   "net": 466.65,
+   "agency": null,
+   "advertiser": "Gromlich/D/House of Representatives",
+   "order_no": "1413594",
+   "invoice_no": null,
+   "flight": [
+    "10/21/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "1413594-GromlichDHouseofReps-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:46:08-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "b792fc06-fe90-4c9f-bc0e-06ef6a3602fe": {
    "kind": "order",
@@ -123462,6 +124032,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:45:10Z"
   },
+  "c0919dc3-39e6-4eea-8f8a-e2578b28745e": {
+   "kind": "order",
+   "layout": "schedule",
+   "gross": 848.0,
+   "net": null,
+   "agency": null,
+   "advertiser": "GABE FIRMENT",
+   "order_no": "12137-00005",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KJLO",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "GabeFirment11-12KJLOPublicFile",
+   "uploaded": "2026-11-17T08:39:02-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "c09492a5-b636-4e39-b465-f79444c12439": {
    "kind": "other",
    "layout": "other",
@@ -123725,6 +124316,30 @@
    "uploaded": "2026-07-31T11:32:47-04:00",
    "name_kind": "order",
    "read_at": "2026-10-23T16:07:43Z"
+  },
+  "c0f4a435-e31e-4ea7-a3dd-bece40f4dac0": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 400.0,
+   "net": 340.0,
+   "agency": null,
+   "advertiser": "Stewart/D/District Attorney",
+   "order_no": "1417282",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1417282-StewartDDistrictAttorney-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "c0f5925e-bbd4-477f-9825-a5fa94d511d7": {
    "kind": "request",
@@ -124673,6 +125288,30 @@
    "uploaded": "2026-03-20T10:45:48-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T08:05:54Z"
+  },
+  "c25695e8-f9a2-4969-935f-b4469325cd64": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 12310.0,
+   "net": 10463.5,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1410036",
+   "invoice_no": null,
+   "flight": [
+    "10/06/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1410036-PowerCoalitionEquityJustice-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:51:08-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "c263724b-df10-4d62-a11d-5ac991bc39c2": {
    "kind": "order",
@@ -132008,6 +132647,30 @@
    "name_kind": "order",
    "read_at": "2026-10-20T15:48:03Z"
   },
+  "cd6b4df5-f806-42ed-8df1-ddfbcb77bb3e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1680.0,
+   "net": 1428.0,
+   "agency": null,
+   "advertiser": "Power Coalition for Equity & Justice-Direct",
+   "order_no": "1410036",
+   "invoice_no": null,
+   "flight": [
+    "10/06/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1410036-PowerCoalitionEquityJustice-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:51:08-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "cd70d9f0-d420-4a01-923b-9a0ba7668070": {
    "kind": "order",
    "layout": "other",
@@ -132241,6 +132904,30 @@
    "uploaded": "2026-09-18T15:57:43-04:00",
    "name_kind": "order",
    "read_at": "2026-10-20T16:15:51Z"
+  },
+  "cda01432-e738-4365-913f-4656587ed650": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 640.0,
+   "net": 544.0,
+   "agency": null,
+   "advertiser": "Smith/D/City Council-LA",
+   "order_no": "1413909",
+   "invoice_no": null,
+   "flight": [
+    "10/16/26",
+    "10/27/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1413909-SmithDCityCouncil-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T14:00:17-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "cda03e26-cfb6-4371-ba38-0909412d6e9e": {
    "kind": "request",
@@ -135658,6 +136345,30 @@
    "uploaded": "2026-03-31T14:20:11-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T16:49:42Z"
+  },
+  "d2d937c4-6aff-411c-a37d-a4010449f9b9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 150.0,
+   "net": 127.5,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Davis-Taylor/D/City Court Judge",
+   "order_no": "1416171",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1416171-DavisTaylorDCityCourtJudge-KMJJ-FM-Invoice1",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "d2dce64b-f416-4881-a9b8-b2b48e22deb5": {
    "kind": "order",
@@ -139929,6 +140640,30 @@
    "name_kind": "order",
    "read_at": "2026-11-14T03:31:53Z"
   },
+  "d93e87f2-1f82-4d8d-9aab-71209eea950e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 100.0,
+   "net": 85.0,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Davis-Taylor/D/City Court Judge",
+   "order_no": "1416171",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1416171-DavisTaylorDCityCourtJudge-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "d93f4d79-557c-4beb-9e7c-3a597b937ef8": {
    "kind": "invoice",
    "layout": "invoice",
@@ -142305,6 +143040,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T01:54:17Z"
   },
+  "dc3b1567-4737-450e-a487-7856e2321efc": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 269.0,
+   "net": 228.65,
+   "agency": "MCS Ad Agency",
+   "advertiser": "Ravari/N/Mayor of Shreveport",
+   "order_no": "1416322",
+   "invoice_no": null,
+   "flight": [
+    "10/24/26",
+    "10/29/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1416322-RavariNMayor-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "dc4f2eb1-aaf6-4c3e-97c0-24783528f4a1": {
    "kind": "order",
    "layout": "other",
@@ -143786,6 +144545,30 @@
    "uploaded": "2026-07-06T15:40:38-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
+  },
+  "df1e337e-e281-403e-99ab-c158ed5b154a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": "Voice of the Experienced",
+   "order_no": "1371687A",
+   "invoice_no": null,
+   "flight": [
+    "05/16/26",
+    "05/16/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1371687A-VoiceoftheExperienced-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:49:52-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "df3573d2-94c1-4dd3-8d2c-aef108a3d488": {
    "kind": "order",
@@ -150663,6 +151446,30 @@
    "name_kind": "order",
    "read_at": "2026-10-23T15:55:10Z"
   },
+  "eaa5b681-e3dd-4a67-9b98-c13930b29c66": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 755.0,
+   "net": 641.75,
+   "agency": "Alpha Media & Public Relations",
+   "advertiser": "Louisiana Coalition for Fair Schools",
+   "order_no": "1371351",
+   "invoice_no": null,
+   "flight": [
+    "05/14/26",
+    "05/16/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1371351-LouisianaCoalitionforFair-KMJJ-FM-INVOICE",
+   "uploaded": "2026-11-17T13:49:20-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "eaa8ebae-8a9b-406b-8b61-f098feb0ce64": {
    "kind": "order",
    "layout": "other",
@@ -154004,6 +154811,30 @@
    "uploaded": "2026-06-15T18:05:23-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T22:18:47Z"
+  },
+  "f01a6054-c7e0-4fe6-95f9-8d13a8fcd0fb": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1620.0,
+   "net": 1377.0,
+   "agency": null,
+   "advertiser": "Stewart/D/District Attorney",
+   "order_no": "1417282",
+   "invoice_no": null,
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Local",
+   "name": "1417282-StewartDDistrictAttorney-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:59:16-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
   },
   "f0224fe1-985f-4311-a90f-be990b1c884b": {
    "kind": "order",
@@ -160992,6 +161823,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "fc14eb9b-ac1c-415d-80c6-0a093c42bc56": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 530.0,
+   "net": 450.5,
+   "agency": "My Shining Stars",
+   "advertiser": "Friends of Caddo-Agency",
+   "order_no": "1411408",
+   "invoice_no": null,
+   "flight": [
+    "10/05/26",
+    "10/10/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMJJ",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "1411408-FriendsofCaddo-KMJJ-FM-Invoice",
+   "uploaded": "2026-11-17T13:51:34-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-17T19:58:07Z"
+  },
   "fc16fcde-ab9f-4cfb-89f7-c159d5bb6d4c": {
    "kind": "invoice",
    "layout": "invoice",
@@ -163392,6 +164247,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-17T05:16:37Z",
+ "updated": "2026-11-17T20:01:21Z",
  "blocked": null
 }

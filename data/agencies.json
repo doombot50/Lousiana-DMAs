@@ -2,7 +2,7 @@
  "generated": "2026-11-17",
  "data_through": "2026-11-10",
  "cycle_from": 2023,
- "documents_read": 7494,
+ "documents_read": 7530,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -3477,18 +3477,18 @@
    "name": "Devise Strategy Group",
    "found_by": "filings",
    "paid": {
-    "total": 920260,
+    "total": 930260,
     "media": 188068,
-    "rows": 123,
+    "rows": 125,
     "media_cycle": 188068,
-    "cycle": 800868,
+    "cycle": 810868,
     "years": {
      "2020": 97963,
      "2021": 21429,
      "2023": 390164,
      "2024": 73209,
      "2025": 286794,
-     "2026": 50700
+     "2026": 60700
     },
     "committees": 26,
     "top": [
@@ -3524,8 +3524,8 @@
       "f": "5626",
       "n": "CENLA STRONG PAC",
       "p": "OTH",
-      "usd": 55785,
-      "cycle": 55785
+      "usd": 65785,
+      "cycle": 65785
      },
      {
       "f": "6590",
@@ -3711,11 +3711,11 @@
     }
    },
    "paid": {
-    "total": 2688053,
+    "total": 2700128,
     "media": 390134,
-    "rows": 296,
+    "rows": 299,
     "media_cycle": 171523,
-    "cycle": 1190130,
+    "cycle": 1202205,
     "years": {
      "2004": 10379,
      "2009": 544,
@@ -3731,7 +3731,7 @@
      "2023": 530490,
      "2024": 200858,
      "2025": 358474,
-     "2026": 100307
+     "2026": 112382
     },
     "committees": 15,
     "top": [
@@ -3746,8 +3746,8 @@
       "f": "4538",
       "n": "Cajun PAC II",
       "p": "OTH",
-      "usd": 345875,
-      "cycle": 246748
+      "usd": 357950,
+      "cycle": 258823
      },
      {
       "f": "5023",
@@ -6383,13 +6383,14 @@
    "name": "Williams Creative Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 25,
-    "priced": 8,
-    "usd": 68432,
+    "docs": 28,
+    "priced": 9,
+    "usd": 71960,
     "stations": [
      "KDKS",
      "KEEL",
      "KLKL",
+     "KMJJ",
      "KMSS",
      "KOKA",
      "KSLA",
@@ -6400,6 +6401,7 @@
     "clients": [
      "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
      "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
+     "Arceneaux/R/Mayor",
      "m Downtown Shreveport Development Corporation",
      "Tom Arceneaux for Shreveport Mayor",
      "m Tom Arceneaux for Mayor",
@@ -6408,7 +6410,7 @@
      "Deven tote, Speen t Mrveleppenp Coryota Hon"
     ],
     "first": "2026-09-30",
-    "last": "2026-11-10",
+    "last": "2026-11-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -6530,6 +6532,34 @@
     ],
     "first": "2026-05-04",
     "last": "2026-10-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
+   "name": "Anderson Advertising & Public Relations",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 10,
+    "priced": 7,
+    "usd": 60963,
+    "stations": [
+     "KMJJ",
+     "KMSS",
+     "KSLA",
+     "KTAL"
+    ],
+    "clients": [
+     "Conrad Cable/Congress/LA/Dem",
+     "Conrad Cable for Congress",
+     "Cable/D/House of Representatives"
+    ],
+    "first": "2026-11-03",
+    "last": "2026-11-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7252,32 +7282,6 @@
    }
   },
   {
-   "key": "ANDERSONADVERTISINGANDPUBLICRELATIONS",
-   "name": "Anderson Advertising & Public Relations",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 9,
-    "priced": 6,
-    "usd": 55008,
-    "stations": [
-     "KMSS",
-     "KSLA",
-     "KTAL"
-    ],
-    "clients": [
-     "Conrad Cable/Congress/LA/Dem",
-     "Conrad Cable for Congress"
-    ],
-    "first": "2026-11-03",
-    "last": "2026-11-10",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "GEN2SOLUTIONS",
    "name": "Gen2 Solutions",
    "found_by": "political file",
@@ -7651,11 +7655,12 @@
    "name": "Marketing Blitz Ad Group",
    "found_by": "political file",
    "fcc": {
-    "docs": 20,
-    "priced": 10,
-    "usd": 39117,
+    "docs": 22,
+    "priced": 11,
+    "usd": 41495,
     "stations": [
      "KMEZ",
+     "KMJJ",
      "KNEK",
      "KQXL",
      "KRRQ",
@@ -7667,10 +7672,11 @@
     "clients": [
      "Davis/D/Senate",
      "Jaimie Davis for US Senate",
+     "Davis/D/US Senate",
      "Jamie Davis for US Senate"
     ],
     "first": "2026-10-23",
-    "last": "2026-11-12",
+    "last": "2026-11-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7709,22 +7715,28 @@
    "name": "MCS Ad Agency - Mobile Communications Service",
    "found_by": "political file",
    "fcc": {
-    "docs": 13,
-    "priced": 8,
-    "usd": 2540,
+    "docs": 25,
+    "priced": 17,
+    "usd": 4625,
     "stations": [
+     "KMJJ",
      "KMSS",
      "KTAL"
     ],
     "clients": [
      "Tammy Phelps/Mayor of Shreveport/LA/Dem",
+     "Davis-Taylor/D/City Court Judge",
+     "Phelps/D/Mayor",
      "Kharmen Davis-Taylor/City Court Judge/LA/Dem",
+     "Atkins/R/Public Service Commission",
      "Matt Gromlich/Congress District4/LA/Dem",
      "Siavosh Ravari/Mayor of Shreveport/LA/Ind",
-     "Chaunta Mero/Mayor of Shreveport/LA/Dem"
+     "Mero/D/Mayor",
+     "Chaunta Mero/Mayor of Shreveport/LA/Dem",
+     "Ravari/N/Mayor of Shreveport"
     ],
     "first": "2026-05-05",
-    "last": "2026-11-12",
+    "last": "2026-11-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -9202,11 +9214,11 @@
     }
    },
    "paid": {
-    "total": 1387818,
+    "total": 1389818,
     "media": 487777,
-    "rows": 334,
+    "rows": 335,
     "media_cycle": 17500,
-    "cycle": 405431,
+    "cycle": 407431,
     "years": {
      "2014": 4400,
      "2015": 427022,
@@ -9220,7 +9232,7 @@
      "2023": 144781,
      "2024": 44666,
      "2025": 144015,
-     "2026": 71969
+     "2026": 73969
     },
     "committees": 61,
     "top": [
@@ -9228,8 +9240,8 @@
       "f": "6399",
       "n": "Foundation PAC",
       "p": "OTH",
-      "usd": 106477,
-      "cycle": 106477
+      "usd": 108477,
+      "cycle": 108477
      },
      {
       "f": "4593",
@@ -11040,40 +11052,15 @@
    }
   },
   {
-   "key": "HULSENMEDIASERVICES",
-   "name": "Hulsen Media Services",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 5,
-    "priced": 4,
-    "usd": 6255,
-    "stations": [
-     "KLAX",
-     "WNTZ"
-    ],
-    "clients": [
-     "Jacques Roy for Mayor",
-     "Jacques Roy/Mayor of Alexandrite",
-     "seeques Roy forMayor"
-    ],
-    "first": "2026-09-23",
-    "last": "2026-10-30",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   }
-  },
-  {
    "key": "ALPHAMEDIAANDPUBLICRELATIONS",
    "name": "Alpha Media & Public Relations",
    "found_by": "political file",
    "fcc": {
-    "docs": 7,
-    "priced": 5,
-    "usd": 6054,
+    "docs": 8,
+    "priced": 6,
+    "usd": 6809,
     "stations": [
+     "KMJJ",
      "KQXL",
      "KRRQ",
      "WEMX",
@@ -11083,7 +11070,7 @@
      "Louisiana Coalition for Fair Schools"
     ],
     "first": "2026-05-13",
-    "last": "2026-07-09",
+    "last": "2026-11-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -11233,6 +11220,32 @@
      "ALPHA MEDIA, LLC",
      "ALPHAMEDIA"
     ]
+   }
+  },
+  {
+   "key": "HULSENMEDIASERVICES",
+   "name": "Hulsen Media Services",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 5,
+    "priced": 4,
+    "usd": 6255,
+    "stations": [
+     "KLAX",
+     "WNTZ"
+    ],
+    "clients": [
+     "Jacques Roy for Mayor",
+     "Jacques Roy/Mayor of Alexandrite",
+     "seeques Roy forMayor"
+    ],
+    "first": "2026-09-23",
+    "last": "2026-10-30",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
    }
   },
   {
@@ -12075,6 +12088,29 @@
     ],
     "first": "2026-05-07",
     "last": "2026-05-07",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "MYSHININGSTARS",
+   "name": "My Shining Stars",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 2,
+    "usd": 1580,
+    "stations": [
+     "KMJJ"
+    ],
+    "clients": [
+     "Friends of Caddo-Agency"
+    ],
+    "first": "2026-11-17",
+    "last": "2026-11-17",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -50018,8 +50054,8 @@
    {
     "k": "LITTLEFIELDCONSULT",
     "n": "LITTLEFIELD CONSULTING",
-    "usd": 345875,
-    "cycle": 246748,
+    "usd": 357950,
+    "cycle": 258823,
     "media": 0,
     "fcc": true,
     "y": {
@@ -50029,7 +50065,7 @@
      "2023": 7500,
      "2024": 43094,
      "2025": 112731,
-     "2026": 83423
+     "2026": 95498
     }
    },
    {
@@ -55834,13 +55870,13 @@
    {
     "k": "DEVISESTRATEGY",
     "n": "Devise Strategy Group",
-    "usd": 55785,
-    "cycle": 55785,
+    "usd": 65785,
+    "cycle": 65785,
     "media": 0,
     "fcc": false,
     "y": {
      "2025": 30000,
-     "2026": 25785
+     "2026": 35785
     }
    },
    {
@@ -59465,14 +59501,14 @@
    {
     "k": "BRAVENEWTELEVISION",
     "n": "BRAVE NEW TELEVISION",
-    "usd": 106477,
-    "cycle": 106477,
+    "usd": 108477,
+    "cycle": 108477,
     "media": 971,
     "fcc": true,
     "y": {
      "2024": 30403,
      "2025": 37706,
-     "2026": 38369
+     "2026": 40369
     }
    }
   ],
