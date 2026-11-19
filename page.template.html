@@ -580,11 +580,25 @@ if(DATA.agencies && DATA.agencies.media){
   c.hidden=false;
   c.innerHTML=`<b>Not in that total:</b> since ${A.from}, committees have also paid media-buying firms ${money(A.media)} for TV and media work, ${than} the ${money(A.stations)} they paid stations directly. The filings don't say which stations it reached. <a href="#ag-sec">The agencies ↓</a>`;
 }
+// This year's general election. Once the political files run past it, the
+// copy about this year's bookings turns from a running count to a record.
+const ELECTION='2026-11-03';
+const OVER=!!(DATA.cycle && DATA.cycle.scraped && DATA.cycle.scraped.slice(0,10)>ELECTION);
+const electionDay=new Date(ELECTION+'T12:00').toLocaleDateString('en-US',{month:'long',day:'numeric'});
+// The four weeks up to the election once it's over; the latest four before.
+const fourWeeks=ws=>(OVER?ws.filter(w=>w[0]<=ELECTION):ws).slice(-4).reduce((a,w)=>a+w[1]+w[2]+w[3],0);
 if(DATA.cycle && DATA.cycle.total){
-  const C=DATA.cycle, ws=C.weeks, last4=ws.slice(-4).reduce((a,w)=>a+w[1]+w[2]+w[3],0);
+  const C=DATA.cycle, last4=fourWeeks(C.weeks), yr=C.scraped.slice(0,4);
   const l=document.getElementById('nowlink');
   l.hidden=false;
-  l.innerHTML=`<span><b>${C.scraped.slice(0,4)}:</b> the stations' political files show <b>${money(C.total)}</b> booked so far, <b>${money(last4)}</b> of it in the last four weeks</span><span class="go">The air war now ↓</span>`;
+  l.innerHTML=OVER
+    ?`<span><b>${yr}:</b> the stations' political files show <b>${money(C.total)}</b> booked this election year, <b>${money(last4)}</b> of it in the four weeks up to ${electionDay}</span><span class="go">The ${yr} air war ↓</span>`
+    :`<span><b>${yr}:</b> the stations' political files show <b>${money(C.total)}</b> booked so far, <b>${money(last4)}</b> of it in the last four weeks</span><span class="go">The air war now ↓</span>`;
+  if(OVER){
+    document.querySelector('#now .grouph').textContent=`The ${yr} air war, and ${+yr+1} ahead`;
+    document.getElementById('nowintro').insertAdjacentHTML('beforeend',` The ${electionDay} election is over, so for ${yr} what follows is the record of it, still growing as stations post invoices and the runoffs book their time.`);
+    document.querySelector('#pf-sec h2').textContent='What the stations say was bought';
+  }
 }
 
 /* in-page contents: mark the section in view */
@@ -865,7 +879,7 @@ if(DATA.cycle && DATA.cycle.total){
 /* ---------- political file (FCC) ---------- */
 /* ---------- the 2026 air war: booked dollars by week ---------- */
 if(DATA.cycle && DATA.cycle.weeks.length){
-  const C = DATA.cycle, ELECTION = '2026-11-03';
+  const C = DATA.cycle;
   document.getElementById('cyc-sec').hidden = false;
   // Issue ads, the biggest share, are hatched rather than the palest grey, so
   // they don't read as the least of it. CSS fills (keys, the split bar) use
@@ -881,12 +895,12 @@ if(DATA.cycle && DATA.cycle.weeks.length){
   while(weeks[weeks.length-1].d < addDays(ELECTION,-6)) weeks.push({d:addDays(weeks[weeks.length-1].d,7), v:null});
   const tot = w => w.v ? w.v[0]+w.v[1]+w.v[2] : 0;
   const filled = weeks.filter(w=>w.v);
-  const last4 = filled.slice(-4).reduce((a,w)=>a+tot(w),0);
+  const last4 = fourWeeks(C.weeks);
   const peak = filled.reduce((a,w)=>tot(w)>tot(a)?w:a);
   const pct = k => Math.round((C.byBucket[k]||0)/C.total*100);
   document.getElementById('cycintro').innerHTML =
-    `The ${money(C.total)} booked so far this year, placed by the week each order or invoice was posted to a station's file. `+
-    `The four weeks to ${dshort(C.scraped)} alone account for <b>${money(last4)}</b>, ${Math.round(last4/C.total*100)}% of the year so far; the busiest week was ${dshort(peak.d)}, at <b>${money(tot(peak))}</b>.`;
+    `The ${money(C.total)} booked ${OVER?'':'so far '}this year, placed by the week each order or invoice was posted to a station's file. `+
+    `The four weeks ${OVER?`up to the ${dshort(ELECTION)} election`:`to ${dshort(C.scraped)}`} alone account for <b>${money(last4)}</b>, ${Math.round(last4/C.total*100)}% of the year${OVER?'':' so far'}; the busiest week was ${dshort(peak.d)}, at <b>${money(tot(peak))}</b>.`;
   // The booked total split by what a state report can and can't check.
   const RC = C.recon;
   if(RC){

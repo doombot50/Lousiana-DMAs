@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-01",
+ "generated": "2026-11-19",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1506923,
- "data_through": "2026-10-30",
+ "rows_scanned": 1508458,
+ "data_through": "2026-11-10",
  "years_covered": [
   2000,
   2026
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121526584.68,
+ "total_spend": 121538464.43,
  "pace": {
   "weeks": [
    -104,
@@ -777,29 +777,31 @@
      1196523.0,
      1196523.0,
      1196523.0,
-     1229394.0,
-     1229394.0,
-     1235306.5,
-     1265306.5,
-     1265306.5,
-     1265306.5,
-     1265306.5,
-     1314335.25,
-     1318585.25,
-     1454159.75,
-     1537066.87,
-     1669185.87,
-     1669185.87,
-     1721984.32
+     1231299.0,
+     1231299.0,
+     1237211.5,
+     1267211.5,
+     1267211.5,
+     1267211.5,
+     1267211.5,
+     1316240.25,
+     1320490.25,
+     1456064.75,
+     1538971.87,
+     1671090.87,
+     1671090.87,
+     1729839.32,
+     1729839.32,
+     1733864.07
     ]
    }
   ],
   "note": "cumulative TV dollars from every state committee, by week relative to the governor's-race primary; includes the legislative and local races on the same ballots"
  },
  "recent_buyers": {
-  "since": "2025-10-31",
-  "through": "2026-10-30",
-  "total": 1653244.32,
+  "since": "2025-11-11",
+  "through": "2026-11-10",
+  "total": 1620647.07,
   "committees": 35,
   "top": [
    {
@@ -1687,8 +1689,8 @@
    "dma_rank_2024_25": 91,
    "owner": "KTBS, LLC",
    "owner_group": "local",
-   "spend": 6608878.85,
-   "rows": 584,
+   "spend": 6612903.6,
+   "rows": 585,
    "committees": 137,
    "first_year": 2000,
    "last_year": 2026,
@@ -1714,7 +1716,7 @@
     "2023": 895446.51,
     "2024": 9578.0,
     "2025": 5687.1,
-    "2026": 82699.7
+    "2026": 86724.45
    },
    "top_committees": [
     {
@@ -2134,9 +2136,9 @@
    "dma_rank_2024_25": 142,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 5253815.65,
-   "rows": 503,
-   "committees": 96,
+   "spend": 5254515.65,
+   "rows": 504,
+   "committees": 97,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2160,7 +2162,7 @@
     "2021": 5882.0,
     "2023": 874548.25,
     "2024": 6630.0,
-    "2026": 5134.0
+    "2026": 5834.0
    },
    "top_committees": [
     {
@@ -2358,9 +2360,9 @@
    "dma_rank_2024_25": 91,
    "owner": "Nexstar Media",
    "owner_group": "nexstar",
-   "spend": 2612431.06,
-   "rows": 331,
-   "committees": 63,
+   "spend": 2615236.06,
+   "rows": 332,
+   "committees": 64,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2382,7 +2384,7 @@
     "2023": 291110.5,
     "2024": 1999.71,
     "2025": 1700.0,
-    "2026": 26902.25
+    "2026": 29707.25
    },
    "top_committees": [
     {
@@ -2466,9 +2468,9 @@
    "dma_rank_2024_25": 142,
    "owner": "Mission Bcstg · op. Nexstar",
    "owner_group": "nexstar",
-   "spend": 1685157.43,
-   "rows": 374,
-   "committees": 71,
+   "spend": 1685882.43,
+   "rows": 375,
+   "committees": 72,
    "first_year": 2000,
    "last_year": 2026,
    "by_year": {
@@ -2489,7 +2491,7 @@
     "2019": 353717.86,
     "2020": 34334.25,
     "2023": 157382.21,
-    "2026": 2949.5
+    "2026": 3674.5
    },
    "top_committees": [
     {
@@ -3009,9 +3011,9 @@
    "dma_rank_2024_25": 91,
    "owner": "Mission Bcstg · op. Nexstar",
    "owner_group": "nexstar",
-   "spend": 745652.14,
-   "rows": 205,
-   "committees": 47,
+   "spend": 748797.14,
+   "rows": 206,
+   "committees": 48,
    "first_year": 2003,
    "last_year": 2026,
    "by_year": {
@@ -3028,7 +3030,7 @@
     "2019": 163962.39,
     "2020": 17087.5,
     "2023": 62363.5,
-    "2026": 2286.5
+    "2026": 5431.5
    },
    "top_committees": [
     {
@@ -3112,11 +3114,11 @@
    "dma_rank_2024_25": 142,
    "owner": "Nexstar Media",
    "owner_group": "nexstar",
-   "spend": 599143.66,
-   "rows": 269,
-   "committees": 51,
+   "spend": 599623.66,
+   "rows": 270,
+   "committees": 52,
    "first_year": 2002,
-   "last_year": 2025,
+   "last_year": 2026,
    "by_year": {
     "2002": 1039.12,
     "2003": 7524.55,
@@ -3134,7 +3136,8 @@
     "2019": 152991.87,
     "2020": 32160.0,
     "2023": 98540.75,
-    "2025": 500.0
+    "2025": 500.0,
+    "2026": 480.0
    },
    "top_committees": [
     {
@@ -4122,19 +4125,19 @@
    "rank": 124,
    "spend": 18854902.48,
    "stations": 4,
-   "share": 0.1552
+   "share": 0.1551
   },
   {
    "name": "Shreveport",
    "rank": 91,
-   "spend": 16186446.29,
+   "spend": 16196421.04,
    "stations": 5,
-   "share": 0.1332
+   "share": 0.1333
   },
   {
    "name": "Monroe–El Dorado",
    "rank": 142,
-   "spend": 7538116.74,
+   "spend": 7540021.74,
    "stations": 3,
    "share": 0.062
   },
@@ -4156,19 +4159,19 @@
  "owners": [
   {
    "group": "gray",
-   "spend": 57775328.12,
+   "spend": 57776028.12,
    "stations": 10,
    "share": 0.4754
   },
   {
    "group": "nexstar",
-   "spend": 37009674.31,
+   "spend": 37016829.31,
    "stations": 13,
-   "share": 0.3045
+   "share": 0.3046
   },
   {
    "group": "local",
-   "spend": 15601752.09,
+   "spend": 15605776.84,
    "stations": 3,
    "share": 0.1284
   },
@@ -4366,7 +4369,7 @@
    "WWL-TV": 1546029.74
   },
   "ambiguous_bare_call": {
-   "KTAL": 865675.93,
+   "KTAL": 868480.93,
    "WWL-TV": 4417799.81
   },
   "combined_buys": {

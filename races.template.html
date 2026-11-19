@@ -132,7 +132,13 @@ a.callchip:hover{color:var(--ink); background:var(--hair);}
 .spark rect{fill:var(--ink2);} .spark rect.z{fill:var(--hair);}
 .onair{color:var(--ink); font-weight:600;}
 .mlegend{font:11.5px Archivo,system-ui,sans-serif; color:var(--muted); margin-top:6px; display:flex; gap:12px; flex-wrap:wrap;}
-.cr.win .nm::after{content:"✓ " attr(data-w); font:600 11px Archivo,system-ui,sans-serif; color:var(--accent-ink);}
+.res{font:600 10.5px Archivo,system-ui,sans-serif; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); flex:none;}
+.res.won{color:var(--surface); background:var(--ink); padding:1px 6px; border-radius:2px;}
+.res.thru{color:var(--ink); border:1px solid var(--ink); padding:0 5px; border-radius:2px;}
+.cr.lost .nm a, .cr.lost .nm{color:var(--ink2);}
+.outcome{padding:0 16px 10px; font:13px Archivo,system-ui,sans-serif; color:var(--ink2);}
+.outcome b{color:var(--ink);}
+.outcome button.lnk{font:inherit; color:var(--accent-ink); background:none; border:0; padding:0; text-decoration:underline; cursor:pointer;}
 .votes{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink2);}
 .og{border-top:1px solid var(--hair); padding:8px 16px 10px; background:var(--page);}
 .oglabel{font:700 10px Archivo,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:0 0 4px;}
@@ -168,7 +174,7 @@ __NAV__
 <header>
   <p class="eyebrow">Louisiana Airwaves</p>
   <h1>The races</h1>
-  <p class="dek">{{lede}} Each race shows what its candidates have raised and spent, their cash on hand, the TV and radio they've paid for, and what stations' FCC political files show them booking now.</p>
+  <p class="dek">{{lede}} Each race shows what its candidates have raised and spent, their cash on hand, the TV and radio they've paid for, and what stations' FCC political files show them booking.</p>
   <p class="asof" id="asof">Finance reports through __THROUGH__</p>
 </header>
 
@@ -217,6 +223,10 @@ const dlong=iso=>new Date(iso+'T12:00').toLocaleDateString('en-US',{month:'long'
 const pct=r=>Math.round(r*100)+'%';
 const EDGE={'<2x':'less than 2×','2-5x':'2–5×','5-10x':'5–10×','>10x':'more than 10×'};
 const E=DATA.elections, FCC=DATA.fcc, W=DATA.wins;
+// The election the page opens on: the next one with races to show, whether
+// a posted ballot, the runoffs the last results set, or the offices up.
+const NEXT=E.find(e=>e.d>=DATA.today&&(e.posted||e.runoff||e.scaffold));
+const past=e=>e.d<DATA.today;
 
 // Per race: search text and sort keys. Ad spending (the default sort) is
 // what candidates paid TV and radio stations, or the gross of the
@@ -234,11 +244,11 @@ const S={e:null, q:'', pa:'', m:'', t:'', sort:'air', r:'', n:30};
 function readHash(){
   const h=new URLSearchParams(location.hash.slice(1));
   S.e=h.get('e')||S.e; S.q=h.get('q')||''; S.pa=h.get('pa')||''; S.m=h.get('m')||''; S.t=h.get('t')||''; S.sort=h.get('sort')||'air'; S.r=h.get('r')||'';
-  if(!E.some(e=>e.d===S.e)) S.e=(E.find(e=>e.d>=DATA.today&&(e.posted||e.scaffold))||E.find(e=>e.posted)||E[0]||{}).d;
+  if(!E.some(e=>e.d===S.e)) S.e=(NEXT||E.find(e=>e.posted)||E[0]||{}).d;
 }
 function writeHash(){
   const h=new URLSearchParams();
-  const first=(E.find(e=>e.d>=DATA.today&&(e.posted||e.scaffold))||{}).d;
+  const first=(NEXT||{}).d;
   if(S.e&&S.e!==first) h.set('e',S.e);
   for(const k of ['q','pa','m','t','r']) if(S[k]) h.set(k,S[k]);
   if(S.sort!=='air') h.set('sort',S.sort);
@@ -250,6 +260,7 @@ const elex=document.getElementById('elex');
 for(const e of E){
   const b=document.createElement('button'); b.type='button'; b.dataset.d=e.d;
   const sub=e.posted?`${e.races.length.toLocaleString('en-US')} races${e.d<DATA.today?' · results':''}`
+           :e.runoff?`${e.races.length} runoff${e.races.length===1?'':'s'} · from the ${dshort(e.runoff)} results`
            :e.scaffold?`${e.races.length} offices up · ballot after qualifying`:'ballot not set yet';
   b.innerHTML=`<b>${dlong(e.d)}</b><span>${sub}</span>`;
   b.addEventListener('click',()=>{S.e=e.d; S.r=''; S.n=30; render();});
@@ -306,7 +317,7 @@ function repLine(c){
   const tip=`Reported in ${C.since} through ${dshort(C.through)}: ${money(c.rep[0])} paid to stations, ${money(c.rep[1])} to media agencies (every payment to them, so it can include production)`;
   return `<span class="rep" title="${esc(tip)}">${money(got)} reported in ${C.since}${gap>=10000?` · <b>${money(gap)} not yet on reports</b>`:''}</span>`;
 }
-function cand(c, e){
+function cand(c, e, cast, one){
   const prof=c.f&&(c.tv||c.ra||c.pf);
   const name=c.f?`<a href="${finLink(c)}" title="${esc(c.n)} on the campaign-finance dashboard: donors, spending, reports">${esc(c.n)}</a>`
             :c.fec?`<a href="${fecLink(c)}" rel="noopener" title="${esc(c.n)} at the FEC: donors, spending, reports">${esc(c.n)}</a>`:esc(c.n);
@@ -319,24 +330,30 @@ function cand(c, e){
   const facts=p?[p.onAir?`<span class="onair" title="Flight dates from the documents' names at ${esc(p.onAir[2].join(', '))}">Booked ${p.onAir[0]>FCC.scraped?'from '+dshort(p.onAir[0])+' ':''}through ${dshort(p.onAir[1])}</span>`:'',
                  p.aired?`${p.aired} aired`:'', p.revs?`${p.revs} revision${p.revs===1?'':'s'}`:'', repLine(c)].filter(Boolean):[];
   const pfx=p?`<span class="pfx">${facts.length?`<span class="facts">${facts.join(' · ')}</span>`:''}${chips(p.st)}</span>`:'';
-  const won=c.w&&/elect/i.test(c.w);
-  const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes</span>`:'', c.w&&!won?esc(c.w):'',
+  const won=c.w&&/elect/i.test(c.w), thru=c.w&&/runoff/i.test(c.w), lost=c.w&&!won&&!thru;
+  // Share of the votes cast in the race, where one seat makes it a share of voters.
+  const share=(v,of)=>one&&of>0?` · ${(v/of*100).toFixed(1)}%`:'';
+  const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes${share(c.v,cast)}</span>`:'',
+             c.pv&&c.pv[0]?`<span class="votes">${c.pv[0].toLocaleString('en-US')} votes${share(c.pv[0],c.pv[1])} on ${dshort(e.runoff)}</span>`:'',
              c.inc?'won this seat in '+(+e.d.slice(0,4)-4):'', c.last?`last ran for ${esc(c.last[0])}, ${c.last[1]}${c.last[2]?' ('+esc(c.last[2].toLowerCase())+')':''}`:'', c.b>=1000?`includes loans of ${money(c.b)}`:'',
              prof?`<a href="${CM}#f=${encodeURIComponent(c.f)}">airtime profile</a>`:'',
              !c.f&&!c.fed?'no state finance report matched':'', c.fed&&!c.fec?'no FEC report matched':''].filter(Boolean).join(' · ');
-  return `<div class="cr${won?' win':''}"${won?` data-w="${esc(c.w)}"`:''}>
-    <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}</span>
+  const res=won?`<span class="res won">${esc(c.w)}</span>`:thru?`<span class="res thru" title="Advanced to the runoff">Runoff</span>`:lost?`<span class="res">${esc(c.w)}</span>`:'';
+  return `<div class="cr${won?' win':''}${lost?' lost':''}">
+    <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}${res}</span>
     ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?(c.fec?'as of '+dshort(c.coh[1]):c.coh[1]+' report'):'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
     ${pf}${pfx}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
 }
-function footnote(r){
+function footnote(r, done){
   if(!W||r.t==='Federal') return '';
   const t=W.tier[r.t], bits=[];
   const spenders=r.c.filter(c=>c.s>0).sort((a,b)=>b.s-a.s);
   if(r.adv&&spenders.length>1){
     const a=r.adv;
-    bits.push(`<b>${esc(spenders[0].n)}</b> has spent ${a.x>=10?Math.round(a.x):a.x}× what ${esc(spenders[1].n)} has.`+(a.rate!=null?` Since ${W.span.slice(0,4)}, a spending leader with an edge of ${EDGE[a.b]} won <b>${pct(a.rate)}</b> of ${a.n} contested races.`:''));
-  }else if(spenders.length===1&&r.c.length>1) bits.push(`Only <b>${esc(spenders[0].n)}</b> has reported spending.`);
+    const x=a.x>=10?Math.round(a.x):a.x, top=spenders[0], held=/elect/i.test(top.w||''), open=r.c.some(c=>/runoff/i.test(c.w||''));
+    bits.push((!done?`<b>${esc(top.n)}</b> has spent ${x}× what ${esc(spenders[1].n)} has.`
+      :`<b>${esc(top.n)}</b> spent ${x}× what ${esc(spenders[1].n)} did, and ${held?'won':/runoff/i.test(top.w||'')?'is in the runoff':open?'missed the runoff':'lost'}.`)+(a.rate!=null?` Since ${W.span.slice(0,4)}, a spending leader with an edge of ${EDGE[a.b]} won <b>${pct(a.rate)}</b> of ${a.n} contested races.`:''));
+  }else if(spenders.length===1&&r.c.length>1) bits.push(`Only <b>${esc(spenders[0].n)}</b> ${done?'':'has '}reported spending.`);
   if(t) bits.push(`In ${r.t.toLowerCase()} races the biggest spender won ${pct(t[0])} of the time (${t[1]} races).`);
   return bits.length?`<div class="rf">${bits.join(' ')} <a href="${FIN}does-money-win.html">Does money win?</a></div>`:'';
 }
@@ -348,15 +365,37 @@ function outside(r){
       <span class="pf">${g.fresh?`<span class="btag new" title="Posted in the last few days">NEW</span> `:''}${g.recent?`<b>${g.recent}</b> doc${g.recent===1?'':'s'} in ${FCC.days} days`:`${g.docs} doc${g.docs===1?'':'s'}, latest ${dshort(g.latest)}`}${spark(g.wk)}${g.onAir?` · <span class="onair">booked through ${dshort(g.onAir[1])}</span>`:''}${g.aired?` · ${g.aired} aired`:''}${chips(g.st)}</span></div>`).join('')}
     <p class="ognote">Issue ads don't name a candidate in the political file's folders; these are tied to the race by a district written into their documents or the name of a candidate in the race in their ad titles. Which side an ad takes isn't recorded.</p></div>`;
 }
+// A finished race in a line: who won and by how much, or who is in the runoff.
+function outcome(r, e){
+  if(!past(e)||!r.c.some(c=>c.w)) return '';
+  const by=[...r.c].sort((a,b)=>(b.v||0)-(a.v||0)), cast=by.reduce((a,c)=>a+(c.v||0),0);
+  const won=by.filter(c=>/elect/i.test(c.w)), thru=by.filter(c=>/runoff/i.test(c.w));
+  const last=n=>esc(n.replace(/,?\s+(Jr|Sr|II|III|IV)\.?$/i,'').split(' ').pop());
+  if(thru.length){
+    const next=E.find(x=>x.d>e.d&&x.races.some(q=>q.id===r.id));
+    const names=thru.map(c=>`<b>${esc(c.n)}</b>`).join(thru.length===2?' and ':', ');
+    return `<p class="outcome">${won.length?won.map(c=>`<b>${esc(c.n)}</b>`).join(', ')+' elected; ':''}${names} ${next?`meet in the <button type="button" class="lnk" data-e="${next.d}" data-r="${esc(r.id)}">${dlong(next.d)} runoff</button>`:'advanced to a runoff'}${r.el===1&&cast&&thru.length===2?`, ${Math.abs(thru[0].v-thru[1].v).toLocaleString('en-US')} votes apart`:''}.</p>`;
+  }
+  if(r.el===1&&won.length===1&&!thru.length&&by.length>1&&cast){
+    const w=won[0], second=by.find(c=>c!==w), gap=w.v-second.v;
+    return `<p class="outcome"><b>${esc(w.n)}</b> won with ${(w.v/cast*100).toFixed(1)}%, ${gap.toLocaleString('en-US')} votes (${(gap/cast*100).toFixed(1)} points) ahead of ${last(second.n)}.</p>`;
+  }
+  return '';
+}
 function card(r, e){
   const fed=r.t==='Federal'; for(const c of r.c) c.fed=fed;
   const head=`<div class="cr head"><span>Candidate</span><span class="m">Raised</span><span class="m">Spent</span><span class="m">Cash on hand</span><span class="m">TV + radio</span><span>Political files</span></div>`;
   const mk=r.k.map(k=>`<a class="mk" style="border-left-color:var(${HUE[k]})" href="${TV}#m=${k}" title="${MKT[k]} on the TV map">${MKT[k]}</a>`).join('');
   const link='#'+new URLSearchParams({...(S.e?{e:S.e}:{}),r:r.id}).toString();
-  const sorted=[...r.c].sort((a,b)=>(b.v||0)-(a.v||0)||((b.s||0)+(b.r||0))-((a.s||0)+(a.r||0))||a.n.localeCompare(b.n));
+  const cast=r.c.reduce((a,c)=>a+(c.v||0),0);
+  // One seat, one vote each: a share of the votes cast is a share of voters.
+  // (The portal lists some multi-seat councils as electing one.)
+  const n=re=>r.c.filter(c=>re.test(c.w||'')).length;
+  const one=r.el===1&&n(/elect/i)<=1&&n(/runoff/i)<=2&&!(e.runoff&&r.c.length>2);
+  const sorted=[...r.c].sort((a,b)=>(b.v||0)-(a.v||0)||(b.pv?b.pv[0]:0)-(a.pv?a.pv[0]:0)||((b.s||0)+(b.r||0))-((a.s||0)+(a.r||0))||a.n.localeCompare(b.n));
   return `<article class="race${S.r===r.id?' open':''}" id="race-${esc(r.id)}">
     <div class="rh"><h3><a href="${link}">${esc(r.o)}</a></h3><span class="tags">${r.t}${r.el>1&&!e.scaffold?` · elect ${r.el}`:''}${r.pa?' · '+esc(r.pa)+' Parish':r.k.length||r.t==='Statewide'?'':' · multi-parish'} ${mk}</span></div>
-    <div class="cands">${head}${sorted.map(c=>cand(c,e)).join('')}</div>${outside(r)}${footnote(r)}</article>`;
+    ${outcome(r,e)}<div class="cands">${head}${sorted.map(c=>cand(c,e,cast,one)).join('')}</div>${outside(r)}${footnote(r,past(e)&&r.c.some(c=>c.w))}</article>`;
 }
 
 /* ---------- feed: the political files' last few days ---------- */
@@ -434,16 +473,18 @@ function render(jump){
   rs=[...rs].sort((a,b)=>key(a)-key(b)||a.o.localeCompare(b.o));
   if(S.r){ const i=rs.findIndex(r=>r.id===S.r); if(i>0){ rs.unshift(rs.splice(i,1)[0]); } }
   const nc=rs.reduce((a,r)=>a+r.c.length,0);
-  cnt.textContent=`${rs.length.toLocaleString('en-US')} ${e.scaffold?'office':'race'}${rs.length===1?'':'s'} · ${nc.toLocaleString('en-US')} ${e.scaffold?'incumbent':'candidate'}${nc===1?'':'s'}`+(rs.length>S.n?` · showing ${S.n}`:'');
-  out.innerHTML=(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices contested four years earlier, each with the candidate who won it and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.</p>`:'')
+  cnt.textContent=`${rs.length.toLocaleString('en-US')} ${e.scaffold?'office':e.runoff?'runoff':'race'}${rs.length===1?'':'s'} · ${nc.toLocaleString('en-US')} ${e.scaffold?'incumbent':'candidate'}${nc===1?'':'s'}`+(rs.length>S.n?` · showing ${S.n}`:'');
+  out.innerHTML=(e.runoff?`<p class="empty" style="margin-top:0">The Secretary of State hasn't posted the ${dlong(e.d)} ballot yet. These are the races the ${dlong(e.runoff)} results sent to a runoff, with the candidates who advanced and their votes that day; the cards switch to the posted ballot once it's up.</p>`:'')
+    +(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices contested four years earlier, each with the candidate who won it and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.</p>`:'')
     +(rs.length?rs.slice(0,S.n).map(r=>card(r,e)).join(''):'<p class="empty">No races match.</p>')
     +(rs.length>S.n?`<button type="button" class="morebtn" id="more">Show ${Math.min(60,rs.length-S.n)} more</button>`:'');
   const mo=document.getElementById('more'); if(mo) mo.addEventListener('click',()=>{S.n+=60; render();});
+  out.querySelectorAll('.outcome button.lnk').forEach(b=>b.addEventListener('click',()=>{S.e=b.dataset.e; S.r=b.dataset.r; S.q=''; S.pa=''; S.m=''; S.t=''; S.n=30; render(true);}));
   // Not in a race yet: raising money this cycle with no seat on the list.
   if(e.field&&e.field.length&&!S.q&&!S.pa&&!S.m&&!S.t){
     field.hidden=false;
     field.innerHTML=`<p class="eyebrow">Not on a ballot yet</p><h2>Raising money, no race yet</h2><p>Candidate committees raising the most this cycle that aren't tied to any race above: people to watch at qualifying.</p>
-      <div class="race"><div class="cands"><div class="cr head"><span>Committee</span><span class="m">Raised</span><span class="m">Spent</span><span class="m">Cash on hand</span><span class="m">TV + radio</span><span>Political files</span></div>${e.field.map(c=>cand(c,e)).join('')}</div></div>`;
+      <div class="race"><div class="cands"><div class="cr head"><span>Committee</span><span class="m">Raised</span><span class="m">Spent</span><span class="m">Cash on hand</span><span class="m">TV + radio</span><span>Political files</span></div>${e.field.map(c=>cand(c,e,0,false)).join('')}</div></div>`;
   } else field.hidden=true;
   if(jump&&S.r){ const el=document.getElementById('race-'+S.r); if(el) el.scrollIntoView({block:'start'}); }
 }

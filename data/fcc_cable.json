@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "cable",
- "scraped": "2026-11-01T17:13:42Z",
+ "scraped": "2026-11-19T04:19:57Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "002460",
    "root_folder": "e43fee8a-9587-869b-6edc-bec863c2b6ef",
    "profile": "cable-profile/002460",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2017": "10433ceb-5f84-a99a-44ae-8f4e1f02aae9",
     "2018": "658c28e5-fc96-5fc4-9d2a-564e825c7f6e",
@@ -56,6 +56,7 @@
     "Political Files/2026/Non-Candidate Issue Ads/END PREDATOR ABUSE": "1aaebf1f-8f9b-af25-4b1b-4f76c4354403",
     "Political Files/2026/Non-Candidate Issue Ads/FIRST PRINCIPLES PAC": "3e4ea04a-57e3-2aa0-186f-a07500a8733b",
     "Political Files/2026/Non-Candidate Issue Ads/First Five Action": "9cdc2f17-8b29-bc00-9170-ac1a79e77f58",
+    "Political Files/2026/Non-Candidate Issue Ads/LA Conn Proj": "b2726b40-1fe0-1995-27db-8ae9036698ac",
     "Political Files/2026/Non-Candidate Issue Ads/LA First Victory Fund": "de75859c-93b4-3c36-edbb-b9a76f163597",
     "Political Files/2026/Non-Candidate Issue Ads/Louisiana Freedom Fund": "5023fbd3-b83d-03e3-cdfb-544f3c048b71",
     "Political Files/2026/Non-Candidate Issue Ads/MOMS PROTECTING CHILDREN PAC": "c74b8ae4-37c7-f909-ca11-443d82316cbd",
@@ -69,6 +70,285 @@
     "Political Files/2026/State/Blair Downing": "8e29b69f-2097-3ec0-3f7b-4541361e65cc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Hillar Moore for DA",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1312918_SYS 0021",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:29:29-05:00",
+     "folder_id": "86bb0ca1-b2c8-e7e7-1d68-cecf5d6e8ba1",
+     "file_id": "c096b861-efac-e271-7295-d1e760965753",
+     "file_manager_id": "683413a5-6c20-490d-8c65-3edf902691e0"
+    },
+    {
+     "path": "Political Files/2026/Local/Hillar Moore for DA",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1321487_SYS 0021",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:29:28-05:00",
+     "folder_id": "86bb0ca1-b2c8-e7e7-1d68-cecf5d6e8ba1",
+     "file_id": "6afa72bf-d8c4-ec94-de27-1f80d0b14090",
+     "file_manager_id": "1a6b32d3-9f72-42ce-996f-b3b4159cdf0a"
+    },
+    {
+     "path": "Political Files/2026/Local/Hillar Moore for DA",
+     "name": "HILLAR MOORE FOR LA_OCT_AFF1330092_SYS 0021",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:29:28-05:00",
+     "folder_id": "86bb0ca1-b2c8-e7e7-1d68-cecf5d6e8ba1",
+     "file_id": "40931145-b343-775a-8dda-d82f2db38ef6",
+     "file_manager_id": "cd724907-4dfb-435c-9850-f7a1e004127c"
+    },
+    {
+     "path": "Political Files/2026/Local/Brad Cascio for DA",
+     "name": "BRAD CASCIO FOR DA - LOU_OCT_AFF1313299_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:24:11-05:00",
+     "folder_id": "01bdad42-1a29-9c50-ed2c-c37f2c1fc9e1",
+     "file_id": "701c9e46-6e40-4053-f9a4-f39d0678e65e",
+     "file_manager_id": "5005c390-938a-4589-9ed8-b5ba3b2f2c22"
+    },
+    {
+     "path": "Political Files/2026/Local/Brad Cascio for DA",
+     "name": "BRAD CASCIO FOR DA - LOU_OCT_AFF1313302_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:24:11-05:00",
+     "folder_id": "01bdad42-1a29-9c50-ed2c-c37f2c1fc9e1",
+     "file_id": "ebd0a49e-a50e-3d2d-9454-9ecfbddbb87e",
+     "file_manager_id": "c09d8f8d-1901-441d-921b-fa9f7fe22757"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack for DA",
+     "name": "SHERMAN MACK FOR DA_OCT_AFF1293847_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:23:22-05:00",
+     "folder_id": "853ad5e1-0103-13bc-4335-a71c02e43570",
+     "file_id": "b90d84b6-7570-e756-57dd-1804d8ca6508",
+     "file_manager_id": "b1c5bcd9-15ae-40eb-a9b8-8f287a694b72"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack for DA",
+     "name": "SHERMAN MACK FOR DA_OCT_AFF1293848_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:23:22-05:00",
+     "folder_id": "853ad5e1-0103-13bc-4335-a71c02e43570",
+     "file_id": "d5b34f45-eac6-29b6-6063-6ee01f9de816",
+     "file_manager_id": "ecb4e679-a552-4b2a-af99-d7a26e27d9be"
+    },
+    {
+     "path": "Political Files/2026/Local/Sherman Mack for DA",
+     "name": "SHERMAN MACK FOR DA_OCT_AFF1293850_SYS 3174",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:23:22-05:00",
+     "folder_id": "853ad5e1-0103-13bc-4335-a71c02e43570",
+     "file_id": "f4c35c96-c2b7-9a0a-45ff-519483ae936d",
+     "file_manager_id": "435e11ed-5801-44f7-9427-609901ea3c85"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/LA First Victory Fund",
+     "name": "LA FIRST VICTORY FUND_OCT_AFF1305800_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:21:34-05:00",
+     "folder_id": "de75859c-93b4-3c36-edbb-b9a76f163597",
+     "file_id": "93ba2967-ff41-6229-a6fc-95ad8a2541d5",
+     "file_manager_id": "d812dfd2-5a86-4334-b2ee-92cca7ea5c79"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmonds for Louisiana",
+     "name": "RICK EDMONDS FOR LOUISIANA NCC_OCT_AFF1313718_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:21:09-05:00",
+     "folder_id": "d86831c9-c54f-2f51-0e6d-c63f8e27af7d",
+     "file_id": "82221d5a-1ed9-4c58-8392-9a7061ea559f",
+     "file_manager_id": "a3ea6b97-29ba-4f6f-921f-78d6ab2571b8"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Rick Edmonds for Louisiana",
+     "name": "RICK EDMONDS FOR LOUISIANA NCC_OCT_AFF1322644_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:21:09-05:00",
+     "folder_id": "d86831c9-c54f-2f51-0e6d-c63f8e27af7d",
+     "file_id": "dc617216-e457-ea30-ee02-7b952badd93f",
+     "file_manager_id": "365385f5-57d7-4e7a-8721-97103c147d64"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_OCT_AFF1296745_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:19:49-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "9aa82e4c-a5c4-cac8-f3a2-4684253d12c0",
+     "file_manager_id": "8752355c-8439-48ff-96de-28bff2430a58"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_OCT_AFF1340196_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:19:49-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "db6cf3ec-50cc-c748-6ddd-06a68d485546",
+     "file_manager_id": "ae43d98c-2ee8-424a-82da-5b2039e97df0"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence",
+     "name": "CONSERVATIVES FOR AM. EXC. LOU_OCT_AFF1330275_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:18:50-05:00",
+     "folder_id": "93f93fc0-b942-e419-015d-494639df6145",
+     "file_id": "1d25dbd1-c662-fa04-d4b7-f6442e2a7cb9",
+     "file_manager_id": "559b7fff-a737-4f62-b259-830c0558da47"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Conservatives for American Excellence",
+     "name": "CONSERVATIVES FOR AM. EXC. LOU_OCT_AFF1336072_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:18:50-05:00",
+     "folder_id": "93f93fc0-b942-e419-015d-494639df6145",
+     "file_id": "6ce99e4a-f294-f71d-9c24-d24dc7146219",
+     "file_manager_id": "8f236a68-01d5-42e9-9fa2-c9596c356cfe"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/LA Conn Proj",
+     "name": "LA CONN PROJ 204032223-LOU_OCT_AFF1276135_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:17:56-05:00",
+     "folder_id": "b2726b40-1fe0-1995-27db-8ae9036698ac",
+     "file_id": "4e6f37fe-f74a-487d-e0dd-007b3b89934e",
+     "file_manager_id": "91284640-bb19-4d22-8488-99c31cc0863e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1313027_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:15:40-05:00",
+     "folder_id": "e6833ebb-fefc-8991-0b24-64cc6c0fd5a9",
+     "file_id": "280677a3-98a3-60a4-a4df-a7a33632704c",
+     "file_manager_id": "31f7526c-9c50-4dd9-ae0c-aca3353428e4"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1325889_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:15:40-05:00",
+     "folder_id": "e6833ebb-fefc-8991-0b24-64cc6c0fd5a9",
+     "file_id": "4600dc58-227d-332f-5e6b-92c6ad2f13d8",
+     "file_manager_id": "af6362d0-db39-4392-a456-42959e45f10e"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1304489_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "1ace3dfd-cfbd-7381-9f71-21967e70dded",
+     "file_manager_id": "accecff6-6e9d-4785-94a0-3edd19020319"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1312646_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "70f19536-e1e6-1062-fa53-b616f380e356",
+     "file_manager_id": "0d2a7ac1-fa3d-4590-8b12-24dbab18a45b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1321812_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "61a8850c-f9db-2b99-38e7-d341afe72683",
+     "file_manager_id": "4be37f31-db3c-4f9c-812c-a2367a9b98ba"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_OCT_AFF1329211_SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:14:48-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "972ad531-41c2-187e-4536-daa418297644",
+     "file_manager_id": "985d8728-ff8a-42e5-81a3-3347239e53a8"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/SAVE OUR STATES ACTION",
+     "name": "Save Our States NAB SYS 3996",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T14:54:17-05:00",
+     "folder_id": "e6327a6e-64ad-2cc1-c958-1fd550915b06",
+     "file_id": "cbdaa3a3-6556-02c9-8e84-358887bd4056",
+     "file_manager_id": "39098cbc-51b6-4f5d-8709-544b25ba3853"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_confirm1351701_sys3996_20261104_140005",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T17:16:33-05:00",
+     "folder_id": "ab04927d-edaa-90ee-573f-bf84807711dd",
+     "file_id": "e469d3f6-e96b-8f9f-3295-d1e68bb5cd4f",
+     "file_manager_id": "bedf4e15-409e-442d-97b8-9e0947b52a62"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CLEARPATH ACTION FUND",
+     "name": "CLEARPATH ACTION FUND - NAB - SYS 2119 SYS 3996 SYS 6979_041526_1447_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:53:11-05:00",
+     "folder_id": "b0248141-0533-9f47-0a22-5dd068a312fd",
+     "file_id": "064cf339-4430-1014-5e0f-755bb6cb4916",
+     "file_manager_id": "de70890b-17bd-409f-9d20-5db03d1e8521"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/LA First Victory Fund",
+     "name": "LA First Victory Fund _NAB_ SYS3996_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:36:46-05:00",
+     "folder_id": "de75859c-93b4-3c36-edbb-b9a76f163597",
+     "file_id": "799b1923-a3ae-1357-f31d-611417afa0ae",
+     "file_manager_id": "7da61d95-8b10-447a-900a-6db4e97cdd40"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/ST GEORGE PAC",
+     "name": "St George Pac - NAB - SYS 3996_041526_1447_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:35:16-05:00",
+     "folder_id": "382032a7-764e-cb66-e7d4-4751f7ee89ff",
+     "file_id": "f8c5df4f-e95e-38d1-c3ff-1c8bd858ee8e",
+     "file_manager_id": "8f42f9a4-2e9f-4765-93ee-702726e931ef"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_NAB_ SYS 3996_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:17:44-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "8b52a5cb-ad01-23c7-c0bc-cbb21082c4c8",
+     "file_manager_id": "c4639f27-46cc-4d3a-ae20-822dff537561"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/BLAKE MIGUEZ",
+     "name": "BLAKE MIGUEZ FOR LOUISIANA_confirm1351701_sys3996_20261104_140005",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T12:35:25-05:00",
+     "folder_id": "28d91466-10e7-8b82-8c48-9c1df109afc0",
+     "file_id": "639db172-ed23-e479-20a4-de587b253884",
+     "file_manager_id": "85e1a438-e1dd-48c7-8955-94f6d625578a"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_confirm1350664_sys3996_20261102_140007",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T16:40:57-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "9b89d4a6-0093-3537-1bb1-6559aa104ed3",
+     "file_manager_id": "04ad0fb3-089b-4d34-9916-715e27c8bacd"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth",
+     "name": "Club For Growth Action_confirm1347184_sys3996_20261030_151615",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T11:25:29-05:00",
+     "folder_id": "ed4af4bd-6ad1-5e97-e10c-b7d332c4c7b8",
+     "file_id": "6957501e-ddfb-ddf9-18dc-48000209be70",
+     "file_manager_id": "e4052b95-92ea-42d9-a86e-3c73bdc4e41a"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Blake Miguez for Louisiana",
      "name": "BLAKE MIGUEZ FOR LOUISIANA_confirm1343195_sys3996_20261029_150007",
@@ -3102,7 +3382,7 @@
    "facility_id": "008048",
    "root_folder": "070232e0-eb0c-5fb0-905b-356aa978456d",
    "profile": "cable-profile/008048",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2017": "c4e820f1-9952-a419-229d-6075c7a5f061",
     "2018": "b8e0f719-2de7-aa4a-cebf-8fe6190be554",
@@ -3173,6 +3453,78 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "41492af5-a4b8-0aca-58b1-ad0cd4ad7914"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329374_Invoice_20261116122017322",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:34-05:00",
+     "folder_id": "7927447f-9fec-7372-fe67-5b0a767ec3e2",
+     "file_id": "afef12a1-2120-c955-f8d3-cf160b59babe",
+     "file_manager_id": "45c09342-9f7b-4c4e-aac9-43eecc70b2d9"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329371_Invoice_20261116121747091",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:16-05:00",
+     "folder_id": "7927447f-9fec-7372-fe67-5b0a767ec3e2",
+     "file_id": "d5d3ee28-4df5-971c-8ab9-7a0e8fe1b417",
+     "file_manager_id": "28cf57ea-97fa-4988-b61a-db0a63969c5c"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330419_Invoice_20261116111213079",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:34-05:00",
+     "folder_id": "ee6c9ddd-5130-8647-7e60-3bb21de268b8",
+     "file_id": "f1215c0a-5eda-a7a8-30e6-2c0922cfce68",
+     "file_manager_id": "674a2d09-631f-40ca-bc48-402c3492666f"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330365_Invoice_20261116111116879",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:30-05:00",
+     "folder_id": "ee6c9ddd-5130-8647-7e60-3bb21de268b8",
+     "file_id": "9b887f5c-e1c3-4141-a52a-3cb895dfba32",
+     "file_manager_id": "ad9a106d-047f-417f-b013-6d82fe9c3bf9"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322829_Invoice_20261116095941245",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:02:14-05:00",
+     "folder_id": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
+     "file_id": "d495f2ea-eac7-c50e-9e57-dd417666229c",
+     "file_manager_id": "eff40bb3-62f7-4354-928c-1ad8325227c9"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322823_Invoice_20261116100503098",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:01:41-05:00",
+     "folder_id": "9dc5110e-06a3-9de4-cc94-06420449b5fa",
+     "file_id": "5882a3a5-d754-78be-b1a8-8ac56c1edfeb",
+     "file_manager_id": "8a4eb3c5-f722-4eea-9e6a-24725e1dba12"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Steve Scalise",
+     "name": "1314092_Invoice_20261116085023887",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T10:03:16-05:00",
+     "folder_id": "eb93bf28-8ed5-0488-d6de-e160b998f162",
+     "file_id": "513dd3db-aec5-37e2-cee8-78f5e8e439d3",
+     "file_manager_id": "cff549db-bd70-4832-a943-9189c996f051"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
+     "name": "1336192_Invoice_20261116084404826",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T09:03:23-05:00",
+     "folder_id": "9a58d887-3821-1cd0-f8c5-355767ae6faa",
+     "file_id": "06d6b234-7bf8-8725-a443-33399ef0cb46",
+     "file_manager_id": "40148cd4-515d-4e48-8ff5-5d8f808a7cb7"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/CPMReady for the Fight",
      "name": "1343190_Order_Contract_20261029035155362",
@@ -48731,7 +49083,7 @@
    "facility_id": "020573",
    "root_folder": "ef6fb4f8-27df-2f5d-dde6-9ec3b0c9062e",
    "profile": "cable-profile/020573",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2017": "97f05444-2aa2-1796-bc8e-348121a97fb1",
     "2018": "c7a3b903-9e3d-84cc-e5ad-002fac56f10a",
@@ -48752,6 +49104,8 @@
     "Political Files/2026/Federal/US Senate": "53a9d205-c723-be13-ba56-93074d8f84bf",
     "Political Files/2026/Federal/US Senate/Invoices": "4da8c756-d4c1-0f55-f156-ad58e4f32b9a",
     "Political Files/2026/Federal/US Senate/Orders": "66030752-59c0-f8a8-42e7-16d15750646b",
+    "Political Files/2026/Local": "c047227f-34bc-a479-c86f-70d0c996c316",
+    "Political Files/2026/Local/Orders": "70705ea0-31c3-3afa-0748-7597759f4a44",
     "Political Files/2026/Non-Candidate Issue Ads": "d74ef403-de00-3c1a-91db-0e114d491a7e",
     "Political Files/2026/Non-Candidate Issue Ads/Invoices": "216b52f4-4486-2c97-1d76-4e4e0f6ef7a5",
     "Political Files/2026/Non-Candidate Issue Ads/Orders": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
@@ -48760,6 +49114,213 @@
     "Political Files/2026/State/Orders": "2125dd7b-b434-18c5-0054-a05b5239f7f1"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Orders",
+     "name": "Ord_3373173-69418-B_Cascio_for_District_Attnry_VNS_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:42:14-05:00",
+     "folder_id": "70705ea0-31c3-3afa-0748-7597759f4a44",
+     "file_id": "f1fa0974-193d-bec6-f683-68c3866484ef",
+     "file_manager_id": "37aa7fb6-e296-4d28-894c-301f8e371934"
+    },
+    {
+     "path": "Political Files/2026/Local/Orders",
+     "name": "Ord_3374787-69418-B_Cascio_for_District_Attnry_VNS_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:42:14-05:00",
+     "folder_id": "70705ea0-31c3-3afa-0748-7597759f4a44",
+     "file_id": "bf7d2a8a-556e-b755-050f-2de5dd04099a",
+     "file_manager_id": "93b9217b-db14-41e5-bbfd-ef37ac22e5dd"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Orders",
+     "name": "Ord_3373146-68093-Julia_Letlow_for_Senate_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:40:51-05:00",
+     "folder_id": "66030752-59c0-f8a8-42e7-16d15750646b",
+     "file_id": "01c7b589-41d6-e6a1-4d62-30ea293d12fc",
+     "file_manager_id": "e1bd1d4b-717b-4378-ab5b-ef9708b4c90d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Orders",
+     "name": "Ord_3381793-68093-Julia_Letlow_for_Senate_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:40:51-05:00",
+     "folder_id": "66030752-59c0-f8a8-42e7-16d15750646b",
+     "file_id": "5804a998-483a-92ce-b39e-b34dcb50e20b",
+     "file_manager_id": "9aac1fd8-db49-4162-b26f-07a3661fb865"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3361459-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:47-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "c5cef950-06ce-c3d6-08e6-35e711ebb139",
+     "file_manager_id": "7d1a5df8-37d6-4ba5-8791-c01936d0d3af"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3373119-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:47-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "8817ec82-6893-28b5-cf9d-03b2ee34aabd",
+     "file_manager_id": "ab862512-0dfe-4e2a-b701-a75cf25e708a"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3379866-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:47-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "e6b08ff1-7038-dbaa-1fdb-e167489770e1",
+     "file_manager_id": "b6c19efe-520b-462a-b837-6047782dc651"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3383646-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:47-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "fe5ba128-1827-852a-4152-aacac1d3c2d7",
+     "file_manager_id": "8f222329-ffa9-4833-ae40-1f0cf7eca68c"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3357206-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:46-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "e086e577-a930-7a7d-2d2b-df641ef1ab2b",
+     "file_manager_id": "39462dac-fda0-4660-b635-85ed6b10afc6"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3364756-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:46-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "49f6f13e-81aa-c68a-62a9-e3d84c73b8cf",
+     "file_manager_id": "62b4ae73-4476-4b7a-b41c-da5492013079"
+    },
+    {
+     "path": "Political Files/2026/State/Orders",
+     "name": "Ord_3369831-68187-Blake_Miguez_for_Louisiana_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:46-05:00",
+     "folder_id": "2125dd7b-b434-18c5-0054-a05b5239f7f1",
+     "file_id": "880bc26d-9a76-c2a0-4ebe-2360aa248b6a",
+     "file_manager_id": "0ac6eae1-3a87-40ce-9f0c-5f929fa0456f"
+    },
+    {
+     "path": "Political Files/2026/State/Invoices",
+     "name": "Inv_3364756-68187-Blake_Miguez_for_Louisiana_VNS__926",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:10-05:00",
+     "folder_id": "cf1a91ed-6cc9-e0d0-c657-a0ba4757acf0",
+     "file_id": "aa8ae9ce-7656-9818-9c34-b80ce756a764",
+     "file_manager_id": "9c43da42-1abe-42d3-861d-65224c05375f"
+    },
+    {
+     "path": "Political Files/2026/State/Invoices",
+     "name": "Inv_3357206-68187-Blake_Miguez_for_Louisiana_VNS__926",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:09-05:00",
+     "folder_id": "cf1a91ed-6cc9-e0d0-c657-a0ba4757acf0",
+     "file_id": "fc202ca3-1905-564f-60f3-1668b31330be",
+     "file_manager_id": "d1c7e645-48cc-4a69-96b6-9f6777a1729a"
+    },
+    {
+     "path": "Political Files/2026/State/Invoices",
+     "name": "Inv_3361459-68187-Blake_Miguez_for_Louisiana_VNS__926",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:39:09-05:00",
+     "folder_id": "cf1a91ed-6cc9-e0d0-c657-a0ba4757acf0",
+     "file_id": "11564401-88e1-8fc2-1bee-4c038334de02",
+     "file_manager_id": "47aba4c9-a1c6-4c9a-b364-1d9662349879"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Invoices",
+     "name": "Inv_3363011-61830-Club_for_Growth_Action_VNS__926",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:38:32-05:00",
+     "folder_id": "216b52f4-4486-2c97-1d76-4e4e0f6ef7a5",
+     "file_id": "cd798107-efb2-14ee-6272-32f4442e0f86",
+     "file_manager_id": "8673fcb7-e07e-4961-813e-6835de311ec6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3363011-61830-Club_for_Growth_Action_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "db9a2638-783d-9874-e48b-4b264f23987c",
+     "file_manager_id": "502f1ea4-041c-4f3b-b3bd-7d6110be84ef"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3370002-68602-LA_First_Victory_Fund__VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "2ede694b-0e27-db5a-3179-7ad0a3869379",
+     "file_manager_id": "c2033234-9ba6-4952-9070-2a0882ed11bb"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3383636-69500-Livingston_Parish_Sher_Ofc__VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "f0ee50fc-7a8c-15da-7e41-2febba6fb07c",
+     "file_manager_id": "7b8a211c-6926-4b2b-947e-18a42183c831"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3384439-65883-Conservatives_for_American_Excel_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "11f31e1b-83e2-959f-0d59-f9f67599dc60",
+     "file_manager_id": "c707a5db-5dea-4c3b-bdbe-95cd5991b76b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3384489-65883-Conservatives_for_American_Excel_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "f545fceb-b8d7-109c-e504-c04148f655ef",
+     "file_manager_id": "40dd2ef8-4df2-4761-a330-6e4273783fa6"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3385338-65883-Conservatives_for_American_Excel_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "a30c0c43-c1bb-130a-bb4b-bf0609c12134",
+     "file_manager_id": "a064729f-5ec4-4d55-8b2c-65766ccec8b9"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3385340-65883-Conservatives_for_American_Excel_2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "8a694ebf-6510-fb37-e2ce-22ee45fd5580",
+     "file_manager_id": "cbb93a1a-321d-415e-8431-73afe1c3fd78"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Orders",
+     "name": "Ord_3395919-61830-Club_for_Growth_Action_VNS__2026",
+     "ext": "pdf",
+     "uploaded": "2026-11-04T11:37:58-05:00",
+     "folder_id": "7dc26d6a-b641-8410-1f6d-7c15cff24b9c",
+     "file_id": "160c8559-d20f-69de-4cff-a45833e59164",
+     "file_manager_id": "d12ac58d-a1d8-415b-be60-e8754c5b8071"
+    },
     {
      "path": "Political Files/2026/State/Orders",
      "name": "Ord_3357206-68187-Blake_Miguez_for_Louisiana_VNS__2026",
@@ -50893,7 +51454,7 @@
    "facility_id": "004321",
    "root_folder": "6861b239-143b-c62a-9a4f-d2a9817b1d35",
    "profile": "cable-profile/004321",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2017": "2b1ea77a-0c2f-12c7-a943-292ac538d70f",
     "2018": "f162b827-48d3-bd70-e90c-3f7e2bdf8914",
@@ -50928,6 +51489,168 @@
     "Political Files/2026/State/Campaign to Elect Will Keaty": "780b467a-bb6d-9820-f133-b22eac2e0d69"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Friends to Elect Bart Hebert",
+     "name": "FRIENDS TO ELECT BART HEBERT LA_OCT_AFF1322327_SYS 1983",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:34:33-05:00",
+     "folder_id": "ec5f1f30-a098-3b6a-f39e-bedf5a677057",
+     "file_id": "70e34526-b313-505f-25d6-b262a25a8ba5",
+     "file_manager_id": "7f73abae-c4e3-4935-81b4-9097caa1fdd0"
+    },
+    {
+     "path": "Political Files/2026/Local/Friends to Elect Bart Hebert",
+     "name": "FRIENDS TO ELECT BART HEBERT LA_OCT_AFF1322328_SYS 1983",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:34:33-05:00",
+     "folder_id": "ec5f1f30-a098-3b6a-f39e-bedf5a677057",
+     "file_id": "6c695a20-0193-73f8-9edc-8b1fe9d33017",
+     "file_manager_id": "483d0358-90b3-4c86-9aa3-7390b2eea2a6"
+    },
+    {
+     "path": "Political Files/2026/State/Campaign to Elect Will Keaty",
+     "name": "CAMPAIGN TO ELECT WILL KEATY_OCT_AFF1312570_SYS 1984",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:21:34-05:00",
+     "folder_id": "780b467a-bb6d-9820-f133-b22eac2e0d69",
+     "file_id": "2090acee-969f-1313-b016-7fda503c1f6c",
+     "file_manager_id": "447d4702-8050-4702-8aa8-0b83c72ab22e"
+    },
+    {
+     "path": "Political Files/2026/State/Campaign to Elect Will Keaty",
+     "name": "CAMPAIGN TO ELECT WILL KEATY_OCT_AFF1312578_SYS 1984",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:21:34-05:00",
+     "folder_id": "780b467a-bb6d-9820-f133-b22eac2e0d69",
+     "file_id": "7a103fc6-fbb1-7ead-4eb0-8945e30a73ea",
+     "file_manager_id": "b7d69594-96af-4e4a-b2db-268df76aa3c2"
+    },
+    {
+     "path": "Political Files/2026/State/Campaign to Elect Will Keaty",
+     "name": "CAMPAIGN TO ELECT WILL KEATY_OCT_AFF1328880_SYS 1984",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T16:21:34-05:00",
+     "folder_id": "780b467a-bb6d-9820-f133-b22eac2e0d69",
+     "file_id": "2fe153a6-9483-535a-1237-4b6dc715e493",
+     "file_manager_id": "65acf4d1-941c-4d53-a856-4f6c35060dad"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1313059_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:10:49-05:00",
+     "folder_id": "139ac43f-5448-8f71-326e-4e2f2ec7a890",
+     "file_id": "68e8cc32-9354-c832-cec2-78f36a42d640",
+     "file_manager_id": "b7c91af7-ef9b-4ad0-bcb3-b682ca9f64fa"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Julia Letlow-Senate",
+     "name": "JULIA LETLOW FOR LOUISIANA_OCT_AFF1325903_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:10:49-05:00",
+     "folder_id": "139ac43f-5448-8f71-326e-4e2f2ec7a890",
+     "file_id": "f0c53fc1-75f9-018f-cf90-8199aed81870",
+     "file_manager_id": "cbfc8c82-2cb3-4870-ab98-88c59920824b"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1305769_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "5d37c39d-2aa0-47d6-8c5b-c1ef1fa1342b",
+     "file_manager_id": "d813ad68-e97d-44e3-8079-0d4a9da8b750"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1307253_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "debcc77a-0dc6-fb21-3f37-41f7b09067c8",
+     "file_manager_id": "7e395b82-16d6-49fb-afe4-dcf014d575ab"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1321711_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "61c10f7f-35cf-aa2d-40ff-b8c7b2d8f9a4",
+     "file_manager_id": "987502de-33ab-4640-a2b3-0cd655131723"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1329976_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T15:09:40-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "773f7c31-9c53-d732-3453-14183f3d26f1",
+     "file_manager_id": "7af0904b-f4da-4341-b624-363c2fc153a1"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1305768_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "7c6393e2-6288-9160-19b5-fb95a67cb26c",
+     "file_manager_id": "4f791353-201d-4abc-9b62-e71741b6ab97"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1307255_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "6ad2608b-d4b3-46af-8a78-3a1bf2a7cc82",
+     "file_manager_id": "44aed7ec-31d5-4c48-921a-f15a8825b38e"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1321710_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "2efb63cc-f274-6dd9-d3c1-336400f7479e",
+     "file_manager_id": "b1778d24-9f38-4825-b46e-5d9a490d6e81"
+    },
+    {
+     "path": "Political Files/2026/Local/Donald Landry for DA",
+     "name": "DONALD LANDRY LOU_OCT_AFF1329679_SYS 1995",
+     "ext": "pdf",
+     "uploaded": "2026-11-12T13:52:33-05:00",
+     "folder_id": "d90f83c3-89a9-858a-ca14-2f904f454c66",
+     "file_id": "7e6ac117-0896-f342-9628-20949ac5e90d",
+     "file_manager_id": "c73dd4bb-2c08-40b7-9386-2e3493b4c893"
+    },
+    {
+     "path": "Political Files/2026/Local/David Way For Judge",
+     "name": "David Way_NAB_SYS 8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T10:28:17-05:00",
+     "folder_id": "4583b33f-6e27-ef9d-0108-33fd0d9cff71",
+     "file_id": "12f86fb0-23d6-5442-977f-8ffce0b611cf",
+     "file_manager_id": "13213329-c867-46e0-9a58-3f1dc6fc159b"
+    },
+    {
+     "path": "Political Files/2026/Local/James Klock",
+     "name": "James Klock NAB_SYS _8644",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T10:26:38-05:00",
+     "folder_id": "22a306a4-7ee0-1541-28f8-cce5051e438f",
+     "file_id": "5a0eea69-4c5f-7f6a-22cd-8e59742ee7f4",
+     "file_manager_id": "0e685600-48b3-4801-82ef-12c5854597ec"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Protecting Louisiana Values",
+     "name": "Protect Louisiana Values_NAB_ SYS 8644_110426_1703",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:23:55-05:00",
+     "folder_id": "cd04a5b3-b881-6dbc-1b56-19ca7f2d2cf5",
+     "file_id": "33968229-5e16-ff09-62ad-493e84224304",
+     "file_manager_id": "8770f117-e3e0-4abb-968c-ae9078bd9646"
+    },
     {
      "path": "Political Files/2026/Local/James Klock",
      "name": "JAMES KLOCK_confirm1339700_sys8644_20261026_150007",
@@ -52827,7 +53550,7 @@
    "facility_id": "008564",
    "root_folder": "de7dbdb8-a97c-4250-61ab-b23c987a2ded",
    "profile": "cable-profile/008564",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "abc6bb37-a0d3-0290-f89d-5002f5772cc7",
     "2015": "86c0ea8e-656f-ceb4-1b4c-ecc069c37e75",
@@ -55467,7 +56190,7 @@
    "facility_id": "005142",
    "root_folder": "066fe9ff-af34-9967-baf6-e79082325510",
    "profile": "cable-profile/005142",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2017": "8ba413bc-e9a1-67ba-500a-949a0d453202",
     "2018": "c2f2cefb-cb81-0828-1a98-37038ab70142",
@@ -55556,6 +56279,150 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "87852d44-84df-a461-e263-19c55dddda0a"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1329976_Invoice_20261116123735089",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:34-05:00",
+     "folder_id": "923e9500-9835-ceeb-7e06-a7df7f237a8f",
+     "file_id": "1f1f415b-c51b-9763-667d-59e9977d6e4e",
+     "file_manager_id": "1a3cd351-707f-4e97-a02a-5792709249c5"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329371_Invoice_20261116121747091",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:17-05:00",
+     "folder_id": "ae277515-88e2-8fae-86a4-49e4c7d50ede",
+     "file_id": "5c57487d-6215-992f-7d81-a9340c81d522",
+     "file_manager_id": "aa840134-ffac-4ac0-ad50-a102a83be190"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329374_Invoice_20261116122017322",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:06-05:00",
+     "folder_id": "ae277515-88e2-8fae-86a4-49e4c7d50ede",
+     "file_id": "2d565b22-9acc-3a5f-7fdb-35edb4d20673",
+     "file_manager_id": "87883449-c604-4af6-aaf9-176b2ee6c8aa"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1307253_Invoice_20261116123942916",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:02:48-05:00",
+     "folder_id": "923e9500-9835-ceeb-7e06-a7df7f237a8f",
+     "file_id": "e3dd684f-af7e-65b5-bfa0-94bccc2436bc",
+     "file_manager_id": "1a8ca777-91d0-461a-8460-ced9fce45f92"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1305769_Invoice_20261116123648907",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:02:33-05:00",
+     "folder_id": "923e9500-9835-ceeb-7e06-a7df7f237a8f",
+     "file_id": "71672067-bc91-2c33-f28d-8ec6b08559cc",
+     "file_manager_id": "1df94553-8f34-4a77-b9de-c9f566108482"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1321711_Invoice_20261116123824310",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:02:25-05:00",
+     "folder_id": "923e9500-9835-ceeb-7e06-a7df7f237a8f",
+     "file_id": "bacfaf1a-3728-aa75-a544-1889b825b092",
+     "file_manager_id": "a6735469-ab72-4c5c-87c9-5d4a4188d204"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "1339751_Invoice_20261116110454894",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:47-05:00",
+     "folder_id": "014df5b6-e811-e6c7-e4c8-79a270cf7a61",
+     "file_id": "9d7e6979-e7c5-2517-ed75-184c1f68e428",
+     "file_manager_id": "1a344c57-b5dd-4fc1-b6c4-811eaa5c6e5d"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Lafayette LA/US Senate/Julia Letlow",
+     "name": "1325903_Invoice_20261116110859067",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:44-05:00",
+     "folder_id": "9f9498f3-f045-3af9-6453-3360870bf2f4",
+     "file_id": "2dad0f09-713c-fb0a-787e-dacb7690761d",
+     "file_manager_id": "a2f48e6f-6e3e-4833-87dc-d868ff683b58"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330419_Invoice_20261116111213079",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:36-05:00",
+     "folder_id": "db2f296c-2f41-e00a-693e-73d5fc356777",
+     "file_id": "ae4f0414-07ce-f86b-de90-e4342331e19f",
+     "file_manager_id": "6deba8ac-d0f6-4155-b20a-1ba46c8fedf2"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Lafayette LA/US Senate/Julia Letlow",
+     "name": "1313059_Invoice_20261116110957398",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:32-05:00",
+     "folder_id": "9f9498f3-f045-3af9-6453-3360870bf2f4",
+     "file_id": "6e41a516-b07f-4d90-7382-ba79ba71ad37",
+     "file_manager_id": "6973b350-212b-42c9-84df-835c8dd79e3d"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330365_Invoice_20261116111116879",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:27-05:00",
+     "folder_id": "db2f296c-2f41-e00a-693e-73d5fc356777",
+     "file_id": "17b0dc98-30a9-4e5f-c890-5404822795c4",
+     "file_manager_id": "36a08671-163d-4624-b7fd-4be8531c1e6a"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322829_Invoice_20261116095941245",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:02:13-05:00",
+     "folder_id": "56c67288-b82f-e0ff-37b8-cdde7492db78",
+     "file_id": "c7bcae4a-c5e8-2bb5-af4c-f7c644faf328",
+     "file_manager_id": "b03fee62-e57e-468f-b0e8-e0fe3c46a355"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322823_Invoice_20261116100503098",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:01:49-05:00",
+     "folder_id": "56c67288-b82f-e0ff-37b8-cdde7492db78",
+     "file_id": "69fd5abe-f0c8-ece6-6767-9cee4dbc9142",
+     "file_manager_id": "58e9313e-b39f-46ff-b9a5-9e1b6fa8fc9b"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Steve Scalise",
+     "name": "1314092_Invoice_20261116085023887",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T10:02:19-05:00",
+     "folder_id": "c8c5092e-a824-a42d-d380-3e4816187c71",
+     "file_id": "857b0365-9f84-f6ad-bebe-8a4f195b7af7",
+     "file_manager_id": "12ca9dff-21f1-4897-a1b2-ea692515d79d"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
+     "name": "1336192_Invoice_20261116084404826",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T09:01:36-05:00",
+     "folder_id": "56899b9c-eb0d-2e5f-7f09-7cde7ec8a3eb",
+     "file_id": "97b3453e-10ef-2c9a-e74e-6982abf14122",
+     "file_manager_id": "8c0e470f-a603-4953-987e-05361998c05b"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Lafayette LA/Protect Louisiana Values",
+     "name": "1290477_NAB_20261105025029340",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T15:09:29-05:00",
+     "folder_id": "b18d63bf-8442-b816-da26-f1be44b9cbb2",
+     "file_id": "a8e383bb-d6c2-1198-01b5-b757c6e3bb3c",
+     "file_manager_id": "a689e92c-db28-4e6a-aa0e-3bfdee736d4d"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Government That Works PAC",
      "name": "1342552_NAB_20261029040519890",
@@ -105335,7 +106202,7 @@
    "facility_id": "005341",
    "root_folder": "c27d2446-3db1-98e5-c8da-c15eb4017972",
    "profile": "cable-profile/005341",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2017": "a8a75959-fe97-b6f8-f4ba-83d3c63e4fc1",
     "2018": "7a7f048d-03a1-4928-fd73-b35b2435168b",
@@ -105360,6 +106227,7 @@
     "Political Files/2026/Local": "e62190c9-5545-17a4-5dbc-8b47e2ea6e68",
     "Political Files/2026/Local/Cmte to Elect Luke Lancaster": "e858533c-6a36-5dd9-6ee3-7a9a494464ae",
     "Political Files/2026/Local/Comm to Elect Candace Newell": "415e8b88-794a-e501-0686-a9dd3c579ec2",
+    "Political Files/2026/Local/Committee to Elect Joseph Cao": "5e799a05-6598-c442-2030-1c220ae6a468",
     "Political Files/2026/Local/Committee to Elect Sal Brocato": "438bba8f-0561-358d-210c-c0123be88b00",
     "Political Files/2026/Local/ELLIE SHRODER BESE DIST 1": "0059a25f-e24d-7d31-c875-3f8f70e0355b",
     "Political Files/2026/Local/JOHN YOUNG": "b9937436-d308-e180-6893-493ace14e2a4",
@@ -105384,6 +106252,114 @@
     "Political Files/2026/Non-Candidate Issue Ads/READY FOR THE FIGHT": "c1879867-f46e-a391-0389-bf727eec369b"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise for Congress",
+     "name": "SCALISE FOR CONGRESS_OCT_AFF1314092_SYS 6979",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:13:34-05:00",
+     "folder_id": "30780c7e-55da-3a1f-3e97-07cde5456c97",
+     "file_id": "417e0afb-02b5-59d4-2c80-631847057f90",
+     "file_manager_id": "c1803d3b-8eec-463d-a7d7-95a4e7daaf61"
+    },
+    {
+     "path": "Political Files/2026/Local/Joe McMahon for Judge",
+     "name": "JOE MCMAHON FOR JUDGE_OCT_AFF1322733_SYS 0222 1758",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:05:07-05:00",
+     "folder_id": "95b7a31a-961c-53b2-9902-25a3f9973662",
+     "file_id": "40554ab1-5340-87a8-35b4-883bc504cc62",
+     "file_manager_id": "52afd88b-ce47-4518-a594-06a7df520aaf"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "MIKE MARSIGLIA_OCT_AFF1319185_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:04:33-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "8a0efb22-7dbb-2c33-1d48-929a2f8f984c",
+     "file_manager_id": "e81cbaa4-5848-4c87-9a61-2e91d8d37227"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "MIKE MARSIGLIA_OCT_AFF1329315_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:04:33-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "e6edf61d-ba73-dce7-1b00-5c6e844d22b3",
+     "file_manager_id": "b8fcdb85-c9c0-42c6-841c-7af00fbc87f0"
+    },
+    {
+     "path": "Political Files/2026/Local/Comm to Elect Candace Newell",
+     "name": "COMM TO ELECT CANDACE NEWELL_OCT_AFF1330186_SYS 0222",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:03:40-05:00",
+     "folder_id": "415e8b88-794a-e501-0686-a9dd3c579ec2",
+     "file_id": "f5937693-c8f4-ff96-058e-5c97885b24db",
+     "file_manager_id": "ca3df16a-bd35-4acc-b204-67f07de3173b"
+    },
+    {
+     "path": "Political Files/2026/Local/Committee to Elect Sal Brocato",
+     "name": "SAL BROCATO_OCT_AFF1322784_SYS 0222 1758",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T18:02:57-05:00",
+     "folder_id": "438bba8f-0561-358d-210c-c0123be88b00",
+     "file_id": "1623ccc5-7961-ed39-dde0-3c38ff7107b8",
+     "file_manager_id": "a2e24eef-dfe4-4eaf-b69d-af77f977269c"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "Mike Marsiglia NAB SYS 0222_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T17:04:16-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "d1a2447a-baf3-9d79-ffe0-e8d502c3e136",
+     "file_manager_id": "35566f6b-8543-441e-a7cf-1a0dd7cef473"
+    },
+    {
+     "path": "Political Files/2026/Local/JOSEPH CAO",
+     "name": "Joseph Cao-NAB-SYS 0222 SYS 1758 SYS 1757_070826_1700_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T17:02:33-05:00",
+     "folder_id": "d135b7e9-18a3-ec55-a051-684138e107ce",
+     "file_id": "c2d7ca0e-01a4-fdfc-0249-a8ee202840e4",
+     "file_manager_id": "b1614b8c-51c8-4b58-aff3-f18edc7a0273"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/CLEARPATH ACTION FUND",
+     "name": "CLEARPATH ACTION FUND - NAB - SYS 2119 SYS 3996 SYS 6979_041526_1447_110426_1702",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:52:27-05:00",
+     "folder_id": "42ea0815-066c-c982-ef90-ba7b3acbfd8c",
+     "file_id": "01b604b3-6d3d-8290-f70a-974a279a1b34",
+     "file_manager_id": "9a8a6db3-56d1-445a-a6d6-f96b6508e732"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Scalise for Congress",
+     "name": "SCALISE FOR CONGRESS_NAB_SYS6979_110426_1703",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:48:58-05:00",
+     "folder_id": "30780c7e-55da-3a1f-3e97-07cde5456c97",
+     "file_id": "660438e7-b926-45ca-26cb-916662f7b110",
+     "file_manager_id": "9de9c601-7b7b-44e1-92fc-acf40f9bbd22"
+    },
+    {
+     "path": "Political Files/2026/Local/Committee to Elect Joseph Cao",
+     "name": "JOSEPH CAO-NAB-SYS 0222 SYS 1758 SYS 1757_070926_1700_110426_1703",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T16:21:32-05:00",
+     "folder_id": "5e799a05-6598-c442-2030-1c220ae6a468",
+     "file_id": "c4ada58a-29fc-a274-9555-b9d7e1db0d54",
+     "file_manager_id": "d998349a-8954-4a1d-b49c-31fdad76de95"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Marsiglia for Parish Judge",
+     "name": "MIKE MARSIGLIA_confirm1346725_sys0222_20261030_151615",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T11:24:12-05:00",
+     "folder_id": "dee348c8-0174-d696-97be-517afeea54e7",
+     "file_id": "63707be3-5cca-b3b8-237c-3b57e33ab995",
+     "file_manager_id": "e95d5f81-a3eb-4a42-9b6e-9ddc00ebc59a"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/READY FOR THE FIGHT",
      "name": "CPMREADY FOR THE FIGHT_confirm1343190_sys1804_20261029_150007",
@@ -107319,7 +108295,7 @@
    "facility_id": "007052",
    "root_folder": "865f6655-ac09-9c6f-4ec0-15bd1f90d136",
    "profile": "cable-profile/007052",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "f5fa9f0b-accf-2891-1a9d-acbac527649f",
     "2015": "dbf28427-8974-d119-6ef9-504ff1cbe815",
@@ -107347,7 +108323,7 @@
    "facility_id": "003680",
    "root_folder": "0282e43a-654c-839c-e944-85178e64cc0f",
    "profile": "cable-profile/003680",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "ffc084b2-ca7e-0ca0-40b0-a9ab89ae7d4d",
     "2015": "7255369b-44eb-66b0-ebdb-93c4342b4d31",
@@ -107469,7 +108445,7 @@
    "facility_id": "006379",
    "root_folder": "6c2e64ea-5aac-7d52-1ef0-91623a95b225",
    "profile": "cable-profile/006379",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "7948de73-05d9-2ca6-944f-985bb33452f1",
     "2015": "29341970-f20c-07b7-96b8-ff8356a9c90c",
@@ -107497,7 +108473,7 @@
    "facility_id": "016728",
    "root_folder": "e5b9c943-10a3-225d-cdc4-b9f1b4411a0a",
    "profile": "cable-profile/016728",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "1116d608-3dbb-3731-dff2-e6aa38b93b7e",
     "2015": "e1155b07-b9cd-a790-8658-715fbe79379b",
@@ -107639,7 +108615,7 @@
    "facility_id": "007033",
    "root_folder": "9e4c7d95-34fd-5570-9a5c-1e9ab4e66ddc",
    "profile": "cable-profile/007033",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "15ebaafd-742c-3bfd-8d12-0f7603f04259",
     "2015": "6ec8bf30-c78b-32a7-a5c6-886e35ce2144",
@@ -107667,7 +108643,7 @@
    "facility_id": "010036",
    "root_folder": "1569c0cf-22e8-5bfe-35c8-aa1751a93e93",
    "profile": "cable-profile/010036",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "37a24c7e-e732-7ebf-e445-782fc93ad929",
     "2015": "f30b4203-8b55-941b-24f0-e7e10eee6ce9",
@@ -107695,7 +108671,7 @@
    "facility_id": "005143",
    "root_folder": "0aadd1d9-9176-4a37-67a8-0b457f583cf8",
    "profile": "cable-profile/005143",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2017": "91a92350-cbba-d47a-c21b-b72f0306ab77",
     "2018": "25db26c6-f423-128b-b09a-57ed4a1f00a8",
@@ -107784,6 +108760,150 @@
     "Political Files/2026/State/New Orleans/Supreme Court Judge State/William H Burris": "f8341179-9052-d98e-0f34-5409e7e1d566"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329371_Invoice_20261116121747091",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:35-05:00",
+     "folder_id": "a887766f-e447-c566-dc61-664737285946",
+     "file_id": "329d2140-81a0-9944-ecfc-e79cfd3d0fa2",
+     "file_manager_id": "ca011210-1866-4b09-8ffc-9952fb585079"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1305769_Invoice_20261116123648907",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:21-05:00",
+     "folder_id": "204ff82e-fbd1-92a4-315d-7a519ac30881",
+     "file_id": "7a410a5a-b0e0-7686-a34d-ab1bb8a8bfcd",
+     "file_manager_id": "b3c7f12e-d170-4df2-b410-51fcff85b31d"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1307253_Invoice_20261116123942916",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:21-05:00",
+     "folder_id": "204ff82e-fbd1-92a4-315d-7a519ac30881",
+     "file_id": "5861d12c-2ac8-5859-7185-0ca5c9cf725d",
+     "file_manager_id": "8b3e7123-47eb-4ddc-a4fb-4222fbdbd54c"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1321711_Invoice_20261116123824310",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:16-05:00",
+     "folder_id": "204ff82e-fbd1-92a4-315d-7a519ac30881",
+     "file_id": "d308a208-370e-4f82-236b-dd980dd00ef2",
+     "file_manager_id": "1925a43e-bdf0-455c-aecf-89819b246ace"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Donald Landry",
+     "name": "1329976_Invoice_20261116123735089",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:15-05:00",
+     "folder_id": "204ff82e-fbd1-92a4-315d-7a519ac30881",
+     "file_id": "73532e1a-6358-7259-0a40-6e1595e04fac",
+     "file_manager_id": "5262b516-224e-4396-b792-1bc0e112d720"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/ Michele Echols",
+     "name": "1329374_Invoice_20261116122017322",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T13:03:02-05:00",
+     "folder_id": "a887766f-e447-c566-dc61-664737285946",
+     "file_id": "6640099b-d536-2813-bb70-958fe1e21be0",
+     "file_manager_id": "f6bdff77-603d-4177-9846-d8c7d26723dd"
+    },
+    {
+     "path": "Political Files/2026/State/Lafayette LA/County District Attorney /Lauren Heinen",
+     "name": "1339751_Invoice_20261116110454894",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:45-05:00",
+     "folder_id": "42bed4dc-8d7f-f452-c43c-bbad4805b713",
+     "file_id": "9552bd47-ac42-99e2-9a5b-57d530ad627c",
+     "file_manager_id": "98b1dcfb-7bda-4d0d-ba99-487404e34022"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330365_Invoice_20261116111116879",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:41-05:00",
+     "folder_id": "eee1b5d6-b906-d7cd-7a97-e540e2420378",
+     "file_id": "8a7d8c9d-5486-7d00-3c00-2decf1bf278a",
+     "file_manager_id": "3c87308e-b7b7-43ea-911d-bcd57de46c2a"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Lafayette LA/US Senate/Julia Letlow",
+     "name": "1325903_Invoice_20261116110859067",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:37-05:00",
+     "folder_id": "4ffc94ad-e524-c0e7-03e2-e1c2b065f37c",
+     "file_id": "c7dfc7ea-9d1b-25e8-d65a-d1c65f14a884",
+     "file_manager_id": "f157c6fd-54bb-482a-bfc1-9e056f93f7c3"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Lafayette LA/US Senate/Julia Letlow",
+     "name": "1313059_Invoice_20261116110957398",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:36-05:00",
+     "folder_id": "4ffc94ad-e524-c0e7-03e2-e1c2b065f37c",
+     "file_id": "b5fd6f31-68fd-f879-f2e2-fccabd44f723",
+     "file_manager_id": "c6d52de1-0cb3-4d5b-bace-872ce6f7f495"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Cameron Mary",
+     "name": "1330419_Invoice_20261116111213079",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T12:01:26-05:00",
+     "folder_id": "eee1b5d6-b906-d7cd-7a97-e540e2420378",
+     "file_id": "7214f8d5-b4e8-2d14-39e7-28b87b1b6a92",
+     "file_manager_id": "7bb7a454-0822-4da7-b11d-f422497c00b7"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322829_Invoice_20261116095941245",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:02:12-05:00",
+     "folder_id": "3aaa3730-5254-5d3d-6e5e-2e30890dffab",
+     "file_id": "b19c628b-1ca8-a142-4390-5479ee6db9ee",
+     "file_manager_id": "4a3d0f04-c8a8-441e-9376-8a4314e82b8c"
+    },
+    {
+     "path": "Political Files/2026/State/New Orleans/District Court Judge/Luke Lancaster",
+     "name": "1322823_Invoice_20261116100503098",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T11:01:45-05:00",
+     "folder_id": "3aaa3730-5254-5d3d-6e5e-2e30890dffab",
+     "file_id": "8dc79a4f-0309-ba01-815e-7da41048780d",
+     "file_manager_id": "a387e159-e68c-4be3-930a-e315f5a33560"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/New Orleans/US House of Representatives/Steve Scalise",
+     "name": "1314092_Invoice_20261116085023887",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T10:03:23-05:00",
+     "folder_id": "29ec8d32-109d-126f-c67f-1c56e52f5047",
+     "file_id": "4e4c1de7-646d-964d-7d91-8d085291ba08",
+     "file_manager_id": "a35d4a02-1a63-46ed-84c3-6c151b5238f0"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/Conservatives For American Excellence",
+     "name": "1336192_Invoice_20261116084404826",
+     "ext": "pdf",
+     "uploaded": "2026-11-16T09:03:15-05:00",
+     "folder_id": "10e9a941-f4c6-8850-e109-7fa7dccbb2b3",
+     "file_id": "6a9363ef-b416-56ae-d2e6-3650881a0873",
+     "file_manager_id": "40a12e7d-2eea-4438-ae31-7981749ec5de"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Lafayette LA/Protect Louisiana Values",
+     "name": "1290477_NAB_20261105025029340",
+     "ext": "pdf",
+     "uploaded": "2026-11-05T15:11:10-05:00",
+     "folder_id": "1fa381b8-f60b-f843-fa5d-b7f56abf1a2e",
+     "file_id": "72f40baa-5632-9020-9721-8ca7a30c3f85",
+     "file_manager_id": "37b07079-4201-457b-9039-f39bb48efc28"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/New Orleans/CPMReady for the Fight",
      "name": "1343190_Order_Contract_20261029035155362",
@@ -158409,7 +159529,7 @@
    "facility_id": "008277",
    "root_folder": "2832ec99-417b-76ad-1b9f-edc21774de0b",
    "profile": "cable-profile/008277",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "a18e838a-ec38-ea1c-d1b1-2171ce991250",
     "2015": "17bc185a-3e10-a22b-0b78-875ac38be47c",
@@ -158437,7 +159557,7 @@
    "facility_id": "010740",
    "root_folder": "78db5cfe-9e84-bc0d-ffbc-f183d3a456b0",
    "profile": "cable-profile/010740",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "e732cc2c-b053-61bf-d77b-c8c4327e41c7",
     "2015": "b8096ae6-6ef2-25d2-6e19-fd35ddc07e56",
@@ -158687,7 +159807,7 @@
    "facility_id": "007036",
    "root_folder": "497d7643-b970-0bbd-34f2-22ef01c30307",
    "profile": "cable-profile/007036",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "83005020-6e3b-ea2f-ab4d-9259a57550cf",
     "2015": "abbbdefb-fdb2-8043-116a-056e2471ae22",
@@ -158718,6 +159838,15 @@
     "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/LOUISIANA FREEDOM FUND": "10e8bee1-7f00-a9e0-5ca5-7c28069687fb"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
+     "name": "710177_Contract_Revisions_20261102065942",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T08:07:17-05:00",
+     "folder_id": "386d8dd8-fe86-8164-3e95-45e54fff9130",
+     "file_id": "278e456f-25e8-7530-40cb-d7d0ac2431a9",
+     "file_manager_id": "2698c00d-03a1-414b-ab45-aeb04fae12bd"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
      "name": "710177_Order_Contract_20261030015111",
@@ -158862,7 +159991,7 @@
    "facility_id": "003478",
    "root_folder": "f10c386d-50e2-15da-742b-eec67690a8c2",
    "profile": "cable-profile/003478",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "631b6243-963c-7c7d-9074-5e56b6223b42",
     "2015": "34ffdece-676f-c151-602b-def93572037d",
@@ -158928,6 +160057,105 @@
     "Political Files/2026/State/Monroe-El Dorado/State House/AMP - FIRMENT FOR CONGRESS": "287fa63b-e69b-5a75-cb0b-5077090d60e7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+     "name": "728316_Invoice_20261113084017",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:05:02-05:00",
+     "folder_id": "b1cc12d3-e372-0545-e94e-0089a3be4910",
+     "file_id": "83e54c13-289d-893b-0c27-476e7825feb3",
+     "file_manager_id": "8eea5fca-d62b-494c-8af0-342199e06969"
+    },
+    {
+     "path": "Political Files/2026/Federal/US Senate/Monroe-El Dorado/PCA - JULIA LETLOW FOR LA",
+     "name": "728236_Invoice_20261113083732",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:59-05:00",
+     "folder_id": "48efd1f1-a351-97bf-42b5-bc9a1eeb87a3",
+     "file_id": "0b511d77-8ef7-d022-2c43-c64a2d339ff9",
+     "file_manager_id": "96233131-7f9b-4c3f-8080-ef585a2cfd85"
+    },
+    {
+     "path": "Political Files/2026/State/Monroe-El Dorado/District Judge/JANET FLOYD FOR JUDGE-LA",
+     "name": "728216_Invoice_20261113083730",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:57-05:00",
+     "folder_id": "e4063a48-1c14-e67a-8b42-209c7363c341",
+     "file_id": "0eec87f4-c958-df1d-6117-10211f4bc682",
+     "file_manager_id": "9ae0c4f4-75a6-49ee-a3bb-7f78a3271802"
+    },
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Miscellaneous Local Races/CHRIS LEWIS CAMPAIGN-LA",
+     "name": "727870_Invoice_20261113083323",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:54-05:00",
+     "folder_id": "463e75e5-e36d-03d6-f27c-4a9a15c1eade",
+     "file_id": "f30aa547-8342-b947-6e81-7e57ab52273a",
+     "file_manager_id": "a48e8ac1-ba3a-420e-9ba9-c414cf543f53"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727867_Invoice_20261113083321",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:51-05:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "e4f95d91-ab1a-46e1-a816-ddc65fab7c0d",
+     "file_manager_id": "8b690d3b-b9b8-4bd7-9b92-ed4f94d326a0"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - CORDELL FOR CONGRESS",
+     "name": "726837_Invoice_20261113082757",
+     "ext": "pdf",
+     "uploaded": "2026-11-13T17:04:46-05:00",
+     "folder_id": "8d93884a-7202-23fd-c32c-2dee93e1b1b8",
+     "file_id": "e3a28dc4-d4fb-cd80-13af-c3371b0ee1a4",
+     "file_manager_id": "a09bb445-0977-4daa-97e0-d4a6d75f506d"
+    },
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+     "name": "728315_Invoice_20261106085008",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T12:09:10-05:00",
+     "folder_id": "b1cc12d3-e372-0545-e94e-0089a3be4910",
+     "file_id": "79770e2e-a707-2b71-ee43-557af65c6977",
+     "file_manager_id": "4a603707-3c9d-4aa3-b420-23de4b516de3"
+    },
+    {
+     "path": "Political Files/2026/State/Monroe-El Dorado/District Judge/CMTE ELECT ADAM COSSEY-LA",
+     "name": "727986_Invoice_20261106084425",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T12:09:06-05:00",
+     "folder_id": "889acb8d-8a78-b2b6-3ba3-243cd06be2f5",
+     "file_id": "db6711c6-114a-2706-8cb1-013e9d1521f7",
+     "file_manager_id": "0a2f429c-b3f6-4012-94e1-acbfa6704073"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+     "name": "727868_Invoice_20261106084233",
+     "ext": "pdf",
+     "uploaded": "2026-11-06T12:09:02-05:00",
+     "folder_id": "ad6eda2e-2821-f808-26ec-1b1e8f47455f",
+     "file_id": "8c167067-0c95-15c7-e825-a2a30a470fd4",
+     "file_manager_id": "ef26046a-664a-41bb-9637-ab2b39188060"
+    },
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
+     "name": "710177_Contract_Revisions_20261102065942",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T11:56:17-05:00",
+     "folder_id": "2da1d5c6-e9d1-ab1e-c5a1-046caddfd28c",
+     "file_id": "bb124f3d-33b1-5e9d-14d5-0528680d6041",
+     "file_manager_id": "f126e275-f7ce-47e5-a5e8-03c05dba001b"
+    },
+    {
+     "path": "Political Files/2026/Local/Monroe-El Dorado/Public Service Commissioner/AMP - JOHN ATKINS CAMPAIGN",
+     "name": "728315_Invoice_20261101084140",
+     "ext": "pdf",
+     "uploaded": "2026-11-01T11:55:26-05:00",
+     "folder_id": "b1cc12d3-e372-0545-e94e-0089a3be4910",
+     "file_id": "e83ecfea-974f-a663-a9d7-c3ed2d82c585",
+     "file_manager_id": "5ef56e2b-c04c-44ad-8ea9-1bcc19e4d548"
+    },
     {
      "path": "Political Files/2026/Federal/US Senate/Monroe-El Dorado/PCA - JULIA LETLOW FOR LA",
      "name": "728236_Invoice_20261031083634",
@@ -162285,7 +163513,7 @@
    "facility_id": "004289",
    "root_folder": "cdee00c3-64fb-d199-4d4c-b71dd549a187",
    "profile": "cable-profile/004289",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "7afb2700-6530-4729-cae5-f74e96799b7c",
     "2015": "bbb92733-60e2-8e21-a6d2-e86039043540",
@@ -162346,6 +163574,15 @@
     "Political Files/2026/State/New Orleans/State House/FHRCC3PACOTHER HD 37": "a3739ad0-5faf-d055-e937-0eb3abdaf6b7"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
+     "name": "710177_Contract_Revisions_20261102065942",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T12:11:09-05:00",
+     "folder_id": "8394f822-05e3-434b-bef7-261f3cf70d3b",
+     "file_id": "2b46dbda-343a-29bb-39d8-43f53f04c09a",
+     "file_manager_id": "109b6f76-188a-4994-b356-2d3924ccf0aa"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
      "name": "710177_Order_Contract_20261030015111",
@@ -164578,7 +165815,7 @@
    "facility_id": "008858",
    "root_folder": "d510e6a7-4f45-a0d3-a76c-5a1f573d52d5",
    "profile": "cable-profile/008858",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "997d5c72-4c87-f06a-8178-94aeac54846f",
     "2015": "2f687d40-8d29-ebb3-6ef7-e46b2248fad6",
@@ -164606,7 +165843,7 @@
    "facility_id": "022095",
    "root_folder": "19aabc03-6246-dd44-3b54-c7e3fa0318e4",
    "profile": "cable-profile/022095",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "8f10b9f9-1f5e-4161-11f9-8e2faee2c017",
     "2015": "bbd41ad1-06c8-15be-a0f0-89c62f3cf1fb",
@@ -164634,7 +165871,7 @@
    "facility_id": "008273",
    "root_folder": "b0dbee07-8242-11d0-1d0c-3704b85765ef",
    "profile": "cable-profile/008273",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "d0be6a3e-3a52-b2aa-fa90-cc0bdf31b7ca",
     "2015": "f1905e9a-6684-17ce-1409-70701d415730",
@@ -164662,7 +165899,7 @@
    "facility_id": "015650",
    "root_folder": "ea41c606-547e-a802-a0d8-c11fa743eef0",
    "profile": "cable-profile/015650",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "b6c925cf-f344-5015-992d-19d7dbac98a7",
     "2015": "a6ead5f3-cfc2-4959-2c20-47282575a66a",
@@ -164690,7 +165927,7 @@
    "facility_id": "003084",
    "root_folder": "5bd9755d-b4bc-f5f5-1e8b-9defd8ac2ade",
    "profile": "cable-profile/003084",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "fa79c064-f3b3-63a1-ea2a-ab9e972cc57a",
     "2015": "7e8133cc-d8c2-0331-f552-f9ed6d3f88db",
@@ -164718,7 +165955,7 @@
    "facility_id": "008691",
    "root_folder": "b333af19-3860-a6e6-fea2-b097c8104064",
    "profile": "cable-profile/008691",
-   "scraped_at": "2026-11-01T02:23:05Z",
+   "scraped_at": "2026-11-18T04:35:18Z",
    "year_folders": {
     "2014": "24c8f34b-4570-501a-5b70-e560d6e97588",
     "2015": "2a4bf7fe-30f5-9441-2411-1e7f1f354697",
@@ -164746,7 +165983,7 @@
    "facility_id": "008859",
    "root_folder": "e6e82b2f-5f52-dcb6-24b3-db9892f3b8c7",
    "profile": "cable-profile/008859",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "b409b0e9-e184-148f-37fb-c74ffab1792d",
     "2015": "463410f1-38de-7a68-3915-8fa6bfe7f3cf",
@@ -164774,7 +166011,7 @@
    "facility_id": "011859",
    "root_folder": "3b09de7a-f0ea-0c09-ee43-6f8b599aaec9",
    "profile": "cable-profile/011859",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "795cc9b3-331d-e394-30dc-f7d06d791312",
     "2015": "d3276ab7-cacb-db71-2d0e-ed0182c67c1d",
@@ -164802,7 +166039,7 @@
    "facility_id": "021784",
    "root_folder": "7a2ca2d1-7fe0-922a-f7bd-f5d60356b09c",
    "profile": "cable-profile/021784",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "77f830a0-05a9-d18d-3c5d-e60b8a0fe7b8",
     "2015": "7d2dcfab-597f-6425-3831-63e67b49247e",
@@ -164830,7 +166067,7 @@
    "facility_id": "003002",
    "root_folder": "9b53ba83-f024-1eb1-08f1-b2a2d9fbd5a2",
    "profile": "cable-profile/003002",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "5a2fce5a-a3eb-e879-14db-d7e240a5c972",
     "2015": "71187659-756e-7b6b-34cd-5825948db3c7",
@@ -164858,7 +166095,7 @@
    "facility_id": "013331",
    "root_folder": "ee6803f6-ee38-af14-4c58-98926abd167b",
    "profile": "cable-profile/013331",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "895ce967-4f67-8960-a06c-495975ae59f3",
     "2015": "c813abc4-bf12-1c55-2173-af910626f9c8",
@@ -164889,6 +166126,15 @@
     "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/LOUISIANA FREEDOM FUND": "e444bc70-7172-f5a1-1fb7-9a007e7587ff"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
+     "name": "710177_Contract_Revisions_20261102065942",
+     "ext": "pdf",
+     "uploaded": "2026-11-02T09:48:56-05:00",
+     "folder_id": "ef0d2fe6-b52e-d3b9-46bb-2d0e725a2152",
+     "file_id": "97c738df-cdd2-8eb4-e8b3-eb775013255a",
+     "file_manager_id": "a737de95-4e56-4146-8801-ebb2b1a77e76"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Louisiana - LA/AMP - FUTURE FORWARD USA ACTION DIG-MM",
      "name": "710177_Order_Contract_20261030015111",
@@ -165033,7 +166279,7 @@
    "facility_id": "014241",
    "root_folder": "bf7cf25c-b839-dbe6-8a09-883a9a826589",
    "profile": "cable-profile/014241",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "f7b587b6-46ff-01e1-2957-b9e515e6d99b",
     "2015": "73d7566c-2867-92f0-6598-4ca2cae748b8",
@@ -165061,7 +166307,7 @@
    "facility_id": "022377",
    "root_folder": "ff844076-790e-e736-aeac-7e795699af78",
    "profile": "cable-profile/022377",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "c161c065-a4a1-9f9e-2b51-81d8d6a3105d",
     "2015": "124fb855-412c-dd6f-12db-b552c4d24a41",
@@ -165828,7 +167074,7 @@
    "facility_id": "002247",
    "root_folder": "9be1dba7-f066-518a-0007-350a098c2d3b",
    "profile": "cable-profile/002247",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "2a6e7e67-56e1-012b-427f-c60e6e93219f",
     "2015": "c15bd8d1-ea83-efd3-0088-8b426bf7f030",
@@ -165856,7 +167102,7 @@
    "facility_id": "003376",
    "root_folder": "35696673-0532-826d-bbd0-fd86dd2fc8bd",
    "profile": "cable-profile/003376",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "43b2d375-2eeb-32fd-0adf-25a7ca6e7956",
     "2015": "8c65513f-be4f-13b9-657c-c93558ac377b",
@@ -165884,7 +167130,7 @@
    "facility_id": "004383",
    "root_folder": "079ce57f-f911-f7ec-3041-e2933f22bc71",
    "profile": "cable-profile/004383",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "423b6c9d-5251-407a-adc3-ad4dff61186f",
     "2015": "634829d0-474e-9216-6ee8-101cfd127bee",
@@ -165912,7 +167158,7 @@
    "facility_id": "008567",
    "root_folder": "e9d841d0-c257-facd-08d6-92308ea4f926",
    "profile": "cable-profile/008567",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-18T19:26:30Z",
    "year_folders": {
     "2014": "e3586980-e355-8b41-38c3-6ae23c953c37",
     "2015": "65efd0da-acfc-ff5a-a285-8376c2401386",
@@ -167093,7 +168339,7 @@
    "facility_id": "022352",
    "root_folder": "e690a879-3fcc-1cfc-0fff-d8487d6bb612",
    "profile": "cable-profile/022352",
-   "scraped_at": "2026-11-01T17:10:54Z",
+   "scraped_at": "2026-11-19T04:18:28Z",
    "year_folders": {
     "2014": "926e4127-94ee-dea9-3a6e-0c503c9c31f8",
     "2015": "6a44a346-37c7-9c0d-a7fd-f6df8d97724b",
@@ -167121,42 +168367,42 @@
  "no_online_file": [],
  "blocked": null,
  "attempted": {
-  "002247": "2026-11-01T17:10:54Z",
-  "002460": "2026-11-01T17:10:54Z",
-  "003002": "2026-11-01T17:10:54Z",
-  "003084": "2026-11-01T02:23:05Z",
-  "003376": "2026-11-01T17:10:54Z",
-  "003478": "2026-11-01T02:23:05Z",
-  "003680": "2026-11-01T17:10:54Z",
-  "004289": "2026-11-01T02:23:05Z",
-  "004321": "2026-11-01T17:10:54Z",
-  "004383": "2026-11-01T17:10:54Z",
-  "005142": "2026-11-01T17:10:54Z",
-  "005143": "2026-11-01T02:23:05Z",
-  "005341": "2026-11-01T17:10:54Z",
-  "006379": "2026-11-01T17:10:54Z",
-  "007033": "2026-11-01T17:10:54Z",
-  "007036": "2026-11-01T02:23:05Z",
-  "007052": "2026-11-01T17:10:54Z",
-  "008048": "2026-11-01T17:10:54Z",
-  "008273": "2026-11-01T02:23:05Z",
-  "008277": "2026-11-01T02:23:05Z",
-  "008564": "2026-11-01T17:10:54Z",
-  "008567": "2026-11-01T17:10:54Z",
-  "008691": "2026-11-01T02:23:05Z",
-  "008858": "2026-11-01T02:23:05Z",
-  "008859": "2026-11-01T17:10:54Z",
-  "010036": "2026-11-01T17:10:54Z",
-  "010740": "2026-11-01T02:23:05Z",
-  "011859": "2026-11-01T17:10:54Z",
-  "013331": "2026-11-01T17:10:54Z",
-  "014241": "2026-11-01T17:10:54Z",
-  "015650": "2026-11-01T02:23:05Z",
-  "016728": "2026-11-01T17:10:54Z",
-  "020573": "2026-11-01T17:10:54Z",
-  "021784": "2026-11-01T17:10:54Z",
-  "022095": "2026-11-01T02:23:05Z",
-  "022352": "2026-11-01T17:10:54Z",
-  "022377": "2026-11-01T17:10:54Z"
+  "002247": "2026-11-18T19:26:30Z",
+  "002460": "2026-11-19T04:18:28Z",
+  "003002": "2026-11-18T19:26:30Z",
+  "003084": "2026-11-19T04:18:28Z",
+  "003376": "2026-11-18T19:26:30Z",
+  "003478": "2026-11-19T04:18:28Z",
+  "003680": "2026-11-18T04:35:18Z",
+  "004289": "2026-11-19T04:18:28Z",
+  "004321": "2026-11-18T19:26:30Z",
+  "004383": "2026-11-18T19:26:30Z",
+  "005142": "2026-11-18T04:35:18Z",
+  "005143": "2026-11-18T04:35:18Z",
+  "005341": "2026-11-18T04:35:18Z",
+  "006379": "2026-11-18T04:35:18Z",
+  "007033": "2026-11-18T04:35:18Z",
+  "007036": "2026-11-19T04:18:28Z",
+  "007052": "2026-11-18T04:35:18Z",
+  "008048": "2026-11-19T04:18:28Z",
+  "008273": "2026-11-19T04:18:28Z",
+  "008277": "2026-11-19T04:18:28Z",
+  "008564": "2026-11-18T04:35:18Z",
+  "008567": "2026-11-18T19:26:30Z",
+  "008691": "2026-11-18T04:35:18Z",
+  "008858": "2026-11-19T04:18:28Z",
+  "008859": "2026-11-18T19:26:30Z",
+  "010036": "2026-11-18T04:35:18Z",
+  "010740": "2026-11-19T04:18:28Z",
+  "011859": "2026-11-18T19:26:30Z",
+  "013331": "2026-11-18T19:26:30Z",
+  "014241": "2026-11-18T19:26:30Z",
+  "015650": "2026-11-19T04:18:28Z",
+  "016728": "2026-11-18T04:35:18Z",
+  "020573": "2026-11-18T19:26:30Z",
+  "021784": "2026-11-18T19:26:30Z",
+  "022095": "2026-11-19T04:18:28Z",
+  "022352": "2026-11-19T04:18:28Z",
+  "022377": "2026-11-18T19:26:30Z"
  }
 }

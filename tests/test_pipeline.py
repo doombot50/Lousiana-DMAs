@@ -159,6 +159,36 @@ class OutsideGroups(unittest.TestCase):
                                'sb': []})   # "page 1" is a word; Kim Page isn't buying airtime
 
 
+class Runoffs(unittest.TestCase):
+    """The runoffs an election's results set, shown before the Secretary of
+    State posts the runoff's own ballot."""
+    def test_runoff_races_carry_the_candidates_who_advanced(self):
+        from build_races_page import is_coming, runoff_races
+        c = lambda n, v, w, **k: {'n': n, 'p': 'REP', 'v': v, 'w': w, **k}
+        prev = {'races': [
+            {'id': 'mp:1', 'o': 'U. S. Representative -- 6th Congressional District', 'pa': None, 't': 'Federal',
+             'k': ['BR'], 'el': 1, 'c': [c('Chauna Banks', 50882, 'Runoff'), c('Blake Miguez', 50214, 'Runoff', s=6215093),
+                                         c('Rick Edmonds', 49242, 'Defeated')]},
+            {'id': 'mp:2', 'o': 'U. S. Senator', 'pa': None, 't': 'Federal', 'k': [], 'el': 1,
+             'c': [c('Julia Letlow', 746014, 'Elected'), c('Jamie Davis', 720217, 'Defeated')]},
+            # One candidate left (the other withdrew): no race to show.
+            {'id': 'p:3', 'o': 'Mayor', 'pa': 'Caddo', 't': 'Local', 'k': ['SHV'], 'el': 1,
+             'c': [c('A', 5, 'Runoff'), c('B', 4, 'Defeated')]},
+            # Two seats, one filled outright: the runoff is for the other.
+            {'id': 'p:4', 'o': 'Council', 'pa': 'Caddo', 't': 'Local', 'k': ['SHV'], 'el': 2,
+             'c': [c('A', 9, 'Elected'), c('B', 5, 'Runoff'), c('C', 4, 'Runoff')]}]}
+        got = runoff_races(prev)
+        self.assertEqual([r['id'] for r in got], ['mp:1', 'p:4'])
+        self.assertEqual([(x['n'], x['pv']) for x in got[0]['c']],
+                         [('Chauna Banks', [50882, 150338]), ('Blake Miguez', [50214, 150338])])
+        self.assertEqual(got[0]['c'][1]['s'], 6215093)                 # their money comes along
+        self.assertFalse(any('v' in x or 'w' in x for x in got[0]['c']))  # first-round result doesn't
+        self.assertEqual(got[1]['el'], 1)
+        self.assertTrue(is_coming({'posted': False, 'runoff': '2026-11-03', 'd': '2026-12-12'}, '2026-11-11'))
+        self.assertFalse(is_coming({'posted': False, 'd': '2027-11-20'}, '2026-11-11'))
+        self.assertFalse(is_coming({'posted': True, 'd': '2026-11-03'}, '2026-11-11'))
+
+
 class BookedAgainstReported(unittest.TestCase):
     """A committee's political-file dollars beside what its reports show
     paid this year, to stations and to media agencies."""
@@ -322,6 +352,7 @@ class Prose(unittest.TestCase):
     def test_words_and_money(self):
         from prose import money, money_words, words
         self.assertEqual((words(13), words(30), words(67), words(1322)), ('thirteen', 'thirty', 'sixty-seven', '1,322'))
+        self.assertEqual((words(20), words(23)), ('twenty', 'twenty-three'))   # 21-29 once stopped the build
         self.assertEqual((money(11348197), money(1520591), money(947767), money(245.5)),
                          ('$11.3M', '$1.52M', '$948K', '$246'))
         self.assertEqual(money_words(121e6), '$121 million')
