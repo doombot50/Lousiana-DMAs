@@ -1,0 +1,675 @@
+<title>Results desk · Louisiana Airwaves</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --hair:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --accent:#2a78d6; --accent-ink:#1c5cab; --new:#d6421f;
+  --dem:#2a78d6; --rep:#e34948; --oth:#c3c2b7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --accent:#3987e5; --accent-ink:#6da7ec; --new:#f0714f;
+    --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+  --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+  --accent:#3987e5; --accent-ink:#6da7ec; --new:#f0714f;
+  --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+}
+*{box-sizing:border-box}
+body{background:var(--page); color:var(--ink); font:16px/1.55 "Source Serif 4",Georgia,serif; margin:0;}
+.wrap{max-width:1180px; margin:0 auto; padding:0 20px 72px;}
+@media(max-width:560px){.wrap{padding:0 16px 60px;}}
+a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px;}
+h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance; margin:0;}
+.eyebrow{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink2);}
+__NAV_CSS__header{padding:26px 0 0;}
+header h1{font-weight:900; font-size:clamp(34px,5vw,50px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
+.dek{max-width:68ch; font-size:17px; color:var(--ink2); margin:14px 0 0;}
+.asof{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin:10px 0 0; letter-spacing:.02em;}
+.ui{font-family:Archivo,system-ui,sans-serif;}
+.ptag{font-family:"IBM Plex Mono",monospace; font-size:10px; font-weight:600; padding:0 4px; border-radius:2px; border:1px solid; flex:none;}
+.ptag.DEM{color:var(--dem); border-color:var(--dem);}
+.ptag.REP{color:var(--rep); border-color:var(--rep);}
+.ptag.OTH,.ptag.IND,.ptag.LBT,.ptag.GRN{color:var(--muted); border-color:var(--hair);}
+
+.desk{display:grid; grid-template-columns:minmax(0,370px) minmax(0,1fr); gap:28px; margin-top:26px; align-items:start;}
+@media(max-width:900px){.desk{grid-template-columns:minmax(0,1fr);}}
+
+/* picking a race */
+.pick{position:sticky; top:12px; font-family:Archivo,system-ui,sans-serif;}
+@media(max-width:900px){.pick{position:static;}}
+.pick input[type=search]{width:100%; font:15px Archivo,system-ui,sans-serif; padding:10px 12px; border:1px solid var(--hair); border-radius:4px; background:var(--surface); color:var(--ink);}
+.chips{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0;}
+.chips button{font:600 12.5px Archivo,system-ui,sans-serif; padding:6px 10px; border-radius:999px; border:1px solid var(--hair); background:var(--surface); color:var(--ink2); cursor:pointer;}
+.chips button[aria-pressed="true"]{background:var(--ink); color:var(--page); border-color:var(--ink);}
+.list{list-style:none; margin:0; padding:0; border-top:1px solid var(--hair); max-height:70vh; overflow:auto;}
+@media(max-width:900px){.list{max-height:46vh;}}
+.list li{border-bottom:1px solid var(--hair);}
+.list button{all:unset; box-sizing:border-box; display:block; width:100%; padding:9px 4px; cursor:pointer;}
+.list button:hover{background:var(--hair);}
+.list button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px;}
+.list button[aria-current="true"]{background:var(--ink); color:var(--page);}
+.list button[aria-current="true"] .sub{color:var(--page); opacity:.75;}
+.list b{display:block; font-size:14.5px; font-weight:700; line-height:1.25;}
+.list .sub{display:block; font-size:12px; color:var(--muted); margin-top:2px;}
+.list .done{font:600 10px "IBM Plex Mono",monospace; border:1px solid currentColor; border-radius:2px; padding:0 4px; margin-left:6px; vertical-align:2px;}
+.more{font:600 13px Archivo,system-ui,sans-serif; margin-top:8px; background:none; border:0; color:var(--accent-ink); cursor:pointer; padding:4px 0;}
+.count{font-size:12.5px; color:var(--muted); margin:0 0 6px;}
+
+/* making the card */
+.edit{font-family:Archivo,system-ui,sans-serif; min-width:0;}
+.edit h2{font-size:24px; font-weight:800; line-height:1.15;}
+.edit .where{font-size:13px; color:var(--muted); margin-top:4px;}
+.modes{display:inline-flex; flex-wrap:wrap; border:1px solid var(--hair); border-radius:6px; overflow:hidden; margin:16px 0 10px;}
+.modes button{font:600 13.5px Archivo,system-ui,sans-serif; padding:8px 14px; border:0; border-right:1px solid var(--hair); background:var(--surface); color:var(--ink2); cursor:pointer;}
+.modes button:last-child{border-right:0;}
+.modes button[aria-pressed="true"]{background:var(--ink); color:var(--page);}
+.hint{font-size:12.5px; color:var(--muted); margin:0 0 8px;}
+.cands{list-style:none; margin:0; padding:0;}
+.cands li{display:flex; gap:8px; align-items:stretch; margin-bottom:6px;}
+.cands .who{flex:1; min-width:0; display:flex; gap:10px; align-items:center; text-align:left; font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--hair); border-radius:6px; padding:8px 10px; cursor:pointer;}
+.cands .who[aria-pressed="true"]{border-color:var(--ink); box-shadow:inset 0 0 0 1px var(--ink);}
+.cands .tick{flex:none; width:22px; height:22px; border-radius:50%; border:1.5px solid var(--baseline); display:grid; place-items:center; font-size:13px; font-weight:900;}
+.cands .who[aria-pressed="true"] .tick{background:var(--ink); border-color:var(--ink); color:var(--page);}
+.cands .nm{display:block; font-weight:700; font-size:15px;}
+.cands .mn{display:block; font:12px "IBM Plex Mono",monospace; color:var(--muted); margin-top:1px;}
+.cands input{width:76px; flex:none; font:600 15px "IBM Plex Mono",monospace; text-align:right; padding:0 8px; border:1px solid var(--hair); border-radius:6px; background:var(--surface); color:var(--ink);}
+.fields{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:14px 0;}
+@media(max-width:560px){.fields{grid-template-columns:1fr;}}
+.fields label{font-size:12px; font-weight:600; color:var(--ink2); display:block;}
+.fields input[type=text]{display:block; width:100%; margin-top:4px; font:14px Archivo,system-ui,sans-serif; padding:8px 10px; border:1px solid var(--hair); border-radius:4px; background:var(--surface); color:var(--ink);}
+.fields .row{display:flex; gap:16px; align-items:center; grid-column:1/-1; font-size:13px; font-weight:600; color:var(--ink2);}
+.preview{margin-top:6px; border-radius:6px; overflow:hidden; box-shadow:0 0 0 1px var(--hair); line-height:0;}
+.preview canvas{width:100%; height:auto; display:block;}
+.acts{display:flex; flex-wrap:wrap; gap:8px; margin:12px 0;}
+.acts button{font:700 14px Archivo,system-ui,sans-serif; padding:10px 16px; border-radius:6px; border:1px solid var(--ink); background:var(--surface); color:var(--ink); cursor:pointer;}
+.acts button.go{background:var(--ink); color:var(--page);}
+.acts button:focus-visible,.modes button:focus-visible,.cands .who:focus-visible,.chips button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+textarea{width:100%; min-height:120px; font:14px/1.45 Archivo,system-ui,sans-serif; padding:10px 12px; border:1px solid var(--hair); border-radius:6px; background:var(--surface); color:var(--ink); resize:vertical;}
+.caphead{display:flex; justify-content:space-between; align-items:baseline; margin-top:6px;}
+.caphead span{font-size:12px; color:var(--muted);}
+.toast{position:fixed; left:50%; bottom:22px; transform:translateX(-50%); background:var(--ink); color:var(--page); font:600 13.5px Archivo,system-ui,sans-serif; padding:9px 16px; border-radius:999px; opacity:0; transition:opacity .2s; pointer-events:none;}
+.toast.on{opacity:1;}
+.empty{color:var(--muted); font-size:15px;}
+footer{margin-top:60px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+footer p{margin:0 0 10px; max-width:84ch;}
+</style>
+
+<div class="wrap">
+__NAV__
+<header>
+  <div class="eyebrow">Election night</div>
+  <h1>Results desk</h1>
+  <p class="dek">Pick a race, mark who won or who made the runoff, add vote shares if you have them, and share the card. It shows what each candidate raised, spent and put on the air, and whether the bigger spender won. The page holds no results: the call is yours.</p>
+  <p class="asof">State filings through __THROUGH__<span id="asof2"></span></p>
+</header>
+
+<div class="desk">
+  <section class="pick" aria-label="Races">
+    <div class="chips" id="elex" role="group" aria-label="Election" hidden></div>
+    <input id="q" type="search" placeholder="Search a candidate, office or parish" aria-label="Search races" autocomplete="off">
+    <div class="chips" id="kinds" role="group" aria-label="Kind of race"></div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <ul class="list" id="list"></ul>
+    <button type="button" class="more" id="more" hidden>Show more</button>
+  </section>
+
+  <section class="edit" id="edit" aria-live="polite"></section>
+</div>
+
+<footer>
+  <p><b>What a card shows.</b> Raised and spent are each candidate's totals for the {{cycle}} cycle: state candidates from their Louisiana finance reports, via the <a href="https://finance.charliestephens.xyz/">campaign-finance dashboard</a>, and federal candidates from the FEC's summary of House and Senate campaigns for the two-year cycle. <i>On the air</i> is the dollars stations' FCC political files show booked for the candidate, read from the orders themselves, where at least half the candidate's orders give a figure; otherwise what the candidate reported paying TV and radio stations this cycle; and where neither has a dollar figure, the number of ad orders stations have posted. It is the same matching as the <a href="https://airwaves.charliestephens.xyz/races.html">races page</a>, where each figure is explained in full. A candidate is matched to a committee by name, only when exactly one fits; check a surprising figure there before posting.</p>
+  <p><b>The bigger spender.</b> Compares the top two candidates by money spent. How often a leader with that edge wins is from the <a href="https://finance.charliestephens.xyz/does-money-win.html">campaign-finance dashboard's study</a> of every contested Louisiana race since 2000. Calls you mark are kept in this browser only, so the list can show which races you've done.</p>
+</footer>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/*__DATA__*/
+const MK={NO:'New Orleans',SHV:'Shreveport',BR:'Baton Rouge',LAF:'Lafayette',MON:'Monroe',LKC:'Lake Charles',ALX:'Alexandria'};
+const PL={DEM:'D',REP:'R',IND:'I',LBT:'L',GRN:'G',OTH:''};
+const KINDS=[
+  ['top','Top races',null],
+  ['fed','Congress',r=>r.t==='Federal'],
+  ['psc','PSC & BESE',r=>/^(PSC|BESE)\b/.test(r.o)],
+  ['da','DA',r=>/District Attorney/.test(r.o)],
+  ['sheriff','Sheriff',r=>/Sheriff/.test(r.o)],
+  ['mayor','Mayor & parish',r=>/Mayor|Parish President|Council/.test(r.o)],
+  ['judge','Judges',r=>r.t==='Judicial'],
+  ['done','Called',r=>called(r.id)],
+  ['all','All',()=>true],
+];
+const PAGE=60;
+const S={e:null,q:'',kind:'top',r:null,shown:PAGE};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+/* ---------- formatting ---------- */
+function money(n){
+  if(!n) return '—';
+  if(n>=1e6) return '$'+(n/1e6).toFixed(n>=1e7?0:1).replace(/\.0$/,'')+'M';
+  if(n>=1e3) return '$'+Math.round(n/1e3)+'K';
+  return '$'+Math.round(n);
+}
+function title(r){
+  return r.o.replace(/^U\. ?S\. Senator$/,'U.S. Senate')
+    .replace(/^U\. ?S\. Representative -- (\d+)(?:st|nd|rd|th) Congressional District$/,(m,d)=>`U.S. House, District ${d}`)
+    .replace(/^PSC -- /,'Public Service Commission, ')
+    .replace(/^BESE -- /,'BESE, ')
+    .replace(/U\. S\./g,'U.S.').replace(/ -- /g,', ');
+}
+function where(r){
+  if(r.pa) return r.pa+' Parish';
+  if(r.o.includes('U. S. Senator')) return 'Statewide';
+  return r.k.length?r.k.map(k=>MK[k]).join(' · ')+(r.k.length>1?' markets':' market'):'Multi-parish';
+}
+function dlong(d){return new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});}
+function dshort(d){return new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});}
+function ratio(a,b){const x=a/b; return x>=10?Math.round(x)+' to 1':x.toFixed(1)+' to 1';}
+function short(c){const w=c.n.replace(/,?\s+(Jr|Sr|II|III|IV)\.?$/i,'').split(/\s+/); return w[w.length-1];}
+function nameP(c){return c.n+(PL[c.p]?` (${PL[c.p]})`:'');}
+function airText(c){
+  if(c.a) return [money(c.a), c.ak==='booked'?'booked':'paid to stations'];
+  if(c.ad) return [c.ad+(c.ad===1?' order':' orders'),'in station files'];
+  return ['—',''];
+}
+
+/* ---------- calls, kept in this browser ---------- */
+let CALLS=null;
+function calls(){
+  if(CALLS) return CALLS;
+  try{ CALLS=JSON.parse(localStorage.getItem('desk-calls-'+S.e)||'{}'); }catch(e){ CALLS={}; }
+  return CALLS;
+}
+function called(id){ const c=calls()[id]; return !!(c&&c.sel&&c.sel.length); }
+function saveCall(id,call){
+  const all=calls();
+  if(call&&(call.sel.length||Object.keys(call.pct).length||call.mode!=='win'||call.src||call.lbl||call.dark||call.cap)) all[id]=call; else delete all[id];
+  try{ localStorage.setItem('desk-calls-'+S.e,JSON.stringify(all)); }catch(e){}
+}
+function callOf(r){
+  const c=calls()[r.id];
+  return c?{mode:c.mode||'win',sel:c.sel||[],pct:c.pct||{},src:c.src||'',lbl:c.lbl||'',dark:!!c.dark,cap:c.cap||''}
+          :{mode:'win',sel:[],pct:{},src:'',lbl:'',dark:false,cap:''};
+}
+
+/* ---------- the story a call tells ---------- */
+function election(){return DESK.elections.find(e=>e.d===S.e);}
+function story(r,call){
+  const C=r.c, sel=call.sel.map(i=>C[i]).filter(Boolean);
+  const sp=C.filter(c=>c.s>0).sort((a,b)=>b.s-a.s);
+  if(!sel.length||!sp.length) return '';
+  const lead=sp[0], second=sp[1];
+  if(call.mode==='win'&&r.el>1){
+    const top=new Set(sp.slice(0,r.el));
+    const k=sel.filter(c=>top.has(c)).length;
+    return sp.length>r.el?`${k} of the ${r.el} biggest spenders won ${r.el===1?'the seat':'seats'}.`:'';
+  }
+  const w=sel[0];
+  if(call.mode==='runoff'){
+    if(!second) return sel.includes(lead)?`${short(lead)}, the only candidate with spending on file (${money(lead.s)}), made the runoff.`:'';
+    return sel.includes(lead)?`The top spender, ${short(lead)} (${money(lead.s)}), made the runoff.`
+                             :`The top spender, ${short(lead)} (${money(lead.s)}), missed the runoff.`;
+  }
+  const verb=call.mode==='lead'?'leads':'won';
+  if(!second){
+    return w===lead?`${short(w)} was the only candidate with spending on file: ${money(w.s)}.`
+                   :`${short(w)} ${verb} with no spending on file, against ${short(lead)}'s ${money(lead.s)}.`;
+  }
+  if(w===lead){
+    const even=lead.s/second.s<1.15;
+    let t=even?`The top spender ${verb}, in a race spent about evenly (${money(lead.s)} to ${money(second.s)}).`
+              :`The bigger spender ${verb}: ${short(lead)} outspent ${short(second)} ${ratio(lead.s,second.s)}.`;
+    if(r.adv&&r.adv.rate!=null&&!even&&call.mode==='win')
+      t+=` Leaders with that edge have won ${Math.round(r.adv.rate*100)}% of contested Louisiana races since 2000.`;
+    return t;
+  }
+  if(w.s>0&&lead.s/w.s<1.15) return `${call.mode==='lead'?'Leading':'Won'} though narrowly outspent by ${short(lead)} (${money(lead.s)} to ${money(w.s)}).`;
+  if(w.s>0) return `${call.mode==='lead'?'Leading':'Won'} despite being outspent ${ratio(lead.s,w.s)} by ${short(lead)} (${money(lead.s)} to ${money(w.s)}).`;
+  return `${short(w)} ${verb} with no spending on file; ${short(lead)} spent ${money(lead.s)}.`;
+}
+function status(r,call){
+  if(call.lbl) return call.lbl;
+  const sel=call.sel.length;
+  if(call.mode==='runoff') return 'Headed to a runoff';
+  if(call.mode==='lead') return sel?'Leading':'Results';
+  if(!sel) return 'Results';
+  return r.el>1&&sel>1?'Winners':'Winner';
+}
+function caption(r,call){
+  const C=r.c, sel=call.sel.map(i=>C[i]).filter(Boolean), t=title(r);
+  const place=r.pa&&!t.includes(r.pa)?` in ${r.pa} Parish`:'';
+  const pct=i=>call.pct[i]?` ${(+call.pct[i]).toFixed(call.pct[i]%1?1:0)}%`:'';
+  let head;
+  if(!sel.length) head=`${t}${place}: the money behind each candidate.`;
+  else if(call.mode==='runoff') head=`${t}${place} goes to a runoff: ${call.sel.map(i=>nameP(C[i])+pct(i)).join(' vs. ')}.`;
+  else if(call.mode==='lead') head=`${nameP(sel[0])} leads${pct(call.sel[0])} for ${t}${place}.`;
+  else head=`${sel.map(nameP).join(', ')} ${sel.length>1?'win':'wins'} ${t}${place}.`;
+  if(call.src&&sel.length) head+=` (Call: ${call.src})`;
+  const lines=[head];
+  const st=story(r,call); if(st) lines.push(st);
+  const facts=(sel.length?sel:C.filter(c=>c.s||c.r).sort((a,b)=>(b.s||0)-(a.s||0)).slice(0,2)).map(c=>{
+    const bits=[]; if(c.r) bits.push(`raised ${money(c.r)}`); if(c.s) bits.push(`spent ${money(c.s)}`);
+    const a=airText(c); if(c.a) bits.push(`${a[0]} ${a[1]==='booked'?'booked on air':'paid to TV & radio'}`);
+    return bits.length?`${short(c)} ${bits.join(', ')}.`:'';
+  }).filter(Boolean);
+  if(facts.length) lines.push(facts.join(' '));
+  const link=`https://airwaves.charliestephens.xyz/races.html#${new URLSearchParams({r:r.id})}`;
+  lines.push(link);
+  return lines.join('\n\n');
+}
+
+/* ---------- the card ---------- */
+const W=1200,H=675,M=56,SCALE=2;
+const PAL={
+  light:{bg:'#f9f9f7',ink:'#0b0b0b',ink2:'#52514e',muted:'#898781',hair:'#e1e0d9',dem:'#2a78d6',rep:'#e34948',oth:'#a9a8a0',
+         sbg:'#0b0b0b',sfg:'#ffffff',pill:'#0b0b0b',pillfg:'#ffffff'},
+  dark:{bg:'#0d0d0d',ink:'#ffffff',ink2:'#c3c2b7',muted:'#898781',hair:'#2c2c2a',dem:'#3987e5',rep:'#e66767',oth:'#6a6a65',
+        sbg:'#ffffff',sfg:'#0b0b0b',pill:'#ffffff',pillfg:'#0b0b0b'},
+};
+const F={
+  head:'900 SIZEpx Archivo, "Segoe UI", system-ui, sans-serif',
+  bold:'700 SIZEpx Archivo, "Segoe UI", system-ui, sans-serif',
+  semi:'600 SIZEpx Archivo, "Segoe UI", system-ui, sans-serif',
+  xbold:'800 SIZEpx Archivo, "Segoe UI", system-ui, sans-serif',
+  mono:'500 SIZEpx "IBM Plex Mono", ui-monospace, Menlo, monospace',
+  monob:'600 SIZEpx "IBM Plex Mono", ui-monospace, Menlo, monospace',
+};
+const font=(k,s)=>F[k].replace('SIZE',s);
+function spacing(ctx,em){ if('letterSpacing' in ctx) ctx.letterSpacing=em+'px'; }
+function fit(ctx,text,k,size,min,width){
+  let s=size; ctx.font=font(k,s);
+  while(s>min&&ctx.measureText(text).width>width){ s-=1; ctx.font=font(k,s); }
+  return s;
+}
+function clip(ctx,text,width){
+  if(ctx.measureText(text).width<=width) return text;
+  while(text.length>1&&ctx.measureText(text+'…').width>width) text=text.slice(0,-1);
+  return text.trimEnd()+'…';
+}
+function wrap(ctx,text,width){
+  const words=text.split(' '), lines=[]; let line='';
+  for(const w of words){ const t=line?line+' '+w:w; if(ctx.measureText(t).width>width&&line){ lines.push(line); line=w; } else line=t; }
+  if(line) lines.push(line); return lines;
+}
+function rrect(ctx,x,y,w,h,r){ ctx.beginPath(); ctx.roundRect?ctx.roundRect(x,y,w,h,r):ctx.rect(x,y,w,h); }
+function partyColor(P,p){return p==='DEM'?P.dem:p==='REP'?P.rep:P.oth;}
+
+function rowsFor(r,call){
+  const idx=r.c.map((c,i)=>i), has=Object.keys(call.pct).length;
+  const sel=new Set(call.sel);
+  idx.sort((a,b)=>has?((+call.pct[b]||0)-(+call.pct[a]||0)||(sel.has(b)-sel.has(a)))
+                     :(sel.has(b)-sel.has(a))||((r.c[b].s||0)-(r.c[a].s||0))||((r.c[b].r||0)-(r.c[a].r||0)));
+  const max=5;
+  let keep=idx.slice(0,max);
+  for(const i of call.sel) if(!keep.includes(i)) keep[keep.length-1]=i;
+  return {rows:keep, more:r.c.length-keep.length};
+}
+
+function drawCard(canvas,r,call,e){
+  const P=call.dark?PAL.dark:PAL.light;
+  canvas.width=W*SCALE; canvas.height=H*SCALE;
+  const ctx=canvas.getContext('2d');
+  ctx.setTransform(SCALE,0,0,SCALE,0,0);
+  ctx.fillStyle=P.bg; ctx.fillRect(0,0,W,H);
+  ctx.textBaseline='alphabetic';
+
+  // masthead
+  ctx.fillStyle=P.ink2; ctx.font=font('bold',16); spacing(ctx,2.4);
+  ctx.textAlign='left';
+  ctx.fillText(('Louisiana · '+dlong(e.d)).toUpperCase(),M,58);
+  ctx.textAlign='right'; ctx.fillStyle=P.ink; ctx.font=font('head',16);
+  ctx.fillText('LOUISIANA AIRWAVES',W-M,58);
+  spacing(ctx,0); ctx.textAlign='left';
+  ctx.fillStyle=P.hair; ctx.fillRect(M,74,W-2*M,1.5);
+
+  // race title, one line if it fits at a readable size, else two
+  const T=title(r); let ty=132, s=fit(ctx,T,'head',54,36,W-2*M);
+  ctx.fillStyle=P.ink;
+  if(ctx.measureText(T).width>W-2*M){
+    ctx.font=font('head',38); const ls=wrap(ctx,T,W-2*M).slice(0,2);
+    ctx.fillText(ls[0],M,118); ctx.fillText(clip(ctx,ls[1]||'',W-2*M),M,160); ty=160;
+  } else ctx.fillText(T,M,ty);
+
+  // status pill and where
+  const st=status(r,call).toUpperCase();
+  ctx.font=font('xbold',17); spacing(ctx,1.6);
+  const pw=ctx.measureText(st).width+28, py=ty+22;
+  const called=call.sel.length>0;
+  rrect(ctx,M,py,pw,34,17);
+  if(called){ ctx.fillStyle=P.pill; ctx.fill(); ctx.fillStyle=P.pillfg; }
+  else { ctx.strokeStyle=P.ink2; ctx.lineWidth=1.5; ctx.stroke(); ctx.fillStyle=P.ink2; }
+  ctx.fillText(st,M+14,py+23); spacing(ctx,0);
+  let sub=where(r); if(r.el>1) sub+=` · elect ${r.el}`;
+  if(call.src&&called) sub+=` · Call: ${call.src}`;
+  ctx.font=font('semi',18); ctx.fillStyle=P.ink2;
+  ctx.fillText(clip(ctx,sub,W-2*M-pw-20),M+pw+18,py+24);
+
+  // the table
+  const {rows,more}=rowsFor(r,call);
+  const hasPct=Object.keys(call.pct).length>0;
+  const colAir=W-M, colSpent=colAir-170, colRaised=colSpent-150, colPct=colRaised-150;
+  const nameW=(hasPct?colPct-100:colRaised-130)-M-24;
+  const top=py+76;
+  ctx.font=font('monob',13); ctx.fillStyle=P.muted; spacing(ctx,1.4); ctx.textAlign='right';
+  if(hasPct) ctx.fillText('VOTE',colPct,top);
+  ctx.fillText('RAISED',colRaised,top); ctx.fillText('SPENT',colSpent,top); ctx.fillText('ON THE AIR',colAir,top);
+  spacing(ctx,0); ctx.textAlign='left';
+  ctx.fillStyle=P.hair; ctx.fillRect(M,top+10,W-2*M,1);
+
+  const story_=story(r,call);
+  const bottom=story_?H-136:H-74;
+  const rh=Math.min(rows.length<=3?96:64,(bottom-(top+14)-(more?26:0))/Math.max(rows.length,1));
+  const big=rh>70;
+  const sel=new Set(call.sel);
+  const topSp=Math.max(0,...r.c.map(c=>c.s||0));
+  rows.forEach((i,n)=>{
+    const c=r.c[i], y=top+14+n*rh, mid=y+rh/2;
+    const dim=called&&!sel.has(i);
+    ctx.fillStyle=partyColor(P,c.p); ctx.globalAlpha=dim?.45:1;
+    ctx.fillRect(M,mid-rh*0.32,6,rh*0.64);
+    ctx.globalAlpha=1;
+    // name, party, badge
+    const nm=c.n, pl=PL[c.p]?` ${PL[c.p]}`:'';
+    let ns=fit(ctx,nm,'bold',Math.min(big?42:32,rh*0.5),20,nameW-60);
+    ctx.fillStyle=dim?P.muted:P.ink;
+    const shown=clip(ctx,nm,nameW-60);
+    ctx.fillText(shown,M+22,mid+ns*0.36);
+    let x=M+22+ctx.measureText(shown).width;
+    if(pl){ ctx.font=font('monob',Math.round(ns*0.6)); ctx.fillStyle=dim?P.muted:partyColor(P,c.p); ctx.fillText(pl,x+4,mid+ns*0.36); x+=ctx.measureText(pl).width+4; }
+    if(sel.has(i)){
+      const lab=call.mode==='runoff'?'RUNOFF':call.mode==='lead'?'LEADS':'✓';
+      ctx.font=font('xbold',14); spacing(ctx,1.2);
+      const bw=lab==='✓'?30:ctx.measureText(lab).width+18;
+      rrect(ctx,x+12,mid-15,bw,30,15); ctx.fillStyle=P.pill; ctx.fill();
+      ctx.fillStyle=P.pillfg; ctx.textAlign='center';
+      ctx.font=lab==='✓'?font('head',17):font('xbold',14);
+      ctx.fillText(lab,x+12+bw/2,mid+5.5); ctx.textAlign='left'; spacing(ctx,0);
+    }
+    // numbers
+    ctx.textAlign='right';
+    if(hasPct){
+      const v=call.pct[i]; ctx.font=font('xbold',big?40:30); ctx.fillStyle=dim?P.muted:P.ink;
+      ctx.fillText(v!=null&&v!==''?(+v).toFixed(v%1?1:0)+'%':'',colPct,mid+(big?14:10));
+    }
+    ctx.font=font('mono',big?28:24); ctx.fillStyle=dim?P.muted:P.ink2;
+    ctx.fillText(money(c.r),colRaised,mid+8);
+    ctx.font=font(c.s&&c.s===topSp&&r.c.filter(x=>x.s).length>1?'monob':'mono',big?28:24);
+    ctx.fillStyle=dim?P.muted:(c.s===topSp&&c.s?P.ink:P.ink2);
+    ctx.fillText(money(c.s),colSpent,mid+8);
+    const a=airText(c);
+    ctx.font=font('mono',a[0].includes('order')?(big?22:19):(big?28:24)); ctx.fillStyle=dim?P.muted:P.ink2;
+    ctx.fillText(a[0],colAir,mid+(a[1]?2:8));
+    if(a[1]){ ctx.font=font('semi',12); ctx.fillStyle=P.muted; ctx.fillText(a[1],colAir,mid+20); }
+    ctx.textAlign='left';
+    if(n<rows.length-1){ ctx.fillStyle=P.hair; ctx.fillRect(M+22,y+rh,W-2*M-22,1); }
+  });
+  if(more){
+    ctx.font=font('semi',16); ctx.fillStyle=P.muted;
+    ctx.fillText(`+ ${more} more candidate${more>1?'s':''}`,M+22,top+14+rows.length*rh+20);
+  }
+
+  // the takeaway
+  if(story_){
+    ctx.font=font('semi',22);
+    let ls=wrap(ctx,story_,W-2*M-44);
+    if(ls.length>2){ ctx.font=font('semi',19); ls=wrap(ctx,story_,W-2*M-44); }
+    ls=ls.slice(0,2);
+    const sh=ls.length>1?78:52, sy=H-58-sh;
+    rrect(ctx,M,sy,W-2*M,sh,8); ctx.fillStyle=P.sbg; ctx.fill();
+    ctx.fillStyle=P.sfg;
+    ls.forEach((l,k)=>ctx.fillText(l,M+22,sy+(ls.length>1?32+k*28:34)));
+  }
+
+  // source line
+  ctx.font=font('semi',13.5); ctx.fillStyle=P.muted;
+  const fed=r.t==='Federal';
+  const src=`Money: ${fed?'FEC reports':'La. campaign finance reports'}, ${fed?'2025–26':'2024–27'} cycle · On the air: stations' FCC political files`;
+  ctx.fillText(clip(ctx,src,W-2*M-300),M,H-26);
+  ctx.textAlign='right'; ctx.fillStyle=P.ink2; ctx.font=font('bold',13.5);
+  ctx.fillText('airwaves.charliestephens.xyz',W-M,H-26); ctx.textAlign='left';
+}
+
+function scoreDark(){ try{ return localStorage.getItem('desk-score-dark')==='1'; }catch(e){ return false; } }
+/* scorecard: every race you've called a winner in, against its spending */
+function scoreRows(){
+  const e=election(), out=[];
+  for(const r of e.races){
+    const c=calls()[r.id]; if(!c||c.mode!=='win'||!c.sel.length||r.el>1) continue;
+    const sp=r.c.filter(x=>x.s>0).sort((a,b)=>b.s-a.s); if(sp.length<2) continue;
+    const w=r.c[c.sel[0]]; if(!w) continue;
+    out.push({r,w,lead:sp[0],won:w===sp[0]});
+  }
+  return out.sort((a,b)=>b.r.wt-a.r.wt);
+}
+function drawScore(canvas,dark,e){
+  const P=dark?PAL.dark:PAL.light, rows=scoreRows();
+  canvas.width=W*SCALE; canvas.height=H*SCALE;
+  const ctx=canvas.getContext('2d'); ctx.setTransform(SCALE,0,0,SCALE,0,0);
+  ctx.fillStyle=P.bg; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle=P.ink2; ctx.font=font('bold',16); spacing(ctx,2.4);
+  ctx.fillText(('Louisiana · '+dlong(e.d)).toUpperCase(),M,58);
+  ctx.textAlign='right'; ctx.fillStyle=P.ink; ctx.font=font('head',16); ctx.fillText('LOUISIANA AIRWAVES',W-M,58);
+  spacing(ctx,0); ctx.textAlign='left'; ctx.fillStyle=P.hair; ctx.fillRect(M,74,W-2*M,1.5);
+  const k=rows.filter(x=>x.won).length;
+  ctx.fillStyle=P.ink; ctx.font=font('head',50);
+  ctx.fillText(rows.length?`The bigger spender won ${k} of ${rows.length}`:'No races called yet',M,134);
+  ctx.font=font('semi',19); ctx.fillStyle=P.ink2;
+  ctx.fillText('Races called so far with at least two candidates reporting spending',M,168);
+  const show=rows.slice(0,8), rh=Math.min(50,(H-130-200)/Math.max(show.length,1));
+  ctx.font=font('monob',13); ctx.fillStyle=P.muted; spacing(ctx,1.4);
+  ctx.fillText('RACE',M,212); ctx.fillText('WINNER',M+520,212);
+  ctx.textAlign='right'; ctx.fillText('TOP SPENDER',W-M,212); ctx.textAlign='left'; spacing(ctx,0);
+  ctx.fillStyle=P.hair; ctx.fillRect(M,222,W-2*M,1);
+  show.forEach((x,n)=>{
+    const y=222+n*rh+rh/2+8;
+    ctx.font=font('bold',21); ctx.fillStyle=P.ink; ctx.fillText(clip(ctx,title(x.r)+(x.r.pa&&!title(x.r).includes(x.r.pa)?', '+x.r.pa:''),500),M,y);
+    ctx.fillStyle=partyColor(P,x.w.p); ctx.fillRect(M+520,y-15,5,20);
+    ctx.font=font('semi',21); ctx.fillStyle=P.ink; ctx.fillText(clip(ctx,x.w.n,300),M+534,y);
+    ctx.textAlign='right'; ctx.font=font('mono',19); ctx.fillStyle=x.won?P.ink:P.ink2;
+    ctx.fillText(x.won?`✓ won · ${money(x.lead.s)}`:`lost · ${short(x.lead)} ${money(x.lead.s)}`,W-M,y);
+    ctx.textAlign='left';
+  });
+  if(rows.length>show.length){ ctx.font=font('semi',16); ctx.fillStyle=P.muted; ctx.fillText(`+ ${rows.length-show.length} more`,M,222+show.length*rh+30); }
+  ctx.font=font('semi',13.5); ctx.fillStyle=P.muted;
+  ctx.fillText('Spending: La. campaign finance and FEC reports · Calls as marked on the night',M,H-26);
+  ctx.textAlign='right'; ctx.fillStyle=P.ink2; ctx.font=font('bold',13.5); ctx.fillText('airwaves.charliestephens.xyz',W-M,H-26); ctx.textAlign='left';
+}
+
+/* ---------- page ---------- */
+const FONTS=Promise.all(['900 54px Archivo','800 17px Archivo','700 32px Archivo','600 22px Archivo',
+  '500 24px "IBM Plex Mono"','600 24px "IBM Plex Mono"'].map(f=>document.fonts?document.fonts.load(f).catch(()=>{}):null))
+  .then(()=>document.fonts&&document.fonts.ready);
+let BLOB=null, FILE='card.png';
+function toast(t){ const el=$('toast'); el.textContent=t; el.classList.add('on'); clearTimeout(toast.t); toast.t=setTimeout(()=>el.classList.remove('on'),1800); }
+
+function races(){
+  const e=election(); if(!e) return [];
+  const q=S.q.trim().toLowerCase();
+  const kind=KINDS.find(k=>k[0]===S.kind);
+  let rs=e.races;
+  if(q) rs=rs.filter(r=>(r.o+' '+(r.pa||'')+' '+r.c.map(c=>c.n).join(' ')).toLowerCase().includes(q));
+  else if(kind[2]) rs=rs.filter(kind[2]);
+  return rs;
+}
+function renderList(){
+  const rs=races(), all=calls();
+  $('count').textContent=`${rs.length.toLocaleString('en-US')} race${rs.length===1?'':'s'}${S.q?' matching':''}, most money first`;
+  $('list').innerHTML=rs.slice(0,S.shown).map(r=>{
+    const top=[...r.c].sort((a,b)=>(b.s||0)-(a.s||0)).slice(0,2).filter(c=>c.s).map(c=>`${short(c)} ${money(c.s)}`).join(' · ');
+    return `<li><button type="button" data-r="${esc(r.id)}"${S.r===r.id?' aria-current="true"':''}><b>${esc(title(r))}${called(r.id)?'<span class="done">CALLED</span>':''}</b><span class="sub">${esc(where(r))} · ${r.c.length} candidates${top?' · '+esc(top):''}</span></button></li>`;
+  }).join('');
+  $('more').hidden=rs.length<=S.shown;
+  $('kinds').innerHTML=KINDS.map(k=>`<button type="button" data-k="${k[0]}" aria-pressed="${!S.q&&S.kind===k[0]}">${k[1]}${k[0]==='done'?` (${Object.keys(all).filter(called).length})`:''}</button>`).join('');
+}
+
+function renderEdit(){
+  const e=election(), box=$('edit');
+  if(S.r==='__score'){ return renderScore(); }
+  const r=e&&e.races.find(x=>x.id===S.r);
+  if(!r){
+    box.innerHTML=`<p class="empty">Pick a race to make its card.</p>
+      <div class="acts"><button type="button" id="score">Scorecard of the night</button></div>`;
+    return;
+  }
+  const call=callOf(r);
+  const maxSel=call.mode==='runoff'?2:call.mode==='win'?r.el:1;
+  box.innerHTML=`<h2>${esc(title(r))}</h2>
+    <div class="where">${esc(where(r))}${r.el>1?` · elect ${r.el}`:''}${r.og?` · ${r.og} outside group${r.og>1?'s':''} on the air`:''}</div>
+    <div class="modes" role="group" aria-label="What happened">
+      ${[['win','Winner'],['runoff','Runoff'],['lead','Leading']].map(([m,l])=>`<button type="button" data-m="${m}" aria-pressed="${call.mode===m}">${l}</button>`).join('')}
+    </div>
+    <p class="hint">${call.mode==='runoff'?'Tap the two candidates in the runoff.':call.mode==='win'?(r.el>1?`Tap the ${r.el} winners.`:'Tap the winner.'):'Tap the candidate leading.'} Vote shares are optional.</p>
+    <ol class="cands">${r.c.map((c,i)=>{
+      const on=call.sel.includes(i);
+      const m=[c.r?'raised '+money(c.r):'',c.s?'spent '+money(c.s):'',c.a||c.ad?'air '+airText(c)[0]:''].filter(Boolean).join(' · ')||'no money on file';
+      return `<li><button type="button" class="who" data-i="${i}" aria-pressed="${on}"><span class="tick">${on?'✓':''}</span><span style="min-width:0"><span class="nm">${esc(c.n)} ${PL[c.p]?`<span class="ptag ${c.p}">${PL[c.p]}</span>`:''}</span><span class="mn">${esc(m)}</span></span></button>
+        <input type="text" inputmode="decimal" data-p="${i}" value="${call.pct[i]??''}" placeholder="%" aria-label="${esc(c.n)} vote share"></li>`;
+    }).join('')}</ol>
+    <div class="fields">
+      <label>Called by <input type="text" id="src" value="${esc(call.src)}" placeholder="e.g. AP, Secretary of State"></label>
+      <label>Label on the card <input type="text" id="lbl" value="${esc(call.lbl)}" placeholder="${esc(status(r,{...call,lbl:''}))}"></label>
+      <div class="row"><label><input type="checkbox" id="dark"${call.dark?' checked':''}> Dark card</label>
+        <button type="button" class="more" id="clear">Clear this call</button></div>
+    </div>
+    <div class="preview"><canvas id="cv" width="${W}" height="${H}" role="img" aria-label="Result card preview"></canvas></div>
+    <div class="acts">
+      <button type="button" class="go" id="share">Share image</button>
+      <button type="button" id="dl">Download PNG</button>
+      <button type="button" id="copy">Copy caption</button>
+      <button type="button" id="score">Scorecard of the night</button>
+    </div>
+    <div class="caphead"><b>Caption</b><span id="capnote">${call.cap?'edited · <button type="button" class="more" id="recap">reset</button>':'written from the card'}</span></div>
+    <textarea id="cap" aria-label="Caption">${esc(call.cap||caption(r,call))}</textarea>`;
+  box.dataset.max=maxSel;
+  paint(r,call);
+}
+function renderScore(){
+  const box=$('edit'), e=election(), dark=scoreDark();
+  const rows=scoreRows();
+  box.innerHTML=`<h2>Scorecard of the night</h2>
+    <div class="where">Every race you've called a single winner in, where at least two candidates reported spending.</div>
+    <div class="fields"><div class="row"><label><input type="checkbox" id="sdark"${dark?' checked':''}> Dark card</label>
+      <button type="button" class="more" id="back">Back to races</button></div></div>
+    <div class="preview"><canvas id="cv" width="${W}" height="${H}" role="img" aria-label="Scorecard preview"></canvas></div>
+    <div class="acts"><button type="button" class="go" id="share">Share image</button><button type="button" id="dl">Download PNG</button><button type="button" id="copy">Copy caption</button></div>
+    <textarea id="cap" aria-label="Caption">${esc(rows.length?`Louisiana tonight: the bigger spender won ${rows.filter(x=>x.won).length} of ${rows.length} races called so far.\n\nhttps://airwaves.charliestephens.xyz/races.html`:'')}</textarea>`;
+  FONTS.then(()=>{ drawScore($('cv'),dark,e); FILE=`la-scorecard-${e.d}.png`; snap(); });
+}
+function paint(r,call){
+  FONTS.then(()=>{
+    const cv=$('cv'); if(!cv) return;
+    drawCard(cv,r,call,election());
+    FILE=`la-${title(r).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60)}.png`;
+    snap();
+  });
+}
+function snap(){ BLOB=null; const cv=$('cv'); if(cv) cv.toBlob(b=>{BLOB=b;},'image/png'); }
+
+function update(mut){
+  const r=election().races.find(x=>x.id===S.r), call=callOf(r);
+  mut(call, r);
+  saveCall(r.id,call);
+  if(!call.cap) $('cap').value=caption(r,call);
+  paint(r,call); renderList();
+  return call;
+}
+
+document.addEventListener('click',ev=>{
+  const t=ev.target.closest('button'); if(!t) return;
+  if(t.dataset.r!=null){ S.r=t.dataset.r; renderList(); renderEdit(); writeHash();
+    if(matchMedia('(max-width:900px)').matches) $('edit').scrollIntoView({behavior:'smooth',block:'start'}); return; }
+  if(t.dataset.k){ S.kind=t.dataset.k; S.q=''; $('q').value=''; S.shown=PAGE; renderList(); return; }
+  if(t.dataset.e){ S.e=t.dataset.e; CALLS=null; S.r=null; renderElex(); renderList(); renderEdit(); writeHash(); return; }
+  if(t.id==='more'){ S.shown+=PAGE; renderList(); return; }
+  if(t.dataset.m){ update((c,r)=>{ c.mode=t.dataset.m; const mx=c.mode==='runoff'?2:c.mode==='win'?r.el:1; c.sel=c.sel.slice(0,mx); }); renderEdit(); return; }
+  if(t.dataset.i!=null){
+    const i=+t.dataset.i;
+    update((c,r)=>{
+      const mx=c.mode==='runoff'?2:c.mode==='win'?r.el:1;
+      if(c.sel.includes(i)) c.sel=c.sel.filter(x=>x!==i);
+      else { c.sel.push(i); if(c.sel.length>mx) c.sel.shift(); }
+    });
+    renderEdit(); return;
+  }
+  if(t.id==='clear'){ const r=election().races.find(x=>x.id===S.r); saveCall(r.id,null); renderList(); renderEdit(); return; }
+  if(t.id==='recap'){ update(c=>{ c.cap=''; }); renderEdit(); return; }
+  if(t.id==='score'){ S.r='__score'; renderList(); renderEdit(); return; }
+  if(t.id==='back'){ S.r=null; renderEdit(); return; }
+  if(t.id==='dl'){ download(); return; }
+  if(t.id==='copy'){ copy($('cap').value).then(ok=>toast(ok?'Caption copied':'Select the caption and copy it')); return; }
+  if(t.id==='share'){ share(); return; }
+});
+document.addEventListener('input',ev=>{
+  const t=ev.target;
+  if(t.id==='q'){ S.q=t.value; S.shown=PAGE; renderList(); return; }
+  if(!S.r||S.r==='__score') return;
+  if(t.dataset.p!=null){
+    const v=t.value.replace(/[^0-9.]/g,'');
+    update(c=>{ if(v==='') delete c.pct[t.dataset.p]; else c.pct[t.dataset.p]=+v; });
+  }
+  if(t.id==='src') update(c=>{ c.src=t.value.trim(); });
+  if(t.id==='lbl') update(c=>{ c.lbl=t.value.trim(); });
+  if(t.id==='cap'){
+    const r=election().races.find(x=>x.id===S.r), c=callOf(r);
+    c.cap=t.value===caption(r,c)?'':t.value; saveCall(r.id,c);
+    $('capnote').innerHTML=c.cap?'edited · <button type="button" class="more" id="recap">reset</button>':'written from the card';
+  }
+});
+document.addEventListener('change',ev=>{
+  const t=ev.target;
+  if(t.id==='dark') update(c=>{ c.dark=t.checked; });
+  if(t.id==='sdark'){ try{localStorage.setItem('desk-score-dark',t.checked?'1':'');}catch(e){} renderScore(); }
+});
+
+function download(){
+  const go=b=>{ const a=document.createElement('a'); a.href=URL.createObjectURL(b); a.download=FILE; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),4000); };
+  if(BLOB) go(BLOB); else $('cv').toBlob(go,'image/png');
+}
+async function copy(t){
+  try{ await navigator.clipboard.writeText(t); return true; }catch(e){ const ta=$('cap'); ta.select(); try{ return document.execCommand('copy'); }catch(_){ return false; } }
+}
+function share(){
+  // The image is drawn ahead of the tap, so the share sheet opens inside it.
+  if(!BLOB){ toast('One moment — still drawing'); snap(); return; }
+  const file=new File([BLOB],FILE,{type:'image/png'}), text=$('cap').value;
+  copy(text);
+  if(navigator.canShare&&navigator.canShare({files:[file]})){
+    navigator.share({files:[file],text}).catch(err=>{ if(err.name!=='AbortError') download(); });
+    toast('Caption copied too — paste it if the app drops it');
+  } else { download(); toast('Downloaded · caption copied'); }
+}
+
+function renderElex(){
+  const el=$('elex');
+  el.hidden=DESK.elections.length<2;
+  el.innerHTML=DESK.elections.map(e=>`<button type="button" data-e="${e.d}" aria-pressed="${e.d===S.e}">${dshort(e.d)}</button>`).join('');
+}
+function readHash(){
+  const h=new URLSearchParams(location.hash.slice(1));
+  const es=DESK.elections.map(e=>e.d);
+  S.e=es.includes(h.get('e'))?h.get('e'):(es.find(d=>d>=DESK.today)||es[es.length-1]||null);
+  S.r=h.get('r')||null;
+}
+function writeHash(){
+  const h=new URLSearchParams();
+  if(S.e!==(DESK.elections.map(e=>e.d).find(d=>d>=DESK.today)||null)) h.set('e',S.e);
+  if(S.r&&S.r!=='__score') h.set('r',S.r);
+  history.replaceState(null,'',h.toString()?'#'+h:location.pathname+location.search);
+}
+
+readHash();
+if(DESK.fecFetched) $('asof2').textContent=` · FEC through ${dshort(DESK.fecFetched.slice(0,10))}`+(DESK.fccScraped?` · political files through ${dshort(DESK.fccScraped.slice(0,10))}`:'');
+if(!DESK.elections.length){
+  $('edit').innerHTML='<p class="empty">No ballot is posted for a coming election yet.</p>';
+} else { renderElex(); renderList(); renderEdit(); }
+</script>
