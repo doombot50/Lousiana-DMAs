@@ -2,7 +2,7 @@
  "generated": "2026-11-20",
  "data_through": "2026-11-20",
  "cycle_from": 2023,
- "documents_read": 7616,
+ "documents_read": 7621,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1657,7 +1657,7 @@
    "name": "MEDIUM BUYING",
    "found_by": "political file",
    "fcc": {
-    "docs": 54,
+    "docs": 55,
     "priced": 16,
     "usd": 688325,
     "stations": [
@@ -1673,7 +1673,7 @@
      "Club for Growth"
     ],
     "first": "2026-09-18",
-    "last": "2026-11-06",
+    "last": "2026-11-20",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -7669,6 +7669,94 @@
    }
   },
   {
+   "key": "FLEXPOINTMEDIA",
+   "name": "FlexPoint Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 45,
+    "priced": 18,
+    "usd": 41675,
+    "stations": [
+     "003478",
+     "KALB",
+     "KARD",
+     "KLAX",
+     "KLFY",
+     "KMSS",
+     "KNOE",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KXKS",
+     "WNOL",
+     "WNTZ"
+    ],
+    "clients": [
+     "Firment for Congress",
+     "Michael Gabriel Firment/Congress/LA/Rep",
+     "Americans for Open Government",
+     "Strong ND Fund",
+     "AFC Victory Fund",
+     "Fimentfor Congress"
+    ],
+    "first": "2026-02-24",
+    "last": "2026-11-20",
+    "away": {
+     "docs": 55,
+     "usd": 3322946,
+     "clients": [
+      "Texas PAC",
+      "Californians For Voter",
+      "FRAPS gos ae Site Mandel by dave taller",
+      "SOriginal Date 7 Revision",
+      "Firaiteds Sy fNameSure handel by doyeetille",
+      "FlowPont Meds Lae Sure hounded byd Joyeetillerr"
+     ]
+    }
+   },
+   "paid": {
+    "total": 7756209,
+    "media": 3388477,
+    "rows": 39,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 7756209
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "4383",
+      "n": "Edward L. Rispone",
+      "p": "REP",
+      "usd": 7640459,
+      "cycle": 0
+     },
+     {
+      "f": "4927",
+      "n": "Republican State Leadership Committee - Louisiana",
+      "p": "OTH",
+      "usd": 97012,
+      "cycle": 0
+     },
+     {
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 18739,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FLEXPOINT MEDIA INC",
+     "FLEXPOINT MEDIA INC."
+    ]
+   }
+  },
+  {
    "key": "MARKETINGBLITZAD",
    "name": "Marketing Blitz Ad Group",
    "found_by": "political file",
@@ -8171,101 +8259,13 @@
    }
   },
   {
-   "key": "FLEXPOINTMEDIA",
-   "name": "FlexPoint Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 43,
-    "priced": 16,
-    "usd": 32940,
-    "stations": [
-     "003478",
-     "KALB",
-     "KARD",
-     "KLAX",
-     "KLFY",
-     "KMSS",
-     "KNOE",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "KXKS",
-     "WNOL",
-     "WNTZ"
-    ],
-    "clients": [
-     "Firment for Congress",
-     "Michael Gabriel Firment/Congres",
-     "Americans for Open Government",
-     "Strong ND Fund",
-     "AFC Victory Fund",
-     "Fimentfor Congress"
-    ],
-    "first": "2026-02-24",
-    "last": "2026-11-13",
-    "away": {
-     "docs": 55,
-     "usd": 3322946,
-     "clients": [
-      "Texas PAC",
-      "Californians For Voter",
-      "FRAPS gos ae Site Mandel by dave taller",
-      "SOriginal Date 7 Revision",
-      "Firaiteds Sy fNameSure handel by doyeetille",
-      "FlowPont Meds Lae Sure hounded byd Joyeetillerr"
-     ]
-    }
-   },
-   "paid": {
-    "total": 7756209,
-    "media": 3388477,
-    "rows": 39,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 7756209
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "4383",
-      "n": "Edward L. Rispone",
-      "p": "REP",
-      "usd": 7640459,
-      "cycle": 0
-     },
-     {
-      "f": "4927",
-      "n": "Republican State Leadership Committee - Louisiana",
-      "p": "OTH",
-      "usd": 97012,
-      "cycle": 0
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 18739,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FLEXPOINT MEDIA INC",
-     "FLEXPOINT MEDIA INC."
-    ]
-   }
-  },
-  {
    "key": "QUESTCOMMUNICATIONCONSULT",
    "name": "Quest Communication Consultants",
    "found_by": "political file",
    "fcc": {
-    "docs": 27,
-    "priced": 27,
-    "usd": 31225,
+    "docs": 29,
+    "priced": 29,
+    "usd": 32763,
     "stations": [
      "KARD",
      "KNOE",
@@ -8283,7 +8283,7 @@
      "Jim Clovin/District Attorney/LA/Independent"
     ],
     "first": "2026-07-29",
-    "last": "2026-11-13",
+    "last": "2026-11-20",
     "away": {
      "docs": 0,
      "usd": 0,

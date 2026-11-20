@@ -37195,6 +37195,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T02:21:20Z"
   },
+  "38bf0b91-9528-4198-a0f6-35a3438fe334": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 4485.0,
+   "net": 3812.25,
+   "agency": "Flexpoint Campaigns",
+   "advertiser": "POL/Michael Gabriel Firment/Congress/LA/Rep 11/19/26",
+   "order_no": "5467932",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTVE",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment KTVE 11.19.26",
+   "uploaded": "2026-11-20T11:18:51-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-20T19:13:55Z"
+  },
   "38e76d70-984c-444e-a5db-b8773197ca4b": {
    "kind": "order",
    "layout": "other",
@@ -54497,6 +54518,27 @@
    "name_kind": "request",
    "read_at": "2026-10-26T21:50:43Z"
   },
+  "55c3130b-fbca-4bd5-85f7-76e0219852e8": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 998.0,
+   "net": 848.3,
+   "agency": "Quest Communication Consultants",
+   "advertiser": "POL/Mike Smith/City Court Judge/LA/Rep",
+   "order_no": "5467889",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KTVE",
+   "path": "Political Files/2026/Local/Mike Smith",
+   "name": "Mike Smith KTVE 11.20.26",
+   "uploaded": "2026-11-20T11:18:28-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-20T19:13:55Z"
+  },
   "55c7c8c5-e758-4d09-9364-b92409db124d": {
    "kind": "order",
    "layout": "order",
@@ -62880,6 +62922,27 @@
    "uploaded": "2026-03-10T19:23:00-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
+  },
+  "63110354-1d41-457a-96d8-9de222a91618": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 4250.0,
+   "net": 3612.5,
+   "agency": "Flexpoint Campaigns",
+   "advertiser": "POL/Michael Gabriel Firment/Congress/LA/Rep 11/19/26",
+   "order_no": "5467908",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KARD",
+   "path": "Political Files/2026/State/Gabe Firment",
+   "name": "Gabe Firment KARD 11.19.26",
+   "uploaded": "2026-11-20T11:20:09-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-20T19:13:55Z"
   },
   "631d8462-303e-4d9c-9ea4-d81732dcf031": {
    "kind": "request",
@@ -153813,6 +153876,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T00:22:21Z"
   },
+  "ebc362d9-0a3e-4550-9bd2-ca43d0da4378": {
+   "kind": "order",
+   "layout": "contract",
+   "gross": 540.0,
+   "net": 459.0,
+   "agency": "Quest Communication Consultants",
+   "advertiser": "POL/Mike Smith/City Court Judge/LA/Rep",
+   "order_no": "5467899",
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KARD",
+   "path": "Political Files/2026/Local/Mike Smith",
+   "name": "Mike Smith KARD 11.20.26",
+   "uploaded": "2026-11-20T11:19:48-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-20T19:13:55Z"
+  },
   "ebddc932-abd8-49b0-bab3-1018f0e78368": {
    "kind": "request",
    "layout": "nab",
@@ -157070,6 +157154,27 @@
    "uploaded": "2026-04-25T05:50:50-04:00",
    "name_kind": "order",
    "read_at": "2026-10-24T02:30:02Z"
+  },
+  "f0e0422a-c6e6-4da5-a6e4-1051a9f5d3d0": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "MEDIUM BUYING",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WAFB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads/Club for Growth Action/PB19",
+   "name": "Club For Growth -LA Congressional Districct 6 PB19 Enough",
+   "uploaded": "2026-11-20T13:04:03-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-20T19:13:55Z"
   },
   "f0e49b8f-b36d-4e15-ab8f-46093e7dd824": {
    "kind": "invoice",
@@ -166122,6 +166227,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-20T04:13:26Z",
+ "updated": "2026-11-20T19:15:01Z",
  "blocked": null
 }
