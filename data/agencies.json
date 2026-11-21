@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "data_through": "2026-11-20",
  "cycle_from": 2023,
- "documents_read": 7621,
+ "documents_read": 7623,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1969,7 +1969,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 104,
+    "docs": 106,
     "priced": 48,
     "usd": 459568,
     "stations": [
@@ -1991,7 +1991,7 @@
     "clients": [
      "Blake Miguez for Congress",
      "Blake Miguez/US House/LA/Rep",
-     "Miguez for Louisiana",
+     "Blake Miguez for Louisiana",
      "Louisiana Housing Corporation",
      "Blake Miguez US Congress",
      "Alan Seabaugh for Caddo Parish District Attorney",
@@ -1999,7 +1999,7 @@
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-13",
+    "last": "2026-11-20",
     "away": {
      "docs": 126,
      "usd": 615078,

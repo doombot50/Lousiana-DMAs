@@ -13981,6 +13981,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T08:21:30Z"
   },
+  "15bb7445-8080-40a2-84c5-d64030a60e88": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Blake Miguez for Louisiana",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "11/23/26",
+    "11/24/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative, 6th Congressional Dist 11.23-11.24",
+   "uploaded": "2026-11-20T14:30:25-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-21T04:09:43Z"
+  },
   "15ca92a2-6c7c-41f7-b169-bca4063e20c0": {
    "kind": "request",
    "layout": "nab",
@@ -158760,6 +158784,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T15:30:52Z"
   },
+  "f3924cb1-a6c8-4c96-b1f3-05131b8ef78d": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "Electric Symphony Media",
+   "advertiser": "Blake Miguez for Louisiana",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": [
+    "11/21/26",
+    "11/22/26"
+   ],
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "tv",
+   "call": "WBRZ",
+   "path": "Political Files/2026/Federal/US House/Blake Miguez- US Representative 6th Congressional Dist",
+   "name": "Blake Miguez- US Representative, 6th Congressional Dist 11.21-11.22",
+   "uploaded": "2026-11-20T14:30:24-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-21T04:09:43Z"
+  },
   "f3999f04-b5a5-440b-affd-7a00c6157b99": {
    "kind": "order",
    "layout": "contract",
@@ -166227,6 +166275,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-20T19:15:01Z",
+ "updated": "2026-11-21T04:10:52Z",
  "blocked": null
 }
