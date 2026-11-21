@@ -17349,6 +17349,30 @@
    "name_kind": "order",
    "read_at": "2026-10-22T01:53:37Z"
   },
+  "1a69586b-ead5-48a0-99f5-6ec670fbce50": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7740.0,
+   "net": 6579.0,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4589468",
+   "invoice_no": "4589468-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Updated Invoice KVHP 10.12 - 10.18",
+   "uploaded": "2026-11-20T21:57:43-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
+  },
   "1a6b32d3-9f72-42ce-996f-b3b4159cdf0a": {
    "kind": "order",
    "layout": "other",
@@ -60453,6 +60477,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T14:53:59Z"
   },
+  "5f382f1a-334e-4442-bd11-eec04767bd4a": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 11090.0,
+   "net": 9426.5,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4600779",
+   "invoice_no": "4600779-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice MVHP 10.19 - 10.25 Est. 9698",
+   "uploaded": "2026-11-20T22:45:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
+  },
   "5f42cb18-034e-4d2e-87c5-d8683a451713": {
    "kind": "other",
    "layout": "other",
@@ -69948,6 +69996,30 @@
    "uploaded": "2026-11-06T10:47:49-05:00",
    "name_kind": "invoice",
    "read_at": "2026-11-08T17:07:59Z"
+  },
+  "6de56cd4-6a1a-48f6-bf1c-99c2855c9d68": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1425.0,
+   "net": 1211.25,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4589577",
+   "invoice_no": "4589577-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice MVHP 10.12 - 10.18",
+   "uploaded": "2026-11-20T22:45:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
   },
   "6de5f80b-219a-4713-99bb-2f2aa3026e87": {
    "kind": "request",
@@ -101819,6 +101891,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T07:05:00Z"
   },
+  "9d55410c-4242-45d1-a7d1-dcb6ddadb225": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 7320.0,
+   "net": 6222.0,
+   "agency": "Del Cielo Media",
+   "advertiser": "Accountability Project, Inc",
+   "order_no": "4613438",
+   "invoice_no": "4613438-1",
+   "flight": [
+    "10/30/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "Accountability Project Inc MVHP Invoice 10.30 - 11.03",
+   "uploaded": "2026-11-20T22:42:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
+  },
   "9d5ce849-6a24-4cfb-8019-c2b3dbaab4de": {
    "kind": "invoice",
    "layout": "invoice",
@@ -103504,6 +103600,30 @@
    "uploaded": "2026-08-10T11:13:00-04:00",
    "name_kind": "invoice",
    "read_at": "2026-10-26T15:59:01Z"
+  },
+  "9f9a38be-b26a-4fab-9986-56e8318ea206": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 21405.0,
+   "net": 18194.25,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4588834",
+   "invoice_no": "4588834-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KPLC",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice 10.26 - 11.03",
+   "uploaded": "2026-11-20T21:40:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
   },
   "9fb484ed-fcbd-4f14-aab8-edcaffa764ff": {
    "kind": "order",
@@ -112507,6 +112627,30 @@
    "uploaded": "2026-07-15T11:41:30-04:00",
    "name_kind": "other",
    "read_at": "2026-10-24T15:11:16Z"
+  },
+  "ad7d83af-a526-46ce-8893-f6a00841483e": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 11130.0,
+   "net": 9460.5,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4580497",
+   "invoice_no": "4580497-1",
+   "flight": [
+    "10/05/26",
+    "10/11/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice MVHP 10.05 - 10.11",
+   "uploaded": "2026-11-20T22:45:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
   },
   "ad8ab5fb-200a-4866-9d73-5bf7d80f434a": {
    "kind": "order",
@@ -135827,6 +135971,30 @@
    "name_kind": "invoice",
    "read_at": "2026-10-27T20:04:19Z"
   },
+  "cfa0c964-c6c0-4c8f-988f-59969d9d80b9": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 17570.0,
+   "net": 14934.5,
+   "agency": "Del Cielo Media",
+   "advertiser": "Accountability Project, Inc",
+   "order_no": "4611048",
+   "invoice_no": "4611048-1",
+   "flight": [
+    "10/28/26",
+    "11/03/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "Accountability Project Inc MVHP Invoice 10.28 - 11.03",
+   "uploaded": "2026-11-20T22:42:33-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
+  },
   "cfa69bce-5895-4863-862b-e769fe494a63": {
    "kind": "request",
    "layout": "nab",
@@ -144003,6 +144171,30 @@
    "name_kind": "invoice",
    "read_at": "2026-11-05T18:50:41Z"
   },
+  "db472f99-aa4b-432f-b0f4-81353ccbe9f4": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 5390.0,
+   "net": 4581.5,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4580650",
+   "invoice_no": "4580650-1",
+   "flight": [
+    "09/28/26",
+    "10/04/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice MVHP 9.28 - 10.04",
+   "uploaded": "2026-11-20T22:45:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
+  },
   "db48d6c3-4c23-4f05-ab95-46d04c01743b": {
    "kind": "other",
    "layout": "other",
@@ -146381,6 +146573,30 @@
    "uploaded": "2026-09-28T15:06:17-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T01:31:19Z"
+  },
+  "df749106-217a-42fd-bcb0-3a754410c4db": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 24255.0,
+   "net": 20616.75,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4588797",
+   "invoice_no": "4588797-1",
+   "flight": [
+    "10/12/26",
+    "10/18/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KPLC",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson UPDATED Invoice 10.12 - 10.18",
+   "uploaded": "2026-11-20T21:40:24-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
   },
   "df81e1e0-b117-45f3-8165-4c1e1f3541a2": {
    "kind": "request",
@@ -149812,6 +150028,30 @@
    "uploaded": "2026-04-23T16:52:34-04:00",
    "name_kind": "other",
    "read_at": "2026-10-26T06:36:51Z"
+  },
+  "e492884f-168c-487d-ab76-fd194f409d60": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1210.0,
+   "net": 1028.5,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4589534",
+   "invoice_no": "4589534-1",
+   "flight": [
+    "10/19/26",
+    "10/25/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice MVHP 10.19 - 10.25",
+   "uploaded": "2026-11-20T22:45:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
   },
   "e499b626-e0d4-45a6-896c-437babcbabfd": {
    "kind": "request",
@@ -164136,6 +164376,30 @@
    "name_kind": "other",
    "read_at": "2026-10-26T03:49:24Z"
   },
+  "fcd83a38-bea8-41d6-8e7a-731b5c7bbd0c": {
+   "kind": "invoice",
+   "layout": "invoice",
+   "gross": 1900.0,
+   "net": 1615.0,
+   "agency": "Media Ad Ventures (MAV)",
+   "advertiser": "Mike Johnson for Louisiana",
+   "order_no": "4589608",
+   "invoice_no": "4589608-1",
+   "flight": [
+    "10/26/26",
+    "11/08/26"
+   ],
+   "reissue": false,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "KVHP",
+   "path": "Political Files/2026/Federal/US House",
+   "name": "Mike Johnson Invoice MVHP 10.26 - 11.03",
+   "uploaded": "2026-11-20T22:45:00-05:00",
+   "name_kind": "invoice",
+   "read_at": "2026-11-21T18:05:16Z"
+  },
   "fcedb912-0290-4cbe-9fed-b98e77bc1029": {
    "kind": "invoice",
    "layout": "invoice",
@@ -166275,6 +166539,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-21T04:10:52Z",
+ "updated": "2026-11-21T18:06:43Z",
  "blocked": null
 }

@@ -2,7 +2,7 @@
  "generated": "2026-11-21",
  "data_through": "2026-11-20",
  "cycle_from": 2023,
- "documents_read": 7623,
+ "documents_read": 7634,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -200,9 +200,9 @@
    "name": "Del Cielo Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 281,
-    "priced": 235,
-    "usd": 4100990,
+    "docs": 283,
+    "priced": 237,
+    "usd": 4125880,
     "stations": [
      "KADN",
      "KARD",
@@ -238,7 +238,7 @@
      "Accountabiilty Project"
     ],
     "first": "2026-01-20",
-    "last": "2026-11-18",
+    "last": "2026-11-20",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -833,9 +833,9 @@
    "name": "Media Ad Ventures",
    "found_by": "political file",
    "fcc": {
-    "docs": 237,
-    "priced": 148,
-    "usd": 1638394,
+    "docs": 246,
+    "priced": 152,
+    "usd": 1673999,
     "stations": [
      "005341",
      "008048",
@@ -884,7 +884,7 @@
      "Steve Scalise/Congress/LA/Rep"
     ],
     "first": "2026-03-09",
-    "last": "2026-11-18",
+    "last": "2026-11-20",
     "away": {
      "docs": 0,
      "usd": 0,
