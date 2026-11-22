@@ -164601,6 +164601,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T22:23:53Z"
   },
+  "fd0e5e78-903f-4347-9058-dd7d1633b6ad": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "FlexPoint Campaigns",
+   "advertiser": "Firment for Congress",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "cable",
+   "call": "003478",
+   "path": "Political Files/2026/Federal/US House/Monroe-El Dorado/AMP - FIRMENT FOR CONGRESS",
+   "name": "731179_NAB_Form_20261120113245",
+   "uploaded": "2026-11-20T16:57:28-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-22T03:25:29Z"
+  },
   "fd1989ff-0a8c-4432-8258-e986eda4e3d8": {
    "kind": "other",
    "layout": "other",
@@ -166539,6 +166560,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-21T18:06:43Z",
+ "updated": "2026-11-22T03:25:29Z",
  "blocked": null
 }
