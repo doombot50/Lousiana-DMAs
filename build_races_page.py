@@ -393,6 +393,15 @@ def ordinal(n):
 
 CHAMBERS = {'house': ('State Representative -- {} Representative District', 'State Representative'),
             'senate': ('State Senator -- {} Senatorial District', 'State Senator')}
+# The 2027 cycle's dates, from the Secretary of State's calendar
+# (sos.la.gov elections-calendar-2027.pdf, revised October 2026). BESE seats
+# now go through closed party primaries in the spring (R.S. 18:410.1 et seq.;
+# U.S. Senate, Supreme Court and PSC too), before the October general; the
+# governor, the other statewide offices and the Legislature stay on the open
+# October primary.
+CAL_2027 = {'qualify': ['2027-08-03', '2027-08-05'], 'primary': '2027-10-09', 'general': '2027-11-20',
+            'bese': {'qualify': ['2027-01-13', '2027-01-15'], 'primary': '2027-04-17', 'second': '2027-05-29'},
+            'source': 'https://www.sos.la.gov/media/byfpyc5f/elections-calendar-2027.pdf', 'revised': '2026-10'}
 LEG = re.compile(r'^State (Representative|Senator) -- (\d+)(?:st|nd|rd|th) (?:Representative|Senatorial) District$')
 
 
@@ -757,6 +766,7 @@ def build(today=None):
                    'rows': coming(F, since, tv, ra, ag.get('by_filer', {}), names.get)},
         'fetched': ballot.get('fetched'),
         'seatCost': seat_costs(fin),
+        'cal': CAL_2027,
         'roster': (lambda r: {'fetched': r.get('fetched'),
                               'tl': {'House': sum(m.get('tl', False) for m in r.get('house', [])),
                                      'Senate': sum(m.get('tl', False) for m in r.get('senate', []))},

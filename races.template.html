@@ -365,6 +365,13 @@ function incLine(c,e){
   if(c.since && c.since<y) t+=`; in the seat since ${c.since}`;
   return t;
 }
+// "August 3–5, 2027"
+const drange=(a,b)=>{ const A=new Date(a+'T12:00'), B=new Date(b+'T12:00');
+  return A.toLocaleDateString('en-US',{month:'long'})+' '+A.getDate()+'–'+(A.getMonth()===B.getMonth()?'':B.toLocaleDateString('en-US',{month:'long'})+' ')+B.getDate()+', '+B.getFullYear(); };
+function calLine(){
+  const C=DATA.cal; if(!C) return '';
+  return ` Qualifying for the October ballot is ${drange(C.qualify[0],C.qualify[1])}. <b>BESE seats go first</b>: closed party primaries on ${dlong(C.bese.primary)} (runoff ${dlong(C.bese.second)}), with qualifying ${drange(C.bese.qualify[0],C.bese.qualify[1])}; the winners meet in the October general. Governor, the other statewide offices and the Legislature stay on the open October primary (<a href="${C.source}">Secretary of State's calendar</a>).`;
+}
 function rosterLine(){
   const R=DATA.roster; if(!R) return '';
   return ` Every House and Senate seat is listed from the Legislature's roster (checked ${dshort(R.fetched)}), including the ones won without a vote in 2023: <b>${R.tl.House} House members and ${R.tl.Senate} senators are term-limited</b>, so those seats will be open${R.vacant.House+R.vacant.Senate?`, and ${R.vacant.House+R.vacant.Senate} ${R.vacant.House+R.vacant.Senate===1?'is':'are'} vacant now`:''}. Other offices won without opposition in 2023 aren't in the Secretary of State's results and may be missing.`;
@@ -513,7 +520,7 @@ function render(jump){
   const nc=rs.reduce((a,r)=>a+r.c.length,0);
   cnt.textContent=`${rs.length.toLocaleString('en-US')} ${e.scaffold?'office':e.runoff?'runoff':'race'}${rs.length===1?'':'s'} · ${nc.toLocaleString('en-US')} ${e.scaffold?'incumbent':'candidate'}${nc===1?'':'s'}`+(rs.length>S.n?` · showing ${S.n}`:'');
   out.innerHTML=(e.runoff?`<p class="empty" style="margin-top:0">The Secretary of State hasn't posted the ${dlong(e.d)} ballot yet. These are the races the ${dlong(e.runoff)} results sent to a runoff, with the candidates who advanced and their votes that day; the cards switch to the posted ballot once it's up.</p>`:'')
-    +(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices up, each with whoever holds it now and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.${rosterLine()} Search <b>open seat</b> to see only those.</p>${seatCost(e)}`:'')
+    +(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices up, each with whoever holds it now and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.${calLine()}${rosterLine()} Search <b>open seat</b> to see only those.</p>${seatCost(e)}`:'')
     +(rs.length?rs.slice(0,S.n).map(r=>card(r,e)).join(''):'<p class="empty">No races match.</p>')
     +(rs.length>S.n?`<button type="button" class="morebtn" id="more">Show ${Math.min(60,rs.length-S.n)} more</button>`:'');
   const mo=document.getElementById('more'); if(mo) mo.addEventListener('click',()=>{S.n+=60; render();});
