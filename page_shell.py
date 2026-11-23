@@ -25,10 +25,11 @@ PAGES = [
     ('races', 'Races', SITE + 'races.html'),
     ('radio', 'Radio', SITE + 'radio.html'),
     ('committees', 'Committees', SITE + 'committees.html'),
+    ('players', 'Outside groups', SITE + 'players.html'),
 ]
 
 NAV_CSS = (
-    '.sitenav{display:flex; gap:2px; padding-top:18px; font-family:Archivo,system-ui,sans-serif;}\n'
+    '.sitenav{display:flex; flex-wrap:wrap; gap:2px; padding-top:18px; font-family:Archivo,system-ui,sans-serif;}\n'
     '.sitenav a{font-size:12.5px; font-weight:600; letter-spacing:.02em; padding:7px 12px; '
     'border-radius:999px; color:var(--ink2); text-decoration:none;}\n'
     '.sitenav a:hover{background:var(--hair); color:var(--ink);}\n'

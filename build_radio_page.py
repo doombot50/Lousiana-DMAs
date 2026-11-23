@@ -107,6 +107,13 @@ def build_data():
                      for s in d['stations']],
         'buyers': [{'name': b['name'], 'party': b['party'], 'amount': b['amount'],
                     'stations': b['stations'], 'mix': b['mix'], 'f': b['filer']} for b in d['top_buyers']],
+        # the format and buyer charts again, one per four-year cycle
+        'cycles': [{'cycle': c['cycle'], 'years': c['years'], 'total': c['total'],
+                    'categories': c['categories'],
+                    'buyers': [{'name': b['name'], 'party': b['party'], 'amount': b['amount'],
+                                'stations': b['stations'], 'mix': b['mix'], 'f': b['filer']}
+                               for b in c['top_buyers']]}
+                   for c in d.get('cycles', []) if c['cycle'] >= 2003],
     }
 
 

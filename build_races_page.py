@@ -390,6 +390,152 @@ def ballot_races(election, fin, tv, ra, pf, used, fec=None):
     return out
 
 
+def ordinal(n):
+    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+CHAMBERS = {'house': ('State Representative -- {} Representative District', 'State Representative'),
+            'senate': ('State Senator -- {} Senatorial District', 'State Senator')}
+# The 2027 cycle's dates, from the Secretary of State's calendar
+# (sos.la.gov elections-calendar-2027.pdf, revised October 2026). BESE seats
+# now go through closed party primaries in the spring (R.S. 18:410.1 et seq.;
+# U.S. Senate, Supreme Court and PSC too), before the October general; the
+# governor, the other statewide offices and the Legislature stay on the open
+# October primary.
+CAL_2027 = {'qualify': ['2027-08-03', '2027-08-05'], 'primary': '2027-10-09', 'general': '2027-11-20',
+            'bese': {'qualify': ['2027-01-13', '2027-01-15'], 'primary': '2027-04-17', 'second': '2027-05-29'},
+            'source': 'https://www.sos.la.gov/media/byfpyc5f/elections-calendar-2027.pdf', 'revised': '2026-10'}
+LEG = re.compile(r'^State (Representative|Senator) -- (\d+)(?:st|nd|rd|th) (?:Representative|Senatorial) District$')
+
+
+def margin(fin, norm, x):
+    """[winner's %, points ahead of the runner-up, 'primary'|'runoff'] for the
+    race this history entry won, or 'unop' if no one else was on that ballot."""
+    office, when = ' '.join(x['office'].split()), x['date']
+    others = [y['vote_pct'] for n, ys in fin.history.items() if n != norm for y in ys
+              if y['date'] == when and ' '.join(y['office'].split()) == office and y.get('vote_pct') is not None]
+    if not others or x.get('vote_pct') is None:
+        return 'unop'
+    return [x['vote_pct'], round(x['vote_pct'] - max(others), 1), 'runoff' if when[:2] in ('11', '12') else 'primary']
+
+
+def same_person(roster_name, hist_name):
+    """Roster 'Jack "Jay" William Gallé, Jr.' vs results 'JAY GALL': the
+    results' surname is one of the roster's name parts (or one starts the
+    other: the results drop accented letters), and one of its given names
+    shares an initial with the roster's."""
+    import unicodedata
+    fold = lambda x: unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode().upper()
+    drop = {'JR', 'SR', 'II', 'III', 'IV'}
+    toks = lambda x: [t for t in re.sub(r'[^A-Z ]', ' ', fold(x).replace('-', ' ')).split() if t not in drop]
+    ra, hb = toks(roster_name), toks(hist_name)
+    if not ra or len(hb) < 2:
+        return False
+    last = hb[-1]
+    sur = any(t == last or (min(len(t), len(last)) >= 4 and (t.startswith(last) or last.startswith(t)))
+              for t in ra)
+    return sur and bool({t[0] for t in hb[:-1]} & {t[0] for t in ra})
+
+
+def legislature(races, roster, fin, tv, ra, pf, used, taken, elected_year):
+    """Make the House and Senate cards whole from the Legislature's roster: add
+    the seats filled without a vote (the results never list them), swap in a
+    member who won a seat since, and mark the seats whose member is
+    term-limited, which will be open in 2027."""
+    by_office = {r['o']: r for r in races}
+    for ch, (fmt, short) in CHAMBERS.items():
+        for m in roster.get(ch, []):
+            office = fmt.format(ordinal(m['d']))
+            r = by_office.get(office)
+            if not r:
+                r = {'id': 'inc:' + office, 'o': office, 'pa': None, 't': 'Legislative',
+                     'k': [], 'el': 1, 'c': []}
+                races.append(r)
+                by_office[office] = r
+            if m.get('vacant'):
+                r['c'], r['vac'], r['open'] = [], True, True
+                continue
+            if not any(same_person(m['name'], c['n']) for c in r['c']):
+                had_winner = bool(r['c'])
+                row = candidate({'name': m['name'], 'party': m['party']}, False, fin, tv, ra, pf, used)
+                row['inc'] = True
+                # Elected without opposition in the regular election, unless the
+                # results show someone else winning it or the roster says the
+                # member was first elected since: then a special election.
+                if had_winner or (m.get('elected') or 0) > elected_year:
+                    row['mg'] = ['sp', m['elected'] if (m.get('elected') or 0) > elected_year else None]
+                elif m.get('elected'):
+                    row['mg'] = 'unop'
+                else:
+                    # not in the results and no year on the term-limit lists:
+                    # unopposed then, or a special election since
+                    row['mg'] = 'unk'
+                if row.get('f'):
+                    taken.add(row['f'])
+                r['c'] = [row]
+            for c in r['c']:
+                c['n'] = m['name']   # the Legislature's spelling, accents and all
+                c['p'] = m['party'] or c['p']
+                if m.get('elected'):
+                    c['since'] = m['elected']
+                if m.get('tl'):
+                    c['tl'] = True
+                    r['open'] = True
+    return races
+
+
+def seat_costs(fin, years=(2019, 2023)):
+    """What a contested legislative seat cost: in each regular election year,
+    the races with two or more candidates, and what the winner (and the top
+    two together) spent over that four-year cycle by their finance reports.
+    'close' is the subset decided by under 10 points or in a runoff. A
+    candidate with no matched filer is left out of the dollars, not counted as
+    zero, and the counts say how many were matched."""
+    import statistics
+    out = {}
+    for y in years:
+        cyc = f'{y - 3}-{y}'
+        races = defaultdict(list)   # (office, primary date) -> [(norm, entry)]
+        final = {}                  # office -> (winner norm, margin, runoff?)
+        for norm, xs in fin.history.items():
+            for x in xs:
+                o = ' '.join(x['office'].split())
+                if not x['date'].endswith(str(y)) or not LEG.match(o) or x.get('party_office'):
+                    continue
+                if x['date'][:2] == '10':
+                    races[o].append((norm, x))
+                if x['outcome'] == 'Elected':
+                    mg = margin(fin, norm, x)
+                    final[o] = (norm, mg if mg == 'unop' else mg[1], x['date'][:2] in ('11', '12'))
+
+        def spent(norm):
+            fn = fin.match(norm.title())
+            return ((fin.index[fn].get('cycles') or {}).get(cyc) or {}).get('spent') if fn else None
+
+        rows = defaultdict(list)
+        for o, cs in races.items():
+            if len(cs) < 2 or o not in final:
+                continue
+            ch = 'House' if o.startswith('State Representative') else 'Senate'
+            w, mg, runoff = final[o]
+            ws = spent(w)
+            top2 = sorted(cs, key=lambda c: -(c[1].get('vote_pct') or 0))[:2]
+            t2 = [spent(n) for n, _ in top2]
+            rows[ch].append({'w': ws, 't2': sum(t2) if all(v is not None for v in t2) else None,
+                             'close': runoff or (mg != 'unop' and mg < 10)})
+        out[str(y)] = {}
+        for ch, rs in rows.items():
+            def stat(sub):
+                ws = sorted(r['w'] for r in sub if r['w'])
+                t2 = sorted(r['t2'] for r in sub if r['t2'])
+                q = lambda v, p: round(v[min(len(v) - 1, int(p * len(v)))]) if v else None
+                return {'n': len(sub), 'matched': len(ws),
+                        'winner': round(statistics.median(ws)) if ws else None,
+                        'winner75': q(ws, 0.75), 'top2': round(statistics.median(t2)) if t2 else None}
+            out[str(y)][ch] = {'contested': stat(rs), 'close': stat([r for r in rs if r['close']])}
+    return out
+
+
 def scaffold(day, fin, tv, ra, pf, used, taken):
     """Before qualifying: the offices last contested four years before `day`,
     each with its winner then, and the committees raising money this cycle
@@ -411,12 +557,17 @@ def scaffold(day, fin, tv, ra, pf, used, taken):
         for norm, x in ws:
             row = candidate({'name': norm.title(), 'party': x['party']}, False, fin, tv, ra, pf, used)
             row['inc'] = True
+            row['mg'] = margin(fin, norm, x)
             if row.get('f'):
                 taken.add(row['f'])
             rows.append(row)
         parish = next((p for p in PARISH_DMA if office.startswith(p + ' Parish') or office.startswith(p + ' ')), None)
         races.append({'id': 'inc:' + office, 'o': office, 'pa': parish, 't': t,
                       'k': race_markets({'parish': parish}, rows), 'el': len(rows), 'c': rows})
+    roster = load(D('data', 'legislators.json'), {})
+    if roster:
+        legislature(races, roster, fin, tv, ra, pf, used, taken, day.year - 4)
+        races.sort(key=lambda r: r['o'])
     # Raising this cycle, not in any race above, on a posted ballot, or on a
     # ballot since the last cycle's: likely entrants. People only; PACs and
     # party committees are left out.
@@ -617,6 +768,14 @@ def build(today=None):
         'coming': {'since': since, 'through': ag.get('data_through'),
                    'rows': coming(F, since, tv, ra, ag.get('by_filer', {}), names.get)},
         'fetched': ballot.get('fetched'),
+        'seatCost': seat_costs(fin),
+        'cal': CAL_2027,
+        'roster': (lambda r: {'fetched': r.get('fetched'),
+                              'tl': {'House': sum(m.get('tl', False) for m in r.get('house', [])),
+                                     'Senate': sum(m.get('tl', False) for m in r.get('senate', []))},
+                              'vacant': {'House': sum(bool(m.get('vacant')) for m in r.get('house', [])),
+                                         'Senate': sum(bool(m.get('vacant')) for m in r.get('senate', []))}}
+                   if r else None)(load(D('data', 'legislators.json'), {})),
         'fecFetched': fec.fetched,
         'today': today.isoformat(),
     }

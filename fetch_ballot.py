@@ -36,7 +36,12 @@ SOS = 'https://voterportal.sos.la.gov/ElectionResults/ElectionResults/Data?blob=
 
 # Elections already scheduled by law, tried even when the portal's date list
 # doesn't carry them yet.
-SCHEDULED = ['2026-11-03', '2026-12-12', '2027-10-09', '2027-11-20']
+# 2027, from the Secretary of State's calendar (elections-calendar-2027.pdf,
+# revised October 2026): the specials for Senate 14 and House 77, the BESE
+# closed party primaries (April 17, runoff May 29) with the municipal
+# elections, and the gubernatorial primary and general.
+SCHEDULED = ['2026-11-03', '2026-12-12', '2027-01-09', '2027-02-06', '2027-03-13',
+             '2027-04-17', '2027-05-29', '2027-10-09', '2027-11-20']
 # Keep an election this long after its date, for results and the runoff ahead.
 KEEP_AFTER = timedelta(days=45)
 

@@ -162,6 +162,12 @@ Radio is not the TV page with new call signs, because the analysis inverts:
   Black-audience stations, Blanco 70%, Boasso 99%; Landry put 48% into
   news/talk and Citizens Fighting Crime PAC split 40/40 talk and country.
   Jindal is the exception — he bought everything.
+- **The mix moves cycle to cycle.** The format chart and the buyers each carry a
+  cycle switch (all years, or one of the four-year cycles ending in a governor's
+  race, `radio.html#cy=2023`), built from the `cycles` block of
+  `radio_spend.json`. The prose stays on all years; the line under the switch
+  states the chosen cycle's own split. In the 2023 cycle news/talk took 42% and
+  Black-audience formats 20%, the reverse of the long-run picture.
 - **Retail politics shows up.** The median station's buy is **$1,372** against
   $4,221 on TV, and KVPI in Ville Platte (classic country + Cajun French) has
   taken money from **62 committees at $246 a spot** — sheriffs and school-board
@@ -338,6 +344,21 @@ the candidate committees raising the most this cycle that aren't tied to any
 race (people to watch at qualifying). When the Secretary of State posts the
 2027 ballot, the tab switches to it with no code change.
 
+The Secretary of State's results only carry contested races, and in 2023
+almost half the Legislature won without opposition, so the House and Senate
+cards come from the Legislature's own rosters instead (`fetch_legislators.py`
+writes `data/legislators.json` nightly from house.louisiana.gov and
+senate.la.gov). Every one of the 144 seats is listed with whoever holds it
+now. Each card says how the holder won: the 2023 share and margin, unopposed,
+or a special election since, or that it can't tell. Members the
+Legislature's term-limit lists put in their final term are tagged
+TERM-LIMITED and their seats OPEN SEAT (search "open seat"), as are vacant
+seats. Above the cards, *What a contested legislative seat costs* gives the
+median and top-quarter spending of winners of contested House and Senate
+races in 2019 and 2023, and in close races (under 10 points or a runoff),
+from `seat_costs()` in `build_races_page.py`, for reading a 2027 candidate's
+money so far.
+
 ## The results desk
 
 `desk.html` is a working page for election night, outside the tab bar. Pick
@@ -364,6 +385,27 @@ paying stations this cycle, else the number of ad orders stations posted.
 That keeps a federal campaign with a handful of priced orders from looking
 like it spent almost nothing on TV.
 
+## The outside groups
+
+`players.html` profiles the money that isn't a candidate's: every filer the
+Ethics Board registers as a political committee that spent at least $300,000
+in the 2019 or 2023 cycle, or $100,000 so far in 2027 (about 150). Pick a
+cycle and each group shows what it spent, split three ways (to candidates
+and committees, to airtime and media buyers, everything else), with a bar
+per cycle. Open one for raised, spent, TV and radio by cycle, the
+candidates and committees it backed most, and the firms it hired most.
+Groups are sorted into *air war* (40%+ to airtime), *giver* (half or more
+to candidates and committees), *party & caucus*, and *mixed*; filters and
+the open group live in the URL (`players.html#cy=2019&k=air&g=3354`).
+
+`build_players_page.py` takes each group's cycle totals from
+la-campaign-finance's per-filer index and reads its expenditures (2012 on)
+for the split: a payee matched to a Louisiana filer, or named like a
+federal, party or out-of-state committee, is backing; a station, cable or
+digital seller or media-buying firm is airtime. People paid as individuals
+are never listed by name, and banks, hotels, taxes and fees stay off the
+hired list (their dollars still count).
+
 ## Rebuild the spending data
 
 `build_spend.py` recomputes every dollar figure from the raw filings, running
@@ -380,6 +422,7 @@ python3 fetch_cache.py                              # ~47MB, 2000 → this year
 python3 build_spend.py                              # TV + radio data; auto-finds ./.la_cache
 python3 build_page.py && python3 build_radio_page.py
 python3 build_races_page.py && python3 build_committees_page.py   # races first: profiles link to it
+python3 build_players_page.py                       # the outside groups
 python3 -m unittest discover -s tests               # the regression tests
 ```
 
@@ -408,7 +451,8 @@ needs hand-editing when the calendar turns.
   two-output publish step every page uses; `prose.py` — the phrases the copy
   is built from.
 - `build_page.py`, `build_radio_page.py`, `build_committees_page.py`,
-  `build_races_page.py` — one per page, each from its `*.template.html`.
+  `build_races_page.py`, `build_players_page.py` — one per page, each from
+  its `*.template.html`.
 - `fetch_ballot.py` — the Secretary of State's coming ballots (the races
   page), run nightly; `fetch_fec.py` — the FEC's House and Senate campaign
   totals (the races page's federal candidates), run nightly; `fcc/find_cable.py` — the cable systems serving

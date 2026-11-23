@@ -1,0 +1,1142 @@
+{
+ "fetched": "2026-11-23",
+ "source": "house.louisiana.gov (H_Reps_FullInfo, H_Reps_Term*.aspx); senate.la.gov (Senators_FullInfo, Senators_ByTermLimits.aspx)",
+ "house": [
+  {
+   "d": 1,
+   "name": "Danny McCormick",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 2,
+   "name": "Steven Jackson",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 3,
+   "name": "Tammy T. Phelps",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 4,
+   "name": "Joy Walters",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 5,
+   "name": "Dennis Bamburg, Jr.",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 6,
+   "name": "Michael Melerine",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 7,
+   "name": "Larry A. Bagley",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 8,
+   "name": "Raymond J. Crews",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2017,
+   "tl": true
+  },
+  {
+   "d": 9,
+   "name": "Dodie Horton",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 10,
+   "name": "Wayne McMahen",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2018,
+   "tl": false
+  },
+  {
+   "d": 11,
+   "name": "Rashid Armand Young",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 12,
+   "name": "Christopher Turner",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 13,
+   "name": "Jack McFarland",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 14,
+   "name": "Michael Charles Echols",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 15,
+   "name": "Foy Bryan Gadberry",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 16,
+   "name": "Adrian Fisher",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2021,
+   "tl": false
+  },
+  {
+   "d": 17,
+   "name": "Pat Moore",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 18,
+   "name": "Jeremy LaCombe",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 19,
+   "name": "Francis C. Thompson",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 20,
+   "name": "Neil Riser",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 21,
+   "name": "C. Travis Johnson",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 22,
+   "name": "Michael \"Gabe\" Firment",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 23,
+   "name": "Shaun Raphael Mena",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 24,
+   "name": "Rodney Schamerhorn",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 25,
+   "name": "Jason Brian DeWitt",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 26,
+   "name": "Ed Larvadain, III",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 27,
+   "name": "Mike Johnson",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 28,
+   "name": "Daryl Andrew Deshotel",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 29,
+   "name": "Edmond Jordan",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2016,
+   "tl": true
+  },
+  {
+   "d": 30,
+   "name": "Charles Owen",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 31,
+   "name": "Troy Jude Hebert",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 32,
+   "name": "R. Dewith Carrier",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 33,
+   "name": "Les Farnum",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 34,
+   "name": "Wilford Carter, Sr.",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 35,
+   "name": "Brett F. Geymann",
+   "party": "REP",
+   "tl": false
+  },
+  {
+   "d": 36,
+   "name": "Phillip Eric Tarver",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 37,
+   "name": "Reese \"Skip\" Broussard",
+   "party": "REP",
+   "tl": false
+  },
+  {
+   "d": 38,
+   "name": "Rhonda Gaye Butler",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 39,
+   "name": "Doyle Boudreaux",
+   "party": "REP",
+   "tl": false
+  },
+  {
+   "d": 40,
+   "name": "Dustin Miller",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 41,
+   "name": "Phillip DeVillier",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 42,
+   "name": "Chance Keith Henry",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 43,
+   "name": "Josh Carlson",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 44,
+   "name": "Tehmi Jahi Chassion",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 45,
+   "name": "Annie Spell",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2025,
+   "tl": false
+  },
+  {
+   "d": 46,
+   "name": "Chad Michael Boyer",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 47,
+   "name": "Ryan Bourriaque",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 48,
+   "name": "Gerald \"Beau\" Beaullieu, IV",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 49,
+   "name": "Jacob Jules Landry",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 50,
+   "name": "Vincent \"Vinney\" St. Blanc, III",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 51,
+   "name": "Beryl Amedée",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 52,
+   "name": "Jerome Zeringue",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 53,
+   "name": "Jessica Domangue",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 54,
+   "name": "Joseph A. Orgeron",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2020,
+   "tl": false
+  },
+  {
+   "d": 55,
+   "name": "Bryan Fontenot",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 56,
+   "name": "Beth Anne Billings",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 57,
+   "name": "Sylvia Elaine Taylor",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 58,
+   "name": "Ken Brass",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2017,
+   "tl": true
+  },
+  {
+   "d": 59,
+   "name": "Tony Bacala",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 60,
+   "name": "Chasity Martinez",
+   "party": "DEM",
+   "tl": false
+  },
+  {
+   "d": 61,
+   "name": "C. Denise Marcelle",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 62,
+   "name": "Roy Daryl Adams",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 63,
+   "name": "Barbara Carpenter",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 64,
+   "name": "Kellee Hennessy Dickerson",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 65,
+   "name": "Lauren Ventrella",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 66,
+   "name": "Emily Chenevert",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 67,
+   "name": "Jr. Terry Landry",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2025,
+   "tl": false
+  },
+  {
+   "d": 68,
+   "name": "Dixon Wallace McMakin",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 69,
+   "name": "Paul Sawyer",
+   "party": "REP",
+   "tl": false
+  },
+  {
+   "d": 70,
+   "name": "Barbara Reich Freiberg",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 71,
+   "name": "Roger William Wilder, III",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 72,
+   "name": "Robby Carter",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 73,
+   "name": "Kimberly Landry Coates",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 74,
+   "name": "Peter F. Egan, Sr.",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 75,
+   "name": "John E. Wyble",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 76,
+   "name": "Stephanie H. Berault",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 77,
+   "name": null,
+   "party": null,
+   "vacant": true,
+   "tl": false
+  },
+  {
+   "d": 78,
+   "name": "John R. Illg, Jr.",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 79,
+   "name": "Debbie Villio",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 80,
+   "name": "Polly Thomas",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2016,
+   "tl": true
+  },
+  {
+   "d": 81,
+   "name": "Jeffrey \"Jeff\" Wiley",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 82,
+   "name": "Laurie Schlegel",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2021,
+   "tl": false
+  },
+  {
+   "d": 83,
+   "name": "Kyle M. Green, Jr.",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 84,
+   "name": "Timothy P. Kerner",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 85,
+   "name": "Vincent E. Cox, III",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 86,
+   "name": "Nicholas Muscarello",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2018,
+   "tl": false
+  },
+  {
+   "d": 87,
+   "name": "Rodney Lyons",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 88,
+   "name": "Kathy Edmonston",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 89,
+   "name": "Kim Carver",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 90,
+   "name": "Brian Leonard Glorioso",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 91,
+   "name": "Mandie Landry",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 92,
+   "name": "Greg Carroll",
+   "party": "DEM",
+   "tl": false
+  },
+  {
+   "d": 93,
+   "name": "Alonzo L. Knox",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 94,
+   "name": "Stephanie Hilferty",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 95,
+   "name": "Shane Mack",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 96,
+   "name": "Marcus Anthony Bryant",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 97,
+   "name": "Ed Murray",
+   "party": "DEM",
+   "tl": false
+  },
+  {
+   "d": 98,
+   "name": "Aimee Adatto Freeman",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 99,
+   "name": "Candace N. Newell",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 100,
+   "name": "Dana Henry",
+   "party": "DEM",
+   "tl": false
+  },
+  {
+   "d": 101,
+   "name": "Vanessa Caston LaFleur",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2022,
+   "tl": false
+  },
+  {
+   "d": 102,
+   "name": "Delisha Boyd",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2021,
+   "tl": false
+  },
+  {
+   "d": 103,
+   "name": "Michael Robert Bayham, Jr.",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 104,
+   "name": "Jack \"Jay\" William Gallé, Jr.",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 105,
+   "name": "Jacob Braud",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  }
+ ],
+ "senate": [
+  {
+   "d": 1,
+   "name": "Robert \"Bob\" Owen",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 2,
+   "name": "Edward J. Price",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2017,
+   "tl": true
+  },
+  {
+   "d": 3,
+   "name": "Sidney Barthelemy II",
+   "party": "DEM",
+   "final": 2040,
+   "elected": 2026,
+   "tl": false
+  },
+  {
+   "d": 4,
+   "name": "Jimmy Harris",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 5,
+   "name": "Royce Duplessis",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2022,
+   "tl": false
+  },
+  {
+   "d": 6,
+   "name": "Rick Edmonds",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 7,
+   "name": "Gary Carter",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2021,
+   "tl": false
+  },
+  {
+   "d": 8,
+   "name": "Patrick Connick",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 9,
+   "name": "Cameron Henry",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 10,
+   "name": "Kirk Talbot",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 11,
+   "name": "Patrick McMath",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 12,
+   "name": "Beth Mizell",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 13,
+   "name": "Valarie Hodges",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 14,
+   "name": null,
+   "party": null,
+   "vacant": true,
+   "tl": false
+  },
+  {
+   "d": 15,
+   "name": "Regina Barrow",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 16,
+   "name": "Franklin J. Foil",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 17,
+   "name": "Caleb Kleinpeter",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2022,
+   "tl": false
+  },
+  {
+   "d": 18,
+   "name": "Eddie J. Lambert",
+   "party": "REP",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 19,
+   "name": "Gregory A. Miller",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 20,
+   "name": "Michael \"Big Mike\" Fesi",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 21,
+   "name": "Robert Allain",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 22,
+   "name": "Blake Miguez",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 23,
+   "name": "Brach Jerad Myers",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2025,
+   "tl": false
+  },
+  {
+   "d": 24,
+   "name": "Gerald Boudreaux",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 25,
+   "name": "Mark Abraham",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 26,
+   "name": "Bob Hensgens",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2018,
+   "tl": false
+  },
+  {
+   "d": 27,
+   "name": "Jeremy Stine",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2021,
+   "tl": false
+  },
+  {
+   "d": 28,
+   "name": "Heather Cloud",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 29,
+   "name": "Jay Luneau",
+   "party": "DEM",
+   "final": 2028,
+   "elected": 2015,
+   "tl": true
+  },
+  {
+   "d": 30,
+   "name": "Mike Reese",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 31,
+   "name": "Alan Seabaugh",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 32,
+   "name": "Glen Womack",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 33,
+   "name": "Stewart Jr. Cathey",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 34,
+   "name": "Katrina R. Jackson-Andrews",
+   "party": "DEM",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 35,
+   "name": "John C. \"Jay\" Morris",
+   "party": "REP",
+   "final": 2032,
+   "elected": 2019,
+   "tl": false
+  },
+  {
+   "d": 36,
+   "name": "Adam Bass",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 37,
+   "name": "William \"Bill\" Wheat, Jr.",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 38,
+   "name": "Thomas A. Pressly",
+   "party": "REP",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  },
+  {
+   "d": 39,
+   "name": "Sam Jenkins",
+   "party": "DEM",
+   "final": 2036,
+   "elected": 2023,
+   "tl": false
+  }
+ ]
+}
