@@ -47084,6 +47084,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-29T08:54:01Z"
   },
+  "49e25a8d-5f03-445f-a179-fcd322a79d12": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "RiseUp Media & Marketing Solutions, LLC",
+   "advertiser": "Let It Resound",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "KQXL",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "NET214751-LET IT RESOUND",
+   "uploaded": "2026-11-23T08:07:12-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-23T22:48:03Z"
+  },
   "49e586a2-e81d-4799-b2a2-2852fad763f8": {
    "kind": "order",
    "layout": "other",
@@ -166560,6 +166581,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-23T03:55:11Z",
+ "updated": "2026-11-23T22:48:29Z",
  "blocked": null
 }
