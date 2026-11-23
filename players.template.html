@@ -166,7 +166,7 @@ function readHash(){ const h=new URLSearchParams(location.hash.slice(1));
   S.cy=h.get('cy')||'2023'; S.k=h.get('k')||''; S.p=h.get('p')||''; S.q=h.get('q')||''; S.open=h.get('g')||''; }
 function writeHash(){ const h=new URLSearchParams();
   if(S.cy!=='2023') h.set('cy',S.cy); if(S.k) h.set('k',S.k); if(S.p) h.set('p',S.p); if(S.q) h.set('q',S.q); if(S.open) h.set('g',S.open);
-  const s=h.toString(); history.replaceState(null,'',s?'#'+s:location.pathname+location.search); }
+  const s=h.toString(); try{ history.replaceState(null,'',s?'#'+s:location.pathname+location.search); }catch(e){} }
 function chips(id, opts, cur, set){
   const el=document.getElementById(id);
   el.innerHTML=opts.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${v===cur}">${l}</button>`).join('');

@@ -353,7 +353,7 @@ function drawCycle(){
   ch.innerHTML=[['all','All years'],...[...DATA.cycles].reverse().map(c=>[String(c.cycle), c.cycle===2027?'2027 so far':String(c.cycle)])]
     .map(([k,l])=>`<button type="button" data-k="${k}" aria-pressed="${k===CYC}">${l}</button>`).join('');
   ch.querySelectorAll('button').forEach(b=>b.onclick=()=>{ CYC=b.dataset.k;
-    history.replaceState(null,'',CYC==='all'?location.pathname+location.search:'#cy='+CYC); drawCycle(); });
+    drawCycle(); try{ history.replaceState(null,'',CYC==='all'?location.pathname+location.search:'#cy='+CYC); }catch(e){} });
   const blk=V.ordered.find(b=>b.k==='Black-audience'), talk=V.ordered.find(b=>b.k==='News/Talk');
   document.getElementById('cycnote').textContent = CYC==='all'
     ? 'The paragraph above describes every year since 2000. Pick a cycle to see how the mix has moved.'

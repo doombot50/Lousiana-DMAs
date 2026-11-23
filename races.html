@@ -290,7 +290,7 @@ function writeHash(){
   if(S.e&&S.e!==first) h.set('e',S.e);
   for(const k of ['q','pa','m','t','r']) if(S[k]) h.set(k,S[k]);
   if(S.sort!=='air') h.set('sort',S.sort);
-  const s=h.toString(); history.replaceState(null,'',s?'#'+s:location.pathname+location.search);
+  const s=h.toString(); try{ history.replaceState(null,'',s?'#'+s:location.pathname+location.search); }catch(e){}
 }
 
 /* ---------- controls ---------- */

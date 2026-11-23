@@ -508,7 +508,7 @@ const hashParams=()=>new URLSearchParams(location.hash.slice(1));
 const hashGet=k=>hashParams().get(k);
 function hashSet(k,v){
   const p=hashParams(); if(v==null) p.delete(k); else p.set(k,v);
-  const h=p.toString(); history.replaceState(null,'',h?'#'+h:location.pathname+location.search);
+  const h=p.toString(); try{ history.replaceState(null,'',h?'#'+h:location.pathname+location.search); }catch(e){}
 }
 const PFCODE={'Federal':'fed','State & local':'local','Issue':'issue','Out of state':'away'};
 const PFKEY=Object.fromEntries(Object.entries(PFCODE).map(([k,v])=>[v,k]));
