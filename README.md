@@ -344,6 +344,21 @@ the candidate committees raising the most this cycle that aren't tied to any
 race (people to watch at qualifying). When the Secretary of State posts the
 2027 ballot, the tab switches to it with no code change.
 
+The Secretary of State's results only carry contested races, and in 2023
+almost half the Legislature won without opposition, so the House and Senate
+cards come from the Legislature's own rosters instead (`fetch_legislators.py`
+writes `data/legislators.json` nightly from house.louisiana.gov and
+senate.la.gov). Every one of the 144 seats is listed with whoever holds it
+now. Each card says how the holder won: the 2023 share and margin, unopposed,
+or a special election since, or that it can't tell. Members the
+Legislature's term-limit lists put in their final term are tagged
+TERM-LIMITED and their seats OPEN SEAT (search "open seat"), as are vacant
+seats. Above the cards, *What a contested legislative seat costs* gives the
+median and top-quarter spending of winners of contested House and Senate
+races in 2019 and 2023, and in close races (under 10 points or a runoff),
+from `seat_costs()` in `build_races_page.py`, for reading a 2027 candidate's
+money so far.
+
 ## Rebuild the spending data
 
 `build_spend.py` recomputes every dollar figure from the raw filings, running
