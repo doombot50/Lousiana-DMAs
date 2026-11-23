@@ -16,7 +16,8 @@
 # It also refreshes the Secretary of State's ballot (fetch_ballot.py) for the
 # races page, which joins it to the finance totals fetch_cache.py pulls from
 # la-campaign-finance, and the FEC's totals for federal candidates
-# (fetch_fec.py).
+# (fetch_fec.py), and the Legislature's rosters and term limits
+# (fetch_legislators.py).
 #
 # It reads a few dozen political-file documents a night (fcc/read_documents.py)
 # for the dollars and the agency inside, and joins the agencies to what
@@ -119,6 +120,15 @@ jobs:
         timeout-minutes: 10
         run: python3 fetch_fec.py
 
+      # Every House and Senate member and their term limits, from the
+      # Legislature's rosters, for the races page's 2027 tab (the seats won
+      # without opposition, which the ballot results never list, and the open
+      # seats). A failure keeps the previous copy.
+      - name: Refresh the legislative roster
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python3 fetch_legislators.py
+
       - name: Refresh FCC political files
         continue-on-error: true
         timeout-minutes: 60
@@ -193,6 +203,7 @@ jobs:
           python3 build_radio_page.py
           python3 build_races_page.py
           python3 build_committees_page.py
+          python3 build_players_page.py
 
       # The document reader (read-documents.yml) may have pushed documents
       # while this ran: fold its copy of data/fcc_documents.json into ours

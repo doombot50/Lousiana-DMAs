@@ -1,0 +1,221 @@
+<title>Outside groups · Louisiana Airwaves</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --hair:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --no:#2a78d6; --shv:#1baf7a; --br:#eda100; --laf:#e87ba4; --mon:#eb6834; --lkc:#008300; --alx:#4a3aa7;
+  --accent:#2a78d6; --accent-ink:#1c5cab; --quiet:#c3c2b7;
+  --dem:#2a78d6; --rep:#e34948; --oth:#c3c2b7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
+    --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46;
+    --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+  --hair:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+  --no:#3987e5; --shv:#199e70; --br:#c98500; --laf:#d55181; --mon:#d95926; --lkc:#008300; --alx:#9085e9;
+  --accent:#3987e5; --accent-ink:#6da7ec; --quiet:#4a4a46;
+    --dem:#3987e5; --rep:#e66767; --oth:#4a4a46;
+}
+*{box-sizing:border-box}
+body{background:var(--page); color:var(--ink); font:16px/1.55 "Source Serif 4",Georgia,serif; margin:0;}
+.wrap{max-width:1080px; margin:0 auto; padding:0 20px 72px;}
+a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px;}
+h1,h2,h3{font-family:Archivo,"Segoe UI",system-ui,sans-serif; text-wrap:balance; margin:0;}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;}
+.eyebrow{font-family:Archivo,system-ui,sans-serif; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink2);}
+.eyebrow a{color:inherit; text-decoration:none; border-bottom:1px solid var(--baseline);}
+.eyebrow a:hover{color:var(--accent-ink); border-color:var(--accent-ink);}
+
+__NAV_CSS__header{padding:26px 0 0;}
+header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015em; line-height:1.02; margin:10px 0 0;}
+.dek{max-width:62ch; font-size:17.5px; color:var(--ink2); margin:16px 0 0;}
+.dek b{color:var(--ink); font-weight:600;}
+.seclabel{font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+section h2{font-size:clamp(24px,3.4vw,32px); font-weight:700; letter-spacing:-.01em; margin:6px 0 0;}
+.intro{max-width:62ch; color:var(--ink2); margin:12px 0 0; font-size:16.5px;}
+.intro b{color:var(--ink); font-weight:600;}
+.cap{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin-top:12px; max-width:72ch;}
+.ptag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; border:1px solid; flex:none;}
+.ptag.DEM{color:var(--dem); border-color:var(--dem);}
+.ptag.REP{color:var(--rep); border-color:var(--rep);}
+.ptag.OTH{color:var(--muted); border-color:var(--hair);}
+footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+#tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--page); font-family:Archivo,system-ui,sans-serif; font-size:12px; line-height:1.45; padding:7px 10px; border-radius:3px; max-width:250px; z-index:10; opacity:0; transition:opacity .12s;}
+#tip b{font-weight:700;}
+.asof{font-size:12.5px; color:var(--muted); font-family:Archivo,system-ui,sans-serif; margin:10px 0 0; letter-spacing:.02em;}
+.controls{display:flex; flex-wrap:wrap; gap:14px 22px; align-items:flex-end; margin-top:30px;}
+.ctl{display:flex; flex-direction:column; gap:6px;}
+.ctl > span{font:700 10.5px Archivo,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);}
+.ctl.grow{flex:1 1 240px;}
+.chips{display:flex; gap:6px; flex-wrap:wrap;}
+.chips button{font:600 12px/1 Archivo,system-ui,sans-serif; padding:8px 11px; border:1px solid var(--hair); background:var(--surface); color:var(--ink2); border-radius:999px; cursor:pointer;}
+.chips button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--page);}
+.chips button:focus-visible,.grow input:focus-visible,.prow:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.grow input{font:15px "Source Serif 4",Georgia,serif; padding:8px 11px; border:1px solid var(--baseline); border-radius:3px; background:var(--surface); color:var(--ink); width:100%;}
+.count{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted); margin:16px 0 8px;}
+.legend{display:flex; gap:14px; flex-wrap:wrap; font:12px Archivo,system-ui,sans-serif; color:var(--ink2); margin-top:14px;}
+.legend span{display:flex; align-items:center; gap:5px;}
+.legend i{width:10px; height:10px; border-radius:2px;}
+:root{--s-backed:#4a3aa7; --s-media:#eb6834; --s-other:#c3c2b7;}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--s-backed:#9085e9; --s-media:#d95926; --s-other:#4a4a46;} }
+:root[data-theme="dark"]{--s-backed:#9085e9; --s-media:#d95926; --s-other:#4a4a46;}
+.list{border:1px solid var(--hair); background:var(--surface);}
+.prow,.phead{display:grid; grid-template-columns:minmax(0,1.5fr) 7em 92px minmax(110px,1fr); gap:14px; align-items:center; padding:11px 16px;}
+.phead{font:700 10.5px Archivo,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--hair);}
+.phead .r,.prow .r{text-align:right;}
+.prow{border-top:1px solid var(--hair); cursor:pointer;}
+.prow:first-of-type{border-top:0;}
+.prow:hover{background:var(--page);}
+.prow .nm{font:600 14px Archivo,system-ui,sans-serif; min-width:0;}
+.prow .nm small{display:block; font-weight:400; font-size:11.5px; color:var(--muted); margin-top:2px;}
+.prow .amt{font:600 12.5px "IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;}
+.ptag{margin-left:6px; vertical-align:1px;}
+.kind{font:600 10px "IBM Plex Mono",monospace; color:var(--ink2); border:1px solid var(--baseline); border-radius:2px; padding:0 4px; margin-left:4px; vertical-align:1px;}
+.cyc{display:flex; align-items:flex-end; gap:3px; height:26px;}
+.cyc i{display:block; width:14px; background:var(--ink2); border-radius:1px 1px 0 0; min-height:1px;}
+.cyc i.sel{background:var(--ink);}
+.cyc i.z{background:var(--hair);}
+.split{display:flex; height:10px; border-radius:2px; overflow:hidden; gap:1px; background:var(--hair);}
+.split span{display:block; height:100%;}
+.detail{border-top:1px solid var(--hair); background:var(--page); padding:14px 16px 18px; display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px 28px;}
+.detail h4{font:700 10.5px Archivo,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:0 0 6px;}
+.detail table{border-collapse:collapse; width:100%; font-size:12.5px;}
+.detail td,.detail th{padding:4px 6px; border-bottom:1px solid var(--hair); text-align:right; font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; white-space:nowrap;}
+.detail th{font:600 10.5px Archivo,system-ui,sans-serif; color:var(--ink2);}
+.detail td:first-child,.detail th:first-child{text-align:left;}
+.detail ol{margin:0; padding:0; list-style:none; font:13px Archivo,system-ui,sans-serif;}
+.detail li{display:flex; justify-content:space-between; gap:10px; padding:4px 0; border-bottom:1px solid var(--hair);}
+.detail li b{font:600 12px "IBM Plex Mono",monospace; white-space:nowrap;}
+.detail .none{color:var(--muted); font:13px Archivo,system-ui,sans-serif;}
+.detail .links{grid-column:1/-1; font:13px Archivo,system-ui,sans-serif; color:var(--ink2);}
+.more{display:block; width:100%; padding:12px; border:0; border-top:1px solid var(--hair); background:none; font:600 12.5px Archivo,system-ui,sans-serif; color:var(--accent-ink); cursor:pointer;}
+.empty{padding:20px 16px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
+.method{max-width:68ch; font-size:14.5px; color:var(--ink2); margin-top:60px;}
+.method h2{font-size:22px;}
+.method p{margin:10px 0;}
+@media(max-width:640px){
+  .prow,.phead{grid-template-columns:minmax(0,1fr) 6em; padding:10px 12px;}
+  .prow .cycc,.phead .cycc,.prow .splitc,.phead .splitc{display:none;}
+  .detail{padding:12px;}
+}
+</style>
+
+<div class="wrap">
+__NAV__
+<header>
+  <p class="eyebrow">Louisiana Airwaves</p>
+  <h1>The outside groups</h1>
+  <p class="dek">Candidates are on the <a href="https://airwaves.charliestephens.xyz/races.html">races page</a>. This is the rest of the money: the <b id="ng"></b> PACs, independent-expenditure committees and party and caucus committees that spend the most in Louisiana's state elections. For each, what it spent every cycle, <b>who it backed</b>, <b>who it hired</b>, and what it put on the air.</p>
+  <p class="asof">Filings through __THROUGH__ · rebuilt nightly from the state's disclosure data</p>
+</header>
+
+<div class="controls">
+  <div class="ctl"><span>Cycle</span><div class="chips" id="cyc" role="group" aria-label="Cycle"></div></div>
+  <div class="ctl"><span>Kind</span><div class="chips" id="kinds" role="group" aria-label="Kind of group"></div></div>
+  <div class="ctl"><span>Side</span><div class="chips" id="sides" role="group" aria-label="Party"></div></div>
+  <label class="ctl grow"><span>Find a group, candidate or firm</span><input type="search" id="q" placeholder="e.g. Gumbo, Federation for Children, Littlefield…" autocomplete="off"></label>
+</div>
+<div class="legend"><span><i style="background:var(--s-backed)"></i>To candidates and committees</span><span><i style="background:var(--s-media)"></i>Airtime and media buyers</span><span><i style="background:var(--s-other)"></i>Everything else: consultants, mail, polling, staff</span></div>
+<p class="count" id="count"></p>
+<div class="list" id="list"></div>
+
+<section class="method">
+  <p class="seclabel">How this is built</p>
+  <h2>Where the numbers come from</h2>
+  <p><b>Which groups.</b> Every filer the Ethics Board registers as a political committee rather than a candidate that spent at least $300,000 in the 2019 or 2023 cycle, or $100,000 so far in 2027. A cycle is the four years ending in a governor's race. Spending and raising are each group's cycle totals from the <a href="https://finance.charliestephens.xyz/">campaign-finance dashboard</a>.</p>
+  <p><b>The split.</b> Each payment is sorted by who received it: a Louisiana candidate or committee (or a federal, party or out-of-state campaign) counts as backing; a TV or radio station, cable or digital ad seller, or media-buying firm counts as airtime; everything else is the rest of running a campaign. Payments a filing leaves unnamed fall in the last group. The split covers __SPAN__; the totals come from the dashboard.</p>
+  <p><b>Kind.</b> <i>Air war</i>: 40% or more of its biggest recent cycle went to airtime. <i>Giver</i>: half or more went to candidates and committees. <i>Party &amp; caucus</i>: by name. <i>Mixed</i>: neither.</p>
+  <p><b>Backed and hired.</b> The candidates and committees that received the most from a group in the cycle shown, and the firms it paid the most. People paid as individuals are never listed by name, and banks, hotels, taxes and fees are left off the hired list (their dollars still count). TV and radio come from the same station matching as the <a href="https://airwaves.charliestephens.xyz/">television</a> and <a href="https://airwaves.charliestephens.xyz/radio.html">radio</a> pages. Party is the filing's own label, corrected only where a publicly aligned committee files as <span class="mono">OTH</span>; most PACs carry no party.</p>
+</section>
+
+<footer>
+  Spending is what each committee reported in its Louisiana Ethics Administration filings, nominal dollars. Built by <span class="mono">build_players_page.py</span>. See also <a href="https://factions.charliestephens.xyz/vendor-factions.html">vendor factions</a>, which firms work for whom.
+</footer>
+</div>
+<div id="tip" role="presentation"></div>
+
+<script>
+/*__DATA__*/
+const FIN='https://finance.charliestephens.xyz/', CM='https://airwaves.charliestephens.xyz/committees.html';
+const finLink=(n,f)=>FIN+'#/campaign/'+encodeURIComponent(n)+'?filer='+encodeURIComponent(f);
+const KIND={air:'Air war', giver:'Giver', party:'Party & caucus', ops:'Mixed'};
+const SIDE={REP:'Republican', DEM:'Democratic', OTH:'No party'};
+const money=n=>{n=Math.round(n||0); return n>=1e6?'$'+(n/1e6).toFixed(n>=1e7?0:1)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+n;};
+const full=n=>'$'+Math.round(n||0).toLocaleString('en-US');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fold=s=>s.normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const tag=p=>`<span class="ptag ${p==='REP'||p==='DEM'?p:'OTH'}">${p==='REP'||p==='DEM'?p:'OTH'}</span>`;
+const CYS=DATA.cycles;
+const S={cy:'2023', k:'', p:'', q:'', open:'', n:40};
+for(const g of DATA.groups){
+  const per=Object.values(g.per||{});
+  g.qs=fold(g.n+' '+per.flatMap(x=>[...x.backed.map(b=>b[0]),...x.hired.map(h=>h[0])]).join(' '));
+}
+function readHash(){ const h=new URLSearchParams(location.hash.slice(1));
+  S.cy=h.get('cy')||'2023'; S.k=h.get('k')||''; S.p=h.get('p')||''; S.q=h.get('q')||''; S.open=h.get('g')||''; }
+function writeHash(){ const h=new URLSearchParams();
+  if(S.cy!=='2023') h.set('cy',S.cy); if(S.k) h.set('k',S.k); if(S.p) h.set('p',S.p); if(S.q) h.set('q',S.q); if(S.open) h.set('g',S.open);
+  const s=h.toString(); history.replaceState(null,'',s?'#'+s:location.pathname+location.search); }
+function chips(id, opts, cur, set){
+  const el=document.getElementById(id);
+  el.innerHTML=opts.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${v===cur}">${l}</button>`).join('');
+  el.querySelectorAll('button').forEach(b=>b.onclick=()=>{ set(b.dataset.v); S.n=40; writeHash(); render(); });
+}
+function detail(g){
+  const cy=+S.cy, p=(g.per||{})[cy]||{backed:[],hired:[]};
+  const rows=CYS.filter(c=>g.cycles[c]||g.air[c]).map(c=>{ const x=g.cycles[c]||{}, a=g.air[c]||{};
+    return `<tr><td>${c===2027?'2027 so far':c}</td><td>${x.raised?money(x.raised):'·'}</td><td>${x.spent?money(x.spent):'·'}</td><td>${a.tv?money(a.tv):'·'}</td><td>${a.ra?money(a.ra):'·'}</td></tr>`; }).join('');
+  const lab=cy===2027?'2027 so far':'the '+cy+' cycle';
+  return `<div class="detail">
+    <div><h4>By cycle</h4><table><tr><th>Cycle</th><th>Raised</th><th>Spent</th><th>TV</th><th>Radio</th></tr>${rows}</table></div>
+    <div><h4>Backed most, ${lab}</h4>${p.backed.length?`<ol>${p.backed.map(b=>`<li><span>${esc(b[0])}${b[1]!=='OTH'?' '+tag(b[1]):''}</span><b>${money(b[2])}</b></li>`).join('')}</ol>`:'<p class="none">No contributions to Louisiana filers this cycle.</p>'}</div>
+    <div><h4>Hired most, ${lab}</h4>${p.hired.length?`<ol>${p.hired.map(h=>`<li><span>${esc(h[0])}</span><b>${money(h[1])}</b></li>`).join('')}</ol>`:'<p class="none">No firms named in this cycle’s filings.</p>'}</div>
+    <p class="links">Donors, every filing and cash on hand on the <a href="${finLink(g.n,g.f)}">campaign-finance dashboard</a>${(g.air&&Object.keys(g.air).length)?` · <a href="${CM}#f=${encodeURIComponent(g.f)}">airtime profile</a>`:''}${g.latest?` · latest filing ${g.latest}`:''}</p>
+  </div>`;
+}
+function render(){
+  chips('cyc', [...CYS].filter(c=>c>=2015).reverse().map(c=>[String(c), c===2027?'2027 so far':String(c)]), S.cy, v=>S.cy=v);
+  chips('kinds', [['','All'],['air','Air war'],['giver','Givers'],['party','Party & caucus'],['ops','Mixed']], S.k, v=>S.k=v);
+  chips('sides', [['','All'],['REP','Republican'],['DEM','Democratic'],['OTH','No party']], S.p, v=>S.p=v);
+  const q=document.getElementById('q'); if(document.activeElement!==q) q.value=S.q;
+  const cy=+S.cy, words=fold(S.q).split(/\s+/).filter(Boolean);
+  let gs=DATA.groups.filter(g=>(g.cycles[cy]||{}).spent>0 && (!S.k||g.kind===S.k) && (!S.p||g.p===S.p) && words.every(w=>g.qs.includes(w)));
+  gs.sort((a,b)=>b.cycles[cy].spent-a.cycles[cy].spent);
+  const tot=gs.reduce((s,g)=>s+g.cycles[cy].spent,0);
+  document.getElementById('count').textContent=`${gs.length} group${gs.length===1?'':'s'} · ${money(tot)} spent in ${cy===2027?'the 2027 cycle so far':'the '+cy+' cycle ('+(cy-3)+'–'+cy+')'}`;
+  const peak=Math.max(1,...DATA.groups.flatMap(g=>CYS.map(c=>(g.cycles[c]||{}).spent||0)));
+  let h=`<div class="phead"><span>Group</span><span class="r">Spent</span><span class="cycc">2015–2027</span><span class="splitc">Where it went</span></div>`;
+  if(!gs.length) h+='<p class="empty">No group matches.</p>';
+  for(const g of gs.slice(0,S.n)){
+    const x=g.cycles[cy], sp=x.split||{}, st=(sp.backed||0)+(sp.media||0)+(sp.other||0)||1;
+    const gmax=Math.max(1,...CYS.map(c=>(g.cycles[c]||{}).spent||0));
+    const bars=CYS.filter(c=>c>=2015).map(c=>{ const v=(g.cycles[c]||{}).spent||0; return `<i class="${c===cy?'sel':''}${v?'':' z'}" style="height:${v?Math.max(2,v/gmax*26):1}px" title="${c}: ${full(v)}"></i>`; }).join('');
+    const seg=[['backed','--s-backed','to candidates and committees'],['media','--s-media','airtime and media buyers'],['other','--s-other','everything else']]
+      .filter(([k])=>sp[k]>0).map(([k,c,l])=>`<span style="flex:${sp[k]};background:var(${c})" title="${Math.round(sp[k]/st*100)}% ${l} (${full(sp[k])})"></span>`).join('');
+    const top=((g.per||{})[cy]||{backed:[]}).backed.slice(0,2).map(b=>esc(b[0])).join(', ');
+    const open=S.open===g.f;
+    h+=`<div class="prow" role="button" tabindex="0" aria-expanded="${open}" data-f="${esc(g.f)}"><span class="nm">${esc(g.n)}${tag(g.p)}<span class="kind">${KIND[g.kind]}</span><small>${top?'backed '+top:''}</small></span>`+
+       `<span class="amt r">${money(x.spent)}</span><span class="cycc"><span class="cyc">${bars}</span></span><span class="splitc"><span class="split">${seg}</span></span></div>`;
+    if(open) h+=detail(g);
+  }
+  if(gs.length>S.n) h+=`<button type="button" class="more" id="more">Show ${Math.min(40,gs.length-S.n)} more</button>`;
+  const L=document.getElementById('list'); L.innerHTML=h;
+  L.querySelectorAll('.prow').forEach(el=>{ const go=()=>{ S.open=S.open===el.dataset.f?'':el.dataset.f; writeHash(); render(); };
+    el.onclick=go; el.onkeydown=e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); } }; });
+  const m=document.getElementById('more'); if(m) m.onclick=()=>{ S.n+=40; render(); };
+}
+document.getElementById('ng').textContent=DATA.groups.length;
+let t=null; document.getElementById('q').addEventListener('input',e=>{ clearTimeout(t); t=setTimeout(()=>{ S.q=e.target.value.trim(); S.n=40; writeHash(); render(); },150); });
+readHash(); addEventListener('hashchange',()=>{ readHash(); render(); }); render();
+</script>

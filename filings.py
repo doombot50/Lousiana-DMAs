@@ -148,3 +148,10 @@ PRIMARIES = {
     2027: '2027-10-09',
 }
 GOV_YEARS = set(PRIMARIES)
+
+
+def cycle_of(year):
+    """The statewide cycle a year belongs to, named for the governor's race that
+    closes it: 2020-2023 is the 2023 cycle, 2024-2027 the 2027 cycle."""
+    year = int(year)
+    return year + (2003 - year) % 4

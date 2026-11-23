@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
  "rows_scanned": 1508565,
  "data_through": "2026-11-20",
@@ -4894,6 +4894,2726 @@
     {
      "category": "Pop / AC",
      "amount": 856.0
+    }
+   ]
+  }
+ ],
+ "cycles": [
+  {
+   "cycle": 2003,
+   "years": [
+    2000,
+    2003
+   ],
+   "total": 1188092.3,
+   "categories": [
+    {
+     "category": "Black-audience",
+     "spend": 626001.58,
+     "share": 0.5269
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 300139.4,
+     "share": 0.2526
+    },
+    {
+     "category": "News/Talk",
+     "spend": 93378.14,
+     "share": 0.0786
+    },
+    {
+     "category": "Country",
+     "spend": 78765.46,
+     "share": 0.0663
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 39563.73,
+     "share": 0.0333
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 24133.51,
+     "share": 0.0203
+    },
+    {
+     "category": "Christian",
+     "spend": 17026.33,
+     "share": 0.0143
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 8584.15,
+     "share": 0.0072
+    },
+    {
+     "category": "Sports",
+     "spend": 500.0,
+     "share": 0.0004
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "filer": "31",
+     "amount": 358710.6,
+     "stations": 34,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 294494.08
+      },
+      {
+       "category": "Country",
+       "amount": 32470.4
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 13206.5
+      },
+      {
+       "category": "News/Talk",
+       "amount": 7875.22
+      },
+      {
+       "category": "Christian",
+       "amount": 5026.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 3650.4
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 1988.0
+      }
+     ]
+    },
+    {
+     "name": "Claude (Buddy) Leach, Jr.",
+     "party": "DEM",
+     "filer": "621",
+     "amount": 128648.05,
+     "stations": 14,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 122398.05
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 6250.0
+      }
+     ]
+    },
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "filer": "631",
+     "amount": 90305.07,
+     "stations": 35,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 41952.54
+      },
+      {
+       "category": "Black-audience",
+       "amount": 16783.0
+      },
+      {
+       "category": "Country",
+       "amount": 15153.05
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 8204.95
+      },
+      {
+       "category": "Christian",
+       "amount": 3359.36
+      },
+      {
+       "category": "Unclassified",
+       "amount": 2105.66
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1998.76
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 747.75
+      }
+     ]
+    },
+    {
+     "name": "Ray Nagin",
+     "party": "DEM",
+     "filer": "435",
+     "amount": 80033.5,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 66413.6
+      },
+      {
+       "category": "News/Talk",
+       "amount": 6544.5
+      },
+      {
+       "category": "Country",
+       "amount": 3590.4
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 3485.0
+      }
+     ]
+    },
+    {
+     "name": "LA Reform PAC",
+     "party": "OTH",
+     "filer": "309",
+     "amount": 36621.82,
+     "stations": 15,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 34967.82
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1654.0
+      }
+     ]
+    },
+    {
+     "name": "Randy Ewing",
+     "party": "OTH",
+     "filer": "606",
+     "amount": 29578.0,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 11352.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 6620.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 5070.0
+      },
+      {
+       "category": "Country",
+       "amount": 4236.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 2300.0
+      }
+     ]
+    },
+    {
+     "name": "Lydia Jackson",
+     "party": "DEM",
+     "filer": "691",
+     "amount": 25997.48,
+     "stations": 6,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 21902.48
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 2200.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 1895.0
+      }
+     ]
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "filer": "179",
+     "amount": 17731.71,
+     "stations": 8,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 9909.2
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 3330.81
+      },
+      {
+       "category": "News/Talk",
+       "amount": 3254.1
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1122.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 115.6
+      }
+     ]
+    },
+    {
+     "name": "Herbert A. Cade",
+     "party": "DEM",
+     "filer": "546",
+     "amount": 17029.45,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 17029.45
+      }
+     ]
+    },
+    {
+     "name": "Walter Fox McKeithen",
+     "party": "OTH",
+     "filer": "115",
+     "amount": 13810.0,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 13810.0
+      }
+     ]
+    },
+    {
+     "name": "Citizens for Hope Action and New Government for Ev",
+     "party": "OTH",
+     "filer": "778",
+     "amount": 12840.0,
+     "stations": 1,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 12840.0
+      }
+     ]
+    },
+    {
+     "name": "Bobby Simpson",
+     "party": "OTH",
+     "filer": "42",
+     "amount": 12819.0,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "Classic rock & hits",
+       "amount": 5700.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 3115.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1994.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 1010.0
+      },
+      {
+       "category": "Country",
+       "amount": 1000.0
+      }
+     ]
+    },
+    {
+     "name": "Michael W. Neustrom",
+     "party": "DEM",
+     "filer": "30",
+     "amount": 8427.76,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 2238.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 1903.88
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1376.47
+      },
+      {
+       "category": "Christian",
+       "amount": 1256.47
+      },
+      {
+       "category": "Country",
+       "amount": 1152.94
+      },
+      {
+       "category": "Sports",
+       "amount": 500.0
+      }
+     ]
+    },
+    {
+     "name": "David J. Boneno",
+     "party": "OTH",
+     "filer": "319",
+     "amount": 5609.5,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 2699.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 2470.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 237.5
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 203.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cycle": 2007,
+   "years": [
+    2004,
+    2007
+   ],
+   "total": 1513161.49,
+   "categories": [
+    {
+     "category": "Black-audience",
+     "spend": 408708.23,
+     "share": 0.2701
+    },
+    {
+     "category": "News/Talk",
+     "spend": 361974.55,
+     "share": 0.2392
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 345403.22,
+     "share": 0.2283
+    },
+    {
+     "category": "Country",
+     "spend": 174735.79,
+     "share": 0.1155
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 109441.03,
+     "share": 0.0723
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 58487.28,
+     "share": 0.0387
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 20867.71,
+     "share": 0.0138
+    },
+    {
+     "category": "Christian",
+     "spend": 18462.68,
+     "share": 0.0122
+    },
+    {
+     "category": "Sports",
+     "spend": 15081.0,
+     "share": 0.01
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "Bobby Jindal",
+     "party": "REP",
+     "filer": "631",
+     "amount": 265559.19,
+     "stations": 47,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 70808.15
+      },
+      {
+       "category": "Black-audience",
+       "amount": 66976.5
+      },
+      {
+       "category": "News/Talk",
+       "amount": 51019.04
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 44025.75
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 22301.25
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 3681.75
+      },
+      {
+       "category": "Unclassified",
+       "amount": 3459.5
+      },
+      {
+       "category": "Christian",
+       "amount": 1706.25
+      },
+      {
+       "category": "Sports",
+       "amount": 1581.0
+      }
+     ]
+    },
+    {
+     "name": "Walter J. Boasso",
+     "party": "DEM",
+     "filer": "632",
+     "amount": 137434.13,
+     "stations": 15,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 135710.33
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1723.8
+      }
+     ]
+    },
+    {
+     "name": "James Caldwell",
+     "party": "OTH",
+     "filer": "1115",
+     "amount": 120574.12,
+     "stations": 19,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 70299.52
+      },
+      {
+       "category": "News/Talk",
+       "amount": 39005.27
+      },
+      {
+       "category": "Country",
+       "amount": 5180.24
+      },
+      {
+       "category": "Sports",
+       "amount": 5000.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1089.09
+      }
+     ]
+    },
+    {
+     "name": "John Kennedy",
+     "party": "REP",
+     "filer": "123",
+     "amount": 97016.94,
+     "stations": 13,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 60850.0
+      },
+      {
+       "category": "Country",
+       "amount": 22269.94
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 7163.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 3444.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 3290.0
+      }
+     ]
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "filer": "179",
+     "amount": 79129.24,
+     "stations": 23,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 58890.24
+      },
+      {
+       "category": "News/Talk",
+       "amount": 13494.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 3907.75
+      },
+      {
+       "category": "Country",
+       "amount": 1995.75
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 841.5
+      }
+     ]
+    },
+    {
+     "name": "Kathleen Babineaux Blanco",
+     "party": "DEM",
+     "filer": "31",
+     "amount": 61995.0,
+     "stations": 13,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 27989.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 21840.0
+      },
+      {
+       "category": "Country",
+       "amount": 8606.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 1950.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 1610.0
+      }
+     ]
+    },
+    {
+     "name": "LA Conservative Majority PAC (formerly LA Committee for a Republican Majority)",
+     "party": "OTH",
+     "filer": "992",
+     "amount": 61336.81,
+     "stations": 13,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 24590.16
+      },
+      {
+       "category": "News/Talk",
+       "amount": 12644.52
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 11543.53
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 5450.0
+      },
+      {
+       "category": "Christian",
+       "amount": 2779.8
+      },
+      {
+       "category": "Black-audience",
+       "amount": 2648.8
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 1680.0
+      }
+     ]
+    },
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "REP",
+     "filer": "160",
+     "amount": 37980.45,
+     "stations": 10,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 32542.65
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 4380.0
+      },
+      {
+       "category": "Christian",
+       "amount": 1034.0
+      },
+      {
+       "category": "Country",
+       "amount": 23.8
+      }
+     ]
+    },
+    {
+     "name": "Peggy Wilson",
+     "party": "DEM",
+     "filer": "973",
+     "amount": 27542.0,
+     "stations": 2,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 19342.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 8200.0
+      }
+     ]
+    },
+    {
+     "name": "Wayne Carter",
+     "party": "OTH",
+     "filer": "1105",
+     "amount": 22411.35,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 22411.35
+      }
+     ]
+    },
+    {
+     "name": "Nick Congemi",
+     "party": "OTH",
+     "filer": "55",
+     "amount": 18052.63,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 9017.13
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 6931.75
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 2103.75
+      }
+     ]
+    },
+    {
+     "name": "Steven G. (Buzz) Durio",
+     "party": "REP",
+     "filer": "801",
+     "amount": 15019.41,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Pop / AC",
+       "amount": 7598.42
+      },
+      {
+       "category": "News/Talk",
+       "amount": 3938.56
+      },
+      {
+       "category": "Country",
+       "amount": 3482.43
+      }
+     ]
+    },
+    {
+     "name": "Elbert Guillory",
+     "party": "REP",
+     "filer": "1193",
+     "amount": 13564.0,
+     "stations": 2,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 10714.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 2850.0
+      }
+     ]
+    },
+    {
+     "name": "Virginia Boulet",
+     "party": "OTH",
+     "filer": "959",
+     "amount": 12179.2,
+     "stations": 1,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 12179.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cycle": 2011,
+   "years": [
+    2008,
+    2011
+   ],
+   "total": 1058353.99,
+   "categories": [
+    {
+     "category": "News/Talk",
+     "spend": 340906.04,
+     "share": 0.3221
+    },
+    {
+     "category": "Black-audience",
+     "spend": 274126.95,
+     "share": 0.259
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 174564.83,
+     "share": 0.1649
+    },
+    {
+     "category": "Country",
+     "spend": 122116.47,
+     "share": 0.1154
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 43813.26,
+     "share": 0.0414
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 37689.8,
+     "share": 0.0356
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 36725.5,
+     "share": 0.0347
+    },
+    {
+     "category": "Christian",
+     "spend": 21143.0,
+     "share": 0.02
+    },
+    {
+     "category": "Spanish",
+     "spend": 4243.14,
+     "share": 0.004
+    },
+    {
+     "category": "Sports",
+     "spend": 3025.0,
+     "share": 0.0029
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "John L. (Jay) Dardenne",
+     "party": "REP",
+     "filer": "160",
+     "amount": 105978.44,
+     "stations": 15,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 93621.79
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 6982.75
+      },
+      {
+       "category": "Country",
+       "amount": 3564.9
+      },
+      {
+       "category": "Black-audience",
+       "amount": 1309.0
+      },
+      {
+       "category": "Christian",
+       "amount": 500.0
+      }
+     ]
+    },
+    {
+     "name": "LA Conservative Majority PAC (formerly LA Committee for a Republican Majority)",
+     "party": "OTH",
+     "filer": "992",
+     "amount": 92545.4,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 55057.0
+      },
+      {
+       "category": "Country",
+       "amount": 36765.0
+      },
+      {
+       "category": "Christian",
+       "amount": 723.4
+      }
+     ]
+    },
+    {
+     "name": "Marlin Gusman",
+     "party": "DEM",
+     "filer": "323",
+     "amount": 37604.52,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 33244.52
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 2240.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 2120.0
+      }
+     ]
+    },
+    {
+     "name": "New Orleans Recreation PAC, Inc.",
+     "party": "OTH",
+     "filer": "1967",
+     "amount": 33181.18,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 28240.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 2941.18
+      },
+      {
+       "category": "Sports",
+       "amount": 1000.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1000.0
+      }
+     ]
+    },
+    {
+     "name": "John Fenn French",
+     "party": "REP",
+     "filer": "2282",
+     "amount": 25400.9,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 23015.9
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 2385.0
+      }
+     ]
+    },
+    {
+     "name": "Elbert Guillory",
+     "party": "REP",
+     "filer": "1193",
+     "amount": 20908.1,
+     "stations": 6,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 13433.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 4401.4
+      },
+      {
+       "category": "Christian",
+       "amount": 3073.7
+      }
+     ]
+    },
+    {
+     "name": "Allen Lynn Austin",
+     "party": "OTH",
+     "filer": "2025",
+     "amount": 20448.0,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 9888.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 6240.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 4320.0
+      }
+     ]
+    },
+    {
+     "name": "Nadine Ramsey",
+     "party": "DEM",
+     "filer": "1444",
+     "amount": 19466.0,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 17066.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 2400.0
+      }
+     ]
+    },
+    {
+     "name": "Lydia Jackson",
+     "party": "DEM",
+     "filer": "691",
+     "amount": 18374.0,
+     "stations": 2,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 18374.0
+      }
+     ]
+    },
+    {
+     "name": "Gary L. Smith, Jr.",
+     "party": "DEM",
+     "filer": "200",
+     "amount": 17933.0,
+     "stations": 6,
+     "mix": [
+      {
+       "category": "Pop / AC",
+       "amount": 6570.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 6371.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 2850.0
+      },
+      {
+       "category": "Country",
+       "amount": 2142.0
+      }
+     ]
+    },
+    {
+     "name": "John D. Georges",
+     "party": "DEM",
+     "filer": "1071",
+     "amount": 17636.78,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 6966.5
+      },
+      {
+       "category": "News/Talk",
+       "amount": 6521.64
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 2363.0
+      },
+      {
+       "category": "Spanish",
+       "amount": 1097.14
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 688.5
+      }
+     ]
+    },
+    {
+     "name": "Steven G. (Buzz) Durio",
+     "party": "REP",
+     "filer": "801",
+     "amount": 17316.0,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "Pop / AC",
+       "amount": 7310.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 4310.0
+      },
+      {
+       "category": "Country",
+       "amount": 4165.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 1531.0
+      }
+     ]
+    },
+    {
+     "name": "Herbert A. Cade",
+     "party": "DEM",
+     "filer": "546",
+     "amount": 16438.74,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 10492.76
+      },
+      {
+       "category": "News/Talk",
+       "amount": 3459.98
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 2486.0
+      }
+     ]
+    },
+    {
+     "name": "Robert (Bret) Allain",
+     "party": "REP",
+     "filer": "1422",
+     "amount": 16339.31,
+     "stations": 2,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 10075.0
+      },
+      {
+       "category": "Country",
+       "amount": 6264.31
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cycle": 2015,
+   "years": [
+    2012,
+    2015
+   ],
+   "total": 2687743.3,
+   "categories": [
+    {
+     "category": "Black-audience",
+     "spend": 748097.08,
+     "share": 0.2783
+    },
+    {
+     "category": "News/Talk",
+     "spend": 720319.86,
+     "share": 0.268
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 367626.11,
+     "share": 0.1368
+    },
+    {
+     "category": "Country",
+     "spend": 360742.55,
+     "share": 0.1342
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 173118.44,
+     "share": 0.0644
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 117322.26,
+     "share": 0.0437
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 93364.96,
+     "share": 0.0347
+    },
+    {
+     "category": "Christian",
+     "spend": 73014.93,
+     "share": 0.0272
+    },
+    {
+     "category": "Sports",
+     "spend": 25863.11,
+     "share": 0.0096
+    },
+    {
+     "category": "Spanish",
+     "spend": 8274.0,
+     "share": 0.0031
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "filer": "1144",
+     "amount": 368593.52,
+     "stations": 48,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 197733.71
+      },
+      {
+       "category": "Country",
+       "amount": 57417.23
+      },
+      {
+       "category": "News/Talk",
+       "amount": 41836.15
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 36729.21
+      },
+      {
+       "category": "Christian",
+       "amount": 10449.64
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 9539.57
+      },
+      {
+       "category": "Sports",
+       "amount": 7625.2
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 7262.81
+      }
+     ]
+    },
+    {
+     "name": "David Vitter",
+     "party": "REP",
+     "filer": "491",
+     "amount": 163893.56,
+     "stations": 39,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 79853.25
+      },
+      {
+       "category": "Country",
+       "amount": 40274.53
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 18661.75
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 10086.44
+      },
+      {
+       "category": "Sports",
+       "amount": 7055.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 4238.22
+      },
+      {
+       "category": "Christian",
+       "amount": 3017.59
+      },
+      {
+       "category": "Black-audience",
+       "amount": 359.98
+      },
+      {
+       "category": "Unclassified",
+       "amount": 346.8
+      }
+     ]
+    },
+    {
+     "name": "Jeff Landry",
+     "party": "REP",
+     "filer": "1625",
+     "amount": 109044.08,
+     "stations": 19,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 92476.9
+      },
+      {
+       "category": "Country",
+       "amount": 16567.18
+      }
+     ]
+    },
+    {
+     "name": "David Mancuso LA Water Coalition PAC",
+     "party": "OTH",
+     "filer": "3461",
+     "amount": 103668.55,
+     "stations": 23,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 38615.5
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 29852.0
+      },
+      {
+       "category": "Country",
+       "amount": 25103.05
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 8613.05
+      },
+      {
+       "category": "Christian",
+       "amount": 1484.95
+      }
+     ]
+    },
+    {
+     "name": "John F. Young, Jr.",
+     "party": "REP",
+     "filer": "1373",
+     "amount": 88303.95,
+     "stations": 26,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 28128.2
+      },
+      {
+       "category": "News/Talk",
+       "amount": 26675.55
+      },
+      {
+       "category": "Country",
+       "amount": 13962.95
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 9685.75
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 8491.5
+      },
+      {
+       "category": "Sports",
+       "amount": 1360.0
+      }
+     ]
+    },
+    {
+     "name": "Christopher Bruno",
+     "party": "DEM",
+     "filer": "1653",
+     "amount": 81001.33,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 62719.04
+      },
+      {
+       "category": "News/Talk",
+       "amount": 18282.29
+      }
+     ]
+    },
+    {
+     "name": "Mark T. Garber",
+     "party": "REP",
+     "filer": "3446",
+     "amount": 68264.68,
+     "stations": 8,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 17829.87
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 16430.79
+      },
+      {
+       "category": "Black-audience",
+       "amount": 13192.27
+      },
+      {
+       "category": "Country",
+       "amount": 9960.87
+      },
+      {
+       "category": "Sports",
+       "amount": 5876.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 4292.5
+      },
+      {
+       "category": "Christian",
+       "amount": 682.38
+      }
+     ]
+    },
+    {
+     "name": "L. Lane Grigsby, Chairman Empower Louisiana, INC",
+     "party": "OTH",
+     "filer": "3387",
+     "amount": 67643.0,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 61102.25
+      },
+      {
+       "category": "Country",
+       "amount": 6540.75
+      }
+     ]
+    },
+    {
+     "name": "Lloyd J. Medley, Jr.",
+     "party": "DEM",
+     "filer": "499",
+     "amount": 44669.5,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 31358.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 13311.5
+      }
+     ]
+    },
+    {
+     "name": "Nakisha Ervin-Knott",
+     "party": "DEM",
+     "filer": "2109",
+     "amount": 40222.0,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 20854.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 12172.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 7196.0
+      }
+     ]
+    },
+    {
+     "name": "Michael Harson",
+     "party": "DEM",
+     "filer": "1260",
+     "amount": 36511.0,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 12980.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 7600.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 6960.0
+      },
+      {
+       "category": "Christian",
+       "amount": 4491.0
+      },
+      {
+       "category": "Country",
+       "amount": 3360.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1120.0
+      }
+     ]
+    },
+    {
+     "name": "Foster L. Campbell, Jr.",
+     "party": "DEM",
+     "filer": "179",
+     "amount": 36404.32,
+     "stations": 11,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 16171.0
+      },
+      {
+       "category": "Country",
+       "amount": 8610.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 7911.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 3712.32
+      }
+     ]
+    },
+    {
+     "name": "Marlin Gusman",
+     "party": "DEM",
+     "filer": "323",
+     "amount": 33557.7,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 20282.7
+      },
+      {
+       "category": "Black-audience",
+       "amount": 13275.0
+      }
+     ]
+    },
+    {
+     "name": "LA Democrats (formerly Democratic PAC of the Demo. St. Central Comm., DEMOPAC)",
+     "party": "DEM",
+     "filer": "937",
+     "amount": 32134.0,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 32134.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cycle": 2019,
+   "years": [
+    2016,
+    2019
+   ],
+   "total": 4002334.89,
+   "categories": [
+    {
+     "category": "Black-audience",
+     "spend": 1162533.73,
+     "share": 0.2905
+    },
+    {
+     "category": "News/Talk",
+     "spend": 919983.57,
+     "share": 0.2299
+    },
+    {
+     "category": "Country",
+     "spend": 652248.48,
+     "share": 0.163
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 443760.73,
+     "share": 0.1109
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 311658.4,
+     "share": 0.0779
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 233491.37,
+     "share": 0.0583
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 114195.96,
+     "share": 0.0285
+    },
+    {
+     "category": "Sports",
+     "spend": 87978.02,
+     "share": 0.022
+    },
+    {
+     "category": "Christian",
+     "spend": 56573.75,
+     "share": 0.0141
+    },
+    {
+     "category": "Spanish",
+     "spend": 19910.88,
+     "share": 0.005
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "John Bel Edwards",
+     "party": "DEM",
+     "filer": "1144",
+     "amount": 979651.87,
+     "stations": 54,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 592883.67
+      },
+      {
+       "category": "Country",
+       "amount": 124341.85
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 104230.6
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 59424.35
+      },
+      {
+       "category": "News/Talk",
+       "amount": 55026.45
+      },
+      {
+       "category": "Sports",
+       "amount": 20882.8
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 18286.9
+      },
+      {
+       "category": "Christian",
+       "amount": 4575.25
+      }
+     ]
+    },
+    {
+     "name": "Jeff Landry",
+     "party": "REP",
+     "filer": "1625",
+     "amount": 268656.96,
+     "stations": 44,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 93200.8
+      },
+      {
+       "category": "Country",
+       "amount": 67241.75
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 41280.25
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 33054.8
+      },
+      {
+       "category": "Black-audience",
+       "amount": 23158.81
+      },
+      {
+       "category": "Sports",
+       "amount": 5831.0
+      },
+      {
+       "category": "Christian",
+       "amount": 4889.55
+      }
+     ]
+    },
+    {
+     "name": "Citizens Fighting Crime PAC",
+     "party": "OTH",
+     "filer": "4632",
+     "amount": 251743.0,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 100519.0
+      },
+      {
+       "category": "Country",
+       "amount": 100283.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 50353.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 588.0
+      }
+     ]
+    },
+    {
+     "name": "LA Taxpayer Protection PAC",
+     "party": "OTH",
+     "filer": "4123",
+     "amount": 149821.42,
+     "stations": 21,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 44432.49
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 36869.99
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 27361.95
+      },
+      {
+       "category": "Black-audience",
+       "amount": 20921.6
+      },
+      {
+       "category": "News/Talk",
+       "amount": 18538.02
+      },
+      {
+       "category": "Unclassified",
+       "amount": 1697.37
+      }
+     ]
+    },
+    {
+     "name": "LaToya Cantrell",
+     "party": "DEM",
+     "filer": "2536",
+     "amount": 109153.13,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 69778.75
+      },
+      {
+       "category": "News/Talk",
+       "amount": 20593.25
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 12125.25
+      },
+      {
+       "category": "Spanish",
+       "amount": 6655.88
+      }
+     ]
+    },
+    {
+     "name": "Dr. Ralph Abraham",
+     "party": "REP",
+     "filer": "4419",
+     "amount": 105806.07,
+     "stations": 14,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 81705.4
+      },
+      {
+       "category": "Country",
+       "amount": 21218.55
+      },
+      {
+       "category": "Christian",
+       "amount": 2267.87
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 614.25
+      }
+     ]
+    },
+    {
+     "name": "Louisiana Federation for Children Action Fund",
+     "party": "OTH",
+     "filer": "3996",
+     "amount": 82447.0,
+     "stations": 10,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 51150.0
+      },
+      {
+       "category": "Country",
+       "amount": 13182.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 11565.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 6550.0
+      }
+     ]
+    },
+    {
+     "name": "James (Jimmy) Genovese",
+     "party": "REP",
+     "filer": "2961",
+     "amount": 74555.88,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 29309.99
+      },
+      {
+       "category": "News/Talk",
+       "amount": 16671.85
+      },
+      {
+       "category": "Country",
+       "amount": 9661.31
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 8944.85
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 6336.75
+      },
+      {
+       "category": "Christian",
+       "amount": 3631.13
+      }
+     ]
+    },
+    {
+     "name": "Robert Mills",
+     "party": "REP",
+     "filer": "4254",
+     "amount": 59708.24,
+     "stations": 10,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 26518.64
+      },
+      {
+       "category": "News/Talk",
+       "amount": 16065.02
+      },
+      {
+       "category": "Black-audience",
+       "amount": 6780.84
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 6141.94
+      },
+      {
+       "category": "Unclassified",
+       "amount": 3566.4
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 635.4
+      }
+     ]
+    },
+    {
+     "name": "Craig C. Greene",
+     "party": "REP",
+     "filer": "4043",
+     "amount": 51573.6,
+     "stations": 10,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 25773.6
+      },
+      {
+       "category": "Country",
+       "amount": 12900.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 10200.0
+      },
+      {
+       "category": "Sports",
+       "amount": 2700.0
+      }
+     ]
+    },
+    {
+     "name": "American Leadership Committee - Louisiana (ALC - LA)",
+     "party": "OTH",
+     "filer": "5027",
+     "amount": 47592.35,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 45590.6
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 2001.75
+      }
+     ]
+    },
+    {
+     "name": "Cynthia Lee-Sheng",
+     "party": "REP",
+     "filer": "1390",
+     "amount": 47465.0,
+     "stations": 8,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 18685.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 11925.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 6880.0
+      },
+      {
+       "category": "Country",
+       "amount": 6600.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 3375.0
+      }
+     ]
+    },
+    {
+     "name": "Candyce Perret",
+     "party": "REP",
+     "filer": "4028",
+     "amount": 45915.72,
+     "stations": 11,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 17029.73
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 8956.42
+      },
+      {
+       "category": "News/Talk",
+       "amount": 7920.21
+      },
+      {
+       "category": "Christian",
+       "amount": 4433.13
+      },
+      {
+       "category": "Country",
+       "amount": 3066.87
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 2784.19
+      },
+      {
+       "category": "Sports",
+       "amount": 1725.17
+      }
+     ]
+    },
+    {
+     "name": "MOVEMENT FOR CHANGE, INC.",
+     "party": "OTH",
+     "filer": "4993",
+     "amount": 45245.0,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 45245.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cycle": 2023,
+   "years": [
+    2020,
+    2023
+   ],
+   "total": 2143824.39,
+   "categories": [
+    {
+     "category": "News/Talk",
+     "spend": 906123.83,
+     "share": 0.4227
+    },
+    {
+     "category": "Black-audience",
+     "spend": 428855.31,
+     "share": 0.2
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 304070.26,
+     "share": 0.1418
+    },
+    {
+     "category": "Country",
+     "spend": 211867.94,
+     "share": 0.0988
+    },
+    {
+     "category": "Christian",
+     "spend": 82301.31,
+     "share": 0.0384
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 76523.3,
+     "share": 0.0357
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 60822.02,
+     "share": 0.0284
+    },
+    {
+     "category": "Sports",
+     "spend": 36651.25,
+     "share": 0.0171
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 32754.17,
+     "share": 0.0153
+    },
+    {
+     "category": "Spanish",
+     "spend": 3855.0,
+     "share": 0.0018
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "The Northshore Wins, Inc.",
+     "party": "OTH",
+     "filer": "5522",
+     "amount": 231187.0,
+     "stations": 5,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 185715.0
+      },
+      {
+       "category": "Country",
+       "amount": 27255.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 14641.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 3576.0
+      }
+     ]
+    },
+    {
+     "name": "John Schroder",
+     "party": "REP",
+     "filer": "1484",
+     "amount": 133831.55,
+     "stations": 13,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 105884.0
+      },
+      {
+       "category": "Country",
+       "amount": 25591.55
+      },
+      {
+       "category": "Black-audience",
+       "amount": 1500.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 856.0
+      }
+     ]
+    },
+    {
+     "name": "Hunter W. Lundy",
+     "party": "DEM",
+     "filer": "5603",
+     "amount": 106193.37,
+     "stations": 14,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 49993.9
+      },
+      {
+       "category": "Black-audience",
+       "amount": 43426.64
+      },
+      {
+       "category": "Christian",
+       "amount": 12772.83
+      }
+     ]
+    },
+    {
+     "name": "Elizabeth Murrill",
+     "party": "REP",
+     "filer": "5579",
+     "amount": 78256.1,
+     "stations": 10,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 78256.1
+      }
+     ]
+    },
+    {
+     "name": "Marlin Gusman",
+     "party": "DEM",
+     "filer": "323",
+     "amount": 76544.5,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 44369.5
+      },
+      {
+       "category": "Black-audience",
+       "amount": 32175.0
+      }
+     ]
+    },
+    {
+     "name": "Monique Blanco Boulet",
+     "party": "REP",
+     "filer": "6040",
+     "amount": 50650.25,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 19519.4
+      },
+      {
+       "category": "News/Talk",
+       "amount": 10196.6
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 8052.9
+      },
+      {
+       "category": "Country",
+       "amount": 6775.35
+      },
+      {
+       "category": "Sports",
+       "amount": 4692.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 869.55
+      },
+      {
+       "category": "Christian",
+       "amount": 544.45
+      }
+     ]
+    },
+    {
+     "name": "House Democratic Campaign Committee of LA",
+     "party": "OTH",
+     "filer": "939",
+     "amount": 50372.0,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 34222.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 13970.0
+      },
+      {
+       "category": "Sports",
+       "amount": 1320.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 860.0
+      }
+     ]
+    },
+    {
+     "name": "Joshua Slavone Guillory",
+     "party": "OTH",
+     "filer": "4802",
+     "amount": 40214.73,
+     "stations": 9,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 11250.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 9975.0
+      },
+      {
+       "category": "Country",
+       "amount": 5665.0
+      },
+      {
+       "category": "Sports",
+       "amount": 5000.0
+      },
+      {
+       "category": "Cajun / Americana",
+       "amount": 3371.25
+      },
+      {
+       "category": "Black-audience",
+       "amount": 2842.64
+      },
+      {
+       "category": "Christian",
+       "amount": 2110.84
+      }
+     ]
+    },
+    {
+     "name": "LOUISIANA PRO-LIFE AMENDMENT COALITION",
+     "party": "OTH",
+     "filer": "5149",
+     "amount": 36583.0,
+     "stations": 7,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 33885.0
+      },
+      {
+       "category": "Christian",
+       "amount": 2698.0
+      }
+     ]
+    },
+    {
+     "name": "Voters Organized to Educate",
+     "party": "OTH",
+     "filer": "5395",
+     "amount": 35930.0,
+     "stations": 2,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 20900.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 15030.0
+      }
+     ]
+    },
+    {
+     "name": "Warren L. Montgomery",
+     "party": "REP",
+     "filer": "1659",
+     "amount": 34512.5,
+     "stations": 1,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 34512.5
+      }
+     ]
+    },
+    {
+     "name": "John Stefanski",
+     "party": "REP",
+     "filer": "4055",
+     "amount": 31040.06,
+     "stations": 6,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 17047.06
+      },
+      {
+       "category": "News/Talk",
+       "amount": 11205.0
+      },
+      {
+       "category": "Country",
+       "amount": 2338.0
+      },
+      {
+       "category": "Christian",
+       "amount": 450.0
+      }
+     ]
+    },
+    {
+     "name": "William (Billy) Nungesser",
+     "party": "REP",
+     "filer": "1763",
+     "amount": 30174.5,
+     "stations": 8,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 19549.5
+      },
+      {
+       "category": "Black-audience",
+       "amount": 5801.25
+      },
+      {
+       "category": "Country",
+       "amount": 2847.5
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 1976.25
+      }
+     ]
+    },
+    {
+     "name": "Louisiana Free Enterprise PAC",
+     "party": "OTH",
+     "filer": "4171",
+     "amount": 29274.0,
+     "stations": 10,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 15653.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 7071.0
+      },
+      {
+       "category": "Country",
+       "amount": 4390.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 2160.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cycle": 2027,
+   "years": [
+    2024,
+    2026
+   ],
+   "total": 642998.78,
+   "categories": [
+    {
+     "category": "News/Talk",
+     "spend": 244088.34,
+     "share": 0.3796
+    },
+    {
+     "category": "Black-audience",
+     "spend": 182526.65,
+     "share": 0.2839
+    },
+    {
+     "category": "Unclassified (long tail)",
+     "spend": 110104.1,
+     "share": 0.1712
+    },
+    {
+     "category": "Country",
+     "spend": 43242.16,
+     "share": 0.0673
+    },
+    {
+     "category": "Classic rock & hits",
+     "spend": 19642.67,
+     "share": 0.0305
+    },
+    {
+     "category": "Cajun / Americana",
+     "spend": 18365.28,
+     "share": 0.0286
+    },
+    {
+     "category": "Pop / AC",
+     "spend": 12581.55,
+     "share": 0.0196
+    },
+    {
+     "category": "Sports",
+     "spend": 7387.67,
+     "share": 0.0115
+    },
+    {
+     "category": "Christian",
+     "spend": 4010.36,
+     "share": 0.0062
+    },
+    {
+     "category": "Spanish",
+     "spend": 1050.0,
+     "share": 0.0016
+    }
+   ],
+   "top_buyers": [
+    {
+     "name": "New Horizon's USA",
+     "party": "OTH",
+     "filer": "3847",
+     "amount": 77920.0,
+     "stations": 1,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 77920.0
+      }
+     ]
+    },
+    {
+     "name": "Michelle M. Woodfork",
+     "party": "DEM",
+     "filer": "6600",
+     "amount": 57087.0,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 39504.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 17583.0
+      }
+     ]
+    },
+    {
+     "name": "Helena Moreno",
+     "party": "DEM",
+     "filer": "1921",
+     "amount": 43625.0,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 31625.0
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 8125.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 3875.0
+      }
+     ]
+    },
+    {
+     "name": "Sharon Weston Broome",
+     "party": "DEM",
+     "filer": "194",
+     "amount": 37490.0,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 37490.0
+      }
+     ]
+    },
+    {
+     "name": "Oliver Thomas",
+     "party": "DEM",
+     "filer": "5511",
+     "amount": 24660.0,
+     "stations": 6,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 19084.0
+      },
+      {
+       "category": "News/Talk",
+       "amount": 4820.0
+      },
+      {
+       "category": "Sports",
+       "amount": 756.0
+      }
+     ]
+    },
+    {
+     "name": "John Nickelson",
+     "party": "REP",
+     "filer": "4286",
+     "amount": 21425.1,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Country",
+       "amount": 14233.25
+      },
+      {
+       "category": "News/Talk",
+       "amount": 7191.85
+      }
+     ]
+    },
+    {
+     "name": "Brach Myers",
+     "party": "REP",
+     "filer": "5839",
+     "amount": 17594.75,
+     "stations": 4,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 13988.2
+      },
+      {
+       "category": "Sports",
+       "amount": 1530.0
+      },
+      {
+       "category": "Black-audience",
+       "amount": 1324.3
+      },
+      {
+       "category": "Country",
+       "amount": 752.25
+      }
+     ]
+    },
+    {
+     "name": "FIRST PRINCIPLES PAC",
+     "party": "OTH",
+     "filer": "7125",
+     "amount": 17560.0,
+     "stations": 1,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 17560.0
+      }
+     ]
+    },
+    {
+     "name": "John F. Young, Jr.",
+     "party": "REP",
+     "filer": "1373",
+     "amount": 16750.95,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 12294.4
+      },
+      {
+       "category": "Pop / AC",
+       "amount": 4456.55
+      }
+     ]
+    },
+    {
+     "name": "Edward (Ted) James",
+     "party": "DEM",
+     "filer": "2141",
+     "amount": 16590.95,
+     "stations": 2,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 16590.95
+      }
+     ]
+    },
+    {
+     "name": "Matthew Willard",
+     "party": "DEM",
+     "filer": "4943",
+     "amount": 15609.4,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 15609.4
+      }
+     ]
+    },
+    {
+     "name": "CameronPac",
+     "party": "OTH",
+     "filer": "2918",
+     "amount": 13385.0,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 6885.0
+      },
+      {
+       "category": "Classic rock & hits",
+       "amount": 6500.0
+      }
+     ]
+    },
+    {
+     "name": "Hillar Moore",
+     "party": "DEM",
+     "filer": "1287",
+     "amount": 12780.0,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "Black-audience",
+       "amount": 12780.0
+      }
+     ]
+    },
+    {
+     "name": "Foundation PAC",
+     "party": "OTH",
+     "filer": "6399",
+     "amount": 12211.67,
+     "stations": 3,
+     "mix": [
+      {
+       "category": "News/Talk",
+       "amount": 12211.67
+      }
+     ]
     }
    ]
   }

@@ -47,6 +47,15 @@ header h1{font-weight:900; font-size:clamp(38px,6vw,58px); letter-spacing:-.015e
 .ptag.OTH,.ptag.IND,.ptag.LBT,.ptag.GRN{color:var(--muted); border-color:var(--hair);}
 .btag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; font-weight:600; padding:0 4px; border-radius:2px; color:var(--ink2); border:1px solid var(--baseline); flex:none;}
 .btag.new{color:var(--new); border-color:var(--new);}
+.btag.open{color:var(--page); background:var(--ink); border-color:var(--ink);}
+.seatcost{margin:0 0 22px; border:1px solid var(--hair); background:var(--surface); padding:14px 16px;}
+.seatcost h3{font-size:15px; margin:0 0 4px;}
+.seatcost p{margin:4px 0 0; font-size:13.5px; color:var(--ink2); max-width:72ch;}
+.seatcost table{border-collapse:collapse; margin-top:10px; font-size:12.5px; width:100%; max-width:640px;}
+.seatcost th,.seatcost td{border-top:1px solid var(--hair); padding:6px 8px; text-align:right; white-space:nowrap;}
+.seatcost th:first-child,.seatcost td:first-child{text-align:left;}
+.seatcost td{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;}
+.seatcost .scroll{overflow-x:auto;}
 footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
 footer p{margin:0 0 10px; max-width:80ch;}
 
@@ -234,7 +243,7 @@ const past=e=>e.d<DATA.today;
 // ahead of the finance reports and are the only record of federal buys),
 // plus a weight for documents posted lately.
 for(const e of E) for(const r of e.races){
-  r.q=fold(r.o+' '+(r.pa||'')+' '+r.c.map(c=>c.n).join(' '));
+  r.q=fold(r.o+' '+(r.pa||'')+' '+r.c.map(c=>c.n).join(' ')+(r.open?' open seat term-limited':'')+(r.vac?' vacant':''));
   r.money=r.c.reduce((a,c)=>a+(c.r||0)+(c.s||0),0);
   r.air=r.c.reduce((a,c)=>a+Math.max((c.tv||0)+(c.ra||0),c.pf&&c.pf.usd||0)+(c.pf?(c.pf.usd?0:c.pf.docs*1000)+c.pf.recent*5000+c.pf.fresh*20000:0),0);
 }
@@ -335,14 +344,50 @@ function cand(c, e, cast, one){
   const share=(v,of)=>one&&of>0?` · ${(v/of*100).toFixed(1)}%`:'';
   const sub=[c.v!=null&&c.v>0?`<span class="votes">${c.v.toLocaleString('en-US')} votes${share(c.v,cast)}</span>`:'',
              c.pv&&c.pv[0]?`<span class="votes">${c.pv[0].toLocaleString('en-US')} votes${share(c.pv[0],c.pv[1])} on ${dshort(e.runoff)}</span>`:'',
-             c.inc?'won this seat in '+(+e.d.slice(0,4)-4):'', c.last?`last ran for ${esc(c.last[0])}, ${c.last[1]}${c.last[2]?' ('+esc(c.last[2].toLowerCase())+')':''}`:'', c.b>=1000?`includes loans of ${money(c.b)}`:'',
+             c.inc?incLine(c,e):'', c.last?`last ran for ${esc(c.last[0])}, ${c.last[1]}${c.last[2]?' ('+esc(c.last[2].toLowerCase())+')':''}`:'', c.b>=1000?`includes loans of ${money(c.b)}`:'',
              prof?`<a href="${CM}#f=${encodeURIComponent(c.f)}">airtime profile</a>`:'',
              !c.f&&!c.fed?'no state finance report matched':'', c.fed&&!c.fec?'no FEC report matched':''].filter(Boolean).join(' · ');
   const res=won?`<span class="res won">${esc(c.w)}</span>`:thru?`<span class="res thru" title="Advanced to the runoff">Runoff</span>`:lost?`<span class="res">${esc(c.w)}</span>`:'';
   return `<div class="cr${won?' win':''}${lost?' lost':''}">
-    <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Won this office last time">INCUMBENT</span>':''}${res}</span>
+    <span class="nm">${name}<span class="ptag ${c.p}">${c.p}</span>${c.inc?'<span class="btag" title="Holds this office now">INCUMBENT</span>':''}${c.tl?'<span class="btag open" title="Has served the most terms the constitution allows in this chamber: can\'t run for it in 2027">TERM-LIMITED</span>':''}${res}</span>
     ${m(c.r,'Raised')}${m(c.s,'Spent')}${m(c.coh&&c.coh[0],'Cash',c.coh?(c.fec?'as of '+dshort(c.coh[1]):c.coh[1]+' report'):'')}${m(air,'TV + radio',c.tv&&c.ra?money(c.tv)+' TV':'')}
     ${pf}${pfx}${sub?`<span class="sub">${sub}</span>`:''}</div>`;
+}
+// How the incumbent won the seat: 2023 share and margin, unopposed, or a
+// special election since; and the year they first won it, from the roster.
+function incLine(c,e){
+  const y=+e.d.slice(0,4)-4, g=c.mg;
+  let t = g==='unop' ? `elected without opposition in ${y}`
+    : g==='unk' ? `not in the ${y} results: elected without opposition then, or in a special election since`
+    : Array.isArray(g)&&g[0]==='sp' ? `won a special election${g[1]?' in '+g[1]:''}`
+    : Array.isArray(g) ? `won in ${y} with ${g[0]}%, ${g[1]} points ahead${g[2]==='runoff'?' in the runoff':''}`
+    : `won this seat in ${y}`;
+  if(c.since && c.since<y) t+=`; in the seat since ${c.since}`;
+  return t;
+}
+// "August 3–5, 2027"
+const drange=(a,b)=>{ const A=new Date(a+'T12:00'), B=new Date(b+'T12:00');
+  return A.toLocaleDateString('en-US',{month:'long'})+' '+A.getDate()+'–'+(A.getMonth()===B.getMonth()?'':B.toLocaleDateString('en-US',{month:'long'})+' ')+B.getDate()+', '+B.getFullYear(); };
+function calLine(){
+  const C=DATA.cal; if(!C) return '';
+  return ` Qualifying for the October ballot is ${drange(C.qualify[0],C.qualify[1])}. <b>BESE seats go first</b>: closed party primaries on ${dlong(C.bese.primary)} (runoff ${dlong(C.bese.second)}), with qualifying ${drange(C.bese.qualify[0],C.bese.qualify[1])}; the winners meet in the October general. Governor, the other statewide offices and the Legislature stay on the open October primary (<a href="${C.source}">Secretary of State's calendar</a>).`;
+}
+function rosterLine(){
+  const R=DATA.roster; if(!R) return '';
+  return ` Every House and Senate seat is listed from the Legislature's roster (checked ${dshort(R.fetched)}), including the ones won without a vote in 2023: <b>${R.tl.House} House members and ${R.tl.Senate} senators are term-limited</b>, so those seats will be open${R.vacant.House+R.vacant.Senate?`, and ${R.vacant.House+R.vacant.Senate} ${R.vacant.House+R.vacant.Senate===1?'is':'are'} vacant now`:''}. Other offices won without opposition in 2023 aren't in the Secretary of State's results and may be missing.`;
+}
+// What a contested House or Senate seat cost the last two times.
+function seatCost(e){
+  const C=DATA.seatCost; if(!C||S.q||S.pa||S.m||(S.t&&S.t!=='Legislative')) return '';
+  const ys=Object.keys(C).sort();
+  const cell=v=>v?money(v):'–';
+  const rows=[];
+  for(const ch of ['House','Senate']) for(const y of ys){ const x=C[y][ch]; if(!x) continue;
+    rows.push(`<tr><td>${ch} ${y}</td><td>${x.contested.n}</td><td>${cell(x.contested.winner)}</td><td>${cell(x.contested.winner75)}</td><td>${cell(x.close.winner)}</td><td>${x.close.n}</td></tr>`); }
+  return `<div class="seatcost"><h3>What a contested legislative seat costs</h3>
+    <p>What winners of contested House and Senate races spent over the four-year cycle, from their own reports. "Close" races were decided by under 10 points or in a runoff. A benchmark for what a 2027 candidate's raising so far means.</p>
+    <div class="scroll"><table><thead><tr><th>Chamber</th><th>Contested races</th><th>Winner, median</th><th>Winner, top quarter</th><th>Close races, median winner</th><th>Close races</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>
+    <p style="font-size:12px;color:var(--muted)">Winners matched to a state filer: ${ys.map(y=>['House','Senate'].map(ch=>C[y][ch]?`${C[y][ch].contested.matched} of ${C[y][ch].contested.n} ${ch} ${y}`:'').filter(Boolean).join(', ')).join('; ')}. Unmatched winners are left out rather than counted as zero.</p></div>`;
 }
 function footnote(r, done){
   if(!W||r.t==='Federal') return '';
@@ -394,8 +439,8 @@ function card(r, e){
   const one=r.el===1&&n(/elect/i)<=1&&n(/runoff/i)<=2&&!(e.runoff&&r.c.length>2);
   const sorted=[...r.c].sort((a,b)=>(b.v||0)-(a.v||0)||(b.pv?b.pv[0]:0)-(a.pv?a.pv[0]:0)||((b.s||0)+(b.r||0))-((a.s||0)+(a.r||0))||a.n.localeCompare(b.n));
   return `<article class="race${S.r===r.id?' open':''}" id="race-${esc(r.id)}">
-    <div class="rh"><h3><a href="${link}">${esc(r.o)}</a></h3><span class="tags">${r.t}${r.el>1&&!e.scaffold?` · elect ${r.el}`:''}${r.pa?' · '+esc(r.pa)+' Parish':r.k.length||r.t==='Statewide'?'':' · multi-parish'} ${mk}</span></div>
-    ${outcome(r,e)}<div class="cands">${head}${sorted.map(c=>cand(c,e,cast,one)).join('')}</div>${outside(r)}${footnote(r,past(e)&&r.c.some(c=>c.w))}</article>`;
+    <div class="rh"><h3><a href="${link}">${esc(r.o)}</a>${r.open?` <span class="btag open" title="${r.vac?'Vacant now':'The incumbent is term-limited'}">OPEN SEAT</span>`:''}</h3><span class="tags">${r.t}${r.el>1&&!e.scaffold?` · elect ${r.el}`:''}${r.pa?' · '+esc(r.pa)+' Parish':r.k.length||r.t==='Statewide'?'':' · multi-parish'} ${mk}</span></div>
+    ${outcome(r,e)}<div class="cands">${head}${sorted.map(c=>cand(c,e,cast,one)).join('')}${r.vac?'<div class="cr"><span class="nm">Vacant</span></div>':''}</div>${outside(r)}${footnote(r,past(e)&&r.c.some(c=>c.w))}</article>`;
 }
 
 /* ---------- feed: the political files' last few days ---------- */
@@ -475,7 +520,7 @@ function render(jump){
   const nc=rs.reduce((a,r)=>a+r.c.length,0);
   cnt.textContent=`${rs.length.toLocaleString('en-US')} ${e.scaffold?'office':e.runoff?'runoff':'race'}${rs.length===1?'':'s'} · ${nc.toLocaleString('en-US')} ${e.scaffold?'incumbent':'candidate'}${nc===1?'':'s'}`+(rs.length>S.n?` · showing ${S.n}`:'');
   out.innerHTML=(e.runoff?`<p class="empty" style="margin-top:0">The Secretary of State hasn't posted the ${dlong(e.d)} ballot yet. These are the races the ${dlong(e.runoff)} results sent to a runoff, with the candidates who advanced and their votes that day; the cards switch to the posted ballot once it's up.</p>`:'')
-    +(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices contested four years earlier, each with the candidate who won it and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.</p>`:'')
+    +(e.scaffold?`<p class="empty" style="margin-top:0">Qualifying for ${dlong(e.d)} hasn't happened yet, so there's no ballot. These are the offices up, each with whoever holds it now and their money so far this cycle; the cards switch to the real ballot once the Secretary of State posts it.${calLine()}${rosterLine()} Search <b>open seat</b> to see only those.</p>${seatCost(e)}`:'')
     +(rs.length?rs.slice(0,S.n).map(r=>card(r,e)).join(''):'<p class="empty">No races match.</p>')
     +(rs.length>S.n?`<button type="button" class="morebtn" id="more">Show ${Math.min(60,rs.length-S.n)} more</button>`:'');
   const mo=document.getElementById('more'); if(mo) mo.addEventListener('click',()=>{S.n+=60; render();});
