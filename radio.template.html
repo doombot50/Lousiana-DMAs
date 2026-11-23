@@ -143,6 +143,11 @@ table.st{border-collapse:collapse; width:100%; table-layout:fixed; min-width:600
 footer{margin-top:70px; border-top:1px solid var(--hair); padding-top:18px; font-size:13px; color:var(--muted); font-family:Archivo,system-ui,sans-serif;}
 #tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--page); font-family:Archivo,system-ui,sans-serif; font-size:12px; line-height:1.45; padding:7px 10px; border-radius:3px; max-width:260px; z-index:10; opacity:0; transition:opacity .12s;}
 @media(prefers-reduced-motion:reduce){#tip{transition:none;}}
+.chips{display:flex; gap:6px; flex-wrap:wrap; margin:22px 0 0;}
+.chips button{font:600 12px/1 Archivo,system-ui,sans-serif; padding:7px 11px; border:1px solid var(--hair); background:var(--surface); color:var(--ink2); border-radius:999px; cursor:pointer;}
+.chips button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--page);}
+.chips button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.cycnote{font-family:Archivo,system-ui,sans-serif; font-size:12.5px; color:var(--ink2); margin:10px 0 0;}
 </style>
 
 <div class="wrap">
@@ -168,6 +173,8 @@ __NAV__
   <p class="seclabel">The dial</p>
   <h2>{{top_share_words}} of it buys {{top_short}}</h2>
   <p class="intro">Group the stations by what they broadcast and one bucket {{top_verb}}: <b>{{top_long}} take <span id="bshare">{{top_share}}</span> of all radio spending</b> — {{top_vs_next}}, the next largest. On television no comparable split exists, because a TV station sells one undifferentiated audience to everybody. Radio sells specific audiences, and Louisiana campaigns have spent a quarter-century buying one in particular.</p>
+  <div class="chips" id="cycchips" role="group" aria-label="Show a cycle"></div>
+  <p class="cycnote" id="cycnote"></p>
   <div class="panel fmt" id="fmtchart"></div>
   <p class="cap">“Black-audience” groups the formats the radio industry itself markets as reaching Black listeners — urban contemporary, urban adult contemporary, gospel, and brokered Black talk. It is a description of programming and of how airtime is sold, not of any station's or listener's politics.</p>
 </section>
@@ -176,6 +183,7 @@ __NAV__
   <p class="seclabel">The fingerprint</p>
   <h2>Every campaign's radio buy is a targeting statement</h2>
   <p class="intro">Break each committee's spending down by format and the strategy is legible without a single poll. <b>John Bel Edwards</b> put <b>{{edwards_b}}</b> of his radio money into Black-audience stations; <b>Kathleen Blanco {{blanco_b}}</b>; <b>Walter Boasso {{boasso_b}}</b>. <b>Jeff Landry</b> put <b>{{landry_t}}</b> into news/talk, and the conservative Citizens Fighting Crime PAC split its money <b>{{cfc_t}}/{{cfc_c}} between talk and country</b>. The exception proves the rule: <b>Bobby Jindal</b> bought all of it — {{jindal_mix}} — the radio signature of a candidate assembling a landslide rather than a base.</p>
+  <p class="cycnote" id="mixnote"></p>
   <div class="panel mix" id="mixchart"></div>
   <p class="cap">Each bar is one committee's radio spending, divided by format. Party comes from the filing, corrected where Louisiana files a PAC as <span class="mono">OTH</span> or a filing states the wrong party — the same corrections as the TV page. Hover a segment for the dollar figure.</p>
 </section>
@@ -325,8 +333,38 @@ document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toL
     `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
 }
 
+/* ---------- cycle switch: format chart + buyers for one cycle or all ---------- */
+let CYC='all';
+function cycleView(){
+  if(CYC==='all') return {total:TOTAL, ordered, buyers:DATA.buyers, label:'all years'};
+  const c=DATA.cycles.find(x=>String(x.cycle)===CYC);
+  const bk={}; for(const b of BUCKETS) bk[b.k]={spend:0,stations:0};
+  for(const x of c.categories){ const k=BUCKET_OF[x.category]; if(k) bk[k].spend+=x.spend; }
+  // station counts per bucket aren't split by cycle; show the all-years count
+  for(const b of BUCKETS) bk[b.k].stations=bucket[b.k].stations;
+  const ord=BUCKETS.map(b=>({...b,...bk[b.k]})).filter(b=>b.spend>0);
+  const yrs=c.years[0]+'–'+c.years[1];
+  return {total:c.total, ordered:ord, buyers:c.buyers,
+          label: c.cycle===2027 ? `the 2027 cycle so far (${yrs})` : `the ${c.cycle} cycle (${yrs})`};
+}
+function drawCycle(){
+  const V=cycleView();
+  const ch=document.getElementById('cycchips');
+  ch.innerHTML=[['all','All years'],...[...DATA.cycles].reverse().map(c=>[String(c.cycle), c.cycle===2027?'2027 so far':String(c.cycle)])]
+    .map(([k,l])=>`<button type="button" data-k="${k}" aria-pressed="${k===CYC}">${l}</button>`).join('');
+  ch.querySelectorAll('button').forEach(b=>b.onclick=()=>{ CYC=b.dataset.k;
+    history.replaceState(null,'',CYC==='all'?location.pathname+location.search:'#cy='+CYC); drawCycle(); });
+  const blk=V.ordered.find(b=>b.k==='Black-audience'), talk=V.ordered.find(b=>b.k==='News/Talk');
+  document.getElementById('cycnote').textContent = CYC==='all'
+    ? 'The paragraph above describes every year since 2000. Pick a cycle to see how the mix has moved.'
+    : `${money(V.total)} in ${V.label}: Black-audience formats ${pct((blk?blk.spend:0)/V.total)}, news/talk ${pct((talk?talk.spend:0)/V.total)}. A cycle is the four years ending in a governor's race.`;
+  document.getElementById('mixnote').textContent = CYC==='all' ? '' : `The biggest radio buyers in ${V.label}. The paragraph above describes all years.`;
+  drawFormats(V); drawMix(V);
+}
+
 /* ---------- format chart ---------- */
-{
+function drawFormats(V){
+  const TOTAL=V.total, ordered=V.ordered;
   const rows=[...ordered].sort((a,b)=>b.spend-a.spend);
   const {ticks,top}=niceTicks(rows[0].spend*1.14);
   const sc=v=>v/top*100;
@@ -334,7 +372,7 @@ document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toL
     <div class="grid"><div class="gridlines">${ticks.map(t=>`<i style="left:${sc(t)}%"></i>`).join('')}</div>`;
   for(const r of rows){
     const w=sc(r.spend);
-    const sub=r.k==='Unclassified' ? `${r.stations} small stations` : `${r.stations} stations · ${pct(r.spend/TOTAL)} of all radio`;
+    const sub=CYC!=='all' ? `${pct(r.spend/TOTAL)} of the cycle's radio` : r.k==='Unclassified' ? `${r.stations} small stations` : `${r.stations} stations · ${pct(r.spend/TOTAL)} of all radio`;
     h+=`<div class="row" data-b="${r.k}"><div class="lbl"><span class="nm">${r.label}</span><span class="sub">${sub}</span></div>
       <div class="zone"><div class="bar" style="width:${w}%;background:${cv(r.k)}"></div>
       <span class="val" style="left:calc(${w}% + 8px)">${money(r.spend)}</span></div></div>`;
@@ -348,11 +386,12 @@ document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toL
 }
 
 /* ---------- buyer mix ---------- */
-{
+function drawMix(V){
+  const ordered=V.ordered;
   const legend=ordered.filter(b=>b.k!=='Unclassified')
     .map(b=>`<span><i style="background:${cv(b.k)}"></i>${b.label}</span>`).join('');
   let h=`<div class="legend">${legend}</div>`;
-  for(const b of DATA.buyers){
+  for(const b of V.buyers){
     const roll={};
     for(const m of b.mix){ const k=BUCKET_OF[m.category]; if(!k) continue; roll[k]=(roll[k]||0)+m.amount; }
     const segs=BUCKETS.filter(x=>roll[x.k]>0);
@@ -370,6 +409,8 @@ document.getElementById('medbuy').textContent='$'+Math.round(DATA.medianBuy).toL
     s.addEventListener('mouseleave',hideTip);
   }
 }
+{ const m=location.hash.match(/cy=(\d{4})/); if(m && DATA.cycles.some(c=>String(c.cycle)===m[1])) CYC=m[1]; }
+drawCycle();
 
 /* ---------- retail ---------- */
 {

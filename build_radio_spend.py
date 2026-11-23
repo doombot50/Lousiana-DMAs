@@ -44,7 +44,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from filings import (GOV_YEARS, cache_files, corrections_applied,  # noqa: E402
+from filings import (GOV_YEARS, cache_files, corrections_applied, cycle_of,  # noqa: E402
                       find_cache, norm, party_of, scan, write_committees)
 
 # Call signs that are also television stations — see rule 3 above.
@@ -90,6 +90,9 @@ def builder(args, files):
     rejected_collisions = defaultdict(float)               # kept for disclosure
     tv_sister_radio = defaultdict(float)
     year_tot = defaultdict(float)
+    unclassified_year = defaultdict(float)                 # the tail, by year
+    buyer_cat_cy = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))  # filer -> cycle -> cat -> $
+    buyer_st_cy = defaultdict(lambda: defaultdict(set))    # filer -> cycle -> {call}
 
     t0 = time.time()
 
@@ -120,6 +123,7 @@ def builder(args, files):
                 hits.add(c)
             elif marked and c not in known:
                 unclassified[c] += amt
+                unclassified_year[yr] += amt
             elif not marked and not short:
                 rejected_collisions[c] += amt
 
@@ -144,6 +148,8 @@ def builder(args, files):
                 cat = ref[c]['category'] if c in ref else 'Unclassified'
                 buyer_cat[fn][cat] += share
                 buyer_year[fn][yr] += share
+                buyer_cat_cy[fn][cycle_of(yr)][cat] += share
+                buyer_st_cy[fn][cycle_of(yr)].add(c)
 
     def finish(scanned, latest):
         def bname(fn):
@@ -204,6 +210,34 @@ def builder(args, files):
                                'stations': sum(1 for c in by_buyer if fn in by_buyer[c]),
                                'mix': [{'category': k, 'amount': round(v, 2)} for k, v in mix]})
 
+        # The same format and buyer breakdowns, one per statewide cycle (the four
+        # years closing in a governor's race), so the page can show 2023 or the
+        # 2027 cycle so far instead of a quarter-century blended together.
+        cyc_cat = defaultdict(lambda: defaultdict(float))
+        for c, yrs in by_year.items():
+            cat = ref[c]['category'] if c in ref else 'Unclassified (long tail)'
+            for y, v in yrs.items():
+                cyc_cat[cycle_of(y)][cat] += v
+        for y, v in unclassified_year.items():
+            cyc_cat[cycle_of(y)]['Unclassified (long tail)'] += v
+        cycles = []
+        for cy in sorted(cyc_cat):
+            tot = sum(cyc_cat[cy].values())
+            if tot <= 0:
+                continue
+            ranked = sorted(((fn, sum(m[cy].values())) for fn, m in buyer_cat_cy.items() if cy in m),
+                            key=lambda x: -x[1])[:args.top]
+            cycles.append({
+                'cycle': cy, 'years': [cy - 3, min(cy, max(year_tot))], 'total': round(tot, 2),
+                'categories': [{'category': k, 'spend': round(v, 2), 'share': round(v / tot, 4)}
+                               for k, v in sorted(cyc_cat[cy].items(), key=lambda x: -x[1])],
+                'top_buyers': [{'name': bname(fn), 'party': bparty(fn), 'filer': fn, 'amount': round(a, 2),
+                                'stations': len(buyer_st_cy[fn][cy]),
+                                'mix': [{'category': k, 'amount': round(v, 2)} for k, v in
+                                        sorted(buyer_cat_cy[fn][cy].items(), key=lambda x: -x[1])]}
+                               for fn, a in ranked],
+            })
+
         years = sorted(year_tot)
         doc = {
             'generated': time.strftime('%Y-%m-%d'),
@@ -233,6 +267,7 @@ def builder(args, files):
                         'share': round(v['spend'] / total, 4) if total else 0}
                        for k, v in sorted(owners.items(), key=lambda x: -x[1]['spend'])],
             'top_buyers': top_buyers,
+            'cycles': cycles,
             'caveats': {
                 'classified_share': round(classified / total, 4) if total else 0,
                 'unclassified_station_shaped': {'amount': round(tail_amt, 2),

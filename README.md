@@ -162,6 +162,12 @@ Radio is not the TV page with new call signs, because the analysis inverts:
   Black-audience stations, Blanco 70%, Boasso 99%; Landry put 48% into
   news/talk and Citizens Fighting Crime PAC split 40/40 talk and country.
   Jindal is the exception — he bought everything.
+- **The mix moves cycle to cycle.** The format chart and the buyers each carry a
+  cycle switch (all years, or one of the four-year cycles ending in a governor's
+  race, `radio.html#cy=2023`), built from the `cycles` block of
+  `radio_spend.json`. The prose stays on all years; the line under the switch
+  states the chosen cycle's own split. In the 2023 cycle news/talk took 42% and
+  Black-audience formats 20%, the reverse of the long-run picture.
 - **Retail politics shows up.** The median station's buy is **$1,372** against
   $4,221 on TV, and KVPI in Ville Platte (classic country + Cajun French) has
   taken money from **62 committees at $246 a spot** — sheriffs and school-board
