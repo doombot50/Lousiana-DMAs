@@ -359,6 +359,27 @@ races in 2019 and 2023, and in close races (under 10 points or a runoff),
 from `seat_costs()` in `build_races_page.py`, for reading a 2027 candidate's
 money so far.
 
+## The outside groups
+
+`players.html` profiles the money that isn't a candidate's: every filer the
+Ethics Board registers as a political committee that spent at least $300,000
+in the 2019 or 2023 cycle, or $100,000 so far in 2027 (about 150). Pick a
+cycle and each group shows what it spent, split three ways (to candidates
+and committees, to airtime and media buyers, everything else), with a bar
+per cycle. Open one for raised, spent, TV and radio by cycle, the
+candidates and committees it backed most, and the firms it hired most.
+Groups are sorted into *air war* (40%+ to airtime), *giver* (half or more
+to candidates and committees), *party & caucus*, and *mixed*; filters and
+the open group live in the URL (`players.html#cy=2019&k=air&g=3354`).
+
+`build_players_page.py` takes each group's cycle totals from
+la-campaign-finance's per-filer index and reads its expenditures (2012 on)
+for the split: a payee matched to a Louisiana filer, or named like a
+federal, party or out-of-state committee, is backing; a station, cable or
+digital seller or media-buying firm is airtime. People paid as individuals
+are never listed by name, and banks, hotels, taxes and fees stay off the
+hired list (their dollars still count).
+
 ## Rebuild the spending data
 
 `build_spend.py` recomputes every dollar figure from the raw filings, running
@@ -375,6 +396,7 @@ python3 fetch_cache.py                              # ~47MB, 2000 → this year
 python3 build_spend.py                              # TV + radio data; auto-finds ./.la_cache
 python3 build_page.py && python3 build_radio_page.py
 python3 build_races_page.py && python3 build_committees_page.py   # races first: profiles link to it
+python3 build_players_page.py                       # the outside groups
 python3 -m unittest discover -s tests               # the regression tests
 ```
 
@@ -403,7 +425,8 @@ needs hand-editing when the calendar turns.
   two-output publish step every page uses; `prose.py` — the phrases the copy
   is built from.
 - `build_page.py`, `build_radio_page.py`, `build_committees_page.py`,
-  `build_races_page.py` — one per page, each from its `*.template.html`.
+  `build_races_page.py`, `build_players_page.py` — one per page, each from
+  its `*.template.html`.
 - `fetch_ballot.py` — the Secretary of State's coming ballots (the races
   page), run nightly; `fetch_fec.py` — the FEC's House and Senate campaign
   totals (the races page's federal candidates), run nightly; `fcc/find_cable.py` — the cable systems serving

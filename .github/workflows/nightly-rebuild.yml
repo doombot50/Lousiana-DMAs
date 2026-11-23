@@ -203,6 +203,7 @@ jobs:
           python3 build_radio_page.py
           python3 build_races_page.py
           python3 build_committees_page.py
+          python3 build_players_page.py
 
       # The document reader (read-documents.yml) may have pushed documents
       # while this ran: fold its copy of data/fcc_documents.json into ours
