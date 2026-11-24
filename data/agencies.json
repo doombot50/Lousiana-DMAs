@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "data_through": "2026-11-20",
  "cycle_from": 2023,
- "documents_read": 7636,
+ "documents_read": 7645,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -5975,6 +5975,72 @@
    }
   },
   {
+   "key": "WILLIAMSCREATIVE",
+   "name": "Williams Creative Group",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 30,
+    "priced": 11,
+    "usd": 85435,
+    "stations": [
+     "KDKS",
+     "KEEL",
+     "KLKL",
+     "KMJJ",
+     "KMSS",
+     "KOKA",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KVKI",
+     "KXKS"
+    ],
+    "clients": [
+     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
+     "Tom Arceneaux for Shreveport Mayor",
+     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
+     "Arceneaux/R/Mayor",
+     "m Downtown Shreveport Development Corporation",
+     "m Tom Arceneaux for Mayor",
+     "Pol26/Tom Arceneux for Mayor",
+     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
+     "Deven tote, Speen t Mrveleppenp Coryota Hon"
+    ],
+    "first": "2026-09-30",
+    "last": "2026-11-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 79824,
+    "media": 0,
+    "rows": 9,
+    "media_cycle": 0,
+    "cycle": 79824,
+    "years": {
+     "2025": 6235,
+     "2026": 73589
+    },
+    "committees": 1,
+    "top": [
+     {
+      "f": "5573",
+      "n": "M. Thomas (\"Tom\") Arceneaux",
+      "p": "REP",
+      "usd": 79824,
+      "cycle": 79824
+     }
+    ],
+    "spellings": [
+     "WILLIAMS CREATIVE GROUP"
+    ]
+   }
+  },
+  {
    "key": "CHANNELONEDIGITAL",
    "name": "Channel One Digital",
    "found_by": "filings",
@@ -6393,70 +6459,6 @@
      "WIN PARTNERS",
      "WIN PARTNERS  LLC",
      "WIN PARTNERS, LLC"
-    ]
-   }
-  },
-  {
-   "key": "WILLIAMSCREATIVE",
-   "name": "Williams Creative Group",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 28,
-    "priced": 9,
-    "usd": 71960,
-    "stations": [
-     "KDKS",
-     "KEEL",
-     "KLKL",
-     "KMJJ",
-     "KMSS",
-     "KOKA",
-     "KSLA",
-     "KTAL",
-     "KVKI",
-     "KXKS"
-    ],
-    "clients": [
-     "Tom Arceneaux/Mayor of Shreveport/LA/Rep",
-     "Deven haters Shp ev lpr? Myvelopyu tae Corpora P10K",
-     "Arceneaux/R/Mayor",
-     "m Downtown Shreveport Development Corporation",
-     "Tom Arceneaux for Shreveport Mayor",
-     "m Tom Arceneaux for Mayor",
-     "Pol26/Tom Arceneux for Mayor",
-     "Deven tote Shrevlpert weveloprwems Corporatio C O86",
-     "Deven tote, Speen t Mrveleppenp Coryota Hon"
-    ],
-    "first": "2026-09-30",
-    "last": "2026-11-17",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 79824,
-    "media": 0,
-    "rows": 9,
-    "media_cycle": 0,
-    "cycle": 79824,
-    "years": {
-     "2025": 6235,
-     "2026": 73589
-    },
-    "committees": 1,
-    "top": [
-     {
-      "f": "5573",
-      "n": "M. Thomas (\"Tom\") Arceneaux",
-      "p": "REP",
-      "usd": 79824,
-      "cycle": 79824
-     }
-    ],
-    "spellings": [
-     "WILLIAMS CREATIVE GROUP"
     ]
    }
   },
@@ -20276,6 +20278,48 @@
    }
   },
   {
+   "key": "LEMENDWAERSAVI4SFWULCL",
+   "name": "Lemend WA ERS Avi 4 Sf WU, LCL",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KADN"
+    ],
+    "clients": [],
+    "first": "2026-11-23",
+    "last": "2026-11-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LLWAHILLAMSCRCATNEGRPDIOBEMENTKUDSIETESMEVEPAYUCTNDH",
+   "name": "LlwahillamsCrcatne Grp, dio Bement Kud Sie te, SMevepay Uctndh",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KPXJ"
+    ],
+    "clients": [],
+    "first": "2026-11-23",
+    "last": "2026-11-23",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
    "key": "LOWAERSENAUERTISINGCOO",
    "name": "Lowa ERSen AUER TISING, COO",
    "found_by": "political file",
@@ -20704,11 +20748,12 @@
    "name": "RiseUp Media & Marketing Solutions",
    "found_by": "political file",
    "fcc": {
-    "docs": 1,
+    "docs": 2,
     "priced": 0,
     "usd": 0,
     "stations": [
-     "KQXL"
+     "KQXL",
+     "WEMX"
     ],
     "clients": [
      "Let It Resound"

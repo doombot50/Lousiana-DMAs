@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-23T22:40:52Z",
+ "scraped": "2026-11-24T07:03:13Z",
  "years": [
   2026,
   2027
@@ -13,7 +13,7 @@
    "facility_id": "71357",
    "root_folder": "5cd0d281-3fcf-899c-d65a-5250cfc77f16",
    "profile": "tv-profile/wdsu",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "76a89b1c-f6e9-d931-aec1-d149e929e860",
     "2018": "3b27de73-dbec-c2f6-65ec-a0e18b0417f3",
@@ -88,6 +88,15 @@
     "Political Files/2026/State": "cce1dd58-e007-2b03-412c-8c4072310944"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Daniel Seuzeneau",
+     "name": "Daniel Seuzeneau 11-24 to 12-11",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:24:50-05:00",
+     "folder_id": "d95e8405-cac2-e11f-dea5-f0de725a7e26",
+     "file_id": "127891d6-16f1-b858-b597-05ceec0d1733",
+     "file_manager_id": "5518df02-7bea-49c7-9fdd-09c1be9f0db2"
+    },
     {
      "path": "Political Files/2026/Local/Marko Marjanovic",
      "name": "Marko Marjanovic 10-31 to 11-2",
@@ -3697,7 +3706,7 @@
    "facility_id": "4149",
    "root_folder": "2e0e449c-8ef9-5176-c2f9-fd95853238e4",
    "profile": "tv-profile/wvue-dt",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "3c4466ac-e017-f933-8b1e-14328701d47e",
     "2018": "01e320a0-7717-eb11-ad80-a5e2204ff500",
@@ -20117,7 +20126,7 @@
    "facility_id": "38616",
    "root_folder": "e7b17d62-7092-2fac-19d3-86391be87b48",
    "profile": "tv-profile/wbrz-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "59f0e199-f0a4-a3a9-0f26-2e194e2aa680",
     "2018": "edbeb72d-c0c1-838f-8e41-1860fe3eb605",
@@ -23008,7 +23017,7 @@
    "facility_id": "70021",
    "root_folder": "4c3899ce-a1b4-75b8-f141-0ef22e4dcde8",
    "profile": "tv-profile/wvla-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2015": "0775bb15-1bdc-248e-5fbb-417544a134fd",
     "2017": "f6854619-0b70-88f1-8f5c-d65ddcaa3d29",
@@ -25273,7 +25282,7 @@
    "facility_id": "12520",
    "root_folder": "cd9cc7d7-41e2-81ce-26ec-da3e530f17aa",
    "profile": "tv-profile/wgmb-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "35ad5814-c815-5b93-f71f-0c6a7bd0206d",
     "2018": "1c8bcdf6-e74c-0ee1-03ac-a7dad45e3b71",
@@ -27293,7 +27302,7 @@
    "facility_id": "24976",
    "root_folder": "a146d1bc-3544-e8b6-814b-ecd38c265a62",
    "profile": "tv-profile/wbrl-cd",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2018": "14a0bf1e-d465-870b-7247-1ab28226555b",
     "2019": "789bf9f1-7cbc-d252-b4ac-25a24543e1f4",
@@ -27782,7 +27791,7 @@
    "facility_id": "35652",
    "root_folder": "1f09d425-ebf2-ac3b-ac66-e21e9f0d29b5",
    "profile": "tv-profile/ktbs-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "5d48fdc4-598f-ced1-d930-348ba57ab492",
     "2018": "ab97ab3d-0af9-1b15-71ed-fe2a74956731",
@@ -28005,7 +28014,10 @@
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 17553": "fd24f48e-b860-2569-eb90-8ee772566b7f",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 19974": "8bd0957c-2e2f-d99c-093c-e79468316f0c",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 19974 REV 1": "134780da-1b0b-bf57-9f2d-626df5c4e61b",
+    "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 19974 REV 2": "8dfc98bc-c73a-736d-3785-5edf576842bc",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 20603": "0146f891-330c-441e-e39c-eddf4bd593e4",
+    "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 20603 REV 1": "0b9fc005-47bd-da48-5102-037aec8f2fcf",
+    "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 20896": "8fc28d2e-8056-d7d3-bea7-eee3222bc23a",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 17553": "3d4d3d6d-ee98-239a-1fab-a38754c699d7",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 19974": "90431450-50d2-22e9-15e5-00417185928d",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 19974 REV 1": "2fc0fd92-8cd7-ea3c-3b4e-f75580aba71f",
@@ -28014,6 +28026,7 @@
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 19974 REV 4": "50d63616-b3c3-0abb-a1e7-b050ded6985e",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 19974 REV 5": "d859a933-8824-9610-753d-4b7e9f539309",
     "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 20603": "4b5bd7ea-100a-6fef-36e3-658ef752d66c",
+    "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 20896": "890ac549-3caa-d5c6-f6ae-290d4fe9f07c",
     "Political Files/2026/Non-Candidate Issue Ads": "09ae6c46-4eb7-6a4b-6bc3-f0f86d0c9a44",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project": "2692a811-7b89-caa1-fd6f-c43c2b50dbac",
     "Political Files/2026/Non-Candidate Issue Ads/Accountability Project/ORDER - 18889": "a9ec3f33-193c-9b41-5a4d-74d918c87057",
@@ -28429,6 +28442,42 @@
     "Political Files/2026/State/Texas State Representative/Josh Bray/PB - 17328": "d9fa19b5-c6ce-355f-79b3-9285019376e1"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/PB - 20896",
+     "name": "20261123150744185",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T15:54:51-05:00",
+     "folder_id": "890ac549-3caa-d5c6-f6ae-290d4fe9f07c",
+     "file_id": "3858bf65-7c50-2397-6b01-0c0fa0191227",
+     "file_manager_id": "aa8129d9-da59-49db-b7ea-c9054efe1128"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 20896",
+     "name": "20261123150736670",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T15:54:13-05:00",
+     "folder_id": "8fc28d2e-8056-d7d3-bea7-eee3222bc23a",
+     "file_id": "f53320e3-37a2-4516-c483-1398c20ca30a",
+     "file_manager_id": "5476973d-8a53-408f-9c8a-3ce8b2ab5e42"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 19974 REV 2",
+     "name": "20261123150717888",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T15:52:19-05:00",
+     "folder_id": "8dfc98bc-c73a-736d-3785-5edf576842bc",
+     "file_id": "43424446-8012-73a6-b702-75433b8a42e3",
+     "file_manager_id": "4ba094db-c0f9-4f34-9948-b10c3dbd6da0"
+    },
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux/Order - 20603 REV 1",
+     "name": "20261123150707028",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T15:51:16-05:00",
+     "folder_id": "0b9fc005-47bd-da48-5102-037aec8f2fcf",
+     "file_id": "58e777ee-7786-3f0d-8870-87c8c37f60e9",
+     "file_manager_id": "595f1734-262b-4e34-afd9-42d5f2273953"
+    },
     {
      "path": "Political Files/2026/Local/Shreveport Mayor/Stormy Gage-Watts/PB - 20864",
      "name": "20261119143306623",
@@ -33622,7 +33671,7 @@
    "facility_id": "70482",
    "root_folder": "d199c42f-0c80-38bd-7e45-eb2cbd824d95",
    "profile": "tv-profile/ksla",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "158fbf22-b91d-c99c-593d-e341b1311546",
     "2018": "19c3b1b9-8df3-0d98-2751-cf6acf62c22a",
@@ -33690,6 +33739,15 @@
     "Political Files/2026/Terms and Disclosures": "0f4526ed-667b-d1b2-24fe-4f1820724fdc"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Shreveport Mayor/Tom Arceneaux for Shreveport Mayor",
+     "name": "KSLA Tom Arceneaux for SHV Mayor Re-Election Run Off Contract #4636916",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:05:23-05:00",
+     "folder_id": "e4ca411d-0388-a70a-ee0f-43f8a93732d7",
+     "file_id": "11d9a582-2e52-752e-fedc-8ebc639b9bfd",
+     "file_manager_id": "adef1ace-92c5-4d6e-a857-07cfcf1adaf5"
+    },
     {
      "path": "Political Files/2026/Local/Shreveport Mayor/Stormy Gage-Watts for Shreveport Mayor",
      "name": "KSLA Stormy Gage-Watts for Shreveport Mayor Contract#4632320",
@@ -38271,7 +38329,7 @@
    "facility_id": "35648",
    "root_folder": "1d2faa8f-dcdf-c3ae-30b6-318a597f63f6",
    "profile": "tv-profile/ktal-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2015": "1290354b-37ed-2506-6327-71a65f3f62d1",
     "2017": "9f8a4ff0-b532-2a09-f783-b7c653fdd2f6",
@@ -38357,6 +38415,15 @@
     "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices": "ce10e076-770f-10bd-876c-6309e7f98925"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Tom Arceneaux for Mayor-Shreveport LA",
+     "name": "KTAL Tom Arceneaux for Mayor Order 5470287",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T12:45:07-05:00",
+     "folder_id": "5e2a2cef-08f2-50ac-0642-cece408c5c88",
+     "file_id": "8ec448ab-43d0-18e3-88d3-530fdaca9a35",
+     "file_manager_id": "f363c32b-b9c0-4e6f-ab8f-d8d1339ca398"
+    },
     {
      "path": "Political Files/2026/State/Dan Patrick-Lieutenant Governor-Texas/Invoices",
      "name": "KTAL Texans for Dan Patrick Est 730 Nov Invoice 5452029-2",
@@ -44324,7 +44391,7 @@
    "facility_id": "12525",
    "root_folder": "8e93018b-e543-90b5-cc23-f40ab090b8f1",
    "profile": "tv-profile/kmss-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "011f22e4-c809-e471-a979-09ede48e3665",
     "2018": "45749cb3-e592-3f45-adfa-714a2df86d17",
@@ -44388,6 +44455,15 @@
     "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices": "824c60b1-2877-430e-a923-84c5db0f37a2"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Tom Arceneaux for Mayor-Shreveport LA",
+     "name": "KMSS Tom Arceneaux for Mayor Order 5470325",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T12:45:50-05:00",
+     "folder_id": "97714b74-9012-7635-c964-2d7a8944c38a",
+     "file_id": "d17a3e56-2b95-09e3-f34c-b61c89fc72b6",
+     "file_manager_id": "0f982d18-c754-4d29-ba42-4eb1a10d54fe"
+    },
     {
      "path": "Political Files/2026/State/Texans for Greg Abbott-Governor/Invoices",
      "name": "KMSS Texans for Greg Abbott Est 8266 Nov Invoice5415109-3",
@@ -48474,7 +48550,7 @@
    "facility_id": "81507",
    "root_folder": "45e8e38c-6f5e-a398-1391-4c30782c1ba2",
    "profile": "tv-profile/kpxj",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "57488a89-2d49-2c54-a64e-735c5e56e738",
     "2018": "b9f0fdd6-d253-b0de-60e7-ed6352b922c8",
@@ -48582,6 +48658,9 @@
     "Political Files/2026/Local/Mayor of Shreveport/Tammy Phelps/PB - 20514": "9e3fbf3f-247c-c968-e264-ef43626d5bef",
     "Political Files/2026/Local/Mayor of Shreveport/Tammy Phelps/PB - 20526": "2e67c781-e886-48c4-6b0e-0275e30e44a2",
     "Political Files/2026/Local/Mayor of Shreveport/Tammy Phelps/PB - 20597": "561ae39a-3e1b-c757-311b-8f363063b704",
+    "Political Files/2026/Local/Mayor of Shreveport/Tom Arceneaux": "b023f3be-fbbd-6800-e461-36941c16aa57",
+    "Political Files/2026/Local/Mayor of Shreveport/Tom Arceneaux/Order - 20897": "106f9567-e714-2417-f077-416794ee1bc7",
+    "Political Files/2026/Local/Mayor of Shreveport/Tom Arceneaux/PB - 20897": "05a68540-2df2-c578-c18a-19603c33253d",
     "Political Files/2026/Local/Shreveport City Court Judge": "699ec64c-7e92-9834-fac2-7d15f11f7991",
     "Political Files/2026/Local/Shreveport City Court Judge/Kharmen Davis-Taylor": "a5a4abff-6d3d-e606-b51d-567bfd378156",
     "Political Files/2026/Local/Shreveport City Court Judge/Kharmen Davis-Taylor/Order - 20589": "46ce7913-3dae-75a9-0b69-e6cbcd59c5a7",
@@ -48710,6 +48789,24 @@
     "Political Files/2026/State/Texas Governor/Greg Abbott/PB - 20573": "a7c7a68d-e4a2-0468-9ffb-38f257b21026"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/Mayor of Shreveport/Tom Arceneaux/PB - 20897",
+     "name": "20261123150810207",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T16:03:52-05:00",
+     "folder_id": "05a68540-2df2-c578-c18a-19603c33253d",
+     "file_id": "a3a822e6-c8f0-f221-ac1b-c8ee1eea5f42",
+     "file_manager_id": "5c6e956b-c075-48f3-b1d2-f0e6f81bcefa"
+    },
+    {
+     "path": "Political Files/2026/Local/Mayor of Shreveport/Tom Arceneaux/Order - 20897",
+     "name": "20261123150802893",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T16:03:26-05:00",
+     "folder_id": "106f9567-e714-2417-f077-416794ee1bc7",
+     "file_id": "50a3d562-8f34-d823-6953-06472ca849d8",
+     "file_manager_id": "5ce4c22d-34fc-4b95-8698-f29dd5f6cedf"
+    },
     {
      "path": "Political Files/2026/Local/Mayor of Shreveport/Stormy Gage Watts/PB - 20830",
      "name": "20261113155222566",
@@ -51491,7 +51588,7 @@
    "facility_id": "33471",
    "root_folder": "ba750660-00ba-44ff-3e1d-8bd512e6caf1",
    "profile": "tv-profile/katc",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "65a68f9d-910d-9253-02dd-dbd81014b13b",
     "2018": "37d6049a-0dbc-dfd8-51d8-096a3aaf2e4f",
@@ -51530,6 +51627,51 @@
     "Political Files/2026/Non-Candidate Issue Ads/Maga Energy Project": "7fde5a6e-707c-accc-923c-9e046267ad64"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/COMMITTEE TO ELECT JAMES KLOCK FOR CITY JUDGE",
+     "name": "JAMES KLOCK KLAF REV1-4636982",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:52:27-05:00",
+     "folder_id": "c6f57d85-2761-05d0-b69b-bf3dcf743482",
+     "file_id": "f6495be4-4742-421c-e0c0-add9d3ea7015",
+     "file_manager_id": "a507933d-636b-4e07-a89b-13c6f791e062"
+    },
+    {
+     "path": "Political Files/2026/Local/COMMITTEE TO ELECT JAMES KLOCK FOR CITY JUDGE",
+     "name": "JAMES KLOCK NAB",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:36:20-05:00",
+     "folder_id": "c6f57d85-2761-05d0-b69b-bf3dcf743482",
+     "file_id": "fa1d1298-b596-cb5c-b1c4-4ff257ef3806",
+     "file_manager_id": "f88f7a5c-3d5e-4685-b496-792548b560dc"
+    },
+    {
+     "path": "Political Files/2026/Local/COMMITTEE TO ELECT JAMES KLOCK FOR CITY JUDGE",
+     "name": "JAMES KLOCK KADN 4636953",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:30:58-05:00",
+     "folder_id": "c6f57d85-2761-05d0-b69b-bf3dcf743482",
+     "file_id": "d818f385-3394-26f0-2924-33ebd834026c",
+     "file_manager_id": "c51f56ab-ad99-4ba2-b581-7caaf39d3492"
+    },
+    {
+     "path": "Political Files/2026/Local/COMMITTEE TO ELECT JAMES KLOCK FOR CITY JUDGE",
+     "name": "JAMES KLOCK KATC 4637000",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:30:58-05:00",
+     "folder_id": "c6f57d85-2761-05d0-b69b-bf3dcf743482",
+     "file_id": "87d26cb2-ec55-1818-41ec-fd63fb1955ad",
+     "file_manager_id": "7489066b-9a15-44f7-8f27-b4e6a7f364bb"
+    },
+    {
+     "path": "Political Files/2026/Local/COMMITTEE TO ELECT JAMES KLOCK FOR CITY JUDGE",
+     "name": "JAMES KLOCK KLAF 4636982",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:30:58-05:00",
+     "folder_id": "c6f57d85-2761-05d0-b69b-bf3dcf743482",
+     "file_id": "e66d7848-ea49-1e1a-a880-b447c5bca5fa",
+     "file_manager_id": "13ad86e5-8481-4fe1-95ad-eeeac7dfcf4f"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/Accountability Project Inc  Del Cielo Media",
      "name": "KATC-ACCOUNTABILITY PROJECT-4608837-3 REVISION",
@@ -54482,7 +54624,7 @@
    "facility_id": "35059",
    "root_folder": "897e717c-c665-e9f9-cc1e-c4bbdb2aa3a1",
    "profile": "tv-profile/klfy-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2017": "1ae3e6af-2c1e-09e8-8025-7f46f61bf27c",
     "2018": "a0c6359b-88c1-6581-88f6-ab34189d913d",
@@ -56625,7 +56767,7 @@
    "facility_id": "33261",
    "root_folder": "50121c5f-0768-c8cc-38e2-f0ff3c3b001f",
    "profile": "tv-profile/kadn-tv",
-   "scraped_at": "2026-11-23T03:48:04Z",
+   "scraped_at": "2026-11-24T07:00:37Z",
    "year_folders": {
     "2014": "1fa666b2-7ce8-334f-6290-190da5d32431",
     "2015": "fc6694ff-c901-7496-9f7d-9fa96893c6a6",
@@ -56652,6 +56794,7 @@
     "Political Files/2026/Local": "93846577-1541-0087-f5d5-a52a16acdcb0",
     "Political Files/2026/Local/Don Landry DA 15th Judicial District of LA": "bd55e0a3-8ddb-8552-11b4-63373746f981",
     "Political Files/2026/Local/Eric Knight Mayor Campaign": "f27fa5d8-6ba8-b6f4-be18-b296697eaa9f",
+    "Political Files/2026/Local/JAMES KLOCK LAF CITY COURT CAMPAIGN": "aa03fad2-259b-837a-8ba8-6c6f1224aecc",
     "Political Files/2026/Local/SUSAN THEALL TO RELECT FAMILY COURT": "0e45a0eb-d502-2147-cfd8-e618f6c4629d",
     "Political Files/2026/Local/The Kristain Earles Campaign": "154d9505-ebe1-01b3-c0e6-6bc3d8a62d91",
     "Political Files/2026/Local/The committee to elect David Way for District Judge": "6e44b196-2b89-f452-9478-31bb9ad4e4fd",
@@ -56663,6 +56806,51 @@
     "Political Files/2026/Non-Candidate Issue Ads/MAGA ENERGY PROJECT": "0d163a6b-67ae-ba18-e174-20684ac1b2a3"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Local/JAMES KLOCK LAF CITY COURT CAMPAIGN",
+     "name": "JAMES KLOCK KLAF REV1-4636982",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:53:05-05:00",
+     "folder_id": "aa03fad2-259b-837a-8ba8-6c6f1224aecc",
+     "file_id": "74c96994-7794-a8ff-c911-b3030604abe7",
+     "file_manager_id": "5077692f-fafe-4fd9-958c-9793974cdec3"
+    },
+    {
+     "path": "Political Files/2026/Local/JAMES KLOCK LAF CITY COURT CAMPAIGN",
+     "name": "JAMES KLOCK NAB",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:35:42-05:00",
+     "folder_id": "aa03fad2-259b-837a-8ba8-6c6f1224aecc",
+     "file_id": "13011209-78a7-d255-285d-6250b66196e0",
+     "file_manager_id": "9ef9c3d8-58f9-4395-8c26-6aef12202fc3"
+    },
+    {
+     "path": "Political Files/2026/Local/JAMES KLOCK LAF CITY COURT CAMPAIGN",
+     "name": "JAMES KLOCK KADN 4636953",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:35:05-05:00",
+     "folder_id": "aa03fad2-259b-837a-8ba8-6c6f1224aecc",
+     "file_id": "1edbdb50-c5d1-d0d5-2d0b-8437b8b251e5",
+     "file_manager_id": "e6f98ec6-4d6b-45bc-9252-8a4e8d37f159"
+    },
+    {
+     "path": "Political Files/2026/Local/JAMES KLOCK LAF CITY COURT CAMPAIGN",
+     "name": "JAMES KLOCK KATC 4637000",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:35:04-05:00",
+     "folder_id": "aa03fad2-259b-837a-8ba8-6c6f1224aecc",
+     "file_id": "e1cae43e-51ab-a128-4890-267c524beab3",
+     "file_manager_id": "d0f7f4b2-302f-49ad-8f23-867ad394b5bb"
+    },
+    {
+     "path": "Political Files/2026/Local/JAMES KLOCK LAF CITY COURT CAMPAIGN",
+     "name": "JAMES KLOCK KLAF 4636982",
+     "ext": "pdf",
+     "uploaded": "2026-11-23T17:35:04-05:00",
+     "folder_id": "aa03fad2-259b-837a-8ba8-6c6f1224aecc",
+     "file_id": "59e8bb23-66d7-e1c0-ae28-11739ae37396",
+     "file_manager_id": "130e8935-499d-470e-a501-b3d7cebc6024"
+    },
     {
      "path": "Political Files/2026/Non-Candidate Issue Ads/ACCOUNTABLIITY PROJECT INC",
      "name": "KADN-ACCOUNTABILITY PROJECT-4613001",
@@ -70207,33 +70395,33 @@
  ],
  "blocked": null,
  "attempted": {
-  "KADN": "2026-11-23T03:48:04Z",
+  "KADN": "2026-11-24T07:00:37Z",
   "KALB": "2026-11-23T22:39:13Z",
   "KARD": "2026-11-23T22:39:13Z",
-  "KATC": "2026-11-23T03:48:04Z",
+  "KATC": "2026-11-24T07:00:37Z",
   "KLAX": "2026-11-23T22:39:13Z",
-  "KLFY": "2026-11-23T03:48:04Z",
-  "KMSS": "2026-11-23T03:48:04Z",
+  "KLFY": "2026-11-24T07:00:37Z",
+  "KMSS": "2026-11-24T07:00:37Z",
   "KNOE": "2026-11-23T22:39:13Z",
   "KPLC": "2026-11-23T22:39:13Z",
-  "KPXJ": "2026-11-23T03:48:04Z",
-  "KSLA": "2026-11-23T03:48:04Z",
-  "KTAL": "2026-11-23T03:48:04Z",
-  "KTBS": "2026-11-23T03:48:04Z",
+  "KPXJ": "2026-11-24T07:00:37Z",
+  "KSLA": "2026-11-24T07:00:37Z",
+  "KTAL": "2026-11-24T07:00:37Z",
+  "KTBS": "2026-11-24T07:00:37Z",
   "KTVE": "2026-11-23T22:39:13Z",
   "KVHP": "2026-11-23T22:39:13Z",
   "WAFB": "2026-11-23T22:39:13Z",
-  "WBRL-CD": "2026-11-23T03:48:04Z",
-  "WBRZ": "2026-11-23T03:48:04Z",
-  "WDSU": "2026-11-23T03:48:04Z",
-  "WGMB": "2026-11-23T03:48:04Z",
+  "WBRL-CD": "2026-11-24T07:00:37Z",
+  "WBRZ": "2026-11-24T07:00:37Z",
+  "WDSU": "2026-11-24T07:00:37Z",
+  "WGMB": "2026-11-24T07:00:37Z",
   "WGNO": "2026-11-23T22:39:13Z",
   "WLAE": "2026-11-23T22:39:13Z",
   "WNOL": "2026-11-23T22:39:13Z",
   "WNTZ": "2026-11-23T22:39:13Z",
   "WUPL": "2026-11-23T22:39:13Z",
-  "WVLA": "2026-11-23T03:48:04Z",
-  "WVUE": "2026-11-23T03:48:04Z",
+  "WVLA": "2026-11-24T07:00:37Z",
+  "WVUE": "2026-11-24T07:00:37Z",
   "WWL-TV": "2026-11-23T22:39:13Z"
  }
 }
