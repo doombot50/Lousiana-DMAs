@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-24",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1508656,
+ "rows_scanned": 1508723,
  "data_through": "2026-11-20",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 121538464.43,
+ "total_spend": 121638464.43,
  "pace": {
   "weeks": [
    -104,
@@ -786,14 +786,14 @@
      1267211.5,
      1316240.25,
      1320490.25,
-     1456064.75,
-     1538971.87,
-     1671090.87,
-     1671090.87,
-     1729839.32,
-     1729839.32,
-     1733864.07,
-     1733864.07
+     1506064.75,
+     1588971.87,
+     1721090.87,
+     1771090.87,
+     1829839.32,
+     1829839.32,
+     1833864.07,
+     1833864.07
     ]
    }
   ],
@@ -802,7 +802,7 @@
  "recent_buyers": {
   "since": "2025-11-21",
   "through": "2026-11-20",
-  "total": 1612622.07,
+  "total": 1712622.07,
   "committees": 33,
   "top": [
    {
@@ -818,6 +818,13 @@
     "filer": "1314",
     "amount": 332281.75,
     "last_buy": "2026-05-15"
+   },
+   {
+    "name": "JUSTICE PAC",
+    "party": "OTH",
+    "filer": "6596",
+    "amount": 125000.0,
+    "last_buy": "2026-10-22"
    },
    {
     "name": "Hillar Moore",
@@ -881,13 +888,6 @@
     "filer": "6897",
     "amount": 33668.5,
     "last_buy": "2026-10-01"
-   },
-   {
-    "name": "Marko Marjanovic",
-    "party": "OTH",
-    "filer": "7515",
-    "amount": 33595.0,
-    "last_buy": "2026-10-14"
    }
   ]
  },
@@ -1014,8 +1014,8 @@
    "dma_rank_2024_25": 95,
    "owner": "Gray Media",
    "owner_group": "gray",
-   "spend": 13103491.15,
-   "rows": 660,
+   "spend": 13178491.15,
+   "rows": 662,
    "committees": 164,
    "first_year": 2000,
    "last_year": 2026,
@@ -1042,7 +1042,7 @@
     "2023": 1638820.93,
     "2024": 330848.26,
     "2025": 91904.0,
-    "2026": 141058.25
+    "2026": 216058.25
    },
    "top_committees": [
     {
@@ -1466,8 +1466,8 @@
    "dma_rank_2024_25": 95,
    "owner": "Louisiana Television Broadcasting",
    "owner_group": "local",
-   "spend": 8831993.82,
-   "rows": 681,
+   "spend": 8856993.82,
+   "rows": 683,
    "committees": 167,
    "first_year": 2000,
    "last_year": 2026,
@@ -1495,7 +1495,7 @@
     "2023": 1250550.55,
     "2024": 262906.05,
     "2025": 88678.75,
-    "2026": 115977.25
+    "2026": 140977.25
    },
    "top_committees": [
     {
@@ -4112,28 +4112,28 @@
    "rank": 50,
    "spend": 40796573.2,
    "stations": 7,
-   "share": 0.3357
+   "share": 0.3354
   },
   {
    "name": "Baton Rouge",
    "rank": 95,
-   "spend": 24736089.29,
+   "spend": 24836089.29,
    "stations": 5,
-   "share": 0.2035
+   "share": 0.2042
   },
   {
    "name": "Lafayette",
    "rank": 124,
    "spend": 18854902.48,
    "stations": 4,
-   "share": 0.1551
+   "share": 0.155
   },
   {
    "name": "Shreveport",
    "rank": 91,
    "spend": 16196421.04,
    "stations": 5,
-   "share": 0.1333
+   "share": 0.1332
   },
   {
    "name": "Monroe–El Dorado",
@@ -4147,7 +4147,7 @@
    "rank": 177,
    "spend": 6766348.84,
    "stations": 3,
-   "share": 0.0557
+   "share": 0.0556
   },
   {
    "name": "Alexandria",
@@ -4160,27 +4160,27 @@
  "owners": [
   {
    "group": "gray",
-   "spend": 57776028.12,
+   "spend": 57851028.12,
    "stations": 10,
-   "share": 0.4754
+   "share": 0.4756
   },
   {
    "group": "nexstar",
    "spend": 37016829.31,
    "stations": 13,
-   "share": 0.3046
+   "share": 0.3043
   },
   {
    "group": "local",
-   "spend": 15605776.84,
+   "spend": 15630776.84,
    "stations": 3,
-   "share": 0.1284
+   "share": 0.1285
   },
   {
    "group": "hearst",
    "spend": 10217274.82,
    "stations": 1,
-   "share": 0.0841
+   "share": 0.084
   },
   {
    "group": "other",

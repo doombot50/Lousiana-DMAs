@@ -123315,6 +123315,27 @@
    "name_kind": "aired",
    "read_at": "2026-10-28T02:44:31Z"
   },
+  "bd08d83a-0c38-4069-acca-b2896c2ff420": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "loshua",
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "radio",
+   "call": "KMLB",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "KMLB SS Emergency Response Orders 11-24-26",
+   "uploaded": "2026-11-24T14:54:10-05:00",
+   "name_kind": "order",
+   "read_at": "2026-11-24T21:18:15Z"
+  },
   "bd0a6ef3-9f9e-4061-8726-de3aa2f483df": {
    "kind": "order",
    "layout": "order",
@@ -131963,6 +131984,27 @@
    "name_kind": "other",
    "read_at": "2026-10-26T17:56:42Z"
   },
+  "ca35acf2-3366-488e-be7f-787950423048": {
+   "kind": "other",
+   "layout": "other",
+   "gross": null,
+   "net": null,
+   "agency": null,
+   "advertiser": null,
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "text",
+   "media": "tv",
+   "call": "WGNO",
+   "path": "Political Files/2026/Local/St Tammany Parish/Sheriff/Daniel Seuzeneau",
+   "name": "WGNO Seuzeneau NAB 11-23-26",
+   "uploaded": "2026-11-24T12:01:32-05:00",
+   "name_kind": "request",
+   "read_at": "2026-11-24T21:18:00Z"
+  },
   "ca3a31fb-2b4a-47ed-a4de-dc9f5c494ce6": {
    "kind": "request",
    "layout": "nab",
@@ -136924,6 +136966,27 @@
    "uploaded": "2026-04-10T12:16:22-04:00",
    "name_kind": "request",
    "read_at": "2026-10-27T02:27:03Z"
+  },
+  "d06a773b-424a-46f3-ab6a-3505463d4b1f": {
+   "kind": "request",
+   "layout": "nab",
+   "gross": null,
+   "net": null,
+   "agency": "RiseUp Media & Marketing Solutions, LLC",
+   "advertiser": "Let It Resound",
+   "order_no": null,
+   "invoice_no": null,
+   "flight": null,
+   "reissue": null,
+   "status": "read",
+   "via": "ocr",
+   "media": "radio",
+   "call": "WXOK",
+   "path": "Political Files/2026/Non-Candidate Issue Ads",
+   "name": "NET214751-LET IT RESOUND",
+   "uploaded": "2026-11-23T08:09:48-05:00",
+   "name_kind": "other",
+   "read_at": "2026-11-24T21:18:15Z"
   },
   "d06b5b49-08e3-4571-8f53-62d3240f35aa": {
    "kind": "order",
@@ -166770,6 +166833,6 @@
   }
  },
  "source": "FCC political-file documents (publicfiles.fcc.gov), read with pdftotext",
- "updated": "2026-11-24T07:12:52Z",
+ "updated": "2026-11-24T21:18:41Z",
  "blocked": null
 }

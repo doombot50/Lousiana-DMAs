@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-24",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1508656,
+ "rows_scanned": 1508723,
  "data_through": "2026-11-20",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13236509.13,
+ "total_spend": 13237209.13,
  "gov_year_share": 0.5444,
  "by_year": {
   "2000": 27912.25,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 165179.31
+  "2026": 165879.31
  },
  "stations": [
   {
@@ -1850,10 +1850,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 104708.17,
-   "rows": 191,
+   "spend": 105408.17,
+   "rows": 193,
    "committees": 40,
-   "avg_buy": 548.21,
+   "avg_buy": 546.16,
    "by_year": {
     "2003": 1925.0,
     "2007": 13003.8,
@@ -1873,7 +1873,7 @@
     "2023": 8301.0,
     "2024": 8825.0,
     "2025": 4625.0,
-    "2026": 2775.0
+    "2026": 3475.0
    },
    "top_committees": [
     {
@@ -4266,7 +4266,7 @@
    ]
   }
  ],
- "classified_spend": 11190840.48,
+ "classified_spend": 11191540.48,
  "unclassified_tail": {
   "amount": 2045668.65,
   "stations": 254,
@@ -4293,11 +4293,11 @@
   },
   {
    "category": "Country",
-   "spend": 1643718.85,
+   "spend": 1644418.85,
    "stations": 12,
-   "rows": 1310,
+   "rows": 1312,
    "committees": 266,
-   "avg_buy": 1254.75,
+   "avg_buy": 1253.37,
    "share": 0.1242
   },
   {
@@ -4369,13 +4369,13 @@
    "owner": "iHeartMedia",
    "spend": 3140439.71,
    "stations": 11,
-   "share": 0.2373
+   "share": 0.2372
   },
   {
    "owner": "Local",
-   "spend": 2250707.76,
+   "spend": 2251407.76,
    "stations": 23,
-   "share": 0.17
+   "share": 0.1701
   },
   {
    "owner": "Audacy",
@@ -7335,27 +7335,27 @@
     2024,
     2026
    ],
-   "total": 642998.78,
+   "total": 643698.78,
    "categories": [
     {
      "category": "News/Talk",
      "spend": 244088.34,
-     "share": 0.3796
+     "share": 0.3792
     },
     {
      "category": "Black-audience",
      "spend": 182526.65,
-     "share": 0.2839
+     "share": 0.2836
     },
     {
      "category": "Unclassified (long tail)",
      "spend": 110104.1,
-     "share": 0.1712
+     "share": 0.171
     },
     {
      "category": "Country",
-     "spend": 43242.16,
-     "share": 0.0673
+     "spend": 43942.16,
+     "share": 0.0683
     },
     {
      "category": "Classic rock & hits",
@@ -7365,12 +7365,12 @@
     {
      "category": "Cajun / Americana",
      "spend": 18365.28,
-     "share": 0.0286
+     "share": 0.0285
     },
     {
      "category": "Pop / AC",
      "spend": 12581.55,
-     "share": 0.0196
+     "share": 0.0195
     },
     {
      "category": "Sports",
@@ -7626,7 +7626,7 @@
    "note": "in the total and shown as its own bucket, but absent from the format breakdown"
   },
   "name_collisions_rejected": {
-   "amount": 9144425.19,
+   "amount": 9219425.19,
    "examples": [
     "WORD",
     "WEST",

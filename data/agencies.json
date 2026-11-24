@@ -2,7 +2,7 @@
  "generated": "2026-11-24",
  "data_through": "2026-11-20",
  "cycle_from": 2023,
- "documents_read": 7645,
+ "documents_read": 7648,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -3167,9 +3167,9 @@
    },
    "paid": {
     "total": 1378631,
-    "media": 112617,
+    "media": 110147,
     "rows": 316,
-    "media_cycle": 98774,
+    "media_cycle": 96304,
     "cycle": 496333,
     "years": {
      "2002": 2587,
@@ -3339,11 +3339,11 @@
     }
    },
    "paid": {
-    "total": 1665095,
+    "total": 1686576,
     "media": 226930,
-    "rows": 157,
+    "rows": 159,
     "media_cycle": 44044,
-    "cycle": 535268,
+    "cycle": 556749,
     "years": {
      "2015": 307335,
      "2017": 450,
@@ -3355,9 +3355,9 @@
      "2023": 279577,
      "2024": 61028,
      "2025": 15150,
-     "2026": 179514
+     "2026": 200994
     },
-    "committees": 22,
+    "committees": 23,
     "top": [
      {
       "f": "7714",
@@ -3393,6 +3393,13 @@
       "p": "OTH",
       "usd": 22500,
       "cycle": 22500
+     },
+     {
+      "f": "8223",
+      "n": "Keep St Tammany Safe and Strong PAC",
+      "p": "OTH",
+      "usd": 21481,
+      "cycle": 21481
      },
      {
       "f": "5773",
@@ -3455,13 +3462,6 @@
       "n": "Ben Zahn",
       "p": "REP",
       "usd": 75865,
-      "cycle": 0
-     },
-     {
-      "f": "4582",
-      "n": "Tracey Powell",
-      "p": "REP",
-      "usd": 45916,
       "cycle": 0
      }
     ],
@@ -5677,11 +5677,11 @@
    "name": "The Political Firm",
    "found_by": "filings",
    "paid": {
-    "total": 12520429,
+    "total": 12531364,
     "media": 2516552,
-    "rows": 2450,
+    "rows": 2454,
     "media_cycle": 109066,
-    "cycle": 2143416,
+    "cycle": 2154350,
     "years": {
      "2006": 175561,
      "2007": 750890,
@@ -5702,7 +5702,7 @@
      "2023": 1038555,
      "2024": 296265,
      "2025": 156890,
-     "2026": 651707
+     "2026": 662641
     },
     "committees": 184,
     "top": [
@@ -6463,6 +6463,178 @@
    }
   },
   {
+   "key": "GAGLIANO",
+   "name": "Gagliano Group, The",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 6,
+    "priced": 5,
+    "usd": 53305,
+    "stations": [
+     "WVUE",
+     "WWL-TV"
+    ],
+    "clients": [
+     "Sherman Mack / R / District Attorney / LA",
+     "Mack for District Attorney"
+    ],
+    "first": "2026-09-21",
+    "last": "2026-11-03",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 2278045,
+    "media": 94426,
+    "rows": 552,
+    "media_cycle": 21835,
+    "cycle": 707010,
+    "years": {
+     "2000": 692,
+     "2001": 2178,
+     "2002": 3399,
+     "2003": 47207,
+     "2007": 2983,
+     "2009": 5668,
+     "2010": 32308,
+     "2011": 224006,
+     "2012": 24041,
+     "2013": 21522,
+     "2014": 235017,
+     "2015": 133654,
+     "2016": 20315,
+     "2017": 25198,
+     "2018": 91742,
+     "2019": 406981,
+     "2020": 159009,
+     "2021": 33261,
+     "2022": 101855,
+     "2023": 286497,
+     "2024": 52570,
+     "2025": 32800,
+     "2026": 335143
+    },
+    "committees": 60,
+    "top": [
+     {
+      "f": "1475",
+      "n": "Sherman Q. Mack",
+      "p": "REP",
+      "usd": 383904,
+      "cycle": 231480
+     },
+     {
+      "f": "2108",
+      "n": "Valarie Hodges",
+      "p": "REP",
+      "usd": 71737,
+      "cycle": 71737
+     },
+     {
+      "f": "6169",
+      "n": "Shane Raymond Mack",
+      "p": "REP",
+      "usd": 69300,
+      "cycle": 69300
+     },
+     {
+      "f": "7544",
+      "n": "Cy J. D'Aquila Jr",
+      "p": "OTH",
+      "usd": 58318,
+      "cycle": 58318
+     },
+     {
+      "f": "3359",
+      "n": "Christopher Daigle",
+      "p": "OTH",
+      "usd": 44063,
+      "cycle": 44063
+     },
+     {
+      "f": "8088",
+      "n": "Jasper S. Brock",
+      "p": "OTH",
+      "usd": 43800,
+      "cycle": 43800
+     },
+     {
+      "f": "6544",
+      "n": "Jessica C. Ledet",
+      "p": "REP",
+      "usd": 30600,
+      "cycle": 30600
+     },
+     {
+      "f": "6122",
+      "n": "Kevin Raiford",
+      "p": "REP",
+      "usd": 23387,
+      "cycle": 23387
+     },
+     {
+      "f": "3415",
+      "n": "Robert Carter",
+      "p": "DEM",
+      "usd": 40156,
+      "cycle": 23150
+     },
+     {
+      "f": "3348",
+      "n": "Jeffery Edward Travis",
+      "p": "OTH",
+      "usd": 52109,
+      "cycle": 19067
+     },
+     {
+      "f": "5822",
+      "n": "Christopher Gideon",
+      "p": "REP",
+      "usd": 18725,
+      "cycle": 14725
+     },
+     {
+      "f": "1178",
+      "n": "Bry Layrisson",
+      "p": "REP",
+      "usd": 16803,
+      "cycle": 13820
+     },
+     {
+      "f": "2140",
+      "n": "Jason Ard",
+      "p": "REP",
+      "usd": 66591,
+      "cycle": 9700
+     },
+     {
+      "f": "1314",
+      "n": "Blair Edwards",
+      "p": "REP",
+      "usd": 7500,
+      "cycle": 7500
+     },
+     {
+      "f": "6474",
+      "n": "Taylor Anthony",
+      "p": "OTH",
+      "usd": 7200,
+      "cycle": 7200
+     }
+    ],
+    "spellings": [
+     "THE GAGLIANO GROUP",
+     "GAGLIANO GROUP",
+     "THE GAGLIANO GROUP INC",
+     "GAGLIANO GROUP INC.",
+     "THE GAGLIANO GROUP, INC."
+    ]
+   }
+  },
+  {
    "key": "POLITICALCOMMUNICATIONSADVERTISING",
    "name": "Political Communications Advertising",
    "found_by": "filings",
@@ -6996,178 +7168,6 @@
      "EASON ADVERTISING",
      "EASON ADVERTISING, LLC",
      "EASON ADVERTISING LLC"
-    ]
-   }
-  },
-  {
-   "key": "GAGLIANO",
-   "name": "Gagliano Group, The",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 6,
-    "priced": 5,
-    "usd": 53305,
-    "stations": [
-     "WVUE",
-     "WWL-TV"
-    ],
-    "clients": [
-     "Sherman Mack / R / District Attorney / LA",
-     "Mack for District Attorney"
-    ],
-    "first": "2026-09-21",
-    "last": "2026-11-03",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 2278045,
-    "media": 76446,
-    "rows": 552,
-    "media_cycle": 3855,
-    "cycle": 707010,
-    "years": {
-     "2000": 692,
-     "2001": 2178,
-     "2002": 3399,
-     "2003": 47207,
-     "2007": 2983,
-     "2009": 5668,
-     "2010": 32308,
-     "2011": 224006,
-     "2012": 24041,
-     "2013": 21522,
-     "2014": 235017,
-     "2015": 133654,
-     "2016": 20315,
-     "2017": 25198,
-     "2018": 91742,
-     "2019": 406981,
-     "2020": 159009,
-     "2021": 33261,
-     "2022": 101855,
-     "2023": 286497,
-     "2024": 52570,
-     "2025": 32800,
-     "2026": 335143
-    },
-    "committees": 60,
-    "top": [
-     {
-      "f": "1475",
-      "n": "Sherman Q. Mack",
-      "p": "REP",
-      "usd": 383904,
-      "cycle": 231480
-     },
-     {
-      "f": "2108",
-      "n": "Valarie Hodges",
-      "p": "REP",
-      "usd": 71737,
-      "cycle": 71737
-     },
-     {
-      "f": "6169",
-      "n": "Shane Raymond Mack",
-      "p": "REP",
-      "usd": 69300,
-      "cycle": 69300
-     },
-     {
-      "f": "7544",
-      "n": "Cy J. D'Aquila Jr",
-      "p": "OTH",
-      "usd": 58318,
-      "cycle": 58318
-     },
-     {
-      "f": "3359",
-      "n": "Christopher Daigle",
-      "p": "OTH",
-      "usd": 44063,
-      "cycle": 44063
-     },
-     {
-      "f": "8088",
-      "n": "Jasper S. Brock",
-      "p": "OTH",
-      "usd": 43800,
-      "cycle": 43800
-     },
-     {
-      "f": "6544",
-      "n": "Jessica C. Ledet",
-      "p": "REP",
-      "usd": 30600,
-      "cycle": 30600
-     },
-     {
-      "f": "6122",
-      "n": "Kevin Raiford",
-      "p": "REP",
-      "usd": 23387,
-      "cycle": 23387
-     },
-     {
-      "f": "3415",
-      "n": "Robert Carter",
-      "p": "DEM",
-      "usd": 40156,
-      "cycle": 23150
-     },
-     {
-      "f": "3348",
-      "n": "Jeffery Edward Travis",
-      "p": "OTH",
-      "usd": 52109,
-      "cycle": 19067
-     },
-     {
-      "f": "5822",
-      "n": "Christopher Gideon",
-      "p": "REP",
-      "usd": 18725,
-      "cycle": 14725
-     },
-     {
-      "f": "1178",
-      "n": "Bry Layrisson",
-      "p": "REP",
-      "usd": 16803,
-      "cycle": 13820
-     },
-     {
-      "f": "2140",
-      "n": "Jason Ard",
-      "p": "REP",
-      "usd": 66591,
-      "cycle": 9700
-     },
-     {
-      "f": "1314",
-      "n": "Blair Edwards",
-      "p": "REP",
-      "usd": 7500,
-      "cycle": 7500
-     },
-     {
-      "f": "6474",
-      "n": "Taylor Anthony",
-      "p": "OTH",
-      "usd": 7200,
-      "cycle": 7200
-     }
-    ],
-    "spellings": [
-     "THE GAGLIANO GROUP",
-     "GAGLIANO GROUP",
-     "THE GAGLIANO GROUP INC",
-     "GAGLIANO GROUP INC.",
-     "THE GAGLIANO GROUP, INC."
     ]
    }
   },
@@ -9176,11 +9176,11 @@
     }
    },
    "paid": {
-    "total": 849402,
+    "total": 854402,
     "media": 9411,
-    "rows": 170,
+    "rows": 171,
     "media_cycle": 9411,
-    "cycle": 340033,
+    "cycle": 345033,
     "years": {
      "2017": 10415,
      "2019": 6038,
@@ -9190,7 +9190,7 @@
      "2023": 101208,
      "2024": 34327,
      "2025": 115636,
-     "2026": 88863
+     "2026": 93863
     },
     "committees": 46,
     "top": [
@@ -9251,6 +9251,13 @@
       "cycle": 16500
      },
      {
+      "f": "6596",
+      "n": "JUSTICE PAC",
+      "p": "OTH",
+      "usd": 12125,
+      "cycle": 12125
+     },
+     {
       "f": "6848",
       "n": "Kenya Rounds",
       "p": "DEM",
@@ -9270,13 +9277,6 @@
       "p": "DEM",
       "usd": 10900,
       "cycle": 8900
-     },
-     {
-      "f": "6596",
-      "n": "JUSTICE PAC",
-      "p": "OTH",
-      "usd": 7125,
-      "cycle": 7125
      },
      {
       "f": "6062",
@@ -9734,11 +9734,11 @@
    "name": "Lr3 Consulting",
    "found_by": "filings",
    "paid": {
-    "total": 2844233,
+    "total": 2849233,
     "media": 121085,
-    "rows": 585,
+    "rows": 586,
     "media_cycle": 17250,
-    "cycle": 1036440,
+    "cycle": 1041440,
     "years": {
      "2012": 3125,
      "2013": 16840,
@@ -9754,7 +9754,7 @@
      "2023": 480733,
      "2024": 119352,
      "2025": 137500,
-     "2026": 298855
+     "2026": 303855
     },
     "committees": 80,
     "top": [
@@ -20748,12 +20748,13 @@
    "name": "RiseUp Media & Marketing Solutions",
    "found_by": "political file",
    "fcc": {
-    "docs": 2,
+    "docs": 3,
     "priced": 0,
     "usd": 0,
     "stations": [
      "KQXL",
-     "WEMX"
+     "WEMX",
+     "WXOK"
     ],
     "clients": [
      "Let It Resound"
@@ -21289,6 +21290,27 @@
     ],
     "first": "2026-10-08",
     "last": "2026-10-08",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   }
+  },
+  {
+   "key": "LOSHUA",
+   "name": "loshua",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 1,
+    "priced": 0,
+    "usd": 0,
+    "stations": [
+     "KMLB"
+    ],
+    "clients": [],
+    "first": "2026-11-24",
+    "last": "2026-11-24",
     "away": {
      "docs": 0,
      "usd": 0,
@@ -26730,7 +26752,7 @@
     "n": "Gagliano Group, The",
     "usd": 383904,
     "cycle": 231480,
-    "media": 0,
+    "media": 17980,
     "fcc": true,
     "y": {
      "2011": 73199,
@@ -26748,7 +26770,7 @@
     "n": "Taylor Media Services",
     "usd": 276565,
     "cycle": 269065,
-    "media": 98774,
+    "media": 96304,
     "fcc": true,
     "y": {
      "2015": 7500,
@@ -43414,12 +43436,12 @@
    {
     "k": "POLITICALFIRM",
     "n": "The Political Firm",
-    "usd": 7600,
-    "cycle": 7600,
+    "usd": 18535,
+    "cycle": 18535,
     "media": 0,
     "fcc": false,
     "y": {
-     "2026": 7600
+     "2026": 18535
     }
    }
   ],
@@ -60863,12 +60885,12 @@
    {
     "k": "CAPTURECONNECTMEDIA",
     "n": "Capture Connect Media",
-    "usd": 7125,
-    "cycle": 7125,
+    "usd": 12125,
+    "cycle": 12125,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 7125
+     "2026": 12125
     }
    }
   ],
@@ -62855,12 +62877,12 @@
    {
     "k": "LR3CONSULT",
     "n": "Lr3 Consulting",
-    "usd": 5000,
-    "cycle": 5000,
+    "usd": 10000,
+    "cycle": 10000,
     "media": 0,
     "fcc": false,
     "y": {
-     "2026": 5000
+     "2026": 10000
     }
    }
   ],
@@ -63781,6 +63803,19 @@
     "fcc": false,
     "y": {
      "2016": 20000
+    }
+   }
+  ],
+  "8223": [
+   {
+    "k": "VELOCITYAGENCY",
+    "n": "Velocity Agency",
+    "usd": 21481,
+    "cycle": 21481,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 21481
     }
    }
   ],
@@ -73086,6 +73121,10 @@
   "822": [
    "Jeffrey S. Cox",
    "REP"
+  ],
+  "8223": [
+   "Keep St Tammany Safe and Strong PAC",
+   "OTH"
   ],
   "827": [
    "William B. Daniel, IV",
