@@ -1,7 +1,7 @@
 {
  "source": "FCC public inspection files, political file folders (publicfiles.fcc.gov)",
  "media": "tv",
- "scraped": "2026-11-25T05:33:16Z",
+ "scraped": "2026-11-25T20:31:32Z",
  "years": [
   2026,
   2027
@@ -5861,7 +5861,7 @@
    "facility_id": "74192",
    "root_folder": "2d54d5d0-f0a1-9738-65fa-1d8add382feb",
    "profile": "tv-profile/wwl-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2017": "a156aa72-b4a9-a156-5d96-eaae7c3ac16a",
     "2018": "92274efd-bc03-d6dc-134f-31f66de87d53",
@@ -11244,7 +11244,7 @@
    "facility_id": "72119",
    "root_folder": "11546965-13c9-bebc-d0e4-fa921b5bf416",
    "profile": "tv-profile/wgno",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2017": "c47471f4-4dbf-0fe3-6540-26365c5325b0",
     "2018": "f3304528-0ba9-97a2-fc0f-6c287976e90b",
@@ -13791,7 +13791,7 @@
    "facility_id": "13938",
    "root_folder": "fc8f8266-9929-cdf7-1999-ae430f14a725",
    "profile": "tv-profile/wupl",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2015": "f1603605-cb81-4311-203a-f87b390db1d3",
     "2017": "7621df02-232b-c1e4-5026-ae45e370e409",
@@ -15301,7 +15301,7 @@
    "facility_id": "54280",
    "root_folder": "c0882dd8-4018-5d1d-de87-45728b37efcc",
    "profile": "tv-profile/wnol-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2017": "3bcc5f7e-979a-dbb4-05a4-69cddf905cd2",
     "2018": "8f764d8d-cab5-287e-2e6c-930b6ecc5543",
@@ -16013,7 +16013,7 @@
    "facility_id": "18819",
    "root_folder": "3b3f087e-2252-72e8-0100-209bd3534851",
    "profile": "tv-profile/wlae-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2012": "b4286e7f-60bc-dffa-af95-338032627d18",
     "2013": "25979cc0-a290-908d-fab5-727c1f089e53",
@@ -16043,7 +16043,7 @@
    "facility_id": "589",
    "root_folder": "cdc91283-1e5a-b75e-2ad2-aa19cb822ebd",
    "profile": "tv-profile/wafb",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2017": "427856e2-4249-1395-ac75-515b47dd99bf",
     "2018": "9622ae40-f309-8ffd-c21f-8f7d8d1ea584",
@@ -16131,6 +16131,15 @@
     "Political Files/2026/Terms and Disclosures": "ec5e912a-f7f8-7af0-2b8b-342ddc1a0c73"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Blake Miquez/Orders",
+     "name": "Miguez Order 4637743",
+     "ext": "pdf",
+     "uploaded": "2026-11-25T15:07:31-05:00",
+     "folder_id": "57e52077-5f06-0946-d493-939da879c874",
+     "file_id": "d25ba7f1-efe6-be1c-3455-ef713e8c1dfb",
+     "file_manager_id": "cc0e8dca-e401-4b55-8f6a-3bea00e16369"
+    },
     {
      "path": "Political Files/2026/Federal/US House/Blake Miquez/PB19",
      "name": "NAB-PB-19_Blake Miguez - Kennedy",
@@ -59303,7 +59312,7 @@
    "facility_id": "48975",
    "root_folder": "c96465a1-4b00-57c1-eaa2-444c27864256",
    "profile": "tv-profile/knoe-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2015": "9d19dfab-85d2-7a49-54f2-7e96bb03f41f",
     "2017": "5207134f-9eab-77dc-9e70-4c30db7bb52b",
@@ -63466,7 +63475,7 @@
    "facility_id": "35692",
    "root_folder": "6ccb985d-b32e-a6d1-6b62-04c24d877f2e",
    "profile": "tv-profile/ktve",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2018": "e3f9498d-ec81-99bb-5714-1348a5213d1e",
     "2019": "1c3d4528-0289-c08a-20ce-74b048259b13",
@@ -63505,6 +63514,24 @@
     "Political Files/2026/State/Misti Cordell": "384f2dea-4d7b-9382-997a-0055c8301cfb"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Gabe Firment",
+     "name": "Firment KTVE 11.25.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-25T12:08:37-05:00",
+     "folder_id": "b951ceeb-7aea-e9e8-1d2c-cdf6155d8652",
+     "file_id": "843201c7-3272-6b2f-97d1-6b6b27e55ae6",
+     "file_manager_id": "09af2bc3-137a-45e5-a7be-4a6f11a8a852"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Smith",
+     "name": "Mike Smith KTVE 11.23.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-25T12:07:41-05:00",
+     "folder_id": "6dc86d7b-8c6f-5f1f-7985-da13d6fa32e1",
+     "file_id": "ea4b1a88-2ccb-455a-8ba3-71ef19e26ad8",
+     "file_manager_id": "f156ef64-3299-4107-970f-40dd14fdeae1"
+    },
     {
      "path": "Political Files/2026/State/Gabe Firment",
      "name": "Gabe Firment KTVE 11.19.26",
@@ -64261,7 +64288,7 @@
    "facility_id": "3658",
    "root_folder": "6aeadbe8-7885-28c3-3de9-7fe3217df95c",
    "profile": "tv-profile/kard",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2018": "624ee5c0-d284-8503-08e3-4adddd65668d",
     "2019": "e686e71c-c813-05ac-d41e-7e0222ad3c69",
@@ -64299,6 +64326,24 @@
     "Political Files/2026/State/Misti Cordell": "a198decc-3cb3-2224-571a-49ab527cada6"
    },
    "files": [
+    {
+     "path": "Political Files/2026/State/Gabe Firment",
+     "name": "Firment KARD 11.25.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-25T12:14:57-05:00",
+     "folder_id": "8326f467-8a6c-a31c-000e-daeb143a4217",
+     "file_id": "33dd0fed-a6c1-4dfd-fc33-83d95d65ada6",
+     "file_manager_id": "97b80b57-125c-470e-a6cf-9d1509087a69"
+    },
+    {
+     "path": "Political Files/2026/Local/Mike Smith",
+     "name": "Mike Smith KARD 11.23.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-25T12:14:12-05:00",
+     "folder_id": "334d88dc-74ba-e554-f637-6d38b6319ff4",
+     "file_id": "1256822b-592b-579c-59b8-a59b4970049e",
+     "file_manager_id": "0b0225e8-a398-4486-b59b-d6f0a17f0e55"
+    },
     {
      "path": "Political Files/2026/State/Gabe Firment",
      "name": "Gabe Firment KARD 11.19.26",
@@ -65073,7 +65118,7 @@
    "facility_id": "13994",
    "root_folder": "3a7cbc6a-9d9c-fd49-2381-081f274c4aa9",
    "profile": "tv-profile/kplc",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2017": "76c1d6da-c5a7-92b5-ecbe-b16a7d44a376",
     "2018": "cee6cef1-dcea-0704-0aa1-a9239d22df40",
@@ -66428,7 +66473,7 @@
    "facility_id": "35852",
    "root_folder": "b912fb7c-0956-9efc-0d7f-75df566a3877",
    "profile": "tv-profile/kvhp",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2012": "b608a943-41f6-692e-e617-dd1b1bf27975",
     "2013": "ef516e5e-b9e2-4341-26e2-1d4e6c271d00",
@@ -67957,7 +68002,7 @@
    "facility_id": "51598",
    "root_folder": "4c72836f-58bb-6e20-9264-886b97ad6941",
    "profile": "tv-profile/kalb-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2017": "0afb61f3-b48f-5fb4-32c5-8912057349c7",
     "2018": "6eb72ab6-a9d5-542a-0522-ab4b38dbe3d8",
@@ -69619,7 +69664,7 @@
    "facility_id": "52907",
    "root_folder": "05f00a78-2e38-ca9b-9fdb-20f7062a9793",
    "profile": "tv-profile/klax-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2018": "5185c466-8e76-1ef8-2bc3-2e500088489f",
     "2019": "1cc958b0-3405-760b-74b4-761d1bbb8c01",
@@ -69647,6 +69692,33 @@
     "Political Files/2026/Non-Candidate Issue Ads/Louisiana Growth and Future Fund": "3202966f-f78b-bf4f-9a62-536ce4af7a93"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Firment for Congress",
+     "name": "Firment for Congress - Contract est 10441",
+     "ext": "pdf",
+     "uploaded": "2026-11-24T16:21:05-05:00",
+     "folder_id": "6fa1a4ba-79d7-40b6-81d7-e0cfa3abea3a",
+     "file_id": "315ef8ee-2e3d-b9fc-170a-a39e3ca395e3",
+     "file_manager_id": "0068134b-1be3-4e6e-8d28-12e167697db7"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Firment for Congress",
+     "name": "Firment for Congress - IO est 10441",
+     "ext": "pdf",
+     "uploaded": "2026-11-24T16:21:05-05:00",
+     "folder_id": "6fa1a4ba-79d7-40b6-81d7-e0cfa3abea3a",
+     "file_id": "271fafb7-08e9-94bc-c25c-2f48e6e59092",
+     "file_manager_id": "90911117-20df-4a2f-820e-df8e804f9784"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Firment for Congress",
+     "name": "Firment for Congress - NAB est 10441",
+     "ext": "pdf",
+     "uploaded": "2026-11-24T16:21:05-05:00",
+     "folder_id": "6fa1a4ba-79d7-40b6-81d7-e0cfa3abea3a",
+     "file_id": "c66e9946-06f2-7e47-4071-d6b56e6522e2",
+     "file_manager_id": "3400b0d1-b7b7-405d-b044-4aa69b28fa84"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "Roy for Mayor est 4740 - Contract",
@@ -70151,7 +70223,7 @@
    "facility_id": "16539",
    "root_folder": "7ea29a0e-4a15-e0d6-30d2-9ff42870feda",
    "profile": "tv-profile/wntz-tv",
-   "scraped_at": "2026-11-24T21:11:24Z",
+   "scraped_at": "2026-11-25T20:29:21Z",
    "year_folders": {
     "2015": "499fa776-206c-b2ee-13a1-c5f507d7430c",
     "2017": "ab224572-9c77-adba-46ef-43d52bc7ab10",
@@ -70180,6 +70252,24 @@
     "Political Files/2026/Terms and Disclosures": "7499491b-3cd0-d7cc-19c9-21f00d259a13"
    },
    "files": [
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment for Congress Runoff NAB 5471838",
+     "ext": "pdf",
+     "uploaded": "2026-11-24T23:00:36-05:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "d092131a-b563-011d-ea33-97cdd6ae2fad",
+     "file_manager_id": "bd18707a-8a0e-4bc1-932b-7905d1d5fc35"
+    },
+    {
+     "path": "Political Files/2026/Federal/US House/Michael Gabriel Firment Congress",
+     "name": "Firment Congress 11.29.26-12.05.26",
+     "ext": "pdf",
+     "uploaded": "2026-11-24T23:00:23-05:00",
+     "folder_id": "85805da9-a913-ba00-a592-8a006e5772c7",
+     "file_id": "468fa3a1-5da5-a1c9-4d5e-060df23cdf8a",
+     "file_manager_id": "2e9724ba-6eac-4fda-9dd8-25ffe27f04ae"
+    },
     {
      "path": "Political Files/2026/Local",
      "name": "Jacques Roy Mayor est 4740 10.30.26",
@@ -70562,32 +70652,32 @@
  "blocked": null,
  "attempted": {
   "KADN": "2026-11-25T05:30:48Z",
-  "KALB": "2026-11-24T21:11:24Z",
-  "KARD": "2026-11-24T21:11:24Z",
+  "KALB": "2026-11-25T20:29:21Z",
+  "KARD": "2026-11-25T20:29:21Z",
   "KATC": "2026-11-25T05:30:48Z",
-  "KLAX": "2026-11-24T21:11:24Z",
+  "KLAX": "2026-11-25T20:29:21Z",
   "KLFY": "2026-11-25T05:30:48Z",
   "KMSS": "2026-11-25T05:30:48Z",
-  "KNOE": "2026-11-24T21:11:24Z",
-  "KPLC": "2026-11-24T21:11:24Z",
+  "KNOE": "2026-11-25T20:29:21Z",
+  "KPLC": "2026-11-25T20:29:21Z",
   "KPXJ": "2026-11-25T05:30:48Z",
   "KSLA": "2026-11-25T05:30:48Z",
   "KTAL": "2026-11-25T05:30:48Z",
   "KTBS": "2026-11-25T05:30:48Z",
-  "KTVE": "2026-11-24T21:11:24Z",
-  "KVHP": "2026-11-24T21:11:24Z",
-  "WAFB": "2026-11-24T21:11:24Z",
+  "KTVE": "2026-11-25T20:29:21Z",
+  "KVHP": "2026-11-25T20:29:21Z",
+  "WAFB": "2026-11-25T20:29:21Z",
   "WBRL-CD": "2026-11-25T05:30:48Z",
   "WBRZ": "2026-11-25T05:30:48Z",
   "WDSU": "2026-11-25T05:30:48Z",
   "WGMB": "2026-11-25T05:30:48Z",
-  "WGNO": "2026-11-24T21:11:24Z",
-  "WLAE": "2026-11-24T21:11:24Z",
-  "WNOL": "2026-11-24T21:11:24Z",
-  "WNTZ": "2026-11-24T21:11:24Z",
-  "WUPL": "2026-11-24T21:11:24Z",
+  "WGNO": "2026-11-25T20:29:21Z",
+  "WLAE": "2026-11-25T20:29:21Z",
+  "WNOL": "2026-11-25T20:29:21Z",
+  "WNTZ": "2026-11-25T20:29:21Z",
+  "WUPL": "2026-11-25T20:29:21Z",
   "WVLA": "2026-11-25T05:30:48Z",
   "WVUE": "2026-11-25T05:30:48Z",
-  "WWL-TV": "2026-11-24T21:11:24Z"
+  "WWL-TV": "2026-11-25T20:29:21Z"
  }
 }

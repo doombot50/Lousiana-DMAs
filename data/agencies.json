@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-25",
- "data_through": "2026-11-20",
+ "data_through": "2026-11-22",
  "cycle_from": 2023,
- "documents_read": 7655,
+ "documents_read": 7663,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -5221,11 +5221,11 @@
     }
    },
    "paid": {
-    "total": 1932767,
+    "total": 1957846,
     "media": 101412,
-    "rows": 548,
+    "rows": 552,
     "media_cycle": 80025,
-    "cycle": 1114160,
+    "cycle": 1139239,
     "years": {
      "2011": 120349,
      "2012": 91056,
@@ -5242,7 +5242,7 @@
      "2023": 596930,
      "2024": 147938,
      "2025": 115341,
-     "2026": 253950
+     "2026": 279030
     },
     "committees": 71,
     "top": [
@@ -5303,6 +5303,13 @@
       "cycle": 39547
      },
      {
+      "f": "5318",
+      "n": "Jennifer \"Jen\" Racca",
+      "p": "REP",
+      "usd": 39038,
+      "cycle": 39038
+     },
+     {
       "f": "4138",
       "n": "Carson Marcantel",
       "p": "REP",
@@ -5343,13 +5350,6 @@
       "p": "OTH",
       "usd": 34079,
       "cycle": 31472
-     },
-     {
-      "f": "6157",
-      "n": "Veronica \"Vicky\" Jones",
-      "p": "OTH",
-      "usd": 30831,
-      "cycle": 30831
      }
     ],
     "spellings": [
@@ -7051,6 +7051,94 @@
    }
   },
   {
+   "key": "FLEXPOINTMEDIA",
+   "name": "FlexPoint Media",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 51,
+    "priced": 22,
+    "usd": 57430,
+    "stations": [
+     "003478",
+     "KALB",
+     "KARD",
+     "KLAX",
+     "KLFY",
+     "KMSS",
+     "KNOE",
+     "KPLC",
+     "KPXJ",
+     "KSLA",
+     "KTAL",
+     "KTBS",
+     "KTVE",
+     "KXKS",
+     "WNOL",
+     "WNTZ"
+    ],
+    "clients": [
+     "Firment for Congress",
+     "Michael Gabriel Firment/Congress/LA/Rep",
+     "Americans for Open Government",
+     "Strong ND Fund",
+     "AFC Victory Fund",
+     "Fimentfor Congress"
+    ],
+    "first": "2026-02-24",
+    "last": "2026-11-25",
+    "away": {
+     "docs": 55,
+     "usd": 3322946,
+     "clients": [
+      "Texas PAC",
+      "Californians For Voter",
+      "FRAPS gos ae Site Mandel by dave taller",
+      "SOriginal Date 7 Revision",
+      "Firaiteds Sy fNameSure handel by doyeetille",
+      "FlowPont Meds Lae Sure hounded byd Joyeetillerr"
+     ]
+    }
+   },
+   "paid": {
+    "total": 7756209,
+    "media": 3388477,
+    "rows": 39,
+    "media_cycle": 0,
+    "cycle": 0,
+    "years": {
+     "2019": 7756209
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "4383",
+      "n": "Edward L. Rispone",
+      "p": "REP",
+      "usd": 7640459,
+      "cycle": 0
+     },
+     {
+      "f": "4927",
+      "n": "Republican State Leadership Committee - Louisiana",
+      "p": "OTH",
+      "usd": 97012,
+      "cycle": 0
+     },
+     {
+      "f": "993",
+      "n": "Republican Party of Louisiana",
+      "p": "REP",
+      "usd": 18739,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "FLEXPOINT MEDIA INC",
+     "FLEXPOINT MEDIA INC."
+    ]
+   }
+  },
+  {
    "key": "EASONADVERTISING",
    "name": "Eason Advertising",
    "found_by": "political file",
@@ -7671,94 +7759,6 @@
    }
   },
   {
-   "key": "FLEXPOINTMEDIA",
-   "name": "FlexPoint Media",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 46,
-    "priced": 18,
-    "usd": 41675,
-    "stations": [
-     "003478",
-     "KALB",
-     "KARD",
-     "KLAX",
-     "KLFY",
-     "KMSS",
-     "KNOE",
-     "KPLC",
-     "KPXJ",
-     "KSLA",
-     "KTAL",
-     "KTBS",
-     "KTVE",
-     "KXKS",
-     "WNOL",
-     "WNTZ"
-    ],
-    "clients": [
-     "Firment for Congress",
-     "Michael Gabriel Firment/Congress/LA/Rep",
-     "Americans for Open Government",
-     "Strong ND Fund",
-     "AFC Victory Fund",
-     "Fimentfor Congress"
-    ],
-    "first": "2026-02-24",
-    "last": "2026-11-20",
-    "away": {
-     "docs": 55,
-     "usd": 3322946,
-     "clients": [
-      "Texas PAC",
-      "Californians For Voter",
-      "FRAPS gos ae Site Mandel by dave taller",
-      "SOriginal Date 7 Revision",
-      "Firaiteds Sy fNameSure handel by doyeetille",
-      "FlowPont Meds Lae Sure hounded byd Joyeetillerr"
-     ]
-    }
-   },
-   "paid": {
-    "total": 7756209,
-    "media": 3388477,
-    "rows": 39,
-    "media_cycle": 0,
-    "cycle": 0,
-    "years": {
-     "2019": 7756209
-    },
-    "committees": 3,
-    "top": [
-     {
-      "f": "4383",
-      "n": "Edward L. Rispone",
-      "p": "REP",
-      "usd": 7640459,
-      "cycle": 0
-     },
-     {
-      "f": "4927",
-      "n": "Republican State Leadership Committee - Louisiana",
-      "p": "OTH",
-      "usd": 97012,
-      "cycle": 0
-     },
-     {
-      "f": "993",
-      "n": "Republican Party of Louisiana",
-      "p": "REP",
-      "usd": 18739,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "FLEXPOINT MEDIA INC",
-     "FLEXPOINT MEDIA INC."
-    ]
-   }
-  },
-  {
    "key": "MARKETINGBLITZAD",
    "name": "Marketing Blitz Ad Group",
    "found_by": "political file",
@@ -8103,6 +8103,101 @@
    }
   },
   {
+   "key": "QUESTCOMMUNICATIONCONSULT",
+   "name": "Quest Communication Consultants",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 31,
+    "priced": 31,
+    "usd": 34939,
+    "stations": [
+     "KARD",
+     "KNOE",
+     "KSLA",
+     "KTAL",
+     "KTVE"
+    ],
+    "clients": [
+     "Mike Smith/City Court Judge/LA/Rep",
+     "Adam Cossey for District Judge",
+     "Adam Cossey/District Judge/LA/NonPart",
+     "Robert Cherry/City Marshal/LA/Independent",
+     "Jim Colvin for DA",
+     "edia.com",
+     "Jim Clovin/District Attorney/LA/Independent"
+    ],
+    "first": "2026-07-29",
+    "last": "2026-11-25",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 172824,
+    "media": 57310,
+    "rows": 60,
+    "media_cycle": 0,
+    "cycle": 43524,
+    "years": {
+     "2011": 88302,
+     "2012": 5816,
+     "2013": 2817,
+     "2014": 650,
+     "2015": 14017,
+     "2016": 3003,
+     "2017": 1373,
+     "2019": 12822,
+     "2022": 500,
+     "2023": 16044,
+     "2024": 1437,
+     "2026": 26044
+    },
+    "committees": 5,
+    "top": [
+     {
+      "f": "6910",
+      "n": "James H. Colvin Jr. (JIM)",
+      "p": "OTH",
+      "usd": 26044,
+      "cycle": 26044
+     },
+     {
+      "f": "6199",
+      "n": "Toni Bacon",
+      "p": "REP",
+      "usd": 14147,
+      "cycle": 14147
+     },
+     {
+      "f": "2157",
+      "n": "Jay Russell",
+      "p": "REP",
+      "usd": 118134,
+      "cycle": 3334
+     },
+     {
+      "f": "3696",
+      "n": "Linda Taylor Cook",
+      "p": "IND",
+      "usd": 11000,
+      "cycle": 0
+     },
+     {
+      "f": "4465",
+      "n": "Michael D. Allen",
+      "p": "IND",
+      "usd": 3500,
+      "cycle": 0
+     }
+    ],
+    "spellings": [
+     "QUEST COMMUNICATION CONSULTANTS"
+    ]
+   }
+  },
+  {
    "key": "KDMDIGITALSOLUTIONS",
    "name": "KDM Digital Solutions",
    "found_by": "political file",
@@ -8257,101 +8352,6 @@
      "KDM DIGITAL SOLUTIONS LLC",
      "KDM DIGITAL",
      "KDM DIGITAL SOLUTIONS, LLC"
-    ]
-   }
-  },
-  {
-   "key": "QUESTCOMMUNICATIONCONSULT",
-   "name": "Quest Communication Consultants",
-   "found_by": "political file",
-   "fcc": {
-    "docs": 29,
-    "priced": 29,
-    "usd": 32763,
-    "stations": [
-     "KARD",
-     "KNOE",
-     "KSLA",
-     "KTAL",
-     "KTVE"
-    ],
-    "clients": [
-     "Mike Smith/City Court Judge/LA/Rep",
-     "Adam Cossey for District Judge",
-     "Adam Cossey/District Judge/LA/NonPart",
-     "Robert Cherry/City Marshal/LA/Independent",
-     "Jim Colvin for DA",
-     "edia.com",
-     "Jim Clovin/District Attorney/LA/Independent"
-    ],
-    "first": "2026-07-29",
-    "last": "2026-11-20",
-    "away": {
-     "docs": 0,
-     "usd": 0,
-     "clients": []
-    }
-   },
-   "paid": {
-    "total": 172824,
-    "media": 57310,
-    "rows": 60,
-    "media_cycle": 0,
-    "cycle": 43524,
-    "years": {
-     "2011": 88302,
-     "2012": 5816,
-     "2013": 2817,
-     "2014": 650,
-     "2015": 14017,
-     "2016": 3003,
-     "2017": 1373,
-     "2019": 12822,
-     "2022": 500,
-     "2023": 16044,
-     "2024": 1437,
-     "2026": 26044
-    },
-    "committees": 5,
-    "top": [
-     {
-      "f": "6910",
-      "n": "James H. Colvin Jr. (JIM)",
-      "p": "OTH",
-      "usd": 26044,
-      "cycle": 26044
-     },
-     {
-      "f": "6199",
-      "n": "Toni Bacon",
-      "p": "REP",
-      "usd": 14147,
-      "cycle": 14147
-     },
-     {
-      "f": "2157",
-      "n": "Jay Russell",
-      "p": "REP",
-      "usd": 118134,
-      "cycle": 3334
-     },
-     {
-      "f": "3696",
-      "n": "Linda Taylor Cook",
-      "p": "IND",
-      "usd": 11000,
-      "cycle": 0
-     },
-     {
-      "f": "4465",
-      "n": "Michael D. Allen",
-      "p": "IND",
-      "usd": 3500,
-      "cycle": 0
-     }
-    ],
-    "spellings": [
-     "QUEST COMMUNICATION CONSULTANTS"
     ]
    }
   },
@@ -12351,18 +12351,25 @@
     }
    },
    "paid": {
-    "total": 30097,
+    "total": 39607,
     "media": 0,
-    "rows": 15,
+    "rows": 17,
     "media_cycle": 0,
-    "cycle": 30097,
+    "cycle": 39607,
     "years": {
      "2023": 4920,
      "2025": 485,
-     "2026": 24692
+     "2026": 34202
     },
-    "committees": 6,
+    "committees": 7,
     "top": [
+     {
+      "f": "5224",
+      "n": "Michael J. Hall",
+      "p": "DEM",
+      "usd": 9510,
+      "cycle": 9510
+     },
      {
       "f": "2727",
       "n": "Richard Perque",
@@ -53834,6 +53841,17 @@
     }
    },
    {
+    "k": "WOODFORKANDASSOCIATES",
+    "n": "Woodfork & Associates",
+    "usd": 9510,
+    "cycle": 9510,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2026": 9510
+    }
+   },
+   {
     "k": "BROWNPUBLICRELATIONSPOL",
     "n": "Brown Public Relations LLC / POL",
     "usd": 3036,
@@ -54316,12 +54334,12 @@
    {
     "k": "CAPITALBUSINESSSERVICES",
     "n": "Capital Business Services",
-    "usd": 13958,
-    "cycle": 13958,
+    "usd": 39038,
+    "cycle": 39038,
     "media": 0,
     "fcc": true,
     "y": {
-     "2026": 13958
+     "2026": 39038
     }
    },
    {
