@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-26",
  "source": "Louisiana Ethics Administration expenditure filings via .la_cache",
- "rows_scanned": 1508921,
+ "rows_scanned": 1509048,
  "data_through": "2026-11-22",
  "years_covered": [
   2000,
@@ -10,7 +10,7 @@
  "years_missing": [
   2008
  ],
- "total_spend": 13237474.63,
+ "total_spend": 13237968.63,
  "gov_year_share": 0.5444,
  "by_year": {
   "2000": 27912.25,
@@ -38,7 +38,7 @@
   "2023": 924539.54,
   "2024": 148725.88,
   "2025": 218989.49,
-  "2026": 166144.81
+  "2026": 166638.81
  },
  "stations": [
   {
@@ -1335,10 +1335,10 @@
    "bands": [
     "FM"
    ],
-   "spend": 154859.46,
-   "rows": 178,
+   "spend": 155353.46,
+   "rows": 179,
    "committees": 55,
-   "avg_buy": 870.0,
+   "avg_buy": 867.9,
    "by_year": {
     "2000": 2370.0,
     "2002": 1848.2,
@@ -1361,7 +1361,7 @@
     "2021": 397.0,
     "2022": 1734.2,
     "2023": 9435.6,
-    "2026": 7307.0
+    "2026": 7801.0
    },
    "top_committees": [
     {
@@ -4266,7 +4266,7 @@
    ]
   }
  ],
- "classified_spend": 11191805.98,
+ "classified_spend": 11192299.98,
  "unclassified_tail": {
   "amount": 2045668.65,
   "stations": 254,
@@ -4275,11 +4275,11 @@
  "categories": [
   {
    "category": "Black-audience",
-   "spend": 3830849.53,
+   "spend": 3831343.53,
    "stations": 19,
-   "rows": 2241,
+   "rows": 2242,
    "committees": 393,
-   "avg_buy": 1709.44,
+   "avg_buy": 1708.9,
    "share": 0.2894
   },
   {
@@ -4289,7 +4289,7 @@
    "rows": 1358,
    "committees": 304,
    "avg_buy": 2641.22,
-   "share": 0.271
+   "share": 0.2709
   },
   {
    "category": "Country",
@@ -4373,7 +4373,7 @@
   },
   {
    "owner": "Local",
-   "spend": 2251407.76,
+   "spend": 2251901.76,
    "stations": 23,
    "share": 0.1701
   },
@@ -7335,22 +7335,22 @@
     2024,
     2026
    ],
-   "total": 643964.28,
+   "total": 644458.28,
    "categories": [
     {
      "category": "News/Talk",
      "spend": 244088.34,
-     "share": 0.379
+     "share": 0.3787
     },
     {
      "category": "Black-audience",
-     "spend": 182526.65,
-     "share": 0.2834
+     "spend": 183020.65,
+     "share": 0.284
     },
     {
      "category": "Unclassified (long tail)",
      "spend": 110104.1,
-     "share": 0.171
+     "share": 0.1708
     },
     {
      "category": "Country",

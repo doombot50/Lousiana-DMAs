@@ -2,7 +2,7 @@
  "generated": "2026-11-26",
  "data_through": "2026-11-22",
  "cycle_from": 2023,
- "documents_read": 7678,
+ "documents_read": 7679,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -7055,7 +7055,7 @@
    "name": "FlexPoint Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 51,
+    "docs": 52,
     "priced": 22,
     "usd": 57430,
     "stations": [
@@ -7597,11 +7597,11 @@
    "name": "Rougarou Consulting",
    "found_by": "filings",
    "paid": {
-    "total": 2367472,
+    "total": 2372478,
     "media": 388327,
-    "rows": 396,
+    "rows": 398,
     "media_cycle": 48926,
-    "cycle": 740065,
+    "cycle": 745072,
     "years": {
      "2015": 4750,
      "2016": 2500,
@@ -7614,7 +7614,7 @@
      "2023": 600582,
      "2024": 14953,
      "2025": 25280,
-     "2026": 99250
+     "2026": 104257
     },
     "committees": 63,
     "top": [
@@ -53748,6 +53748,17 @@
     }
    },
    {
+    "k": "ROUGAROUCONSULT",
+    "n": "Rougarou Consulting",
+    "usd": 6450,
+    "cycle": 6450,
+    "media": 0,
+    "fcc": false,
+    "y": {
+     "2026": 6450
+    }
+   },
+   {
     "k": "SOUPKITCHENMEDIA",
     "n": "Soup Kitchen Media",
     "usd": 4500,
@@ -53756,17 +53767,6 @@
     "fcc": true,
     "y": {
      "2023": 4500
-    }
-   },
-   {
-    "k": "ROUGAROUCONSULT",
-    "n": "Rougarou Consulting",
-    "usd": 1443,
-    "cycle": 1443,
-    "media": 0,
-    "fcc": false,
-    "y": {
-     "2026": 1443
     }
    }
   ],
