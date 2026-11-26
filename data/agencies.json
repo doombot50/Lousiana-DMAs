@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "data_through": "2026-11-22",
  "cycle_from": 2023,
- "documents_read": 7663,
+ "documents_read": 7678,
  "caveats": [
   "An agency named in a political-file document placed that buy; what committees paid it in the state filings can include production and consulting as well as airtime. `media` is the part whose description says TV, television, broadcast, air time or a media buy.",
   "Federal campaigns report to the FEC, not the state, so an agency that buys only for federal candidates shows political-file orders and no state payments.",
@@ -1969,7 +1969,7 @@
    "name": "Electric Symphony Media",
    "found_by": "political file",
    "fcc": {
-    "docs": 106,
+    "docs": 107,
     "priced": 48,
     "usd": 459568,
     "stations": [
@@ -1999,7 +1999,7 @@
      "Blake Miguez for U.S. Congress"
     ],
     "first": "2026-01-23",
-    "last": "2026-11-20",
+    "last": "2026-11-25",
     "away": {
      "docs": 126,
      "usd": 615078,
@@ -10082,6 +10082,71 @@
      "ANGIE SANDERS AD GROUP",
      "ANGIE SANDERS",
      "ANGIE SANDERS AD GROUP LLC"
+    ]
+   }
+  },
+  {
+   "key": "ROMPHANDPOUAGENCY",
+   "name": "Romph & Pou Agency",
+   "found_by": "political file",
+   "fcc": {
+    "docs": 2,
+    "priced": 1,
+    "usd": 13500,
+    "stations": [
+     "KTBS"
+    ],
+    "clients": [
+     "Marianna Walker",
+     "SHV BOS Tax Renewal"
+    ],
+    "first": "2026-11-25",
+    "last": "2026-11-25",
+    "away": {
+     "docs": 0,
+     "usd": 0,
+     "clients": []
+    }
+   },
+   "paid": {
+    "total": 52358,
+    "media": 0,
+    "rows": 10,
+    "media_cycle": 0,
+    "cycle": 27683,
+    "years": {
+     "2018": 9834,
+     "2020": 14841,
+     "2023": 17262,
+     "2024": 10421
+    },
+    "committees": 3,
+    "top": [
+     {
+      "f": "6285",
+      "n": "Tim Pruitt",
+      "p": "REP",
+      "usd": 17262,
+      "cycle": 17262
+     },
+     {
+      "f": "179",
+      "n": "Foster L. Campbell, Jr.",
+      "p": "DEM",
+      "usd": 30925,
+      "cycle": 6250
+     },
+     {
+      "f": "4286",
+      "n": "John Nickelson",
+      "p": "REP",
+      "usd": 4171,
+      "cycle": 4171
+     }
+    ],
+    "spellings": [
+     "ROMPH & POU AGENCY, INC.",
+     "ROMPH & POU AGENCY"
     ]
    }
   },
@@ -30876,6 +30941,19 @@
     }
    },
    {
+    "k": "ROMPHANDPOUAGENCY",
+    "n": "Romph & Pou Agency",
+    "usd": 30925,
+    "cycle": 6250,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2018": 9834,
+     "2020": 14841,
+     "2024": 6250
+    }
+   },
+   {
     "k": "OURSOBEYCHOK",
     "n": "Ourso Beychok",
     "usd": 22026,
@@ -48523,6 +48601,17 @@
      "2023": 17046,
      "2024": 15847
     }
+   },
+   {
+    "k": "ROMPHANDPOUAGENCY",
+    "n": "Romph & Pou Agency",
+    "usd": 4171,
+    "cycle": 4171,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2024": 4171
+    }
    }
   ],
   "4288": [
@@ -59251,6 +59340,19 @@
     "fcc": false,
     "y": {
      "2023": 17250
+    }
+   }
+  ],
+  "6285": [
+   {
+    "k": "ROMPHANDPOUAGENCY",
+    "n": "Romph & Pou Agency",
+    "usd": 17262,
+    "cycle": 17262,
+    "media": 0,
+    "fcc": true,
+    "y": {
+     "2023": 17262
     }
    }
   ],
@@ -72382,6 +72484,10 @@
   "6284": [
    "James Davis Jr",
    "OTH"
+  ],
+  "6285": [
+   "Tim Pruitt",
+   "REP"
   ],
   "6295": [
    "Louisiana Kids Matter Action Fund",
